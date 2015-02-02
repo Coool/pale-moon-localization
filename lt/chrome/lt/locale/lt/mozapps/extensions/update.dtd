@@ -1,0 +1,61 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  updateWizard.title              "„&brandShortName;“ naujinimas">
+
+<!ENTITY  offline.title                   "Programa „&brandShortName;“ atjungta nuo tinklo">
+<!ENTITY  offline.description             "Reikia programą „&brandShortName;“ prijungti prie tinklo,
+                                           norint pamatyti, ar yra priedų naujinimų, suderinančių juos su turima
+                                           jos laida.">
+<!ENTITY  offline.toggleOffline.label     "Atjungti nuo tinklo dabar.">
+<!ENTITY  offline.toggleOffline.accesskey "A">
+
+<!ENTITY  mismatch.win.title              "Nesuderinami priedai">
+<!ENTITY  mismatch.top.label              "Šie priedai nebuvo įtraukti į naują „&brandShortName;“ versiją, kurią ką tik įdiegėte, nes jie nesuderinami su ja:">
+<!ENTITY  mismatch.bottom.label           "Galima patikrinti, ar yra suderinamų priedų šių priedų laidų.">
+
+<!ENTITY  checking.wizard.title           "Suderinamų priedų paieška">
+<!ENTITY  checking.top.label              "Ieškoma naujinimų nesuderinamiems priedams…">
+<!ENTITY  checking.status                 "Prašom palaukti…">
+
+<!ENTITY  found.wizard.title              "Rasta suderinamų priedų">
+<!ENTITY  found.top.label                 "Pažymėkite priedus, kuriuos norite įdiegti:">
+<!ENTITY  found.disabledXPinstall.label   "Naujinimų negalima įdiegti dėl to, kad išjungta naujinimo funkcija.
+                                           Šią nuostatą galima pakeisti žemiau.">
+<!ENTITY  found.enableXPInstall.label     "Įjungti naujinimo funkciją">
+<!ENTITY  found.enableXPInstall.accesskey "n">
+
+<!ENTITY  installing.wizard.title         "Naujinimų įdiegimas">
+<!ENTITY  installing.top.label            "Atsiunčiami ir įdiegiami priedų naujinimai…">
+
+<!ENTITY  noupdates.wizard.title          "Naujinimų nerasta">
+<!ENTITY  noupdates.intro.desc            "Nepavyko rasti naujinimų nebetinkamiems
+				 papildiniams.">
+<!ENTITY  noupdates.error.desc            "Ieškant naujinimų įvyko klaida.">
+<!ENTITY  noupdates.checkEnabled.desc     "„&brandShortName;“ periodiškai ieškos papildinių
+				 naujinimų ir jų radusi informuos.">
+
+<!ENTITY  finished.wizard.title           "Naujinimas baigtas">
+<!ENTITY  finished.top.label              "Buvo įdiegti papildinių naujinimai.">
+<!ENTITY  finished.checkDisabled.desc     "Programa „&brandShortName;“ gali periodiškai tikrinti, ar yra papildinių naujinimų ir jų radusi informuoti.">
+<!ENTITY  finished.checkEnabled.desc      "Programa „&brandShortName;“ periodiškai tikrins, ar yra papildinių naujinimų ir jų radusi informuos.">
+
+<!ENTITY  adminDisabled.wizard.title      "Atnaujinimų ieškoti neleidžiama">
+<!ENTITY  adminDisabled.warning.label     "Nėra galimybės patikrinti, ar yra naujinimų nebetinkamiems priedams,
+                                           nes programos „&brandShortName;“ priedų diegimo funkcija išjungta.
+                                           Prašom kreiptis į sistemos administratorių, kad įjungtų.">
+
+<!ENTITY  versioninfo.wizard.title        "Priedų suderinamumo tikrinimas">
+<!ENTITY  versioninfo.top.label           "Tikrinamas priedų suderinamumas su įdiegta programos
+                                           „&brandShortName;“ laida.">
+<!ENTITY  versioninfo.waiting             "Prašom palaukti…">
+
+<!ENTITY  installerrors.wizard.title      "Naujinimo nesklandumai">
+<!ENTITY  installerrors.intro.label       "Įdiegiant kai kurių priedų naujinimus įvyko
+				klaidų.">
+
+<!-- general strings used by several of the finish pages -->
+<!ENTITY  clickFinish.label               "Spustelėkite mygtuką „Baigti“, kad būtų tęsiamas „&brandShortName;“ vykdymas.">
+<!ENTITY  clickFinish.labelMac            "Spustelėkite mygtuką „Baigti“, kad būtų tęsiamas „&brandShortName;“ vykdymas.">
+<!ENTITY  enableChecking.label            "Nurodyti programai „&brandShortName;“, kad tikrintų, ar yra naujinimų.">

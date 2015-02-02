@@ -1,0 +1,133 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "Generâle">
+
+<!ENTITY accessibility.label             "Acesibilitæ">
+
+<!ENTITY useCursorNavigation.label       "Adêuvia sénpre i pomélli de direçión pe navegâ in sce pàgine">
+<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY searchStartTyping.label         "Çèrca o tèsto quàndo inìçio a scrîve">
+<!ENTITY searchStartTyping.accesskey     "Ç">
+<!ENTITY blockAutoRefresh.label          "Avèrtime quànde i scîti prêuvan a redireçionâ ò recaregâ a pàgina">
+<!ENTITY blockAutoRefresh.accesskey      "p">
+
+<!ENTITY browsing.label                  "Çèrca">
+<!ENTITY certificateTab.label 			 "Certificâti">
+<!ENTITY useAutoScroll.label             "Adêuvia scoriménto aotomàtico">
+<!ENTITY useAutoScroll.accesskey         "d">
+<!ENTITY useSmoothScrolling.label        "Adêuvia scoriménto regolâ">
+<!ENTITY useSmoothScrolling.accesskey    "m">
+<!ENTITY allowHWAccel.label              "Adêuvia l'aceleraçión hardware se gh'é">
+<!ENTITY allowHWAccel.accesskey          "h">
+<!ENTITY checkSpelling.label             "Contròlla o mæ tèsto intànto che scrîvo">
+<!ENTITY checkSpelling.accesskey         "t">
+
+<!ENTITY systemDefaults.label            "Predefinîo do scistêma
+">
+<!ENTITY alwaysCheckDefault.label        "Inte l'avertûa contròlla de lóngo se o &brandShortName; o l'é o navegatô predefinîo"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "i">
+<!ENTITY isDefault.label "&brandShortName; o l'é o teu navegatô predefinîo">
+<!ENTITY setDefault.label "Métti &brandShortName; cómme navegatô predefinîo">
+<!ENTITY setDefault.accesskey "o">
+
+<!ENTITY networkTab.label                "Ræ de lòu">
+
+<!ENTITY connection.label                "Conesción">
+
+<!ENTITY connectionDesc.label            "Definìsci cómme &brandShortName; o se conétte a Internet">
+<!ENTITY connectionSettings.label        "Inpostaçioìn…">
+<!ENTITY connectionSettings.accesskey    "I">
+
+<!ENTITY httpCache.label                 "Contegnûo Web inta cache">
+
+<!ENTITY offlineStorage2.label           "Contegnûo web e dæti uténte fêua lìnia">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Lìmita a cache a">
+<!ENTITY limitCacheSizeBefore.accesskey  "L">
+<!ENTITY limitCacheSizeAfter.label       "MB de spàçio">
+<!ENTITY clearCacheNow.label             "Scancelâ Òua">
+<!ENTITY clearCacheNow.accesskey         "c">
+<!ENTITY clearOfflineAppCacheNow.label   "Scancelâ Òua">
+<!ENTITY clearOfflineAppCacheNow.accesskey "n">
+<!ENTITY overrideSmartCacheSize.label    "Ignòra a gestión aotomàtica da cache">
+<!ENTITY overrideSmartCacheSize.accesskey "o">
+
+<!ENTITY updateTab.label                 "Agiórna">
+
+<!ENTITY updateApp.label                 "Agiornaménti de &brandShortName;:">
+<!ENTITY updateAuto1.label                "Instàlla i agiornaménti in aotomàtico (racomandòu: ciù seguéssa)">
+<!ENTITY updateAuto1.accesskey 			 "s">
+<!ENTITY updateCheck.label               "Contròlla se gh'é di agiornaménti, ma fànni decìdde a mi se instalâli">
+<!ENTITY updateCheck.accesskey           "C">
+<!ENTITY updateManual.label              "No çercâ mâi i agiornaménti (no racomandòu: réizego de seguéssa)">
+<!ENTITY updateManual.accesskey          "N">
+
+<!ENTITY updateAutoAddonWarn.label       "Avèrtime se quésto dizabìlita quarchedùn di mæ conponénti azónti">
+<!ENTITY updateAutoAddonWarn.accesskey   "r">
+
+<!ENTITY updateHistory.label             "Fànni védde a stöia di agiórnamenti">
+<!ENTITY updateHistory.accesskey         "F">
+
+<!ENTITY useService.label                "Uzâ 'n serviçio ascôzo pe instalâ i agiornaménti">
+<!ENTITY useService.accesskey            "z">
+
+<!ENTITY updateOthers.label              "Agiornaménti aotomàtichi:">
+<!ENTITY enableSearchUpdate.label        "Motô de riçèrca">
+<!ENTITY enableSearchUpdate.accesskey    "M">
+
+<!ENTITY offlineNotify.label             "Dìmme quàndo un scîto o domànda de sarvâ dæti pe êse uzæ fêua lìnia">
+<!ENTITY offlineNotify.accesskey         "t">
+<!ENTITY offlineNotifyExceptions.label   "Eceçioìn…">
+<!ENTITY offlineNotifyExceptions.accesskey "ç">
+
+<!ENTITY offlineAppsList2.label          "Sti scîti chi pêuan sarvâ dæti pe l'ûzo fêua lìnia:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "Lêva da mêzo…">
+<!ENTITY offlineAppsListRemove.accesskey "L">
+<!ENTITY offlineAppRemove.confirm        "Lêva da mêzo i dæti fêua lìnia">
+
+<!ENTITY certSelection.description       "Quàndo un server o domànda i mæ certificâti:">
+<!ENTITY certs.auto                      "Seleçiónn-a un in aotomàtico">
+<!ENTITY certs.auto.accesskey            "o">
+<!ENTITY certs.ask                       "Domàndimelo tùtte e vòtte">
+<!ENTITY certs.ask.accesskey             "D">
+<!ENTITY viewCerts.label                 "Fànni védde certificâti">
+<!ENTITY viewCerts.accesskey             "F">
+<!ENTITY verify2.label                   "Validaçión">
+<!ENTITY verify2.accesskey               "V">
+<!ENTITY viewSecurityDevices.label       "Aparâti">
+<!ENTITY viewSecurityDevices.accesskey   "p">
+
+<!ENTITY crashReporterDesc.label "Mànda a &vendorShortName; segnalaçioìn relatîve a fermæ anòmale de &brandShortName; pe megiorâne a stabilitæ e-a seguéssa">
+<!ENTITY crashReporterLearnMore.label "Âtre informaçioìn">
+<!ENTITY crashReporterSection.label "Segnalaçioìn fermæ anòmale">
+<!ENTITY dataChoicesTab.label "Condivixón dæti">
+<!ENTITY enableCrashReporter.label "Atîva segnalaçión fermæ anòmale">
+<!ENTITY enableCrashReporter.accesskey "s">
+<!ENTITY enableHealthReport.label "Atîva valutaçión d'integritæ de &brandShortName;">
+<!ENTITY enableHealthReport.accesskey "v">
+<!ENTITY enableTelemetry.label "Atîva telemetrîa">
+<!ENTITY enableTelemetry.accesskey "t">
+<!ENTITY healthReportDesc.label "Analìzza e prestaçioìn do navegatô e condivìddi informaçioìn con &vendorShortName; in sciô stæto d'integritæ do software">
+<!ENTITY healthReportLearnMore.label "Âtre informaçioìn">
+<!ENTITY healthReportSection.label "Valutaçión d'integritæ de &brandShortName;">
+<!ENTITY telemetryDesc.label "Condivìddi con &vendorShortName; informaçioìn in sce prestaçioìn, ûzo , hardware e personalizaçioìn do navegatô pe contribuî a-o megioraménto de &brandShortName;">
+<!ENTITY telemetryLearnMore.label "Âtre informaçioìn">
+<!ENTITY telemetrySection.label "Telemetrîa">
+
+<!ENTITY updateAutoMetro.label "Instàlla aotomaticaménte i agiornamPnti pe versción desktop e Windows 8 de &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey "W">
+<!ENTITY updateAutoMetroWarn.label "(a versción pe Windows 8 de &brandShortName; a no contròlla a conpatibilitæ di conponénti azónti)">
+
+
+

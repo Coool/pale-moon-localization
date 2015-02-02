@@ -1,0 +1,34 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;
+<!-- These strings are used in the about:home page -->
+
+
+<!ENTITY abouthome.pageTitle "&brandFullName; শুরুর পৃষ্ঠা">
+
+<!ENTITY abouthome.searchEngineButton.label "অনুসন্ধান">
+<!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
+     text in <a/> will be linked to the Firefox features page on mozilla.com
+-->
+
+<!ENTITY abouthome.defaultSnippet1.v1 "ফায়ারফক্স নির্বাচন করার জন্য ধন্যবাদ! আপনার ব্রাউজারের সর্বাধিক সুবিধা নেয়ার জন্য <a>সর্বশেষ বৈশিষ্ট্য</a> সম্পর্কে জানুন।">
+<!-- LOCALIZATION NOTE (abouthome.defaultSnippet2.v1):
+     text in <a/> will be linked to the featured add-ons on addons.mozilla.org
+-->
+<!ENTITY abouthome.defaultSnippet2.v1 "আপনার ইচ্ছামত আপনি ফায়ারফক্স স্বনির্ধারণ করতে পারেন। <a>হাজারটা অ্যাডঅন থেকে নির্বাচন</a>।">
+
+<!ENTITY abouthome.bookmarksButton.label "বুকমার্ক">
+<!ENTITY abouthome.historyButton.label   "ইতিহাস">
+<!ENTITY abouthome.settingsButton.label  "সেটিং">
+<!ENTITY abouthome.addonsButton.label    "অ্যাড-অন">
+<!ENTITY abouthome.appsButton.label      "মার্কেটপ্লেস">
+<!ENTITY abouthome.downloadsButton.label "ডাউনলোড">
+<!ENTITY abouthome.syncButton.label      "syncBrand.shortName.label;(s)">
+
+<!-- LOCALIZATION NOTE (abouthome.rightsSnippet): text in <a/> will be linked to about:rights -->
+<!ENTITY abouthome.rightsSnippet "&brandFullName; is free and open source software from the non-profit Mozilla Foundation. <a>Know your rights…</a>">

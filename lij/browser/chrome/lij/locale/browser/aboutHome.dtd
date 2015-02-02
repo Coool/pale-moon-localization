@@ -1,0 +1,34 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;
+
+<!-- These strings are used in the about:home page -->
+
+<!ENTITY abouthome.pageTitle "Pàgina iniçiâ de &brandFullName;">
+
+<!ENTITY abouthome.searchEngineButton.label "Riçèrca">
+
+<!ENTITY abouthome.rightsSnippet "&brandFullName; o l'é 'na aplicaçión lìbera e co-o Sorgénte Avèrto fæto da Mozilla Foundation, 'na organizaçión sénsa fìn de goâgno. <a>Descövri i teu dirìtti…</a>">
+
+<!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
+     text in <a/> will be linked to the Firefox features page on mozilla.com
+-->
+<!ENTITY abouthome.defaultSnippet1.v1 "Gràçie de avéi çernûo o Firefox! Pe pigiâ o màscimo dò-u teu navegatô infórmite in scê <a>ùrtime novitæ</a>.">
+<!-- LOCALIZATION NOTE (abouthome.defaultSnippet2.v1):
+     text in <a/> will be linked to the featured add-ons on addons.mozilla.org
+-->
+<!ENTITY abouthome.defaultSnippet2.v1 "L'é façile personalizâ Firefox pròpio cómme t'eu. <a>Çèrni fra migiæa de conponénti azónti</a>.">
+
+<!ENTITY abouthome.bookmarksButton.label "Segnalìbbri">
+<!ENTITY abouthome.historyButton.label   "Stöia">
+<!ENTITY abouthome.settingsButton.label  "Inpostaçioìn">
+<!ENTITY abouthome.addonsButton.label    "Conponénti azónti">
+<!ENTITY abouthome.appsButton.label      "Mercòu">
+<!ENTITY abouthome.downloadsButton.label "Descaregaménti">
+<!ENTITY abouthome.syncButton.label      "&syncBrand.shortName.label;">

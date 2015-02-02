@@ -1,0 +1,33 @@
+<!ENTITY % brandDTD
+	SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+
+<!-- These strings are used in the about:home page -->
+
+<!ENTITY abouthome.pageTitle "&brandFullName; Нїїр хуудас">
+
+<!ENTITY abouthome.searchEngineButton.label "Хайх">
+
+<!ENTITY abouthome.aboutMozilla "Mozilla-ийн талаархи танилцуулга">
+
+<!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
+     text in <a/> will be linked to the Firefox features page on mozilla.com
+-->
+<!ENTITY abouthome.defaultSnippet1.v1 "Firefox-ийг сонгосон явдалд баярлалаа. Илїї гоё интэрнэт аялал хийхийг хїсвэл <a>гол їилдэл</a> ийг їзнэ її.">
+<!-- LOCALIZATION NOTE (abouthome.defaultSnippet2.v1):
+     text in <a/> will be linked to the featured add-ons on addons.mozilla.org
+-->
+<!ENTITY abouthome.defaultSnippet2.v1 "Та бїгд єєрийн  сонирхолдоо нийцїїлэн  Firefox-ийг єєрчилєх боломжтой. <a>Мянга мянган нэмэгдэл їйлдэл</a>ээс сонгож їзнэ її.">
+
+<!ENTITY abouthome.addonsButton.label    "Add-ons">
+<!ENTITY abouthome.appsButton.label      "Marketplace">
+
+<!ENTITY abouthome.bookmarksButton.label "Bookmarks">
+<!ENTITY abouthome.downloadsButton.label "Downloads">
+<!ENTITY abouthome.historyButton.label   "History">
+<!-- LOCALIZATION NOTE (abouthome.rightsSnippet): text in <a/> will be linked to about:rights -->
+<!ENTITY abouthome.rightsSnippet "&brandFullName; is free and open source software from the non-profit Mozilla Foundation. <a>Know your rights…</a>">
+<!ENTITY abouthome.settingsButton.label  "Settings">
+<!ENTITY abouthome.syncButton.label      "&syncBrand.shortName.label;">
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+
+-->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest"
+               em:id="langpack-ko@palemoon.org"
+               em:name="Korean (KR) Language Pack"
+               em:version="25.0.2"
+               em:type="8"
+               em:creator="한글 Mozilla 프로젝트(mozilla.or.kr) / 이강산">
+    <em:contributor>Seokchan Yun</em:contributor>
+    <em:contributor>JoungKyun Kim</em:contributor>
+    <em:contributor>이강산</em:contributor>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+        <em:minVersion>25.0</em:minVersion>
+        <em:maxVersion>25.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

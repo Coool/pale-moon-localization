@@ -1,0 +1,692 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
+
+
+<!ENTITY mainWindow.title "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+<!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
+                                                                inside the private browsing mode -->
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Գաղտնի Դիտարկում)">
+<!-- Tab context menu -->
+
+<!ENTITY  reloadTab.label                    "Թարմացնել էջը">
+<!ENTITY  reloadTab.accesskey                "Թ">
+<!ENTITY  reloadAllTabs.label                "Թարմացնել բոլոր էջերը">
+<!ENTITY  reloadAllTabs.accesskey            "Թ">
+<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
+direction in which tabs are closed, i.e. locales that use RTL mode should say
+left instead of right. -->
+<!ENTITY  closeTabsToTheEnd.label            "Փակել ներդիրները աջից">
+<!ENTITY  closeTabsToTheEnd.accesskey        "ջ">
+<!ENTITY  closeOtherTabs.label               "Փակել մյուս էջերը">
+<!ENTITY  closeOtherTabs.accesskey           "Փ">
+<!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
+used as a metaphor for expressing the fact that these tabs are "pinned" to the
+left edge of the tabstrip. Really we just want the string to express the idea
+that this is a lightweight and reversible action that keeps your tab where you
+can reach it easily. -->
+
+<!ENTITY  pinTab.label                       "Գամել ներդիրը">
+<!ENTITY  pinTab.accesskey                   "Գ">
+<!ENTITY  unpinTab.label                     "Ապագամել ներդիրը">
+<!ENTITY  unpinTab.accesskey                 "դ">
+<!ENTITY  moveToGroup.label                  "Տեղափոխել խումբ">
+<!ENTITY  moveToGroup.accesskey              "Տ">
+<!ENTITY  moveToNewGroup.label               "Նոր խումբ">
+<!ENTITY  moveToNewWindow.label              "Անցնել նոր էջի">
+<!ENTITY  moveToNewWindow.accesskey          "Ա">
+<!ENTITY  bookmarkAllTabs.label              "Էջանշել բոլոր էջերը">
+<!ENTITY  bookmarkAllTabs.accesskey          "Է">
+<!ENTITY  undoCloseTab.label                 "Վերականգնել փակված էջը">
+<!ENTITY  undoCloseTab.accesskey             "Վ">
+<!ENTITY  closeTab.label                     "Փակել էջը">
+<!ENTITY  closeTab.accesskey                 "Փ">
+
+<!ENTITY  listAllTabs.label      "Ցուցադրել բոլոր էջերը">
+
+<!ENTITY tabCmd.label "Նոր Ներդիր">
+<!ENTITY tabCmd.accesskey "Ն">
+<!ENTITY tabCmd.commandkey "t">
+<!ENTITY openLocationCmd.label "Բացել Հասցեն…">
+<!ENTITY openLocationCmd.accesskey "Հ">
+<!ENTITY openFileCmd.label "Բացել Ֆայլ…">
+<!ENTITY openFileCmd.accesskey "Բ">
+<!ENTITY openFileCmd.commandkey "o">
+<!ENTITY printSetupCmd.label "Էջի կարգավորումներ…">
+<!ENTITY printSetupCmd.accesskey "գ">
+<!ENTITY printPreviewCmd.label "Տպելու նախադիտում">
+<!ENTITY printPreviewCmd.accesskey "ա">
+<!ENTITY printCmd.label "Տպել…">
+<!ENTITY printCmd.accesskey "Տ">
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY goOfflineCmd.label "Աշխատել անցանց ">
+<!ENTITY goOfflineCmd.accesskey "տ">
+
+<!ENTITY menubarCmd.label "Ընտրացանկի վահանակ">
+<!ENTITY menubarCmd.accesskey "Ը">
+<!ENTITY navbarCmd.label "Ուղղորդման Վահանակ">
+<!ENTITY navbarCmd.accesskey "Ո">
+<!ENTITY personalbarCmd.label "Էջանիշերի Վահանակ">
+<!ENTITY personalbarCmd.accesskey "Է">
+<!ENTITY bookmarksToolbarItem.label "Էջանիշերի Վահանակի տարրերը">
+<!ENTITY addonBarCmd.label "Հավելումների ցուցափեղկ">
+<!ENTITY addonBarCmd.accesskey "Հ">
+
+<!ENTITY pageSourceCmd.label "Դիտել Էջի Կոդը">
+<!ENTITY pageSourceCmd.accesskey "ո">
+<!ENTITY pageSourceCmd.commandkey "u">
+<!ENTITY pageInfoCmd.label "Էջի Մասին Տվյալներ">
+<!ENTITY pageInfoCmd.accesskey "վ">
+<!ENTITY pageInfoCmd.commandkey "i">
+<!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
+These should match what Safari and other Apple applications use on OS X Lion. -->
+<!ENTITY enterFullScreenCmd.label "Ամբողջ էկրանով">
+<!ENTITY enterFullScreenCmd.accesskey "է">
+<!ENTITY exitFullScreenCmd.label "Դուրս գալ Ամբողջ էկրանով վիճակից">
+<!ENTITY exitFullScreenCmd.accesskey "Ա">
+<!ENTITY fullScreenCmd.label "Բացել Ամբողջ Էկրանով">
+<!ENTITY fullScreenCmd.accesskey "Բ">
+<!ENTITY fullScreenCmd.macCommandKey "f">
+<!ENTITY showAllTabsCmd.label "Ցուցադրել բոլոր ներդիրները">
+<!ENTITY showAllTabsCmd.accesskey "բ">
+
+<!ENTITY fullScreenMinimize.tooltip "Փոքրացնել">
+<!ENTITY fullScreenRestore.tooltip "Վերականգնել">
+<!ENTITY fullScreenClose.tooltip "Փակել">
+<!ENTITY fullScreenAutohide.label "Թաքցնել Վահանակները">
+<!ENTITY fullScreenAutohide.accesskey "Թ">
+<!ENTITY fullScreenExit.label "Փակել Ամբողջ Էկրանով եղանակը">
+<!ENTITY fullScreenExit.accesskey "Ա">
+<!ENTITY fullscreenAllowButton.label "Թույլատրել">
+<!ENTITY fullscreenExitButton.label "Արգելել">
+<!ENTITY fullscreenApproval.value "Թույլատրե՞լ Ամբողջ Էկրանով։">
+
+<!ENTITY fullscreenExitHint.value "Սեղմեք ESC՝ Ամբողջ էկրանով վիճակից դուրս գալու համար">
+<!ENTITY leaveDOMFullScreen.label "Դուրս գալ Ամբողջ էկրանով վիճակից">
+<!ENTITY leaveDOMFullScreen.accesskey "Ա">
+
+<!ENTITY closeWindow.label "Փակել Պատուհանը">
+<!ENTITY closeWindow.accesskey "տ">
+
+<!ENTITY bookmarksMenu.label "Էջանիշեր">
+<!ENTITY bookmarksMenu.accesskey "Է">
+<!ENTITY bookmarkThisPageCmd.label "Էջանշել Այս Էջը">
+<!ENTITY bookmarkThisPageCmd.commandkey "d">
+<!ENTITY markPageCmd.commandkey "l">
+<!ENTITY sharePageCmd.label "Կիսվել այս էջով              ">
+<!ENTITY sharePageCmd.commandkey "S">
+<!ENTITY sharePageCmd.accesskey "Կ">
+<!ENTITY shareLinkCmd.label "Կիսվել այս հղումով">
+<!ENTITY shareLinkCmd.accesskey "Կ">
+<!ENTITY shareImageCmd.label "Կիսվել այս նկարով">
+<!ENTITY shareImageCmd.accesskey "Կ">
+<!ENTITY shareSelectCmd.label "Կիսվել նշվածով">
+<!ENTITY shareSelectCmd.accesskey "Կ">
+<!ENTITY shareVideoCmd.label "Կիսվել այս տեսանյութով">
+<!ENTITY shareVideoCmd.accesskey "Կ">
+<!ENTITY subscribeToPageMenupopup.label "Բաժանորդագրվել Այս Էջին">
+<!ENTITY subscribeToPageMenuitem.label "Բաժանորդագրվել Այս Էջին…">
+<!ENTITY addCurPagesCmd.label "Էջանշել Բոլոր Ներդիրները…">
+<!ENTITY showAllBookmarks2.label "Ցուցադրել բոլոր էջանիշերը">
+<!ENTITY unsortedBookmarksCmd.label "Չկարգավորված Էջանիշեր">
+<!ENTITY bookmarksToolbarChevron.tooltip "Ցուցադրել ավելի շատ էջանիշեր">
+
+<!ENTITY backCmd.label                "Նախորդը">
+<!ENTITY backCmd.accesskey            "Ն">
+<!ENTITY backButton.tooltip           "Գնալ Նախորդ Էջ">
+<!ENTITY forwardCmd.label             "Հաջորդը">
+<!ENTITY forwardCmd.accesskey         "Հ">
+<!ENTITY forwardButton.tooltip        "Գնալ Հաջորդ Էջ">
+<!ENTITY backForwardButtonMenu.tooltip "Աջ սեղմում կամ պտտում ներքև՝ պատմությունը դիտելու համար">
+<!ENTITY backForwardButtonMenuMac.tooltip "Պտտեք ներքև՝ պատմությունը դիտելու համար">
+<!ENTITY reloadCmd.label              "Վերբեռնել">
+<!ENTITY reloadCmd.accesskey          "Վ">
+<!ENTITY reloadButton.tooltip         "Վերաբեռնավորել Տվյալ Էջը">
+<!ENTITY stopCmd.label                "Ընդհատել">
+<!ENTITY stopCmd.accesskey            "Ը">
+<!ENTITY stopCmd.macCommandKey        ".">
+<!ENTITY stopButton.tooltip           "Ընդհատել Էջի բեռնավորումը">
+<!ENTITY goEndCap.tooltip             "Գնալ Հասցեի Տողում նշված հասցեով">
+<!ENTITY printButton.label            "Տպել">
+<!ENTITY printButton.tooltip          "Տպել տվյալ էջը">
+
+<!ENTITY backForwardItem.title        "Հետ/Առաջ">
+<!ENTITY locationItem.title           "Հասցե">
+<!ENTITY searchItem.title             "Որոնում">
+<!ENTITY throbberItem.title           "Գործողության ինդիկատոր">
+<!ENTITY bookmarksItem.title          "Էջանիշեր">
+<!-- Toolbar items --> 
+
+<!ENTITY appMenuButton.label          "Ընտրացանկը">
+<!ENTITY appMenuButton.tooltip        "Բացել &brandShortName; ընտրացանկը">
+<!ENTITY homeButton.label             "Տուն">
+
+<!ENTITY tabGroupsButton.label        "Էջանիշի խմբեր">
+<!ENTITY tabGroupsButton.tooltip      "Խմբավորեք Ձեր էջերը">
+
+<!ENTITY feedButton.label             "Բաժանորդագրվել">
+<!ENTITY feedButton.tooltip           "Բաժանորդագրվել այս էջին...">
+
+<!ENTITY bookmarksButton.label          "Էջանիշներ">
+<!ENTITY bookmarksButton.tooltip        "Ցուցադրել ձեր էջանիշները">
+<!ENTITY bookmarksCmd.commandkey "b">
+
+<!ENTITY bookmarksMenuButton.label          "Էջանիշեր">
+<!ENTITY bookmarksMenuButton.tooltip        "Ցուցադրել ձեր էջանիշները">
+<!ENTITY bookmarksMenuButton.unsorted.label "Չկարգավորված Էջանիշեր">
+<!ENTITY viewBookmarksSidebar.label         "Ցուցադրել Կողային վահանակում">
+<!ENTITY viewBookmarksToolbar.label         "Դիտել էջանիշերի վահանակը">
+<!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
+  -  key should not contain the letters A-F, since these are reserved
+  -  shortcut keys on Linux. -->
+
+<!ENTITY bookmarksGtkCmd.commandkey "o">
+<!ENTITY bookmarksWinCmd.commandkey "i">
+
+<!ENTITY historyButton.label            "Պատմություն">
+<!ENTITY historyButton.tooltip          "Ցուցադրել ձեր այցելած վերջին էջերը">
+<!ENTITY historySidebarCmd.commandKey   "h">
+
+<!ENTITY toolsMenu.label              "Գործիքներ">
+<!ENTITY toolsMenu.accesskey          "Գ"> 
+
+<!ENTITY keywordfield.label           "Ավելացնել Բանալի այս Որոնմանը…">
+<!ENTITY keywordfield.accesskey       "Բ">
+<!ENTITY search.label                 "Որոնում Ցանցում">
+<!ENTITY search.accesskey             "Ց">
+<!ENTITY downloads.label              "Բեռնումներ">
+<!ENTITY downloads.tooltip            "Ցուցադրել բեռնումների ընթացքը">
+<!ENTITY downloads.accesskey          "Բ">
+<!ENTITY downloads.commandkey         "j">
+<!ENTITY downloadsUnix.commandkey     "y">
+<!ENTITY addons.label                 "Հավելումներ">
+<!ENTITY addons.accesskey             "Հ">
+<!ENTITY addons.commandkey            "A">
+
+<!ENTITY webDeveloperMenu.label       "Վեբ ծրագրավորող">
+<!ENTITY webDeveloperMenu.accesskey   "Վ">
+
+<!ENTITY devtoolsConnect.label        "Միանալ…">
+<!ENTITY devtoolsConnect.accesskey    "ն">
+
+<!ENTITY errorConsoleCmd.label        "Սխալների Կառավարակետ">
+<!ENTITY errorConsoleCmd.accesskey    "Կ">
+
+<!ENTITY remoteWebConsoleCmd.label    "Հեռադիր Վեբ Կառավարակետ">
+
+<!ENTITY browserConsoleCmd.label      "Դիտարկիչի Կառավարակետ">
+<!ENTITY browserConsoleCmd.commandkey "j">
+<!ENTITY browserConsoleCmd.accesskey  "Դ">
+
+<!ENTITY inspectContextMenu.label     "Զննել տարրը">
+<!ENTITY inspectContextMenu.accesskey "Զ">
+
+<!ENTITY responsiveDesignTool.label   "Պատասխանատու ձևավորման տեսքը">
+<!ENTITY responsiveDesignTool.accesskey "Պ">
+<!ENTITY responsiveDesignTool.commandkey "M">
+<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
+  -  in the Tools menu. See bug 653093.
+  -  The Scratchpad is intended to provide a simple text editor for creating
+  -  and evaluating bits of JavaScript code for the purposes of function
+  -  prototyping, experimentation and convenient scripting.
+  -
+  -  It's quite possible that you won't have a good analogue for the word
+  -  "Scratchpad" in your locale. You should feel free to find a close
+  -  approximation to it or choose a word (or words) that means
+  -  "simple discardable text editor". -->
+
+<!ENTITY scratchpad.label             "Խմբագրիչ">
+<!ENTITY scratchpad.accesskey         "Խ">
+<!ENTITY scratchpad.keycode           "VK_F4">
+<!ENTITY scratchpad.keytext           "F4">
+<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
+  -  application menu item that opens the browser debugger UI in the Tools menu. -->
+
+<!ENTITY chromeDebuggerMenu.label       "Դիտարկիչի Debugger-ը">
+
+<!ENTITY devToolbarCloseButton.tooltiptext "Փակել ծրագրավորողի Գործիքաշերտը">
+<!ENTITY devToolbarMenu.label              "Ծրագրավորողի Գործիքաշերտ">
+<!ENTITY devToolbarMenu.accesskey          "գ">
+<!ENTITY devToolbar.keycode                "VK_F2">
+<!ENTITY devToolbar.keytext                "F2">
+<!ENTITY devToolboxMenuItem.label          "Ցուցադրել/Թաքցնել գործիքները">
+<!ENTITY devToolboxMenuItem.accesskey      "Ց">
+
+<!ENTITY devToolbarToolsButton.tooltip     "Ցուցադրել/Թաքցնել ծրագրավորողի գործիքները">
+<!ENTITY devToolbarOtherToolsButton.label  "Լր. գործիքներ">
+
+<!ENTITY getMoreDevtoolsCmd.label        "Լրացուցիչ Գործիքներ">
+<!ENTITY getMoreDevtoolsCmd.accesskey    "Լ">
+
+<!ENTITY fileMenu.label         "Ֆայլ"> 
+<!ENTITY fileMenu.accesskey       "Ֆ">
+<!ENTITY newNavigatorCmd.label        "Նոր Պատուհան">
+<!ENTITY newNavigatorCmd.key        "N">
+<!ENTITY newNavigatorCmd.accesskey      "Ն">
+<!ENTITY newPrivateWindow.label     "Գաղտնի Դիտարկման նոր պատուհան">
+<!ENTITY newPrivateWindow.accesskey "պ">
+
+<!ENTITY editMenu.label         "Խմբագրել"> 
+<!ENTITY editMenu.accesskey       "Խ"> 
+<!ENTITY undoCmd.label            "Ետարկել">  
+<!ENTITY undoCmd.key            "Z">  
+<!ENTITY undoCmd.accesskey          "Ե"> 
+<!ENTITY redoCmd.label            "Կրկնել">  
+<!ENTITY redoCmd.key            "Y">  
+<!ENTITY redoCmd.accesskey          "Կ"> 
+<!ENTITY cutCmd.label           "Կտրել">  
+<!ENTITY cutCmd.key             "X">  
+<!ENTITY cutCmd.accesskey         "ր"> 
+<!ENTITY copyCmd.label            "Պատճենել">  
+<!ENTITY copyCmd.key            "C">  
+<!ENTITY copyCmd.accesskey          "Պ"> 
+<!ENTITY pasteCmd.label           "Տեղադրել">  
+<!ENTITY pasteCmd.key           "V">  
+<!ENTITY pasteCmd.accesskey         "Տ"> 
+<!ENTITY deleteCmd.label          "Ջնջել">  
+<!ENTITY deleteCmd.key            "D">  
+<!ENTITY deleteCmd.accesskey        "Ջ"> 
+<!ENTITY selectAllCmd.label         "Նշել բոլորը">  
+<!ENTITY selectAllCmd.key         "A">  
+<!ENTITY selectAllCmd.accesskey       "բ"> 
+<!ENTITY preferencesCmd2.label       "Կարգավորումները">
+<!ENTITY preferencesCmd2.accesskey     "Կ">
+<!ENTITY preferencesCmdUnix.label       "Նախըտրանքներ">
+<!ENTITY preferencesCmdUnix.accesskey     "ր"> 
+
+<!ENTITY clearRecentHistory.label               "Ջնջել Վերջին Պատմությունը...">
+
+<!ENTITY privateBrowsingCmd.commandkey          "P">
+
+<!ENTITY viewMenu.label         "Տեսքը"> 
+<!ENTITY viewMenu.accesskey       "Տ"> 
+<!ENTITY viewTabGroups.label            "Էջանիշի խմբեր">
+<!ENTITY viewTabGroups.accesskey        "Է">
+<!ENTITY viewToolbarsMenu.label       "Վահանակներ"> 
+<!ENTITY viewToolbarsMenu.accesskey     "Վ"> 
+<!ENTITY viewSidebarMenu.label "Կողային վահանակ">
+<!ENTITY viewSidebarMenu.accesskey "վ">
+<!ENTITY viewCustomizeToolbar.label       "Հարմարեցնել…"> 
+<!ENTITY viewCustomizeToolbar.accesskey     "Հ">
+<!ENTITY viewTabsOnTop.label            "Ներդիրները վերևում">
+<!ENTITY viewTabsOnTop.accesskey        "Ն">
+
+<!ENTITY historyMenu.label "Պատմություն">
+<!ENTITY historyMenu.accesskey "տ">
+<!ENTITY historyUndoMenu.label "Վերջին փակված ներդիրները">
+<!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
+<!ENTITY historyUndoWindowMenu.label "Վերջին փակված պատուհանները">
+<!ENTITY historyRestoreLastSession.label "Վերականգնել նախորդ սեսիան">
+
+<!ENTITY historyHomeCmd.label "Տուն">
+<!ENTITY showAllHistoryCmd2.label "Ցուցադրել ամբողջ պատմությունը">
+<!ENTITY showAllHistoryCmd.commandkey "H">
+
+<!ENTITY appMenuEdit.label "Խմբագրել">
+<!ENTITY appMenuCustomize.label "Կազմաձևել">
+<!ENTITY appMenuToolbarLayout.label "Գործիքադարակի դասավորություն…">
+<!ENTITY appMenuSidebars.label "Կողային վահանակներ">
+<!ENTITY appMenuFind.label "Գտնել…">
+<!ENTITY appMenuUnsorted.label "Չկարգավորված Էջանիշեր">
+<!ENTITY appMenuWebDeveloper.label "Վեբ ծրագրավորող">
+<!ENTITY appMenuGettingStarted.label "Աշխատանքի Սկիզբը">
+<!ENTITY appMenuSafeMode.label "Վերագործարկել հավելումներն անջատված…">
+<!ENTITY appMenuSafeMode.accesskey "Վ">
+
+<!ENTITY openCmd.commandkey           "l">
+<!ENTITY urlbar.placeholder2          "Փնտրեք կամ գրեք հասցեն">
+<!ENTITY urlbar.accesskey             "d">
+<!ENTITY urlbar.switchToTab.label     "Անցնել ներդիրի՝">
+<!-- 
+  Comment duplicated from browser-sets.inc:
+
+  Search Command Key Logic works like this:
+
+  Unix: Ctrl+J (0.8, 0.9 support)
+        Ctrl+K (cross platform binding)
+  Mac:  Cmd+K (cross platform binding)
+        Cmd+Opt+F (platform convention)
+  Win:  Ctrl+K (cross platform binding)
+        Ctrl+E (IE compat)
+
+  We support Ctrl+K on all platforms now and advertise it in the menu since it is
+  our standard - it is a "safe" choice since it is near no harmful keys like "W" as
+  "E" is. People mourning the loss of Ctrl+K for emacs compat can switch their GTK
+  system setting to use emacs emulation, and we should respect it. Focus-Search-Box
+  is a fundamental keybinding and we are maintaining a XP binding so that it is easy
+  for people to switch to Linux.
+
+ -->
+
+<!ENTITY searchFocus.commandkey       "k">
+<!ENTITY searchFocus.commandkey2      "e">
+<!ENTITY searchFocusUnix.commandkey   "j">
+
+<!ENTITY tabView.commandkey           "e">
+
+<!ENTITY openLinkCmdInTab.label       "Հղումը Բացել Նոր Ներդիրում">
+<!ENTITY openLinkCmdInTab.accesskey   "Բ">
+<!ENTITY openLinkCmd.label            "Հղումը Բացել Նոր Պատուհանում">
+<!ENTITY openLinkCmd.accesskey        "Բ">
+<!ENTITY openLinkInPrivateWindowCmd.label "Բացել հղումը Գաղտնի Դիտարկման նոր պատուհանում">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey "պ">
+<!ENTITY openLinkCmdInCurrent.label     "Բացել Հղումը">
+<!ENTITY openLinkCmdInCurrent.accesskey "Բ">
+<!ENTITY openFrameCmdInTab.label      "Շրջանակը բացել նոր ներդիրում">
+<!ENTITY openFrameCmdInTab.accesskey  "Շ">
+<!ENTITY openFrameCmd.label           "Շրջանակը բացել նոր պատուհանում">
+<!ENTITY openFrameCmd.accesskey       "Շ">
+<!ENTITY showOnlyThisFrameCmd.label     "Ցուցադրել միայն այս շրջանակը">
+<!ENTITY showOnlyThisFrameCmd.accesskey "Ց">
+<!ENTITY reloadCmd.commandkey         "r">
+<!ENTITY reloadFrameCmd.label         "Վերբեռնել շրջանակը">
+<!ENTITY reloadFrameCmd.accesskey     "Վ">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Դիտել Նշված Մասի Կոդը">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "Դիտել MathML Կոդը">
+<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
+         viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
+<!ENTITY viewPartialSourceCmd.accesskey "ի">
+<!ENTITY viewPageSourceCmd.label      "Դիտել Էջի Կոդը">
+<!ENTITY viewPageSourceCmd.accesskey  "Դ">
+<!ENTITY viewFrameSourceCmd.label     "Դիտել շրջանակը">
+<!ENTITY viewFrameSourceCmd.accesskey "Դ">
+<!ENTITY viewPageInfoCmd.label        "Էջի Մասին Տվյալներ">
+<!ENTITY viewPageInfoCmd.accesskey    "Տ">
+<!ENTITY viewFrameInfoCmd.label       "Տեղեկություն շրջանակի մասին">
+<!ENTITY viewFrameInfoCmd.accesskey   "Տ">
+<!ENTITY reloadImageCmd.label         "Վերբեռնել Նկարը">
+<!ENTITY reloadImageCmd.accesskey     "Վ">
+<!ENTITY viewImageCmd.label           "Նայել Նկարը">
+<!ENTITY viewImageCmd.accesskey       "Ն">
+<!ENTITY viewImageInfoCmd.label       "Տեղեկություն Նկարի Մասին">
+<!ENTITY viewImageInfoCmd.accesskey   "Տ">
+<!ENTITY viewVideoCmd.label           "Դիտել Հոլովակը">
+<!ENTITY viewVideoCmd.accesskey       "Դ">
+<!ENTITY viewBGImageCmd.label         "Նայել Խորապատկերի Նկարը">
+<!ENTITY viewBGImageCmd.accesskey     "յ">
+<!ENTITY setDesktopBackgroundCmd.label      "Տեղադրել Աշխատասեղանին…">
+<!ENTITY setDesktopBackgroundCmd.accesskey  "Տ">
+<!ENTITY bookmarkPageCmd2.label       "Էջանշել Այս Էջը">
+<!ENTITY bookmarkPageCmd2.accesskey   "ն">
+<!ENTITY bookmarkThisLinkCmd.label      "էջանշել Այս Հղումը">
+<!ENTITY bookmarkThisLinkCmd.accesskey  "Հ">
+<!ENTITY bookmarkThisFrameCmd.label      "Էջանշել Այս շրջանակը">
+<!ENTITY bookmarkThisFrameCmd.accesskey  "շ">
+<!ENTITY emailPageCmd.label           "Հղումը ուղարկել էլ. փոստով...">
+<!ENTITY emailPageCmd.accesskey       "Հ">
+<!ENTITY savePageCmd.label            "Պահպանել Էջը Որպես…">
+<!ENTITY savePageCmd.accesskey        "Ո">
+<!-- alternate for content area context menu -->
+<!ENTITY savePageCmd.accesskey2       "պ">
+<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY saveFrameCmd.label           "Պահել շրջանակը որպես…">
+<!ENTITY saveFrameCmd.accesskey       "Պ">
+<!ENTITY printFrameCmd.label          "Տպել շրջանակը…">
+<!ENTITY printFrameCmd.accesskey      "Տ">
+<!ENTITY saveLinkCmd.label            "Պահպանել Հղումը Որպես…">
+<!ENTITY saveLinkCmd.accesskey        "ո">
+<!ENTITY saveImageCmd.label           "Պահպանել Նկարը Որպես…">
+<!ENTITY saveImageCmd.accesskey       "պ">
+<!ENTITY saveVideoCmd.label           "Պահել Տեսագրությունը Որպես...">
+<!ENTITY saveVideoCmd.accesskey       "Պ">
+<!ENTITY saveAudioCmd.label           "Պահել Ձայնագրությունը Որպես...">
+<!ENTITY saveAudioCmd.accesskey       "Պ">
+<!ENTITY emailImageCmd.label          "Նկարը ուղարկել էլ. փոստով...">
+<!ENTITY emailImageCmd.accesskey      "ա">
+<!ENTITY emailVideoCmd.label          "Տեսանյութը ուղարկել էլ. փոստով...">
+<!ENTITY emailVideoCmd.accesskey      "ս">
+<!ENTITY emailAudioCmd.label          "Երգը ուղարկել էլ. փոստով...">
+<!ENTITY emailAudioCmd.accesskey      "Ե">
+<!ENTITY playPluginCmd.label          "Ակտիվացնել բաղադրիչը">
+<!ENTITY playPluginCmd.accesskey      "կ">
+<!ENTITY hidePluginCmd.label          "Թաքցնել այս բաղադրիչը">
+<!ENTITY hidePluginCmd.accesskey      "Թ">
+<!ENTITY copyLinkCmd.label            "Պատճենել հղման հասցեն">
+<!ENTITY copyLinkCmd.accesskey        "ց">
+<!ENTITY copyImageCmd.label           "Պատճենել Նկարի Հասցեն">
+<!ENTITY copyImageCmd.accesskey       "ա">
+<!ENTITY copyImageContentsCmd.label   "Կրկնօրինակել Նկարը">
+<!ENTITY copyImageContentsCmd.accesskey  "ր"> 
+<!ENTITY copyVideoURLCmd.label        "Պատճենել Հոլովակի Հասցեն">
+<!ENTITY copyVideoURLCmd.accesskey    "ա">
+<!ENTITY copyAudioURLCmd.label        "Պատճենել Ձայնագրության Հասցեն">
+<!ENTITY copyAudioURLCmd.accesskey    "ա">
+<!ENTITY copyEmailCmd.label           "Պատճենել Էլ. փոստի հասցեն">
+<!ENTITY copyEmailCmd.accesskey       "Է">
+<!ENTITY thisFrameMenu.label              "Այս շրջանակում">
+<!ENTITY thisFrameMenu.accesskey          "Ա">
+<!-- Media (video/audio) controls -->
+<!-- LOCALIZATION NOTE: The access keys for "Play" and
+"Pause" are the same because the two context-menu
+items are mutually exclusive. -->
+
+<!ENTITY mediaPlay.label             "Խաղարկել">
+<!ENTITY mediaPlay.accesskey         "Խ">
+<!ENTITY mediaPause.label            "Ընդմիջել">
+<!ENTITY mediaPause.accesskey        "Ը">
+<!-- LOCALIZATION NOTE: The access keys for "Mute" and
+"Unmute" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY mediaMute.label             "Անձայն">
+<!ENTITY mediaMute.accesskey         "Ա">
+<!ENTITY mediaUnmute.label           "Ձայնով">
+<!ENTITY mediaUnmute.accesskey       "ա">
+<!ENTITY mediaPlaybackRate.label     "Խաղարկել արագությունը">
+<!ENTITY mediaPlaybackRate.accesskey "ա">
+<!ENTITY mediaPlaybackRate050x.label "Դանդաղ շարժ (0.5×)">
+<!ENTITY mediaPlaybackRate050x.accesskey "Դ">
+<!ENTITY mediaPlaybackRate100x.label "Նորմալ արագություն">
+<!ENTITY mediaPlaybackRate100x.accesskey "Ն">
+<!ENTITY mediaPlaybackRate150x.label "Բարձր արագություն (1.5×)">
+<!ENTITY mediaPlaybackRate150x.accesskey "Բ">
+<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+movie "Space Balls" and is meant to say that this speed is very
+fast. -->
+<!ENTITY mediaPlaybackRate200x.label "Խառը արագություն (2×)">
+<!ENTITY mediaPlaybackRate200x.accesskey "Խ">
+<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
+"Hide Controls" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY mediaShowControls.label     "Ցուցադրել ղեկավարիչներին">
+<!ENTITY mediaShowControls.accesskey "Ց">
+<!ENTITY mediaHideControls.label     "Թաքցնել ղեկավարիչները">
+<!ENTITY mediaHideControls.accesskey "Թ">
+<!ENTITY videoFullScreen.label       "Լիաէկրան ռեժիմ">
+<!ENTITY videoFullScreen.accesskey   "Լ">
+<!ENTITY videoSaveImage.label        "Պահպանել մանրապատկերը որպես...">
+<!ENTITY videoSaveImage.accesskey    "Պ">
+<!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
+"Hide Statistics" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY videoShowStats.label        "Ցուցադրել վիճակագությունը">
+<!ENTITY videoShowStats.accesskey    "վ">
+<!ENTITY videoHideStats.label        "Թաքցնել ստատիստիկան">
+<!ENTITY videoHideStats.accesskey    "Թ">
+<!-- LOCALIZATION NOTE :
+fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
+fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
+If shift key is needed with your locale popular keyboard for them,
+you can use these alternative items. Otherwise, their values should be empty.  -->
+
+
+<!ENTITY fullZoomEnlargeCmd.label       "Խոշորացնել">
+<!ENTITY fullZoomEnlargeCmd.accesskey   "ր">
+<!ENTITY fullZoomEnlargeCmd.commandkey  "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY fullZoomEnlargeCmd.commandkey2 "="> 
+<!ENTITY fullZoomEnlargeCmd.commandkey3 "">
+
+<!ENTITY fullZoomReduceCmd.label        "Փոքրացնել">
+<!ENTITY fullZoomReduceCmd.accesskey    "ա">
+<!ENTITY fullZoomReduceCmd.commandkey   "-">
+<!ENTITY fullZoomReduceCmd.commandkey2  "">
+
+<!ENTITY fullZoomResetCmd.label         "Բերել Նախնական Վիճակի">
+<!ENTITY fullZoomResetCmd.accesskey     "Բ">
+<!ENTITY fullZoomResetCmd.commandkey    "0">
+<!ENTITY fullZoomResetCmd.commandkey2   "0">
+
+<!ENTITY fullZoomToggleCmd.label        "Խոշորացնել Միայն Տեքստը">
+<!ENTITY fullZoomToggleCmd.accesskey    "Մ">
+<!ENTITY fullZoom.label                 "Մասշտաբը ">
+<!ENTITY fullZoom.accesskey             "Մ">
+
+<!ENTITY newTabButton.tooltip           "Նոր ներդիր բացել">
+<!ENTITY newWindowButton.tooltip        "Նոր պատուհան բացել">
+<!ENTITY sidebarCloseButton.tooltip     "Փակել կողավահանակը">
+
+<!ENTITY cutButton.tooltip              "Կտրել">
+<!ENTITY copyButton.tooltip             "Պատճենել">
+<!ENTITY pasteButton.tooltip            "Մեջբերել">
+
+<!ENTITY fullScreenButton.tooltip       "Ցուցադրել պատուհանը որջ էկրանով">
+
+<!ENTITY zoomOutButton.tooltip          "Մանրացնել">
+<!ENTITY zoomInButton.tooltip           "Խոշորացնել">
+<!ENTITY zoomControls.label             "Խոշորացման ղեկավարում">
+
+<!ENTITY quitApplicationCmdWin.label       "Փակել"> 
+<!ENTITY quitApplicationCmdWin.accesskey   "ա">
+<!ENTITY goBackCmd.commandKey "[">
+<!ENTITY goForwardCmd.commandKey "]">
+<!ENTITY quitApplicationCmd.label       "Փակել"> 
+<!ENTITY quitApplicationCmd.accesskey   "Փ">
+<!ENTITY quitApplicationCmdMac.label    "Փակել &brandShortName;-ը">
+<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
+<!ENTITY quitApplicationCmdUnix.key     "Q">
+
+<!ENTITY closeCmd.label                 "Փակել">  
+<!ENTITY closeCmd.key                   "W">  
+<!ENTITY closeCmd.accesskey             "Փ">
+
+<!ENTITY pageStyleMenu.label "Էջի Ոճը">
+<!ENTITY pageStyleMenu.accesskey "ճ">
+<!ENTITY pageStyleNoStyle.label "Առանց Ոճի">
+<!ENTITY pageStyleNoStyle.accesskey "Ա">
+<!ENTITY pageStylePersistentOnly.label "Օգտագործել Էջի Հիմնական Ոճը">
+<!ENTITY pageStylePersistentOnly.accesskey "Օ">
+
+<!ENTITY pageReportIcon.tooltip            "Փոխել այս էջի համար Pop-up արգելակման դրույթները">
+
+<!ENTITY allowPopups.accesskey "p">
+<!-- On Windows we use the term "Options" to describe settings, but
+     on Linux and Mac OS X we use "Preferences" - carry that distinction
+     over into this string, which is used in the "popup blocked" info bar . -->
+<!ENTITY editPopupSettingsUnix.label "Խմբագրել Pop-up-ի արգելման կարգավորումները…">
+<!ENTITY editPopupSettings.label "Խմբագրել Pop-up-ի արգելման ընտրանքները…">
+<!ENTITY editPopupSettings.accesskey "Խ">
+<!ENTITY dontShowMessage.accesskey "D">
+
+<!ENTITY bidiSwitchPageDirectionItem.label        "Փոխել Էջի Ուղղությունը">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "Ո">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Փոխել Տեքստի Ուղղությունը">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "ո">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
+
+<!ENTITY findOnCmd.label     "Փնտրել էջում…">
+<!ENTITY findOnCmd.accesskey "Փ">
+<!ENTITY findOnCmd.commandkey "f">
+<!ENTITY findAgainCmd.label  "Կրկին Փնտրել">
+<!ENTITY findAgainCmd.accesskey "Փ">
+<!ENTITY findAgainCmd.commandkey "g">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+
+<!ENTITY spellAddDictionaries.label "Ավելացնել Բառարաններ...">
+<!ENTITY spellAddDictionaries.accesskey "Ա">
+
+<!ENTITY editBookmark.done.label                     "Պատրաստ է">
+<!ENTITY editBookmark.cancel.label                   "Չեղարկել">
+<!ENTITY editBookmark.removeBookmark.accessKey       "R">
+
+<!ENTITY identity.unverifiedsite2 "Այս վեբ կայքը չի տրամադրում ին նույնացման ինֆորմացիան:">
+<!ENTITY identity.connectedTo "Դուք կապնվել էք">
+<!-- Localization note (identity.runBy) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity.runBy "որը ղեկավարվում է">
+
+<!ENTITY identity.moreInfoLinkText "Մանրամասն...">
+<!-- Name for the tabs toolbar as spoken by screen readers.
+     The word "toolbar" is appended automatically and should not be contained below! -->
+
+<!ENTITY tabsToolbar.label "Դիտարկիչի ներդիրներ">
+<!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
+
+<!ENTITY syncTabsMenu2.label     "Ներդիրներ այլ սարքերից">
+
+<!ENTITY syncBrand.shortName.label    "Սինք">
+
+<!ENTITY syncSetup.label              "Տեղադրել &syncBrand.shortName.label;…">
+<!ENTITY syncSetup.accesskey          "s">
+<!ENTITY syncSyncNowItem.label        "Սինք">
+<!ENTITY syncSyncNowItem.accesskey    "Ս">
+<!ENTITY syncToolbarButton.label      "Սինք">
+
+<!ENTITY addonBarCloseButton.tooltip  "Փակեք հավելումնների ցուցափեղկը">
+<!ENTITY toggleAddonBarCmd.key        "/">
+
+<!ENTITY socialToolbar.title        "Սոցիալական Գործիքաշերտի կոճակը">
+<!ENTITY social.notLoggedIn.label   "Մուտք չկա">
+
+<!ENTITY social.ok.label       "ԼԱՎ">
+<!ENTITY social.ok.accesskey   "Լ">
+
+<!ENTITY social.toggleSidebar.label "Ցուցադրել կողային վահանակը">
+<!ENTITY social.toggleSidebar.accesskey "Ց">
+
+<!ENTITY social.addons.label "Կառավարել ծառայությունները…">
+
+<!ENTITY social.toggleNotifications.label "Ցուցադրել աշխատասեղանի տեղեկացումները">
+<!ENTITY social.toggleNotifications.accesskey "տ">
+
+<!ENTITY social.activated.description "Ծառայությունները <label/>-ից միացվել են: Կարող եք փոփոխել կարգավորումները ծառայությունների համար <label class='text-link'>Հավելումների կառավարիչից</label>:">
+<!ENTITY social.activated.undo.label "Ախ, չեղյալ համարել սա                ">
+<!ENTITY social.activated.undo.accesskey "չ">
+<!ENTITY social.learnMore.label "Ավելին...">
+<!ENTITY social.learnMore.accesskey "Ա">
+<!ENTITY social.closeNotificationItem.label "Ոչ հիմա">
+
+<!ENTITY social.chatBar.commandkey "c">
+<!ENTITY social.chatBar.label "Անցնել զրույցներին">
+<!ENTITY social.chatBar.accesskey "ց">
+<!-- labels are set dynamically, see browser.properties -->
+
+<!ENTITY social.markpage.accesskey "m">
+<!ENTITY social.marklink.accesskey "M">
+
+<!ENTITY getUserMedia.selectCamera.label "Մուտքը ապարատին.">
+<!ENTITY getUserMedia.selectCamera.accesskey "Մ">
+<!ENTITY getUserMedia.selectMicrophone.label "Մուտք բարձրախոսին.">
+<!ENTITY getUserMedia.selectMicrophone.accesskey "Մ">
+
+<!ENTITY webrtcIndicatorButton.label "Մուտք ապարատին / բարձրախոսին">
+<!ENTITY webrtcIndicatorButton.tooltip "Ցուցադրել այն կայքերը, որոնք մուտք ունեն ձեր ապարատին և բարձրախոսին">
+
+<!ENTITY mixedContentBlocked.helplink "Ավելին">
+<!ENTITY mixedContentBlocked.moreinfo "Կայքերի մեծամասնությունը կշարունակի նորմալ աշխատել, անգամ եթե բովանդակությունը արգելափակված լինի:">
+
+<!ENTITY pointerLock.notification.message "Սեղմեք ESC՝ կրկին ցուցադրելու համար:">
+
+<!ENTITY pluginNotification.showAll.label "Ցուցադրել բոլորը">
+<!ENTITY pluginNotification.showAll.accesskey "Ց">
+<!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
+
+<!ENTITY pluginActivateNow.label "Թույլատրել">
+<!ENTITY pluginActivateAlways.label "Թույլատրել և Հիշել">
+<!ENTITY pluginBlockNow.label "Արգելել բաղադրիչը">
