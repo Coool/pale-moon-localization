@@ -13,5 +13,5 @@ If you want to contribute, please keep the following guidelines in mind:
 * Please always translate from the US-English language, which is the original source language. Do not use an already-translated other language as your source language, to prevent degradation of the translations due to limits in exactly matching vocabulary in different languages.
 * Please keep the tone of your translations neutral and professional.
 * Please mind the length of your translations. Many of these strings will be used in limited spaces in the browser's user interface.
-* Before you create a submission or pull request, please test your translations by loading the langage pack into the browser and verifying correctness.
+* Before you create a submission or pull request, please test your translations by loading the language pack into the browser and verifying correctness.
 
