@@ -2,113 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "Pengelola Sertifikat">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine                     "Sertifikat Anda">
-<!ENTITY certmgr.tab.others2                  "Perseorangan">
-<!ENTITY certmgr.tab.websites3                "Server">
-<!ENTITY certmgr.tab.ca                       "Otoritas">
-<!ENTITY certmgr.tab.orphan2                  "Lainnya">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins                  "CA Built-in">
-<!ENTITY certmgr.ca.mycas                     "CA Dikelola Anda">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine                         "Anda memiliki sertifikat dari organisasi berikut ini yang mengidentifikasikan Anda:">
-<!ENTITY certmgr.others                       "Anda memiliki sertifikat di berkas yang mengidentifikasikan orang ini:">
-<!ENTITY certmgr.websites2                    "Anda memiliki sertifikat pada berkas yang bisa mengidentifikasi server berikut:">
-<!ENTITY certmgr.cas                          "Anda memiliki sertifikat pada berkas yang mengidentifikasi otoritas sertifikat ini:">
-<!ENTITY certmgr.orphans                      "Anda memiliki sertifikat pada berkas yang tidak cocok di kategori manapun:">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "Umum">
-<!ENTITY certmgr.detail.general_tab.accesskey "U">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Detail">
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Sedang memverifikasi sertifikat…">
-<!ENTITY certmgr.subjectinfo.label            "Diterbitkan untuk">
-<!ENTITY certmgr.issuerinfo.label             "Diterbitkan Oleh">
-<!ENTITY certmgr.validity.label               "Keabsahan" >
-<!ENTITY certmgr.fingerprints.label           "Sidik Jari">
-<!ENTITY certmgr.certdetail.title             "Detail Sertifikat">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
 <!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organisasi (O)">
-<!ENTITY certmgr.certdetail.ou                "Unit Organisasi (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Nomor Seri">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "Sidik jari SHA1">
-<!ENTITY certmgr.certdetail.md5fingerprint    "Sidik jari MD5">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title               "Ubah Pengaturan Sertifikat Keamanan">
-<!ENTITY certmgr.editcacert.title             "Ubah pengaturan kepercayaan sertifikat CA">
-<!ENTITY certmgr.editsslcert.title            "Ubah pengaturan kepercayaan sertifikat situs web">
-<!ENTITY certmgr.editcert.edittrust           "Ubah pengaturan kepercayaan:">
-<!ENTITY certmgr.editcert.trustssl            "Sertifikat ini dapat mengidentifikasi situs web.">
-<!ENTITY certmgr.editcert.trustemail          "Sertifikat ini dapat mengidentifikasi pengguna email.">
-<!ENTITY certmgr.editcert.trustobjsign        "Sertifikat ini dapat mengidentifikasi pembuat perangkat lunak.">
-<!ENTITY certmgr.editsslcert.edittrust        "Ubah pengaturan kepercayaan sertifikat:">
-<!ENTITY certmgr.editsslcert.dotrust          "Percaya keaslian sertifikat ini.">
-<!ENTITY certmgr.editsslcert.donttrust        "Jangan percaya keaslian sertifikat ini.">
-<!ENTITY certmgr.editemailcert.title          "Ubah pengaturan kepercayaan sertifikat email">
-<!ENTITY certmgr.editemailcert.edittrust      "Ubah pengaturan kepercayaan sertifikat:">
-<!ENTITY certmgr.editemailcert.dotrust        "Percaya keaslian sertifikat ini.">
-<!ENTITY certmgr.editemailcert.donttrust      "Jangan percaya keaslian sertifikat ini.">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title             "Hapus Sertifikat">
-<!ENTITY certmgr.deletecert.beforename        "Anda meminta penghapusan sertifikat ini:">
-<!ENTITY certmgr.deletecert.aftername         "Yakin ingin menghapus sertifikat ini?">
-<!ENTITY certmgr.deleteusercert.title         "Hapus Sertifikat Anda">
-<!ENTITY certmgr.deleteusercert.beforename    "Anda meminta penghapusan sertifikat:">
-<!ENTITY certmgr.deleteusercert.aftername     "Begitu Anda menghapus sertifikat ini, Anda tidak lagi bisa membaca email yang terenkripsi dengannya.">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname                     "Nama Sertifikat">
+<!ENTITY certmgr.certname                     "Certificate Name">
 <!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Umur">
-<!ENTITY certmgr.tokenname                    "Perangkat Keamanan">
-<!ENTITY certmgr.issued                       "Diterbitkan Pada">
-<!ENTITY certmgr.expires                      "Kedaluwarsa Pada">
-<!ENTITY certmgr.email                        "Alamat Email">
-<!ENTITY certmgr.serial                       "Nomor Seri">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label                  "Tutup">
-<!ENTITY certmgr.close.accesskey              "T">
-<!ENTITY certmgr.view2.label                  "Tampilkan…">
-<!ENTITY certmgr.view2.accesskey              "T">
-<!ENTITY certmgr.edit3.label                  "Ubah Kepercayaan…">
-<!ENTITY certmgr.edit3.accesskey              "K">
-<!ENTITY certmgr.editca.label                 "Ubah Kepercayaan CA">
-<!ENTITY certmgr.editca.accesskey             "U">
-<!ENTITY certmgr.add.label                    "Tambah">
-<!ENTITY certmgr.add.accesskey                "a">
-<!ENTITY certmgr.export.label                 "Ekspor…">
-<!ENTITY certmgr.export.accesskey             "k">
-<!ENTITY certmgr.delete2.label                "Hapus…">
-<!ENTITY certmgr.delete2.accesskey            "H">
-<!ENTITY certmgr.delete_builtin.label         "Hapus atau Tidak Lagi Percayai…">
-<!ENTITY certmgr.delete_builtin.accesskey     "L">
-<!ENTITY certmgr.backup2.label                "Buat Cadangan…">
-<!ENTITY certmgr.backup2.accesskey            "C">
-<!ENTITY certmgr.backupall2.label             "Buat Cadangan Keseluruhan…">
-<!ENTITY certmgr.backupall2.accesskey         "u">
-<!ENTITY certmgr.restore2.label               "Impor…">
-<!ENTITY certmgr.restore2.accesskey           "I">
-<!ENTITY certmgr.details.label                "Field Sertifikat">
+<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
 <!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Nilai Field">
-<!ENTITY certmgr.fields.accesskey             "N">
-<!ENTITY certmgr.hierarchy.label              "Hierarki Sertifikat">
-<!ENTITY certmgr.hierarchy.accesskey          "H">
-<!ENTITY certmgr.addException.label           "Tambah Pengecualian…">
-<!ENTITY certmgr.addException.accesskey       "P">
+<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Tambahkan Pengecualian Keamanan">
-<!ENTITY exceptionMgr.exceptionButton.label   "Konfirmasi Pengecualian Keamanan">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "K">
-<!ENTITY exceptionMgr.supplementalWarning     "Bank, toko, atau situs publik yang sah tidak akan menanyakan hal berikut kepada Anda.">
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
 <!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Lokasi:">
-<!ENTITY exceptionMgr.certlocation.download   "Unduh Sertifikat">
-<!ENTITY exceptionMgr.certlocation.accesskey  "U">
-<!ENTITY exceptionMgr.certstatus.caption      "Status Sertifikat">
-<!ENTITY exceptionMgr.certstatus.viewCert     "Tampilkan…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "T">
-<!ENTITY exceptionMgr.permanent.label         "Simpan pengecualian secara permanen">
-<!ENTITY exceptionMgr.permanent.accesskey     "m">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

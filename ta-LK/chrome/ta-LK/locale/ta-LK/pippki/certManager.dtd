@@ -1,161 +1,114 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is mozilla.org code.
-   -
-   - The Initial Developer of the Original Code is
-   - Netscape Communications Corp.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Ian McGreer <mcgreer@netscape.com>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the GPL or the LGPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "சான்றிதழ் முகாமையாளர்">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine                     "உங்களுடைய சான்றிதழ்கள்">
-<!ENTITY certmgr.tab.others2                  "மக்கள்">
-<!ENTITY certmgr.tab.websites3                "சேவையகங்கள்">
-<!ENTITY certmgr.tab.ca                       "அதிகாரங்கள்">
-<!ENTITY certmgr.tab.orphan2                  "மற்றவைகள்">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins                  "உள்ளமை CAகள்">
-<!ENTITY certmgr.ca.mycas                     "உங்களால் CAகள் முகாமை செய்யப்படுகின்றன">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine                         "இந்த நிறுவனங்களால் உங்களை அடையாளப்படுத்தக் கூடிய சான்றிதழ்களை நீங்கள் வைத்துள்ளீர்கள்:">
-<!ENTITY certmgr.others                       "இந்த மக்களை அடையாளப்படுத்தக் கூடிய சான்றிதழ்களை கோப்பிலே வைத்துள்ளீர்கள்:">
-<!ENTITY certmgr.websites2                    "இந்த சேவையகங்களை அடையாளப்படுத்தக் கூடிய சான்றிதழ்களை கோப்பிலே வைத்துள்ளீர்கள்:">
-<!ENTITY certmgr.cas                          "இந்த சான்றிதழ் அங்கீகாரங்களை அடையாளப்படுத்தக் கூடிய சான்றிதழ்களை கோப்பிலே வைத்துள்ளீர்கள்:">
-<!ENTITY certmgr.orphans                      "நீங்கள் கோப்பிலே வைத்துள்ள சான்றிதழ்கள் வேறு ஏதேனும் categoriesகளுக்கு பொருத்தமற்றது :">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "பொதுவானவை">
+<!ENTITY certmgr.detail.general_tab.title     "General">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
-<!ENTITY certmgr.detail.prettyprint_tab.title "விபரங்கள்">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "தற்போது சான்றிதழ் உறுதிசெய்யப்படுகிறது…">
-<!ENTITY certmgr.subjectinfo.label            "வழங்கப்பட்டதுIssued To">
-<!ENTITY certmgr.issuerinfo.label             "வழங்கியதுIssued By">
-<!ENTITY certmgr.validity.label               "சட்டப்படி செல்லக்கூடிய தன்மை" >
-<!ENTITY certmgr.fingerprints.label           "கைரேகைகள்">
-<!ENTITY certmgr.certdetail.title             "சான்றிதழ் விபரங்கள்">
-<!ENTITY certmgr.certdetail.cn                "பொதுப் பெயர்(CN)">
-<!ENTITY certmgr.certdetail.o                 "நிறுவனம் (O)">
-<!ENTITY certmgr.certdetail.ou                "நிறுவனத்தின் அலகு (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "தொடர் இலக்கம்">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 கைரேகை">
-<!ENTITY certmgr.certdetail.md5fingerprint    "MD5 கைரேகை">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title               "பாதுகாப்புச் சான்றிதழ் அமைப்புக்களைச் செவ்வையாக்குக">
-<!ENTITY certmgr.editcacert.title             "CA சான்றிதழ் நம்பகத்தன்மை அமைப்புக்களைச் செவ்வையாக்குக">
-<!ENTITY certmgr.editsslcert.title            "இணையத்தள சான்றிதழ் நம்பகத்தன்மை அமைப்புக்களைச் செவ்வையாக்குக">
-<!ENTITY certmgr.editcert.edittrust           "நம்பகத்தன்மை அமைப்புக்களைச் செவ்வையாக்குக:">
-<!ENTITY certmgr.editcert.trustssl            "இந்தச் சான்றிதழைப் பயனபடுத்தி இணையத்தளங்களை அடையாளப்படுத்த முடியும்.">
-<!ENTITY certmgr.editcert.trustemail          "இந்தச் சான்றிதழைப் பயனபடுத்தி மின்னஞ்சல் பயனர்களை அடையாளப்படுத்த முடியும்.">
-<!ENTITY certmgr.editcert.trustobjsign        "இந்தச் சான்றிதழைப் பயனபடுத்தி மென்பொருள் தயாரிப்பாளர்களை அடையாளப்படுத்த முடியும்.">
-<!ENTITY certmgr.editsslcert.edittrust        "இந்தச் சான்றிதழுக்கான நம்பகத்தன்மை அமைப்புக்களைச் செவ்வையாக்குக:">
-<!ENTITY certmgr.editsslcert.dotrust          "இந்தச் சான்றிதழுக்கான உறுதிப்படுத்தலை நம்பிக்கை கொள்க.">
-<!ENTITY certmgr.editsslcert.donttrust        "இந்தச் சான்றிதழுக்கான உறுதிப்படுத்தலை நம்பிக்கை கொள்ள வேண்டாம்.">
-<!ENTITY certmgr.editemailcert.title          "மின்னஞ்சல் சான்றிதழ் நம்பகத்தன்மை அமைப்புக்களைச் செவ்வையாக்குக">
-<!ENTITY certmgr.editemailcert.edittrust      "சான்றிதழ் நம்பகத்தன்மை அமைப்புக்களைச் செவ்வையாக்குக:">
-<!ENTITY certmgr.editemailcert.dotrust        "இந்தச் சான்றிதழுக்கான உறுதிப்படுத்தலை நம்பிக்கை கொள்க.">
-<!ENTITY certmgr.editemailcert.donttrust      "இந்தச் சான்றிதழுக்கான உறுதிப்படுத்தலை நம்பிக்கை கொள்ள வேண்டாம்.">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title             "சான்றிதழை நீக்குக">
-<!ENTITY certmgr.deletecert.beforename        "இந்தச் சான்றிதழை நீக்குமாறு நீங்கள் கேட்டுள்ளீர்கள்:">
-<!ENTITY certmgr.deletecert.aftername         "நீங்கள் இந்தச் சான்றிதழை நீக்குமாறு நிச்சயமாகக் கூறுகின்றீர்களா?">
-<!ENTITY certmgr.deleteusercert.title         "உங்களுடைய சான்றிதழை நீக்குக">
-<!ENTITY certmgr.deleteusercert.beforename    "இந்தச் சான்றிதழை நீக்குமாறு நீங்கள் கேட்டுள்ளீர்கள்:">
-<!ENTITY certmgr.deleteusercert.aftername     "இந்தச் சான்றிதழை நீங்கள் நீக்கினால், இந்தச் சான்றிதழால் மறைக்குறியீடாக்கப்பட்ட மின்னஞ்சல்களை உங்களால் வாசிக்க முடியாது.">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname                     "சான்றிதழின் பெயர்">
-<!ENTITY certmgr.certserver                   "சேவையகம்">
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
 <!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "பாதுகாப்புச் சாதனம்">
-<!ENTITY certmgr.issued                       "வழங்கப்பட்ட திததி">
-<!ENTITY certmgr.expires                      "காலாவதியாகும் திகதி">
-<!ENTITY certmgr.email                        "மின்னஞ்சல் முகவரி">
-<!ENTITY certmgr.serial                       "தொடர் இலக்கம்">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label                  "மூடுக">
+<!ENTITY certmgr.close.label                  "Close">
 <!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "நோக்குக…">
+<!ENTITY certmgr.view2.label                  "View…">
 <!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.editca.label                 "CA நம்பகத்தன்மையை செவ்வையாக்குக">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "சேர்க்க">
+<!ENTITY certmgr.add.label                    "Add">
 <!ENTITY certmgr.add.accesskey                "A">
-<!ENTITY certmgr.export.label                 "ஏற்றுமதி செய்க…">
+<!ENTITY certmgr.export.label                 "Export…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "நீக்குக…">
+<!ENTITY certmgr.delete2.label                "Delete…">
 <!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.backup2.label                "காப்பு எடுக்க…">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
 <!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "எல்லாவற்றையும் காப்பு எடுக்க…">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
 <!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "இறக்குமதி செய்க…">
+<!ENTITY certmgr.restore2.label               "Import…">
 <!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "சான்றிதழ்  புலங்கள்">
+<!ENTITY certmgr.details.label                "Certificate Fields">
 <!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "புலத்தின் பெறுமதி">
+<!ENTITY certmgr.fields.label                 "Field Value">
 <!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "சான்றிதழ் படிநிலை முறைமை">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
 <!ENTITY certmgr.hierarchy.accesskey          "C">
-<!ENTITY certmgr.addException.label           "விதிவிலக்கொன்றைச் சேர்க்கவும்…">
+<!ENTITY certmgr.addException.label           "Add Exception…">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "பாதுகாப்பு விதிவிலக்கொன்றை சேர்க்கவும்">
-<!ENTITY exceptionMgr.supplementalWarning     "சட்டரீதியான வங்கிகள், களஞ்சியங்கள் மேலும் பொதுத் தளங்கள் இதனைச் செய்யுமாறு உங்களைக் கேட்கவில்லை.">
-<!ENTITY exceptionMgr.certlocation.caption2   "சேவையகம்">
-<!ENTITY exceptionMgr.certlocation.url        "இடம்:">
-<!ENTITY exceptionMgr.certlocation.download   "சான்றிதழைப் பெறுக">
-<!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "சான்றிதழ் நிலை">
-<!ENTITY exceptionMgr.certstatus.viewCert     "நோக்குக…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "நிரந்தரமாக இந்த விதிவிலக்கை களஞ்சியப்படுத்தவும்">
-<!ENTITY exceptionMgr.permanent.accesskey     "P">
-
-
-<!--
-Entities below were automatically added by compare-locales,
- based on en-US entities.
--->
-
-<!ENTITY certmgr.delete_builtin.accesskey "D">
-<!ENTITY certmgr.edit3.accesskey "E">
-<!ENTITY certmgr.edit3.label "Trust இனை செவ்வையாக்குக…">
-<!ENTITY certmgr.delete_builtin.label "அழிக்குக அல்லது Distrust…">
-
-
-<!--
-Entities below were automatically added by compare-locales,
- based on en-US entities.
--->
-
-<!ENTITY exceptionMgr.exceptionButton.label "பாதுகாப்பு நீட்சியினை உறுதிப்படுத்துக">
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

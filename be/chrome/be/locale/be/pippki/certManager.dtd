@@ -2,103 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title "Кіраўнік пасведчанняў">
-<!ENTITY certmgr.tab.mine "Вашы пасведчанні">
-<!ENTITY certmgr.tab.others2 "Людзі">
-<!ENTITY certmgr.tab.websites3 "Паслугачы">
-<!ENTITY certmgr.tab.ca "Крыніцы пасведчанняў">
-<!ENTITY certmgr.tab.orphan2 "Іншыя">
-<!ENTITY certmgr.ca.builtins "Убудаваныя КП">
-<!ENTITY certmgr.ca.mycas "КП, якія кіруюцца вамі">
-<!ENTITY certmgr.mine "Вы маеце пасведчанні наступных установаў, якія вызначаюць вас:">
-<!ENTITY certmgr.others "Вы маеце пасведчанні, якія вызначаюць наступных асобаў:">
-<!ENTITY certmgr.websites2 "Вы маеце пасведчанні, якія вызначаюць наступныя паслугачы:">
-<!ENTITY certmgr.cas "Вы маеце пасведчанні, якія вызначаюць наступныя крыніцы пасведчанняў:">
-<!ENTITY certmgr.orphans "Вы маеце пасведчанні, якія не пападаюць ні ў адну з іншых катэгорыяў:">
-<!ENTITY certmgr.detail.general_tab.title "Асноўныя">
-<!ENTITY certmgr.detail.general_tab.accesskey "А">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Падрабязнасці">
-<!ENTITY certmgr.detail.prettyprint_tab.accesskey "П">
-<!ENTITY certmgr.pending.label "Зараз правяраецца пасведчанне…">
-<!ENTITY certmgr.subjectinfo.label "Выдадзена (каму):">
-<!ENTITY certmgr.issuerinfo.label "Выдадзена (кім)">
-<!ENTITY certmgr.validity.label "Сапраўднасць">
-<!ENTITY certmgr.fingerprints.label "Адбіткі">
-<!ENTITY certmgr.certdetail.title "Падрабязнасці пасведчання">
-<!ENTITY certmgr.certdetail.cn "Агульная назва (CN)">
-<!ENTITY certmgr.certdetail.o "Установа (O)">
-<!ENTITY certmgr.certdetail.ou "Установавая адзінка (OU)">
-<!ENTITY certmgr.certdetail.serialnumber "Серыйны нумар">
-<!ENTITY certmgr.certdetail.sha1fingerprint "Адбітак SHA1">
-<!ENTITY certmgr.certdetail.md5fingerprint "Адбітак MD5">
-<!ENTITY certmgr.editcert.title "Рэдагаванне наладжванняў бяспекі пасведчанняў">
-<!ENTITY certmgr.editcacert.title "Рэдагаванне наладжванняў даверу да пасведчання КП">
-<!ENTITY certmgr.editsslcert.title "Праўка наладжванняў даверу да пасведчанняў пляцовак сеціва">
-<!ENTITY certmgr.editcert.edittrust "Рэдагаваць наладжванні даверу:">
-<!ENTITY certmgr.editcert.trustssl "Гэтае пасведчанне можа вызначаць пляцоўку сеціва.">
-<!ENTITY certmgr.editcert.trustemail "Гэтае пасведчанне можа вызначаць карыстальнікаў пошты.">
-<!ENTITY certmgr.editcert.trustobjsign "Гэтае пасведчанне можа вызначаць вырабнікоў праграмнага забеспячэння.">
-<!ENTITY certmgr.editsslcert.edittrust "Рэдагаваць наладжванні даверу пасведчанням:">
-<!ENTITY certmgr.editsslcert.dotrust "Давяраць сапраўднасці гэтага пасведчання.">
-<!ENTITY certmgr.editsslcert.donttrust "Не давяраць сапраўднасці гэтага пасведчання.">
-<!ENTITY certmgr.editemailcert.title "Рэдагаванне даверу да э-паштовага пасведчання.">
-<!ENTITY certmgr.editemailcert.edittrust "Рэдагаванне даверу да пасведчання:">
-<!ENTITY certmgr.editemailcert.dotrust "Давяраць сапраўднасці гэтага пасведчання.">
-<!ENTITY certmgr.editemailcert.donttrust "Не давяраць сапраўднасці гэтага пасведчання.">
-<!ENTITY certmgr.deletecert.title "Выдаленне пасведчання">
-<!ENTITY certmgr.deletecert.beforename "Вы запатрабавалі выдаліць гэтае пасведчанне:">
-<!ENTITY certmgr.deletecert.aftername "Вы сапраўды хочаце выдаліць гэтае пасведчанне?">
-<!ENTITY certmgr.deleteusercert.title "Выдаленне вашага пасведчання">
-<!ENTITY certmgr.deleteusercert.beforename "Вы запатрабавалі выдаліць пасведчанне:">
-<!ENTITY certmgr.deleteusercert.aftername "Калі вы аднойчы выдаліце гэтае пасведчанне, вы не зможаце прачытаць пошту, зашыфраваную ім.">
-<!ENTITY certmgr.certname "Назва пасведчання">
-<!ENTITY certmgr.certserver "Паслугач">
-<!ENTITY certmgr.override_lifetime "Час жыцця">
-<!ENTITY certmgr.tokenname "Збудова бяспекі">
-<!ENTITY certmgr.issued "Выдадзена (калі)">
-<!ENTITY certmgr.expires "Высільваецца (калі)">
-<!ENTITY certmgr.email "Э-паштовы адрас">
-<!ENTITY certmgr.serial "Серыйны нумар">
-<!ENTITY certmgr.close.label "Зачыніць">
-<!ENTITY certmgr.close.accesskey "ч">
-<!ENTITY certmgr.view2.label "Прагляд…">
-<!ENTITY certmgr.view2.accesskey "г">
-<!ENTITY certmgr.edit3.label "Правіць давер…">
-<!ENTITY certmgr.edit3.accesskey "П">
-<!ENTITY certmgr.editca.label "Рэдагаваць давер да КП">
-<!ENTITY certmgr.editca.accesskey "д">
-<!ENTITY certmgr.add.label "Дадаць">
-<!ENTITY certmgr.add.accesskey "д">
-<!ENTITY certmgr.export.label "Экспарт…">
-<!ENTITY certmgr.export.accesskey "Э">
-<!ENTITY certmgr.delete2.label "Выдаліць…">
-<!ENTITY certmgr.delete2.accesskey "д">
-<!ENTITY certmgr.delete_builtin.label "Выдаліць або не давяраць…">
-<!ENTITY certmgr.delete_builtin.accesskey "д">
-<!ENTITY certmgr.backup2.label "Зрабіць адноўку…">
-<!ENTITY certmgr.backup2.accesskey "а">
-<!ENTITY certmgr.backupall2.label "Зрабіць адноўку для ўсіх…">
-<!ENTITY certmgr.backupall2.accesskey "ў">
-<!ENTITY certmgr.restore2.label "Імпарт…">
-<!ENTITY certmgr.restore2.accesskey "І">
-<!ENTITY certmgr.details.label "Палі пасведчання">
-<!ENTITY certmgr.details.accesskey "п">
-<!ENTITY certmgr.fields.label "Значэнне поля">
-<!ENTITY certmgr.fields.accesskey "з">
-<!ENTITY certmgr.hierarchy.label "Іерархія пасведчання">
-<!ENTITY certmgr.hierarchy.accesskey "х">
-<!ENTITY certmgr.addException.label "Дадаць выключэнне…">
-<!ENTITY certmgr.addException.accesskey "в">
-<!ENTITY exceptionMgr.title "Даданне выключэння бяспекі">
-<!ENTITY exceptionMgr.exceptionButton.label "Пацвердзіць выключэнне бяспекі">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "ц">
-<!ENTITY exceptionMgr.supplementalWarning "Правамоцныя банкі, біржы і іншыя прылюдныя пляцоўкі ніколі не будуць прасіць вас рабіць гэта.">
-<!ENTITY exceptionMgr.certlocation.caption2 "Паслугач">
-<!ENTITY exceptionMgr.certlocation.url "Месцазнаходжанне:">
-<!ENTITY exceptionMgr.certlocation.download "Атрымаць пасведчанне">
-<!ENTITY exceptionMgr.certlocation.accesskey "А">
-<!ENTITY exceptionMgr.certstatus.caption "Статус пасведчання">
-<!ENTITY exceptionMgr.certstatus.viewCert "Прагляд…">
-<!ENTITY exceptionMgr.certstatus.accesskey "П">
-<!ENTITY exceptionMgr.permanent.label "Назаўсёды захаваць гэта выключэнне">
-<!ENTITY exceptionMgr.permanent.accesskey "Н">
+<!ENTITY certmgr.title                       "Certificate Manager">
+
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
+
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
+
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
+
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
+
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
+
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
+
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
+
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
+
+<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.accesskey       "x">
+
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

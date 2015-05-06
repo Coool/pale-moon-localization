@@ -1,43 +1,49 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
--->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label "Link Senden…">
-<!ENTITY palemoon.sendLinkCmd.accesskey "d">
-<!ENTITY palemoon.sendPageCmd.label "Seite Senden…">
-<!ENTITY palemoon.sendPageCmd.accesskey "e">
-<!ENTITY palemoon.menu.statusBar.label "Statusleiste">
-<!ENTITY palemoon.menu.statusBar.accesskey "S">
-<!ENTITY palemoon.menu.allBookmarks.label "Lesezeichen ordnen">
+<!ENTITY palemoon.sendLinkCmd.label            "Send Link…">
+<!ENTITY palemoon.sendLinkCmd.accesskey        "d">
+<!ENTITY palemoon.sendPageCmd.label            "Send Page Link…">
+<!ENTITY palemoon.sendPageCmd.accesskey        "e">
+
+<!ENTITY palemoon.menu.statusBar.label               "Status Bar">
+<!ENTITY palemoon.menu.statusBar.accesskey           "S">
+<!ENTITY palemoon.menu.allBookmarks.label            "Organize Bookmarks">
+
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label "Klassisches Download-Fenster verwenden">
-<!ENTITY palemoon.showTabBar.label "Zeige die Tableiste immer an">
-<!ENTITY palemoon.showTabBar.accesskey "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label "Verwandte Tabs an aktuellen Tab anheften">
-<!ENTITY palemoon.contextLoadInBackground.label "Wechsel sofort zu dem neuen Tab, wenn eine Inhaltssuche durchgeführt wird">
-<!ENTITY palemoon.closeWindowWithLastTab.label "Fenster schließen, wenn der letzte Tab geschlossen wird">
-<!ENTITY palemoon.newtabPage.label "Zeige beim Öffnen eines neuen Tab:">
-<!ENTITY palemoon.newtabPage.blank.label "Eine leere Seite">
-<!ENTITY palemoon.newtabPage.home.label "Die Pale Moon Startseite">
-<!ENTITY palemoon.newtabPage.quickdial.label "Die Schnellwahlseite">
-<!ENTITY palemoon.loadImages.label "Lade Bilder:">
-<!ENTITY palemoon.loadImages.always "Automatisch">
-<!ENTITY palemoon.loadImages.never "Niemals">
-<!ENTITY palemoon.loadImages.no3rdparty "Nur vom Originalserver">
-<!ENTITY palemoon.firefoxCompatGroup.label "Firefox Kompatibilität">
-<!ENTITY palemoon.firefoxCompat.label "Verwende den Firefox Kompatibilität Modus">
-<!ENTITY palemoon.scrollparamTab.label "Bildlauf">
-<!ENTITY palemoon.smoothscroll.explain.label "Die folgenden Einstellungen funktionieren nur, wenn &quot;Sanfter Bildlauf&quot; in der Checkbox aktiviert ist.">
-<!ENTITY palemoon.smoothscroll.to "bis">
-<!ENTITY palemoon.smoothscroll.params.label "Sanfter Bildlauf Einstellungen">
-<!ENTITY palemoon.smoothscroll.mousewheel.label "Sanfter Bildlauf mit dem Mausrad">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration "Mausrad Bildlaufdauer:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label "Sanfter Bildlauf mit den Pfeiltasten">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration "Pfeiltasten Bildlaufdauer:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label "Sanfter Bildlauf mit Bild hoch/runter Taste">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration "Bild hoch/runter Bildlaufdauer:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label "Sanfter Bildlauf mit der Bildlaufleiste">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration "Dauer der sanften Bildlaufleiste:">
-<!ENTITY allTabs.filter.emptyText "Suche Tabs">
+<!ENTITY toolkit.classic.download.window.label       "Use the classic downloads window">
+
+<!ENTITY palemoon.showTabBar.label                   "Always show the tab bar">
+<!ENTITY palemoon.showTabBar.accesskey               "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Insert related tabs next to the current tab">
+<!ENTITY palemoon.contextLoadInBackground.label      "When performing a context search, switch to the new tab immediately">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "Close the window when the last tab is closed">
+<!ENTITY palemoon.newtabPage.label                   "When opening a new tab, show:">
+<!ENTITY palemoon.newtabPage.blank.label             "A blank page">
+<!ENTITY palemoon.newtabPage.home.label              "The Pale Moon start page">
+<!ENTITY palemoon.newtabPage.quickdial.label         "The Quickdial page">
+
+<!ENTITY palemoon.loadImages.label            "Load images:">
+<!ENTITY palemoon.loadImages.always           "Automatically">
+<!ENTITY palemoon.loadImages.never            "Never">
+<!ENTITY palemoon.loadImages.no3rdparty       "Originating server only">
+
+<!ENTITY palemoon.firefoxCompatGroup.label    "Firefox Compatibility">
+<!ENTITY palemoon.firefoxCompat.label         "Use Firefox Compatibility mode">
+
+<!ENTITY palemoon.scrollparamTab.label               "Scrolling">
+<!ENTITY palemoon.smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY palemoon.smoothscroll.to                    "to">
+<!ENTITY palemoon.smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+
+<!ENTITY allTabs.filter.emptyText "Search Tabs">

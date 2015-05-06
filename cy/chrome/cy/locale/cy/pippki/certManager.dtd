@@ -2,113 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "Rheolwr Tystysgrifau">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine                     "Eich Tystysgrifau">
-<!ENTITY certmgr.tab.others2                  "Pobl">
-<!ENTITY certmgr.tab.websites3                "Gweinyddion">
-<!ENTITY certmgr.tab.ca                       "Awdurdodau">
-<!ENTITY certmgr.tab.orphan2                  "Eraill">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins                  "Awdurdod Tystysgrifo wedi eu Adeiladu i Mewn">
-<!ENTITY certmgr.ca.mycas                     "Awdurdod Tystysgrifo'n cael ei Reoli Gennych Chi">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine                         "Mae gennych dystysgrifau gan y cyrff hyn sy'n eich adnabod chi:">
-<!ENTITY certmgr.others                       "Mae gennych dystysgrifau ar ffeil sy'n adnabod y bobl hyn:">
-<!ENTITY certmgr.websites2                    "Mae gennych dystysgrifau ar ffeil sy'n adnabod y bobl hyn:">
-<!ENTITY certmgr.cas                          "Mae gennych dystysgrifau ar ffeil sy'n adnabod yr awdurdodau tystysgrif:">
-<!ENTITY certmgr.orphans                      "Mae gennych dystysgrifau ar ffeil nad yw'n cydweddu ag unrhyw gategori arall:">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "Cyffredinol">
-<!ENTITY certmgr.detail.general_tab.accesskey "C">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Manylion">
-<!ENTITY certmgr.detail.prettyprint_tab.accesskey "M">
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Wrthi'n dilysu'r dystysgrif…">
-<!ENTITY certmgr.subjectinfo.label            "Dynodwyd i">
-<!ENTITY certmgr.issuerinfo.label             "Cyhoeddwyd gan">
-<!ENTITY certmgr.validity.label               "Dilysrwydd" >
-<!ENTITY certmgr.fingerprints.label           "Olion Bysedd">
-<!ENTITY certmgr.certdetail.title             "Manylion Tystysgrif">
-<!ENTITY certmgr.certdetail.cn                "Enw Cyffredin (CN)">
-<!ENTITY certmgr.certdetail.o                 "Corff (O)">
-<!ENTITY certmgr.certdetail.ou                "Uned Corff (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Rhif Cyfresol">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "Ôl bys SHA1">
-<!ENTITY certmgr.certdetail.md5fingerprint    "Ôl bys MD5">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title               "Golygu Gosodiadau Diogelwch Tystysgrif">
-<!ENTITY certmgr.editcacert.title             "Golygu gosodiadau ymddiried tystysgrif CA">
-<!ENTITY certmgr.editsslcert.title            "Golygu gosodiadau ymddiried tystysgrif gwefan">
-<!ENTITY certmgr.editcert.edittrust           "Golygu gosodiadau ymddiried:">
-<!ENTITY certmgr.editcert.trustssl            "Mae'r dystysgrif yn medru adnabod gwefannau.">
-<!ENTITY certmgr.editcert.trustemail          "Mae'r dystysgrif yn medru adnabod defnyddwyr e-bost.">
-<!ENTITY certmgr.editcert.trustobjsign        "Mae'r dystysgrif yn medru adnabod gwneuthurwyr meddalwedd.">
-<!ENTITY certmgr.editsslcert.edittrust        "Golygu gosodiadau diogelwch tystysgrifau:">
-<!ENTITY certmgr.editsslcert.dotrust          "Ymddiried yn nilysrwydd y dystysgrif.">
-<!ENTITY certmgr.editsslcert.donttrust        "Peidio ymddiried yn nilysrwydd y dystysgrif.">
-<!ENTITY certmgr.editemailcert.title          "Golygu gosodiadau ymddiriedaeth tystysgrif e-bost">
-<!ENTITY certmgr.editemailcert.edittrust      "Golygu gosodiadau diogelwch tystysgrifau:">
-<!ENTITY certmgr.editemailcert.dotrust        "Ymddiried yn nilysrwydd y dystysgrif.">
-<!ENTITY certmgr.editemailcert.donttrust      "Peidio ymddiried yn nilysrwydd y dystysgrif.">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title             "Dileu Tystysgrif">
-<!ENTITY certmgr.deletecert.beforename        "Rydych wedi gwneud cais i ddileu'r dystysgrif:">
-<!ENTITY certmgr.deletecert.aftername         "Ydych chi'n siŵr eich bod eisiau dileu'r dystysgrif?">
-<!ENTITY certmgr.deleteusercert.title         "Dileu Eich Tystysgrif">
-<!ENTITY certmgr.deleteusercert.beforename    "Rydych wedi gwneud cais i ddileu'r dystysgrif:">
-<!ENTITY certmgr.deleteusercert.aftername     "Unwaith i chi ddileu'r dystysgrif, ni fydd modd darllen e-bost sydd wedi ei amgryprio ganddi.">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname                     "Enw'r Dystysgrif">
-<!ENTITY certmgr.certserver                   "Gweinydd">
-<!ENTITY certmgr.override_lifetime            "Hyd Oes">
-<!ENTITY certmgr.tokenname                    "Dyfais Diogelwch">
-<!ENTITY certmgr.issued                       "Cyhoeddwyd ar">
-<!ENTITY certmgr.expires                      "Daw i ben ar">
-<!ENTITY certmgr.email                        "Cyfeiriad E-bost">
-<!ENTITY certmgr.serial                       "Rhif Cyfresol">
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label                  "Cau">
+<!ENTITY certmgr.close.label                  "Close">
 <!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "Golwg…">
-<!ENTITY certmgr.view2.accesskey              "G">
-<!ENTITY certmgr.edit3.label                  "Golygu'r Ymddiriedaeth…">
-<!ENTITY certmgr.edit3.accesskey              "Y">
-<!ENTITY certmgr.editca.label                 "Golygu Ymddiriedaeth CA">
-<!ENTITY certmgr.editca.accesskey             "C">
-<!ENTITY certmgr.add.label                    "Ychwanegu">
-<!ENTITY certmgr.add.accesskey                "Y">
-<!ENTITY certmgr.export.label                 "Allforio…">
-<!ENTITY certmgr.export.accesskey             "A">
-<!ENTITY certmgr.delete2.label                "Dileu…">
+<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Delete…">
 <!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Dileu neu Ddrwgdybio…">
-<!ENTITY certmgr.delete_builtin.accesskey     "i">
-<!ENTITY certmgr.backup2.label                "Wrth Gefn…">
-<!ENTITY certmgr.backup2.accesskey            "W">
-<!ENTITY certmgr.backupall2.label             "Popeth Wrth Gefn…">
-<!ENTITY certmgr.backupall2.accesskey         "P">
-<!ENTITY certmgr.restore2.label               "Mewnforio…">
-<!ENTITY certmgr.restore2.accesskey           "M">
-<!ENTITY certmgr.details.label                "Meysydd Tystysgrif">
-<!ENTITY certmgr.details.accesskey            "T">
-<!ENTITY certmgr.fields.label                 "Gwerth Maes">
-<!ENTITY certmgr.fields.accesskey             "G">
-<!ENTITY certmgr.hierarchy.label              "Hierarchaeth Tystysgrifau">
-<!ENTITY certmgr.hierarchy.accesskey          "H">
-<!ENTITY certmgr.addException.label           "Ychwanegu Eithriad…">
-<!ENTITY certmgr.addException.accesskey       "Y">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Ychwanegu Eithriad Diogelwch">
-<!ENTITY exceptionMgr.exceptionButton.label   "Cadarnhau Eithriad Diogelwch">
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Ni fydd banciau, siopau a gwefannau cyhoeddus yn gofyn i chi wneud hyn.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Gweinydd">
-<!ENTITY exceptionMgr.certlocation.url        "Lleoliad:">
-<!ENTITY exceptionMgr.certlocation.download   "Estyn Tystysgrif">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
 <!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Statws Tystysgrif">
-<!ENTITY exceptionMgr.certstatus.viewCert     "Golwg…">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Cadw'r estyniad yn barhaol">
-<!ENTITY exceptionMgr.permanent.accesskey     "C">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

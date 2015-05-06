@@ -2,129 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.tab.others2                  "Ανθρώπων">
-<!ENTITY certmgr.tab.websites3                "Εξυπηρετητών">
-<!ENTITY certmgr.tab.orphan2                  "Τρίτων">
-<!ENTITY certmgr.websites2                    "Έχετε πιστοποιητικά στο αρχείο που πιστοποιούν αυτούς τους εξυπηρετητές:">
-<!ENTITY certmgr.orphans                      "Έχετε πιστοποιητικά στο αρχείο που δεν ταιριάζουν σε κάποια από τις κατηγορίες:">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.detail.general_tab.accesskey "Γ">
-<!ENTITY certmgr.detail.prettyprint_tab.accesskey "Λ">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.pending.label                "Γίνεται προβολή πιστοποιητικού...">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.view2.label                   "Προβολή…">
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.export.label                 "Εξαγωγή…">
-<!ENTITY certmgr.export.accesskey             "ξ">
-<!ENTITY certmgr.delete2.label                 "Διαγραφή…">
-<!ENTITY certmgr.backup2.label                 "Αντίγραφο ασφαλείας…">
-<!ENTITY certmgr.backupall2.label              "Αντίγραφο όλων…">
-<!ENTITY certmgr.restore2.label                "Εισαγωγή…">
-<!ENTITY certmgr.addException.label           "Προσθήκη εξαίρεσης…">
-<!ENTITY certmgr.addException.accesskey       "θ">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY exceptionMgr.title                   "Προσθήκη εξαίρεσης ασφαλείας">
-<!ENTITY exceptionMgr.supplementalWarning     "Οι νόμιμες τράπεζες, καταστήματα, και άλλες δημόσιες σελίδες δεν θα σας ζητήσουν να το κάνετε.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Εξυπηρετητής">
-<!ENTITY exceptionMgr.certlocation.url        "Τοποθεσία:">
-<!ENTITY exceptionMgr.certlocation.download   "Λήψη πιστοποιητικού">
-<!ENTITY exceptionMgr.certlocation.accesskey  "η">
-<!ENTITY exceptionMgr.certstatus.caption      "Κατάσταση πιστοποιητικού">
-<!ENTITY exceptionMgr.certstatus.viewCert     "Προβολή…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "ο">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.detail.general_tab.title "Γενικά">
-<!ENTITY certmgr.details.label "Πεδία πιστοποιητικού">
-<!ENTITY certmgr.details.accesskey            "δ">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.certdetail.title "Λεπτομέρεια πιστοποιητικού">
-<!ENTITY certmgr.editsslcert.donttrust "Να μην είναι έμπιστη η γνησιότητα του παρόντος πιστοποιητικού.">
-<!ENTITY certmgr.fingerprints.label "Αποτυπώματα">
-<!ENTITY certmgr.deleteusercert.beforename "Ζητήσατε να διαγράψετε το παρακάτω πιστοποιητικό:">
-<!ENTITY certmgr.editemailcert.edittrust "Επεξεργασία ρυθμίσεων εμπιστοσύνης πιστοποιητικού:">
-<!ENTITY certmgr.editsslcert.dotrust "Να είναι έμπιστη η γνησιότητα του παρόντος πιστοποιητικού.">
-<!ENTITY certmgr.cas "Έχετε πιστοποιητικά στο αρχείο που πιστοποιούν τις παρακάτω αρχές:">
-<!ENTITY certmgr.editcert.trustemail "Το παρόν πιστοποιεί χρήστες email.">
-<!ENTITY certmgr.add.label "Προσθήκη">
-<!ENTITY certmgr.add.accesskey                "θ">
-<!ENTITY certmgr.tokenname "Συσκευή ασφάλειας">
-<!ENTITY certmgr.editsslcert.edittrust "Επεξεργασία ρυθμίσεων εμπιστοσύνης πιστοποιητικού:">
-<!ENTITY certmgr.tab.ca "Αρχών">
+<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY certmgr.certdetail.serialnumber "Σειριακός αριθμός">
-<!ENTITY certmgr.deleteusercert.title "Διαγραφή του πιστοποιητικού σας">
-<!ENTITY certmgr.certdetail.sha1fingerprint "Αποτύπωμα SHA1">
-<!ENTITY certmgr.editemailcert.dotrust "Να είναι έμπιστη η αυθεντικότητα του πιστοποιητικού.">
-<!ENTITY certmgr.editca.label "Επεξεργασία εμπιστοσύνης CA">
-<!ENTITY certmgr.editca.accesskey             "ξ">
-
-
-<!ENTITY certmgr.editcert.title "Επεξεργασία ρυθμίσεων πιστοποιητικών ασφάλειας">
-<!ENTITY certmgr.editcert.edittrust "Επεξεργασία ρυθμίσεων εμπιστοσύνης:">
-<!ENTITY certmgr.issued "Εκδόθηκε στις">
-<!ENTITY certmgr.expires "Λήγει στις">
-<!ENTITY certmgr.others "Έχετε πιστοποιητικά στο αρχείο που πιστοποιούν τους παρακάτω ανθρώπους:">
-<!ENTITY certmgr.certdetail.ou "Μονάδα Οργανισμού (OU)">
-<!ENTITY certmgr.mine "Έχετε πιστοποιητικά από τους παρακάτω οργανισμούς που σας πιστοποιούν:">
-<!ENTITY certmgr.certname "Όνομα πιστοποιητικού">
-<!ENTITY certmgr.subjectinfo.label "Εκδόθηκε σε">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Λεπτομέρειες">
-
-<!ENTITY certmgr.deleteusercert.aftername "Αν διαγράψετε το πιστοποιητικό δεν θα μπορείτε να διαβάσετε την αλληλογραφία που έχει κρυπτογραφηθεί με αυτό.">
-<!ENTITY certmgr.serial "Σειριακός Αριθμός">
-<!ENTITY certmgr.title "Διαχείριση πιστοποιητικών">
-<!ENTITY certmgr.deletecert.title "Διαγραφή πιστοποιητικού">
-<!ENTITY certmgr.certdetail.md5fingerprint "Αποτύπωμα MD5 ">
-<!ENTITY certmgr.validity.label "Εγκυρότητα">
-<!ENTITY certmgr.certserver                   "Εξυπηρετητής">
-
-
-<!ENTITY certmgr.issuerinfo.label "Εκδόθηκε από">
-
-<!ENTITY certmgr.editsslcert.title "Επεξεργασία ρυθμίσεων εμπιστοσύνης πιστοποιητικών ιστοσελίδων">
-
-<!ENTITY certmgr.certdetail.o "Οργανισμός (O)">
-<!ENTITY certmgr.certdetail.cn "Κοινό όνομα (CN)">
-<!ENTITY certmgr.editcacert.title "Επεξεργασία ρυθμίσεων εμπιστοσύνης πιστοποιητικών  CA">
-<!ENTITY certmgr.deletecert.beforename "Ζητήσατε να διαγράψετε αυτό το πιστοποιητικό:">
-<!ENTITY certmgr.ca.mycas "CAs που διαχειρίζεστε">
-<!ENTITY certmgr.ca.builtins "Ενσωματωμένα CAs">
-<!ENTITY certmgr.editemailcert.title "Επεξεργασία ρυθμίσεων εμπιστοσύνης πιστοποιητικού αλληλογραφίας:">
-<!ENTITY certmgr.editcert.trustobjsign "Το παρόν πιστοποιεί κατασκευαστές λογισμικού.">
-<!ENTITY certmgr.email "Ηλεκτρονική διεύθυνση">
-<!ENTITY certmgr.editcert.trustssl "Το παρόν πιστοποιεί ιστοσελίδες.">
-<!ENTITY certmgr.close.label "Κλείσιμο">
-<!ENTITY certmgr.close.accesskey              "Κ">
-<!ENTITY certmgr.hierarchy.label "Ιεραρχία πιστοποιητικού">
-<!ENTITY certmgr.hierarchy.accesskey          "χ">
-<!ENTITY certmgr.tab.mine "Τα πιστοποιητικά σας">
-<!ENTITY certmgr.deletecert.aftername "Είστε σίγουροι ότι θέλετε να διαγράψετε το παρόν πιστοποιητικό;">
-<!ENTITY certmgr.editemailcert.donttrust "Να μην είναι έμπιστη η αυθεντικότητα του πιστοποιητικού.">
-<!ENTITY certmgr.fields.label "Τιμή πεδίου">
-<!ENTITY certmgr.fields.accesskey             "μ">
-
-
-<!ENTITY certmgr.override_lifetime            "Εφ' όρου ζωής">
-<!ENTITY certmgr.view2.accesskey              "β">
-
-<!ENTITY certmgr.delete2.accesskey            "Δ">
-<!ENTITY certmgr.backup2.accesskey            "φ">
-<!ENTITY certmgr.backupall2.accesskey         "ν">
-<!ENTITY certmgr.restore2.accesskey           "ι">
-<!ENTITY exceptionMgr.permanent.label         "Μόνιμη αποθήκευση αυτής της εξαίρεσης">
-<!ENTITY exceptionMgr.permanent.accesskey     "Μ">
-
-<!ENTITY certmgr.delete_builtin.label         "Διαγραφή ή άρση εμπιστοσύνης…">
-<!ENTITY certmgr.delete_builtin.accesskey     "Δ">
-
-<!ENTITY certmgr.edit3.label                  "Επεξεργασία εμπιστοσύνης…">
-<!ENTITY certmgr.edit3.accesskey              "Ε">
-
-
-<!ENTITY exceptionMgr.exceptionButton.label   "Επιβεβαίωση εξαίρεσης ασφαλείας">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "β">
-
-
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

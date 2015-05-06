@@ -2,113 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "প্ৰমাণপত্ৰৰ পৰিচালক">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine                     "আপোনাৰ প্ৰমাণপত্ৰসমূহ">
-<!ENTITY certmgr.tab.others2                  "মানুহ">
-<!ENTITY certmgr.tab.websites3                "চাৰ্ভাৰসমূহ">
-<!ENTITY certmgr.tab.ca                       "কৰ্ত্তৃপক্ষ">
-<!ENTITY certmgr.tab.orphan2                  "অন্য">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins                  "বিল্ট-ইন CAসমূহ">
-<!ENTITY certmgr.ca.mycas                     "আপুনি পৰিচালনা কৰা CA">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine                         "আপোনাৰ চিনি পোৱা এই সংগঠনৰ পৰা প্ৰমাণপত্ৰ আছে:">
-<!ENTITY certmgr.others                       "এই মানুহক চিনি পোৱা প্ৰমাণপত্ৰ ফাইল আছে:">
-<!ENTITY certmgr.websites2                    "আপোনাৰ ফাইলত এনে প্ৰমাণপত্ৰসমূহ আছে যোনে চাৰ্ভাৰসমূহ চিনাক্ত কৰে:">
-<!ENTITY certmgr.cas                          "এই প্ৰমাণপত্ৰ কৰ্ত্তৃপক্ষক চিনি পোৱা প্ৰমাণপত্ৰ ফাইলত আছে:">
-<!ENTITY certmgr.orphans                      "আপোনাৰ ফাইলত এনে প্ৰমাণপত্ৰসমূহ আছে যি অন্য কোনো শৈলীত খাপ নাখায়:">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "সাধাৰণ">
+<!ENTITY certmgr.detail.general_tab.title     "General">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
-<!ENTITY certmgr.detail.prettyprint_tab.title "বিৱৰণ">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "বৰ্তমানে প্ৰমাণপত্ৰ সতা সত্য নিৰূপণ কৰা হৈ আছে…">
-<!ENTITY certmgr.subjectinfo.label            "চিহ্নিত স্থানলৈ প্ৰদান কৰা হৈছে">
-<!ENTITY certmgr.issuerinfo.label             "প্ৰেৰক">
-<!ENTITY certmgr.validity.label               "বৈধতা" >
-<!ENTITY certmgr.fingerprints.label           "আঙুলিৰ চাপ">
-<!ENTITY certmgr.certdetail.title             "প্ৰমাণপত্ৰৰ বিৱৰণ">
-<!ENTITY certmgr.certdetail.cn                "সাধাৰণ নাম (CN)">
-<!ENTITY certmgr.certdetail.o                 "সংগঠন (O)">
-<!ENTITY certmgr.certdetail.ou                "সন্থাৰ একক (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "ক্ৰম সংখ্যা">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 আঙুলিৰ চাপ">
-<!ENTITY certmgr.certdetail.md5fingerprint    "MD5 আঙুলিৰ চাপ">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title               "সুৰক্ষা প্ৰমাণপত্ৰৰ পছন্দ সম্পাদন কৰক">
-<!ENTITY certmgr.editcacert.title             "CA প্ৰমাণপত্ৰ বিশ্বাসৰ পছন্দ সম্পাদন কৰক">
-<!ENTITY certmgr.editsslcert.title            "ৱেব ছাইট প্ৰমাণপত্ৰ বিশ্বাসৰ পছন্দ সম্পাদন কৰক">
-<!ENTITY certmgr.editcert.edittrust           "বিশ্বাসৰ পছন্দ সম্পাদন কৰক:">
-<!ENTITY certmgr.editcert.trustssl            "এই প্ৰমাণপত্ৰই ৱেব ছাইট চিনিব পাৰে।">
-<!ENTITY certmgr.editcert.trustemail          "এই প্ৰমাণপত্ৰই মেইল ব্যৱহাৰকাৰী চিনিব পাৰে।">
-<!ENTITY certmgr.editcert.trustobjsign        "এই প্ৰমাণপত্ৰই চফ্টৱেৰ বিকাশকক চিনিব পাৰে।">
-<!ENTITY certmgr.editsslcert.edittrust        "প্ৰমাণপত্ৰ বিশ্বাসৰ পছন্দ সম্পাদন কৰক:">
-<!ENTITY certmgr.editsslcert.dotrust          "এই প্ৰমাণপত্ৰ সত্যতা বিশ্বাস কৰক।">
-<!ENTITY certmgr.editsslcert.donttrust        "এই প্ৰমাণপত্ৰ সত্যতা বিশ্বাস নকৰিব।">
-<!ENTITY certmgr.editemailcert.title          "ঈ-মেইল প্ৰমাণপত্ৰ বিশ্বাসৰ পছন্দ সম্পাদন কৰক">
-<!ENTITY certmgr.editemailcert.edittrust      "প্ৰমাণপত্ৰ বিশ্বাসৰ পছন্দ সম্পাদন কৰক:">
-<!ENTITY certmgr.editemailcert.dotrust        "এই প্ৰমাণপত্ৰ সত্যতা বিশ্বাস কৰক।">
-<!ENTITY certmgr.editemailcert.donttrust      "এই প্ৰমাণপত্ৰ সত্যতা বিশ্বাস নকৰিব।">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title             "প্ৰমাণপত্ৰ আঁতৰাওক">
-<!ENTITY certmgr.deletecert.beforename        "আপুনি এই প্ৰমাণপত্ৰ আঁতৰাব বিচাৰিছে:">
-<!ENTITY certmgr.deletecert.aftername         "আপুনি এই প্ৰমাণপত্ৰ আঁতৰাবলৈ নিশ্চিত নে?">
-<!ENTITY certmgr.deleteusercert.title         "আপোনাৰ প্ৰমাণপত্ৰ আঁৰাওক">
-<!ENTITY certmgr.deleteusercert.beforename    "আপুনি প্ৰমাণপত্ৰ আঁতৰাবলৈ অনুৰোধ কৰিছে:">
-<!ENTITY certmgr.deleteusercert.aftername     "আপুনি প্ৰমাণপত্ৰ এবাৰ আঁতৰালে, সেইটোৰে এনক্ৰিপ্ট কৰা মেইল আপুনি পঢ়িব নোৱাৰিব।">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname                     "প্ৰমাণপত্ৰৰ নাম">
-<!ENTITY certmgr.certserver                   "চাৰ্ভাৰ">
-<!ENTITY certmgr.override_lifetime            "জীৱনকাল">
-<!ENTITY certmgr.tokenname                    "সুৰক্ষাৰ ডিভাইচ">
-<!ENTITY certmgr.issued                       "প্ৰেৰণৰ তাৰিখ">
-<!ENTITY certmgr.expires                      "শেষ হয়">
-<!ENTITY certmgr.email                        "ই-মেইল ঠিকনা">
-<!ENTITY certmgr.serial                       "ক্ৰম সংখ্যা">
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label                  "বন্ধ কৰক">
+<!ENTITY certmgr.close.label                  "Close">
 <!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "দৰ্শন কৰক…">
+<!ENTITY certmgr.view2.label                  "View…">
 <!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "ভৰষা সম্পাদনা কৰক…">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
 <!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "CA বিশ্বাস সম্পাদন কৰক">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "যোগ কৰক">
+<!ENTITY certmgr.add.label                    "Add">
 <!ENTITY certmgr.add.accesskey                "A">
-<!ENTITY certmgr.export.label                 "এক্সপোৰ্ট কৰক…">
+<!ENTITY certmgr.export.label                 "Export…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "মচক…">
+<!ENTITY certmgr.delete2.label                "Delete…">
 <!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "মচক অথবা অবিশ্বাস কৰক…">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
 <!ENTITY certmgr.delete_builtin.accesskey     "D">
-<!ENTITY certmgr.backup2.label                "বেকআপ লওক…">
+<!ENTITY certmgr.backup2.label                "Backup…">
 <!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "সকলো বেকআপ লওক…">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
 <!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "ইমপোৰ্ট কৰক…">
+<!ENTITY certmgr.restore2.label               "Import…">
 <!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "প্ৰমাণপত্ৰৰ ক্ষেত্ৰবোৰ">
+<!ENTITY certmgr.details.label                "Certificate Fields">
 <!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "ক্ষেত্ৰৰ মান">
+<!ENTITY certmgr.fields.label                 "Field Value">
 <!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "প্ৰমাণপত্ৰৰ অধিক্ৰম">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
 <!ENTITY certmgr.hierarchy.accesskey          "C">
-<!ENTITY certmgr.addException.label           "ব্যতিক্ৰম যোগ কৰক…">
+<!ENTITY certmgr.addException.label           "Add Exception…">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "সুৰক্ষা ব্যতিক্ৰম যোগ কৰক">
-<!ENTITY exceptionMgr.exceptionButton.label   "সুৰক্ষা ব্যতিক্ৰম সুনিশ্চিত কৰক">
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "ন্যায্য বেঙ্ক, ভঁৰাল, আৰু অন্য ৰাজহুৱা ছাইটবোৰে আপোনাক এয়া কৰিবলে নোসোধে।">
-<!ENTITY exceptionMgr.certlocation.caption2   "চাৰ্ভাৰ">
-<!ENTITY exceptionMgr.certlocation.url        "অৱস্থান:">
-<!ENTITY exceptionMgr.certlocation.download   "প্ৰমাণপত্ৰ লওক">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
 <!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "প্ৰমাণপত্ৰৰ অৱস্থা">
-<!ENTITY exceptionMgr.certstatus.viewCert     "দৰ্শন কৰক…">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "চিৰস্থায়ীভাৱে এই ব্যতিক্ৰম সঞ্চয় কৰক">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
 <!ENTITY exceptionMgr.permanent.accesskey     "P">

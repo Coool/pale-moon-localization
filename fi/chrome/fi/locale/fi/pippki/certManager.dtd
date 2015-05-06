@@ -2,113 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title  			"Varmenteiden hallinta">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine  			"Omat varmenteet">
-<!ENTITY certmgr.tab.others2  			"Henkilöt">
-<!ENTITY certmgr.tab.websites3  		"Palvelimet">
-<!ENTITY certmgr.tab.ca  			"Varmentajat">
-<!ENTITY certmgr.tab.orphan2            	"Muut">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins  "Sisäänrakennetut varmentajat">
-<!ENTITY certmgr.ca.mycas  "Hallitsemasi varmentajat">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine  "Seuraavilta organisaatioilta on sinut todentava varmenne:">
-<!ENTITY certmgr.others  "Seuraavat yksilöt todentavia varmenteita on tiedossa:">
-<!ENTITY certmgr.websites2  "Seuraavat palvelimet todentavia varmenteita on tiedossa:">
-<!ENTITY certmgr.cas  "Seuraavat varmentajat todentavia varmenteita on tiedossa:">
-<!ENTITY certmgr.orphans                      "Seuraavat varmenteet varmentavat kohteita, jotka eivät sovi muihin luokkiin:">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title  "Yleistiedot">
-<!ENTITY certmgr.detail.general_tab.accesskey "Y">
-<!ENTITY certmgr.detail.prettyprint_tab.title  "Yksityiskohdat">
-<!ENTITY certmgr.detail.prettyprint_tab.accesskey "t">
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Todennetaan varmennetta…">
-<!ENTITY certmgr.subjectinfo.label  "Asetettu taholle">
-<!ENTITY certmgr.issuerinfo.label  "Julkaisija">
-<!ENTITY certmgr.validity.label  "Kelpoisuus">
-<!ENTITY certmgr.fingerprints.label  "Sormenjäljet">
-<!ENTITY certmgr.certdetail.title  "Varmenteen yksityiskohdat">
-<!ENTITY certmgr.certdetail.cn  "Yleinen nimi (CN)">
-<!ENTITY certmgr.certdetail.o  "Organisaatio (O)">
-<!ENTITY certmgr.certdetail.ou  "Organisaation yksikkö (OU)">
-<!ENTITY certmgr.certdetail.serialnumber  "Sarjanumero">
-<!ENTITY certmgr.certdetail.sha1fingerprint  "SHA1-sormenjälki">
-<!ENTITY certmgr.certdetail.md5fingerprint  "MD5-sormenjälki">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title  "Muokkaa turvallisuusvarmenteen asetuksia">
-<!ENTITY certmgr.editcacert.title  "Muokkaa varmentajan varmenteen luotettavuusasetuksia">
-<!ENTITY certmgr.editsslcert.title  "Muokkaa sivustovarmenteen luotettavuusasetuksia">
-<!ENTITY certmgr.editcert.edittrust  "Muokkaa luotettavuusasetuksia:">
-<!ENTITY certmgr.editcert.trustssl  "Tämä varmenne voi todentaa WWW-sivustoja.">
-<!ENTITY certmgr.editcert.trustemail  "Tämä varmenne voi todentaa sähköpostittajia.">
-<!ENTITY certmgr.editcert.trustobjsign  "Tämä varmenne voi todentaa ohjelmistojen valmistajia.">
-<!ENTITY certmgr.editsslcert.edittrust  "Muokkaa varmenteen luotettavuusasetuksia:">
-<!ENTITY certmgr.editsslcert.dotrust  "Luota tämän varmenteen aitouteen.">
-<!ENTITY certmgr.editsslcert.donttrust  "Älä luota tämän varmenteen aitouteen.">
-<!ENTITY certmgr.editemailcert.title  "Muokkaa sähköpostivarmenteen luotettavuusasetuksia">
-<!ENTITY certmgr.editemailcert.edittrust  "Muokkaa varmenteen luotettavuusasetuksia:">
-<!ENTITY certmgr.editemailcert.dotrust  "Luota tämän varmenteen aitouteen.">
-<!ENTITY certmgr.editemailcert.donttrust  "Älä luota tämän varmenteen aitouteen.">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title  "Poista varmenne">
-<!ENTITY certmgr.deletecert.beforename  "Tätä varmennetta ollaan poistamassa:">
-<!ENTITY certmgr.deletecert.aftername  "Poistetaanko varmenne?">
-<!ENTITY certmgr.deleteusercert.title  "Poistetaanko oma varmenne">
-<!ENTITY certmgr.deleteusercert.beforename  "Ollaan poistamassa varmennetta:">
-<!ENTITY certmgr.deleteusercert.aftername  "Poistetulle varmenteelle salattuja viestejä ei pystytä lukemaan, jos se poistetaan.">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname  "Varmenteen nimi">
-<!ENTITY certmgr.certserver                   "Palvelin">
-<!ENTITY certmgr.override_lifetime            "Elinikä">
-<!ENTITY certmgr.tokenname  "Turvallisuuslaite">
-<!ENTITY certmgr.issued  "Julkaisupäivä">
-<!ENTITY certmgr.expires  "Vanhenemispäivä">
-<!ENTITY certmgr.email  "Sähköpostiosoite">
-<!ENTITY certmgr.serial  "Sarjanumero">
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label      	      "Sulje">
-<!ENTITY certmgr.close.accesskey              "S">
-<!ENTITY certmgr.view2.label     	      "Näytä…">
-<!ENTITY certmgr.view2.accesskey              "N">
-<!ENTITY certmgr.edit3.label                  "Muokkaa luottamusta…">
-<!ENTITY certmgr.edit3.accesskey              "M">
-<!ENTITY certmgr.editca.label  		      "Muokkaa varmentajan luotettavuutta">
-<!ENTITY certmgr.editca.accesskey             "u">
-<!ENTITY certmgr.add.label 		      "Lisää">
-<!ENTITY certmgr.add.accesskey                "L">
-<!ENTITY certmgr.export.label                 "Vie…">
-<!ENTITY certmgr.export.accesskey             "V">
-<!ENTITY certmgr.delete2.label    	      "Poista…">
-<!ENTITY certmgr.delete2.accesskey            "P">
-<!ENTITY certmgr.delete_builtin.label         "Poista tai älä luota…">
-<!ENTITY certmgr.delete_builtin.accesskey     "o">
-<!ENTITY certmgr.backup2.label                "Varmuuskopioi…">
-<!ENTITY certmgr.backup2.accesskey            "V">
-<!ENTITY certmgr.backupall2.label             "Varmuuskopioi kaikki…">
-<!ENTITY certmgr.backupall2.accesskey         "a">
-<!ENTITY certmgr.restore2.label               "Tuo…">
-<!ENTITY certmgr.restore2.accesskey           "T">
-<!ENTITY certmgr.details.label                "Varmenteen kentät">
-<!ENTITY certmgr.details.accesskey            "m">
-<!ENTITY certmgr.fields.label                 "Kentän arvo">
-<!ENTITY certmgr.fields.accesskey             "K">
-<!ENTITY certmgr.hierarchy.label              "Varmennehierarkia">
-<!ENTITY certmgr.hierarchy.accesskey          "n">
-<!ENTITY certmgr.addException.label           "Lisää poikkeus…">
-<!ENTITY certmgr.addException.accesskey       "L">
+<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Lisää turvallisuuspoikkeus">
-<!ENTITY exceptionMgr.exceptionButton.label   "Vahvista turvallisuuspoikkeus">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "V">
-<!ENTITY exceptionMgr.supplementalWarning     "Luotettavat pankit, kaupat ja muut julkiset sivustot eivät pyydä sinua tekemään tätä.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Palvelin">
-<!ENTITY exceptionMgr.certlocation.url        "Osoite:">
-<!ENTITY exceptionMgr.certlocation.download   "Lataa varmenne">
-<!ENTITY exceptionMgr.certlocation.accesskey  "L">
-<!ENTITY exceptionMgr.certstatus.caption      "Varmenteen tila">
-<!ENTITY exceptionMgr.certstatus.viewCert     "Näytä…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "N">
-<!ENTITY exceptionMgr.permanent.label         "Tallenna poikkeus pysyvästi">
-<!ENTITY exceptionMgr.permanent.accesskey     "T">
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

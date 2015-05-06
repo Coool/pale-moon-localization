@@ -2,113 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "Xestor de certificados">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine                     "Os seus certificados">
-<!ENTITY certmgr.tab.others2                  "Persoas">
-<!ENTITY certmgr.tab.websites3                "Servidores">
-<!ENTITY certmgr.tab.ca                       "Autoridades">
-<!ENTITY certmgr.tab.orphan2                  "Outros">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins                  "ACs incorporadas">
-<!ENTITY certmgr.ca.mycas                     "ACs xestionadas por vostede">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine                         "Ten certificados destas organizacións que o identifican:">
-<!ENTITY certmgr.others                       "Ten certificados arquivados que identifican estas persoas:">
-<!ENTITY certmgr.websites2                    "Ten certificados arquivados que identifican estes servidores:">
-<!ENTITY certmgr.cas                          "Ten certificados arquivados que identifican estas autoridades certificadoras:">
-<!ENTITY certmgr.orphans                      "Ten certificados arquivados que non encaixan en ningunha das outras categorías:">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "Xeral">
-<!ENTITY certmgr.detail.general_tab.accesskey "X">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Detalles">
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Verificando o certificado…">
-<!ENTITY certmgr.subjectinfo.label            "Emitido a">
-<!ENTITY certmgr.issuerinfo.label             "Emitido por">
-<!ENTITY certmgr.validity.label               "Validez" >
-<!ENTITY certmgr.fingerprints.label           "Pegadas dactilares">
-<!ENTITY certmgr.certdetail.title             "Detalles do certificado">
-<!ENTITY certmgr.certdetail.cn                "Nome común (NC)">
-<!ENTITY certmgr.certdetail.o                 "Organización (O)">
-<!ENTITY certmgr.certdetail.ou                "Unidade organizativa (UO)">
-<!ENTITY certmgr.certdetail.serialnumber      "Número de serie">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "Pegada dactilar SHA1">
-<!ENTITY certmgr.certdetail.md5fingerprint    "Pegada dactilar MD5">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title               "Editar a configuración do certificado de seguranza">
-<!ENTITY certmgr.editcacert.title             "Editar a configuración de confianza do certificado da AC">
-<!ENTITY certmgr.editsslcert.title            "Editar a configuración de confianza do certificado do sitio web">
-<!ENTITY certmgr.editcert.edittrust           "Editar a configuración de confianza:">
-<!ENTITY certmgr.editcert.trustssl            "Este certificado identifica sitios web.">
-<!ENTITY certmgr.editcert.trustemail          "Este certificado identifica usuarios de correo.">
-<!ENTITY certmgr.editcert.trustobjsign        "Este certificado identifica fabricantes de software.">
-<!ENTITY certmgr.editsslcert.edittrust        "Editar a configuración de confianza dos certificados:">
-<!ENTITY certmgr.editsslcert.dotrust          "Confiar na autenticidade deste certificado.">
-<!ENTITY certmgr.editsslcert.donttrust        "Non confiar na autenticidade deste certificado.">
-<!ENTITY certmgr.editemailcert.title          "Editar a configuración de confianza dos certificados de correo electrónico.">
-<!ENTITY certmgr.editemailcert.edittrust      "Editar a configuración de confianza dos certificados:">
-<!ENTITY certmgr.editemailcert.dotrust        "Confiar na autenticidade deste certificado.">
-<!ENTITY certmgr.editemailcert.donttrust      "Non confiar na autenticidade deste certificado.">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title             "Eliminar certificado">
-<!ENTITY certmgr.deletecert.beforename        "Solicitou eliminar este certificado:">
-<!ENTITY certmgr.deletecert.aftername         "Está seguro de que quere borrar este certificado?">
-<!ENTITY certmgr.deleteusercert.title         "Eliminar o certificado">
-<!ENTITY certmgr.deleteusercert.beforename    "Solicitou eliminar o certificado:">
-<!ENTITY certmgr.deleteusercert.aftername     "Ao eliminar este certificado non poderá ler o correo cifrado con el.">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname                     "Nome do certificado">
-<!ENTITY certmgr.certserver                   "Servidor">
-<!ENTITY certmgr.override_lifetime            "Duración">
-<!ENTITY certmgr.tokenname                    "Dispositivo de seguranza">
-<!ENTITY certmgr.issued                       "Emitido o">
-<!ENTITY certmgr.expires                      "Caduca o">
-<!ENTITY certmgr.email                        "Enderezo de correo electrónico">
-<!ENTITY certmgr.serial                       "Número de serie">
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label                  "Pechar">
-<!ENTITY certmgr.close.accesskey              "P">
-<!ENTITY certmgr.view2.label                  "Ver…">
+<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "View…">
 <!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Editar confianza…">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
 <!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Editar confianza AC">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "Engadir">
-<!ENTITY certmgr.add.accesskey                "n">
-<!ENTITY certmgr.export.label                 "Exportar…">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Eliminar…">
-<!ENTITY certmgr.delete2.accesskey            "m">
-<!ENTITY certmgr.delete_builtin.label         "Borrar ou deixar de confiar…">
-<!ENTITY certmgr.delete_builtin.accesskey     "d">
-<!ENTITY certmgr.backup2.label                "Copia de seguranza…">
-<!ENTITY certmgr.backup2.accesskey            "C">
-<!ENTITY certmgr.backupall2.label             "Copia de seguranza de todo…">
-<!ENTITY certmgr.backupall2.accesskey         "s">
-<!ENTITY certmgr.restore2.label               "Importar…">
-<!ENTITY certmgr.restore2.accesskey           "I">
-<!ENTITY certmgr.details.label                "Campos do certificado">
-<!ENTITY certmgr.details.accesskey            "o">
-<!ENTITY certmgr.fields.label                 "Valor do campo">
+<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
 <!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "Xerarquía do certificado">
-<!ENTITY certmgr.hierarchy.accesskey          "c">
-<!ENTITY certmgr.addException.label           "Engadir excepción…">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.addException.label           "Add Exception…">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Engadir excepción de seguranza">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirmar excepción de seguranza">
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "A lexitimación de bancos, tendas e outros sitios públicos non requirirá este proceso.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Servidor">
-<!ENTITY exceptionMgr.certlocation.url        "Localización:">
-<!ENTITY exceptionMgr.certlocation.download   "Obter certificado">
-<!ENTITY exceptionMgr.certlocation.accesskey  "O">
-<!ENTITY exceptionMgr.certstatus.caption      "Estado do certificado">
-<!ENTITY exceptionMgr.certstatus.viewCert     "Ver…">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Almacenar esta excepción de forma permanente">
-<!ENTITY exceptionMgr.permanent.accesskey     "A">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

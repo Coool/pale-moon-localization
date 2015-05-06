@@ -2,114 +2,113 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "מנהל האישורים">
+<!ENTITY certmgr.title                       "Certificate Manager">
 
-<!ENTITY certmgr.tab.mine                     "האישורים שלך">
-<!ENTITY certmgr.tab.others2                  "אנשים">
-<!ENTITY certmgr.tab.websites3                "שרתים">
-<!ENTITY certmgr.tab.ca                       "רשויות">
-<!ENTITY certmgr.tab.orphan2                  "אחרים">
+<!ENTITY certmgr.tab.mine                     "Your Certificates">
+<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.websites3                "Servers">
+<!ENTITY certmgr.tab.ca                       "Authorities">
+<!ENTITY certmgr.tab.orphan2                  "Others">
 
-<!ENTITY certmgr.ca.builtins                  "רשויות אישורים מובנות">
-<!ENTITY certmgr.ca.mycas                     "רשויות אישורים המנוהלות על ידיך">
+<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
+<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
 
-<!ENTITY certmgr.mine                         "יש לך אישורים מאירגונים אלה המזהים אותך:">
-<!ENTITY certmgr.others                       "יש לך אישורים בקובץ המזהים אנשים אלה:">
-<!ENTITY certmgr.websites2                    "יש לך אישורים בקובץ שמזהים את השרתים הבאים:">
-<!ENTITY certmgr.cas                          "יש לך אישורים בקובץ המזהים רשויות אישורים אלה:">
-<!ENTITY certmgr.orphans                      "יש לך אישורים בקובץ שאינם נופלים באחת מהקטגוריות האחרות:">
+<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
+<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
+<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
+<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "כללי">
-<!ENTITY certmgr.detail.general_tab.accesskey "כ">
-<!ENTITY certmgr.detail.prettyprint_tab.title "פרטים">
-<!ENTITY certmgr.detail.prettyprint_tab.accesskey "פ">
+<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "בודק אישורים...">
-<!ENTITY certmgr.subjectinfo.label            "הונפק ל">
-<!ENTITY certmgr.issuerinfo.label             "הונפק על־ידי">
-<!ENTITY certmgr.validity.label               "תוקף" >
-<!ENTITY certmgr.fingerprints.label           "טביעות אצבע">
-<!ENTITY certmgr.certdetail.title             "פרטי אישור">
-<!ENTITY certmgr.certdetail.cn                "שם משותף">
-<!ENTITY certmgr.certdetail.o                 "ארגון">
-<!ENTITY certmgr.certdetail.ou                "יחידה ארגונית">
-<!ENTITY certmgr.certdetail.serialnumber      "מספר סידורי">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "טביעת אצבע SHA1">
-<!ENTITY certmgr.certdetail.md5fingerprint    "טביעת אצבע MD5">
+<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
+<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.validity.label               "Validity" >
+<!ENTITY certmgr.fingerprints.label           "Fingerprints">
+<!ENTITY certmgr.certdetail.title             "Certificate Detail">
+<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
 
-<!ENTITY certmgr.editcert.title               "ערוך הגדרות אישור אבטחה">
-<!ENTITY certmgr.editcacert.title             "ערוך הגדרות אמון באישור של רשות אישורים">
-<!ENTITY certmgr.editsslcert.title            "ערוך הגדרות בטחון באישור של אתר">
-<!ENTITY certmgr.editcert.edittrust           "ערוך הגדרות אמון:">
-<!ENTITY certmgr.editcert.trustssl            "אישור זה יכול לזהות אתרים.">
-<!ENTITY certmgr.editcert.trustemail          "אישור זה יכול לזהות משתמשי דואר.">
-<!ENTITY certmgr.editcert.trustobjsign        "אישור זה יכול לזהות יצרני תוכנה.">
-<!ENTITY certmgr.editsslcert.edittrust        "ערוך הגדרות אמון באישור:">
-<!ENTITY certmgr.editsslcert.dotrust          "תן אמון במהימנות אישור זה.">
-<!ENTITY certmgr.editsslcert.donttrust        "אל תבטח במהימנות אישור זה.">
-<!ENTITY certmgr.editemailcert.title          "ערוך הגדרות אמון באישור דוא״ל">
-<!ENTITY certmgr.editemailcert.edittrust      "ערוך הגדרות אמון באישור:">
-<!ENTITY certmgr.editemailcert.dotrust        "בטח במהימנות אישור זה.">
-<!ENTITY certmgr.editemailcert.donttrust      "אל תתן אמון במהימנות אישור זה.">
+<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
 
-<!ENTITY certmgr.deletecert.title             "מחק אישור">
-<!ENTITY certmgr.deletecert.beforename        "ביקשת למחוק אישור זה:">
-<!ENTITY certmgr.deletecert.aftername         "האם אתה בטוח שברצונך למחוק אישור זה?">
-<!ENTITY certmgr.deleteusercert.title         "מחק את האישור שלך">
-<!ENTITY certmgr.deleteusercert.beforename    "ביקשת למחוק את האישור:">
-<!ENTITY certmgr.deleteusercert.aftername     "לאחר שתמחק אישור זה, לא תוכל לקרוא דואר שהוצפן בעזרתו.">
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
+<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
+<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
+<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
+<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
 
-<!ENTITY certmgr.certname                     "שם אישור">
-<!ENTITY certmgr.certserver                   "שרת">
-<!ENTITY certmgr.override_lifetime            "משך חיים">
-<!ENTITY certmgr.tokenname                    "התקן אבטחה">
-<!ENTITY certmgr.issued                       "הונפק בתאריך">
-<!ENTITY certmgr.expires                      "תוקפו פג בתאריך">
-<!ENTITY certmgr.email                        "כתובת דוא״ל">
-<!ENTITY certmgr.serial                       "מספר סידורי">
+<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certserver                   "Server">
+<!ENTITY certmgr.override_lifetime            "Lifetime">
+<!ENTITY certmgr.tokenname                    "Security Device">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.email                        "E-Mail Address">
+<!ENTITY certmgr.serial                       "Serial Number">
 
-<!ENTITY certmgr.close.label                  "סגור">
-<!ENTITY certmgr.close.accesskey              "ס">
-<!ENTITY certmgr.view2.label                  "תצוגה…">
-<!ENTITY certmgr.view2.accesskey              "ת">
-<!ENTITY certmgr.edit3.label                  "ערוך אמון…">
-<!ENTITY certmgr.edit3.accesskey              "ע">
-<!ENTITY certmgr.editca.label                 "ערוך אמון ברשות אישורים">
-<!ENTITY certmgr.editca.accesskey             "א">
-<!ENTITY certmgr.add.label                    "הוסף">
-<!ENTITY certmgr.add.accesskey                "ה">
-<!ENTITY certmgr.export.label                 "יצא…">
-<!ENTITY certmgr.export.accesskey             "י">
-<!ENTITY certmgr.delete2.label                "מחק…">
-<!ENTITY certmgr.delete2.accesskey            "מ">
-<!ENTITY certmgr.delete_builtin.label         "מחיקה או אי־אמון…">
-<!ENTITY certmgr.delete_builtin.accesskey     "מ">
-<!ENTITY certmgr.backup2.label                "גבה…">
-<!ENTITY certmgr.backup2.accesskey            "ג">
-<!ENTITY certmgr.backupall2.label             "גבה הכול…">
-<!ENTITY certmgr.backupall2.accesskey         "כ">
-<!ENTITY certmgr.restore2.label               "יבא…">
-<!ENTITY certmgr.restore2.accesskey           "י">
-<!ENTITY certmgr.details.label                "שדות האישור">
-<!ENTITY certmgr.details.accesskey            "פ">
-<!ENTITY certmgr.fields.label                 "ערך השדה">
+<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Add">
+<!ENTITY certmgr.add.accesskey                "A">
+<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
 <!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "היררכיית אישור">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
 <!ENTITY certmgr.hierarchy.accesskey          "C">
-<!ENTITY certmgr.addException.label           "הוסף חריגה…">
-<!ENTITY certmgr.addException.accesskey       "ח">
+<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "הוסף חריגת אבטחה">
-<!ENTITY exceptionMgr.exceptionButton.label   "אמת חריגת אבטחה">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "א">
-<!ENTITY exceptionMgr.supplementalWarning     "בנקים, חנויות ואתרים לגיטימיים אחרים לא יבקשו ממך לעשות זאת.">
-<!ENTITY exceptionMgr.certlocation.caption2   "שרת">
-<!ENTITY exceptionMgr.certlocation.url        "מיקום:">
-<!ENTITY exceptionMgr.certlocation.download   "קבל אישור">
-<!ENTITY exceptionMgr.certlocation.accesskey  "ק">
-<!ENTITY exceptionMgr.certstatus.caption      "מצב אישור">
-<!ENTITY exceptionMgr.certstatus.viewCert     "הצג…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "ה">
-<!ENTITY exceptionMgr.permanent.label         "שמור חריגה זו לתמיד">
-<!ENTITY exceptionMgr.permanent.accesskey     "ש">
-
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">
