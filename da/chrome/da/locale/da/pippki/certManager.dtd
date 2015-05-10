@@ -1,114 +1,104 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY certmgr.title                       "Certificate Manager">
-
-<!ENTITY certmgr.tab.mine                     "Your Certificates">
-<!ENTITY certmgr.tab.others2                  "People">
-<!ENTITY certmgr.tab.websites3                "Servers">
-<!ENTITY certmgr.tab.ca                       "Authorities">
-<!ENTITY certmgr.tab.orphan2                  "Others">
-
-<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
-<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
-
-<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
-<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
-<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
-<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
-<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
-
-<!ENTITY certmgr.detail.general_tab.title     "General">
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+-->
+<!ENTITY certmgr.title "Certifikatadministration">
+<!ENTITY certmgr.tab.mine "Dine certifikater">
+<!ENTITY certmgr.tab.others2 "Personer">
+<!ENTITY certmgr.tab.websites3 "Servere">
+<!ENTITY certmgr.tab.ca "Autoriteter">
+<!ENTITY certmgr.tab.orphan2 "Andet">
+<!ENTITY certmgr.ca.builtins "Indbyggede CA'er">
+<!ENTITY certmgr.ca.mycas "CA'er håndteret af dig">
+<!ENTITY certmgr.mine "Du har certifikater fra disse organisationer, der identificerer dig:">
+<!ENTITY certmgr.others "Du har certifikater liggende, der identificerer disse personer:">
+<!ENTITY certmgr.websites2 "Du har certifikater liggende, der identificerer disse servere:">
+<!ENTITY certmgr.cas "Du har certifikater liggende, der identificerer disse certifikatautoriteter:">
+<!ENTITY certmgr.orphans "Du har certifikater liggende, som ikke passer ind i nogen anden kategori:">
+<!ENTITY certmgr.detail.general_tab.title "Generelt">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Detaljer">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
-
-<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
-<!ENTITY certmgr.subjectinfo.label            "Issued To">
-<!ENTITY certmgr.issuerinfo.label             "Issued By">
-<!ENTITY certmgr.validity.label               "Validity" >
-<!ENTITY certmgr.fingerprints.label           "Fingerprints">
-<!ENTITY certmgr.certdetail.title             "Certificate Detail">
-<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organization (O)">
-<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
-<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
-
-<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
-<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
-<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
-<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
-<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
-<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
-<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
-<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
-<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
-<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
-<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
-
-<!ENTITY certmgr.deletecert.title             "Delete Certificate">
-<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
-<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
-<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
-<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
-<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
-
-<!ENTITY certmgr.certname                     "Certificate Name">
-<!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "Security Device">
-<!ENTITY certmgr.issued                       "Issued On">
-<!ENTITY certmgr.expires                      "Expires On">
-<!ENTITY certmgr.email                        "E-Mail Address">
-<!ENTITY certmgr.serial                       "Serial Number">
-
-<!ENTITY certmgr.close.label                  "Close">
-<!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "View…">
-<!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Edit Trust…">
-<!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Edit CA Trust">
-<!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "Add">
-<!ENTITY certmgr.add.accesskey                "A">
-<!ENTITY certmgr.export.label                 "Export…">
-<!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Delete…">
-<!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
-<!ENTITY certmgr.delete_builtin.accesskey     "D">
-<!ENTITY certmgr.backup2.label                "Backup…">
-<!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "Backup All…">
-<!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "Import…">
-<!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "Certificate Fields">
-<!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Field Value">
-<!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
-<!ENTITY certmgr.hierarchy.accesskey          "C">
-<!ENTITY certmgr.addException.label           "Add Exception…">
-<!ENTITY certmgr.addException.accesskey       "x">
-
-<!ENTITY exceptionMgr.title                   "Add Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Location:">
-<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
-<!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
-<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
-<!ENTITY exceptionMgr.permanent.accesskey     "P">
+<!ENTITY certmgr.pending.label "Verificerer certifikat…">
+<!ENTITY certmgr.subjectinfo.label "Udstedt til">
+<!ENTITY certmgr.issuerinfo.label "Udstedt af">
+<!ENTITY certmgr.validity.label "Gyldighed">
+<!ENTITY certmgr.fingerprints.label "Fingeraftryk">
+<!ENTITY certmgr.certdetail.title "Certifikatdetalje">
+<!ENTITY certmgr.certdetail.cn "Normalt Navn (CN)">
+<!ENTITY certmgr.certdetail.o "Organisation (O)">
+<!ENTITY certmgr.certdetail.ou "Organisatorisk enhed (OU)">
+<!ENTITY certmgr.certdetail.serialnumber "Serienummer">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingeraftryk">
+<!ENTITY certmgr.certdetail.sha1fingerprint "SHA1 Fingeraftryk">
+<!ENTITY certmgr.editcert.title "Rediger sikkerhedscertifikatindstillingerne">
+<!ENTITY certmgr.editcacert.title "Rediger tillidsindstillinger for CA-certifikat">
+<!ENTITY certmgr.editsslcert.title "Rediger websteds certifikattillidsindstillinger">
+<!ENTITY certmgr.editcert.edittrust "Rediger tillidsindstillinger:">
+<!ENTITY certmgr.editcert.trustssl "Dette certifikat kan identificere websteder.">
+<!ENTITY certmgr.editcert.trustemail "Dette certifikat kan identificere mailbrugere.">
+<!ENTITY certmgr.editcert.trustobjsign "Dette certifikat kan identificere programudviklere.">
+<!ENTITY certmgr.editsslcert.edittrust "Tilpas certifikattillidsindstillinger:">
+<!ENTITY certmgr.editsslcert.dotrust "Stol på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.editsslcert.donttrust "Stol ikke på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.editemailcert.title "Tillidsindstillinger for mailcertifikater">
+<!ENTITY certmgr.editemailcert.edittrust "Tilpas certifikattillidsindstillinger:">
+<!ENTITY certmgr.editemailcert.dotrust "Stol på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.editemailcert.donttrust "Stol ikke på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.deletecert.title "Slet certifikat">
+<!ENTITY certmgr.deletecert.beforename "Du har ønsket at slette dette certifikat:">
+<!ENTITY certmgr.deletecert.aftername "Er du sikker på, at du vil slette dette certifikat?">
+<!ENTITY certmgr.deleteusercert.title "Slet dit certifikat">
+<!ENTITY certmgr.deleteusercert.beforename "Du har ønsket at slette dette certifikat:">
+<!ENTITY certmgr.deleteusercert.aftername "Når du først har slettet dette certifikat kan du ikke længere læse post der er blevet krypteret med det.">
+<!ENTITY certmgr.certname "Certifikatnavn">
+<!ENTITY certmgr.certserver "Server">
+<!ENTITY certmgr.override_lifetime "Levetid">
+<!ENTITY certmgr.tokenname "Sikkerhedsenhed">
+<!ENTITY certmgr.issued "Udstedt den">
+<!ENTITY certmgr.expires "Udløber den">
+<!ENTITY certmgr.email "Mailadresse">
+<!ENTITY certmgr.serial "Serienummer">
+<!ENTITY certmgr.close.label "Luk">
+<!ENTITY certmgr.close.accesskey "L">
+<!ENTITY certmgr.view2.label "Vis…">
+<!ENTITY certmgr.view2.accesskey "V">
+<!ENTITY certmgr.edit3.label "Rediger tillid…">
+<!ENTITY certmgr.edit3.accesskey "R">
+<!ENTITY certmgr.editca.label "Rediger CA-tillid">
+<!ENTITY certmgr.editca.accesskey "d">
+<!ENTITY certmgr.add.label "Tilføj">
+<!ENTITY certmgr.add.accesskey "T">
+<!ENTITY certmgr.export.label "Eksporter…">
+<!ENTITY certmgr.export.accesskey "E">
+<!ENTITY certmgr.delete2.label "Slet…">
+<!ENTITY certmgr.delete2.accesskey "S">
+<!ENTITY certmgr.delete_builtin.label "Slet eller fjern tillid…">
+<!ENTITY certmgr.delete_builtin.accesskey "S">
+<!ENTITY certmgr.backup2.label "Lav sikkerhedskopi…">
+<!ENTITY certmgr.backup2.accesskey "k">
+<!ENTITY certmgr.backupall2.label "Lav sikkerhedskopi af alle…">
+<!ENTITY certmgr.backupall2.accesskey "a">
+<!ENTITY certmgr.restore2.label "Importer…">
+<!ENTITY certmgr.restore2.accesskey "I">
+<!ENTITY certmgr.details.label "Certifikatfelter">
+<!ENTITY certmgr.details.accesskey "f">
+<!ENTITY certmgr.fields.label "Feltværdi">
+<!ENTITY certmgr.fields.accesskey "e">
+<!ENTITY certmgr.hierarchy.label "Certifikathierarki">
+<!ENTITY certmgr.hierarchy.accesskey "C">
+<!ENTITY certmgr.addException.label "Tilføj undtagelse…">
+<!ENTITY certmgr.addException.accesskey "U">
+<!ENTITY exceptionMgr.title "Tilføj sikkerhedsundtagelse">
+<!ENTITY exceptionMgr.exceptionButton.label "Bekræft sikkerhedsundtagelse">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "B">
+<!ENTITY exceptionMgr.supplementalWarning "Legitime banker, forretninger og andre offentlige websteder vil ikke bede dig om at gøre dette.">
+<!ENTITY exceptionMgr.certlocation.caption2 "Server">
+<!ENTITY exceptionMgr.certlocation.url "Adresse:">
+<!ENTITY exceptionMgr.certlocation.download "Hent certifikat">
+<!ENTITY exceptionMgr.certlocation.accesskey "H">
+<!ENTITY exceptionMgr.certstatus.caption "Certifikatstatus">
+<!ENTITY exceptionMgr.certstatus.viewCert "Vis…">
+<!ENTITY exceptionMgr.certstatus.accesskey "V">
+<!ENTITY exceptionMgr.permanent.label "Gem denne undtagelse permanent">
+<!ENTITY exceptionMgr.permanent.accesskey "p">
