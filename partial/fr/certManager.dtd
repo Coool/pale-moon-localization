@@ -1,0 +1,104 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+-->
+<!ENTITY certmgr.title "Gestionnaire de certificats">
+<!ENTITY certmgr.tab.mine "Vos certificats">
+<!ENTITY certmgr.tab.others2 "Personnes">
+<!ENTITY certmgr.tab.websites3 "Serveurs">
+<!ENTITY certmgr.tab.ca "Autorités">
+<!ENTITY certmgr.tab.orphan2 "Autres">
+<!ENTITY certmgr.ca.builtins "Built-in CAs">
+<!ENTITY certmgr.ca.mycas "CA que vous gérez">
+<!ENTITY certmgr.mine "Les certificats de ces organisations vous identifient :">
+<!ENTITY certmgr.others "Vous avez des certificats sur le fichier qui identifient ces personnes :">
+<!ENTITY certmgr.websites2 "Vous avez des certificats sur le fichier qui identifient ces serveurs :">
+<!ENTITY certmgr.cas "Vous avez des certificats sur le fichier qui identifient ces autorités de certification :">
+<!ENTITY certmgr.orphans "You have certificates on file that do not fit in any of the other categories:">
+<!ENTITY certmgr.detail.general_tab.title "Générales">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Détails">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
+<!ENTITY certmgr.pending.label "Vérification de certificat en cours…">
+<!ENTITY certmgr.subjectinfo.label "Émis pour">
+<!ENTITY certmgr.issuerinfo.label "Émis par">
+<!ENTITY certmgr.validity.label "Validité">
+<!ENTITY certmgr.fingerprints.label "Empreintes">
+<!ENTITY certmgr.certdetail.title "Détails du certificat">
+<!ENTITY certmgr.certdetail.cn "Common Name (CN)">
+<!ENTITY certmgr.certdetail.o "Organisation (O)">
+<!ENTITY certmgr.certdetail.ou "Organizational Unit (OU)">
+<!ENTITY certmgr.certdetail.serialnumber "N° de série">
+<!ENTITY certmgr.certdetail.sha256fingerprint "Empreinte SHA256">
+<!ENTITY certmgr.certdetail.sha1fingerprint "Empreinte SHA1">
+<!ENTITY certmgr.editcert.title "Edit Security Certificate Settings">
+<!ENTITY certmgr.editcacert.title "Edit CA certificate trust settings">
+<!ENTITY certmgr.editsslcert.title "Edit website certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl "Ce certificat peut identifier des sites web.">
+<!ENTITY certmgr.editcert.trustemail "Ce certificat peut identifier des utilisateurs de messagerie.">
+<!ENTITY certmgr.editcert.trustobjsign "Ce certificat peut identifier des concepteurs de logiciels.">
+<!ENTITY certmgr.editsslcert.edittrust "Edit certificate trust settings:">
+<!ENTITY certmgr.editsslcert.dotrust "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editsslcert.donttrust "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.title "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.deletecert.title "Supprimer le certificat">
+<!ENTITY certmgr.deletecert.beforename "vous avez demandé la suppression de ce certificat :">
+<!ENTITY certmgr.deletecert.aftername "Confirmez-vous vouloir supprimer ce certificat ?">
+<!ENTITY certmgr.deleteusercert.title "Supprimer votre certificat">
+<!ENTITY certmgr.deleteusercert.beforename "Vous avez demandé la suppression de ce certificat :">
+<!ENTITY certmgr.deleteusercert.aftername "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
+<!ENTITY certmgr.certname "Nom du certificat">
+<!ENTITY certmgr.certserver "Serveur">
+<!ENTITY certmgr.override_lifetime "Durée de vie">
+<!ENTITY certmgr.tokenname "Security Device">
+<!ENTITY certmgr.issued "Issued On">
+<!ENTITY certmgr.expires "Expires On">
+<!ENTITY certmgr.email "E-Mail Address">
+<!ENTITY certmgr.serial "N° de série">
+<!ENTITY certmgr.close.label "Fermer">
+<!ENTITY certmgr.close.accesskey "F">
+<!ENTITY certmgr.view2.label "Afficher…">
+<!ENTITY certmgr.view2.accesskey "A">
+<!ENTITY certmgr.edit3.label "Edit Trust…">
+<!ENTITY certmgr.edit3.accesskey "E">
+<!ENTITY certmgr.editca.label "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey "d">
+<!ENTITY certmgr.add.label "Ajouter">
+<!ENTITY certmgr.add.accesskey "A">
+<!ENTITY certmgr.export.label "Exporter…">
+<!ENTITY certmgr.export.accesskey "x">
+<!ENTITY certmgr.delete2.label "Supprimer…">
+<!ENTITY certmgr.delete2.accesskey "u">
+<!ENTITY certmgr.delete_builtin.label "Supprimer ou Refuser la confiance…">
+<!ENTITY certmgr.delete_builtin.accesskey "S">
+<!ENTITY certmgr.backup2.label "Sauvegharde…">
+<!ENTITY certmgr.backup2.accesskey "B">
+<!ENTITY certmgr.backupall2.label "Tout sauvegarder…">
+<!ENTITY certmgr.backupall2.accesskey "k">
+<!ENTITY certmgr.restore2.label "Importer…">
+<!ENTITY certmgr.restore2.accesskey "m">
+<!ENTITY certmgr.details.label "Champs de certificat">
+<!ENTITY certmgr.details.accesskey "F">
+<!ENTITY certmgr.fields.label "Valeur du champ">
+<!ENTITY certmgr.fields.accesskey "V">
+<!ENTITY certmgr.hierarchy.label "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey "C">
+<!ENTITY certmgr.addException.label "Ajouter une exception">
+<!ENTITY certmgr.addException.accesskey "x">
+<!ENTITY exceptionMgr.title "Ajouter une exception de sécurité">
+<!ENTITY exceptionMgr.exceptionButton.label "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2 "Serveur">
+<!ENTITY exceptionMgr.certlocation.url "Emplacement :">
+<!ENTITY exceptionMgr.certlocation.download "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey "G">
+<!ENTITY exceptionMgr.certstatus.caption "Statut du certificat">
+<!ENTITY exceptionMgr.certstatus.viewCert "Afficher…">
+<!ENTITY exceptionMgr.certstatus.accesskey "V">
+<!ENTITY exceptionMgr.permanent.label "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey "P">
