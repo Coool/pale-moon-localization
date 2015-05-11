@@ -1,114 +1,104 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY certmgr.title                       "Certificate Manager">
-
-<!ENTITY certmgr.tab.mine                     "Your Certificates">
-<!ENTITY certmgr.tab.others2                  "People">
-<!ENTITY certmgr.tab.websites3                "Servers">
-<!ENTITY certmgr.tab.ca                       "Authorities">
-<!ENTITY certmgr.tab.orphan2                  "Others">
-
-<!ENTITY certmgr.ca.builtins                  "Built-in CAs">
-<!ENTITY certmgr.ca.mycas                     "CAs Managed By You">
-
-<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
-<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
-<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
-<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
-<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
-
-<!ENTITY certmgr.detail.general_tab.title     "General">
-<!ENTITY certmgr.detail.general_tab.accesskey "G">
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+-->
+<!ENTITY certmgr.title "Certificatenbeheerder">
+<!ENTITY certmgr.tab.mine "Uw certificaten">
+<!ENTITY certmgr.tab.others2 "Personen">
+<!ENTITY certmgr.tab.websites3 "Servers">
+<!ENTITY certmgr.tab.ca "Organisaties">
+<!ENTITY certmgr.tab.orphan2 "Overige">
+<!ENTITY certmgr.ca.builtins "Ingebouwde CA’s">
+<!ENTITY certmgr.ca.mycas "CA’s beheerd door u">
+<!ENTITY certmgr.mine "U hebt certificaten van deze organisaties, die u identificeren:">
+<!ENTITY certmgr.others "U hebt certificaten gearchiveerd die deze personen identificeren:">
+<!ENTITY certmgr.websites2 "U hebt certificaten gearchiveerd die deze servers identificeren:">
+<!ENTITY certmgr.cas "U hebt certificaten gearchiveerd die deze certificatieautoriteiten identificeren:">
+<!ENTITY certmgr.orphans "U hebt certificaten gearchiveerd die niet passen in één van de andere categorieën:">
+<!ENTITY certmgr.detail.general_tab.title "Algemeen">
+<!ENTITY certmgr.detail.general_tab.accesskey "A">
 <!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
-
-<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
-<!ENTITY certmgr.subjectinfo.label            "Issued To">
-<!ENTITY certmgr.issuerinfo.label             "Issued By">
-<!ENTITY certmgr.validity.label               "Validity" >
-<!ENTITY certmgr.fingerprints.label           "Fingerprints">
-<!ENTITY certmgr.certdetail.title             "Certificate Detail">
-<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organization (O)">
-<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
-<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
-
-<!ENTITY certmgr.editcert.title               "Edit Security Certificate Settings">
-<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
-<!ENTITY certmgr.editsslcert.title            "Edit website certificate trust settings">
-<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
-<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
-<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
-<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
-<!ENTITY certmgr.editsslcert.edittrust        "Edit certificate trust settings:">
-<!ENTITY certmgr.editsslcert.dotrust          "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editsslcert.donttrust        "Do not trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
-<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
-<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
-
-<!ENTITY certmgr.deletecert.title             "Delete Certificate">
-<!ENTITY certmgr.deletecert.beforename        "You have requested to delete this certificate:">
-<!ENTITY certmgr.deletecert.aftername         "Are you sure you want to delete this certificate?">
-<!ENTITY certmgr.deleteusercert.title         "Delete Your Certificate">
-<!ENTITY certmgr.deleteusercert.beforename    "You have requested to delete the certificate:">
-<!ENTITY certmgr.deleteusercert.aftername     "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it.">
-
-<!ENTITY certmgr.certname                     "Certificate Name">
-<!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "Security Device">
-<!ENTITY certmgr.issued                       "Issued On">
-<!ENTITY certmgr.expires                      "Expires On">
-<!ENTITY certmgr.email                        "E-Mail Address">
-<!ENTITY certmgr.serial                       "Serial Number">
-
-<!ENTITY certmgr.close.label                  "Close">
-<!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "View…">
-<!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Edit Trust…">
-<!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Edit CA Trust">
-<!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "Add">
-<!ENTITY certmgr.add.accesskey                "A">
-<!ENTITY certmgr.export.label                 "Export…">
-<!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Delete…">
-<!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
-<!ENTITY certmgr.delete_builtin.accesskey     "D">
-<!ENTITY certmgr.backup2.label                "Backup…">
-<!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "Backup All…">
-<!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "Import…">
-<!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "Certificate Fields">
-<!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Field Value">
-<!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
-<!ENTITY certmgr.hierarchy.accesskey          "C">
-<!ENTITY certmgr.addException.label           "Add Exception…">
-<!ENTITY certmgr.addException.accesskey       "x">
-
-<!ENTITY exceptionMgr.title                   "Add Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Location:">
-<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
-<!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
-<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
-<!ENTITY exceptionMgr.permanent.accesskey     "P">
+<!ENTITY certmgr.pending.label "Certificaat aan het verifiëren…">
+<!ENTITY certmgr.subjectinfo.label "Uitgegeven aan">
+<!ENTITY certmgr.issuerinfo.label "Uitgegeven door">
+<!ENTITY certmgr.validity.label "Geldigheid">
+<!ENTITY certmgr.fingerprints.label "Vingerafdrukken">
+<!ENTITY certmgr.certdetail.title "Detail van certificaat">
+<!ENTITY certmgr.certdetail.cn "Algemene naam (CN)">
+<!ENTITY certmgr.certdetail.o "Organisatie (O)">
+<!ENTITY certmgr.certdetail.ou "Organisatorische eenheid (OU)">
+<!ENTITY certmgr.certdetail.serialnumber "Serienummer">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256-vingerafdruk">
+<!ENTITY certmgr.certdetail.sha1fingerprint "SHA1-vingerafdruk">
+<!ENTITY certmgr.editcert.title "Beveiligingscertificaatinstellingen bewerken">
+<!ENTITY certmgr.editcacert.title "CA-certificaat-vertrouwensinstellingen bewerken">
+<!ENTITY certmgr.editsslcert.title "Websitecertificaat-vertrouwensinstellingen bewerken">
+<!ENTITY certmgr.editcert.edittrust "Vertrouwensinstellingen bewerken:">
+<!ENTITY certmgr.editcert.trustssl "Dit certificaat kan websites identificeren.">
+<!ENTITY certmgr.editcert.trustemail "Dit certificaat kan e-mailgebruikers identificeren.">
+<!ENTITY certmgr.editcert.trustobjsign "Dit certificaat kan makers van programmatuur identificeren.">
+<!ENTITY certmgr.editsslcert.edittrust "Certificaat-vertrouwensinstellingen bewerken:">
+<!ENTITY certmgr.editsslcert.dotrust "De echtheid van dit certificaat vertrouwen.">
+<!ENTITY certmgr.editsslcert.donttrust "De echtheid van dit certificaat wantrouwen.">
+<!ENTITY certmgr.editemailcert.title "E-mailcertificaat-vertrouwensinstellingen bewerken">
+<!ENTITY certmgr.editemailcert.edittrust "Certificaat-vertrouwensinstellingen bewerken:">
+<!ENTITY certmgr.editemailcert.dotrust "De echtheid van dit certificaat vertrouwen.">
+<!ENTITY certmgr.editemailcert.donttrust "De echtheid van dit certificaat wantrouwen.">
+<!ENTITY certmgr.deletecert.title "Certificaat verwijderen">
+<!ENTITY certmgr.deletecert.beforename "U hebt gevraagd dit certificaat te verwijderen:">
+<!ENTITY certmgr.deletecert.aftername "Weet u zeker dat u dit certificaat wilt verwijderen?">
+<!ENTITY certmgr.deleteusercert.title "Uw certificaat verwijderen">
+<!ENTITY certmgr.deleteusercert.beforename "U hebt gevraagd dit certificaat te verwijderen:">
+<!ENTITY certmgr.deleteusercert.aftername "Als u dit certificaat hebt verwijderd, zult u geen mail kunnen lezen die ermee is versleuteld.">
+<!ENTITY certmgr.certname "Certificaatnaam">
+<!ENTITY certmgr.certserver "Server">
+<!ENTITY certmgr.override_lifetime "Levensduur">
+<!ENTITY certmgr.tokenname "Beveiligingsapparaat">
+<!ENTITY certmgr.issued "Uitgegeven op">
+<!ENTITY certmgr.expires "Verloopt op">
+<!ENTITY certmgr.email "E-mailadres">
+<!ENTITY certmgr.serial "Serienummer">
+<!ENTITY certmgr.close.label "Sluiten">
+<!ENTITY certmgr.close.accesskey "S">
+<!ENTITY certmgr.view2.label "Weergeven…">
+<!ENTITY certmgr.view2.accesskey "W">
+<!ENTITY certmgr.edit3.label "Vertrouwen bewerken…">
+<!ENTITY certmgr.edit3.accesskey "b">
+<!ENTITY certmgr.editca.label "CA-vertrouwen bewerken">
+<!ENTITY certmgr.editca.accesskey "A">
+<!ENTITY certmgr.add.label "Toevoegen">
+<!ENTITY certmgr.add.accesskey "T">
+<!ENTITY certmgr.export.label "Exporteren…">
+<!ENTITY certmgr.export.accesskey "x">
+<!ENTITY certmgr.delete2.label "Verwijderen…">
+<!ENTITY certmgr.delete2.accesskey "V">
+<!ENTITY certmgr.delete_builtin.label "Verwijderen of wantrouwen…">
+<!ENTITY certmgr.delete_builtin.accesskey "V">
+<!ENTITY certmgr.backup2.label "Reservekopie maken…">
+<!ENTITY certmgr.backup2.accesskey "R">
+<!ENTITY certmgr.backupall2.label "Reservekopie van alle maken…">
+<!ENTITY certmgr.backupall2.accesskey "k">
+<!ENTITY certmgr.restore2.label "Importeren…">
+<!ENTITY certmgr.restore2.accesskey "m">
+<!ENTITY certmgr.details.label "Certificaatvelden">
+<!ENTITY certmgr.details.accesskey "f">
+<!ENTITY certmgr.fields.label "Veldwaarde">
+<!ENTITY certmgr.fields.accesskey "V">
+<!ENTITY certmgr.hierarchy.label "Certificaathiërarchie">
+<!ENTITY certmgr.hierarchy.accesskey "C">
+<!ENTITY certmgr.addException.label "Uitzondering toevoegen…">
+<!ENTITY certmgr.addException.accesskey "U">
+<!ENTITY exceptionMgr.title "Beveiligingsuitzondering toevoegen">
+<!ENTITY exceptionMgr.exceptionButton.label "Beveiligingsuitzondering bevestigen">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "b">
+<!ENTITY exceptionMgr.supplementalWarning "Legitieme banken, winkels en andere publieke websites zullen dit niet vragen.">
+<!ENTITY exceptionMgr.certlocation.caption2 "Server">
+<!ENTITY exceptionMgr.certlocation.url "Locatie:">
+<!ENTITY exceptionMgr.certlocation.download "Certificaat ophalen">
+<!ENTITY exceptionMgr.certlocation.accesskey "o">
+<!ENTITY exceptionMgr.certstatus.caption "Certificaatstatus">
+<!ENTITY exceptionMgr.certstatus.viewCert "Weergeven…">
+<!ENTITY exceptionMgr.certstatus.accesskey "W">
+<!ENTITY exceptionMgr.permanent.label "Deze uitzondering voor altijd opslaan">
+<!ENTITY exceptionMgr.permanent.accesskey "a">
