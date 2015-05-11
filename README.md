@@ -8,6 +8,7 @@ This repository serves as the master version control repository for the language
 
 If you want to contribute, please keep the following guidelines in mind:
 * All language code directories (e.g. [en-US]) should contain *only* the files that should go into the language pack XPIs. If you have other files (e.g. reference files) that should be contained in this repo, please create a new directory that starts with the language code but has an extension .extra, e.g. [en-US.extra]
+* The main translation system in use currently is babelzilla (http://www.babelzilla.org) which may have more complete partial translations than present here. If you want to work on a language through this repo, get in touch with me to get an as-much spliced set of language pack files as possible. This has to be done manually at the moment.
 * The browser name "Pale Moon" should always remain untranslated, in 2-word capitalized form.
 * Other proper names (e.g. Moonchild Productions, Pale Moon Sync) should remain untranslated as well.
 * Please always translate from the US-English language, which is the original source language. Do not use an already-translated other language as your source language, to prevent degradation of the translations due to limits in exactly matching vocabulary in different languages.
