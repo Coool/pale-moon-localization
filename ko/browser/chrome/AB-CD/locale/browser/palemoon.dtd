@@ -1,49 +1,43 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
+-->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label            "Send Link…">
-<!ENTITY palemoon.sendLinkCmd.accesskey        "d">
-<!ENTITY palemoon.sendPageCmd.label            "Send Page Link…">
-<!ENTITY palemoon.sendPageCmd.accesskey        "e">
-
-<!ENTITY palemoon.menu.statusBar.label               "Status Bar">
-<!ENTITY palemoon.menu.statusBar.accesskey           "S">
-<!ENTITY palemoon.menu.allBookmarks.label            "Organize Bookmarks">
-
+<!ENTITY palemoon.sendLinkCmd.label "메일로 링크 보내기">
+<!ENTITY palemoon.sendLinkCmd.accesskey "d">
+<!ENTITY palemoon.sendPageCmd.label "메일로 페이지 보내기">
+<!ENTITY palemoon.sendPageCmd.accesskey "e">
+<!ENTITY palemoon.menu.statusBar.label "상태 바">
+<!ENTITY palemoon.menu.statusBar.accesskey "S">
+<!ENTITY palemoon.menu.allBookmarks.label "북마크 관리하기">
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label       "Use the classic downloads window">
-
-<!ENTITY palemoon.showTabBar.label                   "Always show the tab bar">
-<!ENTITY palemoon.showTabBar.accesskey               "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Insert related tabs next to the current tab">
-<!ENTITY palemoon.contextLoadInBackground.label      "When performing a context search, switch to the new tab immediately">
-<!ENTITY palemoon.closeWindowWithLastTab.label       "Close the window when the last tab is closed">
-<!ENTITY palemoon.newtabPage.label                   "When opening a new tab, show:">
-<!ENTITY palemoon.newtabPage.blank.label             "A blank page">
-<!ENTITY palemoon.newtabPage.home.label              "The Pale Moon start page">
-<!ENTITY palemoon.newtabPage.quickdial.label         "The Quickdial page">
-
-<!ENTITY palemoon.loadImages.label            "Load images:">
-<!ENTITY palemoon.loadImages.always           "Automatically">
-<!ENTITY palemoon.loadImages.never            "Never">
-<!ENTITY palemoon.loadImages.no3rdparty       "Originating server only">
-
-<!ENTITY palemoon.firefoxCompatGroup.label    "Firefox Compatibility">
-<!ENTITY palemoon.firefoxCompat.label         "Use Firefox Compatibility mode">
-
-<!ENTITY palemoon.scrollparamTab.label               "Scrolling">
-<!ENTITY palemoon.smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY palemoon.smoothscroll.to                    "to">
-<!ENTITY palemoon.smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY palemoon.smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
-
-<!ENTITY allTabs.filter.emptyText "Search Tabs">
+<!ENTITY toolkit.classic.download.window.label "고전 다운로드 창 사용">
+<!ENTITY palemoon.showTabBar.label "항상 탭 바에 보여주기">
+<!ENTITY palemoon.showTabBar.accesskey "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label "관련된 탭은 현재 탭 다음에 열기">
+<!ENTITY palemoon.contextLoadInBackground.label "내용 검색을 수행할 때, 즉시 새로운 탭으로 전환하기">
+<!ENTITY palemoon.closeWindowWithLastTab.label "마지막 탭이 닫히면 창을 닫기(&amp;C)">
+<!ENTITY palemoon.newtabPage.label "새로운 탭을 열 때, 보여줄 페이지:">
+<!ENTITY palemoon.newtabPage.blank.label "빈 페이지">
+<!ENTITY palemoon.newtabPage.home.label "Pale Moon 시작 페이지">
+<!ENTITY palemoon.newtabPage.quickdial.label "빠른 다이얼 페이지">
+<!ENTITY palemoon.loadImages.label "불러올 이미지:">
+<!ENTITY palemoon.loadImages.always "자동">
+<!ENTITY palemoon.loadImages.never "하지 않음">
+<!ENTITY palemoon.loadImages.no3rdparty "서버에서 온 것만">
+<!ENTITY palemoon.firefoxCompatGroup.label "Firefox 호환성">
+<!ENTITY palemoon.firefoxCompat.label "Firefox 호환 모드 사용">
+<!ENTITY palemoon.scrollparamTab.label "스크롤 기능">
+<!ENTITY palemoon.smoothscroll.explain.label "하단 값들은 오직 상단 체크 박스에서 부드러운 스크롤 기능 사용이 활성화된 경우에만 적용됩니다.">
+<!ENTITY palemoon.smoothscroll.to "~">
+<!ENTITY palemoon.smoothscroll.params.label "부드러운 스크롤 기능 값">
+<!ENTITY palemoon.smoothscroll.mousewheel.label "마우스 휠 사용시 부드러운 스크롤">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration "마우스 휠 스크롤 간격:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label "방향키 사용시 부드러운 스크롤">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration "방향키 스크롤 간격:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label "page up/down키 사용시 부드러운 스크롤">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration "Page up/down 스크롤 간격:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label "스크롤 바 사용시 부드러운 스크롤">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration "스크롤 바의 부드러운 스크롤 간격:">
+<!ENTITY allTabs.filter.emptyText "탭 검색">
