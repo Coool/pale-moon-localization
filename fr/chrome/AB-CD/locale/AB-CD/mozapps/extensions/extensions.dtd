@@ -6,9 +6,9 @@
 <!ENTITY search.commandkey                    "f">
 
 <!ENTITY loading.label                        "Chargement…">
-<!ENTITY listEmpty.installed.label            "Vous n'avez aucun module de ce type installé">
+<!ENTITY listEmpty.installed.label            "Il n'y a aucun aucun module de ce type installé">
 <!ENTITY listEmpty.availableUpdates.label     "Aucune mise à jour trouvée">
-<!ENTITY listEmpty.recentUpdates.label        "Vous n'avez pas mis à jour vos modules complémentaires depuis un certain temps">
+<!ENTITY listEmpty.recentUpdates.label        "Les modules complémentaires n'ont pas été mis à jour depuis un certain temps">
 <!ENTITY listEmpty.findUpdates.label          "Vérifier les mises à jour">
 <!ENTITY listEmpty.search.label               "Aucun module correspondant">
 <!ENTITY listEmpty.button.label               "En apprendre plus sur les modules complémentaires">
@@ -21,10 +21,10 @@
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Tous les modules complémentaires ont été désactivés par le mode sans échec.">
-<!ENTITY warning.checkcompatibility.label          "La vérification de compatibilité des modules complémentaires est désactivée. Vous avez peut-être des modules complémentaires incompatibles.">
+<!ENTITY warning.checkcompatibility.label          "La vérification de compatibilité des modules complémentaires est désactivée. Il y a peut-être des modules complémentaires incompatibles.">
 <!ENTITY warning.checkcompatibility.enable.label   "Activer">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Activer la vérification de compatibilité">
-<!ENTITY warning.updatesecurity.label              "La vérification de mises à jour de sécurité pour les modules complémentaires est désactivée. Vous avez peut-être des modules complémentaires non sûrs.">
+<!ENTITY warning.updatesecurity.label              "La vérification de mises à jour de sécurité pour les modules complémentaires est désactivée. Il y a peut-être des modules complémentaires non sûrs.">
 <!ENTITY warning.updatesecurity.enable.label       "Activer">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Activer la vérification de mises à jour de sécurité pour les modules complémentaires">
 
@@ -50,8 +50,8 @@
 <!ENTITY updates.resetUpdatesToManual.label          "Désactiver la mise à jour automatique pour tous les modules">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "D">
 <!ENTITY updates.updating.label               "Mise à jour des modules">
-<!ENTITY updates.installed.label              "Vos modules ont été mis à jour.">
-<!ENTITY updates.downloaded.label             "Les mises à jour de vos modules ont été téléchargées.">
+<!ENTITY updates.installed.label              "Les modules ont été mis à jour.">
+<!ENTITY updates.downloaded.label             "Les mises à jour des modules ont été téléchargées.">
 <!ENTITY updates.restart.label                "Redémarrer maintenant pour terminer l'installation">
 <!ENTITY updates.noneFound.label              "Aucune mise à jour disponible">
 <!ENTITY updates.manualUpdatesFound.label     "Afficher les mises à jour disponibles">
@@ -106,9 +106,9 @@
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Que sont les modules complémentaires ?">
 <!ENTITY discover.description2                "Les modules complémentaires sont des applications permettant de personnaliser &brandShortName;
-  avec des fonctionnalités ou des styles supplémentaires. Gagnez du temps avec un panneau latéral, surveillez la météo ou changez l'apparence de &brandShortName;
-  à votre guise.">
-<!ENTITY discover.footer                      "Lorsque votre connexion Internet sera active, ce panneau vous permettra de découvrir
+  avec des fonctionnalités ou des styles supplémentaires (gagner du temps avec un panneau latéral, surveiller la météo ou changez l'apparence de &brandShortName;
+  à votre guise, etc).">
+<!ENTITY discover.footer                      "Lorsque la connexion Internet sera active, ce panneau permettra de découvrir
   certains des meilleurs modules complémentaires ainsi que les plus populaires.">
 
 <!-- detail view -->

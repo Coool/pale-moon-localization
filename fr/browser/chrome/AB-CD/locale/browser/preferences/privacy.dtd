@@ -4,11 +4,11 @@
 
 <!ENTITY tracking.label                 "Pistage">
 
-<!ENTITY dntTrackingNopref.label2       "Ne rien indiquer aux sites concernant mes préférences de pistage">
+<!ENTITY dntTrackingNopref.label2       "Ne rien indiquer aux sites concernant les préférences de pistage">
 <!ENTITY dntTrackingNopref.accesskey    "m">
-<!ENTITY dntTrackingNotOkay.label2      "Indiquer aux sites que je ne souhaite pas être pisté">
+<!ENTITY dntTrackingNotOkay.label2      "Indiquer aux sites de ne pas pister">
 <!ENTITY dntTrackingNotOkay.accesskey   "d">
-<!ENTITY dntTrackingOkay.label2         "Indiquer aux sites que je souhaite être pisté">
+<!ENTITY dntTrackingOkay.label2         "Indiquer aux sites de pister">
 <!ENTITY dntTrackingOkay.accesskey      "e">
 <!ENTITY doNotTrackInfo.label           "En savoir plus">
 
@@ -38,7 +38,7 @@
 
 <!ENTITY  expire.label                  "leur expiration">
 <!ENTITY  close.label                   "la fermeture de &brandShortName;">
-<!ENTITY  askEachTime.label             "me demander à chaque fois">
+<!ENTITY  askEachTime.label             "demander à chaque fois">
 
 <!ENTITY  cookieExceptions.label        "Exceptions…">
 <!ENTITY  cookieExceptions.accesskey    "x">
@@ -48,9 +48,9 @@
 
 <!ENTITY  historyHeader.pre.label          "Règles de conservation :">
 <!ENTITY  historyHeader.pre.accesskey      "R">
-<!ENTITY  historyHeader.remember.label     "conserver l'historique">
-<!ENTITY  historyHeader.dontremember.label "ne jamais conserver l'historique">
-<!ENTITY  historyHeader.custom.label       "utiliser les paramètres personnalisés pour l'historique">
+<!ENTITY  historyHeader.remember.label     "Conserver l'historique">
+<!ENTITY  historyHeader.dontremember.label "Ne jamais conserver l'historique">
+<!ENTITY  historyHeader.custom.label       "Utiliser les paramètres personnalisés pour l'historique">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName; conservera les données de navigation, les téléchargements, les formulaires et l'historique de recherche, et les cookies des sites visités.">
@@ -58,17 +58,17 @@
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-<!ENTITY  rememberActions.pre.label           "Vous voulez peut-être ">
-<!ENTITY  rememberActions.clearHistory.label  "effacer votre historique récent">
+<!ENTITY  rememberActions.pre.label           "Peut-être faut-il ">
+<!ENTITY  rememberActions.clearHistory.label  "effacer l'historique récent">
 <!ENTITY  rememberActions.middle.label        ", ou ">
 <!ENTITY  rememberActions.removeCookies.label "supprimer des cookies spécifiques">
-<!ENTITY  rememberActions.post.label          ".">
+<!ENTITY  rememberActions.post.label          " ?">
 
-<!ENTITY  dontrememberDescription.label  "&brandShortName; utilisera les mêmes paramètres que pour la navigation privée et ne conservera aucun historique de votre navigation.">
+<!ENTITY  dontrememberDescription.label  "&brandShortName; utilisera les mêmes paramètres que pour la navigation privée et ne conservera aucun historique de la navigation.">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-<!ENTITY  dontrememberActions.pre.label          "Vous voulez peut-être ">
+<!ENTITY  dontrememberActions.pre.label          "Peut-être faut-il ">
 <!ENTITY  dontrememberActions.clearHistory.label "effacer la totalité de l'historique actuel">
 <!ENTITY  dontrememberActions.post.label         ".">
 <!ENTITY  privateBrowsingPermanent2.label "Toujours utiliser le mode de navigation privée">

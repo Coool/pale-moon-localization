@@ -19,21 +19,21 @@
 <!ENTITY dnsNotFound.title "Adresse introuvable">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-  <li>Veuillez vérifier la syntaxe de l'adresse
+  <li>Il faut vérifier la syntaxe de l'adresse
     (saisie de <strong>ww</strong>.exemple.com au lieu de
     <strong>www</strong>.exemple.com par exemple)&#x00A0;;</li>
-  <li>Si vous n'arrivez à naviguer sur aucun site, vérifiez la connexion
-    au réseau de votre ordinateur&#x00A0;;</li>
-  <li>Si votre ordinateur ou votre réseau est protégé par un pare-feu ou un proxy,
-    assurez-vous que &brandShortName; a l'autorisation d'accéder au Web.</li>
+  <li>Si la navigation n'est pas possible sur aucun site, vérifier la connexion
+    au réseau de l'ordinateur&#x00A0;;</li>
+  <li>Si l'ordinateur ou le réseau est protégé par un pare-feu ou un proxy,
+    s'assurer que &brandShortName; a l'autorisation d'accéder à Internet.</li>
 </ul>
 ">
 
 <!ENTITY fileNotFound.title "Fichier introuvable">
 <!ENTITY fileNotFound.longDesc "
 <ul>
-  <li>Vérifiez la syntaxe du nom de fichier (dont le respect des minuscules/majuscules)&#x00A0;;</li>
-  <li>Vérifiez si le fichier n'a pas été déplacé, renommé ou supprimé.</li>
+  <li>Vérifier la syntaxe du nom de fichier (dont le respect des minuscules/majuscules)&#x00A0;;</li>
+  <li>Vérifier si le fichier n'a pas été déplacé, renommé ou supprimé.</li>
 </ul>
 ">
 
@@ -42,12 +42,12 @@
 <p>Pour une raison inconnue, &brandShortName; ne peut pas charger cette page.</p>
 ">
 
-<!ENTITY malformedURI.title "L'adresse n'est pas valide">
+<!ENTITY malformedURI.title "L'adresse n'est pas valable">
 <!ENTITY malformedURI.longDesc "
 <ul>
-  <li>La syntaxe des adresses web est généralement
+  <li>La syntaxe des adresses internet est généralement
     <strong>http://www.exemple.com/</strong>&#x00A0;;</li>
-  <li>Assurez-vous de bien utiliser des barres obliques (c.à.d.
+  <li>S'assurer de bien utiliser des barres obliques (c.à.d.
     <strong>/</strong>).</li>
 </ul>
 ">
@@ -56,26 +56,26 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Le document a expiré">
-<!ENTITY notCached.longDesc "<p>Le document demandé n'est plus disponible dans le cache de &brandShortName;.</p><ul><li>Par mesure de sécurité, &brandShortName; ne redemande pas automatiquement de documents sensibles.</li><li>Cliquez sur Réessayer pour redemander ce document depuis le site web.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Le document demandé n'est plus disponible dans le cache de &brandShortName;.</p><ul><li>Par mesure de sécurité, &brandShortName; ne redemande pas automatiquement de documents sensibles.</li><li>Cliquer sur « Réessayer » pour redemander ce document depuis le site internet.</li></ul>">
 
 <!ENTITY netOffline.title "Mode hors connexion">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Cliquez sur le bouton « Réessayer » pour revenir en mode connecté et recharger la page.</li>
+  <li>Cliquer sur le bouton « Réessayer » pour revenir en mode connecté et recharger la page.</li>
 </ul>
 ">
 
 <!ENTITY contentEncodingError.title "Erreur d'encodage de contenu">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Veuillez contacter les propriétaires du site pour les informer de ce problème.</li>
+  <li>Contacter les propriétaires du site internet pour les informer de ce problème.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Type de fichier non sûr">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li>
+  <li>Contacter les propriétaires du site internet pour les informer de ce problème.</li>
 </ul>
 ">
 
@@ -95,8 +95,8 @@
 <!ENTITY proxyConnectFailure.title "La connexion a été refusée par le serveur proxy">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
-  <li>Vérifiez que les paramètres du proxy sont corrects&#x00A0;;</li>
-  <li>Contactez votre administrateur réseau pour vous assurer que le serveur proxy
+  <li>Vérifier que les paramètres du proxy sont corrects&#x00A0;;</li>
+  <li>Contacter l'administrateur réseau pour s'assurer que le serveur proxy
     fonctionne.</li>
 </ul>
 ">
@@ -104,10 +104,10 @@
 <!ENTITY proxyResolveFailure.title "Le serveur proxy est introuvable">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
-  <li>Vérifiez que les paramètres du proxy sont corrects&#x00A0;;</li>
-  <li>Vérifiez que la connexion réseau de votre ordinateur fonctionne&#x00A0;;</li>
-  <li>Si votre ordinateur ou votre réseau est protégé par un pare-feu ou un proxy,
-    assurez-vous que &brandShortName; a l'autorisation d'accéder au Web.</li>
+  <li>Vérifier que les paramètres du proxy sont corrects&#x00A0;;</li>
+  <li>Vérifier que la connexion réseau de l'ordinateur fonctionne&#x00A0;;</li>
+  <li>Si l'ordinateur ou votre réseau est protégé par un pare-feu ou un proxy,
+    s'assurer que &brandShortName; a l'autorisation d'accéder à Internet.</li>
 </ul>
 ">
 
@@ -122,8 +122,8 @@
 <!ENTITY unknownSocketType.title "Réponse inattendue du serveur">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
-  <li>Vérifiez que le gestionnaire de sécurité personnelle (PSM) est installé sur
-    votre système.</li>
+  <li>Vérifier que le gestionnaire de sécurité personnelle (PSM) est installé sur
+    ce système.</li>
   <li>Ceci peut être dû à une configuration inhabituelle du serveur.</li>
 </ul>
 ">
@@ -131,9 +131,9 @@
 <!ENTITY nssFailure2.title "Échec de la connexion sécurisée">
 <!ENTITY nssFailure2.longDesc "
 <ul>
-  <li>La page que vous essayez de consulter ne peut pas être affichée car l'authenticité des données reçues ne peut être vérifiée.</li>
-  <li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.
-Vous pouvez également utiliser la commande dans le menu d'aide pour signaler un site non fonctionnel.</li>
+  <li>La page consultée ne peut pas être affichée car l'authenticité des données reçues ne peut être vérifiée.</li>
+  <li>Contacter les propriétaires du site internet pour les informer de ce problème.
+Il est également possible d'utiliser la commande dans le menu d'aide pour signaler un site non fonctionnel.</li>
 </ul>
 ">
 
@@ -146,29 +146,29 @@ Vous pouvez également utiliser la commande dans le menu d'aide pour signaler un
 
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>Le site est peut-être temporairement indisponible ou surchargé. Réessayez plus
+  <li>Le site est peut-être temporairement indisponible ou surchargé. Réessayer plus
     tard ;</li>
-  <li>Si vous n'arrivez à naviguer sur aucun site, vérifiez la connexion
-    au réseau de votre ordinateur&#x00A0;;</li>
-  <li>Si votre ordinateur ou votre réseau est protégé par un pare-feu ou un proxy,
-    assurez-vous que &brandShortName; est autorisé à accéder au Web.</li>
+  <li>S'il n'est pas possible de naviguer sur aucun site, vérifier la connexion
+    au réseau de cet ordinateur&#x00A0;;</li>
+  <li>Si cet ordinateur ou ce réseau est protégé par un pare-feu ou un proxy,
+    s'assurer que &brandShortName; est autorisé à accéder à Internet.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Suspicion de site malveillant !">
 <!ENTITY malwareBlocked.longDesc "
-<p>Les sites malveillants tentent d'installer des programmes qui volent les informations personnelles, qui utilisent votre ordinateur pour en attaquer d'autres ou qui endommagent votre système.</p>
-<p>Les propriétaires de sites web qui pensent que leur site a été rapporté à tort comme malveillant peuvent <a href='http://www.stopbadware.org/home/reviewinfo'>demander une révision</a>.</p>">
+<p>Les sites malveillants tentent d'installer des programmes qui volent les informations personnelles, qui utilisent les ordinateurs pour en attaquer d'autres ou qui endommagent le système.</p>
+<p>Les propriétaires de sites internet qui pensent que leur site a été rapporté à tort comme malveillant peuvent <a href='http://www.stopbadware.org/home/reviewinfo'>demander une révision</a>.</p>">
 
 <!ENTITY phishingBlocked.title "Suspicion de site contrefait !">
 <!ENTITY phishingBlocked.longDesc "
 <p>Saisir des informations personnelles sur cette page peut aboutir à un vol d'identité ou à une autre fraude.</p>
-<p>Ces types de contrefaçon de sites sont utilisés dans des courriels frauduleux conçus pour des attaques par hameçonnage (ou phishing), dans lesquelles les pages web et les courriels frauduleux sont utilisés pour imiter des sources en lesquelles vous avez confiance.</p>">
+<p>Ces types de contrefaçon de sites sont utilisés dans des courriels frauduleux conçus pour des attaques par hameçonnage (ou phishing), dans lesquelles les pages internet et les courriels frauduleux sont utilisés pour imiter des sources de confiance.</p>">
 
 <!ENTITY cspFrameAncestorBlocked.title "Bloqué par une stratégie de sécurité de contenu">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; a empêché le chargement de cette page de cette manière car sa stratégie de sécurité de contenu ne le permet pas.</p>">
 
-<!ENTITY securityOverride.linkText "Ou vous pouvez ajouter une exception…">
+<!ENTITY securityOverride.linkText "Ou il est possible d'ajouter une exception…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Quitter cette page">
 <!ENTITY securityOverride.exceptionButtonLabel "Ajouter une exception…">
 
@@ -178,14 +178,14 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>Vous ne devez pas ajouter d'exception si vous utilisez une connexion à Internet en laquelle vous n'avez pas totalement confiance ou si vous n'avez pas l'habitude de recevoir un avertissement pour ce serveur.</p>
+<p>Il ne faut pas ajouter d'exception avec si vous utilisez une connexion à Internet en laquelle vous n'avez pas totalement confiance ou si vous n'avez pas l'habitude de recevoir un avertissement pour ce serveur.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
 <!ENTITY corruptedContentError.title "Erreur due à un contenu corrompu">
-<!ENTITY corruptedContentError.longDesc "<p>La page que vous essayez de voir ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>La page que vous essayez de voir ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Contacter les propriétaires du site internet pour les informer de ce problème.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL distant">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Contacter les propriétaires du site internet pour les informer de ce problème.</li></ul></p>">

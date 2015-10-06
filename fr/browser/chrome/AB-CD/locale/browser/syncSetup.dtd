@@ -16,7 +16,7 @@
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Serveur">
-<!ENTITY serverType.default.label   "Par défaut : serveur Mozilla &syncBrand.fullName.label;">
+<!ENTITY serverType.default.label   "Par défaut : serveur &syncBrand.fullName.label;">
 <!ENTITY serverType.custom2.label   "Utiliser un serveur personnalisé…">
 <!ENTITY signIn.account2.label      "Compte">
 <!ENTITY signIn.account2.accesskey  "o">
@@ -48,11 +48,11 @@
 
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; respecte votre vie privée">
-<!ENTITY setup.newRecoveryKeyPage.description.label "Pour respecter totalement votre vie privée, toutes vos données sont chiffrées avant d'être envoyées. La clé de récupération qui est nécessaire pour déchiffrer vos données n'est pas transmise.">
-<!ENTITY recoveryKeyEntry.label        "Votre clé de récupération">
+<!ENTITY setup.newRecoveryKeyPage.description.label "Pour respecter totalement la vie privée, toutes les données sont chiffrées avant d'être envoyées. La clé de récupération qui est nécessaire pour déchiffrer les données n'est pas transmise.">
+<!ENTITY recoveryKeyEntry.label        "La clé de récupération">
 <!ENTITY recoveryKeyEntry.accesskey    "c">
 <!ENTITY syncGenerateNewKey.label  "Générer une nouvelle clé">
-<!ENTITY recoveryKeyBackup.description "Votre clé de récupération est nécessaire pour accéder à &syncBrand.fullName.label; sur d'autres machines. Veuillez en faire une copie de sauvegarde. Nous ne pourrons pas vous aider à la récupérer.">
+<!ENTITY recoveryKeyBackup.description "La clé de récupération est nécessaire pour accéder à &syncBrand.fullName.label; sur d'autres machines. En faire une copie de sauvegarde. Aucune aide ne pourra être fournie pour la récupérer.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Imprimer…">
 <!ENTITY button.syncKeyBackup.print.accesskey "p">
@@ -63,18 +63,18 @@
 <!ENTITY pairDevice.title.label             "Associer un appareil">
 <!ENTITY addDevice.showMeHow.label          "Comment faire ?">
 <!ENTITY addDevice.dontHaveDevice.label     "Je n'ai pas l'appareil avec moi">
-<!ENTITY pairDevice.setup.description.label  "Pour activer, sélectionnez « Associer un appareil » sur votre autre appareil.">
-<!ENTITY addDevice.setup.enterCode.label    "Saisissez ensuite ce code :">
-<!ENTITY pairDevice.dialog.description.label "Pour activer votre nouvel appareil, sélectionnez « Configurer la synchronisation » sur celui-ci.">
-<!ENTITY addDevice.dialog.enterCode.label   "Saisissez le code fourni par l'appareil :">
-<!ENTITY addDevice.dialog.tryAgain.label    "Veuillez réessayer.">
+<!ENTITY pairDevice.setup.description.label  "Pour activer, sélectionner « Associer un appareil » sur l'autre appareil.">
+<!ENTITY addDevice.setup.enterCode.label    "Saisir ensuite ce code :">
+<!ENTITY pairDevice.dialog.description.label "Pour activer votre nouvel appareil, sélectionner « Configurer la synchronisation » sur celui-ci.">
+<!ENTITY addDevice.dialog.enterCode.label   "Saisir le code fourni par l'appareil :">
+<!ENTITY addDevice.dialog.tryAgain.label    "Il faut réessayer.">
 <!ENTITY addDevice.dialog.successful.label  "L'appareil a été ajouté. La première synchronisation peut prendre plusieurs minutes et s'achèvera en arrière-plan.">
-<!ENTITY addDevice.dialog.recoveryKey.label     "Pour activer cet appareil, vous aurez besoin de saisir votre clé de récupération. Veuillez l'imprimer ou l'enregistrer pour l'avoir à portée de main.">
+<!ENTITY addDevice.dialog.recoveryKey.label     "Pour activer cet appareil, il sera nécessaire de saisir la clé de récupération. L'imprimer ou l'enregistrer pour l'avoir à portée de main.">
 <!ENTITY addDevice.dialog.connected.label   "Appareil connecté">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Connexion">
-<!ENTITY existingRecoveryKey.description "Vous pouvez obtenir une copie de votre clé de récupération en vous rendant dans les options de &syncBrand.shortName.label; sur votre autre appareil et en sélectionnant  « Ma clé de récupération » dans « Gestion du compte ».">
+<!ENTITY existingRecoveryKey.description "Il est possible d'obtenir une copie de la clé de récupération en se rendant dans les options de &syncBrand.shortName.label; sur un autre appareil et en sélectionnant  « Clé de récupération » dans « Gestion du compte ».">
 <!ENTITY verifying.label              "Vérification…">
 <!ENTITY resetPassword.label          "Réinitialiser le mot de passe">
 
@@ -101,17 +101,17 @@
 
 <!ENTITY choice2a.merge.main.label       "Fusionner les données de cet appareil avec mes données de &syncBrand.shortName.label;">
 <!ENTITY choice2.merge.recommended.label "Recommandé :">
-<!ENTITY choice2a.client.main.label      "Remplacer toutes les données de cet appareil avec mes données de &syncBrand.shortName.label;">
-<!ENTITY choice2a.server.main.label      "Remplacer les données de tous mes autres appareils avec les données de cet appareil">
+<!ENTITY choice2a.client.main.label      "Remplacer toutes les données de cet appareil avec les données de &syncBrand.shortName.label;">
+<!ENTITY choice2a.server.main.label      "Remplacer les données de tous les autres appareils avec les données de cet appareil">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Confirmation">
-<!ENTITY confirm.merge2.label           "&syncBrand.fullName.label; va maintenant fusionner toutes les données du navigateur de cet appareil avec votre compte Sync.">
+<!ENTITY confirm.merge2.label           "&syncBrand.fullName.label; va maintenant fusionner toutes les données du navigateur de cet appareil avec le compte Sync.">
 <!ENTITY confirm.client3.label          "Attention : les données suivantes de &brandShortName; sur cet appareil seront supprimées :">
-<!ENTITY confirm.client2.moreinfo.label "&brandShortName; copiera ensuite vos données &syncBrand.fullName.label; sur cet appareil.">
-<!ENTITY confirm.server2.label          "Attention : les données des appareils suivants seront remplacées par vos données locales :">
+<!ENTITY confirm.client2.moreinfo.label "&brandShortName; copiera ensuite les données &syncBrand.fullName.label; sur cet appareil.">
+<!ENTITY confirm.server2.label          "Attention : les données des appareils suivants seront remplacées par les données locales :">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Configuration terminée">
 <!ENTITY changeOptions.label "Ce choix peut être modifié en sélectionnant Options de synchronisation ci-dessous.">
-<!ENTITY continueUsing.label "Vous pouvez à présent reprendre votre utilisation normale de &brandShortName;.">
+<!ENTITY continueUsing.label "Il est possible de reprendre maintenant l'utilisation normale de &brandShortName;.">

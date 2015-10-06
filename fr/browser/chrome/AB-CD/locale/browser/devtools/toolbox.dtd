@@ -39,7 +39,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Activer le débogage distant">
-<!ENTITY options.enableRemote.tooltip  "Activer cette option permettra de déboguer grâce aux outils de développement des instances distantes de Firefox telles que Firefox OS">
+<!ENTITY options.enableRemote.tooltip  "Activer cette option permettra de déboguer grâce aux outils de développement des instances distantes de Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -80,4 +80,4 @@
   -  i.e. devtools.webconsole.persistlog a boolean preference in about:config,
   -  in the options panel. -->
 <!ENTITY options.enablePersistentLogging.label    "Activer les journaux persistants">
-<!ENTITY options.enablePersistentLogging.tooltip  "Si vous activez cette option, la console web ne videra pas les sorties à chaque fois que vous changez de page">
+<!ENTITY options.enablePersistentLogging.tooltip  "Si cette option est activée, la console internet ne videra pas les sorties à chaque fois changement de page">
