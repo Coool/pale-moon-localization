@@ -11,7 +11,7 @@ split.exe %TARGETFILEROOT%.properties
 
 sfk crlf-to-lf workdir -yes
 
-xcopy workdir\* . /s /y
+xcopy workdir\en-US\* .\%1 /s /y
 
 exit /b
 
