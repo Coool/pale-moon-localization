@@ -5,10 +5,10 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
-<!ENTITY aboutWarningTitle.label "Hier endet möglicherweise die Gewährleistung!">
-<!ENTITY aboutWarningText.label "Änderungen der Standardwerte dieser erweiterten Einstellungen können gefährlich für Stabilität, Sicherheit und Geschwindigkeit dieser Anwendung sein. Sie sollten nur fortfahren, wenn Sie genau wissen, was Sie tun.">
-<!ENTITY aboutWarningButton.label "Ich werde vorsichtig sein, versprochen!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "Es sind Drachen hier!">
+<!ENTITY aboutWarningText.label "Ändern dieser erweiterten Einstellungen kann sich (sehr) gefährlich auf die Stabilität, der Sicherheit und der Performance auswirken. Du solltest nur fortführen, wenn du weißt das du tust.">
+<!ENTITY aboutWarningButton.label "Ich verspreche, vorsichtig zu sein!">
 <!ENTITY aboutWarningCheckbox.label "Diese Meldung beim nächsten Mal anzeigen">
 
 <!ENTITY searchPrefs.label "Suchen:">
@@ -18,7 +18,7 @@
 <!-- Columns -->
 <!ENTITY prefColumn.label "Einstellungsname">
 <!ENTITY lockColumn.label "Status">
-<!ENTITY typeColumn.label "Typ">
+<!ENTITY typeColumn.label "Dateityp">
 <!ENTITY valueColumn.label "Wert">
 
 <!-- Tooltips -->

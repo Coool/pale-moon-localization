@@ -16,10 +16,10 @@
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Server">
-<!ENTITY serverType.default.label   "Standard: Mozilla &syncBrand.fullName.label;-Server">
-<!ENTITY serverType.custom2.label    "Eigenen Server verwenden…">
-<!ENTITY signIn.account2.label       "Benutzerkonto">
-<!ENTITY signIn.account2.accesskey   "B">
+<!ENTITY serverType.default.label      "Standard: Mozilla &syncBrand.fullName.label;-Server">
+<!ENTITY serverType.custom2.label   "Eigenen Server verwenden…">
+<!ENTITY signIn.account2.label      "Benutzerkonto">
+<!ENTITY signIn.account2.accesskey  "B">
 <!ENTITY signIn.password.label      "Passwort">
 <!ENTITY signIn.password.accesskey  "P">
 <!ENTITY signIn.recoveryKey.label       "Wiederherstellungs-Schlüssel">
@@ -31,8 +31,8 @@
 <!ENTITY setup.emailAddress.accesskey "E">
 <!ENTITY setup.choosePassword.label      "Wählen Sie ein Passwort">
 <!ENTITY setup.choosePassword.accesskey  "P">
-<!ENTITY setup.confirmPassword.label  "Passwort bestätigen">
-<!ENTITY setup.confirmPassword.accesskey  "b">
+<!ENTITY setup.confirmPassword.label     "Passwort bestätigen">
+<!ENTITY setup.confirmPassword.accesskey "b">
 <!ENTITY setup.setupMetro.label     "Mit &brandShortName; im Windows-8-Stil synchronisieren">
 <!ENTITY setup.setupMetro.accesskey "s">
 
@@ -49,8 +49,8 @@
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; nimmt Ihre Privatsphäre ernst">
 <!ENTITY setup.newRecoveryKeyPage.description.label "Um den kompletten Schutz Ihrer Daten zu gewährleisten, werden alle Daten verschlüsselt, bevor Sie hochgeladen werden. Der Schlüssel, um Ihre Daten zu entschlüsseln, wird nicht hochgeladen.">
-<!ENTITY recoveryKeyEntry.label	        "Ihr Wiederherstellungs-Schlüssel">
-<!ENTITY recoveryKeyEntry.accesskey	    "S">
+<!ENTITY recoveryKeyEntry.label        "Ihr Wiederherstellungs-Schlüssel">
+<!ENTITY recoveryKeyEntry.accesskey    "S">
 <!ENTITY syncGenerateNewKey.label  "Einen neuen Schlüssel generieren">
 <!ENTITY recoveryKeyBackup.description "Sie benötigen den Wiederherstellungs-Schlüssel, um auf anderen Geräten auf &syncBrand.fullName.label; zuzugreifen. Bitte hinterlegen Sie eine Sicherheitskopie des Schlüssels. Wir können Ihnen nicht dabei helfen, den Wiederherstellungs-Schlüssel wiederzuerlangen.">
 
@@ -63,7 +63,7 @@
 <!ENTITY pairDevice.title.label             "Gerät verbinden">
 <!ENTITY addDevice.showMeHow.label          "Anleitung.">
 <!ENTITY addDevice.dontHaveDevice.label     "Ich habe das Gerät nicht bei mir">
-<!ENTITY pairDevice.setup.description.label "Zum Aktivieren, wählen Sie &#x0022;Gerät verbinden&#x0022; auf Ihrem anderen Gerät.">
+<!ENTITY pairDevice.setup.description.label  "Zum Aktivieren, wählen Sie &#x0022;Gerät verbinden&#x0022; auf Ihrem anderen Gerät.">
 <!ENTITY addDevice.setup.enterCode.label    "Geben Sie dann folgenden Code ein:">
 <!ENTITY pairDevice.dialog.description.label "Um Ihr neues Gerät zu aktivieren, wählen Sie &#x0022;Verbinden&#x0022; auf dem Gerät.">
 <!ENTITY addDevice.dialog.enterCode.label   "Geben Sie den Code ein, den das Gerät anzeigt:">
@@ -75,7 +75,6 @@
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Anmeldung">
 <!ENTITY existingRecoveryKey.description "Um eine Kopie Ihres Wiederherstellungs-Schlüssels zu erhalten, gehen Sie in die &syncBrand.shortName.label;-Einstellungen auf Ihrem anderen Gerät, und wählen Sie &#x0022;Mein Wiederherstellungs-Schlüssel&#x0022; unter &#x0022;Benutzerkonto verwalten&#x0022;.">
-
 <!ENTITY verifying.label              "Überprüfen…">
 <!ENTITY resetPassword.label          "Passwort zurücksetzen">
 <!ENTITY resetSyncKey.label           "Ich habe mein anderes Gerät verloren.">
@@ -111,7 +110,7 @@
 <!ENTITY confirm.client2.moreinfo.label "&brandShortName; wird dann die &syncBrand.fullName.label;-Daten auf dieses Gerät kopieren.">
 <!ENTITY confirm.server2.label         "Warnung: Die folgenden Geräte werden mit den lokalen Daten überschrieben:">
 
-<!-- New & Existing Account: Setup Complete -->
-<!ENTITY setup.successPage.title   "Setup abgeschlossen!">
+<!-- New and Existing Account: Setup Complete -->
+<!ENTITY setup.successPage.title "Setup abgeschlossen!">
 <!ENTITY changeOptions.label "Sie können diese Einstellung ändern, indem Sie die Sync-Einstellungen unten auswählen.">
 <!ENTITY continueUsing.label "Sie können &brandShortName; nun verwenden.">

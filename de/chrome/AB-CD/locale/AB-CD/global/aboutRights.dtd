@@ -5,7 +5,7 @@
 <!ENTITY rights.locale-direction "ltr">
 <!ENTITY rights.pagetitle       "about:rights">
 <!ENTITY rights.intro-header    "Über Ihre Rechte">
-<!ENTITY rights.intro "&brandFullName; ist freie und quelloffene Software, entwickelt von einer Gemeinschaft tausender Gleichgesinnter, verteilt über die gesamte Welt. Es gibt da einige Dinge, die Sie wissen sollten:"> 
+<!ENTITY rights.intro "&brandFullName; ist freie und quelloffene Software, entwickelt von einer Gemeinschaft tausender Gleichgesinnter, verteilt über die gesamte Welt. Es gibt da einige Dinge, die Sie wissen sollten:">
 
 <!-- Note on pointa / pointb / pointc form:
      These points each have an embedded link in the HTML, so each point is
@@ -17,7 +17,7 @@
      deliberate for formatting around the embedded links. -->
 <!ENTITY rights.intro-point1a "&brandShortName; wird Ihnen unter den Bedingungen der ">
 <!ENTITY rights.intro-point1b "Mozilla Public License">
-<!ENTITY rights.intro-point1c " zur Verfügung gestellt. Das bedeutet, Sie dürfen &brandShortName; verwenden, kopieren und an andere verteilen. Sie sind auch gerne eingeladen, den Quellcode von &brandShortName; zu verändern und an Ihre eigenen Bedürfnisse anzupassen. Die Mozilla Public License gibt Ihnen auch das Recht, Ihre veränderte Version an andere zu verteilen."> 
+<!ENTITY rights.intro-point1c " zur Verfügung gestellt. Das bedeutet, Sie dürfen &brandShortName; verwenden, kopieren und an andere verteilen. Sie sind auch gerne eingeladen, den Quellcode von &brandShortName; zu verändern und an Ihre eigenen Bedürfnisse anzupassen. Die Mozilla Public License gibt Ihnen auch das Recht, Ihre veränderte Version an andere zu verteilen.">
 
 <!ENTITY rights.intro-point2-a "Mozilla gibt Ihnen keine Markenrechte oder Lizenzen an den Handelsmarken der Mozilla Foundation oder irgendeiner Partei, einschließlich ohne Einschränkungen am Namen &quot;Firefox&quot; oder dem Firefox-Logo. Weitere Informationen zur Nutzung der Marken finden Sie ">
 <!ENTITY rights.intro-point2-b "hier">
@@ -57,7 +57,7 @@
 
 <!-- safe browsing points for branded builds -->
 <!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
-<!ENTITY rights.safebrowsing-b "Das Deaktivieren von SafeBrowsing wird nicht empfohlen, da Sie auf unsichere Seiten stoßen könnten.  Wenn Sie diese Funktion komplett deaktivieren möchten, führen Sie bitte folgende Schritte aus:"> 
+<!ENTITY rights.safebrowsing-b "Das Deaktivieren von SafeBrowsing wird nicht empfohlen, da Sie auf unsichere Seiten stoßen könnten.  Wenn Sie diese Funktion komplett deaktivieren möchten, führen Sie bitte folgende Schritte aus:">
 <!ENTITY rights.safebrowsing-term1 "Öffnen Sie das Einstellungen-Fenster">
 <!ENTITY rights.safebrowsing-term2 "Wählen Sie den Tab Sicherheit">
 <!ENTITY rights.safebrowsing-term3 "Wählen Sie die Option &quot;&blockAttackSites.label;&quot; und &quot;&blockWebForgeries.label;&quot; ab">
@@ -65,7 +65,7 @@
 
 <!-- location aware browsing points for branded builds -->
 <!ENTITY rights.locationawarebrowsing-a "Standortbezogenes Browsing: ">
-<!ENTITY rights.locationawarebrowsing-b "ist immer eine Opt-in-Funktion.  Standortdaten werden niemals ohne Ihre Erlaubnis gesendet.  Wenn Sie diese Funktion komplett deaktivieren möchten, führen Sie bitte folgende Schritte aus:"> 
+<!ENTITY rights.locationawarebrowsing-b "ist immer eine Opt-in-Funktion.  Standortdaten werden niemals ohne Ihre Erlaubnis gesendet.  Wenn Sie diese Funktion komplett deaktivieren möchten, führen Sie bitte folgende Schritte aus:">
 <!ENTITY rights.locationawarebrowsing-term1a "Rufen Sie in der Adressleiste">
 <!ENTITY rights.locationawarebrowsing-term1b "about:config">
 <!ENTITY rights.locationawarebrowsing-term2 "auf. Tippen Sie dann geo.enabled">
@@ -79,7 +79,7 @@
 <!ENTITY rights.webservices-term1-unbranded "Jegliche Bedingungen für die Dienste, die dieses Produkt verwendet, sollten hier gelistet werden.">
 
 <!-- points 1-7 text for branded builds -->
-<!ENTITY rights2.webservices-term1 "&vendorShortName; und die Mitwirkenden, Lizenznehmer und Partner versuchen die genausten und aktuellsten Services zur Verfügung zu stellen. Allerdings kann nicht garantiert werden, dass die Daten umfassend und fehlerfrei sind.  Beispielsweise könnte der SafeBrowsing-Service manche riskanten Websites als sicher einstufen und manche sicheren Websites fälschlicherweise als riskant. Und für standortbezogene Dienste gilt, dass alle Standortdaten, die von unseren Service-Providern geliefert werden, nur Schätzungen darstellen, und weder wir noch unsere Service-Provider garantieren für die Genauigkeit der Standortdaten."> 
+<!ENTITY rights2.webservices-term1 "&vendorShortName; und die Mitwirkenden, Lizenznehmer und Partner versuchen die genausten und aktuellsten Services zur Verfügung zu stellen. Allerdings kann nicht garantiert werden, dass die Daten umfassend und fehlerfrei sind.  Beispielsweise könnte der SafeBrowsing-Service manche riskanten Websites als sicher einstufen und manche sicheren Websites fälschlicherweise als riskant. Und für standortbezogene Dienste gilt, dass alle Standortdaten, die von unseren Service-Providern geliefert werden, nur Schätzungen darstellen, und weder wir noch unsere Service-Provider garantieren für die Genauigkeit der Standortdaten.">
 <!ENTITY rights.webservices-term2 "&vendorShortName; kann die Dienste nach eigenem Ermessen abschalten oder verändern.">
 <!ENTITY rights2.webservices-term3 "Sie sind eingeladen, diese Dienste mit der dazugehörigen &brandShortName;-Version zu verwenden, und &vendorShortName; erteilt Ihnen die Rechte dies zu tun. &vendorShortName; und ihre Lizenznehmer behalten sich alle anderen Rechte an den Diensten vor. Diese Bedingungen beabsichtigen nicht, jegliche Rechte einzuschränken, die von Open-Source-Lizenzen gewährt werden, die auf &brandShortName; und entsprechende Quellcode-Versionen von &brandShortName; anwendbar sind.">
 <!ENTITY rights.webservices-term4 "Die Dienste werden &quot;wie es ist&quot; zur Verfügung gestellt. &vendorShortName;, ihre Mitwirkenden, Lizenznehmer und Distributoren gewähren keinerlei Gewährleistung, weder ausdrücklich noch implizit, einschließlich – aber nicht begrenzt auf – Marktreife oder Verwendbarkeit für einen bestimmten Zweck. Das volle Risiko bezüglich der Auswahl des für Sie richtigen Dienstes und die Qualität und Leistungsfähigkeit des Dienstes liegt bei Ihnen. Manche Gerichtsbarkeiten erlauben nicht den Ausschluss oder die Eingrenzung von implizierten Risiken, so dass dieser Haftungsausschluss möglicherweise nicht für sie gilt.">

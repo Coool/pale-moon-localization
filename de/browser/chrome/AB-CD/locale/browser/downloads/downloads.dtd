@@ -25,7 +25,7 @@
      -->
 <!ENTITY downloadDetails.width            "57ch">
 
-<!-- LOCALIZATION NOTE (downloadsSummary.minWidth):
+<!-- LOCALIZATION NOTE (downloadsSummary.minWidth2):
      Minimum width for the main description of the downloads summary,
      which is displayed at the bottom of the Downloads Panel if the
      number of downloads exceeds the limit that the panel can display.
@@ -34,9 +34,9 @@
      in downloads.properties, and make a reasonable estimate of its
      maximum length. For English, this seems like a reasonable limit:
 
-     + 999 weitere Downloads
+     + 999 other downloads
 
-     that's 23 characters, so we set the minimum width to 23ch.
+     that's 21 characters, so we set the minimum width to 21ch.
      -->
 <!ENTITY downloadsSummary.minWidth2       "23ch">
 

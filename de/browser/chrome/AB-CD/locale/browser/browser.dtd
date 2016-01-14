@@ -16,38 +16,35 @@
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Privater Modus)">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label        			"Tab neu laden">
-<!ENTITY  reloadTab.accesskey         		"d">
-<!ENTITY  reloadAllTabs.label    			"Alle Tabs neu laden">
-<!ENTITY  reloadAllTabs.accesskey       	"T">
+<!ENTITY  reloadTab.label                    "Tab neu laden">
+<!ENTITY  reloadTab.accesskey                "d">
+<!ENTITY  reloadAllTabs.label                "Alle Tabs neu laden">
+<!ENTITY  reloadAllTabs.accesskey            "T">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label           "Rechte Tabs schließen">
-<!ENTITY  closeTabsToTheEnd.accesskey       "R">
-<!ENTITY  closeOtherTabs.label   			"Andere Tabs schließen">
-<!ENTITY  closeOtherTabs.accesskey  		"A">
+<!ENTITY  closeTabsToTheEnd.label            "Rechte Tabs schließen">
+<!ENTITY  closeTabsToTheEnd.accesskey        "R">
+<!ENTITY  closeOtherTabs.label               "Andere Tabs schließen">
+<!ENTITY  closeOtherTabs.accesskey           "A">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                      "Tab anheften">
-<!ENTITY  pinTab.accesskey                  "h">
-<!ENTITY  unpinTab.label                    "Tab ablösen">
-<!ENTITY  unpinTab.accesskey                "b">
-<!ENTITY  moveToGroup.label                 "Verschieben in Gruppe">
-<!ENTITY  moveToGroup.accesskey             "V">
-<!ENTITY  moveToNewGroup.label              "Neue Gruppe">
-<!ENTITY  moveToNewWindow.label             "In neues Fenster verschieben">
-<!ENTITY  moveToNewWindow.accesskey         "n">
-<!ENTITY  bookmarkAllTabs.label       		"Lesezeichen für alle Tabs hinzufügen…">
-<!ENTITY  bookmarkAllTabs.accesskey   		"L">
-<!ENTITY  undoCloseTab.label          		"Geschlossenen Tab wiederherstellen">
-<!ENTITY  undoCloseTab.accesskey      		"G">
-<!ENTITY  closeTab.label         			"Tab schließen">
-<!ENTITY  closeTab.accesskey         		"c">
+<!ENTITY  pinTab.label                       "Tab anheften">
+<!ENTITY  pinTab.accesskey                   "h">
+<!ENTITY  unpinTab.label                     "Tab ablösen">
+<!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  moveToNewWindow.label              "In neues Fenster verschieben">
+<!ENTITY  moveToNewWindow.accesskey          "n">
+<!ENTITY  bookmarkAllTabs.label              "Lesezeichen für alle Tabs hinzufügen…">
+<!ENTITY  bookmarkAllTabs.accesskey          "L">
+<!ENTITY  undoCloseTab.label                 "Geschlossenen Tab wiederherstellen">
+<!ENTITY  undoCloseTab.accesskey             "G">
+<!ENTITY  closeTab.label                     "Tab schließen">
+<!ENTITY  closeTab.accesskey                 "c">
 
 <!ENTITY  listAllTabs.label      "Alle Tabs auflisten">
 
@@ -121,17 +118,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Lesezeichen hinzufügen">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY sharePageCmd.label "Seite teilen">
-<!ENTITY sharePageCmd.commandkey "S">
-<!ENTITY sharePageCmd.accesskey "t">
-<!ENTITY shareLinkCmd.label "Link teilen">
-<!ENTITY shareLinkCmd.accesskey "e">
-<!ENTITY shareImageCmd.label "Grafik teilen">
-<!ENTITY shareImageCmd.accesskey "G">
-<!ENTITY shareSelectCmd.label "Auswahl teilen">
-<!ENTITY shareSelectCmd.accesskey "t">
-<!ENTITY shareVideoCmd.label "Video teilen">
-<!ENTITY shareVideoCmd.accesskey "e">
 <!ENTITY subscribeToPageMenupopup.label "Diese Seite abonnieren">
 <!ENTITY subscribeToPageMenuitem.label "Diese Seite abonnieren…">
 <!ENTITY addCurPagesCmd.label "Lesezeichen für alle Tabs hinzufügen…">
@@ -168,9 +154,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuButton.label          "Menü">
 <!ENTITY appMenuButton.tooltip        "&brandShortName;-Menü öffnen">
 <!ENTITY homeButton.label             "Startseite">
-
-<!ENTITY tabGroupsButton.label         "Tab-Gruppen">
-<!ENTITY tabGroupsButton.tooltip       "Tabs gruppieren">
 
 <!ENTITY feedButton.label             "Abonnieren">
 <!ENTITY feedButton.tooltip           "Diese Seite abonnieren…">
@@ -298,24 +281,22 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "m"> 
 <!ENTITY preferencesCmd2.label       "Einstellungen">
-<!ENTITY preferencesCmd2.accesskey     "E"> 
+<!ENTITY preferencesCmd2.accesskey     "E">
 <!ENTITY preferencesCmdUnix.label       "Einstellungen">
 <!ENTITY preferencesCmdUnix.accesskey     "E"> 
 
-<!ENTITY clearRecentHistory.label            "Neueste Chronik löschen…">
+<!ENTITY clearRecentHistory.label               "Neueste Chronik löschen…">
 
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
 <!ENTITY viewMenu.label         "Ansicht"> 
 <!ENTITY viewMenu.accesskey       "A"> 
-<!ENTITY viewTabGroups.label     "Tabs gruppieren…">
-<!ENTITY viewTabGroups.accesskey     "g">
 <!ENTITY viewToolbarsMenu.label       "Symbolleisten"> 
 <!ENTITY viewToolbarsMenu.accesskey     "y"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "b">
 <!ENTITY viewCustomizeToolbar.label       "Anpassen…"> 
-<!ENTITY viewCustomizeToolbar.accesskey     "A"> 
+<!ENTITY viewCustomizeToolbar.accesskey     "A">
 <!ENTITY viewTabsOnTop.label            "Tabs oben">
 <!ENTITY viewTabsOnTop.accesskey        "T">
 
@@ -326,7 +307,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyUndoWindowMenu.label "Kürzlich geschlossene Fenster">
 <!ENTITY historyRestoreLastSession.label "Vorherige Sitzung wiederherstellen">
 
-<!ENTITY historyHomeCmd.label "Startseite"> 
+<!ENTITY historyHomeCmd.label "Startseite">
 <!ENTITY showAllHistoryCmd2.label "Gesamte Chronik anzeigen">
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
@@ -350,13 +331,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
-  
+
   Unix: Ctrl+J (0.8, 0.9 support)
         Ctrl+K (cross platform binding)
-  Mac:  Ctrl+K (cross platform binding)
+  Mac:  Cmd+K (cross platform binding)
         Cmd+Opt+F (platform convention)
   Win:  Ctrl+K (cross platform binding)
-        Ctrl+E (IE compat) 
+        Ctrl+E (IE compat)
 
   We support Ctrl+K on all platforms now and advertise it in the menu since it is
   our standard - it is a "safe" choice since it is near no harmful keys like "W" as
@@ -364,13 +345,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   system setting to use emacs emulation, and we should respect it. Focus-Search-Box
   is a fundamental keybinding and we are maintaining a XP binding so that it is easy
   for people to switch to Linux.
-  
+
  -->
 <!ENTITY searchFocus.commandkey       "k">
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
-
-<!ENTITY tabView.commandkey           "e">
 
 <!ENTITY openLinkCmdInTab.label       "Link in neuem Tab öffnen">
 <!ENTITY openLinkCmdInTab.accesskey   "T">
@@ -414,12 +393,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBGImageCmd.accesskey     "H">
 <!ENTITY setDesktopBackgroundCmd.label      "Als Hintergrundbild einrichten…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "A">
-<!ENTITY bookmarkPageCmd2.label        "Lesezeichen für diese Seite hinzufügen">
-<!ENTITY bookmarkPageCmd2.accesskey    "L">
-<!ENTITY bookmarkThisLinkCmd.label     "Lesezeichen für diesen Link hinzufügen">
-<!ENTITY bookmarkThisLinkCmd.accesskey "L">
-<!ENTITY bookmarkThisFrameCmd.label    "Lesezeichen für diesen Frame hinzufügen">
-<!ENTITY bookmarkThisFrameCmd.accesskey "z">
+<!ENTITY bookmarkPageCmd2.label       "Lesezeichen für diese Seite hinzufügen">
+<!ENTITY bookmarkPageCmd2.accesskey   "L">
+<!ENTITY bookmarkThisLinkCmd.label      "Lesezeichen für diesen Link hinzufügen">
+<!ENTITY bookmarkThisLinkCmd.accesskey  "L">
+<!ENTITY bookmarkThisFrameCmd.label      "Lesezeichen für diesen Frame hinzufügen">
+<!ENTITY bookmarkThisFrameCmd.accesskey  "z">
 <!ENTITY emailPageCmd.label           "Link per E-Mail senden…">
 <!ENTITY emailPageCmd.accesskey       "s">
 <!ENTITY savePageCmd.label            "Seite speichern unter…">
@@ -465,8 +444,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY thisFrameMenu.accesskey          "F">
 
 <!-- Media (video/audio) controls -->
-<!-- LOCALIZATION NOTE: The access keys for "Play" and 
-"Pause" are the same because the two context-menu 
+<!-- LOCALIZATION NOTE: The access keys for "Play" and
+"Pause" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "Abspielen">
 <!ENTITY mediaPlay.accesskey         "A">
@@ -622,6 +601,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "Weitere Informationen…">
 
+<!ENTITY allTabs.filter.emptyText "Suche Tabs">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "Browser-Tabs">
@@ -639,35 +619,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY addonBarCloseButton.tooltip  "Add-on-Leiste schließen">
 <!ENTITY toggleAddonBarCmd.key        "/">
-
-<!ENTITY socialToolbar.title        "Soziale-Netzwerke-Symbolleiste">
-<!ENTITY social.notLoggedIn.label   "Nicht angemeldet">
-
-<!ENTITY social.ok.label       "OK">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "Sidebar anzeigen">
-<!ENTITY social.toggleSidebar.accesskey "S">
-
-<!ENTITY social.addons.label "Dienste verwalten…">
-
-<!ENTITY social.toggleNotifications.label "Desktop-Benachrichtigungen">
-<!ENTITY social.toggleNotifications.accesskey "B">
-
-<!ENTITY social.activated.description "Dienste von <label/> wurden aktiviert. Sie können Ihre Einstellungen für Dienste im <label class='text-link'>Add-ons-Manager</label> ändern.">
-<!ENTITY social.activated.undo.label "Rückgängig machen">
-<!ENTITY social.activated.undo.accesskey "R">
-<!ENTITY social.learnMore.label "Weitere Informationen…">
-<!ENTITY social.learnMore.accesskey "W">
-<!ENTITY social.closeNotificationItem.label "Nicht jetzt">
-
-<!ENTITY social.chatBar.commandkey "C">
-<!ENTITY social.chatBar.label "Chats fokussieren">
-<!ENTITY social.chatBar.accesskey "c">
-
-<!-- labels are set dynamically, see browser.properties -->
-<!ENTITY social.markpage.accesskey "S">
-<!ENTITY social.marklink.accesskey "s">
 
 <!ENTITY getUserMedia.selectCamera.label "Zugriff auf folgende Kamera erlauben:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">

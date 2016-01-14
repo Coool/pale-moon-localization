@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
 %brandDTD;
 
@@ -169,8 +173,24 @@
 <!ENTITY cspFrameAncestorBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinie (Content Security Policy)">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>Laden dieser Seite in dieser Weise wurde vom Browser verhindert, weil sie eine Sicherheitsrichtlinie hat, die das nicht erlaubt.</p>">
 
+<!ENTITY xssBlockMode.title "Blockiert vom XSS Filter">
+<!ENTITY xssBlockMode.longDesc "<ul>
+
+<li>&brandShortName; blockiert weitere Aktionen auf dieser Seite, weil es
+
+injizierten JavaScript code enthällt.</li>
+
+<li>Das Laden dieser Seite wurde unterbrochen, weil entweder durch einer ausdrückliche Anfrage
+
+dieser Seite das Blocken im Falle einer XSS Attacke ausgelöst hat, oder weil &brandShortName;
+
+konfiguriert wurde, Seiten in dieser Situation zu blocken.</li>
+
+</ul>">
+
 <!ENTITY corruptedContentError.title "Fehler: Beschädigte Inhalte">
 <!ENTITY corruptedContentError.longDesc "<p>Die Seite, die Sie anzusehen versuchen, kann nicht angezeigt werden, da ein Fehler in der Datenübertragung festgestellt wurde.</p><ul><li>Bitte kontaktieren Sie die Website-Betreiber, um sie über dieses Problem zu verständigen.</li></ul>">
+
 
 <!ENTITY securityOverride.linkText "Oder Sie können eine Ausnahme hinzufügen…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Website verlassen!">

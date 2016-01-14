@@ -14,7 +14,7 @@
 <!ENTITY file.close.accesskey           "c">
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "Ansichten">
-<!ENTITY views.accesskey                 "A">
+<!ENTITY views.accesskey                "A">
 <!ENTITY views.tooltip                  "Ansicht ändern">
 <!ENTITY view.columns.label             "Spalten anzeigen">
 <!ENTITY view.columns.accesskey         "p">
@@ -36,8 +36,8 @@
 
 <!ENTITY cmd.backup.label               "Sichern…">
 <!ENTITY cmd.backup.accesskey           "S">
-<!ENTITY cmd.restore2.label              "Wiederherstellen">
-<!ENTITY cmd.restore2.accesskey          "W">
+<!ENTITY cmd.restore2.label             "Wiederherstellen">
+<!ENTITY cmd.restore2.accesskey         "W">
 <!ENTITY cmd.restoreFromFile.label      "Datei wählen…">
 <!ENTITY cmd.restoreFromFile.accesskey  "D">
 
@@ -56,6 +56,9 @@
 <!ENTITY cmd.open_tab.accesskey          "T">
 <!ENTITY cmd.open_all_in_tabs.label      "Alle in Tabs öffnen">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "ö">
+
+<!ENTITY cmd.openParentFolder.label      "Öffne beinhaltenden Ordner">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
 
 <!ENTITY cmd.properties.label      "Eigenschaften">
 <!ENTITY cmd.properties.accesskey  "g">
@@ -78,20 +81,34 @@
 <!ENTITY cmd.moveBookmarks.label                  "Verschieben…">
 <!ENTITY cmd.moveBookmarks.accesskey              "v">
 
-<!ENTITY col.name.label          "Name">
-<!ENTITY col.tags.label          "Schlagwörter">
-<!ENTITY col.url.label           "Adresse">
-<!ENTITY col.lastvisit.label     "Zuletzt besucht">
-<!ENTITY col.visitcount.label    "Meistbesucht">
-<!ENTITY col.keyword.label       "Schlüsselwort">
-<!ENTITY col.description.label   "Beschreibung">
-<!ENTITY col.dateadded.label     "Hinzugefügt">
-<!ENTITY col.lastmodified.label  "Zuletzt verändert">
+<!ENTITY col.name.label              "Name">
+<!ENTITY col.tags.label              "Schlagwörter">
+<!ENTITY col.url.label               "Adresse">
+<!ENTITY col.lastvisit.label         "Zuletzt besucht">
+<!ENTITY col.visitcount.label        "Meistbesucht">
+<!ENTITY col.keyword.label           "Schlüsselwort">
+<!ENTITY col.description.label       "Beschreibung">
+<!ENTITY col.dateadded.label         "Hinzugefügt">
+<!ENTITY col.lastmodified.label      "Zuletzt verändert">
+<!ENTITY col.parentfolder.label      "Beinhaltenden Ordner">
+<!ENTITY col.parentfolderpath.label  "Beinhaltenden Ordner Pfad">
 
-<!ENTITY search.label                              "Suchen:">
-<!ENTITY search.accesskey                          "S">
+<!ENTITY search.label                              "Web-Suche">
+<!ENTITY search.accesskey                          "u">
 
-<!ENTITY cmd.find.key                              "f">
+<!ENTITY search.in.label                           "Suche in:">
+<!ENTITY search.scopeFolder.label                  "Ausgewählter Ordner">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Lesezeichen">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "Verlauf">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Speichern">
+<!ENTITY saveSearch.accesskey                      "S">
+
+<!ENTITY cmd.find.key  "f">
 
 <!ENTITY maintenance.label      "Importieren und Sichern">
 <!ENTITY maintenance.accesskey  "I">
@@ -101,9 +118,9 @@
 
 <!ENTITY forwardButton.tooltip  "Eine Seite vor">
 
-<!ENTITY detailsPane.more.label  "Mehr">
+<!ENTITY detailsPane.more.label "Mehr">
 <!ENTITY detailsPane.more.accesskey "e">
-<!ENTITY detailsPane.less.label  "Weniger">
+<!ENTITY detailsPane.less.label "Weniger">
 <!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "Wählen Sie einen Eintrag, um seine Eigenschaften zu sehen und zu bearbeiten">
 

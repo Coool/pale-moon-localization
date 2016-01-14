@@ -3,17 +3,25 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY safeModeDialog.title         "&brandShortName; - Abgesicherter Modus">
-<!ENTITY window.maxWidth              "400">
+<!ENTITY window.width                 "44em">
 
-<!ENTITY startSafeMode.label          "Im abgesicherten Modus starten">
-<!ENTITY resetProfile.label           "&brandShortName; zurücksetzen">
+<!ENTITY safeModeDescription.label    "&brandShortName; läuft nun im abgesicherten Modus, welcher temporär eigene Einstellungen, Themes und Erweiterungen deaktiviert.">
+<!ENTITY safeModeDescription2.label   "Du kannst einige oder alle Änderungen permanent machen:">
 
-<!ENTITY safeModeDescription3.label   "Der abgesicherte Modus ist ein spezieller Modus von &brandShortName;, der zur Problembehebung genutzt werden kann.">
-<!ENTITY safeModeDescription4.label   "Ihre Add-ons und Benutzereinstellungen werden temporär deaktiviert.">
+<!ENTITY disableAddons.label          "Deaktiviere alle Add-ons">
+<!ENTITY disableAddons.accesskey      "D">
 
-<!ENTITY resetProfileInstead.label    "Sie können auch &brandShortName; zurücksetzen, wenn Sie neu beginnen möchten.">
+<!ENTITY resetToolbars.label          "Setze Toolbar zurück">
+<!ENTITY resetToolbars.accesskey      "R">
 
-<!-- LOCALIZATION NOTE (autoSafeModeDescription2.label safeModeInstead.label resetProfileFooter.label): Shown on the safe mode dialog after multiple startup crashes. See also chrome/global/resetProfile.dtd -->
-<!ENTITY autoSafeModeDescription2.label "&brandShortName; wurde unerwartet beendet. Dies kann durch Add-ons oder andere Probleme verursacht werden. Sie können versuchen, das Problem zu beheben, indem Sie &brandShortName; in den Ausgangszustand zurückversetzen lassen oder selbst versuchen, das Problem im abgesicherten Modus zu beseitigen.">
-<!ENTITY resetProfileFooter.label       "Alles Andere wird in die Ausgangseinstellungen zurückversetzt.">
-<!ENTITY safeModeInstead.label          "Falls Sie das nicht möchten, so können Sie im abgesicherten Modus fortfahren, um bei deaktivierten Add-ons und benutzerdefinierten Einstellungen das Problem selbst zu beheben.">
+<!ENTITY deleteBookmarks.label        "Lösche alle Bookmarks, außer die Backups">
+<!ENTITY deleteBookmarks.accesskey    "b">
+
+<!ENTITY resetUserPrefs.label         "Setze alle Nutzer Einstellungen auf &brandShortName; Standard zurück">
+<!ENTITY resetUserPrefs.accesskey     "p">
+
+<!ENTITY restoreSearch.label          "Setze Standard Suchmaschienen zurück">
+<!ENTITY restoreSearch.accesskey      "s">
+
+<!ENTITY changeAndRestartButton.label "Übernehme Änderungen und Starte neu">
+<!ENTITY continueButton.label         "Verbleibe im abgesicherten Modus">
