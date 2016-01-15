@@ -5,10 +5,10 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
-<!ENTITY aboutWarningTitle.label "¡Ésto puede cancelar su garantía!">
-<!ENTITY aboutWarningText.label "Cambiar los valores por defecto de estas opciones avanzadas puede ser dañino para la estabilidad, seguridad y rendimiento de esta aplicación. Solamente debería continuar si está seguro de lo que está haciendo.">
-<!ENTITY aboutWarningButton.label "¡Seré cuidadoso, lo prometo!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "¡Cuidado con el cuco!">
+<!ENTITY aboutWarningText.label "Cambiar esta configuración avanzada puede ser (severamente) dañino para la estabilidad, seguridad y rendimiento de esta aplicación. Sólo deberías continuar si sabés lo que estás haciendo.">
+<!ENTITY aboutWarningButton.label "¡Prometo que voy a ser cuidadoso!">
 <!ENTITY aboutWarningCheckbox.label "Mostrar esta advertencia la próxima vez">
 
 <!ENTITY searchPrefs.label "Buscar:">
@@ -16,14 +16,14 @@
 <!ENTITY focusSearch.key "r">
 
 <!-- Columns -->
-<!ENTITY prefColumn.label "Nombre Opción ">
+<!ENTITY prefColumn.label "Nombre de la preferencia">
 <!ENTITY lockColumn.label "Estado">
-<!ENTITY typeColumn.label "Tipo ">
-<!ENTITY valueColumn.label "Valor ">
+<!ENTITY typeColumn.label "Tipo de contenido">
+<!ENTITY valueColumn.label "Valor">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "Haga clic para ordenar ">
-<!ENTITY columnChooser.tooltip "Haga clic para seleccionar columnas a mostrar">
+<!ENTITY prefColumnHeader.tooltip "Hacé clic para ordenar"> 
+<!ENTITY columnChooser.tooltip "Hacé clic para seleccionar columnas a mostrar"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "C">
@@ -47,4 +47,3 @@
 <!ENTITY integer.accesskey "E">
 <!ENTITY boolean.label "Lógico">
 <!ENTITY boolean.accesskey "g">
-

@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip  "Cerrar herramientas para desarrolladores">
+<!ENTITY toolboxCloseButton.tooltip    "Cerrar herramientas para desarrolladores">
 <!ENTITY toolboxOptionsButton.key      "O">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -26,32 +26,32 @@
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh2): This is the
   -  triggers page refresh label next to the settings in the advanced settings
   -  group in the options panel which trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh2  "Solo sesión actual, recarga la página">
+<!ENTITY options.context.triggersPageRefresh2  "Sólo sesión actual, recarga la página">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label3): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label3    "Habilitar depuración del chrome">
-<!ENTITY options.enableChrome.tooltip  "Encender esta opción permitirá usar varias herramientas de depuración en el contexto del navegador">
+<!ENTITY options.enableChrome.tooltip   "Habilitar esta opción permitirá usar varias herramientas de depuración en el contexto del navegador">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Habilitar depuración remota">
-<!ENTITY options.enableRemote.tooltip  "Encender esta opción permitirá que las herramientas de desarrollador depuren una instancia remota de Firefox como ser Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Habilitar esta opción permitirá que las herramientas de desarrollador depuren una instancia remota de Firefox como ser Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
 <!ENTITY options.disableJavaScript.label2    "Deshabilitar JavaScript">
-<!ENTITY options.disableJavaScript.tooltip  "Activar esta opción deshabilitará JavaScript para la pestaña actual. Si la pestaña o la caja de herramientas se cierran, esta opción será olvidada.">
+<!ENTITY options.disableJavaScript.tooltip   "Habilitar esta opción deshabilitará JavaScript para la pestaña actual. Si la pestaña o la caja de herramientas se cierran, esta opción será olvidada.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Herramientas de desarrollador de Firefox predeterminadas">
+<!ENTITY options.selectDefaultTools.label     "Herramientas de desarrollador de Pale Moon predeterminadas">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
@@ -77,5 +77,5 @@
   -  label for the checkbox that toggles persistent logs in the Web Console,
   -  i.e. devtools.webconsole.persistlog a boolean preference in about:config,
   -  in the options panel. -->
-<!ENTITY options.enablePersistentLogging.label    "Habilitar registros persitentes">
-<!ENTITY options.enablePersistentLogging.tooltip  "Si habiltia esta opción la consola web no borrará la salida cada vez que se navegue a una nueva página">
+<!ENTITY options.enablePersistentLogging.label    "Habilitar registros persistentes">
+<!ENTITY options.enablePersistentLogging.tooltip  "Si habilitás esta opción, la consola web no limpiará la salida cada vez que se navegue a una nueva página">

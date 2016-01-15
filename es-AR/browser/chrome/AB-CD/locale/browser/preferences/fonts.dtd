@@ -2,13 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  fontsDialog.title                       "Fuentes">
-<!ENTITY  window.width                            "49em">
-<!ENTITY  window.macWidth                         "53em">
-<!ENTITY  window.unixWidth                        "51em">
+<!ENTITY  fontsDialog.title                       "Tipografías">
+<!ENTITY  window.width                            "37em">
+<!ENTITY  window.macWidth                         "41em">
+<!ENTITY  window.unixWidth                        "41em">
 
-<!ENTITY  language.label                          "Fuentes para:">
-<!ENTITY  language.accesskey                      "F">
+<!ENTITY  language.label                          "Tipografías para:">
+<!ENTITY  language.accesskey                      "T">
 
 <!ENTITY  size.label                              "Tamaño:">
 <!ENTITY  sizeProportional.accesskey              "T">
@@ -19,9 +19,9 @@
 
 <!ENTITY  serif.label                             "Serif:">
 <!ENTITY  serif.accesskey                         "S">
-<!ENTITY  sans-serif.label                        "Sans-serif:">
+<!ENTITY  sans-serif.label                        "Sans serif:">
 <!ENTITY  sans-serif.accesskey                    "n">
-<!ENTITY  monospace.label                         "Monospace:">
+<!ENTITY  monospace.label                         "Monoespaciada:">
 <!ENTITY  monospace.accesskey                     "M">
 
 <!ENTITY  font.langGroup.latin1                   "Occidental">
@@ -39,36 +39,36 @@
 <!ENTITY  font.langGroup.user-def                 "Definido por el usuario">
 <!ENTITY  font.langGroup.thai                     "Tailandés">
 <!ENTITY  font.langGroup.hebrew                   "Hebreo">
-<!ENTITY  font.langGroup.arabic                   "Arábigo">
-<!ENTITY  font.langGroup.devanagari               "Devanagari">
+<!ENTITY  font.langGroup.arabic                   "Árabe">
+<!ENTITY  font.langGroup.devanagari               "Devanagarí">
 <!ENTITY  font.langGroup.tamil                    "Tamil">
 <!ENTITY  font.langGroup.armenian                 "Armenio">
 <!ENTITY  font.langGroup.bengali                  "Bengalí">
 <!ENTITY  font.langGroup.canadian                 "Silabario canadiense unificado">
 <!ENTITY  font.langGroup.ethiopic                 "Etíope">
 <!ENTITY  font.langGroup.georgian                 "Georgiano">
-<!ENTITY  font.langGroup.gujarati                 "Gujarati">
-<!ENTITY  font.langGroup.gurmukhi                 "Gurmukhi">
+<!ENTITY  font.langGroup.gujarati                 "Gujaratí">
+<!ENTITY  font.langGroup.gurmukhi                 "Gurmuqui">
 <!ENTITY  font.langGroup.khmer                    "Khmer">
 <!ENTITY  font.langGroup.malayalam                "Malayo">
 <!ENTITY  font.langGroup.oriya                    "Oriya">
 <!ENTITY  font.langGroup.telugu                   "Telugú">
 <!ENTITY  font.langGroup.kannada                  "Kannada">
-<!ENTITY  font.langGroup.sinhala                  "Sinhala">
+<!ENTITY  font.langGroup.sinhala                  "Singala">
 <!ENTITY  font.langGroup.tibetan                  "Tibetano">
 <!-- Minimum font size -->
-<!ENTITY minSize.label                            "Tamaño mínimo de fuente:">
+<!ENTITY minSize.label                            "Tamaño mínimo de tipografía:">
 <!ENTITY minSize.accesskey                        "o">
 <!ENTITY minSize.none                             "Ninguno">
 
 <!-- default font type -->
 <!ENTITY  useDefaultFontSerif.label               "Serif">
-<!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
+<!ENTITY  useDefaultFontSansSerif.label           "Sans serif">
 
-<!ENTITY  allowPagesToUse.label                   "Permitir a las páginas elegir sus propias fuentes, en lugar de mis selecciones hechas arriba">
+<!ENTITY  allowPagesToUse.label                   "Permitir a las páginas elegir sus propios fuentes, en lugar de esta selección">
 <!ENTITY  allowPagesToUse.accesskey               "e">
 
-<!ENTITY languages.customize.Fallback.grouplabel  "Character Encoding for Legacy Content">
-<!ENTITY languages.customize.Fallback.label       "Fallback Character Encoding:">
+<!ENTITY languages.customize.Fallback.grouplabel  "Codificación de caracteres para contenido heredado">
+<!ENTITY languages.customize.Fallback.label       "Codificación de caracteres de respaldo:">
 <!ENTITY languages.customize.Fallback.accesskey   "C">
-<!ENTITY languages.customize.Fallback.desc        "Esta codificación de caracteres es usada paa contenido  legacy que falló en la declaración de su codificación.">
+<!ENTITY languages.customize.Fallback.desc        "Esta codificación de caracteres es usada para contenido heredado que falló en la declaración de su codificación.">

@@ -1,13 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY aboutDialog.title "Acerca de &brandFullName;">
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+<!ENTITY aboutDialog.title          "Acerca de &brandFullName;">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 <!ENTITY warningDesc.version        "&brandShortName; es experimental y puede ser inestable.">
-<!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
-<!ENTITY warningDesc.telemetryDesc  "Envía automáticamente información acerca del rendimiento, hardware, uso y personalizaciones de vuelta a &vendorShortName; para ayudar a mejorar a &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
@@ -16,7 +13,7 @@
 <!ENTITY community.exp.middle       " es una ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "comunidad mundial">
-<!ENTITY community.exp.end          " que trabaja unida para mantener la web abierta, pública y accesible para todos, sin ninguna restricción.">
+<!ENTITY community.exp.end          "que trabaja unida para mantener la web abierta, pública y accesible para todos, sin ninguna restricción.">
 
 <!ENTITY community.start2           "&brandShortName; es diseñado por ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
@@ -24,12 +21,11 @@
 <!ENTITY community.middle2          ", una ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "comunidad mundial">
+<!ENTITY community.end3             "que trabaja unida para mantener la web abierta, pública y accesible para todos, sin ninguna restricción.">
 
-<!ENTITY community.end3             " que trabaja unida para mantener la web abierta, pública y accesible para todos, sin ninguna restricción.">
-
-<!ENTITY contribute.start           "¿Suena interesante? ">
+<!ENTITY contribute.start           "¿Te parece interesante? ">
 <!-- LOCALIZATION NOTE (contribute.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
-<!ENTITY contribute.getInvolvedLink "¡Involúcrese!">
+<!ENTITY contribute.getInvolvedLink "¡Involucrate!">
 <!ENTITY contribute.end             "">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
@@ -38,7 +34,7 @@
 <!-- LOCALIZATION NOTE (bottomLinks.rights): This is a link title that links to about:rights. -->
 <!ENTITY bottomLinks.rights         "Derechos de usuario final">
 
-<!-- LOCALIZATION NOTE (bottomLinks.privacy): This is a link title that links to http://www.mozilla.com/legal/privacy/. -->
+<!-- LOCALIZATION NOTE (bottomLinks.privacy): This is a link title that links to https://www.mozilla.org/legal/privacy/. -->
 <!ENTITY bottomLinks.privacy        "Política de privacidad">
 
 <!-- LOCALIZATION NOTE (update.checkingForUpdates): try to make the localized text short (see bug 596813 for screenshots). -->
@@ -57,8 +53,8 @@
      one line with linkText being wrapped in an anchor that links to a site to download
      the latest version of Firefox (e.g. http://www.firefox.com). As this is all in
      one line, try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.failed.start        "Actualización fallida. ">
-<!ENTITY update.failed.linkText     "Descargar la última versión">
+<!ENTITY update.failed.start        "Falló la actualización.">
+<!ENTITY update.failed.linkText     "Descargá la última versión">
 <!ENTITY update.failed.end          "">
 
 <!-- LOCALIZATION NOTE (update.manual.start,update.manual.end): update.manual.start and update.manual.end
@@ -74,8 +70,8 @@
      an anchor that links to a site to provide additional information regarding
      why the system is no longer supported. As this is all in one line, try to
      make the localized text short (see bug 843497 for screenshots). -->
-<!ENTITY update.unsupported.start    "No se pueden realizar más actualizaciones en este sistema. ">
-<!ENTITY update.unsupported.linkText "Conocer más">
+<!ENTITY update.unsupported.start    "No se pueden realizar más actualizaciones en este sistema.">
+<!ENTITY update.unsupported.linkText "Saber más">
 <!ENTITY update.unsupported.end      "">
 
 <!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
@@ -91,7 +87,5 @@
 <!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and
      channel.description.end create one sentence, with the current channel label inserted in between.
      example: You are currently on the _Stable_ update channel. -->
-<!ENTITY channel.description.start  "Está actualmente en el canal de actualización ">
-<!ENTITY channel.description.end    ". ">
- 
-
+<!ENTITY channel.description.start  "Estás actualmente en el">
+<!ENTITY channel.description.end    "canal de actualización.">

@@ -3,34 +3,35 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY migrationWizard.title "Asistente de importación">
+<!ENTITY migrationWizard.title          "Asistente de importación">
 
-<!ENTITY importFrom.label "Importar opciones, marcadores, historial, contraseñas y otros datos de:">
-<!ENTITY importFromUnix.label "Importar preferencias, marcadores, historial, contraseñas y otros datos de:">
-<!ENTITY importFromBookmarks.label "Importar Marcadores desde:">
+<!ENTITY importFrom.label               "Importar configuración, marcadores, historial, contraseñas y otros datos de:">
+<!ENTITY importFromUnix.label           "Importar configuración, marcadores, historial, contraseñas y otros datos de:">
+<!ENTITY importFromBookmarks.label      "Importar marcadores de:">
 
-<!ENTITY importFromIE.label "Microsoft Internet Explorer">
-<!ENTITY importFromIE.accesskey "M">
-<!ENTITY importFromNothing.label "No importar nada">
-<!ENTITY importFromNothing.accesskey "i">
-<!ENTITY importFromSafari.label "Safari">
-<!ENTITY importFromSafari.accesskey "S">
-<!ENTITY importFromChrome.label         "Chrome">
-<!ENTITY importFromChrome.accesskey     "C">
-<!ENTITY importFromFirefox.label        "Firefox">
-<!ENTITY importFromFirefox.accesskey    "X">
+<!ENTITY importFromIE.label             "Microsoft Internet Explorer">
+<!ENTITY importFromIE.accesskey         "M">
+<!ENTITY importFromNothing.label        "No importar nada">
+<!ENTITY importFromNothing.accesskey    "i">
+<!ENTITY importFromSafari.label         "Safari">
+<!ENTITY importFromSafari.accesskey     "S">
+<!ENTITY importFromChrome.label         "Google Chrome">
+<!ENTITY importFromChrome.accesskey     "G">
+<!ENTITY importFromFirefox.label        "Pale Moon">
+<!ENTITY importFromFirefox.accesskey    "P">
 
-<!ENTITY noMigrationSources.label "No se encontraron programas que contengan marcadores, historial o datos de contraseña.">
+<!ENTITY noMigrationSources.label       "No se encontraron programas que contengan marcadores, historial o datos de contraseña.">
 
-<!ENTITY importSource.title "Importar opciones y datos de">
-<!ENTITY importItems.title "Items a importar">
-<!ENTITY importItems.label "Seleccionar que ítems importar:">
+<!ENTITY importSource.title             "Importar configuración y datos de">
+<!ENTITY importItems.title              "Elementos a importar">
+<!ENTITY importItems.label              "Seleccionar que elementos importar:">
 
-<!ENTITY migrating.title "Importando…">
-<!ENTITY migrating.label "Los siguientes ítems están siendo importados…">
+<!ENTITY migrating.title                "Importando…">
+<!ENTITY migrating.label                "Los siguientes elementos están siendo importados…">
 
-<!ENTITY selectProfile.title "Seleccione perfil">
-<!ENTITY selectProfile.label "Los siguientes perfiles están disponibles para ser importados:">
+<!ENTITY selectProfile.title            "Seleccioná perfil">
+<!ENTITY selectProfile.label            "Los siguientes perfiles están disponibles para ser importados:">
 
-<!ENTITY done.title "Importación completa">
-<!ENTITY done.label "Los siguientes ítems fueron importados exitosamente:">
+<!ENTITY done.title                     "Importación completa">
+<!ENTITY done.label                     "Los siguientes elementos fueron importados correctamente:">
+

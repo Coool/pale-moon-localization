@@ -1,46 +1,23 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY pluginWizard.title "Servicio buscador de plugins">
-<!ENTITY pluginWizard.firstPage.title "Bienvenido al &pluginWizard.title;">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label "&brandShortName; está buscando plugins disponibles…">
-
-<!ENTITY pluginWizard.availablePluginsPage.title "Descargas disponibles de plugins">
-<!ENTITY pluginWizard.availablePluginsPage.description.label "Los siguientes plugins están disponibles:">
-<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Presione Siguiente para instalar estos plugins.">
-<!ENTITY pluginWizard.availablePluginsPage.installerUI "Algunos plugins pueden requerir que ingrese información adicional durante la instalación.">
-
-<!ENTITY pluginWizard.licensePage.title "Licencias de plugin">
-<!ENTITY pluginWizard.licensePage.accept.label "Acepto.">
-<!ENTITY pluginWizard.licensePage.deny.label "No acepto (el plugin no se instalará).">
-
-<!ENTITY pluginWizard.installPluginsPage.title "Instalando plugins">
-<!ENTITY pluginWizard.installPluginsPage.description.label "&brandShortName; está instalando plugins…">
-
-<!ENTITY pluginWizard.finalPage.description.label "&brandShortName; terminó de instalar los plugins faltantes:">
-
-<!ENTITY pluginWizard.finalPage.moreInfo.label "Ver más información sobre plugins o buscar manualmente los plugins faltantes.">
-<!ENTITY pluginWizard.finalPage.restart.label "&brandShortName; necesita reiniciarse para que funcionen los plugins.">
-  
 <!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
      is not supported on some devices. Include a trailing space as needed. -->
-<!ENTITY unsupportedPlatform.pre                             "Lo sentimos, pero &brandShortName; no puede reproducir Flash en este dispositivo. ">
+<!ENTITY unsupportedPlatform.pre                             "Lo sentimos, pero &brandShortName; no puede reproducir Flash en este dispositivo.">
 <!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
      supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
-<!ENTITY unsupportedPlatform.learnMore                       "Conocer más…">
+<!ENTITY unsupportedPlatform.learnMore                       "Saber más…">
 <!-- LOCALIZATION NOTE (unsupportedPlatform.post): Mobile only. Include text here if needed for your locale. -->
 <!ENTITY unsupportedPlatform.post                            "">
 
 <!ENTITY missingPlugin                                       "Se necesita un plugin para mostrar este contenido.">
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
-<!ENTITY tapToPlayPlugin                                     "Pulsá aquí para activar el plugin.">
+<!ENTITY tapToPlayPlugin                                     "Pulsá acá para activar el plugin.">
 <!ENTITY clickToActivatePlugin                               "Activar plugin.">
 <!ENTITY checkForUpdates                                     "Buscar actualizaciones…">
-<!ENTITY disabledPlugin                                      "Este plugin ha sido deshabilitado.">
-<!ENTITY blockedPlugin.label                                 "Este plugin ha sido bloqueado para su protección.">
-
-<!ENTITY installPlugin                                       "Instalar plugin…">
+<!ENTITY disabledPlugin                                      "Este plugin fue deshabilitado.">
+<!ENTITY blockedPlugin.label                                 "Este plugin fue bloqueado para tu protección.">
 <!ENTITY managePlugins                                       "Administrar plugins…">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
@@ -48,16 +25,16 @@
 <!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
 <!ENTITY reloadPlugin.pre                                    "">
 <!ENTITY reloadPlugin.middle                                 "Recargar la página">
-<!ENTITY reloadPlugin.post                                   " para intentar nuevamente.">
+<!ENTITY reloadPlugin.post                                   " para probar de nuevo.">
 <!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
-<!ENTITY report.please                                       "Enviar informe de fallos">
+<!ENTITY report.please                                       "Enviar informe de cierres inesperados">
 <!ENTITY report.submitting                                   "Enviando informe…">
-<!ENTITY report.submitted                                    "Informe de problema enviado.">
-<!ENTITY report.disabled                                     "Informe de problemas deshabilitado.">
+<!ENTITY report.submitted                                    "Informe de cierres inesperados enviado.">
+<!ENTITY report.disabled                                     "Informe de cierres inesperados deshabilitado.">
 <!ENTITY report.failed                                       "Falló el envío.">
 <!ENTITY report.unavailable                                  "No hay informe disponible.">
 <!ENTITY report.comment                                      "Agregar un comentario (los comentarios son visibles públicamente)">
-<!ENTITY report.pageURL                                      "Incluir URL de la página">
+<!ENTITY report.pageURL                                      "Incluir dirección web de la página">
 
 <!ENTITY plugin.file                                         "Archivo">
 <!ENTITY plugin.mimeTypes                                    "Tipos MIME">

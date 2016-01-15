@@ -6,7 +6,7 @@
 %brandDTD;
 
 <!ENTITY loadError.label "Problema cargando la página">
-<!ENTITY retry.label "Intente nuevamente">
+<!ENTITY retry.label "Probá de nuevo">
 
 <!-- Specific error messages -->
 
@@ -19,36 +19,36 @@
 <!ENTITY dnsNotFound.title "Servidor no encontrado">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-  <li>Verifique si la dirección no tiene errores de tipeo como
-    <strong>ww</strong>.ejemplo.com en lugar de
-    <strong>www</strong>.ejemplo.com</li>
-  <li>Si no puede cargar ninguna página, verifique la conexión a la red de su
+  <li>Verificá si la dirección web no tiene errores de tipeo como, por ejemplo,
+    <strong>ww</strong>.palemoon.org en lugar de
+    <strong>www</strong>.palemoon.org</li>
+  <li>Si no podés cargar ninguna página, verificá la conexión a la red en tu
     computadora.</li>
-  <li>Si su computadora o red está protegida por un firewall o proxy, asegúrese
-    que &brandShortName; tenga permiso de acceder a la web.</li>
+  <li>Si tu computadora o red está protegida por un firewall o proxy, asegurate
+    de que &brandShortName; tenga permiso de acceder a la web.</li>
 </ul>
 ">
 
 <!ENTITY fileNotFound.title "Archivo no encontrado">
 <!ENTITY fileNotFound.longDesc "
 <ul>
-  <li>Verifique el nombre de archivo por errores de mayúsculas o de tipeo.</li>
-  <li>Fíjese si el archivo fue movido, renombrado o borrado.</li>
+  <li>Verificá el nombre de archivo por errores de mayúsculas o de tipeo.</li>
+  <li>Fijate si el archivo fue movido, renombrado o eliminado.</li>
 </ul>
 ">
 
 
-<!ENTITY generic.title "Oops.">
+<!ENTITY generic.title "Epa.">
 <!ENTITY generic.longDesc "
 <p>&brandShortName; no puede cargar esta página por alguna razón.</p>
 ">
 
-<!ENTITY malformedURI.title "La dirección no es válida">
+<!ENTITY malformedURI.title "La dirección web no es válida">
 <!ENTITY malformedURI.longDesc "
 <ul>
-  <li>Las direcciones web usualmente son escritas como 
-    <strong>http://www.ejemplo.com/</strong></li>
-  <li>Asegúrese de estar usando las barras correctas (ej.
+  <li>Las direcciones web usualmente son escritas como, por ejemplo, 
+    <strong>http://www.palemoon.org/</strong></li>
+  <li>Asegurate de estar usando las barras correctas (por ejemplo,
     <strong>/</strong>).</li>
 </ul>
 ">
@@ -57,47 +57,47 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Documento expirado">
-<!ENTITY notCached.longDesc "<p>El documento solicitado no está disponible en caché de Firefox.</p><ul><li>Como una precaución de seguridad, Firefox no reenvía automáticamente documentos sensibles.</li><li>Haga clic en Intente nuevamente para solicitar el documento al sitio web nuevamente.</li></ul>">
+<!ENTITY notCached.longDesc "<p>El documento solicitado no está disponible en la memoria caché de Pale Moon.</p><ul><li>Como precaución de seguridad, Pale Moon no reenvía automáticamente documentos sensibles.</li><li>Hacé clic en el botón &quot;Probá de nuevo&quot; para solicitar el documento al sitio web nuevamente.</li></ul>">
 
 <!ENTITY netOffline.title "Modo sin conexión a la red">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Presione &quot;Intente nuevamente&quot; para volver al modo con conexión y recargar la página.</li>
+  <li>Hacé clic en el botón &quot;Probá de nuevo&quot; para volver al modo con conexión y recargar la página.</li>
 </ul>
 ">
 
 <!ENTITY contentEncodingError.title "Error de codificación de contenido">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Contacte a los duenos del sitio web para informarles sobre este problema.</li>
+  <li>Ponete en contacto con los administradores del sitio web para informarles sobre este problema.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Tipo de archivo inseguro">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Contacte a los dueños del sitio web para informarles de este problema.</li>
+  <li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li>
 </ul>
 ">
 
 <!ENTITY netReset.title "La conexión fue restablecida">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "La conexión tardó demasiado tiempo">
+<!ENTITY netTimeout.title "La conexión tardó demasiado">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY protocolNotFound.title "La dirección no fue comprendida">
 <!ENTITY protocolNotFound.longDesc "
 <ul>
-  <li>Necesita instalar otro software para abrir esta dirección.</li>
+  <li>Necesitás instalar otro software para abrir esta dirección.</li>
 </ul>
 ">
 
 <!ENTITY proxyConnectFailure.title "El servidor proxy está rechazando las conexiones">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
-  <li>Verifique las opciones de proxy para confirmar que están correctas.</li>
-  <li>Contacte a su administrador de red para asegurarse que el servidor proxy está
+  <li>Verificá las opciones de proxy para confirmar que están correctas.</li>
+  <li>Ponete en contacto con tu administrador de red para asegurarte de que el servidor proxy está
     funcionando.</li>
 </ul>
 ">
@@ -105,10 +105,10 @@
 <!ENTITY proxyResolveFailure.title "No se puede encontrar el servidor proxy">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
-  <li>Verifique las opciones de proxy para confirmar que están correctas.</li>
-  <li>Asegúrese que su computadora tenga una conexión de red en funcionamiento.</li>
-  <li>Si su computadora o red están protegidas por un firewall o proxy, asegúrese
-    que &brandShortName; tenga permiso de acceder a la web.</li>
+  <li>Verificá la configuración del proxy para confirmar que está correcta.</li>
+  <li>Asegurate de que tu computadora tenga una conexión de red en funcionamiento.</li>
+  <li>Si tu computadora o red están protegidas por un firewall o proxy, asegurate
+    de que &brandShortName; tenga permiso de acceder a la web.</li>
 </ul>
 ">
 
@@ -123,45 +123,43 @@
 <!ENTITY unknownSocketType.title "Respuesta inesperada del servidor">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
-  <li>Verifique que su sistema tenga instalado el Personal Security Manager.</li>
-  <li>Ésto puede deberse a una configuración no estándar del servidor.</li>
+  <li>Verificá que tu sistema tenga instalado Personal Security Manager.</li>
+  <li>Esto puede deberse a una configuración no estándar del servidor.</li>
 </ul>
 ">
-
 
 <!ENTITY nssFailure2.title "Fallo en conexión segura">
 <!ENTITY nssFailure2.longDesc "
 <ul>
-  <li>La página que está tratando de ver no puede mostrarse porque la autenticidad de los datos recibidos no puede verificarse.</li>
-  <li>Contacte a los dueños del sitio para informarles de este problema. Alternativamente, use el comando encontrado en el menú de ayuda para informar sobre el sitio roto.</li>
+  <li>La página que estás tratando de ver no puede mostrarse porque la autenticidad de los datos recibidos no puede verificarse.</li>
+  <li>Ponete en contacto con los administradores del sitio web para informarles de este problema. Alternativamente, usá el comando encontrado en el menú de ayuda para informar sobre el sitio roto.</li>
 </ul>
 ">
 
 <!ENTITY nssBadCert.title "Fallo en conexión segura">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
-  <li>Ésto podría ser un problema con la configuración del servidor o podría ser
-aguien tratando de hacerse pasar por el servidor.</li>
-  <li>Si se ha conectado a este servidor exitosamente en el pasado, el error puede
-ser temporal y puede inentarlo nuevamente más tarde.</li>
+  <li>Esto podría ser un problema con la configuración del servidor o podría ser
+alguien tratando de imitar el servidor.</li>
+  <li>Si te conectaste a este servidor exitosamente en el pasado, el error puede
+ser temporal y deberías probar nuevamente más tarde.</li>
 </ul>
 ">
 
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>El sitio puede no estar disponible temporariamente o estar sobrecargado. Intente nuevamente en unos
-    momentos.</li>
-  <li>Si no puede cargar ninguna página, verifique la conexión de su computadora
+  <li>El sitio web puede no estar disponible temporalmente o estar sobrecargado. Probá de nuevo más tarde.</li>
+  <li>Si no podés cargar ninguna página, verificá la conexión de tu computadora
     a la red.</li>
-  <li>Si su computadora o red están protegidas por un firewall o proxy, asegúrese
-    que &brandShortName; tiene permiso para acceder a la web.</li>
+  <li>Si tu computadora o red están protegidas por un firewall o proxy, asegurate
+    de que &brandShortName; tiene permiso para acceder a la web.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "¡Sitio sospechoso de ataque!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Los sitios de ataque tratan de instalar programas que roban información privada, usan su computadora para atacar otras o dañan su sistema.</p>
-<p>Los dueños de sitios web que creen que su sitio ha sido reportado como un sitio de ataque por error pueden <a href='http://www.stopbadware.org/home/reviewinfo' >pedir una revisión</a>.</p>
+<p>Los sitios de ataque tratan de instalar programas que roban información privada, usan tu computadora para atacar otras o dañan tu sistema.</p>
+<p>Los administradores de sitios web que creen que su sitio ha sido informado como un sitio de ataque por error pueden <a href='http://www.stopbadware.org/home/reviewinfo' >solicitar una revisión</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "¡Sitio sospechoso de fraude!">
@@ -173,11 +171,22 @@ ser temporal y puede inentarlo nuevamente más tarde.</li>
 <!ENTITY cspFrameAncestorBlocked.title "Bloqueado por política de seguridad de contenido">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; evitó que se cargue esta página de esta forma porque tiene una política de seguridad de contenido que no lo permite.</p>">
 
-<!ENTITY corruptedContentError.title "Error de contenido corrupto">
-<!ENTITY corruptedContentError.longDesc "<p>La página que está tratando de ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p><ul><li>Contacte a los dueños del sitio web para informarles de este problema.</li></ul>">
+<!ENTITY xssBlockMode.title "Bloqueado por filtro XSS">
+<!ENTITY xssBlockMode.longDesc "<ul>
+<li>&brandShortName; bloqueó las posteriores acciones en esta página, porque contiene 
+código JavaScript inyectado.</li>
+<li>Se suspendió la carga de esta página, ya sea a causa de la solicitud explícita
+del sitio web por bloquear esta página en caso de ataques XSS, o porque &brandShortName;
+fue configurado para bloquear páginas en dicha situación.</li>
+</ul>
+">
 
-<!ENTITY securityOverride.linkText "O puede agregar una excepción…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Sáquenme de aquí">
+<!ENTITY corruptedContentError.title "Error de contenido corrupto">
+<!ENTITY corruptedContentError.longDesc "<p>La página web que estás tratando de ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p><ul><li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li></ul>">
+
+
+<!ENTITY securityOverride.linkText "O podés agregar una excepción…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Sacame de acá">
 <!ENTITY securityOverride.exceptionButtonLabel "Agregar excepción">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
@@ -186,12 +195,11 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>No debería agregar una excepción si está usando una conexión a internet en la que no confía completamente o si no suele recibir una advertencia de este servidor.</p>
+<p>No deberías agregar una excepción si estás usando una conexión a Internet en la que no confías completamente, o si no solés recibir una advertencia de este servidor.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
 <!ENTITY remoteXUL.title "XUL remoto">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Contacte a los dueños de sitio web para informarles de este problema.</li></ul></p>">
-
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li></ul></p>">

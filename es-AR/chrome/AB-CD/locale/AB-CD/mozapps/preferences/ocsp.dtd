@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY ocspDialog.title "Verificación">
-<!ENTITY enableOCSP.label             "Usar el Online Certificate Status Protocol (OCSP) para confirmar la validez actual de los certificados">
+<!ENTITY ocspDialog.title             "Validación de certificado">
+<!ENTITY enableOCSP.label             "Usar Online Certificate Status Protocol (OCSP) para confirmar la validez actual de los certificados">
 <!ENTITY enableOCSP.accesskey         "U">
 <!ENTITY requireOCSP.label            "Cuando falla la conexión a un servidor OCSP, tratar el certificado como no válido">
 <!ENTITY requireOCSP.accesskey        "x">
-

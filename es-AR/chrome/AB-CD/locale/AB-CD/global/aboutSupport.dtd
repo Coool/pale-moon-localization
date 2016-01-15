@@ -6,9 +6,9 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-  Esta página contiene información técnica que podría ser útil si está
-  tratando de resolver un problema. Si está buscando respuestas a preguntas comunes
-  acerca de &brandShortName;, busque en el <a id='supportLink'>sitio web de soporte</a>.
+  Esta página contiene información técnica que podría ser útil si estás
+  tratando de resolver un problema. Si estás buscando respuestas a preguntas comunes
+  acerca de &brandShortName;, buscá en el <a id='supportLink'>sitio web de soporte</a>.
 ">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensiones">
@@ -17,7 +17,7 @@
 <!ENTITY aboutSupport.extensionVersion "Versión">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.appBasicsTitle "Esenciales de la aplicación">
+<!ENTITY aboutSupport.appBasicsTitle "Información básica de la aplicación">
 <!ENTITY aboutSupport.appBasicsName "Nombre">
 <!ENTITY aboutSupport.appBasicsVersion "Versión">
 
@@ -34,8 +34,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins habilitados">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuración de compilación">
-<!ENTITY aboutSupport.appBasicsUserAgent "Agente de usuario">
-<!ENTITY aboutSupport.appBasicsCrashIDs "Informes de fallos">
+<!ENTITY aboutSupport.appBasicsUserAgent "Cadena de agente de usuario">
+<!ENTITY aboutSupport.appBasicsCrashIDs "Informes de cierres inesperados">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memoria">
 
 <!ENTITY aboutSupport.showDir.label "Abrir directorio">
@@ -53,9 +53,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "Preferencias en user.js">
-<!ENTITY aboutSupport.userJSDescription "Su carpeta de perfil contiene un <a id='prefs-user-js-link'>archivo user.js</a>, que incluye preferencias que no fueron creadas por &brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Tu carpeta de perfil contiene un <a id='prefs-user-js-link'>archivo user.js</a>, que incluye preferencias que no fueron creadas por &brandShortName;.">
 
-<!ENTITY aboutSupport.graphicsTitle "Gráficos">
+<!ENTITY aboutSupport.graphicsTitle "Gráfica">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC incremental">
@@ -64,7 +64,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "Activada">
 <!ENTITY aboutSupport.a11yForceDisabled "Impedir accesibilidad">
 
-<!ENTITY aboutSupport.libraryVersionsTitle "Versiones de libs">
+<!ENTITY aboutSupport.libraryVersionsTitle "Versiones de librerías">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Historial de instalación">
 <!ENTITY aboutSupport.updateHistoryTitle "Historial de actualizaciones">
