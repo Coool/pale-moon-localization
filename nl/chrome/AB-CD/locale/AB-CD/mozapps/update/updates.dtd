@@ -1,7 +1,10 @@
-<!ENTITY  updateWizard.title              "Software-update">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY  updateWizard.title              "&brandShortName;-update">
 
 <!ENTITY  checking.title                  "Controleren op updates">
-<!ENTITY  updateCheck.label               "Controleren op nieuwere versies van &brandShortName;…">
+<!ENTITY  updateCheck.label               "Controleren op updates, maar mij laten kiezen of ik deze wil installeren">
 
 <!ENTITY  pluginupdatesfound.title        "Updates voor plug-ins gevonden">
 <!ENTITY  pluginupdatesfound.label        "Er zijn nieuwere versies van één of meerdere plug-ins gevonden.">
@@ -64,10 +67,10 @@
 
 <!ENTITY  error.label                     "Er was een probleem bij het controleren op, of het downloaden of installeren
                                            van deze update. &brandShortName; kon niet worden bijgewerkt, omdat:">
-
+                                           
 <!ENTITY  errorManual.label               "U kunt &brandShortName; handmatig bijwerken door deze koppeling te
                                            bezoeken en de laatste versie te downloaden:">
-
+                                           
 <!ENTITY  errorpatching.intro             "De gedeeltelijke update kon niet worden toegepast. 
                                            &brandShortName; zal het opnieuw proberen door een volledige update te downloaden.">
 

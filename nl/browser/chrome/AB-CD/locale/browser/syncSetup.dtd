@@ -46,7 +46,7 @@
 <!ENTITY setup.tosAgree3.label      "">
 <!ENTITY setup.tosAgree2.accesskey  "">
 
-<!-- New Account Page 2: Sync Key -->
+<!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; denkt aan uw privacy">
 <!ENTITY setup.newRecoveryKeyPage.description.label "Om uw totale privacy te waarborgen worden al uw gegevens voor het uploaden versleuteld. De herstelsleutel, die nodig is om uw gegevens te ontcijferen, wordt niet geüpload.">
 <!ENTITY recoveryKeyEntry.label        "Uw herstelsleutel">
@@ -97,16 +97,16 @@
 <!ENTITY engine.prefs.accesskey     "V">
 <!ENTITY engine.addons.label        "Add-ons">
 <!ENTITY engine.addons.accesskey    "A">
- 
-<!ENTITY choice2a.merge.main.label     "De gegevens van dit apparaat met uw &syncBrand.shortName.label;-gegevens laten samengaan">
+
+<!ENTITY choice2a.merge.main.label       "De gegevens van dit apparaat met uw &syncBrand.shortName.label;-gegevens laten samengaan">
 <!ENTITY choice2.merge.recommended.label "Aanbevolen:">
-<!ENTITY choice2a.client.main.label    "Alle gegevens op dit apparaat vervangen door uw &syncBrand.shortName.label;-gegevens">
-<!ENTITY choice2a.server.main.label    "Alle gegevens op andere apparaten vervangen door gegevens van dit apparaat">
+<!ENTITY choice2a.client.main.label      "Alle gegevens op dit apparaat vervangen door uw &syncBrand.shortName.label;-gegevens">
+<!ENTITY choice2a.server.main.label      "Alle gegevens op andere apparaten vervangen door gegevens van dit apparaat">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Bevestigen">
-<!ENTITY confirm.merge2.label   "&syncBrand.fullName.label; zal nu alle browsergegevens van dit apparaat laten samengaan met de gegevens van uw Sync-account.">
-<!ENTITY confirm.client3.label        "Waarschuwing: de volgende &brandShortName;-gegevens op dit apparaat zullen worden verwijderd:">
+<!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; zal nu alle browsergegevens van dit apparaat laten samengaan met de gegevens van uw Sync-account.">
+<!ENTITY confirm.client3.label         "Waarschuwing: de volgende &brandShortName;-gegevens op dit apparaat zullen worden verwijderd:">
 <!ENTITY confirm.client2.moreinfo.label "&brandShortName; zal vervolgens uw &syncBrand.fullName.label;-gegevens naar dit apparaat kopiëren.">
 <!ENTITY confirm.server2.label         "Waarschuwing: gegevens van de volgende apparaten zullen worden overschreven door uw lokale gegevens:">
 

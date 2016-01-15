@@ -5,10 +5,10 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
-<!ENTITY aboutWarningTitle.label "Dit kan in overtreding zijn met uw garantievoorwaarden!">
-<!ENTITY aboutWarningText.label "Aanpassen van deze uitgebreide voorkeuren kan schadelijk zijn voor de stabiliteit, veiligheid en prestaties van deze toepassing. Ga alleen door als u weet wat u doet.">
-<!ENTITY aboutWarningButton.label "Ik zal voorzichtig zijn, dat beloof ik!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "Hic sunt dracones">
+<!ENTITY aboutWarningText.label "Het wijzigen van deze geavanceerde instellingen kan (zeer) schadelijk zijn voor de stabiliteit, veiligheid en prestaties van deze toepassing. Ga alleen verder als u weet wat u doet.">
+<!ENTITY aboutWarningButton.label "Ik beloof voorzichtig te zijn!">
 <!ENTITY aboutWarningCheckbox.label "Deze waarschuwing de volgende keer tonen">
 
 <!ENTITY searchPrefs.label "Zoeken:">
@@ -22,8 +22,8 @@
 <!ENTITY valueColumn.label "Waarde">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "Klik om te sorteren">
-<!ENTITY columnChooser.tooltip "Klik om weer te geven kolommen te selecteren">
+<!ENTITY prefColumnHeader.tooltip "Klik om te sorteren"> 
+<!ENTITY columnChooser.tooltip "Klik om weer te geven kolommen te selecteren"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "K">

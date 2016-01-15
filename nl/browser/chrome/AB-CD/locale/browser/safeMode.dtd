@@ -3,17 +3,25 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY safeModeDialog.title         "&brandShortName; Veilige modus">
-<!ENTITY window.maxWidth              "400">
+<!ENTITY window.width                 "46em">
 
-<!ENTITY startSafeMode.label          "Starten in veilige modus">
-<!ENTITY resetProfile.label           "&brandShortName; herinitialiseren">
+<!ENTITY safeModeDescription.label    "&brandShortName; is nu gestart in Veilige Modus (Safe Mode). Dit schakelt tijdelijk uw aangepaste instellingen, thema's en extensies uit.">
+<!ENTITY safeModeDescription2.label   "U kunt de volgende wijzigingen naar keus permanent maken:">
 
-<!ENTITY safeModeDescription3.label   "De veilige modus is een speciale modus van &brandShortName; die kan worden gebruikt om problemen te onderzoeken.">
-<!ENTITY safeModeDescription4.label   "Uw add-ons en aangepaste instellingen zullen tijdelijk worden uitgeschakeld.">
+<!ENTITY disableAddons.label          "Alle extensies uitschakelen">
+<!ENTITY disableAddons.accesskey      "D">
 
-<!ENTITY resetProfileInstead.label    "Als u een schone start wilt maken, kunt u &brandShortName; ook herinitialiseren.">
+<!ENTITY resetToolbars.label          "Werkbalken en bedieningen resetten">
+<!ENTITY resetToolbars.accesskey      "W">
 
-<!-- LOCALIZATION NOTE (autoSafeModeDescription2.label safeModeInstead.label resetProfileFooter.label): Shown on the safe mode dialog after multiple startup crashes. See also chrome/global/resetProfile.dtd -->
-<!ENTITY autoSafeModeDescription2.label "&brandShortName; is onverwacht gesloten tijdens het opstarten. Dit kan worden veroorzaakt door add-ons of andere problemen. U kunt proberen het probleem te verhelpen door &brandShortName; te herinitialiseren naar de begintoestand of door problemen te onderzoeken in de veilige modus.">
-<!ENTITY resetProfileFooter.label       "Al het andere zal worden geherinitialiseerd naar de fabriekswaarden.">
-<!ENTITY safeModeInstead.label          "Als u dit niet wilt, kunt u doorgaan in de veilige modus om zelf aan probleemoplossing te doen, waarbij uw add-ons en aangepaste instellingen tijdelijk zijn uitgeschakeld.">
+<!ENTITY deleteBookmarks.label        "Alle bladwijzers met uitzondering van back-ups resetten">
+<!ENTITY deleteBookmarks.accesskey    "b">
+
+<!ENTITY resetUserPrefs.label         "Alle gebruikersvoorkeuren instellen op standaardwaarden voor &brandShortName;">
+<!ENTITY resetUserPrefs.accesskey     "g">
+
+<!ENTITY restoreSearch.label          "Zoekmachines resetten">
+<!ENTITY restoreSearch.accesskey      "Z">
+
+<!ENTITY changeAndRestartButton.label "Wijzigingen maken en opnieuw starten">
+<!ENTITY continueButton.label         "Doorgaan met Veilige Modus">
