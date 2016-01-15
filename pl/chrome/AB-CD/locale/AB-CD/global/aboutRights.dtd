@@ -1,3 +1,6 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
 <!ENTITY rights.locale-direction "ltr">
 <!ENTITY rights.pagetitle       "about:rights">
@@ -28,6 +31,9 @@
 <!ENTITY rights2.intro-point3b "zasadach ochrony prywatności programu &brandShortName;">
 <!ENTITY rights.intro-point3c ".">
 
+<!-- point 3 text for unbranded builds -->
+<!ENTITY rights.intro-point3-unbranded "W tym miejscu powinny być wypisane wszelkie zbiory zasad ochrony prywatności związane z tym produktem.">
+
 <!-- point 4 text for official branded builds -->
 <!ENTITY rights2.intro-point4a "Niektóre funkcje programu &brandShortName; umożliwiają korzystanie z internetowych usług informacyjnych, jednakże nie możemy zagwarantować ich stuprocentowej dokładności ani bezbłędności. Szczegółowe informacje, w tym opis wyłączenia tych usług, można znaleźć w ">
 <!ENTITY rights.intro-point4b "warunkach korzystania z tych usług">
@@ -38,9 +44,6 @@
 odnośniki do wszelkich warunków korzystania z nich powinny znajdować się w sekcji ">
 <!ENTITY rights.intro-point4b-unbranded "Usługi WWW">
 <!ENTITY rights.intro-point4c-unbranded ".">
-
-<!-- point 3 text for unbranded builds -->
-<!ENTITY rights.intro-point3-unbranded "W tym miejscu powinny być wypisane wszelkie zbiory zasad ochrony prywatności związane z tym produktem.">
 
 <!ENTITY rights2.webservices-header "Usługi informacyjne WWW programu &brandFullName;">
 

@@ -2,9 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY closeCmd.key "W">
+<!-- LOCALIZATION NOTE : FILE This file contains the Toolbox strings -->
+<!-- LOCALIZATION NOTE : FILE Do not translate key -->
 
-<!ENTITY toolboxCloseButton.tooltip "Zamknij narzędzia dla programistów">
+<!ENTITY closeCmd.key  "W">
+
+<!ENTITY toolboxCloseButton.tooltip    "Zamknij narzędzia dla programistów">
 <!ENTITY toolboxOptionsButton.key      "O">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -35,7 +38,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Włącz debugowanie zdalne">
-<!ENTITY options.enableRemote.tooltip  "Włączenie tej opcji pozwoli na debugowanie zdalnych instancji Firefoksa takich jak Firefox OS z poziomu narzędzi dla programistów">
+<!ENTITY options.enableRemote.tooltip   "Włączenie tej opcji pozwoli na debugowanie zdalnych instancji Firefoksa takich jak Firefox OS z poziomu narzędzi dla programistów">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -48,7 +51,7 @@
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "Domyślne narzędzia dla programistów Firefoksa">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
@@ -65,7 +68,6 @@
 <!ENTITY options.selectDevToolsTheme.label   "Wybierz motyw dla narzędzi dla programistów:">
 <!ENTITY options.darkTheme.label             "Ciemny motyw">
 <!ENTITY options.lightTheme.label            "Jasny motyw">
-
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->

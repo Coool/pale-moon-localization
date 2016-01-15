@@ -36,7 +36,7 @@
 
      + 999 other downloads
 
-     that's 28 characters, so we set the minimum width to 21ch.
+     that's 21 characters, so we set the minimum width to 21ch.
      -->
 <!ENTITY downloadsSummary.minWidth2       "30ch">
 
@@ -79,7 +79,8 @@
 <!ENTITY clearDownloadsButton.tooltip     "Usuwa zakończone, anulowane i nieudane pobierania">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
-     This string is shown when there are no items in the Downloads view.
+     This string is shown when there are no items in the Downloads view, when it
+     is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Brak pobieranych.">
 

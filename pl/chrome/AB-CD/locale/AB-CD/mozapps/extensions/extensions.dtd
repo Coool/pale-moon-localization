@@ -1,7 +1,6 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <!ENTITY addons.windowTitle                   "Dodatki">
 
 <!ENTITY search.placeholder                   "Szukaj we wszystkich dodatkach">
@@ -14,13 +13,10 @@
 <!ENTITY listEmpty.availableUpdates.label     "Nie znaleziono aktualizacji">
 <!ENTITY listEmpty.recentUpdates.label        "Dodatki nie były ostatnio aktualizowane">
 <!ENTITY listEmpty.findUpdates.label          "Sprawdź dostępność aktualizacji">
-
 <!ENTITY listEmpty.search.label               "Nie znaleziono pasujących dodatków">
 <!ENTITY listEmpty.button.label               "Więcej informacji o dodatkach">
-
 <!ENTITY installAddonFromFile.label           "Zainstaluj dodatek z pliku…">
 <!ENTITY installAddonFromFile.accesskey       "Z">
-
 <!ENTITY toolsMenu.tooltip                    "Narzędzia dla wszystkich dodatków">
 
 <!ENTITY cmd.back.tooltip                     "Przejdź jedną stronę do przodu">
@@ -40,7 +36,6 @@
 <!ENTITY info.plugincheck.tooltip               "Sprawdź, czy zainstalowane wtyczki są aktualne">
 
 <!-- categories / views -->
-<!-- LOCALIZATION NOTE: These should match the header-* entries in extensions.properties -->
 <!ENTITY view.search.label                    "Szukaj">
 <!ENTITY view.discover.label                  "Pobierz dodatki">
 <!ENTITY view.recentUpdates.label             "Ostatnie aktualizacje">
@@ -158,12 +153,14 @@
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Zmień preferencje związane z tym dodatkiem">
 
+
 <!-- ratings -->
-<!ENTITY rating2.label                         "Ocena">
+<!ENTITY rating2.label                        "Ocena">
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Wstrzymaj">
 <!ENTITY progress.cancel.tooltip              "Anuluj">
+
 
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Nazwa">

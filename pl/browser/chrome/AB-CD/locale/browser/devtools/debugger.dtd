@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- LOCALIZATION NOTE : FILE This file contains the Script Debugger strings -->
+<!-- LOCALIZATION NOTE : FILE This file contains the Debugger strings -->
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkey -->
 
 <!-- LOCALIZATION NOTE : FILE The correct localization of this file might be to
@@ -13,7 +13,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.closeButton.tooltip): This is the tooltip for
   -  the button that closes the debugger UI. -->
-<!ENTITY debuggerUI.closeButton.tooltip        "Zamknij">
+<!ENTITY debuggerUI.closeButton.tooltip "Zamknij">
 
 <!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the debugger UI. -->
@@ -25,7 +25,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
-<!ENTITY debuggerUI.pauseExceptions          "Zatrzymaj na wyjątkach">
+<!ENTITY debuggerUI.pauseExceptions     "Zatrzymaj na wyjątkach">
 <!ENTITY debuggerUI.pauseExceptions.key "E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
@@ -53,18 +53,18 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelTitle): This is the text that
   -  appears in the filter panel popup as a description. -->
-<!ENTITY debuggerUI.searchPanelTitle  "Operatory">
+<!ENTITY debuggerUI.searchPanelTitle    "Operatory">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
-<!ENTITY debuggerUI.searchFile "Filtrowanie skryptów">
-<!ENTITY debuggerUI.searchFile.key "F">
+<!ENTITY debuggerUI.searchFile          "Filtrowanie skryptów">
+<!ENTITY debuggerUI.searchFile.key      "F">
 <!ENTITY debuggerUI.searchFile.altkey   "O">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
   -  in the source editor's context menu for the global search operation. -->
-<!ENTITY debuggerUI.searchGlobal "Wyszukiwanie we wszystkich plikach">
-<!ENTITY debuggerUI.searchGlobal.key "h">
+<!ENTITY debuggerUI.searchGlobal        "Wyszukiwanie we wszystkich plikach">
+<!ENTITY debuggerUI.searchGlobal.key    "h">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFunction): This is the text that appears
   -  in the source editor's context menu for the function search operation. -->
@@ -73,18 +73,18 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchToken): This is the text that appears
   -  in the source editor's context menu for the token search operation. -->
-<!ENTITY debuggerUI.searchToken "Wyszukaj">
-<!ENTITY debuggerUI.searchToken.key "a">
+<!ENTITY debuggerUI.searchToken         "Wyszukaj">
+<!ENTITY debuggerUI.searchToken.key     "a">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
-<!ENTITY debuggerUI.searchLine "Przejdź do linii…">
-<!ENTITY debuggerUI.searchLine.key "P">
+<!ENTITY debuggerUI.searchLine          "Przejdź do linii…">
+<!ENTITY debuggerUI.searchLine.key      "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchVariable): This is the text that appears
   -  in the source editor's context menu for the variables search operation. -->
-<!ENTITY debuggerUI.searchVariable "Filtrowanie zmiennych">
-<!ENTITY debuggerUI.searchVariable.key "z">
+<!ENTITY debuggerUI.searchVariable      "Filtrowanie zmiennych">
+<!ENTITY debuggerUI.searchVariable.key  "z">
 
 <!-- LOCALIZATION NOTE (debuggerUI.focusVariables): This is the text that appears
   -  in the source editor's context menu for the variables focus operation. -->
@@ -98,7 +98,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuBreak): This is the text that
   -  appears in the source editor context menu for adding a breakpoint. -->
 <!ENTITY debuggerUI.seMenuBreak         "Dodaj punkt wstrzymania">
-<!ENTITY debuggerUI.seMenuBreak.key "o">
+<!ENTITY debuggerUI.seMenuBreak.key     "o">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuCondBreak): This is the text that
   -  appears in the source editor context menu for adding a conditional
@@ -124,7 +124,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.stepping): These are the keycodes that
   -  control the stepping commands in the debugger (continue, step over,
   -  step in and step out). -->
-<!ENTITY debuggerUI.stepping.resume "VK_F6">
-<!ENTITY debuggerUI.stepping.stepOver "VK_F7">
-<!ENTITY debuggerUI.stepping.stepIn "VK_F8">
-<!ENTITY debuggerUI.stepping.stepOut "VK_F8">
+<!ENTITY debuggerUI.stepping.resume     "VK_F6">
+<!ENTITY debuggerUI.stepping.stepOver   "VK_F7">
+<!ENTITY debuggerUI.stepping.stepIn     "VK_F8">
+<!ENTITY debuggerUI.stepping.stepOut    "VK_F8">

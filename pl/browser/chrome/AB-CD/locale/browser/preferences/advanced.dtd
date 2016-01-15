@@ -26,26 +26,14 @@
 <!ENTITY checkSpelling.label             "Sprawdzaj pisownię podczas wprowadzania tekstu">
 <!ENTITY checkSpelling.accesskey         "i">
 
-<!ENTITY systemDefaults.label  		 "Ustawienia systemowe">
-<!ENTITY alwaysCheckDefault.label      	 "Przy uruchamianiu sprawdzaj, czy &brandShortName; jest domyślną przeglądarką">
-<!ENTITY alwaysCheckDefault.accesskey  	 "c">
+<!ENTITY systemDefaults.label            "Ustawienia systemowe">
+<!ENTITY alwaysCheckDefault.label        "Przy uruchamianiu sprawdzaj, czy &brandShortName; jest domyślną przeglądarką"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "c">
 <!ENTITY setDefault.label                "Ustaw program &brandShortName; jako domyślną przeglądarkę">
 <!ENTITY setDefault.accesskey            "s">
 <!ENTITY isDefault.label                 "&brandShortName; jest obecnie domyślną przeglądarką">
 
 <!ENTITY dataChoicesTab.label            "Udostępnianie danych">
-
-<!ENTITY healthReportSection.label       "&brandShortName; Health Report">
-<!ENTITY healthReportDesc.label          "Pozwala ci zrozumieć wydajność przeglądarki i udostępnia dane o jej stanie organizacji &vendorShortName;">
-<!ENTITY enableHealthReport.label        "Włącz funkcję &brandShortName; Health Report">
-<!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "Więcej informacji">
-
-<!ENTITY telemetrySection.label          "Telemetria">
-<!ENTITY telemetryDesc.label             "Udostępnia organizacji &vendorShortName; dane o wydajności, wykorzystaniu, modyfikacjach przeglądarki oraz o sprzęcie, na którym działa, aby pomóc nam w ulepszeniu programu &brandShortName;">
-<!ENTITY enableTelemetry.label           "Włącz telemetrię">
-<!ENTITY enableTelemetry.accesskey       "t">
-<!ENTITY telemetryLearnMore.label        "Więcej informacji">
 
 <!ENTITY crashReporterSection.label      "Zgłaszanie awarii">
 <!ENTITY crashReporterDesc.label         "&brandShortName; przesyła zgłoszenia awarii, aby organizacja &vendorShortName; mogła poprawić stabilność i bezpieczeństwo przeglądarki">
@@ -62,8 +50,9 @@
 <!ENTITY connectionSettings.accesskey    "U">
 
 <!ENTITY httpCache.label                 "Treści w pamięci podręcznej">
+
 <!ENTITY offlineStorage2.label           "Treści dla trybu offline i dane użytkownika">
-    
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -103,14 +92,10 @@
 <!ENTITY updateHistory.label             "Wyświetl historię aktualizacji">
 <!ENTITY updateHistory.accesskey         "W">
 
-<!ENTITY useService.label                "Używaj usługi instalowania aktualizacji działającej w tle">
-<!ENTITY useService.accesskey            "g">
-
 <!ENTITY updateOthers.label              "Aktualizuj automatycznie:">
 <!ENTITY enableSearchUpdate.label        "wyszukiwarki">
 <!ENTITY enableSearchUpdate.accesskey    "s">
 
-<!-- FIXME (offlineNotify.label) skrócić -->
 <!ENTITY offlineNotify.label             "Powiadamiaj, kiedy witryna poprosi o możliwość przechowywania danych dla trybu offline">
 <!ENTITY offlineNotify.accesskey         "o">
 <!ENTITY offlineNotifyExceptions.label   "Wyjątki…">
@@ -134,4 +119,3 @@
 <!ENTITY verify2.accesskey               "j">
 <!ENTITY viewSecurityDevices.label       "Urządzenia zabezpieczające">
 <!ENTITY viewSecurityDevices.accesskey   "d">
-
