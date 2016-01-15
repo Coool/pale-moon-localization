@@ -1,7 +1,10 @@
-<!ENTITY  updateWizard.title              "Mise à jour du logiciel">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY  updateWizard.title              "Mise à jour de &brandShortName;">
 
 <!ENTITY  checking.title                  "Recherche de mises à jour">
-<!ENTITY  updateCheck.label               "Recherche de nouvelles versions de &brandShortName;…">
+<!ENTITY  updateCheck.label               "Vérifier l'existence de mises à jour mais me laisser décider de leur installation">
 
 <!ENTITY  pluginupdatesfound.title        "Mises à jour disponibles pour les plugins">
 <!ENTITY  pluginupdatesfound.label        "De nouvelles versions pour un ou plusieurs des plugins sont disponibles.">
@@ -19,7 +22,7 @@
 
 <!ENTITY  unsupported.title               "Système non pris en charge">
 <!ENTITY  unsupported.label               "&brandShortName; n'est pas à jour, cependant la version la plus récente n'est pas
-                                           prise en charge par ce système. Mettre à jour votre système, puis essayer à nouveau.
+                                           prise en charge par ce système. Merci de mettre à jour ce système, puis d'essayer à nouveau.
                                            Ce message ne s'affichera plus, mais il est possible">
 <!ENTITY  unsupportedLink.label           "d'en apprendre davantage.">
 
@@ -55,17 +58,17 @@
 <!ENTITY  error.title                     "La mise à jour a échoué">
 
 <!ENTITY  error.label                     "Des problèmes ont été rencontrés lors de la vérification, du téléchargement ou de l'installation de cette mise à jour. &brandShortName; n'a pas pu être mis à jour suite à :">
-
+                                           
 <!ENTITY  errorManual.label               "Il est possible de mettre &brandShortName; à jour manuellement en suivant ce lien et en téléchargeant la dernière version :">
-
+                                           
 <!ENTITY  errorpatching.intro             "La mise à jour partielle n'a pas pu être appliquée. &brandShortName; va réessayer en téléchargeant une mise à jour complète.">
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; ne parvient pas à déterminer si une mise à jour est disponible. Il faut
                                            s'assurer de disposer de la dernière version de &brandShortName; à :">
 <!ENTITY  errorCertAttrNoUpdate2.label    "Quelque chose empêche &brandShortName; de se mettre à jour de manière sûre.
-                                           Il faut s'assurer que de disposer de la dernière version de &brandShortName; à :">
+Merci de s'assurer de disposer de la dernière version de &brandShortName; de :">
 <!ENTITY  errorCertAttrHasUpdate.label    "Quelque chose essaie de duper &brandShortName; en lui proposant une mise à jour
-                                           non sûre. Contacter le fournisseur de réseau pour demander de l'aide.">
+non sûre. Merci de contacter le fournisseur d'accès réseau pour demander de l'aide.">
 
 <!ENTITY  finishedPage.title              "Mise à jour prête à être installée">
 <!ENTITY  finishedPage.text               "La mise à jour sera installée au prochain démarrage de &brandShortName;. Il est possible de
@@ -73,7 +76,6 @@
 
 <!ENTITY  finishedBackgroundPage.text     "Une mise à jour de sécurité et de stabilité pour &brandShortName; a été
                                            téléchargée et est prête à être installée.">
-
 <!ENTITY  finishedBackground.name         "Mise à jour :">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "La mise à jour sera installée au prochain démarrage de &brandShortName;. Il est possible de

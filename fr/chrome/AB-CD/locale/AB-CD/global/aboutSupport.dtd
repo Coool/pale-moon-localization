@@ -8,7 +8,7 @@
 <!ENTITY aboutSupport.pageSubtitle "
   Cette page contient des informations techniques qui pourraient être utiles lors de
   la résolution d'un problème. En cas de recherche de réponses à des questions courantes
-  sur &brandShortName;, prière de consulter la <a id='supportLink'>site internet d'assistance</a>.
+  sur &brandShortName;, prière de consulter la <a id='supportLink'>site d'assistance</a>.
 ">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensions">
@@ -27,7 +27,6 @@
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Afficher l'historique des mises à jour…">
 
 <!ENTITY aboutSupport.appBasicsProfileDir "Répertoire de profil">
-
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
@@ -38,8 +37,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Agent utilisateur">
 <!ENTITY aboutSupport.appBasicsCrashIDs "Rapports de plantage">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilisation mémoire">
-<!ENTITY aboutSupport.showDir.label "Ouvrir le dossier correspondant…">
 
+<!ENTITY aboutSupport.showDir.label "Ouvrir le dossier correspondant…">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
@@ -54,7 +53,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "Préférences de user.js">
-<!ENTITY aboutSupport.userJSDescription "Votre dossier de profil possède un <a id='prefs-user-js-link'>fichier user.js</a> contenant les préférences qui n'ont pas été créées par &brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Le dossier personnel de profil possède un <a id='prefs-user-js-link'>fichier user.js</a> contenant les préférences qui n'ont pas été créées par &brandShortName;.">
 
 <!ENTITY aboutSupport.graphicsTitle "Accélération graphique">
 

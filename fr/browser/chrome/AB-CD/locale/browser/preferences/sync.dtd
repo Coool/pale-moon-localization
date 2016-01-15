@@ -5,7 +5,7 @@
 <!-- The page shown when not logged in... -->
 <!ENTITY setupButton.label          "Configurer &syncBrand.fullName.label;">
 <!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; permet d'accéder l'historique, marque-pages, mots de passe et onglets ouverts personnels depuis différents ordinateurs et appareils.">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; permet d'accéder à l'historique, aux marque-pages, aux mots de passe et aux onglets personnels ouverts depuis différents ordinateurs et appareils.">
 
 <!-- The page shown when logged in... -->
 
@@ -20,26 +20,27 @@
 <!ENTITY changePassword2.label        "Modifier le mot de passe…">
 <!ENTITY myRecoveryKey.label          "Clé de récupération">
 <!ENTITY resetSync2.label             "Réinitialiser la synchronisation…">
+
 <!ENTITY pairDevice.label             "Associer un appareil">
 
 <!ENTITY syncMy.label               "Synchroniser">
-<!ENTITY engine.bookmarks.label     "les marque-pages">
+<!ENTITY engine.bookmarks.label     "Les marque-pages">
 <!ENTITY engine.bookmarks.accesskey "m">
-<!ENTITY engine.tabs.label          "les onglets">
+<!ENTITY engine.tabs.label          "Les onglets">
 <!ENTITY engine.tabs.accesskey      "o">
-<!ENTITY engine.history.label       "l'historique">
+<!ENTITY engine.history.label       "L'historique">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "les mots de passe">
+<!ENTITY engine.passwords.label     "Les mots de passe">
 <!ENTITY engine.passwords.accesskey "p">
-<!ENTITY engine.prefs.label         "les préférences">
+<!ENTITY engine.prefs.label         "Les préférences">
 <!ENTITY engine.prefs.accesskey     "s">
-<!ENTITY engine.addons.label        "les modules complémentaires">
+<!ENTITY engine.addons.label        "Les modules complémentaires">
 <!ENTITY engine.addons.accesskey    "u">
 
 <!-- Device Settings -->
-<!ENTITY syncDeviceName.label         "Nom de l'appareil :">
-<!ENTITY syncDeviceName.accesskey     "d">
-<!ENTITY unlinkDevice.label           "Retirer cet appareil">
+<!ENTITY syncDeviceName.label       "Nom de l'appareil :">
+<!ENTITY syncDeviceName.accesskey   "N">
+<!ENTITY unlinkDevice.label           "Dissocier cet appareil">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "Conditions d'utilisation">

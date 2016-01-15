@@ -4,11 +4,11 @@
 
 <!ENTITY window.title "about:config">
 
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and
- playful -->
-<!ENTITY aboutWarningTitle.label    "Attention, danger !">
-<!ENTITY aboutWarningText.label     "La modification de ces préférences avancées peut être dommageable pour la stabilité, la sécurité et les performances de cette application. Ne continuez que si vous savez ce que vous faites.">
-<!ENTITY aboutWarningButton.label   "Je ferai attention, promis !">
+<!-- about:config warning page -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "Attention, danger !">
+<!ENTITY aboutWarningText.label "La modification de ces préférences avancées peut être (très) dommageable pour la stabilité, la sécurité et les performances de cette application. Ne continuer que si vous savez ce que vous faites.">
+<!ENTITY aboutWarningButton.label "Je ferai attention, promis !">
 <!ENTITY aboutWarningCheckbox.label "Afficher cet avertissement la prochaine fois">
 
 <!ENTITY searchPrefs.label "Rechercher :">
@@ -18,7 +18,7 @@
 <!-- Columns -->
 <!ENTITY prefColumn.label "Nom de l'option">
 <!ENTITY lockColumn.label "Statut">
-<!ENTITY typeColumn.label "Type">
+<!ENTITY typeColumn.label "Type de contenu">
 <!ENTITY valueColumn.label "Valeur">
 
 <!-- Tooltips -->
@@ -35,8 +35,8 @@
 <!ENTITY copyValue.accesskey "v">
 <!ENTITY modify.label "Modifier">
 <!ENTITY modify.accesskey "M">
-<!ENTITY toggle.label "Inverser">
-<!ENTITY toggle.accesskey "I">
+<!ENTITY toggle.label "Commuter">
+<!ENTITY toggle.accesskey "t">
 <!ENTITY reset.label "Réinitialiser">
 <!ENTITY reset.accesskey "R">
 <!ENTITY new.label "Nouvelle">

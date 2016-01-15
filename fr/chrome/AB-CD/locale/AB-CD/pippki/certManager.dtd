@@ -13,7 +13,7 @@
 <!ENTITY certmgr.ca.builtins                  "Autorités de certification (AC) internes">
 <!ENTITY certmgr.ca.mycas                     "ACs personnels">
 
-<!ENTITY certmgr.mine                         "Certificats des organisations qui vous identifient :">
+<!ENTITY certmgr.mine                         "Certificats des organisations identifiant personnellement :">
 <!ENTITY certmgr.others                       "Certificats fichier qui identifient ces personnes :">
 <!ENTITY certmgr.websites2                    "Certificats fichier qui identifient ces serveurs :">
 <!ENTITY certmgr.cas                          "Certificats fichier qui identifient ces autorités de certification :">
@@ -39,15 +39,15 @@
 
 <!ENTITY certmgr.editcert.title               "Éditer les options du certificat de sécurité">
 <!ENTITY certmgr.editcacert.title             "Éditer les options d'identification de l'AC">
-<!ENTITY certmgr.editsslcert.title            "Éditer les options d'identification du certificat du site internet">
+<!ENTITY certmgr.editsslcert.title            "Éditer les paramètres d'identification du certificat">
 <!ENTITY certmgr.editcert.edittrust           "Éditer les options d'identification :">
-<!ENTITY certmgr.editcert.trustssl            "Ce certificat peut identifier des sites internet.">
+<!ENTITY certmgr.editcert.trustssl            "Ce certificat peut identifier des sites Web.">
 <!ENTITY certmgr.editcert.trustemail          "Ce certificat peut identifier des utilisateurs de courriel.">
 <!ENTITY certmgr.editcert.trustobjsign        "Ce certificat peut identifier des développeurs de logiciel.">
 <!ENTITY certmgr.editsslcert.edittrust        "Éditer les options d'identification du certificat :">
 <!ENTITY certmgr.editsslcert.dotrust          "Reconnaitre l'authenticité de ce certificat.">
 <!ENTITY certmgr.editsslcert.donttrust        "Ne pas reconnaitre l'authenticité de ce certificat.">
-<!ENTITY certmgr.editemailcert.title          "Éditer les options d'identification du certificat courriel">
+<!ENTITY certmgr.editemailcert.title          "Éditer les options d'identification du certificat de courriel">
 <!ENTITY certmgr.editemailcert.edittrust      "Éditer les options d'identification du certificat :">
 <!ENTITY certmgr.editemailcert.dotrust        "Reconnaitre l'authenticité de ce certificat.">
 <!ENTITY certmgr.editemailcert.donttrust      "Ne pas reconnaitre l'authenticité de ce certificat.">
@@ -65,34 +65,34 @@
 <!ENTITY certmgr.tokenname                    "Périphérique de sécurité">
 <!ENTITY certmgr.issued                       "Délivré le">
 <!ENTITY certmgr.expires                      "Expire le">
-<!ENTITY certmgr.email                        "Courriel">
+<!ENTITY certmgr.email                        "Adresse de courriel">
 <!ENTITY certmgr.serial                       "Numéro de série">
 
 <!ENTITY certmgr.close.label                  "Fermer">
-<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.close.accesskey              "F">
 <!ENTITY certmgr.view2.label                  "Voir…">
 <!ENTITY certmgr.view2.accesskey              "V">
 <!ENTITY certmgr.edit3.label                  "Éditer identification…">
 <!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Éditer de l'AC">
+<!ENTITY certmgr.editca.label                 "Éditer l'AC">
 <!ENTITY certmgr.editca.accesskey             "d">
 <!ENTITY certmgr.add.label                    "Ajouter">
 <!ENTITY certmgr.add.accesskey                "A">
 <!ENTITY certmgr.export.label                 "Exporter…">
 <!ENTITY certmgr.export.accesskey             "x">
 <!ENTITY certmgr.delete2.label                "Supprimer…">
-<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete2.accesskey            "S">
 <!ENTITY certmgr.delete_builtin.label         "Supprimer ou révoquer…">
-<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.delete_builtin.accesskey     "S">
 <!ENTITY certmgr.backup2.label                "Sauvegarder…">
-<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backup2.accesskey            "V">
 <!ENTITY certmgr.backupall2.label             "Tout sauvegarder…">
-<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.backupall2.accesskey         "T">
 <!ENTITY certmgr.restore2.label               "Importer…">
 <!ENTITY certmgr.restore2.accesskey           "m">
 <!ENTITY certmgr.details.label                "Champs du certificat">
-<!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Valeur du champs">
+<!ENTITY certmgr.details.accesskey            "C">
+<!ENTITY certmgr.fields.label                 "Valeur du champ">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Hiérarchie du certificat">
 <!ENTITY certmgr.hierarchy.accesskey          "C">

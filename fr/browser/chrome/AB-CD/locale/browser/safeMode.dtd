@@ -3,17 +3,25 @@
      - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY safeModeDialog.title         "Mode sans échec de &brandShortName;">
-<!ENTITY window.maxWidth              "400">
+<!ENTITY window.width                 "54em">
 
-<!ENTITY startSafeMode.label          "Démarrer en mode sans échec">
-<!ENTITY resetProfile.label           "Réinitialiser &brandShortName;">
+<!ENTITY safeModeDescription.label    "&brandShortName; est actuellement exécuté en mode sans échec qui désactive temporairement les options personnalisées, les thèmes et les extensions.">
+<!ENTITY safeModeDescription2.label   "Il est possible de rendre tout ou partie de ces modifications permanentes :">
 
-<!ENTITY safeModeDescription3.label   "Le mode sans échec est un mode particulier de &brandShortName; pouvant être utilisé pour résoudre des problèmes.">
-<!ENTITY safeModeDescription4.label   "Les modules et paramètres personnalisés seront temporairement désactivés.">
+<!ENTITY disableAddons.label          "Désactiver toutes les extensions">
+<!ENTITY disableAddons.accesskey      "D">
 
-<!ENTITY resetProfileInstead.label    "Il est également possible de réinitialiser &brandShortName; pour repartir à zéro.">
+<!ENTITY resetToolbars.label          "Restaurer les barres d'outils et contrôle par défaut">
+<!ENTITY resetToolbars.accesskey      "R">
 
-<!-- LOCALIZATION NOTE (autoSafeModeDescription2.label safeModeInstead.label resetProfileFooter.label): Shown on the safe mode dialog after multiple startup crashes. See also chrome/global/resetProfile.dtd -->
-<!ENTITY autoSafeModeDescription2.label "&brandShortName; s'est fermé inopinément lors de son démarrage. Cela peut être causé par des modules ou par d'autres problèmes. Il est possible de tenter de résoudre le problème en réinitialisant &brandShortName; à son état originel ou de le régler via le mode sans échec.">
-<!ENTITY resetProfileFooter.label       "Tout le reste sera réinitialisé à son état par défaut.">
-<!ENTITY safeModeInstead.label          "Si ce n'est pas ce qui est désiré, il est possible de continuer en mode sans échec pour régler le problème manuellement tandis que les modules et réglages personnalisés sont temporairement désactivés.">
+<!ENTITY deleteBookmarks.label        "Supprimer tout les marque-pages, sauf les sauvegardes">
+<!ENTITY deleteBookmarks.accesskey    "m">
+
+<!ENTITY resetUserPrefs.label         "Réinitialiser toutes les préférences aux valeurs par défaut">
+<!ENTITY resetUserPrefs.accesskey     "p">
+
+<!ENTITY restoreSearch.label          "Restaurer les moteurs de recherche par défaut">
+<!ENTITY restoreSearch.accesskey      "s">
+
+<!ENTITY changeAndRestartButton.label "Appliquer les changements et redémarrer">
+<!ENTITY continueButton.label         "Continuer en mode sans échec">

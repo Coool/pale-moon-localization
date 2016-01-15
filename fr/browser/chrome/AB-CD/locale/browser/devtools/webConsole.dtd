@@ -67,16 +67,16 @@
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
 <!ENTITY btnPageLogging.label   "Journal">
-<!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « console »">
+<!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « window.console »">
 <!ENTITY btnPageLogging.accesskey "u">
 <!ENTITY btnConsoleErrors       "Erreurs">
-<!ENTITY btnConsoleInfo         "Info">
+<!ENTITY btnConsoleInfo         "Infos">
 <!ENTITY btnConsoleWarnings     "Avertissements">
-<!ENTITY btnConsoleLog          "Log">
+<!ENTITY btnConsoleLog          "Journal">
 
 <!ENTITY filterOutput.placeholder "Filtrer">
 <!ENTITY btnClear.label        "Vider la console">
-<!ENTITY btnClear.tooltip      "Vider la console web">
+<!ENTITY btnClear.tooltip      "Vider la console Web">
 <!ENTITY btnClear.accesskey    "V">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">

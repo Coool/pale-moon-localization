@@ -8,7 +8,6 @@
 <!ENTITY closeCmd.key  "W">
 
 <!ENTITY toolboxCloseButton.tooltip    "Fermer les outils de développement">
-
 <!ENTITY toolboxOptionsButton.key      "O">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -32,14 +31,14 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label3): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label3    "Activer le débogage du chrome">
-<!ENTITY options.enableChrome.tooltip  "Activer cette option vous permettra d'utiliser divers outils de développement dans le contexte du navigateur">
+<!ENTITY options.enableChrome.label3    "Activer le débogage de chrome">
+<!ENTITY options.enableChrome.tooltip   "Activer cette option permettra d'utiliser divers outils de développement dans le contexte du navigateur">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Activer le débogage distant">
-<!ENTITY options.enableRemote.tooltip  "Activer cette option permettra de déboguer grâce aux outils de développement des instances distantes de Pale Moon">
+<!ENTITY options.enableRemote.tooltip   "Activer cette option permettra de déboguer grâce aux outils de développement des instances distantes de Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -47,13 +46,12 @@
 <!ENTITY options.disableJavaScript.label2    "Désactiver JavaScript">
 <!ENTITY options.disableJavaScript.tooltip   "Activer cette option désactivera JavaScript pour l'onglet courant. Ce paramètre sera oublié à la fermeture de l'onglet ou de la boîte à outils.">
 
-
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "Outils de développement par défaut">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
@@ -73,11 +71,11 @@
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
-<!ENTITY options.webconsole.label            "Console web">
+<!ENTITY options.webconsole.label            "Console Web">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogging.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console,
   -  i.e. devtools.webconsole.persistlog a boolean preference in about:config,
   -  in the options panel. -->
 <!ENTITY options.enablePersistentLogging.label    "Activer les journaux persistants">
-<!ENTITY options.enablePersistentLogging.tooltip  "Si cette option est activée, la console web ne videra pas les sorties à chaque fois changement de page">
+<!ENTITY options.enablePersistentLogging.tooltip  "Si cette option est activée, la console Web ne videra pas les sorties à chaque fois changement de page">

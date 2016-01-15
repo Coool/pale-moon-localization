@@ -12,26 +12,31 @@
   useDownloadedList.label convey the meaning "reported" (and not something like
   "known").
 -->
-<!ENTITY  blockAttackSites.label         "Bloquer les sites signalés comme étant des sites d'attaque">
-<!ENTITY  blockAttackSites.accesskey     "B">
-<!ENTITY  blockWebForgeries.label        "Bloquer les sites signalés comme étant des contrefaçons">
-<!ENTITY  blockWebForgeries.accesskey    "u">
+<!ENTITY  blockAttackSites.label     "Bloquer les sites signalés comme étant des sites d'attaque">
+<!ENTITY  blockAttackSites.accesskey "B">
+
+<!ENTITY  blockWebForgeries.label     "Bloquer les sites signalés comme étant des contrefaçons">
+<!ENTITY  blockWebForgeries.accesskey "u">
 
 <!ENTITY  addonExceptions.label         "Exceptions…">
 <!ENTITY  addonExceptions.accesskey     "E">
+
 
 <!ENTITY  passwords.label               "Mots de passe">
 
 <!ENTITY  rememberPasswords.label       "Enregistrer les mots de passe">
 <!ENTITY  rememberPasswords.accesskey   "s">
-
 <!ENTITY  passwordExceptions.label      "Exceptions…">
 <!ENTITY  passwordExceptions.accesskey  "x">
 
-<!ENTITY  useMasterPassword.label       "Utiliser un mot de passe principal">
-<!ENTITY  useMasterPassword.accesskey   "m">
-<!ENTITY  changeMasterPassword.label     "Changer le mot de passe principal…">
+<!ENTITY  useMasterPassword.label        "Utiliser un mot de passe principal">
+<!ENTITY  useMasterPassword.accesskey    "m">
+<!ENTITY  changeMasterPassword.label     "Modifier le mot de passe principal…">
 <!ENTITY  changeMasterPassword.accesskey "C">
 
-<!ENTITY  savedPasswords.label           "Mots de passe enregistrés…">
-<!ENTITY  savedPasswords.accesskey       "o">
+<!ENTITY  savedPasswords.label            "Mots de passe enregistrés…">
+<!ENTITY  savedPasswords.accesskey        "o">
+
+<!ENTITY  XSSFilt.label              "Filtre XSS">
+<!ENTITY  enableXSSFilt.label        "Activer le filtre XSS">
+<!ENTITY  enableXSSFilt.accesskey    "f">

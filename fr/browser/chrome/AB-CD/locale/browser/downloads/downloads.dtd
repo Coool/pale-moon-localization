@@ -76,10 +76,11 @@
 <!ENTITY downloadsHistory.accesskey       "i">
 
 <!ENTITY clearDownloadsButton.label       "Effacer les téléchargements">
-<!ENTITY clearDownloadsButton.tooltip     "Effacer les téléchargements terminés, annulés et qui ont échoué">
+<!ENTITY clearDownloadsButton.tooltip     "Effacer les téléchargements terminés, annulés et échoués">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
-     This string is shown when there are no items in the Downloads view.
+     This string is shown when there are no items in the Downloads view, when it
+     is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Il n'y a aucun téléchargement.">
 
