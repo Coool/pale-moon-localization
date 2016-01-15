@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 
+<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 <!ENTITY places.library.title  "ಲೈಬ್ರರಿ">
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "ಎಲ್ಲಾ ಹಾಳೆಗಳಲ್ಲೂ ತೆರೆ">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "O">
 
+<!ENTITY cmd.openParentFolder.label      "ಒಳಗೊಂಡಿರುವ ಕೋಶ ತೆರೆಯಿರಿ">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "ಗುಣಲಕ್ಷಣಗಳು">
 <!ENTITY cmd.properties.accesskey  "i">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "ಜರುಗಿಸು…">
 <!ENTITY cmd.moveBookmarks.accesskey              "M">
 
-<!ENTITY col.name.label          "ಹೆಸರು">
-<!ENTITY col.tags.label          "ಟ್ಯಾಗ್‌ಗಳು">
-<!ENTITY col.url.label           "ತಾಣ">
-<!ENTITY col.lastvisit.label     "ದಿನಾಂಕಕ್ಕೆ ತೆರಳು">
-<!ENTITY col.visitcount.label    "ಭೇಟಿ ಮಾಡಿದ ಲೆಕ್ಕ">
-<!ENTITY col.keyword.label       "ಮುಖ್ಯಪದ">
-<!ENTITY col.description.label   "ವಿವರಣೆ">
-<!ENTITY col.dateadded.label     "ಸೇರ್ಪಡಿಸಲಾದ">
-<!ENTITY col.lastmodified.label  "ಕೊನೆಯ  ಬಾರಿಗೆ ಮಾರ್ಪಡಿಸಲಾದ">
+<!ENTITY col.name.label              "ಹೆಸರು">
+<!ENTITY col.tags.label              "ಟ್ಯಾಗ್‌ಗಳು">
+<!ENTITY col.url.label               "ತಾಣ">
+<!ENTITY col.lastvisit.label         "ದಿನಾಂಕಕ್ಕೆ ತೆರಳು">
+<!ENTITY col.visitcount.label        "ಭೇಟಿ ಮಾಡಿದ ಲೆಕ್ಕ">
+<!ENTITY col.keyword.label           "ಮುಖ್ಯಪದ">
+<!ENTITY col.description.label       "ವಿವರಣೆ">
+<!ENTITY col.dateadded.label         "ಸೇರ್ಪಡಿಸಲಾದ">
+<!ENTITY col.lastmodified.label      "ಕೊನೆಯ  ಬಾರಿಗೆ ಮಾರ್ಪಡಿಸಲಾದ">
+<!ENTITY col.parentfolder.label      "ಒಳಗೊಂಡಿರುವ ಕೋಶ">
+<!ENTITY col.parentfolderpath.label  "ಕೋಶ ಮಾರ್ಗ ಹೊಂದಿರುವ">
 
-<!ENTITY search.label                              "ಹುಡುಕು:">
+<!ENTITY search.label                              "ಜಾಲ ಹುಡುಕಾಟ">
 <!ENTITY search.accesskey                          "S">
+
+<!ENTITY search.in.label                           "ಇದರಲ್ಲಿ ಹುಡುಕು:">
+<!ENTITY search.scopeFolder.label                  "ಆಯ್ದ ಕೋಶ ">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "ಪುಟಗುರುತುಗಳು">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "ಡೌನ್ಲೋಡ್ಗಳು">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "ಇತಿಹಾಸ">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "ಉಳಿಸಿ">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "ನಿಮ್ಮ ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ ಹಾಗು ಬ್ಯಾಕ್ಅಪ್ ಇರಿಸಿಕೊಳ್ಳಿ">
 
-<!ENTITY backButton.tooltip  "ಹಿಂದಕ್ಕೆ ತೆರಳು">
+<!ENTITY backButton.tooltip  "ಒಂದು ಪುಟ ಹಿಂದಕ್ಕೆ ಹೋಗು">
 
-<!ENTITY forwardButton.tooltip  "ಮುಂದಕ್ಕೆ ತೆರಳು">
+<!ENTITY forwardButton.tooltip  "ಒಂದು ಪುಟ ಮುಂದಕ್ಕೆ ಹೋಗು">
 
 <!ENTITY detailsPane.more.label "ಹೆಚ್ಚು">
 <!ENTITY detailsPane.more.accesskey "e">

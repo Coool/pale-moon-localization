@@ -1,47 +1,47 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-
-
-
--->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label "ಲಿಂಕ್ ಕಳುಹಿಸಿ…">
-<!ENTITY palemoon.sendLinkCmd.accesskey "d">
-<!ENTITY palemoon.sendPageCmd.label "ಪುಟ ಕಳುಹಿಸಿ…">
-<!ENTITY palemoon.sendPageCmd.accesskey "e">
-<!ENTITY palemoon.menu.statusBar.label "ಸ್ಟೇಟಸ್ ಬಾರ್">
-<!ENTITY palemoon.menu.statusBar.accesskey "S">
-<!ENTITY palemoon.menu.allBookmarks.label "ಬುಕ್ಮಾರ್ಕುಗಳನ್ನು ಆಯೋಜಿಸು">
+<!ENTITY palemoon.sendLinkCmd.label            "ಲಿಂಕ್ ಕಳುಹಿಸಿ…">
+<!ENTITY palemoon.sendLinkCmd.accesskey        "d">
+<!ENTITY palemoon.sendPageCmd.label            "ಪುಟ ಕಳುಹಿಸಿ…">
+<!ENTITY palemoon.sendPageCmd.accesskey        "e">
+
+<!ENTITY palemoon.menu.statusBar.label               "ಸ್ಟೇಟಸ್ ಬಾರ್">
+<!ENTITY palemoon.menu.statusBar.accesskey           "S">
+<!ENTITY palemoon.menu.allBookmarks.label            "ಬುಕ್ಮಾರ್ಕುಗಳನ್ನು ಆಯೋಜಿಸು">
+
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label "ಹಳೆಯ ಡೌನ್ಲೋಡ್ ವಿಂಡೋ ಬಳಸಿ">
-<!ENTITY palemoon.showTabBar.label "ಟ್ಯಾಬ್ ಪಟ್ಟಿಯನ್ನು ಯಾವಾಗಲು ತೋರಿಸು">
-<!ENTITY palemoon.showTabBar.accesskey "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label "ಸಂಬಂಧವಿರುವ ಟ್ಯಾಬ್ಗಳನ್ನ ಪ್ರಸ್ತುತ ಟ್ಯಾಬ್ ನಂತರ ಸೇರಿಸಿ">
-<!ENTITY palemoon.contextLoadInBackground.label "ಕಾಂಟೆಕ್ಸ್ಟ್ ಹುಡುಕಾಟ ಮಾಡುವಾಗ, ಕೂಡಲೇ ಹೊಸ ಟ್ಯಾಬ್ಗೆ ಬದಲಾಯಿಸಿ">
-<!ENTITY palemoon.closeWindowWithLastTab.label "ಕೊನೆಯ ಟ್ಯಾಬ್ ಮುಚ್ಹುವಾಗ ವಿಂಡೋ ಮುಚ್ಚು">
-<!ENTITY palemoon.newtabPage.label "ಹೊಸ ಟ್ಯಾಬ್ ತೆರೆದಾಗ, ಇದನ್ನು ತೋರಿಸು:">
-<!ENTITY palemoon.newtabPage.blank.label "ಒಂದು ಖಾಲಿ ಪುಟ">
-<!ENTITY palemoon.newtabPage.home.label "Pale Moonನ ಆರಂಭದ ಪುಟ">
-<!ENTITY palemoon.newtabPage.quickdial.label "ತ್ವರಿತ ಡಯಲ್ ಪುಟ">
-<!ENTITY palemoon.loadImages.label "ಚಿತ್ರಗಳನ್ನು ತುಂಬಿಸು:">
-<!ENTITY palemoon.loadImages.always "ಸ್ವಯಂಚಾಲಿತವಾಗಿ">
-<!ENTITY palemoon.loadImages.never "ಯಾವತ್ತಿಗೂ ಬೇಡ">
-<!ENTITY palemoon.loadImages.no3rdparty "ಮೂಲ ಸರ್ವರಿಂದ ಮಾತ್ರ">
-<!ENTITY palemoon.firefoxCompatGroup.label "ಫೈರ್ಫಾಕ್ಸ್ ಹೊಂದಾಣಿಕೆ">
-<!ENTITY palemoon.firefoxCompat.label "ಫೈರ್ಫಾಕ್ಸ್ ಹೊಂದಾಣಿಕೆ ಮೋಡ್ ಬಳಸಿ">
-<!ENTITY palemoon.scrollparamTab.label "ಸ್ಕ್ರೋಲಿಂಗ್">
-<!ENTITY palemoon.smoothscroll.explain.label "ಮೇಲಿನ ಚೆಕ್ಬಾಕ್ಸ್ ಹಾಗು ಮೃದು ಸ್ಕ್ರಾಲಿಂಗ್ ಸಕ್ರಿಯಗೊಲಿಸಿದರೆ ಒಟ್ಟಾರೆ ಕೆಳಗಿನ ನಿಯತಾಂಕಗಳ ಪರಿಣಾಮ ಇರುತ್ತದೆ.">
-<!ENTITY palemoon.smoothscroll.to "ರಿಂದ">
-<!ENTITY palemoon.smoothscroll.params.label "ಮೃದು ಸ್ಕ್ರಾಲಿಂಗ್ ನಿಯತಾಂಕಗಳು">
-<!ENTITY palemoon.smoothscroll.mousewheel.label "ಮೌಸ್ ಚಕ್ರದಿಂದ ಮೃದು ಸ್ಕ್ರಾಲ್">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration "ಮೌಸ್ ಚಕ್ರ ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label "ಬಾಣದ ಕೀಲಿಗಳಿಂದ ಮೃದು ಸ್ಕ್ರಾಲ್">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration "ಬಾಣದ ಕೀಲಿಗಳ ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label "ಮೃದು ಸ್ಕ್ರಾಲ್ ಪುಟ ಮೇಲೆ/ಕೆಳಗೆ">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration "ಪುಟ ಮೇಲೆ/ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label "ಸ್ಕ್ರಾಲ್ ಬಾರ್ನಿಂದ ಮೃದು ಸ್ಕ್ರಾಲ್">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration "ಸ್ಕ್ರಾಲ್ ಬಾರ್ ಮೃದು ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
-<!ENTITY allTabs.filter.emptyText "ಟ್ಯಾಬ್ಗಳ್ಳನ್ನು ಹುಡುಕು">
+<!ENTITY toolkit.classic.download.window.label       "ಹಳೆಯ ಡೌನ್ಲೋಡ್ ವಿಂಡೋ ಬಳಸಿ">
+
+<!ENTITY palemoon.showTabBar.label                   "ಟ್ಯಾಬ್ ಪಟ್ಟಿಯನ್ನು ಯಾವಾಗಲು ತೋರಿಸು">
+<!ENTITY palemoon.showTabBar.accesskey               "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "ಸಂಬಂಧವಿರುವ ಟ್ಯಾಬ್ಗಳನ್ನ ಪ್ರಸ್ತುತ ಟ್ಯಾಬ್ ನಂತರ ಸೇರಿಸಿ">
+<!ENTITY palemoon.contextLoadInBackground.label      "ಕಾಂಟೆಕ್ಸ್ಟ್ ಹುಡುಕಾಟ ಮಾಡುವಾಗ, ಕೂಡಲೇ ಹೊಸ ಟ್ಯಾಬ್ಗೆ ಬದಲಾಯಿಸಿ">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "ಕೊನೆಯ ಟ್ಯಾಬ್ ಮುಚ್ಹುವಾಗ ವಿಂಡೋ ಮುಚ್ಚು">
+<!ENTITY palemoon.newtabPage.label                   "ಹೊಸ ಟ್ಯಾಬ್ ತೆರೆದಾಗ, ಇದನ್ನು ತೋರಿಸು:">
+<!ENTITY palemoon.newtabPage.blank.label             "ಒಂದು ಖಾಲಿ ಪುಟ">
+<!ENTITY palemoon.newtabPage.home.label              "Pale Moonನ ಆರಂಭದ ಪುಟ">
+<!ENTITY palemoon.newtabPage.quickdial.label         "ತ್ವರಿತ ಡಯಲ್ ಪುಟ">
+
+<!ENTITY palemoon.loadImages.label            "ಚಿತ್ರಗಳನ್ನು ತುಂಬಿಸು:">
+<!ENTITY palemoon.loadImages.always           "ಸ್ವಯಂಚಾಲಿತವಾಗಿ">
+<!ENTITY palemoon.loadImages.never            "ಯಾವತ್ತಿಗೂ ಬೇಡ">
+<!ENTITY palemoon.loadImages.no3rdparty       "ಮೂಲ ಸರ್ವರಿಂದ ಮಾತ್ರ">
+
+<!ENTITY palemoon.firefoxCompatGroup.label    "ಫೈರ್ಫಾಕ್ಸ್ ಹೊಂದಾಣಿಕೆ">
+<!ENTITY palemoon.firefoxCompat.label         "ಫೈರ್ಫಾಕ್ಸ್ ಹೊಂದಾಣಿಕೆ ಮೋಡ್ ಬಳಸಿ">
+
+<!ENTITY palemoon.scrollparamTab.label               "ಸ್ಕ್ರೋಲಿಂಗ್">
+<!ENTITY palemoon.smoothscroll.explain.label         "ಮೇಲಿನ ಚೆಕ್ಬಾಕ್ಸ್ ಹಾಗು ಮೃದು ಸ್ಕ್ರಾಲಿಂಗ್ ಸಕ್ರಿಯಗೊಲಿಸಿದರೆ ಒಟ್ಟಾರೆ ಕೆಳಗಿನ ನಿಯತಾಂಕಗಳ ಪರಿಣಾಮ ಇರುತ್ತದೆ.">
+<!ENTITY palemoon.smoothscroll.to                    "ರಿಂದ">
+<!ENTITY palemoon.smoothscroll.params.label          "ಮೃದು ಸ್ಕ್ರಾಲಿಂಗ್ ನಿಯತಾಂಕಗಳು">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "ಮೌಸ್ ಚಕ್ರದಿಂದ ಮೃದು ಸ್ಕ್ರಾಲ್">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "ಮೌಸ್ ಚಕ್ರ ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "ಬಾಣದ ಕೀಲಿಗಳಿಂದ ಮೃದು ಸ್ಕ್ರಾಲ್">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "ಬಾಣದ ಕೀಲಿಗಳ ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "ಮೃದು ಸ್ಕ್ರಾಲ್ ಪುಟ ಮೇಲೆ/ಕೆಳಗೆ">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "ಪುಟ ಮೇಲೆ/ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "ಸ್ಕ್ರಾಲ್ ಬಾರ್ನಿಂದ ಮೃದು ಸ್ಕ್ರಾಲ್">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "ಸ್ಕ್ರಾಲ್ ಬಾರ್ ಮೃದು ಸ್ಕ್ರಾಲ್ ಕಾಲಾವಧಿ:">

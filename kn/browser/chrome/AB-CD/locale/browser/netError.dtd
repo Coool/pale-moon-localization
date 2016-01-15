@@ -7,8 +7,8 @@
 
 <!ENTITY loadError.label "ಪುಟವನ್ನು ಲೋಡ್‍ ಮಾಡುವಲ್ಲಿ ತೊಂದರೆ ಎದುರಾಗಿದೆ">
 <!ENTITY retry.label "ಮರಳಿ ಪ್ರಯತ್ನಿಸು">
-<!-- Specific error messages -->
 
+<!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "ಸಂಪರ್ಕ ಹೊಂದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
@@ -132,6 +132,16 @@
 <!ENTITY cspFrameAncestorBlocked.title "ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮದಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p> ಈ ಪುಟವನ್ನು ಈ ರೀತಿಯಲ್ಲಿ ಲೋಡ್ ಮಾಡುದಂತೆ  &brandShortName; ತಡೆದಿದೆ ಏಕೆಂದರೆ ಈ ಪುಟದಲ್ಲಿನ ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮವು ಇದಕ್ಕೆ ಅನುಮತಿ ನೀಡುವುದಿಲ್ಲ.</p>">
 
+<!ENTITY xssBlockMode.title "XSS ಫಿಲ್ಟರ್ ಸಂಪರ್ಕ ನಿರ್ಬಂಧಿಸಿದೆ">
+<!ENTITY xssBlockMode.longDesc "<ul>
+<li>&brandShortName; blocked further actions on this page, because it contains 
+injected JavaScript code.</li>
+<li>Loading of this page has been suspended because of either the explicit request
+by the website to block this page in case of XSS attacks, or because &brandShortName;
+has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "ವಿಷಯ ಹಾಳಾದ ದೋಷ">
 <!ENTITY corruptedContentError.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಲ್ಲಿ ಒಂದು ದೋಷವು ಕಂಡು ಬಂದಿದೆ.</p><ul><li>ಈ ತೊಂದರೆಯನ್ನು ವರದಿ ಮಾಡಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
@@ -139,11 +149,11 @@
 <!ENTITY securityOverride.linkText "ಅಥವ ನೀವು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಹದು…">
 <!ENTITY securityOverride.getMeOutOfHereButton "ನನಗೆ ಇಲ್ಲಿಂದ ಹೊರಗೆ ಕೊಂಡೊಯ್ಯಿ!">
 <!ENTITY securityOverride.exceptionButtonLabel "ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸು…">
+
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
 button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
-
 
 <!ENTITY securityOverride.warningContent "<p>ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ನಂಬದಿರುವ ಒಂದು ಅಂತರಜಾಲ ಸಂಪರ್ಕವನ್ನು ಬಳಸುತ್ತಿದ್ದಲ್ಲಿ ಅಥವಾ ಈ ಪರಿಚಾರಕದಿಂದ ಈ ಹಿಂದೆ ಯಾವುದೆ ಎಚ್ಚರಿಕಾ ಸಂದೇಶವು ಕಂಡು ಬಂದಿರದೆ ಇದ್ದಂತಹ ಸಂದರ್ಭದಲ್ಲಿ ನೀವು ಒಂದು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಾರದು.</p> 
  

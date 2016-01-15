@@ -1,11 +1,11 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
+
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-
-
 <!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
@@ -14,8 +14,8 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(ಖಾಸಗಿ ವೀಕ್ಷಣೆ)">
-<!-- Tab context menu -->
 
+<!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "ಟ್ಯಾಬ್ ಅನ್ನು ಮರಳಿ ಲೋಡ್ ಮಾಡು">
 <!ENTITY  reloadTab.accesskey                "R">
 <!ENTITY  reloadAllTabs.label                "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರಳಿ ಲೋಡ್ ಮಾಡು">
@@ -27,19 +27,16 @@ left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.accesskey        "i">
 <!ENTITY  closeOtherTabs.label               "ಇತರೆ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚು">
 <!ENTITY  closeOtherTabs.accesskey           "o">
+
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-
 <!ENTITY  pinTab.label                       "ಟ್ಯಾಬನ್ನು ಅಂಟಿಸು">
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "ಟ್ಯಾಬ್ ಅನ್ನು ಮುಕ್ತಗೊಳಿಸು">
 <!ENTITY  unpinTab.accesskey                 "b">
-<!ENTITY  moveToGroup.label                  "ಗುಂಪಿಗೆ ಜರುಗಿಸು">
-<!ENTITY  moveToGroup.accesskey              "M">
-<!ENTITY  moveToNewGroup.label               "ಹೊಸ ಗುಂಪು">
 <!ENTITY  moveToNewWindow.label              "ಹೊಸ ಕಿಟಕಿಗೆ ಜರುಗಿಸು">
 <!ENTITY  moveToNewWindow.accesskey          "W">
 <!ENTITY  bookmarkAllTabs.label              "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪುಟಗುರುತು ಮಾಡು…">
@@ -121,17 +118,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "ಈ ಪುಟವನ್ನು ಪುಟಗುರುತು ಮಾಡು">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY sharePageCmd.label "ಈ ಪುಟವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ">
-<!ENTITY sharePageCmd.commandkey "S">
-<!ENTITY sharePageCmd.accesskey "s">
-<!ENTITY shareLinkCmd.label "ಈ ಕೊಂಡಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ">
-<!ENTITY shareLinkCmd.accesskey "s">
-<!ENTITY shareImageCmd.label "ಈ ಚಿತ್ರವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ">
-<!ENTITY shareImageCmd.accesskey "s">
-<!ENTITY shareSelectCmd.label "ಆಯ್ಕೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ">
-<!ENTITY shareSelectCmd.accesskey "s">
-<!ENTITY shareVideoCmd.label "ಈ ವೀಡಿಯೊವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ">
-<!ENTITY shareVideoCmd.accesskey "s">
 <!ENTITY subscribeToPageMenupopup.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗಿಸು">
 <!ENTITY subscribeToPageMenuitem.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗಿಸು...">
 <!ENTITY addCurPagesCmd.label "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪುಟಗುರುತು ಮಾಡು...">
@@ -163,14 +149,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchItem.title             "ಹುಡುಕು">
 <!ENTITY throbberItem.title           "ಕ್ರಿಯಾಶೀಲತೆಯ ಸೂಚಕ">
 <!ENTITY bookmarksItem.title          "ಪುಟಗುರುತುಗಳು">
-<!-- Toolbar items --> 
 
+<!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "ಮೆನು">
 <!ENTITY appMenuButton.tooltip        "&brandShortName; ಅನ್ನು ತೆರೆ">
 <!ENTITY homeButton.label             "ನೆಲೆ">
-
-<!ENTITY tabGroupsButton.label        "ಟ್ಯಾಬ್‌ ಗುಂಪುಗಳು">
-<!ENTITY tabGroupsButton.tooltip      "ನಿಮ್ಮ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಗುಂಪುಗೂಡಿಸಿ">
 
 <!ENTITY feedButton.label             "ಚಂದಾದಾರನಾಗಿಸು">
 <!ENTITY feedButton.tooltip           "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರರಾಗಿ…">
@@ -184,10 +167,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.unsorted.label "ವಿಂಗಡಿಸದೆ ಇರುವ ಪುಟಗುರುತುಗಳು">
 <!ENTITY viewBookmarksSidebar.label         "ಬದಿಪಟ್ಟಿಕೆಯಲ್ಲಿ ನೋಡು">
 <!ENTITY viewBookmarksToolbar.label         "ಪುಟಗುರುತುಗಳ ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ನೋಡು">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
-
 <!ENTITY bookmarksGtkCmd.commandkey "o">
 <!ENTITY bookmarksWinCmd.commandkey "i">
 
@@ -232,6 +215,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.label   "ಪ್ರತಿಕ್ರಿಯೆ ವಿನ್ಯಾಸ ನೋಟ">
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -242,14 +226,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  "Scratchpad" in your locale. You should feel free to find a close
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
-
 <!ENTITY scratchpad.label             "ಸ್ಕ್ರಾಚ್‌ಪ್ಯಾಡ್">
 <!ENTITY scratchpad.accesskey         "s">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
+
 <!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
   -  application menu item that opens the browser debugger UI in the Tools menu. -->
-
 <!ENTITY chromeDebuggerMenu.label       "ಜಾಲವೀಕ್ಷಕದ ದೋಷನಿವಾರಕ">
 
 <!ENTITY devToolbarCloseButton.tooltiptext "ವಿಕಸನೆಗಾರ ಉಪಕರಣವನ್ನು ಮುಚ್ಚು">
@@ -308,8 +291,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewMenu.label         "ನೋಟ"> 
 <!ENTITY viewMenu.accesskey       "V"> 
-<!ENTITY viewTabGroups.label            "ಟ್ಯಾಬ್‌ ಗುಂಪುಗಳು">
-<!ENTITY viewTabGroups.accesskey        "G">
 <!ENTITY viewToolbarsMenu.label       "ಉಪಕರಣ ಪಟ್ಟಿಗಳು"> 
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "ಬದಿಯ ಪಟ್ಟಿ">
@@ -345,6 +326,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.placeholder2          "ವಿಳಾಸವನ್ನು ಹುಡುಕು ಅಥವ ನಮೂದಿಸು">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "ಟ್ಯಾಬ್‌ಗೆ ಬದಲಾಯಿಸು:">
+
 <!-- 
   Comment duplicated from browser-sets.inc:
 
@@ -365,12 +347,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   for people to switch to Linux.
 
  -->
-
 <!ENTITY searchFocus.commandkey       "k">
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
-
-<!ENTITY tabView.commandkey           "e">
 
 <!ENTITY openLinkCmdInTab.label       "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
 <!ENTITY openLinkCmdInTab.accesskey   "T">
@@ -463,11 +442,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyEmailCmd.accesskey       "E">
 <!ENTITY thisFrameMenu.label              "ಈ ಚೌಕಟ್ಟು">
 <!ENTITY thisFrameMenu.accesskey          "h">
+
 <!-- Media (video/audio) controls -->
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
 "Pause" are the same because the two context-menu
 items are mutually exclusive. -->
-
 <!ENTITY mediaPlay.label             "ಚಾಲನೆ ಮಾಡು">
 <!ENTITY mediaPlay.accesskey         "P">
 <!ENTITY mediaPause.label            "ತಾತ್ಕಾಲಿಕವಾಗಿ ನಿಲ್ಲಿಸು">
@@ -510,18 +489,17 @@ items are mutually exclusive. -->
 <!ENTITY videoShowStats.accesskey    "t">
 <!ENTITY videoHideStats.label        "ಅಂಕಿಅಂಶಗಳನ್ನು ಅಡಗಿಸು">
 <!ENTITY videoHideStats.accesskey    "t">
+
 <!-- LOCALIZATION NOTE :
 fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
 fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
 
-
 <!ENTITY fullZoomEnlargeCmd.label       "ಹಿಗ್ಗಿಸು">
 <!ENTITY fullZoomEnlargeCmd.accesskey   "I">
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
-<!-- + is above this key on many keyboards -->
-<!ENTITY fullZoomEnlargeCmd.commandkey2 "="> 
+<!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
 
 <!ENTITY fullZoomReduceCmd.label        "ಕಿರಿದಾಗಿಸು">
@@ -622,12 +600,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity.runBy "ಇದನ್ನು ನಡೆಸುತ್ತಿರುವವರು">
 
 <!ENTITY identity.moreInfoLinkText "ಹೆಚ್ಚಿನ ಮಾಹಿತಿ…">
+
+<!ENTITY allTabs.filter.emptyText "ಟ್ಯಾಬ್ಗಳ್ಳನ್ನು ಹುಡುಕು">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-
 <!ENTITY tabsToolbar.label "ಜಾಲವೀಕ್ಷಣಾ ಟ್ಯಾಬ್‌ಗಳು">
-<!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 
+<!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "ಇತರೆ ಸಾಧನಗಳಿಂದ ಟ್ಯಾಬ್‌ಗಳು">
 
 <!ENTITY syncBrand.shortName.label    "ಸಿಂಕ್‌">
@@ -640,35 +619,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY addonBarCloseButton.tooltip  "ಆಡ್‌-ಆನ್ ಪಟ್ಟಿಕೆಯನ್ನು ಮುಚ್ಚು">
 <!ENTITY toggleAddonBarCmd.key        "/">
-
-<!ENTITY socialToolbar.title        "ಸಾಮಾಜಿಕ ಉಪಕರಣಪಟ್ಟಿ ಗುಂಡಿ">
-<!ENTITY social.notLoggedIn.label   "ಪ್ರವೇಶಿಸಲಾಗಿಲ್ಲ">
-
-<!ENTITY social.ok.label       "ಸರಿ">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "ಬದಿಪಟ್ಟಿಕೆಯಲ್ಲಿ ನೋಡು">
-<!ENTITY social.toggleSidebar.accesskey "s">
-
-<!ENTITY social.addons.label "ಸೇವೆಗಳನ್ನು ನಿರ್ವಹಿಸು...">
-
-<!ENTITY social.toggleNotifications.label "ಗಣಕತೆರೆ ಸೂಚನೆಗಳನ್ನು ತೋರಿಸು">
-<!ENTITY social.toggleNotifications.accesskey "n">
-
-<!ENTITY social.activated.description "<label/> ಇಂದ ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ನೀವು <label class='text-link'>ಆಡ್-ಆನ್ ವ್ಯವಸ್ಥಾಪಕ</label>ದಲ್ಲಿನ ಸೇವೆಗಳಿಗಾಗಿ ನಿಮ್ಮ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿರುತ್ತದೆ.">
-<!ENTITY social.activated.undo.label "ಓಹ್, ಇದನ್ನು ರದ್ದು ಮಾಡು!">
-<!ENTITY social.activated.undo.accesskey "U">
-<!ENTITY social.learnMore.label "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ...">
-<!ENTITY social.learnMore.accesskey "l">
-<!ENTITY social.closeNotificationItem.label "ಈಗ ಬೇಡ">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "ಮಾತುಕತೆಗಳತ್ತ ಗಮನ ಹರಿಸು">
-<!ENTITY social.chatBar.accesskey "c">
-<!-- labels are set dynamically, see browser.properties -->
-
-<!ENTITY social.markpage.accesskey "m">
-<!ENTITY social.marklink.accesskey "M">
 
 <!ENTITY getUserMedia.selectCamera.label "ಹಂಚಬೇಕಿರುವ ಕ್ಯಾಮೆರಾ:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
@@ -685,8 +635,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY pluginNotification.showAll.label "ಎಲ್ಲವನ್ನೂ ತೋರಿಸು">
 <!ENTITY pluginNotification.showAll.accesskey "S">
-<!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 
+<!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "ಈಗ ಅನುಮತಿಸು">
 <!ENTITY pluginActivateAlways.label "ಅನುಮತಿಸು ಮತ್ತು ನೆನಪಿಟ್ಟುಕೊ">
 <!ENTITY pluginBlockNow.label "ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ನಿರ್ಬಂಧಿಸು">
