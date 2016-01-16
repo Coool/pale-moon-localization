@@ -121,6 +121,15 @@
 <!ENTITY cspFrameAncestorBlocked.title "由于内容安全策略而被阻止">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>该页面的内容安全策略不允许 &brandShortName; 以该方式加载此页面。</p>">
 
+<!ENTITY xssBlockMode.title "已被 XSS 过滤器阻止">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; 已阻止此页面的进一步行动，因为它包含
+    注入的 JavaScript 代码。</li>
+  <li>此页面的载入已被暂停，因为网站已显式的请求阻止此页面遭受此种情况的 XSS 攻击，或者 &brandShortName; 已被配置为阻止此种情况的页面。</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "内容损坏错误">
 <!ENTITY corruptedContentError.longDesc "<p>您要查看的该页面无法显示，因为检测到数据传输错误。</p><ul><li>请联系网站所有者通知他们这个问题。</li></ul>">
 

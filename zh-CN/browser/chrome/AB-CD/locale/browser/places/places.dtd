@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "在标签页中打开书签组">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "O">
 
+<!ENTITY cmd.openParentFolder.label      "打开所在文件夹">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "属性">
 <!ENTITY cmd.properties.accesskey  "i">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "移动…">
 <!ENTITY cmd.moveBookmarks.accesskey              "M">
 
-<!ENTITY col.name.label          "名称">
-<!ENTITY col.tags.label          "标签">
-<!ENTITY col.url.label           "位置">
-<!ENTITY col.lastvisit.label     "访问日期">
-<!ENTITY col.visitcount.label    "访问次数">
-<!ENTITY col.keyword.label       "关键字">
-<!ENTITY col.description.label   "描述">
-<!ENTITY col.dateadded.label     "添加日期">
-<!ENTITY col.lastmodified.label  "修改日期">
+<!ENTITY col.name.label              "名称">
+<!ENTITY col.tags.label              "标签">
+<!ENTITY col.url.label               "位置">
+<!ENTITY col.lastvisit.label         "访问日期">
+<!ENTITY col.visitcount.label        "访问次数">
+<!ENTITY col.keyword.label           "关键字">
+<!ENTITY col.description.label       "描述">
+<!ENTITY col.dateadded.label         "添加日期">
+<!ENTITY col.lastmodified.label      "修改日期">
+<!ENTITY col.parentfolder.label      "包含文件夹">
+<!ENTITY col.parentfolderpath.label  "包含文件夹路径">
 
-<!ENTITY search.label                              "搜索:">
+<!ENTITY search.label                              "网页搜索">
 <!ENTITY search.accesskey                          "S">
+
+<!ENTITY search.in.label                           "搜索：">
+<!ENTITY search.scopeFolder.label                  "选定文件夹">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "书签">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "下载">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "历史记录">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "保存">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,7 +114,7 @@
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "导入及备份您的书签">
 
-<!ENTITY backButton.tooltip  "返回上一步">
+<!ENTITY backButton.tooltip  "转到上一页">
 
 <!ENTITY forwardButton.tooltip  "转到下一页">
 

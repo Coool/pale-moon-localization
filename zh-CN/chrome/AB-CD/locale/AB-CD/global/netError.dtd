@@ -7,62 +7,92 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "连接失败">
-<!ENTITY connectionFailure.longDesc "<p>虽然此站点似乎有效，但浏览器无法建立连接到该站点。</p><ul><li>该站点是否暂时不可用？请稍后再试。</li><li>您是否也无法浏览其他站点呢？请检查您计算机的网络连接。</li><li>您的计算机或网络是否被防火墙、代理服务器保护？请尝试修正可能不正确的设置。</li></ul>">
+<!ENTITY connectionFailure.title "无法连接">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "安全原因导致访问端口受限">
-<!ENTITY deniedPortAccess.longDesc "<p>请求的地址中指定了一个端口（例如 <q>mozilla.org:80</q> 对应 mozilla.org 的80端口），该端口通常是用作<em>其他</em>用途。因此，为了您的安全考虑，浏览器取消了该请求。</p>">
+<!ENTITY deniedPortAccess.title "此地址访问受限">
+<!ENTITY deniedPortAccess.longDesc "<p>请求的地址指定了一个端口（例如 <q>mozilla.org:80</q> 是指 mozilla.org 的 80 端口），而该端口通常用于网页浏览<em>以外</em>的目的。本浏览器已阻止该请求，以保护您的安全。</p>">
 
-<!ENTITY dnsNotFound.title "未找到服务器">
-<!ENTITY dnsNotFound.longDesc "<p>浏览器无法找到该地址对应的站点。</p><ul><li>您确定输入该站点名称时没有错误吗？（例如将  <q><strong>www</strong>.mozilla.org</q> 写成  <q><strong>ww</strong>.mozilla.org</q>）</li><li>您确定该域名存在吗？该站点的注册可能已经过期。</li><li>您是否也无法浏览其他站点呢？请检查您计算机的网络连接以及域名服务器设置。</li><li>您的计算机或网络是否被防火墙、代理服务器保护呢？请尝试修正可能不正确的设置。</li></ul>">
+<!ENTITY dnsNotFound.title "找不到服务器">
+<!ENTITY dnsNotFound.longDesc "<ul> <li>请检查该地址是否输入错误，比如将<q><strong>www</strong>.example.com</q>错写成<q><strong>ww</strong>.example.com</q></li><li>如果您无法载入任何页面，请检查您计算机的网络连接。</li><li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li></ul>">
 
 <!ENTITY fileNotFound.title "未找到文件">
-<!ENTITY fileNotFound.longDesc "<ul><li>该项目是否可能已经被改名、移除或者移动？</li><li>地址中是否可能有拼写、大小写或者输入错误？</li><li>您是否有访问该项目的权限？</li></ul>">
+<!ENTITY fileNotFound.longDesc "<ul>
+  <li>请检查文件名的大小写或者其他输入错误。</li>
+  <li>请检查文件是否已被移动，重命名或删除。</li>
+</ul>
+">
 
-<!ENTITY generic.title "无法完成请求">
-<!ENTITY generic.longDesc "<p>暂无关于此问题或错误的其他信息。</p>">
+<!ENTITY generic.title "哎呀。">
+<!ENTITY generic.longDesc "<p>&brandShortName; 因未知原因无法载入此页面。</p>">
 
 <!ENTITY malformedURI.title "无效的地址">
-<!ENTITY malformedURI.longDesc "<p>无法辨认提供的地址。请检查地址栏中是否有错并重试。</p>">
+<!ENTITY malformedURI.longDesc "
+<ul>
+  <li>网页地址通常格式为
+    <strong>http://www.example.com/</strong></li>
+  <li>请确认您使用了正斜杠 (即
+    <strong>/</strong>).</li>
+</ul>
+">
 
-<!ENTITY netInterrupt.title "数据传输中断">
-<!ENTITY netInterrupt.longDesc "<p>浏览器连接成功，但连接在传输数据时被中断。请重试。</p><ul><li>您是否也不能浏览其他站点？请检查计算机的网络连接。</li><li>仍然不行？请尝试联系您的网络管理员或者互联网服务提供商以寻求帮助。</li></ul>">
+<!ENTITY netInterrupt.title "连接被中断">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "文档已过期">
-<!ENTITY notCached.longDesc "<p>您请求的文档已无法在浏览器的缓存中找到。</p><ul><li>出于安全考虑，浏览器不会自动重新获取敏感信息文档。</li><li>请点击重试并从网站来重新获取该文档。</li></ul>">
+<!ENTITY notCached.longDesc "<p>请求的文档已无法在 &brandShortName; 的缓存中找到。</p><ul><li>出于安全考虑，&brandShortName; 不会自动重新获取敏感文档。</li><li>请点击重试来重新请求从网站获取该文档。</li></ul>">
 
 <!ENTITY netOffline.title "脱机模式">
-<!ENTITY netOffline.longDesc2 "<p>浏览器目前在离线模式下运行，并且无法连接到请求的项目。</p><ul><li>您确定计算机已连接到了一个有效网络吗？</li><li>按“重试”切换到在线模式并重新加载此页面。</li></ul>">
+<!ENTITY netOffline.longDesc2 "<ul>
+  <li>按“重试”切换到在线模式并重新加载此页面。</li>
+</ul>
+">
 
 <!ENTITY contentEncodingError.title "内容编码错误">
-<!ENTITY contentEncodingError.longDesc "<p>您尝试查看的页面无法显示，因为它使用了无效的或者不支持的压缩格式。</p><ul><li>请联系网站的所有者，告知他们这个问题。</li></ul>">
+<!ENTITY contentEncodingError.longDesc "<ul><li>请联系网站的所有者以告知此问题。</li></ul>">
 
 <!ENTITY unsafeContentType.title "不安全的文件类型">
-<!ENTITY unsafeContentType.longDesc " <ul>   <li>请联系网站所有者并告知该问题。</li> </ul> ">
+<!ENTITY unsafeContentType.longDesc "
+<ul>
+  <li>请联系网站所有者并告知该问题。</li>
+</ul>
+">
 
-<!ENTITY netReset.title "连接被中断">
-<!ENTITY netReset.longDesc "<p>当连接握手时，到该站点的连接被断开。请重试</p>">
+<!ENTITY netReset.title "连接被重置">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "网络超时">
-<!ENTITY netTimeout.longDesc "<p>请求的站点在指定的时间内没有响应连接，因此浏览器停止了等待。</p><ul><li>该服务器是否过载或者暂时不可用？请稍后再试。</li><li>您是否也无法浏览其他站点呢？请检查您计算机的网络连接。</li><li>您的计算机或网络是否被防火墙、代理服务器保护？请尝试修正可能与网页浏览相关的不正确设置。</li><li>仍然不行？请联系您的网络管理员或者互联网服务提供商寻求援助。</li></ul>">
+<!ENTITY netTimeout.title "连接超时">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "未知协议">
-<!ENTITY protocolNotFound.longDesc "<p>浏览器无法识别该地址的协议。（例如 <q>wxyz://</q>），因此浏览器无法连接至该站点。</p><ul><li>您是否尝试连接多媒体或其他非文字服务？请检查该站点确定是否有其他要求。</li><li>某些协议可能需要安装第三方插件，这样浏览器才能识别。</li></ul>">
+<!ENTITY protocolNotFound.title "无法理解该地址">
+<!ENTITY protocolNotFound.longDesc "
+<ul>
+  <li>您可能需要安装其他软件以打开此地址。</li>
+</ul>
+">
 
 <!ENTITY proxyConnectFailure.title "代理服务器拒绝连接">
-<!ENTITY proxyConnectFailure.longDesc "<p>浏览器被设置为使用代理服务器，但是该代理服务器拒绝了该连接。</p><ul><li>浏览器的代理服务器设置是否正确？请检查并重试。</li><li>该代理服务是否允许来自此网络的连接？</li><li>仍然不行？请联系您的网络管理员或者互联网服务提供商以寻求协助。</li></ul>">
+<!ENTITY proxyConnectFailure.longDesc "<ul><li>请检查浏览器的代理服务器设置是否正确。</li><li>请联系您的网络管理员以确认代理服务器工作正常。</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "无法找到代理服务器">
-<!ENTITY proxyResolveFailure.longDesc "<p>浏览器被设置为使用代理服务器，但是无法找到该代理服务器。</p><ul><li>浏览器的代理服务器设置是否正确？请检查并重试。</li><li>计算机是否连接到了可用的网络？</li><li>仍然不行？请联系您的网络管理员或者互联网服务提供商以寻求协助。</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<ul><li>请检查浏览器的代理服务器设置是否正确。</li><li>请检查确认您的计算机有可用的网络连接。</li><li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li></ul>">
 
-<!ENTITY redirectLoop.title "重定向循环">
-<!ENTITY redirectLoop.longDesc "<p>浏览器已停止尝试请求的项。因为此站点将请求重定向到其自身，以至于不可能完成。</p><ul><li>您是否禁止了该站点所必须的 Cookie？</li><li><em>注意</em>：如果接受该站点的 Cookie 仍然不能解决此问题，那么可能是由于该站点的服务器配置问题而不是您计算机的问题。</li></ul>">
+<!ENTITY redirectLoop.title "此页面不能正确地重定向">
+<!ENTITY redirectLoop.longDesc "<ul><li>此问题可能是因为禁用或拒绝 Cookie 导致。</li></ul>">
 
-<!ENTITY unknownSocketType.title "错误的回应">
-<!ENTITY unknownSocketType.longDesc "<p>该站点响应网络请求的方式不是所预期的，以至于浏览器无法继续。</p>">
+<!ENTITY unknownSocketType.title "不预期的服务器回应">
+<!ENTITY unknownSocketType.longDesc "
+<ul>
+  <li>请检查您的系统安装了个人安全管理程序。</li>
+  <li>这可能是因为服务器端非标准的配置所导致。</li>
+</ul>
+">
 
 <!ENTITY nssFailure2.title "安全连接失败">
-<!ENTITY nssFailure2.longDesc "<p>无法显示您尝试查看的页面，因为无法验证所收到数据的真实性。</p><ul><li>请联系网站的所有者以告知此问题。</li></ul>">
+<!ENTITY nssFailure2.longDesc "<ul>
+  <li>无法显示您尝试查看的页面，因为无法验证所收到数据的真实性。</li>
+  <li>请联系网站的所有者以告知此问题。或者使用帮助菜单中的相关命令来报告此问题站点。</li>
+</ul>">
 
 <!ENTITY nssBadCert.title "安全连接失败">
 <!ENTITY nssBadCert.longDesc2 "<ul>
@@ -78,7 +108,16 @@
 <!ENTITY phishingBlocked.longDesc " <p>在本页面输入个人信息可能会导致账号被盗或其他危险。</p><p>这类钓鱼网站常含有被称为“钓鱼攻击”的诈骗行为，这些伪装的网页或邮件地址可能用来假冒成您信任的源地址以实施诈骗。</p> ">
 
 <!ENTITY cspFrameAncestorBlocked.title "由于内容安全策略而被阻止">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>由于浏览器加载本页的方式不被其内容安全策略所允许，浏览器已停止加载此页。</p>">
+<!ENTITY cspFrameAncestorBlocked.longDesc "<p>该页面的内容安全策略不允许 &brandShortName; 以该方式加载此页面。</p>">
+
+<!ENTITY xssBlockMode.title "已被 XSS 过滤器阻止">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; 已阻止此页面的进一步行动，因为它包含
+    注入的 JavaScript 代码。</li>
+  <li>此页面的载入已被暂停，因为网站已显式的请求阻止此页面遭受此种情况的 XSS 攻击，或者 &brandShortName; 已被配置为阻止此种情况的页面。</li>
+</ul>
+">
 
 <!ENTITY corruptedContentError.title "内容损坏错误">
 <!ENTITY corruptedContentError.longDesc "<p>您要查看的该页面无法显示，因为检测到数据传输错误。</p><ul><li>请联系网站所有者通知他们这个问题。</li></ul>">
