@@ -37,9 +37,6 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "A">
 <!ENTITY  unpinTab.label                     "Desafixar aba">
 <!ENTITY  unpinTab.accesskey                 "D">
-<!ENTITY  moveToGroup.label                  "Mover para o grupo">
-<!ENTITY  moveToGroup.accesskey              "M">
-<!ENTITY  moveToNewGroup.label               "Novo grupo">
 <!ENTITY  moveToNewWindow.label              "Mover para nova janela">
 <!ENTITY  moveToNewWindow.accesskey          "v">
 <!ENTITY  bookmarkAllTabs.label              "Adicionar todas as abas…">
@@ -121,17 +118,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Adicionar página">
 <!ENTITY bookmarkThisPageCmd.commandkey "D">
 <!ENTITY markPageCmd.commandkey "L">
-<!ENTITY sharePageCmd.label "Compartilhar esta página">
-<!ENTITY sharePageCmd.commandkey "s">
-<!ENTITY sharePageCmd.accesskey "h">
-<!ENTITY shareLinkCmd.label "Compartilhar este link">
-<!ENTITY shareLinkCmd.accesskey "h">
-<!ENTITY shareImageCmd.label "Compartilhar esta imagem">
-<!ENTITY shareImageCmd.accesskey "h">
-<!ENTITY shareSelectCmd.label "Compartilhar seleção">
-<!ENTITY shareSelectCmd.accesskey "h">
-<!ENTITY shareVideoCmd.label "Compartilhar este vídeo">
-<!ENTITY shareVideoCmd.accesskey "h">
 <!ENTITY subscribeToPageMenupopup.label "Inscrever RSS">
 <!ENTITY subscribeToPageMenuitem.label "Inscrever RSS…">
 <!ENTITY addCurPagesCmd.label "Adicionar todas as abas…">
@@ -168,9 +154,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuButton.label          "Menu">
 <!ENTITY appMenuButton.tooltip        "Abrir o menu do &brandShortName;">
 <!ENTITY homeButton.label             "Página inicial">
-
-<!ENTITY tabGroupsButton.label        "Grupos de abas">
-<!ENTITY tabGroupsButton.tooltip      "Agrupar abas">
 
 <!ENTITY feedButton.label             "Inscrever">
 <!ENTITY feedButton.tooltip           "Inscrever RSS">
@@ -308,8 +291,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewMenu.label         "Exibir"> 
 <!ENTITY viewMenu.accesskey       "x"> 
-<!ENTITY viewTabGroups.label            "Grupos de abas">
-<!ENTITY viewTabGroups.accesskey        "G">
 <!ENTITY viewToolbarsMenu.label       "Barras de ferramentas"> 
 <!ENTITY viewToolbarsMenu.accesskey     "B"> 
 <!ENTITY viewSidebarMenu.label "Painel">
@@ -369,8 +350,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey       "K">
 <!ENTITY searchFocus.commandkey2      "E">
 <!ENTITY searchFocusUnix.commandkey   "J">
-
-<!ENTITY tabView.commandkey           "E">
 
 <!ENTITY openLinkCmdInTab.label       "Abrir em nova aba">
 <!ENTITY openLinkCmdInTab.accesskey   "b">
@@ -622,6 +601,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "Mais informações…">
 
+<!ENTITY allTabs.filter.emptyText "Abas de pesquisa">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "Abas do navegador">
@@ -639,35 +619,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY addonBarCloseButton.tooltip  "Ocultar barra de extensões">
 <!ENTITY toggleAddonBarCmd.key        "/">
-
-<!ENTITY socialToolbar.title        "Botão da barra de ferramentas social">
-<!ENTITY social.notLoggedIn.label   "Não identificado">
-
-<!ENTITY social.ok.label       "OK">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "Exibir painel">
-<!ENTITY social.toggleSidebar.accesskey "x">
-
-<!ENTITY social.addons.label "Gerenciar serviços…">
-
-<!ENTITY social.toggleNotifications.label "Exibir notificações no desktop">
-<!ENTITY social.toggleNotifications.accesskey "E">
-
-<!ENTITY social.activated.description "Os serviços do <label/> foram ativados. Você pode modificar suas configurações para eles pelo <label class='text-link'>gerenciador de complementos</label>.">
-<!ENTITY social.activated.undo.label "Epa, desfazer isso!">
-<!ENTITY social.activated.undo.accesskey "d">
-<!ENTITY social.learnMore.label "Saiba mais…">
-<!ENTITY social.learnMore.accesskey "S">
-<!ENTITY social.closeNotificationItem.label "Agora não">
-
-<!ENTITY social.chatBar.commandkey "C">
-<!ENTITY social.chatBar.label "Focar bate-papos">
-<!ENTITY social.chatBar.accesskey "F">
-
-<!-- labels are set dynamically, see browser.properties -->
-<!ENTITY social.markpage.accesskey "v">
-<!ENTITY social.marklink.accesskey "v">
 
 <!ENTITY getUserMedia.selectCamera.label "Câmera a compartilhar:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
