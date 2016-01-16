@@ -170,6 +170,13 @@ začasna in lahko poskusite znova pozneje.</li>
 <!ENTITY cspFrameAncestorBlocked.title "Zavrnjeno zaradi varnostne politike vsebine">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; je preprečil nalaganje strani v takšni obliki, ker tako določa varnostna politika vsebine.</p>">
 
+<!ENTITY xssBlockMode.title "Blokirano od filtra XSS">
+<!ENTITY xssBlockMode.longDesc "<ul>
+  <li>&brandShortName; je blokiral nadaljnje ukrepe na tej strani, saj stran vsebuje injicirano JavaScript kodo.</li>
+  <li>Nalaganje te strani je bila prekinjena bodisi zaradi izrecne zahteve spletne strani, da blokira te strani v primeru XSS napadov, bodisi zato, ker je bil &brandShortName; nastavljen, da blokira strani v tej situaciji.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "Okvara vsebine">
 <!ENTITY corruptedContentError.longDesc "<p>Strani, ki si jo želite ogledati, ni mogoče prikazati, ker je bila med prenosom podatkov odkrita napaka.</p><ul><li>O napaki obvestite lastnike spletne strani.</li></ul>">
 

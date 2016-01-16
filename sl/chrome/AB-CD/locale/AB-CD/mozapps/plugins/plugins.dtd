@@ -1,27 +1,6 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY pluginWizard.title "Iskanje vstavkov">
-<!ENTITY pluginWizard.firstPage.title "Pozdravljeni v storitvi za iskanje vstavkov">
-
-<!ENTITY pluginWizard.checkingForPlugins.description.label "&brandShortName; išče vstavke …">
-
-<!ENTITY pluginWizard.availablePluginsPage.title "Vstavki na voljo">
-<!ENTITY pluginWizard.availablePluginsPage.description.label "Na voljo so naslednji vstavki:">
-<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Kliknite gumb Naprej za namestitev teh vstavkov.">
-<!ENTITY pluginWizard.availablePluginsPage.installerUI "Nekateri vstavki lahko med namestitvijo od vas zahtevajo dodatne podatke.">
-
-<!ENTITY pluginWizard.licensePage.title "Dovoljenja vstavkov">
-<!ENTITY pluginWizard.licensePage.accept.label "Strinjam se.">
-<!ENTITY pluginWizard.licensePage.deny.label "Ne strinjam se (vstavek se ne bo namestil).">
-
-<!ENTITY pluginWizard.installPluginsPage.title "Nameščanje vstavkov">
-<!ENTITY pluginWizard.installPluginsPage.description.label "&brandShortName; namešča vstavke ….">
-
-<!ENTITY pluginWizard.finalPage.description.label "&brandShortName; je končal z namestitvijo manjkajočih vstavkov:">
-
-<!ENTITY pluginWizard.finalPage.moreInfo.label "Več o vstavkih in ročnem iskanju.">
-<!ENTITY pluginWizard.finalPage.restart.label "&brandShortName; morate ponovno zagnati, preden bodo novi vstavki začeli delovati.">
 
 <!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
      is not supported on some devices. Include a trailing space as needed. -->
@@ -32,15 +11,13 @@
 <!-- LOCALIZATION NOTE (unsupportedPlatform.post): Mobile only. Include text here if needed for your locale. -->
 <!ENTITY unsupportedPlatform.post                            "">
 
-<!ENTITY missingPlugin "Za prikaz te vsebine je potreben vstavek.">
+<!ENTITY missingPlugin                                       "Za prikaz te vsebine je potreben vstavek.">
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
 <!ENTITY tapToPlayPlugin                                     "Dotaknite se za vklop vstavka.">
 <!ENTITY clickToActivatePlugin                               "Vklopi vstavek.">
 <!ENTITY checkForUpdates                                     "Preveri posodobitve …">
 <!ENTITY disabledPlugin                                      "Ta vstavek je onemogočen.">
 <!ENTITY blockedPlugin.label                                 "Ta vstavek je bil zavrnjen iz varnostnih razlogov.">
-
-<!ENTITY installPlugin                                       "Namesti vstavek …">
 <!ENTITY managePlugins                                       "Urejanje vstavkov …">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
