@@ -1,45 +1,47 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-
--->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label "Отправить ссылку…">
-<!ENTITY palemoon.sendLinkCmd.accesskey "т">
-<!ENTITY palemoon.sendPageCmd.label "Отправить ссылку…">
-<!ENTITY palemoon.sendPageCmd.accesskey "п">
-<!ENTITY palemoon.menu.statusBar.label "Панель состояния">
-<!ENTITY palemoon.menu.statusBar.accesskey "S">
-<!ENTITY palemoon.menu.allBookmarks.label "Управление закладками">
+<!ENTITY palemoon.sendLinkCmd.label            "Отправить ссылку…">
+<!ENTITY palemoon.sendLinkCmd.accesskey        "т">
+<!ENTITY palemoon.sendPageCmd.label            "Отправить ссылку…">
+<!ENTITY palemoon.sendPageCmd.accesskey        "п">
+
+<!ENTITY palemoon.menu.statusBar.label               "Панель состояния">
+<!ENTITY palemoon.menu.statusBar.accesskey           "S">
+<!ENTITY palemoon.menu.allBookmarks.label            "Управление закладками">
+
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label "Использовать класическое окно загрузки">
-<!ENTITY palemoon.showTabBar.label "Всегда показывать панель вкладок">
-<!ENTITY palemoon.showTabBar.accesskey "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label "Вставлять связанные вкладки после текущей">
-<!ENTITY palemoon.contextLoadInBackground.label "Переключаться на новую вкладку при поиске из контекстного меню">
-<!ENTITY palemoon.closeWindowWithLastTab.label "Закрывать окно при закрытии последней вкладки">
-<!ENTITY palemoon.newtabPage.label "При открытии новой вкладки показать:">
-<!ENTITY palemoon.newtabPage.blank.label "Пустую страницу">
-<!ENTITY palemoon.newtabPage.home.label "Стартовую страницу Pale Moon">
-<!ENTITY palemoon.newtabPage.quickdial.label "Страницу Быстрого Набора">
-<!ENTITY palemoon.loadImages.label "Загружать изображения:">
-<!ENTITY palemoon.loadImages.always "Автоматически">
-<!ENTITY palemoon.loadImages.never "Никогда">
-<!ENTITY palemoon.loadImages.no3rdparty "Только с оригинального сервера">
-<!ENTITY palemoon.firefoxCompatGroup.label "Совместимость с Firefox">
-<!ENTITY palemoon.firefoxCompat.label "Использовать совместимость с Firefox">
-<!ENTITY palemoon.scrollparamTab.label "Прокрутка">
-<!ENTITY palemoon.smoothscroll.explain.label "Нижеуказанные параметры вступят в силу только если плавная прокрутка включена флажком сверху.">
-<!ENTITY palemoon.smoothscroll.to "до">
-<!ENTITY palemoon.smoothscroll.params.label "Параметры плавной прокрутки">
-<!ENTITY palemoon.smoothscroll.mousewheel.label "Плавная прокрутка колесом мыши">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration "Время прокрутки колесом мыши:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label "Плавная прокрутка клавишами со стрелками">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration "Время прокрутки клавишами со стрелками:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label "Плавная прокрутка при помощи клавиш Page Up/Down">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration "Время прокрутки по Page Up/Down:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label "Плавная прокрутка при помощи скроллбаров">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration "Время прокрутки скроллбаром:">
-<!ENTITY allTabs.filter.emptyText "Поиск вкладок">
+<!ENTITY toolkit.classic.download.window.label       "Использовать класическое окно загрузки">
+
+<!ENTITY palemoon.showTabBar.label                   "Всегда показывать панель вкладок">
+<!ENTITY palemoon.showTabBar.accesskey               "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Вставлять связанные вкладки после текущей">
+<!ENTITY palemoon.contextLoadInBackground.label      "Переключаться на новую вкладку при поиске из контекстного меню">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "Закрывать окно при закрытии последней вкладки">
+<!ENTITY palemoon.newtabPage.label                   "При открытии новой вкладки показать:">
+<!ENTITY palemoon.newtabPage.blank.label             "Пустую страницу">
+<!ENTITY palemoon.newtabPage.home.label              "Стартовую страницу Pale Moon">
+<!ENTITY palemoon.newtabPage.quickdial.label         "Страницу Быстрого Набора">
+
+<!ENTITY palemoon.loadImages.label            "Загружать изображения:">
+<!ENTITY palemoon.loadImages.always           "Автоматически">
+<!ENTITY palemoon.loadImages.never            "Никогда">
+<!ENTITY palemoon.loadImages.no3rdparty       "Только с оригинального сервера">
+
+<!ENTITY palemoon.firefoxCompatGroup.label    "Совместимость с Firefox">
+<!ENTITY palemoon.firefoxCompat.label         "Использовать совместимость с Firefox">
+
+<!ENTITY palemoon.scrollparamTab.label               "Прокрутка">
+<!ENTITY palemoon.smoothscroll.explain.label         "Нижеуказанные параметры вступят в силу только если плавная прокрутка включена флажком сверху.">
+<!ENTITY palemoon.smoothscroll.to                    "до">
+<!ENTITY palemoon.smoothscroll.params.label          "Параметры плавной прокрутки">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "Плавная прокрутка колесом мыши">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Время прокрутки колесом мыши:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Плавная прокрутка клавишами со стрелками">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Время прокрутки клавишами со стрелками:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "Плавная прокрутка при помощи клавиш Page Up/Down">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Время прокрутки по Page Up/Down:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "Плавная прокрутка при помощи скроллбаров">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Время прокрутки скроллбаром:">
