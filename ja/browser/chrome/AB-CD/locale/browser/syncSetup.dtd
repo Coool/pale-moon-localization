@@ -26,13 +26,13 @@
 <!ENTITY signIn.recoveryKey.accesskey   "K">
 
 <!-- New Account Page 1: Basic Account Info -->
-<!ENTITY setup.newAccountDetailsPage.title.label  "アカウントの詳細">
+<!ENTITY setup.newAccountDetailsPage.title.label "アカウントの詳細">
 <!ENTITY setup.emailAddress.label     "メールアドレス">
 <!ENTITY setup.emailAddress.accesskey "E">
 <!ENTITY setup.choosePassword.label      "パスワードを入力">
 <!ENTITY setup.choosePassword.accesskey  "P">
-<!ENTITY setup.confirmPassword.label  "パスワードを再度入力">
-<!ENTITY setup.confirmPassword.accesskey  "m">
+<!ENTITY setup.confirmPassword.label     "パスワードを再度入力">
+<!ENTITY setup.confirmPassword.accesskey "m">
 <!ENTITY setup.setupMetro.label     "Windows 8 スタイルで &brandShortName; を同期">
 <!ENTITY setup.setupMetro.accesskey "S">
 
@@ -43,7 +43,7 @@
 <!ENTITY setup.tosLink.label        "利用規約">
 <!ENTITY setup.tosAgree2.label      "と">
 <!ENTITY setup.ppLink.label         "プライバシーポリシー">
-<!ENTITY setup.tosAgree3.label      "に同意します">
+<!ENTITY setup.tosAgree3.label      "">
 <!ENTITY setup.tosAgree2.accesskey  "">
 
 <!-- My Recovery Key dialog -->
@@ -51,7 +51,7 @@
 <!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリキーはアップロードされません。">
 <!ENTITY recoveryKeyEntry.label        "リカバリキー">
 <!ENTITY recoveryKeyEntry.accesskey    "K">
-<!ENTITY syncGenerateNewKey.label      "新規リカバリキーを生成">
+<!ENTITY syncGenerateNewKey.label  "新規リカバリキーを生成">
 <!ENTITY recoveryKeyBackup.description "リカバリキーは、他の端末から &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。リカバリキーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "印刷...">
@@ -60,7 +60,7 @@
 <!ENTITY button.syncKeyBackup.save.accesskey  "S">
 
 <!-- Existing Account Page 1: Pair a Device (incl. Pair a Device dialog strings) -->
-<!ENTITY pairDevice.title.label              "端末と連携">
+<!ENTITY pairDevice.title.label             "端末と連携">
 <!ENTITY addDevice.showMeHow.label          "設定方法を確認する。">
 <!ENTITY addDevice.dontHaveDevice.label     "他の Sync 端末を持っていない">
 <!ENTITY pairDevice.setup.description.label  "有効にするには、他の端末で &#x0022;端末と連携&#x0022; を選択してください。">
@@ -69,7 +69,7 @@
 <!ENTITY addDevice.dialog.enterCode.label   "端末に表示されたコードを入力してください:">
 <!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
 <!ENTITY addDevice.dialog.successful.label  "端末の接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
-<!ENTITY addDevice.dialog.recoveryKey.label "お使いの端末で &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを印刷または保存して、端末に入力してください。">
+<!ENTITY addDevice.dialog.recoveryKey.label     "お使いの端末で &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを印刷または保存して、端末に入力してください。">
 <!ENTITY addDevice.dialog.connected.label   "端末が接続されました">
 
 <!-- Existing Account Page 2: Manual Login -->
@@ -105,12 +105,12 @@
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "確認">
-<!ENTITY confirm.merge2.label           "この端末のすべてのブラウザデータは、サーバに保存されているデータと統合されます。">
-<!ENTITY confirm.client3.label          "警告: この端末のブラウザデータは、以下の情報を含め、すべて削除されます:">
+<!ENTITY confirm.merge2.label    "この端末のすべてのブラウザデータは、サーバに保存されているデータと統合されます。">
+<!ENTITY confirm.client3.label         "警告: この端末のブラウザデータは、以下の情報を含め、すべて削除されます:">
 <!ENTITY confirm.client2.moreinfo.label "その後、サーバに保存されているデータがこの端末へコピーされます。">
-<!ENTITY confirm.server2.label          "警告: 以下の端末のブラウザデータが、この端末のデータで上書きされます:">
+<!ENTITY confirm.server2.label         "警告: 以下の端末のブラウザデータが、この端末のデータで上書きされます:">
 
-<!-- New & Existing Account: Setup Complete -->
-<!ENTITY setup.successPage.title      "セットアップが完了しました">
-<!ENTITY changeOptions.label    "この設定は、下の同期オプションを選択することで変更できます。">
-<!ENTITY continueUsing.label    "今から &brandShortName; を使い続けることができます。">
+<!-- New &amp; Existing Account: Setup Complete -->
+<!ENTITY setup.successPage.title "セットアップが完了しました">
+<!ENTITY changeOptions.label "この設定は、下の同期オプションを選択することで変更できます。">
+<!ENTITY continueUsing.label "今から &brandShortName; を使い続けることができます。">
