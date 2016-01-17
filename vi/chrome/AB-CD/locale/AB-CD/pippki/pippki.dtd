@@ -1,31 +1,31 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Values for changepassword.xul -->
 
-<!ENTITY setPassword.title  "Thay đổi Mật khẩu Chính">
+<!-- Values for changepassword.xul -->
+<!ENTITY setPassword.title  "Thay đổi mật khẩu chính">
 <!ENTITY setPassword.tokenName.label "Thiết bị Bảo mật">
 <!ENTITY setPassword.oldPassword.label "Mật khẩu hiện tại:">
-<!ENTITY setPassword.newPassword.label "Mật khẩu mới:">
-<!ENTITY setPassword.reenterPassword.label "Mật khẩu mới (nhập lại):">
+<!ENTITY setPassword.newPassword.label "Nhập mật khẩu mới:">
+<!ENTITY setPassword.reenterPassword.label "Nhập lại mật khẩu:">
 <!ENTITY setPassword.meter.label "Độ an toàn mật khẩu">
 <!ENTITY setPassword.meter.loading "Đang tải">
-<!-- Values for resetpassword.xul -->
 
+<!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Đặt lại">
 <!ENTITY resetPassword.title  "Đặt lại Mật khẩu Chính">
 <!ENTITY resetPassword.text  "Nếu bạn đặt lại mật khẩu chính, toàn bộ các mật khẩu web, email, dữ liệu biểu mẫu, chứng chỉ và khóa cá nhân đã lưu sẽ bị xóa. Bạn có chắc muốn xóa mật khẩu chính của mình không?">
-<!-- Values for getpassword.xul -->
 
+<!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "Nhập Mật khẩu Chính">
 <!ENTITY getPassword.tokenName2.label "Thiết bị Bảo mật:">
 <!ENTITY getPassword.password.label "Mật khẩu:">
-<!-- These should be common -->
 
+<!-- These should be common -->
 <!ENTITY piperror.title "Lỗi">
 <!ENTITY pipalert.title "Lỗi - không thể khôi phục">
-<!-- Prefs panel strings -->
 
+<!-- Prefs panel strings -->
 <!ENTITY pref.security.general.lHeader "Bảo mật">
 <!ENTITY pref.security.general.rHeader "Thiết lập cho bảo mật chung">
 <!ENTITY pref.security.general.header "Thiết lập cho bảo mật chung">
@@ -33,8 +33,8 @@
 <!ENTITY pref.security.general.paranoid.label "Dùng thiết lập bảo mật thông thường">
 <!ENTITY pref.security.general.certificates.title "Chứng thư">
 <!ENTITY pref.security.general.manageCert.label "Quản lí Chứng chỉ">
-<!-- Downloading a cert -->
 
+<!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Đang tải Chứng chỉ">
 <!ENTITY downloadCert.message1 "Bạn được hỏi có tin tưởng một CA (Bên thẩm định Chứng chỉ) mới hay không.">
 <!ENTITY downloadCert.trustSSL "Tin CA này để nhận diện các trang web.">
@@ -45,14 +45,14 @@
 <!ENTITY downloadCert.viewPolicy.label "Điều khoản">
 <!ENTITY downloadCert.viewCert.text "Kiểm định chứng chỉ của CA">
 <!ENTITY downloadCert.viewPolicy.text "Kiểm định các điều khoản và thủ tục của CA">
-<!-- Strings for the SSL client auth ask dialog -->
 
+<!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Yêu cầu Nhận diện Người dùng">
 <!ENTITY clientAuthAsk.message1 "Trang này yêu cầu bạn tự nhận diện chính mình với một chứng chỉ:">
 <!ENTITY clientAuthAsk.message2 "Chọn một chứng chỉ để thực hiện việc nhận diện này:">
 <!ENTITY clientAuthAsk.message3 "Chi tiết của chứng chỉ đã chọn:">
-<!-- Strings for the cert picker dialog -->
 
+<!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Chọn Chứng chỉ">
 <!ENTITY certPicker.info  "Chứng chỉ:">
 <!ENTITY certPicker.detailsLabel "Chi tiết của chứng chỉ đã chọn:">
@@ -75,18 +75,18 @@
 <!ENTITY escrowWarn.message2 "Tuy nhiên, khóa mật hóa cá nhân của bạn sẽ được lưu bởi bên thẩm định chứng chỉ, và có thể dùng để đọc các email và tài liệu đã mật hóa của bạn mà không cần sự cho phép của bạn.">
 <!ENTITY examineCert.label "Xem Chứng Thư">
 <!ENTITY examineCert.accesskey "X">
-<!-- Strings for the CreateCertInfo dialog  -->
 
+<!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Tạo một Khóa Cá nhân">
 <!ENTITY createCertInfo.msg1 "Đang trong tiến trình Tạo Khóa… Việc này có thể mất vài phút….">
 <!ENTITY createCertInfo.msg2 "Vui lòng chờ…">
-<!-- Form Signing confirmation prompt -->
 
+<!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Yêu cầu Kí">
 <!ENTITY formSigning.cert "Kí Chứng chỉ">
 <!ENTITY formSigning.confirmPassword "Để xác nhận việc bạn đồng ý kí vào thông điệp này sử dụng chứng chỉ bạn đã chọn, vui lòng xác nhận bằng cách nhập mật khẩu chính:">
-<!-- Strings for protectedAuth dialog -->
 
+<!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Xác thực Mã thông báo được Bảo vệ">
 <!ENTITY protectedAuth.msg "Vui lòng xác thực cho mã thông báo. Phương thức xác thực tùy thuộc vào kiểu mã thông báo của bạn.">
 <!ENTITY protectedAuth.tokenName.label "Mã thông báo:">

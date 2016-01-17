@@ -1,10 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- extracted from content/viewSource.xul -->
+
 <!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE --> 
-
-
 <!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
@@ -12,27 +12,27 @@
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Mã nguồn của: ">
 
-<!ENTITY fileMenu.label "Tập tin">
-<!ENTITY fileMenu.accesskey "T">
+<!ENTITY fileMenu.label "Tệp (f)">
+<!ENTITY fileMenu.accesskey "f">
 <!ENTITY savePageCmd.label "Lưu Trang dưới dạng…">
 <!ENTITY savePageCmd.accesskey "r">
-<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY savePageCmd.commandkey "s">
 <!ENTITY pageSetupCmd.label "Thiết lập Trang…">
 <!ENTITY pageSetupCmd.accesskey "p">
-<!ENTITY printPreviewCmd.label "Xem trước khi In">
-<!ENTITY printPreviewCmd.accesskey "X">
+<!ENTITY printPreviewCmd.label "Xem trước khi In (v)">
+<!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "In…">
 <!ENTITY printCmd.accesskey "I">
-<!ENTITY printCmd.commandkey "P">
+<!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "Đóng">
 <!ENTITY closeCmd.accesskey "g">
-<!ENTITY closeCmd.commandkey "W">
+<!ENTITY closeCmd.commandkey "w">
+
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
 textReset.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
-
 
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
@@ -65,7 +65,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReset.accesskey "B">
 
 <!ENTITY findOnCmd.label     "Tìm kiếm trong Trang Này…">
-<!ENTITY findOnCmd.accesskey "k">
+<!ENTITY findOnCmd.accesskey "T">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Tìm Lại">
 <!ENTITY findAgainCmd.accesskey "i">
@@ -80,6 +80,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 
 <!ENTITY copyLinkCmd.label "Sao chép địa chỉ liên kết">
-<!ENTITY copyLinkCmd.accesskey "l">
+<!ENTITY copyLinkCmd.accesskey "a">
 <!ENTITY copyEmailCmd.label "Chép Địa Chỉ Email">
 <!ENTITY copyEmailCmd.accesskey "E">

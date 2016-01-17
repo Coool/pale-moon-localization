@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 
+<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 <!ENTITY places.library.title  "Thư viện">
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Mở Toàn Bộ trong Thẻ">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "B">
 
+<!ENTITY cmd.openParentFolder.label      "Mở thư mục chứa">
+<!ENTITY cmd.openParentFolder.accesskey  "T">
+
 <!ENTITY cmd.properties.label      "Thuộc tính">
 <!ENTITY cmd.properties.accesskey  "h">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "Di chuyển…">
 <!ENTITY cmd.moveBookmarks.accesskey              "y">
 
-<!ENTITY col.name.label          "Tên">
-<!ENTITY col.tags.label          "Nhãn">
-<!ENTITY col.url.label           "Địa chỉ">
-<!ENTITY col.lastvisit.label     "Ngày Xem">
-<!ENTITY col.visitcount.label    "Số lần Xem">
-<!ENTITY col.keyword.label       "Từ khóa">
-<!ENTITY col.description.label   "Mô tả">
-<!ENTITY col.dateadded.label     "Ngày Thêm">
-<!ENTITY col.lastmodified.label  "Lần sửa Cuối">
+<!ENTITY col.name.label              "Tên">
+<!ENTITY col.tags.label              "Nhãn">
+<!ENTITY col.url.label               "Địa chỉ">
+<!ENTITY col.lastvisit.label         "Ngày Xem">
+<!ENTITY col.visitcount.label        "Số lần Xem">
+<!ENTITY col.keyword.label           "Từ khóa">
+<!ENTITY col.description.label       "Mô tả">
+<!ENTITY col.dateadded.label         "Ngày Thêm">
+<!ENTITY col.lastmodified.label      "Lần sửa Cuối">
+<!ENTITY col.parentfolder.label      "Chứa thư mục">
+<!ENTITY col.parentfolderpath.label  "Chứa đường dẫn thư mục">
 
-<!ENTITY search.label                              "Tìm kiếm:">
-<!ENTITY search.accesskey                          "k">
+<!ENTITY search.label                              "Tìm kiếm trên Web">
+<!ENTITY search.accesskey                          "m">
+
+<!ENTITY search.in.label                           "Tìm kiếm trong:">
+<!ENTITY search.scopeFolder.label                  "Thư mục đã chọn">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Trang ưa thích">
+<!ENTITY search.scopeBookmarks.accesskey           "w">
+<!ENTITY search.scopeDownloads.label               "Trang tải xuống">
+<!ENTITY search.scopeDownloads.accesskey           "X">
+<!ENTITY search.scopeHistory.label                 "Lịch sử">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Lưu">
+<!ENTITY saveSearch.accesskey                      "n">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "v">
 <!ENTITY maintenance.tooltip    "Nhập và sao lưu trang đánh dấu của bạn">
 
-<!ENTITY backButton.tooltip  "Quay lại">
+<!ENTITY backButton.tooltip  "Trở lại trang trước">
 
-<!ENTITY forwardButton.tooltip  "Tiến tới">
+<!ENTITY forwardButton.tooltip  "Tiến tới trang sau">
 
 <!ENTITY detailsPane.more.label "Thêm">
 <!ENTITY detailsPane.more.accesskey "m">

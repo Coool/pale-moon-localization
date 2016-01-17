@@ -21,8 +21,8 @@
 
 <!ENTITY cmd.back.tooltip                     "Trở lại trang trước">
 <!ENTITY cmd.forward.tooltip                  "Tiến tới trang sau">
-<!-- global warnings -->
 
+<!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Tất cả tiện ích đã bị vô hiệu hóa bởi chế độ an toàn.">
 <!ENTITY warning.checkcompatibility.label          "Việc kiểm tra tính tương thích của tiện ích đã bị vô hiệu hóa. Có thể bạn đang dùng các tiện ích không còn tương thích nữa.">
 <!ENTITY warning.checkcompatibility.enable.label   "Bật">
@@ -30,18 +30,18 @@
 <!ENTITY warning.updatesecurity.label              "Việc kiểm tra tính an toàn của các cập nhật tiện ích đã bị vô hiệu hóa. Bạn có thể bị tổn hại nếu cập nhật.">
 <!ENTITY warning.updatesecurity.enable.label       "Bật">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Kích hoạt kiểm tra tính bảo mật của cập nhật cho tiện ích">
-<!-- global informations -->
 
+<!-- global informations -->
 <!ENTITY info.plugincheck.label                 "Kiểm tra xem phần bổ trợ của bạn đã là mới nhất chưa">
 <!ENTITY info.plugincheck.tooltip               "Kiểm tra xem phần bổ trợ của bạn đã là mới nhất chưa">
-<!-- categories / views -->
 
+<!-- categories / views -->
 <!ENTITY view.search.label                    "Tìm kiếm">
 <!ENTITY view.discover.label                  "Lấy thêm Tiện ích">
 <!ENTITY view.recentUpdates.label             "Cập nhật Gần đây">
 <!ENTITY view.availableUpdates.label          "Cập nhật Khả thi">
-<!-- addon updates -->
 
+<!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label        "Kiểm tra Cập nhật">
 <!ENTITY updates.checkForUpdates.accesskey    "C">
 <!ENTITY updates.viewUpdates.label            "Xem các Cập nhật Gần đây">
@@ -69,8 +69,8 @@
 <!ENTITY updates.manualUpdatesFound.label     "Xem các Cập nhật Hiện có">
 <!ENTITY updates.updateSelected.label         "Cài đặt Cập nhật">
 <!ENTITY updates.updateSelected.tooltip       "Cài đặt các cập nhật khả thi trong danh sách này">
-<!-- addon actions -->
 
+<!-- addon actions -->
 <!ENTITY cmd.showDetails.label                "Hiện thêm Thông tin">
 <!ENTITY cmd.showDetails.accesskey            "H">
 <!ENTITY cmd.findUpdates.label                "Tìm bản Cập nhật">
@@ -86,9 +86,9 @@
 <!ENTITY cmd.enableAddon.accesskey            "B">
 <!ENTITY cmd.disableAddon.label               "Vô hiệu hóa">
 <!ENTITY cmd.disableAddon.accesskey           "V">
-<!ENTITY cmd.enableTheme.label                "Mặc Giao Diện">
+<!ENTITY cmd.enableTheme.label                "Sử dụng phông nền">
 <!ENTITY cmd.enableTheme.accesskey            "M">
-<!ENTITY cmd.disableTheme.label               "Dừng Mặc Giao Diện">
+<!ENTITY cmd.disableTheme.label               "Ngưng dùng phông nền">
 <!ENTITY cmd.disableTheme.accesskey           "D">
 <!ENTITY cmd.askToActivate.label              "Hỏi để kích hoạt">
 <!ENTITY cmd.askToActivate.tooltip            "Hỏi mỗi khi dùng add-on này">
@@ -113,18 +113,18 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Hiển thị ghi chú phát hành của cập nhật này">
 <!ENTITY cmd.hideReleaseNotes.label           "Ẩn Ghi chú Phát hành">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ẩn ghi chú phát hành của cập nhật này">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
-
 <!ENTITY discover.title                       "Tiện ích là gì?">
-<!ENTITY discover.description2                "Tiện ích là những ứng dụng cho phép bạn cá nhân hóa &brandShortName; bằng 
-kiểu dáng hoặc chức năng phụ. Hãy thử một thanh lề tiết kiệm thời gian, một trình báo thời tiết, hoặc một giao diện để biến &brandShortName; 
+<!ENTITY discover.description2                "Tiện ích là những ứng dụng cho phép bạn cá nhân hóa &brandShortName; với
+nhiều kiểu dáng hoặc chức năng phụ. Hãy thử một thanh lề tiết kiệm thời gian, một trình báo thời tiết, hoặc một phông nền để biến &brandShortName; 
 thành của riêng bạn.">
 <!ENTITY discover.footer                      "Khi bạn kết nối mạng, bảng này sẽ giới thiệu 
 một số tiện ích tốt nhất và thông dụng nhất để bạn thử.">
-<!-- detail view -->
 
+<!-- detail view -->
 <!ENTITY detail.version.label                 "Phiên bản">
 <!ENTITY detail.lastupdated.label             "Cập nhật Cuối">
 <!ENTITY detail.creator.label                 "Nhà phát triển">
@@ -153,17 +153,17 @@ một số tiện ích tốt nhất và thông dụng nhất để bạn thử."
 <!ENTITY detail.showPreferencesUnix.label     "Tùy chỉnh">
 <!ENTITY detail.showPreferencesUnix.accesskey "y">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Thay đổi tùy chỉnh của tiện ích này">
+
+
 <!-- ratings -->
-
-
 <!ENTITY rating2.label                        "Xếp hạng">
-<!-- download/install progress -->
 
+<!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Tạm dừng">
 <!ENTITY progress.cancel.tooltip              "Hủy bỏ">
+
+
 <!-- list sorting -->
-
-
 <!ENTITY sort.name.label                      "Tên">
 <!ENTITY sort.name.tooltip                    "Sắp xếp theo tên">
 <!ENTITY sort.dateUpdated.label               "Cập nhật Cuối">

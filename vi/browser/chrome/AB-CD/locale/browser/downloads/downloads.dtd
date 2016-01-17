@@ -1,11 +1,12 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this file,
    - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+
 <!-- LOCALIZATION NOTE (downloads.title):
      Used by screen readers to describe the Downloads Panel.
      -->
-
 <!ENTITY downloads.title                  "Trang tải xuống">
+
 <!-- LOCALIZATION NOTE (downloadDetails.width):
      Width of details for a Downloads Panel item (which directly influences the
      width of the Downloads Panel) expressed using a CSS unit. The longest
@@ -22,8 +23,8 @@
 
      That's 50 characters, so we set the width at 50ch.
      -->
-
 <!ENTITY downloadDetails.width            "50ch">
+
 <!-- LOCALIZATION NOTE (downloadsSummary.minWidth2):
      Minimum width for the main description of the downloads summary,
      which is displayed at the bottom of the Downloads Panel if the
@@ -37,7 +38,6 @@
 
      that's 21 characters, so we set the minimum width to 21ch.
      -->
-
 <!ENTITY downloadsSummary.minWidth2       "21ch">
 
 <!ENTITY cmd.pause.label                  "Tạm dừng">
@@ -66,26 +66,26 @@
 <!ENTITY cmd.clearList.accesskey          "a">
 <!ENTITY cmd.clearDownloads.label         "Xóa các tải về (D)">
 <!ENTITY cmd.clearDownloads.accesskey     "D">
+
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
      This string is shown at the bottom of the Downloads Panel when all the
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-
 <!ENTITY downloadsHistory.label           "Xem tất cả Tải về">
 <!ENTITY downloadsHistory.accesskey       "S">
 
 <!ENTITY clearDownloadsButton.label       "Xóa các tải về">
 <!ENTITY clearDownloadsButton.tooltip     "Xóa các tải về thành công, bị hủy và thất bại">
+
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
      This string is shown when there are no items in the Downloads view, when it
      is displayed inside a browser tab.
      -->
-
 <!ENTITY downloadsListEmpty.label         "Không có tải về nào.">
+
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no
      results in the Downloads view.
      -->
-
 <!ENTITY downloadsListNoMatch.label       "Không tìm thấy bất kỳ tải về phù hợp.">

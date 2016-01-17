@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Note: each tab panel must contain unique accesskeys -->
 
+<!-- Note: each tab panel must contain unique accesskeys -->
 
 <!ENTITY generalTab.label                "Tổng quát">
 
@@ -27,26 +27,13 @@
 <!ENTITY checkSpelling.accesskey         "a">
 
 <!ENTITY systemDefaults.label            "Mặc định cho Hệ thống">
-<!--XXX-->
-<!ENTITY alwaysCheckDefault.label        "Luôn kiểm tra xem &brandShortName; có phải là trình duyệt mặc định mỗi khi khởi chạy">
+<!ENTITY alwaysCheckDefault.label        "Luôn kiểm tra xem &brandShortName; có phải là trình duyệt mặc định mỗi khi khởi chạy"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "L">
 <!ENTITY setDefault.label                "Đặt &brandShortName; làm trình duyệt mặc định">
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; đang là trình duyệt mặc định">
 
 <!ENTITY dataChoicesTab.label            "Lựa chọn dữ liệu">
-
-<!ENTITY healthReportSection.label       "Trình báo cáo lỗi &brandShortName;">
-<!ENTITY healthReportDesc.label          "Giúp bạn nắm được hiệu suất trình duyệt của bạn và chia sẻ dữ liệu với &vendorShortName; về trạng thái của trình duyệt">
-<!ENTITY enableHealthReport.label        "Trình báo cáo lỗi &brandShortName; (R)">
-<!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "Tìm hiểu thêm">
-
-<!ENTITY telemetrySection.label          "Telemetry">
-<!ENTITY telemetryDesc.label             "Chia sẻ hiệu năng, cách sử dụng, phần cứng và dữ liệu tùy biến liên quan đến trình duyệt của bạn với &vendorShortName; để giúp chúng tôi tạo ra &brandShortName; tốt hơn">
-<!ENTITY enableTelemetry.label           "Kích hoạt Telemetry">
-<!ENTITY enableTelemetry.accesskey       "T">
-<!ENTITY telemetryLearnMore.label        "Tìm hiểu thêm">
 
 <!ENTITY crashReporterSection.label      "Trình Báo Lỗi">
 <!ENTITY crashReporterDesc.label         "&brandShortName; gửi báo cáo sự cố giúp &vendorShortName; cải thiện trình duyệt ổn định và an toàn hơn">
@@ -65,13 +52,13 @@
 <!ENTITY httpCache.label                 "Nội dung web đã được cached">
 
 <!ENTITY offlineStorage2.label           "Nội dung Web và Dữ liệu người dùng ngoại tuyến">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "Giới hạn bộ đệm còn">
 <!ENTITY limitCacheSizeBefore.accesskey  "G">
 <!ENTITY limitCacheSizeAfter.label       "MB dung lượng">
@@ -104,9 +91,6 @@
 
 <!ENTITY updateHistory.label             "Hiển thị Lược sử Cập nhật">
 <!ENTITY updateHistory.accesskey         "L">
-
-<!ENTITY useService.label                "Sử dụng dịch vụ chạy nền để cài đặt các cập nhật">
-<!ENTITY useService.accesskey            "b">
 
 <!ENTITY updateOthers.label              "Tự động cập nhật:">
 <!ENTITY enableSearchUpdate.label        "Máy tìm kiếm">

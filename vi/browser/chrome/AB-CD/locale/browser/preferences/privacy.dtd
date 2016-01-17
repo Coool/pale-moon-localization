@@ -18,7 +18,7 @@
 
 <!ENTITY  locbar.pre.label              "Khi sử dụng thanh địa chỉ, đề nghị:">
 <!ENTITY  locbar.pre.accessKey          "a">
-<!ENTITY  locbar.post.label             "Khi sử dụng thanh địa chỉ, đề nghị: (u)">
+<!ENTITY  locbar.post.label             "">
 <!ENTITY  locbar.both.label             "Lược sử và Đánh dấu">
 <!ENTITY  locbar.history.label          "Lịch sử">
 <!ENTITY  locbar.bookmarks.label        "Trang ưa thích">
@@ -51,13 +51,13 @@
 <!ENTITY  historyHeader.remember.label     "Ghi nhớ lược sử">
 <!ENTITY  historyHeader.dontremember.label "Không bao giờ ghi nhớ lược sử">
 <!ENTITY  historyHeader.custom.label       "Sử dụng thiết lập tùy biến cho lược sử">
-<!ENTITY  historyHeader.post.label         "Sử dụng thiết lập tùy biến cho lịch sử">
+<!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName; sẽ ghi nhớ việc duyệt web, tải xuống, lược sử biểu mẫu và tìm kiếm, và giữ lại cookie của những trang Web mà bạn đã vào.">
+
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-
 <!ENTITY  rememberActions.pre.label           "Bạn có thể sẽ muốn ">
 <!ENTITY  rememberActions.clearHistory.label  "xóa các lược sử gần đây của bạn">
 <!ENTITY  rememberActions.middle.label        ", hoặc ">
@@ -65,9 +65,9 @@
 <!ENTITY  rememberActions.post.label          ".">
 
 <!ENTITY  dontrememberDescription.label  "&brandShortName; sẽ dùng thiết lập giống như chế độ duyệt web riêng tư, và sẽ không ghi nhớ lược sử khi bạn duyệt Web.">
+
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-
 <!ENTITY  dontrememberActions.pre.label          "Bạn có thể cũng sẽ muốn ">
 <!ENTITY  dontrememberActions.clearHistory.label "xóa toàn bộ lược sử hiện tại">
 <!ENTITY  dontrememberActions.post.label         ".">

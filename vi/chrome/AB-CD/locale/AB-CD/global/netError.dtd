@@ -2,74 +2,109 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Lỗi tải trang">
+<!ENTITY loadError.label "Gặp vấn đề khi tải trang">
 <!ENTITY retry.label "Thử Lại">
+
 <!-- Specific error messages -->
 
+<!ENTITY connectionFailure.title "Không thể kết nối">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY connectionFailure.title "Không thể Kết nối">
-<!ENTITY connectionFailure.longDesc "<p>Mặc dù trang web có vẻ hợp lệ, nhưng trình duyệt không thể thiết lập kết nối.</p><ul><li>Có thể trang này đang tạm thời bị gián đoạn? Hãy thử lại sau.</li><li>Bạn cũng không thể duyệt các trang web khác? Hãy kiểm tra kết nối mạng.</li><li>Máy tính hoặc mạng của bạn có đang được bảo vệ bởi tường lửa hoặc proxy không? Thiết lập sai có thể làm ảnh hưởng tới việc duyệt Web.</li><li>Hoặc, có thể truy cập trình đơn 'Trợ giúp' ở trên để tìm hỗ trợ.</li></ul>">
-
-<!ENTITY deniedPortAccess.title "Cổng bị Cấm vì Lí do Bảo mật">
+<!ENTITY deniedPortAccess.title "Địa chỉ này đã bị chặn">
 <!ENTITY deniedPortAccess.longDesc "<p>Địa chỉ yêu cầu chỉ tới một cổng (vd. <q>mozilla.org:80</q> là cổng 80 trên mozilla.org) vốn được dùng cho mục đích <em>khác</em> hơn là duyệt Web. Trình duyệt đã hủy yêu cầu để bảo vệ bạn.</p>">
 
-<!ENTITY dnsNotFound.title "Không tìm thấy Địa chỉ">
-<!ENTITY dnsNotFound.longDesc "<p>Trình duyệt không thể tìm thấy máy chủ của địa chỉ được cung cấp.</p><ul><li>Liệu bạn có mắc lỗi khi gõ tên miền không? (vd. <q><strong>ww</strong>.nhaccodien.info</q> thay vì <q><strong>www</strong>.nhaccodien.info</q>)</li><li>Bạn có chắc tên miền này tồn tại? Có thể thời hạn đăng kí của nó đã hết.</li><li>Bạn cũng không thể duyệt các trang web khác? Hãy kiểm tra lại kết nối mạng và thiết lập máy chủ DNS.</li><li>Máy tính hoặc mạng của bạn có được bảo vệ bởi tường lửa hoặc proxy? Thiết lập sai có thể làm ảnh hưởng đến việc duyệt Web.</li><li>Hoặc, có thể truy cập trình đơn 'Trợ giúp' ở trên để tìm hỗ trợ.</li></ul>">
+<!ENTITY dnsNotFound.title "Không tìm thấy máy chủ">
+<!ENTITY dnsNotFound.longDesc "<ul> 
+<li>Kiểm tra các lỗi gõ địa chỉ như là 
+<strong>ww</strong>.mozilla.com thay vì gõ đúng phải là 
+<strong>www</strong>.mozilla.com</li> 
+<li>Nếu bạn không thể mở bất kì trang nào, hãy kiểm tra kết nối mạng của bạn.</li> 
+<li>Nếu máy tính hoặc mạng của bạn được bảo vệ bởi tường lửa hoặc proxy, hãy chắc rằng &brandShortName; được phép truy cập Web.</li> 
+</ul>">
 
-<!ENTITY fileNotFound.title "Không tìm thấy Tập tin">
-<!ENTITY fileNotFound.longDesc "<ul><li>Có khi nào mục này đã bị đổi tên hoặc di chuyển không?</li><li>Có lỗi chính tả, lỗi HOA-thường, hay lỗi gõ chữ nào khác trong phần địa chỉ không?</li><li>Bạn có đủ quyền hạn để yêu cầu mục này không?</li></ul>">
+<!ENTITY fileNotFound.title "Không tìm thấy tập tin">
+<!ENTITY fileNotFound.longDesc "<ul> 
+<li>Kiểm tra tên xem có lỗi gõ HOA-thường hay lỗi nào khác không.</li> 
+<li>Kiểm tra xem tập tin có bị chuyển, đổi tên hay bị xóa không.</li> 
+</ul>">
 
-<!ENTITY generic.title "Không thể Hoàn tất Yêu cầu">
-<!ENTITY generic.longDesc "<p>Thông tin thêm về vấn đề hoặc lỗi này hiện không có.</p>">
+<!ENTITY generic.title "Oái.">
+<!ENTITY generic.longDesc "<p>&brandShortName; không thể mở trang này vì nguyên nhân nào đó.</p>">
 
-<!ENTITY malformedURI.title "Địa chỉ Không hợp lệ">
-<!ENTITY malformedURI.longDesc "<p>Địa chỉ bạn cung cấp không phải là một trong các định dạng đã biết. Vui lòng kiểm tra thanh địa chỉ và thử lại.</p>">
+<!ENTITY malformedURI.title "Địa chỉ không hợp lệ">
+<!ENTITY malformedURI.longDesc "<ul> 
+<li>Địa chỉ Web thường được viết như sau 
+<strong>http://www.mozilla.com/</strong></li> 
+<li>Hãy chắc chắn rằng bạn đang dùng dấu chéo lên (vd. 
+<strong>/</strong>).</li> 
+</ul>">
 
-<!ENTITY netInterrupt.title "Truyền tải Dữ liệu bị Ngắt">
-<!ENTITY netInterrupt.longDesc "<p>Trình duyệt đã kết nối thành công, nhưng kết nối đã bị ngắt khi đang trao đổi thông tin. Vui lòng thử lại.</p><ul><li>Bạn cũng không thể duyệt trang khác? Hãy kiểm tra kết nối mạng.</li><li>Vẫn gặp vấn đề? Hỏi ý quản trị mạng hoặc nhà cung cấp Internet của bạn để được trợ giúp.</li><li>Hoặc, có thể truy cập trình đơn 'Trợ giúp' ở trên để tìm hỗ trợ.</li></ul>">
+<!ENTITY netInterrupt.title "Kết nối bị ngắt">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
-<!ENTITY notCached.title "Tài liệu đã hết hạn">
-<!ENTITY notCached.longDesc "<p>Tài liệu được yêu cầu không có sẵn trong bộ đệm của trình duyệt.</p><ul><li>Vì lí do bảo mật, trình duyệt không tự động yêu cầu lại các tài liệu nhạy cảm.</li><li>Nhấn Thử Lại để yêu cầu lại tài liệu từ trang web.</li></ul>">
+<!ENTITY notCached.title "Tài liệu bị Hết hạn">
+<!ENTITY notCached.longDesc "<p>Tài liệu được yêu cầu không có sẵn trong bộ đệm của &brandShortName;.</p><ul><li>Vì lí do bảo mật, &brandShortName; không tự động yêu cầu lại các tài liệu nhạy cảm.</li><li>Nhấn Thử Lại để yêu cầu lại tài liệu từ trang web.</li></ul>">
 
-<!ENTITY netOffline.title "Chế độ Ngoại tuyến">
-<!ENTITY netOffline.longDesc2 "<p>Trình duyệt đang hoạt động trong chế độ ngoại tuyến và không thể kết nối tới mục được yêu cầu.</p><ul><li>Máy tính có được nối tới một mạng đang hoạt động không?</li><li>Ấn &quot;Thử lại&quot; để chuyển sang chế độ trực tuyến và tải lại trang.</li></ul>">
+<!ENTITY netOffline.title "Chế độ ngoại tuyến">
+<!ENTITY netOffline.longDesc2 "<ul> 
+<li>Bấm &quot;Thử lại&quot; để chuyển sang chế độ trực tuyến và tải lại trang.</li> 
+</ul>">
 
 <!ENTITY contentEncodingError.title "Lỗi Bảng Mã">
-<!ENTITY contentEncodingError.longDesc "<p>Trang bạn đang cố xem không thể hiển thị vì nó dùng một kiểu nén không hỗ trợ hoặc bất hợp lệ.</p><ul><li>Vui lòng liên hệ với chủ trang web để báo họ vấn đề này.</li></ul>">
+<!ENTITY contentEncodingError.longDesc "<ul> 
+<li>Vui lòng liên hệ với chủ trang web để báo họ vấn đề này.</li> 
+</ul>">
 
 <!ENTITY unsafeContentType.title "Kiểu tập tin Không an toàn">
 <!ENTITY unsafeContentType.longDesc "<ul> 
 <li>Vui lòng liên hệ với chủ trang web để báo họ vấn đề này.</li> 
 </ul>">
 
-<!ENTITY netReset.title "Kết nối bị Ngắt">
-<!ENTITY netReset.longDesc "<p>Liên kết mạng bị ngắt trong khi đang tiến hành kết nối. Vui lòng thử lại.</p>">
+<!ENTITY netReset.title "Kết nối bị khởi tạo lại">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Hết thời gian Kết nối">
-<!ENTITY netTimeout.longDesc "<p>Trang không phản hồi yêu cầu và trình duyệt đã ngừng chờ đợi trả lời.</p><ul><li>Có thể máy chủ đang bị nhiều truy xuất hoặc mất điện tạm thời? Hãy thử lại sau.</li><li>Bạn cũng không thể duyệt trang khác? Hãy kiểm tra kết nối mạng.</li><li>Máy tính hoặc mạng của bạn có được bảo vệ bởi tường lửa hoặc proxy?  Thiết lập sai có thể ảnh hưởng việc duyệt Web.</li><li>Vẫn gặp vấn đề? Hỏi ý quản trị mạng hoặc nhà cung cấp Internet của bạn để được trợ giúp.</li><li>Hoặc, có thể truy cập trình đơn 'Trợ giúp' ở trên để tìm hỗ trợ.</li></ul>">
+<!ENTITY netTimeout.title "Kết nối bị hết thời gian">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Giao thức Chưa biết">
-<!ENTITY protocolNotFound.longDesc "<p>Địa chỉ xác định một giao thức (vd. <q>wxyz://</q>) mà trình duyệt không nhận ra, nên trình duyệt không thể kết nối đúng tới trang web.</p><ul><li>Bạn có đang cố truy cập thông tin đa phương tiện hoặc các dịch vụ phi văn bản không? Hãy kiểm tra các yêu cầu bổ sung của trang web.</li><li>Một số giao thức có thể yêu cầu phần mềm hay phần bổ trợ của hãng thứ ba trước khi trình duyệt có thể nhận dạng chúng.</li></ul>">
+<!ENTITY protocolNotFound.title "Địa chỉ không thể hiểu được">
+<!ENTITY protocolNotFound.longDesc "<ul> 
+<li>Có lẽ bạn cần phải cài đặt phần mềm khác để mở địa chỉ này.</li> 
+</ul>">
 
-<!ENTITY proxyConnectFailure.title "Máy chủ Proxy Từ chối Kết nối">
-<!ENTITY proxyConnectFailure.longDesc "<p>Trình duyệt được cấu hình để dùng máy chủ proxy, nhưng proxy đã từ chối kết nối.</p><ul><li>Cấu hình proxy cho trình duyệt đã đúng chưa? Hãy kiểm tra thiết lập và thử lại.</li><li>Dịch vụ proxy có cho phép kết nối từ hệ thống mạng này?</li><li>Vẫn gặp vấn đề? Hỏi ý quản trị mạng hoặc nhà cung cấp Internet của bạn để được trợ giúp.</li></ul>">
+<!ENTITY proxyConnectFailure.title "Máy chủ proxy từ chối kết nối">
+<!ENTITY proxyConnectFailure.longDesc "<ul> 
+<li>Kiểm tra thiết lập proxy để chắc chắn rằng mọi thứ đều đúng.</li> 
+<li>Liên hệ với quản trị mạng của bạn để chắc chắn rằng máy chủ proxy vẫn đang hoạt động.</li> 
+</ul>">
 
-<!ENTITY proxyResolveFailure.title "Không tìm thấy Máy chủ Proxy">
-<!ENTITY proxyResolveFailure.longDesc "<p>Trình duyệt được cấu hình để dùng máy chủ proxy, nhưng proxy đã từ chối kết nối.</p><ul><li>Cấu hình proxy cho trình duyệt đã đúng chưa? Hãy kiểm tra thiết lập và thử lại.</li><li>Dịch vụ proxy có cho phép kết nối từ hệ thống mạng này?</li><li>Máy tính có kết nối vào một mạng đang hoạt động không?</li><li>Vẫn gặp vấn đề? Hỏi ý quản trị mạng hoặc nhà cung cấp Internet của bạn để được trợ giúp.</li></ul>">
+<!ENTITY proxyResolveFailure.title "Không thể tìm thấy máy chủ proxy">
+<!ENTITY proxyResolveFailure.longDesc "<ul> 
+<li>Kiểm tra thiết lập proxy để chắc chắn rằng mọi thứ đều đúng.</li> 
+<li>Kiểm tra để chắc rằng máy tính của bạn vẫn đang có kết nối mạng.</li> 
+<li>Nếu máy tính hoặc mạng của bạn được bảo vệ bởi tường lửa hoặc proxy, hãy chắc chắn rằng &brandShortName; được phép truy cập Web.</li> 
+</ul>">
 
-<!ENTITY redirectLoop.title "Vòng lặp khi Chuyển hướng">
-<!ENTITY redirectLoop.longDesc "<p>Trình duyệt đã ngưng lấy về mục được yêu cầu. Trang này đang chuyển hướng yêu cầu theo một cách mà sẽ không bao giờ hoàn tất.</p><ul><li>Có phải bạn vô hiệu hóa hoặc chặn các cookie mà trang này yêu cầu không?</li><li><em>CHÚ Ý</em>: Nếu việc chấp nhận cookie của trang không giải quyết được vấn đề, có vẻ như đây là vấn đề cấu hình máy chủ chứ không phải do máy bạn</li></ul>">
+<!ENTITY redirectLoop.title "Trang không chuyển hướng đúng">
+<!ENTITY redirectLoop.longDesc "<ul> 
+<li>Vấn đề này thỉnh thoảng có thể xảy ra do vô hiệu hóa hoặc từ chối cookie.</li> 
+</ul>">
 
-<!ENTITY unknownSocketType.title "Phản hồi Sai">
-<!ENTITY unknownSocketType.longDesc "<p>Trang phản hồi yêu cầu của mạng theo một cách không mong đợi và trình duyệt không thể tiếp tục.</p>">
+<!ENTITY unknownSocketType.title "Phản hồi không mong muốn từ máy chủ">
+<!ENTITY unknownSocketType.longDesc "<ul> 
+<li>Kiểm tra để chắc chắn rằng hệ thống của bạn có Trình quản lí Bảo mật Cá nhân.</li> 
+<li>Điều này có thể là do cấu hình không chuẩn trên máy chủ.</li> 
+</ul>">
 
 <!ENTITY nssFailure2.title "Kết nối An toàn bị Thất bại">
-<!ENTITY nssFailure2.longDesc "<p>Trang bạn đang cố xem không thể hiển thị vì không thể kiểm tra tính xác thực của dữ liệu được nhận.</p><ul><li>Vui lòng liên hệ chủ trang web để báo họ vấn đề này.</li></ul>">
+<!ENTITY nssFailure2.longDesc "<ul> 
+<li>Trang bạn đang xem không thể hiển thị vì không thể kiểm tra tính xác thực của dữ liệu được nhận.</li> 
+<li>Vui lòng liên hệ chủ trang web để báo họ vấn đề này. Hay cách khác là, dùng câu lệnh trong trình đơn trợ giúp để báo cáo về trang này.</li> 
+</ul>">
 
 <!ENTITY nssBadCert.title "Kết nối An toàn bị Thất bại">
 <!ENTITY nssBadCert.longDesc2 "<ul> 
 <li>Đây có thể là vấn đề ở phần cấu hình của máy chủ, hoặc có thể do ai đó đang cố mạo nhận là máy chủ.</li> 
-<li>Nếu bạn đã từng kết nối tới máy chủ này thành công trong quá khứ, lỗi này có thể chỉ là tạm thời, và bạn có thể thử lại sau.</li> 
+<li>Nếu bạn đã từng kết nối tới máy chủ này thành công trong quá khứ, lỗi này có thể chỉ là tạm thời, bạn có thể thử lại sau.</li> 
 </ul>">
 
 <!ENTITY malwareBlocked.title "Nghi ngờ Trang web Ác ý!">
@@ -80,17 +115,27 @@
 <!ENTITY phishingBlocked.longDesc "<p>Nhập bất kì thông tin nào vào trang này có thể dẫn đến việc bị trộm danh tính hoặc gặp các hình thức lừa đảo khác.</p><p>Những kiểu trang web giả mạo này được dùng trong các âm mưu lừa đảo - còn gọi là 'tấn công thả mồi giả' (phishing attack), trong đó chúng thường giả mạo thành các trang web và email mà bạn tin tưởng.</p>">
 
 <!ENTITY cspFrameAncestorBlocked.title "Bị chặn bởi Chính sách Bảo vệ Nội dung">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Trình duyệt bảo vệ trang này khỏi việc tải theo cách này bởi vì nó có một chính sách bảo mật nội dung không cho phép việc này.</p>">
+<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; không tải trang này vì nó có một chính sách bảo vệ nội dung không cho phép việc tải theo cách này.</p>">
+
+<!ENTITY xssBlockMode.title "Bị chặn bởi bộ lọc XSS">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+<li>&brandShortName; đã chặn các hoạt động về sau của trang này vì nó bị nhiễm mã  JavaScript đáng ngờ.</li>
+<li>Đã dừng tải trang này vì trang web đã yêu cầu chặn nó
+để phòng các cuộc tấn công XSS, hoặc vì &brandShortName;
+đã được cấu hình để chặn trang trong tình huống đó.</li>
+</ul>
+">
 
 <!ENTITY corruptedContentError.title "Lỗi Nội dung Hư">
 <!ENTITY corruptedContentError.longDesc "<p>Trang mà bạn đang cố xem không thể hiển thị được vì một lỗi trong truyền tải dữ liệu.</p><ul><li>Vui lòng liên hệ chủ trang web để báo họ về vấn đề này.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL từ xa">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Vui lòng liên hệ với chủ trang web để báo họ vấn đề này.</li></ul></p>">
+
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,
      this inclusion needs to be intact for that approach to work correctly.
      Please, try to keep this at the end of the file. -->
-
 <!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
 %netErrorAppDTD;
