@@ -5,7 +5,7 @@
 <!ENTITY  updateWizard.title              "Ενημέρωση &brandShortName;">
 
 <!ENTITY  offline.title                   "Ο &brandShortName; είναι σε λειτουργία χωρίς σύνδεση">
-<!ENTITY  offline.description             "Ο &brandShortName; χρειάζεται να συνδεθεί για να ελέγξει αν υπάρχουν διαθέσιμες ενημερώσεις για τα πρόσθετα σας και να τα κάνει συμβατά με αυτή την έκδοση.">
+<!ENTITY  offline.description             "Ο &brandShortName; χρειάζεται να συνδεθεί για να ελέγξει αν υπάρχουν διαθέσιμες ενημερώσεις για τα πρόσθετα σας ώστε να τα κάνει συμβατά με αυτή την έκδοση.">
 <!ENTITY  offline.toggleOffline.label     "Εργασία με σύνδεση τώρα">
 <!ENTITY  offline.toggleOffline.accesskey "γ">
 
@@ -15,7 +15,7 @@
                                         υπάρχουν διαθέσιμες συμβατές εκδόσεις αυτών των προσθέτων.">
 
 <!ENTITY  checking.wizard.title           "Γίνεται έλεγχος για συμβατά πρόσθετα">
-<!ENTITY  checking.top.label              "Γίνεται έλεγχος για ενημερώσεις συμβατότητας των πρόσθετων σας...">
+<!ENTITY  checking.top.label              "Γίνεται έλεγχος για ενημερώσεις των ασύμβατων προσθέτων σας...">
 <!ENTITY  checking.status                 "Αυτό μπορεί να διαρκέσει λίγα λεπτά...">
 
 <!ENTITY  found.wizard.title               "Βρέθηκαν συμβατά πρόσθετα">
@@ -30,18 +30,18 @@
 <!ENTITY  noupdates.wizard.title          "Δεν βρέθηκαν συμβατά πρόσθετα">
 <!ENTITY  noupdates.intro.desc            "Ο &brandShortName; δεν βρήκε ενημερώσεις για τα ασύμβατα πρόσθετα.">
 <!ENTITY  noupdates.error.desc            "Αντιμετωπίστηκαν ορισμένα προβλήματα κατά την προσπάθεια εύρεσης ενημερώσεων.">
-<!ENTITY  noupdates.checkEnabled.desc     "Ο &brandShortName; θα κάνει περιοδικό έλεγχο και θα σας ειδοποιεί όταν
+<!ENTITY  noupdates.checkEnabled.desc     "Ο &brandShortName; θα πραγματοποιεί περιοδικό έλεγχο και θα σας ειδοποιεί όταν
                                         υπάρχουν διαθέσιμες συμβατές εκδόσεις.">
 
 <!ENTITY  finished.wizard.title           "Εγκαταστάθηκαν συμβατά πρόσθετα">
 <!ENTITY  finished.top.label              "Ο &brandShortName; εγκατέστησε τις ενημερώσεις στα πρόσθετα σας">
-<!ENTITY  finished.checkDisabled.desc     "Ο &brandShortName; μπορεί να κάνει περιοδικό έλεγχο και να σας ειδοποιεί όταν
+<!ENTITY  finished.checkDisabled.desc     "Ο &brandShortName; μπορεί να πραγματοποιεί περιοδικό έλεγχο και να σας ειδοποιεί όταν
                                         υπάρχουν διαθέσιμες ενημερώσεις για τα πρόσθετα σας.">
-<!ENTITY  finished.checkEnabled.desc      "Ο &brandShortName; θα κάνει περιοδικό έλεγχο και θα σας ειδοποιεί όταν
+<!ENTITY  finished.checkEnabled.desc      "Ο &brandShortName; θα πραγματοποιεί περιοδικό έλεγχο και θα σας ειδοποιεί όταν
                                         υπάρχουν διαθέσιμες ενημερώσεις για τα πρόσθετα σας.">
 
 <!ENTITY  adminDisabled.wizard.title      "Αδυναμία έλεγχου για ενημερώσεις">
-<!ENTITY  adminDisabled.warning.label     "Δεν είναι δυνατή η ενημέρωση των ασύμβατων προσθέτων επειδή είναι απενεργοποιημένη η εγκατάσταση λογισμικού για τον &brandShortName;. Παρακαλώ επικοινωνήστε με τον διαχειριστή του συστήματος σας για βοήθεια.">
+<!ENTITY  adminDisabled.warning.label     "Δεν είναι δυνατή η ενημέρωση των ασύμβατων προσθέτων επειδή είναι απενεργοποιημένη η εγκατάσταση λογισμικού για τον &brandShortName;. Παρακαλώ επικοινωνήστε με τον διαχειριστή του συστήματός σας για βοήθεια.">
 
 <!ENTITY  versioninfo.wizard.title        "Γίνεται έλεγχος για συμβατά πρόσθετα">
 <!ENTITY  versioninfo.top.label           "Γίνεται έλεγχος για συμβατά πρόσθετα με αυτή την έκδοση του &brandShortName;.">
@@ -51,7 +51,6 @@
 <!ENTITY  installerrors.intro.label       "Ο &brandShortName; αντιμετώπισε προβλήματα κατά την ενημέρωση ορισμένων προσθέτων σας.">
 
 <!-- general strings used by several of the finish pages -->
-<!ENTITY  clickFinish.label               "Πατήστε τέλος για να συνεχίσετε με την εκκίνηση του &brandShortName;.">
-<!ENTITY  enableChecking.label            "Να επιτρέπεται στον &brandShortName; να ελέγχει για ενημερώσεις.">
-
+<!ENTITY  clickFinish.label               "Πατήστε Τέλος για να συνεχίσετε με την εκκίνηση του &brandShortName;.">
 <!ENTITY  clickFinish.labelMac            "Πατήστε Ολοκλήρωση για να συνεχίσετε με την εκκίνηση του &brandShortName;.">
+<!ENTITY  enableChecking.label            "Να επιτρέπεται στον &brandShortName; να ελέγχει για ενημερώσεις.">

@@ -6,10 +6,10 @@
      file, all messages that likely don't need to tie into app-specific UI
      should go into netError.dtd -->
 
-<!ENTITY securityOverride.linkText "Ή μπορείτε να προσθέσετε μια εξαίρεση…">
-
+<!ENTITY securityOverride.linkText "Ή μπορείτε να προσθέσετε μια εξαίρεση...">
 <!ENTITY securityOverride.warningContent "
-<p>Δεν πρέπει να προσθέσετε μια εξαίρεση αν χρησιμοποιείτε μια σύνδεση στο διαδίκτυο που δεν εμπιστεύεστε πλήρως, ή αν δεν έχετε ξαναδεί προειδοποίηση για αυτόν τον εξυπηρετητή.</p>
-<p>Αν ακόμα επιμένετε να προσθέσετε μια εξαίρεση για αυτή τη σελίδα, μπορείτε να το κάνετε στις προχωρημένες ρυθμίσεις κρυπτογράφησης.</p>
-">
+<p>Δεν πρέπει να προσθέσετε μια εξαίρεση αν χρησιμοποιείτε μια σύνδεση στο διαδίκτυο που δεν εμπιστεύεστε πλήρως ή αν δεν έχετε ξαναδεί προειδοποίηση για αυτόν τον εξυπηρετητή.</p>
 
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+">

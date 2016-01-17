@@ -4,29 +4,20 @@
 
 <!ENTITY restorepage.tabtitle       "Επαναφορά συνεδρίας">
 
+<!-- LOCALIZATION NOTE: The title is intended to be apologetic and disarming, expressing dismay
+     and regret that we are unable to restore the session for the user -->
 <!ENTITY restorepage.errorTitle     "Φαίνεται ότι κάτι δεν πάει καλά.">
-<!-- LOCALIZATION NOTE: If "closed unexpectedly" sounds too awkward in the translation,
-                        you may translate "crash" instead (even though it's IT-speak) -->
-
-<!ENTITY restorepage.problemDesc    "Ο &brandShortName; δεν μπορεί να ανακτήσει τα παράθυρα και τις καρτέλες σας. Αυτό συνήθως συμβαίνει λόγω του ανοίγματος μιας πρόσφατης σελίδας.">
-
-
+<!ENTITY restorepage.problemDesc    "Ο &brandShortName; δεν μπορεί να ανακτήσει τα παράθυρα και τις καρτέλες σας. Αυτό συνήθως συμβαίνει εξαιτίας μιας σελίδας που ανοίξατε πρόσφατα.">
 <!ENTITY restorepage.tryThis        "Προσπαθήστε να:">
 <!ENTITY restorepage.restoreSome    "Απομακρύνετε μια ή περισσότερες καρτέλες που νομίζετε ότι δημιουργούν το πρόβλημα">
 <!ENTITY restorepage.startNew       "Ξεκινήστε μια νέα συνεδρία">
 
-
-
 <!ENTITY restorepage.tryagainButton "Επαναφορά">
-
 <!ENTITY restorepage.restore.access "ρ">
-
 <!ENTITY restorepage.closeButton    "Κλείσιμο">
 <!ENTITY restorepage.close.access   "Κ">
-
 
 <!ENTITY restorepage.restoreHeader  "Επαναφορά">
 <!ENTITY restorepage.listHeader     "Παραθύρων και καρτελών">
 <!-- LOCALIZATION NOTE: &#37;S will be replaced with a number. -->
 <!ENTITY restorepage.windowLabel    "Παραθύρου &#37;S">
-

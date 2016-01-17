@@ -7,8 +7,7 @@
 <!ENTITY setupButton.accesskey      "θ">
 <!ENTITY weaveDesc.label            "Με το &syncBrand.fullName.label; μπορείτε να έχετε πρόσβαση στο ιστορικό, τους σελιδοδείκτες, τους κωδικούς και τις ανοικτές καρτέλες σας, μέσω όλων των συσκευών σας.">
 
-
-
+<!-- The page shown when logged in... -->
 
 <!-- Login error feedback -->
 <!ENTITY updatePass.label             "Ενημέρωση">
@@ -17,45 +16,32 @@
 <!-- Manage Account -->
 <!ENTITY manageAccount.label          "Διαχείριση λογαριασμού">
 <!ENTITY manageAccount.accesskey      "χ">
+<!ENTITY viewQuota.label              "Προβολή ορίων">
+<!ENTITY changePassword2.label        "Αλλαγή κωδικού…">
+<!ENTITY myRecoveryKey.label          "Το κλειδί ανάκτησής μου">
+<!ENTITY resetSync2.label             "Επαναφορά συγχρονισμού…">
+
 <!ENTITY pairDevice.label             "Σύνδεση μιας συσκευής">
 
-<!ENTITY changePassword2.label         "Αλλαγή κωδικού…">
-<!ENTITY resetSync2.label              "Επαναφορά Sync…">
-<!ENTITY unlinkDevice.label           "Αποσύνδεση αυτής της συσκευής">
-
-<!-- Sync Settings -->
-
-<!ENTITY syncDeviceName.label       "Όνομα συσκευής:">
-
-<!ENTITY syncDeviceName.accesskey   "υ">
-
-
-
-<!-- Footer stuff -->
-<!ENTITY prefs.tosLink.label        "Όροι υπηρεσίας">
-<!ENTITY prefs.ppLink.label         "Πολιτική απορρήτου">
-
+<!ENTITY syncMy.label               "Συγχρονισμός σε">
 <!ENTITY engine.bookmarks.label     "Σελιδοδείκτες">
-<!ENTITY engine.bookmarks.accesskey "δ">
-
-<!ENTITY engine.history.label       "Ιστορικό">
-<!ENTITY engine.history.accesskey   "ρ">
-
-<!ENTITY engine.passwords.label     "Κωδικοί">
-<!ENTITY engine.passwords.accesskey "δ">
-
-<!ENTITY engine.prefs.label         "Προτιμήσεις">
-<!ENTITY engine.prefs.accesskey     "ρ">
-
+<!ENTITY engine.bookmarks.accesskey "λ">
 <!ENTITY engine.tabs.label          "Καρτέλες">
 <!ENTITY engine.tabs.accesskey      "τ">
+<!ENTITY engine.history.label       "Ιστορικό">
+<!ENTITY engine.history.accesskey   "ρ">
+<!ENTITY engine.passwords.label     "Κωδικούς">
+<!ENTITY engine.passwords.accesskey "δ">
+<!ENTITY engine.prefs.label         "Προτιμήσεις">
+<!ENTITY engine.prefs.accesskey     "Π">
 <!ENTITY engine.addons.label        "Πρόσθετα">
 <!ENTITY engine.addons.accesskey    "θ">
 
-<!ENTITY syncMy.label               "Συγχρονισμός σε">
+<!-- Device Settings -->
+<!ENTITY syncDeviceName.label       "Όνομα συσκευής:">
+<!ENTITY syncDeviceName.accesskey   "υ">
+<!ENTITY unlinkDevice.label           "Αποσύνδεση αυτής της συσκευής">
 
-
-<!ENTITY myRecoveryKey.label           "Το κλειδί ανάκτησης">
-
-<!ENTITY viewQuota.label              "Προβολή ορίων">
-
+<!-- Footer stuff -->
+<!ENTITY prefs.tosLink.label        "Όροι Χρήσης">
+<!ENTITY prefs.ppLink.label         "Πολιτική Απορρήτου">

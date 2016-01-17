@@ -11,28 +11,28 @@
 <!ENTITY window.title "Web Console">
 <!ENTITY browserConsole.title "Browser Console">
 
-<!ENTITY networkPanel.requestURLColon             "Request URL:">
-<!ENTITY networkPanel.requestMethodColon          "Request Method:">
-<!ENTITY networkPanel.statusCodeColon             "Status Code:">
+<!ENTITY networkPanel.requestURLColon             "Αίτηση URL:">
+<!ENTITY networkPanel.requestMethodColon          "Αίτηση μεθόδου:">
+<!ENTITY networkPanel.statusCodeColon             "Κωδικός κατάστασης:">
 
-<!ENTITY networkPanel.requestHeaders              "Request Headers">
-<!ENTITY networkPanel.requestCookie               "Sent Cookie">
-<!ENTITY networkPanel.requestBody                 "Request Body">
-<!ENTITY networkPanel.requestFormData             "Sent Form Data">
+<!ENTITY networkPanel.requestHeaders              "Αίτηση κεφαλίδων">
+<!ENTITY networkPanel.requestCookie               "Αποστολή Cookie">
+<!ENTITY networkPanel.requestBody                 "Αίτηση σώματος">
+<!ENTITY networkPanel.requestFormData             "Αποστολή δεδομένων φόρμας">
 
-<!ENTITY networkPanel.responseHeaders             "Response Headers">
-<!ENTITY networkPanel.responseCookie              "Received Cookie">
-<!ENTITY networkPanel.responseBody                "Response Body">
-<!ENTITY networkPanel.responseBodyCached          "Cached Data">
-<!ENTITY networkPanel.responseBodyUnknownType     "Unknown Content Type">
-<!ENTITY networkPanel.responseNoBody              "No Response Body">
-<!ENTITY networkPanel.responseImage               "Received Image">
-<!ENTITY networkPanel.responseImageCached         "Cached Image">
+<!ENTITY networkPanel.responseHeaders             "Κεφαλίδες απόκρισης">
+<!ENTITY networkPanel.responseCookie              "Ληφθέν Cookie">
+<!ENTITY networkPanel.responseBody                "Σώμα απόκρισης">
+<!ENTITY networkPanel.responseBodyCached          "Cached δεδομένα">
+<!ENTITY networkPanel.responseBodyUnknownType     "Άγνωστος τύπος περιεχομένων">
+<!ENTITY networkPanel.responseNoBody              "Κανένα σώμα απόκρισης">
+<!ENTITY networkPanel.responseImage               "Ληφθείσα εικόνα">
+<!ENTITY networkPanel.responseImageCached         "Cached εικόνα">
 
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in the Web
    - Console context menu. -->
-<!ENTITY saveBodies.label     "Log Request and Response Bodies">
-<!ENTITY saveBodies.accesskey "L">
+<!ENTITY saveBodies.label     "Αίτηση αρχείου καταγραφής και σώματα απόκρισης">
+<!ENTITY saveBodies.accesskey "Α">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
    - Console context menu. -->
@@ -43,12 +43,24 @@
   -  button that allows users to toggle the network logging output.
   -  This string and the following strings toggle various kinds of output
   -  filters. -->
-<!ENTITY btnPageNet.label   "Net">
-<!ENTITY btnPageNet.tooltip "Log network access">
+<!ENTITY btnPageNet.label   "Δίκτυο">
+<!ENTITY btnPageNet.tooltip "Καταγραφή πρόσβασης δικτύου">
+<!ENTITY btnPageNet.accesskey "N">
+<!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
+  -  access key for the menu button that allows users to toggle the network
+  -  logging output. On MacOSX accesskeys are available with Ctrl-*. Please make
+  -  sure you do not use the following letters: A, E, N and P. These are used
+  -  for editing commands in text inputs. -->
+<!ENTITY btnPageNet.accesskeyMacOSX "t">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.tooltip "Log CSS parsing errors">
+<!ENTITY btnPageCSS.tooltip "Καταγραφή σφαλμάτων στην ανάλυση CSS">
+<!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
-<!ENTITY btnPageJS.tooltip  "Log JavaScript exceptions">
+<!ENTITY btnPageJS.tooltip  "Καταγραφή εξαιρέσεων JavaScript">
+<!ENTITY btnPageJS.accesskey  "J">
+<!ENTITY btnPageSecurity.label "Ασφάλεια">
+<!ENTITY btnPageSecurity.tooltip "Καταγραφή σφαλμάτων ασφαλείας και προειδοποιήσεων">
+<!ENTITY btnPageSecurity.accesskey "S">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
@@ -56,18 +68,16 @@
   -  console.error(). -->
 <!ENTITY btnPageLogging.label   "Καταγραφή">
 <!ENTITY btnPageLogging.tooltip "Καταγραφή μηνυμάτων στο window.console object">
+<!ENTITY btnPageLogging.accesskey "L">
 <!ENTITY btnConsoleErrors       "Σφάλματα">
 <!ENTITY btnConsoleInfo         "Πληροφορίες">
 <!ENTITY btnConsoleWarnings     "Προειδοποιήσεις">
-<!ENTITY btnConsoleLog          "Log">
-<!ENTITY btnPageSecurity.label "Ασφάλεια">
-<!ENTITY btnPageSecurity.tooltip "Καταγραφή σφαλμάτων ασφαλείας και προειδοποιήσεων">
+<!ENTITY btnConsoleLog          "Καταγραφή">
 
-
-<!ENTITY filterOutput.placeholder "Filter output">
+<!ENTITY filterOutput.placeholder "Έξοδος φίλτρου">
 <!ENTITY btnClear.label        "Εκκαθάριση">
-<!ENTITY btnClear.tooltip      "Εκκαθάριση των αποτελεσμάτων της Web Console">
-
+<!ENTITY btnClear.tooltip      "Εκκαθάριση των αποτελεσμάτων της Κονσόλας Web">
+<!ENTITY btnClear.accesskey    "r">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
@@ -81,19 +91,7 @@
 
 <!ENTITY copyURLCmd.label     "Αντιγραφή τοποθεσίας δεσμού">
 <!ENTITY copyURLCmd.accesskey "π">
-<!ENTITY closeCmd.key  "W">
 
-<!ENTITY btnClear.accesskey    "r">
-<!ENTITY btnPageCSS.accesskey "C">
-<!ENTITY btnPageJS.accesskey  "J">
-<!ENTITY btnPageLogging.accesskey "L">
-<!ENTITY btnPageNet.accesskey "N">
-<!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
-  -  access key for the menu button that allows users to toggle the network
-  -  logging output. On MacOSX accesskeys are available with Ctrl-*. Please make
-  -  sure you do not use the following letters: A, E, N and P. These are used
-  -  for editing commands in text inputs. -->
-<!ENTITY btnPageNet.accesskeyMacOSX "t">
-<!ENTITY btnPageSecurity.accesskey "S">
-<!ENTITY clearOutputCmd.key   "K">
+<!ENTITY closeCmd.key         "W">
 <!ENTITY findCmd.key          "F">
+<!ENTITY clearOutputCmd.key   "K">

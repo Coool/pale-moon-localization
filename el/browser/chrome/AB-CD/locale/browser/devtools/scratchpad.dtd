@@ -5,6 +5,12 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the Scratchpad window strings -->
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
+<!-- LOCALIZATION NOTE : FILE The correct localization of this file might be to
+  - keep it in English, or another language commonly spoken among web developers.
+  - You want to make that choice consistent across the developer tools.
+  - A good criteria is the language in which you'd find the best
+  - documentation on web development on the web. -->
+
 <!-- LOCALIZATION NOTE (scratchpad.title):
   -  The Scratchpad is intended to provide a simple text editor for creating
   -  and evaluating bits of JavaScript code for the purposes of function
@@ -23,9 +29,15 @@
 <!ENTITY newWindowCmd.accesskey       "Ν">
 <!ENTITY newWindowCmd.commandkey      "n">
 
-<!ENTITY openFileCmd.label            "Άνοιγμα αρχείου…">
-<!ENTITY openFileCmd.accesskey        "ο">
+<!ENTITY openFileCmd.label            "Άνοιγμα αρχείου...">
+<!ENTITY openFileCmd.accesskey        "ν">
 <!ENTITY openFileCmd.commandkey       "o">
+
+<!ENTITY openRecentMenu.label         "Άνοιγμα πρόσφατου">
+<!ENTITY openRecentMenu.accesskey     "φ">
+
+<!ENTITY revertCmd.label              "Επαναφορά…">
+<!ENTITY revertCmd.accesskey          "ρ">
 
 <!ENTITY saveFileCmd.label            "Αποθήκευση">
 <!ENTITY saveFileCmd.accesskey        "σ">
@@ -35,12 +47,11 @@
 <!ENTITY saveFileAsCmd.accesskey      "ω">
 
 <!ENTITY closeCmd.label               "Κλείσιμο">
-<!ENTITY closeCmd.key                 "Κ">
-<!ENTITY closeCmd.accesskey           "C">
+<!ENTITY closeCmd.key                 "W">
+<!ENTITY closeCmd.accesskey           "Κ">
 
 <!ENTITY editMenu.label               "Επεξεργασία">
 <!ENTITY editMenu.accesskey           "Ε">
-
 
 <!ENTITY run.label                    "Εκτέλεση">
 <!ENTITY run.accesskey                "λ">
@@ -60,11 +71,11 @@
   -  the user is evaluating against. I.e., Content (current tab) or Chrome
   -  (browser).
   -->
-<!ENTITY environmentMenu.label        "Environment">
+<!ENTITY environmentMenu.label        "Περιβάλλον">
 <!ENTITY environmentMenu.accesskey    "N">
 
 
-<!ENTITY contentContext.label         "Content">
+<!ENTITY contentContext.label         "Περιεχόμενο">
 <!ENTITY contentContext.accesskey     "C">
 
 <!-- LOCALIZATION NOTE (browserContext.label, accesskey): This menu item is used
@@ -73,14 +84,30 @@
   -  enabled via the devtools.chrome.enabled preference. Formerly, this label
   -  was called "Chrome".
   -->
-<!ENTITY browserContext.label         "Browser">
-<!ENTITY browserContext.accesskey     "B">
+<!ENTITY browserContext.label         "Περιηγητής">
+<!ENTITY browserContext.accesskey     "Π">
+
+<!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
+  -  for the help button in the menubar but Gnome does not.
+  -->
+<!ENTITY helpMenu.label               "Βοήθεια">
+<!ENTITY helpMenu.accesskey           "Β">
+<!ENTITY helpMenuWin.label            "Βοήθεια">
+<!ENTITY helpMenuWin.accesskey        "Β">
+
+<!ENTITY documentationLink.label      "Βοήθεια για το Scratchpad στο MDN">
+<!ENTITY documentationLink.accesskey  "D">
+
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
 <!ENTITY resetContext2.label          "Εκκαθάριση μεταβλητών">
 <!ENTITY resetContext2.accesskey      "θ">
+
+<!ENTITY reloadAndRun.label           "Επαναφόρτωση και εκτέλεση">
+<!ENTITY reloadAndRun.accesskey       "φ">
+<!ENTITY reloadAndRun.key             "r">
 
 <!ENTITY executeMenu.label            "Εκτέλεση">
 <!ENTITY executeMenu.accesskey        "τ">
@@ -90,34 +117,3 @@
   -  the same name in browser.dtd.
   -->
 <!ENTITY errorConsoleCmd.commandkey   "j">
-
-<!-- LOCALIZATION NOTE (webConsoleCmd.commandkey): This command key launches
-  -  the browser WebConsole, the key should be identical to the property of
-  -  the same name in browser.dtd.
-  -->
-
-
-<!ENTITY documentationLink.label      "Βοήθεια για το Scratchpad στο MDN">
-<!ENTITY documentationLink.accesskey  "D">
-
-<!ENTITY openRecentMenu.label         "Άνοιγμα πρόσφατου">
-
-<!ENTITY openRecentMenu.accesskey     "φ">
-
-
-<!ENTITY reloadAndRun.label           "Επαναφόρτωση και εκτέλεση">
-<!ENTITY reloadAndRun.accesskey       "φ">
-<!ENTITY reloadAndRun.key             "r">
-
-
-<!ENTITY revertCmd.label              "Επαναφορά…">
-<!ENTITY revertCmd.accesskey          "ρ">
-
-
-<!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
-  -  for the help button in the menubar but Gnome does not.
-  -->
-<!ENTITY helpMenu.label               "Βοήθεια">
-<!ENTITY helpMenu.accesskey           "Β">
-<!ENTITY helpMenuWin.label            "Βοήθεια">
-<!ENTITY helpMenuWin.accesskey        "Β">
