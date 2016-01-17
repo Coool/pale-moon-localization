@@ -7,8 +7,8 @@
 
 <!ENTITY loadError.label "Sayfa yüklenirken hata oluştu">
 <!ENTITY retry.label "Yeniden Dene">
-<!-- Specific error messages -->
 
+<!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Bağlanma girişimi başarısız">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
@@ -136,6 +136,17 @@ korunuyorsa, &brandShortName; uygulamasına internete erişmek için gerekli izi
 <!ENTITY cspFrameAncestorBlocked.title "İçerik güvenlik politikası uyarınca engellendi">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; bu sayfanın bu şekilde yüklenmesini önledi, çünkü sayfanın buna izin vermeyen bir içerik güvenlik politikası var.</p>">
 
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "Hasarlı İçerik Hatası">
 <!ENTITY corruptedContentError.longDesc "<p>Veri aktarımında bir hata tespit edildiği için bakmak istediğiniz sayfa gösterilemiyor.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
 
@@ -143,11 +154,11 @@ korunuyorsa, &brandShortName; uygulamasına internete erişmek için gerekli izi
 <!ENTITY securityOverride.linkText "İsterseniz ayrıcalık tanıyın…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Beni buradan kurtar!">
 <!ENTITY securityOverride.exceptionButtonLabel "Ayrıcalık tanı…">
+
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
 button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
-
 
 <!ENTITY securityOverride.warningContent "<p>Tamamen güvenmediğiniz bir internet bağlantısı kullanıyorsanız veya bu sunucudan uyarı almaya alışkın değilseniz ayrıcalık tanımamalısınız.</p> 
  

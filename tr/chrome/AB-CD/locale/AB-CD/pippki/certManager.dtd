@@ -1,104 +1,114 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
--->
-<!ENTITY certmgr.title "Sertifika Yöneticisi">
-<!ENTITY certmgr.tab.mine "Sertifikalarınız">
-<!ENTITY certmgr.tab.others2 "İnsanlar">
-<!ENTITY certmgr.tab.websites3 "Sunucular">
-<!ENTITY certmgr.tab.ca "Yetkililer">
-<!ENTITY certmgr.tab.orphan2 "Diğerleri">
-<!ENTITY certmgr.ca.builtins "Yerleşik Sertifika Yetkilileri">
-<!ENTITY certmgr.ca.mycas "Tarafınızdan yönetilen Sertifika Yetkilileri">
-<!ENTITY certmgr.mine "Sizi tanımlayan şu kuruluşlardan sertifikalarınız var:">
-<!ENTITY certmgr.others "Şu insanları tanımlayan dosyada sertifikalarınız var:">
-<!ENTITY certmgr.websites2 "Şu sunucuları tanımlayan dosyada sertifikalarınız var:">
-<!ENTITY certmgr.cas "Şu sertifika yetkililerini tanımlayan dosyada sertifikalarınız var:">
-<!ENTITY certmgr.orphans "Diğer kategorilerden hiçbirine uymayan dosyada sertifikalarınız var:">
-<!ENTITY certmgr.detail.general_tab.title "Genel">
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY certmgr.title                       "Sertifika Yöneticisi">
+
+<!ENTITY certmgr.tab.mine                     "Sertifikalarınız">
+<!ENTITY certmgr.tab.others2                  "İnsanlar">
+<!ENTITY certmgr.tab.websites3                "Sunucular">
+<!ENTITY certmgr.tab.ca                       "Yetkililer">
+<!ENTITY certmgr.tab.orphan2                  "Diğerleri">
+
+<!ENTITY certmgr.ca.builtins                  "Yerleşik Sertifika Yetkilileri">
+<!ENTITY certmgr.ca.mycas                     "Tarafınızdan yönetilen Sertifika Yetkilileri">
+
+<!ENTITY certmgr.mine                         "Sizi tanımlayan şu kuruluşlardan sertifikalarınız var:">
+<!ENTITY certmgr.others                       "Şu insanları tanımlayan dosyada sertifikalarınız var:">
+<!ENTITY certmgr.websites2                    "Şu sunucuları tanımlayan dosyada sertifikalarınız var:">
+<!ENTITY certmgr.cas                          "Şu sertifika yetkililerini tanımlayan dosyada sertifikalarınız var:">
+<!ENTITY certmgr.orphans                      "Diğer kategorilerden hiçbirine uymayan dosyada sertifikalarınız var:">
+
+<!ENTITY certmgr.detail.general_tab.title     "Genel">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
 <!ENTITY certmgr.detail.prettyprint_tab.title "Ayrıntılar">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "A">
-<!ENTITY certmgr.pending.label "Şu an sertifika doğrulanıyor...">
-<!ENTITY certmgr.subjectinfo.label "Verilen">
-<!ENTITY certmgr.issuerinfo.label "Veren">
-<!ENTITY certmgr.validity.label "Geçerlilik">
-<!ENTITY certmgr.fingerprints.label "Parmak izleri">
-<!ENTITY certmgr.certdetail.title "Sertifika Ayrıntısı">
-<!ENTITY certmgr.certdetail.cn "Genel Adı (CN)">
-<!ENTITY certmgr.certdetail.o "Organizasyon (O)">
-<!ENTITY certmgr.certdetail.ou "Organizasyon Birimi (OU)">
-<!ENTITY certmgr.certdetail.serialnumber "Seri Numarası">
+
+<!ENTITY certmgr.pending.label                "Şu an sertifika doğrulanıyor...">
+<!ENTITY certmgr.subjectinfo.label            "Verilen">
+<!ENTITY certmgr.issuerinfo.label             "Veren">
+<!ENTITY certmgr.validity.label               "Geçerlilik" >
+<!ENTITY certmgr.fingerprints.label           "Parmak izleri">
+<!ENTITY certmgr.certdetail.title             "Sertifika Ayrıntısı">
+<!ENTITY certmgr.certdetail.cn                "Genel Adı (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organizasyon (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizasyon Birimi (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Seri Numarası">
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Parmak izi">
-<!ENTITY certmgr.certdetail.sha1fingerprint "SHA1 Parmak izi">
-<!ENTITY certmgr.editcert.title "Güvenlik Sertifikası Ayarlarını Düzenle">
-<!ENTITY certmgr.editcacert.title "CA sertifika güven ayarlarını düzenle">
-<!ENTITY certmgr.editsslcert.title "Web site sertifika güven ayarlarını düzenle">
-<!ENTITY certmgr.editcert.edittrust "Güven ayarlarını düzenle:">
-<!ENTITY certmgr.editcert.trustssl "Bu sertifika, web sitelerini tanımlayabilir.">
-<!ENTITY certmgr.editcert.trustemail "Bu sertifika, posta kullanıcılarını tanımlayabilir.">
-<!ENTITY certmgr.editcert.trustobjsign "Bu sertifika, program yapımcılarını tanımlayabilir.">
-<!ENTITY certmgr.editsslcert.edittrust "Sertifika güven ayarlarını düzenle:">
-<!ENTITY certmgr.editsslcert.dotrust "Bu sertifikanın gerçekliğine güven.">
-<!ENTITY certmgr.editsslcert.donttrust "Bu sertifikanın gerçekliğine güvenme.">
-<!ENTITY certmgr.editemailcert.title "E-posta sertifika güven ayarlarını düzenle">
-<!ENTITY certmgr.editemailcert.edittrust "Sertifika güven ayarlarını düzenle:">
-<!ENTITY certmgr.editemailcert.dotrust "Bu sertifikanın gerçekliğine güven.">
-<!ENTITY certmgr.editemailcert.donttrust "Bu sertifikanın gerçekliğine güvenme.">
-<!ENTITY certmgr.deletecert.title "Sertifikayı Sil">
-<!ENTITY certmgr.deletecert.beforename "Bu sertifikanın silinmesini istediniz:">
-<!ENTITY certmgr.deletecert.aftername "Bu sertifikayı silmek istediğinizden emin misiniz?">
-<!ENTITY certmgr.deleteusercert.title "Sertifikanızı Silin">
-<!ENTITY certmgr.deleteusercert.beforename "Sertifikanın silinmesini istediniz:">
-<!ENTITY certmgr.deleteusercert.aftername "Bu sertifikayı sildikten sonra, onunla şifrelenmiş olan postaları okuyamayacaksınız.">
-<!ENTITY certmgr.certname "Sertifika Adı">
-<!ENTITY certmgr.certserver "sunucu">
-<!ENTITY certmgr.override_lifetime "Ömür boyu">
-<!ENTITY certmgr.tokenname "Güvenlik Cihazı">
-<!ENTITY certmgr.issued "Issued On">
-<!ENTITY certmgr.expires "Son kullanma tarihi">
-<!ENTITY certmgr.email "Eposta Adresi">
-<!ENTITY certmgr.serial "Seri Numarası">
-<!ENTITY certmgr.close.label "Kapat">
-<!ENTITY certmgr.close.accesskey "K">
-<!ENTITY certmgr.view2.label "Görüntüle...">
-<!ENTITY certmgr.view2.accesskey "G">
-<!ENTITY certmgr.edit3.label "Güveni Düzenle...">
-<!ENTITY certmgr.edit3.accesskey "D">
-<!ENTITY certmgr.editca.label "CA Güveni Düzenle">
-<!ENTITY certmgr.editca.accesskey "d">
-<!ENTITY certmgr.add.label "Ekle">
-<!ENTITY certmgr.add.accesskey "E">
-<!ENTITY certmgr.export.label "Dışa aktar">
-<!ENTITY certmgr.export.accesskey "x">
-<!ENTITY certmgr.delete2.label "Sil...">
-<!ENTITY certmgr.delete2.accesskey "S">
-<!ENTITY certmgr.delete_builtin.label "Sil veya Güvenme">
-<!ENTITY certmgr.delete_builtin.accesskey "S">
-<!ENTITY certmgr.backup2.label "Yedekle...">
-<!ENTITY certmgr.backup2.accesskey "Y">
-<!ENTITY certmgr.backupall2.label "hepsini Yedekle...">
-<!ENTITY certmgr.backupall2.accesskey "k">
-<!ENTITY certmgr.restore2.label "İçe aktar...">
-<!ENTITY certmgr.restore2.accesskey "m">
-<!ENTITY certmgr.details.label "Sertifika Alanları">
-<!ENTITY certmgr.details.accesskey "A">
-<!ENTITY certmgr.fields.label "Alan Değeri">
-<!ENTITY certmgr.fields.accesskey "A">
-<!ENTITY certmgr.hierarchy.label "Sertifika Hiyerarşisi">
-<!ENTITY certmgr.hierarchy.accesskey "S">
-<!ENTITY certmgr.addException.label "İstisna Ekle...">
-<!ENTITY certmgr.addException.accesskey "x">
-<!ENTITY exceptionMgr.title "Güvenlik İstisnası Ekle">
-<!ENTITY exceptionMgr.exceptionButton.label "Güvenlik İstisnasını Onayla">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Parmak izi">
+
+<!ENTITY certmgr.editcert.title               "Güvenlik Sertifikası Ayarlarını Düzenle">
+<!ENTITY certmgr.editcacert.title             "CA sertifika güven ayarlarını düzenle">
+<!ENTITY certmgr.editsslcert.title            "Web site sertifika güven ayarlarını düzenle">
+<!ENTITY certmgr.editcert.edittrust           "Güven ayarlarını düzenle:">
+<!ENTITY certmgr.editcert.trustssl            "Bu sertifika, web sitelerini tanımlayabilir.">
+<!ENTITY certmgr.editcert.trustemail          "Bu sertifika, posta kullanıcılarını tanımlayabilir.">
+<!ENTITY certmgr.editcert.trustobjsign        "Bu sertifika, program yapımcılarını tanımlayabilir.">
+<!ENTITY certmgr.editsslcert.edittrust        "Sertifika güven ayarlarını düzenle:">
+<!ENTITY certmgr.editsslcert.dotrust          "Bu sertifikanın gerçekliğine güven.">
+<!ENTITY certmgr.editsslcert.donttrust        "Bu sertifikanın gerçekliğine güvenme.">
+<!ENTITY certmgr.editemailcert.title          "E-posta sertifika güven ayarlarını düzenle">
+<!ENTITY certmgr.editemailcert.edittrust      "Sertifika güven ayarlarını düzenle:">
+<!ENTITY certmgr.editemailcert.dotrust        "Bu sertifikanın gerçekliğine güven.">
+<!ENTITY certmgr.editemailcert.donttrust      "Bu sertifikanın gerçekliğine güvenme.">
+
+<!ENTITY certmgr.deletecert.title             "Sertifikayı Sil">
+<!ENTITY certmgr.deletecert.beforename        "Bu sertifikanın silinmesini istediniz:">
+<!ENTITY certmgr.deletecert.aftername         "Bu sertifikayı silmek istediğinizden emin misiniz?">
+<!ENTITY certmgr.deleteusercert.title         "Sertifikanızı Silin">
+<!ENTITY certmgr.deleteusercert.beforename    "Sertifikanın silinmesini istediniz:">
+<!ENTITY certmgr.deleteusercert.aftername     "Bu sertifikayı sildikten sonra, onunla şifrelenmiş olan postaları okuyamayacaksınız.">
+
+<!ENTITY certmgr.certname                     "Sertifika Adı">
+<!ENTITY certmgr.certserver                   "sunucu">
+<!ENTITY certmgr.override_lifetime            "Ömür boyu">
+<!ENTITY certmgr.tokenname                    "Güvenlik Cihazı">
+<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.expires                      "Son kullanma tarihi">
+<!ENTITY certmgr.email                        "Eposta Adresi">
+<!ENTITY certmgr.serial                       "Seri Numarası">
+
+<!ENTITY certmgr.close.label                  "Kapat">
+<!ENTITY certmgr.close.accesskey              "K">
+<!ENTITY certmgr.view2.label                  "Görüntüle...">
+<!ENTITY certmgr.view2.accesskey              "G">
+<!ENTITY certmgr.edit3.label                  "Güveni Düzenle...">
+<!ENTITY certmgr.edit3.accesskey              "D">
+<!ENTITY certmgr.editca.label                 "CA Güveni Düzenle">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label                    "Ekle">
+<!ENTITY certmgr.add.accesskey                "E">
+<!ENTITY certmgr.export.label                 "Dışa aktar">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Sil...">
+<!ENTITY certmgr.delete2.accesskey            "S">
+<!ENTITY certmgr.delete_builtin.label         "Sil veya Güvenme">
+<!ENTITY certmgr.delete_builtin.accesskey     "S">
+<!ENTITY certmgr.backup2.label                "Yedekle...">
+<!ENTITY certmgr.backup2.accesskey            "Y">
+<!ENTITY certmgr.backupall2.label             "hepsini Yedekle...">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "İçe aktar...">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "Sertifika Alanları">
+<!ENTITY certmgr.details.accesskey            "A">
+<!ENTITY certmgr.fields.label                 "Alan Değeri">
+<!ENTITY certmgr.fields.accesskey             "A">
+<!ENTITY certmgr.hierarchy.label              "Sertifika Hiyerarşisi">
+<!ENTITY certmgr.hierarchy.accesskey          "S">
+<!ENTITY certmgr.addException.label           "İstisna Ekle...">
+<!ENTITY certmgr.addException.accesskey       "x">
+
+<!ENTITY exceptionMgr.title                   "Güvenlik İstisnası Ekle">
+<!ENTITY exceptionMgr.exceptionButton.label   "Güvenlik İstisnasını Onayla">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "G">
-<!ENTITY exceptionMgr.supplementalWarning "Yasal bankalar, mağazalar ve diğer kamu siteleri sizden bunu yapmanızı istemez.">
-<!ENTITY exceptionMgr.certlocation.caption2 "Sunucu">
-<!ENTITY exceptionMgr.certlocation.url "Konum:">
-<!ENTITY exceptionMgr.certlocation.download "Sertifika Al">
-<!ENTITY exceptionMgr.certlocation.accesskey "A">
-<!ENTITY exceptionMgr.certstatus.caption "Sertifika Durumu">
-<!ENTITY exceptionMgr.certstatus.viewCert "Görüntüle...">
-<!ENTITY exceptionMgr.certstatus.accesskey "G">
-<!ENTITY exceptionMgr.permanent.label "Bu istisnayı kalıcı olarak sakla">
-<!ENTITY exceptionMgr.permanent.accesskey "K">
+<!ENTITY exceptionMgr.supplementalWarning     "Yasal bankalar, mağazalar ve diğer kamu siteleri sizden bunu yapmanızı istemez.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Sunucu">
+<!ENTITY exceptionMgr.certlocation.url        "Konum:">
+<!ENTITY exceptionMgr.certlocation.download   "Sertifika Al">
+<!ENTITY exceptionMgr.certlocation.accesskey  "A">
+<!ENTITY exceptionMgr.certstatus.caption      "Sertifika Durumu">
+<!ENTITY exceptionMgr.certstatus.viewCert     "Görüntüle...">
+<!ENTITY exceptionMgr.certstatus.accesskey    "G">
+<!ENTITY exceptionMgr.permanent.label         "Bu istisnayı kalıcı olarak sakla">
+<!ENTITY exceptionMgr.permanent.accesskey     "K">

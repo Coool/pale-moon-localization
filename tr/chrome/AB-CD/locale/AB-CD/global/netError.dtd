@@ -2,75 +2,114 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Sayfa yükleme hatası">
+<!ENTITY loadError.label "Sayfa yüklenirken hata oluştu">
 <!ENTITY retry.label "Yeniden Dene">
+
 <!-- Specific error messages -->
 
-
 <!ENTITY connectionFailure.title "Bağlanma girişimi başarısız">
-<!ENTITY connectionFailure.longDesc "<p>Açmak istediğiniz site çalışıyor görünmesine rağmen tarayıcı bu siteyle bağlantı kurmayı başaramadı.</p><ul><li>Site geçici olarak açılamıyor olabilir. Daha sonra yeniden deneyin.</li><li>Diğer sayfaları da açamıyor olabilirsiniz. Öyleyse bilgisayarınızın ağ bağlantısının durumuna gözatın.</li><li>Bilgisayarınız ya da ağınız güvenlik duvarıyla çevrili olabilir. Düzgün yapılmayan ayarlar internete erişmenizi engeller.</li></ul>">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Güvenlik sebeplerinden dolayı bağlantı noktası kapalı">
-<!ENTITY deniedPortAccess.longDesc "<p>Açılmak istenen adres normalde tarama [em]dışında[/em] amaçlar için kullanılan bir bağlantı noktası içeriyor. (Örneğin <q>mozilla.org:80</q>.) Tarayıcı sizi korumak ve güvenliğini sağlamak amacıyla işlemi iptal etti.</p>">
+<!ENTITY deniedPortAccess.title "Bu adrese erişim kısıtlanmış">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
-<!ENTITY dnsNotFound.title "Adres bulunamadı">
-<!ENTITY dnsNotFound.longDesc "<p>Tarayıcı girilen adresin sunucularını bulamadı.</p><ul><li>Alan adını yanlış girmiş olabilirsiniz. (Örneğin <q><strong>www</strong>.mozilla.org.tr</q> yerine <q><strong>ww</strong>.mozilla.org.tr</q> yazılmıştır.)</li><li>Bu alan adı gerçekten kullanılmıyor olabilir. Kullanım tarihi sona erdiğinden kayıtlardan silinebilir.</li><li>Belki diğer siteleri de açamıyorsunuzdur. Ağ bağlantınızı ve DNS sunucu ayarlarınızı gözden geçirin.</li><li>Bilgisayarınız ya da ağınız güvenlik duvarıyla çevrili olabilir. Düzgün yapılmayan ayarlar internete erişmenizi engeller.</li></ul>">
+<!ENTITY dnsNotFound.title "Sunucu bulunamadı">
+<!ENTITY dnsNotFound.longDesc "<ul> 
+<li>Adres <strong>www</strong>.sunucu.com yerine 
+<strong>ww</strong>.sunucu.com 
+gibi yanlış yazılmış olabilir.</li> 
+<li>Hiçbir sayfayı açmayı başaramıyorsanız bilgisayarınızın ağ bağlantılarını gözden geçirin ve İnternet'e bağlı olduğunuzdan emin olun.</li> 
+<li>Bilgisayarınız ya da ağınız güvenlik duvarı ya da vekil sunucu tarafından korunuyorsa, &brandShortName; uygulamasına İnternet'e erişmek için gerekli izinlerin verilmiş olduğundan emin olun.</li> 
+</ul>">
 
 <!ENTITY fileNotFound.title "Dosya bulunamadı">
-<!ENTITY fileNotFound.longDesc "<ul><li>Dosya taşınmış, silinmiş ya da adı değiştirilmiş olabilir.</li><li>Adreste yazım hatası yapılmış olabilir.</li><li>İstenen öğeye erişmek için gerekli izniniz olmayabilir.</li></ul>">
+<!ENTITY fileNotFound.longDesc "<ul> 
+<li>Büyük-küçük harflere ve yazım hatası olup olmadığına bakın.</li> 
+<li>Dosyanın taşınıp taşınmadığından, adının değiştirilip değişmediğinden ya da silinip silinmediğinden emin olun.</li> 
+</ul>">
 
-<!ENTITY generic.title "İstek yerine getirilemiyor">
-<!ENTITY generic.longDesc "<p>Bu hata ve sorun hakkında detaylı bilgiler mevcut değil</p>">
+<!ENTITY generic.title "Hoppalaaa.">
+<!ENTITY generic.longDesc "<p>&brandShortName; bilinmeyen bir nedenden dolayı bu sayfayı açamıyor.</p>">
 
-<!ENTITY malformedURI.title "Geçersiz adres">
-<!ENTITY malformedURI.longDesc "<p>Girilen adres tanınan bir biçimde değil. Konum çubuğuna bakıp olası hataları giderdikten sonra yeniden deneyin.</p>">
+<!ENTITY malformedURI.title "Adres geçerli değil">
+<!ENTITY malformedURI.longDesc "<ul> 
+<li>Web adresleri genelde <strong>http://www.example.com/</strong> biçiminde yazılır.</li> 
+<li>Adreste düzgün bölü işareti (<strong>/</strong>) 
+bulunduğundan emin olun. Bu işaret sola değil, 
+<strong>sağa yatık</strong> olmalıdır.</li> 
+</ul>">
 
-<!ENTITY netInterrupt.title "Veri aktarma hatası">
-<!ENTITY netInterrupt.longDesc "<p>Tarayıcı başarıyla bağlantı kurmasına karşın veri aktarımı sırasında kesinti meydana geldi. Lütfen yeniden deneyin.</p><ul><li>Diğer siteleri de açamıyor olabilirsiniz. Bilgisayarınızın ağ bağlantısını gözden geçirin.</li><li>Hâlâ sorun yaşıyorsanız ağ yöneticinize ya da internet servis sağlayıcınıza başvurun.</li></ul>">
+<!ENTITY netInterrupt.title "Bağlantı kesildi">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Belge zaman aşımına uğradı">
-<!ENTITY notCached.longDesc "<p>Talep edilen belge tarayıcının önbelleğinde mevcut değil.</p><ul><li>Güvenlik önlemi olarak, tarayıcınız hassas belgeleri otomatik olarak yeniden talep etmez.</li><li>Belgeyi web sitesinden yeniden talep etmek için Yeniden dene düğmesine tıklayın.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Talep edilen belge &brandShortName; önbelleğinde mevcut değil.</p><ul><li>Bir güvenli önlemli olarak, &brandShortName; hassas belgeleri otomatik olarak yeniden talep etmez.</li><li>Belgeyi siteden tekrar talep etmek için Yeniden dene'ye tıklayın.</li></ul>">
 
 <!ENTITY netOffline.title "Çevrim dışı kip">
-<!ENTITY netOffline.longDesc2 "<p>Tarayıcı şu an çevrimdışı kipte ve istenen ögeye bağlanamaz.</p><ul><li>Bilgisayarınız etkin bir ağ bağlantısına sahip mi?</li><li>Çevrimiçi kipe geçerek sayfayı yeniden yüklemek için &quot;Yeniden dene&quot; düğmesine tıklayın.</li></ul>">
+<!ENTITY netOffline.longDesc2 "<ul> 
+<li>Çevrimiçi moda geçip sayfayı tazelemek için &quot;Yeniden dene&quot;ye tıklayın.</li> 
+</ul>">
 
 <!ENTITY contentEncodingError.title "İçerik kodlama hatası">
-<!ENTITY contentEncodingError.longDesc "<p>Bakmak istediğiniz sayfa gösterilemiyor, çünkü geçersiz ya da desteklenmeyen sıkıştırma biçimi kullanıyor.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
+<!ENTITY contentEncodingError.longDesc "<ul> 
+<li>Bu sorundan haberdar etmek için lütfen site sahipleri ile temasa geçin.</li> 
+</ul>">
 
 <!ENTITY unsafeContentType.title "Güvensiz dosya türü">
 <!ENTITY unsafeContentType.longDesc "<ul> 
 <li>Lütfen site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li> 
 </ul>">
 
-<!ENTITY netReset.title "Bağlantı kesildi">
-<!ENTITY netReset.longDesc "<p>Bağlantı sırasında ağ iletişimi kesintiye uğradı. Lütfen yeniden deneyin.</p>">
+<!ENTITY netReset.title "Bağlantı sıfırlandı">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Ağ zaman aşımı">
-<!ENTITY netTimeout.longDesc "<p>Açılmak istenen site isteğe yanıt vermeyince, tarayıcı da beklemeyi bıraktı.</p><ul><li>Sunucu çok sayıda bağlanma istemi veya geçici olarak açılamama durumuyla karşı karşıya olabilir. Daha sonra yeniden deneyin.</li><li>Diğer sitelere de bağlanamıyor olabilirsiniz. Bilgisayarınızın ağ bağlantısını gözden geçirin.</li><li>Bilgisayarınız ya da ağınız güvenlik duvarıyla çevrili olabilir. Düzgün yapılmayan ayarlar internete erişmenizi engeller.</li><li>Her yolu denemenize rağmen hâlâ bağlantı kuramıyorsanız, ağ yöneticinize veya internet servis sağlayıcınıza başvurun.</li></ul>">
+<!ENTITY netTimeout.title "Bağlantı zaman aşımına uğradı">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Tanınmayan iletişim kuralı">
-<!ENTITY protocolNotFound.longDesc "<p>Girilen adres tarayıcı tarafından tanınmayan bir iletişim kuralına (ör. <q>abcd://</q>) işaret ettiğinden tarayıcı siteye düzgünce bağlanamıyor.</p><ul><li>Çoklu ortam barındıran veya metin içermeyen bir hizmete bağlanmak istiyor olabilirsiniz.</li><li>Bazı iletişim kurallarının tarayıcı tarafından tanınabilmesi için üçüncü kişilerce geliştirilen yazılımlara ya da eklentilere ihtiyaç duyulabilir.</li></ul>">
+<!ENTITY protocolNotFound.title "Adres anlaşılamadı">
+<!ENTITY protocolNotFound.longDesc "<ul> 
+<li>Bu adresi açmak için başka bir yazılım kurmanız gerekebilir.</li> 
+</ul>">
 
-<!ENTITY proxyConnectFailure.title "Vekil sunucu bağlantıyı reddetti">
-<!ENTITY proxyConnectFailure.longDesc "<p>Tarayıcı vekil sunucu kullanmak üzere yapılandırılmış, ancak vekil sunucu bağlantı isteğini geri çevirdi.</p><ul><li>Vekil sunucu ayarları düzgün yapılmamış olabilir. Ayarlarınızı gözden geçirip yeniden deneyin.</li><li>Belirtilen vekil sunucu ağınız üzerinden kurulan bağlantılara izin vermiyor olabilir.</li><li>Hâlâ sorun yaşıyorsanız ağ yöneticinize ya da internet servis sağlayıcınıza başvurun.</li></ul>">
+<!ENTITY proxyConnectFailure.title "Vekil sunucu bağlantı kabul etmiyor">
+<!ENTITY proxyConnectFailure.longDesc "<ul> 
+<li>Vekil sunucu ayarlarınızın doğru olup olmadığına bakın.</li> 
+<li>Ağ yöneticinize başvurup vekil sunucunun çalıp çalışmadığıyla 
+ilgili bilgi alın.</li> 
+</ul>">
 
 <!ENTITY proxyResolveFailure.title "Vekil sunucu bulunamadı">
-<!ENTITY proxyResolveFailure.longDesc "<p>Tarayıcı vekil sunucu kullanmak üzere yapılandırılmış, ancak vekil sunucu bulunamadı.</p><ul><li>Vekil sunucu ayarları düzgün yapılmamış olabilir. Ayarlarınızı gözden geçirip yeniden deneyin.</li><li>Bilgisayarınız etkin bir ağ bağlantısına sahip olmayabilir.</li><li>Hâlâ sorun yaşıyorsanız ağ yöneticinize ya da internet servis sağlayıcınıza başvurun.</li></ul>><html><body></body></html>">
+<!ENTITY proxyResolveFailure.longDesc "<ul> 
+<li>Vekil sunucu ayarlarınızın doğru olup olmadığına bakın.</li> 
+<li>Bilgisayarınızın düzgün işleyen bir ağ bağlantısı olup olmadığına bakın.</li> 
+<li>Bilgisayarınız ya da ağınız güvenlik duvarı ya da vekil sunucu tarafından 
+korunuyorsa, &brandShortName; uygulamasına internete erişmek için gerekli izinlerin verilmiş olduğundan emin olun.</li> 
+</ul>">
 
-<!ENTITY redirectLoop.title "Yönlendirme döngüsü">
-<!ENTITY redirectLoop.longDesc "<p>Tarayıcı istenen öğeye ulaşmayı denemeyi bıraktı. Site tarayıcının isteğine hiçbir zaman sona ermeyecek bir yönlendirme döngüsü ile yanıt veriyor.</p><ul><li>Site tarafından bırakılmak istenen çerezleri engellemiş ya da etkisizleştirmiş olabilirsiniz.</li><li><em>NOT</em>: Çerezleri kabul etmek sorununuzu çözmeye yetmiyorsa, sorun büyük olasılıkla bilgisayarınızdan değil, sunucu yapılandırmasından kaynaklanıyordur.</li></ul>">
+<!ENTITY redirectLoop.title "Yönlendirme geçersiz">
+<!ENTITY redirectLoop.longDesc "<ul> 
+<li>Bu sayfa düzgün biçimde yönlendirilmiyor. Bunun nedeni çerezlerin kabul 
+edilmemesi olabilir.</li> 
+</ul>">
 
-<!ENTITY unknownSocketType.title "Ağdan gelen yanıt geçersiz">
-<!ENTITY unknownSocketType.longDesc "<p>Site bağlantı isteğine hiç beklenmeyen bir biçimde karşılık verdi ve tarayıcı bu girişimi daha fazla sürdürmeyecek.</p>">
+<!ENTITY unknownSocketType.title "Sunucudan beklenmeyen yanıt">
+<!ENTITY unknownSocketType.longDesc "<ul> 
+<li>Sisteminizde Kişisel Güvenlik Yöneticisi kurulu 
+olduğundan emin olun.</li> 
+<li>Sorunun nedeni sunucunun standartlara uymayan yapılandırması olabilir.</li> 
+</ul>">
 
-<!ENTITY nssFailure2.title "Güvenli bağlantı hatalı">
-<!ENTITY nssFailure2.longDesc "<p>Görüntülemeye çalıştığınız sayfa gösterilemiyor çünkü alınan verilerin gerçekliği doğrulanamadı.</p><ul><li>Bu sorunu bildirmek için lütfen site sahipleriyle iletişime geçin.</li></ul>">
+<!ENTITY nssFailure2.title "Güvenli bağlantı girişimi başarısız">
+<!ENTITY nssFailure2.longDesc "<ul> 
+<li>Alınan verilerin özgünlüğü doğrulanamadığı için bakmak istediğiniz sayfa gösterilemiyor.</li> 
+<li>Lütfen site yönetici ile irtibata geçerek durumu bildirin. Bunun dışında, bu çalışmayan siteyi yardım menüsündeki komutu kullanarak rapor edebilirsiniz.</li> 
+</ul>">
 
 <!ENTITY nssBadCert.title "Güvenli bağlantı hatalı">
 <!ENTITY nssBadCert.longDesc2 "<ul> 
-<li>Bu, sunucunun yapılandırmasıyla ilgili bir sorundan ya da birinin sunucuyu taklit etmeye çalışmasından kaynaklanıyor olabilir.</li> 
+<li>Bu, sunucunun yapılandırmasıyla ilgili bir sorundan ya da birinin 
+sunucuyu taklit etmeye çalışmasından kaynaklanıyor olabilir.</li> 
 <li>Daha önce bu sunucuya başarılı bir şekilde bağlandıysanız sorun geçici olabilir ve daha sonra yeniden açmayı deneyebilirsiniz.</li> 
-<li>Gelişmiş şifreleme ayarlarına bakarak güvenlik sorunu yaşadığı bilinen sunucuların listesini görebilir ve üzerinde değişiklik yapabilirsiniz.</li> 
 </ul>">
 
 <!ENTITY malwareBlocked.title "Şüpheli saldırı sitesi!">
@@ -81,20 +120,29 @@
 <!ENTITY phishingBlocked.longDesc "<p>Bu sayfada yapılacak kişisel bilgi girişi, kimlik hırsızlığı ya da başka tür dolandırıcılıkla sonuçlanabilir.</p> 
 <p>Bu tür sahtekârlıklar yemleme olarak bilinen dümenlerde kullanılır. Yemleme saldırılarında araç olarak güvenebileceğiniz kurumları taklit eden sayfalara ve e-postalara başvurulur.</p>">
 
-<!ENTITY cspFrameAncestorBlocked.title "İçerik güvenliği ilkesi uyarınca engellendi">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Tarayıcı bu sayfanın yüklenmesini engelledi; çünkü sayfa, yüklenmesine izin vermeyen bir içerik güvenliği ilkesine sahip.</p>">
+<!ENTITY cspFrameAncestorBlocked.title "İçerik güvenlik politikası uyarınca engellendi">
+<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; bu sayfanın bu şekilde yüklenmesini önledi, çünkü sayfanın buna izin vermeyen bir içerik güvenlik politikası var.</p>">
+
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
 
 <!ENTITY corruptedContentError.title "Hasarlı İçerik Hatası">
-<!ENTITY corruptedContentError.longDesc "<p>Bakmak istediğiniz sayfa gösterilemiyor, çünkü dosya aktarımı sırasında bir hata saptandı.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>Veri aktarımında bir hata tespit edildiği için bakmak istediğiniz sayfa gösterilemiyor.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
 
 <!ENTITY remoteXUL.title "Uzak XUL">
-<!ENTITY remoteXUL.longDesc "<ul> 
-<li>Lütfen site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li> 
-</ul>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Bu sorundan haberdar etmek için lütfen site sahipleri ile temasa geçin.</li></ul></p>">
+
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,
      this inclusion needs to be intact for that approach to work correctly.
      Please, try to keep this at the end of the file. -->
-
 <!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
 %netErrorAppDTD;

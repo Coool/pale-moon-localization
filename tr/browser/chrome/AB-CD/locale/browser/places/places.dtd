@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 
+<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 <!ENTITY places.library.title  "Kütüphane">
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Tümünü sekmelerde aç">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "m">
 
+<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "Özellikler">
 <!ENTITY cmd.properties.accesskey  "i">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "Taşı…">
 <!ENTITY cmd.moveBookmarks.accesskey              "T">
 
-<!ENTITY col.name.label          "Adı">
-<!ENTITY col.tags.label          "Etiketler">
-<!ENTITY col.url.label           "Konum">
-<!ENTITY col.lastvisit.label     "Ziyaret tarihi">
-<!ENTITY col.visitcount.label    "Ziyaret sayısı">
-<!ENTITY col.keyword.label       "Anahtar kelime">
-<!ENTITY col.description.label   "Açıklama">
-<!ENTITY col.dateadded.label     "Ekleme tarihi">
-<!ENTITY col.lastmodified.label  "Son değişiklik">
-
 <!ENTITY search.label                              "Arama:">
 <!ENTITY search.accesskey                          "A">
+<!ENTITY col.name.label              "Adı">
+<!ENTITY col.tags.label              "Etiketler">
+<!ENTITY col.url.label               "Konum">
+<!ENTITY col.lastvisit.label         "Ziyaret tarihi">
+<!ENTITY col.visitcount.label        "Ziyaret sayısı">
+<!ENTITY col.keyword.label           "Anahtar kelime">
+<!ENTITY col.description.label       "Açıklama">
+<!ENTITY col.dateadded.label         "Ekleme tarihi">
+<!ENTITY col.lastmodified.label      "Son değişiklik">
+<!ENTITY col.parentfolder.label      "Containing Folder">
+<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
+
+
+<!ENTITY search.in.label                           "Search in:">
+<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "y">
 <!ENTITY maintenance.tooltip    "Yer imlerinizi içe aktarın ve yedekleyin">
 
-<!ENTITY backButton.tooltip  "Geriye gider">
+<!ENTITY backButton.tooltip  "Bir sayfa geriye">
 
-<!ENTITY forwardButton.tooltip  "İleriye gider">
+<!ENTITY forwardButton.tooltip  "Bir sayfa ileriye">
 
 <!ENTITY detailsPane.more.label "Daha fazla ayrıntı">
 <!ENTITY detailsPane.more.accesskey "a">

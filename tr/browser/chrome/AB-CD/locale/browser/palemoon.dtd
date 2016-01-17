@@ -1,46 +1,47 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-
-
--->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label "Bağlantı Gönder…">
-<!ENTITY palemoon.sendLinkCmd.accesskey "d">
-<!ENTITY palemoon.sendPageCmd.label "Sayfa Gönder…">
-<!ENTITY palemoon.sendPageCmd.accesskey "e">
-<!ENTITY palemoon.menu.statusBar.label "Durum Çubuğu">
-<!ENTITY palemoon.menu.statusBar.accesskey "S">
-<!ENTITY palemoon.menu.allBookmarks.label "Yer imlerini Düzenle">
+<!ENTITY palemoon.sendLinkCmd.label            "Bağlantı Gönder…">
+<!ENTITY palemoon.sendLinkCmd.accesskey        "d">
+<!ENTITY palemoon.sendPageCmd.label            "Sayfa Gönder…">
+<!ENTITY palemoon.sendPageCmd.accesskey        "e">
+
+<!ENTITY palemoon.menu.statusBar.label               "Durum Çubuğu">
+<!ENTITY palemoon.menu.statusBar.accesskey           "S">
+<!ENTITY palemoon.menu.allBookmarks.label            "Yer imlerini Düzenle">
+
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label "Klasik indirme penceresini kullan">
-<!ENTITY palemoon.showTabBar.label "Sekme çubuğunu her zaman göster">
-<!ENTITY palemoon.showTabBar.accesskey "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label "Geçerli sekme yanına benzer sekmeleri ekle">
-<!ENTITY palemoon.contextLoadInBackground.label "Bir bağlamda arama yaparken, hemen yeni sekmeye geç">
-<!ENTITY palemoon.closeWindowWithLastTab.label "Son sekme kapatıldığında pencereyi kapat">
-<!ENTITY palemoon.newtabPage.label "Yeni bir sekme açarken bunu göster:">
-<!ENTITY palemoon.newtabPage.blank.label "Boş sayfa">
-<!ENTITY palemoon.newtabPage.home.label "Pale Moon başlangıç sayfası">
-<!ENTITY palemoon.newtabPage.quickdial.label "Hızlı Arama sayfası">
-<!ENTITY palemoon.loadImages.label "Resimleri yükle:">
-<!ENTITY palemoon.loadImages.always "Otomatik olarak">
-<!ENTITY palemoon.loadImages.never "Asla">
-<!ENTITY palemoon.loadImages.no3rdparty "Sadece sunucu kaynaklı">
-<!ENTITY palemoon.firefoxCompatGroup.label "Firefox Uyumluluğu">
-<!ENTITY palemoon.firefoxCompat.label "Firefox Uyumluluk modunu kullan">
-<!ENTITY palemoon.scrollparamTab.label "Kaydırma">
-<!ENTITY palemoon.smoothscroll.explain.label "Düzgün kaydırma sadece yukarıdaki onay kutusu ile tamamen etkinse alttaki parametreler etkin olur.">
-<!ENTITY palemoon.smoothscroll.to "için">
-<!ENTITY palemoon.smoothscroll.params.label "Düzgün kaydırma parametreleri">
-<!ENTITY palemoon.smoothscroll.mousewheel.label "Fare tekerleği ile düzgün kaydırma">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration "Fare tekerleği kaydırma süresi:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label "Yön tuşları ile düzgün kaydırma">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration "Yön tuşları kaydırma süresi:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label "Sayfa yukarı/aşağı ile düzgün kaydırma">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration "Sayfa yukarı/aşağı kaydırma süresi:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label "Kaydırma çubukları ile düzgün kaydırma">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration "Kaydırma çubukları kaydırma süresi:">
-<!ENTITY allTabs.filter.emptyText "Sekmeleri Ara">
+<!ENTITY toolkit.classic.download.window.label       "Klasik indirme penceresini kullan">
+
+<!ENTITY palemoon.showTabBar.label                   "Sekme çubuğunu her zaman göster">
+<!ENTITY palemoon.showTabBar.accesskey               "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Geçerli sekme yanına benzer sekmeleri ekle">
+<!ENTITY palemoon.contextLoadInBackground.label      "Bir bağlamda arama yaparken, hemen yeni sekmeye geç">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "Son sekme kapatıldığında pencereyi kapat">
+<!ENTITY palemoon.newtabPage.label                   "Yeni bir sekme açarken bunu göster:">
+<!ENTITY palemoon.newtabPage.blank.label             "Boş sayfa">
+<!ENTITY palemoon.newtabPage.home.label              "Pale Moon başlangıç sayfası">
+<!ENTITY palemoon.newtabPage.quickdial.label         "Hızlı Arama sayfası">
+
+<!ENTITY palemoon.loadImages.label            "Resimleri yükle:">
+<!ENTITY palemoon.loadImages.always           "Otomatik olarak">
+<!ENTITY palemoon.loadImages.never            "Asla">
+<!ENTITY palemoon.loadImages.no3rdparty       "Sadece sunucu kaynaklı">
+
+<!ENTITY palemoon.firefoxCompatGroup.label    "Firefox Uyumluluğu">
+<!ENTITY palemoon.firefoxCompat.label         "Firefox Uyumluluk modunu kullan">
+
+<!ENTITY palemoon.scrollparamTab.label               "Kaydırma">
+<!ENTITY palemoon.smoothscroll.explain.label         "Düzgün kaydırma sadece yukarıdaki onay kutusu ile tamamen etkinse alttaki parametreler etkin olur.">
+<!ENTITY palemoon.smoothscroll.to                    "için">
+<!ENTITY palemoon.smoothscroll.params.label          "Düzgün kaydırma parametreleri">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "Fare tekerleği ile düzgün kaydırma">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Fare tekerleği kaydırma süresi:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Yön tuşları ile düzgün kaydırma">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Yön tuşları kaydırma süresi:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "Sayfa yukarı/aşağı ile düzgün kaydırma">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Sayfa yukarı/aşağı kaydırma süresi:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "Kaydırma çubukları ile düzgün kaydırma">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Kaydırma çubukları kaydırma süresi:">
