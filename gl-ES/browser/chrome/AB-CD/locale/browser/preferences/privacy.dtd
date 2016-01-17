@@ -4,11 +4,11 @@
 
 <!ENTITY tracking.label                 "Seguimento">
 
-<!ENTITY dntTrackingNopref.label        "Non informar aos sitios sobre as miñas preferencias de seguimento.">
+<!ENTITY dntTrackingNopref.label2       "Do not tell sites anything about my tracking preferences">
 <!ENTITY dntTrackingNopref.accesskey    "o">
-<!ENTITY dntTrackingNotOkay.label       "Dicirlle aos sitios que non quero ser seguido.">
+<!ENTITY dntTrackingNotOkay.label2      "Tell sites that I do not want to be tracked">
 <!ENTITY dntTrackingNotOkay.accesskey   "n">
-<!ENTITY dntTrackingOkay.label          "Dicirlle aos sitios que quero que me sigan.">
+<!ENTITY dntTrackingOkay.label2         "Tell sites that I want to be tracked">
 <!ENTITY dntTrackingOkay.accesskey      "t">
 <!ENTITY doNotTrackInfo.label           "Obter máis información">
 
@@ -24,12 +24,14 @@
 <!ENTITY  locbar.bookmarks.label        "Marcadores">
 <!ENTITY  locbar.nothing.label          "Nada">
 
-
 <!ENTITY  acceptCookies.label           "Aceptar as cookies das páxinas web">
 <!ENTITY  acceptCookies.accesskey       "A">
 
-<!ENTITY  acceptThirdParty.label        "Aceptar as cookies de terceiros">
-<!ENTITY  acceptThirdParty.accesskey    "k">
+<!ENTITY  acceptThirdParty.pre.label      "Accept third-party cookies:">
+<!ENTITY  acceptThirdParty.pre.accesskey  "c">
+<!ENTITY  acceptThirdParty.always.label   "Always">
+<!ENTITY  acceptThirdParty.never.label    "Never">
+<!ENTITY  acceptThirdParty.visited.label  "From visited">
 
 <!ENTITY  keepUntil.label               "Conservar ata:">
 <!ENTITY  keepUntil.accesskey           "C">
@@ -43,7 +45,6 @@
 
 <!ENTITY  showCookies.label             "Amosar as cookies…">
 <!ENTITY  showCookies.accesskey         "s">
-
 
 <!ENTITY  historyHeader.pre.label          "O &brandShortName; :">
 <!ENTITY  historyHeader.pre.accesskey      "O">
@@ -85,14 +86,3 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Configuración…">
 <!ENTITY  clearOnCloseSettings.accesskey "g">
-
-<!ENTITY  acceptThirdParty.always.label   "Always">
-<!ENTITY  acceptThirdParty.never.label    "Never">
-<!ENTITY  acceptThirdParty.pre.accesskey  "c">
-
-<!ENTITY  acceptThirdParty.pre.label      "Accept third-party cookies:">
-<!ENTITY  acceptThirdParty.visited.label  "From visited">
-
-<!ENTITY dntTrackingNopref.label2       "Do not tell sites anything about my tracking preferences">
-<!ENTITY dntTrackingNotOkay.label2      "Tell sites that I do not want to be tracked">
-<!ENTITY dntTrackingOkay.label2         "Tell sites that I want to be tracked">

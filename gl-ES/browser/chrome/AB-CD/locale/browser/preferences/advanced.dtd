@@ -35,18 +35,6 @@
 
 <!ENTITY dataChoicesTab.label            "Datos">
 
-<!ENTITY healthReportSection.label       "Informe de saúde do &brandShortName;">
-<!ENTITY healthReportDesc.label          "Axúdalle a entender o rendemento do seu navegador e comparte datos con &vendorShortName; sobre a saúde do seu navegador">
-<!ENTITY enableHealthReport.label        "Activar o informe de saúde do &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "r">
-<!ENTITY healthReportLearnMore.label     "Obter máis información">
-
-<!ENTITY telemetrySection.label          "Telemetría">
-<!ENTITY telemetryDesc.label             "Comparte datos de rendemento, uso, hardware e personalizacións sobre o seu navegador con &vendorShortName; para axudarnos a mellorar &brandShortName;">
-<!ENTITY enableTelemetry.label           "Activar a telemetría">
-<!ENTITY enableTelemetry.accesskey       "t">
-<!ENTITY telemetryLearnMore.label        "Obter máis información">
-
 <!ENTITY crashReporterSection.label      "Informador de erros">
 <!ENTITY crashReporterDesc.label         "&brandShortName; envía informes de erro para axudar a &vendorShortName; a facer o seu navegador máis estábel e seguro">
 <!ENTITY enableCrashReporter.label       "Activar o informador de erros">
@@ -84,8 +72,13 @@
 <!ENTITY updateTab.label                 "Actualizar">
 
 <!ENTITY updateApp.label                 "Actualizacións do &brandShortName;:">
-<!ENTITY updateAuto.label                "Instalar actualizacións automaticamente (recomendado para a súa seguranza)">
-<!ENTITY updateAuto.accesskey            "a">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Automatically install updates (recommended: improved security)">
+<!ENTITY updateAuto1.accesskey           "A">
+<!ENTITY updateAutoMetro.label           "Automatically update from desktop and Windows 8 style &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "s">
 <!ENTITY updateCheck.label               "Buscar actualizacións, pero permitirme escoller se quero instalalas">
 <!ENTITY updateCheck.accesskey           "c">
 <!ENTITY updateManual.label              "Non buscar actualizacións (non recomendado: risco de seguranza)">
@@ -94,11 +87,10 @@
 <!ENTITY updateAutoAddonWarn.label       "Avisarme se isto desactiva algúns dos complementos">
 <!ENTITY updateAutoAddonWarn.accesskey   "v">
 
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8 style &brandShortName; does not check add-on compatibility)">
+
 <!ENTITY updateHistory.label             "Amosar historial de actualización">
 <!ENTITY updateHistory.accesskey         "z">
-
-<!ENTITY useService.label                "Usar un servizo en segundo plano para instalar as actualizacións">
-<!ENTITY useService.accesskey            "g">
 
 <!ENTITY updateOthers.label              "Actualizar automaticamente:">
 <!ENTITY enableSearchUpdate.label        "Buscadores">
@@ -115,14 +107,7 @@
 <!ENTITY offlineAppsListRemove.accesskey "R">
 <!ENTITY offlineAppRemove.confirm        "Retirar datos sen conexión">
 
-<!ENTITY encryptionTab.label             "Cifrado">
-
-<!ENTITY protocols.label                 "Protocolos">
-<!ENTITY useSSL3.label                   "Usar SSL 3.0">
-<!ENTITY useSSL3.accesskey               "3">
-<!ENTITY useTLS1.label                   "Usar TLS 1.0">
-<!ENTITY useTLS1.accesskey               "1">
-<!ENTITY certificates.label              "Certificados">
+<!ENTITY certificateTab.label            "Certificates">
 <!ENTITY certSelection.description       "Cando un servidor solicita o meu certificado persoal:">
 <!ENTITY certs.auto                      "Escoller un automaticamente">
 <!ENTITY certs.auto.accesskey            "l">
@@ -130,21 +115,7 @@
 <!ENTITY certs.ask.accesskey             "g">
 <!ENTITY viewCerts.label                 "Ver certificados">
 <!ENTITY viewCerts.accesskey             "s">
-<!ENTITY viewCRLs.label                  "Listas de revogación">
-<!ENTITY viewCRLs.accesskey              "R">
 <!ENTITY verify2.label                   "Validación">
 <!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguranza">
 <!ENTITY viewSecurityDevices.accesskey   "D">
-
-
-<!ENTITY certificateTab.label            "Certificates">
-<!ENTITY updateAuto1.accesskey           "A">
-<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
-     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
-     in preferences.properties -->
-<!ENTITY updateAuto1.label               "Automatically install updates (recommended: improved security)">
-<!ENTITY updateAutoMetro.accesskey       "s">
-<!ENTITY updateAutoMetro.label           "Automatically update from desktop and Windows 8 style &brandShortName;">
-
-<!ENTITY updateAutoMetroWarn.label       "(Windows 8 style &brandShortName; does not check add-on compatibility)">

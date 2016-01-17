@@ -1,7 +1,10 @@
-<!ENTITY  updateWizard.title              "Actualización de software">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY  updateWizard.title              "Actualización de &brandShortName;">
 
 <!ENTITY  checking.title                  "Buscando actualizacións">
-<!ENTITY  updateCheck.label               "Buscando versións máis recentes de &brandShortName;…">
+<!ENTITY  updateCheck.label               "Buscar actualizacións, pero permitirme escoller se quero instalalas">
 
 <!ENTITY  pluginupdatesfound.title        "Encontráronse actualizacións para os engadidos">
 <!ENTITY  pluginupdatesfound.label        "Encontráronse unha ou varias actualizacións para os seus engadidos.">
@@ -19,6 +22,12 @@
                                            instalar aplicativos neste computador.">
 <!ENTITY  manualUpdate.space.desc         "Está dispoñíbel unha actualización de seguranza e estabilidade, pero non ten espazo suficiente para instalala.">
 <!ENTITY  manualUpdateGetMsg.label        "Sempre pode obter a última versión de &brandShortName; en:">
+
+<!ENTITY  unsupported.title               "System Unsupported">
+<!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
+                                           supported on your system. Please upgrade your system, then try again.
+                                           You will not see this notice again, but you can">
+<!ENTITY  unsupportedLink.label           "learn more.">
 
 <!ENTITY  incompatibleCheck.title         "Verificando compatibilidade do complemento">
 <!ENTITY  incompatibleCheck.label         "Buscando versións máis actuais dos complementos…">
@@ -85,10 +94,3 @@
 <!ENTITY  update.details.label            "Detalles">
 <!ENTITY  update.installedOn.label        "Instalada o:">
 <!ENTITY  update.status.label             "Estado:">
-
-<!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
-                                           supported on your system. Please upgrade your system, then try again.
-                                           You will not see this notice again, but you can">
-
-<!ENTITY  unsupported.title               "System Unsupported">
-<!ENTITY  unsupportedLink.label           "learn more.">

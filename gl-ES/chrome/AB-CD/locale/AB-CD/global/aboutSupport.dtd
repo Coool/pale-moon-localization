@@ -17,6 +17,11 @@
 <!ENTITY aboutSupport.appBasicsName "Nome">
 <!ENTITY aboutSupport.appBasicsVersion "Versión">
 
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+"Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
+
 <!ENTITY aboutSupport.appBasicsProfileDir "Cartafol do perfil">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
@@ -30,9 +35,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memoria">
 
 <!ENTITY aboutSupport.showDir.label "Abrir cartafol">
-
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
-variant of aboutSupport.show.label.  This allows us to use the preferred
+variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Mostrar no Finder">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
@@ -63,9 +67,3 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copiar texto ao portapapeis">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar datos en crudo ao portapapeis">
-
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
-
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
-"Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
