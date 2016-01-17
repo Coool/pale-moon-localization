@@ -4,9 +4,9 @@
 
 <!-- extracted from content/viewSource.xul -->
 
-<!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE -->
+<!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.title "&brandFullName;">
-<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
@@ -15,18 +15,18 @@
 <!ENTITY fileMenu.label "Soubor">
 <!ENTITY fileMenu.accesskey "S">
 <!ENTITY savePageCmd.label "Uložit stránku jako…">
-<!ENTITY savePageCmd.accesskey "j">
-<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY savePageCmd.accesskey "U">
+<!ENTITY savePageCmd.commandkey "s">
 <!ENTITY pageSetupCmd.label "Vzhled stránky…">
 <!ENTITY pageSetupCmd.accesskey "V">
 <!ENTITY printPreviewCmd.label "Náhled tisku">
 <!ENTITY printPreviewCmd.accesskey "h">
 <!ENTITY printCmd.label "Tisk…">
 <!ENTITY printCmd.accesskey "T">
-<!ENTITY printCmd.commandkey "P">
+<!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "Zavřít">
 <!ENTITY closeCmd.accesskey "Z">
-<!ENTITY closeCmd.commandkey "W">
+<!ENTITY closeCmd.commandkey "w">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -46,12 +46,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goToLineCmd.accesskey "P">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label "Zobrazení">
-<!ENTITY viewMenu.accesskey "Z">
+<!ENTITY viewMenu.label           "Zobrazení">
+<!ENTITY viewMenu.accesskey       "Z">
 <!ENTITY reloadCmd.label "Obnovit">
 <!ENTITY reloadCmd.accesskey "O">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Zalamovat dlouhé řádky">
+<!ENTITY menu_wrapLongLines.title "Zalamovat dlouhé řádky"> 
 <!ENTITY menu_wrapLongLines.accesskey "l">
 <!ENTITY menu_highlightSyntax.label "Zvýrazňovat syntaxi">
 <!ENTITY menu_highlightSyntax.accesskey "s">
@@ -64,10 +64,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReset.label "Normální">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label "Najít na této stránce…">
+<!ENTITY findOnCmd.label     "Najít na této stránce…">
 <!ENTITY findOnCmd.accesskey "N">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label "Najít další">
+<!ENTITY findAgainCmd.label  "Najít další">
 <!ENTITY findAgainCmd.accesskey "t">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
