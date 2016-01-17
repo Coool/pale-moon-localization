@@ -1,16 +1,16 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Ohjelmistopäivitys">
+<!ENTITY  updateWizard.title              "&brandShortName;in päivitystoiminto">
 
-<!ENTITY  checking.title                   "Haetaan päivityksiä">
-<!ENTITY  updateCheck.label               "Haetaan päivityksiä &brandShortName;iin…">
+<!ENTITY  checking.title                  "Haetaan päivityksiä">
+<!ENTITY  updateCheck.label               "Hae päivityksiä, mutta minä päätän asennetaanko ne">
 
 <!ENTITY  pluginupdatesfound.title        "Löydettiin päivityksiä liitännäisiin">
 <!ENTITY  pluginupdatesfound.label        "Löydettiin uudempi versio yhdestä tai useammasta asennetusta liitännäisestä.">
 <!ENTITY  pluginupdateslink.label         "Lue lisää kuinka päivität liitännäisesi.">
 
-<!ENTITY  noupdatesfound.title             "Päivityksiä ei löytynyt">
+<!ENTITY  noupdatesfound.title            "Päivityksiä ei löytynyt">
 <!ENTITY  noupdatesautoenabled.intro      "Uusia päivityksiä ei ole saatavilla. &brandShortName; hakee
                                             päivityksiä väliajoin.">
 <!ENTITY  noupdatesautodisabled.intro     "Uusia päivityksiä ei ole saatavilla. Hae päivityksiä myöhemmin uudestaan
@@ -38,8 +38,7 @@
 
 <!ENTITY  evangelism.desc                 "Suosittelemme, että &brandShortName; päivitetään ensi tilassa.">
 
-
-<!ENTITY  license.instructions             "Jos hyväksyt lisenssisopimuksen, jatka päivityksen asennusta
+<!ENTITY  license.instructions            "Jos hyväksyt lisenssisopimuksen, jatka päivityksen asennusta
                                             napsauttamalla Hyväksyn.">
 
 <!ENTITY  license.titleText               "Ohjelman lisenssisopimus">
@@ -53,25 +52,24 @@
 <!ENTITY  incompatibleList.title          "Yhteensopimattomia lisäosia löytyi">
 
 <!ENTITY  downloadPage.title              "Ladataan &brandShortName;ia">
-<!ENTITY  downloading.intro                "Ladataan päivitystä…">
-<!ENTITY  connecting.label                 "Muodostetaan yhteyttä päivityspalvelimeen…">
-<!ENTITY  verificationFailedText.label     "Päivityspaketti ei läpäissyt virheettömyystarkistusta, joten
+<!ENTITY  downloading.intro               "Ladataan päivitystä…">
+<!ENTITY  connecting.label                "Muodostetaan yhteyttä päivityspalvelimeen…">
+<!ENTITY  verificationFailedText.label    "Päivityspaketti ei läpäissyt virheettömyystarkistusta, joten
                                             &brandShortName; lataa uuden version kokonaisuudessaan.">
-
 
 <!ENTITY  viewDetails.tooltip             "Lisätietoja tästä päivityksestä">
 
-<!ENTITY  details.link                     "Lisätietoja">
+<!ENTITY  details.link                    "Lisätietoja">
 
 <!ENTITY  error.title                     "Päivitys ei onnistunut">
 
-<!ENTITY  error.label                      "Päivityksen lataus, tarkistus tai asennus ei onnistunut.
+<!ENTITY  error.label                     "Päivityksen lataus, tarkistus tai asennus ei onnistunut.
                                             Päivitys aiheutti virheilmoituksen:">
                                            
-<!ENTITY  errorManual.label                "&brandShortName; voidaan päivittää käsin lataamalla ja 
+<!ENTITY  errorManual.label               "&brandShortName; voidaan päivittää käsin lataamalla ja 
                                             asentamalla ohjelman uusin versio osoitteesta:">
                                            
-<!ENTITY  errorpatching.intro              "Korjauspäivitys ei toiminut. 
+<!ENTITY  errorpatching.intro             "Korjauspäivitys ei toiminut. 
                                             &brandShortName; lataa päivitetyn ohjelmaversion ja yrittää uudestaan.">
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; ei kykene tarkistamaan, onko uudempaa versiota saatavilla.
@@ -87,15 +85,15 @@
 
 <!ENTITY  finishedBackgroundPage.text     "Turvallisuus- ja vakauspäivitys &brandShortName;iin
                                            on ladattu ja valmis asennettavaksi.">
-<!ENTITY  finishedBackground.name          "Päivitys:">
+<!ENTITY  finishedBackground.name         "Päivitys:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "Päivitys asennetaan kun &brandShortName; käynnistetään uudelleen. Voit käynnistää 
                                            &brandShortName;in nyt tai jatkaa selaamista ja käynnistää selaimen uudelleen myöhemmin.">
 
-<!ENTITY  installed.title                  "Päivitys asennettiin">
-<!ENTITY  installed.intro                  "Päivityksen asennus onnistui.">
-<!ENTITY  whatsnew.label                   "Lue enemmän muutoksista…">
+<!ENTITY  installed.title                 "Päivitys asennettiin">
+<!ENTITY  installed.intro                 "Päivityksen asennus onnistui.">
+<!ENTITY  whatsnew.label                  "Lue enemmän muutoksista…">
 
-<!ENTITY  update.details.label             "Yksityiskohdat">
-<!ENTITY  update.installedOn.label         "Asennusaika:">
-<!ENTITY  update.status.label              "Tila:">
+<!ENTITY  update.details.label            "Yksityiskohdat">
+<!ENTITY  update.installedOn.label        "Asennusaika:">
+<!ENTITY  update.status.label             "Tila:">

@@ -5,12 +5,12 @@
 <!--LOCALIZATION NOTE printProgress.dtd Main UI for Print Progress Dialog -->
 <!ENTITY printWindow.title  "Tulostetaan">
 <!ENTITY title     "Otsikko:">
-<!ENTITY progress  "Edistyminen:">
-<!ENTITY preparing  "Valmistellaan…">
-<!ENTITY printComplete  "Tulostus valmis.">
+<!ENTITY progress "Edistyminen:">
+<!ENTITY preparing "Valmistellaan…">
+<!ENTITY printComplete "Tulostus valmis.">
 
-<!ENTITY dialogCancel.label  "Peruuta">
-<!ENTITY dialogClose.label  "Sulje">
+<!ENTITY dialogCancel.label "Peruuta"> 
+<!ENTITY dialogClose.label "Sulje">
 
 <!-- LOCALIZATION NOTE (percentPrint):
 
@@ -18,5 +18,4 @@
     meter.
 
     #1 will be replaced by the percentage of the file that has been saved -->
-<!ENTITY percentPrint  "#1&#037;">
-
+<!ENTITY percentPrint "#1&#37;">

@@ -5,10 +5,10 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
-<!ENTITY aboutWarningTitle.label "Tämä sivu on ladattu ja vaarallinen!">
-<!ENTITY aboutWarningText.label "Tällä sivulla olevien asetusten muuttamisella voi olla vahingollisia vaikutuksia tämän ohjelman turvallisuuteen, vakauteen ja suorituskykyyn. Älä koske näihin asetuksiin ellet tiedä tarkalleen, mitä olet tekemässä.">
-<!ENTITY aboutWarningButton.label "Lupaan olla varovainen">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "There be dragons here!">
+<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
+<!ENTITY aboutWarningButton.label "I promise to be careful!">
 <!ENTITY aboutWarningCheckbox.label "Näytä varoitus myös ensi kerralla">
 
 <!ENTITY searchPrefs.label "Etsi:">
@@ -16,14 +16,14 @@
 <!ENTITY focusSearch.key "r">
 
 <!-- Columns -->
-<!ENTITY prefColumn.label  "Asetuksen nimi">
-<!ENTITY lockColumn.label  "Tila">
-<!ENTITY typeColumn.label  "Tyyppi">
-<!ENTITY valueColumn.label  "Arvo">
+<!ENTITY prefColumn.label "Asetuksen nimi">
+<!ENTITY lockColumn.label "Tila">
+<!ENTITY typeColumn.label "Sisältötyyppi">
+<!ENTITY valueColumn.label "Arvo">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip  "Napsauta järjestääksesi">
-<!ENTITY columnChooser.tooltip  "Valitse näkyvät sarakkeet">
+<!ENTITY prefColumnHeader.tooltip "Napsauta järjestääksesi"> 
+<!ENTITY columnChooser.tooltip "Valitse näkyvät sarakkeet"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "C">

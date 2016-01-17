@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Avaa välilehtiin">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "A">
 
+<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "Ominaisuudet">
 <!ENTITY cmd.properties.accesskey  "O">
 
@@ -78,28 +81,42 @@
 <!ENTITY cmd.moveBookmarks.label                  "Siirrä…">
 <!ENTITY cmd.moveBookmarks.accesskey              "S">
 
-<!ENTITY col.name.label          "Nimi">
-<!ENTITY col.tags.label          "Avainsanat">
-<!ENTITY col.url.label           "Osoite">
-<!ENTITY col.lastvisit.label     "Vierailupäivä">
-<!ENTITY col.visitcount.label    "Vierailukerrat">
-<!ENTITY col.keyword.label       "Pikakomento">
-<!ENTITY col.description.label   "Kuvaus">
-<!ENTITY col.dateadded.label     "Lisäyspäivä">
-<!ENTITY col.lastmodified.label  "Viimeisin muokkaus">
+<!ENTITY col.name.label              "Nimi">
+<!ENTITY col.tags.label              "Avainsanat">
+<!ENTITY col.url.label               "Osoite">
+<!ENTITY col.lastvisit.label         "Vierailupäivä">
+<!ENTITY col.visitcount.label        "Vierailukerrat">
+<!ENTITY col.keyword.label           "Pikakomento">
+<!ENTITY col.description.label       "Kuvaus">
+<!ENTITY col.dateadded.label         "Lisäyspäivä">
+<!ENTITY col.lastmodified.label      "Viimeisin muokkaus">
+<!ENTITY col.parentfolder.label      "Containing Folder">
+<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
 
 <!ENTITY search.label                              "Etsi:">
 <!ENTITY search.accesskey                          "E">
 
+<!ENTITY search.in.label                           "Search in:">
+<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.accesskey                      "S">
+
 <!ENTITY cmd.find.key  "f">
 
-<!ENTITY maintenance.label   "Tuo ja varmuuskopioi">
+<!ENTITY maintenance.label      "Tuo ja varmuuskopioi">
 <!ENTITY maintenance.accesskey  "T">
 <!ENTITY maintenance.tooltip    "Tuo ja varmuuskopioi kirjanmerkkejä">
 
-<!ENTITY backButton.tooltip  "Palaa edelliseen">
+<!ENTITY backButton.tooltip  "Siirry sivu taaksepäin">
 
-<!ENTITY forwardButton.tooltip  "Siirry seuraavaan">
+<!ENTITY forwardButton.tooltip  "Siirry sivu eteenpäin">
 
 <!ENTITY detailsPane.more.label "Lisää">
 <!ENTITY detailsPane.more.accesskey "L">

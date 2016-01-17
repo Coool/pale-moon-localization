@@ -22,15 +22,15 @@
   -  "simple discardable text editor". -->
 <!ENTITY window.title                 "Scratchpad">
 
-<!ENTITY fileMenu.label               "File">
-<!ENTITY fileMenu.accesskey           "F">
+<!ENTITY fileMenu.label               "Tiedosto">
+<!ENTITY fileMenu.accesskey           "T">
 
 <!ENTITY newWindowCmd.label           "New Window">
 <!ENTITY newWindowCmd.accesskey       "N">
 <!ENTITY newWindowCmd.commandkey      "n">
 
-<!ENTITY openFileCmd.label            "Open File…">
-<!ENTITY openFileCmd.accesskey        "O">
+<!ENTITY openFileCmd.label            "Avaa tiedosto…">
+<!ENTITY openFileCmd.accesskey        "d">
 <!ENTITY openFileCmd.commandkey       "o">
 
 <!ENTITY openRecentMenu.label         "Open Recent">
@@ -46,12 +46,12 @@
 <!ENTITY saveFileAsCmd.label          "Save As…">
 <!ENTITY saveFileAsCmd.accesskey      "A">
 
-<!ENTITY closeCmd.label               "Close">
+<!ENTITY closeCmd.label               "Sulje">
 <!ENTITY closeCmd.key                 "W">
-<!ENTITY closeCmd.accesskey           "C">
+<!ENTITY closeCmd.accesskey           "S">
 
-<!ENTITY editMenu.label               "Edit">
-<!ENTITY editMenu.accesskey           "E">
+<!ENTITY editMenu.label               "Muokkaa">
+<!ENTITY editMenu.accesskey           "M">
 
 <!ENTITY run.label                    "Run">
 <!ENTITY run.accesskey                "R">
@@ -90,10 +90,10 @@
 <!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
   -  for the help button in the menubar but Gnome does not.
   -->
-<!ENTITY helpMenu.label               "Help">
-<!ENTITY helpMenu.accesskey           "H">
-<!ENTITY helpMenuWin.label            "Help">
-<!ENTITY helpMenuWin.accesskey        "H">
+<!ENTITY helpMenu.label               "Ohje">
+<!ENTITY helpMenu.accesskey           "O">
+<!ENTITY helpMenuWin.label            "Ohje">
+<!ENTITY helpMenuWin.accesskey        "O">
 
 <!ENTITY documentationLink.label      "Scratchpad Help on MDN">
 <!ENTITY documentationLink.accesskey  "D">
