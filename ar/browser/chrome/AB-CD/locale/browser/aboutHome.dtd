@@ -6,16 +6,16 @@
 %brandDTD;
 <!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
 %syncBrandDTD;
-<!-- These strings are used in the about:home page -->
 
+<!-- These strings are used in the about:home page -->
 
 <!ENTITY abouthome.pageTitle "‫صفحة بداية &brandFullName;">
 
 <!ENTITY abouthome.searchEngineButton.label "ابحث">
+
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
      text in <a/> will be linked to the Firefox features page on mozilla.com
 -->
-
 <!ENTITY abouthome.defaultSnippet1.v1 "شكرًا لاختيارك فَيَرفُكس! للاستفادة بأكبر قدر من متصفحك، اطّلع على <a>أحدث المزايا</a>.">
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet2.v1):
      text in <a/> will be linked to the featured add-ons on addons.mozilla.org

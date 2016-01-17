@@ -1,10 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- extracted from content/viewSource.xul -->
+
 <!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE --> 
-
-
 <!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
@@ -16,23 +16,23 @@
 <!ENTITY fileMenu.accesskey "م">
 <!ENTITY savePageCmd.label "احفظ الصفحة ك‍…">
 <!ENTITY savePageCmd.accesskey "ك">
-<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY savePageCmd.commandkey "s">
 <!ENTITY pageSetupCmd.label "إعداد الصفحة…">
 <!ENTITY pageSetupCmd.accesskey "ع">
 <!ENTITY printPreviewCmd.label "معاينة الطباعة">
 <!ENTITY printPreviewCmd.accesskey "ط">
 <!ENTITY printCmd.label "اطبع…">
 <!ENTITY printCmd.accesskey "ط">
-<!ENTITY printCmd.commandkey "P">
+<!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "أغلق">
 <!ENTITY closeCmd.accesskey "غ">
-<!ENTITY closeCmd.commandkey "W">
+<!ENTITY closeCmd.commandkey "w">
+
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
 textReset.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
-
 
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">

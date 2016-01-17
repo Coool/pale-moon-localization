@@ -1,31 +1,31 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Values for changepassword.xul -->
 
+<!-- Values for changepassword.xul -->
 <!ENTITY setPassword.title  "غيّر كلمة السرّ الرئيسيّة">
 <!ENTITY setPassword.tokenName.label "جهاز الأمن">
 <!ENTITY setPassword.oldPassword.label "كلمة السرّ الحاليّة:">
-<!ENTITY setPassword.newPassword.label "كلمة السرّ الجّديدة:">
-<!ENTITY setPassword.reenterPassword.label "كلمة السرّ الجّديدة (مرّة ثانية):">
+<!ENTITY setPassword.newPassword.label "أدخل كلمة السرّ الجّديدة:">
+<!ENTITY setPassword.reenterPassword.label "أعد إدخال كلمة السرّ:">
 <!ENTITY setPassword.meter.label "مقياس جودة كلمة السرّ">
 <!ENTITY setPassword.meter.loading "يجري التّحميل">
-<!-- Values for resetpassword.xul -->
 
+<!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "صفّر">
 <!ENTITY resetPassword.title  "صفّر كلمة السرّ الرّئيسية">
 <!ENTITY resetPassword.text  "إذا صفّرت كلمة السرّ الرئيسية، ستُنسى كلّ كلمات سرّ البريد الإلكتروني و وِب، وبيانات الاستمارات، والشّهادات الشّخصيّة، والمفاتيح السرّية المخزّنة. متأكّد أنّك تريد إعادة ضبط كلمة السرّ الرّئيسية؟">
-<!-- Values for getpassword.xul -->
 
+<!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "أدخل كلمة السرّ الرئيسية">
 <!ENTITY getPassword.tokenName2.label "جهاز الأمن:">
 <!ENTITY getPassword.password.label "كلمة السرّ:">
-<!-- These should be common -->
 
+<!-- These should be common -->
 <!ENTITY piperror.title "خطأ">
 <!ENTITY pipalert.title "خطأ - تعذّر الاسترجاع">
-<!-- Prefs panel strings -->
 
+<!-- Prefs panel strings -->
 <!ENTITY pref.security.general.lHeader "الأمن">
 <!ENTITY pref.security.general.rHeader "إعدادات الأمن العام">
 <!ENTITY pref.security.general.header "إعدادات الأمن العام">
@@ -33,8 +33,8 @@
 <!ENTITY pref.security.general.paranoid.label "استخدم إعدادات أمن شديدة الارتياب">
 <!ENTITY pref.security.general.certificates.title "الشّهادات">
 <!ENTITY pref.security.general.manageCert.label "أدِر الشّهادات">
-<!-- Downloading a cert -->
 
+<!-- Downloading a cert -->
 <!ENTITY downloadCert.title "يجري تنزيل الشّهادات">
 <!ENTITY downloadCert.message1 "يُطلب منك الوثوق بسلطة شهادات جديدة.">
 <!ENTITY downloadCert.trustSSL "ثِق في سلطة الشّهادات هذه لتعريف مواقع وِب.">
@@ -45,14 +45,14 @@
 <!ENTITY downloadCert.viewPolicy.label "السّياسة">
 <!ENTITY downloadCert.viewCert.text "افحص شهادة سلطة الشّهادات">
 <!ENTITY downloadCert.viewPolicy.text "افحص سياسة و إجراءات سلطة الشّهادات">
-<!-- Strings for the SSL client auth ask dialog -->
 
+<!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "طلب تعريف مستخدم">
 <!ENTITY clientAuthAsk.message1 "طلب هذا الموقع أن تعرّف نفسك بشهادة:">
 <!ENTITY clientAuthAsk.message2 "اختر شهادة لتقدّمها كتعريف:">
 <!ENTITY clientAuthAsk.message3 "تفاصيل الشّهادة المختارة:">
-<!-- Strings for the cert picker dialog -->
 
+<!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "اختر شهادة">
 <!ENTITY certPicker.info  "الشهادة:">
 <!ENTITY certPicker.detailsLabel "تفاصيل الشّهادة المختارة:">
@@ -75,18 +75,18 @@
 <!ENTITY escrowWarn.message2 "إلّا أنّ المفتاح السرّي ستخزّنه سلطة الشّهادات، و يمكن أن يستخدم لقراءة بريدك أو مستنداتك المعمّاة دون إذنك.">
 <!ENTITY examineCert.label "عرض الشّهادة">
 <!ENTITY examineCert.accesskey "ش">
-<!-- Strings for the CreateCertInfo dialog  -->
 
+<!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "يجري توليد مفتاح سري">
 <!ENTITY createCertInfo.msg1 "يجري توليد المفتاح… قد يستغرق هذا بضعة دقائق….">
 <!ENTITY createCertInfo.msg2 "من فضلك انتظر…">
-<!-- Form Signing confirmation prompt -->
 
+<!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "طلب توقيع النّصّ">
 <!ENTITY formSigning.cert "توقيع الشّهادة">
 <!ENTITY formSigning.confirmPassword "لتأكّيد موافقتك على توقيع الرّسالة النصّية هذه باستخدام الشّهادة المختارة، رجاءً أكّد هذا بإدخال كلمة السرّ الرئيسية:">
-<!-- Strings for protectedAuth dialog -->
 
+<!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "استيثاق علامة محمية">
 <!ENTITY protectedAuth.msg "من فضلك استوثق من هذه العلامة. تعتمد طريقة الاستيثاق على نوع علامتك.">
 <!ENTITY protectedAuth.tokenName.label "علامة:">

@@ -3,17 +3,25 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY safeModeDialog.title         "وضع &brandShortName; الآمن">
-<!ENTITY window.maxWidth              "400">
+<!ENTITY window.width                 "38em">
 
-<!ENTITY startSafeMode.label          "ابدأ في الوضع الآمن">
-<!ENTITY resetProfile.label           "صفِّر &brandShortName;">
+<!ENTITY safeModeDescription.label    "&brandShortName; is now running in Safe Mode, which temporarily disables your custom settings, themes, and extensions.">
+<!ENTITY safeModeDescription2.label   "You can make some or all of these changes permanent:">
 
-<!ENTITY safeModeDescription3.label   "الوضع الآمن هو وضع خاص في &brandShortName; يمكن استخدام لتتبع المشاكل.">
-<!ENTITY safeModeDescription4.label   "ستُعطّل إضافات وإعداداتك المخصصة مؤقتا.">
+<!ENTITY disableAddons.label          "Disable all add-ons">
+<!ENTITY disableAddons.accesskey      "D">
 
-<!ENTITY resetProfileInstead.label    "يمكنك أيضا تصفير &brandShortName; إذا أردت أن تبدأ على بياض.">
-<!-- LOCALIZATION NOTE (autoSafeModeDescription2.label safeModeInstead.label resetProfileFooter.label): Shown on the safe mode dialog after multiple startup crashes. See also chrome/global/resetProfile.dtd -->
+<!ENTITY resetToolbars.label          "Reset toolbars and controls">
+<!ENTITY resetToolbars.accesskey      "R">
 
-<!ENTITY autoSafeModeDescription2.label "أُغلق &brandShortName; فجأة أثناء البدء. قد يكون هذا بسبب أحد الإضافات أو البرامج الأخرى. يمكن محاولة حل المشكلة بتصفير &brandShortName; إلى حالته المبدئية أة تتبع المشكلة في الوضع الآمن.">
-<!ENTITY resetProfileFooter.label       "سيُصفّر كل شيء إلى وضع المصنع.">
-<!ENTITY safeModeInstead.label          "إذا كنت لا ترغب في هذا فيمكنك الاستمرار في الوضع الآمن وتتبع المشكلة بنفسك بينما إضافاتك وإعداداتك المخصصة معطّلة مؤقتا.">
+<!ENTITY deleteBookmarks.label        "Delete all bookmarks except for backups">
+<!ENTITY deleteBookmarks.accesskey    "b">
+
+<!ENTITY resetUserPrefs.label         "Reset all user preferences to &brandShortName; defaults">
+<!ENTITY resetUserPrefs.accesskey     "p">
+
+<!ENTITY restoreSearch.label          "Restore default search engines">
+<!ENTITY restoreSearch.accesskey      "s">
+
+<!ENTITY changeAndRestartButton.label "Make Changes and Restart">
+<!ENTITY continueButton.label         "Continue in Safe Mode">

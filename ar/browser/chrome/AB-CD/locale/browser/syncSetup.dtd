@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY accountSetupTitle.label    "إعداد &syncBrand.fullName.label;">
-<!-- First page of the wizard -->
 
+<!-- First page of the wizard -->
 
 <!ENTITY setup.pickSetupType.description2 "مرحبًا بك. إذا لم تكن قد استخدمت &syncBrand.fullName.label; من قبل، ستحتاج إلى إنشاء حساب جديد.">
 <!ENTITY button.createNewAccount.label "أنشئ حسابًا جديدًا">
@@ -13,8 +13,8 @@
 <!ENTITY setup.choicePage.title.label     "هل استخدمت &syncBrand.fullName.label; من قبل؟">
 <!ENTITY setup.choicePage.new.label       "لم أستخدم &syncBrand.shortName.label; من قبل">
 <!ENTITY setup.choicePage.existing2.label "أستخدم &syncBrand.shortName.label; حاليًا على جهاز آخر">
-<!-- New Account AND Existing Account -->
 
+<!-- New Account AND Existing Account -->
 <!ENTITY server.label               "الخادوم">
 <!ENTITY serverType.default.label      "المبدئي: خادوم &syncBrand.fullName.label; موزيلا">
 <!ENTITY serverType.custom2.label   "استخدم خادومًا مخصصًا…">
@@ -24,8 +24,8 @@
 <!ENTITY signIn.password.accesskey  "ر">
 <!ENTITY signIn.recoveryKey.label       "مفتاح الاستعادة">
 <!ENTITY signIn.recoveryKey.accesskey   "ع">
-<!-- New Account Page 1: Basic Account Info -->
 
+<!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "تفاصيل الحساب">
 <!ENTITY setup.emailAddress.label     "البريد الإلكتروني">
 <!ENTITY setup.emailAddress.accesskey "ت">
@@ -35,9 +35,9 @@
 <!ENTITY setup.confirmPassword.accesskey "س">
 <!ENTITY setup.setupMetro.label     "زامن مع &brandShortName; واجهة وندوز ٨.">
 <!ENTITY setup.setupMetro.accesskey "ز">
+
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
      joined with implicit white space, so spaces in the strings aren't necessary -->
-
 <!ENTITY setup.tosAgree1.label      "أوافق على">
 <!ENTITY setup.tosAgree1.accesskey  "ق">
 <!ENTITY setup.tosLink.label        "بنود الخدمة">
@@ -45,8 +45,8 @@
 <!ENTITY setup.ppLink.label         "سياسة الخصوصية">
 <!ENTITY setup.tosAgree3.label      "">
 <!ENTITY setup.tosAgree2.accesskey  "">
-<!-- My Recovery Key dialog -->
 
+<!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; يهتم بخصوصيتك">
 <!ENTITY setup.newRecoveryKeyPage.description.label "لتأمين المحافظة على كامل خصوصيتك، جميع بياناتك تُعمّى قبل رفعها. لن يُرفع مفتاح الاستعادة الضروري لفك تعمية بياناتك.">
 <!ENTITY recoveryKeyEntry.label        "مفتاح الاستعادة">
@@ -58,8 +58,8 @@
 <!ENTITY button.syncKeyBackup.print.accesskey "ط">
 <!ENTITY button.syncKeyBackup.save.label      "احفظ…">
 <!ENTITY button.syncKeyBackup.save.accesskey  "ظ">
-<!-- Existing Account Page 1: Pair a Device (incl. Pair a Device dialog strings) -->
 
+<!-- Existing Account Page 1: Pair a Device (incl. Pair a Device dialog strings) -->
 <!ENTITY pairDevice.title.label             "اربط جهازًا">
 <!ENTITY addDevice.showMeHow.label          "أرني كيف.">
 <!ENTITY addDevice.dontHaveDevice.label     "الجهاز ليس معي الآن">
@@ -71,15 +71,15 @@
 <!ENTITY addDevice.dialog.successful.label  "أُضيفَ الجهاز بنجاح. قد تستغرق المزامنة الأولى بضع دقائق، وستنتهي في الخلفية.">
 <!ENTITY addDevice.dialog.recoveryKey.label     "تحتاج إلى أن تُدخل مفتاح الاستعادة لتنشيط جهازك. احفظ هذا المفتاح عندك أو اطبعه رجاءً.">
 <!ENTITY addDevice.dialog.connected.label   "الجهاز متصل">
-<!-- Existing Account Page 2: Manual Login -->
 
+<!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "ولوج">
 <!ENTITY existingRecoveryKey.description "يمكنك الحصول على نسخة من مفتاح الاستعادة الخاص به في خيارات &syncBrand.shortName.label; في جهازك الآخر، واختيار ”مفتاح الاستعادة“ من ”إدارة الحساب“.">
 <!ENTITY verifying.label              "يتحقق…">
 <!ENTITY resetPassword.label          "صفّر كلمة السر">
 <!ENTITY resetSyncKey.label           "فقدتُ جهازي الآخر.">
-<!-- Sync Options -->
 
+<!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "خيارات المزامنة">
 <!ENTITY syncDeviceName.label       "اسم الجهاز">
 <!ENTITY syncDeviceName.accesskey   "ه">
@@ -102,15 +102,15 @@
 <!ENTITY choice2.merge.recommended.label "مُزكّى:">
 <!ENTITY choice2a.client.main.label      "استبدل بيانات هذا الجهاز ببياناتي في &syncBrand.shortName.label;">
 <!ENTITY choice2a.server.main.label      "استبدل بيانات الأجهزة الأخرى ببيانات هذا الجهاز">
-<!-- Confirm Merge Options -->
 
+<!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "تأكيد">
 <!ENTITY confirm.merge2.label    "سوف يدمج &syncBrand.fullName.label; الآن بيانات متصفح هذا الجهاز في حسابك على «تزامُن».">
 <!ENTITY confirm.client3.label         "تحذير: ستُحذف بيانات &brandShortName; التالية من هذا الجهاز:">
 <!ENTITY confirm.client2.moreinfo.label "ثم سينسخ &brandShortName; بياناتك في &syncBrand.fullName.label; إلى هذا الجهاز.">
 <!ENTITY confirm.server2.label         "تحذير: بيانات الأجهزة التالية ستُستبدل ببياناتك المحلية:">
-<!-- New & Existing Account: Setup Complete -->
 
+<!-- New &amp; Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "اكتمل الإعداد">
 <!ENTITY changeOptions.label "يمكنك تغيير هذا التفضيل من خلال اختيار خيارات المزامنة أدناه.">
 <!ENTITY continueUsing.label "يمكنك الآن متابعة استخدام &brandShortName;.">

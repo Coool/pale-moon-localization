@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Note: each tab panel must contain unique accesskeys -->
 
+<!-- Note: each tab panel must contain unique accesskeys -->
 
 <!ENTITY generalTab.label                "عام">
 
@@ -27,26 +27,13 @@
 <!ENTITY checkSpelling.accesskey         "ك">
 
 <!ENTITY systemDefaults.label            "مبدئيّات النظام">
-<!--XXX-->
-<!ENTITY alwaysCheckDefault.label        "تحقق دائمًا من كون &brandShortName; المتصفّح المبدئي عند بداية التشغيل">
+<!ENTITY alwaysCheckDefault.label        "تحقق دائمًا من كون &brandShortName; المتصفّح المبدئي عند بداية التشغيل"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "د">
 <!ENTITY setDefault.label                "اجعل &brandShortName; المتصفّح المبدئي">
 <!ENTITY setDefault.accesskey            "ص">
 <!ENTITY isDefault.label                 "‏&brandShortName; هو المتصفح المبدئي حاليا">
 
 <!ENTITY dataChoicesTab.label            "اختيارات البيانات">
-
-<!ENTITY healthReportSection.label       "تقرير حالة &brandShortName;">
-<!ENTITY healthReportDesc.label          "يساعدك في تفحص أداء متصفحك ومشاركة بيانات حالة المتصفح مع &vendorShortName; ">
-<!ENTITY enableHealthReport.label        "فعّل تقرير حالة &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "ت">
-<!ENTITY healthReportLearnMore.label     "اطّلع على المزيد">
-
-<!ENTITY telemetrySection.label          "تليمتري">
-<!ENTITY telemetryDesc.label             "شارك بيانات المتصفح فيما يتعلق بالأداء و الاستخدام و العتاد و التخصيصات مع &vendorShortName; لمساعدتنا في جعل &brandShortName; أفضل">
-<!ENTITY enableTelemetry.label           "فعّل أداة تليمتري">
-<!ENTITY enableTelemetry.accesskey       "ت">
-<!ENTITY telemetryLearnMore.label        "اطّلع على المزيد">
 
 <!ENTITY crashReporterSection.label      "مُبلّغ الانهيار">
 <!ENTITY crashReporterDesc.label         "يُرسل &brandShortName; بلاغات الانهيار إلى &vendorShortName; للمساعدة في تحسين أداء متصفحك و استقراره">
@@ -65,13 +52,13 @@
 <!ENTITY httpCache.label                 "محتوى الوب المخزّن">
 
 <!ENTITY offlineStorage2.label           "محتوى الوب ومعلومات المستخدمة المخزّنة للعمل دون اتصال">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "استعمل حتى">
 <!ENTITY limitCacheSizeBefore.accesskey  "ح">
 <!ENTITY limitCacheSizeAfter.label       "م.بايت من المساحة للذّاكرة الخبيئة">
@@ -104,9 +91,6 @@
 
 <!ENTITY updateHistory.label             "أظهر تأريخ التحديث">
 <!ENTITY updateHistory.accesskey         "ظ">
-
-<!ENTITY useService.label                "استخدم خدمة تعمل في الخلفية لتثبيت التحديثات">
-<!ENTITY useService.accesskey            "خ">
 
 <!ENTITY updateOthers.label              "تحديث تلقائي:">
 <!ENTITY enableSearchUpdate.label        "محركات البحث">

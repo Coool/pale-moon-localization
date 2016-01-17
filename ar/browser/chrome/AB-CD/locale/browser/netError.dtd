@@ -7,8 +7,8 @@
 
 <!ENTITY loadError.label "مشكلة في تحميل الصفحة">
 <!ENTITY retry.label "حاول مرة أخرى">
-<!-- Specific error messages -->
 
+<!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "تعذر الاتصال">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
@@ -130,6 +130,17 @@
 <!ENTITY cspFrameAncestorBlocked.title "حجبتها سياسة أمن المحتوى">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>منع &brandShortName; هذه الصفحة من التحميل بهذه الطريقة لأن للصفحة سياسة أمن محتوى تمنع ذلك.</p>">
 
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "خطأ: محتوى فاسد">
 <!ENTITY corruptedContentError.longDesc "<p>تعذر عرض الصفحة التي تريد مشاهدتها بسبب خطأ أثناء نقل البيانات.</p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul>">
 
@@ -137,11 +148,11 @@
 <!ENTITY securityOverride.linkText "أو يمكنك إضافة استثناء…">
 <!ENTITY securityOverride.getMeOutOfHereButton "أخرجني من هنا!">
 <!ENTITY securityOverride.exceptionButtonLabel "أضِف استثناءً…">
+
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
 button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
-
 
 <!ENTITY securityOverride.warningContent "<p>لا ينبغي أن تضيف استثناءً إذا كنت تستخدم اتصال إنترنت لا تثق به كليًا أو إذا كانت غير معتاد على رؤية تحذير من هذا الخادوم.</p> 
  
