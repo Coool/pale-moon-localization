@@ -1,3 +1,6 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
 <!ENTITY rights.locale-direction "ltr">
 <!ENTITY rights.pagetitle       "about:direitos">
@@ -6,7 +9,7 @@
 
 <!-- Note on pointa / pointb / pointc form:
      These points each have an embedded link in the HTML, so each point is
-     split into chunks for text before the link, the link test, and the text
+     split into chunks for text before the link, the link text, and the text
      after the link. If a localized grammar doesn't need the before or after
      chunk, it can be left blank.
 
@@ -40,9 +43,6 @@
 <!ENTITY rights.intro-point4a-unbranded "Se este produto incorporar serviços web, quaisquer termos do serviço aplicáveis devem ser direccionados para ">
 <!ENTITY rights.intro-point4b-unbranded "a secção de">
 <!ENTITY rights.intro-point4c-unbranded " serviços web.">
-
-<!-- point 3 text for unbranded builds -->
-<!ENTITY rights.intro-point3-unbranded "Quaisquer políticas de privacidade aplicáveis a este produto devem ser colocadas aqui.">
 
 <!ENTITY rights2.webservices-header "Serviços de informação baseados na web do &brandFullName;">
 

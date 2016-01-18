@@ -38,7 +38,7 @@
 
      that's 21 characters, so we set the minimum width to 21ch.
      -->
-<!ENTITY downloadsSummary.minWidth2        "40ch">
+<!ENTITY downloadsSummary.minWidth2       "40ch">
 
 <!ENTITY cmd.pause.label                  "Pausa">
 <!ENTITY cmd.pause.accesskey              "P">
@@ -79,7 +79,8 @@
 <!ENTITY clearDownloadsButton.tooltip     "limpa as transferências concluídas, canceladas e falhadas">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
-     This string is shown when there are no items in the Downloads view.
+     This string is shown when there are no items in the Downloads view, when it
+     is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Não existem transferências.">
 

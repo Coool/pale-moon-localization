@@ -6,7 +6,7 @@
 <!ENTITY places.library.title  "Biblioteca">
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
-<!ENTITY organize.label          "Organizar">
+<!ENTITY organize.label        "Organizar">
 <!ENTITY organize.accesskey    "O">
 <!ENTITY organize.tooltip      "Organizar os seus marcadores">
 
@@ -14,7 +14,7 @@
 <!ENTITY file.close.accesskey           "e">
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "Ver">
-<!ENTITY views.accesskey                 "V">
+<!ENTITY views.accesskey                "V">
 <!ENTITY views.tooltip                  "Alterar vista">
 <!ENTITY view.columns.label             "Mostrar colunas">
 <!ENTITY view.columns.accesskey         "C">
@@ -36,8 +36,8 @@
 
 <!ENTITY cmd.backup.label               "Cópia de segurança...">
 <!ENTITY cmd.backup.accesskey           "C">
-<!ENTITY cmd.restore2.label              "Restaurar">
-<!ENTITY cmd.restore2.accesskey          "R">
+<!ENTITY cmd.restore2.label             "Restaurar">
+<!ENTITY cmd.restore2.accesskey         "R">
 <!ENTITY cmd.restoreFromFile.label      "Escolher ficheiro...">
 <!ENTITY cmd.restoreFromFile.accesskey  "E">
 
@@ -56,6 +56,9 @@
 <!ENTITY cmd.open_tab.accesskey          "s">
 <!ENTITY cmd.open_all_in_tabs.label      "Abrir todas em separadores">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "S">
+
+<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
 
 <!ENTITY cmd.properties.label      "Propriedades">
 <!ENTITY cmd.properties.accesskey  "i">
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "Mover...">
 <!ENTITY cmd.moveBookmarks.accesskey              "M">
 
-<!ENTITY col.name.label          "Nome">
-<!ENTITY col.tags.label          "Etiquetas">
-<!ENTITY col.url.label           "Local">
-<!ENTITY col.lastvisit.label     "Data de visita">
-<!ENTITY col.visitcount.label    "Número de visitas">
-<!ENTITY col.keyword.label       "Palavra-chave">
-<!ENTITY col.description.label   "Descrição">
-<!ENTITY col.dateadded.label     "Adicionado">
-<!ENTITY col.lastmodified.label  "Última modificação">
+<!ENTITY col.name.label              "Nome">
+<!ENTITY col.tags.label              "Etiquetas">
+<!ENTITY col.url.label               "Local">
+<!ENTITY col.lastvisit.label         "Data de visita">
+<!ENTITY col.visitcount.label        "Número de visitas">
+<!ENTITY col.keyword.label           "Palavra-chave">
+<!ENTITY col.description.label       "Descrição">
+<!ENTITY col.dateadded.label         "Adicionado">
+<!ENTITY col.lastmodified.label      "Última modificação">
+<!ENTITY col.parentfolder.label      "Containing Folder">
+<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
 
-<!ENTITY search.label                              "Procurar:">
-<!ENTITY search.accesskey                          "P">
+<!ENTITY search.label                              "Pesquisa web">
+<!ENTITY search.accesskey                          "w">
+
+<!ENTITY search.in.label                           "Search in:">
+<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "Importar e fazer cópia de segurança dos marcadores">
 
-<!ENTITY backButton.tooltip  "Voltar atrás">
+<!ENTITY backButton.tooltip  "Retroceder uma página">
 
-<!ENTITY forwardButton.tooltip  "Ir para a frente">
+<!ENTITY forwardButton.tooltip  "Avançar uma página">
 
 <!ENTITY detailsPane.more.label "Mais">
 <!ENTITY detailsPane.more.accesskey "s">

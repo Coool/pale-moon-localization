@@ -35,18 +35,6 @@
 
 <!ENTITY dataChoicesTab.label            "Escolha dos dados">
 
-<!ENTITY healthReportSection.label       "&brandShortName; Health Report">
-<!ENTITY healthReportDesc.label          "Ajuda-o a compreender melhor o desempenho do seu navegador e partilha dados com a &vendorShortName; sobre a saude do seu navegador">
-<!ENTITY enableHealthReport.label        "Ativar o &brandShortName; Health Report">
-<!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "Saber mais">
-
-<!ENTITY telemetrySection.label          "Telemetria">
-<!ENTITY telemetryDesc.label             "Partilha o desempenho, utilização, hardware e personalização do navegador com a &vendorShortName; para nos ajudar a tornar melhor o &brandShortName;">
-<!ENTITY enableTelemetry.label           "Ativar telemetria">
-<!ENTITY enableTelemetry.accesskey       "T">
-<!ENTITY telemetryLearnMore.label        "Saber mais">
-
 <!ENTITY crashReporterSection.label      "Relator de erros">
 <!ENTITY crashReporterDesc.label         "O &brandShortName; envia relatórios de erro para ajudar a &vendorShortName; a tornar o navegador mais estável e seguro">
 <!ENTITY enableCrashReporter.label       "Ativar o relator de erros">
@@ -87,8 +75,8 @@
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
-<!ENTITY updateAuto1.label                "Instalar automaticamente atualizações (recomendado: melhoria da segurança)">
-<!ENTITY updateAuto1.accesskey            "a">
+<!ENTITY updateAuto1.label               "Instalar automaticamente atualizações (recomendado: melhoria da segurança)">
+<!ENTITY updateAuto1.accesskey           "a">
 <!ENTITY updateAutoMetro.label           "Instalar automaticamente a partir do ambiente de trabalho e do estilo do Windows 8 do &brandShortName;">
 <!ENTITY updateAutoMetro.accesskey       "s">
 <!ENTITY updateCheck.label               "Procurar atualizações, mas deixar-me escolher a instalação">
@@ -104,9 +92,6 @@
 <!ENTITY updateHistory.label             "Mostrar o histórico das atualizações">
 <!ENTITY updateHistory.accesskey         "h">
 
-<!ENTITY useService.label                "Usar serviço em pano de fundo para instalar atualizações">
-<!ENTITY useService.accesskey            "b">
-
 <!ENTITY updateOthers.label              "Atualizar automaticamente:">
 <!ENTITY enableSearchUpdate.label        "Motores de pesquisa">
 <!ENTITY enableSearchUpdate.accesskey    "e">
@@ -116,7 +101,7 @@
 <!ENTITY offlineNotifyExceptions.label   "Exceções...">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label           "Os seguintes sítios web estão autorizados a guardar dados para usar no modo desligado:">
+<!ENTITY offlineAppsList2.label          "Os seguintes sítios web estão autorizados a guardar dados para usar no modo desligado:">
 <!ENTITY offlineAppsList.height          "8em">
 <!ENTITY offlineAppsListRemove.label     "Remover...">
 <!ENTITY offlineAppsListRemove.accesskey "R">

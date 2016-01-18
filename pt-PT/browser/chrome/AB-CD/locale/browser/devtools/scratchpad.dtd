@@ -29,8 +29,8 @@
 <!ENTITY newWindowCmd.accesskey       "N">
 <!ENTITY newWindowCmd.commandkey      "n">
 
-<!ENTITY openFileCmd.label            "Abrir ficheiro…">
-<!ENTITY openFileCmd.accesskey        "o">
+<!ENTITY openFileCmd.label            "Abrir ficheiro...">
+<!ENTITY openFileCmd.accesskey        "A">
 <!ENTITY openFileCmd.commandkey       "o">
 
 <!ENTITY openRecentMenu.label         "Abrir recentes">
@@ -48,7 +48,7 @@
 
 <!ENTITY closeCmd.label               "Fechar">
 <!ENTITY closeCmd.key                 "W">
-<!ENTITY closeCmd.accesskey           "c">
+<!ENTITY closeCmd.accesskey           "F">
 
 <!ENTITY editMenu.label               "Editar">
 <!ENTITY editMenu.accesskey           "E">
@@ -91,19 +91,19 @@
   -  for the help button in the menubar but Gnome does not.
   -->
 <!ENTITY helpMenu.label               "Ajuda">
-<!ENTITY helpMenu.accesskey           "j">
+<!ENTITY helpMenu.accesskey           "A">
 <!ENTITY helpMenuWin.label            "Ajuda">
-<!ENTITY helpMenuWin.accesskey        "j">
+<!ENTITY helpMenuWin.accesskey        "A">
 
 <!ENTITY documentationLink.label      "Ajuda do Scratchpad na MDN">
 <!ENTITY documentationLink.accesskey  "D">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
-  -  to reset/clear the global object of the context where the code executes.
+  -  to reset/clear the global object of the environment where the code executes.
   -->
-<!ENTITY resetContext2.label           "Reiniciar">
-<!ENTITY resetContext2.accesskey       "R">
+<!ENTITY resetContext2.label          "Reiniciar">
+<!ENTITY resetContext2.accesskey      "R">
 
 <!ENTITY reloadAndRun.label           "Recarregar e executarn">
 <!ENTITY reloadAndRun.accesskey       "E">
@@ -117,4 +117,3 @@
   -  the same name in browser.dtd.
   -->
 <!ENTITY errorConsoleCmd.commandkey   "j">
-

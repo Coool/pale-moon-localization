@@ -1,4 +1,4 @@
-﻿<!-- This Source Code Form is subject to the terms of the Mozilla Public
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip  "Fechar ferramentas do desenvolvedor">
+<!ENTITY toolboxCloseButton.tooltip    "Fechar ferramentas do desenvolvedor">
 <!ENTITY toolboxOptionsButton.key      "h">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -31,14 +31,14 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label3): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label3   "Ativar depuração chrome">
-<!ENTITY options.enableChrome.tooltip  "Ativar esta opção permite usar várias ferramentas do desenvolvedor no contexto do navegador">
+<!ENTITY options.enableChrome.label3    "Ativar depuração chrome">
+<!ENTITY options.enableChrome.tooltip   "Ativar esta opção permite usar várias ferramentas do desenvolvedor no contexto do navegador">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Ativar depuração remota">
-<!ENTITY options.enableRemote.tooltip  "Ativar esta opção permite usar as ferramentas do desenvolvedor para depurar remotamente o Firefox como o Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Ativar esta opção permite usar as ferramentas do desenvolvedor para depurar remotamente o Firefox como o Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -51,7 +51,7 @@
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "Ferramentas do desenvolvedor do Firefox pré-definidas">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->

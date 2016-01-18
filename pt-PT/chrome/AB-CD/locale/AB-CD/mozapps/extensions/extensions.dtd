@@ -2,11 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle                   "Gestor de extras">
-<!ENTITY search.placeholder                   "Procurar todos os extras">
 
+<!ENTITY search.placeholder                   "Procurar todos os extras">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
+
 <!ENTITY loading.label                        "A carregar...">
 <!ENTITY listEmpty.installed.label            "Não tem instalado qualquer extra deste tipo">
 <!ENTITY listEmpty.availableUpdates.label     "Nenhuma atualização encontrada">
@@ -17,6 +18,7 @@
 <!ENTITY installAddonFromFile.label           "Instalar extra a partir de ficheiro...">
 <!ENTITY installAddonFromFile.accesskey       "I">
 <!ENTITY toolsMenu.tooltip                    "Ferramentas para todos os extras">
+
 <!ENTITY cmd.back.tooltip                     "Recuar uma página">
 <!ENTITY cmd.forward.tooltip                  "Avançar uma página">
 
@@ -30,8 +32,8 @@
 <!ENTITY warning.updatesecurity.enable.tooltip     "Ativar verificação de actualização de segurança do extra">
 
 <!-- global informations -->
-<!ENTITY info.plugincheck.label               "Verificar se os plugins estão atualizados">
-<!ENTITY info.plugincheck.tooltip             "Verificar se os plugins estão atualizados">
+<!ENTITY info.plugincheck.label                 "Verificar se os plugins estão atualizados">
+<!ENTITY info.plugincheck.tooltip               "Verificar se os plugins estão atualizados">
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Procurar">
@@ -44,13 +46,11 @@
 <!ENTITY updates.checkForUpdates.accesskey    "c">
 <!ENTITY updates.viewUpdates.label            "Ver atualizações recentes">
 <!ENTITY updates.viewUpdates.accesskey        "V">
-
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
 <!ENTITY updates.updateAddonsAutomatically.label     "Atualizar extras automaticamente">
 <!ENTITY updates.updateAddonsAutomatically.accesskey "A">
-
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
      "Automatically", "Use default global behavior"). These menu items reset the
@@ -81,6 +81,7 @@
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
 <!ENTITY cmd.about.label                      "Sobre">
 <!ENTITY cmd.about.accesskey                  "b">
+
 <!ENTITY cmd.enableAddon.label                "Ativar">
 <!ENTITY cmd.enableAddon.accesskey            "A">
 <!ENTITY cmd.disableAddon.label               "Desativar">
@@ -107,6 +108,7 @@
 <!ENTITY cmd.contribute.label                 "Colaborar">
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "Contribuir para o desenvolvimento deste extra">
+
 <!ENTITY cmd.showReleaseNotes.label           "Mostrar notas da versão">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Mostra as notas de versão desta atualização">
 <!ENTITY cmd.hideReleaseNotes.label           "Ocultar notas da versão">
@@ -125,7 +127,9 @@
 <!ENTITY detail.creator.label                 "Programador">
 <!ENTITY detail.homepage.label                "Página inicial">
 <!ENTITY detail.numberOfDownloads.label       "Transferências">
+
 <!ENTITY detail.contributions.description     "O programador deste extra pede para o ajudar no desenvolvimento com uma pequena contribuição.">
+
 <!ENTITY detail.updateType                    "Atualizações automáticas">
 <!ENTITY detail.updateDefault.label           "Pré-definição">
 <!ENTITY detail.updateDefault.tooltip         "Instalar atualizações automaticamente se for a pré-definição">
@@ -136,6 +140,7 @@
 <!ENTITY detail.home                          "Página inicial">
 <!ENTITY detail.repository                    "Perfil do extra">
 <!ENTITY detail.size                          "Tamanho">
+
 <!ENTITY detail.checkForUpdates.label         "Procurar atualizações">
 <!ENTITY detail.checkForUpdates.accesskey     "P">
 <!ENTITY detail.checkForUpdates.tooltip       "Procurar atualizações para este extra">
@@ -146,12 +151,14 @@
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Altera as preferências deste extra">
 
+
 <!-- ratings -->
 <!ENTITY rating2.label                        "Avaliação:">
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Pausa">
 <!ENTITY progress.cancel.tooltip              "Cancelar">
+
 
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Nome">
@@ -162,21 +169,21 @@
 <!ENTITY sort.relevance.tooltip               "Ordenar por relevância">
 <!ENTITY sort.price.label                     "Preço">
 <!ENTITY sort.price.tooltip                   "Ordenar por preço">
+
 <!ENTITY search.filter2.label                 "Procurar:">
 <!ENTITY search.filter2.installed.label       "Os meus extras">
 <!ENTITY search.filter2.installed.tooltip     "Mostra os extras instalados">
 <!ENTITY search.filter2.available.label       "Extras disponíveis">
 <!ENTITY search.filter2.available.tooltip     "Mostra os extras disponíveis para instalação">
+
 <!ENTITY addon.homepage                       "Página inicial">
 <!ENTITY addon.details.label                  "Mais">
 <!ENTITY addon.details.tooltip                "Mostrar mais detalhes sobre este extra">
 <!ENTITY addon.unknownDate                    "Desconhecido">
-
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
 <!ENTITY addon.disabled.postfix               "(desativado)">
-
 <!-- LOCALIZATION NOTE (addon.update.postfix): This is used in the available
      updates list to signify that an item is an update, in the form
      "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
@@ -197,9 +204,12 @@
 <!ENTITY addon.releaseNotes.label             "Notas da versão:">
 <!ENTITY addon.loadingReleaseNotes.label      "A carregar...">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Desculpe mas ocorreu um erro ao carregar as notas da versão.">
+
 <!ENTITY addon.createdBy.label                "De ">
+
 <!ENTITY eula.title                           "Acordo de licença de utilizador final">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
 <!ENTITY eula.accept                          "Aceitar e instalar...">
+
 <!ENTITY settings.path.button.label           "Explorar...">

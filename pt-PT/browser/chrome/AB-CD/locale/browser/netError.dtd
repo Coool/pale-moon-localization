@@ -173,6 +173,17 @@ tentar mais tarde.</li>
 <!ENTITY cspFrameAncestorBlocked.title "Bloqueado pela política de segurança de conteúdo">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>O &brandShortName; preveniu esta página de carregar porque a página tem uma política de segurança de conteúdos que não permite o carregamento.</p>">
 
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "Erro de conteúdo corrompido">
 <!ENTITY corruptedContentError.longDesc "<p>A página que está a tentar visualizar não pode ser apresentada porque foi detectado um erro na transmissão de dados.</p><ul><li>Por favor, contacte o dono do sítio web para o informar sobre este problema.</li></ul>">
 

@@ -1,43 +1,47 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
--->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label "Enviar Link...">
-<!ENTITY palemoon.sendLinkCmd.accesskey "d">
-<!ENTITY palemoon.sendPageCmd.label "Enviar Página...">
-<!ENTITY palemoon.sendPageCmd.accesskey "e">
-<!ENTITY palemoon.menu.statusBar.label "Barra de estado">
-<!ENTITY palemoon.menu.statusBar.accesskey "S">
-<!ENTITY palemoon.menu.allBookmarks.label "Organizar marcadores">
+<!ENTITY palemoon.sendLinkCmd.label            "Enviar Link...">
+<!ENTITY palemoon.sendLinkCmd.accesskey        "d">
+<!ENTITY palemoon.sendPageCmd.label            "Enviar Página...">
+<!ENTITY palemoon.sendPageCmd.accesskey        "e">
+
+<!ENTITY palemoon.menu.statusBar.label               "Barra de estado">
+<!ENTITY palemoon.menu.statusBar.accesskey           "S">
+<!ENTITY palemoon.menu.allBookmarks.label            "Organizar marcadores">
+
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label "Usar a janela clássica de downloads">
-<!ENTITY palemoon.showTabBar.label "Mostrar sempre a barra de separadores">
-<!ENTITY palemoon.showTabBar.accesskey "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label "Inserir separadores relacionados junto ao separador actual">
-<!ENTITY palemoon.contextLoadInBackground.label "Ao executar uma pesquisa de contexto, mudar imediatamente para o novo separador">
-<!ENTITY palemoon.closeWindowWithLastTab.label "Fechar a janela quando o último separador for fechado">
-<!ENTITY palemoon.newtabPage.label "Ao abrir um novo separador, mostrar:">
-<!ENTITY palemoon.newtabPage.blank.label "Uma página em branco">
-<!ENTITY palemoon.newtabPage.home.label "A página inicial do Pale Moon">
-<!ENTITY palemoon.newtabPage.quickdial.label "A página Quickdial">
-<!ENTITY palemoon.loadImages.label "Carregar imagens:">
-<!ENTITY palemoon.loadImages.always "Automaticamente">
-<!ENTITY palemoon.loadImages.never "Nunca">
-<!ENTITY palemoon.loadImages.no3rdparty "Do servidor apenas">
-<!ENTITY palemoon.firefoxCompatGroup.label "Compatibilidade do Firefox">
-<!ENTITY palemoon.firefoxCompat.label "Usar o modo de Compatibilidade do Firefox">
-<!ENTITY palemoon.scrollparamTab.label "Deslocamento">
-<!ENTITY palemoon.smoothscroll.explain.label "Os parâmetros abaixo apenas têm efeito se o deslocamento suave estiver ligado através da caixa de verificação acima.">
-<!ENTITY palemoon.smoothscroll.to "para">
-<!ENTITY palemoon.smoothscroll.params.label "Parâmetros do deslocamento suave">
-<!ENTITY palemoon.smoothscroll.mousewheel.label "Deslocamento suave com roda do rato">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration "Duração do deslocamento da rota do rato:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label "Deslocamento suave com teclas cursoras">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration "Duração do deslocamento das teclas cursoras:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label "Deslocamento suave do page up/down">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration "Duração do deslocamento do page up/down:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label "Deslocamento suave com barras de deslocamento">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration "Duração do deslocamento das barras de deslocamento:">
-<!ENTITY allTabs.filter.emptyText "Procurar Separadores">
+<!ENTITY toolkit.classic.download.window.label       "Usar a janela clássica de downloads">
+
+<!ENTITY palemoon.showTabBar.label                   "Mostrar sempre a barra de separadores">
+<!ENTITY palemoon.showTabBar.accesskey               "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Inserir separadores relacionados junto ao separador actual">
+<!ENTITY palemoon.contextLoadInBackground.label      "Ao executar uma pesquisa de contexto, mudar imediatamente para o novo separador">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "Fechar a janela quando o último separador for fechado">
+<!ENTITY palemoon.newtabPage.label                   "Ao abrir um novo separador, mostrar:">
+<!ENTITY palemoon.newtabPage.blank.label             "Uma página em branco">
+<!ENTITY palemoon.newtabPage.home.label              "A página inicial do Pale Moon">
+<!ENTITY palemoon.newtabPage.quickdial.label         "A página Quickdial">
+
+<!ENTITY palemoon.loadImages.label            "Carregar imagens:">
+<!ENTITY palemoon.loadImages.always           "Automaticamente">
+<!ENTITY palemoon.loadImages.never            "Nunca">
+<!ENTITY palemoon.loadImages.no3rdparty       "Do servidor apenas">
+
+<!ENTITY palemoon.firefoxCompatGroup.label    "Compatibilidade do Firefox">
+<!ENTITY palemoon.firefoxCompat.label         "Usar o modo de Compatibilidade do Firefox">
+
+<!ENTITY palemoon.scrollparamTab.label               "Deslocamento">
+<!ENTITY palemoon.smoothscroll.explain.label         "Os parâmetros abaixo apenas têm efeito se o deslocamento suave estiver ligado através da caixa de verificação acima.">
+<!ENTITY palemoon.smoothscroll.to                    "para">
+<!ENTITY palemoon.smoothscroll.params.label          "Parâmetros do deslocamento suave">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "Deslocamento suave com roda do rato">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Duração do deslocamento da rota do rato:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Deslocamento suave com teclas cursoras">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Duração do deslocamento das teclas cursoras:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "Deslocamento suave do page up/down">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Duração do deslocamento do page up/down:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "Deslocamento suave com barras de deslocamento">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Duração do deslocamento das barras de deslocamento:">
