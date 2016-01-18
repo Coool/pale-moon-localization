@@ -27,12 +27,12 @@
 <!ENTITY view.sortDescending.label      "Z > A poredak">
 <!ENTITY view.sortDescending.accesskey  "Z">
 
+<!ENTITY importBookmarksFromHTML.label     "Uvezi zabilješke iz HTML-a…">
+<!ENTITY importBookmarksFromHTML.accesskey "I">
 <!ENTITY exportBookmarksToHTML.label       "Izvezi zabilješke u HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "E">
 <!ENTITY importOtherBrowser.label          "Uvezi podatke iz drugog web preglednika…">
 <!ENTITY importOtherBrowser.accesskey      "a">
-<!ENTITY importBookmarksFromHTML.label     "Uvezi zabilješke iz HTML-a…">
-<!ENTITY importBookmarksFromHTML.accesskey "I">
 
 <!ENTITY cmd.backup.label               "Kopija…">
 <!ENTITY cmd.backup.accesskey           "K">
@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Otvori sve u karticama">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "s">
 
+<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "Svojstva">
 <!ENTITY cmd.properties.accesskey  "S">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "Premjesti…">
 <!ENTITY cmd.moveBookmarks.accesskey              "P">
 
-<!ENTITY col.name.label          "Ime">
-<!ENTITY col.tags.label          "Oznake">
-<!ENTITY col.url.label           "Lokacija">
-<!ENTITY col.lastvisit.label     "Datum posjete">
-<!ENTITY col.visitcount.label    "Broj posjeta">
-<!ENTITY col.keyword.label       "Ključna riječ">
-<!ENTITY col.description.label   "Opis">
-<!ENTITY col.dateadded.label     "Dodano">
-<!ENTITY col.lastmodified.label  "Zadnje izmijenjeno">
+<!ENTITY col.name.label              "Ime">
+<!ENTITY col.tags.label              "Oznake">
+<!ENTITY col.url.label               "Lokacija">
+<!ENTITY col.lastvisit.label         "Datum posjete">
+<!ENTITY col.visitcount.label        "Broj posjeta">
+<!ENTITY col.keyword.label           "Ključna riječ">
+<!ENTITY col.description.label       "Opis">
+<!ENTITY col.dateadded.label         "Dodano">
+<!ENTITY col.lastmodified.label      "Zadnje izmijenjeno">
+<!ENTITY col.parentfolder.label      "Containing Folder">
+<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
 
 <!ENTITY search.label                              "Pretraga:">
 <!ENTITY search.accesskey                          "P">
+
+<!ENTITY search.in.label                           "Search in:">
+<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "U">
 <!ENTITY maintenance.tooltip    "Unesite ili izvezite svoje zabilješke">
 
-<!ENTITY backButton.tooltip  "Idi natrag">
+<!ENTITY backButton.tooltip  "Natrag za jednu stranicu">
 
-<!ENTITY forwardButton.tooltip  "Idi naprijed">
+<!ENTITY forwardButton.tooltip  "Naprijed za jednu stranicu">
 
 <!ENTITY detailsPane.more.label "Više">
 <!ENTITY detailsPane.more.accesskey "V">
@@ -107,18 +124,17 @@
 <!ENTITY detailsPane.less.accesskey "M">
 <!ENTITY detailsPane.selectAnItemText.description "Odaberite stavku za pregled i ureživanje njenih svojstava">
 
-
 <!ENTITY find.label               "Traži:">
 <!ENTITY find.accesskey           "ž">
-<!ENTITY byDate.label             "Prema datumu">
-<!ENTITY byDate.accesskey         "d">
-<!ENTITY byDayAndSite.label       "Prema datumu i stranici">
-<!ENTITY byDayAndSite.accesskey   "t">
-<!ENTITY byLastVisited.label      "Prema zadnjem posjetu">
-<!ENTITY byLastVisited.accesskey  "r">
-<!ENTITY byMostVisited.label      "Prema posjećenosti">
-<!ENTITY byMostVisited.accesskey  "e">
-<!ENTITY bySite.label             "Prema stranici">
-<!ENTITY bySite.accesskey         "s">
 <!ENTITY view.label               "Prikaz">
 <!ENTITY view.accesskey           "i">
+<!ENTITY byDate.label             "Prema datumu">
+<!ENTITY byDate.accesskey         "d">
+<!ENTITY bySite.label             "Prema stranici">
+<!ENTITY bySite.accesskey         "s">
+<!ENTITY byMostVisited.label      "Prema posjećenosti">
+<!ENTITY byMostVisited.accesskey  "e">
+<!ENTITY byLastVisited.label      "Prema zadnjem posjetu">
+<!ENTITY byLastVisited.accesskey  "r">
+<!ENTITY byDayAndSite.label       "Prema datumu i stranici">
+<!ENTITY byDayAndSite.accesskey   "t">

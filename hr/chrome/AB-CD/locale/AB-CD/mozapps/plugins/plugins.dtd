@@ -1,24 +1,6 @@
-<!ENTITY pluginWizard.title                                  "Servis pretrage priključaka">
-<!ENTITY pluginWizard.firstPage.title                        "Dobrodošli u &pluginWizard.title;">
-
-<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; sada provjerava za dostupne priključke...">
-
-<!ENTITY pluginWizard.availablePluginsPage.title             "Preuzimanje dostupnih priključaka">
-<!ENTITY pluginWizard.availablePluginsPage.description.label "Dostupni su sljedeći priključci:">
-<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Pritisnite Dalje da biste instalirali ove priključke.">
-<!ENTITY pluginWizard.availablePluginsPage.installerUI       "Neki priključci tijekom instalacije mogu zahtijevati dodatne informacije od vas.">
-
-<!ENTITY pluginWizard.licensePage.title                      "Licence priključaka">
-<!ENTITY pluginWizard.licensePage.accept.label               "Slažem se.">
-<!ENTITY pluginWizard.licensePage.deny.label                 "Ne slažem se (priključak neće biti instaliran).">
-
-<!ENTITY pluginWizard.installPluginsPage.title               "Instaliram priključke">
-<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; instalira priključke...">
-
-<!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; je završio s instalacijom nedostajućih priključaka:">
-
-<!ENTITY pluginWizard.finalPage.moreInfo.label               "Saznajte više o priključcima ili ručno pronađite nedostajuće priključke.">
-<!ENTITY pluginWizard.finalPage.restart.label                "&brandShortName; mora biti ponovno pokrenut da bi priključak/ci mogli raditi.">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
      is not supported on some devices. Include a trailing space as needed. -->
@@ -28,7 +10,7 @@
 <!ENTITY unsupportedPlatform.learnMore                       "Saznajte više…">
 <!-- LOCALIZATION NOTE (unsupportedPlatform.post): Mobile only. Include text here if needed for your locale. -->
 <!ENTITY unsupportedPlatform.post                            "">
-  
+
 <!ENTITY missingPlugin                                       "Za prikaz ovog sadržaja potreban je priključak.">
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
 <!ENTITY tapToPlayPlugin                                     "Pritisnite ovdje da biste aktivirali priključak.">
@@ -36,8 +18,6 @@
 <!ENTITY checkForUpdates                                     "Provjeri dostupnost dopuna…">
 <!ENTITY disabledPlugin                                      "Ovaj je priključak onemogućen.">
 <!ENTITY blockedPlugin.label                                 "Ovaj je priključak blokiran radi vaše sigurnosti.">
-
-<!ENTITY installPlugin                                       "Instaliraj priključak…">
 <!ENTITY managePlugins                                       "Upravljanje priključcima…">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->

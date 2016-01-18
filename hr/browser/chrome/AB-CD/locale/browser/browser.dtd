@@ -14,7 +14,39 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Privatno pretraživanje)">
-<!-- LOCALIZATION NOTE (mainWindowPrivateBrowsing.titlemodifier): DONT_TRANSLATE -->
+
+<!-- Tab context menu -->
+<!ENTITY  reloadTab.label                    "Osvježi karticu">
+<!ENTITY  reloadTab.accesskey                "v">
+<!ENTITY  reloadAllTabs.label                "Osvježi sve kartice">
+<!ENTITY  reloadAllTabs.accesskey            "v">
+<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
+direction in which tabs are closed, i.e. locales that use RTL mode should say
+left instead of right. -->
+<!ENTITY  closeTabsToTheEnd.label            "Zatvori kartice na desno">
+<!ENTITY  closeTabsToTheEnd.accesskey        "i">
+<!ENTITY  closeOtherTabs.label               "Zatvori ostale kartice">
+<!ENTITY  closeOtherTabs.accesskey           "o">
+
+<!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
+used as a metaphor for expressing the fact that these tabs are "pinned" to the
+left edge of the tabstrip. Really we just want the string to express the idea
+that this is a lightweight and reversible action that keeps your tab where you
+can reach it easily. -->
+<!ENTITY  pinTab.label                       "Zakači karticu">
+<!ENTITY  pinTab.accesskey                   "k">
+<!ENTITY  unpinTab.label                     "Otkači karticu">
+<!ENTITY  unpinTab.accesskey                 "O">
+<!ENTITY  moveToNewWindow.label              "Premjesti u novi prozor">
+<!ENTITY  moveToNewWindow.accesskey          "z">
+<!ENTITY  bookmarkAllTabs.label              "Zabilježi sve kartice…">
+<!ENTITY  bookmarkAllTabs.accesskey          "T">
+<!ENTITY  undoCloseTab.label                 "Poništi zatvaranje kartice">
+<!ENTITY  undoCloseTab.accesskey             "P">
+<!ENTITY  closeTab.label                     "Zatvori karticu">
+<!ENTITY  closeTab.accesskey                 "c">
+
+<!ENTITY  listAllTabs.label      "Popis svih tabova">
 
 <!ENTITY tabCmd.label "Nova kartica">
 <!ENTITY tabCmd.accesskey "t">
@@ -42,6 +74,8 @@
 <!ENTITY personalbarCmd.label "Alatna traka zabilješki">
 <!ENTITY personalbarCmd.accesskey "z">
 <!ENTITY bookmarksToolbarItem.label "Stavke alatne trake zabilješki">
+<!ENTITY addonBarCmd.label "Traka dodataka">
+<!ENTITY addonBarCmd.accesskey "d">
 
 <!ENTITY pageSourceCmd.label "Izvorni kod stranice">
 <!ENTITY pageSourceCmd.accesskey "o">
@@ -83,24 +117,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenu.accesskey "b">
 <!ENTITY bookmarkThisPageCmd.label "Zabilježi ovu stranicu">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY sharePageCmd.label "Podijeli ovu stranicu">
-<!ENTITY sharePageCmd.commandkey "S">
-<!ENTITY sharePageCmd.accesskey "s">
-<!ENTITY shareLinkCmd.label "Podijeli ovu poveznicu">
-<!ENTITY shareLinkCmd.accesskey "p">
-<!ENTITY shareImageCmd.label "Podijeli ovu sliku">
-<!ENTITY shareImageCmd.accesskey "p">
-<!ENTITY shareSelectCmd.label "Podijeli odabrano">
-<!ENTITY shareSelectCmd.accesskey "p">
-<!ENTITY shareVideoCmd.label "Podijeli ovaj video">
-<!ENTITY shareVideoCmd.accesskey "p">
 <!ENTITY markPageCmd.commandkey "l">
-
 <!ENTITY subscribeToPageMenupopup.label "Pretplati se na ovu stranicu">
 <!ENTITY subscribeToPageMenuitem.label "Pretplati se na ovu stranicu...">
 <!ENTITY addCurPagesCmd.label "Dodaj sve kartice u zabilješke...">
-<!ENTITY bookmarksToolbarChevron.tooltip "Prikaži više zabilješki">
+<!ENTITY showAllBookmarks2.label "Prikaži sve zabilješke">
 <!ENTITY unsortedBookmarksCmd.label "Nesortirane zabilješke">
+<!ENTITY bookmarksToolbarChevron.tooltip "Prikaži više zabilješki">
 
 <!ENTITY backCmd.label                "Natrag">
 <!ENTITY backCmd.accesskey            "N">
@@ -118,21 +141,33 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Zaustavi učitavanje stranice">
 <!ENTITY goEndCap.tooltip             "Idi na adresu iz lokacijske trake">
-<!ENTITY feedButton.tooltip           "Pretplati se na ovu stranicu…">
 <!ENTITY printButton.label            "Ispis">
 <!ENTITY printButton.tooltip          "Ispiši ovu stranicu">
 
+<!ENTITY backForwardItem.title        "Natrag/Naprijed">
 <!ENTITY locationItem.title           "Lokacija">
 <!ENTITY searchItem.title             "Traži">
 <!ENTITY throbberItem.title           "Indikator aktivnosti">
 <!ENTITY bookmarksItem.title          "Zabilješke">
 
 <!-- Toolbar items --> 
-<!ENTITY  homeButton.label            "Početna stranica">
+<!ENTITY appMenuButton.label          "Izbornik">
+<!ENTITY appMenuButton.tooltip        "Otvori &brandShortName; izbornik">
+<!ENTITY homeButton.label             "Početna stranica">
+
+<!ENTITY feedButton.label             "Pretplata">
+<!ENTITY feedButton.tooltip           "Pretplati se na ovu stranicu…">
 
 <!ENTITY bookmarksButton.label          "Zabilješke">
 <!ENTITY bookmarksButton.tooltip        "Prikaži svoje zabilješke">
 <!ENTITY bookmarksCmd.commandkey "b">
+
+<!ENTITY bookmarksMenuButton.label          "Zabilješke">
+<!ENTITY bookmarksMenuButton.tooltip        "Prikazuje sve zabilješke">
+<!ENTITY bookmarksMenuButton.unsorted.label "Neorganizirane zabilješke">
+<!ENTITY viewBookmarksSidebar.label         "Prikaži na bočnoj traci">
+<!ENTITY viewBookmarksToolbar.label         "Prikaži traku zabilješki">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -157,12 +192,62 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY downloadsUnix.commandkey     "y">
 <!ENTITY addons.label                 "Dodaci">
 <!ENTITY addons.accesskey             "A">
+<!ENTITY addons.commandkey            "a">
 
 <!ENTITY webDeveloperMenu.label       "Web programer">
 <!ENTITY webDeveloperMenu.accesskey   "W">
 
+<!ENTITY devtoolsConnect.label        "Poveži…">
+<!ENTITY devtoolsConnect.accesskey    "e">
+
 <!ENTITY errorConsoleCmd.label        "Konzola grešaka">
 <!ENTITY errorConsoleCmd.accesskey    "g">
+
+<!ENTITY remoteWebConsoleCmd.label    "Udaljena web konzola">
+
+<!ENTITY browserConsoleCmd.label      "Konzola preglednika">
+<!ENTITY browserConsoleCmd.commandkey "j">
+<!ENTITY browserConsoleCmd.accesskey  "K">
+
+<!ENTITY inspectContextMenu.label     "Ispitaj element">
+<!ENTITY inspectContextMenu.accesskey "e">
+
+<!ENTITY responsiveDesignTool.label   "Prikaz responsivnog dizajna">
+<!ENTITY responsiveDesignTool.accesskey "r">
+<!ENTITY responsiveDesignTool.commandkey "M">
+
+<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
+  -  in the Tools menu. See bug 653093.
+  -  The Scratchpad is intended to provide a simple text editor for creating
+  -  and evaluating bits of JavaScript code for the purposes of function
+  -  prototyping, experimentation and convenient scripting.
+  -
+  -  It's quite possible that you won't have a good analogue for the word
+  -  "Scratchpad" in your locale. You should feel free to find a close
+  -  approximation to it or choose a word (or words) that means
+  -  "simple discardable text editor". -->
+<!ENTITY scratchpad.label             "Scratchpad">
+<!ENTITY scratchpad.accesskey         "s">
+<!ENTITY scratchpad.keycode           "VK_F4">
+<!ENTITY scratchpad.keytext           "F4">
+
+<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
+  -  application menu item that opens the browser debugger UI in the Tools menu. -->
+<!ENTITY chromeDebuggerMenu.label       "Debugger web preglednika">
+
+<!ENTITY devToolbarCloseButton.tooltiptext "Zatvori alatnu traku programera">
+<!ENTITY devToolbarMenu.label              "Alatna traka programera">
+<!ENTITY devToolbarMenu.accesskey          "g">
+<!ENTITY devToolbar.keycode                "VK_F2">
+<!ENTITY devToolbar.keytext                "F2">
+<!ENTITY devToolboxMenuItem.label          "Uključi/isključi alate">
+<!ENTITY devToolboxMenuItem.accesskey      "t">
+
+<!ENTITY devToolbarToolsButton.tooltip     "Uključi/isključi alate za razvijatelje">
+<!ENTITY devToolbarOtherToolsButton.label  "Više alata">
+
+<!ENTITY getMoreDevtoolsCmd.label        "Pronađi više alata">
+<!ENTITY getMoreDevtoolsCmd.accesskey    "l">
 
 <!ENTITY fileMenu.label         "Datoteka"> 
 <!ENTITY fileMenu.accesskey       "D">
@@ -195,10 +280,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Označi sve">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
+<!ENTITY preferencesCmd2.label       "Mogućnosti">
+<!ENTITY preferencesCmd2.accesskey     "M">
 <!ENTITY preferencesCmdUnix.label       "Postavke">
 <!ENTITY preferencesCmdUnix.accesskey     "P"> 
 
-<!-- LOCALIZATION NOTE : These two strings can share an access key beause they never appear together on the menu -->
+<!ENTITY clearRecentHistory.label               "Obriši nedavnu povijest…">
+
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
 <!ENTITY viewMenu.label         "Pogled"> 
@@ -209,31 +297,47 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "b">
 <!ENTITY viewCustomizeToolbar.label       "Prilagodi..."> 
 <!ENTITY viewCustomizeToolbar.accesskey     "l">
+<!ENTITY viewTabsOnTop.label            "Kartice na vrhu">
+<!ENTITY viewTabsOnTop.accesskey        "t">
 
 <!ENTITY historyMenu.label "Povijest">
 <!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "Nedavno zatvorene kartice">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Nedavno zatvoreni prozori">
+<!ENTITY historyRestoreLastSession.label "Vrati prijašnju sesiju">
 
 <!ENTITY historyHomeCmd.label "Početna stranica">
 <!ENTITY showAllHistoryCmd2.label "Prikaži svu povijest">
 <!ENTITY showAllHistoryCmd.commandkey "h">
 
+<!ENTITY appMenuEdit.label "Uredi">
+<!ENTITY appMenuCustomize.label "Prilagodi">
+<!ENTITY appMenuToolbarLayout.label "Raspored alatne trake…">
+<!ENTITY appMenuSidebars.label "Bočne trake">
+<!ENTITY appMenuFind.label "Traži…">
+<!ENTITY appMenuUnsorted.label "Neorganizirane zabilješke">
+<!ENTITY appMenuWebDeveloper.label "Web razvijatelj">
+<!ENTITY appMenuGettingStarted.label "Upoznavanje">
+<!ENTITY appMenuSafeMode.label "Ponovno pokreni s isključenim dodacima…">
+<!ENTITY appMenuSafeMode.accesskey "R">
+
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Pretražite ili upišite adresu">
 <!ENTITY urlbar.accesskey             "r">
+<!ENTITY urlbar.switchToTab.label     "Prebaci na karticu:">
 
 <!-- 
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
-  
+
   Unix: Ctrl+J (0.8, 0.9 support)
         Ctrl+K (cross platform binding)
-  Mac:  Ctrl+K (cross platform binding)
+  Mac:  Cmd+K (cross platform binding)
+        Cmd+Opt+F (platform convention)
   Win:  Ctrl+K (cross platform binding)
-        Ctrl+E (IE compat) 
+        Ctrl+E (IE compat)
 
   We support Ctrl+K on all platforms now and advertise it in the menu since it is
   our standard - it is a "safe" choice since it is near no harmful keys like "W" as
@@ -242,24 +346,23 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   is a fundamental keybinding and we are maintaining a XP binding so that it is easy
   for people to switch to Linux.
 
-  Do *not* tamper with these values without talking to ben@mozilla.org
-  
  -->
 <!ENTITY searchFocus.commandkey       "k">
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!ENTITY devToolbarOtherToolsButton.label  "Više alata">
-<!ENTITY openLinkCmd.label            "Otvori poveznicu u novom prozoru">
-<!ENTITY openLinkCmd.accesskey        "n">
 <!ENTITY openLinkCmdInTab.label       "Otvori poveznicu u novoj kartici">
 <!ENTITY openLinkCmdInTab.accesskey   "T">
+<!ENTITY openLinkCmd.label            "Otvori poveznicu u novom prozoru">
+<!ENTITY openLinkCmd.accesskey        "n">
 <!ENTITY openLinkInPrivateWindowCmd.label "Otvori poveznicu u novom prozoru Privatnog pretraživanja">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
-<!ENTITY openFrameCmd.label           "Otvori okvir u novom prozoru">
-<!ENTITY openFrameCmd.accesskey       "p">
+<!ENTITY openLinkCmdInCurrent.label     "Otvori poveznicu">
+<!ENTITY openLinkCmdInCurrent.accesskey "O">
 <!ENTITY openFrameCmdInTab.label      "Otvori okvir u novoj kartici">
 <!ENTITY openFrameCmdInTab.accesskey  "T">
+<!ENTITY openFrameCmd.label           "Otvori okvir u novom prozoru">
+<!ENTITY openFrameCmd.accesskey       "p">
 <!ENTITY showOnlyThisFrameCmd.label     "Prikaži samo ovaj okvir">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -296,6 +399,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "l">
 <!ENTITY bookmarkThisFrameCmd.label      "Zabilježi ovaj okvir">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "o">
+<!ENTITY emailPageCmd.label           "Pošalji poveznicu e-poštom…">
+<!ENTITY emailPageCmd.accesskey       "e">
 <!ENTITY savePageCmd.label            "Spremi stranicu kao…">
 <!ENTITY savePageCmd.accesskey        "a">
 <!-- alternate for content area context menu -->
@@ -319,9 +424,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailVideoCmd.accesskey      "a">
 <!ENTITY emailAudioCmd.label          "Pošalji zvuk e-poštom…">
 <!ENTITY emailAudioCmd.accesskey      "a">
-<!ENTITY emailPageCmd.label           "Pošalji poveznicu e-poštom…">
-<!ENTITY emailPageCmd.accesskey       "e">
-
 <!ENTITY playPluginCmd.label          "Aktiviraj ovaj priključak">
 <!ENTITY playPluginCmd.accesskey      "k">
 <!ENTITY hidePluginCmd.label          "Sakrij ovaj priključak">
@@ -342,10 +444,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY thisFrameMenu.accesskey          "o">
 
 <!-- Media (video/audio) controls -->
+<!-- LOCALIZATION NOTE: The access keys for "Play" and
+"Pause" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "Pokreni">
 <!ENTITY mediaPlay.accesskey         "P">
 <!ENTITY mediaPause.label            "Pauziraj">
 <!ENTITY mediaPause.accesskey        "z">
+<!-- LOCALIZATION NOTE: The access keys for "Mute" and
+"Unmute" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaMute.label             "Utišaj">
 <!ENTITY mediaMute.accesskey         "U">
 <!ENTITY mediaUnmute.label           "Odtišaj">
@@ -363,11 +471,24 @@ movie "Space Balls" and is meant to say that this speed is very
 fast. -->
 <!ENTITY mediaPlaybackRate200x.label "Suludo ubrzano (2×)">
 <!ENTITY mediaPlaybackRate200x.accesskey "l">
+<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
+"Hide Controls" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaShowControls.label     "Prikaži kontrole">
 <!ENTITY mediaShowControls.accesskey "k">
 <!ENTITY mediaHideControls.label     "Sakrij kontrole">
 <!ENTITY mediaHideControls.accesskey "k">
-
+<!ENTITY videoFullScreen.label       "Cijeli zaslon">
+<!ENTITY videoFullScreen.accesskey   "C">
+<!ENTITY videoSaveImage.label        "Snimi sliku kao…">
+<!ENTITY videoSaveImage.accesskey    "S">
+<!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
+"Hide Statistics" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY videoShowStats.label        "Prikaži statistiku">
+<!ENTITY videoShowStats.accesskey    "t">
+<!ENTITY videoHideStats.label        "Sakrij statistiku">
+<!ENTITY videoHideStats.accesskey    "t">
 
 <!-- LOCALIZATION NOTE :
 fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
@@ -403,7 +524,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY cutButton.tooltip              "Izreži">
 <!ENTITY copyButton.tooltip             "Kopiraj">
 <!ENTITY pasteButton.tooltip            "Zalijepi">
+
 <!ENTITY fullScreenButton.tooltip       "Prikaži prozor preko cijelog zaslona">
+
+<!ENTITY zoomOutButton.tooltip          "Uvećaj">
+<!ENTITY zoomInButton.tooltip           "Umanji">
+<!ENTITY zoomControls.label             "Zumiranje">
 
 <!ENTITY quitApplicationCmdWin.label       "Izlaz"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "I">
@@ -475,191 +601,24 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "Više informacija…">
 
+<!ENTITY allTabs.filter.emptyText "Search Tabs">
+<!-- Name for the tabs toolbar as spoken by screen readers.
+     The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "Kartice preglednika">
-
-<!ENTITY addonBarCmd.label "Traka dodataka">
-<!ENTITY addonBarCmd.accesskey "d">
-
-<!ENTITY addons.commandkey            "a">
-
-<!ENTITY appMenuButton.label          "Izbornik">
-<!ENTITY appMenuButton.tooltip        "Otvori &brandShortName; izbornik">
-
-<!ENTITY appMenuEdit.label "Uredi">
-<!ENTITY appMenuCustomize.label "Prilagodi">
-<!ENTITY appMenuToolbarLayout.label "Raspored alatne trake…">
-<!ENTITY appMenuSidebars.label "Bočne trake">
-<!ENTITY appMenuFind.label "Traži…">
-<!ENTITY appMenuUnsorted.label "Neorganizirane zabilješke">
-<!ENTITY appMenuWebDeveloper.label "Web razvijatelj">
-<!ENTITY appMenuGettingStarted.label "Upoznavanje">
-<!ENTITY appMenuSafeMode.label "Ponovno pokreni s isključenim dodacima…">
-<!ENTITY appMenuSafeMode.accesskey "R">
-
-<!ENTITY devtoolsConnect.label        "Poveži…">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
-<!ENTITY backForwardItem.title        "Natrag/Naprijed">
-<!ENTITY  bookmarkAllTabs.accesskey          "T">
-<!ENTITY  bookmarkAllTabs.label              "Zabilježi sve kartice…">
-<!ENTITY bookmarksMenuButton.label          "Zabilješke">
-<!ENTITY bookmarksMenuButton.tooltip        "Prikazuje sve zabilješke">
-<!ENTITY bookmarksMenuButton.unsorted.label "Neorganizirane zabilješke">
-<!ENTITY clearRecentHistory.label               "Obriši nedavnu povijest…">
-
-<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
-direction in which tabs are closed, i.e. locales that use RTL mode should say
-left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "Zatvori kartice na desno">
-<!ENTITY  closeTabsToTheEnd.accesskey        "i">
-<!ENTITY  closeOtherTabs.label               "Zatvori ostale kartice">
-<!ENTITY  closeOtherTabs.accesskey           "o">
-<!ENTITY  closeTab.label                     "Zatvori karticu">
-<!ENTITY  closeTab.accesskey                 "c">
-
-<!ENTITY feedButton.label             "Pretplata">
-
-<!ENTITY historyRestoreLastSession.label "Vrati prijašnju sesiju">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Zatvori alatnu traku programera">
-<!ENTITY devToolbarMenu.label              "Alatna traka programera">
-<!ENTITY devToolbarMenu.accesskey          "g">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Uključi/isključi alate">
-<!ENTITY devToolboxMenuItem.accesskey      "t">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Uključi/isključi alate za razvijatelje">
-<!ENTITY devToolbarOtherToolsButton.label  "Više alata">
-
-<!ENTITY inspectContextMenu.label     "Ispitaj element">
-<!ENTITY inspectContextMenu.accesskey "e">
-
-<!ENTITY responsiveDesignTool.label   "Prikaz responsivnog dizajna">
-<!ENTITY responsiveDesignTool.accesskey "r">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Scratchpad">
-<!ENTITY scratchpad.accesskey         "s">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Debugger web preglednika">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Pronađi više alata">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "l">
-
-<!ENTITY  listAllTabs.label      "Popis svih tabova">
-<!ENTITY  moveToGroup.accesskey              "m">
-<!ENTITY  moveToGroup.label                  "Premjesti u grupu">
-<!ENTITY  moveToNewGroup.label               "Nova grupa">
-<!ENTITY  moveToNewWindow.accesskey          "z">
-<!ENTITY  moveToNewWindow.label              "Premjesti u novi prozor">
-<!ENTITY  pinTab.label                       "Zakači karticu">
-<!ENTITY  pinTab.accesskey                   "k">
-<!ENTITY  unpinTab.label                     "Otkači karticu">
-<!ENTITY  unpinTab.accesskey                 "O">
-<!ENTITY  reloadAllTabs.label                "Osvježi sve kartice">
-<!ENTITY  reloadAllTabs.accesskey            "v">
-<!ENTITY  reloadTab.label                    "Osvježi karticu">
-<!ENTITY  reloadTab.accesskey                "v">
-<!ENTITY openLinkCmdInCurrent.label     "Otvori poveznicu">
-<!ENTITY openLinkCmdInCurrent.accesskey "O">
-<!ENTITY  undoCloseTab.label                 "Poništi zatvaranje kartice">
-<!ENTITY  undoCloseTab.accesskey             "P">
-
 
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "Kartice s ostalih uređaja">
 
 <!ENTITY syncBrand.shortName.label    "Sync">
+
 <!ENTITY syncSetup.label              "Podešavanje &syncBrand.shortName.label;a…">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "Sinkroniziraj sada">
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Sinkroniziraj">
 
-<!ENTITY tabGroupsButton.label        "Grupe kartica">
-<!ENTITY tabGroupsButton.tooltip      "Grupirajte kartice">
-
-<!ENTITY tabView.commandkey           "e">
-<!ENTITY viewTabGroups.label            "Grupe kartica">
-<!ENTITY viewTabGroups.accesskey        "G">
-<!ENTITY viewTabsOnTop.label            "Kartice na vrhu">
-<!ENTITY viewTabsOnTop.accesskey        "t">
-
-<!ENTITY remoteWebConsoleCmd.label    "Udaljena web konzola">
-
-<!ENTITY browserConsoleCmd.label      "Konzola preglednika">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "K">
-
-<!ENTITY zoomOutButton.tooltip          "Uvećaj">
-<!ENTITY zoomInButton.tooltip           "Umanji">
-<!ENTITY zoomControls.label             "Zumiranje">
-
-<!ENTITY urlbar.switchToTab.label     "Prebaci na karticu:">
-
-<!ENTITY videoFullScreen.label       "Cijeli zaslon">
-<!ENTITY videoFullScreen.accesskey   "C">
-<!ENTITY videoSaveImage.label        "Snimi sliku kao…">
-<!ENTITY videoSaveImage.accesskey    "S">
-<!ENTITY videoShowStats.label        "Prikaži statistiku">
-<!ENTITY videoShowStats.accesskey    "t">
-<!ENTITY videoHideStats.label        "Sakrij statistiku">
-<!ENTITY videoHideStats.accesskey    "t">
-
-<!ENTITY viewBookmarksSidebar.label         "Prikaži na bočnoj traci">
-<!ENTITY viewBookmarksToolbar.label         "Prikaži traku zabilješki">
-
-<!ENTITY preferencesCmd2.label       "Mogućnosti">
-<!ENTITY preferencesCmd2.accesskey     "M">
-<!ENTITY showAllBookmarks2.label "Prikaži sve zabilješke">
-
 <!ENTITY addonBarCloseButton.tooltip  "Zatvori traku dodataka">
 <!ENTITY toggleAddonBarCmd.key        "/">
-
-<!ENTITY socialToolbar.title        "Tipka društvene trake">
-<!ENTITY social.notLoggedIn.label   "Niste prijavljeni">
-
-<!ENTITY social.ok.label       "OK">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "Prikaži bočnu traku">
-<!ENTITY social.toggleSidebar.accesskey "P">
-
-<!ENTITY social.toggleNotifications.label "Prikaži obavijesti radne površine">
-<!ENTITY social.toggleNotifications.accesskey "n">
-
-<!ENTITY social.activated.description "<label/> usluge su aktivirane. Postavke za usluge možete promijeniti u <label class='text-link'>Upravitelju dodataka</label>.">
-<!ENTITY social.activated.undo.label "Ups, poništi ovo!">
-<!ENTITY social.activated.undo.accesskey "U">
-<!ENTITY social.learnMore.label "Saznajte više…">
-<!ENTITY social.learnMore.accesskey "z">
-<!ENTITY social.closeNotificationItem.label "Ne sada">
-
-<!ENTITY social.chatBar.label "Fokusiraj časkanja">
-<!ENTITY social.chatBar.accesskey "c">
-
-<!ENTITY social.addons.label "Upravljanje servisima…">
-
-<!ENTITY social.chatBar.commandkey "c">
-
-<!-- labels are set dynamically, see browser.properties -->
-<!ENTITY social.markpage.accesskey "m">
-<!ENTITY social.marklink.accesskey "M">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera za dijeljenje:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">

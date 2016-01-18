@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip  "Zatvori alate razvijatelja">
+<!ENTITY toolboxCloseButton.tooltip    "Zatvori alate razvijatelja">
 <!ENTITY toolboxOptionsButton.key      "o">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -32,13 +32,13 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label3    "Omogući chrome debugging">
-<!ENTITY options.enableChrome.tooltip  "Uključivanje ove opcije će vam omogućiti razne alate za razvijatelje u kontekstu preglednika">
+<!ENTITY options.enableChrome.tooltip   "Uključivanje ove opcije će vam omogućiti razne alate za razvijatelje u kontekstu preglednika">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Omogući udaljeno riješavanje problema">
-<!ENTITY options.enableRemote.tooltip  "Uključivanje ove opcije će omogućiti alatima za razvijatelje udaljeno riješavanje problema na Firefox instanci poput Firefox OS-a">
+<!ENTITY options.enableRemote.tooltip   "Uključivanje ove opcije će omogućiti alatima za razvijatelje udaljeno riješavanje problema na Firefox instanci poput Firefox OS-a">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -51,7 +51,7 @@
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "Zadani Firefoxovi alati za razvijatelje">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->

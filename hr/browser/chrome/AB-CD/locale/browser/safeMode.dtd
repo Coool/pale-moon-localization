@@ -3,17 +3,25 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY safeModeDialog.title         "&brandShortName; Sigurni način rada">
-<!ENTITY window.maxWidth              "400">
+<!ENTITY window.width                 "38em">
 
-<!ENTITY startSafeMode.label          "Pokreni u sigurnom načinu rada">
-<!ENTITY resetProfile.label           "Resetiraj &brandShortName;">
+<!ENTITY safeModeDescription.label    "&brandShortName; is now running in Safe Mode, which temporarily disables your custom settings, themes, and extensions.">
+<!ENTITY safeModeDescription2.label   "You can make some or all of these changes permanent:">
 
-<!ENTITY safeModeDescription3.label   "Siguran način rada je poseban način rada u kojem se mogu otklanjati greške nastale u &brandShortName;u.">
-<!ENTITY safeModeDescription4.label   "Vaši dodaci i postavke će privremeno biti onemogućene.">
+<!ENTITY disableAddons.label          "Disable all add-ons">
+<!ENTITY disableAddons.accesskey      "D">
 
-<!ENTITY resetProfileInstead.label    "Ako želite čisti početak, također možete resetirati &brandShortName;.">
+<!ENTITY resetToolbars.label          "Reset toolbars and controls">
+<!ENTITY resetToolbars.accesskey      "R">
 
-<!-- LOCALIZATION NOTE (autoSafeModeDescription2.label safeModeInstead.label resetProfileFooter.label): Shown on the safe mode dialog after multiple startup crashes. See also chrome/global/resetProfile.dtd -->
-<!ENTITY autoSafeModeDescription2.label "&brandShortName; se prilikom pokretanja neočekivano zatvorio. Uzrok može biti jedan od dodataka ili neki drugi problem. Problem možete pokušati riješiti resetiranjem &brandShortName;a u početno stanje ili možete pokušati otkloniti problem pomoću sigurnog načina rada.">
-<!ENTITY resetProfileFooter.label       "Sve ostalo će se vratiti u izvorno stanje.">
-<!ENTITY safeModeInstead.label          "Ako to ne želite, možete nastaviti u siguran način rada, gdje su dodaci i vaše postavke onemogućeni, kako biste sami pronašli rješenje.">
+<!ENTITY deleteBookmarks.label        "Delete all bookmarks except for backups">
+<!ENTITY deleteBookmarks.accesskey    "b">
+
+<!ENTITY resetUserPrefs.label         "Reset all user preferences to &brandShortName; defaults">
+<!ENTITY resetUserPrefs.accesskey     "p">
+
+<!ENTITY restoreSearch.label          "Restore default search engines">
+<!ENTITY restoreSearch.accesskey      "s">
+
+<!ENTITY changeAndRestartButton.label "Make Changes and Restart">
+<!ENTITY continueButton.label         "Continue in Safe Mode">

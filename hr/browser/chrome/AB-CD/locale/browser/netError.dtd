@@ -39,6 +39,9 @@
 <!ENTITY netInterrupt.title "Podatkovni prijenos je prekinut">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
+<!ENTITY notCached.title "Dokument je istekao">
+<!ENTITY notCached.longDesc "<p>Traženi dokument nije dostupan u &brandShortName;ovoj priručnoj memoriji.</p><ul><li>. Radi mjere sigurnosti, &brandShortName; neće automatski ponovno zatražiti osjetljive dokumente.</li><li>Kliknite na Pokušaj ponovno da biste zatražili dokument od web stranice.</li></ul>">
+
 <!ENTITY netOffline.title "Izvanmrežni rad">
 <!ENTITY netOffline.longDesc2 "
 <ul>
@@ -62,9 +65,6 @@
 
 <!ENTITY netReset.title "Veza je prekinuta">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
-
-<!ENTITY notCached.title "Dokument je istekao">
-<!ENTITY notCached.longDesc "<p>Traženi dokument nije dostupan u &brandShortName;ovoj priručnoj memoriji.</p><ul><li>. Radi mjere sigurnosti, &brandShortName; neće automatski ponovno zatražiti osjetljive dokumente.</li><li>Kliknite na Pokušaj ponovno da biste zatražili dokument od web stranice.</li></ul>">
 
 <!ENTITY netTimeout.title "Vezi je isteklo vrijeme">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
@@ -133,12 +133,24 @@ može biti privremena, pa možete pokušati ponovno kasnije.</li>
 <!ENTITY cspFrameAncestorBlocked.title "Blokirala sigurnosna politika sadržaja">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; je sprječio učitavanje stranice na ovaj način jer stranica ima sigurnosnu politiku sadržaja koja to zabranjuje..</p>">
 
-<!ENTITY securityOverride.linkText "Ili možete dodati iznimku…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Izvuci me odavdje!">
-<!ENTITY securityOverride.exceptionButtonLabel "Dodaj iznimku…">
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
 
 <!ENTITY corruptedContentError.title "Greška oštećenog sadržajaCorrupted Content Error">
 <!ENTITY corruptedContentError.longDesc "<p>Stranicu kojoj pokušavate pristupiti nije moguće prikazati zbog greške u prijenosu podataka.</p><ul><li>Obavijestite vlasnike web stranice o ovom problemu.</li></ul>">
+
+
+<!ENTITY securityOverride.linkText "Ili možete dodati iznimku…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Izvuci me odavdje!">
+<!ENTITY securityOverride.exceptionButtonLabel "Dodaj iznimku…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
