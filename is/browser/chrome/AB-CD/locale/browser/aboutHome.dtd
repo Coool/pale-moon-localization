@@ -3,16 +3,16 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
-
 %brandDTD;
 <!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
-
 %syncBrandDTD;
 
 <!-- These strings are used in the about:home page -->
 
 <!ENTITY abouthome.pageTitle "&brandFullName; ræsisíða">
+
 <!ENTITY abouthome.searchEngineButton.label "Leita">
+
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
      text in <a/> will be linked to the Firefox features page on mozilla.com
 -->
@@ -23,10 +23,11 @@
 <!ENTITY abouthome.defaultSnippet2.v1 "Auðvelt er að sérsníða Firefox að þínum þörfum. <a>Þú getur valið um þúsund viðbóta</a>.">
 <!-- LOCALIZATION NOTE (abouthome.rightsSnippet): text in <a/> will be linked to about:rights -->
 <!ENTITY abouthome.rightsSnippet "&brandFullName; er ókeypis og opinn hugbúnaður frá Mozilla Foundation sem er ekki rekin í hagnaðarskyni. <a>Þekktu þín réttindi…</a>">
+
 <!ENTITY abouthome.bookmarksButton.label "Bókamerki">
-<!ENTITY abouthome.historyButton.label "Ferill">
-<!ENTITY abouthome.settingsButton.label "Stillingar">
-<!ENTITY abouthome.addonsButton.label "Viðbætur">
-<!ENTITY abouthome.appsButton.label "Marketplace">
+<!ENTITY abouthome.historyButton.label   "Ferill">
+<!ENTITY abouthome.settingsButton.label  "Stillingar">
+<!ENTITY abouthome.addonsButton.label    "Viðbætur">
+<!ENTITY abouthome.appsButton.label      "Marketplace">
 <!ENTITY abouthome.downloadsButton.label "Niðurhal">
-<!ENTITY abouthome.syncButton.label "&syncBrand.shortName.label;">
+<!ENTITY abouthome.syncButton.label      "&syncBrand.shortName.label;">

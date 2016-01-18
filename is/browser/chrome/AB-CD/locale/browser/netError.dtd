@@ -3,17 +3,19 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
-
 %brandDTD;
 
 <!ENTITY loadError.label "Villa við að hlaða inn síðu">
 <!ENTITY retry.label "Reyna aftur">
+
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Get ekki tengst">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+
 <!ENTITY deniedPortAccess.title "Aðgangur að þessari gátt er ekki leyfður">
 <!ENTITY deniedPortAccess.longDesc "">
+
 <!ENTITY dnsNotFound.title "Netþjónn fannst ekki">
 <!ENTITY dnsNotFound.longDesc "<ul>
   <li>Athugaðu hvort netfang inniheldur innsláttarvillur til dæmis
@@ -24,6 +26,7 @@
   <li>Ef tölvan þín er varin af eldvegg eða milliþjóni, vertu viss um
    að &brandShortName; hafi aðgang til að tengjast vefnum.</li>
 </ul>">
+
 <!ENTITY fileNotFound.title "Skrá fannst ekki">
 <!ENTITY fileNotFound.longDesc "
 <ul>
@@ -31,10 +34,13 @@
   <li>Athugaðu hvort skráin hefur verið færð, endurnefnt eða eytt.</li>
 </ul>
 ">
+
+
 <!ENTITY generic.title "Ææ.">
 <!ENTITY generic.longDesc "
 <p>Af einhverri ástæðu getur &brandShortName; ekki hlaðið inn þessari síðu.</p>
 ">
+
 <!ENTITY malformedURI.title "Veffang ekki löglegt">
 <!ENTITY malformedURI.longDesc "
 <ul>
@@ -44,34 +50,43 @@
     <strong>/</strong>).</li>
 </ul>
 ">
+
 <!ENTITY netInterrupt.title "Tenging slitnaði">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+
 <!ENTITY notCached.title "Skjal er útrunnið">
 <!ENTITY notCached.longDesc "<p>Umbeðið skjal er ekki til í skyndiminni &brandShortName;.</p><ul><li>Vegna öryggisástæðna, nær &brandShortName; ekki sjálfkrafa aftur í viðkvæm skjöl.</li><li>Smelltu á reyna aftur til að ná aftur í skjalið frá vefsvæðinu.</li></ul>">
+
 <!ENTITY netOffline.title "Ónettengdur hamur">
 <!ENTITY netOffline.longDesc2 "
 <ul>
   <li>Smelltu á &quot;Reyna aftur&quot; til að tengjast netinu og endurnýja síðuna.</li>
 </ul>
 ">
+
 <!ENTITY contentEncodingError.title "Kóðunarvilla">
 <!ENTITY contentEncodingError.longDesc "<ul>
   <li>Hafðu samband við vefstjóra vefsvæðisins og láttu hann vita af þessu vandamáli.</li>
 </ul>">
+
 <!ENTITY unsafeContentType.title "Óörugg skráartegund">
 <!ENTITY unsafeContentType.longDesc "<ul>
   <li>Hafðu samband við vefstjóra vefsvæðisins og láttu hann vita af þessu vandamáli.</li>
 </ul>">
+
 <!ENTITY netReset.title "Tenging slitnaði">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
+
 <!ENTITY netTimeout.title "Tengitími rann út">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+
 <!ENTITY protocolNotFound.title "Óþekkt samskiptaregla">
 <!ENTITY protocolNotFound.longDesc "
 <ul>
   <li>Til að opna þetta veffang gætir þú þurft að hlaða inn öðrum hugbúnaði.</li>
 </ul>
 ">
+
 <!ENTITY proxyConnectFailure.title "Milliþjónn neitar tengingum">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
@@ -80,6 +95,7 @@
     virkur.</li>
 </ul>
 ">
+
 <!ENTITY proxyResolveFailure.title "Fann ekki milliþjónn">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
@@ -89,6 +105,7 @@
     &brandShortName; hefur leyfi til að tengjast netinu.</li>
 </ul>
 ">
+
 <!ENTITY redirectLoop.title "Síðan er ekki að endurbeina rétt">
 <!ENTITY redirectLoop.longDesc "
 <ul>
@@ -96,6 +113,7 @@
     verið aftengdar.</li>
 </ul>
 ">
+
 <!ENTITY unknownSocketType.title "Rangt svar frá netþjóni">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
@@ -104,6 +122,7 @@
   <li>Þetta vandamál gæti verið vegna óstaðlaða stillinga á netþjóni.</li>
 </ul>
 ">
+
 <!ENTITY nssFailure2.title "Örugg tenging mistókst">
 <!ENTITY nssFailure2.longDesc "
 <ul>
@@ -111,6 +130,7 @@
   <li>Hafið samband við vefstjóra svæðisins til að láta þá vita af þessu vandamáli. Eða notaðu aðgerð í hjálparvalmyndinni til að tilkynna þetta vefsvæði sem bilað.</li>
 </ul>
 ">
+
 <!ENTITY nssBadCert.title "Örugg tenging mistókst">
 <!ENTITY nssBadCert.longDesc2 "<ul>
   <li>Þetta gæti verið vegna vandamála í stillingum netþjóns, eða einhver gæti
@@ -118,6 +138,7 @@
   <li>Ef þú hefur getað tengst þessum netþjóni án vandamála áður, gæti verið að vandamálið sé
   aðeins tímabundið, þannig að þú gætir reynt aftur seinna.</li>
 </ul>">
+
 <!ENTITY sharedLongDesc "
 <ul>
   <li>Vefsvæðið er kannski ekki aðgengilegt eins og stendur eða er upptekið. Reyndu aftur
@@ -128,23 +149,41 @@
     hvort &brandShortName; hafi aðgang til þess að fara á netið.</li>
 </ul>
 ">
+
 <!ENTITY malwareBlocked.title "Grunað árásarsvæði!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Árásarsvæði eru svæði sem reyna að setja inn forrit til að stela persónulegum upplýsingum, nota tölvuna þína til að gera árás á aðra, eða valda skemmdum.</p>
 <p>Vefstjóra sem grunar að þeirra svæði hafi rangt verið tilkynnt sem árásarsvæði geta <a href='http://www.stopbadware.org/home/reviewinfo' >beðið um endurskoðun</a>.</p>
 ">
+
 <!ENTITY phishingBlocked.title "Grunað falsað vefsvæði!">
 <!ENTITY phishingBlocked.longDesc "
 <p>Ef þú slærð inn einhverjar persónuupplýsingar á þessari síðu gætirðu hugsanlega lent í kennisstuldi eða svikum.</p>
 <p>Þessar tegundir af vef fölsunum eru notaðar í svikum betur þekktar sem vefveiðar, í því eru sviksamlegar vefsíður og tölvupóstur notað til að líkja eftir aðilum sem þú treystir.</p>
 ">
+
 <!ENTITY cspFrameAncestorBlocked.title "Lokað á vegna öryggisreglu">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; kom í veg fyrir að þessi síða birtist á þennan hátt þar sem síðan inniheldur öryggisreglu sem kemur í veg fyrir það.</p>">
+
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "Villa skemmd gögn">
 <!ENTITY corruptedContentError.longDesc "<p>Ekki er hægt að sýna síðuna vegna villu í gagnasendingu.</p><ul><li>Hafðu samband við vefsíðueiganda til að láta hann vita af vandamálinu.</li></ul>">
+
+
 <!ENTITY securityOverride.linkText "Eða þú getur bætt við undantekningu…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Hjálpaðu mér héðan út!">
 <!ENTITY securityOverride.exceptionButtonLabel "Bæta við undantekningu…">
+
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
 button is included here (instead of netError.xhtml) because it exposes
@@ -156,5 +195,6 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
+
 <!ENTITY remoteXUL.title "Fjarlægt XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Hafðu samband við eigendur vefsvæðins til að láta þá vita af þessu vandamáli.</li></ul></p>">
