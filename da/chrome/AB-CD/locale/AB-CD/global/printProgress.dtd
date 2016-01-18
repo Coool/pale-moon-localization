@@ -3,13 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--LOCALIZATION NOTE printProgress.dtd Main UI for Print Progress Dialog -->
-<!ENTITY printWindow.title "Udskriver">
-<!ENTITY title    "Titel:">
+<!ENTITY printWindow.title "Vis udskrift"> 
+<!ENTITY title    "Opret forbindelse"> 
 <!ENTITY progress "Forløb:">
 <!ENTITY preparing "Forbereder…">
 <!ENTITY printComplete "Udskriften er fuldført.">
 
-<!ENTITY dialogCancel.label "Annuller">
+<!ENTITY dialogCancel.label "Annuller"> 
 <!ENTITY dialogClose.label "Luk">
 
 <!-- LOCALIZATION NOTE (percentPrint):
@@ -18,5 +18,4 @@
     meter.
 
     #1 will be replaced by the percentage of the file that has been saved -->
-<!ENTITY percentPrint "#1&#037;">
-
+<!ENTITY percentPrint "#1&#37;">

@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Åbn alle i faneblade">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "a">
 
+<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "Egenskaber">
 <!ENTITY cmd.properties.accesskey  "E">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "Flyt…">
 <!ENTITY cmd.moveBookmarks.accesskey              "F">
 
-<!ENTITY col.name.label          "Navn">
-<!ENTITY col.tags.label          "Mærkater">
-<!ENTITY col.url.label           "Adresse">
-<!ENTITY col.lastvisit.label     "Senest besøgt">
-<!ENTITY col.visitcount.label    "Besøg">
-<!ENTITY col.keyword.label       "Stikord">
-<!ENTITY col.description.label   "Beskrivelse">
-<!ENTITY col.dateadded.label     "Tilføjet">
-<!ENTITY col.lastmodified.label  "Sidst ændret">
+<!ENTITY col.name.label              "Navn">
+<!ENTITY col.tags.label              "Mærkater">
+<!ENTITY col.url.label               "Adresse">
+<!ENTITY col.lastvisit.label         "Senest besøgt">
+<!ENTITY col.visitcount.label        "Besøg">
+<!ENTITY col.keyword.label           "Stikord">
+<!ENTITY col.description.label       "Beskrivelse">
+<!ENTITY col.dateadded.label         "Tilføjet">
+<!ENTITY col.lastmodified.label      "Sidst ændret">
+<!ENTITY col.parentfolder.label      "Containing Folder">
+<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
 
-<!ENTITY search.label                              "Søg:">
+<!ENTITY search.label                              "Søgning">
 <!ENTITY search.accesskey                          "S">
+
+<!ENTITY search.in.label                           "Search in:">
+<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "u">
 <!ENTITY maintenance.tooltip    "Importer og sikkerhedskopier dine bogmærker">
 
-<!ENTITY backButton.tooltip  "Gå tilbage">
+<!ENTITY backButton.tooltip  "Gå en side tilbage">
 
-<!ENTITY forwardButton.tooltip  "Gå frem">
+<!ENTITY forwardButton.tooltip  "Gå en side fremad">
 
 <!ENTITY detailsPane.more.label "Mere">
 <!ENTITY detailsPane.more.accesskey "e">

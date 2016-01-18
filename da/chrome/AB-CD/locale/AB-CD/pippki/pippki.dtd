@@ -3,11 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Values for changepassword.xul -->
-<!ENTITY setPassword.title  "Skift hovedadgangskode">
-<!ENTITY setPassword.tokenName.label "Sikkerhedsenhed">
+<!ENTITY setPassword.title  "Rediger hovedadgangskode">
+<!ENTITY setPassword.tokenName.label "Sikkerhedsanordning">
 <!ENTITY setPassword.oldPassword.label "Nuværende adgangskode:">
-<!ENTITY setPassword.newPassword.label "Ny adgangskode:">
-<!ENTITY setPassword.reenterPassword.label "Ny adgangskode (igen):">
+<!ENTITY setPassword.newPassword.label "Indtast ny adgangskode:">
+<!ENTITY setPassword.reenterPassword.label "Genindtast ny adgangskode:">
 <!ENTITY setPassword.meter.label "Kvalitetsmåler for adgangskode">
 <!ENTITY setPassword.meter.loading "Indlæser">
 
@@ -46,10 +46,6 @@
 <!ENTITY downloadCert.viewCert.text "Undersøg CA-certifikat">
 <!ENTITY downloadCert.viewPolicy.text "Undersøg CA holdninger og fremgangsmåder">
 
-<!-- Strings for the MismatchDomain dialog  -->
-<!ENTITY examineCert.label "Vis certifikat">
-<!ENTITY examineCert.accesskey "V">
-
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Vælg brugeridentifikation">
 <!ENTITY clientAuthAsk.message1 "Dette websted har bedt om, at du identificerer dig selv med et certifikat:">
@@ -77,6 +73,8 @@
 <!ENTITY escrowWarn.message1 "Vigtigt: Denne certifikatautoritet har bedt om lov til at tage en kopi af din private krypteringsnøgle.">
 <!ENTITY escrowWarn.benefit1 "Fordelen er, at hvis du mister adgang til din private krypteringsnøgle, kan du bede om en kopi fra denne certifikatautoritet.">
 <!ENTITY escrowWarn.message2 "Men, din private krypteringsnøgle vil blive gemt af certifikatautoriteten, og kan bruges til at læse din krypterede mails og dokumenter uden din tilladelse.">
+<!ENTITY examineCert.label "Vis certifikat">
+<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Generer en privat nøgle">

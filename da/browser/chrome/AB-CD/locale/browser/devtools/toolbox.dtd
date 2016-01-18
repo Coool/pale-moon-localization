@@ -5,9 +5,9 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the Toolbox strings -->
 <!-- LOCALIZATION NOTE : FILE Do not translate key -->
 
-<!ENTITY closeCmd.key  "U">
+<!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip  "Luk udviklerværktøjer">
+<!ENTITY toolboxCloseButton.tooltip    "Luk udviklerværktøjer">
 <!ENTITY toolboxOptionsButton.key      "O">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -32,13 +32,13 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label3    "Slå chrome-debugging til">
-<!ENTITY options.enableChrome.tooltip  "Gør dig i stand til at bruge diverse udviklerværktøjer i en browser-kontekst">
+<!ENTITY options.enableChrome.tooltip   "Gør dig i stand til at bruge diverse udviklerværktøjer i en browser-kontekst">
 
-<!-- LOCALIZATION NOTE (options.enableRemote.label): This is the label for the
+<!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Slå remote debugging til">
-<!ENTITY options.enableRemote.tooltip  "Tillader at udviklerværktøjerne kan debugge eksterne Firefox-instanser som fx Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Tillader at udviklerværktøjerne kan debugge eksterne Firefox-instanser som fx Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -51,7 +51,7 @@
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "Indbyggede udviklerværktøjer i Firefox">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
