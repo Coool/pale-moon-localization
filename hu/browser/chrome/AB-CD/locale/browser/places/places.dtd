@@ -57,6 +57,9 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Mindegyik megnyitása külön lapon">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "m">
 
+<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.accesskey  "F">
+
 <!ENTITY cmd.properties.label      "Tulajdonságok">
 <!ENTITY cmd.properties.accesskey  "T">
 
@@ -78,18 +81,32 @@
 <!ENTITY cmd.moveBookmarks.label                  "Áthelyezés…">
 <!ENTITY cmd.moveBookmarks.accesskey              "t">
 
-<!ENTITY col.name.label          "Név">
-<!ENTITY col.tags.label          "Címkék">
-<!ENTITY col.url.label           "Hely">
-<!ENTITY col.lastvisit.label     "Látogatás dátuma">
-<!ENTITY col.visitcount.label    "Látogatások száma">
-<!ENTITY col.keyword.label       "Kulcsszó">
-<!ENTITY col.description.label   "Leírás">
-<!ENTITY col.dateadded.label     "Hozzáadva">
-<!ENTITY col.lastmodified.label  "Utoljára módosítva">
+<!ENTITY col.name.label              "Név">
+<!ENTITY col.tags.label              "Címkék">
+<!ENTITY col.url.label               "Hely">
+<!ENTITY col.lastvisit.label         "Látogatás dátuma">
+<!ENTITY col.visitcount.label        "Látogatások száma">
+<!ENTITY col.keyword.label           "Kulcsszó">
+<!ENTITY col.description.label       "Leírás">
+<!ENTITY col.dateadded.label         "Hozzáadva">
+<!ENTITY col.lastmodified.label      "Utoljára módosítva">
+<!ENTITY col.parentfolder.label      "Containing Folder">
+<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
 
 <!ENTITY search.label                              "Keresés:">
 <!ENTITY search.accesskey                          "K">
+
+<!ENTITY search.in.label                           "Search in:">
+<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -97,9 +114,9 @@
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "Könyvjelzők importálása és biztonsági mentése">
 
-<!ENTITY backButton.tooltip  "Ugrás vissza">
+<!ENTITY backButton.tooltip  "Ugrás az előző oldalra">
 
-<!ENTITY forwardButton.tooltip  "Ugrás előre">
+<!ENTITY forwardButton.tooltip  "Ugrás a következő oldalra">
 
 <!ENTITY detailsPane.more.label "Több">
 <!ENTITY detailsPane.more.accesskey "T">
