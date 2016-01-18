@@ -2,20 +2,30 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "about:config">
-<!ENTITY aboutWarningTitle.label "Questa operazione potrebbe invalidare la garanzia">
-<!ENTITY aboutWarningText.label "La modifica dei valori predefiniti delle seguenti impostazioni avanzate può compromettere la stabilità, la sicurezza e le prestazioni di questa applicazione. Si consiglia di proseguire solo se consapevoli delle proprie azioni.">
-<!ENTITY aboutWarningButton.label "Farò attenzione, prometto">
+<!ENTITY window.title "Blocco per gli appunti">
+
+<!-- about:config warning page -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "There be dragons here!">
+<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
+<!ENTITY aboutWarningButton.label "I promise to be careful!">
 <!ENTITY aboutWarningCheckbox.label "Visualizza nuovamente questo avviso in futuro">
+
 <!ENTITY searchPrefs.label "Cerca:">
 <!ENTITY searchPrefs.accesskey "C">
 <!ENTITY focusSearch.key "r">
+
+<!-- Columns -->
 <!ENTITY prefColumn.label "Nome Parametro">
 <!ENTITY lockColumn.label "Stato">
-<!ENTITY typeColumn.label "Tipo">
+<!ENTITY typeColumn.label "Tipo di contenuto">
 <!ENTITY valueColumn.label "Valore">
-<!ENTITY prefColumnHeader.tooltip "Fare clic per riordinare">
-<!ENTITY columnChooser.tooltip "Fare clic per selezionare le colonne visualizzate">
+
+<!-- Tooltips -->
+<!ENTITY prefColumnHeader.tooltip "Fare clic per riordinare"> 
+<!ENTITY columnChooser.tooltip "Fare clic per selezionare le colonne visualizzate"> 
+
+<!-- Context Menu -->
 <!ENTITY copyPref.key "C">
 <!ENTITY copyPref.label "Copia">
 <!ENTITY copyPref.accesskey "C">

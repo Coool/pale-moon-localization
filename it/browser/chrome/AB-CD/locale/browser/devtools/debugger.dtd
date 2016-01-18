@@ -2,47 +2,129 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- LOCALIZATION NOTE : FILE This file contains the Debugger strings -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkey -->
+
+<!-- LOCALIZATION NOTE : FILE The correct localization of this file might be to
+  - keep it in English, or another language commonly spoken among web developers.
+  - You want to make that choice consistent across the developer tools.
+  - A good criteria is the language in which you'd find the best
+  - documentation on web development on the web. -->
+
+<!-- LOCALIZATION NOTE (debuggerUI.closeButton.tooltip): This is the tooltip for
+  -  the button that closes the debugger UI. -->
 <!ENTITY debuggerUI.closeButton.tooltip "Chiudi">
+
+<!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
+  -  the button that toggles the panes visible or hidden in the debugger UI. -->
 <!ENTITY debuggerUI.panesButton.tooltip "Attiva/disattiva pannelli">
-<!ENTITY debuggerUI.optsButton.tooltip "Opzioni debugger">
-<!ENTITY debuggerUI.pauseExceptions "Metti in pausa su eccezioni">
+
+<!-- LOCALIZATION NOTE (debuggerUI.optsButton.tooltip): This is the tooltip for
+  -  the button that opens up an options context menu for the debugger UI. -->
+<!ENTITY debuggerUI.optsButton.tooltip  "Opzioni debugger">
+
+<!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
+  -  checkbox that toggles pausing on exceptions. -->
+<!ENTITY debuggerUI.pauseExceptions     "Metti in pausa su eccezioni">
 <!ENTITY debuggerUI.pauseExceptions.key "M">
-<!ENTITY debuggerUI.showPanesOnInit "Visualizza pannelli all'avvio">
+
+<!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
+  -  checkbox that toggles visibility of panes when opening the debugger. -->
+<!ENTITY debuggerUI.showPanesOnInit     "Visualizza pannelli all'avvio">
 <!ENTITY debuggerUI.showPanesOnInit.key "V">
-<!ENTITY debuggerUI.showVarsFilter "Visualizza sezione filtro variabili">
-<!ENTITY debuggerUI.showVarsFilter.key "z">
-<!ENTITY debuggerUI.showOnlyEnum "Visualizza solo proprietà enumerabili">
-<!ENTITY debuggerUI.showOnlyEnum.key "o">
-<!ENTITY debuggerUI.showOriginalSource "Visualizza sorgenti originali">
-<!ENTITY debuggerUI.showOriginalSource.key "o">
-<!ENTITY debuggerUI.searchPanelTitle "Operatori">
-<!ENTITY debuggerUI.searchFile "Filtra script">
-<!ENTITY debuggerUI.searchFile.key "s">
-<!ENTITY debuggerUI.searchFile.altkey "O">
-<!ENTITY debuggerUI.searchGlobal "Cerca in tutti i file">
-<!ENTITY debuggerUI.searchGlobal.key "f">
-<!ENTITY debuggerUI.searchFunction "Cerca definizione di funzione">
-<!ENTITY debuggerUI.searchFunction.key "D">
-<!ENTITY debuggerUI.searchToken "Trova">
-<!ENTITY debuggerUI.searchToken.key "T">
-<!ENTITY debuggerUI.searchLine "Passa alla riga…">
-<!ENTITY debuggerUI.searchLine.key "P">
-<!ENTITY debuggerUI.searchVariable "Filtra variabili">
-<!ENTITY debuggerUI.searchVariable.key "F">
-<!ENTITY debuggerUI.focusVariables "Seleziona albero delle variabili">
-<!ENTITY debuggerUI.focusVariables.key "v">
+
+<!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
+  -  checkbox that toggles visibility of a designated variables filter box. -->
+<!ENTITY debuggerUI.showVarsFilter      "Visualizza sezione filtro variabili">
+<!ENTITY debuggerUI.showVarsFilter.key  "z">
+
+<!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the
+  -  checkbox that toggles visibility of hidden (non-enumerable) variables and
+  -  properties in stack views. The "enumerable" flag is a state of a property
+  -  defined in JavaScript. When in doubt, leave untranslated. -->
+<!ENTITY debuggerUI.showOnlyEnum        "Visualizza solo proprietà enumerabili">
+<!ENTITY debuggerUI.showOnlyEnum.key    "o">
+
+<!-- LOCALIZATION NOTE (debuggerUI.showOriginalSource): This is the label for
+  -  the checkbox that toggles the display of original or sourcemap-derived
+  -  sources. -->
+<!ENTITY debuggerUI.showOriginalSource      "Visualizza sorgenti originali">
+<!ENTITY debuggerUI.showOriginalSource.key  "o">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchPanelTitle): This is the text that
+  -  appears in the filter panel popup as a description. -->
+<!ENTITY debuggerUI.searchPanelTitle    "Operatori">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
+  -  in the source editor's context menu for the scripts search operation. -->
+<!ENTITY debuggerUI.searchFile          "Filtra script">
+<!ENTITY debuggerUI.searchFile.key      "s">
+<!ENTITY debuggerUI.searchFile.altkey   "O">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
+  -  in the source editor's context menu for the global search operation. -->
+<!ENTITY debuggerUI.searchGlobal        "Cerca in tutti i file">
+<!ENTITY debuggerUI.searchGlobal.key    "f">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchFunction): This is the text that appears
+  -  in the source editor's context menu for the function search operation. -->
+<!ENTITY debuggerUI.searchFunction      "Cerca definizione di funzione">
+<!ENTITY debuggerUI.searchFunction.key  "D">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchToken): This is the text that appears
+  -  in the source editor's context menu for the token search operation. -->
+<!ENTITY debuggerUI.searchToken         "Trova">
+<!ENTITY debuggerUI.searchToken.key     "T">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
+  -  in the source editor's context menu for the line search operation. -->
+<!ENTITY debuggerUI.searchLine          "Passa alla riga…">
+<!ENTITY debuggerUI.searchLine.key      "P">
+
+<!-- LOCALIZATION NOTE (debuggerUI.searchVariable): This is the text that appears
+  -  in the source editor's context menu for the variables search operation. -->
+<!ENTITY debuggerUI.searchVariable      "Filtra variabili">
+<!ENTITY debuggerUI.searchVariable.key  "F">
+
+<!-- LOCALIZATION NOTE (debuggerUI.focusVariables): This is the text that appears
+  -  in the source editor's context menu for the variables focus operation. -->
+<!ENTITY debuggerUI.focusVariables      "Seleziona albero delle variabili">
+<!ENTITY debuggerUI.focusVariables.key  "v">
+
+<!-- LOCALIZATION NOTE (debuggerUI.condBreakPanelTitle): This is the text that
+  -  appears in the conditional breakpoint panel popup as a description. -->
 <!ENTITY debuggerUI.condBreakPanelTitle "Questo punto di interruzione blocca l'esecuzione solo se l'espressione seguente è vera">
-<!ENTITY debuggerUI.seMenuBreak "Aggiungi punto di interruzione">
-<!ENTITY debuggerUI.seMenuBreak.key "u">
-<!ENTITY debuggerUI.seMenuCondBreak "Aggiungi punto di interruzione condizionale">
+
+<!-- LOCALIZATION NOTE (debuggerUI.seMenuBreak): This is the text that
+  -  appears in the source editor context menu for adding a breakpoint. -->
+<!ENTITY debuggerUI.seMenuBreak         "Aggiungi punto di interruzione">
+<!ENTITY debuggerUI.seMenuBreak.key     "u">
+
+<!-- LOCALIZATION NOTE (debuggerUI.seMenuCondBreak): This is the text that
+  -  appears in the source editor context menu for adding a conditional
+  -  breakpoint. -->
+<!ENTITY debuggerUI.seMenuCondBreak     "Aggiungi punto di interruzione condizionale">
 <!ENTITY debuggerUI.seMenuCondBreak.key "u">
-<!ENTITY debuggerUI.seMenuAddWatch "Crea espressione di controllo da selezione">
-<!ENTITY debuggerUI.seMenuAddWatch.key "a">
-<!ENTITY debuggerUI.addWatch "Aggiungi espressione di controllo">
-<!ENTITY debuggerUI.addWatch.key "c">
-<!ENTITY debuggerUI.removeAllWatch "Elimina tutte le espressioni di controllo">
-<!ENTITY debuggerUI.removeAllWatch.key "E">
-<!ENTITY debuggerUI.stepping.resume "VK_F6">
-<!ENTITY debuggerUI.stepping.stepOver "VK_F7">
-<!ENTITY debuggerUI.stepping.stepIn "VK_F8">
-<!ENTITY debuggerUI.stepping.stepOut "VK_F8">
+
+<!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
+  -  appears in the source editor context menu for adding an expression. -->
+<!ENTITY debuggerUI.seMenuAddWatch      "Crea espressione di controllo da selezione">
+<!ENTITY debuggerUI.seMenuAddWatch.key  "a">
+
+<!-- LOCALIZATION NOTE (debuggerUI.addWatch): This is the text that
+  -  appears in the watch expressions context menu for adding an expression. -->
+<!ENTITY debuggerUI.addWatch            "Aggiungi espressione di controllo">
+<!ENTITY debuggerUI.addWatch.key        "c">
+
+<!-- LOCALIZATION NOTE (debuggerUI.removeWatch): This is the text that
+  -  appears in the watch expressions context menu for removing all expressions. -->
+<!ENTITY debuggerUI.removeAllWatch      "Elimina tutte le espressioni di controllo">
+<!ENTITY debuggerUI.removeAllWatch.key  "E">
+
+<!-- LOCALIZATION NOTE (debuggerUI.stepping): These are the keycodes that
+  -  control the stepping commands in the debugger (continue, step over,
+  -  step in and step out). -->
+<!ENTITY debuggerUI.stepping.resume     "VK_F6">
+<!ENTITY debuggerUI.stepping.stepOver   "VK_F7">
+<!ENTITY debuggerUI.stepping.stepIn     "VK_F8">
+<!ENTITY debuggerUI.stepping.stepOut    "VK_F8">

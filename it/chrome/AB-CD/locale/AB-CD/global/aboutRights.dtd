@@ -1,38 +1,69 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
+<!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
 <!ENTITY rights.locale-direction "ltr">
-<!ENTITY rights.pagetitle "about:rights">
-<!ENTITY rights.intro-header "I tuoi diritti">
+<!ENTITY rights.pagetitle       "about:rights">
+<!ENTITY rights.intro-header    "I tuoi diritti">
 <!ENTITY rights.intro "&brandFullName; è un software libero e Open Source, realizzato da una comunità di migliaia di persone provenienti da tutto il mondo. Ci sono alcuni aspetti che è utile conoscere:">
+
+<!-- Note on pointa / pointb / pointc form:
+     These points each have an embedded link in the HTML, so each point is
+     split into chunks for text before the link, the link text, and the text
+     after the link. If a localized grammar doesn't need the before or after
+     chunk, it can be left blank.
+
+     Also note the leading/trailing whitespace in strings here, which is
+     deliberate for formatting around the embedded links. -->
 <!ENTITY rights.intro-point1a "&brandShortName; è disponibile nei termini della ">
 <!ENTITY rights.intro-point1b "Mozilla Public License">
 <!ENTITY rights.intro-point1c ". Questo significa che è possibile usare, copiare e distribuire &brandShortName; ad altre persone. Le modifiche al codice sorgente di &brandShortName; per adattarlo alle proprie esigenze sono benaccette. Inoltre, la Mozilla Public License garantisce il diritto di distribuire tali versioni modificate.">
+
 <!ENTITY rights.intro-point2-a "Mozilla non attribuisce all'Utente alcun diritto o licenza relativamente all'utilizzo dei marchi registrati da Mozilla Foundation o da altri soggetti, inclusi senza alcuna limitazione il nome Firefox e i logo associati. Ulteriori informazioni su questo argomento sono disponibili ">
 <!ENTITY rights.intro-point2-b "in questa pagina">
 <!ENTITY rights.intro-point2-c ".">
+
+<!-- point 2.5 text for official branded builds -->
 <!ENTITY rights.intro-point2.5 "Alcune caratteristiche di &brandShortName;, come ad esempio Crash Reporter, offrono la possibilità di inviare commenti e suggerimenti a &vendorShortName;. Scegliendo di trasmettere questi dati, si garantisce a &vendorShortName; il permesso di utilizzare queste informazioni per migliorare i propri prodotti, pubblicare sui propri siti web o distribuire i dati raccolti.">
+
+<!-- point 3 text for official branded builds -->
 <!ENTITY rights2.intro-point3a "Il modo in cui vengono utilizzati i dati personali, i commenti e i suggerimenti raccolti da &vendorShortName; attraverso &brandShortName; è descritto nella ">
 <!ENTITY rights2.intro-point3b "Informativa sulla privacy di &brandShortName;">
 <!ENTITY rights.intro-point3c ".">
+
+<!-- point 3 text for unbranded builds -->
 <!ENTITY rights.intro-point3-unbranded "Qualsiasi informativa sulla privacy relativa a questo prodotto dovrà essere riportata in questa sezione.">
+
+<!-- point 4 text for official branded builds -->
 <!ENTITY rights2.intro-point4a "Alcune caratteristiche di &brandShortName; si appoggiano a servizi di informazioni basati sul Web, anche se non è possibile garantire la completa accuratezza e l'affidabilità di tali servizi. Ulteriori dettagli, comprese indicazioni per disattivare questi servizi, sono disponibili ">
 <!ENTITY rights.intro-point4b "nei termini di utilizzo">
 <!ENTITY rights.intro-point4c ".">
+
+<!-- point 4 text for unbranded builds -->
 <!ENTITY rights.intro-point4a-unbranded "Se questo prodotto include dei servizi web, tutti i termini di utilizzo dovranno essere riportati nella sezione ">
 <!ENTITY rights.intro-point4b-unbranded "Servizi web">
 <!ENTITY rights.intro-point4c-unbranded ".">
+
 <!ENTITY rights2.webservices-header "Servizi di informazioni basati sul Web di &brandFullName;">
+
+<!-- Note that this paragraph references a couple of entities from
+     preferences/security.dtd, so that we can refer to text the user sees in
+     the UI, without this page being forgotten every time those strings are
+     updated.  -->
+<!-- intro paragraph for branded builds -->
 <!ENTITY rights2.webservices-a "&brandFullName; utilizza alcuni servizi web (&quot;Servizi&quot;) distribuiti con questa versione dell'eseguibile di &brandShortName; nei termini descritti di seguito. Se non si desidera utilizzare tali Servizi oppure i termini di utilizzo risultano inaccettabili, è possibile disattivarli. Istruzioni per disattivare una caratteristica specifica o un Servizio solo disponibili ">
 <!ENTITY rights2.webservices-b "a questo indirizzo">
 <!ENTITY rights3.webservices-c ". Altre caratteristiche e servizi possono essere disattivati nelle preferenze dell'applicazione.">
+
+<!-- safe browsing points for branded builds -->
 <!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
 <!ENTITY rights.safebrowsing-b "La disattivazione del servizio Safe Browsing è sconsigliata in quanto consente all'utente di visitare siti non sicuri. Per disattivare completamente questa caratteristica procedere nel seguente modo:">
 <!ENTITY rights.safebrowsing-term1 "Aprire le opzioni dell'applicazione">
 <!ENTITY rights.safebrowsing-term2 "Selezionare la sezione Sicurezza">
 <!ENTITY rights.safebrowsing-term3 "Togliere la spunta alle voci &quot;&blockAttackSites.label;&quot; e &quot;&blockWebForgeries.label;&quot;">
 <!ENTITY rights.safebrowsing-term4 "Da questo momento il servizio Safe Browsing è disattivato">
+
+<!-- location aware browsing points for branded builds -->
 <!ENTITY rights.locationawarebrowsing-a "Navigazione geolocalizzata: ">
 <!ENTITY rights.locationawarebrowsing-b "richiede sempre un consenso esplicito. Nessuna informazione sulla posizione viene mai trasmessa senza consenso. Per disattivare completamente questa caratteristica procedere nel seguente modo:">
 <!ENTITY rights.locationawarebrowsing-term1a "Nella barra degli indirizzi digitare ">
@@ -40,8 +71,14 @@
 <!ENTITY rights.locationawarebrowsing-term2 "Digitare geo.enabled">
 <!ENTITY rights.locationawarebrowsing-term3 "Fare doppio clic sulla voce geo.enabled">
 <!ENTITY rights.locationawarebrowsing-term4 "Da questo momento la navigazione geolocalizzata è disattivata">
+
+<!-- intro paragraph for unbranded builds -->
 <!ENTITY rights.webservices-unbranded "Una panoramica dei servizi web inclusi nel prodotto, comprese le indicazioni per disattivarli (se applicabile), dovranno essere riportati in questa sezione.">
+
+<!-- point 1 text for unbranded builds -->
 <!ENTITY rights.webservices-term1-unbranded "Tutti i termini di utilizzo dei servizi relativi a questo prodotto dovranno essere riportati in questa sezione.">
+
+<!-- points 1-7 text for branded builds -->
 <!ENTITY rights2.webservices-term1 "&vendorShortName; e i suoi collaboratori, i licenziatari e i partner si impegnano a fornire i servizi nella forma più accurata e aggiornata possibile. Tuttavia non è sempre possibile garantire la completezza e l'affidabilità di tali informazioni. Ad esempio, il servizio di Safe Browsing potrebbe non essere in grado di individuare siti web pericolosi o identificare erroneamente alcuni siti affidabili come pericolosi. Inoltre, tutte le posizioni fornite dal servizio di navigazione geolocalizzata sono stime trasmesse dai nostri fornitori, per cui non siamo in grado, né lo sono i nostri fornitori, di garantire l'accuratezza di questi dati.">
 <!ENTITY rights.webservices-term2 "&vendorShortName; si riserva il diritto di modificare o interrompere il Servizio a propria discrezione.">
 <!ENTITY rights2.webservices-term3 "L'utente è invitato a utilizzare i Servizi inclusi in questa versione di &brandShortName; e &vendorShortName; gli garantisce tutti i diritti necessari per farlo. &vendorShortName; e i suoi licenziatari si riservano tutti gli altri diritti relativi ai Servizi. Questi termini di utilizzo non intendono in alcun modo limitare i diritti derivanti da licenze Open Source applicabili a &brandShortName; e alla versioni corrispondenti del codice sorgente di &brandShortName;.">
