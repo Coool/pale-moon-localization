@@ -1,16 +1,3 @@
-<!--
-# Translator(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# evinteler <emil_vinteler2000@yahoo.com>
-#
--->
-<!--
-# Reviewer(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-#
--->
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
@@ -19,10 +6,10 @@
 <!ENTITY setPassword.title  "Schimbare parolă generală">
 <!ENTITY setPassword.tokenName.label "Dispozitiv de securitate">
 <!ENTITY setPassword.oldPassword.label "Parola curentă:">
-<!ENTITY setPassword.newPassword.label "Parola nouă:">
-<!ENTITY setPassword.reenterPassword.label "Parola nouă (din nou):">
+<!ENTITY setPassword.newPassword.label "Introduceți noua parolă:">
+<!ENTITY setPassword.reenterPassword.label "Tastați din nou parola:">
 <!ENTITY setPassword.meter.label "Calitatea parolei">
-<!ENTITY setPassword.meter.loading "Încarc">
+<!ENTITY setPassword.meter.loading "Încărcare">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Resetează">
@@ -107,4 +94,3 @@
 <!ENTITY certErrorDlg.title "Conexiunea sigură a eșuat">
 <!ENTITY certErrorDlg.info1 "Aceasta ar putea fi o problemă în configurația serverului sau ar putea fi cineva care încearcă să pretindă că este acest server.">
 <!ENTITY certErrorDlg.info2 "Dacă v-ați mai conectat la acest server cu succes în trecut, eroarea ar putea fi temporară și puteți încerca din nou mai târziu.">
-

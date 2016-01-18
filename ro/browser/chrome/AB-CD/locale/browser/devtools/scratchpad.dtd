@@ -1,19 +1,3 @@
-<!--
-# Translator(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# raulmalea <raul.malea@gmail.com>
-# Cristian Silaghi <cristian.silaghi@mozilla.ro>
-# secarica <orice@secarica.ro>
-#
--->
-<!--
-# Reviewer(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# raulmalea <raul.malea@gmail.com>
-#
--->
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
@@ -45,8 +29,8 @@
 <!ENTITY newWindowCmd.accesskey       "n">
 <!ENTITY newWindowCmd.commandkey      "n">
 
-<!ENTITY openFileCmd.label            "Deschide un fișier…">
-<!ENTITY openFileCmd.accesskey        "O">
+<!ENTITY openFileCmd.label            "Deschide un fișier...">
+<!ENTITY openFileCmd.accesskey        "u">
 <!ENTITY openFileCmd.commandkey       "o">
 
 <!ENTITY openRecentMenu.label         "Deschide fișiere recente">
@@ -63,7 +47,7 @@
 <!ENTITY saveFileAsCmd.accesskey      "a">
 
 <!ENTITY closeCmd.label               "Închide">
-<!ENTITY closeCmd.key                 "w">
+<!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "c">
 
 <!ENTITY editMenu.label               "Editare">
@@ -109,7 +93,7 @@
 <!ENTITY helpMenu.label               "Ajutor">
 <!ENTITY helpMenu.accesskey           "j">
 <!ENTITY helpMenuWin.label            "Ajutor">
-<!ENTITY helpMenuWin.accesskey        "j">
+<!ENTITY helpMenuWin.accesskey        "u">
 
 <!ENTITY documentationLink.label      "Ajutor pentru Editor Javascript pe MDN">
 <!ENTITY documentationLink.accesskey  "A">
@@ -133,4 +117,3 @@
   -  the same name in browser.dtd.
   -->
 <!ENTITY errorConsoleCmd.commandkey   "j">
-

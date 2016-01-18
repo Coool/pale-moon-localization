@@ -1,43 +1,47 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
--->
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label "Trimite legătura…">
-<!ENTITY palemoon.sendLinkCmd.accesskey "d">
-<!ENTITY palemoon.sendPageCmd.label "Trimite legătura spre pagină…">
-<!ENTITY palemoon.sendPageCmd.accesskey "e">
-<!ENTITY palemoon.menu.statusBar.label "Bara de stare">
-<!ENTITY palemoon.menu.statusBar.accesskey "S">
-<!ENTITY palemoon.menu.allBookmarks.label "Organizează semnele de carte">
+<!ENTITY palemoon.sendLinkCmd.label            "Trimite legătura…">
+<!ENTITY palemoon.sendLinkCmd.accesskey        "d">
+<!ENTITY palemoon.sendPageCmd.label            "Trimite legătura spre pagină…">
+<!ENTITY palemoon.sendPageCmd.accesskey        "e">
+
+<!ENTITY palemoon.menu.statusBar.label               "Bara de stare">
+<!ENTITY palemoon.menu.statusBar.accesskey           "S">
+<!ENTITY palemoon.menu.allBookmarks.label            "Organizează semnele de carte">
+
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label "Folosește fereastra clasică Descărcări">
-<!ENTITY palemoon.showTabBar.label "Arată mereu bara de file">
-<!ENTITY palemoon.showTabBar.accesskey "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label "Arată filele înrudite lângă fila curentă">
-<!ENTITY palemoon.contextLoadInBackground.label "La căutare în context, comută imediat la filă nouă">
-<!ENTITY palemoon.closeWindowWithLastTab.label "Închide fereastra atunci când este închisă ultima filă">
-<!ENTITY palemoon.newtabPage.label "La deschiderea unei file noi, arată:">
-<!ENTITY palemoon.newtabPage.blank.label "O pagină albă">
-<!ENTITY palemoon.newtabPage.home.label "Pagina de start Pale Moon">
-<!ENTITY palemoon.newtabPage.quickdial.label "Pagina de apelare rapidă">
-<!ENTITY palemoon.loadImages.label "Incarcă imagini:">
-<!ENTITY palemoon.loadImages.always "Automat">
-<!ENTITY palemoon.loadImages.never "Niciodată">
-<!ENTITY palemoon.loadImages.no3rdparty "Doar de pe serverul de origine">
-<!ENTITY palemoon.firefoxCompatGroup.label "Compatibilitate Firefox">
-<!ENTITY palemoon.firefoxCompat.label "Folosește mod compatibilitate Firefox">
-<!ENTITY palemoon.scrollparamTab.label "Derulare">
-<!ENTITY palemoon.smoothscroll.explain.label "Parametrii de dedesubt au efect dacă derularea lină este activată global cu opțiunea de mai sus.">
-<!ENTITY palemoon.smoothscroll.to "spre">
-<!ENTITY palemoon.smoothscroll.params.label "Parametri derulare lină">
-<!ENTITY palemoon.smoothscroll.mousewheel.label "Derulare lină cu rotița mouse">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration "Durată derulare cu rotița mouse:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label "Derulare lină cu taste săgeți">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration "Durată derulare taste săgeți:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label "Derulare lină cu taste page up/down">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration "Durată derulare cu taste page up/down:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label "Derulare lină cu bare de derulare">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration "Durată derulare lină cu bare de derulare:">
-<!ENTITY allTabs.filter.emptyText "Caută în file">
+<!ENTITY toolkit.classic.download.window.label       "Folosește fereastra clasică Descărcări">
+
+<!ENTITY palemoon.showTabBar.label                   "Arată mereu bara de file">
+<!ENTITY palemoon.showTabBar.accesskey               "b">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Arată filele înrudite lângă fila curentă">
+<!ENTITY palemoon.contextLoadInBackground.label      "La căutare în context, comută imediat la filă nouă">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "Închide fereastra atunci când este închisă ultima filă">
+<!ENTITY palemoon.newtabPage.label                   "La deschiderea unei file noi, arată:">
+<!ENTITY palemoon.newtabPage.blank.label             "O pagină albă">
+<!ENTITY palemoon.newtabPage.home.label              "Pagina de start Pale Moon">
+<!ENTITY palemoon.newtabPage.quickdial.label         "Pagina de apelare rapidă">
+
+<!ENTITY palemoon.loadImages.label            "Incarcă imagini:">
+<!ENTITY palemoon.loadImages.always           "Automat">
+<!ENTITY palemoon.loadImages.never            "Niciodată">
+<!ENTITY palemoon.loadImages.no3rdparty       "Doar de pe serverul de origine">
+
+<!ENTITY palemoon.firefoxCompatGroup.label    "Compatibilitate Firefox">
+<!ENTITY palemoon.firefoxCompat.label         "Folosește mod compatibilitate Firefox">
+
+<!ENTITY palemoon.scrollparamTab.label               "Derulare">
+<!ENTITY palemoon.smoothscroll.explain.label         "Parametrii de dedesubt au efect dacă derularea lină este activată global cu opțiunea de mai sus.">
+<!ENTITY palemoon.smoothscroll.to                    "spre">
+<!ENTITY palemoon.smoothscroll.params.label          "Parametri derulare lină">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "Derulare lină cu rotița mouse">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Durată derulare cu rotița mouse:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Derulare lină cu taste săgeți">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Durată derulare taste săgeți:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "Derulare lină cu taste page up/down">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Durată derulare cu taste page up/down:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "Derulare lină cu bare de derulare">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Durată derulare lină cu bare de derulare:">

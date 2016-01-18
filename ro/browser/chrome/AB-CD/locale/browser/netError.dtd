@@ -1,18 +1,3 @@
-<!--
-# Translator(s):
-#
-# janimo <jani@ubuntu.com>
-# Cristian Silaghi <cristian.silaghi@mozilla.ro>
-# raulmalea <raul.malea@gmail.com>
-# Alexandru Szasz <alexxed@gmail.com>
-#
--->
-<!--
-# Reviewer(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-#
--->
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
@@ -122,6 +107,17 @@ temporară și puteți încerca din nou mai târziu.</li>
 <!ENTITY cspFrameAncestorBlocked.title "Blocat de politica de securitate asupra conținutului">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; a împiedicat această pagină să se încarce în acest mod deoarece pagina are o politică de securitate asupra conținutului ce nu permite asta.</p>">
 
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "Eroare cauzată de conținut corupt">
 <!ENTITY corruptedContentError.longDesc "<p>Pagina care încercați să o vedeți nu poate fi afișată deoarece a fost detectată o eroare legată de transmiterea datelor.</p><ul><li>Vă rugăm contactați deținătorii saitului pentru a-i informa de această problemă.</li></ul>">
 
@@ -142,4 +138,3 @@ functionality specific to firefox. -->
 
 <!ENTITY remoteXUL.title "XUL la distanță">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Vă rugăm să contactați proprietarii websaitului pentru a-i informa despre această problemă.</li></ul></p>">
-

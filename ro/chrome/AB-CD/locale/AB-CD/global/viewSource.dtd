@@ -1,18 +1,3 @@
-<!--
-# Translator(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# raulmalea <raul.malea@gmail.com>
-# nicubunu <nicubunu@gmail.com>
-#
--->
-<!--
-# Reviewer(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# raulmalea <raul.malea@gmail.com>
-#
--->
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
@@ -30,18 +15,18 @@
 <!ENTITY fileMenu.label "Fișier">
 <!ENTITY fileMenu.accesskey "F">
 <!ENTITY savePageCmd.label "Salvează pagina ca...">
-<!ENTITY savePageCmd.accesskey "a">
-<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY savePageCmd.accesskey "S">
+<!ENTITY savePageCmd.commandkey "s">
 <!ENTITY pageSetupCmd.label "Aranjare în pagină...">
 <!ENTITY pageSetupCmd.accesskey "j">
 <!ENTITY printPreviewCmd.label "Previzualizare tipărire">
-<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printPreviewCmd.accesskey "t">
 <!ENTITY printCmd.label "Tipărește…">
 <!ENTITY printCmd.accesskey "p">
-<!ENTITY printCmd.commandkey "P">
+<!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "Închide">
-<!ENTITY closeCmd.accesskey "î">
-<!ENTITY closeCmd.commandkey "W">
+<!ENTITY closeCmd.accesskey "c">
+<!ENTITY closeCmd.commandkey "w">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -65,7 +50,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY viewMenu.accesskey       "V">
 <!ENTITY reloadCmd.label "Reîncarcă">
 <!ENTITY reloadCmd.accesskey "R">
-<!ENTITY reloadCmd.commandkey "R">
+<!ENTITY reloadCmd.commandkey "r">
 <!ENTITY menu_wrapLongLines.title "Înfășoară rândurile lungi"> 
 <!ENTITY menu_wrapLongLines.accesskey "n">
 <!ENTITY menu_highlightSyntax.label "Evidențiere sintaxă">
@@ -80,7 +65,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReset.accesskey "N">
 
 <!ENTITY findOnCmd.label     "Caută în această pagină...">
-<!ENTITY findOnCmd.accesskey "C">
+<!ENTITY findOnCmd.accesskey "n">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Caută din nou">
 <!ENTITY findAgainCmd.accesskey "d">
@@ -88,14 +73,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 
 <!ENTITY backCmd.label "Înapoi">
-<!ENTITY backCmd.accesskey "n">
+<!ENTITY backCmd.accesskey "p">
 <!ENTITY forwardCmd.label "Înainte">
 <!ENTITY forwardCmd.accesskey "n">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
 <!ENTITY copyLinkCmd.label "Copiază adresa legăturii">
-<!ENTITY copyLinkCmd.accesskey "l">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY copyEmailCmd.label "Copiază adresa de email">
 <!ENTITY copyEmailCmd.accesskey "e">
-

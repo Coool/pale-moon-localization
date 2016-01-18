@@ -1,15 +1,3 @@
-<!--
-# Translator(s):
-#
-# evinteler <emil_vinteler2000@yahoo.com>
-#
--->
-<!--
-# Reviewer(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-#
--->
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
@@ -27,14 +15,14 @@ file names and tall enough to hint that there are more downloads in the list -->
 
 <!ENTITY cmd.pause.label                  "Pauză">
 <!ENTITY cmd.pause.accesskey              "P">
-<!ENTITY cmd.resume.label                 "Reia">
-<!ENTITY cmd.resume.accesskey             "R">
-<!ENTITY cmd.cancel.label                 "Anulează">
-<!ENTITY cmd.cancel.accesskey             "A">
-<!ENTITY cmd.show.label                   "Deschide dosarul">
-<!ENTITY cmd.show.accesskey               "o">
-<!ENTITY cmd.showMac.label                "Arată în Finder">
-<!ENTITY cmd.showMac.accesskey            "F">
+<!ENTITY cmd.resume.label                 "Continuă">
+<!ENTITY cmd.resume.accesskey             "C">
+<!ENTITY cmd.cancel.label                 "Renunță">
+<!ENTITY cmd.cancel.accesskey             "R">
+<!ENTITY cmd.show.label                   "Deschide dosarul conținător">
+<!ENTITY cmd.show.accesskey               "D">
+<!ENTITY cmd.showMac.label                "Afișare în Finder">
+<!ENTITY cmd.showMac.accesskey            "f">
 <!ENTITY cmd.open.label                   "Deschide">
 <!ENTITY cmd.open.accesskey               "D">
 <!ENTITY cmd.openWith.label               "Deschide cu...">
@@ -53,13 +41,12 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY cmd.close2Unix.commandKey        "y">
 <!ENTITY cmd.clearList.label              "Curăță lista">
 <!ENTITY cmd.clearList.tooltip            "Elimină din listă descărcările terminate, anulate și eșuate">
-<!ENTITY cmd.clearList.accesskey          "u">
+<!ENTITY cmd.clearList.accesskey          "a">
 <!ENTITY cmd.find.commandKey              "f">
 <!ENTITY cmd.search.commandKey            "k">
 
-<!ENTITY closeWhenDone.label              "Închide când se termină descărcările">
+<!ENTITY closeWhenDone.label              "Închide fereastra după ce s-au descărcat toate fișierele">
 <!ENTITY closeWhenDone.tooltip            "Închide fereastra descărcărilor când toate fișierele au fost descărcate complet">
 
 <!ENTITY showFolder.label                 "Arată acest dosar">
 <!ENTITY searchBox.label                  "Caută...">
-
