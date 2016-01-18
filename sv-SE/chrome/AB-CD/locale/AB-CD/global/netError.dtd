@@ -8,81 +8,67 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Anslutningen misslyckades">
-<!ENTITY connectionFailure.longDesc "<p>Även om webbplatsen tycks vara giltig
-  kunde inte webbläsaren etablera en anslutning med den.</p>
-  <ul>
-    <li>Är webbplatsen kanske tillfälligt nere? Försök igen lite senare.</li>
-    <li>Kan du inte heller besöka andra webbplatser?  Kontrollera datorns
-      nätverksanslutning.</li>
-    <li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?
-      Felaktiga inställningar kan påverka webbläsning.</li>
-  </ul>">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Porten har säkerhetsrestriktioner">
-<!ENTITY deniedPortAccess.longDesc "<p>Den efterfrågade adressen anger en port
-  (t.ex. <q>mozilla.org:80</q> för port 80 på mozilla.org) som normalt används
-  för <em>andra</em> syften än webbsurfning. Webbläsaren har av säkerhetsskäl
-  avbrutit anslutningsförsöket.</p>">
+<!ENTITY deniedPortAccess.title "Adressen har säkerhetsrestriktioner">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
-<!ENTITY dnsNotFound.title "Adressen hittades inte">
-<!ENTITY dnsNotFound.longDesc "<p>Webbläsaren kunde inte finna den angivna
-  adressens värdserver.</p>
-  <ul>
-    <li>Har du kanske skrivit in fel adress? (t.ex.
-      <q><strong>ww</strong>.mozilla.org</q> i stället för
-      <q><strong>www</strong>.mozilla.org</q>)</li>
-    <li>Är du säker på att domänadressen existerar?  Dess registrering kanske
-      har förfallit.</li>
-    <li>Kan du inte heller besöka andra webbplatser?  Kontrollera
-      nätverksanslutning och inställningar för DNS-server.</li>
-    <li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?
-      Felaktiga inställningar kan påverka webbläsning.</li>
-  </ul>">
+<!ENTITY dnsNotFound.title "Servern hittades inte">
+<!ENTITY dnsNotFound.longDesc "
+<ul>
+  <li>Kontrollera om det finns något skrivfel i adressen, som
+    <strong>ww</strong>.example.com i stället för
+    <strong>www</strong>.example.com</li>
+  <li>Om du inte kan hämta någon sida alls, kontrollera datorns
+    nätverksanslutning.</li>
+  <li>Om datorn eller nätverket skyddas av en brandvägg eller proxy, kontrollera
+    att &brandShortName; har tillstånd att ansluta till webben.</li>
+</ul>
+">
 
 <!ENTITY fileNotFound.title "Filen kan inte hittas">
 <!ENTITY fileNotFound.longDesc "
-  <ul>
-    <li>Kan den ha fått ett annat namn, tagits bort eller flyttats?</li>
-    <li>Finns det stavfel eller andra typografiska fel i adressen?</li>
-    <li>Har du tillräckliga rättigheter till den efterfrågade posten?</li>
-  </ul>">
+<ul>
+  <li>Kontrollera om det finns stavfel eller andra typografiska fel i
+    filnamnet.</li>
+  <li>Kontrollera om den flyttats, fått ett annat namn eller tagits bort.</li>
+</ul>
+">
 
-<!ENTITY generic.title "Kan inte fullborda förfrågan">
-<!ENTITY generic.longDesc "<p>Ytterligare information om det här problemet
-  eller felet finns för närvarande inte.</p>">
+<!ENTITY generic.title "Hoppsan!">
+<!ENTITY generic.longDesc "
+<p>&brandShortName; kan av någon anledning inte visa sidan.</p>
+">
 
-<!ENTITY malformedURI.title "Ogiltig adress">
-<!ENTITY malformedURI.longDesc "<p>Den angivna adressen har inte ett
-  igenkännbart format. Kontrollera om det gjorts några misstag i adressfältet
-  och försök igen.</p>">
+<!ENTITY malformedURI.title "Adressen är inte giltig">
+<!ENTITY malformedURI.longDesc "
+<ul>
+  <li>Webbadresser skrivs vanligen som
+    <strong>http://www.example.com/</strong></li>
+  <li>Kontrollera att du använder framåtlutande snedstreck (dvs
+    <strong>/</strong>).</li>
+</ul>
+">
 
-<!ENTITY netInterrupt.title "Dataöverföringen avbröts">
-<!ENTITY netInterrupt.longDesc "<p>Webbläsaren lyckades med anslutningen, men
-  överföringen av information avbröts.  Försök igen.</p>
-  <ul>
-    <li>Kan du inte heller besöka andra webbplatser? Kontrollera datorns
-      nätverksanslutning.</li>
-    <li>Har du fortfarande problem? Rådfråga nätverksadministratören eller
-      Internetleverantören för ytterligare hjälp.</li>
-  </ul>">
+<!ENTITY netInterrupt.title "Anslutningen avbröts">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Utgånget dokument">
-<!ENTITY notCached.longDesc "<p>Det efterfrågade dokumentet finns inte längre i webbläsarens cache.</p><ul><li>Av säkerhetsskäl försöker inte webbläsaren automatiskt att hämta om känsliga dokument.</li><li>Klicka på Försök igen för att åter hämta dokumentet från webbplatsen.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Det efterfrågade dokumentet finns inte längre i &brandShortName; cache.</p><ul><li>Av säkerhetsskäl försöker inte &brandShortName; automatiskt att hämta om känsliga dokument.</li><li>Klicka på Försök igen för att åter hämta dokumentet från webbplatsen.</li></ul>">
 
 <!ENTITY netOffline.title "Nedkopplat läge">
-<!ENTITY netOffline.longDesc2 "<p>Webbläsaren befinner sig i nedkopplat läge och
-  kan inte ansluta till den efterfrågade tjänsten.</p>
-  <ul>
-    <li>Är datorn ansluten till ett fungerande nätverk?</li>
-    <li>Klicka på &#8221;Försök igen&#8221; för att koppla upp och hämta om sidan.</li>
-  </ul>">
+<!ENTITY netOffline.longDesc2 "
+<ul>
+  <li>Klicka på &#8221;Försök igen&#8221; för att koppla upp och hämta om sidan.</li>
+</ul>
+">
 
 <!ENTITY contentEncodingError.title "Kodningsfel av innehållet">
-<!ENTITY contentEncodingError.longDesc "<p>Sidan kan inte visas eftersom den
-  använder en typ av komprimering som är ogiltig eller som inte stöds.</p>
-  <ul>
-    <li>Kontakta webbplatsens ägare och informera dem om detta problem.</li>
-  </ul>">
+<!ENTITY contentEncodingError.longDesc "
+<ul>
+  <li>Kontakta webbplatsens ägare och informera dem om detta problem.</li>
+</ul>
+">
 
 <!ENTITY unsafeContentType.title "Osäker filtyp">
 <!ENTITY unsafeContentType.longDesc "
@@ -92,79 +78,64 @@
 ">
 
 <!ENTITY netReset.title "Anslutningen avbröts">
-<!ENTITY netReset.longDesc "<p>Nätverkslänken avbröts under anslutningsförsöket.
-  Försök igen.</p>">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
 <!ENTITY netTimeout.title "Anslutningen avbröts">
-<!ENTITY netTimeout.longDesc "<p>Den efterfrågade platsen svarade inte på
-  anslutningsförsöket och webbläsaren har slutat vänta på ett svar.</p>
-  <ul>
-    <li>Kan servern vara utsatt för en stor belastning eller ett tillfälligt
-      avbrott?  Försök igen senare.</li>
-    <li>Kan du inte heller besöka andra webbplatser? Kontrollera datorns
-      nätverksanslutning.</li>
-    <li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?
-      Felaktiga inställningar kan påverka webbläsning.</li>
-    <li>Har du fortfarande problem? Rådfråga nätverksadministratören eller
-      Internetleverantören för ytterligare hjälp.</li>
-  </ul>">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Okänt protokoll">
-<!ENTITY protocolNotFound.longDesc "<p>Den angivna adressen specificerar ett
-  protokoll (t.ex. <q>wxyz://</q>) som webbläsaren inte känner till, så
-  webbläsaren kan inte ansluta till platsen.</p>
-  <ul>
-    <li>Försöker du komma åt multimedia eller andra icke textbaserade tjänster?
-      Kontrollera om platsen har särskilda krav.</li>
-    <li>För vissa protokoll kan det fordras tredjepartsprogram eller
-      insticksmoduler för att webbläsaren ska kunna känna igen dem.</li>
-  </ul>">
+<!ENTITY protocolNotFound.title "Adressen förstods inte">
+<!ENTITY protocolNotFound.longDesc "
+<ul>
+  <li>Du kan behöva installera andra program för att öppna den här sidan.</li>
+</ul>
+">
 
-<!ENTITY proxyConnectFailure.title "Proxyservern avslog anslutningen">
-<!ENTITY proxyConnectFailure.longDesc "<p>Webbläsaren är inställd på att
-  använda en proxyserver, men proxyn avvisade anslutningen.</p>
-  <ul>
-    <li>Är webbläsarens proxyinställningar riktiga? Kontrollera inställningarna
-      och försök igen.</li>
-    <li>Tillåter proxyn anslutningar från det här nätverket?</li>
-    <li>Har du fortfarande problem? Rådfråga nätverksadministratören eller
-      Internetleverantören för ytterligare hjälp.</li>
-  </ul>">
+<!ENTITY proxyConnectFailure.title "Proxyservern avvisar anslutningen">
+<!ENTITY proxyConnectFailure.longDesc "
+<ul>
+  <li>Kontrollera att proxyinställningarna är riktiga.</li>
+  <li>Kontakta nätverksadministratören för att säkerställa att proxyservern
+    fungerar.</li>
+</ul>
+">
 
-<!ENTITY proxyResolveFailure.title "Proxyservern hittades inte">
-<!ENTITY proxyResolveFailure.longDesc "<p>Webbläsaren är inställd på att
-  använda en proxyserver, men proxyn kunde inte hittas.</p>
-  <ul>
-    <li>Är webbläsarens proxyinställningar riktiga? Kontrollera
-      inställningarna och försök igen.</li>
-    <li>Är datorn ansluten till ett fungerande nätverk?</li>
-    <li>Har du fortfarande problem? Rådfråga nätverksadministratören eller
-      Internetleverantören för ytterligare hjälp.</li>
-  </ul>">
+<!ENTITY proxyResolveFailure.title "Kan inte hitta proxyservern">
+<!ENTITY proxyResolveFailure.longDesc "
+<ul>
+  <li>Kontrollera att proxyinställningarna är riktiga.</li>
+  <li>Kontrollera att datorn har en fungerande nätverksanslutning.</li>
+  <li>Om datorn eller nätverket skyddas av en brandvägg eller proxy, kontrollera
+    att &brandShortName; har tillstånd att ansluta till webben.</li>
+</ul>
+">
 
-<!ENTITY redirectLoop.title "Omdirigeringsslinga">
-<!ENTITY redirectLoop.longDesc "<p>Webbläsaren har avbrutit försöket att hämta
-  den efterfrågade saken. Platsen dirigerar om förfrågan på ett sätt som
-  omöjliggör ett slutförande.</p>
-  <ul>
-    <li>Har du inaktiverat eller blockerat kakor från den här platsen?</li>
-    <li><em>NOTERA</em>: Om ett accepterande av den här platsens kakor inte
-      löser problemet är det sannolikt ett problem med serverns konfiguration
-      och inte med din dator.</li>
-  </ul>">
+<!ENTITY redirectLoop.title "Sidan dirigeras om felaktigt">
+<!ENTITY redirectLoop.longDesc "
+<ul>
+  <li>Det här problemet kan ibland uppstå om du inaktiverat eller nekat att ta
+    emot kakor.</li>
+</ul>
+">
 
-<!ENTITY unknownSocketType.title "Felaktigt svar">
-<!ENTITY unknownSocketType.longDesc "<p>Platsen svarade på ett oväntat sätt på
-  nätverksförfrågan och webbläsaren kan inte fortsätta.</p>">
+<!ENTITY unknownSocketType.title "Oväntat svar från servern">
+<!ENTITY unknownSocketType.longDesc "
+<ul>
+  <li>Kontrollera om Personal Security Manager finns installerat på datorn.</li>
+  <li>Det här kan ibland bero på en ovanlig konfiguration på servern.</li>
+</ul>
+">
 
 <!ENTITY nssFailure2.title "Säker anslutning misslyckades">
-<!ENTITY nssFailure2.longDesc "<p>Sidan du försöker se kan inte visas eftersom
-  den mottagna datans autenticitet inte kan verifieras.</p>
-  <ul>
-    <li>Kontakta webbplatsens ägare och informera dem om detta problem.</li></ul>">
+<!ENTITY nssFailure2.longDesc "
+<ul>
+  <li>Sidan du försöker se kan inte visas eftersom den mottagna datans autenticitet inte kan verifieras.</li>
+  <li>Kontakta webbplatsens ägare och informera dem om detta problem. Du kan även använda kommandot i Hjälp-menyn för att rapportera in problemet med webbplatsen.</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "Säker anslutning misslyckades">
-<!ENTITY nssBadCert.longDesc2 "<ul>
+<!ENTITY nssBadCert.longDesc2 "
+<ul>
   <li>Detta kan bero på ett problem med serverns konfiguration, eller så kanske
     någon annan felaktigt utger sig för att vara servern.</li>
   <li>Om du tidigare utan problem har anslutit till den här servern kanske felet
@@ -185,7 +156,18 @@
 ">
 
 <!ENTITY cspFrameAncestorBlocked.title "Blockerad av säkerhetspolicyn för innehåll">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Webbläsaren förhindrade sidan från att öppnas på detta sätt eftersom sidan har en säkerhetspolicy för innehåll som inte tillåter detta.</p>">
+<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; förhindrade sidan från att öppnas på detta sätt eftersom sidan har en säkerhetspolicy för innehåll som inte tillåter detta.</p>">
+
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
 
 <!ENTITY corruptedContentError.title "Skadat innehåll">
 <!ENTITY corruptedContentError.longDesc "<p>Sidan du försöker se kan inte visas på grund av att ett fel i dataöverföringen upptäcktes.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">

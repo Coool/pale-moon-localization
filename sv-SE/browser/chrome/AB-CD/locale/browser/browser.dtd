@@ -16,17 +16,17 @@
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(privat surfning)">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label          "Uppdatera flik">
-<!ENTITY  reloadTab.accesskey      "U">
-<!ENTITY  reloadAllTabs.label      "Uppdatera alla flikar">
-<!ENTITY  reloadAllTabs.accesskey  "a">
+<!ENTITY  reloadTab.label                    "Uppdatera flik">
+<!ENTITY  reloadTab.accesskey                "U">
+<!ENTITY  reloadAllTabs.label                "Uppdatera alla flikar">
+<!ENTITY  reloadAllTabs.accesskey            "a">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Stäng flikar till höger">
 <!ENTITY  closeTabsToTheEnd.accesskey        "h">
-<!ENTITY  closeOtherTabs.label     "Stäng alla andra flikar">
-<!ENTITY  closeOtherTabs.accesskey "ä">
+<!ENTITY  closeOtherTabs.label               "Stäng alla andra flikar">
+<!ENTITY  closeOtherTabs.accesskey           "ä">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
@@ -37,17 +37,14 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "F">
 <!ENTITY  unpinTab.label                     "Gör om till vanlig flik">
 <!ENTITY  unpinTab.accesskey                 "G">
-<!ENTITY  moveToGroup.label                  "Flytta till grupp">
-<!ENTITY  moveToGroup.accesskey              "F">
-<!ENTITY  moveToNewGroup.label               "Ny grupp">
 <!ENTITY  moveToNewWindow.label              "Flytta till nytt fönster">
 <!ENTITY  moveToNewWindow.accesskey          "t">
-<!ENTITY  bookmarkAllTabs.label       "Bokmärke för alla flikar…">
-<!ENTITY  bookmarkAllTabs.accesskey   "m">
-<!ENTITY  undoCloseTab.label          "Ångra Stäng flik">
-<!ENTITY  undoCloseTab.accesskey      "Å">
-<!ENTITY  closeTab.label           "Stäng flik">
-<!ENTITY  closeTab.accesskey       "S">
+<!ENTITY  bookmarkAllTabs.label              "Bokmärke för alla flikar…">
+<!ENTITY  bookmarkAllTabs.accesskey          "m">
+<!ENTITY  undoCloseTab.label                 "Ångra Stäng flik">
+<!ENTITY  undoCloseTab.accesskey             "Å">
+<!ENTITY  closeTab.label                     "Stäng flik">
+<!ENTITY  closeTab.accesskey                 "S">
 
 <!ENTITY  listAllTabs.label      "Visa upp alla flikar">
 
@@ -121,17 +118,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Lägg till bokmärke">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY sharePageCmd.label "Dela den här sidan">
-<!ENTITY sharePageCmd.commandkey "S">
-<!ENTITY sharePageCmd.accesskey "D">
-<!ENTITY shareLinkCmd.label "Dela den här länken">
-<!ENTITY shareLinkCmd.accesskey "D">
-<!ENTITY shareImageCmd.label "Dela den här bilden">
-<!ENTITY shareImageCmd.accesskey "D">
-<!ENTITY shareSelectCmd.label "Dela den här markeringen">
-<!ENTITY shareSelectCmd.accesskey "D">
-<!ENTITY shareVideoCmd.label "Dela den här videon">
-<!ENTITY shareVideoCmd.accesskey "D">
 <!ENTITY subscribeToPageMenupopup.label "Prenumerera på denna sida">
 <!ENTITY subscribeToPageMenuitem.label "Prenumerera på denna sida…">
 <!ENTITY addCurPagesCmd.label "Bokmärke för alla flikar…">
@@ -169,15 +155,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuButton.tooltip        "Öppna &brandShortName;-menyn">
 <!ENTITY homeButton.label             "Startsida">
 
-<!ENTITY tabGroupsButton.label        "Flikgrupper">
-<!ENTITY tabGroupsButton.tooltip      "Gruppera dina flikar">
-
 <!ENTITY feedButton.label             "Prenumerera">
 <!ENTITY feedButton.tooltip           "Prenumerera på den här sidan…">
 
 <!ENTITY bookmarksButton.label          "Bokmärken">
 <!ENTITY bookmarksButton.tooltip        "Visa dina bokmärken">
-<!ENTITY bookmarksCmd.commandkey        "b">
+<!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Bokmärken">
 <!ENTITY bookmarksMenuButton.tooltip        "Visar dina bokmärken">
@@ -298,7 +281,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "a"> 
 <!ENTITY preferencesCmd2.label       "Inställningar">
-<!ENTITY preferencesCmd2.accesskey     "I"> 
+<!ENTITY preferencesCmd2.accesskey     "I">
 <!ENTITY preferencesCmdUnix.label       "Inställningar">
 <!ENTITY preferencesCmdUnix.accesskey     "I"> 
 
@@ -308,8 +291,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewMenu.label         "Visa"> 
 <!ENTITY viewMenu.accesskey       "s"> 
-<!ENTITY viewTabGroups.label            "Flikgrupper">
-<!ENTITY viewTabGroups.accesskey        "F">
 <!ENTITY viewToolbarsMenu.label       "Verktygsfält"> 
 <!ENTITY viewToolbarsMenu.accesskey     "V"> 
 <!ENTITY viewSidebarMenu.label "Sidofält">
@@ -370,8 +351,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!ENTITY tabView.commandkey           "e">
-
 <!ENTITY openLinkCmdInTab.label       "Öppna länk i ny flik">
 <!ENTITY openLinkCmdInTab.accesskey   "f">
 <!ENTITY openLinkCmd.label            "Öppna länk i nytt fönster">
@@ -415,7 +394,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY setDesktopBackgroundCmd.label      "Använd som skrivbordsbakgrund…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "s">
 <!ENTITY bookmarkPageCmd2.label       "Lägg till bokmärke">
-<!ENTITY bookmarkPageCmd2.accesskey    "L">
+<!ENTITY bookmarkPageCmd2.accesskey   "L">
 <!ENTITY bookmarkThisLinkCmd.label      "Lägg till bokmärke för länkmål">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "L">
 <!ENTITY bookmarkThisFrameCmd.label      "Lägg till bokmärke för ram">
@@ -461,8 +440,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyAudioURLCmd.accesskey    "r">
 <!ENTITY copyEmailCmd.label           "Kopiera e-postadress">
 <!ENTITY copyEmailCmd.accesskey       "e">
-<!ENTITY thisFrameMenu.label          "Denna ram">
-<!ENTITY thisFrameMenu.accesskey      "r">
+<!ENTITY thisFrameMenu.label              "Denna ram">
+<!ENTITY thisFrameMenu.accesskey          "r">
 
 <!-- Media (video/audio) controls -->
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
@@ -622,6 +601,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "Mer information…">
 
+<!ENTITY allTabs.filter.emptyText "Search Tabs">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "Webbläsarflikar">
@@ -639,35 +619,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY addonBarCloseButton.tooltip  "Stäng Tilläggsfältet">
 <!ENTITY toggleAddonBarCmd.key        "å">
-
-<!ENTITY socialToolbar.title        "Socialt verktygsfält">
-<!ENTITY social.notLoggedIn.label   "Inte inloggad">
-
-<!ENTITY social.ok.label       "OK">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "Visa sidofält">
-<!ENTITY social.toggleSidebar.accesskey "V">
-
-<!ENTITY social.addons.label "Hantera tjänster…">
-
-<!ENTITY social.toggleNotifications.label "Visa skrivbordsnotifikationer">
-<!ENTITY social.toggleNotifications.accesskey "n">
-
-<!ENTITY social.activated.description "Tjänster från <label/> har aktiverats. Du kan ändra inställningarna för tjänsterna i fliken <label class='text-link'>Tillägg</label>.">
-<!ENTITY social.activated.undo.label "Ångra">
-<!ENTITY social.activated.undo.accesskey "Å">
-<!ENTITY social.learnMore.label "Läs mer …">
-<!ENTITY social.learnMore.accesskey "L">
-<!ENTITY social.closeNotificationItem.label "Inte nu">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Fokusera på chattar">
-<!ENTITY social.chatBar.accesskey "c">
-
-<!-- labels are set dynamically, see browser.properties -->
-<!ENTITY social.markpage.accesskey "s">
-<!ENTITY social.marklink.accesskey "s">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera att dela:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
