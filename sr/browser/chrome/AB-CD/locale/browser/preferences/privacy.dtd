@@ -1,7 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY tracking.label                 "Праћење">
 
-<!ENTITY doNotTrack.label               "Обавести веб сајтове да не желим да ме прате">
-<!ENTITY doNotTrack.accesskey           "О">
+<!ENTITY dntTrackingNopref.label2       "Do not tell sites anything about my tracking preferences">
+<!ENTITY dntTrackingNopref.accesskey    "o">
+<!ENTITY dntTrackingNotOkay.label2      "Tell sites that I do not want to be tracked">
+<!ENTITY dntTrackingNotOkay.accesskey   "n">
+<!ENTITY dntTrackingOkay.label2         "Tell sites that I want to be tracked">
+<!ENTITY dntTrackingOkay.accesskey      "t">
+<!ENTITY doNotTrackInfo.label           "Learn More">
 
 <!ENTITY  history.label                 "Историјат">
 
@@ -18,8 +27,11 @@
 <!ENTITY  acceptCookies.label           "Прихватај колачиће са сајтова">
 <!ENTITY  acceptCookies.accesskey       "П">
 
-<!ENTITY  acceptThirdParty.label        "Прихвати колачиће од трећих лица">
-<!ENTITY  acceptThirdParty.accesskey    "т">
+<!ENTITY  acceptThirdParty.pre.label      "Accept third-party cookies:">
+<!ENTITY  acceptThirdParty.pre.accesskey  "c">
+<!ENTITY  acceptThirdParty.always.label   "Always">
+<!ENTITY  acceptThirdParty.never.label    "Never">
+<!ENTITY  acceptThirdParty.visited.label  "From visited">
 
 <!ENTITY  keepUntil.label               "Рок за чување:">
 <!ENTITY  keepUntil.accesskey           "Р">
@@ -66,9 +78,6 @@
 <!ENTITY  rememberHistory2.label      "Запамти мој историјат читања и пријема">
 <!ENTITY  rememberHistory2.accesskey  "З">
 
-<!ENTITY  rememberDownload.label         "Памти историјат пријема">
-<!ENTITY  rememberDownload.accesskey     "П">
-
 <!ENTITY  rememberSearchForm.label       "Запамти историјат образаца и претраге">
 <!ENTITY  rememberSearchForm.accesskey   "f">
 
@@ -77,18 +86,3 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Подешавања…">
 <!ENTITY  clearOnCloseSettings.accesskey "П">
-
-<!ENTITY  acceptThirdParty.always.label   "Always">
-<!ENTITY  acceptThirdParty.never.label    "Never">
-<!ENTITY  acceptThirdParty.pre.accesskey  "c">
-
-<!ENTITY  acceptThirdParty.pre.label      "Accept third-party cookies:">
-<!ENTITY  acceptThirdParty.visited.label  "From visited">
-<!ENTITY dntTrackingNopref.accesskey    "o">
-
-<!ENTITY dntTrackingNopref.label2       "Do not tell sites anything about my tracking preferences">
-<!ENTITY dntTrackingNotOkay.accesskey   "n">
-<!ENTITY dntTrackingNotOkay.label2      "Tell sites that I do not want to be tracked">
-<!ENTITY dntTrackingOkay.accesskey      "t">
-<!ENTITY dntTrackingOkay.label2         "Tell sites that I want to be tracked">
-<!ENTITY doNotTrackInfo.label           "Learn More">

@@ -1,6 +1,10 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY  fontsDialog.title                       "Фонтови">
-<!ENTITY  window.width                            "49em">
-<!ENTITY  window.macWidth                         "45em">
+<!ENTITY  window.width                            "50em">
+<!ENTITY  window.macWidth                         "43em">
 <!ENTITY  window.unixWidth                        "43em">
 
 <!ENTITY  language.label                          "Намена:">
@@ -61,15 +65,10 @@
 <!ENTITY  useDefaultFontSerif.label               "Серифни">
 <!ENTITY  useDefaultFontSansSerif.label           "Без серифа">
 
-<!ENTITY  allowPagesToUse.label                   "Дозволи страницама да користе сопствене фонтове уместо оног што ја изаберем">
+<!ENTITY  allowPagesToUse.label                   "Дозволи странама да изаберу своје боје, уместо горе датог избора.">
 <!ENTITY  allowPagesToUse.accesskey               "Д">
-
-<!ENTITY languages.customize.Charset.grouplabel         "Кодирање знакова">
-<!ENTITY languages.customize.DefaultCharset.label       "Подразумевано кодирање знакова">
-<!ENTITY languages.customize.DefaultCharset.accesskey   "з">
-
-<!ENTITY languages.customize.Fallback.accesskey   "C">
-<!ENTITY languages.customize.Fallback.desc        "This character encoding is used for legacy content that fails to declare its encoding.">
 
 <!ENTITY languages.customize.Fallback.grouplabel  "Character Encoding for Legacy Content">
 <!ENTITY languages.customize.Fallback.label       "Fallback Character Encoding:">
+<!ENTITY languages.customize.Fallback.accesskey   "C">
+<!ENTITY languages.customize.Fallback.desc        "This character encoding is used for legacy content that fails to declare its encoding.">

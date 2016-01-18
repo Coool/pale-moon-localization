@@ -1,7 +1,10 @@
-<!ENTITY  updateWizard.title              "Доградња програма">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY  updateWizard.title              "Доградње за програм &brandShortName;">
 
 <!ENTITY  checking.title                  "Провера доградњи">
-<!ENTITY  updateCheck.label               "Тражимо ново издање програма &brandShortName;…">
+<!ENTITY  updateCheck.label               "Проверавај доградње, али ме питај да ли да их инсталирам">
 
 <!ENTITY  pluginupdatesfound.title        "Пронађене су доградње за прикључке">
 <!ENTITY  pluginupdatesfound.label        "Пронађена су новија издања једног или више прикључака.">
@@ -21,6 +24,12 @@
 <!ENTITY  manualUpdate.space.desc         "Препоручена доградња безбедности и стабилности је доступна,
                                            али немате довољно простора да је инсталирате.">
 <!ENTITY  manualUpdateGetMsg.label        "Најсвежије издање програма &brandShortName; можете набавити на адреси:">
+
+<!ENTITY  unsupported.title               "System Unsupported">
+<!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
+                                           supported on your system. Please upgrade your system, then try again.
+                                           You will not see this notice again, but you can">
+<!ENTITY  unsupportedLink.label           "learn more.">
 
 <!ENTITY  incompatibleCheck.title         "Провера сагласности додатака">
 <!ENTITY  incompatibleCheck.label         "Тражење нових издања додатака…">
@@ -88,11 +97,3 @@
 <!ENTITY  update.details.label            "Детаљи">
 <!ENTITY  update.installedOn.label        "Инсталирано на:">
 <!ENTITY  update.status.label             "Стање:">
-
-
-<!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
-                                           supported on your system. Please upgrade your system, then try again.
-                                           You will not see this notice again, but you can">
-
-<!ENTITY  unsupported.title               "System Unsupported">
-<!ENTITY  unsupportedLink.label           "learn more.">

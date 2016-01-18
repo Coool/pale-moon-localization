@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY aboutSupport.pageTitle "Подаци о решавању проблема">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
@@ -13,6 +17,11 @@
 <!ENTITY aboutSupport.appBasicsTitle "Основе апликације">
 <!ENTITY aboutSupport.appBasicsName "Назив">
 <!ENTITY aboutSupport.appBasicsVersion "Издање">
+
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+"Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
 
 <!ENTITY aboutSupport.appBasicsProfileDir "Директоријум профила">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
@@ -39,32 +48,23 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.modifiedPrefsName "Назив">
 <!ENTITY aboutSupport.modifiedPrefsValue "Вредност">
 
+<!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
+<!ENTITY aboutSupport.userJSTitle "user.js Preferences">
+<!ENTITY aboutSupport.userJSDescription "Your profile folder contains a <a id='prefs-user-js-link'>user.js file</a>, which includes preferences that were not created by &brandShortName;.">
+
 <!ENTITY aboutSupport.graphicsTitle "Графика">
 
 <!ENTITY aboutSupport.jsTitle "Јаваскрипт">
 <!ENTITY aboutSupport.jsIncrementalGC "Инкрементални скупљач ђубрета (GC)">
+
+<!ENTITY aboutSupport.a11yTitle "Accessibility">
+<!ENTITY aboutSupport.a11yActivated "Activated">
+<!ENTITY aboutSupport.a11yForceDisabled "Prevent Accessibility">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Издања библиотека">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Историјат инсталација">
 <!ENTITY aboutSupport.updateHistoryTitle "Историјат унапређења">
 
-<!ENTITY aboutSupport.copyToClipboard.label "Копирај све у оставу">
-
-
-<!ENTITY aboutSupport.a11yActivated "Activated">
-<!ENTITY aboutSupport.a11yForceDisabled "Prevent Accessibility">
-
-<!ENTITY aboutSupport.a11yTitle "Accessibility">
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
-
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
-"Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Copy raw data to clipboard">
-
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copy text to clipboard">
-<!ENTITY aboutSupport.userJSDescription "Your profile folder contains a <a id='prefs-user-js-link'>user.js file</a>, which includes preferences that were not created by &brandShortName;.">
-
-<!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
-<!ENTITY aboutSupport.userJSTitle "user.js Preferences">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Copy raw data to clipboard">
