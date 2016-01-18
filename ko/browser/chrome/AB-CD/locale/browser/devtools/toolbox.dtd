@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip  "개발자 도구 닫기">
+<!ENTITY toolboxCloseButton.tooltip    "개발자 도구 닫기">
 <!ENTITY toolboxOptionsButton.key      "O">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -31,14 +31,14 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label3): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label3   "chrome 디버깅 켜기">
-<!ENTITY options.enableChrome.tooltip  "이 옵션을 켜면 여러 가지 개발자 도구를 브라우저 컨텍스트에 쓸 수 있습니다.">
+<!ENTITY options.enableChrome.label3    "chrome 디버깅 켜기">
+<!ENTITY options.enableChrome.tooltip   "이 옵션을 켜면 여러 가지 개발자 도구를 브라우저 컨텍스트에 쓸 수 있습니다.">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3   "원격 디버깅 켜기">
-<!ENTITY options.enableRemote.tooltip  "이 옵션을 켜면 개발자 도구가 Firefox OS와 같은 원격 Firefox 인스턴스를 디버깅할 수 있습니다.">
+<!ENTITY options.enableRemote.label3    "원격 디버깅 켜기">
+<!ENTITY options.enableRemote.tooltip   "이 옵션을 켜면 개발자 도구가 Firefox OS와 같은 원격 Firefox 인스턴스를 디버깅할 수 있습니다.">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -51,7 +51,7 @@
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "기본 Firefox 개발자 도구">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->

@@ -2,10 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- extracted from finddialog.xul -->
+
 <!ENTITY findDialog.title "이 페이지에서 찾기">
 <!ENTITY findField.label "찾기:">
 <!ENTITY findField.accesskey "n">
-<!ENTITY caseSensitiveCheckbox.label "대/소문자 구별">
+<!ENTITY caseSensitiveCheckbox.label "대/소문자 구분">
 <!ENTITY caseSensitiveCheckbox.accesskey "c">
 <!ENTITY wrapCheckbox.label "줄 단위로">
 <!ENTITY wrapCheckbox.accesskey "W">
@@ -13,7 +15,7 @@
 <!ENTITY findButton.accesskey "F">
 <!ENTITY cancelButton.label "취소">
 <!ENTITY closeButton.label "닫기">
-<!ENTITY up.label "위로">
+<!ENTITY up.label "위로 이동">
 <!ENTITY up.accesskey "U">
 <!ENTITY down.label "아래로">
 <!ENTITY down.accesskey "D">
