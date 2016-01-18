@@ -46,12 +46,12 @@
 <!ENTITY options.disableJavaScript.label2    "Zakázať JavaScript">
 <!ENTITY options.disableJavaScript.tooltip   "Označením tejto voľby zakážete používanie JavaScriptu na aktuálnej karte. Po zatvorení karty alebo ukončení vývojárskych nástrojov bude táto voľba automaticky prepnutá späť.">
 
-<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
 <!ENTITY options.selectDefaultTools.label     "Predvolené vývojárske nástroje Firefoxu">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
@@ -61,7 +61,7 @@
   -  the explanation of the * marker on a tool which is currently not supported
   -  for the target of the toolbox. -->
 <!ENTITY options.toolNotSupported.label  "* nie je podporované pre aktuálny kontext">
-    
+
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
   -  tools. -->

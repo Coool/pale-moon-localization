@@ -6,12 +6,12 @@
 close to the golden ratio (1.618:1) while making sure it's wide enough for long
 file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY window.width2                    "485">
-<!ENTITY window.height                    "300">
+<!ENTITY window.height                    "300"> 
 
 <!ENTITY starting.label                   "Začína sa…">
 <!ENTITY scanning.label                   "Kontrola na prítomnosť vírusov…">
 
-<!ENTITY downloads.title                  "Správca preberania súborov">
+<!ENTITY downloads.title                  "Prevzaté súbory">
 
 <!ENTITY cmd.pause.label                  "Pozastaviť">
 <!ENTITY cmd.pause.accesskey              "P">
@@ -24,7 +24,7 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY cmd.showMac.label                "Zobraziť vo Finderi">
 <!ENTITY cmd.showMac.accesskey            "b">
 <!ENTITY cmd.open.label                   "Otvoriť">
-<!ENTITY cmd.open.accesskey               "O">
+<!ENTITY cmd.open.accesskey               "t">
 <!ENTITY cmd.openWith.label               "Otvoriť pomocou…">
 <!ENTITY cmd.openWith.accesskey           "u">
 <!ENTITY cmd.retry.label                  "Znova">
@@ -41,11 +41,11 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY cmd.close2Unix.commandKey        "y">
 <!ENTITY cmd.clearList.label              "Vymazať zoznam">
 <!ENTITY cmd.clearList.tooltip            "Odstrániť dokončené, zrušené alebo neúspešne prevzaté súbory zo zoznamu">
-<!ENTITY cmd.clearList.accesskey          "a">
+<!ENTITY cmd.clearList.accesskey          "V">
 <!ENTITY cmd.find.commandKey              "f">
 <!ENTITY cmd.search.commandKey            "k">
 
-<!ENTITY closeWhenDone.label              "Zavrieť, keď sa preberanie dokončí">
+<!ENTITY closeWhenDone.label              "Zavrieť po ukončení preberania všetkých súborov">
 <!ENTITY closeWhenDone.tooltip            "Zavrieť okno Správcu preberania súborov, keď sa dokončí preberanie všetkých súborov">
 
 <!ENTITY showFolder.label                 "Zobraziť tento priečinok">

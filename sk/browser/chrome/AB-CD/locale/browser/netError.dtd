@@ -161,6 +161,17 @@
 <!ENTITY cspFrameAncestorBlocked.title "Blokované kvôli zásadám ochrany obsahu">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>Prehliadač &brandShortName; nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
 
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
 <!ENTITY corruptedContentError.title "Poškodený obsah stránky">
 <!ENTITY corruptedContentError.longDesc "<p>Táto stránka nemohla byť zobrazená kvôli chybe pri prenose údajov.</p><ul><li>Kontaktuje prevádzkovateľa webovej stránky a informujte ho o tomto probléme.</li></ul>">
 

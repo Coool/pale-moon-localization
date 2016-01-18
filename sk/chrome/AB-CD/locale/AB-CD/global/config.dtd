@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "about:config">
+<!ENTITY window.title "Editor JavaScriptu - ScratchPad">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
 <!ENTITY aboutWarningTitle.label "Pozor, nebezpečenstvo poškodenia!">
 <!ENTITY aboutWarningText.label "Zmena týchto pokročilých nastavení môže nepriaznivo ovplyvniť stabilitu, bezpečnosť a výkon tejto aplikácie. Pokračovať by ste mali len v prípade, že viete, čo robíte.">
 <!ENTITY aboutWarningButton.label "Budem opatrný, sľubujem!">
@@ -18,12 +18,12 @@
 <!-- Columns -->
 <!ENTITY prefColumn.label "Názov predvoľby">
 <!ENTITY lockColumn.label "Stav">
-<!ENTITY typeColumn.label "Typ">
+<!ENTITY typeColumn.label "Typ obsahu">
 <!ENTITY valueColumn.label "Hodnota">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "Kliknutím zoradíte">
-<!ENTITY columnChooser.tooltip "Kliknutím vyberte stĺpce, ktoré sa majú zobraziť">
+<!ENTITY prefColumnHeader.tooltip "Kliknutím zoradíte"> 
+<!ENTITY columnChooser.tooltip "Kliknutím vyberte stĺpce, ktoré sa majú zobraziť"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "C">

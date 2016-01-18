@@ -8,7 +8,7 @@
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
 
-<!ENTITY window.title "Webová konzola">
+<!ENTITY window.title "Editor JavaScriptu - ScratchPad">
 <!ENTITY browserConsole.title "Konzola prehliadača">
 
 <!ENTITY networkPanel.requestURLColon             "Adresa požiadavky:">
@@ -44,6 +44,7 @@
   -  This string and the following strings toggle various kinds of output
   -  filters. -->
 <!ENTITY btnPageNet.label   "Sieť">
+<!ENTITY btnPageNet.tooltip "Zaznamenávať prístup k sieti">
 <!ENTITY btnPageNet.accesskey "S">
 <!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
   -  access key for the menu button that allows users to toggle the network
@@ -51,16 +52,15 @@
   -  sure you do not use the following letters: A, E, N and P. These are used
   -  for editing commands in text inputs. -->
 <!ENTITY btnPageNet.accesskeyMacOSX "S">
-<!ENTITY btnPageNet.tooltip "Zaznamenávať prístup k sieti">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageCSS.tooltip "Zaznamenávať chyby spracovania CSS">
+<!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
-<!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageJS.tooltip  "Zaznamenávať výnimky JavaScriptu">
+<!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageSecurity.label "Bezpečnosť">
-<!ENTITY btnPageSecurity.accesskey "B">
 <!ENTITY btnPageSecurity.tooltip "Zaznamenávať bezpečnostné upozornenia a chyby">
+<!ENTITY btnPageSecurity.accesskey "B">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
@@ -76,8 +76,8 @@
 
 <!ENTITY filterOutput.placeholder "Filtrovať výstup">
 <!ENTITY btnClear.label        "Vymazať">
-<!ENTITY btnClear.accesskey    "V">
 <!ENTITY btnClear.tooltip      "Vymazať výstup webovej konzoly">
+<!ENTITY btnClear.accesskey    "V">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->

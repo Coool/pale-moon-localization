@@ -9,5 +9,7 @@
 <!ENTITY securityOverride.linkText "Alebo môžete pridať výnimku…">
 <!ENTITY securityOverride.warningContent "
 <p>Výnimku by ste nemali pridávať v prípade, že používate internetové pripojenie, ktorému úplne neveríte, alebo sa toto upozornenie predtým neobjavovalo.</p>
-<p>Ak aj napriek tomu chcete pridať výnimku pre túto stránku, môžete tak urobiť v nastaveniach šifrovania.</p>
+
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">

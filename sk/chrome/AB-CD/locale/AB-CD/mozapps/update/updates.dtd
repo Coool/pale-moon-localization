@@ -1,11 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY  updateWizard.title              "Aktualizácia softvéru">
+<!ENTITY  updateWizard.title              "Aktualizácia aplikácie &brandShortName;">
 
 <!ENTITY  checking.title                  "Vyhľadávajú sa aktualizácie">
-<!ENTITY  updateCheck.label               "Vyhľadáva sa novšia verzia programu &brandShortName;…">
+<!ENTITY  updateCheck.label               "Vyhľadávať aktualizácie, ale poskytnúť možnosť zvoliť, či sa nainštalujú">
 
 <!ENTITY  pluginupdatesfound.title        "Nájdené aktualizácie zásuvných modulov">
 <!ENTITY  pluginupdatesfound.label        "Bola nájdená novšia verzia jedného alebo viacerých vami používaných zásuvných modulov.">
@@ -54,25 +53,25 @@
 <!ENTITY  incompatibleList.title          "Nájdené nekompatibilné doplnky">
 
 <!ENTITY  downloadPage.title              "Preberá sa &brandShortName;">
-<!ENTITY downloading.intro                "Preberá sa aktualizácia…">
-<!ENTITY connecting.label                 "Pripája sa k aktualizačnému serveru…">
-<!ENTITY verificationFailedText.label     "&brandShortName; nedokázal overiť integritu
+<!ENTITY  downloading.intro               "Preberá sa aktualizácia…">
+<!ENTITY  connecting.label                "Pripája sa k aktualizačnému serveru…">
+<!ENTITY  verificationFailedText.label    "&brandShortName; nedokázal overiť integritu
                                            prevzatej rozdielovej aktualizácie. Mali by ste prevziať
                                            kompletný aktualizačný balík.">
 
 <!ENTITY  viewDetails.tooltip             "Zobraziť podrobnosti k tejto aktualizácii">
 
-<!ENTITY details.link                     "Podrobnosti">
+<!ENTITY  details.link                    "Podrobnosti">
 
 <!ENTITY  error.title                     "Aktualizácia zlyhala">
 
-<!ENTITY error.label                      "Pri kontrole, preberaní alebo inštalácii aktualizácie došlo k chybe. &brandShortName;
+<!ENTITY  error.label                     "Pri kontrole, preberaní alebo inštalácii aktualizácie došlo k chybe. &brandShortName;
                                            sa nepodarilo aktualizovať, pretože: ">
-
-<!ENTITY errorManual.label                "&brandShortName; odporúčame aktualizovať ručne prevzatím najnovšej verzie
+                                           
+<!ENTITY  errorManual.label               "&brandShortName; odporúčame aktualizovať ručne prevzatím najnovšej verzie
                                            z tejto stránky: ">
-
-<!ENTITY errorpatching.intro              "Použitie rozdielovej aktualizácie bolo neúspešné.
+                                           
+<!ENTITY  errorpatching.intro             "Použitie rozdielovej aktualizácie bolo neúspešné.
                                            &brandShortName; sa pokúsi prevziať kompletnú aktualizáciu.">
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; nedokázal zistiť, či je dostupná nejaká aktualizácia.
@@ -95,10 +94,10 @@
                                            &brandShortName;. Aplikáciu &brandShortName; môžete reštartovať teraz, alebo
                                            pokračujte v práci a reštartujte neskôr.">
 
-<!ENTITY installed.title                  "Aktualizácia nainštalovaná">
-<!ENTITY installed.intro                  "Aktualizácia bola úspešne nainštalovaná.">
-<!ENTITY whatsnew.label                   "Prečítajte si, čo je nové…">
+<!ENTITY  installed.title                 "Aktualizácia nainštalovaná">
+<!ENTITY  installed.intro                 "Aktualizácia bola úspešne nainštalovaná.">
+<!ENTITY  whatsnew.label                  "Prečítajte si, čo je nové…">
 
-<!ENTITY update.details.label             "Podrobnosti">
-<!ENTITY update.installedOn.label         "Nainštalovaná:">
-<!ENTITY update.status.label              "Stav:">
+<!ENTITY  update.details.label            "Podrobnosti">
+<!ENTITY  update.installedOn.label        "Nainštalovaná:">
+<!ENTITY  update.status.label             "Stav:">

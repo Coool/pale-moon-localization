@@ -4,7 +4,7 @@
 
 <!ENTITY  fontsDialog.title                       "Písma">
 <!ENTITY  window.width                            "39em">
-<!ENTITY  window.macWidth                         "45em">
+<!ENTITY  window.macWidth                         "41em">
 <!ENTITY  window.unixWidth                        "46em">
 
 <!ENTITY  language.label                          "Písma pre:">
@@ -60,12 +60,13 @@
 <!ENTITY minSize.label                            "Minimálna veľkosť písma:">
 <!ENTITY minSize.accesskey                        "o">
 <!ENTITY minSize.none                             "Žiadne">
-<!-- default font type -->
-<!ENTITY useDefaultFontSerif.label                "Pätkové (serif)">
-<!ENTITY useDefaultFontSansSerif.label            "Bezpätkové (sans-serif)">
 
-<!ENTITY allowPagesToUse.label                    "Povoliť stránkam používať vlastné písma namiesto tých vyššie vybraných">
-<!ENTITY allowPagesToUse.accesskey                "a">
+<!-- default font type -->
+<!ENTITY  useDefaultFontSerif.label               "Pätkové (serif)">
+<!ENTITY  useDefaultFontSansSerif.label           "Bezpätkové (sans-serif)">
+
+<!ENTITY  allowPagesToUse.label                   "Povoliť stránkam používať vlastné farby namiesto mnou vyššie vybraných">
+<!ENTITY  allowPagesToUse.accesskey               "o">
 
 <!ENTITY languages.customize.Fallback.grouplabel  "Kódovanie znakov pre starší obsah">
 <!ENTITY languages.customize.Fallback.label       "Použiť nasledovné kódovanie:">

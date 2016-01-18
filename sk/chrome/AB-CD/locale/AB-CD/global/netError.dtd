@@ -7,35 +7,64 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Chyba: Nedá sa pripojiť">
-<!ENTITY connectionFailure.longDesc "<p>Požadovaný server existuje, ale prehliadač nebol schopný nadviazať spojenie.</p><ul><li>Môže byť táto adresa dočasne nedostupná? Skúste to neskôr.</li><li>Nedajú sa vám načítať ani iné stránky?  Skontrolujte pripojenie vášho počítača k internetu.</li><li>Je váš počítač, alebo sieť chránený bránou firewall alebo proxy? Nesprávne nastavenia môžu znemožniť prehľadávanie webu.</li></ul>">
+<!ENTITY connectionFailure.title "Nedá sa pripojiť">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Chyba: Obmedzenie prístupu na port">
+<!ENTITY deniedPortAccess.title "Táto adresa je zakázaná">
 <!ENTITY deniedPortAccess.longDesc "<p>Zadaná adresa (URL) špecifikovala port (napr. <q>mozilla.org:80</q> je port 80 na mozilla.org) , ktorý je normálne určený na <em>iné</em> služby ako prehliadanie webu. Prehliadač požiadavku kvôli vašej ochrane a bezpečnosti neakceptoval.</p>">
 
-<!ENTITY dnsNotFound.title "Chyba: Adresa sa nenašla">
-<!ENTITY dnsNotFound.longDesc "<p>Adresa (URL) nezodpovedá žiadnemu známemu serveru a nemožno ju načítať.</p><ul><li>Skontrolujte, či má adresa správny formát.</li><li>Je možné, že server už dlhšie neexistuje.</li><li>Túto chybu môžu zapríčiniť problémy s vašou lokálnou sieťou, proxy serverom alebo DNS serverom.</li></ul>">
+<!ENTITY dnsNotFound.title "Server sa nenašiel">
+<!ENTITY dnsNotFound.longDesc "
+<ul>
+  <li>Skontrolujte, či ste nezadali napr.
+    <strong>ww</strong>.priklad.com namiesto
+    <strong>www</strong>.priklad.com</li>
+  <li>Ak sa nedá načítať žiadna stránka, skontrolujte pripojenie počítača k sieti.</li>
+  <li>Ak sú počítač alebo sieť chránené bránou firewall alebo serverom proxy, uistite sa, že &brandShortName; má povolený prístup k webu.</li>
+</ul>
+">
 
-<!ENTITY fileNotFound.title "Chyba: Súbor nenájdený">
-<!ENTITY fileNotFound.longDesc "<p>Požadovaný súbor nebol na zadanej adrese (URL) nájdený. Je možné, že bol odstránený, premenovaný alebo premiestnený</p><ul><li>Skontrolujte, či má adresa správny formát.</li><li>Ak ste autorom tohto súboru, overte, či daný súbor na serveri existuje a že má príslušné práva na zobrazenie.</li></ul>">
+<!ENTITY fileNotFound.title "Súbor sa nenašiel">
+<!ENTITY fileNotFound.longDesc "
+<ul>
+  <li>Skontrolujte názov súboru, napríklad malé a veľké písmená alebo iné preklepy.</li>
+  <li>Skontrolujte, či súbor nebol premenovaný, presunutý alebo odstránený.</li>
+</ul>
+">
 
-<!ENTITY generic.title "Chyba: Nepodarilo sa dokončiť požiadavku">
-<!ENTITY generic.longDesc "<p>Dodatočná informácia o tomto probléme, alebo chybe je momentálne nedostupná.</p>">
+<!ENTITY generic.title "Problém.">
+<!ENTITY generic.longDesc "
+<p>&brandShortName; nedokáže z nejakého dôvodu načítať stránku.</p>
+">
 
-<!ENTITY malformedURI.title "Chyba: Neplatná adresa">
-<!ENTITY malformedURI.longDesc "<p>Adresa (URL) nie je platná a nemožno ju načítať. Prosím, skontrolujte text v paneli s adresou a skúste to znova.</p>">
+<!ENTITY malformedURI.title "Adresa nie je platná">
+<!ENTITY malformedURI.longDesc "
+<ul>
+  <li>Webové adresy sú zvyčajne zadávané v tvare
+    <strong>http://www.priklad.com/</strong></li>
+  <li>Skontrolujte, či používate správne lomky (t.j. <strong>/</strong>). </li>
+</ul>
+">
 
-<!ENTITY netInterrupt.title "Chyba: Prenos dát prerušený">
-<!ENTITY netInterrupt.longDesc "<p>Prehliadač sa úspešne pripojil k serveru, no spojenie počas prenosu informácií zlyhalo.</p><ul><li>Môže to byť zlyhanie siete medzi vašim počítačom a serverom</li><li>Prosím skúste to neskôr. Ak problémy pretrvávajú, kontaktujte, prosím, svojho správcu siete alebo poskytovateľa Internetu.</li></ul>">
+<!ENTITY netInterrupt.title "Pripojenie bolo prerušené">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Platnosť dokumentu vypršala">
-<!ENTITY notCached.longDesc "<p>Požadovaný dokument sa nenachádza vo vyrovnávacej pamäti prehliadača.</p><ul><li>Z bezpečnostných dôvodov prehliadač automaticky nežiada o opätovné načítanie citlivých dokumentov.</li><li>Kliknutím na tlačidlo Skúsiť znova požiadate o opätovné načítanie dokumentu.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Požadovaný dokument sa nenachádza vo vyrovnávacej pamäti prehliadača &brandShortName;.</p><ul><li>Z bezpečnostných dôvodov &brandShortName; automaticky nežiada o opätovné načítanie citlivých dokumentov.</li><li>Kliknutím na tlačidlo Skúsiť znova požiadate o opätovné načítanie dokumentu.</li></ul>">
 
-<!ENTITY netOffline.title "Chyba: Režim offline">
-<!ENTITY netOffline.longDesc2 "<p>Prehliadač je momentálne v režime offline a nemôže sa pripojiť na požadovaný server.</p><ul><li>Je počítač pripojený k aktívnej sieti?</li><li>Kliknutím na tlačidlo &quot;Skúsiť znova&quot; prejdete do režimu online a opätovne načítate obsah stránky.</li></ul>">
+<!ENTITY netOffline.title "Režim offline">
+<!ENTITY netOffline.longDesc2 "
+<ul>
+  <li>Ak chcete prejsť do režimu online a opätovne načítať obsah stránky, kliknite na tlačidlo &quot;Skúsiť znova&quot;.</li>
+</ul>
+">
 
 <!ENTITY contentEncodingError.title "Chyba kódovania obsahu">
-<!ENTITY contentEncodingError.longDesc "<p>Stránka nemôže byť zobrazená, pretože používa neplatné, alebo nepodporované formátovanie.</p><ul><li>Prosím, kontaktujte majiteľov stránky a informujte ich o tomto probléme.</li></ul>">
+<!ENTITY contentEncodingError.longDesc "
+<ul>
+  <li>Obráťte sa na vlastníkov stránky a informujte ich o tomto probléme.</li>
+</ul>
+">
 
 <!ENTITY unsafeContentType.title "Nebezpečný typ obsahu">
 <!ENTITY unsafeContentType.longDesc "
@@ -44,41 +73,71 @@
 </ul>
 ">
 
-<!ENTITY netReset.title "Chyba: Spojenie prerušené">
-<!ENTITY netReset.longDesc "<p>Spojenie bolo nečakane prerušené počas pripájania alebo počas prenosu údajov. Dôvodom môže byť chyba siete niekde na ceste medzi počítačom a serverom. Ak problém pretrváva, preštudujte dokumentáciu alebo sa poraďte so svojím správcom siete alebo poskytovateľom internetu (ISP).</p>">
+<!ENTITY netReset.title "Výpadok pripojenia">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Chyba: Čas vypršal">
-<!ENTITY netTimeout.longDesc "<p>Vypršal čas pri pokuse o pripojenie na zadaný server. Server môže byť preťažený, alebo preťaženie siete spôsobuje prílišné omeškanie dát. Ak sa dá predpokladať, že server je preťažený, skúste pred ďalším pokusom o pripojenie chvíľu počkať. Pokiaľ budú problémy pretrvávať, kontaktujte svojho správcu siete alebo poskytovateľa pripojenia.</p>">
+<!ENTITY netTimeout.title "Čas pripojenia vypršal">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Chyba: Neznámy protokol">
-<!ENTITY protocolNotFound.longDesc "<p>Adresa (URL) sa začína protokolom, ktorý prehliadač nepozná. Protokol je reťazec na začiatku adresy, ako napríklad http: alebo ftp:, ktorý hovorí prehliadaču, ako sa má pripojiť ku serveru. V tomto prípade je protokol neznámy, takže pripojenie nie je možné. Skontrolujte, či je URL v poriadku a skúste to znovu.</p>">
+<!ENTITY protocolNotFound.title "Adresa nebola rozpoznaná">
+<!ENTITY protocolNotFound.longDesc "
+<ul>
+  <li>Na otvorenie tejto adresy možno bude potrebné nainštalovať ďalší softvér.</li>
+</ul>
+">
 
-<!ENTITY proxyConnectFailure.title "Chyba: Proxy server odmietol spojenie">
-<!ENTITY proxyConnectFailure.longDesc "<p>Prehliadač je nakonfigurovaný na používanie proxy servera, ale tento odmietol pripojenie.</p><ul><li>Skontrolujte nastavenia proxy servera v prehliadači a skúste to znova.</li><li>Proxy nemohol vytvoriť pripojenie k počítačovej sieti.</li><li>Ak problémy pretrvávajú, kontaktujte, prosím, svojho správcu siete alebo poskytovateľa Internetu.</li></ul>">
+<!ENTITY proxyConnectFailure.title "Server proxy odmieta pripojenia">
+<!ENTITY proxyConnectFailure.longDesc "
+<ul>
+  <li>Skontrolujte nastavenia proxy servera.</li>
+  <li>Obráťte sa na správcu siete a skontrolujte, či server proxy funguje.</li>
+</ul>
+">
 
-<!ENTITY proxyResolveFailure.title "Chyba: Proxy server nenájdený">
-<!ENTITY proxyResolveFailure.longDesc "<p>Prehliadač je nakonfigurovaný na používanie proxy servera, ale tento nebol na sieti nájdený.</p><ul><li>Skontrolujte nastavenia proxy servera v prehliadači a skúste to znovu.</li><li>Ak problémy pretrvávajú, kontaktujte, prosím, svojho správcu siete alebo poskytovateľa Internetu.</li></ul>">
+<!ENTITY proxyResolveFailure.title "Server proxy nemožno nájsť">
+<!ENTITY proxyResolveFailure.longDesc "
+<ul>
+  <li>Skontrolujte, či je nastavenie servera proxy správne.</li>
+  <li>Skontrolujte, či funguje pripojenie počítača k sieti.</li>
+  <li>Ak sú počítač alebo sieť chránené bránou firewall alebo serverom proxy, uistite sa, či má &brandShortName; povolený prístup k webu.</li>
+</ul>
+">
 
-<!ENTITY redirectLoop.title "Chyba: Slučka pri presmerovaní">
-<!ENTITY redirectLoop.longDesc "<p>Prehliadač prerušil spojenie, pretože server smeruje požiadavku sám na seba v nekonečnej slučke.</p><ul><li>Toto nastáva, ak stránka vyžaduje cookies a vy ste cookies nepovolili alebo sú pre túto stránku blokované.</li><li>Toto je častý problém s nastavením servera a <em>NIE</em> vášho počítača.</li></ul>">
+<!ENTITY redirectLoop.title "Stránku sa nepodarilo správne presmerovať">
+<!ENTITY redirectLoop.longDesc "
+<ul>
+  <li>Tento problém môže nastať pri nepovolení, resp. odmietnutí cookies.</li>
+</ul>
+">
 
-<!ENTITY unknownSocketType.title "Chyba: Neplatná odpoveď">
-<!ENTITY unknownSocketType.longDesc "<p>Server odpovedal na sieťovú požiadavku nečakaným spôsobom. Je možné, že adresa (URL) používa nesprávny protokol pre daný port. Alebo je server neštandardne nastavený a používa iné služby ako sa očakáva.</p>">
+<!ENTITY unknownSocketType.title "Neočakávaná odpoveď servera">
+<!ENTITY unknownSocketType.longDesc "
+<ul>
+  <li>Uistite sa, či je v systéme nainštalovaný Správca súkromných kľúčov (PSM).</li>
+  <li>Môže to byť spôsobené neštandardnou konfiguráciou servera.</li>
+</ul>
+">
 
-<!ENTITY nssFailure2.title "Zabezpečené spojenie zlyhalo">
-<!ENTITY nssFailure2.longDesc "<p>Stránka nemôže byť zobrazená, pretože dôveryhodnosť prijímaných údajov nemôže byť overená.</p><ul><li>Prosím, kontaktujte majiteľov stránky a informujte ich o tomto probléme.</li></ul>">
+<!ENTITY nssFailure2.title "Zabezpečené pripojenie zlyhalo">
+<!ENTITY nssFailure2.longDesc "
+<ul>
+  <li>Stránku nemožno zobraziť, pretože pravosť prijímaných údajov sa nedá overiť.</li>
+  <li>Obráťte sa na vlastníkov stránky a informujte ich o tomto probléme. Môžete použiť aj príkaz v ponuke Pomocník a nahlásiť chybnú webovú stránku.</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "Zabezpečené pripojenie zlyhalo">
-<!ENTITY nssBadCert.longDesc2 "<ul>
-<li>Toto môže byť problém s konfiguráciou servera alebo sa ho niekto snaží napodobniť.</li>
-<li>Ak ste sa k tomuto serveru úspešne pripojili v minulosti, chyba môže byť dočasná a pokus by ste mali opakovať neskôr.</li>
+<!ENTITY nssBadCert.longDesc2 "
+<ul>
+  <li>Toto môže byť problém s konfiguráciou servera alebo sa ho niekto snaží napodobniť.</li>
+  <li>Ak ste sa k tomuto serveru úspešne pripojili v minulosti, chyba môže byť dočasná a pokus by ste mali opakovať neskôr.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Podozrivá škodlivá stránka!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Škodlivé stránky sa pokúšajú nainštalovať programy, ktorú kradnú súkromné údaje, používajú váš počítač na útoky na ostatné počítače alebo znefunkčňujú operačný systém.</p>
-<p>Autori stránok, ktorí si myslia, že ich stránky boli označené ako škodlivé neprávom, môžu <a href='http://www.stopbadware.org/home/reviewinfo' >požiadať o prehodnotenie</a>.</p>
+<p>Škodlivé stránky sa pokúšajú nainštalovať programy, ktoré kradnú súkromné údaje, používajú počítač na útoky na iné počítače alebo poškodzujú systém.</p>
+<p>Vlastníci stránok, ktorí si myslia, že ich stránky boli označené ako škodlivé neprávom, môžu <a href='http://www.stopbadware.org/home/reviewinfo' >požiadať o prehodnotenie</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podozrivá stránka!">
@@ -88,7 +147,18 @@
 ">
 
 <!ENTITY cspFrameAncestorBlocked.title "Blokované kvôli zásadám ochrany obsahu">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Prehliadač nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
+<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Prehliadač &brandShortName; nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
+
+<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
 
 <!ENTITY corruptedContentError.title "Poškodený obsah stránky">
 <!ENTITY corruptedContentError.longDesc "<p>Táto stránka nemohla byť zobrazená kvôli chybe pri prenose údajov.</p><ul><li>Kontaktuje prevádzkovateľa webovej stránky a informujte ho o tomto probléme.</li></ul>">
