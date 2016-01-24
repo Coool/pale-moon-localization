@@ -172,14 +172,14 @@ za chvíli.</li>
 <!ENTITY cspFrameAncestorBlocked.title "Zablokováno dle bezpečnostních pravidel obsahu">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>Aplikace &brandShortName; zabránila v nahrání této stránky, neboť tato stránka má bezpečnostní pravidla, která takovýto způsob nahrání zakazují.</p>">
 
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.title "Zablokováno pomocí XSS filtru">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>&brandShortName; zablokoval další akce na této stránce, protože obsahuje
+    injektovaný kód JavaScriptu.</li>
+  <li>Načítání této stránky bylo pozastaveno, buď na výslovnou žádost
+    blokovat stránky v případě XSS útoků, nebo proto, že &brandShortName;
+    byl nakonfigurován k blokování stránek v této situaci.</li>
 </ul>
 ">
 

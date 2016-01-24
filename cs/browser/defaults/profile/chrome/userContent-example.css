@@ -11,13 +11,13 @@
  * kaskadovymi styly webove stranky, pokud takove jsou. Pravidla s deklaraci
  * !important prevazi nad pravidly na webove strance.
  *
- * priklad: odstranit blikajici prvky
+ * Priklad: Odstrante blikajici prvky
  * blink { text-decoration: none !important; }
  *
- * priklad: nastavit vsem tabulkam cerny ramecek 2px siroky
+ * Priklad: Nastavte vsem tabulkam cerny ramecek 2px siroky
  * table { border: 2px black solid; }
  *
- * priklad: nastavit prvky #q na strance www.mozilla.org
+ * Priklad: Nastavte prvky #q na strance www.mozilla.org
  * @-moz-document url-prefix(http://www.mozilla.org/) {
  *   #q { background: white ! important; color: black ! important; }
  * }
