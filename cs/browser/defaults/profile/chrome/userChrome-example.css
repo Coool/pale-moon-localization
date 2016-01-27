@@ -3,20 +3,23 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Ulozte kopii tohoto souboru jako userChrome.css do adresare chrome 
- * v adresari s uzivatelskym profilem a upravte dle vasich predstav.
+ * Ulozte kopii tohoto souboru jako userChrome.css do slozky chrome 
+ * ve slozce s uzivatelskym profilem a upravte dle vasich predstav.
  *  
  * Tento soubor se pouziva k nastaveni nekterych vychytavek uzivatelskeho 
- * rozhrani prohlizece Pale Moon. Pravidla s deklaraci !important prevazi 
- * nad vychozimi pravidly definovanymi ve stylech UI.
- * 
+ * rozhrani prohlizece Pale Moon.
+ *
+ * Pravidla bez deklarace !important budou prepsana kaskadovymi styly
+ * v UI, pokud takove jsou.
+ * Pravidla s deklaraci !important prevazi nad pravidly v UI.
+* 
  * Nasleduji radku NEODSTRANUJTE 
  * 
  */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /*
- * Priklad: Nastavte vsechny pisma na 20 pt:
+ * Priklad: Nastavte vsechny pisma na 20 pt
  * * { font-size: 20pt !important }
  *
  * Priklad: Nastavte pismo v nabidce na 15pt

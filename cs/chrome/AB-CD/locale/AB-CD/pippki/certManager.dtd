@@ -27,15 +27,15 @@
 <!ENTITY certmgr.pending.label                "Probíhá ověřování certifikátu…">
 <!ENTITY certmgr.subjectinfo.label            "Vydáno pro">
 <!ENTITY certmgr.issuerinfo.label             "Vydal">
-<!ENTITY certmgr.validity.label               "Platnost" >
+<!ENTITY certmgr.validity.label               "Platnost">
 <!ENTITY certmgr.fingerprints.label           "Otisky">
 <!ENTITY certmgr.certdetail.title             "Podrobnosti certifikátu">
 <!ENTITY certmgr.certdetail.cn                "Obecné jméno (CN)">
 <!ENTITY certmgr.certdetail.o                 "Organizace (O)">
 <!ENTITY certmgr.certdetail.ou                "Jednotka organizace (OU)">
 <!ENTITY certmgr.certdetail.serialnumber      "Sériové číslo">
-<!ENTITY certmgr.certdetail.sha256fingerprint "Otisk SHA256">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "Otisk SHA1">
+<!ENTITY certmgr.certdetail.sha256fingerprint "Otisk SHA-256">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "Otisk SHA-1">
 
 <!ENTITY certmgr.editcert.title               "Upravit nastavení bezpečnostních certifikátů">
 <!ENTITY certmgr.editcacert.title             "Upravit nastavení důvěryhodnosti CA">
@@ -47,17 +47,17 @@
 <!ENTITY certmgr.editsslcert.edittrust        "Upravit nastavení důvěryhodnosti certifikátu:">
 <!ENTITY certmgr.editsslcert.dotrust          "Důvěřovat pravosti tohoto certifikátu.">
 <!ENTITY certmgr.editsslcert.donttrust        "Nedůvěřovat pravosti tohoto certifikátu.">
-<!ENTITY certmgr.editemailcert.title          "Úprava nastavení certifikátů pošty">
+<!ENTITY certmgr.editemailcert.title          "Úprava nastavení e-mailových certifikátů">
 <!ENTITY certmgr.editemailcert.edittrust      "Upravit nastavení důvěryhodnosti certifikátu:">
 <!ENTITY certmgr.editemailcert.dotrust        "Důvěřovat pravosti tohoto certifikátu.">
 <!ENTITY certmgr.editemailcert.donttrust      "Nedůvěřovat pravosti tohoto certifikátu.">
 
-<!ENTITY certmgr.deletecert.title             "Smazat certifikát">
-<!ENTITY certmgr.deletecert.beforename        "Požádali jste o smazání tohoto certifikátu:">
-<!ENTITY certmgr.deletecert.aftername         "Určitě chcete smazat tento certifikát?">
-<!ENTITY certmgr.deleteusercert.title         "Smazat certifikát">
-<!ENTITY certmgr.deleteusercert.beforename    "Požádali jste o smazání tohoto certifikátu:">
-<!ENTITY certmgr.deleteusercert.aftername     "Jakmile smažete tento certifikát, nebudete moci číst poštu, která jím byla zašifrována.">
+<!ENTITY certmgr.deletecert.title             "Odstranit certifikát">
+<!ENTITY certmgr.deletecert.beforename        "Požádali jste o odstranění tohoto certifikátu:">
+<!ENTITY certmgr.deletecert.aftername         "Určitě chcete odstranit tento certifikát?">
+<!ENTITY certmgr.deleteusercert.title         "Odstranit certifikát">
+<!ENTITY certmgr.deleteusercert.beforename    "Požádali jste o odstranění tohoto certifikátu:">
+<!ENTITY certmgr.deleteusercert.aftername     "Jakmile odstraníte tento certifikát, nebudete moci číst e-maily, které jím byly zašifrovány.">
 
 <!ENTITY certmgr.certname                     "Jméno certifikátu">
 <!ENTITY certmgr.certserver                   "Server">
@@ -80,10 +80,10 @@
 <!ENTITY certmgr.add.accesskey                "P">
 <!ENTITY certmgr.export.label                 "Exportovat…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Smazat…">
-<!ENTITY certmgr.delete2.accesskey            "S">
-<!ENTITY certmgr.delete_builtin.label         "Smazat nebo nedůvěřovat…">
-<!ENTITY certmgr.delete_builtin.accesskey     "m">
+<!ENTITY certmgr.delete2.label                "Odstranit…">
+<!ENTITY certmgr.delete2.accesskey            "d">
+<!ENTITY certmgr.delete_builtin.label         "Odstranit nebo nedůvěřovat…">
+<!ENTITY certmgr.delete_builtin.accesskey     "s">
 <!ENTITY certmgr.backup2.label                "Zálohovat…">
 <!ENTITY certmgr.backup2.accesskey            "l">
 <!ENTITY certmgr.backupall2.label             "Zálohovat vše…">
