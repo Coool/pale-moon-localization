@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip    "Zavře nástroje vývoje">
+<!ENTITY toolboxCloseButton.tooltip    "Zavře Nástroje vývojáře">
 <!ENTITY toolboxOptionsButton.key      "O">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
@@ -32,13 +32,13 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label3    "Povolit ladící nástroj pro chrome">
-<!ENTITY options.enableChrome.tooltip   "Zapnutí umožní použít nástroje vývojáře v kontextu prohlížeče.">
+<!ENTITY options.enableChrome.tooltip   "Zapnutí umožní použít Nástroje vývojáře v kontextu prohlížeče.">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Povolit vzdálené ladění">
-<!ENTITY options.enableRemote.tooltip   "Zapnutí umožní použít nástroje vývojáře k debugování vzdálené instance Firefoxu - např. Firefox OS.">
+<!ENTITY options.enableRemote.tooltip   "Zapnutí umožní použít Nástroje vývojáře k debugování vzdálených zařízení (např. Firefox pro Android a Firefox OS).">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label2,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -49,7 +49,7 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Výchozí nástroje vývojáře Pale Moon">
+<!ENTITY options.selectDefaultTools.label     "Výchozí Nástroje vývojáře Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -65,7 +65,7 @@
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
   -  tools. -->
-<!ENTITY options.selectDevToolsTheme.label   "Motiv:">
+<!ENTITY options.selectDevToolsTheme.label   "Motiv vzhledu:">
 <!ENTITY options.darkTheme.label             "Tmavý motiv">
 <!ENTITY options.lightTheme.label            "Světlý motiv">
 
@@ -78,4 +78,4 @@
   -  i.e. devtools.webconsole.persistlog a boolean preference in about:config,
   -  in the options panel. -->
 <!ENTITY options.enablePersistentLogging.label    "Povolit trvalé logování">
-<!ENTITY options.enablePersistentLogging.tooltip  "Pokud povolíte tuto volbu, nebude Webová konzole promazávána pokaždé, když se rozhodnete navštívit novou stránku">
+<!ENTITY options.enablePersistentLogging.tooltip  "Pokud povolíte tuto volbu, nebude Webová konzole promazávána pokaždé, když se rozhodnete navštívit novou stránku.">
