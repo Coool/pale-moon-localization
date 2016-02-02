@@ -19,7 +19,7 @@
 <!ENTITY dnsNotFound.title "Server nenalezen">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-  <li>Zkontrolujte, zda je adresa napsána správně a neobsahuje chyby jako
+  <li>Zkontrolujte, zda je adresa URL napsána správně a neobsahuje chyby jako
     <strong>ww</strong>.server.cz místo
     <strong>www</strong>.server.cz</li>
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
@@ -32,11 +32,10 @@
 <!ENTITY fileNotFound.title "Soubor nenalezen">
 <!ENTITY fileNotFound.longDesc "
 <ul>
-  <li>Zkontrolujte, zda je jméno souboru napsáno správně, a to včetně velikosti písmen.</li>
+  <li>Zkontrolujte, zda je název souboru napsán správně, a to včetně velikosti písmen.</li>
   <li>Zkontrolujte, zda soubor nebyl přesunut, přejmenován nebo odstraněn.</li>
 </ul>
 ">
-
 
 <!ENTITY generic.title "Nepodařilo se dokončit požadavek">
 <!ENTITY generic.longDesc "
@@ -46,7 +45,7 @@
 <!ENTITY malformedURI.title "Neplatná adresa">
 <!ENTITY malformedURI.longDesc "
 <ul>
-  <li>Adresa webové stránky má zpravidla tvar
+  <li>Adresa URL má zpravidla tvar
     <strong>http://www.server.cz/</strong></li>
   <li>Zkontrolujte, zda používáte správná lomítka (tj.
     <strong>/</strong>).</li>
@@ -69,7 +68,7 @@
 <!ENTITY contentEncodingError.title "Chyba kódování obsahu">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Kontaktujte prosím vlastníka webového serveru a informujte ho o tomto problému.</li>
+  <li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li>
 </ul>
 ">
 
@@ -97,7 +96,7 @@
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
   <li>Zkontrolujte nastavení proxy serveru.</li>
-  <li>Kontaktujte svého síťového administrátora, zda je proxy server v provozu.</li>
+  <li>Kontaktujte svého správce sítě, zda je proxy server v provozu.</li>
 </ul>
 ">
 
@@ -132,7 +131,7 @@ Personal Security Manager.</li>
 <!ENTITY nssFailure2.longDesc "
 <ul>
   <li>Požadovanou stránku nelze zobrazit, protože nelze ověřit autenticitu přijatých dat.</li>
-  <li>Kontaktujte prosím vlastníka webového serveru a informujte ho o tomto problému. Případně použijte dialog upozornění na chybou stránku z nabídky Nápověda a na tuto stránku upozorněte.</li>
+  <li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému. Případně použijte dialog upozornění na chybnou stránku z nabídky Nápověda a na tuto stránku upozorněte.</li>
 </ul>
 ">
 
@@ -141,7 +140,7 @@ Personal Security Manager.</li>
 <ul>
 <li>Tato chyba může být způsobena chybnou konfigurací serveru nebo někým,
 kdo se snaží vydávat za server.</li>
-<li>Pokud jste se k tomuto serveru  připojili úspěšně již v minulosti, je možná
+<li>Pokud jste se k tomuto serveru připojili úspěšně již v minulosti, je možná
  chyba jenom dočasná, a můžete to zkusit znovu později.</li>
 </ul>
 ">
@@ -149,7 +148,7 @@ kdo se snaží vydávat za server.</li>
 <!ENTITY sharedLongDesc "
 <ul>
   <li>Server je dočasně nedostupný. Zkuste to prosím znovu
-za chvíli.</li>
+později.</li>
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
     počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
@@ -160,7 +159,7 @@ za chvíli.</li>
 <!ENTITY malwareBlocked.title "Podezřelá útočná stránka!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Útočné stránky se pokouší nainstalovat aplikace, které kradou vaše důvěrná data, používají váš počítač k dalším útokům, nebo jakkoliv poničí váš systém.</p>
-<p>Vlastníci webových stránek, kteří jsou přesvědčení, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='http://www.stopbadware.org/home/reviewinfo' >požádat o kontrolu</a>.</p>
+<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='http://www.stopbadware.org/home/reviewinfo'> požádat o kontrolu</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podezřelá podvodná stránka!">
@@ -185,7 +184,6 @@ za chvíli.</li>
 
 <!ENTITY corruptedContentError.title "Chyba v obsahu stránky">
 <!ENTITY corruptedContentError.longDesc "<p>Stránka, kterou se snažíte načíst, nemůže být zobrazena, protože přenesená data jsou chybná.</p><ul><li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li></ul>">
-
 
 <!ENTITY securityOverride.linkText "Nebo můžete přidat výjimku…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Rychle odsud pryč">
