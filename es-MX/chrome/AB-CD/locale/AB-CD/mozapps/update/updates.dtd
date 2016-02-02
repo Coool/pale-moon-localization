@@ -6,29 +6,29 @@
 <!ENTITY  checking.title                  "Comprobando actualizaciones">
 <!ENTITY  updateCheck.label               "Comprobar si hay actualizaciones, pero permitirme elegir si serán instaladas">
 
-<!ENTITY  pluginupdatesfound.title        "Actualizaciones para Plugins encontradas">
-<!ENTITY  pluginupdatesfound.label        "Versiones nuevas de una o más de tus plugins fueron encontrados.">
-<!ENTITY  pluginupdateslink.label         "Ver cómo actualizar sus plugins.">
+<!ENTITY  pluginupdatesfound.title        "Actualizaciones de Complementos encontradas">
+<!ENTITY  pluginupdatesfound.label        "Versiones nuevas de uno o más de sus complementos fueron encontrados.">
+<!ENTITY  pluginupdateslink.label         "Ver cómo actualizar sus complementos.">
 
 <!ENTITY  noupdatesfound.title            "No se encontraron actualizaciones">
-<!ENTITY  noupdatesautoenabled.intro      "No hay actualizaciones disponibles. &brandShortName; verifica
+<!ENTITY  noupdatesautoenabled.intro      "No hay actualizaciones disponibles. &brandShortName; verifique
                                            su existencia periódicamente.">
-<!ENTITY  noupdatesautodisabled.intro     "No hay actualizaciones disponibles. Busque nuevamente en otra ocasión o active
+<!ENTITY  noupdatesautodisabled.intro     "No hay actualizaciones disponibles. Búsque nuevamente en otra ocasión o active
                                            las actualizaciones automáticas de &brandShortName;.">
 
 <!ENTITY  manualUpdate.title              "No es posible realizar la actualización">
 <!ENTITY  manualUpdate.desc               "Esta disponible una actualización de seguridad y estabilidad, pero
-                                           no tienes los permisos necesarios para instalarla. Contacte con tu
-                                           administrador de sistemas o intenta nuevamente desde una cuenta con los permisos necesarios para
+                                           no tiene los permisos necesarios para instalarla. Contacte con su
+                                           administrador de sistemas o intente nuevamente desde una cuenta con los permisos necesarios para
                                            instalar programas en esta computadora.">
-<!ENTITY  manualUpdate.space.desc         "Una actualización recomendada de seruridad y estabilidad está disponible, pero no tienes suficiente espacio para instarla.">
+<!ENTITY  manualUpdate.space.desc         "Una actualización recomendada de seruridad y estabilidad está disponible, pero no tiene suficiente espacio para instarla.">
 <!ENTITY  manualUpdateGetMsg.label        "Siempre puede obtener la última versión de &brandShortName; en:">
 
-<!ENTITY  unsupported.title               "System Unsupported">
-<!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
-                                           supported on your system. Please upgrade your system, then try again.
-                                           You will not see this notice again, but you can">
-<!ENTITY  unsupportedLink.label           "learn more.">
+<!ENTITY  unsupported.title               "Sistema no soportado">
+<!ENTITY  unsupported.label               "Su complemento &brandShortName; ha expirado, pero la última versión no es
+                                           soportada por su sistema. Por favor actualize su sistema e intente nuevamente.
+                                           Usted no verá esta nota nuevamente, pero usted puede">
+<!ENTITY  unsupportedLink.label           "aprender más.">
 
 <!ENTITY  incompatibleCheck.title         "Comprobando la compatibilidad de los complementos">
 <!ENTITY  incompatibleCheck.label         "Buscando la versión más reciente de tus complementos…">
@@ -38,7 +38,7 @@
 <!ENTITY  evangelism.desc                 "Le recomendamos ampliamente instalar esta 
                                            actualización de &brandShortName; lo antes posible.">
 
-<!ENTITY  license.instructions            "Si estás de acuerdo con los términos de este acuerdo, da clic en Estoy de acuerdo
+<!ENTITY  license.instructions            "Si está de acuerdo con los términos de este acuerdo, da clic en Estoy de acuerdo
                                            para continuar con la instalación.">
 
 <!ENTITY  license.titleText               "Acuerdo de licencia de software">
@@ -46,7 +46,7 @@
 <!ENTITY  license.instructionText         "Lea el siguiente acuerdo de licencia. Use la barra de desplazamiento vertical para ver el texto restante.">
 <!ENTITY  license.accept                  "Acepto los términos del acuerdo de licencia">
 <!ENTITY  license.accept.accesskey        "c">
-<!ENTITY  license.decline                 "NO acepto los términos del acuerdo de licencia">
+<!ENTITY  license.decline                 "No acepto los términos del acuerdo de licencia">
 <!ENTITY  license.decline.accesskey       "t">
 
 <!ENTITY  incompatibleList.title          "Hay complementos incompatibles">
@@ -73,9 +73,9 @@
 <!ENTITY  errorpatching.intro             "No se pudo aplicar la actualización parcial.
                                            &brandShortName; volverá a intentarlo descargando la actualización completa.">
 
-<!ENTITY  genericBackgroundError.label    "&brandShortName; no puede determinar si hay una actualización disponible. Por favor, asegúrate de que tienes la última versión de &brandShortName; en:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Algo esta impidiendo a &brandShortName; una actualización de seguridad. Por favor, asegúrate que tienes la última versión de &brandShortName; a partir de:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Algo esta tratando de engañar a &brandShortName; para que acepte una actualización insegura. Ponte en contacto con tu proveedor de red y busca ayuda.">
+<!ENTITY  genericBackgroundError.label    "&brandShortName; no puede determinar si hay una actualización disponible. Por favor, asegúrese de que tiene la última versión de &brandShortName; en:">
+<!ENTITY  errorCertAttrNoUpdate2.label    "Algo esta impidiendo a &brandShortName; una actualización de seguridad. Por favor, asegúrese que tiene la última versión de &brandShortName; a partir de:">
+<!ENTITY  errorCertAttrHasUpdate.label    "Algo esta tratando de engañar a &brandShortName; para que acepte una actualización insegura. Póngase en contacto con tu proveedor de red y busque ayuda.">
 
 <!ENTITY  finishedPage.title              "Actualización lista para instalar">
 <!ENTITY  finishedPage.text               "La actualización se instalará la próxima vez que inicie &brandShortName;. Puede 
