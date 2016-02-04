@@ -4,11 +4,11 @@
 
 <!ENTITY  updateWizard.title              "Actualización de &brandShortName;">
 
-<!ENTITY  offline.title                   "&brandShortName; está en modo sin conexión">
-<!ENTITY  offline.description             "&brandShortName; necesita pasar a modo con conexión para buscar
-                                           actualizaciones disponibles para hacer que tus complementos
+<!ENTITY  offline.title                   "&brandShortName; está fuera de linea.">
+<!ENTITY  offline.description             "&brandShortName; necesita conectarse en línea para buscar
+                                           actualizaciones disponibles para hacer que sus complementos
                                            sean compatibles con esta nueva versión.">
-<!ENTITY  offline.toggleOffline.label     "Pasar a modo con conexión ahora.">
+<!ENTITY  offline.toggleOffline.label     "Pasar a conectarse en línea ahora.">
 <!ENTITY  offline.toggleOffline.accesskey "P">
 
 <!ENTITY  mismatch.win.title              "Complementos incompatibles">
@@ -21,8 +21,8 @@
 <!ENTITY  checking.top.label              "Buscando actualizaciones para tus complementos incompatibles…">
 <!ENTITY  checking.status                 "Esto puede tardar unos minutos…">
 
-<!ENTITY  found.wizard.title               "Complementos compatibles encontrados">
-<!ENTITY  found.top.label                 "Selecciona los complementos que quieras instalar:">
+<!ENTITY  found.wizard.title              "Complementos compatibles encontrados">
+<!ENTITY  found.top.label                 "Seleccione los complementos que quiera instalar:">
 <!ENTITY  found.disabledXPinstall.label   "Estas actualizaciones no pueden aplicarse porque la instalación de software
                                            está desactivada en este momento. Puede cambiar esta
                                            configuración debajo.">
@@ -50,15 +50,15 @@
 <!ENTITY  adminDisabled.warning.label     "No es posible buscar actualizaciones de los complementos incompatibles porque la instalación de software en &brandShortName; ha sido desactivada. Por favor, contacte con el administrador del sistema para obtener ayuda.">
 
 <!ENTITY  versioninfo.wizard.title        "Comprobando compatibilidad de complementos">
-<!ENTITY  versioninfo.top.label           "Comprobando la compatiblidad de tus complementos con esta
+<!ENTITY  versioninfo.top.label           "Comprobando la compatiblidad de sus complementos con esta
                                            versión de &brandShortName;.">
 <!ENTITY  versioninfo.waiting             "Esto puede tardar unos minutos…">
 
 <!ENTITY  installerrors.wizard.title      "Problemas instalando actualizaciones">
 <!ENTITY  installerrors.intro.label       "&brandShortName; ha encontrado problemas al actualizar
-                                           algunos de tus complementos.">
+                                           algunos de sus complementos.">
 
 <!-- general strings used by several of the finish pages -->
-<!ENTITY  clickFinish.label               "Da clic en Finalizar para continuar iniciando &brandShortName;.">
-<!ENTITY  clickFinish.labelMac            "Da clic en Terminado para continuar iniciando &brandShortName;.">
+<!ENTITY  clickFinish.label               "De clic en Finalizar para continuar iniciando &brandShortName;.">
+<!ENTITY  clickFinish.labelMac            "De clic en Terminado para continuar iniciando &brandShortName;.">
 <!ENTITY  enableChecking.label            "Permitir a &brandShortName; buscar actualizaciones.">
