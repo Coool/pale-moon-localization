@@ -19,16 +19,15 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /*
- * Priklad: Nastavte vsechny pisma na 20 pt
+ * Priklad: Nastavte vsem prvkum velikost pisma na 20pt
  * * { font-size: 20pt !important }
  *
- * Priklad: Nastavte pismo v nabidce na 15pt
+ * Priklad: Nastavte v mistni nabidce velikost pisma na 15pt
  * menupopup > * { font-size: 15pt !important }
  *
- * Priklad: Zmenete rodinu pisma v radku s adresou
+ * Priklad: Nastavte v radku s adresou rodinu pisma na monospace
  * #urlbar { font-family: monospace !important; }
  * 
  * Vice prikladu naleznete na http://www.mozilla.org/unix/customizing.html
  *
  */
- 
