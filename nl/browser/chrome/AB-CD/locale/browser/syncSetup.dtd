@@ -6,17 +6,17 @@
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description2 "Welkom! Als u &syncBrand.fullName.label; nog nooit eerder hebt gebruikt, dient u een nieuwe account aan te maken.">
-<!ENTITY button.createNewAccount.label "Een nieuwe account aanmaken">
+<!ENTITY setup.pickSetupType.description2 "Welkom! Als u &syncBrand.fullName.label; nog niet eerder hebt gebruikt, dient u een nieuw account aan te maken.">
+<!ENTITY button.createNewAccount.label "Een nieuw account aanmaken">
 <!ENTITY button.haveAccount.label      "Ik heb een account">
 
 <!ENTITY setup.choicePage.title.label     "Hebt u &syncBrand.fullName.label; eerder gebruikt?">
-<!ENTITY setup.choicePage.new.label       "Ik heb &syncBrand.shortName.label; nooit eerder gebruikt">
+<!ENTITY setup.choicePage.new.label       "Ik heb &syncBrand.shortName.label; niet eerder gebruikt">
 <!ENTITY setup.choicePage.existing2.label "Ik gebruik &syncBrand.shortName.label; al op een ander apparaat">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Server">
-<!ENTITY serverType.default.label      "Standaard: Mozilla &syncBrand.fullName.label;-server">
+<!ENTITY serverType.default.label      "Standaard: &syncBrand.fullName.label;-server">
 <!ENTITY serverType.custom2.label   "Een eigen server gebruiken…">
 <!ENTITY signIn.account2.label      "Account">
 <!ENTITY signIn.account2.accesskey  "A">
@@ -48,11 +48,11 @@
 
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; denkt aan uw privacy">
-<!ENTITY setup.newRecoveryKeyPage.description.label "Om uw totale privacy te waarborgen worden al uw gegevens voor het uploaden versleuteld. De herstelsleutel, die nodig is om uw gegevens te ontcijferen, wordt niet geüpload.">
+<!ENTITY setup.newRecoveryKeyPage.description.label "Om uw totale privacy te waarborgen worden al uw gegevens vóór het uploaden versleuteld. De herstelsleutel, die nodig is om uw gegevens te ontcijferen, wordt niet ge-upload.">
 <!ENTITY recoveryKeyEntry.label        "Uw herstelsleutel">
 <!ENTITY recoveryKeyEntry.accesskey    "h">
 <!ENTITY syncGenerateNewKey.label  "Nieuwe sleutel genereren">
-<!ENTITY recoveryKeyBackup.description "Uw herstelsleutel is vereist voor de toegang van &syncBrand.fullName.label; op andere machines. Maak een reservekopie. We kunnen u niet helpen bij het terugvinden van uw herstelsleutel.">
+<!ENTITY recoveryKeyBackup.description "Uw herstelsleutel is vereist voor de toegang van &syncBrand.fullName.label; op andere machines. Maak een reservekopie! We kunnen u niet helpen als u uw herstelsleutel verliest.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Afdrukken…">
 <!ENTITY button.syncKeyBackup.print.accesskey "A">
@@ -68,7 +68,7 @@
 <!ENTITY pairDevice.dialog.description.label "Selecteer “Sync instellen” op uw nieuwe apparaat om het te activeren.">
 <!ENTITY addDevice.dialog.enterCode.label   "Voer de code in die het apparaat geeft:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Probeer het opnieuw.">
-<!ENTITY addDevice.dialog.successful.label  "Het apparaat is met succes toegevoegd. De eerste synchronisatie kan meerdere minuten duren en zal op de achtergrond worden voltooid.">
+<!ENTITY addDevice.dialog.successful.label  "Het apparaat is met succes toegevoegd. De eerste synchronisatie kan meerdere minuten duren en zal in de achtergrond worden voltooid.">
 <!ENTITY addDevice.dialog.recoveryKey.label     "Om uw apparaat te activeren dient u uw herstelsleutel in te voeren. Druk deze sleutel af of sla hem op, en neem hem met u mee.">
 <!ENTITY addDevice.dialog.connected.label   "Apparaat verbonden">
 
@@ -108,7 +108,7 @@
 <!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; zal nu alle browsergegevens van dit apparaat laten samengaan met de gegevens van uw Sync-account.">
 <!ENTITY confirm.client3.label         "Waarschuwing: de volgende &brandShortName;-gegevens op dit apparaat zullen worden verwijderd:">
 <!ENTITY confirm.client2.moreinfo.label "&brandShortName; zal vervolgens uw &syncBrand.fullName.label;-gegevens naar dit apparaat kopiëren.">
-<!ENTITY confirm.server2.label         "Waarschuwing: gegevens van de volgende apparaten zullen worden overschreven door uw lokale gegevens:">
+<!ENTITY confirm.server2.label         "Waarschuwing: gegevens van de volgende apparaten zullen worden overschreven met uw lokale gegevens:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Set-up voltooid">
