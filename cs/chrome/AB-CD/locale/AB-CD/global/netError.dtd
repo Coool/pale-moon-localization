@@ -11,7 +11,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Omezení přístupu na port">
-<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese URL byl zadán port (např. <q>mozilla.org:80</q> pro port 80 na serveru mozilla.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Prohlížeč zrušil požadavek z důvodů vaší ochrany.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese URL byl zadán port (např. <q>mozilla.org:80</q> pro port 80 na serveru mozilla.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Prohlížeč z bezpečnostních důvodů požadavek zrušil.</p>">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
 <!ENTITY dnsNotFound.longDesc "
@@ -62,7 +62,7 @@
 </ul>
 ">
 
-<!ENTITY contentEncodingError.title "Chyba kódování obsahu">
+<!ENTITY contentEncodingError.title "Chyba znakové sady obsahu">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
   <li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li>
@@ -154,7 +154,7 @@ kdo se snaží vydávat za server.</li>
 <p>Tyto podvodné stránky nazývané též útoky typu phishing se snaží zpravidla napodobit webové stránky nebo e-maily ze zdrojů, kterým věříte.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Zablokováno dle bezpečnostních pravidel obsahu">
+<!ENTITY cspFrameAncestorBlocked.title "Zablokováno podle bezpečnostních pravidel obsahu">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>Aplikace &brandShortName; zabránila v nahrání této stránky, protože tato stránka má bezpečnostní pravidla, která takovýto způsob nahrání zakazují.</p>">
 
 <!ENTITY xssBlockMode.title "Zablokováno pomocí XSS filtru">
