@@ -3,45 +3,45 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Menu items -->
-<!ENTITY palemoon.sendLinkCmd.label            "Send Link…">
+<!ENTITY palemoon.sendLinkCmd.label            "Skicka länk…">
 <!ENTITY palemoon.sendLinkCmd.accesskey        "d">
-<!ENTITY palemoon.sendPageCmd.label            "Send Page Link…">
+<!ENTITY palemoon.sendPageCmd.label            "Skicka sidlänk…">
 <!ENTITY palemoon.sendPageCmd.accesskey        "e">
 
-<!ENTITY palemoon.menu.statusBar.label               "Status Bar">
+<!ENTITY palemoon.menu.statusBar.label               "Statusfält">
 <!ENTITY palemoon.menu.statusBar.accesskey           "S">
-<!ENTITY palemoon.menu.allBookmarks.label            "Organize Bookmarks">
+<!ENTITY palemoon.menu.allBookmarks.label            "Visa alla bokmärken">
 
 <!-- Preferences -->
-<!ENTITY toolkit.classic.download.window.label       "Use the classic downloads window">
+<!ENTITY toolkit.classic.download.window.label       "Använd den klassiska filhämtningshanteraren">
 
-<!ENTITY palemoon.showTabBar.label                   "Always show the tab bar">
+<!ENTITY palemoon.showTabBar.label                   "Visa alltid flikfältet">
 <!ENTITY palemoon.showTabBar.accesskey               "b">
-<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Insert related tabs next to the current tab">
-<!ENTITY palemoon.contextLoadInBackground.label      "When performing a context search, switch to the new tab immediately">
-<!ENTITY palemoon.closeWindowWithLastTab.label       "Close the window when the last tab is closed">
-<!ENTITY palemoon.newtabPage.label                   "When opening a new tab, show:">
-<!ENTITY palemoon.newtabPage.blank.label             "A blank page">
-<!ENTITY palemoon.newtabPage.home.label              "The Pale Moon start page">
-<!ENTITY palemoon.newtabPage.quickdial.label         "The Quickdial page">
+<!ENTITY palemoon.insertRelatedAfterCurrent.label    "Öppna relaterade flikar bredvid nuvarande filk">
+<!ENTITY palemoon.contextLoadInBackground.label      "Gå direkt till den nya filken vid kontextsökning">
+<!ENTITY palemoon.closeWindowWithLastTab.label       "Stäng fönstret när den sista fliken stängs">
+<!ENTITY palemoon.newtabPage.label                   "När en ny filk öppnas, visa:">
+<!ENTITY palemoon.newtabPage.blank.label             "En tom sida">
+<!ENTITY palemoon.newtabPage.home.label              "Pale Moons startsida">
+<!ENTITY palemoon.newtabPage.quickdial.label         "Snabbuppringingssidan">
 
-<!ENTITY palemoon.loadImages.label            "Load images:">
-<!ENTITY palemoon.loadImages.always           "Automatically">
-<!ENTITY palemoon.loadImages.never            "Never">
-<!ENTITY palemoon.loadImages.no3rdparty       "Originating server only">
+<!ENTITY palemoon.loadImages.label            "Ladda bilder:">
+<!ENTITY palemoon.loadImages.always           "Automatiskt">
+<!ENTITY palemoon.loadImages.never            "Aldrig">
+<!ENTITY palemoon.loadImages.no3rdparty       "Bara från ursprungsserver">
 
-<!ENTITY palemoon.firefoxCompatGroup.label    "Firefox Compatibility">
-<!ENTITY palemoon.firefoxCompat.label         "Use Firefox Compatibility mode">
+<!ENTITY palemoon.firefoxCompatGroup.label    "Firefoxkompatibilitet">
+<!ENTITY palemoon.firefoxCompat.label         "Använd Firefoxkompatibilitetsläge">
 
-<!ENTITY palemoon.scrollparamTab.label               "Scrolling">
-<!ENTITY palemoon.smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY palemoon.smoothscroll.to                    "to">
-<!ENTITY palemoon.smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY palemoon.smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY palemoon.smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY palemoon.smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY palemoon.scrollparamTab.label               "Rullning">
+<!ENTITY palemoon.smoothscroll.explain.label         "Inställningarna har bara effekt om mjuk rullning är aktiverat i rutan ovan.">
+<!ENTITY palemoon.smoothscroll.to                    "till">
+<!ENTITY palemoon.smoothscroll.params.label          "Mjuk rullningsinställningar">
+<!ENTITY palemoon.smoothscroll.mousewheel.label      "Mjuk rullning med mushjul">
+<!ENTITY palemoon.smoothscroll.mousewheel.duration   "Rullningstid för mushjul:">
+<!ENTITY palemoon.smoothscroll.arrowkeys.label       "Mjuk rullning med piltangenter">
+<!ENTITY palemoon.smoothscroll.arrowkeys.duration    "Rullningstid för piltangenter:">
+<!ENTITY palemoon.smoothscroll.pagekeys.label        "Mjuk rullning med page up/down">
+<!ENTITY palemoon.smoothscroll.pagekeys.duration     "Rullningstid för page up/down:">
+<!ENTITY palemoon.smoothscroll.scrollbar.label       "Mjuk rullning med rullningslist">
+<!ENTITY palemoon.smoothscroll.scrollbar.duration    "Rullningstid för rullningslist:">

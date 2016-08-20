@@ -173,14 +173,14 @@
 <!ENTITY cspFrameAncestorBlocked.title "Blockerad av säkerhetspolicyn för innehåll">
 <!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; förhindrade sidan från att öppnas på detta sätt eftersom sidan har en säkerhetspolicy för innehåll som inte tillåter detta.</p>">
 
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.title "Blockerad av XSS-filter">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>&brandShortName; har blockerat vidare interaktion med sidan, eftersom den innehåller 
+    injicerad JavaScript-kod.</li>
+  <li>Sidinläsningen har avbrutits antingen på grund av sidans uttryckliga önskan
+    om att blockera denna sida vid XSS-attack, eller för att &brandShortName;
+    har konfigurerats att blockera sidor i denna situation.</li>
 </ul>
 ">
 
