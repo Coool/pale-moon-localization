@@ -1,0 +1,81 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutTelemetry.pageTitle "Données télémétriques">
+
+<!ENTITY aboutTelemetry.telemetryEnabled "
+  La télémétrie est <span>activée</span>.
+">
+
+<!ENTITY aboutTelemetry.telemetryDisabled "
+  La télémétrie est <span>désactivée</span>.
+">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
+<!ENTITY aboutTelemetry.slowSqlSection "
+  Requêtes SQL lentes
+">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "
+  Blocages du navigateur
+">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
+<!ENTITY aboutTelemetry.histogramsSection "
+  Histogrammes
+">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "
+  Mesures simples
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
+">
+
+<!ENTITY aboutTelemetry.lateWritesSection "
+  Écritures tardives
+">
+
+<!ENTITY aboutTelemetry.systemInfoSection "
+  Informations du système
+">
+
+<!ENTITY aboutTelemetry.addonHistogramsSection "
+  Histogrammes collectés par les modules complémentaires
+">
+
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
+">
+
+<!ENTITY aboutTelemetry.emptySection "
+  (Aucune donnée collectée)
+">
+
+<!ENTITY aboutTelemetry.fullSqlWarning "
+  NOTE : Le débogage des requêtes SQL lentes est activé. Des requêtes SQL complètes peuvent être affichées ci-dessous, mais elles ne seront pas envoyées par télémétrie.
+">
+
+<!ENTITY aboutTelemetry.fetchSymbols "
+  Récupérer les noms de fonctions pour les piles des blocages
+">
+
+<!ENTITY aboutTelemetry.hideSymbols "
+  Afficher les données brutes des blocages
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
+">

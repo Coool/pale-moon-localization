@@ -1,0 +1,144 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "Общие">
+
+<!ENTITY accessibility.label             "Расширенные возможности">
+
+<!ENTITY useCursorNavigation.label       "Всегда использовать клавиши курсора для навигации по страницам">
+<!ENTITY useCursorNavigation.accesskey   "к">
+<!ENTITY searchStartTyping.label         "Искать текст на странице по мере его набора">
+<!ENTITY searchStartTyping.accesskey     "а">
+<!ENTITY blockAutoRefresh.label          "Предупреждать при попытке веб-сайтов перенаправить или перезагрузить страницу">
+<!ENTITY blockAutoRefresh.accesskey      "р">
+
+<!ENTITY browsing.label                  "Просмотр сайтов">
+
+<!ENTITY useAutoScroll.label             "Использовать автоматическую прокрутку">
+<!ENTITY useAutoScroll.accesskey         "с">
+<!ENTITY useSmoothScrolling.label        "Использовать плавную прокрутку">
+<!ENTITY useSmoothScrolling.accesskey    "о">
+<!ENTITY allowHWAccel.label              "По возможности использовать аппаратное ускорение">
+<!ENTITY allowHWAccel.accesskey          "л">
+<!ENTITY checkSpelling.label             "Проверять орфографию при наборе текста">
+<!ENTITY checkSpelling.accesskey         "в">
+
+<!ENTITY systemDefaults.label            "Системные настройки">
+<!ENTITY alwaysCheckDefault.label        "Всегда проверять при запуске, является ли &amp;brandShortName; браузером по умолчанию"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "д">
+<!ENTITY setDefault.label                "Сделать &amp;brandShortName; браузером по умолчанию">
+<!ENTITY setDefault.accesskey            "е">
+<!ENTITY isDefault.label                 "В настоящий момент браузером по умолчанию является &amp;brandShortName;">
+
+<!ENTITY dataChoicesTab.label            "Выбор данных">
+
+<!ENTITY crashReporterSection.label      "Сообщения о падениях">
+<!ENTITY crashReporterDesc.label         "&amp;brandShortName; отправляет сообщения о падении, чтобы помочь &amp;vendorShortName; сделать ваш браузер более стабильным и безопасным">
+<!ENTITY enableCrashReporter.label       "Включить отправку сообщений о падении">
+<!ENTITY enableCrashReporter.accesskey   "к">
+<!ENTITY crashReporterLearnMore.label    "Подробнее">
+
+<!ENTITY networkTab.label                "Сеть">
+
+<!ENTITY connection.label                "Соединение">
+
+<!ENTITY connectionDesc.label            "Настройка параметров соединения &amp;brandShortName; с Интернетом">
+<!ENTITY connectionSettings.label        "Настроить…">
+<!ENTITY connectionSettings.accesskey    "с">
+
+<!ENTITY httpCache.label                 "Кэшированное веб-содержимое">
+
+<!ENTITY offlineStorage2.label           "Автономное веб-содержимое и данные пользователя">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Использовать под кэш не более">
+<!ENTITY limitCacheSizeBefore.accesskey  "о">
+<!ENTITY limitCacheSizeAfter.label       "МБ на диске">
+<!ENTITY clearCacheNow.label             "Очистить сейчас">
+<!ENTITY clearCacheNow.accesskey         "ч">
+<!ENTITY clearOfflineAppCacheNow.label   "Очистить сейчас">
+<!ENTITY clearOfflineAppCacheNow.accesskey "й">
+<!ENTITY overrideSmartCacheSize.label    "Отключить автоматическое управление кэшем">
+<!ENTITY overrideSmartCacheSize.accesskey "л">
+
+<!ENTITY updateTab.label                 "Обновления">
+
+<!ENTITY updateApp.label                 "Обновления &amp;brandShortName;:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Автоматически устанавливать обновления (рекомендовано: повышает безопасность)">
+<!ENTITY updateAuto1.accesskey           "м">
+<!ENTITY updateAutoMetro.label           "Автоматически обновляться через классический и плиточный &amp;brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "о">
+<!ENTITY updateCheck.label               "Проверять наличие обновлений, но позволять мне решать, устанавливать ли их или нет">
+<!ENTITY updateCheck.accesskey           "в">
+<!ENTITY updateManual.label              "Никогда не проверять наличие обновлений (не рекомендовано: ставит безопасность под угрозу)">
+<!ENTITY updateManual.accesskey          "и">
+
+<!ENTITY updateAutoAddonWarn.label       "Предупреждать меня, если при этом будут отключены какие-либо дополнения">
+<!ENTITY updateAutoAddonWarn.accesskey   "е">
+
+<!ENTITY updateAutoMetroWarn.label       "(плиточный &amp;brandShortName; не проверяет совместимость дополнений)">
+
+<!ENTITY updateHistory.label             "Показать журнал обновлений">
+<!ENTITY updateHistory.accesskey         "ж">
+
+<!ENTITY updateOthers.label              "Автоматически обновлять:">
+<!ENTITY enableSearchUpdate.label        "Плагины для поисковых систем">
+<!ENTITY enableSearchUpdate.accesskey    "л">
+
+<!ENTITY offlineNotify.label             "Сообщать, когда веб-сайт просит сохранить данные для автономной работы">
+<!ENTITY offlineNotify.accesskey         "б">
+<!ENTITY offlineNotifyExceptions.label   "Исключения…">
+<!ENTITY offlineNotifyExceptions.accesskey "к">
+
+<!ENTITY offlineAppsList2.label          "Следующим веб-сайтам разрешено хранить данные для работы в автономном режиме:">
+<!ENTITY offlineAppsList.height          "10em">
+<!ENTITY offlineAppsListRemove.label     "Удалить…">
+<!ENTITY offlineAppsListRemove.accesskey "д">
+<!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
+
+<!ENTITY certificateTab.label            "Сертификаты">
+<!ENTITY certGroup.label                 "Персональный сертификат">
+<!ENTITY certSelection.description       "Когда сервер запрашивает личный сертификат:">
+<!ENTITY certs.auto                      "Отправлять автоматически">
+<!ENTITY certs.auto.accesskey            "а">
+<!ENTITY certs.ask                       "Спрашивать каждый раз">
+<!ENTITY certs.ask.accesskey             "ш">
+<!ENTITY ocspGroup.label                 "Проверка сертификата">
+<!ENTITY enableOCSP.label                "Использовать протокол получения статуса сертификатов (OCSP) для проверки текущего статуса сертификатов">
+<!ENTITY enableOCSP.accesskey            "п">
+<!ENTITY requireOCSP.label               "При ошибке соединения с сервером OCSP рассматривать сертификат как недействительный">
+<!ENTITY requireOCSP.accesskey           "ш">
+<!ENTITY viewCerts.label                 "Просмотр сертификатов">
+<!ENTITY viewCerts.accesskey             "с">
+<!ENTITY viewSecurityDevices.label       "Устройства защиты">
+<!ENTITY viewSecurityDevices.accesskey   "о">
+
+<!ENTITY UACompatGroup.label    "Совместимость">
+<!ENTITY UACompat.label         "Использовать User Agent:">
+<!ENTITY UACompat.Native        "Собственный">
+<!ENTITY UACompat.Gecko         "Совместимый с Gecko">
+<!ENTITY UACompat.Firefox       "Совместимый с Firefox">
+
+<!ENTITY scrollparamTab.label               "Прокрутка">
+<!ENTITY smoothscroll.explain.label         "Следующие параметры используются только в случае, если плавная прокрутка включена.">
+<!ENTITY smoothscroll.to                    "—">
+<!ENTITY smoothscroll.params.label          "Параметры плавной прокрутки">
+<!ENTITY smoothscroll.mousewheel.label      "С помощью колесика мыши">
+<!ENTITY smoothscroll.mousewheel.duration   "Длительность прокрутки:">
+<!ENTITY smoothscroll.arrowkeys.label       "С помощью клавиш со стрелками">
+<!ENTITY smoothscroll.arrowkeys.duration    "Длительность прокрутки:">
+<!ENTITY smoothscroll.pagekeys.label        "С помощью клавиш PgUp/PgDn">
+<!ENTITY smoothscroll.pagekeys.duration     "Длительность прокрутки:">
+<!ENTITY smoothscroll.scrollbar.label       "С помощью полосы прокрутки">
+<!ENTITY smoothscroll.scrollbar.duration    "Длительность прокрутки:">

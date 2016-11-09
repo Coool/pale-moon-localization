@@ -1,0 +1,65 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  updateWizard.title              "Actualización de &amp;brandShortName;">
+
+<!ENTITY  offline.title                   "&amp;brandShortName; está trabajando sin conexión">
+<!ENTITY  offline.description             "&amp;brandShortName; necesita conectarse para ver si hay actualizaciones
+                                           disponibles para tus complementos, para hacerlos compatibles con esta
+                                           versión.">
+<!ENTITY  offline.toggleOffline.label     "Conectarse ahora.">
+<!ENTITY  offline.toggleOffline.accesskey "C">
+
+<!ENTITY  mismatch.win.title              "Complementos incompatibles">
+<!ENTITY  mismatch.top.label              "Los siguientes complementos no son compatibles con esta versión de
+                                           &amp;brandShortName; y se deshabilitaron:">
+<!ENTITY  mismatch.bottom.label           "&amp;brandShortName; puede verificar si hay versiones compatibles
+                                           de estos complementos disponibles.">
+
+<!ENTITY  checking.wizard.title           "Buscando complementos compatibles">
+<!ENTITY  checking.top.label              "Buscando actualizaciones para complementos incompatibles…">
+<!ENTITY  checking.status                 "Ésto puede tomar unos pocos minutos…">
+
+<!ENTITY  found.wizard.title               "Complementos compatibles encontrados">
+<!ENTITY  found.top.label                 "Seleccioná los complementos que querés instalar:">
+<!ENTITY  found.disabledXPinstall.label   "Estas actualizaciones no pueden instalarse porque la instalación de software está actualmente
+                                           deshabilitada. Podés cambiar esta opción debajo.">
+<!ENTITY  found.enableXPInstall.label     "Permitir que los sitios web instalen software">
+<!ENTITY  found.enableXPInstall.accesskey "A">
+
+<!ENTITY  installing.wizard.title         "Instalar complementos compatibles">
+<!ENTITY  installing.top.label            "Descargando e instalando actualizaciones a tus complementos…">
+
+<!ENTITY  noupdates.wizard.title          "No se encontraron complementos compatibles">
+<!ENTITY  noupdates.intro.desc            "&amp;brandShortName; no pudo encontrar actualizaciones para tus
+                                           complementos incompatibles.">
+<!ENTITY  noupdates.error.desc            "Se encontraron problemas al intentar encontrar actualizaciones.">
+<!ENTITY  noupdates.checkEnabled.desc     "&amp;brandShortName; verificará periódicamente y te informará
+                                           cuando se encuentren actualizaciones compatibles para estos complementos.">
+
+<!ENTITY  finished.wizard.title           "Complementos compatibles instalados">
+<!ENTITY  finished.top.label              "&amp;brandShortName; instaló actualizaciones para tus complementos.">
+<!ENTITY  finished.checkDisabled.desc     "&amp;brandShortName; puede verificar periódicamente e informarte
+                                           cuando se encuentren actualizaciones para los complementos.">
+<!ENTITY  finished.checkEnabled.desc      "&amp;brandShortName; verificará periódicamente y te informará
+                                           cuando se encuentren actualizaciones para los complementos.">
+
+<!ENTITY  adminDisabled.wizard.title      "No se pudo buscar actualizaciones">
+<!ENTITY  adminDisabled.warning.label     "No se pueden buscar actualizaciones para complementos incompatibles
+                                           porque la instalación de software para &amp;brandShortName; ha sido deshabilitada.
+                                           Contactá a tu administrador de sistemas para obtener ayuda.">
+
+<!ENTITY  versioninfo.wizard.title        "Verificando compatibilidad de complementos">
+<!ENTITY  versioninfo.top.label           "Verificando la compatibilidad de los complementos con esta
+                                           versión de &amp;brandShortName;.">
+<!ENTITY  versioninfo.waiting             "Ésto puede tomar unos pocos minutos…">
+
+<!ENTITY  installerrors.wizard.title      "Problemas instalando actualizaciones">
+<!ENTITY  installerrors.intro.label       "&amp;brandShortName; encontró problemas al actualizar
+                                           algunos de tus complementos.">
+
+<!-- general strings used by several of the finish pages -->
+<!ENTITY  clickFinish.label               "Hacé clic en &quot;Finalizar&quot; para continuar iniciando &amp;brandShortName;.">
+<!ENTITY  clickFinish.labelMac            "Hacé clic en &quot;Listo&quot; para continuar iniciando &amp;brandShortName;.">
+<!ENTITY  enableChecking.label            "Permitir que &amp;brandShortName; busque actualizaciones.">

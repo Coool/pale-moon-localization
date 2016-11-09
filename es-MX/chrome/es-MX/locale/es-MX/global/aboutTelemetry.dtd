@@ -1,0 +1,81 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutTelemetry.pageTitle "Datos de Telemetría">
+
+<!ENTITY aboutTelemetry.telemetryEnabled "
+  Telemetría esta <span>activada</span>.
+">
+
+<!ENTITY aboutTelemetry.telemetryDisabled "
+  Telemetría esta <span>desactivada</span>.
+">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
+<!ENTITY aboutTelemetry.slowSqlSection "
+  Instrucciones SQL Lentas
+">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "
+  Cierres del Navegador
+">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
+<!ENTITY aboutTelemetry.histogramsSection "
+  Histogramas
+">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "
+  Mediciones Simples
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
+">
+
+<!ENTITY aboutTelemetry.lateWritesSection "
+  Escritura atrasada
+">
+
+<!ENTITY aboutTelemetry.systemInfoSection "
+  Información del Sistema
+">
+
+<!ENTITY aboutTelemetry.addonHistogramsSection "
+  Histogramas Recolectados por Complementos
+">
+
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
+">
+
+<!ENTITY aboutTelemetry.emptySection "
+  (No hay datos recolectados)
+">
+
+<!ENTITY aboutTelemetry.fullSqlWarning "
+  NOTA: Depuración SQL lenta esta activada. Las cadenas completas SQL pueden ser mostradas a continuación pero no pueden estar relacionadas con Telemetría.
+">
+
+<!ENTITY aboutTelemetry.fetchSymbols "
+  Fetch function names for hang stacks
+">
+
+<!ENTITY aboutTelemetry.hideSymbols "
+  Mostrar información de los cierres de aplicación
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
+">

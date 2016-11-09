@@ -1,0 +1,68 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Values for changepassword.xul -->
+<!ENTITY setPassword.title  "Cambiar contraseña maestra">
+<!ENTITY setPassword.tokenName.label "Dispositivo de seguridad">
+<!ENTITY setPassword.oldPassword.label "Contraseña actual:">
+<!ENTITY setPassword.newPassword.label "Ingresá la nueva contraseña:">
+<!ENTITY setPassword.reenterPassword.label "Reingresá la nueva contraseña:">
+<!ENTITY setPassword.meter.label "Medidor de calidad de la contraseña">
+
+<!-- Values for resetpassword.xul -->
+<!ENTITY resetPasswordButtonLabel "Restablecer">
+<!ENTITY resetPassword.title  "Restablecer contraseña maestra">
+<!ENTITY resetPassword.text  "Si restablecés tu contraseña maestra, todas tus contraseñas de sitios web y de correo electrónico, datos de formularios, certificados personales y claves privadas se olvidarán. ¿Estás seguro que querés eliminar tu contraseña maestra?">
+
+<!-- Values for getpassword.xul -->
+<!ENTITY getPassword.title  "Ingresá la contraseña maestra">
+<!ENTITY getPassword.tokenName2.label "Dispositivo de seguridad:">
+<!ENTITY getPassword.password.label "Contraseña:">
+
+<!-- Downloading a cert -->
+<!ENTITY downloadCert.title "Descargar certificado">
+<!ENTITY downloadCert.message1 "Se te solicitó que confiés en una nueva autoridad de certificación (CA).">
+<!ENTITY downloadCert.trustSSL "Confiar en esta CA para identificar sitios web.">
+<!ENTITY downloadCert.trustEmail "Confiar en esta CA para identificar usuarios de correo electrónico.">
+<!ENTITY downloadCert.trustObjSign "Confiar en esta CA para identificar desarrolladores de software.">
+<!ENTITY downloadCert.message3 "Antes de confiar en esta CA para cualquier propósito, deberías examinar su certificado, su política y procedimientos (si están disponibles).">
+<!ENTITY downloadCert.viewCert.label "Ver">
+<!ENTITY downloadCert.viewCert.text "Examinar certificado de CA">
+
+<!-- Strings for the SSL client auth ask dialog -->
+<!ENTITY clientAuthAsk.title "Solicitud de identificación de usuario">
+<!ENTITY clientAuthAsk.message1 "Este sitio solicitó que te identifiqués con un certificado:">
+<!ENTITY clientAuthAsk.message2 "Elegir un certificado para presentar como identificación:">
+<!ENTITY clientAuthAsk.message3 "Detalles del certificado seleccionado:">
+
+<!-- Strings for the cert picker dialog -->
+<!ENTITY certPicker.title "Seleccionar certificado">
+<!ENTITY certPicker.info  "Certificado:">
+<!ENTITY certPicker.detailsLabel "Detalles del certificado seleccionado:">
+
+<!ENTITY pkcs12.setpassword.title  "Elegir una contraseña de resguardo del certificado">
+<!ENTITY pkcs12.setpassword.message  "La contraseña de resguardo del certificado que establezcas acá protege el archivo de resguardo que estás por crear. Tenés que ingresar una contraseña para proceder con el resguardo.">
+<!ENTITY pkcs12.setpassword.label1 "Contraseña de resguardo del certificado:">
+<!ENTITY pkcs12.setpassword.label2 "Contraseña de resguardo del certificado (de nuevo):">
+<!ENTITY pkcs12.setpassword.reminder "Importante: si te olvidás tu contraseña de resguardo del certificado, no podrás restaurar el resguardo posteriormente. Guardala en un lugar seguro.">
+
+<!ENTITY chooseToken.title  "Diálogo de selección de ficha">
+<!ENTITY chooseToken.message1 "Por favor, seleccioná una ficha.">
+
+<!ENTITY escrowWarn.title "Copia de clave de cifrado">
+<!ENTITY escrowWarn.message1 "Importante: asta autoridad de certificación solicitó que hagás un resguardo de tu clave privada de cifrado.">
+<!ENTITY escrowWarn.benefit1 "El beneficio es que si perdés acceso a tu clave privada de cifrado, podés pedir una copia a esta autoridad de certificación.">
+<!ENTITY escrowWarn.message2 "Sin embargo, tu clave privada de cifrado será guardada por la autoridad de certificación, y podría usarse para leer tus correos o documentos cifrados, sin tu permiso.">
+<!ENTITY examineCert.label "Ver certificado">
+<!ENTITY examineCert.accesskey "V">
+
+<!-- Strings for the CreateCertInfo dialog  -->
+<!ENTITY createCertInfo.title "Generando una clave privada">
+<!ENTITY createCertInfo.msg1 "Generación de clave en proceso… Ésto puede tomar unos pocos minutos">
+<!ENTITY createCertInfo.msg2 "Esperá, por favor…">
+
+<!-- Strings for protectedAuth dialog -->
+<!ENTITY protectedAuth.title "Autenticación de ficha protegida">
+<!ENTITY protectedAuth.msg "Autenticate con la ficha. El método de autenticación depende del tipo de ficha.">
+<!ENTITY protectedAuth.tokenName.label "Ficha:">

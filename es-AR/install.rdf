@@ -6,26 +6,17 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
-               em:id="langpack-es-AR@palemoon.org"
-               em:name="Español (AR) Language Pack"
-               em:version="26.1"
+               em:id="langpack-en-US@firefox.mozilla.org"
+               em:name="English (US) Language Pack"
+               em:version="27.0.0b3"
                em:type="8"
-               em:creator="mozilla.org / KNTRO">
-    <em:contributor>Marcelo Poli</em:contributor> 
-    <em:contributor>Pablo Lillia</em:contributor> 
-    <em:contributor>Sergio Celani</em:contributor> 
-    <em:contributor>Ariel Burone</em:contributor> 
-    <em:contributor>Mariano Cuenze</em:contributor> 
-    <em:contributor>Ramón Retamar</em:contributor> 
-    <em:contributor>Pamela Gulijczuk</em:contributor> 
-    <em:contributor>Guillermo Movia</em:contributor>
-    <em:contributor>KNTRO</em:contributor>
+               em:creator="palemoon.org">
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0b3</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

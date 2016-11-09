@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Настройки строки состояния Pale Moon">
+
+<!ENTITY status4evar.pane.status "Сообщения">
+<!ENTITY status4evar.pane.progress "Индикатор">
+<!ENTITY status4evar.pane.download "Загрузки">
+<!ENTITY status4evar.pane.statusbar "Панель сообщений">
+<!ENTITY status4evar.pane.advanced "Дополнительно">
+
+<!ENTITY status4evar.tab.general "Общие">
+<!ENTITY status4evar.tab.toolbar "Панель инструментов">
+<!ENTITY status4evar.tab.urlbar "Адресная строка">
+<!ENTITY status4evar.tab.popup "Всплывающая">
+<!ENTITY status4evar.tab.tabs "Вкладки">
+
+<!ENTITY status4evar.option.none "Не показывать">
+<!ENTITY status4evar.option.nothing "Отсутствует">
+<!ENTITY status4evar.option.toolbar "В панели инструментов">
+<!ENTITY status4evar.option.urlbar "В адресной строке">
+<!ENTITY status4evar.option.popup "Во всплывающей строке">
+<!ENTITY status4evar.option.tooltip "Всплывающая подсказка">
+<!ENTITY status4evar.option.bottom "Полоска внизу">
+<!ENTITY status4evar.option.top "Полоска вверху">
+<!ENTITY status4evar.option.fill "Заливка строки">
+<!ENTITY status4evar.option.dlcount "Счётчик загрузок">
+<!ENTITY status4evar.option.dltime "Оставшееся время">
+<!ENTITY status4evar.option.both "Оба">
+<!ENTITY status4evar.option.right "Справа">
+<!ENTITY status4evar.option.left "Слева">
+<!ENTITY status4evar.option.fixed "Закрепить">
+<!ENTITY status4evar.option.simple "Простой">
+<!ENTITY status4evar.option.advanced "Улучшенный">
+<!ENTITY status4evar.option.browse "Обзор">
+<!ENTITY status4evar.option.clear "Очистка">
+<!ENTITY status4evar.option.center "По центру">
+<!ENTITY status4evar.option.offset "Со смещением">
+<!ENTITY status4evar.option.repeat "Повторять">
+<!ENTITY status4evar.option.no-repeat "Не повторять">
+<!ENTITY status4evar.option.space "С интервалами">
+<!ENTITY status4evar.option.round "С масштабированием">
+<!ENTITY status4evar.option.firefoxdefault "По умолчанию для Pale Moon">
+<!ENTITY status4evar.option.download.library "Библиотека">
+<!ENTITY status4evar.option.download.tab "Вкладка">
+<!ENTITY status4evar.option.download.thirdparty "Другое">
+
+<!ENTITY status4evar.unit.milliseconds "миллисекунд">
+<!ENTITY status4evar.unit.seconds "секунд">
+<!ENTITY status4evar.unit.px "пикселей">
+
+<!ENTITY status4evar.status.general.status.caption "Текст сообщений">
+<!ENTITY status4evar.status.label "Показывать сообщения в:">
+<!ENTITY status4evar.status.timeout.label "Скрывать сообщение после:">
+<!ENTITY status4evar.status.default.label "Показывать стандартные сообщения">
+<!ENTITY status4evar.status.network.label "Показывать сообщения сети">
+<!ENTITY status4evar.status.network.xhr.label "Показывать фоновые сообщения сети">
+<!ENTITY toolkit.dom.status.change.label "Разрешить веб-страницам изменять сообщения">
+
+<!ENTITY status4evar.status.general.linkOver.caption "Ссылки">
+<!ENTITY status4evar.status.linkOver.label "Показывать ссылки в:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Задержка перед отображением ссылки:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Задержка перед скрытием ссылки:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "Максимальная длина текста сообщения:">
+
+<!ENTITY status4evar.status.urlbar.align.label "Расположение сообщения:">
+<!ENTITY status4evar.status.urlbar.color.label "Цвет текста:">
+<!ENTITY status4evar.status.currentUrl "Адрес страницы">
+<!ENTITY status4evar.status.statusText "Сообщение">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Настройки совместимости">
+<!ENTITY browser.urlbar.formatting.enabled.label "Включить подсветку домена">
+<!ENTITY browser.urlbar.trimming.enabled.label "Включить скрытие протокола (http:// и ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "По умолчанию справа">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Менять сторону при наведении мыши">
+
+<!ENTITY status4evar.progress.style.label "Использовать пользовательский стиль">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "Показывать индикатор в адресной строке">
+<!ENTITY status4evar.progress.urlbar.line.label "Стиль:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "Всегда показывать элементы панели инструментов">
+
+<!ENTITY status4evar.editor.label "Редактор:">
+<!ENTITY status4evar.editor.css.color.label "Цвет:">
+<!ENTITY status4evar.editor.css.image.label "Изображение:">
+<!ENTITY status4evar.editor.css.image.repeat "Повторение">
+<!ENTITY status4evar.editor.css.image.position "Положение">
+<!ENTITY status4evar.editor.css.image.offset "Отступ">
+
+
+
+<!ENTITY status4evar.download.button.action.label "Действие при нажатии на кнопку загрузки:">
+<!ENTITY status4evar.download.force.label "Всегда показывать кнопку загрузок">
+<!ENTITY status4evar.download.label.force.label "Всегда отображать текст индикатора">
+<!ENTITY status4evar.download.label.label "В тексте кнопки закачек отображать:">
+<!ENTITY status4evar.download.tooltip.label "Во всплывающей подсказке кнопки отображать:">
+<!ENTITY status4evar.download.progress.label "Показывать индикатор загрузки на кнопке">
+<!ENTITY status4evar.download.progress.average.label "Показывать усреднённый процент загрузки">
+<!ENTITY status4evar.download.progress.max.label "Показывать наиболее завершённую загрузку">
+<!ENTITY status4evar.download.progress.min.label "Показывать наименее завершённую загрузку">
+<!ENTITY status4evar.download.color.active.label "Цвет индикатора активных загрузок:">
+<!ENTITY status4evar.download.color.paused.label "Цвет индикатора остановленных загрузок:">
+<!ENTITY status4evar.download.notify.animate.label "Анимировать кнопку при завершении загрузки">
+<!ENTITY status4evar.download.notify.timeout.label "Подсвечивать кнопку при завершении загрузки:">
+
+<!ENTITY status4evar.addonbar.borderStyle "Использовать чередующиеся границы панелей инструментов">
+<!ENTITY status4evar.addonbar.windowGripper "Отображать элемент изменения размера окна">
+<!ENTITY status4evar.addonbar.closeButton "Отображать кнопку закрытия">
+
+<!ENTITY status4evar.advanced.warning "Эти дополнительные настройки могут привести к проблемам с  Pale Moon или другими дополнениями. Изменяйте на свой страх и риск.">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Пытаться форсировать XBL-привязку адресной строки.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Используйте только при наличии проблем с адресной строкой или если текст сообщения отображается некорректно. Это может привести к проблемам с другими дополнениями, которые работают с адресной строкой.">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "Отслеживать полноэкранный режим и соответственно адаптировать ссылки/статус.">
+<!ENTITY status4evar.advanced.status.detectVideo "Скрывать всплывающие сообщения в полноэкранном HTML5 видео.">

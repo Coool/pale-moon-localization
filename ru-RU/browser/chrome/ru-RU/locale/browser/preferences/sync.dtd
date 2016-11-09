@@ -1,0 +1,47 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- The page shown when not logged in... -->
+<!ENTITY setupButton.label          "Настроить &amp;syncBrand.fullName.label;">
+<!ENTITY setupButton.accesskey      "с">
+<!ENTITY weaveDesc.label            "&amp;syncBrand.fullName.label; позволяет вам получить доступ к вашему журналу, закладкам, паролям и открытым вкладкам со всех ваших устройств.">
+
+<!-- The page shown when logged in... -->
+
+<!-- Login error feedback -->
+<!ENTITY updatePass.label             "Обновить">
+<!ENTITY resetPass.label              "Сбросить">
+
+<!-- Manage Account -->
+<!ENTITY manageAccount.label          "Управление учётной записью">
+<!ENTITY manageAccount.accesskey      "в">
+<!ENTITY viewQuota.label              "Просмотреть квоту">
+<!ENTITY changePassword2.label        "Сменить пароль…">
+<!ENTITY myRecoveryKey.label          "Мой ключ восстановления">
+<!ENTITY resetSync2.label             "Заменить или объединить данные синхронизации…">
+
+<!ENTITY pairDevice.label             "Соединиться с устройством">
+
+<!ENTITY syncMy.label               "Синхронизировать мои">
+<!ENTITY engine.bookmarks.label     "Закладки">
+<!ENTITY engine.bookmarks.accesskey "к">
+<!ENTITY engine.tabs.label          "Вкладки">
+<!ENTITY engine.tabs.accesskey      "л">
+<!ENTITY engine.history.label       "Историю">
+<!ENTITY engine.history.accesskey   "т">
+<!ENTITY engine.passwords.label     "Пароли">
+<!ENTITY engine.passwords.accesskey "р">
+<!ENTITY engine.prefs.label         "Настройки">
+<!ENTITY engine.prefs.accesskey     "о">
+<!ENTITY engine.addons.label        "Дополнения">
+<!ENTITY engine.addons.accesskey    "п">
+
+<!-- Device Settings -->
+<!ENTITY syncDeviceName.label       "Имя устройства:">
+<!ENTITY syncDeviceName.accesskey   "м">
+<!ENTITY unlinkDevice.label           "Отсоединить это устройство">
+
+<!-- Footer stuff -->
+<!ENTITY prefs.tosLink.label        "Условия службы">
+<!ENTITY prefs.ppLink.label         "Политика приватности">

@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+    %brandDTD;
+
+<!-- These strings are used in the sync progress upload page -->
+<!ENTITY syncProgress.pageTitle    "Uw eerste synchronisatie">
+<!ENTITY syncProgress.textBlurb    "Uw gegevens worden nu in de achtergrond versleuteld en ge-upload. U kunt dit tabblad nu sluiten en &amp;brandShortName; verder blijven gebruiken.">
+<!ENTITY syncProgress.closeButton  "Sluiten">
+<!ENTITY syncProgress.logoAltText  "&amp;brandShortName;-logo">
+<!ENTITY syncProgress.diffText     "&amp;brandShortName; zal nu automatisch in de achtergrond synchroniseren. U kunt nu dit tabblad sluiten en &amp;brandShortName; verder blijven gebruiken.">
+

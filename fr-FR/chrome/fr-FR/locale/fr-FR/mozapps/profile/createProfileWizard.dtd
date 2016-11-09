@@ -1,0 +1,25 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY newprofile.title             "Assistant de création de profil">
+<!ENTITY window.size                  "width: 45em; height: 34em;">
+
+<!-- First wizard page -->
+<!ENTITY profileCreationExplanation_1.text  "&amp;brandShortName; conserve les informations concernant les paramètres personnels et préférences dans le profil personnel.">
+<!ENTITY profileCreationExplanation_2.text  "En cas de partage de cette copie de &amp;brandShortName; avec d'autres utilisateurs, il est possible d'utiliser les profils pour garder les informations de chaque utilisateur séparées. Pour ce faire, chaque utilisateur devra créer son propre profil.">
+<!ENTITY profileCreationExplanation_3.text  "Si cette copie de &amp;brandShortName; n'est utilisée que par une seule personne, il lui faudra avoir au moins un profil. Si désiré, il sera possible de créer différents profils pour stocker différents jeux de préférences et paramètres. Par exemple, il est possible de disposer de profils séparés pour des utilisations personnelles et professionnelles.">
+<!ENTITY profileCreationExplanation_4.text  "Pour débuter la création du profil personnel, cliquer sur « Suivant ».">
+<!ENTITY profileCreationExplanation_4Mac.text  "Pour débuter la création du profil personnel, cliquer sur « Continuer ».">
+<!ENTITY profileCreationExplanation_4Gnome.text  "Pour débuter la création du profil personnel, cliquer sur « Suivant ».">
+
+<!-- Second wizard page -->
+<!ENTITY profileCreationIntro.text      "En cas de création de plusieurs profils, il est possible de les différencier par leur nom en utilisant le nom proposé ou en en choisissant un personnel.">
+<!ENTITY profilePrompt.label            "Saisir le nom du nouveau profil :">
+<!ENTITY profilePrompt.accesskey        "E">
+<!ENTITY profileDirectoryExplanation.text   "Les paramètres utilisateur, préférences et toutes les données personnelles seront enregistrés dans :">
+<!ENTITY profileDefaultName             "Utilisateur par défaut">
+<!ENTITY button.choosefolder.label      "Choisir un dossier…">
+<!ENTITY button.choosefolder.accesskey  "C">
+<!ENTITY button.usedefault.label        "Utiliser le dossier par défaut">
+<!ENTITY button.usedefault.accesskey    "U">

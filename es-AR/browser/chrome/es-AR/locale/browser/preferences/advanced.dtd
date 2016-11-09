@@ -1,0 +1,144 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "General">
+
+<!ENTITY accessibility.label             "Accesibilidad">
+
+<!ENTITY useCursorNavigation.label       "Siempre usar las teclas del cursor para navegar entre páginas">
+<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY searchStartTyping.label         "Buscar en el texto cuando comience a escribir">
+<!ENTITY searchStartTyping.accesskey     "x">
+<!ENTITY blockAutoRefresh.label          "Alertarme cuando un sitio web intente redireccionar o recargar la página">
+<!ENTITY blockAutoRefresh.accesskey      "u">
+
+<!ENTITY browsing.label                  "Navegar">
+
+<!ENTITY useAutoScroll.label             "Usar desplazamiento automático">
+<!ENTITY useAutoScroll.accesskey         "a">
+<!ENTITY useSmoothScrolling.label        "Usar desplazamiento suave">
+<!ENTITY useSmoothScrolling.accesskey    "s">
+<!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
+<!ENTITY allowHWAccel.accesskey          "h">
+<!ENTITY checkSpelling.label             "Revisar mi ortografía al escribir">
+<!ENTITY checkSpelling.accesskey         "t">
+
+<!ENTITY systemDefaults.label            "Configuración predeterminada del sistema">
+<!ENTITY alwaysCheckDefault.label        "Siempre verificar si &amp;brandShortName; es el navegador predeterminado al iniciar"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "g">
+<!ENTITY setDefault.label                "Establecer &amp;brandShortName; como navegador predeterminado">
+<!ENTITY setDefault.accesskey            "d">
+<!ENTITY isDefault.label                 "&amp;brandShortName; es tu navegador predeterminado actualmente">
+
+<!ENTITY dataChoicesTab.label            "Elección de datos">
+
+<!ENTITY crashReporterSection.label      "Notificador de cierres inesperados">
+<!ENTITY crashReporterDesc.label         "&amp;brandShortName; envía informes de cierres inesperados para ayudar a que &amp;vendorShortName; haga un navegador más seguro y estable">
+<!ENTITY enableCrashReporter.label       "Habilitar notificador de cierres inesperados">
+<!ENTITY enableCrashReporter.accesskey   "N">
+<!ENTITY crashReporterLearnMore.label    "Saber más">
+
+<!ENTITY networkTab.label                "Red">
+
+<!ENTITY connection.label                "Conexión">
+
+<!ENTITY connectionDesc.label            "Configurar cómo se conecta &amp;brandShortName; a Internet">
+<!ENTITY connectionSettings.label        "Configuración…">
+<!ENTITY connectionSettings.accesskey    "C">
+
+<!ENTITY httpCache.label                 "Contenido web en caché">
+
+<!ENTITY offlineStorage2.label           "Contenido web y datos de usuario sin conexión">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Limitar caché a">
+<!ENTITY limitCacheSizeBefore.accesskey  "L">
+<!ENTITY limitCacheSizeAfter.label       "MB de espacio">
+<!ENTITY clearCacheNow.label             "Limpiar ahora">
+<!ENTITY clearCacheNow.accesskey         "h">
+<!ENTITY clearOfflineAppCacheNow.label   "Limpiar ahora">
+<!ENTITY clearOfflineAppCacheNow.accesskey "i">
+<!ENTITY overrideSmartCacheSize.label    "Ignorar administración automática de caché">
+<!ENTITY overrideSmartCacheSize.accesskey "o">
+
+<!ENTITY updateTab.label                 "Actualización">
+
+<!ENTITY updateApp.label                 "Actualizaciones de &amp;brandShortName;:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Instalar actualizaciones automáticamente">
+<!ENTITY updateAuto1.accesskey           "a">
+<!ENTITY updateAutoMetro.label           "Instalar actualizaciones automáticamente para &amp;brandShortName; desde el escritorio y estilo Windows 8">
+<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateCheck.label               "Buscar actualizaciones, pero dejarme elegir si deseo instalarlas">
+<!ENTITY updateCheck.accesskey           "c">
+<!ENTITY updateManual.label              "Nunca buscar actualizaciones (no recomendado)">
+<!ENTITY updateManual.accesskey          "N">
+
+<!ENTITY updateAutoAddonWarn.label       "Advertirme si ésto deshabilitará alguno de mis complementos">
+<!ENTITY updateAutoAddonWarn.accesskey   "v">
+
+<!ENTITY updateAutoMetroWarn.label       "(&amp;brandShortName; estilo Windows 8 no verifica compatibilidad de complementos)">
+
+<!ENTITY updateHistory.label             "Mostrar historial de actualizaciones">
+<!ENTITY updateHistory.accesskey         "h">
+
+<!ENTITY updateOthers.label              "Actualizar automáticamente:">
+<!ENTITY enableSearchUpdate.label        "Motores de búsqueda">
+<!ENTITY enableSearchUpdate.accesskey    "M">
+
+<!ENTITY offlineNotify.label             "Informarme cuando un sitio web pida guardar datos para usar sin conexión">
+<!ENTITY offlineNotify.accesskey         "t">
+<!ENTITY offlineNotifyExceptions.label   "Excepciones…">
+<!ENTITY offlineNotifyExceptions.accesskey "x">
+
+<!ENTITY offlineAppsList2.label          "Los siguientes sitios web tienen permitido guardar datos para uso sin conexión:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "Quitar…">
+<!ENTITY offlineAppsListRemove.accesskey "r">
+<!ENTITY offlineAppRemove.confirm        "Quitar datos sin conexión">
+
+<!ENTITY certificateTab.label            "Certificados">
+<!ENTITY certGroup.label                 "Certificado personal">
+<!ENTITY certSelection.description       "Cuando un servidor requiera mi certificado personal:">
+<!ENTITY certs.auto                      "Seleccionar uno automáticamente">
+<!ENTITY certs.auto.accesskey            "l">
+<!ENTITY certs.ask                       "Preguntarme cada vez">
+<!ENTITY certs.ask.accesskey             "P">
+<!ENTITY ocspGroup.label                 "Validación de certificado">
+<!ENTITY enableOCSP.label                "Usar Online Certificate Status Protocol (OCSP) para confirmar la validez actual de los certificados">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "Cuando falla la conexión a un servidor OCSP, tratar el certificado como no válido">
+<!ENTITY requireOCSP.accesskey           "x">
+<!ENTITY viewCerts.label                 "Ver certificados">
+<!ENTITY viewCerts.accesskey             "s">
+<!ENTITY viewSecurityDevices.label       "Dispositivos de seguridad">
+<!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY UACompatGroup.label    "Compatibilidad">
+<!ENTITY UACompat.label         "Modo de agente de usuario:">
+<!ENTITY UACompat.Native        "Nativo">
+<!ENTITY UACompat.Gecko         "Compatibilidad con Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilidad con Firefox">
+
+<!ENTITY scrollparamTab.label               "Desplazamiento">
+<!ENTITY smoothscroll.explain.label         "Los parámetros de abajo sólo surtirán efecto si el desplazamiento suave está habilitado con la casilla de arriba.">
+<!ENTITY smoothscroll.to                    "a">
+<!ENTITY smoothscroll.params.label          "Parámetros de desplazamiento suave">
+<!ENTITY smoothscroll.mousewheel.label      "Desplazamiento suave con la rueda del mouse">
+<!ENTITY smoothscroll.mousewheel.duration   "Duración del desplazamiento suave con la rueda del mouse:">
+<!ENTITY smoothscroll.arrowkeys.label       "Desplazamiento suave con las teclas de flechas">
+<!ENTITY smoothscroll.arrowkeys.duration    "Duración del desplazamiento con las teclas de flechas:">
+<!ENTITY smoothscroll.pagekeys.label        "Desplazamiento suave con RePág/AvPág">
+<!ENTITY smoothscroll.pagekeys.duration     "Duración del desplazamiento con RePág/AvPág:">
+<!ENTITY smoothscroll.scrollbar.label       "Desplazamiento suave con las barras de desplazamiento">
+<!ENTITY smoothscroll.scrollbar.duration    "Duración del desplazamiento suave con la barra de desplazamiento:">

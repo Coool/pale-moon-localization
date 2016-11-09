@@ -1,0 +1,99 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY certmgr.title                       "ಪ್ರಮಾಣಪತ್ರ ನಿರ್ವಾಹಕ">
+
+<!ENTITY certmgr.tab.mine                     "ನಿಮ್ಮ ಪ್ರಮಾಣಪತ್ರಗಳು">
+<!ENTITY certmgr.tab.others2                  "ಜನರು">
+<!ENTITY certmgr.tab.websites3                "ಪರಿಚಾರಕಗಳು">
+<!ENTITY certmgr.tab.ca                       "ಅಧಿಕಾರಿಗಳು">
+<!ENTITY certmgr.tab.orphan2                  "ಇತರ">
+
+<!ENTITY certmgr.mine                         "ನಿಮ್ಮನ್ನು ಗುರುತಿಸುವ ಈ ಸಂಸ್ಥೆಯಿಂದ ಪಡೆದ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ನೀವು ಹೊಂದಿದ್ದೀರಿ:">
+<!ENTITY certmgr.others                       "ನೀವು ಈ ಜನರನ್ನು ಗುರುತಿಸುವ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಈ ಫೈಲ್ನಲ್ಲಿ ಹೊಂದಿರುವಿರಿ:">
+<!ENTITY certmgr.websites2                    "ಈ ಸರ್ವರ್ಗಳನ್ನು ಗುರುತಿಸುವ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ನೀವು ಫೈಲ್ನಲ್ಲಿ ಹೊಂದಿರುವಿರಿ:">
+<!ENTITY certmgr.cas                          "ಈ ಪ್ರಮಾಣಪತ್ರ ಅಧಿಕಾರಿಗಳ ಗುರುತಿಸುವ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ನೀವು ಈ ಫೈಲ್ನಲ್ಲಿ ಹೊಂದಿದ್ದೀರಿ:">
+<!ENTITY certmgr.orphans                      "ನೀವು ಇತರ ಯಾವುದೇ ವರ್ಗಗಳಿಗೆ ಸೇರದಿರದ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ನೀವು ಈ ಫೈಲ್ನಲ್ಲಿ ಹೊಂದಿದ್ದೀರಿ:">
+
+<!ENTITY certmgr.detail.general_tab.title     "ಜನರಲ್">
+<!ENTITY certmgr.detail.general_tab.accesskey "G">
+<!ENTITY certmgr.detail.prettyprint_tab.title "ವಿವರಗಳು">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
+
+<!ENTITY certmgr.pending.label                "ಪ್ರಸ್ತುತ ಪ್ರಮಾಣಪತ್ರ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...">
+<!ENTITY certmgr.subjectinfo.label            "ಇವರಿಗೆ ನೀಡಲಾಗಿದೆ">
+<!ENTITY certmgr.issuerinfo.label             "ಇವರಿಂದ ನೀಡಲಾಗಿದೆ">
+<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
+<!ENTITY certmgr.fingerprints.label           "ಬೆರಳಗುರುತು">
+<!ENTITY certmgr.certdetail.title             "ಪ್ರಮಾಣಪತ್ರ ವಿವರ">
+<!ENTITY certmgr.certdetail.cn                "ಸಾಮಾನ್ಯ ಹೆಸರು (CN)">
+<!ENTITY certmgr.certdetail.o                 "ಸಂಸ್ಥೆ (O)">
+<!ENTITY certmgr.certdetail.ou                "ಸಂಸ್ಥೆ ಘಟಕ (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "ಕ್ರಮ ಸಂಖ್ಯೆ">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 ಬೆರಳಗುರುತು">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 ಬೆರಳಗುರುತು">
+
+<!ENTITY certmgr.editcacert.title             "CA ಪ್ರಮಾಣಪತ್ರಗಳ ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
+<!ENTITY certmgr.editcert.edittrust           "ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
+<!ENTITY certmgr.editcert.trustssl            "ಈ ಪ್ರಮಾಣಪತ್ರದಿಂದ ವೆಬ್ಸೈಟ್ಗಳ್ಳನ್ನು ಗುರುತಿಸಬಹುದಾಗಿದೆ.">
+<!ENTITY certmgr.editcert.trustemail          "ಈ ಪ್ರಮಾಣಪತ್ರದಿಂದ ಮೇಲ್ ಬಳಕೆದಾರರು ಗುರುತಿಸಬಹುದಾಗಿದೆ.">
+<!ENTITY certmgr.editcert.trustobjsign        "ಈ ಪ್ರಮಾಣಪತ್ರದಿಂದ ಸಾಫ್ಟ್ವೇರ್ ತಯಾರಕರನ್ನು ಗುರುತಿಸಬಹುದಾಗಿದೆ.">
+<!ENTITY certmgr.editemailcert.title          "ಇ-ಮೇಲ್ ಪ್ರಮಾಣಪತ್ರ ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
+<!ENTITY certmgr.editemailcert.edittrust      "ವಿಶ್ವಾಸಾರ್ಹ ಪ್ರಮಾಣಪತ್ರದ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ:">
+<!ENTITY certmgr.editemailcert.dotrust        "ಈ ಪ್ರಮಾಣಪತ್ರದ ದೃಢೀಕರಣವನ್ನು ನಂಬಬಹುದು.">
+<!ENTITY certmgr.editemailcert.donttrust      "ಈ ಪ್ರಮಾಣಪತ್ರದ ದೃಢೀಕರಣವನ್ನು ನಂಬಬೇಡಿ.">
+
+<!ENTITY certmgr.deletecert.title             "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಿ">
+
+<!ENTITY certmgr.certname                     "ಪ್ರಮಾಣಪತ್ರ ಹೆಸರು">
+<!ENTITY certmgr.certserver                   "ಸರ್ವರ್">
+<!ENTITY certmgr.override_lifetime            "ಜೀವಮಾನ">
+<!ENTITY certmgr.tokenname                    "ಸುರಕ್ಷತೆ ಸಾಧನ">
+<!ENTITY certmgr.begins                       "Begins On">
+<!ENTITY certmgr.expires                      "ಈ ದಿನದಂದು ಅವಧಿಯನ್ನು ಮೀರುತ್ತದೆ">
+<!ENTITY certmgr.email                        "ಇ-ಮೇಲ್ ವಿಳಾಸ">
+<!ENTITY certmgr.serial                       "ಕ್ರಮ ಸಂಖ್ಯೆ">
+
+<!ENTITY certmgr.close.label                  "ಮುಚ್ಚು">
+<!ENTITY certmgr.close.accesskey              "C">
+<!ENTITY certmgr.view2.label                  "ವೀಕ್ಷಿಸಿ...">
+<!ENTITY certmgr.view2.accesskey              "V">
+<!ENTITY certmgr.edit3.label                  "ಟ್ರಸ್ಟ್ ಬದಲಾಯಿಸಿ...">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "CA ಟ್ರಸ್ಟ್ ಬದಲಾಯಿಸಿ...">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.export.label                 "ರಫ್ತು ಮಾಡಿ...">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "ಅಳಿಸಿ...">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "ಅಳಿಸು ಅಥವಾ ನಂಬಬೇಡ...">
+<!ENTITY certmgr.delete_builtin.accesskey     "D">
+<!ENTITY certmgr.backup2.label                "ಬ್ಯಾಕಪ್...">
+<!ENTITY certmgr.backup2.accesskey            "B">
+<!ENTITY certmgr.backupall2.label             "ಎಲ್ಲವನ್ನು ಬ್ಯಾಕ್ಅಪ್...">
+<!ENTITY certmgr.backupall2.accesskey         "k">
+<!ENTITY certmgr.restore2.label               "ಆಮದು...">
+<!ENTITY certmgr.restore2.accesskey           "m">
+<!ENTITY certmgr.details.label                "ಪ್ರಮಾಣಪತ್ರ ಸ್ಥಾನಗಳು">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "ಸ್ಥಾನಗಳ ಮೌಲ್ಯ">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "ಪ್ರಮಾಣಪತ್ರ ಶ್ರೇಣಿ ವ್ಯವಸ್ಥೆ">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
+<!ENTITY certmgr.addException.label           "ವಿನಾಯಿತಿ ಸೇರಿಸಿ...">
+<!ENTITY certmgr.addException.accesskey       "x">
+
+<!ENTITY exceptionMgr.title                   "ಭದ್ರತಾ ವಿನಾಯಿತಿ ಸೇರಿಸಿ">
+<!ENTITY exceptionMgr.exceptionButton.label   "ಭದ್ರತೆ ವಿನಾಯತಿ ದೃಢೀಕರಿಸಿ">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "ಶಾಸನಬದ್ಧ ಬ್ಯಾಂಕುಗಳು, ಅಂಗಡಿಗಳು ಮತ್ತು ಇತರ ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ ಇದನ್ನು ಕೇಳುವುದಿಲ್ಲ.">
+<!ENTITY exceptionMgr.certlocation.caption2   "ಸರ್ವರ್">
+<!ENTITY exceptionMgr.certlocation.url        "ಸ್ಥಳ:">
+<!ENTITY exceptionMgr.certlocation.download   "ಪ್ರಮಾಣಪತ್ರ ಪಡೆಯಿರಿ">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "ಸರ್ಟಿಫಿಕೇಟ್ ಸ್ಥಿತಿ">
+<!ENTITY exceptionMgr.certstatus.viewCert     "ವೀಕ್ಷಿಸಿ...">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "ಶಾಶ್ವತವಾಗಿ ಈ ವಿನಾಯಿತಿ ಶೇಖರಿಸಿಸು">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">
