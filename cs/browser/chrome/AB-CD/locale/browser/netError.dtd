@@ -11,10 +11,10 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Chyba spojení">
-<!ENTITY connectionFailure.longDesc "&amp;sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Omezení přístupu na port">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Prohlížeč zrušil požadavek z důvodů vaší ochrany.</p>">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
 <!ENTITY dnsNotFound.longDesc "
@@ -25,7 +25,7 @@
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
     počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
-    &amp;brandShortName; přístup na Internet.</li>
+    &brandShortName; přístup na Internet.</li>
 </ul>
 ">
 
@@ -40,7 +40,7 @@
 
 <!ENTITY generic.title "Nepodařilo se dokončit požadavek">
 <!ENTITY generic.longDesc "
-<p>&amp;brandShortName; nemůže tuto stránku načíst.</p>
+<p>&brandShortName; nemůže tuto stránku načíst.</p>
 ">
 
 <!ENTITY malformedURI.title "Neplatná adresa">
@@ -54,10 +54,10 @@
 ">
 
 <!ENTITY netInterrupt.title "Spojení bylo přerušeno">
-<!ENTITY netInterrupt.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Platnost dokumentu vypršela">
-<!ENTITY notCached.longDesc "<p>Požadovaný dokument již není dostupný v mezipaměti aplikace &amp;brandShortName;.</p><ul><li>Z bezpečnostních důvodů &amp;brandShortName; automaticky nestahuje důvěrné dokumenty.</li><li>Pro opětovné stažení dokumentu z webového serveru klepněte na tlačítko „Zkusit znovu“.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Požadovaný dokument již není dostupný v mezipaměti aplikace &brandShortName;.</p><ul><li>Z bezpečnostních důvodů &brandShortName; automaticky nestahuje důvěrné dokumenty.</li><li>Pro opětovné stažení dokumentu z webového serveru klepněte na tlačítko „Zkusit znovu“.</li></ul>">
 
 <!ENTITY netOffline.title "Režim offline">
 <!ENTITY netOffline.longDesc2 "
@@ -81,10 +81,10 @@
 ">
 
 <!ENTITY netReset.title "Spojení přerušeno">
-<!ENTITY netReset.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
 <!ENTITY netTimeout.title "Vypršel čas spojení">
-<!ENTITY netTimeout.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Adresa nebyla rozpoznána">
 <!ENTITY unknownProtocolFound.longDesc "
@@ -107,7 +107,7 @@
   <li>Zkontrolujte nastavení proxy serveru.</li>
   <li>Zkontrolujte síťové připojení svého počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
-    &amp;brandShortName; přístup na Internet.</li>
+    &brandShortName; přístup na Internet.</li>
 </ul>
 ">
 
@@ -153,14 +153,14 @@ později.</li>
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
     počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
-    &amp;brandShortName; přístup na Internet.</li>
+    &brandShortName; přístup na Internet.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Podezřelá útočná stránka!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Útočné stránky se pokouší nainstalovat aplikace, které kradou vaše důvěrná data, používají váš počítač k dalším útokům, nebo jakkoliv poničí váš systém.</p>
-<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou &lt;a href='http://www.stopbadware.org/home/reviewinfo'&gt; požádat o kontrolu</a>.</p>
+<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='http://www.stopbadware.org/home/reviewinfo'> požádat o kontrolu</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podezřelá podvodná stránka!">
@@ -170,15 +170,15 @@ později.</li>
 ">
 
 <!ENTITY cspBlocked.title "Zablokováno dle bezpečnostních pravidel obsahu">
-<!ENTITY cspBlocked.longDesc "<p>Aplikace &amp;brandShortName; zabránila v nahrání této stránky, protože tato stránka má bezpečnostní pravidla, která takovýto způsob nahrání zakazují.</p>">
+<!ENTITY cspBlocked.longDesc "<p>Aplikace &brandShortName; zabránila v nahrání této stránky, protože tato stránka má bezpečnostní pravidla, která takovýto způsob nahrání zakazují.</p>">
 
 <!ENTITY xssBlockMode.title "Zablokováno pomocí XSS filtru">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&amp;brandShortName; zablokoval další akce na této stránce, protože obsahuje
+  <li>&brandShortName; zablokoval další akce na této stránce, protože obsahuje
     injektovaný kód JavaScriptu.</li>
   <li>Načítání této stránky bylo pozastaveno, buď na výslovnou žádost
-    blokovat stránky v případě XSS útoků, nebo proto, že &amp;brandShortName;
+    blokovat stránky v případě XSS útoků, nebo proto, že &brandShortName;
     byl nakonfigurován k blokování stránek v této situaci.</li>
 </ul>
 ">
@@ -199,8 +199,8 @@ functionality specific to firefox. -->
 <!ENTITY securityOverride.warningContent "
 <p>Není doporučováno přidávat výjimku, pokud nemůžete svému internetovému spojení plně důvěřovat nebo pokud nejste u tohoto serveru zvyklí vídat podobná varování.</p>
 
-<button id='getMeOutOfHereButton'>&amp;securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&amp;securityOverride.exceptionButtonLabel;</button>
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
 <!ENTITY errorReporting.title "Nahlášení této chyby">
