@@ -26,12 +26,12 @@
 <!ENTITY fileMenu.accesskey           "P">
 
 <!ENTITY newWindowCmd.label           "Nowe okno">
-<!ENTITY newWindowCmd.accesskey       "N">
-<!ENTITY newWindowCmd.commandkey      "n">
+<!ENTITY newWindowCmd.accesskey       "Z">
+<!ENTITY newWindowCmd.commandkey      "r">
 
 <!ENTITY openFileCmd.label            "Otwórz plik…">
 <!ENTITY openFileCmd.accesskey        "O">
-<!ENTITY openFileCmd.commandkey       "o">
+<!ENTITY openFileCmd.commandkey       "u">
 
 <!ENTITY openRecentMenu.label         "Otwórz ostatnie">
 <!ENTITY openRecentMenu.accesskey     "e">
@@ -41,57 +41,57 @@
 
 <!ENTITY saveFileCmd.label            "Zapisz">
 <!ENTITY saveFileCmd.accesskey        "Z">
-<!ENTITY saveFileCmd.commandkey       "s">
+<!ENTITY saveFileCmd.commandkey       "h">
 
 <!ENTITY saveFileAsCmd.label          "Zapisz jako…">
 <!ENTITY saveFileAsCmd.accesskey      "a">
 
 <!ENTITY closeCmd.label               "Zamknij">
-<!ENTITY closeCmd.key                 "W">
+<!ENTITY closeCmd.key                 "P">
 <!ENTITY closeCmd.accesskey           "k">
 
 <!ENTITY viewMenu.label               "Widok">
-<!ENTITY viewMenu.accesskey           "V">
+<!ENTITY viewMenu.accesskey           "P">
 
 <!ENTITY lineNumbers.label             "Pokaż numery wierszy">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.accesskey         "D">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Zawijanie tekstu">
+<!ENTITY wordWrap.accesskey            "P">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Podświetl spacje końcowe">
+<!ENTITY highlightTrailingSpace.accesskey "O">
 
 <!ENTITY largerFont.label             "Większe czcionki">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.accesskey         "o">
 <!ENTITY largerFont.commandkey        "+">
 
 <!ENTITY smallerFont.label            "Mniejsza czcionka">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.accesskey        "C">
 <!ENTITY smallerFont.commandkey       "-">
 
 <!ENTITY normalSize.label             "Normalny rozmiar">
-<!ENTITY normalSize.accesskey         "N">
+<!ENTITY normalSize.accesskey         "Z">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "Edycja">
-<!ENTITY editMenu.accesskey           "E">
+<!ENTITY editMenu.accesskey           "N">
 
 <!ENTITY run.label                    "Uruchom">
 <!ENTITY run.accesskey                "U">
-<!ENTITY run.key                      "r">
+<!ENTITY run.key                      "c">
 
 <!ENTITY inspect.label                "Zbadaj">
 <!ENTITY inspect.accesskey            "b">
-<!ENTITY inspect.key                  "i">
+<!ENTITY inspect.key                  "p">
 
 <!ENTITY display.label                "Wyświetl">
 <!ENTITY display.accesskey            "l">
-<!ENTITY display.key                  "l">
+<!ENTITY display.key                  "b">
 
-<!ENTITY pprint.label                 "Pretty Print">
-<!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.label                 "Print ładny">
+<!ENTITY pprint.key                   "w">
+<!ENTITY pprint.accesskey             "O">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -124,7 +124,7 @@
 <!ENTITY helpMenuWin.accesskey        "c">
 
 <!ENTITY documentationLink.label      "Pomoc dla Brudnopisu na MDN">
-<!ENTITY documentationLink.accesskey  "D">
+<!ENTITY documentationLink.accesskey  "E">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
@@ -135,7 +135,7 @@
 
 <!ENTITY reloadAndRun.label           "Wczytaj ponownie i uruchom">
 <!ENTITY reloadAndRun.accesskey       "h">
-<!ENTITY reloadAndRun.key             "r">
+<!ENTITY reloadAndRun.key             "c">
 
 <!ENTITY executeMenu.label            "Wykonaj">
 <!ENTITY executeMenu.accesskey        "W">
@@ -150,5 +150,5 @@
   -  to evaluate the top-level function that the cursor is currently at.
   -->
 <!ENTITY evalFunction.label "Oceny bieżącej funkcji">
-<!ENTITY evalFunction.accesskey "v">
-<!ENTITY evalFunction.key "e">
+<!ENTITY evalFunction.accesskey "s">
+<!ENTITY evalFunction.key "u">

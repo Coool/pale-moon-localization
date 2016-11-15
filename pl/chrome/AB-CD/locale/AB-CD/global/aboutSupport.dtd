@@ -8,17 +8,17 @@
 <!ENTITY aboutSupport.pageSubtitle "
   Ta strona zawiera informacje techniczne, które mogą być przydatne podczas
   rozwiązywania problemów. Jeśli szukasz odpowiedzi na często zadawane pytania
-  dotyczące programu &amp;brandShortName;, sprawdź naszą <a id='supportLink'>stronę wsparcia
+  dotyczące programu &brandShortName;, sprawdź naszą <a id='supportLink'>stronę wsparcia
   technicznego</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Raporty o awariach">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "Zgłoś ID">
+<!ENTITY aboutSupport.crashes.sendDate "Zgłoszony">
+<!ENTITY aboutSupport.crashes.allReports "Wszystkie raporty o awariach">
+<!ENTITY aboutSupport.crashes.noConfig "Ta aplikacja nie została skonfigurowana do wyświetlania raportów o awariach.">
 
 <!ENTITY aboutSupport.extensionsTitle "Rozszerzenia">
 <!ENTITY aboutSupport.extensionName "Nazwa">
@@ -26,23 +26,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Wersja">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "Funkcje eksperymentalne">
+<!ENTITY aboutSupport.experimentName "Nazwa">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentDescription "Opis">
+<!ENTITY aboutSupport.experimentActive "Aktywny">
+<!ENTITY aboutSupport.experimentEndDate "Data końcowa">
+<!ENTITY aboutSupport.experimentHomepage "Strona główna">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Informacje o aplikacji">
 <!ENTITY aboutSupport.appBasicsName "Nazwa">
 <!ENTITY aboutSupport.appBasicsVersion "Wersja">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Tworzenie identyfikatora">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Kanał aktualizacji">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Historia aktualizacji">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Wyświetl historię aktualizacji">
 
@@ -57,7 +57,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Identyfikator programu">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Zużycie pamięci">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Wieloprocesowych Windows">
 
 <!ENTITY aboutSupport.showDir.label "Otwórz katalog">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -74,11 +74,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "Preferencje user.js">
-<!ENTITY aboutSupport.userJSDescription "Folder profilu użytkownika zawiera {[=-a id='prefs-user-js-link'-=]}plik user.js</a> z preferencjami, które nie zostały utworzone przez program &amp;brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Folder profilu użytkownika zawiera <a id='prefs-user-js-link'>plik user.js</a> z preferencjami, które nie zostały utworzone przez program &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Ważne zmodyfikowane ustawienia">
+<!ENTITY aboutSupport.lockedPrefsName "Nazwa">
+<!ENTITY aboutSupport.lockedPrefsValue "Wartość">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
@@ -97,7 +97,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Skopiuj tekst do schowka">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Skopiuj nieprzetworzone dane do schowka">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxTitle "Piaskownica">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Spróbuj w trybie awaryjnym">
+<!ENTITY aboutSupport.restartInSafeMode.label "Uruchom ponownie z wyłączonymi dodatkami…">
