@@ -3,9 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "Skonfiguruj usługę &amp;syncBrand.shortName.label;">
-<!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&amp;syncBrand.fullName.label; umożliwia dostęp do historii, zakładek, haseł i otwartych kart na wszystkich urządzeniach.">
+<!ENTITY setupButton.label          "Skonfiguruj usługę &syncBrand.shortName.label;">
+<!ENTITY setupButton.accesskey      "E">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; umożliwia dostęp do historii, zakładek, haseł i otwartych kart na wszystkich urządzeniach.">
 
 <!-- The page shown when logged in... -->
 
@@ -15,8 +15,8 @@
 
 <!-- Manage Account -->
 <!ENTITY manageAccount.label          "Zarządzaj kontem">
-<!ENTITY manageAccount.accesskey      "n">
-<!ENTITY viewQuota.label              "View Quota">
+<!ENTITY manageAccount.accesskey      "r">
+<!ENTITY viewQuota.label              "Wyświetl zajętość konta">
 <!ENTITY changePassword2.label        "Zmień hasło…">
 <!ENTITY myRecoveryKey.label          "Mój klucz odzyskiwania">
 <!ENTITY resetSync2.label             "Zresetuj synchronizację…">
@@ -25,21 +25,21 @@
 
 <!ENTITY syncMy.label               "Synchronizuj">
 <!ENTITY engine.bookmarks.label     "Zakładki">
-<!ENTITY engine.bookmarks.accesskey "m">
+<!ENTITY engine.bookmarks.accesskey "d">
 <!ENTITY engine.tabs.label          "Karty">
-<!ENTITY engine.tabs.accesskey      "T">
+<!ENTITY engine.tabs.accesskey      "J">
 <!ENTITY engine.history.label       "Historia">
-<!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.history.accesskey   "c">
 <!ENTITY engine.passwords.label     "Hasła">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.passwords.accesskey "O">
 <!ENTITY engine.prefs.label         "Preferencje">
-<!ENTITY engine.prefs.accesskey     "S">
+<!ENTITY engine.prefs.accesskey     "E">
 <!ENTITY engine.addons.label        "Dodatki">
-<!ENTITY engine.addons.accesskey    "A">
+<!ENTITY engine.addons.accesskey    "O">
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label       "Nazwa urządzenia:">
-<!ENTITY syncDeviceName.accesskey   "c">
+<!ENTITY syncDeviceName.accesskey   "w">
 <!ENTITY unlinkDevice.label           "Odłącz to urządzenie">
 
 <!-- Footer stuff -->

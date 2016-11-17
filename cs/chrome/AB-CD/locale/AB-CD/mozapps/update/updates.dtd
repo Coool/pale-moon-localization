@@ -1,7 +1,7 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Aktualizace aplikace &amp;brandShortName; ">
+<!ENTITY  updateWizard.title              "Aktualizace aplikace &brandShortName; ">
 
 <!ENTITY  checking.title                  "Kontrola aktualizací">
 <!ENTITY  updateCheck.label               "Vyhledávat aktualizace, ale dotázat se, zda mají být nainstalovány">
@@ -11,10 +11,10 @@
 <!ENTITY  pluginupdateslink.label         "Jak aktualizovat zásuvné moduly.">
 
 <!ENTITY  noupdatesfound.title            "Aktualizace nenalezeny">
-<!ENTITY  noupdatesautoenabled.intro      "Nebyly nalezeny žádné nové aktualizace. Aplikace &amp;brandShortName; 
+<!ENTITY  noupdatesautoenabled.intro      "Nebyly nalezeny žádné nové aktualizace. Aplikace &brandShortName; 
                                            bude pravidelně zjišťovat jejich dostupnost.">
 <!ENTITY  noupdatesautodisabled.intro     "Nebyly nalezeny žádné nové aktualizace. Opakujte kontrolu později 
-                                           nebo povolte aplikaci &amp;brandShortName; automatické zjišťování dostupnosti.">
+                                           nebo povolte aplikaci &brandShortName; automatické zjišťování dostupnosti.">
 
 <!ENTITY  manualUpdate.title              "Aktualizace není možná">
 <!ENTITY  manualUpdate.desc               "Doporučovaná bezpečnostní a výkonnostní aktualizace je dostupná, 
@@ -23,10 +23,10 @@
                                            který má oprávnění k instalaci softwaru na tomto počítači.">
 <!ENTITY  manualUpdate.space.desc         "Doporučovaná bezpečnostní a výkonnostní aktualizace je dostupná, 
                                            ale nemáte na disku dostatek potřebného místa k její aktualizaci.">
-<!ENTITY  manualUpdateGetMsg.label        "Nejnovější verze aplikace &amp;brandShortName; je vždy dostupná na:">
+<!ENTITY  manualUpdateGetMsg.label        "Nejnovější verze aplikace &brandShortName; je vždy dostupná na:">
 
 <!ENTITY  unsupported.title               "Nepodporovaný systém">
-<!ENTITY  unsupported.label               "Váš prohlížeč &amp;brandShortName; je neaktuální, ale poslední verze prohlížeče
+<!ENTITY  unsupported.label               "Váš prohlížeč &brandShortName; je neaktuální, ale poslední verze prohlížeče
                                            nepodporuje váš systém. Aktualizuje svůj systém, a poté to zkuste znovu.
                                            Poté již tuto zprávu neuvidíte, ale může si ">
 <!ENTITY  unsupportedLink.label           "zjistit více.">
@@ -36,7 +36,7 @@
 
 <!ENTITY  clickHere.label                 "Zobrazit více informací o této aktualizaci">
 
-<!ENTITY  evangelism.desc                 "Je důrazně doporučováno aktualizovat aplikaci &amp;brandShortName; 
+<!ENTITY  evangelism.desc                 "Je důrazně doporučováno aktualizovat aplikaci &brandShortName; 
                                            co možná nejdříve.">
 
 <!ENTITY  license.instructions            "Pokud souhlasíte s podmínkami tohoto licenčního ujednání, 
@@ -52,10 +52,10 @@
 
 <!ENTITY  incompatibleList.title          "Nalezeny nekompatibilní doplňky">
 
-<!ENTITY  downloadPage.title              "Stahování aplikace &amp;brandShortName;">
+<!ENTITY  downloadPage.title              "Stahování aplikace &brandShortName;">
 <!ENTITY  downloading.intro               "Stahování aktualizací…">
 <!ENTITY  connecting.label                "Připojování k aktualizačnímu serveru…">
-<!ENTITY  verificationFailedText.label    "Aplikaci &amp;brandShortName; se nepodařilo ověřit integritu 
+<!ENTITY  verificationFailedText.label    "Aplikaci &brandShortName; se nepodařilo ověřit integritu 
                                            stažené přírůstkové aktualizace, proto nyní stahuje 
                                            celý aktualizační balíček.">
 
@@ -66,32 +66,32 @@
 <!ENTITY  error.title                     "Aktualizace se nezdařila">
 
 <!ENTITY  error.label                     "Při kontrole, stahování či instalaci aktualizace došlo k chybě. 
-                                           Aplikaci &amp;brandShortName; se nepodařilo aktualizovat, protože:">
+                                           Aplikaci &brandShortName; se nepodařilo aktualizovat, protože:">
                                            
-<!ENTITY  errorManual.label               "Aplikaci &amp;brandShortName; doporučujeme aktualizovat ručně stažením 
+<!ENTITY  errorManual.label               "Aplikaci &brandShortName; doporučujeme aktualizovat ručně stažením 
                                            nejnovější verze z této stránky:">
                                            
 <!ENTITY  errorpatching.intro             "Použití rozdílové aktualizace se nezdařilo. 
-                                           Aplikace &amp;brandShortName; se pokusí stáhnout kompletní aktualizaci.">
+                                           Aplikace &brandShortName; se pokusí stáhnout kompletní aktualizaci.">
 
-<!ENTITY  genericBackgroundError.label    "Aplikaci &amp;brandShortName; se nepodařilo ověřit dostupnost aktualizací. 
-                                           Ověřte prosím, zda máte poslední verzi aplikace &amp;brandShortName; z:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Aplikaci &amp;brandShortName; je bráněno v bezpečné aktualizaci. 
-                                           Ověřte prosím, zda máte poslední verzi aplikace &amp;brandShortName; z:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Aplikaci &amp;brandShortName; je nabízena nezabezpečená aktualizace. 
+<!ENTITY  genericBackgroundError.label    "Aplikaci &brandShortName; se nepodařilo ověřit dostupnost aktualizací. 
+                                           Ověřte prosím, zda máte poslední verzi aplikace &brandShortName; z:">
+<!ENTITY  errorCertAttrNoUpdate2.label    "Aplikaci &brandShortName; je bráněno v bezpečné aktualizaci. 
+                                           Ověřte prosím, zda máte poslední verzi aplikace &brandShortName; z:">
+<!ENTITY  errorCertAttrHasUpdate.label    "Aplikaci &brandShortName; je nabízena nezabezpečená aktualizace. 
                                            Kontaktujte prosím svého správce sítě a požádejte ho o pomoc.">
 
 <!ENTITY  finishedPage.title              "Aktualizace je připravena k instalaci">
-<!ENTITY  finishedPage.text               "Aktualizace bude nainstalována při příštím startu aplikace &amp;brandShortName;. 
-                                           Nyní můžete aplikaci &amp;brandShortName; restartovat 
+<!ENTITY  finishedPage.text               "Aktualizace bude nainstalována při příštím startu aplikace &brandShortName;. 
+                                           Nyní můžete aplikaci &brandShortName; restartovat 
                                            nebo pokračovat v práci a restartovat ji později.">
 
-<!ENTITY  finishedBackgroundPage.text     "Bezpečnostní a výkonnostní aktualizace aplikace &amp;brandShortName; 
+<!ENTITY  finishedBackgroundPage.text     "Bezpečnostní a výkonnostní aktualizace aplikace &brandShortName; 
                                            byla stažena a je připraven instalaci.">
 <!ENTITY  finishedBackground.name         "Aktualizace:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
-<!ENTITY  finishedBackground.more         "Aktualizace bude nainstalována při příštím startu aplikace &amp;brandShortName;. 
-                                           Nyní můžete aplikaci &amp;brandShortName; restartovat 
+<!ENTITY  finishedBackground.more         "Aktualizace bude nainstalována při příštím startu aplikace &brandShortName;. 
+                                           Nyní můžete aplikaci &brandShortName; restartovat 
                                            nebo pokračovat v práci a restartovat ji později.">
 
 <!ENTITY  installed.title                 "Aktualizace nainstalována">

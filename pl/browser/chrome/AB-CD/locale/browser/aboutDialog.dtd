@@ -1,23 +1,23 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
-<!ENTITY aboutDialog.title          "O programie &amp;brandFullName;">
+<!ENTITY aboutDialog.title          "O programie &brandFullName;">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
-<!ENTITY warningDesc.version        "&amp;brandShortName; to program eksperymentalny i potencjalnie niestabilny.">
+<!ENTITY warningDesc.version        "&brandShortName; to program eksperymentalny i potencjalnie niestabilny.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.exp.mozillaLink  "&amp;vendorShortName;">
+<!ENTITY community.exp.mozillaLink  "organizację &vendorShortName;">
 <!ENTITY community.exp.middle       " jest ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "globalna społeczność">
 <!ENTITY community.exp.end          " współpracują ze sobą, aby utrzymać Web otwarty, publiczny i dostępny dla wszystkich.">
 
-<!ENTITY community.start2           "Program &amp;brandShortName; został opracowany przez ">
+<!ENTITY community.start2           "Program &brandShortName; został opracowany przez ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.mozillaLink      "organizację &amp;vendorShortName;">
+<!ENTITY community.mozillaLink      "organizację &vendorShortName;">
 <!ENTITY community.middle2          ", która jest ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "globalna społeczność">
@@ -42,11 +42,11 @@
 <!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingAddonCompat "Sprawdzanie kompatybilności dodatków…">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.noUpdatesFound      "Program &amp;brandShortName; jest aktualny">
+<!ENTITY update.noUpdatesFound      "Program &brandShortName; jest aktualny">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled       "Aktualizacje wyłączone przez administratora systemu">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates "Inna instancja właśnie aktualizuje program &amp;brandShortName;">
+<!ENTITY update.otherInstanceHandlingUpdates "Inna instancja właśnie aktualizuje program &brandShortName;">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into

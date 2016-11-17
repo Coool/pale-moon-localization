@@ -27,16 +27,16 @@
 <!ENTITY checkSpelling.accesskey         "i">
 
 <!ENTITY systemDefaults.label            "Ustawienia systemowe">
-<!ENTITY alwaysCheckDefault.label        "Przy uruchamianiu sprawdzaj, czy &amp;brandShortName; jest domyślną przeglądarką"><!--XXX-->
+<!ENTITY alwaysCheckDefault.label        "Przy uruchamianiu sprawdzaj, czy &brandShortName; jest domyślną przeglądarką"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "c">
-<!ENTITY setDefault.label                "Ustaw program &amp;brandShortName; jako domyślną przeglądarkę">
+<!ENTITY setDefault.label                "Ustaw program &brandShortName; jako domyślną przeglądarkę">
 <!ENTITY setDefault.accesskey            "s">
-<!ENTITY isDefault.label                 "&amp;brandShortName; jest obecnie domyślną przeglądarką">
+<!ENTITY isDefault.label                 "&brandShortName; jest obecnie domyślną przeglądarką">
 
 <!ENTITY dataChoicesTab.label            "Udostępnianie danych">
 
 <!ENTITY crashReporterSection.label      "Zgłaszanie awarii">
-<!ENTITY crashReporterDesc.label         "&amp;brandShortName; przesyła zgłoszenia awarii, aby organizacja &amp;vendorShortName; mogła poprawić stabilność i bezpieczeństwo przeglądarki">
+<!ENTITY crashReporterDesc.label         "&brandShortName; przesyła zgłoszenia awarii, aby organizacja &vendorShortName; mogła poprawić stabilność i bezpieczeństwo przeglądarki">
 <!ENTITY enableCrashReporter.label       "Włącz zgłaszanie awarii">
 <!ENTITY enableCrashReporter.accesskey   "c">
 <!ENTITY crashReporterLearnMore.label    "Więcej informacji">
@@ -45,7 +45,7 @@
 
 <!ENTITY connection.label                "Połączenie">
 
-<!ENTITY connectionDesc.label            "Określ, w jaki sposób &amp;brandShortName; ma się łączyć z Internetem">
+<!ENTITY connectionDesc.label            "Określ, w jaki sposób &brandShortName; ma się łączyć z Internetem">
 <!ENTITY connectionSettings.label        "Ustawienia…">
 <!ENTITY connectionSettings.accesskey    "U">
 
@@ -71,23 +71,23 @@
 
 <!ENTITY updateTab.label                 "Aktualizacja">
 
-<!ENTITY updateApp.label                 "Aktualizacje programu &amp;brandShortName;:">
+<!ENTITY updateApp.label                 "Aktualizacje programu &brandShortName;:">
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
 <!ENTITY updateAuto1.label               "Instaluj aktualizacje automatycznie (zalecane: większe bezpieczeństwo)">
 <!ENTITY updateAuto1.accesskey           "n">
-<!ENTITY updateAutoMetro.label           "Automatycznie instaluj aktualizacje z poziomu programu &amp;brandShortName; w stylu desktopowym i Windows 8">
-<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateAutoMetro.label           "Automatycznie instaluj aktualizacje z poziomu programu &brandShortName; w stylu desktopowym i Windows 8">
+<!ENTITY updateAutoMetro.accesskey       "h">
 <!ENTITY updateCheck.label               "Sprawdzaj dostępność aktualizacji, ale wymagaj potwierdzenia ich instalacji">
 <!ENTITY updateCheck.accesskey           "S">
 <!ENTITY updateManual.label              "Nie sprawdzaj dostępności aktualizacji (niezalecane: zagrożenie bezpieczeństwa)">
-<!ENTITY updateManual.accesskey          "N">
+<!ENTITY updateManual.accesskey          "Z">
 
 <!ENTITY updateAutoAddonWarn.label       "Ostrzeż, jeśli spowoduje to wyłączenie któregoś z dodatków">
 <!ENTITY updateAutoAddonWarn.accesskey   "O">
 
-<!ENTITY updateAutoMetroWarn.label       "(&amp;brandShortName; w stylu Windows 8 nie sprawdza zgodności dodatków)">
+<!ENTITY updateAutoMetroWarn.label       "(&brandShortName; w stylu Windows 8 nie sprawdza zgodności dodatków)">
 
 <!ENTITY updateHistory.label             "Wyświetl historię aktualizacji">
 <!ENTITY updateHistory.accesskey         "W">
@@ -116,7 +116,7 @@
 <!ENTITY certs.ask.accesskey             "t">
 <!ENTITY ocspGroup.label                 "Walidacja certyfikatu">
 <!ENTITY enableOCSP.label                "Używaj protokołu weryfikacji stanu certyfikatu (OCSP) do potwierdzania wiarygodności certyfikatów">
-<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY enableOCSP.accesskey            "P">
 <!ENTITY requireOCSP.label               "Jeśli nie uda się połączyć z serwerem OCSP, traktuj certyfikat jako niewiarygodny">
 <!ENTITY requireOCSP.accesskey           "J">
 <!ENTITY viewCerts.label                 "Wyświetl certyfikaty">
@@ -125,20 +125,20 @@
 <!ENTITY viewSecurityDevices.accesskey   "d">
 
 <!ENTITY UACompatGroup.label    "Zgodność">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.label         "Tryb agenta użytkownika:">
+<!ENTITY UACompat.Native        "Natywne">
 <!ENTITY UACompat.Gecko         "Kompatybilność z Gecko">
 <!ENTITY UACompat.Firefox       "Kompatybilność z Firefox">
 
 <!ENTITY scrollparamTab.label               "Przewijanie">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.explain.label         "Poniższe parametry mają wpływ tylko eśli płynne przewijanie jest włączone.">
 <!ENTITY smoothscroll.to                    "do">
 <!ENTITY smoothscroll.params.label          "Płynne przewijanie parametrów">
 <!ENTITY smoothscroll.mousewheel.label      "Płynne przewijanie kółkiem myszy">
 <!ENTITY smoothscroll.mousewheel.duration   "Długość przewijania koła myszy:">
 <!ENTITY smoothscroll.arrowkeys.label       "Płynne przewijanie za pomocą klawiszy strzałek">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.duration    "Długośc strzałek przewijania:">
 <!ENTITY smoothscroll.pagekeys.label        "Płynne przewijanie strony w górę lub w dół">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.pagekeys.duration     "Długośc przewijania strony w górę lub w dół:">
 <!ENTITY smoothscroll.scrollbar.label       "Płynne przewijanie paskiem przewijania">
 <!ENTITY smoothscroll.scrollbar.duration    "Długość płynnego przewijania paska przewijania:">

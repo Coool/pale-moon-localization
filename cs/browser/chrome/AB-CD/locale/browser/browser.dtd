@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&amp;brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&amp;brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
@@ -155,7 +155,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Nabídka">
-<!ENTITY appMenuButton.tooltip        "Otevře nabídku aplikace &amp;brandShortName;">
+<!ENTITY appMenuButton.tooltip        "Otevře nabídku aplikace &brandShortName;">
 <!ENTITY homeButton.label             "Domů">
 
 <!ENTITY feedButton.label             "Odebírat">
@@ -220,7 +220,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.commandkey "M">
 
 <!ENTITY eyedropper.label   "Kapátko">
-<!ENTITY eyedropper.accesskey "p">
+<!ENTITY eyedropper.accesskey "a">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
@@ -233,7 +233,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
 <!ENTITY scratchpad.label             "Zápisník">
-<!ENTITY scratchpad.accesskey         "Z">
+<!ENTITY scratchpad.accesskey         "s">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
 
@@ -243,7 +243,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY devToolbarCloseButton.tooltiptext "Zavře Lištu vývoje">
 <!ENTITY devToolbarMenu.label              "Lišta vývoje">
-<!ENTITY devToolbarMenu.accesskey          "o">
+<!ENTITY devToolbarMenu.accesskey          "v">
 <!ENTITY devAppMgrMenu.label               "Správce aplikací">
 <!ENTITY devAppMgrMenu.accesskey           "a">
 <!ENTITY webide.label                      "WebIDE">
@@ -253,13 +253,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Nástroje vývojáře">
-<!ENTITY devToolboxMenuItem.accesskey      "N">
+<!ENTITY devToolboxMenuItem.accesskey      "t">
 
 <!ENTITY devToolbarToolsButton.tooltip     "Přepne Nástroje vývojáře">
 <!ENTITY devToolbarOtherToolsButton.label  "Další nástroje">
 
 <!ENTITY getMoreDevtoolsCmd.label        "Získat další nástroje">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "d">
+<!ENTITY getMoreDevtoolsCmd.accesskey    "l">
 
 <!ENTITY fileMenu.label         "Soubor"> 
 <!ENTITY fileMenu.accesskey       "S">
@@ -279,14 +279,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY redoCmd.accesskey          "o"> 
 <!ENTITY cutCmd.label           "Vyjmout">  
 <!ENTITY cutCmd.key             "X">  
-<!ENTITY cutCmd.accesskey         "j"> 
+<!ENTITY cutCmd.accesskey         "y"> 
 <!ENTITY copyCmd.label            "Kopírovat">  
 <!ENTITY copyCmd.key            "C">  
 <!ENTITY copyCmd.accesskey          "K"> 
 <!ENTITY pasteCmd.label           "Vložit">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "l"> 
-<!ENTITY deleteCmd.label          "Odstranit">  
+<!ENTITY deleteCmd.label          "Smazat">  
 <!ENTITY deleteCmd.key            "d">  
 <!ENTITY deleteCmd.accesskey        "m"> 
 <!ENTITY selectAllCmd.label         "Vybrat vše">  
@@ -627,7 +627,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 
-<!ENTITY syncSetup.label              "Nastavit &amp;syncBrand.shortName.label;…">
+<!ENTITY syncSetup.label              "Nastavit &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "y">
 <!ENTITY syncSyncNowItem.label        "Synchronizovat">
 <!ENTITY syncSyncNowItem.accesskey    "S">

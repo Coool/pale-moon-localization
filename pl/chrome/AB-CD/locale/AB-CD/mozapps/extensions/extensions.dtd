@@ -4,10 +4,10 @@
 <!ENTITY addons.windowTitle                   "Dodatki">
 
 <!ENTITY search.placeholder                   "Szukaj we wszystkich dodatkach">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Szukaj">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
-<!ENTITY search.commandkey                    "f">
+<!ENTITY search.commandkey                    "s">
 
 <!ENTITY loading.label                        "Wczytywanie…">
 <!ENTITY listEmpty.installed.label            "Brak zainstalowanych dodatków tego typu">
@@ -51,7 +51,7 @@
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
 <!ENTITY updates.updateAddonsAutomatically.label     "Aktualizuj dodatki automatycznie">
-<!ENTITY updates.updateAddonsAutomatically.accesskey "A">
+<!ENTITY updates.updateAddonsAutomatically.accesskey "O">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
      "Automatically", "Use default global behavior"). These menu items reset the
@@ -79,7 +79,7 @@
 <!ENTITY cmd.preferencesWin.label             "Opcje">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
 <!ENTITY cmd.preferencesUnix.label            "Preferencje">
-<!ENTITY cmd.preferencesUnix.accesskey        "P">
+<!ENTITY cmd.preferencesUnix.accesskey        "O">
 <!ENTITY cmd.about.label                      "O tym dodatku">
 <!ENTITY cmd.about.accesskey                  "d">
 
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "Z">
 <!ENTITY cmd.uninstallAddon.label             "Usuń">
 <!ENTITY cmd.uninstallAddon.accesskey         "U">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Debuguj">
 <!ENTITY cmd.showPreferencesWin.label         "Opcje">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Zmień opcje tego dodatku">
 <!ENTITY cmd.showPreferencesUnix.label        "Preferencje">
@@ -120,7 +120,7 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Czym są dodatki?">
-<!ENTITY discover.description2                "Dodatki to programy, które pozwalają dostosować program &amp;brandShortName; do upodobań użytkownika dzięki nowej funkcjonalności lub innemu wyglądowi.
+<!ENTITY discover.description2                "Dodatki to programy, które pozwalają dostosować program &brandShortName; do upodobań użytkownika dzięki nowej funkcjonalności lub innemu wyglądowi.
  Wypróbuj panel boczny oszczędzający czas, powiadomienia o pogodzie albo nowy motyw graficzny.">
 <!ENTITY discover.footer                      "Kiedy dostępne jest połączenie z Internetem, ten panel będzie
  wyświetlał najnowsze i najpopularniejsze dodatki, które warto wypróbować.">
@@ -152,7 +152,7 @@
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
 <!ENTITY detail.showPreferencesWin.tooltip    "Zmień opcje tego dodatku">
 <!ENTITY detail.showPreferencesUnix.label     "Preferencje">
-<!ENTITY detail.showPreferencesUnix.accesskey "P">
+<!ENTITY detail.showPreferencesUnix.accesskey "O">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Zmień preferencje związane z tym dodatkiem">
 
 
@@ -223,10 +223,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
-<!ENTITY experiment.info.changetelemetry.accesskey "T">
+<!ENTITY experiment.info.label "Co to jest? Telemetria może zainstalować i uruchomiać eksperymenty od czasu do czasu.">
+<!ENTITY experiment.info.learnmore "Dowiedz się więcej">
+<!ENTITY experiment.info.learnmore.accesskey "D">
+<!ENTITY experiment.info.changetelemetry "Ustawienia Telemetrii">
+<!ENTITY experiment.info.changetelemetry.accesskey "J">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Dowiedz się więcej…">
