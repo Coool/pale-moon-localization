@@ -11,10 +11,10 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "No se puede conectar">
-<!ENTITY connectionFailure.longDesc "&amp;sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Esta dirección está restringida">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>La dirección solicitada especificó un puerto (por ejemplo, <q>palemoon.org:25</q> es puerto 25 en palemoon.org) normalmente usado para <em>otros</em> propósitos diferentes de la navegación web. El navegador canceló la solicitud para tu protección y seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Servidor no encontrado">
 <!ENTITY dnsNotFound.longDesc "
@@ -25,7 +25,7 @@
   <li>Si no podés cargar ninguna página, verificá la conexión a la red en tu
     computadora.</li>
   <li>Si tu computadora o red está protegida por un firewall o proxy, asegurate
-    de que &amp;brandShortName; tenga permiso de acceder a la web.</li>
+    de que &brandShortName; tenga permiso de acceder a la web.</li>
 </ul>
 ">
 
@@ -40,7 +40,7 @@
 
 <!ENTITY generic.title "Epa.">
 <!ENTITY generic.longDesc "
-<p>&amp;brandShortName; no puede cargar esta página por alguna razón.</p>
+<p>&brandShortName; no puede cargar esta página por alguna razón.</p>
 ">
 
 <!ENTITY malformedURI.title "La dirección web no es válida">
@@ -54,7 +54,7 @@
 ">
 
 <!ENTITY netInterrupt.title "La conexión fue interrumpida">
-<!ENTITY netInterrupt.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Documento expirado">
 <!ENTITY notCached.longDesc "<p>El documento solicitado no está disponible en la memoria caché de Pale Moon.</p><ul><li>Como precaución de seguridad, Pale Moon no reenvía automáticamente documentos sensibles.</li><li>Hacé clic en el botón &quot;Probá de nuevo&quot; para solicitar el documento al sitio web nuevamente.</li></ul>">
@@ -81,10 +81,10 @@
 ">
 
 <!ENTITY netReset.title "La conexión fue restablecida">
-<!ENTITY netReset.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
 <!ENTITY netTimeout.title "La conexión tardó demasiado">
-<!ENTITY netTimeout.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "No se entendió la dirección">
 <!ENTITY unknownProtocolFound.longDesc "
@@ -108,7 +108,7 @@
   <li>Verificá la configuración del proxy para confirmar que está correcta.</li>
   <li>Asegurate de que tu computadora tenga una conexión de red en funcionamiento.</li>
   <li>Si tu computadora o red están protegidas por un firewall o proxy, asegurate
-    de que &amp;brandShortName; tenga permiso de acceder a la web.</li>
+    de que &brandShortName; tenga permiso de acceder a la web.</li>
 </ul>
 ">
 
@@ -152,31 +152,31 @@ ser temporal y deberías probar nuevamente más tarde.</li>
   <li>Si no podés cargar ninguna página, verificá la conexión de tu computadora
     a la red.</li>
   <li>Si tu computadora o red están protegidas por un firewall o proxy, asegurate
-    de que &amp;brandShortName; tiene permiso para acceder a la web.</li>
+    de que &brandShortName; tiene permiso para acceder a la web.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "¡Sitio sospechoso de ataque!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Los sitios de ataque tratan de instalar programas que roban información privada, usan tu computadora para atacar otras o dañan tu sistema.</p>
-<p>Los administradores de sitios web que creen que su sitio ha sido informado como un sitio de ataque por error pueden {[=-a href='http://www.stopbadware.org/home/reviewinfo' -=]}solicitar una revisión</a>.</p>
+<p>Los administradores de sitios web que creen que su sitio ha sido informado como un sitio de ataque por error pueden <a href='https://www.stopbadware.org/request-review' >solicitar una revisión</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "¡Sitio sospechoso de fraude!">
 <!ENTITY phishingBlocked.longDesc "
 <p>Ingresando cualquier información personal en esta página puede resultar en robo de identidad o algún otro fraude.</p>
-<p>Estos tipos de falsificaciones web son usados en estafas conocidas como ataques de &lt;i&gt;phishing&lt;/i&gt;, en los que páginas web y correos electrónicos fraudulentos son usados para imitar fuentes en las que puede confiar.</p>
+<p>Estos tipos de falsificaciones web son usados en estafas conocidas como ataques de <i>phishing</i>, en los que páginas web y correos electrónicos fraudulentos son usados para imitar fuentes en las que puede confiar.</p>
 ">
 
 <!ENTITY cspBlocked.title "Bloqueado por la política de seguridad de contenido">
-<!ENTITY cspBlocked.longDesc "<p>&amp;brandShortName; previno que se cargue esta página de este modo porque la página tiene una política de seguridad de contenido que no lo permite.</p>">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; previno que se cargue esta página de este modo porque la página tiene una política de seguridad de contenido que no lo permite.</p>">
 
 <!ENTITY xssBlockMode.title "Bloqueado por filtro XSS">
 <!ENTITY xssBlockMode.longDesc "<ul>
-<li>&amp;brandShortName; bloqueó las posteriores acciones en esta página, porque contiene 
+<li>&brandShortName; bloqueó las posteriores acciones en esta página, porque contiene 
 código JavaScript inyectado.</li>
 <li>Se suspendió la carga de esta página, ya sea a causa de la solicitud explícita
-del sitio web por bloquear esta página en caso de ataques XSS, o porque &amp;brandShortName;
+del sitio web por bloquear esta página en caso de ataques XSS, o porque &brandShortName;
 fue configurado para bloquear páginas en dicha situación.</li>
 </ul>
 ">
@@ -197,8 +197,8 @@ functionality specific to firefox. -->
 <!ENTITY securityOverride.warningContent "
 <p>No deberías agregar una excepción si estás usando una conexión a Internet en la que no confías completamente, o si no solés recibir una advertencia de este servidor.</p>
 
-<button id='getMeOutOfHereButton'>&amp;securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&amp;securityOverride.exceptionButtonLabel;</button>
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
 <!ENTITY errorReporting.title "Informar este error">

@@ -31,7 +31,7 @@
 
 <!ENTITY openFileCmd.label            "Abrir archivo…">
 <!ENTITY openFileCmd.accesskey        "o">
-<!ENTITY openFileCmd.commandkey       "o">
+<!ENTITY openFileCmd.commandkey       "a">
 
 <!ENTITY openRecentMenu.label         "Abrir reciente">
 <!ENTITY openRecentMenu.accesskey     "r">
@@ -41,7 +41,7 @@
 
 <!ENTITY saveFileCmd.label            "Guardar">
 <!ENTITY saveFileCmd.accesskey        "G">
-<!ENTITY saveFileCmd.commandkey       "s">
+<!ENTITY saveFileCmd.commandkey       "g">
 
 <!ENTITY saveFileAsCmd.label          "Guardar como…">
 <!ENTITY saveFileAsCmd.accesskey      "o">
@@ -50,27 +50,27 @@
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "C">
 
-<!ENTITY viewMenu.label               "View">
+<!ENTITY viewMenu.label               "Ver">
 <!ENTITY viewMenu.accesskey           "V">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
+<!ENTITY lineNumbers.label             "Mostrar números de línea">
 <!ENTITY lineNumbers.accesskey         "L">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Rodear texto">
+<!ENTITY wordWrap.accesskey            "R">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Resaltar espacio de más">
+<!ENTITY highlightTrailingSpace.accesskey "R">
 
-<!ENTITY largerFont.label             "Larger Font">
+<!ENTITY largerFont.label             "Tipografía más grande">
 <!ENTITY largerFont.accesskey         "a">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
+<!ENTITY smallerFont.label            "Tipografía más chica">
 <!ENTITY smallerFont.accesskey        "M">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "Tamaño normal">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
@@ -87,9 +87,9 @@
 
 <!ENTITY display.label                "Mostrar">
 <!ENTITY display.accesskey            "M">
-<!ENTITY display.key                  "l">
+<!ENTITY display.key                  "a">
 
-<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.label                 "Linda impresión">
 <!ENTITY pprint.key                   "p">
 <!ENTITY pprint.accesskey             "P">
 
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "Evaluar función actual">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">

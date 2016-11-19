@@ -16,7 +16,7 @@ by NSS/PSM via netError.xhtml. -->
 <!-- Localization note (certerror.introPara1) - The string "#1" will
 be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
-<!ENTITY certerror.introPara1 "Solicitaste que &amp;brandShortName; se conecte de
+<!ENTITY certerror.introPara1 "Solicitaste que &brandShortName; se conecte de
 forma segura a <b>#1</b>, pero no podemos confirmar que su conexión sea segura.">
 <!ENTITY certerror.introPara2 "Normalmente, cuando se trata de conectar de forma segura,
 los sitios presentan una identificación confiable para probar que estás
@@ -30,7 +30,7 @@ tratando de imitar el sitio; no deberías continuar.">
 
 <!ENTITY certerror.expert.heading "Comprendo los riesgos">
 <!ENTITY certerror.expert.content "Si entendés lo que está pasando, podés
-decirle a &amp;brandShortName; que comience a confiar en la identificación de este sitio.
+decirle a &brandShortName; que comience a confiar en la identificación de este sitio.
 <b>Aunque confíes en el sitio web, este error podría significar que alguien está
 alterando tu conexión.</b>">
 <!ENTITY certerror.expert.contentPara2 "No agregués una excepción a menos que
