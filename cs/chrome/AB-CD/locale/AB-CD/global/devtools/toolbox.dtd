@@ -79,7 +79,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Povolit vzdálené ladění">
-<!ENTITY options.enableRemote.tooltip   "Zapnutí umožní použít Nástroje vývojáře k debugování vzdálených zařízení (např. Firefox pro Android a Firefox OS).">
+<!ENTITY options.enableRemote.tooltip   "Zapnutí umožní použít Nástroje vývojáře k debugování vzdálených zařízení, např. Pale Moon.">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -169,8 +169,8 @@
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Zobrazit data platformy Gecko">
-<!ENTITY options.showPlatformData.tooltip  "Pokud povolíte tuto volbu, bude report Profileru JavaScriptu zahrnovat symboly platformy Gecko">
+<!ENTITY options.showPlatformData.label    "Zobrazit data platformy Goanna">
+<!ENTITY options.showPlatformData.tooltip  "Pokud povolíte tuto volbu, bude report Profileru JavaScriptu zahrnovat symboly platformy Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->

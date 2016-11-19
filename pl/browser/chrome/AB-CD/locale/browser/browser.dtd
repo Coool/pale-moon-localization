@@ -17,16 +17,16 @@
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Odśwież kartę">
-<!ENTITY  reloadTab.accesskey                "d">
+<!ENTITY  reloadTab.accesskey                "O">
 <!ENTITY  reloadAllTabs.label                "Odśwież wszystkie karty">
-<!ENTITY  reloadAllTabs.accesskey            "w">
+<!ENTITY  reloadAllTabs.accesskey            "b">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Zamknij karty po prawej stronie">
-<!ENTITY  closeTabsToTheEnd.accesskey        "p">
+<!ENTITY  closeTabsToTheEnd.accesskey        "t">
 <!ENTITY  closeOtherTabs.label               "Zamknij inne karty">
-<!ENTITY  closeOtherTabs.accesskey           "i">
+<!ENTITY  closeOtherTabs.accesskey           "v">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
@@ -44,12 +44,12 @@ can reach it easily. -->
 <!ENTITY  undoCloseTab.label                 "Cofnij Zamknij kartę">
 <!ENTITY  undoCloseTab.accesskey             "P">
 <!ENTITY  closeTab.label                     "Zamknij kartę">
-<!ENTITY  closeTab.accesskey                 "a">
+<!ENTITY  closeTab.accesskey                 "w">
 
 <!ENTITY  listAllTabs.label      "Pokaż wszystkie karty">
 
 <!ENTITY tabCmd.label "Nowa karta">
-<!ENTITY tabCmd.accesskey "t">
+<!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "c">
 <!ENTITY openLocationCmd.label "Otwórz adres…">
 <!ENTITY openLocationCmd.accesskey "a">
@@ -600,7 +600,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.cancel.label                   "Anuluj">
 <!ENTITY editBookmark.removeBookmark.accessKey       "U">
 
-<!ENTITY identity.unverifiedsite2 "Ta witryna nie dostarcza informacji o swej tożsamości.">
+<!ENTITY identity.unverifiedsite2 "Ta strona nie dostarcza informacji o swej tożsamości.">
 <!ENTITY identity.connectedTo "Połączono z witryną">
 <!-- Localization note (identity.runBy) : This string appears between a
 domain name (above) and an organization name (below). E.g.

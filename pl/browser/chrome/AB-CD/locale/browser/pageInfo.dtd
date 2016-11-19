@@ -5,7 +5,7 @@
 <!ENTITY  pageInfoWindow.width  "600">
 <!ENTITY  pageInfoWindow.height "500">
 
-<!ENTITY  copy.key              "K">
+<!ENTITY  copy.key              "C">
 <!ENTITY  copy.label            "Kopiuj">
 <!ENTITY  copy.accesskey        "K">
 <!ENTITY  selectall.key         "a">
@@ -50,23 +50,24 @@
 <!ENTITY  feedSubscribe         "Subskrybuj">
 <!ENTITY  feedSubscribe.accesskey "u">
 
-<!ENTITY  permTab               "Uprawnienia">
-<!ENTITY  permTab.accesskey     "U">
-<!ENTITY  permUseDefault        "Użyj domyślnych">
-<!ENTITY  permAskAlways         "Zawsze pytaj">
-<!ENTITY  permAllow             "Zezwalaj">
-<!ENTITY  permAllowSession      "Zezwalaj na czas sesji">
-<!ENTITY  permBlock             "Blokuj">
-<!ENTITY  permissionsFor        "Uprawnienia dla:">
-<!ENTITY  permImage             "Wczytywanie obrazków">
-<!ENTITY  permPopup             "Otwieranie wyskakujących okien">
-<!ENTITY  permCookie            "Zapisywanie ciasteczek">
-<!ENTITY  permNotifications     "Wyświetlanie powiadomień">
-<!ENTITY  permInstall           "Instalacja rozszerzeń i motywów">
-<!ENTITY  permGeo               "Udostępnianie położenia">
-<!ENTITY  permPlugins           "Aktywacja wtyczki">
-<!ENTITY  permFullscreen        "Przejście do trybu pełnoekranowego">
-<!ENTITY  permPointerLock2      "Ukrywanie kursora myszy">
+<!ENTITY  permTab                    "Uprawnienia">
+<!ENTITY  permTab.accesskey          "U">
+<!ENTITY  permUseDefault             "Użyj domyślnych">
+<!ENTITY  permAskAlways              "Zawsze pytaj">
+<!ENTITY  permAllow                  "Zezwalaj">
+<!ENTITY  permAllowSession           "Zezwalaj na czas sesji">
+<!ENTITY  permAllowFirstPartyOnly    "Zezwalaj tylko na ciasteczka własne witryny">
+<!ENTITY  permBlock                  "Blokuj">
+<!ENTITY  permissionsFor             "Uprawnienia dla:">
+<!ENTITY  permImage                  "Wczytywanie obrazków">
+<!ENTITY  permPopup                  "Otwieranie wyskakujących okien">
+<!ENTITY  permCookie                 "Zapisywanie ciasteczek">
+<!ENTITY  permNotifications          "Wyświetlanie powiadomień">
+<!ENTITY  permInstall                "Instalacja rozszerzeń i motywów">
+<!ENTITY  permGeo                    "Udostępnianie położenia">
+<!ENTITY  permPlugins                "Aktywacja wtyczki">
+<!ENTITY  permFullscreen             "Przejście do trybu pełnoekranowego">
+<!ENTITY  permPointerLock2           "Ukrywanie kursora myszy">
 
 <!ENTITY  permIndexedDB              "Zarządzanie danymi offline">
 <!ENTITY  permClearStorage           "Wyczyść dane offline">
@@ -76,18 +77,18 @@
 <!ENTITY  securityTab.accesskey "B">
 <!ENTITY  securityHeader        "Informacje dotyczące bezpieczeństwa tej strony">
 <!ENTITY  securityView.certView "Wyświetl certyfikat">
-<!ENTITY  securityView.accesskey "c">
+<!ENTITY  securityView.accesskey "Z">
 <!ENTITY  securityView.unknown   "Nieznany">
 
 
 <!ENTITY  securityView.identity.header   "Tożsamość witryny">
 <!ENTITY  securityView.identity.owner    "Właściciel: ">
-<!ENTITY  securityView.identity.domain   "Witryna: ">
+<!ENTITY  securityView.identity.domain   "Strona:">
 <!ENTITY  securityView.identity.verifier "Zweryfikowane przez: ">
 
 <!ENTITY  securityView.privacy.header                   "Prywatność i historia">
-<!ENTITY  securityView.privacy.history                  "Czy ta witryna była wcześniej odwiedzana?">
-<!ENTITY  securityView.privacy.cookies                  "Czy ta witryna przechowuje informacje na tym komputerze (ciasteczka)?">
+<!ENTITY  securityView.privacy.history                  "Czy ta strona była wcześniej odwiedzana?">
+<!ENTITY  securityView.privacy.cookies                  "Czy ta strona przechowuje informacje na tym komputerze (ciasteczka)?">
 <!ENTITY  securityView.privacy.viewCookies              "Wyświetl ciasteczka">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "a">
 <!ENTITY  securityView.privacy.passwords                "Czy hasła użyte na tej witrynie zostały zapisane?">

@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Omezení přístupu na port">
-<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Prohlížeč zrušil požadavek z důvodů vaší ochrany.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Z bezpečnostních důvodů prohlížeč tento požadavek zrušil.</p>">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
 <!ENTITY dnsNotFound.longDesc "
@@ -160,7 +160,7 @@ později.</li>
 <!ENTITY malwareBlocked.title "Podezřelá útočná stránka!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Útočné stránky se pokouší nainstalovat aplikace, které kradou vaše důvěrná data, používají váš počítač k dalším útokům, nebo jakkoliv poničí váš systém.</p>
-<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='http://www.stopbadware.org/home/reviewinfo'> požádat o kontrolu</a>.</p>
+<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='https://www.stopbadware.org/home/reviewinfo'> požádat o kontrolu</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podezřelá podvodná stránka!">

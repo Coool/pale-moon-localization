@@ -79,7 +79,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Включить удалённую отладку">
-<!ENTITY options.enableRemote.tooltip   "Включение этой опции позволит использовать инструменты разработчика для отладки удаленного экземпляра Firefox, такого как Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Включение этой опции позволит использовать инструменты разработчика для отладки удаленного экземпляра Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -96,7 +96,7 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Инструменты разработчика Firefox по умолчанию">
+<!ENTITY options.selectDefaultTools.label     "Инструменты разработчика Pale Moon по умолчанию">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -169,8 +169,8 @@
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Отображать данные платформы Gecko">
-<!ENTITY options.showPlatformData.tooltip  "Если вы включите эту настройку, то отчеты Профайлера JavaScript будут включать символы платформы Gecko">
+<!ENTITY options.showPlatformData.label    "Отображать данные платформы Goanna">
+<!ENTITY options.showPlatformData.tooltip  "Если вы включите эту настройку, то отчеты Профайлера JavaScript будут включать символы платформы Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
