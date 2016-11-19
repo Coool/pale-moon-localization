@@ -13,13 +13,13 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
-<!ENTITY profilerUI.emptyNotice1    "Klepnutím na tlačítko">
-<!ENTITY profilerUI.emptyNotice2    "zahájíte nahrávání volání funkcí JavaScriptu.">
+<!ENTITY profilerUI.emptyNotice1    "Klepnutím na">
+<!ENTITY profilerUI.emptyNotice2    "tlačítko zahájíte nahrávání volání funkcí JavaScriptu.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
   -  in the call list view while recording a profile. -->
-<!ENTITY profilerUI.stopNotice1    "Opětovným klepnutím na tlačítko">
-<!ENTITY profilerUI.stopNotice2    "ukončíte nahrávání.">
+<!ENTITY profilerUI.stopNotice1    "Opětovným klepnutím na">
+<!ENTITY profilerUI.stopNotice2    "tlačítko ukončíte nahrávání.">
 
 <!-- LOCALIZATION NOTE (profilerUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
@@ -79,10 +79,10 @@
 <!ENTITY profilerUI.invertFlameGraph.tooltiptext "Invertováním grafu zobrazíte cesty profilovaných volání od nejmladších záznamů po nejstarší.">
 
 <!-- LOCALIZATION NOTE (profilerUI.showPlatformData): This is the
-  -  label for the checkbox that toggles whether or not Gecko platform data
+  -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
-<!ENTITY profilerUI.showPlatformData             "Zobrazit data platformy Gecko">
-<!ENTITY profilerUI.showPlatformData.tooltiptext "Zobrazování dat platformy umožňuje v nástroji profilování JavaScriptu zahrnout i symboly platformy Gecko.">
+<!ENTITY profilerUI.showPlatformData             "Zobrazit data platformy Goanna">
+<!ENTITY profilerUI.showPlatformData.tooltiptext "Zobrazování dat platformy umožňuje v nástroji profilování JavaScriptu zahrnout i symboly platformy Goanna.">
 
 <!-- LOCALIZATION NOTE (profilerUI.flattenTreeRecursion): This is the
   -  label for the checkbox that toggles the flattening of tree recursion in inspected

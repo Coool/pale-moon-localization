@@ -11,7 +11,7 @@
 <!ENTITY connectionFailure.longDesc "<p>Požadovaný server existuje, ale prohlížeč nebyl schopen navázat spojení.</p><ul><li>Server může být dočasně nedostupný; Opakujte akci později.</li><li>Nemůžete-li prohlížet i ostatní stránky, zkontrolujte síťové připojení počítače.</li><li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte jejich nastavení.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Omezení přístupu k adrese">
-<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Prohlížeč zrušil požadavek z důvodů vaší ochrany.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Z bezpečnostních důvodů prohlížeč tento požadavek zrušil.</p>">
 
 <!ENTITY dnsNotFound.title "Adresa nenalezena">
 <!ENTITY dnsNotFound.longDesc "<p>Adresa (URL) neodpovídá známému serveru a nelze ji načíst.</p><ul><li>Zkontrolujte prosím, zda je adresa napsána správně, a to včetně velikosti písmen.</li><li>Je možné, že server již neexistuje.</li><li>Tato chyba může být také způsobena problémy ve vaší místní síti, proxy serverem či DNS serverem.</li></ul>">
@@ -78,7 +78,7 @@
 <!ENTITY malwareBlocked.title "Podezřelá útočná stránka!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Útočné stránky se pokouší nainstalovat programy, které kradou vaše důvěrná data, používají váš počítač k dalším útokům, nebo jakkoliv poničí váš systém.</p>
-<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='http://www.stopbadware.org/home/reviewinfo'>požádat o kontrolu</a>.</p>
+<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='https://www.stopbadware.org/request-review'>požádat o kontrolu</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podezřelá podvodná stránka!">
