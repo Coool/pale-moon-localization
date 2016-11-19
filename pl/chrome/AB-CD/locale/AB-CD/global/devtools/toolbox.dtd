@@ -5,7 +5,7 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the Toolbox strings -->
 <!-- LOCALIZATION NOTE : FILE Do not translate key -->
 
-<!ENTITY closeCmd.key  "P">
+<!ENTITY closeCmd.key  "W">
 
 <!ENTITY toolboxCloseButton.tooltip    "Zamknij narzędzia dla programistów">
 <!ENTITY toolboxOptionsButton.key      "O">
@@ -79,7 +79,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Włącz debugowanie zdalne">
-<!ENTITY options.enableRemote.tooltip   "Włączenie tej opcji pozwoli na debugowanie zdalnych instancji Firefoksa takich jak Firefox OS z poziomu narzędzi dla programistów">
+<!ENTITY options.enableRemote.tooltip   "Włączenie tej opcji pozwoli na debugowanie zdalnych instancji Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -96,7 +96,7 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Domyślne narzędzia dla programistów Firefoksa">
+<!ENTITY options.selectDefaultTools.label     "Domyślne narzędzia dla programistów Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -169,8 +169,8 @@
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Pokaż dane platformy Gecko">
-<!ENTITY options.showPlatformData.tooltip  "Po włączeniu tej opcji raporty JavaScript Profiler będzie zawierać symbole platformie Gecko">
+<!ENTITY options.showPlatformData.label    "Pokaż dane platformy Goanna">
+<!ENTITY options.showPlatformData.tooltip  "Po włączeniu tej opcji raporty JavaScript Profiler będzie zawierać symbole platformie Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->

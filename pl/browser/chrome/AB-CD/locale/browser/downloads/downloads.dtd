@@ -41,31 +41,31 @@
 <!ENTITY downloadsSummary.minWidth2       "30ch">
 
 <!ENTITY cmd.pause.label                  "Wstrzymaj">
-<!ENTITY cmd.pause.accesskey              "W">
+<!ENTITY cmd.pause.accesskey              "P">
 <!ENTITY cmd.resume.label                 "Wznów">
-<!ENTITY cmd.resume.accesskey             "Z">
+<!ENTITY cmd.resume.accesskey             "O">
 <!ENTITY cmd.cancel.label                 "Anuluj">
-<!ENTITY cmd.cancel.accesskey             "A">
+<!ENTITY cmd.cancel.accesskey             "Z">
 <!-- LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
      cmd.showMac.accesskey):
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
 <!ENTITY cmd.show.label                   "Otwórz folder zawierający">
-<!ENTITY cmd.show.accesskey               "F">
+<!ENTITY cmd.show.accesskey               "s">
 <!ENTITY cmd.showMac.label                "Pokaż w Finderze">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Spróbuj ponownie">
 <!ENTITY cmd.goToDownloadPage.label       "Przejdź do strony pobierania">
-<!ENTITY cmd.goToDownloadPage.accesskey   "P">
+<!ENTITY cmd.goToDownloadPage.accesskey   "e">
 <!ENTITY cmd.copyDownloadLink.label       "Kopiuj adres pobierania">
 <!ENTITY cmd.copyDownloadLink.accesskey   "K">
 <!ENTITY cmd.removeFromHistory.label      "Usuń z historii">
-<!ENTITY cmd.removeFromHistory.accesskey  "u">
+<!ENTITY cmd.removeFromHistory.accesskey  "d">
 <!ENTITY cmd.clearList.label              "Wyczyść listę">
-<!ENTITY cmd.clearList.accesskey          "c">
+<!ENTITY cmd.clearList.accesskey          "V">
 <!ENTITY cmd.clearDownloads.label         "Wyczyść pobrane">
-<!ENTITY cmd.clearDownloads.accesskey     "E">
+<!ENTITY cmd.clearDownloads.accesskey     "m">
 
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
      This string is shown at the bottom of the Downloads Panel when all the
@@ -73,7 +73,7 @@
      the panel at all.
      -->
 <!ENTITY downloadsHistory.label           "Wyświetl wszystkie pobrania">
-<!ENTITY downloadsHistory.accesskey       "W">
+<!ENTITY downloadsHistory.accesskey       "v">
 
 <!ENTITY clearDownloadsButton.label       "Wyczyść pobierania">
 <!ENTITY clearDownloadsButton.tooltip     "Usuwa zakończone, anulowane i nieudane pobierania">
