@@ -20,7 +20,7 @@
 <!ENTITY view.columns.accesskey         "s">
 <!ENTITY view.sort.label                "Ordenar">
 <!ENTITY view.sort.accesskey            "n">
-<!ENTITY view.unsorted.label            "Sin ordenar">
+<!ENTITY view.unsorted.label            "No ordenados">
 <!ENTITY view.unsorted.accesskey        "d">
 <!ENTITY view.sortAscending.label       "Ordenado A &gt; Z">
 <!ENTITY view.sortAscending.accesskey   "A">
@@ -31,34 +31,34 @@
 <!ENTITY importBookmarksFromHTML.accesskey "I">
 <!ENTITY exportBookmarksToHTML.label       "Exportar marcadores a HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "E">
-<!ENTITY importOtherBrowser.label          "Importar datos de otro navegador…">
+<!ENTITY importOtherBrowser.label          "Importar datos desde otro navegador web…">
 <!ENTITY importOtherBrowser.accesskey      "A">
 
 <!ENTITY cmd.backup.label               "Resguardar…">
 <!ENTITY cmd.backup.accesskey           "g">
 <!ENTITY cmd.restore2.label             "Restaurar">
 <!ENTITY cmd.restore2.accesskey         "R">
-<!ENTITY cmd.restoreFromFile.label      "Elegí archivo…">
+<!ENTITY cmd.restoreFromFile.label      "Elegir archivo…">
 <!ENTITY cmd.restoreFromFile.accesskey  "E">
 
 <!ENTITY cmd.bookmarkLink.label         "Marcar esta página…">
 <!ENTITY cmd.bookmarkLink.accesskey     "M">
 <!ENTITY cmd.delete.label               "Eliminar esta página">
 <!ENTITY cmd.delete.accesskey           "E">
-<!ENTITY cmd.deleteDomainData.label     "Olvidarse de este sitio">
+<!ENTITY cmd.deleteDomainData.label     "Olvidarse de este sitio web">
 <!ENTITY cmd.deleteDomainData.accesskey "O">
 
 <!ENTITY cmd.open.label                  "Abrir">
 <!ENTITY cmd.open.accesskey              "A">
-<!ENTITY cmd.open_window.label           "Abrir en ventana nueva">
+<!ENTITY cmd.open_window.label           "Abrir en una ventana nueva">
 <!ENTITY cmd.open_window.accesskey       "v">
-<!ENTITY cmd.open_tab.label              "Abrir en pestaña nueva">
-<!ENTITY cmd.open_tab.accesskey          "i">
+<!ENTITY cmd.open_tab.label              "Abrir en una pestaña nueva">
+<!ENTITY cmd.open_tab.accesskey          "ñ">
 <!ENTITY cmd.open_all_in_tabs.label      "Abrir todo en pestañas">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "o">
 
 <!ENTITY cmd.openParentFolder.label      "Abrir carpeta contenedora">
-<!ENTITY cmd.openParentFolder.accesskey  "C">
+<!ENTITY cmd.openParentFolder.accesskey  "c">
 
 <!ENTITY cmd.properties.label      "Propiedades">
 <!ENTITY cmd.properties.accesskey  "d">
@@ -70,8 +70,8 @@
 <!ENTITY cmd.new_bookmark.label            "Nuevo marcador…">
 <!ENTITY cmd.new_bookmark.accesskey        "m">
 <!ENTITY cmd.new_folder.label              "Nueva carpeta…">
-<!ENTITY cmd.new_folder.accesskey          "N">
-<!ENTITY cmd.context_new_folder.accesskey  "N">
+<!ENTITY cmd.new_folder.accesskey          "n">
+<!ENTITY cmd.context_new_folder.accesskey  "c">
 <!ENTITY cmd.new_separator.label           "Nuevo separador">
 <!ENTITY cmd.new_separator.accesskey       "s">
 
@@ -94,7 +94,7 @@
 <!ENTITY col.parentfolderpath.label  "Ruta de la carpeta contenedora">
 
 <!ENTITY search.label                              "Buscar:">
-<!ENTITY search.accesskey                          "S">
+<!ENTITY search.accesskey                          "s">
 
 <!ENTITY search.in.label                           "Buscar en:">
 <!ENTITY search.scopeFolder.label                  "Carpeta seleccionada">
@@ -130,11 +130,11 @@
 <!ENTITY view.accesskey           "r">
 <!ENTITY byDate.label             "Por fecha">
 <!ENTITY byDate.accesskey         "f">
-<!ENTITY bySite.label             "Por sitio">
+<!ENTITY bySite.label             "Por sitio web">
 <!ENTITY bySite.accesskey         "s">
 <!ENTITY byMostVisited.label      "Por más visitados">
 <!ENTITY byMostVisited.accesskey  "v">
 <!ENTITY byLastVisited.label      "Por últimos visitados">
 <!ENTITY byLastVisited.accesskey  "l">
-<!ENTITY byDayAndSite.label       "Por fecha y sitio">
+<!ENTITY byDayAndSite.label       "Por fecha y sitio web">
 <!ENTITY byDayAndSite.accesskey   "t">
