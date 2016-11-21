@@ -7,10 +7,10 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip    "Chiudi strumenti per sviluppatori">
+<!ENTITY toolboxCloseButton.tooltip    "Chiudi strumenti di sviluppo">
 <!ENTITY toolboxOptionsButton.key      "o">
-<!ENTITY toolboxNextTool.key           "]">
-<!ENTITY toolboxPreviousTool.key       "[">
+<!ENTITY toolboxNextTool.key           "à">
+<!ENTITY toolboxPreviousTool.key       "ò">
 
 <!ENTITY toolboxZoomIn.key             "+">
 <!ENTITY toolboxZoomIn.key2            "="> <!-- + is above this key on many keyboards -->
@@ -21,7 +21,7 @@
 <!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
   -  the iframes menu list that appears only when the document has some.
   -  It allows you to switch the context of the whole toolbox. -->
-<!ENTITY toolboxFramesTooltip          "Select an iframe as the currently targeted document">
+<!ENTITY toolboxFramesTooltip          "Seleziona un iframe come documento da analizzare">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
@@ -29,18 +29,18 @@
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
-<!ENTITY options.context.inspector "Inspector">
+<!ENTITY options.context.inspector "Analisi pagina">
 
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
-<!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
+<!ENTITY options.showUserAgentStyles.label "Visualizza stili del browser">
+<!ENTITY options.showUserAgentStyles.tooltip "Attivando questa opzione verranno visualizzati gli stili predefiniti caricati dal browser.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "Default color unit">
+<!ENTITY options.defaultColorUnit.label "Unità predefinita colori:">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -49,7 +49,7 @@
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.hex): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.hex "Hex">
+<!ENTITY options.defaultColorUnit.hex "esadecimale">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.hsl): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
@@ -62,18 +62,18 @@
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.name): This is used in
   -  the 'Default color unit' dropdown list and is visible in the options panel.
   -  -->
-<!ENTITY options.defaultColorUnit.name "Color Names">
+<!ENTITY options.defaultColorUnit.name "nomi dei colori">
 
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Current session only, reloads the page">
+<!ENTITY options.context.triggersPageRefresh  "* solo sessione corrente, ricarica la pagina">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.label4    "Attiva debug chrome e componenti aggiuntivi">
+<!ENTITY options.enableChrome.tooltip2  "Attivando questa opzione è possibile utilizzare diversi strumenti di sviluppo direttamente sul browser ed effettuare il debug sui componenti aggiuntivi">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -84,19 +84,19 @@
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
-<!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
-<!ENTITY options.disableJavaScript.tooltip   "Attivando questa opzione, JavaScript verrà disattivato per la scheda corrente. Se la scheda o gli strumenti per sviluppatori vengono chiusi l'impostazione verrà rimossa.">
+<!ENTITY options.disableJavaScript.label     "Disattiva JavaScript *">
+<!ENTITY options.disableJavaScript.tooltip   "Attivando questa opzione JavaScript verrà disattivato per la scheda corrente. Se la scheda o gli strumenti di sviluppo vengono chiusi l’impostazione verrà rimossa.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
-<!ENTITY options.disableCache.label2     "Disable Cache (when toolbox is open)">
-<!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
+<!ENTITY options.disableCache.label2     "Disattiva cache (quando gli strumenti sono aperti)">
+<!ENTITY options.disableCache.tooltip2   "Attivando questa opzione la cache verrà disattivata per tutte le schede in cui sono aperti gli strumenti di sviluppo.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Strumenti di sviluppo predefiniti di Firefox">
+<!ENTITY options.selectDefaultTools.label     "Strumenti di sviluppo predefiniti di Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -107,7 +107,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Available Toolbox Buttons">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Pulsanti disponibili">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -117,12 +117,12 @@
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label2): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
   -  tools. -->
-<!ENTITY options.selectDevToolsTheme.label2   "Themes">
+<!ENTITY options.selectDevToolsTheme.label2   "Temi:">
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Use Developer Edition browser theme">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.label   "Utilizza il tema Developer Edition per il browser">
+<!ENTITY options.usedeveditiontheme.tooltip "Attiva/disattiva il tema Developer Edition per il browser.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -130,62 +130,61 @@
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
-<!ENTITY options.timestampMessages.label      "Enable timestamps">
-<!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
+<!ENTITY options.timestampMessages.label      "Attiva timestamp">
+<!ENTITY options.timestampMessages.tooltip    "Attivando questa opzione verrà visualizzato nella Console web il timestamp associato a comandi e risultati">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label            "Style Editor">
+<!ENTITY options.styleeditor.label            "Editor stili">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
-<!ENTITY options.stylesheetSourceMaps.label      "Show original sources">
-<!ENTITY options.stylesheetSourceMaps.tooltip    "Show original sources (e.g. Sass files) in the Style Editor and Inspector">
+<!ENTITY options.stylesheetSourceMaps.label      "Visualizza sorgenti originali">
+<!ENTITY options.stylesheetSourceMaps.tooltip    "Visualizza sorgenti originali (ad es. file Sass) in Editor stili e Analisi pagina">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
-<!ENTITY options.stylesheetAutocompletion.label      "Autocomplete CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.label      "Completamento automatico CSS">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Completa automaticamente durante la scrittura nell’Editor stili le proprietà CSS, i valori e i selettori">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
   -  panel. -->
-<!ENTITY options.profiler.label            "JavaScript Profiler">
+<!ENTITY options.profiler.label            "Profiler JavaScript">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Common Preferences">
+<!ENTITY options.commonPrefs.label           "Preferenze comuni">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
-<!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.label    "Attiva registri permanenti">
+<!ENTITY options.enablePersistentLogs.tooltip  "Attivando questa opzione la Console web e il Monitor di rete non verranno azzerati ogni volta che si naviga in una nuova pagina">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Gecko platform data">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Gecko platform symbols">
+<!ENTITY options.showPlatformData.label    "Visualizza dati piattaforma Goanna">
+<!ENTITY options.showPlatformData.tooltip  "Attivando questa opzione i rapporti del Profiler JavaScript conterranno i simboli della piattaforma Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
-<!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
-<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
-<!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
-<!ENTITY options.sourceeditor.tabsize.label             "Tab size">
-<!ENTITY options.sourceeditor.tabsize.accesskey         "T">
-<!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
-<!ENTITY options.sourceeditor.keybinding.accesskey      "K">
-<!ENTITY options.sourceeditor.keybinding.default.label  "Default">
+<!ENTITY options.sourceeditor.label                     "Preferenze editor">
+<!ENTITY options.sourceeditor.detectindentation.label   "Rileva tipo di rientro">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Cerca di identificare il rientro del testo in base al codice sorgente">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Chiudi parentesi automaticamente">
+<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Inserisci automaticamente le parentesi di chiusura">
+<!ENTITY options.sourceeditor.expandtab.label           "Utilizza spazio per rientri">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Utilizza spazi vuoti al posto del carattere di tabulazione">
+<!ENTITY options.sourceeditor.tabsize.label             "Dimensione tabulazione">
+<!ENTITY options.sourceeditor.tabsize.accesskey         "D">
+<!ENTITY options.sourceeditor.keybinding.label          "Tasti di scelta rapida">
+<!ENTITY options.sourceeditor.keybinding.accesskey      "T">
+<!ENTITY options.sourceeditor.keybinding.default.label  "Predefinito">
 

@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&amp;brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&amp;brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Oggetti della barra dei segnalibri">
 <!ENTITY addonBarCmd.label "Barra dei componenti aggiuntivi">
 <!ENTITY addonBarCmd.accesskey "c">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "Barra di stato">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Sorgente pagina">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Abbonati a questa pagina…">
 <!ENTITY addCurPagesCmd.label "Tutte le schede nei segnalibri…">
 <!ENTITY showAllBookmarks2.label "Visualizza tutti i segnalibri">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Organizza i segnalibri">
 <!ENTITY unsortedBookmarksCmd.label "Segnalibri non catalogati">
 <!ENTITY bookmarksToolbarChevron.tooltip "Visualizza altri segnalibri">
 
@@ -155,7 +155,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Menu">
-<!ENTITY appMenuButton.tooltip        "Apri il menu &amp;brandShortName;">
+<!ENTITY appMenuButton.tooltip        "Apri il menu &brandShortName;">
 <!ENTITY homeButton.label             "Pagina iniziale">
 
 <!ENTITY feedButton.label             "Abbonati">
@@ -415,9 +415,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "I">
 <!ENTITY savePageCmd.label            "Salva pagina con nome…">
 <!ENTITY savePageCmd.accesskey        "v">
-<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.label            "Invia Link…">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.label            "Invia Link alla pagina…">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "g">
@@ -553,7 +553,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Esci"> 
 <!ENTITY quitApplicationCmd.accesskey   "E">
-<!ENTITY quitApplicationCmdMac.label    "Esci da &amp;brandShortName;">
+<!ENTITY quitApplicationCmdMac.label    "Esci da &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -627,7 +627,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 
-<!ENTITY syncSetup.label              "Configurazione di &amp;syncBrand.shortName.label;…">
+<!ENTITY syncSetup.label              "Configurazione di &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "y">
 <!ENTITY syncSyncNowItem.label        "Sincronizza adesso">
 <!ENTITY syncSyncNowItem.accesskey    "z">

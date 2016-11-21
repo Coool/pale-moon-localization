@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "Gestione componenti aggiuntivi">
 
 <!ENTITY search.placeholder                   "Cerca tra i componenti aggiuntivi">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Cerca">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -120,7 +120,7 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Che cosa sono i componenti aggiuntivi?">
-<!ENTITY discover.description2                "I componenti aggiuntivi sono applicazioni che permettono di personalizzare &amp;brandShortName; aggiungendo nuove caratteristiche o modificandone l'aspetto. Rendi &amp;brandShortName; unico aggiungendo una nuova barra laterale per risparmiare tempo, visualizza le notifiche del meteo direttamente in &amp;brandShortName; o cambiane l'aspetto con un nuovo tema.">
+<!ENTITY discover.description2                "I componenti aggiuntivi sono applicazioni che permettono di personalizzare &brandShortName; aggiungendo nuove caratteristiche o modificandone l'aspetto. Rendi &brandShortName; unico aggiungendo una nuova barra laterale per risparmiare tempo, visualizza le notifiche del meteo direttamente in &brandShortName; o cambiane l'aspetto con un nuovo tema.">
 <!ENTITY discover.footer                      "Quando si è connessi a Internet in questo pannello vengono visualizzati alcuni dei componenti aggiuntivi più popolari e più interessanti.">
 
 <!-- detail view -->
@@ -221,10 +221,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Che cos'è? La telemetria può occasionalmente installare ed eseguire degli esperimenti.">
+<!ENTITY experiment.info.learnmore "Ulteriori informazioni">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "Impostazioni di telemetria">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Ulteriori informazioni…">
