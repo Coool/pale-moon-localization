@@ -2,21 +2,21 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY accountSetupTitle.label    "Configurazione di &amp;syncBrand.fullName.label;">
+<!ENTITY accountSetupTitle.label    "Configurazione di &syncBrand.fullName.label;">
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description2 "Benvenuto. Se si tratta del primo utilizzo di &amp;syncBrand.fullName.label; è necessario creare un nuovo account.">
+<!ENTITY setup.pickSetupType.description2 "Benvenuto. Se si tratta del primo utilizzo di &syncBrand.fullName.label; è necessario creare un nuovo account.">
 <!ENTITY button.createNewAccount.label "Crea un nuovo account">
 <!ENTITY button.haveAccount.label      "Utilizza un account esistente">
 
-<!ENTITY setup.choicePage.title.label     "Si tratta del primo utilizzo di &amp;syncBrand.fullName.label;?">
-<!ENTITY setup.choicePage.new.label       "Non ho mai utilizzato &amp;syncBrand.shortName.label;">
-<!ENTITY setup.choicePage.existing2.label "Utilizzo &amp;syncBrand.shortName.label; su un altro dispositivo">
+<!ENTITY setup.choicePage.title.label     "Si tratta del primo utilizzo di &syncBrand.fullName.label;?">
+<!ENTITY setup.choicePage.new.label       "Non ho mai utilizzato &syncBrand.shortName.label;">
+<!ENTITY setup.choicePage.existing2.label "Utilizzo &syncBrand.shortName.label; su un altro dispositivo">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Server">
-<!ENTITY serverType.default.label      "Predefinito: &amp;syncBrand.fullName.label; server">
+<!ENTITY serverType.default.label      "Predefinito: &syncBrand.fullName.label; server">
 <!ENTITY serverType.custom2.label   "Utilizza un server personalizzato…">
 <!ENTITY signIn.account2.label      "Account">
 <!ENTITY signIn.account2.accesskey  "A">
@@ -33,7 +33,7 @@
 <!ENTITY setup.choosePassword.accesskey  "w">
 <!ENTITY setup.confirmPassword.label     "Conferma password">
 <!ENTITY setup.confirmPassword.accesskey "C">
-<!ENTITY setup.setupMetro.label     "Sincronizza con &amp;brandShortName; in stile Windows 8">
+<!ENTITY setup.setupMetro.label     "Sincronizza con &brandShortName; in stile Windows 8">
 <!ENTITY setup.setupMetro.accesskey "S">
 
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
@@ -47,12 +47,12 @@
 <!ENTITY setup.tosAgree2.accesskey  "">
 
 <!-- My Recovery Key dialog -->
-<!ENTITY setup.newRecoveryKeyPage.title.label "&amp;brandShortName; ha a cuore la privacy dei suoi utenti">
+<!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; ha a cuore la privacy dei suoi utenti">
 <!ENTITY setup.newRecoveryKeyPage.description.label "Per garantire la massima privacy, tutti i dati vengono cifrati prima della trasmissione. La chiave di ripristino necessaria per decifrarli non viene caricata sul server.">
 <!ENTITY recoveryKeyEntry.label        "Chiave di ripristino">
 <!ENTITY recoveryKeyEntry.accesskey    "v">
 <!ENTITY syncGenerateNewKey.label  "Genera una nuova chiave">
-<!ENTITY recoveryKeyBackup.description "La chiave di ripristino è indispensabile per accedere a &amp;syncBrand.fullName.label; da altri dispositivi. Si consiglia di crearne una copia di sicurezza in quanto non è possibile recuperarla in caso di smarrimento.">
+<!ENTITY recoveryKeyBackup.description "La chiave di ripristino è indispensabile per accedere a &syncBrand.fullName.label; da altri dispositivi. Si consiglia di crearne una copia di sicurezza in quanto non è possibile recuperarla in caso di smarrimento.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Stampa…">
 <!ENTITY button.syncKeyBackup.print.accesskey "m">
@@ -74,7 +74,7 @@
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Accedi">
-<!ENTITY existingRecoveryKey.description "È possibile ottenere una copia della chiave di ripristino aprendo le Opzioni di &amp;syncBrand.shortName.label; su un altro dispositivo e selezionando &quot;Chiave di ripristino&quot; in &quot;Gestione account&quot;.">
+<!ENTITY existingRecoveryKey.description "È possibile ottenere una copia della chiave di ripristino aprendo le Opzioni di &syncBrand.shortName.label; su un altro dispositivo e selezionando &quot;Chiave di ripristino&quot; in &quot;Gestione account&quot;.">
 <!ENTITY verifying.label              "Verifica in corso…">
 <!ENTITY resetPassword.label          "Ripristina la password">
 <!ENTITY resetSyncKey.label           "Ho perso l'altro dispositivo.">
@@ -98,19 +98,19 @@
 <!ENTITY engine.addons.label        "Componenti aggiuntivi">
 <!ENTITY engine.addons.accesskey    "o">
 
-<!ENTITY choice2a.merge.main.label       "Unisci i dati di questo dispositivo con quelli di &amp;syncBrand.shortName.label;">
+<!ENTITY choice2a.merge.main.label       "Unisci i dati di questo dispositivo con quelli di &syncBrand.shortName.label;">
 <!ENTITY choice2.merge.recommended.label "Consigliato:">
-<!ENTITY choice2a.client.main.label      "Sostituisci tutti i dati presenti in questo dispositivo con quelli di &amp;syncBrand.shortName.label;">
+<!ENTITY choice2a.client.main.label      "Sostituisci tutti i dati presenti in questo dispositivo con quelli di &syncBrand.shortName.label;">
 <!ENTITY choice2a.server.main.label      "Sostituisci i dati di tutti gli altri dispositivi con i dati di questo dispositivo">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Conferma">
-<!ENTITY confirm.merge2.label    "Si è deciso di unire i dati di questo dispositivo con i dati degli altri dispositivi connessi a &amp;syncBrand.fullName.label;.">
-<!ENTITY confirm.client3.label         "Attenzione, i seguenti dati di &amp;brandShortName; presenti in questo dispositivo verranno eliminati:">
-<!ENTITY confirm.client2.moreinfo.label "I dati di &amp;brandShortName; verranno copiati da &amp;syncBrand.fullName.label; su questo dispositivo.">
+<!ENTITY confirm.merge2.label    "Si è deciso di unire i dati di questo dispositivo con i dati degli altri dispositivi connessi a &syncBrand.fullName.label;.">
+<!ENTITY confirm.client3.label         "Attenzione, i seguenti dati di &brandShortName; presenti in questo dispositivo verranno eliminati:">
+<!ENTITY confirm.client2.moreinfo.label "I dati di &brandShortName; verranno copiati da &syncBrand.fullName.label; su questo dispositivo.">
 <!ENTITY confirm.server2.label         "Attenzione, i dati presenti nei seguenti dispositivi verranno sostituiti dai dati presenti in locale:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Configurazione completata">
 <!ENTITY changeOptions.label "È possibile modificare questa preferenza selezionando Opzioni di sincronizzazione.">
-<!ENTITY continueUsing.label "Adesso è possibile tornare a utilizzare &amp;brandShortName;.">
+<!ENTITY continueUsing.label "Adesso è possibile tornare a utilizzare &brandShortName;.">

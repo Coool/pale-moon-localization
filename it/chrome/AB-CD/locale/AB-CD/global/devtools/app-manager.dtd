@@ -4,100 +4,100 @@
 
 <!ENTITY index.title "App Manager">
 <!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.device2 "Dispositivo">
+<!ENTITY index.help "Aiuto">
 
-<!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
-<!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
+<!ENTITY device.debugMainProcess "Eseguire il debug del processo principale">
+<!ENTITY device.debugMainProcessTooltip "Aprire gli strumenti di sviluppo connessi al processo principale sul dispositivo">
+<!ENTITY device.screenshot "Cattura Schermo">
+<!ENTITY device.screenshotTooltip "Aprire uno screenshot dello stato corrente del dispositivo in una nuova scheda">
+<!ENTITY device.title "Centro di controllo dispositivi">
+<!ENTITY device.notConnected "Non connesso. Si prega di collegare il dispositivo qui sotto.">
+<!ENTITY device.startApp "Inizia">
+<!ENTITY device.startAppTooltip "Avviare questa applicazione sul dispositivo">
 <!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
+<!ENTITY device.stopAppTooltip "Fermare questa app sul dispositivo">
 <!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
+<!ENTITY device.debugAppTooltip "Aprire gli strumenti di sviluppo connessi a questa app sul dispositivo">
+<!ENTITY device.name "Nome">
+<!ENTITY device.plain "Normale (predefinito)">
+<!ENTITY device.privileged "Privilegiato">
+<!ENTITY device.certified "Certificato">
+<!ENTITY device.allow "Permetti">
+<!ENTITY device.allowTooltip "Questa autorizzazione è consentita per le applicazioni di questo tipo">
 <!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.promptTooltip "Questa autorizzazione richiede un prompt utente per le applicazioni di questo tipo">
+<!ENTITY device.deny "Nega">
+<!ENTITY device.denyTooltip "Questa autorizzazione viene negata per le applicazioni di questo tipo">
+<!ENTITY device.installedApps "Applicazioni installate">
+<!ENTITY device.installedAppsTooltip "Visualizzare un elenco di applicazioni installate sul dispositivo. Alcune app, ad esempio app certificate, possono essere esclusi dalla vista.">
+<!ENTITY device.permissions "Autorizzazioni">
+<!ENTITY device.permissionsTooltip "Mostra una tabella delle autorizzazioni accessibili per i diversi tipi di applicazioni">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
+<!ENTITY device.browserTabs "Schede del browser">
+<!ENTITY device.browserTabsTooltip "Visualizzare un elenco delle schede nel browser del dispositivo collegato">
 <!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.debugBrowserTabTooltip "Aprire gli strumenti di sviluppo connessi a questa scheda del browser sul dispositivo">
+<!ENTITY device.help "Aiuto">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.connectTooltip "Connettersi al dispositivo">
+<!ENTITY connection.disconnect "Disconnetti">
+<!ENTITY connection.disconnectTooltip "Scollegare il dispositivo corrente o simulatore">
+<!ENTITY connection.notConnected2 "Non connesso.">
+<!ENTITY connection.connectTo "Connettersi a:">
+<!ENTITY connection.noDeviceFound "Nessun dispositivo trovato. Inserire un dispositivo">
+<!ENTITY connection.changeHostAndPort "Cambia">
+<!ENTITY connection.changeHostAndPortTooltip "Modificare l'host e la porta utilizzata per connettersi al dispositivo (default localhost:6000)">
+<!ENTITY connection.startSimulator "Avvia Simulatore">
+<!ENTITY connection.startSimulatorTooltip "Avviare un'istanza del simulatore e connettersi ad esso">
+<!ENTITY connection.saveConnectionInfo "Salva">
+<!ENTITY connection.saveConnectionInfoTooltip "Salvare l'host e la porta">
+<!ENTITY connection.connecting "Connessione in corso…">
+<!ENTITY connection.disconnecting "Disconnessione in corso…">
+<!ENTITY connection.cancel "Annulla">
+<!ENTITY connection.cancelConnectTooltip "Annullare la connessione in corso">
+<!ENTITY connection.cancelShowSimulatorTooltip "Uscire dalla modalità di connessione del simulatore e tornare al prompt iniziale">
+<!ENTITY connection.or "o">
+<!ENTITY connection.noSimulatorInstalled "Nessun simulatore installato.">
+<!ENTITY connection.installOneSimulator "Installare il simulatore">
+<!ENTITY connection.installOneSimulatorTooltip "Installare una versione del simulatore scaricando il componente aggiuntivo pertinente">
+<!ENTITY connection.installAnotherSimulator "Aggiungi">
+<!ENTITY connection.installAnotherSimulatorTooltip "Installa una versione addizionale del simulatore scaricando il componente aggiuntivo pertinente">
+<!ENTITY connection.startRegisteredSimulator "Inizia:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.localApps "Applicazioni locali">
+<!ENTITY projects.addApp "Aggiungi">
+<!ENTITY projects.addPackaged "Aggiungere App confezionato">
+<!ENTITY projects.addPackagedTooltip "Aggiungere una nuova app confezionata (una directory) dal tuo computer">
+<!ENTITY projects.addHosted "Aggiungi applicazione hosted">
+<!ENTITY projects.addHostedTooltip "Aggiungere una nuova applicazione hosted (collegamento a un file manifest.webapp) da un sito Web remoto">
+<!ENTITY projects.title "Applicazioni locali">
+<!ENTITY projects.appDetails "Dettagli app">
+<!ENTITY projects.removeAppFromList "Rimuovere questa applicazione dall'elenco delle applicazioni su cui si sta lavorando. Esa non verrà rimossa da un dispositivo o da un simulatore.">
+<!ENTITY projects.updateApp "Aggiorna">
+<!ENTITY projects.updateAppTooltip "Eseguire controlli di convalida e aggiornare l'app al dispositivo collegato">
 <!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.debugAppTooltip "Aprire gli strumenti di sviluppo connessi a questa app">
+<!ENTITY projects.saveManifest "Salva">
+<!ENTITY projects.saveManifestTooltip "Salvare il contenuto del Manifest Editor qui sotto">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
+<!ENTITY projects.noProjects "Nessun progetto. Aggiungere una nuova app confezionata qui sotto (directory locale) o una hostedapp (collegamento a un file manifesto).">
 <!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
+<!ENTITY projects.manifestEditorTooltip "Modificare il manifesto dell'applicazione nel pannello qui sotto. Il pulsante di aggiornamento salverà le modifiche e aggiornerà l'app.">
 <!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
+<!ENTITY projects.manifestViewerTooltip "Esaminare il manifesto dell'applicazione nel pannello qui sotto">
+<!ENTITY projects.valid "Valido">
+<!ENTITY projects.error "Errore">
 <!ENTITY projects.warning "Warning">
 <!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.packaged "Confezionato">
 
 <!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.close "Chiudi">
+<!ENTITY help.intro "Questo strumento vi aiuterà a costruire e installare applicazioni web su dispositivi compatibili (cioè Firefox OS). La scheda <strong>Apps</strong> vi aiuterà nel processo di convalida e installazione della app. La scheda <strong>Dispositivo</strong> vi darà informazioni sul dispositivo connesso. Utilizzare la barra degli strumenti inferiore per connettersi a un dispositivo o avviare il simulatore.">
+<!ENTITY help.usefullLinks "Link utili:">
+<!ENTITY help.appMgrDoc "Documentazione: L'uso dell'App Manager">
+<!ENTITY help.configuringDevice "Come configurare i dispositivi Firefox OS">
+<!ENTITY help.troubleShooting "Risoluzione dei problemi">
+<!ENTITY help.simulatorAddon "Installare il componente aggiuntivo Simulator">
+<!ENTITY help.adbHelperAddon "Installare il componente aggiuntivo Adb Helper">

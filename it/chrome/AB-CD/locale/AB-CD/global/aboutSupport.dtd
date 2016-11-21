@@ -5,15 +5,15 @@
 <!ENTITY aboutSupport.pageTitle "Informazioni per la risoluzione dei problemi">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "Questa pagina contiene informazioni tecniche che potrebbero risultare utili per risolvere eventuali problemi. Per le risposte alle domande più comuni a proposito di &amp;brandShortName;, consultare il <a id='supportLink'>sito web dedicato al supporto</a>.">
+<!ENTITY aboutSupport.pageSubtitle "Questa pagina contiene informazioni tecniche che potrebbero risultare utili per risolvere eventuali problemi. Per le risposte alle domande più comuni a proposito di &brandShortName;, consultare il <a id='supportLink'>sito web dedicato al supporto</a>.">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Rapporto di crash">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "ID del rapporto">
+<!ENTITY aboutSupport.crashes.sendDate "Inviato">
+<!ENTITY aboutSupport.crashes.allReports "Tutti i rapporti di crash">
+<!ENTITY aboutSupport.crashes.noConfig "Questa applicazione non è stata configurata per visualizzare i report dei crash.">
 
 <!ENTITY aboutSupport.extensionsTitle "Estensioni">
 <!ENTITY aboutSupport.extensionName "Nome">
@@ -21,13 +21,13 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Versione">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "Funzione sperimentale">
+<!ENTITY aboutSupport.experimentName "Nome">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentDescription "Descrizione">
+<!ENTITY aboutSupport.experimentActive "Attivo">
+<!ENTITY aboutSupport.experimentEndDate "Data di fine">
+<!ENTITY aboutSupport.experimentHomepage "Home page">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Informazioni di base">
@@ -37,7 +37,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Canale di aggiornamento">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Cronologia aggiornamenti">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Mostra cronologia aggiornamenti">
 
@@ -52,7 +52,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User agent">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilizzo memoria">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Finestre multiprocesso">
 
 <!ENTITY aboutSupport.showDir.label "Apri percorso">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -69,11 +69,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "Preferenze in user.js">
-<!ENTITY aboutSupport.userJSDescription "Nella cartella del profilo è presente un {[=-a id='prefs-user-js-link'-=]}file user.js</a> con preferenze che non sono state impostate da &amp;brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Nella cartella del profilo è presente un <a id='prefs-user-js-link'>file user.js</a> con preferenze che non sono state impostate da &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Preferenze importanti bloccate">
+<!ENTITY aboutSupport.lockedPrefsName "Nome">
+<!ENTITY aboutSupport.lockedPrefsValue "Valore">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafica">
 
@@ -94,5 +94,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Provare la modalità sicura">
+<!ENTITY aboutSupport.restartInSafeMode.label "Riavvia disattivando i componenti aggiuntivi…">

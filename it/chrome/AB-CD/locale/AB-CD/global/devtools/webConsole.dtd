@@ -53,7 +53,7 @@
   -  for editing commands in text inputs. -->
 <!ENTITY btnPageNet.accesskeyMacOSX "t">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
+<!ENTITY btnPageCSS.tooltip2 "Registra errori e avvisi nell’analisi CSS">
 <!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
 <!ENTITY btnPageJS.tooltip  "Registra le eccezioni JavaScript">
@@ -66,20 +66,20 @@
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
-<!ENTITY btnPageLogging.label   "Registrazione">
-<!ENTITY btnPageLogging.tooltip "Registra i messaggi inviati all'oggetto window.console">
-<!ENTITY btnPageLogging.accesskey3 "L">
+<!ENTITY btnPageLogging.label   "Registro">
+<!ENTITY btnPageLogging.tooltip "Registra i messaggi inviati all’oggetto window.console">
+<!ENTITY btnPageLogging.accesskey3 "R">
 <!ENTITY btnConsoleErrors       "Errori">
 <!ENTITY btnConsoleInfo         "Info">
 <!ENTITY btnConsoleWarnings     "Avvisi">
 <!ENTITY btnConsoleLog          "Log">
 <!ENTITY btnConsoleXhr          "XHR">
-<!ENTITY btnConsoleReflows      "Reflows">
+<!ENTITY btnConsoleReflows      "Reflow">
 
 <!ENTITY filterOutput.placeholder "Filtra messaggi">
 <!ENTITY btnClear.label        "Cancella">
 <!ENTITY btnClear.tooltip      "Cancella il contenuto della Console web">
-<!ENTITY btnClear.accesskey    "a">
+<!ENTITY btnClear.accesskey    "n">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
