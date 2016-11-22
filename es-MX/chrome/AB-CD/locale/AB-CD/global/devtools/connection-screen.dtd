@@ -7,24 +7,24 @@
   - in the Web Developer menu.
   - -->
 
-<!ENTITY title      "Connectar">
-<!ENTITY header     "Connectar a servidor remoto">
+<!ENTITY title      "Conectar">
+<!ENTITY header     "Conectar al dispositivo remoto">
 <!ENTITY host       "Servidor:">
 <!ENTITY port       "Puerto:">
 <!ENTITY connect    "Conectar">
-<!ENTITY connecting "Conectando…">
-<!ENTITY availableAddons "Available remote add-ons:">
+<!ENTITY connecting "Conectando...">
+<!ENTITY availableAddons "Complementos remotos disponibles:">
 <!ENTITY availableTabs "Pestañas remotas disponibles:">
 <!ENTITY availableProcesses "Procesos remotos disponibles:">
 <!ENTITY connectionError "Error:">
-<!ENTITY errorTimeout "Error: conexión fuera de tiempo.">
-<!ENTITY errorRefused "Error: conexión rechazada.">
-<!ENTITY errorUnexpected "Unexpected error.">
+<!ENTITY errorTimeout "Error: la conexión expiró.">
+<!ENTITY errorRefused "Error: la conexión fue rechazada.">
+<!ENTITY errorUnexpected "Error inesperado.">
 
 <!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
 these strings will be concatenated in a single label, remoteDocumentation will
 be used as text for a link to MDN. -->
-<!ENTITY remoteHelp "The Developer Tools can debug remote devices (Pale Moon for Android, for example). Make sure that you have turned on the 'Remote debugging' option in the remote device. For more, see the ">
-<!ENTITY remoteDocumentation "documentation">
+<!ENTITY remoteHelp "Las herramientas de desarrollo de Pale Moon pueden depurar dispositivos remotos. Asegúrate de que activaste la opción 'Depuración remota' en el dispositivo remoto. Para más información mira la ">
+<!ENTITY remoteDocumentation "documentación">
 <!ENTITY remoteHelpSuffix ".">
 

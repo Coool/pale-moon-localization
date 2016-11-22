@@ -20,57 +20,57 @@
   -  "Scratchpad" in your locale. You should feel free to find a close
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
-<!ENTITY window.title                 "Scratchpad">
+<!ENTITY window.title                 "Borrador">
 
 <!ENTITY fileMenu.label               "Archivo">
 <!ENTITY fileMenu.accesskey           "A">
 
 <!ENTITY newWindowCmd.label           "Ventana nueva">
-<!ENTITY newWindowCmd.accesskey       "N">
+<!ENTITY newWindowCmd.accesskey       "V">
 <!ENTITY newWindowCmd.commandkey      "n">
 
 <!ENTITY openFileCmd.label            "Abrir archivo…">
-<!ENTITY openFileCmd.accesskey        "a">
+<!ENTITY openFileCmd.accesskey        "b">
 <!ENTITY openFileCmd.commandkey       "o">
 
-<!ENTITY openRecentMenu.label         "Open Recent">
-<!ENTITY openRecentMenu.accesskey     "R">
+<!ENTITY openRecentMenu.label         "Abrir reciente">
+<!ENTITY openRecentMenu.accesskey     "r">
 
-<!ENTITY revertCmd.label              "Revert…">
+<!ENTITY revertCmd.label              "Revertir…">
 <!ENTITY revertCmd.accesskey          "t">
 
 <!ENTITY saveFileCmd.label            "Guardar">
-<!ENTITY saveFileCmd.accesskey        "S">
+<!ENTITY saveFileCmd.accesskey        "G">
 <!ENTITY saveFileCmd.commandkey       "s">
 
 <!ENTITY saveFileAsCmd.label          "Guardar como…">
-<!ENTITY saveFileAsCmd.accesskey      "A">
+<!ENTITY saveFileAsCmd.accesskey      "u">
 
 <!ENTITY closeCmd.label               "Cerrar">
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "C">
 
-<!ENTITY viewMenu.label               "View">
-<!ENTITY viewMenu.accesskey           "V">
+<!ENTITY viewMenu.label               "Ver">
+<!ENTITY viewMenu.accesskey           "s">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.label             "Mostrar números de línea">
+<!ENTITY lineNumbers.accesskey         "M">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Ajustar texto">
+<!ENTITY wordWrap.accesskey            "j">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Resaltar espacios que están de más">
+<!ENTITY highlightTrailingSpace.accesskey "R">
 
-<!ENTITY largerFont.label             "Larger Font">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.label             "Fuente más grande">
+<!ENTITY largerFont.accesskey         "F">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.label            "Fuente más pequeña">
+<!ENTITY smallerFont.accesskey        "p">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "Tamaño normal">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
@@ -78,7 +78,7 @@
 <!ENTITY editMenu.accesskey           "E">
 
 <!ENTITY run.label                    "Ejecutar">
-<!ENTITY run.accesskey                "R">
+<!ENTITY run.accesskey                "E">
 <!ENTITY run.key                      "r">
 
 <!ENTITY inspect.label                "Inspeccionar">
@@ -86,12 +86,12 @@
 <!ENTITY inspect.key                  "i">
 
 <!ENTITY display.label                "Mostrar">
-<!ENTITY display.accesskey            "D">
+<!ENTITY display.accesskey            "M">
 <!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.label                 "Adaptar para impresión">
 <!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.accesskey             "A">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -100,7 +100,7 @@
   -  (browser).
   -->
 <!ENTITY environmentMenu.label        "Entorno">
-<!ENTITY environmentMenu.accesskey    "N">
+<!ENTITY environmentMenu.accesskey    "n">
 
 
 <!ENTITY contentContext.label         "Contenido">
@@ -113,7 +113,7 @@
   -  was called "Chrome".
   -->
 <!ENTITY browserContext.label         "Navegador">
-<!ENTITY browserContext.accesskey     "B">
+<!ENTITY browserContext.accesskey     "N">
 
 <!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
   -  for the help button in the menubar but Gnome does not.
@@ -123,22 +123,22 @@
 <!ENTITY helpMenuWin.label            "Ayuda">
 <!ENTITY helpMenuWin.accesskey        "y">
 
-<!ENTITY documentationLink.label      "Ayuda de Scratchpad en MDN">
-<!ENTITY documentationLink.accesskey  "D">
+<!ENTITY documentationLink.label      "Ayuda del borrador en MDN">
+<!ENTITY documentationLink.accesskey  "B">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
-<!ENTITY resetContext2.label          "Resetear variables">
-<!ENTITY resetContext2.accesskey      "T">
+<!ENTITY resetContext2.label          "Reiniciar variables">
+<!ENTITY resetContext2.accesskey      "v">
 
-<!ENTITY reloadAndRun.label           "Reload And Run">
-<!ENTITY reloadAndRun.accesskey       "E">
+<!ENTITY reloadAndRun.label           "Recargar y ejecutar">
+<!ENTITY reloadAndRun.accesskey       "R">
 <!ENTITY reloadAndRun.key             "r">
 
-<!ENTITY executeMenu.label            "Ejecutar">
-<!ENTITY executeMenu.accesskey        "X">
+<!ENTITY executeMenu.label            "Acciones">
+<!ENTITY executeMenu.accesskey        "c">
 
 <!-- LOCALIZATION NOTE (errorConsoleCmd.commandkey): This command key launches
   -  the browser Error Console, the key should be identical to the property of
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "Evaluar la función actual">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">

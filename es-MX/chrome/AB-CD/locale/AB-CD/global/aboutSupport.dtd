@@ -6,7 +6,7 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-Esta página presenta información técnica que puede ser de ayuda si necesitas resolver un problema. Para obtener respuestas a preguntas comúnes sobre &amp;brandShortName; visita nuestro <a id='supportLink'>sitio web de soporte</a>.
+Esta página presenta información técnica que puede ser de ayuda si necesitas resolver un problema. Para obtener respuestas a preguntas comúnes sobre &brandShortName; visita nuestro <a id='supportLink'>sitio web de soporte</a>.
 ">
 
 <!ENTITY aboutSupport.crashes.title "Crash Reports">
@@ -71,7 +71,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "user.js Preferences">
-<!ENTITY aboutSupport.userJSDescription "Tu carpeta de perfil contiene un {[=-a id='prefs-user-js-link'-=]}user.js file</a>, el cual incluye preferencias que no fueron creadas por &amp;brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Tu carpeta de perfil contiene un <a id='prefs-user-js-link'>user.js file</a>, el cual incluye preferencias que no fueron creadas por &brandShortName;.">
 
 <!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
 <!ENTITY aboutSupport.lockedPrefsName "Name">
