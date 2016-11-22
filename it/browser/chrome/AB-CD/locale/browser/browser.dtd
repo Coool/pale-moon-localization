@@ -252,7 +252,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Attiva strumenti">
+<!ENTITY devToolboxMenuItem.label          "Attiva o disattiva strumenti">
 <!ENTITY devToolboxMenuItem.accesskey      "m">
 
 <!ENTITY devToolbarToolsButton.tooltip     "Attiva o disattiva gli strumenti per sviluppatori">
@@ -320,7 +320,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyRestoreLastSession.label "Ripristina la sessione precedente">
 
 <!ENTITY historyHomeCmd.label "Pagina iniziale">
-<!ENTITY showAllHistoryCmd2.label "Visualizza la cronologia">
+<!ENTITY showAllHistoryCmd2.label "Visualizza cronologia completa">
 <!ENTITY showAllHistoryCmd.commandkey "V">
 
 <!ENTITY appMenuEdit.label "Modifica">
@@ -369,7 +369,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmd.accesskey        "f">
 <!ENTITY openLinkInPrivateWindowCmd.label "Apri link in nuova finestra anonima">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "k">
-<!ENTITY openLinkCmdInCurrent.label     "Apri link">
+<!ENTITY openLinkCmdInCurrent.label     "Apri link nella scheda corrente">
 <!ENTITY openLinkCmdInCurrent.accesskey "A">
 <!ENTITY openFrameCmdInTab.label      "Apri riquadro in nuova scheda">
 <!ENTITY openFrameCmdInTab.accesskey  "c">
@@ -496,7 +496,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.accesskey "c">
 <!ENTITY videoFullScreen.label       "Schermo intero">
 <!ENTITY videoFullScreen.accesskey   "m">
-<!ENTITY videoSaveImage.label        "Salva fotogramma come…">
+<!ENTITY videoSaveImage.label        "Salva schermata come…">
 <!ENTITY videoSaveImage.accesskey    "f">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -613,7 +613,7 @@ The layout of the identity dialog prevents combining this into a single string w
 substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
-<!ENTITY identity.runBy "Questo sito è gestito da">
+<!ENTITY identity.runBy "che è gestito da">
 
 <!ENTITY identity.moreInfoLinkText "Altre informazioni su questo sito…">
 
