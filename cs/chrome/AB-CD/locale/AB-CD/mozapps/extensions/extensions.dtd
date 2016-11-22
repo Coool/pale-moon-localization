@@ -11,7 +11,7 @@
 
 <!ENTITY loading.label                        "Načítání…">
 <!ENTITY listEmpty.installed.label            "Žádný doplněk tohoto typu není nainstalován">
-<!ENTITY listEmpty.availableUpdates.label     "Aktualizace nenalezeny">
+<!ENTITY listEmpty.availableUpdates.label     "Nebyly nalezeny žádné aktualizace">
 <!ENTITY listEmpty.recentUpdates.label        "Žádný doplněk nebyl aktualizován">
 <!ENTITY listEmpty.findUpdates.label          "Zkontrolovat aktualizace">
 <!ENTITY listEmpty.search.label               "Nepodařilo se najít žádný odpovídající doplněk">
@@ -20,8 +20,8 @@
 <!ENTITY installAddonFromFile.accesskey       "I">
 <!ENTITY toolsMenu.tooltip                    "Nástroje doplňků">
 
-<!ENTITY cmd.back.tooltip                     "Přejde jednu stránku zpět">
-<!ENTITY cmd.forward.tooltip                  "Přejde jednu stránku vpřed">
+<!ENTITY cmd.back.tooltip                     "Přejde na předchozí stránku">
+<!ENTITY cmd.forward.tooltip                  "Přejde na následující stránku">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "V nouzovém režimu jsou všechny doplňky zakázány.">
@@ -165,7 +165,7 @@
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Název">
 <!ENTITY sort.name.tooltip                    "Řadit podle názvu">
-<!ENTITY sort.dateUpdated.label               "Aktualizace">
+<!ENTITY sort.dateUpdated.label               "Poslední aktualizace">
 <!ENTITY sort.dateUpdated.tooltip             "Řadit podle aktualizace">
 <!ENTITY sort.relevance.label                 "Nejlepší shody">
 <!ENTITY sort.relevance.tooltip               "Řadit podle nejlepší shody">
@@ -198,7 +198,7 @@
 <!ENTITY addon.restartNow.label               "Restartovat">
 <!ENTITY addon.install.label                  "Instalovat">
 <!ENTITY addon.install.tooltip                "Nainstaluje doplněk">
-<!ENTITY addon.updateNow.label                "Instalovat aktualizaci">
+<!ENTITY addon.updateNow.label                "Aktualizovat">
 <!ENTITY addon.updateNow.tooltip              "Nainstaluje aktualizaci doplňku">
 <!ENTITY addon.includeUpdate.label            "Vybrat k instalaci">
 <!ENTITY addon.updateAvailable.label          "Aktualizace je dostupná">
