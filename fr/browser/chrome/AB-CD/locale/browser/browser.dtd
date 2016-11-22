@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&amp;brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&amp;brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
@@ -59,10 +59,10 @@ can reach it easily. -->
 <!ENTITY printSetupCmd.label "Mise en page…">
 <!ENTITY printSetupCmd.accesskey "M">
 <!ENTITY printPreviewCmd.label "Aperçu avant impression">
-<!ENTITY printPreviewCmd.accesskey "r">
+<!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Imprimer…">
 <!ENTITY printCmd.accesskey "p">
-<!ENTITY printCmd.commandkey "P">
+<!ENTITY printCmd.commandkey "p">
 
 <!ENTITY goOfflineCmd.label "Travailler hors connexion">
 <!ENTITY goOfflineCmd.accesskey "x">
@@ -155,7 +155,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Menu">
-<!ENTITY appMenuButton.tooltip        "Ouvrir le menu &amp;brandShortName;">
+<!ENTITY appMenuButton.tooltip        "Ouvrir le menu &brandShortName;">
 <!ENTITY homeButton.label             "Accueil">
 
 <!ENTITY feedButton.label             "S'abonner">
@@ -273,7 +273,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY editMenu.accesskey       "n"> 
 <!ENTITY undoCmd.label            "Annuler">  
 <!ENTITY undoCmd.key            "Z">  
-<!ENTITY undoCmd.accesskey          "u"> 
+<!ENTITY undoCmd.accesskey          "U"> 
 <!ENTITY redoCmd.label            "Rétablir">  
 <!ENTITY redoCmd.key            "Y">  
 <!ENTITY redoCmd.accesskey          "R"> 
@@ -421,7 +421,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "E">
-<!ENTITY savePageCmd.commandkey       "S">
+<!ENTITY savePageCmd.commandkey       "s">
 <!ENTITY saveFrameCmd.label           "Enregistrer le cadre sous…">
 <!ENTITY saveFrameCmd.accesskey       "E">
 <!ENTITY printFrameCmd.label          "Imprimer le cadre…">
@@ -553,7 +553,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Quitter"> 
 <!ENTITY quitApplicationCmd.accesskey   "Q">
-<!ENTITY quitApplicationCmdMac.label    "Quitter &amp;brandShortName;">
+<!ENTITY quitApplicationCmdMac.label    "Quitter &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -627,7 +627,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 
-<!ENTITY syncSetup.label              "Configurer &amp;syncBrand.shortName.label;…">
+<!ENTITY syncSetup.label              "Configurer &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "Synchroniser maintenant">
 <!ENTITY syncSyncNowItem.accesskey    "S">

@@ -8,35 +8,35 @@
 
 <!ENTITY accessibility.label             "Accessibilité">
 
-<!ENTITY useCursorNavigation.label       "Toujours utiliser les touches de navigation pour se déplacer à l'intérieur d'une page">
+<!ENTITY useCursorNavigation.label       "Toujours utiliser les touches de navigation pour se déplacer à l’intérieur d’une page">
 <!ENTITY useCursorNavigation.accesskey   "T">
 <!ENTITY searchStartTyping.label         "Lancer la recherche lors de la saisie de texte">
 <!ENTITY searchStartTyping.accesskey     "c">
-<!ENTITY blockAutoRefresh.label          "Prévenir lorsque des sites tentent de rediriger ou de recharger la page">
+<!ENTITY blockAutoRefresh.label          "Prévenir lorsque des sites web tentent de rediriger ou de recharger la page">
 <!ENTITY blockAutoRefresh.accesskey      "P">
 
 <!ENTITY browsing.label                  "Navigation">
 
 <!ENTITY useAutoScroll.label             "Utiliser le défilement automatique">
-<!ENTITY useAutoScroll.accesskey         "a">
-<!ENTITY useSmoothScrolling.label        "Utiliser le défilement fluide">
-<!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Utiliser l'accélération graphique matérielle si disponible">
-<!ENTITY allowHWAccel.accesskey          "r">
-<!ENTITY checkSpelling.label             "Vérifier l'orthographe lors de la frappe">
-<!ENTITY checkSpelling.accesskey         "t">
+<!ENTITY useAutoScroll.accesskey         "U">
+<!ENTITY useSmoothScrolling.label        "Utiliser le défilement doux">
+<!ENTITY useSmoothScrolling.accesskey    "s">
+<!ENTITY allowHWAccel.label              "Utiliser l’accélération graphique matérielle si disponible">
+<!ENTITY allowHWAccel.accesskey          "n">
+<!ENTITY checkSpelling.label             "Vérifier l’orthographe lors de la frappe">
+<!ENTITY checkSpelling.accesskey         "V">
 
 <!ENTITY systemDefaults.label            "Prédéfinitions système">
-<!ENTITY alwaysCheckDefault.label        "Toujours vérifier au démarrage que &amp;brandShortName; est le navigateur par défaut"><!--XXX-->
+<!ENTITY alwaysCheckDefault.label        "Toujours vérifier au démarrage que &brandShortName; est le navigateur par défaut"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "j">
-<!ENTITY setDefault.label                "Faire de &amp;brandShortName; le navigateur par défaut">
+<!ENTITY setDefault.label                "Faire de &brandShortName; le navigateur par défaut">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&amp;brandShortName; est actuellement le navigateur par défaut">
+<!ENTITY isDefault.label                 "&brandShortName; est actuellement le navigateur par défaut">
 
 <!ENTITY dataChoicesTab.label            "Données collectées">
 
 <!ENTITY crashReporterSection.label      "Rapports de plantage">
-<!ENTITY crashReporterDesc.label         "&amp;brandShortName; envoie des rapports de plantage pour aider &amp;vendorShortName; à rendre ce navigateur plus stable et sécurisé">
+<!ENTITY crashReporterDesc.label         "&brandShortName; envoie des rapports de plantage pour aider &vendorShortName; à rendre votre navigateur plus stable et sécurisé">
 <!ENTITY enableCrashReporter.label       "Activer les rapports de plantage">
 <!ENTITY enableCrashReporter.accesskey   "t">
 <!ENTITY crashReporterLearnMore.label    "En savoir plus">
@@ -45,13 +45,13 @@
 
 <!ENTITY connection.label                "Connexion">
 
-<!ENTITY connectionDesc.label            "Configurer la façon dont &amp;brandShortName; se connecte à Internet">
+<!ENTITY connectionDesc.label            "Configurer la façon dont &brandShortName; se connecte à Internet">
 <!ENTITY connectionSettings.label        "Paramètres…">
 <!ENTITY connectionSettings.accesskey    "P">
 
-<!ENTITY httpCache.label                 "Contenu Web en cache">
+<!ENTITY httpCache.label                 "Contenu web en cache">
 
-<!ENTITY offlineStorage2.label           "Contenu Web et données utilisateur hors connexion">
+<!ENTITY offlineStorage2.label           "Contenu web et données utilisateur hors connexion">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -61,25 +61,25 @@
 -->
 <!ENTITY limitCacheSizeBefore.label      "Limiter le cache à">
 <!ENTITY limitCacheSizeBefore.accesskey  "L">
-<!ENTITY limitCacheSizeAfter.label       "Mo d'espace disque">
+<!ENTITY limitCacheSizeAfter.label       "Mo d’espace disque">
 <!ENTITY clearCacheNow.label             "Vider maintenant">
 <!ENTITY clearCacheNow.accesskey         "V">
 <!ENTITY clearOfflineAppCacheNow.label   "Vider maintenant">
 <!ENTITY clearOfflineAppCacheNow.accesskey "d">
 <!ENTITY overrideSmartCacheSize.label    "Modifier la gestion automatique du cache">
-<!ENTITY overrideSmartCacheSize.accesskey "o">
+<!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "Mises à jour">
 
-<!ENTITY updateApp.label                 "Mises à jour de &amp;brandShortName;">
+<!ENTITY updateApp.label                 "Mises à jour de &brandShortName; :">
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
-<!ENTITY updateAuto1.label               "Installer automatiquement les mises à jour (recommandé pour la sécurité)">
+<!ENTITY updateAuto1.label               "Installer automatiquement les mises à jour (recommandé pour votre sécurité)">
 <!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateAutoMetro.label           "Mise à jour automatique pour &amp;brandShortName; dans les styles Bureau et Windows 8">
+<!ENTITY updateAutoMetro.label           "Mise à jour automatique pour &brandShortName; dans les styles Bureau et Windows 8">
 <!ENTITY updateAutoMetro.accesskey       "s">
-<!ENTITY updateCheck.label               "Vérifier l'existence de mises à jour mais me laisser décider de leur installation">
+<!ENTITY updateCheck.label               "Vérifier l’existence de mises à jour mais me laisser décider de leur installation">
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "Ne jamais vérifier les mises à jour (déconseillé, cela représente un risque de sécurité)">
 <!ENTITY updateManual.accesskey          "N">
@@ -87,16 +87,16 @@
 <!ENTITY updateAutoAddonWarn.label       "Me prévenir si cela désactive certains de mes modules">
 <!ENTITY updateAutoAddonWarn.accesskey   "M">
 
-<!ENTITY updateAutoMetroWarn.label       "(&amp;brandShortName; dans le style Windows 8 ne vérifie pas la compatibilité des modules)">
+<!ENTITY updateAutoMetroWarn.label       "(&brandShortName; dans le style Windows 8 ne vérifie pas la compatibilité des modules)">
 
-<!ENTITY updateHistory.label             "Afficher l'historique des mises à jour…">
+<!ENTITY updateHistory.label             "Afficher l’historique des mises à jour">
 <!ENTITY updateHistory.accesskey         "h">
 
-<!ENTITY updateOthers.label              "Mise à jour automatique">
-<!ENTITY enableSearchUpdate.label        "Moteurs de recherche">
+<!ENTITY updateOthers.label              "Mettre à jour automatiquement :">
+<!ENTITY enableSearchUpdate.label        "les moteurs de recherche">
 <!ENTITY enableSearchUpdate.accesskey    "r">
 
-<!ENTITY offlineNotify.label             "Avertir lorsqu'un site souhaite conserver des données pour une utilisation hors connexion">
+<!ENTITY offlineNotify.label             "Avertir lorsqu’un site souhaite conserver des données pour une utilisation hors connexion">
 <!ENTITY offlineNotify.accesskey         "T">
 <!ENTITY offlineNotifyExceptions.label   "Exceptions…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
@@ -109,19 +109,19 @@
 
 <!ENTITY certificateTab.label            "Certificats">
 <!ENTITY certGroup.label                 "Personal Certificate">
-<!ENTITY certSelection.description       "Lorsqu'un serveur demande un certificat personnel">
-<!ENTITY certs.auto                      "En sélectionner un automatiquement">
+<!ENTITY certSelection.description       "Lorsqu’un serveur demande mon certificat personnel :">
+<!ENTITY certs.auto                      "en sélectionner un automatiquement">
 <!ENTITY certs.auto.accesskey            "e">
-<!ENTITY certs.ask                       "Demander à chaque fois">
+<!ENTITY certs.ask                       "me demander à chaque fois">
 <!ENTITY certs.ask.accesskey             "m">
 <!ENTITY ocspGroup.label                 "Certificate Validation">
-<!ENTITY enableOCSP.label                "Utiliser le protocole de statut de certificat en ligne (OCSP) pour confirmer la validité actuelle des certificats">
-<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY enableOCSP.label                "Interroger le répondeur OCSP pour confirmer la validité de vos certificats">
+<!ENTITY enableOCSP.accesskey            "I">
 <!ENTITY requireOCSP.label               "Quand la connexion à un serveur OCSP échoue, considérer le certificat comme étant non valable">
 <!ENTITY requireOCSP.accesskey           "n">
-<!ENTITY viewCerts.label                 "Afficher les certificats…">
+<!ENTITY viewCerts.label                 "Afficher les certificats">
 <!ENTITY viewCerts.accesskey             "A">
-<!ENTITY viewSecurityDevices.label       "Périphériques de sécurité…">
+<!ENTITY viewSecurityDevices.label       "Périphériques de sécurité">
 <!ENTITY viewSecurityDevices.accesskey   "P">
 
 <!ENTITY UACompatGroup.label    "Compatibility">
