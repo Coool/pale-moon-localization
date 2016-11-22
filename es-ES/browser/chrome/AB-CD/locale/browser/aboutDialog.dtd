@@ -1,27 +1,27 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
-<!ENTITY aboutDialog.title          "Acerca de &amp;brandFullName;">
+<!ENTITY aboutDialog.title          "Acerca de &brandFullName;">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
-<!ENTITY warningDesc.version        "&amp;brandShortName; es experimental y puede ser inestable.">
+<!ENTITY warningDesc.version        "&brandShortName; es experimental y puede ser inestable.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.exp.mozillaLink  "&amp;vendorShortName;">
+<!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " es una ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "comunidad global">
-<!ENTITY community.exp.end          " trabajando junta para mantener la web abierta, pública y accesible para todos.">
+<!ENTITY community.exp.end          " que trabaja unida para mantener la web abierta, pública y accesible para todos.">
 
-<!ENTITY community.start2           "&amp;brandShortName; está diseñado por ">
+<!ENTITY community.start2           "&brandShortName; está diseñado por ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.mozillaLink      "&amp;vendorShortName;">
+<!ENTITY community.mozillaLink      "&vendorShortName;">
 <!ENTITY community.middle2          ", una ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "comunidad global">
-<!ENTITY community.end3             " trabajando junta para mantener la web abierta, pública y accesible para todos.">
+<!ENTITY community.end3             " que trabaja unida para mantener la web abierta, pública y accesible para todos.">
 
 <!ENTITY contribute.start           "¿Suena interesante? ">
 <!-- LOCALIZATION NOTE (contribute.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
@@ -42,11 +42,11 @@
 <!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingAddonCompat "Comprobando compatibilidad de complementos…">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.noUpdatesFound      "&amp;brandShortName; está actualizado">
+<!ENTITY update.noUpdatesFound      "&brandShortName; está actualizado">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled       "Actualizaciones desactivadas por su administrador">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates "&amp;brandShortName; está siendo actualizado por otra instancia">
+<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; está siendo actualizado por otra instancia">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
