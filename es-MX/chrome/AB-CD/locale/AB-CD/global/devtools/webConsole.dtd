@@ -8,44 +8,44 @@
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
 
-<!ENTITY window.title "Web Console">
-<!ENTITY browserConsole.title "Browser Console">
+<!ENTITY window.title "Consola web">
+<!ENTITY browserConsole.title "Consola del navegador">
 
-<!ENTITY networkPanel.requestURLColon             "Request URL:">
-<!ENTITY networkPanel.requestMethodColon          "Request Method:">
-<!ENTITY networkPanel.statusCodeColon             "Status Code:">
+<!ENTITY networkPanel.requestURLColon             "URL solicitado:">
+<!ENTITY networkPanel.requestMethodColon          "Método solicitado:">
+<!ENTITY networkPanel.statusCodeColon             "Código de estado:">
 
-<!ENTITY networkPanel.requestHeaders              "Cabeceras de la petición">
+<!ENTITY networkPanel.requestHeaders              "Encabezados solicitados">
 <!ENTITY networkPanel.requestCookie               "Cookie enviada">
-<!ENTITY networkPanel.requestBody                 "Cuerpo de la petición">
+<!ENTITY networkPanel.requestBody                 "Cuerpo solicitado">
 <!ENTITY networkPanel.requestFormData             "Datos de formulario enviados">
 
-<!ENTITY networkPanel.responseHeaders             "Cabeceras de la respuesta">
-<!ENTITY networkPanel.responseCookie              "Received Cookie">
-<!ENTITY networkPanel.responseBody                "Cuerpo de la respuesta">
+<!ENTITY networkPanel.responseHeaders             "Encabezados de respuesta">
+<!ENTITY networkPanel.responseCookie              "Cookie recibida">
+<!ENTITY networkPanel.responseBody                "Cuerpo de respuesta">
 <!ENTITY networkPanel.responseBodyCached          "Datos en caché">
 <!ENTITY networkPanel.responseBodyUnknownType     "Tipo de contenido desconocido">
-<!ENTITY networkPanel.responseNoBody              "La respuesta no tenía cuerpo">
+<!ENTITY networkPanel.responseNoBody              "Sin cuerpo de respuesta">
 <!ENTITY networkPanel.responseImage               "Imagen recibida">
 <!ENTITY networkPanel.responseImageCached         "Imagen en caché">
 
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in the Web
    - Console context menu. -->
-<!ENTITY saveBodies.label     "Log Request and Response Bodies">
-<!ENTITY saveBodies.accesskey "L">
+<!ENTITY saveBodies.label     "Cuerpos de registro de solicitud y respuesta">
+<!ENTITY saveBodies.accesskey "C">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
    - Console context menu. -->
-<!ENTITY openURL.label     "Open URL in New Tab">
-<!ENTITY openURL.accesskey "T">
+<!ENTITY openURL.label     "Abrir URL en una pestaña nueva">
+<!ENTITY openURL.accesskey "A">
 
 <!-- LOCALIZATION NOTE (btnPageNet.label): This string is used for the menu
   -  button that allows users to toggle the network logging output.
   -  This string and the following strings toggle various kinds of output
   -  filters. -->
-<!ENTITY btnPageNet.label   "Net">
-<!ENTITY btnPageNet.tooltip "Log network access">
-<!ENTITY btnPageNet.accesskey "N">
+<!ENTITY btnPageNet.label   "Red">
+<!ENTITY btnPageNet.tooltip "Registra acceso a la red">
+<!ENTITY btnPageNet.accesskey "R">
 <!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
   -  access key for the menu button that allows users to toggle the network
   -  logging output. On MacOSX accesskeys are available with Ctrl-*. Please make
@@ -53,33 +53,33 @@
   -  for editing commands in text inputs. -->
 <!ENTITY btnPageNet.accesskeyMacOSX "t">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
+<!ENTITY btnPageCSS.tooltip2 "Registra errores y advertencias CSS">
 <!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
-<!ENTITY btnPageJS.tooltip  "Log JavaScript exceptions">
+<!ENTITY btnPageJS.tooltip  "Registra excepciones JavaScript">
 <!ENTITY btnPageJS.accesskey  "J">
-<!ENTITY btnPageSecurity.label "Security">
-<!ENTITY btnPageSecurity.tooltip "Log security errors and warnings">
+<!ENTITY btnPageSecurity.label "Seguridad">
+<!ENTITY btnPageSecurity.tooltip "Registra errores de seguridad y advertencias">
 <!ENTITY btnPageSecurity.accesskey "S">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
-<!ENTITY btnPageLogging.label   "Logging">
-<!ENTITY btnPageLogging.tooltip "Log messages sent to the window.console object">
-<!ENTITY btnPageLogging.accesskey3 "L">
-<!ENTITY btnConsoleErrors       "Errors">
-<!ENTITY btnConsoleInfo         "Info">
-<!ENTITY btnConsoleWarnings     "Warnings">
-<!ENTITY btnConsoleLog          "Log">
+<!ENTITY btnPageLogging.label   "Registrado">
+<!ENTITY btnPageLogging.tooltip "Registra mensajes enviados al objeto window.console">
+<!ENTITY btnPageLogging.accesskey3 "e">
+<!ENTITY btnConsoleErrors       "Errores">
+<!ENTITY btnConsoleInfo         "Información">
+<!ENTITY btnConsoleWarnings     "Advertencias">
+<!ENTITY btnConsoleLog          "Registro">
 <!ENTITY btnConsoleXhr          "XHR">
-<!ENTITY btnConsoleReflows      "Reflows">
+<!ENTITY btnConsoleReflows      "Reflujos">
 
-<!ENTITY filterOutput.placeholder "Filter output">
-<!ENTITY btnClear.label        "Clear">
-<!ENTITY btnClear.tooltip      "Clear the Web Console output">
-<!ENTITY btnClear.accesskey    "r">
+<!ENTITY filterOutput.placeholder "Filtrar salidas">
+<!ENTITY btnClear.label        "Despejar">
+<!ENTITY btnClear.tooltip      "Despeja los resultados de la consola web">
+<!ENTITY btnClear.accesskey    "D">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
@@ -91,8 +91,8 @@
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY copyURLCmd.label     "Copy Link Location">
-<!ENTITY copyURLCmd.accesskey "a">
+<!ENTITY copyURLCmd.label     "Copiar la ruta del enlace">
+<!ENTITY copyURLCmd.accesskey "l">
 
 <!ENTITY closeCmd.key         "W">
 <!ENTITY findCmd.key          "F">

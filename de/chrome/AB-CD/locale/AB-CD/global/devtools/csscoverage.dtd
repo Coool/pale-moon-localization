@@ -29,9 +29,9 @@
   -  csscoverage.preload3): These 3 are part of a paragraph with 1 and 2
   -  separated by a styled <link> tag and 2 and 3 separated by a styled
   -  <style> tag -->
-<!ENTITY csscoverage.optimize.body1 "Du kannst manchmal das Laden beschleunigen, durch verschieben">
-<!ENTITY csscoverage.optimize.body2 "Tags zum Ende der Seite und erstellen einer neuen inline">
-<!ENTITY csscoverage.optimize.body3 "Elemente mit Styles nach oben, die vor dem 'load' Event aufgerufen werden. Hier sind the Style Blöcke die du brauchst:">
+<!ENTITY csscoverage.optimize.body1 "Sie können manchmal das Laden der Seite beschleunigen, durch Bewegen">
+<!ENTITY csscoverage.optimize.body2 "von Tags an das Ende der Seite und Erstellung eines neuen, in der Seite enthaltenen">
+<!ENTITY csscoverage.optimize.body3 "Elements, mit den vor dem 'load'-Ereignis benötigten Stilen am Anfang. Dies sind die dafür benötigten Stilblöcke:">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->
@@ -43,5 +43,5 @@
   -  is clicked -->
 <!ENTITY csscoverage.footer1 "Siehe">
 <!ENTITY csscoverage.footer2a "https://developer.mozilla.org/de/docs/Tools/CSS_Coverage">
-<!ENTITY csscoverage.footer3 "Den MDN Artikel bei dem CSS Coverage Tool">
+<!ENTITY csscoverage.footer3 "den MDN-Artikel über das CSS Coverage Tool">
 <!ENTITY csscoverage.footer4 "für Vorsichtsmaßnahmen zur Erzeugung dieses Reports.">

@@ -30,7 +30,7 @@
 <!ENTITY newWindowCmd.commandkey      "n">
 
 <!ENTITY openFileCmd.label            "Abrir archivo…">
-<!ENTITY openFileCmd.accesskey        "b">
+<!ENTITY openFileCmd.accesskey        "O">
 <!ENTITY openFileCmd.commandkey       "o">
 
 <!ENTITY openRecentMenu.label         "Abrir recientes">
@@ -50,27 +50,27 @@
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "C">
 
-<!ENTITY viewMenu.label               "View">
+<!ENTITY viewMenu.label               "Ver">
 <!ENTITY viewMenu.accesskey           "V">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
+<!ENTITY lineNumbers.label             "Mostrar números de línea">
 <!ENTITY lineNumbers.accesskey         "L">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Ajustar líneas">
+<!ENTITY wordWrap.accesskey            "j">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Resaltar espacios al final de la línea">
+<!ENTITY highlightTrailingSpace.accesskey "f">
 
-<!ENTITY largerFont.label             "Larger Font">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.label             "Mayor tamaño de letra">
+<!ENTITY largerFont.accesskey         "M">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.label            "Menor tamaño de letra">
+<!ENTITY smallerFont.accesskey        "e">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "Tamaño normal">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
@@ -89,9 +89,9 @@
 <!ENTITY display.accesskey            "m">
 <!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.label                 "Adaptar para impresión">
 <!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.accesskey             "p">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -119,9 +119,9 @@
   -  for the help button in the menubar but Gnome does not.
   -->
 <!ENTITY helpMenu.label               "Ayuda">
-<!ENTITY helpMenu.accesskey           "u">
+<!ENTITY helpMenu.accesskey           "y">
 <!ENTITY helpMenuWin.label            "Ayuda">
-<!ENTITY helpMenuWin.accesskey        "u">
+<!ENTITY helpMenuWin.accesskey        "y">
 
 <!ENTITY documentationLink.label      "Ayuda de borrador en MDN">
 <!ENTITY documentationLink.accesskey  "D">
@@ -130,7 +130,7 @@
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
-<!ENTITY resetContext2.label          "Restablecer">
+<!ENTITY resetContext2.label          "Restablecer variables">
 <!ENTITY resetContext2.accesskey      "R">
 
 <!ENTITY reloadAndRun.label           "Recargar y ejecutar">
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
-<!ENTITY evalFunction.accesskey "v">
+<!ENTITY evalFunction.label "Evaluar función actual">
+<!ENTITY evalFunction.accesskey "f">
 <!ENTITY evalFunction.key "e">

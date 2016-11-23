@@ -4,13 +4,13 @@
 
 <!ENTITY upgrade.style               "width: 93ch; height: 448px;">
 
-<!ENTITY checking.heading            "Vérification des modules complémentaires">
-<!ENTITY checking.progress.label     "Vérification de la compatibilité des modules complémentaires avec cette version de &amp;brandShortName;.">
+<!ENTITY checking.heading            "Vérification de vos modules complémentaires">
+<!ENTITY checking.progress.label     "Vérification de la compatibilité de vos modules complémentaires avec cette version de &brandShortName;.">
 
-<!ENTITY select.heading              "Sélection des modules complémentaires">
+<!ENTITY select.heading              "Sélection de vos modules complémentaires">
 <!-- LOCALIZATION NOTE (select.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY select.description          "Rendre &amp;brandShortName; encore plus rapide en désactivant les modules complémentaires non utilisés. Les modules complémentaires déjà installés par des tiers seront désactivés automatiquement à moins de les sélectionner ci-dessous.">
+<!ENTITY select.description          "Rendez &brandShortName; encore plus rapide en désactivant les modules complémentaires que vous n'utilisez plus. Les modules complémentaires déjà installés par des tiers seront désactivés automatiquement à moins de les sélectionner ci-dessous.">
 <!ENTITY select.keep                 "Conserver">
 <!-- LOCALIZATION NOTE (select.keep.style): Should be a width wide enough for
      the string in select.keep above. -->
@@ -29,7 +29,7 @@
 <!ENTITY confirm.heading             "Sélectionner les modules">
 <!-- LOCALIZATION NOTE (confirm.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY confirm.description         "Rendre &amp;brandShortName; encore plus rapide en désactivant les modules complémentaires non utilisés. Les modules complémentaires déjà installés par des tiers seront désactivés automatiquement à moins de les sélectionner ci-dessous.">
+<!ENTITY confirm.description         "Rendez &brandShortName; encore plus rapide en désactivant les modules complémentaires que vous n'utilisez plus. Les modules complémentaires déjà installés par des tiers seront désactivés automatiquement à moins de les sélectionner ci-dessous.">
 
 <!ENTITY action.disable.heading      "Les modules complémentaires suivants seront désactivés :">
 <!ENTITY action.incompatible.heading "Les modules complémentaires suivants sont désactivés mais seront réactivés dès qu'ils seront à nouveau compatibles :">
@@ -39,10 +39,10 @@
 <!ENTITY update.heading              "Mise à jour des modules complémentaires">
 <!ENTITY update.progress.label       "Téléchargement et installation des mises à jour pour les modules complémentaires sélectionnés.">
 
-<!ENTITY errors.heading              "&amp;brandShortName; n'a pas pu mettre à jour certains des modules complémentaires.">
-<!ENTITY errors.description          "L'installation des mises à jour de certains des modules complémentaires a échoué. &amp;brandShortName; essaiera automatiquement de les mettre à jour plus tard.">
+<!ENTITY errors.heading              "&brandShortName; n'a pas pu mettre à jour certains des modules complémentaires.">
+<!ENTITY errors.description          "L'installation des mises à jour de certains des modules complémentaires a échoué. &brandShortName; essaiera automatiquement de les mettre à jour plus tard.">
 
-<!ENTITY footer.label                "Il est toujours possible de modifier les modules en se rendant dans le gestionnaire de modules complémentaires.">
+<!ENTITY footer.label                "Vous pouvez toujours modifier les modules en vous rendant dans le gestionnaire de modules complémentaires.">
 <!ENTITY cancel.label                "Annuler">
 <!ENTITY back.label                  "Précédent">
 <!ENTITY next.label                  "Suivant">

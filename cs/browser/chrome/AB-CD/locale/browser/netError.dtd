@@ -13,7 +13,7 @@
 <!ENTITY connectionFailure.title "Chyba spojení">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Omezení přístupu na port">
+<!ENTITY deniedPortAccess.title "Omezení přístupu k adrese">
 <!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> Internetové služby než prohlížení webových stránek. Z bezpečnostních důvodů prohlížeč tento požadavek zrušil.</p>">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
@@ -69,14 +69,14 @@
 <!ENTITY contentEncodingError.title "Chyba znakové sady obsahu">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li>
+  <li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Nebezpečný typ souboru">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li>
+  <li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li>
 </ul>
 ">
 
@@ -184,12 +184,12 @@ později.</li>
 ">
 
 <!ENTITY corruptedContentError.title "Chyba v obsahu stránky">
-<!ENTITY corruptedContentError.longDesc "<p>Stránka, kterou se snažíte načíst, nemůže být zobrazena, protože přenesená data jsou chybná.</p><ul><li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>Požadovanou stránku nelze zobrazit, protože přenesená data jsou chybná.</p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "Nebo můžete přidat výjimku…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Rychle odsud pryč">
-<!ENTITY securityOverride.exceptionButtonLabel "Přidat výjimku">
+<!ENTITY securityOverride.exceptionButtonLabel "Přidat výjimku…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
@@ -213,7 +213,7 @@ functionality specific to firefox. -->
 <!ENTITY errorReporting.tryAgain "Zkusit znovu">
 
 <!ENTITY remoteXUL.title "Vzdálené XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul></p>">
 
 <!ENTITY sslv3Used.title "Nelze se zabezpečeně připojit">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate

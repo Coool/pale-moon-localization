@@ -9,18 +9,18 @@
   - documentation on web development on the web. -->
 
 <!ENTITY window.title "Console web">
-<!ENTITY browserConsole.title "Console navigateur">
+<!ENTITY browserConsole.title "Console du navigateur">
 
 <!ENTITY networkPanel.requestURLColon             "URL de la requête :">
 <!ENTITY networkPanel.requestMethodColon          "Méthode de la requête :">
 <!ENTITY networkPanel.statusCodeColon             "Code d'état :">
 
-<!ENTITY networkPanel.requestHeaders              "Entêtes de la requête">
+<!ENTITY networkPanel.requestHeaders              "En-têtes de la requête">
 <!ENTITY networkPanel.requestCookie               "Cookie envoyé">
 <!ENTITY networkPanel.requestBody                 "Contenu de la requête">
 <!ENTITY networkPanel.requestFormData             "Données de formulaire envoyées">
 
-<!ENTITY networkPanel.responseHeaders             "Entêtes de la réponse">
+<!ENTITY networkPanel.responseHeaders             "En-têtes de la réponse">
 <!ENTITY networkPanel.responseCookie              "Cookie reçu">
 <!ENTITY networkPanel.responseBody                "Contenu de la réponse">
 <!ENTITY networkPanel.responseBodyCached          "Données en cache">
@@ -53,13 +53,13 @@
   -  for editing commands in text inputs. -->
 <!ENTITY btnPageNet.accesskeyMacOSX "R">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
+<!ENTITY btnPageCSS.tooltip2 "Journaliser les avertissements et les erreurs CSS">
 <!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
 <!ENTITY btnPageJS.tooltip  "Journaliser les exceptions JavaScript">
 <!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageSecurity.label "Sécurité">
-<!ENTITY btnPageSecurity.tooltip "Journaliser les erreurs de sécurité et les avertissements">
+<!ENTITY btnPageSecurity.tooltip "Journaliser les avertissements et les erreurs de sécurité">
 <!ENTITY btnPageSecurity.accesskey "S">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
@@ -67,18 +67,18 @@
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
 <!ENTITY btnPageLogging.label   "Journal">
-<!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « window.console »">
-<!ENTITY btnPageLogging.accesskey3 "L">
+<!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « console »">
+<!ENTITY btnPageLogging.accesskey3 "u">
 <!ENTITY btnConsoleErrors       "Erreurs">
-<!ENTITY btnConsoleInfo         "Infos">
+<!ENTITY btnConsoleInfo         "Info">
 <!ENTITY btnConsoleWarnings     "Avertissements">
-<!ENTITY btnConsoleLog          "Journal">
+<!ENTITY btnConsoleLog          "Log">
 <!ENTITY btnConsoleXhr          "XHR">
 <!ENTITY btnConsoleReflows      "Reflows">
 
 <!ENTITY filterOutput.placeholder "Filtrer">
 <!ENTITY btnClear.label        "Vider la console">
-<!ENTITY btnClear.tooltip      "Vider la console Web">
+<!ENTITY btnClear.tooltip      "Vider la console web">
 <!ENTITY btnClear.accesskey    "V">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">

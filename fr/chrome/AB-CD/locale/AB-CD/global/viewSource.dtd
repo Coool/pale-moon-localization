@@ -5,27 +5,27 @@
 <!-- extracted from content/viewSource.xul -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE --> 
-<!ENTITY mainWindow.title "&amp;brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
-<!ENTITY mainWindow.titlemodifier "&amp;brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Source of: ">
+<!ENTITY mainWindow.preface "Source de : ">
 
-<!ENTITY fileMenu.label "File">
+<!ENTITY fileMenu.label "Fichier">
 <!ENTITY fileMenu.accesskey "F">
-<!ENTITY savePageCmd.label "Save Page As…">
-<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.label "Enregistrer sous…">
+<!ENTITY savePageCmd.accesskey "s">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Page Setup…">
-<!ENTITY pageSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "Print Preview">
-<!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Print…">
-<!ENTITY printCmd.accesskey "P">
+<!ENTITY pageSetupCmd.label "Mise en page…">
+<!ENTITY pageSetupCmd.accesskey "M">
+<!ENTITY printPreviewCmd.label "Aperçu avant impression">
+<!ENTITY printPreviewCmd.accesskey "r">
+<!ENTITY printCmd.label "Imprimer…">
+<!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "P">
-<!ENTITY closeCmd.label "Close">
-<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.label "Fermer">
+<!ENTITY closeCmd.accesskey "F">
 <!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
@@ -42,45 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Go to Line…">
-<!ENTITY goToLineCmd.accesskey "G">
+<!ENTITY goToLineCmd.label "Aller à la ligne…">
+<!ENTITY goToLineCmd.accesskey "A">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "View">
-<!ENTITY viewMenu.accesskey       "V">
-<!ENTITY reloadCmd.label "Reload">
-<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY viewMenu.label           "Affichage">
+<!ENTITY viewMenu.accesskey       "h">
+<!ENTITY reloadCmd.label "Actualiser">
+<!ENTITY reloadCmd.accesskey "r">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Wrap Long Lines"> 
-<!ENTITY menu_wrapLongLines.accesskey "W">
-<!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
-<!ENTITY menu_highlightSyntax.accesskey "H">
-<!ENTITY menu_textSize.label "Text Size">
-<!ENTITY menu_textSize.accesskey "Z">
-<!ENTITY menu_textEnlarge.label "Increase">
-<!ENTITY menu_textEnlarge.accesskey "I">
-<!ENTITY menu_textReduce.label "Decrease">
-<!ENTITY menu_textReduce.accesskey "D">
-<!ENTITY menu_textReset.label "Normal">
+<!ENTITY menu_wrapLongLines.title "Retour à la ligne automatique"> 
+<!ENTITY menu_wrapLongLines.accesskey "R">
+<!ENTITY menu_highlightSyntax.label "Coloration syntaxique">
+<!ENTITY menu_highlightSyntax.accesskey "C">
+<!ENTITY menu_textSize.label "Taille du texte">
+<!ENTITY menu_textSize.accesskey "x">
+<!ENTITY menu_textEnlarge.label "Plus grande">
+<!ENTITY menu_textEnlarge.accesskey "g">
+<!ENTITY menu_textReduce.label "Plus petite">
+<!ENTITY menu_textReduce.accesskey "p">
+<!ENTITY menu_textReset.label "Normale">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Find in This Page…">
-<!ENTITY findOnCmd.accesskey "F">
+<!ENTITY findOnCmd.label     "Rechercher dans la page…">
+<!ENTITY findOnCmd.accesskey "h">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Find Again">
-<!ENTITY findAgainCmd.accesskey "g">
+<!ENTITY findAgainCmd.label  "Rechercher le suivant">
+<!ENTITY findAgainCmd.accesskey "v">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Back">
-<!ENTITY backCmd.accesskey "B">
-<!ENTITY forwardCmd.label "Forward">
-<!ENTITY forwardCmd.accesskey "F">
+<!ENTITY backCmd.label "Page précédente">
+<!ENTITY backCmd.accesskey "p">
+<!ENTITY forwardCmd.label "Page suivante">
+<!ENTITY forwardCmd.accesskey "s">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Copy Link Location">
-<!ENTITY copyLinkCmd.accesskey "L">
-<!ENTITY copyEmailCmd.label "Copy Email Address">
-<!ENTITY copyEmailCmd.accesskey "E">
+<!ENTITY copyLinkCmd.label "Copier l'adresse du lien">
+<!ENTITY copyLinkCmd.accesskey "C">
+<!ENTITY copyEmailCmd.label "Copier l'adresse électronique">
+<!ENTITY copyEmailCmd.accesskey "o">

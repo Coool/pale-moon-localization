@@ -4,7 +4,7 @@
 
 <!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
      is not supported on some devices. Include a trailing space as needed. -->
-<!ENTITY unsupportedPlatform.pre                             "Désolés mais &amp;brandShortName; ne peut pas jouer d'animations Flash sur cet appareil. ">
+<!ENTITY unsupportedPlatform.pre                             "Nous sommes vraiment désolés, mais &brandShortName; ne peut pas jouer d'animations Flash sur cet appareil. ">
 <!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
      supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
 <!ENTITY unsupportedPlatform.learnMore                       "En savoir plus…">
@@ -13,12 +13,12 @@
 
 <!ENTITY missingPlugin                                       "Un plugin est nécessaire pour afficher ce contenu.">
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
-<!ENTITY tapToPlayPlugin                                     "Cliquer ou appuyer ici pour activer le plugin.">
+<!ENTITY tapToPlayPlugin                                     "Appuyer ici pour activer le plugin.">
 <!ENTITY clickToActivatePlugin                               "Activer le plugin.">
 <!ENTITY checkForUpdates                                     "Rechercher des mises à jour…">
 <!ENTITY disabledPlugin                                      "Ce plugin est désactivé.">
-<!ENTITY blockedPlugin.label                                 "Ce plugin a été bloqué par mesure de sécurité.">
-<!ENTITY hidePluginBtn.label                                 "Hide plugin">
+<!ENTITY blockedPlugin.label                                 "Ce plugin a été bloqué pour votre protection.">
+<!ENTITY hidePluginBtn.label                                 "Masquer le plugin">
 <!ENTITY managePlugins                                       "Gérer les plugins…">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
@@ -39,4 +39,4 @@
 
 <!ENTITY plugin.file                                         "Fichier">
 <!ENTITY plugin.mimeTypes                                    "Types MIME">
-<!ENTITY plugin.flashProtectedMode.label                     "Enable Adobe Flash protected mode">
+<!ENTITY plugin.flashProtectedMode.label                     "Activer le mode protégé d'Adobe Flash">

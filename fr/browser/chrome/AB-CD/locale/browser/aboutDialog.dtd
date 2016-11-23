@@ -1,23 +1,23 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
-<!ENTITY aboutDialog.title          "À propos de &amp;brandFullName;">
+<!ENTITY aboutDialog.title          "À propos de &brandFullName;">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
-<!ENTITY warningDesc.version        "&amp;brandShortName; est expérimental et peut être instable.">
+<!ENTITY warningDesc.version        "&brandShortName; est expérimental et peut être instable.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.exp.mozillaLink  "&amp;vendorShortName;">
+<!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " est une ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "communauté mondiale">
 <!ENTITY community.exp.end          " de contributeurs qui travaillent ensemble pour garder Internet ouvert, public et accessible à tous.">
 
-<!ENTITY community.start2           "&amp;brandShortName; est conçu par ">
+<!ENTITY community.start2           "&brandShortName; est conçu par ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.mozillaLink      "&amp;vendorShortName;">
+<!ENTITY community.mozillaLink      "&vendorShortName;">
 <!ENTITY community.middle2          ", une communauté mondiale de ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "contributeurs">
@@ -42,11 +42,11 @@
 <!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingAddonCompat "Vérification de la compatibilité des modules…">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.noUpdatesFound      "&amp;brandShortName; est à jour">
+<!ENTITY update.noUpdatesFound      "&brandShortName; est à jour">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled       "Les mises à jour ont été désactivées par l'administrateur système">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates "&amp;brandShortName; est mis à jour par une autre instance">
+<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; est mis à jour par une autre instance">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into

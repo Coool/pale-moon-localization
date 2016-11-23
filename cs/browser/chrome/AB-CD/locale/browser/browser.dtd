@@ -130,7 +130,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY backCmd.label                "Zpět">
 <!ENTITY backCmd.accesskey            "Z">
-<!ENTITY backButton.tooltip           "Přejde o jednu stránku zpět">
+<!ENTITY backButton.tooltip           "Přejde na předchozí stránku">
 <!ENTITY forwardCmd.label             "Vpřed">
 <!ENTITY forwardCmd.accesskey         "V">
 <!ENTITY forwardButton.tooltip        "Přejde na následující stránku">
@@ -184,7 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY toolsMenu.label              "Nástroje">
 <!ENTITY toolsMenu.accesskey          "N"> 
 
-<!ENTITY keywordfield.label           "K vyhledávání přiřadit klíčové slovo">
+<!ENTITY keywordfield.label           "Přiřadit k tomuto vyhledávání klíčové slovo…">
 <!ENTITY keywordfield.accesskey       "h">
 <!ENTITY search.label                 "Hledání na webu">
 <!ENTITY search.accesskey             "w">
@@ -378,8 +378,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showOnlyThisFrameCmd.label     "Zobrazit pouze tento rám">
 <!ENTITY showOnlyThisFrameCmd.accesskey "p">
 <!ENTITY reloadCmd.commandkey         "r">
-<!ENTITY reloadFrameCmd.label         "Znovu načíst rám">
-<!ENTITY reloadFrameCmd.accesskey     "r">
+<!ENTITY reloadFrameCmd.label         "Obnovit rám">
+<!ENTITY reloadFrameCmd.accesskey     "m">
 <!ENTITY viewPartialSourceForSelectionCmd.label "Zobrazit zdrojový kód výběru">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "Zobrazit zdrojový kód MathML">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
@@ -454,7 +454,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyVideoURLCmd.accesskey    "a">
 <!ENTITY copyAudioURLCmd.label        "Kopírovat adresu audia">
 <!ENTITY copyAudioURLCmd.accesskey    "a">
-<!ENTITY copyEmailCmd.label           "Kopírovat adresu e-mailu">
+<!ENTITY copyEmailCmd.label           "Kopírovat e-mailovou adresu">
 <!ENTITY copyEmailCmd.accesskey       "a">
 <!ENTITY thisFrameMenu.label              "Tento rám">
 <!ENTITY thisFrameMenu.accesskey          "T">
@@ -523,8 +523,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
-<!ENTITY fullZoomResetCmd.label         "Normální">
-<!ENTITY fullZoomResetCmd.accesskey     "N">
+<!ENTITY fullZoomResetCmd.label         "Výchozí">
+<!ENTITY fullZoomResetCmd.accesskey     "c">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
@@ -581,7 +581,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "Změnit orientaci stránky">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "o">
-<!ENTITY bidiSwitchTextDirectionItem.label        "Změnit orientaci textu">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Změnit směr textu">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "r">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 

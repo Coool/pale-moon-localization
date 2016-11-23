@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "Add-ons-Manager">
 
 <!ENTITY search.placeholder                   "Alle Add-ons durchsuchen">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Suche">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Entfernen">
 <!ENTITY cmd.uninstallAddon.accesskey         "n">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Debuggen">
 <!ENTITY cmd.showPreferencesWin.label         "Einstellungen">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Die Einstellungen dieses Add-ons ändern">
 <!ENTITY cmd.showPreferencesUnix.label        "Einstellungen">
@@ -120,8 +120,8 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Was sind Add-ons?">
-<!ENTITY discover.description2                "Add-ons sind Anwendungen, mit denen Sie &amp;brandShortName; mit 
-zusätzlichen Funktionen oder einem anderen Stil ausstatten können. Probieren Sie eine zeitsparende Sidebar, eine Wettervorhersage  oder ein Theme, um Ihren ganz persönlichen &amp;brandShortName; 
+<!ENTITY discover.description2                "Add-ons sind Anwendungen, mit denen Sie &brandShortName; mit 
+zusätzlichen Funktionen oder einem anderen Stil ausstatten können. Probieren Sie eine zeitsparende Sidebar, eine Wettervorhersage  oder ein Theme, um Ihren ganz persönlichen &brandShortName; 
 zu bekommen.">
 <!ENTITY discover.footer                      "Wenn Sie mit dem Internet verbunden sind, wird diese Seite 
 einige der besten und populärsten Add-ons zum Ausprobieren anbieten.">
@@ -224,10 +224,10 @@ einige der besten und populärsten Add-ons zum Ausprobieren anbieten.">
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Was das? Telemetrie installiert und startet eventuell Experimente von Zeit zu Zeit.">
+<!ENTITY experiment.info.learnmore "Mehr erfahren">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "Telemetrie Einstellungen">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Weitere Informationen…">

@@ -50,27 +50,27 @@
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "c">
 
-<!ENTITY viewMenu.label               "View">
-<!ENTITY viewMenu.accesskey           "V">
+<!ENTITY viewMenu.label               "Ansicht">
+<!ENTITY viewMenu.accesskey           "A">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.label             "Zeilennummern anzeigen">
+<!ENTITY lineNumbers.accesskey         "Z">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Zeilen umbrechen">
+<!ENTITY wordWrap.accesskey            "u">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Leerzeichen am Ende hervorheben">
+<!ENTITY highlightTrailingSpace.accesskey "L">
 
-<!ENTITY largerFont.label             "Larger Font">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.label             "Größere Schrift">
+<!ENTITY largerFont.accesskey         "G">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.label            "Kleinere Schrift">
+<!ENTITY smallerFont.accesskey        "K">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "Normale Schriftgröße">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
@@ -89,9 +89,9 @@
 <!ENTITY display.accesskey            "z">
 <!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.label                 "Einheitlich formatieren">
 <!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.accesskey             "h">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -123,7 +123,7 @@
 <!ENTITY helpMenuWin.label            "Hilfe">
 <!ENTITY helpMenuWin.accesskey        "H">
 
-<!ENTITY documentationLink.label      "Hilfe zur JavaScript-Umgebung auf MDN (englisch)">
+<!ENTITY documentationLink.label      "Hilfe zur JavaScript-Umgebung auf MDN">
 <!ENTITY documentationLink.accesskey  "M">
 
 
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "Aktuelle Funktion evaluieren">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">

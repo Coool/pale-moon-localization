@@ -29,77 +29,77 @@
 <!ENTITY status4evar.option.fixed "Solucionado">
 <!ENTITY status4evar.option.simple "Simple">
 <!ENTITY status4evar.option.advanced "Opciones avanzadas">
-<!ENTITY status4evar.option.browse "Browse">
-<!ENTITY status4evar.option.clear "Clear">
+<!ENTITY status4evar.option.browse "Examinar">
+<!ENTITY status4evar.option.clear "Limpiar">
 <!ENTITY status4evar.option.center "Center">
 <!ENTITY status4evar.option.offset "Offset">
 <!ENTITY status4evar.option.repeat "Repetir">
 <!ENTITY status4evar.option.no-repeat "No repetir">
-<!ENTITY status4evar.option.space "Space">
+<!ENTITY status4evar.option.space "Espacio">
 <!ENTITY status4evar.option.round "Round">
-<!ENTITY status4evar.option.firefoxdefault "Pale Moon default">
+<!ENTITY status4evar.option.firefoxdefault "Predeterminado de Pale Moon">
 <!ENTITY status4evar.option.download.library "Librería">
 <!ENTITY status4evar.option.download.tab "Pestaña">
-<!ENTITY status4evar.option.download.thirdparty "3rd Party">
+<!ENTITY status4evar.option.download.thirdparty "De terceros">
 
 <!ENTITY status4evar.unit.milliseconds "milisegundos">
 <!ENTITY status4evar.unit.seconds "segundos">
 <!ENTITY status4evar.unit.px "px">
 
-<!ENTITY status4evar.status.general.status.caption "Status Text">
-<!ENTITY status4evar.status.label "Show status in:">
+<!ENTITY status4evar.status.general.status.caption "Texto de estado">
+<!ENTITY status4evar.status.label "Mostrar el estado en:">
 <!ENTITY status4evar.status.timeout.label "Ocultar el estado después de:">
-<!ENTITY status4evar.status.default.label "Show default status">
-<!ENTITY status4evar.status.network.label "Show network status">
-<!ENTITY status4evar.status.network.xhr.label "Show background network status">
-<!ENTITY toolkit.dom.status.change.label "Allow web pages to change the status">
+<!ENTITY status4evar.status.default.label "Mostrar el estado predeterminado">
+<!ENTITY status4evar.status.network.label "Mostrar el estado de la red">
+<!ENTITY status4evar.status.network.xhr.label "Mostrar el estado de la red de fondo">
+<!ENTITY toolkit.dom.status.change.label "Permitir que las páginas web cambiar el estado">
 
-<!ENTITY status4evar.status.general.linkOver.caption "Links">
-<!ENTITY status4evar.status.linkOver.label "Show links in:">
-<!ENTITY status4evar.status.linkOver.delay.show.label "Delay before showing links:">
-<!ENTITY status4evar.status.linkOver.delay.hide.label "Delay before hiding links:">
+<!ENTITY status4evar.status.general.linkOver.caption "Enlaces">
+<!ENTITY status4evar.status.linkOver.label "Mostrar los enlaces en:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Retardo antes de mostrar los enlaces:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Retardo antes de ocultar los enlaces:">
 
-<!ENTITY status4evar.status.toolbar.maxLength.label "Max status text length:">
+<!ENTITY status4evar.status.toolbar.maxLength.label "Longitud máxima del texto de estado:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Status alignment:">
-<!ENTITY status4evar.status.urlbar.color.label "Status color:">
-<!ENTITY status4evar.status.currentUrl "Current Location">
-<!ENTITY status4evar.status.statusText "Status Text">
+<!ENTITY status4evar.status.urlbar.align.label "Alineación del estado:">
+<!ENTITY status4evar.status.urlbar.color.label "Color del estado:">
+<!ENTITY status4evar.status.currentUrl "Ubicación actual">
+<!ENTITY status4evar.status.statusText "Texto de estado">
 
-<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibility features">
-<!ENTITY browser.urlbar.formatting.enabled.label "Enable domain highlighting">
-<!ENTITY browser.urlbar.trimming.enabled.label "Enable protocol hiding (http:// and ftp://)">
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Características de compatibilidad con Firefox">
+<!ENTITY browser.urlbar.formatting.enabled.label "Activar resaltado del dominio">
+<!ENTITY browser.urlbar.trimming.enabled.label "Activar ocultación de protocolo (http:// y ftp://)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "Default to the right side">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Swap sides when moused over">
+<!ENTITY status4evar.status.popup.invertMirror.label "Por defecto a la derecha">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Intercambiar el lado cuando se pase el puntero">
 
-<!ENTITY status4evar.progress.style.label "Use a custom style">
+<!ENTITY status4evar.progress.style.label "Usar un estilo personalizado">
 
-<!ENTITY status4evar.progress.urlbar.enable.label "Show progress in the Address Bar">
-<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+<!ENTITY status4evar.progress.urlbar.enable.label "Mostrar el progreso en la barra de direcciones">
+<!ENTITY status4evar.progress.urlbar.line.label "Estilo de línea:">
 
-<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+<!ENTITY status4evar.progress.toolbar.force.label "Mostrar siempre el elemento de la barra de estado">
 
 <!ENTITY status4evar.editor.label "Editor:">
 <!ENTITY status4evar.editor.css.color.label "Color:">
-<!ENTITY status4evar.editor.css.image.label "Image:">
-<!ENTITY status4evar.editor.css.image.repeat "Repeat">
-<!ENTITY status4evar.editor.css.image.position "Position">
+<!ENTITY status4evar.editor.css.image.label "Imagen:">
+<!ENTITY status4evar.editor.css.image.repeat "Repetir">
+<!ENTITY status4evar.editor.css.image.position "Posición">
 <!ENTITY status4evar.editor.css.image.offset "Offset">
 
 
 
 <!ENTITY status4evar.download.button.action.label "Download status button action:">
-<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
-<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
-<!ENTITY status4evar.download.label.label "Download status indicator text:">
-<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
-<!ENTITY status4evar.download.progress.label "Show download progress on the button">
-<!ENTITY status4evar.download.progress.average.label "Show average download completion">
-<!ENTITY status4evar.download.progress.max.label "Show most complete download">
-<!ENTITY status4evar.download.progress.min.label "Show least complete download">
-<!ENTITY status4evar.download.color.active.label "Progress color for active downloads:">
-<!ENTITY status4evar.download.color.paused.label "Progress color for paused downloads:">
+<!ENTITY status4evar.download.force.label "Mostrar siempre el indicador de estado de descarga">
+<!ENTITY status4evar.download.label.force.label "Mostrar siempre el texto del indicador">
+<!ENTITY status4evar.download.label.label "Texto de indicador de estado de descarga:">
+<!ENTITY status4evar.download.tooltip.label "Descripción del indicador de estado de descarga:">
+<!ENTITY status4evar.download.progress.label "Mostrar progreso de la descarga en el botón">
+<!ENTITY status4evar.download.progress.average.label "Mostrar el promedio de fin de la descarga">
+<!ENTITY status4evar.download.progress.max.label "Mostrar la descarga más completa">
+<!ENTITY status4evar.download.progress.min.label "Mostrar la descarga menos completa">
+<!ENTITY status4evar.download.color.active.label "Color de progreso para descargas activas:">
+<!ENTITY status4evar.download.color.paused.label "Color de progreso para descargas en pausa:">
 <!ENTITY status4evar.download.notify.animate.label "Animate button when download completes">
 <!ENTITY status4evar.download.notify.timeout.label "Highlight button when download completes:">
 

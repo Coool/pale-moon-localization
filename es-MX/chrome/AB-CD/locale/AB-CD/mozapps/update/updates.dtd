@@ -1,7 +1,7 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Actualización de &amp;brandShortName;">
+<!ENTITY  updateWizard.title              "Actualización de &brandShortName;">
 
 <!ENTITY  checking.title                  "Comprobando actualizaciones">
 <!ENTITY  updateCheck.label               "Comprobar si hay actualizaciones, pero permitirme elegir si serán instaladas">
@@ -11,10 +11,10 @@
 <!ENTITY  pluginupdateslink.label         "Ver cómo actualizar sus complementos.">
 
 <!ENTITY  noupdatesfound.title            "No se encontraron actualizaciones">
-<!ENTITY  noupdatesautoenabled.intro      "No hay actualizaciones disponibles. &amp;brandShortName; verifique
+<!ENTITY  noupdatesautoenabled.intro      "No hay actualizaciones disponibles. &brandShortName; verifique
                                            su existencia periódicamente.">
 <!ENTITY  noupdatesautodisabled.intro     "No hay actualizaciones disponibles. Búsque nuevamente en otra ocasión o active
-                                           las actualizaciones automáticas de &amp;brandShortName;.">
+                                           las actualizaciones automáticas de &brandShortName;.">
 
 <!ENTITY  manualUpdate.title              "No es posible realizar la actualización">
 <!ENTITY  manualUpdate.desc               "Esta disponible una actualización de seguridad y estabilidad, pero
@@ -22,10 +22,10 @@
                                            administrador de sistemas o intente nuevamente desde una cuenta con los permisos necesarios para
                                            instalar programas en esta computadora.">
 <!ENTITY  manualUpdate.space.desc         "Una actualización recomendada de seruridad y estabilidad está disponible, pero no tiene suficiente espacio para instarla.">
-<!ENTITY  manualUpdateGetMsg.label        "Siempre puede obtener la última versión de &amp;brandShortName; en:">
+<!ENTITY  manualUpdateGetMsg.label        "Siempre puede obtener la última versión de &brandShortName; en:">
 
 <!ENTITY  unsupported.title               "Sistema no soportado">
-<!ENTITY  unsupported.label               "Su complemento &amp;brandShortName; ha expirado, pero la última versión no es
+<!ENTITY  unsupported.label               "Su complemento &brandShortName; ha expirado, pero la última versión no es
                                            soportada por su sistema. Por favor actualize su sistema e intente nuevamente.
                                            Usted no verá esta nota nuevamente, pero usted puede">
 <!ENTITY  unsupportedLink.label           "aprender más.">
@@ -36,7 +36,7 @@
 <!ENTITY  clickHere.label                 "Ver más información sobre esta actualización">
 
 <!ENTITY  evangelism.desc                 "Le recomendamos ampliamente instalar esta 
-                                           actualización de &amp;brandShortName; lo antes posible.">
+                                           actualización de &brandShortName; lo antes posible.">
 
 <!ENTITY  license.instructions            "Si está de acuerdo con los términos de este acuerdo, da clic en Estoy de acuerdo
                                            para continuar con la instalación.">
@@ -51,10 +51,10 @@
 
 <!ENTITY  incompatibleList.title          "Hay complementos incompatibles">
 
-<!ENTITY  downloadPage.title              "Descargando &amp;brandShortName;">
+<!ENTITY  downloadPage.title              "Descargando &brandShortName;">
 <!ENTITY  downloading.intro               "Descargando la actualización…">
 <!ENTITY  connecting.label                "Conectando con el servidor de actualizaciones…">
-<!ENTITY  verificationFailedText.label    "&amp;brandShortName; no pudo verificar la integridad de la
+<!ENTITY  verificationFailedText.label    "&brandShortName; no pudo verificar la integridad de la
                                            actualización incremental descargada, ahora se descargará
                                            el paquete de actualización completo.">
 
@@ -65,27 +65,27 @@
 <!ENTITY  error.title                     "Actualización fallida">
 
 <!ENTITY  error.label                     "Hubo problemas al comprobar, descargar o instalar esta
-                                           actualización. No se pudo actualizar &amp;brandShortName; porque:">
+                                           actualización. No se pudo actualizar &brandShortName; porque:">
                                            
-<!ENTITY  errorManual.label               "Se puede actualizar &amp;brandShortName; manualmente visitando este enlace
+<!ENTITY  errorManual.label               "Se puede actualizar &brandShortName; manualmente visitando este enlace
                                            y descargando la última versión:">
                                            
 <!ENTITY  errorpatching.intro             "No se pudo aplicar la actualización parcial.
-                                           &amp;brandShortName; volverá a intentarlo descargando la actualización completa.">
+                                           &brandShortName; volverá a intentarlo descargando la actualización completa.">
 
-<!ENTITY  genericBackgroundError.label    "&amp;brandShortName; no puede determinar si hay una actualización disponible. Por favor, asegúrese de que tiene la última versión de &amp;brandShortName; en:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Algo esta impidiendo a &amp;brandShortName; una actualización de seguridad. Por favor, asegúrese que tiene la última versión de &amp;brandShortName; a partir de:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Algo esta tratando de engañar a &amp;brandShortName; para que acepte una actualización insegura. Póngase en contacto con tu proveedor de red y busque ayuda.">
+<!ENTITY  genericBackgroundError.label    "&brandShortName; no puede determinar si hay una actualización disponible. Por favor, asegúrese de que tiene la última versión de &brandShortName; en:">
+<!ENTITY  errorCertAttrNoUpdate2.label    "Algo esta impidiendo a &brandShortName; una actualización de seguridad. Por favor, asegúrese que tiene la última versión de &brandShortName; a partir de:">
+<!ENTITY  errorCertAttrHasUpdate.label    "Algo esta tratando de engañar a &brandShortName; para que acepte una actualización insegura. Póngase en contacto con tu proveedor de red y busque ayuda.">
 
 <!ENTITY  finishedPage.title              "Actualización lista para instalar">
-<!ENTITY  finishedPage.text               "La actualización se instalará la próxima vez que inicie &amp;brandShortName;. Puede 
+<!ENTITY  finishedPage.text               "La actualización se instalará la próxima vez que inicie &brandShortName;. Puede 
                                            hacerlo ahora o dejarlo para más tarde mientras continúa trabajando.">
 
-<!ENTITY  finishedBackgroundPage.text     "Se ha descargado una actualización de seguridad y estabilidad para &amp;brandShortName;
+<!ENTITY  finishedBackgroundPage.text     "Se ha descargado una actualización de seguridad y estabilidad para &brandShortName;
                                            y está lista para ser instalada.">
 <!ENTITY  finishedBackground.name         "Actualización:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
-<!ENTITY  finishedBackground.more         "La actualización se instalará cuando reinicie &amp;brandShortName;. Puede
+<!ENTITY  finishedBackground.more         "La actualización se instalará cuando reinicie &brandShortName;. Puede
                                            hacerlo ahora o dejarlo para más tarde mientras continúa trabajando.">
 
 <!ENTITY  installed.title                 "Actualización instalada">

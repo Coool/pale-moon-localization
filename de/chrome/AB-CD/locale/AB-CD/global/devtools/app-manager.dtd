@@ -11,7 +11,7 @@
 <!ENTITY device.debugMainProcessTooltip "Das öffnen der Entwickler-Tools verbindet zum Hauptprozess auf diesem Gerät">
 <!ENTITY device.screenshot "Bildschirmfoto">
 <!ENTITY device.screenshotTooltip "Öffne ein Bildschirmfoto des aktuellen Stands auf dem Gerät in einem neuen Tab">
-<!ENTITY device.title "Gerät-Kontroll-Zenter">
+<!ENTITY device.title "Gerät-Kontrollcenter">
 <!ENTITY device.notConnected "Nicht verbunden. Bitte verbinde dein unterhalbliegendes Gerät.">
 <!ENTITY device.startApp "Start">
 <!ENTITY device.startAppTooltip "Starte diese App auf dem Gerät">
@@ -54,50 +54,50 @@
 <!ENTITY connection.saveConnectionInfoTooltip "Speichere den Host und Port">
 <!ENTITY connection.connecting "Verbinde…">
 <!ENTITY connection.disconnecting "Trenne…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
+<!ENTITY connection.cancel "Abbrechen">
+<!ENTITY connection.cancelConnectTooltip "Die laufende Verbindung beenden">
+<!ENTITY connection.cancelShowSimulatorTooltip "Den Verbindungsmodus des Simulators beenden und zum Ausgangszustand zurückkehren">
+<!ENTITY connection.or "oder">
+<!ENTITY connection.noSimulatorInstalled "Kein Simulator installiert.">
+<!ENTITY connection.installOneSimulator "Simulator installieren">
+<!ENTITY connection.installOneSimulatorTooltip "Installieren Sie eine Version des Simulators durch Herunterladen des erforderlichen Add-ons">
+<!ENTITY connection.installAnotherSimulator "Hinzufügen">
+<!ENTITY connection.installAnotherSimulatorTooltip "Installieren Sie eine weitere Version des Simulators durch Herunterladen des entsprechenden Add-ons">
 <!ENTITY connection.startRegisteredSimulator "Start:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
-<!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.localApps "Lokale Apps">
+<!ENTITY projects.addApp "Hinzufügen">
+<!ENTITY projects.addPackaged "Gepackte App hinzufügen">
+<!ENTITY projects.addPackagedTooltip "Eine neue gepackte App als Ordner vom Computer hinzufügen">
+<!ENTITY projects.addHosted "Gehostete App hinzufügen">
+<!ENTITY projects.addHostedTooltip "Eine neue gehostete App als Link zu einer manifest.webapp-Datei von einer entfernten Webseite hinzufügen">
+<!ENTITY projects.title "Lokale Apps">
+<!ENTITY projects.appDetails "App-Details">
+<!ENTITY projects.removeAppFromList "Diese App aus der Liste der Apps entfernen, mit denen Sie derzeit arbeiten. Dies entfernt die App nicht vom Gerät oder aus dem Simulator.">
+<!ENTITY projects.updateApp "Aktualisieren">
+<!ENTITY projects.updateAppTooltip "Validierungstests durchführen und die App auf dem verbundenen Gerät aktualisieren">
+<!ENTITY projects.debugApp "Fehlersuche (Debug)">
+<!ENTITY projects.debugAppTooltip "Entwicklerwerkzeuge öffnen, die mit dieser App verbunden sind">
+<!ENTITY projects.saveManifest "Speichern">
+<!ENTITY projects.saveManifestTooltip "Die Inhalte des Manifest-Editors unten speichern">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.noProjects "Keine Projekte vorhanden. Fügen Sie unten eine neue gepackte App als lokalen Ordner oder eine gehostete App als Link  zu einer Manifest-Datei hinzu.">
+<!ENTITY projects.manifestEditor "Manifest-Bearbeitung">
+<!ENTITY projects.manifestEditorTooltip "Bearbeiten des App-Manifests im Bedienfeld unten. Die Aktualisieren-Schaltfläche speichert Ihre Änderungen und aktualisiert die App.">
+<!ENTITY projects.manifestViewer "Manifest-Ansicht">
+<!ENTITY projects.manifestViewerTooltip "Untersuchen des App-Manifests im Bedienfeld weiter unten">
+<!ENTITY projects.valid "Gültig">
+<!ENTITY projects.error "Fehler">
+<!ENTITY projects.warning "Warnung">
+<!ENTITY projects.hosted "Gehostet">
+<!ENTITY projects.packaged "Gepackt">
 
 <!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.close "Schließen">
+<!ENTITY help.intro "Dieses Werkzeug hilft Ihnen beim Erstellen und Installieren von Web-Apps auf kompatiblen Geräten (z.B. mit Firefox OS). Der Tab <strong>Apps</strong> unterstützt Sie bei der Installation und Validierung Ihrer App. Der Tab <strong>Gerät</strong> liefert Informationen über das verbundene Gerät. Verwenden Sie die Leiste unten, um mit einem Gerät zu verbinden oder den Simulator zu starten.">
+<!ENTITY help.usefullLinks "Nützliche Links:">
+<!ENTITY help.appMgrDoc "Dokumentation: Verwendung des App-Managers">
+<!ENTITY help.configuringDevice "Einrichten Ihres Firefox OS-Geräts">
+<!ENTITY help.troubleShooting "Fehlerbehebung">
+<!ENTITY help.simulatorAddon "Simulator Add-on installieren">
+<!ENTITY help.adbHelperAddon "Adb-Helfer Add-on installieren">

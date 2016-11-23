@@ -2,115 +2,115 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY accountSetupTitle.label    "Configuración de &amp;syncBrand.fullName.label;">
+<!ENTITY accountSetupTitle.label    "Configuración de &syncBrand.fullName.label;">
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description2 "¡Bienvenido! Si nunca antes has usado &amp;syncBrand.fullName.label;, necesitas crear una cuenta nueva.">
+<!ENTITY setup.pickSetupType.description2 "¡Bienvenido! Si nunca has usado &syncBrand.fullName.label;, necesitarás crear una cuenta nueva.">
 <!ENTITY button.createNewAccount.label "Crear una cuenta nueva">
 <!ENTITY button.haveAccount.label      "Ya tengo una cuenta">
 
-<!ENTITY setup.choicePage.title.label     "¿Has utilizado &amp;syncBrand.fullName.label; antes?">
-<!ENTITY setup.choicePage.new.label       "Nunca antes he usado &amp;syncBrand.shortName.label; ">
-<!ENTITY setup.choicePage.existing2.label "I'm already using &amp;syncBrand.shortName.label; on another device">
+<!ENTITY setup.choicePage.title.label     "¿Has utilizado &syncBrand.fullName.label; antes?">
+<!ENTITY setup.choicePage.new.label       "Nunca antes he usado &syncBrand.shortName.label; ">
+<!ENTITY setup.choicePage.existing2.label "Ya estoy usando &syncBrand.shortName.label; en otro dispositivo">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Servidor">
-<!ENTITY serverType.default.label      "Predeterminado: Servidor &amp;syncBrand.fullName.label; de Mozilla">
+<!ENTITY serverType.default.label      "Predeterminado: Servidor &syncBrand.fullName.label;">
 <!ENTITY serverType.custom2.label   "Usar un servidor personalizado…">
 <!ENTITY signIn.account2.label      "Cuenta">
-<!ENTITY signIn.account2.accesskey  "A">
+<!ENTITY signIn.account2.accesskey  "C">
 <!ENTITY signIn.password.label      "Contraseña">
-<!ENTITY signIn.password.accesskey  "C">
+<!ENTITY signIn.password.accesskey  "o">
 <!ENTITY signIn.recoveryKey.label       "Clave de recuperación">
-<!ENTITY signIn.recoveryKey.accesskey   "K">
+<!ENTITY signIn.recoveryKey.accesskey   "r">
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "Detalles de la cuenta">
 <!ENTITY setup.emailAddress.label     "Dirección de correo electrónico">
-<!ENTITY setup.emailAddress.accesskey "E">
-<!ENTITY setup.choosePassword.label      "Elije una contraseña">
-<!ENTITY setup.choosePassword.accesskey  "P">
-<!ENTITY setup.confirmPassword.label     "Confirmar contraseña">
-<!ENTITY setup.confirmPassword.accesskey "m">
-<!ENTITY setup.setupMetro.label     "Sync with Windows 8 style &amp;brandShortName;">
-<!ENTITY setup.setupMetro.accesskey "S">
+<!ENTITY setup.emailAddress.accesskey "D">
+<!ENTITY setup.choosePassword.label      "Elige una contraseña">
+<!ENTITY setup.choosePassword.accesskey  "E">
+<!ENTITY setup.confirmPassword.label     "Confirma contraseña">
+<!ENTITY setup.confirmPassword.accesskey "C">
+<!ENTITY setup.setupMetro.label     "Sincronizar con &brandShortName; estilo Windows 8">
+<!ENTITY setup.setupMetro.accesskey "W">
 
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
      joined with implicit white space, so spaces in the strings aren't necessary -->
 <!ENTITY setup.tosAgree1.label      "Acepto los">
-<!ENTITY setup.tosAgree1.accesskey  "a">
-<!ENTITY setup.tosLink.label        "Términos del servicio">
+<!ENTITY setup.tosAgree1.accesskey  "A">
+<!ENTITY setup.tosLink.label        "términos del servicio">
 <!ENTITY setup.tosAgree2.label      "y la">
-<!ENTITY setup.ppLink.label         "Política de privacidad">
+<!ENTITY setup.ppLink.label         "política de privacidad">
 <!ENTITY setup.tosAgree3.label      "">
 <!ENTITY setup.tosAgree2.accesskey  "">
 
 <!-- My Recovery Key dialog -->
-<!ENTITY setup.newRecoveryKeyPage.title.label "&amp;brandShortName; se preocupa por tu privacidad">
-<!ENTITY setup.newRecoveryKeyPage.description.label "Para asegurar totalmente tu privacidad, toda tu información es encriptada antes de ser subida. La clave de recuperación que es necesaria para desencriptar tu información no es subida.">
+<!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; se preocupa por tu privacidad">
+<!ENTITY setup.newRecoveryKeyPage.description.label "Para asegurar totalmente tu privacidad, toda tu información es cifrada antes de ser subida. La clave de recuperación, que es necesaria para descifrar tu información, no es subida.">
 <!ENTITY recoveryKeyEntry.label        "Tu clave de recuperación">
-<!ENTITY recoveryKeyEntry.accesskey    "K">
+<!ENTITY recoveryKeyEntry.accesskey    "c">
 <!ENTITY syncGenerateNewKey.label  "Generar una nueva clave">
-<!ENTITY recoveryKeyBackup.description "Tu clave de recuperación es necesaria para accesar a &amp;syncBrand.fullName.label; en otras máquinas. Por favor crea una copia de respaldo. Si la pierdes, no podemos ayudarte a recuperarla.">
+<!ENTITY recoveryKeyBackup.description "Tu clave de recuperación es necesaria para accesar a &syncBrand.fullName.label; en otros dispositivos. Por favor crea una copia de respaldo. Si la pierdes, no podemos ayudarte a recuperarla.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Imprimir…">
-<!ENTITY button.syncKeyBackup.print.accesskey "P">
+<!ENTITY button.syncKeyBackup.print.accesskey "I">
 <!ENTITY button.syncKeyBackup.save.label      "Guardar…">
 <!ENTITY button.syncKeyBackup.save.accesskey  "G">
 
 <!-- Existing Account Page 1: Pair a Device (incl. Pair a Device dialog strings) -->
-<!ENTITY pairDevice.title.label             "Sincronizar un dispositivo">
+<!ENTITY pairDevice.title.label             "Asociar un dispositivo">
 <!ENTITY addDevice.showMeHow.label          "Muéstrame cómo.">
 <!ENTITY addDevice.dontHaveDevice.label     "No tengo el dispositivo conmigo">
-<!ENTITY pairDevice.setup.description.label  "Para activar, selecciona &quot;Sincronizar un dispositivo&quot; en tu otro dispositivo.">
-<!ENTITY addDevice.setup.enterCode.label    "A continuación, introduce el código:">
+<!ENTITY pairDevice.setup.description.label  "Para activar, selecciona &quot;Asociar un dispositivo&quot; en tu otro dispositivo.">
+<!ENTITY addDevice.setup.enterCode.label    "A continuación, introduce este código:">
 <!ENTITY pairDevice.dialog.description.label "Para activar tu nuevo dispositivo, selecciona &quot;Configurar Sync&quot; en él.">
 <!ENTITY addDevice.dialog.enterCode.label   "Ingresa el código que el dispositivo proporciona:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Por favor, intenta de nuevo.">
 <!ENTITY addDevice.dialog.successful.label  "El dispositivo ha sido agregado con éxito. La sincronización inicial puede tardar varios minutos y terminará en segundo plano.">
-<!ENTITY addDevice.dialog.recoveryKey.label     "Para activar tu dispositivo, necesitarás introducir tu clave de recuperación. Por favor imprime o guarda esta clave y mantenla contigo.">
+<!ENTITY addDevice.dialog.recoveryKey.label     "Para activar tu dispositivo, necesitarás introducir tu clave de recuperación. Imprime o guarda esta clave y mantenla contigo.">
 <!ENTITY addDevice.dialog.connected.label   "Dispositivo conectado">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Iniciar sesión">
-<!ENTITY existingRecoveryKey.description "Puedes obtener una copia de tu clave de recuperación dirigiendote a Opciones de &amp;syncBrand.shortName.label; en tu otro dispositivo, y seleccionando &quot;Mi clave de recuperación&quot; dentro de &quot;Manejar cuenta&quot;.">
-<!ENTITY verifying.label              "Verifying…">
+<!ENTITY existingRecoveryKey.description "Puedes obtener una copia de tu clave de recuperación en Opciones de &syncBrand.shortName.label; en tu otro dispositivo, y seleccionando &quot;Mi clave de recuperación&quot; dentro de &quot;Manejar cuenta&quot;.">
+<!ENTITY verifying.label              "Verificando…">
 <!ENTITY resetPassword.label          "Restablecer contraseña">
 <!ENTITY resetSyncKey.label           "He perdido mi otro dispositivo.">
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "Opciones de Sync">
-<!ENTITY syncDeviceName.label       "Device Name:">
-<!ENTITY syncDeviceName.accesskey   "c">
+<!ENTITY syncDeviceName.label       "Nombre del dispositivo:">
+<!ENTITY syncDeviceName.accesskey   "N">
 
 <!ENTITY syncMy.label               "Sincronizar">
 <!ENTITY engine.bookmarks.label     "Marcadores">
-<!ENTITY engine.bookmarks.accesskey "m">
+<!ENTITY engine.bookmarks.accesskey "M">
 <!ENTITY engine.tabs.label          "Pestañas">
-<!ENTITY engine.tabs.accesskey      "T">
+<!ENTITY engine.tabs.accesskey      "e">
 <!ENTITY engine.history.label       "Historial">
-<!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.history.accesskey   "H">
 <!ENTITY engine.passwords.label     "Contraseñas">
-<!ENTITY engine.passwords.accesskey "C">
+<!ENTITY engine.passwords.accesskey "o">
 <!ENTITY engine.prefs.label         "Preferencias">
-<!ENTITY engine.prefs.accesskey     "S">
+<!ENTITY engine.prefs.accesskey     "P">
 <!ENTITY engine.addons.label        "Complementos">
-<!ENTITY engine.addons.accesskey    "A">
+<!ENTITY engine.addons.accesskey    "C">
 
-<!ENTITY choice2a.merge.main.label       "Merge this device's data with my &amp;syncBrand.shortName.label; data">
+<!ENTITY choice2a.merge.main.label       "Combinar los datos de este dispositivo con los datos de mi &syncBrand.shortName.label;">
 <!ENTITY choice2.merge.recommended.label "Recomendado:">
-<!ENTITY choice2a.client.main.label      "Replace all data on this device with my &amp;syncBrand.shortName.label; data">
-<!ENTITY choice2a.server.main.label      "Replace all other devices with this device's data">
+<!ENTITY choice2a.client.main.label      "Reemplazar todos los datos en este dispositivo con mis datos de &syncBrand.shortName.label;">
+<!ENTITY choice2a.server.main.label      "Reemplazar los datos en los demás dispositivos con los datos de este">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Confirmar">
-<!ENTITY confirm.merge2.label    "&amp;syncBrand.fullName.label; will now merge all this device's browser data into your Sync account.">
-<!ENTITY confirm.client3.label         "Warning: The following &amp;brandShortName; data on this device  will be deleted:">
-<!ENTITY confirm.client2.moreinfo.label "&amp;brandShortName; will then copy your &amp;syncBrand.fullName.label; data to this device.">
-<!ENTITY confirm.server2.label         "Aviso: La iformación de los siguientes dispositivos se sobrescribirá con los datos locales:">
+<!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; combinará todos los datos del navegador de este dispositivo con tu cuenta de Sync.">
+<!ENTITY confirm.client3.label         "Advertencia: Se eliminarán los datos de &brandShortName; de este dispositivo:">
+<!ENTITY confirm.client2.moreinfo.label "&brandShortName; ahora copiará los datos de &syncBrand.fullName.label; en este dispositivo.">
+<!ENTITY confirm.server2.label         "Advertencia: Los datos de estos dispositivos serán reemplazados con los datos locales:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Configuración completa">
 <!ENTITY changeOptions.label "Puedes cambiar esta opción seleccionando Opciones de Sync.">
-<!ENTITY continueUsing.label "Ahora puedes continuar usando &amp;brandShortName;.">
+<!ENTITY continueUsing.label "Ahora puedes continuar usando &brandShortName;.">
