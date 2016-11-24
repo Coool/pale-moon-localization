@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&amp;brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&amp;brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "书签工具栏项">
 <!ENTITY addonBarCmd.label "附加组件栏">
 <!ENTITY addonBarCmd.accesskey "A">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "状态栏​​​​​​​">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "页面源代码">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "订阅此页…">
 <!ENTITY addCurPagesCmd.label "将所有标签页加入书签…">
 <!ENTITY showAllBookmarks2.label "管理所有书签">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "组织书签">
 <!ENTITY unsortedBookmarksCmd.label "未分类书签">
 <!ENTITY bookmarksToolbarChevron.tooltip "显示更多书签">
 
@@ -155,7 +155,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "菜单">
-<!ENTITY appMenuButton.tooltip        "打开 &amp;brandShortName; 菜单">
+<!ENTITY appMenuButton.tooltip        "打开 &brandShortName; 菜单">
 <!ENTITY homeButton.label             "主页">
 
 <!ENTITY feedButton.label             "订阅">
@@ -219,7 +219,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
-<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.label   "吸管">
 <!ENTITY eyedropper.accesskey "Y">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
@@ -244,7 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "关闭开发者工具栏">
 <!ENTITY devToolbarMenu.label              "开发者工具栏">
 <!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.label               "应用管理器">
 <!ENTITY devAppMgrMenu.accesskey           "A">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
@@ -415,9 +415,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "页面另存为…">
 <!ENTITY savePageCmd.accesskey        "A">
-<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.label            "发送链接…">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.label            "发送页面链接…">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
@@ -553,7 +553,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "退出"> 
 <!ENTITY quitApplicationCmd.accesskey   "Q">
-<!ENTITY quitApplicationCmdMac.label    "退出 &amp;brandShortName;">
+<!ENTITY quitApplicationCmdMac.label    "退出 &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -627,7 +627,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "同步">
 
-<!ENTITY syncSetup.label              "设置 &amp;syncBrand.shortName.label;…">
+<!ENTITY syncSetup.label              "设置 &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "立即同步">
 <!ENTITY syncSyncNowItem.accesskey    "S">

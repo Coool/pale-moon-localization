@@ -5,7 +5,7 @@
 <!ENTITY aboutSupport.pageTitle "故障排除信息">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "本页面包含了一些技术信息，当您尝试解决某个问题时可能用得上。如果您正在寻找 &amp;brandShortName; 常见问题的答案，请查看我们的<a id='supportLink'>技术支持网站</a>。">
+<!ENTITY aboutSupport.pageSubtitle "本页面包含了一些技术信息，当您尝试解决某个问题时可能用得上。如果您正在寻找 &brandShortName; 常见问题的答案，请查看我们的<a id='supportLink'>技术支持网站</a>。">
 
 <!ENTITY aboutSupport.crashes.title "Crash Reports">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
@@ -69,7 +69,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "user.js 设置">
-<!ENTITY aboutSupport.userJSDescription "您的配置文件夹中有一个 {[=-a id='prefs-user-js-link'-=]}user.js 文件</a>，其中包含了一些并非由 &amp;brandShortName; 所创建的首选项（偏好设置）。">
+<!ENTITY aboutSupport.userJSDescription "您的配置文件夹中有一个 <a id='prefs-user-js-link'>user.js 文件</a>，其中包含了一些并非由 &brandShortName; 所创建的首选项（偏好设置）。">
 
 <!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
 <!ENTITY aboutSupport.lockedPrefsName "Name">
