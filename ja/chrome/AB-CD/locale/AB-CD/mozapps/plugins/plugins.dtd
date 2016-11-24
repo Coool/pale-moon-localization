@@ -4,7 +4,7 @@
 
 <!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
      is not supported on some devices. Include a trailing space as needed. -->
-<!ENTITY unsupportedPlatform.pre                             "申し訳ありません。&amp;brandShortName; はこのデバイスで Flash を再生できません。">
+<!ENTITY unsupportedPlatform.pre                             "申し訳ありません。&brandShortName; はこのデバイスで Flash を再生できません。">
 <!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
      supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
 <!ENTITY unsupportedPlatform.learnMore                       "詳細...">
@@ -18,7 +18,7 @@
 <!ENTITY checkForUpdates                                     "更新を確認する...">
 <!ENTITY disabledPlugin                                      "このプラグインは無効化されています。">
 <!ENTITY blockedPlugin.label                                 "このプラグインは安全のためにブロックされました。">
-<!ENTITY hidePluginBtn.label                                 "Hide plugin">
+<!ENTITY hidePluginBtn.label                                 "プラグインの非表示">
 <!ENTITY managePlugins                                       "プラグインを管理...">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
@@ -39,4 +39,4 @@
 
 <!ENTITY plugin.file                                         "ファイル">
 <!ENTITY plugin.mimeTypes                                    "MIME タイプ">
-<!ENTITY plugin.flashProtectedMode.label                     "Enable Adobe Flash protected mode">
+<!ENTITY plugin.flashProtectedMode.label                     "Adobe Flash の保護モードの有効">

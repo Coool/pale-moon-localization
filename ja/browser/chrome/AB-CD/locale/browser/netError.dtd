@@ -11,17 +11,17 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "正常に接続できませんでした">
-<!ENTITY connectionFailure.longDesc "&amp;sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "このアドレスへの接続は制限されています">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>要求されるアドレスは、通常 Web ブラウジング<em>以外</em>の目的で使用されるポート (例 <q>palemoon.org:25</q> は palemoon.org ポート番号 25) を指定します。ブラウザは保護とセキュリティの要求をキャンセルしました。</p>">
 
 <!ENTITY dnsNotFound.title "サーバが見つかりませんでした">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
   <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&amp;brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
 </ul>
 ">
 
@@ -36,7 +36,7 @@
 
 <!ENTITY generic.title "リクエストを正常に完了できませんでした">
 <!ENTITY generic.longDesc "
-<p>何らかの理由により &amp;brandShortName; はこのページを正常に読み込めませんでした。</p>
+<p>何らかの理由により &brandShortName; はこのページを正常に読み込めませんでした。</p>
 ">
 
 <!ENTITY malformedURI.title "アドレスの書式が正しくありません">
@@ -48,10 +48,10 @@
 ">
 
 <!ENTITY netInterrupt.title "接続が中断されました">
-<!ENTITY netInterrupt.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "ドキュメントが有効期限切れです">
-<!ENTITY notCached.longDesc "<p>リクエストされた &amp;brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&amp;brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
+<!ENTITY notCached.longDesc "<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
 
 <!ENTITY netOffline.title "オフラインモードです">
 <!ENTITY netOffline.longDesc2 "
@@ -75,15 +75,15 @@
 ">
 
 <!ENTITY netReset.title "接続がリセットされました">
-<!ENTITY netReset.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
 
 <!ENTITY netTimeout.title "接続がタイムアウトしました">
-<!ENTITY netTimeout.longDesc "&amp;sharedLongDesc;">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.title "アドレスの形式が不明です。">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+ <li>このアドレスを開くその他のソフトウェアをインストールする必要があります。</li>
 </ul>
 ">
 
@@ -100,7 +100,7 @@
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
   <li>コンピュータが有効なネットワークに接続されているか確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&amp;brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
 </ul>
 ">
 
@@ -122,8 +122,8 @@
 <!ENTITY nssFailure2.title "安全な接続ができませんでした">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+ <li>受信データの信頼性を確認できなかったため、ページを表示できません。</li>
+ <li>この問題を Web サイトの所有者へ連絡してください。</li>
 </ul>
 ">
 
@@ -139,14 +139,14 @@
 <ul>
   <li>このサイトが一時的に利用できなくなっていたり、サーバの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
   <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&amp;brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "攻撃サイトの疑いがあります！">
 <!ENTITY malwareBlocked.longDesc "
-<p>攻撃サイトはあなたの個人情報を盗んだり、コンピュータを乗っ取って他のコンピュータへの攻撃に利用したり、あなたのシステムを破壊するためのプログラムをインストールしようとします。</p>
-<p>あなたがこのサイトの管理者で、この警告が誤りである場合は&lt;a href='http://www.stopbadware.org/home/reviewinfo'&gt;再審査を求める</a>ことができます。</p>
+<p>攻撃サイトは、個人情報を盗んだり、コンピュータを使用して他人を攻撃したり、システムを壊したりするプログラムをインストールしようとします。</p>
+ <p>自分のサイトが誤って攻撃サイトとして報告されたと考えている Web サイト所有者は、<a href='https://www.stopbadware.org/request-review' >レビューをリクエストして下さい</a>。</p>
 ">
 
 <!ENTITY phishingBlocked.title "偽装サイトの疑いがあります！">
@@ -155,18 +155,18 @@
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>&amp;brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "コンテンツセキュリティポリシーによってブロックされています。">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; このページはコンテンツセキュリティポリシーによって禁止されているため、読み込みを防いでいます。</p>">
 
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.title "XSS フィルターによってブロックされています。">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&amp;brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &amp;brandShortName;
-    has been configured to block pages in that situation.</li>
-</ul>
+ <li>&brandShortName; このページは挿入された JavaScript コードが含まれているため、
+  このアクションはブロックされています。</li>
+ <li>このページの読み込みは、XSS アタックでこのページをブロックするため
+  Web サイトによって明示的に要求されている、 ＆brandShortName; の状況ページで
+  ブロックするように設定されています。</li>
+ </ul>
 ">
 
 <!ENTITY corruptedContentError.title "コンテンツデータ破損エラー">
@@ -185,24 +185,24 @@ functionality specific to firefox. -->
 <!ENTITY securityOverride.warningContent "
 <p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
 
-<button id='getMeOutOfHereButton'>&amp;securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&amp;securityOverride.exceptionButtonLabel;</button>
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.title "このエラーを報告">
+<!ENTITY errorReporting.longDesc "アドレス <span id='hostname'></span> の証明書情報を報告することで、悪意のあるサイトを特定しブロックするのに役立ちます。 より安全な Web 作成にご協力いただきありがとうございます！">
+<!ENTITY errorReporting.automatic "今後のエラーは自動的に報告する">
+<!ENTITY errorReporting.learnMore "詳細を表示...">
+<!ENTITY errorReporting.sending "レポートを送信しています">
+<!ENTITY errorReporting.sent "レポートの送信">
+<!ENTITY errorReporting.report "レポート">
+<!ENTITY errorReporting.tryAgain "再試行">
 
 <!ENTITY remoteXUL.title "リモート XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "安全に接続できません">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "詳細情報: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "詳細を表示...">

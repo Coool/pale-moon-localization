@@ -1,31 +1,31 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
-<!ENTITY aboutDialog.title          "&amp;brandFullName; について">
+<!ENTITY aboutDialog.title          "&brandFullName; について">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
-<!ENTITY warningDesc.version        "&amp;brandShortName; is experimental and may be unstable.">
+<!ENTITY warningDesc.version        "&brandShortName; 実験的で不安定になる可能性があります。">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.exp.mozillaLink  "&amp;vendorShortName;">
+<!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " is a ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
-<!ENTITY community.exp.creditsLink  "global community">
+<!ENTITY community.exp.creditsLink  "グローバル コミュニティ">
 <!ENTITY community.exp.end          " working together to keep the Web open, public and accessible to all.">
 
-<!ENTITY community.start2           "&amp;brandShortName; is designed by ">
+<!ENTITY community.start2           "&brandShortName; の設計 ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.mozillaLink      "&amp;vendorShortName;">
+<!ENTITY community.mozillaLink      "&vendorShortName;">
 <!ENTITY community.middle2          ", a ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "global community">
 <!ENTITY community.end3             " working together to keep the Web open, public and accessible to all.">
 
-<!ENTITY contribute.start           "Sound interesting? ">
+<!ENTITY contribute.start           "興味ありますか?">
 <!-- LOCALIZATION NOTE (contribute.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
-<!ENTITY contribute.getInvolvedLink "Get involved!">
+<!ENTITY contribute.getInvolvedLink "参加しましょう！">
 <!ENTITY contribute.end             "">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
@@ -42,11 +42,11 @@
 <!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingAddonCompat "アドオンの互換性を確認中...">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.noUpdatesFound      "&amp;brandShortName; は最新バージョンです">
+<!ENTITY update.noUpdatesFound      "&brandShortName; は最新バージョンです">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled       "システム管理者により、更新が無効化されています">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates "&amp;brandShortName; は別のプロセスで更新中です">
+<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; は別のプロセスで更新中です">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into

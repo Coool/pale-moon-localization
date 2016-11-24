@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
-<!ENTITY places.library.title  "履歴とブックマークの管理">
-<!ENTITY places.library.width  "750">
+<!ENTITY places.library.title  "ライブラリ">
+<!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "管理">
 <!ENTITY organize.accesskey    "O">
@@ -15,10 +15,10 @@
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "表示">
 <!ENTITY views.accesskey                "V">
-<!ENTITY views.tooltip                  "履歴とブックマークの表示を変更します">
+<!ENTITY views.tooltip                  "表示の変更">
 <!ENTITY view.columns.label             "表示する列">
 <!ENTITY view.columns.accesskey         "C">
-<!ENTITY view.sort.label                "項目の表示順序">
+<!ENTITY view.sort.label                "並び替え">
 <!ENTITY view.sort.accesskey            "S">
 <!ENTITY view.unsorted.label            "並べ替えない">
 <!ENTITY view.unsorted.accesskey        "U">
@@ -57,7 +57,7 @@
 <!ENTITY cmd.open_all_in_tabs.label      "タブですべて開く">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "O">
 
-<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.label      "保存フォルダを開く">
 <!ENTITY cmd.openParentFolder.accesskey  "F">
 
 <!ENTITY cmd.properties.label      "プロパティ">
@@ -90,22 +90,22 @@
 <!ENTITY col.description.label       "説明">
 <!ENTITY col.dateadded.label         "追加日時">
 <!ENTITY col.lastmodified.label      "変更日時">
-<!ENTITY col.parentfolder.label      "Containing Folder">
-<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
+<!ENTITY col.parentfolder.label      "保存フォルダ">
+<!ENTITY col.parentfolderpath.label  "保存フォルダーのパス">
 
 <!ENTITY search.label                              "検索:">
 <!ENTITY search.accesskey                          "S">
 
-<!ENTITY search.in.label                           "Search in:">
-<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.in.label                           "検索:">
+<!ENTITY search.scopeFolder.label                  "選択したフォルダ">
 <!ENTITY search.scopeFolder.accesskey              "r">
-<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.label               "ブックマーク">
 <!ENTITY search.scopeBookmarks.accesskey           "k">
-<!ENTITY search.scopeDownloads.label               "Downloads">
+<!ENTITY search.scopeDownloads.label               "ダウンロード">
 <!ENTITY search.scopeDownloads.accesskey           "D">
-<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.label                 "履歴">
 <!ENTITY search.scopeHistory.accesskey             "H">
-<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.label                          "保存">
 <!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">

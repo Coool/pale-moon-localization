@@ -3,45 +3,45 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "Set Up &amp;syncBrand.fullName.label;">
+<!ENTITY setupButton.label          "&syncBrand.fullName.label;のセットアップ">
 <!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&amp;syncBrand.fullName.label; lets you access your history, bookmarks, passwords and open tabs across all your devices.">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label;はすべてのデバイスの履歴、ブックマーク、パスワード、タブを開くことができます。">
 
 <!-- The page shown when logged in... -->
 
 <!-- Login error feedback -->
-<!ENTITY updatePass.label             "Update">
-<!ENTITY resetPass.label              "Reset">
+<!ENTITY updatePass.label             "更新">
+<!ENTITY resetPass.label              "リセット">
 
 <!-- Manage Account -->
-<!ENTITY manageAccount.label          "Manage Account">
+<!ENTITY manageAccount.label          "アカウントの管理">
 <!ENTITY manageAccount.accesskey      "n">
-<!ENTITY viewQuota.label              "View Quota">
-<!ENTITY changePassword2.label        "Change Password…">
-<!ENTITY myRecoveryKey.label          "My Recovery Key">
-<!ENTITY resetSync2.label             "Reset Sync…">
+<!ENTITY viewQuota.label              "サーバ使用量を表示">
+<!ENTITY changePassword2.label        "パスワードの変更...">
+<!ENTITY myRecoveryKey.label          "リカバリキー">
+<!ENTITY resetSync2.label             "同期をリセット...">
 
-<!ENTITY pairDevice.label             "Pair a Device">
+<!ENTITY pairDevice.label             "デバイスと連携">
 
-<!ENTITY syncMy.label               "Sync My">
-<!ENTITY engine.bookmarks.label     "Bookmarks">
+<!ENTITY syncMy.label               "同期データ">
+<!ENTITY engine.bookmarks.label     "ブックマーク">
 <!ENTITY engine.bookmarks.accesskey "m">
-<!ENTITY engine.tabs.label          "Tabs">
+<!ENTITY engine.tabs.label          "タブ">
 <!ENTITY engine.tabs.accesskey      "T">
-<!ENTITY engine.history.label       "History">
+<!ENTITY engine.history.label       "履歴">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Passwords">
+<!ENTITY engine.passwords.label     "パスワード">
 <!ENTITY engine.passwords.accesskey "P">
-<!ENTITY engine.prefs.label         "Preferences">
+<!ENTITY engine.prefs.label         "個人設定">
 <!ENTITY engine.prefs.accesskey     "S">
-<!ENTITY engine.addons.label        "Add-ons">
+<!ENTITY engine.addons.label        "アドオン">
 <!ENTITY engine.addons.accesskey    "A">
 
 <!-- Device Settings -->
-<!ENTITY syncDeviceName.label       "Device Name:">
+<!ENTITY syncDeviceName.label       "デバイス名:">
 <!ENTITY syncDeviceName.accesskey   "c">
-<!ENTITY unlinkDevice.label           "Unlink This Device">
+<!ENTITY unlinkDevice.label           "このデバイスを解除">
 
 <!-- Footer stuff -->
-<!ENTITY prefs.tosLink.label        "Terms of Service">
-<!ENTITY prefs.ppLink.label         "Privacy Policy">
+<!ENTITY prefs.tosLink.label        "利用規約">
+<!ENTITY prefs.ppLink.label         "プライバシーポリシー">

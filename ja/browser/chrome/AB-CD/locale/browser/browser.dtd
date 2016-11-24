@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&amp;brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&amp;brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "ブックマークツールバーの項目">
 <!ENTITY addonBarCmd.label "アドオンバー">
 <!ENTITY addonBarCmd.accesskey "A">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "ステータスバー">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "ページのソース">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "このページを購読...">
 <!ENTITY addCurPagesCmd.label "すべてのタブをブックマーク...">
 <!ENTITY showAllBookmarks2.label "すべてのブックマークを表示">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "ブックマークの管理">
 <!ENTITY unsortedBookmarksCmd.label "未整理のブックマーク">
 <!ENTITY bookmarksToolbarChevron.tooltip "残りのブックマークを表示します">
 
@@ -155,7 +155,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "メニュー">
-<!ENTITY appMenuButton.tooltip        "&amp;brandShortName; メニューを開く">
+<!ENTITY appMenuButton.tooltip        "&brandShortName; メニューを開く">
 <!ENTITY homeButton.label             "ホーム">
 
 <!ENTITY feedButton.label             "購読">
@@ -219,7 +219,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
-<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.label   "スポイトツール">
 <!ENTITY eyedropper.accesskey "Y">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
@@ -244,7 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "開発ツールバーを閉じる">
 <!ENTITY devToolbarMenu.label              "開発ツールバー">
 <!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.label               "アプリの管理">
 <!ENTITY devAppMgrMenu.accesskey           "A">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
@@ -415,9 +415,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "名前を付けてページを保存...">
 <!ENTITY savePageCmd.accesskey        "A">
-<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.label            "リンクを送信...">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.label            "ページ URL を送信...">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
@@ -553,7 +553,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "終了"> 
 <!ENTITY quitApplicationCmd.accesskey   "Q">
-<!ENTITY quitApplicationCmdMac.label    "&amp;brandShortName; を終了">
+<!ENTITY quitApplicationCmdMac.label    "&brandShortName; を終了">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -617,7 +617,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "詳細を表示...">
 
-<!ENTITY allTabs.filter.emptyText "Search Tabs">
+<!ENTITY allTabs.filter.emptyText "検索タブ">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "ブラウザタブ">
@@ -625,13 +625,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "他の端末で開いていたタブ">
 
-<!ENTITY syncBrand.shortName.label    "Sync">
+<!ENTITY syncBrand.shortName.label    "同期する">
 
-<!ENTITY syncSetup.label              "&amp;syncBrand.shortName.label; をセットアップ...">
+<!ENTITY syncSetup.label              "&syncBrand.shortName.label; をセットアップ...">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "今すぐ同期">
 <!ENTITY syncSyncNowItem.accesskey    "S">
-<!ENTITY syncToolbarButton.label      "Sync">
+<!ENTITY syncToolbarButton.label      "同期する">
 
 <!ENTITY addonBarCloseButton.tooltip  "アドオンバーを閉じます">
 <!ENTITY toggleAddonBarCmd.key        "/">

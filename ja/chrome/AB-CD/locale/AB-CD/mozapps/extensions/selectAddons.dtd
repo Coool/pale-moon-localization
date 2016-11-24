@@ -5,12 +5,12 @@
 <!ENTITY upgrade.style               "width: 93ch; height: 448px;">
 
 <!ENTITY checking.heading            "インストールされたアドオンの確認">
-<!ENTITY checking.progress.label     "このバージョンの &amp;brandShortName; とインストールされたアドオンの互換性を確認しています。">
+<!ENTITY checking.progress.label     "このバージョンの &brandShortName; とインストールされたアドオンの互換性を確認しています。">
 
 <!ENTITY select.heading              "使用するアドオンの選択">
 <!-- LOCALIZATION NOTE (select.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY select.description          "使用しないアドオンを無効化すると &amp;brandShortName; の動作を速くすることができます。外部プログラムによりインストールされたアドオンは、以下のリストから選択してチェックを入れたものを除き、自動的に無効化されます。">
+<!ENTITY select.description          "使用しないアドオンを無効化すると &brandShortName; の動作を速くすることができます。サードパーティよりインストールされたアドオンは、以下のリストから選択してチェックを入れたものを除き、自動的に無効化されます。">
 <!ENTITY select.keep                 "維持">
 <!-- LOCALIZATION NOTE (select.keep.style): Should be a width wide enough for
      the string in select.keep above. -->
@@ -29,7 +29,7 @@
 <!ENTITY confirm.heading             "使用するアドオンの選択">
 <!-- LOCALIZATION NOTE (confirm.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY confirm.description         "使用しないアドオンを無効化すると &amp;brandShortName; の動作を速くすることができます。外部プログラムによりインストールされたアドオンは、選択したものを除き、自動的に無効化されます。">
+<!ENTITY confirm.description         "使用しないアドオンを無効化すると &brandShortName; の動作を速くすることができます。サードパーティによりインストールされたアドオンは、選択したものを除き、自動的に無効化されます。">
 
 <!ENTITY action.disable.heading      "次のアドオンは無効化されます:">
 <!ENTITY action.incompatible.heading "次のアドオンは無効化されますが、互換性のあるバージョンの公開時に有効化されます:">
