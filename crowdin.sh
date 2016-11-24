@@ -8,7 +8,7 @@ else
   key=`cat .crowdin.key`
 fi
 
-for lang in cs de es-AR es-ES es-MX fr it pl ru
+for lang in cs de es-AR es-ES es-MX fr it ja pl ru zh-CN
 do
   printf "\n  downloading $lang locale from CrowdIn:\n\n"
   wget -q --show-progress https://api.crowdin.com/api/project/pale-moon/download/$lang.zip?key=$key -O $lang.zip
