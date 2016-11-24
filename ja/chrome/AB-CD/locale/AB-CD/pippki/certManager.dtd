@@ -2,98 +2,98 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "Certificate Manager">
+<!ENTITY certmgr.title                       "証明書マネージャー">
 
-<!ENTITY certmgr.tab.mine                     "Your Certificates">
-<!ENTITY certmgr.tab.others2                  "People">
-<!ENTITY certmgr.tab.websites3                "Servers">
-<!ENTITY certmgr.tab.ca                       "Authorities">
-<!ENTITY certmgr.tab.orphan2                  "Others">
+<!ENTITY certmgr.tab.mine                     "証明書">
+<!ENTITY certmgr.tab.others2                  "ユーザー">
+<!ENTITY certmgr.tab.websites3                "サーバー">
+<!ENTITY certmgr.tab.ca                       "機関">
+<!ENTITY certmgr.tab.orphan2                  "その他">
 
-<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
-<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
-<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
-<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
-<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
+<!ENTITY certmgr.mine                         "これらの団体から特定できる証明書があります:">
+<!ENTITY certmgr.others                       "これらの人々を特定する証明書がファイルにあります:">
+<!ENTITY certmgr.websites2                    "これらのサーバーを識別する証明書がファイルにあります:">
+<!ENTITY certmgr.cas                          "これらの証明機関を識別する証明書がファイルにあります:">
+<!ENTITY certmgr.orphans                      "ファイルに他のカテゴリに収まらない証明書があります:">
 
-<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.title     "一般">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.prettyprint_tab.title "詳細">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
-<!ENTITY certmgr.subjectinfo.label            "Issued To">
-<!ENTITY certmgr.issuerinfo.label             "Issued By">
-<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
-<!ENTITY certmgr.fingerprints.label           "Fingerprints">
-<!ENTITY certmgr.certdetail.title             "Certificate Detail">
-<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organization (O)">
-<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.pending.label                "現在証明書を確認しています...">
+<!ENTITY certmgr.subjectinfo.label            "発行先">
+<!ENTITY certmgr.issuerinfo.label             "発行元">
+<!ENTITY certmgr.periodofvalidity.label       "有効期間" >
+<!ENTITY certmgr.fingerprints.label           "指紋">
+<!ENTITY certmgr.certdetail.title             "証明書の詳細">
+<!ENTITY certmgr.certdetail.cn                "一般名 (CN)">
+<!ENTITY certmgr.certdetail.o                 "組織 (O)">
+<!ENTITY certmgr.certdetail.ou                "組織単位 (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "シリアル番号">
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA-1 指紋">
 
-<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
-<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
-<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
-<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
-<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
-<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
-<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
-<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editcacert.title             "CA 証明書の信頼設定を編集">
+<!ENTITY certmgr.editcert.edittrust           "信頼設定を編集：">
+<!ENTITY certmgr.editcert.trustssl            "この証明書は Web サイトを識別できます。">
+<!ENTITY certmgr.editcert.trustemail          "この証明書はメールユーザーを識別できます。">
+<!ENTITY certmgr.editcert.trustobjsign        "この証明書はソフトウェアメーカーを識別できます。">
+<!ENTITY certmgr.editemailcert.title          "e-mail 証明書の信頼設定を編集">
+<!ENTITY certmgr.editemailcert.edittrust      "証明書の信頼設定を編集：">
+<!ENTITY certmgr.editemailcert.dotrust        "この証明書を信頼します。">
+<!ENTITY certmgr.editemailcert.donttrust      "この証明書を信頼しません。">
 
-<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.title             "証明書を削除">
 
-<!ENTITY certmgr.certname                     "Certificate Name">
-<!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "Security Device">
-<!ENTITY certmgr.begins                       "Begins On">
-<!ENTITY certmgr.expires                      "Expires On">
-<!ENTITY certmgr.email                        "E-Mail Address">
-<!ENTITY certmgr.serial                       "Serial Number">
+<!ENTITY certmgr.certname                     "証明書名">
+<!ENTITY certmgr.certserver                   "サーバー">
+<!ENTITY certmgr.override_lifetime            "有効期間">
+<!ENTITY certmgr.tokenname                    "セキュリティデバイス">
+<!ENTITY certmgr.begins                       "開始日">
+<!ENTITY certmgr.expires                      "期限日">
+<!ENTITY certmgr.email                        "メールアドレス">
+<!ENTITY certmgr.serial                       "シリアル番号">
 
-<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.label                  "閉じる">
 <!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.label                  "表示...">
 <!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.label                  "信頼の編集...">
 <!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.label                 "CA の信頼を編集">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.label                 "エクスポート…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.label                "削除...">
 <!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.label         "削除または不信...">
 <!ENTITY certmgr.delete_builtin.accesskey     "D">
-<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.label                "バックアップ...">
 <!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.label             "すべてバックアップ...">
 <!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.label               "インポート...">
 <!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.label                "証明書フィールド">
 <!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.label                 "フィールドの値">
 <!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.label              "証明書の階層">
 <!ENTITY certmgr.hierarchy.accesskey2         "H">
-<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.label           "例外を追加...">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Add Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.title                   "セキュリティ例外の追加">
+<!ENTITY exceptionMgr.exceptionButton.label   "セキュリティ例外を確認">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Location:">
-<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.supplementalWarning     "正当な銀行、店舗、およびその他の公共のサイトでは、これを行うよう求められません。">
+<!ENTITY exceptionMgr.certlocation.caption2   "サーバー">
+<!ENTITY exceptionMgr.certlocation.url        "場所:">
+<!ENTITY exceptionMgr.certlocation.download   "証明書の取得">
 <!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
-<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.caption      "証明書の状態">
+<!ENTITY exceptionMgr.certstatus.viewCert     "表示...">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.label         "この例外を永続的に保存">
 <!ENTITY exceptionMgr.permanent.accesskey     "P">

@@ -108,13 +108,13 @@
 <!ENTITY offlineAppRemove.confirm        "Supprimer les données hors connexion">
 
 <!ENTITY certificateTab.label            "Certificats">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "Certificat Personnel">
 <!ENTITY certSelection.description       "Lorsqu’un serveur demande mon certificat personnel :">
 <!ENTITY certs.auto                      "en sélectionner un automatiquement">
 <!ENTITY certs.auto.accesskey            "e">
 <!ENTITY certs.ask                       "me demander à chaque fois">
 <!ENTITY certs.ask.accesskey             "m">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "Certificat de Validation">
 <!ENTITY enableOCSP.label                "Interroger le répondeur OCSP pour confirmer la validité de vos certificats">
 <!ENTITY enableOCSP.accesskey            "I">
 <!ENTITY requireOCSP.label               "Quand la connexion à un serveur OCSP échoue, considérer le certificat comme étant non valable">
@@ -124,21 +124,21 @@
 <!ENTITY viewSecurityDevices.label       "Périphériques de sécurité">
 <!ENTITY viewSecurityDevices.accesskey   "P">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "Compatibilité">
+<!ENTITY UACompat.label         "Mode Agent Utilisateur:">
+<!ENTITY UACompat.Native        "Natif">
+<!ENTITY UACompat.Gecko         "Compatibilité Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilité Firefox">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY scrollparamTab.label               "Défilement">
+<!ENTITY smoothscroll.explain.label         "Les paramètres ci-dessous ont un effet seulement si le défilement fluide est activé globalement en cochant la case ci-dessus.">
+<!ENTITY smoothscroll.to                    "à">
+<!ENTITY smoothscroll.params.label          "Paramètres de défilement fluide">
+<!ENTITY smoothscroll.mousewheel.label      "Défilement fluide avec roulette de la souris">
+<!ENTITY smoothscroll.mousewheel.duration   "Durée du défilement de la roulette souris:">
+<!ENTITY smoothscroll.arrowkeys.label       "Défilement fluide avec touches fléchées">
+<!ENTITY smoothscroll.arrowkeys.duration    "Durée de défilement des touches fléchées:">
+<!ENTITY smoothscroll.pagekeys.label        "Défilement fluide page haut/bas">
+<!ENTITY smoothscroll.pagekeys.duration     "Page haut/bas durée du défilement:">
+<!ENTITY smoothscroll.scrollbar.label       "Défilement fluide avec barres de défilements">
+<!ENTITY smoothscroll.scrollbar.duration    "Durée barre de défilement en défilement fluide:">

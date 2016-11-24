@@ -79,7 +79,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "启用远程调试">
-<!ENTITY options.enableRemote.tooltip   "打开此选项将允许开发工具调试远程 Firefox 实例，比如 Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -96,7 +96,7 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "默认的 Firefox 开发者工具">
+<!ENTITY options.selectDefaultTools.label     "Default Pale Moon Developer Tools">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -169,9 +169,9 @@
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Gecko platform data">
+<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
 <!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Gecko platform symbols">
+Goanna platform symbols">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->

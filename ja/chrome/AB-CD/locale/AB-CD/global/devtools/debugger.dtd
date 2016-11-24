@@ -48,19 +48,19 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
   -  button that toggles all breakpoints for all sources. -->
-<!ENTITY debuggerUI.sources.toggleBreakpoints "Enable/disable all breakpoints">
+<!ENTITY debuggerUI.sources.toggleBreakpoints "すべてのブレークポイント有効/無効">
 
 <!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
   - the button to start execution tracing. -->
-<!ENTITY debuggerUI.startTracing "Start Tracing">
+<!ENTITY debuggerUI.startTracing "トレースの開始">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton "Clear">
+<!ENTITY debuggerUI.clearButton "クリア">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton.tooltip): This is the tooltip for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton.tooltip "Clear the collected traces">
+<!ENTITY debuggerUI.clearButton.tooltip "収集されたトレースをクリア">
 
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
@@ -69,7 +69,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
-<!ENTITY debuggerUI.ignoreCaughtExceptions           "Ignore Caught Exceptions">
+<!ENTITY debuggerUI.ignoreCaughtExceptions           "受け取った例外を無視">
 <!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
@@ -165,11 +165,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
-<!ENTITY debuggerUI.tabs.sources        "Sources">
-<!ENTITY debuggerUI.tabs.traces         "Traces">
-<!ENTITY debuggerUI.tabs.callstack      "Call Stack">
-<!ENTITY debuggerUI.tabs.variables      "Variables">
-<!ENTITY debuggerUI.tabs.events         "Events">
+<!ENTITY debuggerUI.tabs.sources        "ソース">
+<!ENTITY debuggerUI.tabs.traces         "トレース">
+<!ENTITY debuggerUI.tabs.callstack      "コールスタック">
+<!ENTITY debuggerUI.tabs.variables      "変数">
+<!ENTITY debuggerUI.tabs.events         "イベント">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->

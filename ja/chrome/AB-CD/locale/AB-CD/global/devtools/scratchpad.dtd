@@ -50,19 +50,19 @@
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "C">
 
-<!ENTITY viewMenu.label               "View">
+<!ENTITY viewMenu.label               "表示">
 <!ENTITY viewMenu.accesskey           "V">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
+<!ENTITY lineNumbers.label             "行番号を表示">
 <!ENTITY lineNumbers.accesskey         "L">
 
-<!ENTITY wordWrap.label                "Wrap Text">
+<!ENTITY wordWrap.label                "テキストを折り返す">
 <!ENTITY wordWrap.accesskey            "W">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
+<!ENTITY highlightTrailingSpace.label     "末尾のスペースを強調">
 <!ENTITY highlightTrailingSpace.accesskey "H">
 
-<!ENTITY largerFont.label             "Larger Font">
+<!ENTITY largerFont.label             "フォントを大きく">
 <!ENTITY largerFont.accesskey         "a">
 <!ENTITY largerFont.commandkey        "+">
 
@@ -70,7 +70,7 @@
 <!ENTITY smallerFont.accesskey        "M">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "通常サイズ">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "現在の関数を評価">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">
