@@ -11,13 +11,13 @@
   gestellten Fragen zu &brandShortName; suchen, besuchen Sie bitte unsere  <a id='supportLink'>Hilfeseite</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Fehlerberichte">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "Berichts-ID">
+<!ENTITY aboutSupport.crashes.sendDate "Übertragen">
+<!ENTITY aboutSupport.crashes.allReports "Alle Fehlerberichte">
+<!ENTITY aboutSupport.crashes.noConfig "Diese Anwendung wurde nicht konfiguriert, um Absturzberichte anzuzeigen.">
 
 <!ENTITY aboutSupport.extensionsTitle "Erweiterungen">
 <!ENTITY aboutSupport.extensionName "Name">
@@ -25,12 +25,12 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Version">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentsTitle "Experimentelle Funktionen">
 <!ENTITY aboutSupport.experimentName "Name">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
+<!ENTITY aboutSupport.experimentDescription "Beschreibung">
+<!ENTITY aboutSupport.experimentActive "Aktiv">
+<!ENTITY aboutSupport.experimentEndDate "Enddatum">
 <!ENTITY aboutSupport.experimentHomepage "Homepage">
 
 
@@ -41,7 +41,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Update-Kanal">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Update-Chronik">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Update-Chronik anzeigen">
 
@@ -56,7 +56,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User-Agent">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Speicherverwendung">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprozess-Fenster">
 
 <!ENTITY aboutSupport.showDir.label "Ordner öffnen">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -75,9 +75,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js-Einstellungen">
 <!ENTITY aboutSupport.userJSDescription "Der Profilordner besitzt eine <a id='prefs-user-js-link'>user.js-Datei</a>, welche Einstellungen enthält, die nicht von &brandShortName; erstellt wurden.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Wichtige gesperrte Einstellungen">
 <!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedPrefsValue "Wert">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafik">
 
@@ -98,5 +98,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Abgesicherten Modus versuchen">
+<!ENTITY aboutSupport.restartInSafeMode.label "Mit deaktivierten Add-ons neu starten…">
