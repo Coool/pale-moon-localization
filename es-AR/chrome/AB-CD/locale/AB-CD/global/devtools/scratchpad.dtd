@@ -31,7 +31,7 @@
 
 <!ENTITY openFileCmd.label            "Abrir archivo…">
 <!ENTITY openFileCmd.accesskey        "o">
-<!ENTITY openFileCmd.commandkey       "a">
+<!ENTITY openFileCmd.commandkey       "o">
 
 <!ENTITY openRecentMenu.label         "Abrir reciente">
 <!ENTITY openRecentMenu.accesskey     "r">
@@ -41,7 +41,7 @@
 
 <!ENTITY saveFileCmd.label            "Guardar">
 <!ENTITY saveFileCmd.accesskey        "G">
-<!ENTITY saveFileCmd.commandkey       "g">
+<!ENTITY saveFileCmd.commandkey       "s">
 
 <!ENTITY saveFileAsCmd.label          "Guardar como…">
 <!ENTITY saveFileAsCmd.accesskey      "o">
@@ -54,7 +54,7 @@
 <!ENTITY viewMenu.accesskey           "V">
 
 <!ENTITY lineNumbers.label             "Mostrar números de línea">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.accesskey         "l">
 
 <!ENTITY wordWrap.label                "Rodear texto">
 <!ENTITY wordWrap.accesskey            "R">
@@ -87,11 +87,11 @@
 
 <!ENTITY display.label                "Mostrar">
 <!ENTITY display.accesskey            "M">
-<!ENTITY display.key                  "a">
+<!ENTITY display.key                  "l">
 
 <!ENTITY pprint.label                 "Linda impresión">
 <!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.accesskey             "p">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -124,14 +124,14 @@
 <!ENTITY helpMenuWin.accesskey        "y">
 
 <!ENTITY documentationLink.label      "Ayuda del borrador en MDN">
-<!ENTITY documentationLink.accesskey  "d">
+<!ENTITY documentationLink.accesskey  "D">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
 <!ENTITY resetContext2.label          "Restablecer variables">
-<!ENTITY resetContext2.accesskey      "v">
+<!ENTITY resetContext2.accesskey      "t">
 
 <!ENTITY reloadAndRun.label           "Recargar y ejecutar">
 <!ENTITY reloadAndRun.accesskey       "e">
