@@ -1,24 +1,37 @@
 #!/bin/sh
-
+# To run under Windows use MozillaBuild package - https://forum.palemoon.org/viewtopic.php?f=19&t=13556
 LANG=en_US.utf8
 
 if [ "$1" = "" ]; then
-  echo Use $0 locale
-  exit
+  printf "\nUse $0 locale\n" && exit 1
 fi
 
-rm -rf workdir
-mkdir workdir
-cd workdir
+if [ ! -f $1.zip ]; then
+  printf "\n$1.zip not exists\n" && exit 1
+fi
 
-unzip ../$1.zip
+currdir=$(pwd)
+temp_dir=$(mktemp -d /tmp/crowdin.XXXXXX)
+trap "rm -rf $temp_dir" 0 2 3 15
 
-find . -name "*.properties" -exec sh -c "../a2u.pl {} | grep -v "crowdin.com" > /tmp/tmp8 ; mv /tmp/tmp8 {}" \;
-find . -name "*.properties" -exec sed -i 's/\\:/:/g;s/\\#/#/g;s/\\!/!/g;s/\\=/=/g;/^#/! s/ $/\\u0020/g;s/=\\ /=\\u0020/g;s/\\\\/\\/g;s/3\\ =/3=/g;s/=:=$/=:/g' {} \;
+printf "\n  unzipping $1.zip ... "
+unzip -q $1.zip -d $temp_dir
+if [ $? -eq 0 ]; then
+  printf "done\n"
+else
+  printf "\n\n$1.zip broken\n" && exit 1
+fi
 
-find . -name "*.dtd" -exec sed -i 's/\&amp;/\&/g;s/{\[=-/</g;s/-=\]}/>/g' {} \;
-find . -name "netError.dtd" -exec sed -i 's/\&lt;/</g;s/\&gt;/>/g' {} \;
+printf "  processing *.properties ... "
+find $temp_dir/ -name "*.properties" -exec perl crowdin-filter.pl {} \;
+printf "done\n"
+printf "  processing *.dtd ... "
+find $temp_dir/ -name "*.dtd" -exec sed -i 's/\&amp;/\&/g;s/{\[=-/</g;s/-=\]}/>/g' {} \;
+find $temp_dir/ -name "netError.dtd" -exec sed -i 's/\&lt;/</g;s/\&gt;/>/g' {} \;
+printf "done\n"
 
-zip -r ../$1-fix.zip *
-cd ..
-rm -rf workdir
+printf "  zipping result to $1-fix.zip ... "
+cd $temp_dir
+zip -q -r $currdir/$1-fix.zip *
+cd $currdir
+printf "done\n"
