@@ -1,21 +1,21 @@
-<!ENTITY status4evar.window.title "Možnosti Pale Moon status bar">
+<!ENTITY status4evar.window.title "Možnosti stavového řádku">
 
 <!ENTITY status4evar.pane.status "Stav">
 <!ENTITY status4evar.pane.progress "Činnost">
 <!ENTITY status4evar.pane.download "Stahování">
-<!ENTITY status4evar.pane.statusbar "Status Bar">
-<!ENTITY status4evar.pane.advanced "Rozšířený">
+<!ENTITY status4evar.pane.statusbar "Stavový řádek">
+<!ENTITY status4evar.pane.advanced "Rozšířené">
 
 <!ENTITY status4evar.tab.general "Obecné">
 <!ENTITY status4evar.tab.toolbar "Nástrojová lišta">
 <!ENTITY status4evar.tab.urlbar "Adresní řádek">
 <!ENTITY status4evar.tab.popup "Vyskakovací">
-<!ENTITY status4evar.tab.tabs "Záložky">
+<!ENTITY status4evar.tab.tabs "Panely">
 
 <!ENTITY status4evar.option.none "Žádný">
 <!ENTITY status4evar.option.nothing "Nic">
-<!ENTITY status4evar.option.toolbar "Status Bar">
-<!ENTITY status4evar.option.urlbar "Adresní řádek">
+<!ENTITY status4evar.option.toolbar "Ve stavovém řádku">
+<!ENTITY status4evar.option.urlbar "V adresním řádku">
 <!ENTITY status4evar.option.popup "Vyskakovací">
 <!ENTITY status4evar.option.tooltip "Místní nápověda">
 <!ENTITY status4evar.option.bottom "Dole">
@@ -38,12 +38,12 @@
 <!ENTITY status4evar.option.space "Mezera">
 <!ENTITY status4evar.option.round "Kulaté">
 <!ENTITY status4evar.option.firefoxdefault "Výchozí Pale Moon">
-<!ENTITY status4evar.option.download.library "Knihovna">
-<!ENTITY status4evar.option.download.tab "Záložka">
+<!ENTITY status4evar.option.download.library "Knihovna stránek">
+<!ENTITY status4evar.option.download.tab "Panel">
 <!ENTITY status4evar.option.download.thirdparty "3. strana">
 
-<!ENTITY status4evar.unit.milliseconds "milisekundách">
-<!ENTITY status4evar.unit.seconds "sekundách">
+<!ENTITY status4evar.unit.milliseconds "milisekund">
+<!ENTITY status4evar.unit.seconds "sekund">
 <!ENTITY status4evar.unit.px "px">
 
 <!ENTITY status4evar.status.general.status.caption "Stavový text">
@@ -91,7 +91,7 @@
 
 <!ENTITY status4evar.download.button.action.label "Akce tlačítka průběhu stahování:">
 <!ENTITY status4evar.download.force.label "Vždy zobrazit tlačítko průběhu stahování">
-<!ENTITY status4evar.download.label.force.label "Zobrazit text v režimu pouze-ikony">
+<!ENTITY status4evar.download.label.force.label "Vždy zobrazit text tlačítka">
 <!ENTITY status4evar.download.label.label "Text tlačítka průběhu stahování:">
 <!ENTITY status4evar.download.tooltip.label "Nápověda tlačítka průběhu stahování:">
 <!ENTITY status4evar.download.progress.label "Zobrazit postup stahování v tlačítku">
@@ -107,7 +107,7 @@
 <!ENTITY status4evar.addonbar.windowGripper "Zobrazit chytač změny velikosti okna">
 <!ENTITY status4evar.addonbar.closeButton "Zobrazit zavírací tlačítko">
 
-<!ENTITY status4evar.advanced.warning "Tyto rozšířené možnosti mohou způsobit problémy s Pale Moon nebo jinými rozšířeními. Změny ne vlastní nebezpečí.">
+<!ENTITY status4evar.advanced.warning "Tyto rozšířené možnosti mohou způsobit problémy s Pale Moon nebo jinými rozšířeními. Změny na vlastní nebezpečí.">
 
 <!ENTITY status4evar.advanced.urlbar.forceBinding "Pokusit se vynutit XBL vazby adresního řádku.">
 <!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Zvolte pouze pokud máte problémy se zobrazením činnosti nebo stavu v adresním řádku. Toto může potenciálně poškodit jiné rozšíření, které nastavuje XBL vazby adresního řádku.">
