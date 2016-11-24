@@ -23,7 +23,7 @@
 
      That's 50 characters, so we set the width at 50ch.
      -->
-<!ENTITY downloadDetails.width            "60ch">
+<!ENTITY downloadDetails.width            "50ch">
 
 <!-- LOCALIZATION NOTE (downloadsSummary.minWidth2):
      Minimum width for the main description of the downloads summary,
@@ -45,26 +45,26 @@
 <!ENTITY cmd.resume.label                 "Reprendre">
 <!ENTITY cmd.resume.accesskey             "R">
 <!ENTITY cmd.cancel.label                 "Annuler">
-<!ENTITY cmd.cancel.accesskey             "A">
+<!ENTITY cmd.cancel.accesskey             "C">
 <!-- LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
      cmd.showMac.accesskey):
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
-<!ENTITY cmd.show.label                   "Ouvrir le dossier contenant le fichier">
-<!ENTITY cmd.show.accesskey               "r">
-<!ENTITY cmd.showMac.label                "Ouvrir dans le Finder">
+<!ENTITY cmd.show.label                   "Ouvrir Dossier Contenant">
+<!ENTITY cmd.show.accesskey               "F">
+<!ENTITY cmd.showMac.label                "Afficher dans le Chercheur">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Réessayer">
 <!ENTITY cmd.goToDownloadPage.label       "Aller à la page de téléchargement">
-<!ENTITY cmd.goToDownloadPage.accesskey   "h">
-<!ENTITY cmd.copyDownloadLink.label       "Copier l'adresse d'origine du téléchargement">
-<!ENTITY cmd.copyDownloadLink.accesskey   "d">
-<!ENTITY cmd.removeFromHistory.label      "Retirer de l'historique">
+<!ENTITY cmd.goToDownloadPage.accesskey   "G">
+<!ENTITY cmd.copyDownloadLink.label       "Copier le Lien de Téléchargement">
+<!ENTITY cmd.copyDownloadLink.accesskey   "L">
+<!ENTITY cmd.removeFromHistory.label      "Supprimer De l'Historique">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
-<!ENTITY cmd.clearList.label              "Effacer la liste">
-<!ENTITY cmd.clearList.accesskey          "l">
-<!ENTITY cmd.clearDownloads.label         "Effacer les téléchargements">
+<!ENTITY cmd.clearList.label              "Effacer la Liste">
+<!ENTITY cmd.clearList.accesskey          "a">
+<!ENTITY cmd.clearDownloads.label         "Effacer les Téléchargements">
 <!ENTITY cmd.clearDownloads.accesskey     "t">
 
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
@@ -72,10 +72,10 @@
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-<!ENTITY downloadsHistory.label           "Afficher tous les téléchargements">
-<!ENTITY downloadsHistory.accesskey       "i">
+<!ENTITY downloadsHistory.label           "Afficher Tous les Téléchargements">
+<!ENTITY downloadsHistory.accesskey       "S">
 
-<!ENTITY clearDownloadsButton.label       "Effacer les téléchargements">
+<!ENTITY clearDownloadsButton.label       "Effacer les Téléchargements">
 <!ENTITY clearDownloadsButton.tooltip     "Effacer les téléchargements terminés, annulés et échoués">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
