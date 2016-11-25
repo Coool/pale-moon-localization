@@ -63,44 +63,44 @@
 <!ENTITY cmd.properties.label      "Propriétés">
 <!ENTITY cmd.properties.accesskey  "i">
 
-<!ENTITY cmd.sortby_name.label              "Trier par nom">
-<!ENTITY cmd.sortby_name.accesskey          "m">
-<!ENTITY cmd.context_sortby_name.accesskey  "m">
+<!ENTITY cmd.sortby_name.label              "Trier par Nom">
+<!ENTITY cmd.sortby_name.accesskey          "S">
+<!ENTITY cmd.context_sortby_name.accesskey  "r">
 
-<!ENTITY cmd.new_bookmark.label            "Nouveau marque-page…">
-<!ENTITY cmd.new_bookmark.accesskey        "g">
-<!ENTITY cmd.new_folder.label              "Nouveau dossier…">
-<!ENTITY cmd.new_folder.accesskey          "d">
-<!ENTITY cmd.context_new_folder.accesskey  "d">
-<!ENTITY cmd.new_separator.label           "Nouveau séparateur">
-<!ENTITY cmd.new_separator.accesskey       "N">
+<!ENTITY cmd.new_bookmark.label            "Nouveau Marque-Page…">
+<!ENTITY cmd.new_bookmark.accesskey        "B">
+<!ENTITY cmd.new_folder.label              "Nouveau Dossier…">
+<!ENTITY cmd.new_folder.accesskey          "o">
+<!ENTITY cmd.context_new_folder.accesskey  "F">
+<!ENTITY cmd.new_separator.label           "Nouveau Séparateur">
+<!ENTITY cmd.new_separator.accesskey       "S">
 
-<!ENTITY cmd.reloadLivebookmark.label      "Actualiser les marque-pages dynamiques">
-<!ENTITY cmd.reloadLivebookmark.accesskey  "l">
+<!ENTITY cmd.reloadLivebookmark.label      "Actualiser les Marque-Pages Dynamiques">
+<!ENTITY cmd.reloadLivebookmark.accesskey  "R">
 
 <!ENTITY cmd.moveBookmarks.label                  "Déplacer…">
-<!ENTITY cmd.moveBookmarks.accesskey              "D">
+<!ENTITY cmd.moveBookmarks.accesskey              "M">
 
 <!ENTITY col.name.label              "Nom">
 <!ENTITY col.tags.label              "Étiquettes">
-<!ENTITY col.url.label               "Adresse">
-<!ENTITY col.lastvisit.label         "Date de visite">
-<!ENTITY col.visitcount.label        "Nombre de visites">
+<!ENTITY col.url.label               "Emplacement">
+<!ENTITY col.lastvisit.label         "Date de Visite">
+<!ENTITY col.visitcount.label        "Nombre de Visites">
 <!ENTITY col.keyword.label           "Mot-clé">
 <!ENTITY col.description.label       "Description">
-<!ENTITY col.dateadded.label         "Date d'ajout">
-<!ENTITY col.lastmodified.label      "Date de modification">
-<!ENTITY col.parentfolder.label      "Dossier parent">
-<!ENTITY col.parentfolderpath.label  "Chemin du dossier parent">
+<!ENTITY col.dateadded.label         "Ajouté">
+<!ENTITY col.lastmodified.label      "Dernière Modification">
+<!ENTITY col.parentfolder.label      "Dossier Contenant">
+<!ENTITY col.parentfolderpath.label  "Chemin du dossier Contenant">
 
-<!ENTITY search.label                              "Rechercher :">
-<!ENTITY search.accesskey                          "R">
+<!ENTITY search.label                              "Rechercher:">
+<!ENTITY search.accesskey                          "S">
 
-<!ENTITY search.in.label                           "Rechercher dans :">
-<!ENTITY search.scopeFolder.label                  "Dossier sélectionné">
+<!ENTITY search.in.label                           "Rechercher dans:">
+<!ENTITY search.scopeFolder.label                  "Dossier Sélectionné">
 <!ENTITY search.scopeFolder.accesskey              "r">
-<!ENTITY search.scopeBookmarks.label               "Marque-pages">
-<!ENTITY search.scopeBookmarks.accesskey           "m">
+<!ENTITY search.scopeBookmarks.label               "Marque-Pages">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
 <!ENTITY search.scopeDownloads.label               "Téléchargements">
 <!ENTITY search.scopeDownloads.accesskey           "D">
 <!ENTITY search.scopeHistory.label                 "Historique">
@@ -108,33 +108,33 @@
 <!ENTITY saveSearch.label                          "Enregistrer">
 <!ENTITY saveSearch.accesskey                      "S">
 
-<!ENTITY cmd.find.key  "F">
+<!ENTITY cmd.find.key  "f">
 
-<!ENTITY maintenance.label      "Importation et sauvegarde">
+<!ENTITY maintenance.label      "Importation et Sauvegarde">
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "Importer et sauvegarder les marque-pages">
 
-<!ENTITY backButton.tooltip  "Reculer d'une page">
+<!ENTITY backButton.tooltip  "Retourner">
 
-<!ENTITY forwardButton.tooltip  "Avancer d'une page">
+<!ENTITY forwardButton.tooltip  "Avancer">
 
 <!ENTITY detailsPane.more.label "Plus">
-<!ENTITY detailsPane.more.accesskey "P">
+<!ENTITY detailsPane.more.accesskey "e">
 <!ENTITY detailsPane.less.label "Moins">
-<!ENTITY detailsPane.less.accesskey "s">
+<!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "Sélectionner un élément pour afficher et modifier ses propriétés">
 
-<!ENTITY find.label               "Chercher :">
-<!ENTITY find.accesskey           "r">
-<!ENTITY view.label               "Trier">
-<!ENTITY view.accesskey           "T">
-<!ENTITY byDate.label             "Par date">
-<!ENTITY byDate.accesskey         "d">
-<!ENTITY bySite.label             "Par site">
-<!ENTITY bySite.accesskey         "s">
-<!ENTITY byMostVisited.label      "Par nombre de visites">
-<!ENTITY byMostVisited.accesskey  "v">
-<!ENTITY byLastVisited.label      "Par date de dernière visite">
-<!ENTITY byLastVisited.accesskey  "r">
-<!ENTITY byDayAndSite.label       "Par date et par site">
+<!ENTITY find.label               "Chercher:">
+<!ENTITY find.accesskey           "S">
+<!ENTITY view.label               "Affichage">
+<!ENTITY view.accesskey           "w">
+<!ENTITY byDate.label             "Par Date">
+<!ENTITY byDate.accesskey         "D">
+<!ENTITY bySite.label             "Par Site">
+<!ENTITY bySite.accesskey         "S">
+<!ENTITY byMostVisited.label      "Par les Plus Visités">
+<!ENTITY byMostVisited.accesskey  "V">
+<!ENTITY byLastVisited.label      "Par Dernière Visite">
+<!ENTITY byLastVisited.accesskey  "L">
+<!ENTITY byDayAndSite.label       "Par Date et Site">
 <!ENTITY byDayAndSite.accesskey   "t">

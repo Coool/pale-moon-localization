@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Error de carga de página">
+<!ENTITY loadError.label "Error de carga de página web">
 <!ENTITY retry.label "Probá de nuevo">
 
 <!-- Specific error messages -->
@@ -45,7 +45,7 @@
 ">
 
 <!ENTITY netReset.title "Conexión interrumpida">
-<!ENTITY netReset.longDesc "<p>El enlace de red fue interrumpido mientras se negociaba una conexión. Por favor, intentá de nuevo.</p>">
+<!ENTITY netReset.longDesc "<p>El enlace de red fue interrumpido mientras se negociaba una conexión. Por favor, probá de nuevo.</p>">
 
 <!ENTITY netTimeout.title "Tiempo agotado de red">
 <!ENTITY netTimeout.longDesc "<p>El sitio solicitado no respondió a una solicitud de conexión y el navegador dejó de esperar una respuesta.</p><ul><li>¿El servidor podría estar experimentando alta demanda o una caída temporal? Probá de nuevo más tarde.</li><li>¿Tampoco podés navegar en otros sitios? Revisá la conexión de red de tu computadora.</li><li>¿Tu computadora o red están conectadas a través de un firewall o proxy? La configuración incorrecta puede interferir con la navegación web.</li><li>¿Seguís con problemas? Consultá con tu administrador de red o proveedor de Internet para obtener ayuda.</li></ul>">
@@ -94,8 +94,8 @@
 <!ENTITY corruptedContentError.title "Error de contenido corrupto">
 <!ENTITY corruptedContentError.longDesc "<p>No se puede mostrar la página que estás intentando cargar porque se detectó un error en la transmisión de datos.</p><ul><li>Por favor, ponete en contacto con el administrador del sitio para informarle de este problema.</li></ul>">
 
-<!ENTITY remoteXUL.title "Quitar XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li></ul></p>">
+<!ENTITY remoteXUL.title "XUL remoto">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Ponete en contacto con el administrador del sitio web para informarle de este problema.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,
