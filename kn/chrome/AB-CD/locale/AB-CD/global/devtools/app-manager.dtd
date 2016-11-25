@@ -2,102 +2,102 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY index.title "App Manager">
-<!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.title "ಅಪ್ಲಿಕೇಶನ್ ಮ್ಯಾನೇಜರ್">
+<!ENTITY index.projects2 "ಅಪ್ಲಿಕೇಶನ್ಗಳು">
+<!ENTITY index.device2 "ಸಾಧನ">
+<!ENTITY index.help "ಸಹಾಯ">
 
-<!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
-<!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
-<!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
-<!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.debugMainProcess "ಮುಖ್ಯ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ಡೀಬಗ್">
+<!ENTITY device.debugMainProcessTooltip "ಸಾಧನದಲ್ಲಿ ಮುಖ್ಯ ಪ್ರಕ್ರಿಯೆಯ ಸಂಪರ್ಕದಲ್ಲಿರುವ ಡೆವಲಪರ್ ಟೂಲ್ಸ್ ತೆರೆಯಿರಿ">
+<!ENTITY device.screenshot "ಸ್ಕ್ರೀನ್ಶಾಟ್">
+<!ENTITY device.screenshotTooltip "ಹೊಸ ಟ್ಯಾಬ್ನಲ್ಲಿ ಸಾಧನ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯ ಒಂದು ಸ್ಕ್ರೀನ್ಶಾಟ್ ತೆರೆಯಿರಿ">
+<!ENTITY device.title "ಸಾಧನ ನಿಯಂತ್ರಣ ಕೇಂದ್ರ">
+<!ENTITY device.notConnected "ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಕೆಳಗಿರುವ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಸಂಪರ್ಕಿಸಿ.">
+<!ENTITY device.startApp "ಪ್ರಾರಂಭಿಸಿ">
+<!ENTITY device.startAppTooltip "ಸಾಧನದಲ್ಲಿ ಈ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಾರಂಭಿಸಿ">
+<!ENTITY device.stopApp "ನಿಲ್ಲಿಸಿ">
+<!ENTITY device.stopAppTooltip "ಸಾಧನದಲ್ಲಿ ಈ ಅಪ್ಲಿಕೇಶನ್ ನಿಲ್ಲಿಸಿ">
+<!ENTITY device.debugApp "ಡೀಬಗ್">
+<!ENTITY device.debugAppTooltip "ಸಾಧನದಲ್ಲಿ ಈ ಅಪ್ಲಿಕೇಶನ್ ಸಂಪರ್ಕದಲ್ಲಿರುವ ಡೆವಲಪರ್ ಟೂಲ್ಸ್ ತೆರೆಯಿರಿ">
+<!ENTITY device.name "ಹೆಸರು">
+<!ENTITY device.plain "ಸರಳ (ಡೀಫಾಲ್ಟ್)">
+<!ENTITY device.privileged "ವಿಶೇಷ">
+<!ENTITY device.certified "ಪ್ರಮಾಣಿತ">
+<!ENTITY device.allow "ಅನುಮತಿಸಿ">
+<!ENTITY device.allowTooltip "ಈ ಅನುಮತಿ ಈ ರೀತಿಯ ಅಪ್ಲಿಕೇಶನ್ಗಳು ಅನುಮತಿಸಲಾಗುತ್ತದೆ">
+<!ENTITY device.prompt "ಪ್ರಾಂಪ್ಟ್">
+<!ENTITY device.promptTooltip "ಈ ರೀತಿಯ ಅಪ್ಲಿಕೇಶನ್ಗಳ ಈ ಅನುಮತಿಗೆ ಬಳಕೆದಾರನ ಪ್ರಾಂಪ್ಟ್ ಅಗತ್ಯವಿದೆ">
+<!ENTITY device.deny "ನಿರಾಕರಿಸು">
+<!ENTITY device.denyTooltip "ಈ ರೀತಿಯ ಅಪ್ಲಿಕೇಶನ್ಗಳ ಈ ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ">
+<!ENTITY device.installedApps "ಸ್ಥಾಪಿಸಲಾದ ಅಪ್ಲಿಕೇಶನ್ಗಳು">
+<!ENTITY device.installedAppsTooltip "ಸಾಧನದಲ್ಲಿ ಸ್ಥಾಪಿಸಲಾದ ಅಪ್ಲಿಕೇಷನ್ಗಳಿಗೆ ಪಟ್ಟಿಯನ್ನು ವೀಕ್ಷಿಸಿ. ಇಂತಹ ಪ್ರಮಾಣಿತ ಅಪ್ಲಿಕೇಶನ್ಗಳು ಈ ದೃಷ್ಟಿಕೋನದಲ್ಲಿ ಹೊರಗಿಡಲಾಗಿದೆ.">
+<!ENTITY device.permissions "ಅನುಮತಿಗಳು">
+<!ENTITY device.permissionsTooltip "ಅಪ್ಲಿಕೇಶನ್ಗಳಿಗೆ ಲಭ್ಯವಿರುವ ವಿವಿಧ ಅನುಮತಿಗಳನ್ನು ಈ ಟೇಬಲ್ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
-<!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.browserTabs "ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ಗಳು">
+<!ENTITY device.browserTabsTooltip "ಸಂಪರ್ಕ ಸಾಧನದ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ಗಳನ್ನು ಪಟ್ಟಿಯನ್ನು ವೀಕ್ಷಿಸಿ">
+<!ENTITY device.debugBrowserTab "ಡೀಬಗ್">
+<!ENTITY device.debugBrowserTabTooltip "ಸಾಧನದಲ್ಲಿ ಈ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ಸಂಪರ್ಕ ಹೊಂದಿರುವ ಡೆವಲಪರ್ ಟೂಲ್ಸ್ ತೆರೆಯಿರಿ">
+<!ENTITY device.help "ಸಹಾಯ">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.connectTooltip "ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಿಸಿ">
+<!ENTITY connection.disconnect "ಕಡಿತಗೊಳಿಸು">
+<!ENTITY connection.disconnectTooltip "ಪ್ರಸ್ತುತ ಸಾಧನ ಅಥವಾ ಸಿಮ್ಯುಲೇಟರ್ ಜೊತೆಗಿನ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸು">
+<!ENTITY connection.notConnected2 "ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿಲ್ಲ.">
+<!ENTITY connection.connectTo "ಸಂಪರ್ಕಿಸಿ:">
+<!ENTITY connection.noDeviceFound "ಯಾವುದೇ ಸಾಧನ ಕಂಡುಬಂದಿಲ್ಲ. ಒಂದು ಸಾಧನವನ್ನು ಜೋಡಿಸು">
+<!ENTITY connection.changeHostAndPort "ಬದಲಾವಣೆ">
+<!ENTITY connection.changeHostAndPortTooltip "ಸಾಧನ ಸಂಪರ್ಕ ಬಳಸಲಾಗುತ್ತದೆ ಹೋಸ್ಟ್ ಮತ್ತು ಪೋರ್ಟ್ ಬದಲಾಯಿಸು (localhost:6000ಗೆ ಡೀಫಾಲ್ಟ್ ಆಗುತ್ತದೆ)">
+<!ENTITY connection.startSimulator "ಸಿಮ್ಯುಲೇಟರ್ ಪ್ರಾರಂಭಿಸಿ">
+<!ENTITY connection.startSimulatorTooltip "ಸಿಮ್ಯುಲೇಟರ್ ಒಂದು ಕೊಂಡಿ ಪ್ರಾರಂಭಿಸು ಹಾಗು ಸಂಪರ್ಕಿಸು">
+<!ENTITY connection.saveConnectionInfo "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು">
+<!ENTITY connection.saveConnectionInfoTooltip "ಹೋಸ್ಟ್ ಮತ್ತು ಪೋರ್ಟ್ ಉಳಿಸಿ">
+<!ENTITY connection.connecting "ಸಂಪರ್ಕಿತಗೊಳ್ಳುತ್ತಿದೆ…">
+<!ENTITY connection.disconnecting "ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ…">
+<!ENTITY connection.cancel "ರದ್ದು">
+<!ENTITY connection.cancelConnectTooltip "ಪ್ರಗತಿಯಲ್ಲಿರುವ ಸಂಪರ್ಕ ರದ್ದು ಮಾಡು">
+<!ENTITY connection.cancelShowSimulatorTooltip "ಸಿಮ್ಯುಲೇಟರ್ ಸಂಪರ್ಕ ಮೋಡ್ನಿಂದ ನಿರ್ಗಮಿಸಿ ಮತ್ತು ಆರಂಭಿಕ ಪ್ರಾಂಪ್ಟಿಗೆ ಮರಳಿ">
+<!ENTITY connection.or "ಅಥವಾ">
+<!ENTITY connection.noSimulatorInstalled "ಯಾವುದೇ ಸಿಮ್ಯುಲೇಟರ್ ಸ್ಥಾಪಿಸಿಲ್ಲ.">
+<!ENTITY connection.installOneSimulator "ಸಿಮ್ಯುಲೇಟರ್ ಅನುಸ್ಥಾಪಿಸಲು">
+<!ENTITY connection.installOneSimulatorTooltip "ಸಂಬಂಧಿತ ಆಡ್-ಆನ್ ಡೌನ್ಲೋಡ್ ಮಾಡಿ ಒಂದು ಸಿಮ್ಯುಲೇಟರ್ ಆವೃತ್ತಿಯನ್ನು ಸ್ಥಾಪಿಸಿ">
+<!ENTITY connection.installAnotherSimulator "ಸೇರಿಸು">
+<!ENTITY connection.installAnotherSimulatorTooltip "ಸಂಬಂಧಿತ ಆಡ್-ಆನ್ ಡೌನ್ಲೋಡ್ ಮಾಡಿ ಹೆಚ್ಚುವರಿ ಸಿಮ್ಯುಲೇಟರ್ ಆವೃತ್ತಿಯನ್ನು ಸ್ಥಾಪಿಸಿ">
+<!ENTITY connection.startRegisteredSimulator "ಪ್ರಾರಂಭಿಸಿ:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
-<!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.localApps "ಸ್ಥಳೀಯ ಅಪ್ಲಿಕೇಶನ್ಗಳು">
+<!ENTITY projects.addApp "ಸೇರಿಸು">
+<!ENTITY projects.addPackaged "ಪ್ಯಾಕೇಜ್ ಆದ ಅಪ್ಲಿಕೇಶನ್ ಸೇರಿಸಿ">
+<!ENTITY projects.addPackagedTooltip "ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ನಿಂದ ಒಂದು ಹೊಸ ಪ್ಯಾಕೇಜ್ ಅಪ್ಲಿಕೇಶನ್ (ಒಂದು ಕೋಶ) ಸೇರಿಸಿ">
+<!ENTITY projects.addHosted "ಹೋಸ್ಟ್ ಅಪ್ಲಿಕೇಶನ್ ಸೇರಿಸಿ">
+<!ENTITY projects.addHostedTooltip "ಒಂದು ದೂರದ ವೆಬ್ಸೈಟ್ನಿಂದ ಹೊಸ ಹೋಸ್ಟ್ ಅಪ್ಲಿಕೇಶನ್ (ಒಂದು manifest.webapp ಕಡತ ಲಿಂಕ್) ಸೇರಿಸಿ">
+<!ENTITY projects.title "ಸ್ಥಳೀಯ ಅಪ್ಲಿಕೇಶನ್ಗಳು">
+<!ENTITY projects.appDetails "ಅಪ್ಲಿಕೇಶನ್ ವಿವರಗಳು">
+<!ENTITY projects.removeAppFromList "ನೀವು ಕೆಲಸ ಮಾಡುತ್ತಿರುವ ಅಪ್ಲಿಕೇಶನ್ಗಳ ಪಟ್ಟಿಯಿಂದ ಈ ಅಪ್ಲಿಕೇಶನ್ ತೆಗೆದುಹಾಕಿ. ಈ ಸಾಧನ ಅಥವಾ ಸಿಮ್ಯುಲೇಟರ್ ಇದನ್ನು ತೆಗೆಯುವುದಿಲ್ಲ.">
+<!ENTITY projects.updateApp "ಅಪ್‌ಡೇಟ್">
+<!ENTITY projects.updateAppTooltip "ಸಂಪರ್ಕಿಸಿದ ಸಾಧನದಲ್ಲಿ ಅಪ್ಲಿಕೇಶನ್ ಮೇಲೆ ಊರ್ಜಿತಗೊಳಿಸುವಿಕೆಯ ಚೆಕ್ ಮತ್ತು ನವೀಕರಿಸು">
+<!ENTITY projects.debugApp "ಡೀಬಗ್">
+<!ENTITY projects.debugAppTooltip "ಅಪ್ಲಿಕೇಶನ್ ಸಂಪರ್ಕದಲ್ಲಿರುವ ಡೆವಲಪರ್ ಟೂಲ್ಸ್ ತೆರೆಯಿರಿ">
+<!ENTITY projects.saveManifest "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು">
+<!ENTITY projects.saveManifestTooltip "ಕೆಳಗಿರುವ ಮ್ಯಾನಿಫೆಸ್ಟ್ ಸಂಪಾದಕ ವಿಷಯಗಳನ್ನು ಉಳಿಸು">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.noProjects "ಯಾವುದೇ ಯೋಜನೆಗಳಿಲ್ಲ. ಕೆಳಗೆ ಒಂದು ಹೊಸ ಪ್ಯಾಕೇಜ್ ಅಪ್ಲಿಕೇಶನ್ (ಕೋಶ) ಅಥವಾ ಒಂದು ಹೋಸ್ಟ್ ಅಪ್ಲಿಕೇಶನ್ (ಮ್ಯಾನಿಫೆಸ್ಟ್ ಫೈಲ್ ಲಿಂಕ್) ಸೇರಿಸಿ.">
+<!ENTITY projects.manifestEditor "ಮ್ಯಾನಿಫೆಸ್ಟ್ ಸಂಪಾದಕ">
+<!ENTITY projects.manifestEditorTooltip "ಕೆಳಗಿನ ಫಲಕದಲ್ಲಿ ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಮೈಫೆಸ್ಟ್ ಸಂಪಾದಿಸಿ. ಅಪ್ಡೇಟ್ ಬಟನ್ ನಿಮ್ಮ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸುತ್ತದೆ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ನವೀಕರಿಸುತ್ತದೆ.">
+<!ENTITY projects.manifestViewer "ಮ್ಯಾನಿಫೆಸ್ಟ್ ವೀಕ್ಷಕ">
+<!ENTITY projects.manifestViewerTooltip "ಕೆಳಗಿನ ಫಲಕದಲ್ಲಿ ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಮೈಫೆಸ್ಟ್ ಪರಿಶೀಲಿಸಿ">
+<!ENTITY projects.valid "ಮಾನ್ಯ">
+<!ENTITY projects.error "ದೋಷ">
+<!ENTITY projects.warning "ಎಚ್ಚರಿಕೆ">
+<!ENTITY projects.hosted "ಆಯೋಜಿಸಿದ್ದ">
+<!ENTITY projects.packaged "ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾದ">
 
-<!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.title "ಅಪ್ಲಿಕೇಶನ್ ಮ್ಯಾನೇಜರ್">
+<!ENTITY help.close "ಮುಚ್ಚು">
+<!ENTITY help.intro "ಈ ಉಪಕರಣವನ್ನು ನೀವು ಹೊಂದಾಣಿಕೆಯ ಸಾಧನಗಳಲ್ಲಿ ನಿರ್ಮಿಸಲು ಮತ್ತು ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್ಗಳನ್ನು(ಉದಾಹರಣೆಗೆ ಫೈರ್ಫಾಕ್ಸ್ ಓಎಸ್) ಸ್ಥಾಪಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. <strong> ಅಪ್ಲಿಕೇಶನ್ಗಳ </strong> ಟ್ಯಾಬ್ ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಊರ್ಜಿತಗೊಳಿಸುವಿಕೆ ಮತ್ತು ಅನುಸ್ಥಾಪನ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ನೀವು ಸಹಾಯ ಮಾಡುತ್ತದೆ. <strong> ಸಾಧನ </strong> ಟ್ಯಾಬ್ ನಿಮ್ಮ ಸಂಪರ್ಕ ಸಾಧನ ಬಗ್ಗೆ ಮಾಹಿತಿಯನ್ನು ನೀಡುತ್ತದೆ. ಸಾಧನ ಸಂಪರ್ಕ ಅಥವಾ ಸಿಮ್ಯುಲೇಟರ್ ಆರಂಭಿಸಲು ಕೆಳಭಾಗದಲ್ಲಿ ಟೂಲ್ಬಾರ್ ಬಳಸಿ.">
+<!ENTITY help.usefullLinks "ಉಪಯುಕ್ತ ಕೊಂಡಿಗಳು:">
+<!ENTITY help.appMgrDoc "ದಾಖಲೆ: ಅಪ್ಲಿಕೇಶನ್ ಮ್ಯಾನೇಜರ್ ಬಳಸಿ">
+<!ENTITY help.configuringDevice "ನಿಮ್ಮ ಫೈರ್ಫಾಕ್ಸ್ ಓಎಸ್ ಸಾಧನ ಸ್ಥಾಪನೆ ಹೇಗೆ ಮಾಡುತ್ತಿರಿ">
+<!ENTITY help.troubleShooting "ನಿವಾರಣೆ">
+<!ENTITY help.simulatorAddon "ಸಿಮ್ಯುಲೇಟರ್ ಆಡ್-ಆನ್ ಸ್ಥಾಪಿಸಿ">
+<!ENTITY help.adbHelperAddon "ಎಡಿಬಿ ಸಹಾಯಕ ಆಡ್-ಆನ್ ಸ್ಥಾಪಿಸಿಕೊಳ್ಳಿ">
