@@ -8,6 +8,7 @@ else
   key=`cat .crowdin.key`
 fi
 
+# ar bg da el en-GB fi gl hr hu is ko nl pt-BR pt-PT ro sk sl sr sv-SE tr vi zh-TW
 for lang in cs de es-AR es-ES es-MX fr it ja kn pl ru zh-CN
 do
   printf "\n  downloading $lang locale from CrowdIn:\n\n"

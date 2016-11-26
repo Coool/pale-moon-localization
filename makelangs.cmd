@@ -6,7 +6,6 @@ rem call :fix-lang zh-CN Chinese Simplified
 call :fix-lang zh-TW Chinese Traditional
 call :fix-lang hr Croatian HR
 rem call :fix-lang cs Czech CZ
-call :fix-lang bg Bulgarian BG
 call :fix-lang da Danish DK
 call :fix-lang nl Dutch NL
 call :fix-lang en-GB English GB
