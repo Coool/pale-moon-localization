@@ -26,8 +26,10 @@ printf "  processing *.properties ... "
 find $temp_dir/ -name "*.properties" -exec perl crowdin-filter.pl {} \;
 printf "done\n"
 printf "  processing *.dtd ... "
-find $temp_dir/ -name "*.dtd" -exec sed -i 's/\&amp;/\&/g;s/{\[=-/</g;s/-=\]}/>/g' {} \;
+find $temp_dir/ -name "*.dtd" -exec sed -i 's/\&amp;\([\.a-zA-Z0-9]*\);/\&\1;/g;s/{\[=-/</g;s/-=\]}/>/g' {} \;
 find $temp_dir/ -name "netError.dtd" -exec sed -i 's/\&lt;/</g;s/\&gt;/>/g' {} \;
+find $temp_dir/ -name "aboutRights.dtd" -exec sed -i 's/%/\&#37;/g' {} \;
+find $temp_dir/ -name "aboutSessionRestore.dtd" -exec sed -i 's/%/\&#37;/g' {} \;
 printf "done\n"
 
 printf "  zipping result to $1-fix.zip ... "

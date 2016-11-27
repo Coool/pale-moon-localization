@@ -27,16 +27,16 @@
 <!ENTITY checkSpelling.accesskey         "t">
 
 <!ENTITY systemDefaults.label            "ಗಣಕದ ಪೂರ್ವನಿಯೋಜಿತಗಳು">
-<!ENTITY alwaysCheckDefault.label        "ಆರಂಭಗೊಳ್ಳುವಾಗ  &amp;brandShortName; ವು ಪೂರ್ವನಿಯೋಜಿತ ವೀಕ್ಷಕವಾಗಿದೆಯೆ ಎಂದು ಯಾವಾಗಲೂ ಪರೀಕ್ಷಿಸು"><!--XXX-->
+<!ENTITY alwaysCheckDefault.label        "ಆರಂಭಗೊಳ್ಳುವಾಗ  &brandShortName; ವು ಪೂರ್ವನಿಯೋಜಿತ ವೀಕ್ಷಕವಾಗಿದೆಯೆ ಎಂದು ಯಾವಾಗಲೂ ಪರೀಕ್ಷಿಸು"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
-<!ENTITY setDefault.label                "&amp;brandShortName; ಅನ್ನು ಪೂರ್ವನಿಯೋಜಿತ ಜಾಲವೀಕ್ಷಕವಾಗಿಸು">
+<!ENTITY setDefault.label                "&brandShortName; ಅನ್ನು ಪೂರ್ವನಿಯೋಜಿತ ಜಾಲವೀಕ್ಷಕವಾಗಿಸು">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&amp;brandShortName; ಎನ್ನುವುದು ಪ್ರಸ್ತುತ ನಿಮ್ಮ ಪೂರ್ವನಿಯೋಜಿತ ಜಾಲವೀಕ್ಷಕವಾಗಿದೆ">
+<!ENTITY isDefault.label                 "&brandShortName; ಎನ್ನುವುದು ಪ್ರಸ್ತುತ ನಿಮ್ಮ ಪೂರ್ವನಿಯೋಜಿತ ಜಾಲವೀಕ್ಷಕವಾಗಿದೆ">
 
 <!ENTITY dataChoicesTab.label            "ದತ್ತಾಂಶ ಆಯ್ಕೆಗಳು">
 
 <!ENTITY crashReporterSection.label      "ಕುಸಿತ ವರದಿಗಾರ">
-<!ENTITY crashReporterDesc.label         "ನಿಮ್ಮ ಜಾಲವೀಕ್ಷಕವನ್ನು ಹೆಚ್ಚು ಸ್ಥಿರ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿಸಲು &amp;brandShortName; ಕುಸಿತ ವರದಿಗಳನ್ನು  &amp;vendorShortName; ಗೆ ಕಳುಹಿಸುತ್ತದೆ">
+<!ENTITY crashReporterDesc.label         "ನಿಮ್ಮ ಜಾಲವೀಕ್ಷಕವನ್ನು ಹೆಚ್ಚು ಸ್ಥಿರ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿಸಲು &brandShortName; ಕುಸಿತ ವರದಿಗಳನ್ನು  &vendorShortName; ಗೆ ಕಳುಹಿಸುತ್ತದೆ">
 <!ENTITY enableCrashReporter.label       "ಕುಸಿತ ವರದಿಗಾರನನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು">
 <!ENTITY enableCrashReporter.accesskey   "C">
 <!ENTITY crashReporterLearnMore.label    "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ ">
@@ -45,7 +45,7 @@
 
 <!ENTITY connection.label                "ಸಂಪರ್ಕ">
 
-<!ENTITY connectionDesc.label            "&amp;brandShortName; ಹೇಗೆ ಅಂತರಜಾಲಕ್ಕೆ ಸಂಪರ್ಕಿತಗೊಳ್ಳಬೇಕೆಂದು ಸಂರಚಿಸಿ ">
+<!ENTITY connectionDesc.label            "&brandShortName; ಹೇಗೆ ಅಂತರಜಾಲಕ್ಕೆ ಸಂಪರ್ಕಿತಗೊಳ್ಳಬೇಕೆಂದು ಸಂರಚಿಸಿ ">
 <!ENTITY connectionSettings.label        "ಸಿದ್ಧತೆಗಳು...">
 <!ENTITY connectionSettings.accesskey    "e">
 
@@ -71,13 +71,13 @@
 
 <!ENTITY updateTab.label                 "ಅಪ್ಡೇಟ್‍">
 
-<!ENTITY updateApp.label                 "&amp;brandShortName; ಅಪ್‌ಡೇಟ್‌ಗಳು:">
+<!ENTITY updateApp.label                 "&brandShortName; ಅಪ್‌ಡೇಟ್‌ಗಳು:">
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
 <!ENTITY updateAuto1.label               "ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನುಸ್ಥಾಪಿಸು (ಸಲಹೆ ಮಾಡಲಾಗಿದೆ: ಉತ್ತಮಗೊಳಿಸಲಾದ ಸುರಕ್ಷತೆ)">
 <!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateAutoMetro.label           "ಸ್ವಯಂಚಾಲಿತವಾಗಿ Windows 8 ಶೈಲಿಯ &amp;brandShortName; ಇಂದ ಅಪ್‌ಡೇಟ್ ಮಾಡು">
+<!ENTITY updateAutoMetro.label           "ಸ್ವಯಂಚಾಲಿತವಾಗಿ Windows 8 ಶೈಲಿಯ &brandShortName; ಇಂದ ಅಪ್‌ಡೇಟ್ ಮಾಡು">
 <!ENTITY updateAutoMetro.accesskey       "s">
 <!ENTITY updateCheck.label               "ಅಪ್‌ಡೇಟ್‌ಗಳಿಗಾಗಿ ಹುಡುಕು, ಆದರೆ ಅವುಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸಬೇಕೆ ಅಥವ ಬೇಡವೆ ಎನ್ನುವದನ್ನು ನಿರ್ಧರಿಸಲು ನನಗೆ ಬಿಡು">
 <!ENTITY updateCheck.accesskey           "C">
@@ -87,7 +87,7 @@
 <!ENTITY updateAutoAddonWarn.label       "ನನ್ನ ಯಾವುದೆ ಆಡ್-ಆನ್‌ಗಳನ್ನು ಇದು ಅಶಕ್ತಗೊಳಿಸಿದಲ್ಲಿ ನನ್ನನ್ನು ಎಚ್ಚರಿಸು">
 <!ENTITY updateAutoAddonWarn.accesskey   "W">
 
-<!ENTITY updateAutoMetroWarn.label       "(Windows 8 ಶೈಲಿಯ &amp;brandShortName; ಆಡ್-ಆನ್ ಹೊಂದಾಣಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸುವುದಿಲ್ಲ)">
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8 ಶೈಲಿಯ &brandShortName; ಆಡ್-ಆನ್ ಹೊಂದಾಣಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸುವುದಿಲ್ಲ)">
 
 <!ENTITY updateHistory.label             "ಅಪ್ಡೇಟ್ ಇತಿಹಾಸವನ್ನು ತೋರಿಸು">
 <!ENTITY updateHistory.accesskey         "p">
@@ -108,13 +108,13 @@
 <!ENTITY offlineAppRemove.confirm        "ಆಫ್‌ಲೈನ್‌ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದು ಹಾಕು">
 
 <!ENTITY certificateTab.label            "ಪ್ರಮಾಣಪತ್ರಗಳು">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "ಈ ಅಧಿವೇಶನದಲ್ಲಿ ಯಾವುದೇ ಡೌನ್ಲೋಡ್ಗಳ್ಳಿಲ್ಲ">
 <!ENTITY certSelection.description       "ಒಂದು ಪರಿಚಾರಕವು ನನ್ನ ಖಾಸಗಿ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪೇಕ್ಷಿಸಿದಾಗ:">
 <!ENTITY certs.auto                      "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಒಂದನ್ನು ಆರಿಸು">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "ಪ್ರತಿ ಬಾರಿಯೂ ನನ್ನ ಅನುಮತಿ ಕೇಳು">
 <!ENTITY certs.ask.accesskey             "i">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "ಪ್ರಮಾಣಪತ್ರ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ">
 <!ENTITY enableOCSP.label                "ಪ್ರಮಾಣಪತ್ರಗಳ ಪ್ರಸಕ್ತ ಮಾನ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸಲು ಆನ್‌ಲೈನ್ ಸರ್ಟಿಫಿಕೇಟ್ ಸ್ಟೇಟಸ್ ಪ್ರೊಟೋಕಾಲ್(OCSP)ಅನ್ನು ಬಳಸಿ">
 <!ENTITY enableOCSP.accesskey            "U">
 <!ENTITY requireOCSP.label               "ಒಂದು OCSP ಪರಿಚಾರಕದೊಂದಿಗಿನ ಸಂಪರ್ಕವು ಕಡಿದುಹೋದಲ್ಲಿ, ಪ್ರಮಾಣಪತ್ರವು ಅಮಾನ್ಯವೆಂದು ಪರಿಗಣಿಸು">
@@ -124,21 +124,21 @@
 <!ENTITY viewSecurityDevices.label       "ಸುರಕ್ಷತಾ ಸಾಧನಗಳು">
 <!ENTITY viewSecurityDevices.accesskey   "y">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "ಹೊಂದಾಣಿಕೆ">
+<!ENTITY UACompat.label         "ಬಳಕೆದಾರ ಏಜೆಂಟ್ ಮೋಡ್:">
+<!ENTITY UACompat.Native        "ಸ್ಥಳೀಯ">
+<!ENTITY UACompat.Gecko         "ಗೆಕ್ಕೊ ಹೊಂದಾಣಿಕೆ">
+<!ENTITY UACompat.Firefox       "ಫೈರ್ಫಾಕ್ಸ್ ಹೊಂದಾಣಿಕೆ">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY scrollparamTab.label               "ಸ್ಕ್ರೋಲಿಂಗ್">
+<!ENTITY smoothscroll.explain.label         "ಮೇಲಿರುವ ಚೆಕ್ಬಾಕ್ಸ್ ಸಕ್ರಿಯಗೊಳಿಸಿದಲ್ಲಿ ಮಾತ್ರ ಒಟ್ಟಾರೆ ಕೆಳಗಿರುವ ಮೃದು ಸ್ಕ್ರಾಲಿಂಗ್ ನಿಯತಾಂಕಗಳ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ.">
+<!ENTITY smoothscroll.to                    "ಗೆ">
+<!ENTITY smoothscroll.params.label          "ಮೃದುವಾಗಿ ಸ್ಕ್ರೋಲ್ ನಿಯತಾಂಕಗಳು">
+<!ENTITY smoothscroll.mousewheel.label      "ಮೃದುವಾಗಿ ಸ್ಕ್ರೋಲ್ ಇರುವ ಮೌಸ್ ಚಕ್ರ">
+<!ENTITY smoothscroll.mousewheel.duration   "ಮೌಸ್ ಚಕ್ರ ಸ್ಕ್ರಾಲ್ ಅವಧಿ:">
+<!ENTITY smoothscroll.arrowkeys.label       "ಬಾಣದ ಕೀಲಿಗಳಿಂದ ಮೃದುವಾಗಿ ಸ್ಕ್ರೋಲ್">
+<!ENTITY smoothscroll.arrowkeys.duration    "ಬಾಣದ ಕೀಲಿಗಳ ಸ್ಕ್ರಾಲ್ ಅವಧಿ:">
+<!ENTITY smoothscroll.pagekeys.label        "ಮೃದುವಾದ ಸ್ಕ್ರೋಲ್ ಪುಟ ಮೇಲೆ / ಕೆಳಗೆ">
+<!ENTITY smoothscroll.pagekeys.duration     "ಪುಟ ಮೇಲೆ / ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಅವಧಿ:">
+<!ENTITY smoothscroll.scrollbar.label       "Scrollbars ಜೊತೆ ಮೃದುವಾದ ಸ್ಕ್ರೋಲ್">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbars ಮೃದುವಾದ ಸ್ಕ್ರೋಲ್ ಅವಧಿ:">

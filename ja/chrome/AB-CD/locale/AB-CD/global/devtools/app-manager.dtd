@@ -14,38 +14,38 @@
 <!ENTITY device.title "デバイスコントロールセンター">
 <!ENTITY device.notConnected "接続されていません。以下お使いのデバイスを接続してください。">
 <!ENTITY device.startApp "開始">
-<!ENTITY device.startAppTooltip "Start this app on the device">
+<!ENTITY device.startAppTooltip "このアプリをデバイスで起動">
 <!ENTITY device.stopApp "停止">
 <!ENTITY device.stopAppTooltip "デバイス内のこのアプリを停止">
 <!ENTITY device.debugApp "デバッグ">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
+<!ENTITY device.debugAppTooltip "このアプリに接続されているデベロッパーツールをデバイスで開く">
 <!ENTITY device.name "名前">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
+<!ENTITY device.plain "プレーン (デフォルト)">
+<!ENTITY device.privileged "特権">
 <!ENTITY device.certified "認証済み">
 <!ENTITY device.allow "許可">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
+<!ENTITY device.allowTooltip "このアクセスはこの種類のアプリでは許可されます">
 <!ENTITY device.prompt "入力を要求">
 <!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
 <!ENTITY device.deny "拒否">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
+<!ENTITY device.denyTooltip "このアクセスはこの種類のアプリでは拒否されます">
 <!ENTITY device.installedApps "インストール済みアプリ">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
+<!ENTITY device.installedAppsTooltip "デバイスにインストールされているアプリのリストを表示します。 認定アプリなどの一部のアプリはこのビューから除外されることがあります。">
 <!ENTITY device.permissions "サイト別設定">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.permissionsTooltip "さまざまな種類のアプリケーションからアクセス可能な権限の表を表示する">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
+<!ENTITY device.browserTabs "ブラウザタブ">
+<!ENTITY device.browserTabsTooltip "接続されたデバイスのブラウザのタブのリストを表示する">
 <!ENTITY device.debugBrowserTab "デバッグ">
 <!ENTITY device.debugBrowserTabTooltip "デバイスにこのブラウザータブに接続される開発者ツールを開く">
 <!ENTITY device.help "ヘルプ">
 
 <!ENTITY connection.connectTooltip "デバイスへ接続">
 <!ENTITY connection.disconnect "切断">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
+<!ENTITY connection.disconnectTooltip "現在のデバイスまたはシミュレータから切断する">
+<!ENTITY connection.notConnected2 "接続されていません。">
+<!ENTITY connection.connectTo "接続先:">
+<!ENTITY connection.noDeviceFound "デバイスが見つかりませんでした。 デバイスを接続してください">
 <!ENTITY connection.changeHostAndPort "変更">
 <!ENTITY connection.changeHostAndPortTooltip "ホストとデバイスへ接続に使用するポートを変更 (デフォルト localhost:6000)">
 <!ENTITY connection.startSimulator "シミュレータを起動">
@@ -55,9 +55,9 @@
 <!ENTITY connection.connecting "接続中…">
 <!ENTITY connection.disconnecting "切断中...">
 <!ENTITY connection.cancel "キャンセル">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
+<!ENTITY connection.cancelConnectTooltip "進行中の接続をキャンセル">
+<!ENTITY connection.cancelShowSimulatorTooltip "シミュレータの接続モードを終了し最初のプロンプトに戻る">
+<!ENTITY connection.or "または">
 <!ENTITY connection.noSimulatorInstalled "シミュレータがインストールされていません。">
 <!ENTITY connection.installOneSimulator "シミュレータのインストール">
 <!ENTITY connection.installOneSimulatorTooltip "関連アドオンをダウンロードすることにより、シミュレータのバージョンをインストールします。">
@@ -67,25 +67,25 @@
 
 <!ENTITY projects.localApps "ローカルアプリ">
 <!ENTITY projects.addApp "追加">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
+<!ENTITY projects.addPackaged "パッケージアプリの追加">
+<!ENTITY projects.addPackagedTooltip "コンピュータからパッケージ化された新しいアプリケーション（ディレクトリ）を追加">
+<!ENTITY projects.addHosted "ホストにあるアプリを開く">
+<!ENTITY projects.addHostedTooltip "リモート Web サイトから新しいホストされたアプリケーション (manifest.webappファイルへのリンク) を追加する">
 <!ENTITY projects.title "ローカルアプリ">
 <!ENTITY projects.appDetails "アプリの詳細">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
+<!ENTITY projects.removeAppFromList "作業しているアプリのリストからこのアプリを削除してください。 これでデバイスやシミュレータからは削除されません。">
 <!ENTITY projects.updateApp "更新">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.updateAppTooltip "検証チェックを実行し、接続されたデバイスにアプリケーションを更新する">
 <!ENTITY projects.debugApp "デバッグ">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
+<!ENTITY projects.debugAppTooltip "このアプリに接続されているデベロッパーツールを開く">
 <!ENTITY projects.saveManifest "保存">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.saveManifestTooltip "下のマニフェストエディタの内容を保存">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
+<!ENTITY projects.noProjects "プロジェクトはありません。 下に新しいパッケージアプリケーション（ローカルディレクトリ）またはホストされているアプリケーション（マニフェストファイルへのリンク）を追加してください。">
+<!ENTITY projects.manifestEditor "マニフェストエディター">
+<!ENTITY projects.manifestEditorTooltip "下のパネルでアプリのマニフェストを編集します。 更新ボタンをクリックすると、変更が保存されアプリケーションが更新されます。">
+<!ENTITY projects.manifestViewer "マニフェストビューアー">
+<!ENTITY projects.manifestViewerTooltip "下のパネルでアプリの目録を調べる">
 <!ENTITY projects.valid "有効">
 <!ENTITY projects.error "エラー">
 <!ENTITY projects.warning "警告">

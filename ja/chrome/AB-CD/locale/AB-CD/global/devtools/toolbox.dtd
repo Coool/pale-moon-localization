@@ -35,12 +35,12 @@
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
 <!ENTITY options.showUserAgentStyles.label "ブラウザスタイルを表示">
-<!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
+<!ENTITY options.showUserAgentStyles.tooltip "これをオンにすると、ブラウザによって読み込まれるデフォルトのスタイルが表示されます。">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "Default color unit">
+<!ENTITY options.defaultColorUnit.label "デフォルトの色単位">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -72,19 +72,19 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.label4    "Chrome とアドオンのデバッグを有効">
+<!ENTITY options.enableChrome.tooltip2  "このオプションをオンにすると、ブラウザコンテキストでさまざまな開発者ツールを使用し、アドオンマネージャからアドオンをデバッグすることができます">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "リモートデバッガを有効">
-<!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "このオプションをオンにすると、デベロッパーツールは Firefox OS のようなリモート Firefox インスタンスをデバッグできます">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
-<!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
+<!ENTITY options.disableJavaScript.label     "JavaScript * を無効にする">
 <!ENTITY options.disableJavaScript.tooltip   "このオプションを有効にすると、現在のタブの JavaScript を無効にします。タブまたはツールボックスを閉じると、この設定は元に戻されます。">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
@@ -107,7 +107,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Available Toolbox Buttons">
+<!ENTITY options.selectEnabledToolboxButtons.label     "使用可能なツールボックスボタン">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -131,16 +131,16 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "タイムスタンプの有効">
-<!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
+<!ENTITY options.timestampMessages.tooltip    "このオプションを有効にすると、Web コンソールでコマンドと出力にタイムスタンプが表示されます">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label            "Style Editor">
+<!ENTITY options.styleeditor.label            "スタイルエディタ">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
-<!ENTITY options.stylesheetSourceMaps.label      "Show original sources">
+<!ENTITY options.stylesheetSourceMaps.label      "元のソースを表示">
 <!ENTITY options.stylesheetSourceMaps.tooltip    "Show original sources (e.g. Sass files) in the Style Editor and Inspector">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
@@ -176,9 +176,9 @@ Goanna platform symbols">
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
+<!ENTITY options.sourceeditor.label                     "エディターの設定">
 <!ENTITY options.sourceeditor.detectindentation.label   "インデントの検出">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "ソースの内容に基づいてインデントを推測する">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose ブラケット">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "括弧を自動的に挿入">
 <!ENTITY options.sourceeditor.expandtab.label           "インデントにスペースを使用">
@@ -187,5 +187,5 @@ Goanna platform symbols">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
 <!ENTITY options.sourceeditor.keybinding.label          "キー割り当て">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">
-<!ENTITY options.sourceeditor.keybinding.default.label  "Default">
+<!ENTITY options.sourceeditor.keybinding.default.label  "デフォルト">
 

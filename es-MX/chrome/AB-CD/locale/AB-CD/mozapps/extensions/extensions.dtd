@@ -20,17 +20,17 @@
 <!ENTITY installAddonFromFile.accesskey       "I">
 <!ENTITY toolsMenu.tooltip                    "Herramientas para todos los complementos">
 
-<!ENTITY cmd.back.tooltip                     "Retrocede una página">
-<!ENTITY cmd.forward.tooltip                  "Avanza una página">
+<!ENTITY cmd.back.tooltip                     "Retroceder una página">
+<!ENTITY cmd.forward.tooltip                  "Avanzar una página">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Todos los complementos han sido deshabilitados al estar en modo seguro.">
 <!ENTITY warning.checkcompatibility.label          "La comprobación de compatibilidad de complementos está desactivada. Puedes tener algunos incompatibles.">
 <!ENTITY warning.checkcompatibility.enable.label   "Habilitar">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Habilita la comprobación de compatibilidad de complementos">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Habilitar la comprobación de compatibilidad de complementos">
 <!ENTITY warning.updatesecurity.label              "La comprobación de seguridad de los complementos está desactivada. Puedes ver tu seguridad comprometida durante las actualizaciones.">
 <!ENTITY warning.updatesecurity.enable.label       "Habilitar">
-<!ENTITY warning.updatesecurity.enable.tooltip     "Habilita la comprobación de seguridad de complementos">
+<!ENTITY warning.updatesecurity.enable.tooltip     "Habilitar la comprobación de seguridad de complementos">
 
 <!-- global informations -->
 <!ENTITY info.plugincheck.label                 "Haz clic aquí para ver si tus complementos están actualizados">
@@ -69,7 +69,7 @@
 <!ENTITY updates.noneFound.label              "No se encontraron actualizaciones">
 <!ENTITY updates.manualUpdatesFound.label     "Ver actualizaciones disponibles">
 <!ENTITY updates.updateSelected.label         "Instalar actualizaciones">
-<!ENTITY updates.updateSelected.tooltip       "Instala actualizaciones disponibles de esta lista">
+<!ENTITY updates.updateSelected.tooltip       "Instalar actualizaciones disponibles de esta lista">
 
 <!-- addon actions -->
 <!ENTITY cmd.showDetails.label                "Mostrar más información">
@@ -112,9 +112,9 @@
 <!ENTITY cmd.contribute.tooltip               "Contribuye al desarrollo de este complemento">
 
 <!ENTITY cmd.showReleaseNotes.label           "Mostrar notas de la versión">
-<!ENTITY cmd.showReleaseNotes.tooltip         "Muestra las notas de la versión de esta actualización">
+<!ENTITY cmd.showReleaseNotes.tooltip         "Mostrar las notas de la versión de esta actualización">
 <!ENTITY cmd.hideReleaseNotes.label           "Ocultar notas de la versión">
-<!ENTITY cmd.hideReleaseNotes.tooltip         "Oculta las notas de la versión de esta actualización">
+<!ENTITY cmd.hideReleaseNotes.tooltip         "Ocultar las notas de la versión de esta actualización">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -137,24 +137,24 @@
 
 <!ENTITY detail.updateType                    "Actualizaciones automáticas">
 <!ENTITY detail.updateDefault.label           "Predeterminado">
-<!ENTITY detail.updateDefault.tooltip         "Instala automáticamente las actualizaciones si es lo predeterminado">
+<!ENTITY detail.updateDefault.tooltip         "Instalar automáticamente las actualizaciones si es lo predeterminado">
 <!ENTITY detail.updateAutomatic.label         "Activar">
-<!ENTITY detail.updateAutomatic.tooltip       "Instala automáticamente las actualizaciones">
+<!ENTITY detail.updateAutomatic.tooltip       "Instalar automáticamente las actualizaciones">
 <!ENTITY detail.updateManual.label            "Desactivar">
-<!ENTITY detail.updateManual.tooltip          "No instala actualizaciones automáticamente">
+<!ENTITY detail.updateManual.tooltip          "No instalar actualizaciones automáticamente">
 <!ENTITY detail.home                          "Página principal">
 <!ENTITY detail.repository                    "Perfil del complemento">
 <!ENTITY detail.size                          "Tamaño">
 
 <!ENTITY detail.checkForUpdates.label         "Buscar actualizaciones">
 <!ENTITY detail.checkForUpdates.accesskey     "B">
-<!ENTITY detail.checkForUpdates.tooltip       "Busca actualizaciones para este complemento">
+<!ENTITY detail.checkForUpdates.tooltip       "Buscar actualizaciones para este complemento">
 <!ENTITY detail.showPreferencesWin.label      "Opciones">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "Cambia las opciones de este complemento">
+<!ENTITY detail.showPreferencesWin.tooltip    "Cambiar las opciones de este complemento">
 <!ENTITY detail.showPreferencesUnix.label     "Preferencias">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Cambia las preferencias de este complemento">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Cambiar las preferencias de este complemento">
 
 
 <!-- ratings -->
@@ -167,23 +167,23 @@
 
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Nombre">
-<!ENTITY sort.name.tooltip                    "Ordena por nombre">
+<!ENTITY sort.name.tooltip                    "Ordenar por nombre">
 <!ENTITY sort.dateUpdated.label               "Última actualización">
-<!ENTITY sort.dateUpdated.tooltip             "Ordena por fecha de actualización">
+<!ENTITY sort.dateUpdated.tooltip             "Ordenar por fecha de actualización">
 <!ENTITY sort.relevance.label                 "Mejor coincidencia">
-<!ENTITY sort.relevance.tooltip               "Ordena por relevancia">
+<!ENTITY sort.relevance.tooltip               "Ordenar por relevancia">
 <!ENTITY sort.price.label                     "Precio">
-<!ENTITY sort.price.tooltip                   "Ordena por precio">
+<!ENTITY sort.price.tooltip                   "Ordenar por precio">
 
 <!ENTITY search.filter2.label                 "Buscar:">
 <!ENTITY search.filter2.installed.label       "Mis complementos">
-<!ENTITY search.filter2.installed.tooltip     "Muestra complementos instalados">
+<!ENTITY search.filter2.installed.tooltip     "Mostrar complementos instalados">
 <!ENTITY search.filter2.available.label       "Complementos disponibles">
-<!ENTITY search.filter2.available.tooltip     "Muestra complementos disponibles para instalar">
+<!ENTITY search.filter2.available.tooltip     "Mostrar complementos disponibles para instalar">
 
 <!ENTITY addon.homepage                       "Página principal">
 <!ENTITY addon.details.label                  "Más">
-<!ENTITY addon.details.tooltip                "Muestra más detalles acerca de este complemento">
+<!ENTITY addon.details.tooltip                "Mostrar más detalles acerca de este complemento">
 <!ENTITY addon.unknownDate                    "Desconocido">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
@@ -195,14 +195,14 @@
      necessary -->
 <!ENTITY addon.update.postfix                 "Actualizar">
 <!ENTITY addon.undoAction.label               "Deshacer">
-<!ENTITY addon.undoAction.tooltip             "Deshace esta acción">
+<!ENTITY addon.undoAction.tooltip             "Deshacer esta acción">
 <!ENTITY addon.undoRemove.label               "Deshacer">
-<!ENTITY addon.undoRemove.tooltip             "Mantiene este complemento instalado">
+<!ENTITY addon.undoRemove.tooltip             "Mantener este complemento instalado">
 <!ENTITY addon.restartNow.label               "Reiniciar ahora">
 <!ENTITY addon.install.label                  "Instalar">
-<!ENTITY addon.install.tooltip                "Instala este complemento">
+<!ENTITY addon.install.tooltip                "Instalar este complemento">
 <!ENTITY addon.updateNow.label                "Actualizar ahora">
-<!ENTITY addon.updateNow.tooltip              "Instala la actualización de este complemento">
+<!ENTITY addon.updateNow.tooltip              "Instalar la actualización de este complemento">
 <!ENTITY addon.includeUpdate.label            "Incluir en la actualización">
 <!ENTITY addon.updateAvailable.label          "Una actualización está disponible">
 <!ENTITY addon.checkingForUpdates.label       "Buscando actualizaciones…">

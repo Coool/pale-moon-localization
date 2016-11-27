@@ -30,7 +30,7 @@
 <!ENTITY device.deny "Nega">
 <!ENTITY device.denyTooltip "Questa autorizzazione viene negata per le applicazioni di questo tipo">
 <!ENTITY device.installedApps "Applicazioni installate">
-<!ENTITY device.installedAppsTooltip "Visualizzare un elenco di applicazioni installate sul dispositivo. Alcune app, ad esempio app certificate, possono essere esclusi dalla vista.">
+<!ENTITY device.installedAppsTooltip "Visualizzare un elenco di applicazioni installate sul dispositivo. Alcune app, ad esempio app certificate, possono essere escluse dalla vista.">
 <!ENTITY device.permissions "Autorizzazioni">
 <!ENTITY device.permissionsTooltip "Mostra una tabella delle autorizzazioni accessibili per i diversi tipi di applicazioni">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
@@ -73,7 +73,7 @@
 <!ENTITY projects.addHostedTooltip "Aggiungere una nuova applicazione hosted (collegamento a un file manifest.webapp) da un sito Web remoto">
 <!ENTITY projects.title "Applicazioni locali">
 <!ENTITY projects.appDetails "Dettagli app">
-<!ENTITY projects.removeAppFromList "Rimuovere questa applicazione dall'elenco delle applicazioni su cui si sta lavorando. Esa non verrà rimossa da un dispositivo o da un simulatore.">
+<!ENTITY projects.removeAppFromList "Rimuovere questa applicazione dall'elenco delle applicazioni su cui si sta lavorando. Essa non verrà rimossa da un dispositivo o da un simulatore.">
 <!ENTITY projects.updateApp "Aggiorna">
 <!ENTITY projects.updateAppTooltip "Eseguire controlli di convalida e aggiornare l'app al dispositivo collegato">
 <!ENTITY projects.debugApp "Debug">
@@ -81,7 +81,7 @@
 <!ENTITY projects.saveManifest "Salva">
 <!ENTITY projects.saveManifestTooltip "Salvare il contenuto del Manifest Editor qui sotto">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "Nessun progetto. Aggiungere una nuova app confezionata qui sotto (directory locale) o una hostedapp (collegamento a un file manifesto).">
+<!ENTITY projects.noProjects "Nessun progetto. Aggiungere una nuova app confezionata qui sotto (directory locale) o una hosted app (collegamento a un file manifesto).">
 <!ENTITY projects.manifestEditor "Manifest Editor">
 <!ENTITY projects.manifestEditorTooltip "Modificare il manifesto dell'applicazione nel pannello qui sotto. Il pulsante di aggiornamento salverà le modifiche e aggiornerà l'app.">
 <!ENTITY projects.manifestViewer "Manifest Viewer">
