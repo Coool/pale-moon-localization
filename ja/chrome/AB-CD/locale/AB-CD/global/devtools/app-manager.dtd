@@ -26,7 +26,7 @@
 <!ENTITY device.allow "許可">
 <!ENTITY device.allowTooltip "このアクセスはこの種類のアプリでは許可されます">
 <!ENTITY device.prompt "入力を要求">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
+<!ENTITY device.promptTooltip "このアクセスはこの種類のアプリではユーザプロンプトが必要です">
 <!ENTITY device.deny "拒否">
 <!ENTITY device.denyTooltip "このアクセスはこの種類のアプリでは拒否されます">
 <!ENTITY device.installedApps "インストール済みアプリ">
@@ -49,7 +49,7 @@
 <!ENTITY connection.changeHostAndPort "変更">
 <!ENTITY connection.changeHostAndPortTooltip "ホストとデバイスへ接続に使用するポートを変更 (デフォルト localhost:6000)">
 <!ENTITY connection.startSimulator "シミュレータを起動">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
+<!ENTITY connection.startSimulatorTooltip "シミュレーターのインスタンスを実行して接続する">
 <!ENTITY connection.saveConnectionInfo "保存">
 <!ENTITY connection.saveConnectionInfoTooltip "ホストとポートを保存">
 <!ENTITY connection.connecting "接続中…">
@@ -89,14 +89,14 @@
 <!ENTITY projects.valid "有効">
 <!ENTITY projects.error "エラー">
 <!ENTITY projects.warning "警告">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.hosted "ホストされた">
+<!ENTITY projects.packaged "パッケージされた">
 
 <!ENTITY help.title "アプリマネージャー">
 <!ENTITY help.close "閉じる">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
+<!ENTITY help.intro "このツールは互換性のあるデバイスでWebアプリケーションを構築してインストールするのに役立ちます。(例えば Firefox OS) <strong>アプリ</strong> タブは、アプリの検証とインストールのプロセスを支援します。<strong>デバイス</strong> タブは接続されたデバイスに関する情報が表示されます。下のツールバーを使用してデバイスに接続するか、またはシミュレータを起動してください。">
 <!ENTITY help.usefullLinks "役に立つリンク:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
+<!ENTITY help.appMgrDoc "ドキュメント：どうアプリマネージャを使用する">
 <!ENTITY help.configuringDevice "Firefoxデバイスへの接続の方法">
 <!ENTITY help.troubleShooting "トラブルシューティング">
 <!ENTITY help.simulatorAddon "シミュレーターアドオンのインストール">

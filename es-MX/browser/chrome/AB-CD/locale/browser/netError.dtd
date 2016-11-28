@@ -57,7 +57,7 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Documento caducado">
-<!ENTITY notCached.longDesc "<p>El documento requerido no está disponible en la caché de &brandShortName;.</p><ul><li>Como precaución de seguridad, &brandShortName; no vuelve a pedir documentos sensibles de forma automática.</li><li>Haz clic en Reintentar para volver a pedir el documento del sitio web.</li></ul>">
+<!ENTITY notCached.longDesc "<p>El documento requerido no está disponible en la caché de &brandShortName;.</p><ul><li>Como medida de seguridad, &brandShortName; no vuelve a solicitar documentos delicados de forma automática.</li><li>Haz clic en Reintentar para volver a solicitar el documento del sitio web.</li></ul>">
 
 <!ENTITY netOffline.title "Modo sin conexión">
 <!ENTITY netOffline.longDesc2 "
@@ -139,7 +139,7 @@
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
   <li>Esto podría ser un problema de la configuración del servidor, o bien alguien está intentando suplantar al servidor.</li>
-  <li>Si estás seguro de que te has conectado anteriomente a este servidor con éxito el error puede ser temporal, inténtalo nuevamente más tarde.</li>
+  <li>Si te has conectado a este servidor con éxito anteriormente, el error puede ser temporal. Inténtalo nuevamente más tarde.</li>
 </ul>
 ">
 
@@ -181,7 +181,7 @@
 ">
 
 <!ENTITY corruptedContentError.title "Error por contenido dañado">
-<!ENTITY corruptedContentError.longDesc "<p>La página que está intentando ver no puede ser mostrada porque se detectó un error en la transmisión de los datos.</p><ul><li>Contacta a los propietarios del sitio web para informarles sobre este problema.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>La página que estás intentando ver no puede ser mostrada porque se detectó un error en la transmisión de los datos.</p><ul><li>Contacta a los propietarios del sitio web para informarles sobre este problema.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "O puedes añadirr una excepción…">

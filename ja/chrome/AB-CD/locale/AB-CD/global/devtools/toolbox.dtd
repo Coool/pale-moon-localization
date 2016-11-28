@@ -141,12 +141,12 @@
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label      "元のソースを表示">
-<!ENTITY options.stylesheetSourceMaps.tooltip    "Show original sources (e.g. Sass files) in the Style Editor and Inspector">
+<!ENTITY options.stylesheetSourceMaps.tooltip    "スタイルエディタとインスペクタで元のソース (例えば Sass ファイル) を表示する">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
 <!ENTITY options.stylesheetAutocompletion.label      "オートコンプリート CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "入力時にスタイルエディタで CSS のプロパティ、値、セレクタをオートコンプリートする">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
@@ -162,16 +162,15 @@
   -  label for the checkbox that toggles persistent logs in the Web Console and
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
-<!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.label    "永続ログを有効にする">
+<!ENTITY options.enablePersistentLogs.tooltip  "このオプションを有効にすると、新しいページに移動するたびにウェブコンソールとネットワークモニタは出力をクリアしません">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Goanna platform symbols">
+<!ENTITY options.showPlatformData.label    "Goanna プラットフォームデータを表示する">
+<!ENTITY options.showPlatformData.tooltip  "JavaScript プロファイラレポートに Goanna プラットフォームシンボルオプションを有効にします">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->

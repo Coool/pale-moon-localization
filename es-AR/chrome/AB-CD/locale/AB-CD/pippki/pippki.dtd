@@ -13,7 +13,7 @@
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Restablecer">
 <!ENTITY resetPassword.title  "Restablecer contraseña maestra">
-<!ENTITY resetPassword.text  "Si restablecés tu contraseña maestra, todas tus contraseñas de sitios web y de correo electrónico, datos de formularios, certificados personales y claves privadas se olvidarán. ¿Estás seguro que querés eliminar tu contraseña maestra?">
+<!ENTITY resetPassword.text  "Si restablecés tu contraseña maestra, todas tus contraseñas de sitios web y de correo electrónico, datos de formularios, certificados personales y claves privadas se olvidarán. ¿Estás seguro que querés restablecer tu contraseña maestra?">
 
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "Ingresá la contraseña maestra">
@@ -32,7 +32,7 @@
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Solicitud de identificación de usuario">
-<!ENTITY clientAuthAsk.message1 "Este sitio solicitó que te identifiqués con un certificado:">
+<!ENTITY clientAuthAsk.message1 "Este sitio web solicitó que te identifiqués con un certificado:">
 <!ENTITY clientAuthAsk.message2 "Elegir un certificado para presentar como identificación:">
 <!ENTITY clientAuthAsk.message3 "Detalles del certificado seleccionado:">
 
@@ -45,24 +45,24 @@
 <!ENTITY pkcs12.setpassword.message  "La contraseña de resguardo del certificado que establezcas acá protege el archivo de resguardo que estás por crear. Tenés que ingresar una contraseña para proceder con el resguardo.">
 <!ENTITY pkcs12.setpassword.label1 "Contraseña de resguardo del certificado:">
 <!ENTITY pkcs12.setpassword.label2 "Contraseña de resguardo del certificado (de nuevo):">
-<!ENTITY pkcs12.setpassword.reminder "Importante: si te olvidás tu contraseña de resguardo del certificado, no podrás restaurar el resguardo posteriormente. Guardala en un lugar seguro.">
+<!ENTITY pkcs12.setpassword.reminder "Importante: si te olvidás la contraseña de resguardo del certificado, no podrás restaurar el resguardo posteriormente. Por favor, guardala en un lugar seguro.">
 
 <!ENTITY chooseToken.title  "Diálogo de selección de ficha">
 <!ENTITY chooseToken.message1 "Por favor, seleccioná una ficha.">
 
 <!ENTITY escrowWarn.title "Copia de clave de cifrado">
-<!ENTITY escrowWarn.message1 "Importante: asta autoridad de certificación solicitó que hagás un resguardo de tu clave privada de cifrado.">
+<!ENTITY escrowWarn.message1 "Importante: esta autoridad de certificación solicitó que hagás un resguardo de tu clave privada de cifrado.">
 <!ENTITY escrowWarn.benefit1 "El beneficio es que si perdés acceso a tu clave privada de cifrado, podés pedir una copia a esta autoridad de certificación.">
 <!ENTITY escrowWarn.message2 "Sin embargo, tu clave privada de cifrado será guardada por la autoridad de certificación, y podría usarse para leer tus correos o documentos cifrados, sin tu permiso.">
 <!ENTITY examineCert.label "Ver certificado">
 <!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
-<!ENTITY createCertInfo.title "Generando una clave privada">
-<!ENTITY createCertInfo.msg1 "Generación de clave en proceso… Ésto puede tomar unos pocos minutos">
+<!ENTITY createCertInfo.title "Generar una clave privada">
+<!ENTITY createCertInfo.msg1 "Generación de clave en proceso… Ésto puede tomar unos pocos minutos…">
 <!ENTITY createCertInfo.msg2 "Esperá, por favor…">
 
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Autenticación de ficha protegida">
-<!ENTITY protectedAuth.msg "Autenticate con la ficha. El método de autenticación depende del tipo de ficha.">
+<!ENTITY protectedAuth.msg "Por favor, autenticate con la ficha. El método de autenticación depende del tipo de ficha.">
 <!ENTITY protectedAuth.tokenName.label "Ficha:">

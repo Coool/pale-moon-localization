@@ -5,10 +5,10 @@
 <!ENTITY playButton.playLabel "Reproducir">
 <!ENTITY playButton.pauseLabel "Pausar">
 <!ENTITY muteButton.muteLabel "Silenciar">
-<!ENTITY muteButton.unmuteLabel "Restaurar sonido">
+<!ENTITY muteButton.unmuteLabel "Quitar silenciado">
 <!ENTITY fullscreenButton.enterfullscreenlabel "Pantalla completa">
 <!ENTITY fullscreenButton.exitfullscreenlabel "Salir de pantalla completa">
-<!ENTITY castingButton.castingLabel "Cast to Screen">
+<!ENTITY castingButton.castingLabel "Emitir a pantalla">
 
 <!ENTITY stats.media "Medios">
 <!ENTITY stats.size "Tamaño">
@@ -17,18 +17,18 @@
 <!ENTITY stats.activityPlaying "Reproduciendo">
 <!ENTITY stats.activityEnded "Finalizado">
 <!ENTITY stats.activitySeeking "(buscando)">
-<!ENTITY stats.volume "Volúmen">
-<!ENTITY stats.framesParsed "Imágenes procesadas">
-<!ENTITY stats.framesDecoded "Imágenes decodificadas">
-<!ENTITY stats.framesPresented "Imágenes presentadas">
-<!ENTITY stats.framesPainted "Imágenes mostradas">
+<!ENTITY stats.volume "Volumen">
+<!ENTITY stats.framesParsed "Cuadros procesados">
+<!ENTITY stats.framesDecoded "Cuadros decodificados">
+<!ENTITY stats.framesPresented "Cuadros presentados">
+<!ENTITY stats.framesPainted "Cuadros dibujados">
 
-<!ENTITY error.aborted "Se ha detenido la carga del video.">
-<!ENTITY error.network "La reproducción del video se ha interrumpido por un error de red.">
+<!ENTITY error.aborted "Carga del video detenida.">
+<!ENTITY error.network "Reproducción de video cancelada debido a un error de red.">
 <!ENTITY error.decode "No se puede reproducir el vídeo porque el archivo está corrupto.">
 <!ENTITY error.srcNotSupported "El formato o tipo MIME del video no se admite.">
-<!ENTITY error.noSource2 "No se ha encontrado ningún video que tenga un formato y tipo MIME compatibles.">
-<!ENTITY error.generic "La reproducción del video se ha interrumpido por un error desconocido.">
+<!ENTITY error.noSource2 "No se encontró ningún video que tenga un formato o tipo MIME compatibles.">
+<!ENTITY error.generic "Reproducción de video cancelada por un error desconocido.">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at

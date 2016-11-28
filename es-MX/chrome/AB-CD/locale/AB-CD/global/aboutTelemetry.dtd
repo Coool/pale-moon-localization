@@ -2,30 +2,30 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutTelemetry.pageTitle "Datos de Telemetría">
+<!ENTITY aboutTelemetry.pageTitle "Datos de telemetría">
 
 <!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetría esta <span>activada</span>.
+  La telemetría está <span>habilitada</span>.
 ">
 
 <!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetría esta <span>desactivada</span>.
+  La telemetría está <span>deshabilitada</span>.
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
-  General Data
+  Datos generales
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
-  Instrucciones SQL Lentas
+  Instrucciones SQL lentas
 ">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "
-  Cierres del Navegador
+  Cuelgues del navegador
 ">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
-  Thread Hangs
+Cuelgues de hilos
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
@@ -33,49 +33,49 @@
 ">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Keyed Histograms
+Histogramas con clave
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
-  Mediciones Simples
+  Medidas simples
 ">
 
 <!ENTITY aboutTelemetry.addonDetailsSection "
-  Add-on Details
+Detalles del complemento
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
-  Escritura atrasada
+  Escrituras demoradas
 ">
 
 <!ENTITY aboutTelemetry.systemInfoSection "
-  Información del Sistema
+  Información de sistema
 ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
-  Histogramas Recolectados por Complementos
+  Histogramas recopilados por complementos
 ">
 
 <!ENTITY aboutTelemetry.toggle "
-  Click to toggle section
+Haz clic para alternar la sección
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
-  (No hay datos recolectados)
+  (No se han recopilado datos)
 ">
 
 <!ENTITY aboutTelemetry.fullSqlWarning "
-  NOTA: Depuración SQL lenta esta activada. Las cadenas completas SQL pueden ser mostradas a continuación pero no pueden estar relacionadas con Telemetría.
+  NOTA: depuración SQL lenta habilitada. Cadenas SQL completas pueden ser mostradas debajo pero no se enviarán a telemetría.
 ">
 
 <!ENTITY aboutTelemetry.fetchSymbols "
-  Fetch function names for hang stacks
+Recuperar nombres de funciones de las pilas de cuelgues
 ">
 
 <!ENTITY aboutTelemetry.hideSymbols "
-  Mostrar información de los cierres de aplicación
+Mostrar datos crudos sobre cuelgues
 ">
 
 <!ENTITY aboutTelemetry.filterText "
-  Filter (strings or /regexp/)
+Filtrar (cadenas o '/regexp/')
 ">
