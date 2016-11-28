@@ -1,5 +1,8 @@
 @echo off
 set REL=27.0.0rc1
+
+if not "%1" == "all" exit 1
+
 call :fix-lang ar Arabic AR
 call :fix-lang bg Bulgarian BG
 rem call :fix-lang zh-CN Chinese Simplified
