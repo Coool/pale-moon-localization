@@ -437,51 +437,51 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailImageCmd.label          "Wyślij obrazek…">
 <!ENTITY emailImageCmd.accesskey      "e">
 <!ENTITY emailVideoCmd.label          "Wyślij wideo…">
-<!ENTITY emailVideoCmd.accesskey      "o">
+<!ENTITY emailVideoCmd.accesskey      "e">
 <!ENTITY emailAudioCmd.label          "Wyślij dźwięk…">
-<!ENTITY emailAudioCmd.accesskey      "o">
+<!ENTITY emailAudioCmd.accesskey      "e">
 <!ENTITY playPluginCmd.label          "Aktywuj tę wtyczkę">
-<!ENTITY playPluginCmd.accesskey      "w">
+<!ENTITY playPluginCmd.accesskey      "p">
 <!ENTITY hidePluginCmd.label          "Ukryj tę wtyczkę">
-<!ENTITY hidePluginCmd.accesskey      "U">
+<!ENTITY hidePluginCmd.accesskey      "S">
 <!ENTITY copyLinkCmd.label            "Kopiuj adres odnośnika">
 <!ENTITY copyLinkCmd.accesskey        "K">
 <!ENTITY copyImageCmd.label           "Kopiuj adres obrazka">
-<!ENTITY copyImageCmd.accesskey       "b">
+<!ENTITY copyImageCmd.accesskey       "a">
 <!ENTITY copyImageContentsCmd.label   "Kopiuj obrazek">
 <!ENTITY copyImageContentsCmd.accesskey  "r"> 
 <!ENTITY copyVideoURLCmd.label        "Kopiuj adres wideo">
-<!ENTITY copyVideoURLCmd.accesskey    "u">
+<!ENTITY copyVideoURLCmd.accesskey    "a">
 <!ENTITY copyAudioURLCmd.label        "Kopiuj adres dźwięku">
-<!ENTITY copyAudioURLCmd.accesskey    "u">
+<!ENTITY copyAudioURLCmd.accesskey    "a">
 <!ENTITY copyEmailCmd.label           "Kopiuj adres e-mail">
-<!ENTITY copyEmailCmd.accesskey       "e">
+<!ENTITY copyEmailCmd.accesskey       "a">
 <!ENTITY thisFrameMenu.label              "Ta ramka">
-<!ENTITY thisFrameMenu.accesskey          "r">
+<!ENTITY thisFrameMenu.accesskey          "T">
 
 <!-- Media (video/audio) controls -->
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
 "Pause" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "Odtwórz">
-<!ENTITY mediaPlay.accesskey         "z">
+<!ENTITY mediaPlay.accesskey         "P">
 <!ENTITY mediaPause.label            "Wstrzymaj">
-<!ENTITY mediaPause.accesskey        "W">
+<!ENTITY mediaPause.accesskey        "P">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
 "Unmute" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaMute.label             "Wycisz">
-<!ENTITY mediaMute.accesskey         "c">
+<!ENTITY mediaMute.accesskey         "z">
 <!ENTITY mediaUnmute.label           "Przywróć głośność">
-<!ENTITY mediaUnmute.accesskey       "P">
+<!ENTITY mediaUnmute.accesskey       "z">
 <!ENTITY mediaPlaybackRate.label     "Szybkość odtwarzania">
-<!ENTITY mediaPlaybackRate.accesskey "b">
+<!ENTITY mediaPlaybackRate.accesskey "l">
 <!ENTITY mediaPlaybackRate050x.label "Zwolnione tempo (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "l">
+<!ENTITY mediaPlaybackRate050x.accesskey "P">
 <!ENTITY mediaPlaybackRate100x.label "Normalna szybkość">
-<!ENTITY mediaPlaybackRate100x.accesskey "Z">
+<!ENTITY mediaPlaybackRate100x.accesskey "N">
 <!ENTITY mediaPlaybackRate150x.label "Wysoka szybkość (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "o">
+<!ENTITY mediaPlaybackRate150x.accesskey "V">
 <!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
@@ -491,20 +491,20 @@ fast. -->
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaShowControls.label     "Wyświetl elementy sterujące">
-<!ENTITY mediaShowControls.accesskey "e">
+<!ENTITY mediaShowControls.accesskey "o">
 <!ENTITY mediaHideControls.label     "Ukryj elementy sterujące">
-<!ENTITY mediaHideControls.accesskey "e">
+<!ENTITY mediaHideControls.accesskey "o">
 <!ENTITY videoFullScreen.label       "Tryb pełnoekranowy">
-<!ENTITY videoFullScreen.accesskey   "n">
+<!ENTITY videoFullScreen.accesskey   "C">
 <!ENTITY videoSaveImage.label        "Zapisz zrzut jako…">
-<!ENTITY videoSaveImage.accesskey    "k">
+<!ENTITY videoSaveImage.accesskey    "U">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY videoShowStats.label        "Wyświetl statystyki">
-<!ENTITY videoShowStats.accesskey    "c">
+<!ENTITY videoShowStats.accesskey    "s">
 <!ENTITY videoHideStats.label        "Ukryj statystyki">
-<!ENTITY videoHideStats.accesskey    "c">
+<!ENTITY videoHideStats.accesskey    "s">
 
 <!-- LOCALIZATION NOTE :
 fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
@@ -513,7 +513,7 @@ If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
 
 <!ENTITY fullZoomEnlargeCmd.label       "Powiększ">
-<!ENTITY fullZoomEnlargeCmd.accesskey   "w">
+<!ENTITY fullZoomEnlargeCmd.accesskey   "v">
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
@@ -524,14 +524,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "Reset">
-<!ENTITY fullZoomResetCmd.accesskey     "W">
+<!ENTITY fullZoomResetCmd.accesskey     "N">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
 <!ENTITY fullZoomToggleCmd.label        "Powiększaj tylko tekst">
-<!ENTITY fullZoomToggleCmd.accesskey    "k">
+<!ENTITY fullZoomToggleCmd.accesskey    "t">
 <!ENTITY fullZoom.label                 "Powiększenie">
-<!ENTITY fullZoom.accesskey             "w">
+<!ENTITY fullZoom.accesskey             "V">
 
 <!ENTITY newTabButton.tooltip           "Otwórz nową kartę">
 <!ENTITY newWindowButton.tooltip        "Otwórz nowe okno">
@@ -555,53 +555,53 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.accesskey   "k">
 <!ENTITY quitApplicationCmdMac.label    "Zakończ program &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "K">
+<!ENTITY quitApplicationCmdUnix.key     "Q">
 
 <!ENTITY closeCmd.label                 "Zamknij">  
-<!ENTITY closeCmd.key                   "P">  
+<!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "Z">
 
 <!ENTITY pageStyleMenu.label "Styl strony">
-<!ENTITY pageStyleMenu.accesskey "S">
+<!ENTITY pageStyleMenu.accesskey "y">
 <!ENTITY pageStyleNoStyle.label "Brak stylu">
-<!ENTITY pageStyleNoStyle.accesskey "r">
+<!ENTITY pageStyleNoStyle.accesskey "B">
 <!ENTITY pageStylePersistentOnly.label "Podstawowy styl strony">
-<!ENTITY pageStylePersistentOnly.accesskey "S">
+<!ENTITY pageStylePersistentOnly.accesskey "Z">
 
 <!ENTITY pageReportIcon.tooltip            "Zmień ustawienia blokady wyskakujących okien dla tej strony">
 
-<!ENTITY allowPopups.accesskey "w">
+<!ENTITY allowPopups.accesskey "P">
 <!-- On Windows we use the term "Options" to describe settings, but
      on Linux and Mac OS X we use "Preferences" - carry that distinction
      over into this string, which is used in the "popup blocked" info bar . -->
 <!ENTITY editPopupSettingsUnix.label "Edytuj opcje blokady wyskakujących okien…">
 <!ENTITY editPopupSettings.label "Edytuj opcje blokady wyskakujących okien…">
-<!ENTITY editPopupSettings.accesskey "N">
+<!ENTITY editPopupSettings.accesskey "U">
 <!ENTITY dontShowMessage.accesskey "N">
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "Przełącz kierunek strony">
-<!ENTITY bidiSwitchPageDirectionItem.accesskey    "s">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "o">
 <!ENTITY bidiSwitchTextDirectionItem.label        "Przełącz kierunek tekstu">
-<!ENTITY bidiSwitchTextDirectionItem.accesskey    "t">
-<!ENTITY bidiSwitchTextDirectionItem.commandkey   "W">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "r">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 
 <!ENTITY findOnCmd.label     "Znajdź na tej stronie…">
 <!ENTITY findOnCmd.accesskey "Z">
-<!ENTITY findOnCmd.commandkey "s">
+<!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Znajdź ponownie">
-<!ENTITY findAgainCmd.accesskey "n">
+<!ENTITY findAgainCmd.accesskey "t">
 <!ENTITY findAgainCmd.commandkey "o">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 
 <!ENTITY spellAddDictionaries.label "Dodaj słowniki…">
-<!ENTITY spellAddDictionaries.accesskey "o">
+<!ENTITY spellAddDictionaries.accesskey "s">
 
 <!ENTITY editBookmark.done.label                     "Gotowe">
 <!ENTITY editBookmark.cancel.label                   "Anuluj">
-<!ENTITY editBookmark.removeBookmark.accessKey       "U">
+<!ENTITY editBookmark.removeBookmark.accessKey       "S">
 
 <!ENTITY identity.unverifiedsite2 "Ta strona nie dostarcza informacji o swej tożsamości.">
-<!ENTITY identity.connectedTo "Połączono z witryną">
+<!ENTITY identity.connectedTo "Połączono z stroną">
 <!-- Localization note (identity.runBy) : This string appears between a
 domain name (above) and an organization name (below). E.g.
 
@@ -628,29 +628,29 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY syncBrand.shortName.label    "Synchronizuj">
 
 <!ENTITY syncSetup.label              "Skonfiguruj usługę &syncBrand.shortName.label;…">
-<!ENTITY syncSetup.accesskey          "S">
+<!ENTITY syncSetup.accesskey          "y">
 <!ENTITY syncSyncNowItem.label        "Synchronizuj teraz">
-<!ENTITY syncSyncNowItem.accesskey    "E">
+<!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Synchronizuj">
 
 <!ENTITY addonBarCloseButton.tooltip  "Zamknij pasek dodatków">
 <!ENTITY toggleAddonBarCmd.key        "/">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera do udostępnienia:">
-<!ENTITY getUserMedia.selectCamera.accesskey "K">
+<!ENTITY getUserMedia.selectCamera.accesskey "k">
 <!ENTITY getUserMedia.selectMicrophone.label "Mikrofon do udostępnienia:">
-<!ENTITY getUserMedia.selectMicrophone.accesskey "C">
+<!ENTITY getUserMedia.selectMicrophone.accesskey "m">
 
 <!ENTITY webrtcIndicatorButton.label "Dostęp do kamery i mikrofonu">
 <!ENTITY webrtcIndicatorButton.tooltip "Wyświetli listę stron, którym udostępniane są kamera lub mikrofon.">
 
 <!ENTITY mixedContentBlocked.helplink "Więcej informacji">
-<!ENTITY mixedContentBlocked.moreinfo "Większość witryn będzie dalej działać prawidłowo nawet po zablokowaniu takich treści.">
+<!ENTITY mixedContentBlocked.moreinfo "Większość stron będzie dalej działać prawidłowo nawet po zablokowaniu takich treści.">
 
 <!ENTITY pointerLock.notification.message "Naciśnij ESC w dowolnej chwili, aby wyświetlić go ponownie.">
 
 <!ENTITY pluginNotification.showAll.label "Wyświetl wszystkie">
-<!ENTITY pluginNotification.showAll.accesskey "W">
+<!ENTITY pluginNotification.showAll.accesskey "Z">
 
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "Pozwól teraz">

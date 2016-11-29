@@ -1,0 +1,140 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
+<!ENTITY places.library.title  "Thư viện">
+<!ENTITY places.library.width  "700">
+<!ENTITY places.library.height "500">
+<!ENTITY organize.label        "Quản lí">
+<!ENTITY organize.accesskey    "Q">
+<!ENTITY organize.tooltip      "Tổ chức dấu trang của bạn">
+
+<!ENTITY file.close.label               "Đóng">
+<!ENTITY file.close.accesskey           "g">
+<!ENTITY cmd.close.key                  "w">
+<!ENTITY views.label                    "Xem">
+<!ENTITY views.accesskey                "X">
+<!ENTITY views.tooltip                  "Thay đổi góc nhìn của bạn">
+<!ENTITY view.columns.label             "Hiện Cột">
+<!ENTITY view.columns.accesskey         "C">
+<!ENTITY view.sort.label                "Xếp">
+<!ENTITY view.sort.accesskey            "p">
+<!ENTITY view.unsorted.label            "Chưa xếp">
+<!ENTITY view.unsorted.accesskey        "C">
+<!ENTITY view.sortAscending.label       "Xếp theo A &gt; Z">
+<!ENTITY view.sortAscending.accesskey   "o">
+<!ENTITY view.sortDescending.label      "Xếp theo Z &gt; A">
+<!ENTITY view.sortDescending.accesskey  "Z">
+
+<!ENTITY importBookmarksFromHTML.label     "Nhập Dấu trang từ HTML…">
+<!ENTITY importBookmarksFromHTML.accesskey "a">
+<!ENTITY exportBookmarksToHTML.label       "Xuất Dấu trang ra HTML…">
+<!ENTITY exportBookmarksToHTML.accesskey   "X">
+<!ENTITY importOtherBrowser.label          "Nhập dữ liệu từ Trình duyệt khác…">
+<!ENTITY importOtherBrowser.accesskey      "y">
+
+<!ENTITY cmd.backup.label               "Sao lưu…">
+<!ENTITY cmd.backup.accesskey           "S">
+<!ENTITY cmd.restore2.label             "Khôi phục">
+<!ENTITY cmd.restore2.accesskey         "K">
+<!ENTITY cmd.restoreFromFile.label      "Chọn Tập Tin…">
+<!ENTITY cmd.restoreFromFile.accesskey  "T">
+
+<!ENTITY cmd.bookmarkLink.label         "Đánh dấu Trang Này…">
+<!ENTITY cmd.bookmarkLink.accesskey     "N">
+<!ENTITY cmd.delete.label               "Xóa Trang Này">
+<!ENTITY cmd.delete.accesskey           "X">
+<!ENTITY cmd.deleteDomainData.label     "Quên Trang Này">
+<!ENTITY cmd.deleteDomainData.accesskey "Q">
+
+<!ENTITY cmd.open.label                  "Mở">
+<!ENTITY cmd.open.accesskey              "M">
+<!ENTITY cmd.open_window.label           "Mở trong Cửa Sổ Mới">
+<!ENTITY cmd.open_window.accesskey       "S">
+<!ENTITY cmd.open_tab.label              "Mở trong Thẻ Mới">
+<!ENTITY cmd.open_tab.accesskey          "o">
+<!ENTITY cmd.open_all_in_tabs.label      "Mở Toàn Bộ trong Thẻ">
+<!ENTITY cmd.open_all_in_tabs.accesskey  "B">
+
+<!ENTITY cmd.openParentFolder.label      "Mở thư mục chứa">
+<!ENTITY cmd.openParentFolder.accesskey  "T">
+
+<!ENTITY cmd.properties.label      "Thuộc tính">
+<!ENTITY cmd.properties.accesskey  "h">
+
+<!ENTITY cmd.sortby_name.label              "Xếp theo Tên">
+<!ENTITY cmd.sortby_name.accesskey          "X">
+<!ENTITY cmd.context_sortby_name.accesskey  "e">
+
+<!ENTITY cmd.new_bookmark.label            "Đánh dấu Mới…">
+<!ENTITY cmd.new_bookmark.accesskey        "u">
+<!ENTITY cmd.new_folder.label              "Thư mục Mới…">
+<!ENTITY cmd.new_folder.accesskey          "i">
+<!ENTITY cmd.context_new_folder.accesskey  "i">
+<!ENTITY cmd.new_separator.label           "Ngăn cách Mới">
+<!ENTITY cmd.new_separator.accesskey       "N">
+
+<!ENTITY cmd.reloadLivebookmark.label      "Tải lại Đánh Dấu Động">
+<!ENTITY cmd.reloadLivebookmark.accesskey  "l">
+
+<!ENTITY cmd.moveBookmarks.label                  "Di chuyển…">
+<!ENTITY cmd.moveBookmarks.accesskey              "y">
+
+<!ENTITY col.name.label              "Tên">
+<!ENTITY col.tags.label              "Nhãn">
+<!ENTITY col.url.label               "Địa chỉ">
+<!ENTITY col.lastvisit.label         "Ngày Xem">
+<!ENTITY col.visitcount.label        "Số lần Xem">
+<!ENTITY col.keyword.label           "Từ khóa">
+<!ENTITY col.description.label       "Mô tả">
+<!ENTITY col.dateadded.label         "Ngày Thêm">
+<!ENTITY col.lastmodified.label      "Lần sửa Cuối">
+<!ENTITY col.parentfolder.label      "Chứa thư mục">
+<!ENTITY col.parentfolderpath.label  "Chứa đường dẫn thư mục">
+
+<!ENTITY search.label                              "Tìm kiếm:">
+<!ENTITY search.accesskey                          "k">
+
+<!ENTITY search.in.label                           "Tìm kiếm trong:">
+<!ENTITY search.scopeFolder.label                  "Thư mục đã chọn">
+<!ENTITY search.scopeFolder.accesskey              "r">
+<!ENTITY search.scopeBookmarks.label               "Trang ưa thích">
+<!ENTITY search.scopeBookmarks.accesskey           "w">
+<!ENTITY search.scopeDownloads.label               "Trang tải xuống">
+<!ENTITY search.scopeDownloads.accesskey           "X">
+<!ENTITY search.scopeHistory.label                 "Lịch sử">
+<!ENTITY search.scopeHistory.accesskey             "H">
+<!ENTITY saveSearch.label                          "Lưu">
+<!ENTITY saveSearch.accesskey                      "n">
+
+<!ENTITY cmd.find.key  "f">
+
+<!ENTITY maintenance.label      "Nhập và Sao lưu">
+<!ENTITY maintenance.accesskey  "v">
+<!ENTITY maintenance.tooltip    "Nhập và sao lưu dấu trang của bạn">
+
+<!ENTITY backButton.tooltip  "Trở lại trang trước">
+
+<!ENTITY forwardButton.tooltip  "Tiến tới trang sau">
+
+<!ENTITY detailsPane.more.label "Thêm">
+<!ENTITY detailsPane.more.accesskey "m">
+<!ENTITY detailsPane.less.label "Bớt">
+<!ENTITY detailsPane.less.accesskey "B">
+<!ENTITY detailsPane.selectAnItemText.description "Chọn một mục để xem và chỉnh sửa thuộc tính của nó">
+
+<!ENTITY find.label               "Tìm:">
+<!ENTITY find.accesskey           "T">
+<!ENTITY view.label               "Xem">
+<!ENTITY view.accesskey           "e">
+<!ENTITY byDate.label             "theo Ngày tháng">
+<!ENTITY byDate.accesskey         "N">
+<!ENTITY bySite.label             "theo Tên miền">
+<!ENTITY bySite.accesskey         "T">
+<!ENTITY byMostVisited.label      "theo Vào nhiều nhất">
+<!ENTITY byMostVisited.accesskey  "V">
+<!ENTITY byLastVisited.label      "theo Lần vào Cuối">
+<!ENTITY byLastVisited.accesskey  "L">
+<!ENTITY byDayAndSite.label       "theo Ngày tháng và Tên miền">
+<!ENTITY byDayAndSite.accesskey   "y">
