@@ -1,0 +1,38 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY playButton.playLabel "Възпроизвеждане">
+<!ENTITY playButton.pauseLabel "Пауза">
+<!ENTITY muteButton.muteLabel "Без звук">
+<!ENTITY muteButton.unmuteLabel "Със звук">
+<!ENTITY fullscreenButton.enterfullscreenlabel "Пълен екран">
+<!ENTITY fullscreenButton.exitfullscreenlabel "Излез от пълен екран">
+<!ENTITY castingButton.castingLabel "Cast to Screen">
+
+<!ENTITY stats.media "Медия">
+<!ENTITY stats.size "Размер">
+<!ENTITY stats.activity "Активност">
+<!ENTITY stats.activityPaused "Пауза">
+<!ENTITY stats.activityPlaying "Възпроизвеждане">
+<!ENTITY stats.activityEnded "Край">
+<!ENTITY stats.activitySeeking "(преместване)">
+<!ENTITY stats.volume "Сила на звука">
+<!ENTITY stats.framesParsed "Разпознати кадри">
+<!ENTITY stats.framesDecoded "Декодирани кадри">
+<!ENTITY stats.framesPresented "Налични кадри">
+<!ENTITY stats.framesPainted "Изчертани кадри">
+
+<!ENTITY error.aborted "Зареждането на видеото е спряно.">
+<!ENTITY error.network "Зареждането на видеото е спряно поради грешка в мрежата.">
+<!ENTITY error.decode "Видеото не може да бъде възпроизведено, защото файлът е повреден.">
+<!ENTITY error.srcNotSupported "Видео форматът или MIME типът не се поддържат.">
+<!ENTITY error.noSource2 "Не е намерено видео от поддържан формат или MIME тип.">
+<!ENTITY error.generic "Възпроизвеждането на видео файла е преустановено поради неизвестна грешка.">
+
+<!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
+media position, and the #2 string is the total duration. For example, when at
+the 5 minute mark in a 6 hour long video, #1 would be "5:00" and #2 would be
+"6:00:00", result string would be "5:00 of 6:00:00 elapsed".
+-->
+<!ENTITY scrubberScale.nameFormat "изтекли са #1 от #2">

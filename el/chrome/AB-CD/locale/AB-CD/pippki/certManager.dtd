@@ -1,0 +1,99 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY certmgr.title                       "Διαχείριση πιστοποιητικών">
+
+<!ENTITY certmgr.tab.mine                     "Τα πιστοποιητικά σας">
+<!ENTITY certmgr.tab.others2                  "Ατόμων">
+<!ENTITY certmgr.tab.websites3                "Εξυπηρετητών">
+<!ENTITY certmgr.tab.ca                       "Αρχών">
+<!ENTITY certmgr.tab.orphan2                  "Τρίτων">
+
+<!ENTITY certmgr.mine                         "Έχετε πιστοποιητικά από τους παρακάτω οργανισμούς που σας πιστοποιούν:">
+<!ENTITY certmgr.others                       "Έχετε πιστοποιητικά στο αρχείο που πιστοποιούν τα παρακάτω άτομα:">
+<!ENTITY certmgr.websites2                    "Έχετε πιστοποιητικά στο αρχείο που πιστοποιούν τους παρακάτω εξυπηρετητές:">
+<!ENTITY certmgr.cas                          "Έχετε πιστοποιητικά στο αρχείο που πιστοποιούν τις παρακάτω αρχές:">
+<!ENTITY certmgr.orphans                      "Έχετε πιστοποιητικά που δεν ταιριάζουν σε καμμία από τις υπόλοιπες κατηγορίες:">
+
+<!ENTITY certmgr.detail.general_tab.title     "Γενικά">
+<!ENTITY certmgr.detail.general_tab.accesskey "Γ">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Λεπτομέρειες">
+<!ENTITY certmgr.detail.prettyprint_tab.accesskey "π">
+
+<!ENTITY certmgr.pending.label                "Γίνεται επαλήθευση του πιστοποιητικού…">
+<!ENTITY certmgr.subjectinfo.label            "Κάτοχος">
+<!ENTITY certmgr.issuerinfo.label             "Εκδόθηκε από">
+<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
+<!ENTITY certmgr.fingerprints.label           "Ψηφιακά αποτυπώματα">
+<!ENTITY certmgr.certdetail.title             "Λεπτομέρειες πιστοποιητικού">
+<!ENTITY certmgr.certdetail.cn                "Κοινό Όνομα (CN)">
+<!ENTITY certmgr.certdetail.o                 "Οργανισμός (O)">
+<!ENTITY certmgr.certdetail.ou                "Οργανωτική Μονάδα (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Σειριακός Αριθμός">
+<!ENTITY certmgr.certdetail.sha256fingerprint "Ψηφιακό αποτύπωμα SHA256">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "Ψηφιακό αποτύπωμα SHA1">
+
+<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
+<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
+<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
+<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
+<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
+<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
+<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
+<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
+
+<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+
+<!ENTITY certmgr.certname                     "Όνομα πιστοποιητικού">
+<!ENTITY certmgr.certserver                   "Εξυπηρετητής">
+<!ENTITY certmgr.override_lifetime            "Διάρκεια ζωής">
+<!ENTITY certmgr.tokenname                    "Συσκευή ασφαλείας">
+<!ENTITY certmgr.begins                       "Begins On">
+<!ENTITY certmgr.expires                      "Λήγει στις">
+<!ENTITY certmgr.email                        "Διεύθυνση E-Mail">
+<!ENTITY certmgr.serial                       "Σειριακός αριθμός">
+
+<!ENTITY certmgr.close.label                  "Κλείσιμο">
+<!ENTITY certmgr.close.accesskey              "Κ">
+<!ENTITY certmgr.view2.label                  "Προβολή…">
+<!ENTITY certmgr.view2.accesskey              "ρ">
+<!ENTITY certmgr.edit3.label                  "Επεξεργασία εμπιστοσύνης…">
+<!ENTITY certmgr.edit3.accesskey              "E">
+<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.export.label                 "Εξαγωγή…">
+<!ENTITY certmgr.export.accesskey             "x">
+<!ENTITY certmgr.delete2.label                "Διαγραφή...">
+<!ENTITY certmgr.delete2.accesskey            "D">
+<!ENTITY certmgr.delete_builtin.label         "Διαγραφή ή άρση εμπιστοσύνης…">
+<!ENTITY certmgr.delete_builtin.accesskey     "Δ">
+<!ENTITY certmgr.backup2.label                "Αντίγραφο ασφαλείας…">
+<!ENTITY certmgr.backup2.accesskey            "φ">
+<!ENTITY certmgr.backupall2.label             "Αντίγραφο όλων…">
+<!ENTITY certmgr.backupall2.accesskey         "ν">
+<!ENTITY certmgr.restore2.label               "Εισαγωγή…">
+<!ENTITY certmgr.restore2.accesskey           "ι">
+<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.accesskey             "V">
+<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
+<!ENTITY certmgr.addException.label           "Προσθήκη εξαίρεσης…">
+<!ENTITY certmgr.addException.accesskey       "θ">
+
+<!ENTITY exceptionMgr.title                   "Add Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
+<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.certlocation.caption2   "Server">
+<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.accesskey  "G">
+<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
+<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "V">
+<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.accesskey     "P">

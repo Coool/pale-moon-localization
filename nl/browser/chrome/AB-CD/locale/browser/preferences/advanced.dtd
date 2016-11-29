@@ -1,0 +1,144 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "Algemeen">
+
+<!ENTITY accessibility.label             "Toegankelijkheid">
+
+<!ENTITY useCursorNavigation.label       "Altijd de pijltoetsen gebruiken om te navigeren binnen pagina’s">
+<!ENTITY useCursorNavigation.accesskey   "o">
+<!ENTITY searchStartTyping.label         "Naar tekst zoeken wanneer ik begin met typen">
+<!ENTITY searchStartTyping.accesskey     "t">
+<!ENTITY blockAutoRefresh.label          "Mij waarschuwen wanneer websites proberen de pagina door te sturen of te herladen">
+<!ENTITY blockAutoRefresh.accesskey      "b">
+
+<!ENTITY browsing.label                  "Navigeren">
+
+<!ENTITY useAutoScroll.label             "Automatisch schuiven gebruiken">
+<!ENTITY useAutoScroll.accesskey         "m">
+<!ENTITY useSmoothScrolling.label        "Vloeiend schuiven gebruiken">
+<!ENTITY useSmoothScrolling.accesskey    "e">
+<!ENTITY allowHWAccel.label              "Hardwareversnelling gebruiken wanneer beschikbaar">
+<!ENTITY allowHWAccel.accesskey          "v">
+<!ENTITY checkSpelling.label             "Mijn spelling controleren tijdens het typen">
+<!ENTITY checkSpelling.accesskey         "s">
+
+<!ENTITY systemDefaults.label            "Standaardwaarden systeem">
+<!ENTITY alwaysCheckDefault.label        "Altijd tijdens het opstarten controleren of &brandShortName; de standaardbrowser is"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "A">
+<!ENTITY setDefault.label                "&brandShortName; de standaardbrowser maken">
+<!ENTITY setDefault.accesskey            "d">
+<!ENTITY isDefault.label                 "&brandShortName; is momenteel uw standaardbrowser">
+
+<!ENTITY dataChoicesTab.label            "Gegevenskeuzes">
+
+<!ENTITY crashReporterSection.label      "Crashreporter">
+<!ENTITY crashReporterDesc.label         "&brandShortName; verzendt crashrapporten om &vendorShortName; te helpen uw browser stabieler en veiliger te maken">
+<!ENTITY enableCrashReporter.label       "Crashreporter inschakelen">
+<!ENTITY enableCrashReporter.accesskey   "C">
+<!ENTITY crashReporterLearnMore.label    "Meer info">
+
+<!ENTITY networkTab.label                "Netwerk">
+
+<!ENTITY connection.label                "Verbinding">
+
+<!ENTITY connectionDesc.label            "Configureren hoe &brandShortName; verbinding maakt met het internet">
+<!ENTITY connectionSettings.label        "Instellingen…">
+<!ENTITY connectionSettings.accesskey    "I">
+
+<!ENTITY httpCache.label                 "Gebufferde webinhoud">
+
+<!ENTITY offlineStorage2.label           "Offline webinhoud en gebruikersgegevens">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Buffer beperken tot">
+<!ENTITY limitCacheSizeBefore.accesskey  "B">
+<!ENTITY limitCacheSizeAfter.label       "MB ruimte">
+<!ENTITY clearCacheNow.label             "Nu wissen">
+<!ENTITY clearCacheNow.accesskey         "w">
+<!ENTITY clearOfflineAppCacheNow.label   "Nu wissen">
+<!ENTITY clearOfflineAppCacheNow.accesskey "N">
+<!ENTITY overrideSmartCacheSize.label    "Automatisch bufferbeheer negeren">
+<!ENTITY overrideSmartCacheSize.accesskey "A">
+
+<!ENTITY updateTab.label                 "Update">
+
+<!ENTITY updateApp.label                 "&brandShortName;-updates:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Updates automatisch installeren (aanbevolen: verbeterde beveiliging)">
+<!ENTITY updateAuto1.accesskey           "U">
+<!ENTITY updateAutoMetro.label           "Updates automatisch van desktop en Windows 8-stijl &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateCheck.label               "Controleren op updates, maar mij laten kiezen of ik deze wil installeren">
+<!ENTITY updateCheck.accesskey           "C">
+<!ENTITY updateManual.label              "Nooit controleren op updates (niet aanbevolen: beveiligingsrisico)">
+<!ENTITY updateManual.accesskey          "N">
+
+<!ENTITY updateAutoAddonWarn.label       "Mij waarschuwen als dit een van mijn add-ons zal uitschakelen">
+<!ENTITY updateAutoAddonWarn.accesskey   "w">
+
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8-stijl &brandShortName; controleert add-on-compatibiliteit niet)">
+
+<!ENTITY updateHistory.label             "Updategeschiedenis tonen">
+<!ENTITY updateHistory.accesskey         "d">
+
+<!ENTITY updateOthers.label              "Automatisch bijwerken:">
+<!ENTITY enableSearchUpdate.label        "Zoekmachines">
+<!ENTITY enableSearchUpdate.accesskey    "Z">
+
+<!ENTITY offlineNotify.label             "Mij vertellen wanneer een website vraagt gegevens op te slaan voor offlinegebruik">
+<!ENTITY offlineNotify.accesskey         "e">
+<!ENTITY offlineNotifyExceptions.label   "Uitzonderingen…">
+<!ENTITY offlineNotifyExceptions.accesskey "U">
+
+<!ENTITY offlineAppsList2.label          "De volgende websites hebben toestemming om gegevens op te slaan voor offlinegebruik:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "Verwijderen…">
+<!ENTITY offlineAppsListRemove.accesskey "V">
+<!ENTITY offlineAppRemove.confirm        "Offlinegegevens verwijderen">
+
+<!ENTITY certificateTab.label            "Certificaten">
+<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certSelection.description       "Wanneer een server om mijn persoonlijke certificaat vraagt:">
+<!ENTITY certs.auto                      "Er automatisch een selecteren">
+<!ENTITY certs.auto.accesskey            "a">
+<!ENTITY certs.ask                       "Mij elke keer vragen">
+<!ENTITY certs.ask.accesskey             "e">
+<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY enableOCSP.label                "Het Online Certificate Status Protocol (OCSP) gebruiken om de geldigheid van certificaten te bevestigen">
+<!ENTITY enableOCSP.accesskey            "O">
+<!ENTITY requireOCSP.label               "Wanneer een OCSP-serververbinding mislukt, het certificaat als ongeldig behandelen">
+<!ENTITY requireOCSP.accesskey           "W">
+<!ENTITY viewCerts.label                 "Certificaten bekijken">
+<!ENTITY viewCerts.accesskey             "C">
+<!ENTITY viewSecurityDevices.label       "Beveiligingsapparaten">
+<!ENTITY viewSecurityDevices.accesskey   "B">
+
+<!ENTITY UACompatGroup.label    "Compatibility">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.Gecko         "Gecko Compatibility">
+<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+
+<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

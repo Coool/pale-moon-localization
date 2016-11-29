@@ -1,0 +1,49 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY window.title "about:config">
+
+<!-- about:config warning page -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "There be dragons here!">
+<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
+<!ENTITY aboutWarningButton.label "I promise to be careful!">
+<!ENTITY aboutWarningCheckbox.label "Εμφάνιση της προειδοποίησης και την επόμενη φορά">
+
+<!ENTITY searchPrefs.label "Αναζήτηση:">
+<!ENTITY searchPrefs.accesskey "ζ">
+<!ENTITY focusSearch.key "r">
+
+<!-- Columns -->
+<!ENTITY prefColumn.label "Προτιμήσεις">
+<!ENTITY lockColumn.label "Κατάσταση">
+<!ENTITY typeColumn.label "Τύπος περιεχομένου">
+<!ENTITY valueColumn.label "Τιμή">
+
+<!-- Tooltips -->
+<!ENTITY prefColumnHeader.tooltip "Πατήστε για ταξινόμηση"> 
+<!ENTITY columnChooser.tooltip "Πατήστε να επιλέξετε τις προς εμφάνιση στήλες"> 
+
+<!-- Context Menu -->
+<!ENTITY copyPref.key "C">
+<!ENTITY copyPref.label "Αντιγραφή">
+<!ENTITY copyPref.accesskey "γ">
+<!ENTITY copyName.label "Αντιγραφή ονόματος">
+<!ENTITY copyName.accesskey "ν">
+<!ENTITY copyValue.label "Αντιγραφή τιμής">
+<!ENTITY copyValue.accesskey "τ">
+<!ENTITY modify.label "Τροποποίηση">
+<!ENTITY modify.accesskey "ρ">
+<!ENTITY toggle.label "Εναλλαγή">
+<!ENTITY toggle.accesskey "T">
+<!ENTITY reset.label "Επαναφορά">
+<!ENTITY reset.accesskey "π">
+<!ENTITY new.label "Νέο">
+<!ENTITY new.accesskey "Ν">
+<!ENTITY string.label "Αλφαριθμητικό">
+<!ENTITY string.accesskey "λ">
+<!ENTITY integer.label "Ακέραιο">
+<!ENTITY integer.accesskey "Α">
+<!ENTITY boolean.label "Λογικό">
+<!ENTITY boolean.accesskey "Λ">

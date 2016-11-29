@@ -1,0 +1,42 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
+     is not supported on some devices. Include a trailing space as needed. -->
+<!ENTITY unsupportedPlatform.pre                             "Съжаляваме, на &brandShortName; не може да използва Flash на това устройство. ">
+<!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
+     supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
+<!ENTITY unsupportedPlatform.learnMore                       "Научи повече…">
+<!-- LOCALIZATION NOTE (unsupportedPlatform.post): Mobile only. Include text here if needed for your locale. -->
+<!ENTITY unsupportedPlatform.post                            "">
+
+<!ENTITY missingPlugin                                       "За показването на това съдържание е необходим плъгин.">
+<!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY tapToPlayPlugin                                     "Натиснете тук, за да активирате плъгина">
+<!ENTITY clickToActivatePlugin                               "Активирай плъгин">
+<!ENTITY checkForUpdates                                     "Провери за налични обновления…">
+<!ENTITY disabledPlugin                                      "Този плъгин е деактивиран.">
+<!ENTITY blockedPlugin.label                                 "Този плъгин е деактивиран с оглед за Вашата безопасност.">
+<!ENTITY hidePluginBtn.label                                 "Hide plugin">
+<!ENTITY managePlugins                                       "Управление на плъгини…">
+
+<!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
+<!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
+<!ENTITY reloadPlugin.pre                                    "">
+<!ENTITY reloadPlugin.middle                                 "презареди тази страница">
+<!ENTITY reloadPlugin.post                                   " за нов опит.">
+<!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
+<!ENTITY report.please                                       "Изпрати доклад за срив">
+<!ENTITY report.submitting                                   "Докладът се идпраща…">
+<!ENTITY report.submitted                                    "докладът за срив е изпратен.">
+<!ENTITY report.disabled                                     "Функцията за изпращане на доклади за сривове е деактивирана.">
+<!ENTITY report.failed                                       "Изпращането е неуспешно.">
+<!ENTITY report.unavailable                                  "Няма налични доклади.">
+<!ENTITY report.comment                                      "Добавете коментар (коментарите са публични)">
+<!ENTITY report.pageURL                                      "Включете и URL на страницата">
+
+<!ENTITY plugin.file                                         "Файл">
+<!ENTITY plugin.mimeTypes                                    "MIME типове">
+<!ENTITY plugin.flashProtectedMode.label                     "Enable Adobe Flash protected mode">

@@ -1,0 +1,144 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "Allmänt">
+
+<!ENTITY accessibility.label             "Tillgänglighet">
+
+<!ENTITY useCursorNavigation.label       "Använd alltid piltangenterna för att navigera i sidor">
+<!ENTITY useCursorNavigation.accesskey   "A">
+<!ENTITY searchStartTyping.label         "Sök efter text när jag börjar skriva">
+<!ENTITY searchStartTyping.accesskey     "x">
+<!ENTITY blockAutoRefresh.label          "Varna när webbplatser försöker styra om eller hämta om sidan">
+<!ENTITY blockAutoRefresh.accesskey      "w">
+
+<!ENTITY browsing.label                  "Webbläsning">
+
+<!ENTITY useAutoScroll.label             "Använd autorullning">
+<!ENTITY useAutoScroll.accesskey         "n">
+<!ENTITY useSmoothScrolling.label        "Använd mjuk rullning">
+<!ENTITY useSmoothScrolling.accesskey    "m">
+<!ENTITY allowHWAccel.label              "Använd om möjligt hårdvaruacceleration">
+<!ENTITY allowHWAccel.accesskey          "ä">
+<!ENTITY checkSpelling.label             "Använd automatisk stavningskontroll">
+<!ENTITY checkSpelling.accesskey         "v">
+
+<!ENTITY systemDefaults.label            "Systeminställningar">
+<!ENTITY alwaysCheckDefault.label        "Kontrollera vid start om &brandShortName; är standardwebbläsare"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "K">
+<!ENTITY setDefault.label                "Gör &brandShortName; till standardwebbläsare">
+<!ENTITY setDefault.accesskey            "G">
+<!ENTITY isDefault.label                 "&brandShortName; är redan standardwebbläsare">
+
+<!ENTITY dataChoicesTab.label            "Dataval">
+
+<!ENTITY crashReporterSection.label      "Kraschrapportör">
+<!ENTITY crashReporterDesc.label         "&brandShortName; skickar in kraschrapporter för att hjälpa &vendorShortName; att göra webbläsaren stabilare och säkrare">
+<!ENTITY enableCrashReporter.label       "Aktivera kraschrapportören">
+<!ENTITY enableCrashReporter.accesskey   "k">
+<!ENTITY crashReporterLearnMore.label    "Läs mer">
+
+<!ENTITY networkTab.label                "Nätverk">
+
+<!ENTITY connection.label                "Anslutning">
+
+<!ENTITY connectionDesc.label            "Ange hur &brandShortName; ansluter till Internet">
+<!ENTITY connectionSettings.label        "Inställningar…">
+<!ENTITY connectionSettings.accesskey    "n">
+
+<!ENTITY httpCache.label                 "Cachat webbinnehåll">
+
+<!ENTITY offlineStorage2.label           "Nedkopplad lagring av webbinnehåll och användardata">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Begränsa cacheutrymmet till">
+<!ENTITY limitCacheSizeBefore.accesskey  "B">
+<!ENTITY limitCacheSizeAfter.label       "MB">
+<!ENTITY clearCacheNow.label             "Rensa nu">
+<!ENTITY clearCacheNow.accesskey         "R">
+<!ENTITY clearOfflineAppCacheNow.label   "Rensa nu">
+<!ENTITY clearOfflineAppCacheNow.accesskey "e">
+<!ENTITY overrideSmartCacheSize.label    "Åsidosätt automatisk cachehantering">
+<!ENTITY overrideSmartCacheSize.accesskey "Å">
+
+<!ENTITY updateTab.label                 "Uppdateringar">
+
+<!ENTITY updateApp.label                 "&brandShortName;-uppdateringar:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Installera uppdateringar automatiskt (rekommenderas: bättre säkerhet)">
+<!ENTITY updateAuto1.accesskey           "I">
+<!ENTITY updateAutoMetro.label           "Uppdatera automatiskt från skrivbords- och Windows 8-anpassad &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "U">
+<!ENTITY updateCheck.label               "Sök efter uppdateringar, men låt mig välja om jag vill installera dem">
+<!ENTITY updateCheck.accesskey           "e">
+<!ENTITY updateManual.label              "Sök aldrig efter uppdateringar (rekommenderas inte: säkerhetsrisk)">
+<!ENTITY updateManual.accesskey          "ö">
+
+<!ENTITY updateAutoAddonWarn.label       "Varna om några tillägg kommer att inaktiveras">
+<!ENTITY updateAutoAddonWarn.accesskey   "V">
+
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8-anpassad &brandShortName; kontrollerar inte tilläggens kompatibilitet)">
+
+<!ENTITY updateHistory.label             "Visa tidigare uppdateringar">
+<!ENTITY updateHistory.accesskey         "a">
+
+<!ENTITY updateOthers.label              "Uppdatera automatiskt:">
+<!ENTITY enableSearchUpdate.label        "Sökmotorer">
+<!ENTITY enableSearchUpdate.accesskey    "S">
+
+<!ENTITY offlineNotify.label             "Meddela mig när en webbplats vill lagra data för nedkopplad användning">
+<!ENTITY offlineNotify.accesskey         "M">
+<!ENTITY offlineNotifyExceptions.label   "Undantag…">
+<!ENTITY offlineNotifyExceptions.accesskey "U">
+
+<!ENTITY offlineAppsList2.label          "Följande webbplatser tillåts lagra data för nedkopplad användning:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "Ta bort…">
+<!ENTITY offlineAppsListRemove.accesskey "T">
+<!ENTITY offlineAppRemove.confirm        "Ta bort lagrad data">
+
+<!ENTITY certificateTab.label            "Certifikat">
+<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certSelection.description       "När en server efterfrågar mitt personliga certifikat:">
+<!ENTITY certs.auto                      "Välj ett automatiskt">
+<!ENTITY certs.auto.accesskey            "V">
+<!ENTITY certs.ask                       "Fråga varje gång">
+<!ENTITY certs.ask.accesskey             "F">
+<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY enableOCSP.label                "Använd Online Certificate Status Protocol (OCSP) för att bekräfta att certifikat är giltiga">
+<!ENTITY enableOCSP.accesskey            "O">
+<!ENTITY requireOCSP.label               "När anslutningen till en OCSP-server misslyckas, betrakta certifikatet som ogiltigt">
+<!ENTITY requireOCSP.accesskey           "N">
+<!ENTITY viewCerts.label                 "Visa certifikat">
+<!ENTITY viewCerts.accesskey             "c">
+<!ENTITY viewSecurityDevices.label       "Säkerhetsenheter">
+<!ENTITY viewSecurityDevices.accesskey   "k">
+
+<!ENTITY UACompatGroup.label    "Compatibility">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.Gecko         "Gecko Compatibility">
+<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+
+<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

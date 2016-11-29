@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;
+
+<!-- These strings are used in the about:home page -->
+
+<!ENTITY abouthome.pageTitle "&brandFullName; 開始頁">
+
+<!ENTITY abouthome.searchEngineButton.label "搜尋">
+
+<!ENTITY abouthome.bookmarksButton.label "書籤">
+<!ENTITY abouthome.historyButton.label   "歷史記錄">
+<!ENTITY abouthome.settingsButton.label  "設定">
+<!ENTITY abouthome.addonsButton.label    "附加元件">
+<!ENTITY abouthome.appsButton.label      "Marketplace">
+<!ENTITY abouthome.downloadsButton.label "下載項目">
+<!ENTITY abouthome.syncButton.label      "&syncBrand.shortName.label;">
