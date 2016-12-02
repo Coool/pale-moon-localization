@@ -88,7 +88,9 @@
 
 <!ENTITY unknownProtocolFound.title "La dirección no fue entendida">
 <!ENTITY unknownProtocolFound.longDesc "
-<ul><li>Puede que necesites instalar otro programa para abrir esta dirección.</li></ul>
+<ul>
+  <li>Puede que necesites instalar otro programa para abrir esta dirección.</li>
+</ul>
 ">
 
 <!ENTITY proxyConnectFailure.title "El servidor proxy está rechazando las conexiones">
@@ -138,8 +140,10 @@
 <!ENTITY nssBadCert.title "Conexión segura fallada">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
-  <li>Esto podría ser un problema de la configuración del servidor, o bien alguien está intentando suplantar al servidor.</li>
-  <li>Si te has conectado a este servidor con éxito anteriormente, el error puede ser temporal. Inténtalo nuevamente más tarde.</li>
+  <li>Esto podría ser un problema de la configuración del servidor, o bien
+alguien está intentando suplantar al servidor.</li>
+  <li>Si te has conectado a este servidor con éxito anteriormente, el error
+puede ser temporal. Inténtalo nuevamente más tarde.</li>
 </ul>
 ">
 
@@ -184,9 +188,9 @@
 <!ENTITY corruptedContentError.longDesc "<p>La página que estás intentando ver no puede ser mostrada porque se detectó un error en la transmisión de los datos.</p><ul><li>Contacta a los propietarios del sitio web para informarles sobre este problema.</li></ul>">
 
 
-<!ENTITY securityOverride.linkText "O puedes añadirr una excepción…">
+<!ENTITY securityOverride.linkText "O puedes añadir una excepción…">
 <!ENTITY securityOverride.getMeOutOfHereButton "¡Sácame de aquí!">
-<!ENTITY securityOverride.exceptionButtonLabel "Añadirr excepción…">
+<!ENTITY securityOverride.exceptionButtonLabel "Añadir excepción…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
