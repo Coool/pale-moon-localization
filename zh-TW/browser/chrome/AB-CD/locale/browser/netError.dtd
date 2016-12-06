@@ -82,10 +82,10 @@
 <!ENTITY netTimeout.title "連線已逾時">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.title "無法理解的網址">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+  <li>您可能需要安裝其他軟體才能開啟此網址。</li>
 </ul>
 ">
 
@@ -125,8 +125,8 @@
 <!ENTITY nssFailure2.title "安全連線失敗">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li> 
+  <li>請向網站擁有者回報此問題。</li>
 </ul>
 ">
 
@@ -159,8 +159,8 @@
 <p>這些類型的偽造網頁含有常見的詐騙攻擊特徵，可能是罪犯所製作用來模仿您信任的合法來源之詐騙網頁。</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "已依內容安全政策封鎖">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 阻止了這個頁面載入，因為這個頁面的內容安全政策不允許其以這種方式被載入。</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -195,17 +195,17 @@ functionality specific to firefox. -->
 <!ENTITY errorReporting.title "Report this error">
 <!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
 <!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
+<!ENTITY errorReporting.learnMore "更多資訊…">
 <!ENTITY errorReporting.sending "Sending report">
 <!ENTITY errorReporting.sent "Report sent">
 <!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.tryAgain "重試">
 
 <!ENTITY remoteXUL.title "遠端 XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>請聯絡網站管理員以通知他們這個問題。</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "無法安全地連線">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "進階資訊: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "更多資訊…">

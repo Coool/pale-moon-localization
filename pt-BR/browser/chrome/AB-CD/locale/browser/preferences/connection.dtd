@@ -3,42 +3,42 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY  connectionsDialog.title       "Configurar conexão">
-<!ENTITY  window.width                  "37em">
+<!ENTITY  connectionsDialog.title       "Configurações de Conexão">
+<!ENTITY  window.width                  "37Em">
 <!ENTITY  window.macWidth               "39em">
 
-<!ENTITY  proxyTitle.label              "Acesso à internet">
+<!ENTITY  proxyTitle.label              "Configurar Proxies para acessar a Internet">
 <!ENTITY  noProxyTypeRadio.label        "Sem proxy">
-<!ENTITY  noProxyTypeRadio.accesskey    "S">
-<!ENTITY  systemTypeRadio.label         "Usar as configurações de proxy do sistema">
-<!ENTITY  systemTypeRadio.accesskey     "a">
-<!ENTITY  WPADTypeRadio.label           "Autodetectar as configurações de proxy para esta rede">
-<!ENTITY  WPADTypeRadio.accesskey       "d">
+<!ENTITY  noProxyTypeRadio.accesskey    "y">
+<!ENTITY  systemTypeRadio.label         "Usar configurações de proxy do sistema">
+<!ENTITY  systemTypeRadio.accesskey     "u">
+<!ENTITY  WPADTypeRadio.label           "Detectar automaticamente as configurações de proxy para esta rede">
+<!ENTITY  WPADTypeRadio.accesskey       "w">
 <!ENTITY  manualTypeRadio.label         "Configuração manual de proxy:">
-<!ENTITY  manualTypeRadio.accesskey     "n">
-<!ENTITY  autoTypeRadio.label           "Endereço para configuração automática de proxy:">
-<!ENTITY  autoTypeRadio.accesskey       "E">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY  autoTypeRadio.label           "URL de configuração automática de proxy:">
+<!ENTITY  autoTypeRadio.accesskey       "A">
 <!ENTITY  reload.label                  "Recarregar">
-<!ENTITY  reload.accesskey              "c">
-<!ENTITY  ftp.label                     "FTP:">
+<!ENTITY  reload.accesskey              "e">
+<!ENTITY  ftp.label                     "Proxy FTP:">
 <!ENTITY  ftp.accesskey                 "F">
-<!ENTITY  http.label                    "HTTP:">
-<!ENTITY  http.accesskey                "H">
-<!ENTITY  ssl.label                     "SSL:">
+<!ENTITY  http.label                    "Proxy HTTP:">
+<!ENTITY  http.accesskey                "x">
+<!ENTITY  ssl.label                     "Proxy SSL:">
 <!ENTITY  ssl.accesskey                 "L">
-<!ENTITY  socks.label                   "SOCKS:">
-<!ENTITY  socks.accesskey               "K">
+<!ENTITY  socks.label                   "Servidor SOCKS:">
+<!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
-<!ENTITY  socks4.accesskey              "4">
+<!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
-<!ENTITY  socks5.accesskey              "5">
+<!ENTITY  socks5.accesskey              "v">
 <!ENTITY  port.label                    "Porta:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
 <!ENTITY  FTPport.accesskey             "r">
 <!ENTITY  SOCKSport.accesskey           "t">
-<!ENTITY  noproxy.label                 "Sem proxy para:">
-<!ENTITY  noproxy.accesskey             "m">
-<!ENTITY  noproxyExplain.label          "Exemplo: .mozilla.org, .net.nz, 192.168.1.0/24">
+<!ENTITY  noproxy.label                 "Não utilizar Proxy para:">
+<!ENTITY  noproxy.accesskey             "n">
+<!ENTITY  noproxyExplain.label          "Exemplo:. palemoon.org,. net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Usar este proxy para todos os protocolos">
-<!ENTITY  shareproxy.accesskey          "x">
+<!ENTITY  shareproxy.accesskey          "s">

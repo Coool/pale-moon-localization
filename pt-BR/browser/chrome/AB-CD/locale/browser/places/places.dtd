@@ -8,33 +8,33 @@
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "Organizar">
 <!ENTITY organize.accesskey    "O">
-<!ENTITY organize.tooltip      "Organizar os favoritos">
+<!ENTITY organize.tooltip      "Organize seus favoritos">
 
 <!ENTITY file.close.label               "Fechar">
-<!ENTITY file.close.accesskey           "F">
-<!ENTITY cmd.close.key                  "W">
-<!ENTITY views.label                    "Exibir">
-<!ENTITY views.accesskey                "x">
+<!ENTITY file.close.accesskey           "C">
+<!ENTITY cmd.close.key                  "w">
+<!ENTITY views.label                    "Modos de exibição">
+<!ENTITY views.accesskey                "V">
 <!ENTITY views.tooltip                  "Mudar a visualização">
-<!ENTITY view.columns.label             "Colunas">
+<!ENTITY view.columns.label             "Mostrar colunas">
 <!ENTITY view.columns.accesskey         "C">
-<!ENTITY view.sort.label                "Ordenar por">
-<!ENTITY view.sort.accesskey            "O">
-<!ENTITY view.unsorted.label            "Não ordenar">
-<!ENTITY view.unsorted.accesskey        "d">
-<!ENTITY view.sortAscending.label       "Ordem crescente">
-<!ENTITY view.sortAscending.accesskey   "O">
+<!ENTITY view.sort.label                "Ordenar">
+<!ENTITY view.sort.accesskey            "S">
+<!ENTITY view.unsorted.label            "Não-ordenado">
+<!ENTITY view.unsorted.accesskey        "U">
+<!ENTITY view.sortAscending.label       "Ordem A &gt; Z">
+<!ENTITY view.sortAscending.accesskey   "A">
 <!ENTITY view.sortDescending.label      "Ordem decrescente">
-<!ENTITY view.sortDescending.accesskey  "r">
+<!ENTITY view.sortDescending.accesskey  "Z">
 
-<!ENTITY importBookmarksFromHTML.label     "Importar favoritos em HTML…">
+<!ENTITY importBookmarksFromHTML.label     "Importar marcadores de HTML…">
 <!ENTITY importBookmarksFromHTML.accesskey "I">
-<!ENTITY exportBookmarksToHTML.label       "Exportar favoritos como HTML…">
+<!ENTITY exportBookmarksToHTML.label       "Exportar marcadores para HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "E">
 <!ENTITY importOtherBrowser.label          "Importar dados de outro navegador…">
-<!ENTITY importOtherBrowser.accesskey      "m">
+<!ENTITY importOtherBrowser.accesskey      "A">
 
-<!ENTITY cmd.backup.label               "Backup…">
+<!ENTITY cmd.backup.label               "Arquivo...">
 <!ENTITY cmd.backup.accesskey           "B">
 <!ENTITY cmd.restore2.label             "Restaurar">
 <!ENTITY cmd.restore2.accesskey         "R">
@@ -57,84 +57,84 @@
 <!ENTITY cmd.open_all_in_tabs.label      "Abrir tudo em abas">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "A">
 
-<!ENTITY cmd.openParentFolder.label      "Open Containing Folder">
+<!ENTITY cmd.openParentFolder.label      "Abrir conteúdo da pasta">
 <!ENTITY cmd.openParentFolder.accesskey  "F">
 
 <!ENTITY cmd.properties.label      "Propriedades">
-<!ENTITY cmd.properties.accesskey  "P">
+<!ENTITY cmd.properties.accesskey  "i">
 
-<!ENTITY cmd.sortby_name.label              "Ordenar pelo nome">
-<!ENTITY cmd.sortby_name.accesskey          "O">
-<!ENTITY cmd.context_sortby_name.accesskey  "d">
+<!ENTITY cmd.sortby_name.label              "Ordenar por nome">
+<!ENTITY cmd.sortby_name.accesskey          "S">
+<!ENTITY cmd.context_sortby_name.accesskey  "r">
 
-<!ENTITY cmd.new_bookmark.label            "Novo favorito…">
-<!ENTITY cmd.new_bookmark.accesskey        "N">
+<!ENTITY cmd.new_bookmark.label            "Novo marcador...">
+<!ENTITY cmd.new_bookmark.accesskey        "B">
 <!ENTITY cmd.new_folder.label              "Nova pasta…">
-<!ENTITY cmd.new_folder.accesskey          "v">
-<!ENTITY cmd.context_new_folder.accesskey  "v">
+<!ENTITY cmd.new_folder.accesskey          "o">
+<!ENTITY cmd.context_new_folder.accesskey  "F">
 <!ENTITY cmd.new_separator.label           "Novo separador">
-<!ENTITY cmd.new_separator.accesskey       "e">
+<!ENTITY cmd.new_separator.accesskey       "S">
 
-<!ENTITY cmd.reloadLivebookmark.label      "Recarregar RSS">
+<!ENTITY cmd.reloadLivebookmark.label      "Recarregar marcador dinâmico">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "R">
 
-<!ENTITY cmd.moveBookmarks.label                  "Mover…">
+<!ENTITY cmd.moveBookmarks.label                  "Mover...">
 <!ENTITY cmd.moveBookmarks.accesskey              "M">
 
 <!ENTITY col.name.label              "Nome">
-<!ENTITY col.tags.label              "Tags">
-<!ENTITY col.url.label               "Endereço">
+<!ENTITY col.tags.label              "Marcadores">
+<!ENTITY col.url.label               "Localização">
 <!ENTITY col.lastvisit.label         "Data da visita">
-<!ENTITY col.visitcount.label        "Número de visitas">
+<!ENTITY col.visitcount.label        "Contador de visita">
 <!ENTITY col.keyword.label           "Palavra-chave">
 <!ENTITY col.description.label       "Descrição">
 <!ENTITY col.dateadded.label         "Adicionado">
-<!ENTITY col.lastmodified.label      "Modificado">
-<!ENTITY col.parentfolder.label      "Containing Folder">
-<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
+<!ENTITY col.lastmodified.label      "Última Modificação">
+<!ENTITY col.parentfolder.label      "Caminho do conteúdo da pasta">
+<!ENTITY col.parentfolderpath.label  "Caminho do conteúdo da pasta">
 
-<!ENTITY search.label                              "Localizar:">
-<!ENTITY search.accesskey                          "z">
+<!ENTITY search.label                              "Pesquisar:">
+<!ENTITY search.accesskey                          "S">
 
-<!ENTITY search.in.label                           "Search in:">
-<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.in.label                           "Pesquisar em:">
+<!ENTITY search.scopeFolder.label                  "Pasta selecionada">
 <!ENTITY search.scopeFolder.accesskey              "r">
-<!ENTITY search.scopeBookmarks.label               "Bookmarks">
+<!ENTITY search.scopeBookmarks.label               "Barra dos favoritos">
 <!ENTITY search.scopeBookmarks.accesskey           "k">
 <!ENTITY search.scopeDownloads.label               "Downloads">
 <!ENTITY search.scopeDownloads.accesskey           "D">
-<!ENTITY search.scopeHistory.label                 "History">
+<!ENTITY search.scopeHistory.label                 "Histórico">
 <!ENTITY search.scopeHistory.accesskey             "H">
-<!ENTITY saveSearch.label                          "Save">
+<!ENTITY saveSearch.label                          "Salvar">
 <!ENTITY saveSearch.accesskey                      "S">
 
-<!ENTITY cmd.find.key  "F">
+<!ENTITY cmd.find.key  "f">
 
-<!ENTITY maintenance.label      "Importar e backup">
+<!ENTITY maintenance.label      "Importar e Fazer cópia de segurança">
 <!ENTITY maintenance.accesskey  "I">
-<!ENTITY maintenance.tooltip    "Importar e fazer backup dos favoritos">
+<!ENTITY maintenance.tooltip    "Importar e fazer cópia de segurança dos marcadores">
 
-<!ENTITY backButton.tooltip  "Página anterior">
+<!ENTITY backButton.tooltip  "Voltar">
 
-<!ENTITY forwardButton.tooltip  "Próxima página">
+<!ENTITY forwardButton.tooltip  "Ir para a frente">
 
 <!ENTITY detailsPane.more.label "Mais">
-<!ENTITY detailsPane.more.accesskey "M">
+<!ENTITY detailsPane.more.accesskey "e">
 <!ENTITY detailsPane.less.label "Menos">
-<!ENTITY detailsPane.less.accesskey "M">
-<!ENTITY detailsPane.selectAnItemText.description "Selecione um item para exibi-lo e editar suas propriedades.">
+<!ENTITY detailsPane.less.accesskey "e">
+<!ENTITY detailsPane.selectAnItemText.description "Selecione um item para exibir e editar suas propriedades">
 
-<!ENTITY find.label               "Localizar:">
-<!ENTITY find.accesskey           "z">
-<!ENTITY view.label               "Exibir">
-<!ENTITY view.accesskey           "b">
-<!ENTITY byDate.label             "Pela data">
-<!ENTITY byDate.accesskey         "d">
-<!ENTITY bySite.label             "Pelo site">
-<!ENTITY bySite.accesskey         "P">
-<!ENTITY byMostVisited.label      "Pelo número de visitas">
-<!ENTITY byMostVisited.accesskey  "o">
+<!ENTITY find.label               "Pesquisar:">
+<!ENTITY find.accesskey           "S">
+<!ENTITY view.label               "Visualizar">
+<!ENTITY view.accesskey           "w">
+<!ENTITY byDate.label             "Por data">
+<!ENTITY byDate.accesskey         "D">
+<!ENTITY bySite.label             "Pelo Site">
+<!ENTITY bySite.accesskey         "S">
+<!ENTITY byMostVisited.label      "Pelo mais visitados">
+<!ENTITY byMostVisited.accesskey  "V">
 <!ENTITY byLastVisited.label      "Pela última visita">
-<!ENTITY byLastVisited.accesskey  "e">
-<!ENTITY byDayAndSite.label       "Pela data e site">
-<!ENTITY byDayAndSite.accesskey   "a">
+<!ENTITY byLastVisited.accesskey  "L">
+<!ENTITY byDayAndSite.label       "Por data e site">
+<!ENTITY byDayAndSite.accesskey   "t">

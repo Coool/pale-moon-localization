@@ -108,13 +108,13 @@
 <!ENTITY offlineAppRemove.confirm        "Odstránenie údajov pre režim offline">
 
 <!ENTITY certificateTab.label            "Certifikáty">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "Osobný certifikát">
 <!ENTITY certSelection.description       "Pokiaľ stránka požaduje môj osobný certifikát:">
 <!ENTITY certs.auto                      "Vybrať automaticky">
 <!ENTITY certs.auto.accesskey            "m">
 <!ENTITY certs.ask                       "Vždy sa opýtať">
 <!ENTITY certs.ask.accesskey             "V">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "Overenie certifikátu">
 <!ENTITY enableOCSP.label                "Použiť Online Certificate Status Protocol (OCSP) na overovanie aktuálnej platnosti certifikátov">
 <!ENTITY enableOCSP.accesskey            "P">
 <!ENTITY requireOCSP.label               "Ak spojenie so serverom OCSP zlyhá, považovať certifikát za neplatný">
@@ -124,21 +124,21 @@
 <!ENTITY viewSecurityDevices.label       "Zariadenia">
 <!ENTITY viewSecurityDevices.accesskey   "Z">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "Kompatibilita">
+<!ENTITY UACompat.label         "Režim User agenta:">
+<!ENTITY UACompat.Native        "Natívny">
+<!ENTITY UACompat.Gecko         "Kompatibilita s Geckom">
+<!ENTITY UACompat.Firefox       "Kompatibilita s Firefoxom">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY scrollparamTab.label               "Posúvanie">
+<!ENTITY smoothscroll.explain.label         "Nižšie uvedené parametre sa prejavia len ak je celkovo povolené plynulé posúvanie s vyššie uvedeným začiarkavacím políčkom.">
+<!ENTITY smoothscroll.to                    "až">
+<!ENTITY smoothscroll.params.label          "Parametre plynulého posúvania">
+<!ENTITY smoothscroll.mousewheel.label      "Plynulé posúvanie s kolieskom myši">
+<!ENTITY smoothscroll.mousewheel.duration   "Trvanie posunu kolieskom myši:">
+<!ENTITY smoothscroll.arrowkeys.label       "Plynulé posúvanie klávesami so šípkami">
+<!ENTITY smoothscroll.arrowkeys.duration    "Trvanie posunu klávesami so šípkami:">
+<!ENTITY smoothscroll.pagekeys.label        "Plynulé posúvanie klávesami Page Up/Down">
+<!ENTITY smoothscroll.pagekeys.duration     "Trvanie posunu klávesami Page Up/Down:">
+<!ENTITY smoothscroll.scrollbar.label       "Plynulé posúvanie s posuvníkmi">
+<!ENTITY smoothscroll.scrollbar.duration    "Trvanie plynulého posunu s posuvníkmi:">

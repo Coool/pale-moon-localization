@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Predmeti orodne vrstice z zaznamki">
 <!ENTITY addonBarCmd.label "Vrstica dodatkov">
 <!ENTITY addonBarCmd.accesskey "D">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "Vrstica stanja">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Izvorna koda strani">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Naroči se na to stran …">
 <!ENTITY addCurPagesCmd.label "Dodaj vse zavihke med zaznamke …">
 <!ENTITY showAllBookmarks2.label "Prikaži vse zaznamke">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Urejanje zaznamkov">
 <!ENTITY unsortedBookmarksCmd.label "Nerazvrščeni zaznamki">
 <!ENTITY bookmarksToolbarChevron.tooltip "Prikaži več zaznamkov">
 
@@ -219,8 +219,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "O">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
-<!ENTITY eyedropper.label   "Eyedropper">
-<!ENTITY eyedropper.accesskey "Y">
+<!ENTITY eyedropper.label   "Kapalka">
+<!ENTITY eyedropper.accesskey "K">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
@@ -244,8 +244,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Zapri orodno vrstico za razvoj">
 <!ENTITY devToolbarMenu.label              "Orodna vrstica za razvoj">
 <!ENTITY devToolbarMenu.accesskey          "t">
-<!ENTITY devAppMgrMenu.label               "App Manager">
-<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY devAppMgrMenu.label               "Upravitelj aplikacij">
+<!ENTITY devAppMgrMenu.accesskey           "a">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
 <!ENTITY webide.keycode                    "VK_F8">
@@ -415,10 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Shrani stran kot …">
 <!ENTITY savePageCmd.accesskey        "A">
-<!ENTITY sendLinkCmd.label            "Send Link…">
-<!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
-<!ENTITY sendPageCmd.accesskey        "e">
+<!ENTITY sendLinkCmd.label            "Pošlji povezavo …">
+<!ENTITY sendLinkCmd.accesskey        "v">
+<!ENTITY sendPageCmd.label            "Pošlji povezavo strani …">
+<!ENTITY sendPageCmd.accesskey        "s">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "s">
 <!ENTITY savePageCmd.commandkey       "s">

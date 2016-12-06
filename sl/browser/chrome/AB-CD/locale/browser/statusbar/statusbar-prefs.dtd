@@ -21,12 +21,12 @@
 <!ENTITY status4evar.option.bottom "Spodnja">
 <!ENTITY status4evar.option.top "Zgornja">
 <!ENTITY status4evar.option.fill "Zapolni">
-<!ENTITY status4evar.option.dlcount "Download count">
-<!ENTITY status4evar.option.dltime "Time remaining">
-<!ENTITY status4evar.option.both "Both">
+<!ENTITY status4evar.option.dlcount "Štetje prenosov">
+<!ENTITY status4evar.option.dltime "Preostali čas">
+<!ENTITY status4evar.option.both "Oboje">
 <!ENTITY status4evar.option.right "Desno">
 <!ENTITY status4evar.option.left "Levo">
-<!ENTITY status4evar.option.fixed "Fixed">
+<!ENTITY status4evar.option.fixed "Poravnano">
 <!ENTITY status4evar.option.simple "Preprosto">
 <!ENTITY status4evar.option.advanced "Napredno">
 <!ENTITY status4evar.option.browse "Brskaj">
@@ -36,56 +36,56 @@
 <!ENTITY status4evar.option.repeat "Ponovitev">
 <!ENTITY status4evar.option.no-repeat "Brez ponovitve">
 <!ENTITY status4evar.option.space "Presledek">
-<!ENTITY status4evar.option.round "Round">
-<!ENTITY status4evar.option.firefoxdefault "Pale Moon default">
-<!ENTITY status4evar.option.download.library "Library">
-<!ENTITY status4evar.option.download.tab "Tab">
-<!ENTITY status4evar.option.download.thirdparty "3rd Party">
+<!ENTITY status4evar.option.round "Zaokroženo">
+<!ENTITY status4evar.option.firefoxdefault "Pale Moon privzeto">
+<!ENTITY status4evar.option.download.library "Knjižnica">
+<!ENTITY status4evar.option.download.tab "Zavihek">
+<!ENTITY status4evar.option.download.thirdparty "Od tretje osebe">
 
-<!ENTITY status4evar.unit.milliseconds "milliseconds">
-<!ENTITY status4evar.unit.seconds "seconds">
+<!ENTITY status4evar.unit.milliseconds "milisekund">
+<!ENTITY status4evar.unit.seconds "sekund">
 <!ENTITY status4evar.unit.px "px">
 
-<!ENTITY status4evar.status.general.status.caption "Status Text">
-<!ENTITY status4evar.status.label "Show status in:">
-<!ENTITY status4evar.status.timeout.label "Hide the status after:">
-<!ENTITY status4evar.status.default.label "Show default status">
-<!ENTITY status4evar.status.network.label "Show network status">
-<!ENTITY status4evar.status.network.xhr.label "Show background network status">
-<!ENTITY toolkit.dom.status.change.label "Allow web pages to change the status">
+<!ENTITY status4evar.status.general.status.caption "Statusno besedilo">
+<!ENTITY status4evar.status.label "Prikaži status v:">
+<!ENTITY status4evar.status.timeout.label "Skrij status po:">
+<!ENTITY status4evar.status.default.label "Pokaži privzeti status">
+<!ENTITY status4evar.status.network.label "Prikaži status omrežja">
+<!ENTITY status4evar.status.network.xhr.label "Prikaži status omrežja v ozadju">
+<!ENTITY toolkit.dom.status.change.label "Dovoli spletnim stranem da spreminjajo status">
 
-<!ENTITY status4evar.status.general.linkOver.caption "Links">
-<!ENTITY status4evar.status.linkOver.label "Show links in:">
-<!ENTITY status4evar.status.linkOver.delay.show.label "Delay before showing links:">
-<!ENTITY status4evar.status.linkOver.delay.hide.label "Delay before hiding links:">
+<!ENTITY status4evar.status.general.linkOver.caption "Povezave">
+<!ENTITY status4evar.status.linkOver.label "Pokaži povezave v:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Zakasnitev za prikaz povezav:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Zakasnitev za skrivanje povezav:">
 
-<!ENTITY status4evar.status.toolbar.maxLength.label "Max status text length:">
+<!ENTITY status4evar.status.toolbar.maxLength.label "Maksimalna dolžina besedila statusa:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Status alignment:">
-<!ENTITY status4evar.status.urlbar.color.label "Status color:">
-<!ENTITY status4evar.status.currentUrl "Current Location">
-<!ENTITY status4evar.status.statusText "Status Text">
+<!ENTITY status4evar.status.urlbar.align.label "Poravnava statusa:">
+<!ENTITY status4evar.status.urlbar.color.label "Barva statusa:">
+<!ENTITY status4evar.status.currentUrl "Trenutna lokacija">
+<!ENTITY status4evar.status.statusText "Besedilo statusa">
 
-<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibility features">
-<!ENTITY browser.urlbar.formatting.enabled.label "Enable domain highlighting">
-<!ENTITY browser.urlbar.trimming.enabled.label "Enable protocol hiding (http:// and ftp://)">
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Lastnosti Firefox združljivosti">
+<!ENTITY browser.urlbar.formatting.enabled.label "Omogoči označevanje domene">
+<!ENTITY browser.urlbar.trimming.enabled.label "Omogočanje skrivanja protokola (http:// in ftp://)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "Default to the right side">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Swap sides when moused over">
+<!ENTITY status4evar.status.popup.invertMirror.label "Privzeto na desni strani">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Zamenjava strani, ko greš z miško prek">
 
-<!ENTITY status4evar.progress.style.label "Use a custom style">
+<!ENTITY status4evar.progress.style.label "Uporabi slog po meri">
 
-<!ENTITY status4evar.progress.urlbar.enable.label "Show progress in the Address Bar">
-<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+<!ENTITY status4evar.progress.urlbar.enable.label "Prikaži napredek v naslovni vrstici">
+<!ENTITY status4evar.progress.urlbar.line.label "Slog črte:">
 
-<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+<!ENTITY status4evar.progress.toolbar.force.label "Vedno pokaži element statusne vrstice">
 
-<!ENTITY status4evar.editor.label "Editor:">
-<!ENTITY status4evar.editor.css.color.label "Color:">
-<!ENTITY status4evar.editor.css.image.label "Image:">
-<!ENTITY status4evar.editor.css.image.repeat "Repeat">
-<!ENTITY status4evar.editor.css.image.position "Position">
-<!ENTITY status4evar.editor.css.image.offset "Offset">
+<!ENTITY status4evar.editor.label "Urejevalnik:">
+<!ENTITY status4evar.editor.css.color.label "Barva:">
+<!ENTITY status4evar.editor.css.image.label "Slika:">
+<!ENTITY status4evar.editor.css.image.repeat "Ponovitev">
+<!ENTITY status4evar.editor.css.image.position "Položaj">
+<!ENTITY status4evar.editor.css.image.offset "Zamik">
 
 
 

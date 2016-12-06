@@ -9,7 +9,7 @@
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.exp.mozillaLink  "&vendorShortName;">
+<!ENTITY community.exp.mozillaLink  "&vendedorNomeCurto;">
 <!ENTITY community.exp.middle       " é uma ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "comunidade global">
@@ -17,7 +17,7 @@
 
 <!ENTITY community.start2           "O &brandShortName; é desenvolvido pela ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
-<!ENTITY community.mozillaLink      "&vendorShortName;">
+<!ENTITY community.mozillaLink      "&vendedorNomeCurto;">
 <!ENTITY community.middle2          ", uma ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "comunidade global">
@@ -88,4 +88,4 @@
      channel.description.end create one sentence, with the current channel label inserted in between.
      example: You are currently on the _Stable_ update channel. -->
 <!ENTITY channel.description.start  "Usando o canal de atualização ">
-<!ENTITY channel.description.end    ". ">
+<!ENTITY channel.description.end    " canal de atualização. ">

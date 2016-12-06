@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  warnAddonInstall.label        "Alertar se sites tentarem instalar extensões ou temas">
-<!ENTITY  warnAddonInstall.accesskey    "A">
+<!ENTITY  warnAddonInstall.accesskey    "W">
 
 <!-- LOCALIZATION NOTE (blockWebForgeries.label, blockAttackSites.label):
   The methods by which forged (phished) and attack sites will be detected by
@@ -13,10 +13,10 @@
   "known").
 -->
 <!ENTITY  blockAttackSites.label     "Bloquear sites avaliados como focos de ataques">
-<!ENTITY  blockAttackSites.accesskey "B">
+<!ENTITY  blockAttackSites.accesskey "k">
 
 <!ENTITY  blockWebForgeries.label     "Bloquear sites avaliados como falsos">
-<!ENTITY  blockWebForgeries.accesskey "o">
+<!ENTITY  blockWebForgeries.accesskey "B">
 
 <!ENTITY  addonExceptions.label         "Exceções…">
 <!ENTITY  addonExceptions.accesskey     "E">
@@ -25,18 +25,18 @@
 <!ENTITY  passwords.label               "Senhas">
 
 <!ENTITY  rememberPasswords.label       "Memorizar senhas de sites">
-<!ENTITY  rememberPasswords.accesskey   "M">
+<!ENTITY  rememberPasswords.accesskey   "R">
 <!ENTITY  passwordExceptions.label      "Exceções…">
 <!ENTITY  passwordExceptions.accesskey  "x">
 
 <!ENTITY  useMasterPassword.label        "Usar uma senha mestra">
-<!ENTITY  useMasterPassword.accesskey    "s">
+<!ENTITY  useMasterPassword.accesskey    "U">
 <!ENTITY  changeMasterPassword.label     "Modificar senha mestra…">
-<!ENTITY  changeMasterPassword.accesskey "d">
+<!ENTITY  changeMasterPassword.accesskey "M">
 
 <!ENTITY  savedPasswords.label            "Senhas memorizadas…">
-<!ENTITY  savedPasswords.accesskey        "n">
+<!ENTITY  savedPasswords.accesskey        "P">
 
-<!ENTITY  XSSFilt.label              "XSS Filter">
-<!ENTITY  enableXSSFilt.label        "Enable XSS filter">
+<!ENTITY  XSSFilt.label              "Filtro XSS">
+<!ENTITY  enableXSSFilt.label        "Habilitar o filtro XSS">
 <!ENTITY  enableXSSFilt.accesskey    "f">
