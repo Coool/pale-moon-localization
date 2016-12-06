@@ -1,8 +1,8 @@
 <!-- LOCALIZATION NOTE (inspectorHTMLEdit.label): This is the label shown
      in the inspector contextual-menu for the item that lets users edit the
      (outer) HTML of the current node -->
-<!ENTITY inspectorHTMLEdit.label       "Edit As HTML">
-<!ENTITY inspectorHTMLEdit.accesskey   "E">
+<!ENTITY inspectorHTMLEdit.label       "Szerkesztés HTML-ként">
+<!ENTITY inspectorHTMLEdit.accesskey   "H">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLCopyInner.label): This is the label shown
      in the inspector contextual-menu for the item that lets users copy the
@@ -41,32 +41,32 @@
      - after the current node
      - as the first child of the current node
      - as the last child of the current node -->
-<!ENTITY inspectorHTMLPasteExtraSubmenu.label      "Paste…">
-<!ENTITY inspectorHTMLPasteExtraSubmenu.accesskey  "t">
+<!ENTITY inspectorHTMLPasteExtraSubmenu.label      "Beillesztés…">
+<!ENTITY inspectorHTMLPasteExtraSubmenu.accesskey  "e">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteBefore.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste
      the HTML before the current node -->
-<!ENTITY inspectorHTMLPasteBefore.label      "Before">
-<!ENTITY inspectorHTMLPasteBefore.accesskey  "B">
+<!ENTITY inspectorHTMLPasteBefore.label      "Elé">
+<!ENTITY inspectorHTMLPasteBefore.accesskey  "E">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteAfter.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste
      the HTML after the current node -->
-<!ENTITY inspectorHTMLPasteAfter.label       "After">
-<!ENTITY inspectorHTMLPasteAfter.accesskey   "A">
+<!ENTITY inspectorHTMLPasteAfter.label       "Mögé">
+<!ENTITY inspectorHTMLPasteAfter.accesskey   "M">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteFirstChild.label): This is the label
      shown in the inspector contextual-menu for the item that lets users paste
      the HTML as the first child the current node -->
-<!ENTITY inspectorHTMLPasteFirstChild.label      "As First Child">
-<!ENTITY inspectorHTMLPasteFirstChild.accesskey  "F">
+<!ENTITY inspectorHTMLPasteFirstChild.label      "Első gyermekként">
+<!ENTITY inspectorHTMLPasteFirstChild.accesskey  "g">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteLastChild.label): This is the label
      shown in the inspector contextual-menu for the item that lets users paste
      the HTML as the last child the current node -->
-<!ENTITY inspectorHTMLPasteLastChild.label       "As Last Child">
-<!ENTITY inspectorHTMLPasteLastChild.accesskey   "L">
+<!ENTITY inspectorHTMLPasteLastChild.label       "Utolsó gyermekként">
+<!ENTITY inspectorHTMLPasteLastChild.accesskey   "U">
 
 
 <!-- LOCALIZATION NOTE (inspectorHTMLDelete.label): This is the label shown in
@@ -79,7 +79,7 @@
 
 <!-- LOCALIZATION NOTE (inspectorSearchHTML.label2): This is the label shown as
      the placeholder in inspector search box -->
-<!ENTITY inspectorSearchHTML.label2          "Search with CSS Selectors">
+<!ENTITY inspectorSearchHTML.label2          "Keresés CSS kijelölőkkel">
 <!ENTITY inspectorSearchHTML.key            "F">
 
 <!-- LOCALIZATION NOTE (inspectorCopyImageDataUri.label): This is the label
@@ -93,4 +93,4 @@
      shown in the inspector contextual-menu for the item that lets users see
      the DOM properties of the current node. When triggered, this item
      opens the split Console and displays the properties in its side panel. -->
-<!ENTITY inspectorShowDOMProperties.label       "Show DOM Properties">
+<!ENTITY inspectorShowDOMProperties.label       "DOM tulajdonságok megjelenítése">

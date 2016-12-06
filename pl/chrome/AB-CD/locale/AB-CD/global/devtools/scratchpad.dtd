@@ -23,25 +23,25 @@
 <!ENTITY window.title                 "Brudnopis">
 
 <!ENTITY fileMenu.label               "Plik">
-<!ENTITY fileMenu.accesskey           "S">
+<!ENTITY fileMenu.accesskey           "P">
 
 <!ENTITY newWindowCmd.label           "Nowe okno">
-<!ENTITY newWindowCmd.accesskey       "Z">
-<!ENTITY newWindowCmd.commandkey      "r">
+<!ENTITY newWindowCmd.accesskey       "N">
+<!ENTITY newWindowCmd.commandkey      "n">
 
 <!ENTITY openFileCmd.label            "Otwórz plik…">
 <!ENTITY openFileCmd.accesskey        "s">
 <!ENTITY openFileCmd.commandkey       "o">
 
 <!ENTITY openRecentMenu.label         "Otwórz ostatnie">
-<!ENTITY openRecentMenu.accesskey     "e">
+<!ENTITY openRecentMenu.accesskey     "p">
 
 <!ENTITY revertCmd.label              "Wycofaj…">
-<!ENTITY revertCmd.accesskey          "c">
+<!ENTITY revertCmd.accesskey          "r">
 
 <!ENTITY saveFileCmd.label            "Zapisz">
 <!ENTITY saveFileCmd.accesskey        "Z">
-<!ENTITY saveFileCmd.commandkey       "h">
+<!ENTITY saveFileCmd.commandkey       "s">
 
 <!ENTITY saveFileAsCmd.label          "Zapisz jako…">
 <!ENTITY saveFileAsCmd.accesskey      "a">
@@ -54,44 +54,44 @@
 <!ENTITY viewMenu.accesskey           "Z">
 
 <!ENTITY lineNumbers.label             "Pokaż numery wierszy">
-<!ENTITY lineNumbers.accesskey         "D">
+<!ENTITY lineNumbers.accesskey         "Z">
 
 <!ENTITY wordWrap.label                "Zawijanie tekstu">
-<!ENTITY wordWrap.accesskey            "P">
+<!ENTITY wordWrap.accesskey            "a">
 
 <!ENTITY highlightTrailingSpace.label     "Podświetl spacje końcowe">
-<!ENTITY highlightTrailingSpace.accesskey "O">
+<!ENTITY highlightTrailingSpace.accesskey "r">
 
 <!ENTITY largerFont.label             "Większe czcionki">
-<!ENTITY largerFont.accesskey         "o">
+<!ENTITY largerFont.accesskey         "V">
 <!ENTITY largerFont.commandkey        "+">
 
 <!ENTITY smallerFont.label            "Mniejsza czcionka">
-<!ENTITY smallerFont.accesskey        "C">
+<!ENTITY smallerFont.accesskey        "M">
 <!ENTITY smallerFont.commandkey       "-">
 
 <!ENTITY normalSize.label             "Normalny rozmiar">
-<!ENTITY normalSize.accesskey         "Z">
+<!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "Edycja">
-<!ENTITY editMenu.accesskey           "N">
+<!ENTITY editMenu.accesskey           "E">
 
 <!ENTITY run.label                    "Uruchom">
 <!ENTITY run.accesskey                "U">
-<!ENTITY run.key                      "c">
+<!ENTITY run.key                      "r">
 
 <!ENTITY inspect.label                "Zbadaj">
 <!ENTITY inspect.accesskey            "b">
-<!ENTITY inspect.key                  "p">
+<!ENTITY inspect.key                  "i">
 
 <!ENTITY display.label                "Wyświetl">
 <!ENTITY display.accesskey            "l">
-<!ENTITY display.key                  "b">
+<!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Print ładny">
-<!ENTITY pprint.key                   "w">
-<!ENTITY pprint.accesskey             "O">
+<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.key                   "p">
+<!ENTITY pprint.accesskey             "F">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -124,7 +124,7 @@
 <!ENTITY helpMenuWin.accesskey        "c">
 
 <!ENTITY documentationLink.label      "Pomoc dla Brudnopisu na MDN">
-<!ENTITY documentationLink.accesskey  "E">
+<!ENTITY documentationLink.accesskey  "N">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
@@ -135,7 +135,7 @@
 
 <!ENTITY reloadAndRun.label           "Wczytaj ponownie i uruchom">
 <!ENTITY reloadAndRun.accesskey       "h">
-<!ENTITY reloadAndRun.key             "c">
+<!ENTITY reloadAndRun.key             "r">
 
 <!ENTITY executeMenu.label            "Wykonaj">
 <!ENTITY executeMenu.accesskey        "W">

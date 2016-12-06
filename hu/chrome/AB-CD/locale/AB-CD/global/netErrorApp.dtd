@@ -6,8 +6,7 @@
      file, all messages that likely don't need to tie into app-specific UI
      should go into netError.dtd -->
 
-<!ENTITY securityOverride.linkText "Or you can add an exception…">
+<!ENTITY securityOverride.linkText "Vagy hozzáadhat egy kivételt…">
 <!ENTITY securityOverride.warningContent "
-<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
-<p>If you still wish to add an exception for this site, you can do so in your advanced encryption settings.</p>
+<p>Ne adjon hozzá kivételt, ha nem teljesen megbízható internetkapcsolatot használ, vagy ha nem szokta látni ezt a figyelmeztetést ennél a kiszolgálónál.</p><p>Ha még mindig fel akarja venni ezt a webhelyet a kivételek közé, megteheti haladó titkosítási beállítások között.</p>
 ">

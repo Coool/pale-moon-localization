@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY permissionsManager.title        "サイト別設定マネージャ">
+<!ENTITY permissionsManager.title        "パーミッションマネージャー">
 
 <!ENTITY sites.search                    "Web サイトを検索">
 <!ENTITY sites.allSites                  "すべての Web サイト">
@@ -10,7 +10,7 @@
 <!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
      surround the host name of the site to make the header for the permissions page.
      example: "Permissions for mozilla.org" -->
-<!ENTITY header.site.start               "次の権限">
+<!ENTITY header.site.start               "パーミッション">
 <!ENTITY header.site.end                 "">
 
 <!ENTITY header.defaults                 "すべての Web サイトの既定の設定">
@@ -28,7 +28,7 @@
 
 <!ENTITY cookie.label                    "Cookie データの保存">
 <!ENTITY cookie.remove                   "Cookie を削除">
-<!ENTITY cookie.manage                   "Cookie を表示...">
+<!ENTITY cookie.manage                   "Cookie を管理...">
 <!ENTITY cookie.removeAll                "すべての Cookie を削除">
 
 <!ENTITY geo.label                       "位置情報の送信">

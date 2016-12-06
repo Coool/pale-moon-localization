@@ -12,41 +12,38 @@
 <p>Bien que le site semble valide, le navigateur n'a pas pu établir de
 connexion.</p>
 <ul>
-  <li> Le site est peut-être temporairement indisponible ? Réessayez plus tard.</li>
-  <li>D'autres sites sont aussi inaccessibles ? Vérifiez la connexion au réseau
-  de votre ordinateur.</li>
-  <li>Votre ordinateur ou votre réseau est-il protégé par un pare-feu ou un
+  <li> Le site est peut-être temporairement indisponible ? Merci de réessayer plus tard.</li>
+  <li>D'autres sites sont aussi inaccessibles ? Vérifier alors la connexion au réseau
+  de cet ordinateur.</li>
+  <li>Cet ordinateur ou ce réseau est-il protégé par un pare-feu ou un
   proxy ? Des paramètres incorrects peuvent interférer avec la navigation sur
   le Web.</li>
-  <li>Vous avez toujours des problèmes ? Consultez votre administrateur réseau
-  ou votre fournisseur d'accès à Internet pour obtenir de l'aide.</li>
-</ul>
-">
+  <li>D'autres sites sont aussi inaccessibles ? Vérifier la connexion au réseau
+  de cet ordinateur.</li>
+  <li>Toujours des problèmes ? Consulter l'administrateur réseau
+  ou le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
+</ul>">
 
 <!ENTITY deniedPortAccess.title "Port restreint pour des raisons de sécurité">
-<!ENTITY deniedPortAccess.longDesc "
-<p>L'adresse demandée indique un port (par ex. « palemoon.org:25 » pour le port
-25 sur palemoon.org) qui est normalement utilisé pour d'<em>autres</em> usages
-que la navigation sur le Web. Le navigateur a annulé la requête pour votre
-protection et votre sécurité.</p>
-">
+<!ENTITY deniedPortAccess.longDesc "<p>L’adresse demandée indique un port (par ex. <q>palemoon.org:25</q> pour le port
+25 sur palemoon.org) qui est normalement utilisé pour d’<em>autres</em> usages
+que la navigation sur le Web. Le navigateur a annulé la requête pour la
+protection et sécurité.</p>">
 
 <!ENTITY dnsNotFound.title "Adresse introuvable">
 <!ENTITY dnsNotFound.longDesc "
 <p>Le navigateur n'a pas pu trouver le serveur hôte pour l'adresse indiquée.</p>
 <ul>
-  <li>Avez-vous fait une erreur en saisissant le nom de domaine ?  (par ex.
-  « <strong>ww</strong>.mozilla.org » au lieu de
-  « <strong>www</strong>.mozilla.org »)</li>
+  <li>Peut-être y a-t-il eu une erreur de saisie dans le nom de domaine ?  (par ex.
+  « <strong>ww</strong>.mozilla.org » au lieu de « <strong>www</strong>.mozilla.org »)</li>
   <li>Cette adresse de domaine existe-t-elle ? Son enregistrement a peut-être
   expiré.</li>
-  <li>D'autres sites sont aussi inaccessibles ? Vérifiez la connexion au réseau
-  de votre ordinateur et les paramètres du serveur DNS.</li>
-  <li>Votre ordinateur ou votre réseau est-il protégé par un pare-feu ou un
+  <li>D'autres sites sont aussi inaccessibles ? Vérifier la connexion au réseau
+  de cet ordinateur et les paramètres du serveur DNS.</li>
+  <li>Cet ordinateur ou ce réseau est-il protégé par un pare-feu ou un
   proxy ? Des paramètres incorrects peuvent interférer avec la navigation sur
   le Web.</li>
-</ul>
-">
+</ul>">
 
 <!ENTITY fileNotFound.title "Fichier introuvable">
 <!ENTITY fileNotFound.longDesc "
@@ -72,14 +69,13 @@ n'y a pas d'erreur dans la barre d'adresse et réessayez.</p>
 <!ENTITY netInterrupt.title "La connexion a été interrompue">
 <!ENTITY netInterrupt.longDesc "
 <p>Le navigateur s'est connecté avec succès mais la connexion a été interrompue
-pendant le transfert d'informations. Veuillez réessayer.</p>
+pendant le transfert d'informations. Merci de réessayer.</p>
 <ul>
-  <li>D'autres sites sont aussi inaccessibles ? Vérifiez la connexion au réseau
-  de votre ordinateur.</li>
-  <li>Vous avez toujours des problèmes ? Consultez votre administrateur réseau
-  ou votre fournisseur d'accès à Internet pour obtenir de l'aide.</li>
-</ul>
-">
+  <li>D'autres sites sont aussi inaccessibles ? Vérifier la connexion au réseau
+  de cet ordinateur.</li>
+  <li>Toujours des problèmes ? Consulter l'administrateur réseau
+  ou le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
+</ul>">
 
 <!ENTITY notCached.title "Le document est expiré">
 <!ENTITY notCached.longDesc "
@@ -126,16 +122,15 @@ connexion. Veuillez réessayer.</p>
 arrêté d'attendre une réponse.</p>
 <ul>
   <li>Le serveur est peut-être en surcharge ou est temporairement en panne ?
-  Réessayez plus tard.</li>
-  <li>D'autres sites sont aussi inaccessibles ? Vérifiez la connexion au
-  réseau de votre ordinateur.</li>
-  <li>Votre ordinateur ou votre réseau est-il protégé par un pare-feu ou un
+ Merci de réessayer plus tard.</li>
+  <li>D'autres sites sont aussi inaccessibles ? Vérifier la connexion au
+  réseau de cet ordinateur.</li>
+  <li>Cet ordinateur ou ce réseau est-il protégé par un pare-feu ou un
   proxy ? Des paramètres incorrects peuvent interférer avec la navigation sur
   le Web.</li>
-  <li>Vous avez toujours des problèmes ? Consultez votre administrateur réseau
-  ou votre fournisseur d'accès à Internet pour obtenir de l'aide.</li>
-</ul>
-">
+  <li>Toujours des problèmes ? Consulter l'administrateur réseau
+  ou le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
+</ul>">
 
 <!ENTITY unknownProtocolFound.title "L'adresse n'a pas été reconnue">
 <!ENTITY unknownProtocolFound.longDesc "

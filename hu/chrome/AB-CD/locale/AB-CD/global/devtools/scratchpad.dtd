@@ -50,28 +50,28 @@
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "B">
 
-<!ENTITY viewMenu.label               "View">
-<!ENTITY viewMenu.accesskey           "V">
+<!ENTITY viewMenu.label               "Nézet">
+<!ENTITY viewMenu.accesskey           "N">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.label             "Sorszámok megjelenítése">
+<!ENTITY lineNumbers.accesskey         "S">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Sortörés">
+<!ENTITY wordWrap.accesskey            "t">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Záró szóköz kiemelése">
+<!ENTITY highlightTrailingSpace.accesskey "Z">
 
-<!ENTITY largerFont.label             "Larger Font">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.label             "Nagyobb betűk">
+<!ENTITY largerFont.accesskey         "N">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.label            "Kisebb betűk">
+<!ENTITY smallerFont.accesskey        "K">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
-<!ENTITY normalSize.accesskey         "N">
+<!ENTITY normalSize.label             "Normál méret">
+<!ENTITY normalSize.accesskey         "o">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "Szerkesztés">
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "Függvény kiértékelése">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">

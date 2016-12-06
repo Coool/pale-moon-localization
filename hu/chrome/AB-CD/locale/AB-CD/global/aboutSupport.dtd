@@ -11,13 +11,13 @@
   nézze meg a <a id='supportLink'>támogató weboldalunkat</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Hibajelentések">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "Jelentésazonosító">
+<!ENTITY aboutSupport.crashes.sendDate "Elküldve">
+<!ENTITY aboutSupport.crashes.allReports "Minden hibajelentés">
+<!ENTITY aboutSupport.crashes.noConfig "Ez az alkalmazás nincs a hibajelentések megjelenítésére beállítva.">
 
 <!ENTITY aboutSupport.extensionsTitle "Kiterjesztések">
 <!ENTITY aboutSupport.extensionName "Név">
@@ -25,23 +25,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Verzió">
 <!ENTITY aboutSupport.extensionId "Azonosító">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
-<!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentsTitle "Kísérleti funkciók">
+<!ENTITY aboutSupport.experimentName "Név">
+<!ENTITY aboutSupport.experimentId "Azonosító">
+<!ENTITY aboutSupport.experimentDescription "Leírás">
+<!ENTITY aboutSupport.experimentActive "Aktív">
+<!ENTITY aboutSupport.experimentEndDate "Záró dátum">
+<!ENTITY aboutSupport.experimentHomepage "Honlap">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Alkalmazás alapadatai">
 <!ENTITY aboutSupport.appBasicsName "Név">
 <!ENTITY aboutSupport.appBasicsVersion "Verzió">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Build az.">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Frissítési csatorna">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Frissítési előzmények">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Frissítési előzmények megjelenítése">
 
@@ -56,7 +56,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Memóriahasználat">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Több folyamatú ablakok">
 
 <!ENTITY aboutSupport.showDir.label "Könyvtár megnyitása">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -75,9 +75,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js beállítások">
 <!ENTITY aboutSupport.userJSDescription "Profilmappája tartalmaz egy <a id='prefs-user-js-link'>user.js fájlt</a>, amely nem a &brandShortName; által létrehozott beállításokat is tartalmaz.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Fontos zárolt beállítások">
+<!ENTITY aboutSupport.lockedPrefsName "Név">
+<!ENTITY aboutSupport.lockedPrefsValue "Érték">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
@@ -98,5 +98,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Biztonságos mód kipróbálása">
+<!ENTITY aboutSupport.restartInSafeMode.label "Újraindítás letiltott kiegészítőkkel…">

@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "O programie &brandFullName;">
+<!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "O programie &brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
@@ -17,7 +17,7 @@
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Odśwież kartę">
-<!ENTITY  reloadTab.accesskey                "O">
+<!ENTITY  reloadTab.accesskey                "d">
 <!ENTITY  reloadAllTabs.label                "Odśwież wszystkie karty">
 <!ENTITY  reloadAllTabs.accesskey            "b">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
@@ -36,7 +36,7 @@ can reach it easily. -->
 <!ENTITY  pinTab.label                       "Przypnij kartę">
 <!ENTITY  pinTab.accesskey                   "a">
 <!ENTITY  unpinTab.label                     "Odepnij kartę">
-<!ENTITY  unpinTab.accesskey                 "a">
+<!ENTITY  unpinTab.accesskey                 "n">
 <!ENTITY  moveToNewWindow.label              "Przenieś do nowego okna">
 <!ENTITY  moveToNewWindow.accesskey          "k">
 <!ENTITY  bookmarkAllTabs.label              "Dodaj zakładki do wszystkich kart…">
@@ -49,7 +49,7 @@ can reach it easily. -->
 <!ENTITY  listAllTabs.label      "Pokaż wszystkie karty">
 
 <!ENTITY tabCmd.label "Nowa karta">
-<!ENTITY tabCmd.accesskey "p">
+<!ENTITY tabCmd.accesskey "t">
 <!ENTITY tabCmd.commandkey "t">
 <!ENTITY openLocationCmd.label "Otwórz adres…">
 <!ENTITY openLocationCmd.accesskey "O">
@@ -57,7 +57,7 @@ can reach it easily. -->
 <!ENTITY openFileCmd.accesskey "o">
 <!ENTITY openFileCmd.commandkey "u">
 <!ENTITY printSetupCmd.label "Ustawienia strony…">
-<!ENTITY printSetupCmd.accesskey "V">
+<!ENTITY printSetupCmd.accesskey "U">
 <!ENTITY printPreviewCmd.label "Podgląd wydruku">
 <!ENTITY printPreviewCmd.accesskey "g">
 <!ENTITY printCmd.label "Drukuj…">
@@ -116,7 +116,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY closeWindow.accesskey "a">
 
 <!ENTITY bookmarksMenu.label "Zakładki">
-<!ENTITY bookmarksMenu.accesskey "o">
+<!ENTITY bookmarksMenu.accesskey "Z">
 <!ENTITY bookmarkThisPageCmd.label "Dodaj zakładkę…">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
@@ -265,12 +265,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey       "P">
 <!ENTITY newNavigatorCmd.label        "Nowe okno">
 <!ENTITY newNavigatorCmd.key        "N">
-<!ENTITY newNavigatorCmd.accesskey      "Z">
+<!ENTITY newNavigatorCmd.accesskey      "n">
 <!ENTITY newPrivateWindow.label     "Nowe okno prywatne">
 <!ENTITY newPrivateWindow.accesskey "a">
 
 <!ENTITY editMenu.label         "Edycja"> 
-<!ENTITY editMenu.accesskey       "N"> 
+<!ENTITY editMenu.accesskey       "E"> 
 <!ENTITY undoCmd.label            "Cofnij">  
 <!ENTITY undoCmd.key            "W">  
 <!ENTITY undoCmd.accesskey          "C"> 
@@ -412,7 +412,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisFrameCmd.label      "Dodaj zakładkę do ramki">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "d">
 <!ENTITY emailPageCmd.label           "Wyślij odnośnik…">
-<!ENTITY emailPageCmd.accesskey       "e">
+<!ENTITY emailPageCmd.accesskey       "n">
 <!ENTITY savePageCmd.label            "Zapisz stronę jako…">
 <!ENTITY savePageCmd.accesskey        "p">
 <!ENTITY sendLinkCmd.label            "Wyślij Link…">

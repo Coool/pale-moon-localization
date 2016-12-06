@@ -8,9 +8,9 @@
 <!ENTITY index.help "帮助">
 
 <!ENTITY device.debugMainProcess "调试主要进程">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
+<!ENTITY device.debugMainProcessTooltip "打开设备上连接到主进程的开发者工具">
 <!ENTITY device.screenshot "截屏">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
+<!ENTITY device.screenshotTooltip "在新标签页中打开一个设备当前状态的截图">
 <!ENTITY device.title "设备控制中心">
 <!ENTITY device.notConnected "未连接。请在下面连接您的设备。">
 <!ENTITY device.startApp "开始">
@@ -18,31 +18,31 @@
 <!ENTITY device.stopApp "停止">
 <!ENTITY device.stopAppTooltip "在设备上停止此应用程序">
 <!ENTITY device.debugApp "调试">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
+<!ENTITY device.debugAppTooltip "打开设备上连接到本应用的开发者工具">
 <!ENTITY device.name "名称">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
+<!ENTITY device.plain "普通（默认值）">
+<!ENTITY device.privileged "已授权">
+<!ENTITY device.certified "已认证">
 <!ENTITY device.allow "允许">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
+<!ENTITY device.allowTooltip "此权限被此种类型应用所允许">
+<!ENTITY device.prompt "提示">
+<!ENTITY device.promptTooltip "此权限需要此种应用给用户提示">
 <!ENTITY device.deny "拒绝">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
+<!ENTITY device.denyTooltip "此权限被此种类型应用所禁止">
 <!ENTITY device.installedApps "安装的应用程序">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
+<!ENTITY device.installedAppsTooltip "查看设备上的已安装应用列表。某些应用，例如经过认证的应用，可能会被排除掉。">
 <!ENTITY device.permissions "权限">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.permissionsTooltip "查看不同类型应用的访问权限表">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
 <!ENTITY device.browserTabs "浏览器标签">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
+<!ENTITY device.browserTabsTooltip "查看已连接设备上浏览器的标签页列表">
 <!ENTITY device.debugBrowserTab "调试">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
+<!ENTITY device.debugBrowserTabTooltip "打开设备上连接到本浏览器标签页的开发者工具">
 <!ENTITY device.help "帮助">
 
 <!ENTITY connection.connectTooltip "连接到设备">
 <!ENTITY connection.disconnect "断开连接">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
+<!ENTITY connection.disconnectTooltip "从当前设备或模拟器断开连接">
 <!ENTITY connection.notConnected2 "未连接">
 <!ENTITY connection.connectTo "连接到:">
 <!ENTITY connection.noDeviceFound "未找到任何设备。请接入设备">
@@ -60,22 +60,22 @@
 <!ENTITY connection.or "或者">
 <!ENTITY connection.noSimulatorInstalled "没有安装模拟器">
 <!ENTITY connection.installOneSimulator "安装模拟器">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.installOneSimulatorTooltip "通过下载有关附加程序安装某一版本的模拟器">
+<!ENTITY connection.installAnotherSimulator "添加">
+<!ENTITY connection.installAnotherSimulatorTooltip "通过下载有关附加程序安装额外版本的模拟器">
+<!ENTITY connection.startRegisteredSimulator "开始：">
 
 <!ENTITY projects.localApps "本地应用程序">
 <!ENTITY projects.addApp "添加">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
+<!ENTITY projects.addPackaged "添加封装的应用">
+<!ENTITY projects.addPackagedTooltip "从您的电脑中添加一个封装的应用（目录）">
+<!ENTITY projects.addHosted "添加托管的应用">
+<!ENTITY projects.addHostedTooltip "从远程网站中添加一个托管的应用（链接到一个 manifest.webapp 文件）">
 <!ENTITY projects.title "本地应用程序">
 <!ENTITY projects.appDetails "应用详情">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
+<!ENTITY projects.removeAppFromList "从您正在操作的应用列表中删除这个应用。这不会从设备或模拟器上删除它。">
 <!ENTITY projects.updateApp "更新">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.updateAppTooltip "在已连接设备上执行有效性检查并更新应用">
 <!ENTITY projects.debugApp "调试">
 <!ENTITY projects.debugAppTooltip "打开已连接到此应用程序的开发人员工具">
 <!ENTITY projects.saveManifest "保存">
