@@ -1,0 +1,144 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "عام">
+
+<!ENTITY accessibility.label             "الإتاحة">
+
+<!ENTITY useCursorNavigation.label       "استعمل دائمًا مفاتيح الأسهم للتنقل داخل الصفحات">
+<!ENTITY useCursorNavigation.accesskey   "س">
+<!ENTITY searchStartTyping.label         "ابحث عن النص عندما أبدأ الكتابة">
+<!ENTITY searchStartTyping.accesskey     "ح">
+<!ENTITY blockAutoRefresh.label          "حذّرني عندما تحاول مواقع وِب إعادة توجيه أو تحميل الصفحة">
+<!ENTITY blockAutoRefresh.accesskey      "و">
+
+<!ENTITY browsing.label                  "التّصفّح">
+
+<!ENTITY useAutoScroll.label             "استخدم اللّف الآلي">
+<!ENTITY useAutoScroll.accesskey         "ف">
+<!ENTITY useSmoothScrolling.label        "استخدم اللّف السلس">
+<!ENTITY useSmoothScrolling.accesskey    "خ">
+<!ENTITY allowHWAccel.label              "استخدم تسريع العتاد إن كان متاحًا">
+<!ENTITY allowHWAccel.accesskey          "ع">
+<!ENTITY checkSpelling.label             "دقق الإملاء أثناء الكتابة">
+<!ENTITY checkSpelling.accesskey         "ك">
+
+<!ENTITY systemDefaults.label            "مبدئيّات النظام">
+<!ENTITY alwaysCheckDefault.label        "تحقق دائمًا من كون &brandShortName; المتصفّح المبدئي عند بداية التشغيل"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "د">
+<!ENTITY setDefault.label                "اجعل &brandShortName; المتصفّح المبدئي">
+<!ENTITY setDefault.accesskey            "ص">
+<!ENTITY isDefault.label                 "‏&brandShortName; هو المتصفح المبدئي حاليا">
+
+<!ENTITY dataChoicesTab.label            "اختيارات البيانات">
+
+<!ENTITY crashReporterSection.label      "مُبلّغ الانهيار">
+<!ENTITY crashReporterDesc.label         "يُرسل &brandShortName; بلاغات الانهيار إلى &vendorShortName; للمساعدة في تحسين أداء متصفحك و استقراره">
+<!ENTITY enableCrashReporter.label       "فعّل مبلّغ الانهيار">
+<!ENTITY enableCrashReporter.accesskey   "ن">
+<!ENTITY crashReporterLearnMore.label    "اطّلع على المزيد">
+
+<!ENTITY networkTab.label                "الشبكة">
+
+<!ENTITY connection.label                "الاتصال">
+
+<!ENTITY connectionDesc.label            "اضبط كيفية اتصال &brandShortName; بالإنترنت">
+<!ENTITY connectionSettings.label        "الإعدادات…">
+<!ENTITY connectionSettings.accesskey    "ع">
+
+<!ENTITY httpCache.label                 "محتوى الوب المخزّن">
+
+<!ENTITY offlineStorage2.label           "محتوى الوب ومعلومات المستخدمة المخزّنة للعمل دون اتصال">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "استعمل حتى">
+<!ENTITY limitCacheSizeBefore.accesskey  "ح">
+<!ENTITY limitCacheSizeAfter.label       "م.بايت من المساحة للذّاكرة الخبيئة">
+<!ENTITY clearCacheNow.label             "امسح الآن">
+<!ENTITY clearCacheNow.accesskey         "م">
+<!ENTITY clearOfflineAppCacheNow.label   "امسح الآن">
+<!ENTITY clearOfflineAppCacheNow.accesskey "ن">
+<!ENTITY overrideSmartCacheSize.label    "تجاهل الإدارة الآلية للذاكرة الخبيئة">
+<!ENTITY overrideSmartCacheSize.accesskey "ذ">
+
+<!ENTITY updateTab.label                 "تحديث">
+
+<!ENTITY updateApp.label                 "تحديثات &brandShortName;:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "ثبّت التحديثات آليًا (منصوح به: يزيد الأمان)">
+<!ENTITY updateAuto1.accesskey           "ل">
+<!ENTITY updateAutoMetro.label           "حدّث تلقائيا من &brandShortName; سطح المكتب و بواجهة وندوز ٨">
+<!ENTITY updateAutoMetro.accesskey       "س">
+<!ENTITY updateCheck.label               "التمس التحديثات، ولكن اترك لي خيار تثبيتها من عدمه">
+<!ENTITY updateCheck.accesskey           "ت">
+<!ENTITY updateManual.label              "لا تلتمس التحديثات أبدًا (غير منصوح به: مجازفة أمنية)">
+<!ENTITY updateManual.accesskey          "د">
+
+<!ENTITY updateAutoAddonWarn.label       "حذرني لو أن هذا سيعطل أيًّا من إضافاتي">
+<!ENTITY updateAutoAddonWarn.accesskey   "ط">
+
+<!ENTITY updateAutoMetroWarn.label       "(&brandShortName; بواجهة وندوز ٨؛ لا يتحقق من توافقية الإضافات)">
+
+<!ENTITY updateHistory.label             "أظهر تأريخ التحديث">
+<!ENTITY updateHistory.accesskey         "ظ">
+
+<!ENTITY updateOthers.label              "تحديث تلقائي:">
+<!ENTITY enableSearchUpdate.label        "محركات البحث">
+<!ENTITY enableSearchUpdate.accesskey    "ح">
+
+<!ENTITY offlineNotify.label             "نبّهني عندما يطلب موقع تخزين بيانات للاستخدام دون اتصال">
+<!ENTITY offlineNotify.accesskey         "ه">
+<!ENTITY offlineNotifyExceptions.label   "الاستثناءات…">
+<!ENTITY offlineNotifyExceptions.accesskey "ث">
+
+<!ENTITY offlineAppsList2.label          "يسمح للمواقع التالية بتخزين بيانات للعمل دون اتصال:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "احذف…">
+<!ENTITY offlineAppsListRemove.accesskey "ح">
+<!ENTITY offlineAppRemove.confirm        "احذف بيانات الاستخدام دون اتصال">
+
+<!ENTITY certificateTab.label            "الشّهادات">
+<!ENTITY certGroup.label                 "شهادة شخصية">
+<!ENTITY certSelection.description       "عندما يطلب خادوم شهادتي الشخصيّة:">
+<!ENTITY certs.auto                      "حدد واحدة آليّا">
+<!ENTITY certs.auto.accesskey            "ل">
+<!ENTITY certs.ask                       "اسألني كلّ مرّة">
+<!ENTITY certs.ask.accesskey             "س">
+<!ENTITY ocspGroup.label                 "التحقق من صحة شهادة">
+<!ENTITY enableOCSP.label                "استخدم بروتوكول حالة الشهادة على الإنترنت (OCSP) لتأكيد الصلاحية الحاليّة للشهادات">
+<!ENTITY enableOCSP.accesskey            "خ">
+<!ENTITY requireOCSP.label               "عندما يفشل اتصال خادوم OCSP، اعتبر الشهادة غير صالحة">
+<!ENTITY requireOCSP.accesskey           "ع">
+<!ENTITY viewCerts.label                 "أظهر الشهادات">
+<!ENTITY viewCerts.accesskey             "ظ">
+<!ENTITY viewSecurityDevices.label       "أجهزة الأمن">
+<!ENTITY viewSecurityDevices.accesskey   "ج">
+
+<!ENTITY UACompatGroup.label    "التوافق">
+<!ENTITY UACompat.label         "وضع وكيل المستخدم:">
+<!ENTITY UACompat.Native        "الأصلي">
+<!ENTITY UACompat.Gecko         "التوافق مع Gecko">
+<!ENTITY UACompat.Firefox       "التوافق مع فيرفكس">
+
+<!ENTITY scrollparamTab.label               "التمرير">
+<!ENTITY smoothscroll.explain.label         "الإعدادات التالية لن تطبق إلا في حالة تفعيل مربع الاختيار في الأعلى.">
+<!ENTITY smoothscroll.to                    "إلى">
+<!ENTITY smoothscroll.params.label          "إعدادات التمرير السلس">
+<!ENTITY smoothscroll.mousewheel.label      "التمرير السلس بعجلة الفأرة">
+<!ENTITY smoothscroll.mousewheel.duration   "زمن التمرير بعجلة الفأرة:">
+<!ENTITY smoothscroll.arrowkeys.label       "التمرير السلس بمفاتيح الأسهم">
+<!ENTITY smoothscroll.arrowkeys.duration    "زمن التمرير بمفاتيح الأسهم:">
+<!ENTITY smoothscroll.pagekeys.label        "التمرير السلس بمفتاحي page up و page down">
+<!ENTITY smoothscroll.pagekeys.duration     "زمن التمرير بمفتاحي page up و page down:">
+<!ENTITY smoothscroll.scrollbar.label       "التمرير السلس بأشرطة التمرير">
+<!ENTITY smoothscroll.scrollbar.duration    "زمن التمرير بأشرطة التمرير:">

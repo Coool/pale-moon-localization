@@ -9,11 +9,11 @@
 <!ENTITY accessibility.label             "Accesibilidad">
 
 <!ENTITY useCursorNavigation.label       "Usar siempre las teclas del cursor para navegar dentro de las páginas">
-<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY useCursorNavigation.accesskey   "t">
 <!ENTITY searchStartTyping.label         "Buscar texto mientras se escribe">
-<!ENTITY searchStartTyping.accesskey     "x">
+<!ENTITY searchStartTyping.accesskey     "S">
 <!ENTITY blockAutoRefresh.label          "Advertir cuando una página web intente redireccionar o recargar la página">
-<!ENTITY blockAutoRefresh.accesskey      "b">
+<!ENTITY blockAutoRefresh.accesskey      "ñ">
 
 <!ENTITY browsing.label                  "Navegación">
 
@@ -30,7 +30,7 @@
 <!ENTITY alwaysCheckDefault.label        "Comprobar siempre si &brandShortName; es el navegador predeterminado al iniciar"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "s">
 <!ENTITY setDefault.label                "Convertir &brandShortName; en el navegador predeterminado">
-<!ENTITY setDefault.accesskey            "d">
+<!ENTITY setDefault.accesskey            "v">
 <!ENTITY isDefault.label                 "&brandShortName; es actualmente su navegador predeterminado">
 
 <!ENTITY dataChoicesTab.label            "Elección de datos">
@@ -99,7 +99,7 @@
 <!ENTITY offlineNotify.label             "Avisarme si un sitio solicita guardar datos para uso sin conexión">
 <!ENTITY offlineNotify.accesskey         "T">
 <!ENTITY offlineNotifyExceptions.label   "Excepciones…">
-<!ENTITY offlineNotifyExceptions.accesskey "x">
+<!ENTITY offlineNotifyExceptions.accesskey "S">
 
 <!ENTITY offlineAppsList2.label          "Los siguientes sitios web tienen permiso para guardar datos para el uso en modo sin conexión:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -120,25 +120,25 @@
 <!ENTITY requireOCSP.label               "Cuando falle la conexión a un servidor OCSP, tratar el certificado como no válido">
 <!ENTITY requireOCSP.accesskey           "C">
 <!ENTITY viewCerts.label                 "Ver certificados">
-<!ENTITY viewCerts.accesskey             "s">
+<!ENTITY viewCerts.accesskey             "f">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguridad">
 <!ENTITY viewSecurityDevices.accesskey   "o">
 
 <!ENTITY UACompatGroup.label    "Compatibilidad">
-<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.label         "Modo de agente de usuario:">
 <!ENTITY UACompat.Native        "Nativo">
 <!ENTITY UACompat.Gecko         "Compatibilidad de Gecko">
 <!ENTITY UACompat.Firefox       "Compatibilidad de Firefox">
 
 <!ENTITY scrollparamTab.label               "Desplazamiento">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.explain.label         "Los parámetros a continuación sólo tienen efecto si desplazamiento suave está habilitado en general con la casilla de verificación anterior.">
+<!ENTITY smoothscroll.to                    "para">
 <!ENTITY smoothscroll.params.label          "Parámetros de desplazamiento suave">
 <!ENTITY smoothscroll.mousewheel.label      "Suave desplazamiento con la rueda del ratón">
 <!ENTITY smoothscroll.mousewheel.duration   "Duración de desplazamiento de rueda de ratón:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.arrowkeys.label       "Desplazamiento suave con las teclas de flecha">
+<!ENTITY smoothscroll.arrowkeys.duration    "Duración de desplazamiento con teclas de dirección:">
+<!ENTITY smoothscroll.pagekeys.label        "Desplazamiento suave con retroceso/avance página">
 <!ENTITY smoothscroll.pagekeys.duration     "Página arriba/abajo duración del desplazamiento:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Desplazamiento suave con barras de desplazamiento">
+<!ENTITY smoothscroll.scrollbar.duration    "Duración del desplazamiento suave de barra de desplazamiento:">

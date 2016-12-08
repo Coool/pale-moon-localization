@@ -1,0 +1,144 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "Xeral">
+
+<!ENTITY accessibility.label             "Accesibilidade">
+
+<!ENTITY useCursorNavigation.label       "Utilizar sempre as teclas de desprazamento para navegar nas páxinas">
+<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY searchStartTyping.label         "Buscar o texto ao comezar a escribir">
+<!ENTITY searchStartTyping.accesskey     "B">
+<!ENTITY blockAutoRefresh.label          "Avisar cando os sitios tenten redireccionar ou recargar a páxina">
+<!ENTITY blockAutoRefresh.accesskey      "v">
+
+<!ENTITY browsing.label                  "Navegación">
+
+<!ENTITY useAutoScroll.label             "Utilizar desprazamento automático">
+<!ENTITY useAutoScroll.accesskey         "a">
+<!ENTITY useSmoothScrolling.label        "Utilizar desprazamento suave">
+<!ENTITY useSmoothScrolling.accesskey    "m">
+<!ENTITY allowHWAccel.label              "Usar a aceleración por hardware cando estea dispoñíbel">
+<!ENTITY allowHWAccel.accesskey          "r">
+<!ENTITY checkSpelling.label             "Comprobar a ortografía ao escribir">
+<!ENTITY checkSpelling.accesskey         "t">
+
+<!ENTITY systemDefaults.label            "Configuración predeterminada">
+<!ENTITY alwaysCheckDefault.label        "Verificar sempre se &brandShortName; é o navegador predeterminado ao comezar."><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "n">
+<!ENTITY setDefault.label                "Facer do &brandShortName; o navegador predeterminado">
+<!ENTITY setDefault.accesskey            "d">
+<!ENTITY isDefault.label                 "&brandShortName; xa é o navegador predeterminado">
+
+<!ENTITY dataChoicesTab.label            "Datos">
+
+<!ENTITY crashReporterSection.label      "Informador de erros">
+<!ENTITY crashReporterDesc.label         "&brandShortName; envía informes de erro para axudar a &vendorShortName; a facer o seu navegador máis estábel e seguro">
+<!ENTITY enableCrashReporter.label       "Activar o informador de erros">
+<!ENTITY enableCrashReporter.accesskey   "c">
+<!ENTITY crashReporterLearnMore.label    "Obter máis información">
+
+<!ENTITY networkTab.label                "Rede">
+
+<!ENTITY connection.label                "Conexión">
+
+<!ENTITY connectionDesc.label            "Configurar o modo en que &brandShortName; se conecta á Internet">
+<!ENTITY connectionSettings.label        "Configuración…">
+<!ENTITY connectionSettings.accesskey    "C">
+
+<!ENTITY httpCache.label                 "Contido web en caché">
+
+<!ENTITY offlineStorage2.label           "Datos do usuario e contido web sen conexión">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Limitar a caché a">
+<!ENTITY limitCacheSizeBefore.accesskey  "L">
+<!ENTITY limitCacheSizeAfter.label       "MB de espazo">
+<!ENTITY clearCacheNow.label             "Limpar agora">
+<!ENTITY clearCacheNow.accesskey         "m">
+<!ENTITY clearOfflineAppCacheNow.label   "Limpar agora">
+<!ENTITY clearOfflineAppCacheNow.accesskey "g">
+<!ENTITY overrideSmartCacheSize.label    "Sobrescribir a xestión automática da caché">
+<!ENTITY overrideSmartCacheSize.accesskey "o">
+
+<!ENTITY updateTab.label                 "Actualizar">
+
+<!ENTITY updateApp.label                 "Actualizacións do &brandShortName;:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Automatically install updates (recommended: improved security)">
+<!ENTITY updateAuto1.accesskey           "A">
+<!ENTITY updateAutoMetro.label           "Automatically update from desktop and Windows 8 style &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateCheck.label               "Buscar actualizacións, pero permitirme escoller se quero instalalas">
+<!ENTITY updateCheck.accesskey           "c">
+<!ENTITY updateManual.label              "Non buscar actualizacións (non recomendado: risco de seguranza)">
+<!ENTITY updateManual.accesskey          "N">
+
+<!ENTITY updateAutoAddonWarn.label       "Avisarme se isto desactiva algúns dos complementos">
+<!ENTITY updateAutoAddonWarn.accesskey   "v">
+
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8 style &brandShortName; does not check add-on compatibility)">
+
+<!ENTITY updateHistory.label             "Amosar historial de actualización">
+<!ENTITY updateHistory.accesskey         "z">
+
+<!ENTITY updateOthers.label              "Actualizar automaticamente:">
+<!ENTITY enableSearchUpdate.label        "Buscadores">
+<!ENTITY enableSearchUpdate.accesskey    "B">
+
+<!ENTITY offlineNotify.label             "Informarme cando un sitio web solicita o almacenamento de datos para a utilización sen conexión">
+<!ENTITY offlineNotify.accesskey         "t">
+<!ENTITY offlineNotifyExceptions.label   "Excepcións…">
+<!ENTITY offlineNotifyExceptions.accesskey "E">
+
+<!ENTITY offlineAppsList2.label          "Os seguintes sitios web poden almacenar datos para a utilización sen conexión:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "Retirar…">
+<!ENTITY offlineAppsListRemove.accesskey "R">
+<!ENTITY offlineAppRemove.confirm        "Retirar datos sen conexión">
+
+<!ENTITY certificateTab.label            "Certificates">
+<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certSelection.description       "Cando un servidor solicita o meu certificado persoal:">
+<!ENTITY certs.auto                      "Escoller un automaticamente">
+<!ENTITY certs.auto.accesskey            "l">
+<!ENTITY certs.ask                       "Preguntarme cada vez">
+<!ENTITY certs.ask.accesskey             "g">
+<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY enableOCSP.label                "Utilice o protocolo de estado de certificados en liña (OCSP) para confirmar a validez dos certificados">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "Cando falle a conexión a un servidor OCSP, tratar o certificado como incorrecto">
+<!ENTITY requireOCSP.accesskey           "C">
+<!ENTITY viewCerts.label                 "Ver certificados">
+<!ENTITY viewCerts.accesskey             "s">
+<!ENTITY viewSecurityDevices.label       "Dispositivos de seguranza">
+<!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY UACompatGroup.label    "Compatibility">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.Gecko         "Gecko Compatibility">
+<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+
+<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

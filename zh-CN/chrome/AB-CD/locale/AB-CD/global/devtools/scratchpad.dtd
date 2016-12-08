@@ -50,27 +50,27 @@
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "C">
 
-<!ENTITY viewMenu.label               "View">
+<!ENTITY viewMenu.label               "视图">
 <!ENTITY viewMenu.accesskey           "V">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
+<!ENTITY lineNumbers.label             "显示行号">
 <!ENTITY lineNumbers.accesskey         "L">
 
-<!ENTITY wordWrap.label                "Wrap Text">
+<!ENTITY wordWrap.label                "文本换行">
 <!ENTITY wordWrap.accesskey            "W">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
+<!ENTITY highlightTrailingSpace.label     "高亮尾随空格">
 <!ENTITY highlightTrailingSpace.accesskey "H">
 
-<!ENTITY largerFont.label             "Larger Font">
+<!ENTITY largerFont.label             "大字体">
 <!ENTITY largerFont.accesskey         "a">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
+<!ENTITY smallerFont.label            "小字体">
 <!ENTITY smallerFont.accesskey        "M">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "正常字体">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
@@ -89,7 +89,7 @@
 <!ENTITY display.accesskey            "D">
 <!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.label                 "格式美化">
 <!ENTITY pprint.key                   "p">
 <!ENTITY pprint.accesskey             "P">
 
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "Eval 当前函数">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">

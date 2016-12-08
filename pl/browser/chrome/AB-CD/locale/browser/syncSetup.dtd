@@ -19,27 +19,27 @@
 <!ENTITY serverType.default.label      "Domyślny: serwer &syncBrand.fullName.label; Mozilli">
 <!ENTITY serverType.custom2.label   "Użyj innego serwera…">
 <!ENTITY signIn.account2.label      "Konto">
-<!ENTITY signIn.account2.accesskey  "K">
+<!ENTITY signIn.account2.accesskey  "e">
 <!ENTITY signIn.password.label      "Hasło">
 <!ENTITY signIn.password.accesskey  "H">
 <!ENTITY signIn.recoveryKey.label       "Klucz odzyskiwania">
-<!ENTITY signIn.recoveryKey.accesskey   "u">
+<!ENTITY signIn.recoveryKey.accesskey   "K">
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "Szczegóły konta">
 <!ENTITY setup.emailAddress.label     "Adres e-mail">
-<!ENTITY setup.emailAddress.accesskey "A">
+<!ENTITY setup.emailAddress.accesskey "E">
 <!ENTITY setup.choosePassword.label      "Wybierz hasło">
-<!ENTITY setup.choosePassword.accesskey  "W">
+<!ENTITY setup.choosePassword.accesskey  "h">
 <!ENTITY setup.confirmPassword.label     "Potwierdź hasło">
-<!ENTITY setup.confirmPassword.accesskey "P">
+<!ENTITY setup.confirmPassword.accesskey "K">
 <!ENTITY setup.setupMetro.label     "Synchronizuj z programem &brandShortName; w stylu Windows 8">
-<!ENTITY setup.setupMetro.accesskey "E">
+<!ENTITY setup.setupMetro.accesskey "S">
 
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
      joined with implicit white space, so spaces in the strings aren't necessary -->
 <!ENTITY setup.tosAgree1.label      "Akceptuję">
-<!ENTITY setup.tosAgree1.accesskey  "K">
+<!ENTITY setup.tosAgree1.accesskey  "S">
 <!ENTITY setup.tosLink.label        "zasady korzystania z usługi">
 <!ENTITY setup.tosAgree2.label      "i">
 <!ENTITY setup.ppLink.label         "zasady ochrony prywatności">
@@ -50,12 +50,12 @@
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; dba o twoją prywatność">
 <!ENTITY setup.newRecoveryKeyPage.description.label "Aby zapewnić całkowitą prywatność, wszystkie dane przed przesłaniem są szyfrowane. Klucz odzyskiwania, niezbędny do odszyfrowania danych, nie jest przesyłany.">
 <!ENTITY recoveryKeyEntry.label        "Twój klucz">
-<!ENTITY recoveryKeyEntry.accesskey    "k">
+<!ENTITY recoveryKeyEntry.accesskey    "K">
 <!ENTITY syncGenerateNewKey.label  "Wygeneruj nowy klucz">
 <!ENTITY recoveryKeyBackup.description "Klucz jest niezbędny, by uzyskać dostęp do usługi &syncBrand.fullName.label; na innych urządzeniach. Utwórz kopię zapasową klucza. W razie jego utraty nie będziemy w stanie pomóc ci go odzyskać.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Wydrukuj…">
-<!ENTITY button.syncKeyBackup.print.accesskey "d">
+<!ENTITY button.syncKeyBackup.print.accesskey "T">
 <!ENTITY button.syncKeyBackup.save.label      "Zapisz…">
 <!ENTITY button.syncKeyBackup.save.accesskey  "Z">
 
@@ -82,17 +82,17 @@
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "Opcje synchronizacji">
 <!ENTITY syncDeviceName.label       "Nazwa urządzenia:">
-<!ENTITY syncDeviceName.accesskey   "k">
+<!ENTITY syncDeviceName.accesskey   "N">
 
 <!ENTITY syncMy.label               "Synchronizuj:">
 <!ENTITY engine.bookmarks.label     "zakładki">
-<!ENTITY engine.bookmarks.accesskey "z">
+<!ENTITY engine.bookmarks.accesskey "Z">
 <!ENTITY engine.tabs.label          "karty">
 <!ENTITY engine.tabs.accesskey      "k">
 <!ENTITY engine.history.label       "historię">
 <!ENTITY engine.history.accesskey   "h">
 <!ENTITY engine.passwords.label     "hasła">
-<!ENTITY engine.passwords.accesskey "a">
+<!ENTITY engine.passwords.accesskey "h">
 <!ENTITY engine.prefs.label         "ustawienia">
 <!ENTITY engine.prefs.accesskey     "u">
 <!ENTITY engine.addons.label        "dodatki">

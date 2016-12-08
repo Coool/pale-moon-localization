@@ -10,14 +10,14 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "La connexion a échoué">
+<!ENTITY connectionFailure.title "Connexion échouée">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Cette adresse est interdite">
-<!ENTITY deniedPortAccess.longDesc "<p>L’adresse demandée indique un port (par ex. « palemoon.org:25 » pour le port
+<!ENTITY deniedPortAccess.longDesc "<p>L’adresse demandée indique un port (par ex. <q>palemoon.org:25</q> pour le port
 25 sur palemoon.org) qui est normalement utilisé pour d’<em>autres</em> usages
-que la navigation sur le Web. Le navigateur a annulé la requête pour votre
-protection et votre sécurité.</p>">
+que la navigation sur le Web. Le navigateur a annulé la requête pour la
+protection et sécurité.</p>">
 
 <!ENTITY dnsNotFound.title "Adresse introuvable">
 <!ENTITY dnsNotFound.longDesc "
@@ -160,7 +160,7 @@ protection et votre sécurité.</p>">
 
 
 <!ENTITY securityOverride.linkText "Ou vous pouvez ajouter une exception…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Quitter cette page">
+<!ENTITY securityOverride.getMeOutOfHereButton "Sortir d'ici !">
 <!ENTITY securityOverride.exceptionButtonLabel "Ajouter une exception…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the

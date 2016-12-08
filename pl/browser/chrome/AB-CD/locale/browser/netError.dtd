@@ -55,8 +55,8 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Dokument wygasł">
-<!ENTITY notCached.longDesc "<p>Żądany dokument nie jest dostępny w pamięci podręcznej Firefoksa.</p><ul><li>Ze względów bezpieczeństwa Firefox
-nie pobiera ponownie wrażliwych dokumentów automatycznie.</li><li>Kliknij przycisk Spróbuj ponownie, aby jeszcze raz pobrać dokument z witryny.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Żądany dokument nie jest dostępny w pamięci podręcznej Pale Moon.</p><ul><li>Ze względów bezpieczeństwa Pale Moon
+nie pobiera ponownie wrażliwych dokumentów automatycznie.</li><li>Kliknij przycisk Spróbuj ponownie, aby jeszcze raz pobrać dokument z strony.</li></ul>">
 
 <!ENTITY netOffline.title "Tryb offline">
 <!ENTITY netOffline.longDesc2 "
@@ -68,14 +68,14 @@ nie pobiera ponownie wrażliwych dokumentów automatycznie.</li><li>Kliknij przy
 <!ENTITY contentEncodingError.title "Błąd kodowania zawartości">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Należy poinformować właścicieli witryny o tym problemie.</li>
+  <li>Należy poinformować właścicieli strony o tym problemie.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Niebezpieczny typ pliku">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Należy poinformować właścicieli witryny o tym problemie.</li>
+  <li>Należy poinformować właścicieli strony o tym problemie.</li>
 </ul>
 ">
 
@@ -126,7 +126,7 @@ nie pobiera ponownie wrażliwych dokumentów automatycznie.</li><li>Kliknij przy
 
 <!ENTITY nssFailure2.title "Nie udało się nawiązać bezpiecznego połączenia">
 <!ENTITY nssFailure2.longDesc2 "
-<ul>   <li>Strona, którą próbujesz wyświetlić nie może być pokazana, ponieważ nie można zweryfikować  autentyczności otrzymanych danych.</li>   <li>Poinformuj właścicieli witryny o tym problemie..</li> </ul>
+<ul>   <li>Strona, którą próbujesz wyświetlić nie może być pokazana, ponieważ nie można zweryfikować  autentyczności otrzymanych danych.</li>   <li>Poinformuj właścicieli strony o tym problemie..</li> </ul>
 ">
 
 <!ENTITY nssBadCert.title "Nie udało się nawiązać bezpiecznego połączenia">
@@ -194,7 +194,7 @@ functionality specific to firefox. -->
 ">
 
 <!ENTITY errorReporting.title "Zgłoś ten błąd">
-<!ENTITY errorReporting.longDesc "Raportowanie informacjo o adresie i certyfikacie dla <span id='hostname'></span>pomoże nam identyfikować i blokować złośliwe witryny. Dzięki za pomoc w stworzeniu bezpieczniejszego internetu!">
+<!ENTITY errorReporting.longDesc "Raportowanie informacjo o adresie i certyfikacie dla <span id='hostname'></span>pomoże nam identyfikować i blokować złośliwe strony. Dzięki za pomoc w stworzeniu bezpieczniejszego internetu!">
 <!ENTITY errorReporting.automatic "Automatyczne raportowanie błędów w przyszłości">
 <!ENTITY errorReporting.learnMore "Więcej informacji…">
 <!ENTITY errorReporting.sending "Wysyłanie zgłoszenia">

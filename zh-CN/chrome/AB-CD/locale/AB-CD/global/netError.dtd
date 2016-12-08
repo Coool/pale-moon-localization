@@ -2,99 +2,98 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Page Load Error">
-<!ENTITY retry.label "Try Again">
+<!ENTITY loadError.label "页面载入出错">
+<!ENTITY retry.label "重试">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Failed to Connect">
-<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY connectionFailure.title "连接失败">
+<!ENTITY connectionFailure.longDesc "<p>与此网站连接失败，但网址似乎是正确的。</p><ul><li>可能是此网站暂停服务了？请稍后再试。</li><li>您是否也无法浏览其他站点呢？请检查您计算机的网络连接。</li><li>您的计算机或网络是否开启了防火墙、代理服务器？请确认它们是否正确设置了。</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "安全原因导致访问端口受限">
+<!ENTITY deniedPortAccess.longDesc "<p>请求的地址中指定了一个端口（例如 <q>palemoon.org:25</q> 对应 palemoon.org 的25端口），该端口通常是用作<em>其他</em>用途。因此，为了您的安全考虑，浏览器取消了该请求。</p>">
 
-<!ENTITY dnsNotFound.title "Address Not Found">
-<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY dnsNotFound.title "未找到服务器">
+<!ENTITY dnsNotFound.longDesc "<p>浏览器无法找到该地址对应的站点。</p><ul><li>您确定输入该站点名称时没有错误吗？（例如将  <q><strong>www</strong>.palemoon.org</q> 写成  <q><strong>ww</strong>.palemoon.org</q>）</li><li>您确定该域名存在吗？该站点的注册可能已经过期。</li><li>您是否也无法浏览其他站点呢？请检查您计算机的网络连接以及域名服务器设置。</li><li> 您的计算机或网络是否被防火墙、代理服务器保护呢？请尝试修正可能不正确的设置。</li></ul>">
 
-<!ENTITY fileNotFound.title "File Not Found">
-<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
+<!ENTITY fileNotFound.title "未找到文件">
+<!ENTITY fileNotFound.longDesc "<ul><li>该项目是否可能已经被改名、移除或者移动？</li><li>地址中是否可能有拼写、大小写或者输入错误？</li><li>您是否有访问该项目的权限？</li></ul>">
 
-<!ENTITY generic.title "Cannot Complete Request">
-<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
+<!ENTITY generic.title "无法完成请求">
+<!ENTITY generic.longDesc "<p>暂无关于此问题或错误的其他信息。</p>">
 
-<!ENTITY malformedURI.title "Invalid Address">
-<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
+<!ENTITY malformedURI.title "无效的地址">
+<!ENTITY malformedURI.longDesc "<p>无法辨认提供的地址。请检查地址栏中是否有错并重试。</p>">
 
-<!ENTITY netInterrupt.title "Data Transfer Interrupted">
-<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netInterrupt.title "数据传输中断">
+<!ENTITY netInterrupt.longDesc "<p>浏览器连接成功，但连接在传输数据时被中断。请重试。</p><ul><li>您是否也不能浏览其他站点？请检查计算机的网络连接。</li><li>仍然不行？请尝试联系 您的网络管理员或者互联网服务提供商以寻求帮助。</li></ul>">
 
-<!ENTITY notCached.title "Document Expired">
-<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
+<!ENTITY notCached.title "文档已过期">
+<!ENTITY notCached.longDesc "<p>您请求的文档已无法在浏览器的缓存中找到。</p><ul><li>出于安全考虑，浏览器不会自动重新获取敏感信息文档。</li><li>请点击重试并从网站来重新获取该文档。</li></ul>">
 
-<!ENTITY netOffline.title "Offline Mode">
-<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
+<!ENTITY netOffline.title "脱机模式">
+<!ENTITY netOffline.longDesc2 "<p>浏览器目前在离线模式下运行，并且无法连接到请求的项目。</p><ul><li>您确定计算机已连接到了一个有效网络吗？</li><li>按“重试”切换到在线模式并重新加载此页面。</li></ul>">
 
-<!ENTITY contentEncodingError.title "Content Encoding Error">
-<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY contentEncodingError.title "内容编码错误">
+<!ENTITY contentEncodingError.longDesc "<p>您尝试查看的页面无法显示，因为它使用了无效的或者不支持的压缩格式。</p><ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
 
-<!ENTITY unsafeContentType.title "Unsafe File Type">
+<!ENTITY unsafeContentType.title "不安全的文件类型">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Please contact the website owners to inform them of this problem.</li>
+ <li>请联系此网站的管理员并告知此问题。</li>
 </ul>
 ">
 
-<!ENTITY netReset.title "Connection Interrupted">
-<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
+<!ENTITY netReset.title "连接被中断">
+<!ENTITY netReset.longDesc "<p>当连接握手时，到该站点的连接被断开。请重试</p>">
 
-<!ENTITY netTimeout.title "Network Timeout">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netTimeout.title "网络超时">
+<!ENTITY netTimeout.longDesc "<p>请求的站点在指定的时间内没有响应连接，因此浏览器停止了等待。</p><ul><li>该服务器是否过载或者暂时不可用？请稍后再试。</li><li>您是否也无法浏览其 他站点呢？请检查您计算机的网络连接。</li><li>您的计算机或网络是否被防火墙、代理服务器保护？请尝试修正可能与网页浏览相关的不正确设置。</li><li>仍然不行？请联系您的网络管理员或者 互联网服务提供商寻求援助。</li></ul>">
 
-<!ENTITY unknownProtocolFound.title "Unknown Protocol">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY unknownProtocolFound.title "未知协议">
+<!ENTITY unknownProtocolFound.longDesc "<p>浏览器无法识别该地址的协议。（例如 <q>wxyz://</q>），因此浏览器无法连接至该站点。</p><ul><li>您是否在尝试访问多媒体或其他非文字服务？ 请检查该站点是否有其他要求。</li><li>某些协议可能需要安装第三方软件或插件后浏览器才能识别。</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.title "代理服务器拒绝连接">
+<!ENTITY proxyConnectFailure.longDesc "<p>浏览器被设置为使用代理服务器，但是该代理服务器拒绝了该连接。</p><ul><li>浏览器的代理服务器设置是否正确？请检查并重试。</li><li>该代理服务是否允许来自此网络的连接？</li><li>仍然不行？请联系您的网络管理员或者互联网服务提供商以寻求协助。</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyResolveFailure.title "无法找到代理服务器">
+<!ENTITY proxyResolveFailure.longDesc "<p>浏览器被设置为使用代理服务器，但是无法找到该代理服务器。</p><ul><li>浏览器的代理服务器设置是否正确？请检查并重试。</li><li>计算机是否连接到了可用的网络？</li><li>仍然不行？请联系您的网络管理员或者互联网服务提供商以寻求协助。</li></ul>">
 
-<!ENTITY redirectLoop.title "Redirect Loop">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY redirectLoop.title "重定向循环">
+<!ENTITY redirectLoop.longDesc "<p>浏览器已停止尝试请求的项。因为此站点将请求重定向到其自身，以至于不可能完成。</p><ul><li>您是否禁止了该站点所必须的 Cookie？</li><li><em>注意</em>：如果接受该站点的 Cookie 仍然不能解决此问题，那么可能是由于该站点的服务器配置问题而不是您计算机的问题。</li></ul>">
 
-<!ENTITY unknownSocketType.title "Incorrect Response">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.title "不正确的响应">
+<!ENTITY unknownSocketType.longDesc "<p>该站点响应网络请求的方式与预期不符，因此浏览器无法继续。</p>">
 
-<!ENTITY nssFailure2.title "Secure Connection Failed">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY nssFailure2.title "安全连接失败">
+<!ENTITY nssFailure2.longDesc2 "<p>无法显示您尝试查看的页面，因为无法验证所收到数据的真实性。</p><ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
 
-<!ENTITY nssBadCert.title "Secure Connection Failed">
+<!ENTITY nssBadCert.title "安全连接失败">
 <!ENTITY nssBadCert.longDesc2 "<ul>
-<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
-<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
+<li>这可能是服务器配置的问题，或者有人尝试冒充该服务器所致。</li>
+<li>如果您之前曾成功连接该服务器，那么此错误可能是暂时的，您可以稍后再试。</li>
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Suspected Attack Site!">
+<!ENTITY malwareBlocked.title "可疑的攻击站点！">
 <!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+<p>攻击网站可能尝试安装程序以窃取私密信息，使用您的电脑来攻击其他电脑，或损坏您的系统。</p>
+<p>网站所有者如果认为他们的网站被误认为攻击网站，可以尝试<a href='https://www.stopbadware.org/request-review' >请求审查</a>.</p>
 ">
 
-<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
+<!ENTITY phishingBlocked.title "可疑的钓鱼网站！">
 <!ENTITY phishingBlocked.longDesc "
-<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
-<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
+<p>在本页面输入个人信息可能会导致账号被盗或其他危险。</p><p>这类钓鱼网站常含有被称为“钓鱼攻击”的诈骗行为，这些伪装的网页或邮件地址可能用来假冒成您信任的源地址以实施诈骗。</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "依照内容安全策略而拦截">
+<!ENTITY cspBlocked.longDesc "<p>浏览器阻止了这个页面的载入，因为该页面含有安全政策不允许的内容。</p>">
 
-<!ENTITY corruptedContentError.title "Corrupted Content Error">
-<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentError.title "内容损坏错误">
+<!ENTITY corruptedContentError.longDesc "<p>您尝试查看的页面无法显示，因为检测到传输的数据含有错误。</p><ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.title "远程 XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>请联系此网站的管理员并告知此问题。</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

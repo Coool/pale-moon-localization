@@ -1,0 +1,68 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Values for changepassword.xul -->
+<!ENTITY setPassword.title  "Промяна на главна парола">
+<!ENTITY setPassword.tokenName.label "Устройство за защита">
+<!ENTITY setPassword.oldPassword.label "Текуща парола:">
+<!ENTITY setPassword.newPassword.label "Въведете нова парола:">
+<!ENTITY setPassword.reenterPassword.label "Потвърдете новата парола:">
+<!ENTITY setPassword.meter.label "Сила на паролата">
+
+<!-- Values for resetpassword.xul -->
+<!ENTITY resetPasswordButtonLabel "Нулиране">
+<!ENTITY resetPassword.title  "Нулиране на главната парола">
+<!ENTITY resetPassword.text  "Ако нулирате главната парола, всичките съхранени пароли за сайтове и електронна поща, текстови форми, лични сертификати и персонални ключове ще бъдат загубени. Сигурни ли сте, че искате да нулирате главната парола?">
+
+<!-- Values for getpassword.xul -->
+<!ENTITY getPassword.title  "Въведете главна парола">
+<!ENTITY getPassword.tokenName2.label "Устройство за защита:">
+<!ENTITY getPassword.password.label "Парола:">
+
+<!-- Downloading a cert -->
+<!ENTITY downloadCert.title "Сваляне на сертификата">
+<!ENTITY downloadCert.message1 "Постъпи заявка за доверяване към нов сертификатен удостоверител (СА).">
+<!ENTITY downloadCert.trustSSL "При идентификацията на уеб сайтове се доверявай на този СА.">
+<!ENTITY downloadCert.trustEmail "При идентификация на потребители на електронна поща се довери на този СА.">
+<!ENTITY downloadCert.trustObjSign "При идентификация на разработчици на софтуер се довери на този СА.">
+<!ENTITY downloadCert.message3 "Преди да се доверите на този СА, трябва да проверите неговия сертификат, политики и процедури (ако е възможно)">
+<!ENTITY downloadCert.viewCert.label "Преглед">
+<!ENTITY downloadCert.viewCert.text "Провери сертификат на CA">
+
+<!-- Strings for the SSL client auth ask dialog -->
+<!ENTITY clientAuthAsk.title "Заявка за идентификация на потребител">
+<!ENTITY clientAuthAsk.message1 "Този сайт изисква от Вас да се идентифицирате със сертификат:">
+<!ENTITY clientAuthAsk.message2 "Изберете сертификат за идентификация:">
+<!ENTITY clientAuthAsk.message3 "Информация за избрания сертификат:">
+
+<!-- Strings for the cert picker dialog -->
+<!ENTITY certPicker.title "Избор на сертификат">
+<!ENTITY certPicker.info  "Сертификат:">
+<!ENTITY certPicker.detailsLabel "Информация за избрания сертификат:">
+
+<!ENTITY pkcs12.setpassword.title  "Избор на парола за резервно копие на сертификат">
+<!ENTITY pkcs12.setpassword.message  "Паролата за резервно копие на сертификат, която въвеждате тук, защитава резервния файл, който ще създадете. Трябва да зададете парола, за да продължите процеса по създаване на резервно копие на сертификата.">
+<!ENTITY pkcs12.setpassword.label1 "Парола за резервното копие:">
+<!ENTITY pkcs12.setpassword.label2 "Парола за резервното копие (повторно):">
+<!ENTITY pkcs12.setpassword.reminder "Внимание: Ако забравите Вашата парола за резервното копие на сертификата, няма да можете да възстановите от това резервно копие по-късно. Моля, запишете я на сигурно място.">
+
+<!ENTITY chooseToken.title  "Избор на токен">
+<!ENTITY chooseToken.message1 "Моля, изберете токен.">
+
+<!ENTITY escrowWarn.title "Копиране на криптиращия ключ">
+<!ENTITY escrowWarn.message1 "Внимание: Сертификатният удостоверител е поискал да направи резервно копие на вашия личен криптиращ ключ.">
+<!ENTITY escrowWarn.benefit1 "Преимуществото на това е, че ако загубите достъпа до Вашия личен криптиращ ключ, можете да поискате копие от този сертификатен удостоверител.">
+<!ENTITY escrowWarn.message2 "Имайте предвид обаче, че Вашият личен криптиращ ключ ще бъде съхранен от сертификатора и може да бъде използван за четене на Вашите криптирани писма или документи, без Ваше позволение.">
+<!ENTITY examineCert.label "Преглед на сертификата">
+<!ENTITY examineCert.accesskey "П">
+
+<!-- Strings for the CreateCertInfo dialog  -->
+<!ENTITY createCertInfo.title "Генериране на частен ключ">
+<!ENTITY createCertInfo.msg1 "В момента се генерира ключ. Това може да отнеме няколко минути…">
+<!ENTITY createCertInfo.msg2 "Моля, изчакайте…">
+
+<!-- Strings for protectedAuth dialog -->
+<!ENTITY protectedAuth.title "Удостоверение на защитен токен">
+<!ENTITY protectedAuth.msg "Моля, удостоверете токена. Методът за удостоверяване зависи от типа на Вашия токен.">
+<!ENTITY protectedAuth.tokenName.label "Токен:">

@@ -77,7 +77,7 @@ can reach it easily. -->
 <!ENTITY addonBarCmd.label "Barre des modules">
 <!ENTITY addonBarCmd.accesskey "d">
 <!ENTITY statusBar.label               "Barre de Statut">
-<!ENTITY statusBar.accesskey           "S">
+<!ENTITY statusBar.accesskey           "é">
 
 <!ENTITY pageSourceCmd.label "Code source de la page">
 <!ENTITY pageSourceCmd.accesskey "C">
@@ -124,8 +124,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "S'abonner à cette page…">
 <!ENTITY addCurPagesCmd.label "Marquer tous les onglets…">
 <!ENTITY showAllBookmarks2.label "Afficher tous les marque-pages">
-<!ENTITY organizeBookmarks.label "Organiser les Favoris">
-<!ENTITY unsortedBookmarksCmd.label "Marque-pages non classés">
+<!ENTITY organizeBookmarks.label "Organiser les marque-pages">
+<!ENTITY unsortedBookmarksCmd.label "Marque-pages non triés">
 <!ENTITY bookmarksToolbarChevron.tooltip "Afficher plus de marque-pages">
 
 <!ENTITY backCmd.label                "Page précédente">
@@ -163,19 +163,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksButton.label          "Marque-pages">
 <!ENTITY bookmarksButton.tooltip        "Afficher le panneau des marque-pages">
-<!ENTITY bookmarksCmd.commandkey "b">
+<!ENTITY bookmarksCmd.commandkey "p">
 
 <!ENTITY bookmarksMenuButton.label          "Marque-pages">
 <!ENTITY bookmarksMenuButton.tooltip        "Afficher les marque-pages">
 <!ENTITY bookmarksMenuButton.unsorted.label "Marque-pages non triés">
-<!ENTITY viewBookmarksSidebar.label         "Afficher le panneau des marque-pages">
+<!ENTITY viewBookmarksSidebar.label         "Afficher dans le panneau latéral">
 <!ENTITY viewBookmarksToolbar.label         "Afficher la barre personnelle">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
-<!ENTITY bookmarksGtkCmd.commandkey "o">
-<!ENTITY bookmarksWinCmd.commandkey "i">
+<!ENTITY bookmarksGtkCmd.commandkey "a">
+<!ENTITY bookmarksWinCmd.commandkey "r">
 
 <!ENTITY historyButton.label            "Historique">
 <!ENTITY historyButton.tooltip          "Afficher les pages visitées récemment">
@@ -328,7 +328,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuToolbarLayout.label "Personnaliser les barres d'outils…">
 <!ENTITY appMenuSidebars.label "Panneau latéral">
 <!ENTITY appMenuFind.label "Rechercher dans la page…">
-<!ENTITY appMenuUnsorted.label "Marque-pages non classés">
+<!ENTITY appMenuUnsorted.label "Marque-pages non triés">
 <!ENTITY appMenuWebDeveloper.label "Développeur Web">
 <!ENTITY appMenuGettingStarted.label "Pour commencer">
 <!ENTITY appMenuSafeMode.label "Redémarrer avec les modules désactivés…">
@@ -415,7 +415,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "c">
 <!ENTITY savePageCmd.label            "Enregistrer sous…">
 <!ENTITY savePageCmd.accesskey        "E">
-<!ENTITY sendLinkCmd.label            "Envoyer un Lien…">
+<!ENTITY sendLinkCmd.label            "Envoyer un lien…">
 <!ENTITY sendLinkCmd.accesskey        "d">
 <!ENTITY sendPageCmd.label            "Envoyer le lien de page…">
 <!ENTITY sendPageCmd.accesskey        "e">

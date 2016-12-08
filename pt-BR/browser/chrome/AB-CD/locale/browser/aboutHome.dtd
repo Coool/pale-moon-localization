@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;
+
+<!-- These strings are used in the about:home page -->
+
+<!ENTITY abouthome.pageTitle "Página inicial do &brandFullName;">
+
+<!ENTITY abouthome.searchEngineButton.label "Pesquisar">
+
+<!ENTITY abouthome.bookmarksButton.label "Favoritos">
+<!ENTITY abouthome.historyButton.label   "Histórico">
+<!ENTITY abouthome.settingsButton.label  "Opções">
+<!ENTITY abouthome.addonsButton.label    "Complementos">
+<!ENTITY abouthome.appsButton.label      "Mercado">
+<!ENTITY abouthome.downloadsButton.label "Downloads">
+<!ENTITY abouthome.syncButton.label      "&syncBrand.shortName.label;">

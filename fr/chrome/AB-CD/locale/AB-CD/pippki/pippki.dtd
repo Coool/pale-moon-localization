@@ -3,17 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Values for changepassword.xul -->
-<!ENTITY setPassword.title  "Définir le mot de passe principal">
+<!ENTITY setPassword.title  "Modifier le mot de passe principal">
 <!ENTITY setPassword.tokenName.label "Périphérique de sécurité">
-<!ENTITY setPassword.oldPassword.label "Ancien mot de passe">
-<!ENTITY setPassword.newPassword.label "Saisissez le nouveau mot de passe">
-<!ENTITY setPassword.reenterPassword.label "Saisissez-le à nouveau">
-<!ENTITY setPassword.meter.label "Mesure de la qualité du mot de passe :">
+<!ENTITY setPassword.oldPassword.label "Mot de passe actuel :">
+<!ENTITY setPassword.newPassword.label "Saisir le nouveau mot de passe :">
+<!ENTITY setPassword.reenterPassword.label "Confirmer le mot de passe :">
+<!ENTITY setPassword.meter.label "Mesure de la force du mot de passe">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Effacer">
 <!ENTITY resetPassword.title  "Effacer le mot de passe principal">
-<!ENTITY resetPassword.text  "Si vous effacez votre mot de passe principal, tous vos mots de passe web et courrier, vos données de formulaires, vos certificats personnels et vos clés privées seront oubliés. Voulez-vous vraiment supprimer le mot de passe principal ?">
+<!ENTITY resetPassword.text  "Si le mot de passe principal est effacé, tous les mots de passe Web et de courriels, les données de formulaires, les certificats personnels et les clés privées seront oubliés.
+Faut-il vraiment supprimer le mot de passe principal ?">
 
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "Saisie du mot de passe principal">
@@ -22,7 +23,7 @@
 
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Téléchargement du certificat">
-<!ENTITY downloadCert.message1 "On vous a demandé de confirmer une nouvelle autorité de certification (AC).">
+<!ENTITY downloadCert.message1 "Une demande de confirmer une nouvelle autorité de certification (AC) a été émise.">
 <!ENTITY downloadCert.trustSSL "Confirmer cette AC pour identifier des sites web.">
 <!ENTITY downloadCert.trustEmail "Confirmer cette AC pour identifier les utilisateurs de courrier.">
 <!ENTITY downloadCert.trustObjSign "Confirmer cette AC pour identifier les développeurs de logiciels.">
@@ -51,9 +52,9 @@
 <!ENTITY chooseToken.message1 "Veuillez choisir un jeton.">
 
 <!ENTITY escrowWarn.title "Copie de la clé de chiffrement">
-<!ENTITY escrowWarn.message1 "Important : cette autorité de certificat a demandé à faire une sauvegarde de votre clé privée de chiffrement.">
-<!ENTITY escrowWarn.benefit1 "L'intérêt est que si vous perdez l'accès à votre clé de chiffrement privée, vous pourrez en demander une copie à cette autorité de certificat.">
-<!ENTITY escrowWarn.message2 "Cependant, votre clé de chiffrement privée sera stockée par l'autorité de certificat, et pourra être utilisée pour lire le courrier ou des documents chiffrés sans votre permission.">
+<!ENTITY escrowWarn.message1 "Important : cette Autorité de Certification a demandé à faire une sauvegarde de la clé privée de chiffrement.">
+<!ENTITY escrowWarn.benefit1 "L'intérêt est que en cas de perte de l'accès à la clé de chiffrement privée, il sera possible d'en demander une copie à cette autorité de certificat.">
+<!ENTITY escrowWarn.message2 "Cependant, le clé de chiffrement privée sera stockée par l'autorité de certificat, et pourra être utilisée pour lire le courriel ou des documents chiffrés sans permission.">
 <!ENTITY examineCert.label "Voir le certificat">
 <!ENTITY examineCert.accesskey "V">
 

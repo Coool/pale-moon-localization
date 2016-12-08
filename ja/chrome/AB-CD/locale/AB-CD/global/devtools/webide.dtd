@@ -118,18 +118,18 @@
 <!ENTITY prefs_restore "デフォルトに戻す">
 <!ENTITY prefs_manage_components "エクストラコンポーネントの管理">
 <!ENTITY prefs_options_autoconnectruntime "以前のランタイムへ再接続">
-<!ENTITY prefs_options_autoconnectruntime_tooltip "Reconnect to previous runtime when WebIDE starts">
+<!ENTITY prefs_options_autoconnectruntime_tooltip "WebIDE が開始したら以前のランタイムへ再接続">
 <!ENTITY prefs_options_rememberlastproject "最後のプロジェクトの銘記">
-<!ENTITY prefs_options_rememberlastproject_tooltip "Restore previous project when WebIDE starts">
+<!ENTITY prefs_options_rememberlastproject_tooltip "WebIDE が開始したら以前のプロジェクトを復元">
 <!ENTITY prefs_options_templatesurl "テンプレート URL">
-<!ENTITY prefs_options_templatesurl_tooltip "Index of available templates">
+<!ENTITY prefs_options_templatesurl_tooltip "使用可能なテンプレートのインデックス">
 <!ENTITY prefs_options_showeditor "エディターを表示">
-<!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
+<!ENTITY prefs_options_showeditor_tooltip "内部エディターを表示">
 <!ENTITY prefs_options_tabsize "タブのサイズ">
 <!ENTITY prefs_options_expandtab "ソフトタブ">
 <!ENTITY prefs_options_expandtab_tooltip "タブの代わりにスペースを使用">
 <!ENTITY prefs_options_detectindentation "自動インデント">
-<!ENTITY prefs_options_detectindentation_tooltip "Guess indentation based on source content">
+<!ENTITY prefs_options_detectindentation_tooltip "ソースのコンテンツに基づいてインデントを推測">
 <!ENTITY prefs_options_autocomplete "オートコンプリート">
 <!ENTITY prefs_options_autocomplete_tooltip "コード自動補完の有効">
 <!ENTITY prefs_options_autoclosebrackets "Autoclose ブラケット">
@@ -182,7 +182,7 @@
 <!ENTITY wifi_auth_header "クライアントの識別">
 <!-- LOCALIZATION NOTE (wifi_auth_scan_request): Instructions requesting the
      user to transfer authentication info by scanning a QR code. -->
-<!ENTITY wifi_auth_scan_request "エンドポイントに接続するには、この接続を認証するための詳細が必要があります。 他端末のプロンプトで次の QR コードをスキャンしてください。">
+<!ENTITY wifi_auth_scan_request "エンドポイントに接続するには、この接続を認証するための詳細が必要があります。 他デバイスのプロンプトで次の QR コードをスキャンしてください。">
 <!-- LOCALIZATION NOTE (wifi_auth_no_scanner): Link text to assist users with
      devices that can't scan a QR code. -->
 <!ENTITY wifi_auth_no_scanner "QR スキャナプロンプトを止めますか？">
@@ -191,7 +191,7 @@
 <!ENTITY wifi_auth_yes_scanner "QR スキャナープロンプトを表示しますか？">
 <!-- LOCALIZATION NOTE (wifi_auth_token_request): Instructions requesting the
      user to transfer authentication info by transferring a token. -->
-<!ENTITY wifi_auth_token_request "他の端末は QR コードスキャンの代わりにトークンを要求しています。下の値を他のデバイスにコピーしてください。">
+<!ENTITY wifi_auth_token_request "他のデバイスは QR コードスキャンの代わりにトークンを要求しています。下の値を他のデバイスにコピーしてください。">
 
 <!-- Logs panel -->
 <!ENTITY logs_title "プリパッケージコマンドログ">

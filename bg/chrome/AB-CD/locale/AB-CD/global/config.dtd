@@ -1,0 +1,49 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY window.title "about:config">
+
+<!-- about:config warning page -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "Тук има дракони!">
+<!ENTITY aboutWarningText.label "Промяната на тези настройки може да доведе до (сериозни) проблеми със стабилността, сигурността и бързодействието на това приложение. Продължете, само ако знаете какво правите.">
+<!ENTITY aboutWarningButton.label "Обещавам да бъда внимателен!">
+<!ENTITY aboutWarningCheckbox.label "Показвай това предупреждение следващия път">
+
+<!ENTITY searchPrefs.label "Търсене:">
+<!ENTITY searchPrefs.accesskey "r">
+<!ENTITY focusSearch.key "r">
+
+<!-- Columns -->
+<!ENTITY prefColumn.label "Име на настройката">
+<!ENTITY lockColumn.label "Статус">
+<!ENTITY typeColumn.label "Тип">
+<!ENTITY valueColumn.label "Стойност">
+
+<!-- Tooltips -->
+<!ENTITY prefColumnHeader.tooltip "Натиснете за подреждане"> 
+<!ENTITY columnChooser.tooltip "Натиснете за избор на колони, които да бъдат показани"> 
+
+<!-- Context Menu -->
+<!ENTITY copyPref.key "C">
+<!ENTITY copyPref.label "Копирай">
+<!ENTITY copyPref.accesskey "К">
+<!ENTITY copyName.label "Копирай името">
+<!ENTITY copyName.accesskey "м">
+<!ENTITY copyValue.label "Копирай стойността">
+<!ENTITY copyValue.accesskey "с">
+<!ENTITY modify.label "Редактирай">
+<!ENTITY modify.accesskey "Р">
+<!ENTITY toggle.label "Превключи">
+<!ENTITY toggle.accesskey "в">
+<!ENTITY reset.label "Върни по подразбиране">
+<!ENTITY reset.accesskey "В">
+<!ENTITY new.label "Нов">
+<!ENTITY new.accesskey "в">
+<!ENTITY string.label "Ред">
+<!ENTITY string.accesskey "д">
+<!ENTITY integer.label "Цяло число">
+<!ENTITY integer.accesskey "Ц">
+<!ENTITY boolean.label "Булева">
+<!ENTITY boolean.accesskey "Б">

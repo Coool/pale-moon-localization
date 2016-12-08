@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+    %brandDTD;
+
+<!-- These strings are used in the sync progress upload page -->
+<!ENTITY syncProgress.pageTitle    "Вашата първа синхронизация">
+<!ENTITY syncProgress.textBlurb    "Вашите данни сега се криптират във фонов режим. Можете да затворите таба и да продължите да използвате &brandShortName;.">
+<!ENTITY syncProgress.closeButton  "Затвори">
+<!ENTITY syncProgress.logoAltText  "Лого &brandShortName;">
+<!ENTITY syncProgress.diffText     "&brandShortName; сега ще започне автоматично синхронизиране във фонов режим. Можете да затворите този таб и да продължите да използвате &brandShortName;.">
+

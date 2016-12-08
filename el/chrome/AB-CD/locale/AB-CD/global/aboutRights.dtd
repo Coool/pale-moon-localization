@@ -1,0 +1,90 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
+<!ENTITY rights.locale-direction "ltr">
+<!ENTITY rights.pagetitle       "about:rights">
+<!ENTITY rights.intro-header    "Πληροφορίες για τα δικαιώματά σας">
+<!ENTITY rights.intro "Ο &brandFullName; είναι ελεύθερο λογισμικό ανοικτού κώδικα που δημιουργείται από μια κοινότητα χιλιάδων ατόμων από όλο τον κόσμο. Υπάρχουν μερικά πράγματα που πρέπει να γνωρίζετε:">
+
+<!-- Note on pointa / pointb / pointc form:
+     These points each have an embedded link in the HTML, so each point is
+     split into chunks for text before the link, the link text, and the text
+     after the link. If a localized grammar doesn't need the before or after
+     chunk, it can be left blank.
+
+     Also note the leading/trailing whitespace in strings here, which is
+     deliberate for formatting around the embedded links. -->
+<!ENTITY rights.intro-point1a "Ο &brandShortName; είναι διαθέσιμος σε σας υπό τους όρους της ">
+<!ENTITY rights.intro-point1b "Mozilla Public License">
+<!ENTITY rights.intro-point1c ". This means you may use, copy and distribute &brandShortName; to others in its source form. Binaries are subject to the Pale Moon redistribution license found on the Pale Moon website. You are also welcome to modify the source code of &brandShortName; as you want to meet your needs. The Mozilla Public License also gives you the right to distribute your modified versions.">
+
+<!ENTITY rights.intro-point2-a "You are, however, not granted any rights or licenses to the intellectual property of Moonchild Productions or any other party, including without limitation the Pale Moon name or logo. Additional information on trademarks may be found ">
+<!ENTITY rights.intro-point2-b "εδώ">
+<!ENTITY rights.intro-point2-c ".">
+
+<!-- point 2.5 text for official branded builds -->
+<!ENTITY rights.intro-point2.5 "Some features in &brandShortName; may give you the option to provide feedback to &vendorShortName;. By choosing to submit feedback, you give &vendorShortName; permission to use the feedback to improve its products, to publish the feedback on its websites, and to distribute the feedback.">
+
+<!-- point 3 text for official branded builds -->
+<!ENTITY rights2.intro-point3a "Ο τρόπος χρήσης των προσωπικών σας πληροφοριών και των σχολίων που υποβάλετε στην &vendorShortName; μέσω του &brandShortName; περιγράφεται στην  ">
+<!ENTITY rights2.intro-point3b "Πολιτική Απορρήτου του &brandShortName;">
+<!ENTITY rights.intro-point3c ".">
+
+<!-- point 3 text for unbranded builds -->
+<!ENTITY rights.intro-point3-unbranded "Οποιεσδήποτε σχετικές πολιτικές προστασίας απορρήτου θα πρέπει να αναφερθούν εδώ.">
+
+<!-- point 4 text for official branded builds -->
+<!ENTITY rights2.intro-point4a "Μερικές από τις λειτουργίες του &brandShortName; χρησιμοποιούν διαδικτυακές πληροφοριακές υπηρεσίες, για τις οποίες όμως δεν μπορούμε να εγγυηθούμε ότι είναι 100&#37; ακριβείς ή χωρίς σφάλματα. Περισσότερες πληροφορίες, μαζί με πληροφορίες για την απενεργοποίηση αυτών των υπηρεσιών 
+μπορείτε να βρείτε στους ">
+<!ENTITY rights.intro-point4b "όρους χρήσης">
+<!ENTITY rights.intro-point4c ".">
+
+<!-- point 4 text for unbranded builds -->
+<!ENTITY rights.intro-point4a-unbranded "Αν αυτό το προϊόν περιέχει ενσωματωμένες υπηρεσίες, όλοι οι όροι αυτών των υπηρεσιών θα πρέπει να 
+οδηγούν στην ενότητα">
+<!ENTITY rights.intro-point4b-unbranded "Υπηρεσίες ιστοσελίδων">
+<!ENTITY rights.intro-point4c-unbranded " .">
+
+<!ENTITY rights2.webservices-header "Διαδικτυακές πληροφοριακές υπηρεσίες του &brandFullName;">
+
+<!-- Note that this paragraph references a couple of entities from
+     preferences/security.dtd, so that we can refer to text the user sees in
+     the UI, without this page being forgotten every time those strings are
+     updated.  -->
+<!-- intro paragraph for branded builds -->
+<!ENTITY rights2.webservices-a "Ο &brandFullName; χρησιμοποιεί διαδικτυακές πληροφοριακές υπηρεσίες (&quot;Υπηρεσίες&quot;) για την παροχή μερικών λειτουργιών της εφαρμογής του &brandShortName; υπό τους κάτωθι όρους. Αν δεν επιθυμείτε τη χρήση των Υπηρεσιών ή δεν συμφωνείτε με τους όρους που αναφέρονται παρακάτω, μπορείτε να απενεργοποιήσετε την λειτουργία ή την υπηρεσία. Οι οδηγίες για την απενεργοποίηση κάποιας λειτουργίας ή υπηρεσίας, βρίσκονται ">
+<!ENTITY rights2.webservices-b "εδώ">
+<!ENTITY rights3.webservices-c ". Άλλες λειτουργίες και υπηρεσίες μπορούν να απενεργοποιηθούν μέσω των προτιμήσεων της εφαρμογής.">
+
+<!-- safe browsing points for branded builds -->
+<!ENTITY rights.safebrowsing-a "Ασφαλής περιήγηση: ">
+<!ENTITY rights.safebrowsing-b "Η απενεργοποίηση της ασφαλούς περιήγησης δεν προτείνεται μιας και μπορεί να σας οδηγήσει σε επικίνδυνες ιστοσελίδες.  Αν επιθυμείτε να απενεργοποιήσετε πλήρως αυτή τη λειτουργία, ακολουθήστε τα παρακάτω βήματα:">
+<!ENTITY rights.safebrowsing-term1 "Ανοίξτε τις προτιμήσεις της εφαρμογής">
+<!ENTITY rights.safebrowsing-term2 "Επιλέξτε την καρτέλα Ασφάλεια">
+<!ENTITY rights.safebrowsing-term3 "Αποεπιλέξτε τις επιλογές &quot;&blockAttackSites.label;&quot; και &quot;&blockWebForgeries.label;&quot;">
+<!ENTITY rights.safebrowsing-term4 "Η ασφαλής περιήγηση θα απενεργοποιηθεί">
+
+<!-- location aware browsing points for branded builds -->
+<!ENTITY rights.locationawarebrowsing-a "Η Περιήγηση με δήλωση τοποθεσίας: ">
+<!ENTITY rights.locationawarebrowsing-b "γίνεται πάντα με ερώτηση για τη σύμφωνη γνώμη σας. Δεν παρέχονται πληροφορίες τοποθεσίας χωρίς την άδεια σας.  Αν επιθυμείτε να απενεργοποιήσετε πλήρως αυτή τη λειτουργία, ακολουθήστε τα παρακάτω βήματα:">
+<!ENTITY rights.locationawarebrowsing-term1a "Στη γραμμή διευθύνσεων, πληκτρολογήστε ">
+<!ENTITY rights.locationawarebrowsing-term1b "about:config">
+<!ENTITY rights.locationawarebrowsing-term2 "Πληκτρολογήστε geo.enabled">
+<!ENTITY rights.locationawarebrowsing-term3 "Κάντε διπλό κλικ στην προτίμηση geo.enabled">
+<!ENTITY rights.locationawarebrowsing-term4 "Η Περιήγηση με δήλωση τοποθεσίας θα απενεργοποιηθεί">
+
+<!-- intro paragraph for unbranded builds -->
+<!ENTITY rights.webservices-unbranded "Μια επισκόπηση των υπηρεσιών ιστοσελίδων που ενσωματώνει το προϊόν, μαζί με οδηγίες για την απενεργοποίησή τους, θα πρέπει να βρίσκονται εδώ.">
+
+<!-- point 1 text for unbranded builds -->
+<!ENTITY rights.webservices-term1-unbranded "Any applicable service terms for this product should be listed here.">
+
+<!-- points 1-7 text for branded builds -->
+<!ENTITY rights2.webservices-term1 "Η &vendorShortName; οι συντελεστές, οι δικαιοπάροχοι και οι συνεργάτες της εργάζονται για να παρέχουν τις πιο ακριβείς και ενημερωμένες υπηρεσίες. Παρ'όλα αυτά δεν είναι δυνατό να σας εγγυηθούμε ότι αυτές οι πληροφορίες είναι κατανοητές και χωρίς σφάλματα. Για παράδειγμα, μπορεί να μην εντοπισθούν κάποιες από τις ύποπτες σελίδες και μπορεί μερικές από τις ασφαλείς σελίδες να αναγνωρισθούν ως ύποπτες, ενώ η υπηρεσία περιήγησης με δήλωση τοποθεσίας μπορεί να μην είναι ακριβής.">
+<!ENTITY rights.webservices-term2 "Η &vendorShortName; διατηρεί το δικαίωμα να διακόψει ή να αλλάξει τις Υπηρεσίες κατά βούληση.">
+<!ENTITY rights2.webservices-term3 "Είστε ευπρόσδεκτοι να χρησιμοποιείτε αυτές τις Υπηρεσίες μαζί με την συνοδευόμενη έκδοση του &brandShortName; και της &vendorShortName; και έχετε όλα τα απαραίτητα δικαιώματα να το κάνετε. Η &vendorShortName; και οι δικαιοπάροχοί του διατηρούν όλα τα άλλα δικαιώματα στις Υπηρεσίες.  Αυτοί οι όροι δεν σκοπεύουν στο να περιορίσουν οποιαδήποτε δικαιώματα που προέρχονται από τις άδειες ανοικτού λογισμικού που συνοδεύουν τον &brandShortName; και τις αντίστοιχες εκδόσεις πηγαίου κώδικα του &brandShortName;.">
+<!ENTITY rights.webservices-term4 "Οι Υπηρεσίες παρέχονται &quot;ως έχουν&quot;. Η &vendorShortName;, οι συντελεστές, οι δικαιοπάροχοι και οι διανομείς του παρέχουν τις υπηρεσίες χωρίς οποιουδήποτε είδους εγγύηση, είτε ρητή είτε σιωπηρή, συμπεριλαμβανομένης ενδεικτικά και όχι περιοριστικά της σιωπηρής εγγύησης εμπορευσιμότητας και καταλληλότητας των Υπηρεσιών για συγκεκριμένη χρήση. Ο κίνδυνος ως προς την επιλογή των Υπηρεσιών για τους δικούς σας λόγους, καθώς και ως προς την ποιότητα και επίδοσή τους, βαρύνει εξ ολοκλήρου εσάς. Μερικές νομοθεσίες δεν επιτρέπουν την εξαίρεση ή τον περιορισμό των σιωπηρών εγγυήσεων και έτσι αυτή η παράγραφος αποποίησης μπορεί να μην ισχύει για εσάς.">
+<!ENTITY rights.webservices-term5 "Σε καμμία περίπτωση, εκτός εάν απαιτείται από την κείμενη νομοθεσία, Ο &vendorShortName;, οι συντελεστές, οι δικαιοπάροχοι και οι διανομείς του δεν είναι υπεύθυνοι απέναντί σας για ζημίες, συμπεριλαμβανομένων όλων των γενικών, ειδικών, τυχαίων, συνεπακόλουθων, τιμωρητικών ή παραδειγματικών ζημιών που μπορεί να προκύψουν από τη χρήση ή την αδυναμία χρήσης του &brandShortName; και των Υπηρεσιών ή που μπορεί να σχετίζονται με κάθε τρόπο με αυτές.  Η συλλογική υπαιτιότητα υπό αυτούς τους όρους δεν μπορεί να υπερβαίνει τα $500 (πεντακόσια δολλάρια). Μερικές νομοθεσίες δεν επιτρέπουν την εξαίρεση ή τον περιορισμό κάποιων ζημιών και έτσι αυτή η εξαίρεση ή ο περιορισμός μπορεί να μην ισχύει για εσάς.">
+<!ENTITY rights.webservices-term6 "Η &vendorShortName; μπορεί να ενημερώνει περιοδικά αυτούς τους όρους αν κριθεί απαραίτητο. Δεν είναι δυνατή η τροποποίηση ή η ακύρωση αυτών των όρων χωρίς την έγγραφη συναίνεση της &vendorShortName;.">
+<!ENTITY rights.webservices-term7 "These terms are governed by the laws of Sweden, excluding its conflict of law provisions. If any portion of these terms is held to be invalid or unenforceable, the remaining portions will remain in full force and effect. In the event of a conflict between a translated version of these terms and the English language version, the English language version shall control.">

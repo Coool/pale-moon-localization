@@ -1,0 +1,658 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
+
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
+<!ENTITY mainWindow.title "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+<!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
+                                                                inside the private browsing mode -->
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Поверително сърфиране)">
+
+<!-- Tab context menu -->
+<!ENTITY  reloadTab.label                    "Презареди таба">
+<!ENTITY  reloadTab.accesskey                "П">
+<!ENTITY  reloadAllTabs.label                "Презареди всички табове">
+<!ENTITY  reloadAllTabs.accesskey            "П">
+<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
+direction in which tabs are closed, i.e. locales that use RTL mode should say
+left instead of right. -->
+<!ENTITY  closeTabsToTheEnd.label            "Затваряне на табовете отдясно">
+<!ENTITY  closeTabsToTheEnd.accesskey        "З">
+<!ENTITY  closeOtherTabs.label               "Затвори други табове">
+<!ENTITY  closeOtherTabs.accesskey           "З">
+
+<!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
+used as a metaphor for expressing the fact that these tabs are "pinned" to the
+left edge of the tabstrip. Really we just want the string to express the idea
+that this is a lightweight and reversible action that keeps your tab where you
+can reach it easily. -->
+<!ENTITY  pinTab.label                       "Закрепете таба">
+<!ENTITY  pinTab.accesskey                   "к">
+<!ENTITY  unpinTab.label                     "Откачете таба">
+<!ENTITY  unpinTab.accesskey                 "О">
+<!ENTITY  moveToNewWindow.label              "Премести в нов прозорец">
+<!ENTITY  moveToNewWindow.accesskey          "н">
+<!ENTITY  bookmarkAllTabs.label              "Добави всички табове в отметките…">
+<!ENTITY  bookmarkAllTabs.accesskey          "Д">
+<!ENTITY  undoCloseTab.label                 "Възстанови затворения таб">
+<!ENTITY  undoCloseTab.accesskey             "В">
+<!ENTITY  closeTab.label                     "Затвори таба">
+<!ENTITY  closeTab.accesskey                 "З">
+
+<!ENTITY  listAllTabs.label      "Списък с всички табове">
+
+<!ENTITY tabCmd.label "Нов таб">
+<!ENTITY tabCmd.accesskey "т">
+<!ENTITY tabCmd.commandkey "t">
+<!ENTITY openLocationCmd.label "Отвори адрес…">
+<!ENTITY openLocationCmd.accesskey "а">
+<!ENTITY openFileCmd.label "Отвори файл…">
+<!ENTITY openFileCmd.accesskey "ф">
+<!ENTITY openFileCmd.commandkey "o">
+<!ENTITY printSetupCmd.label "Настройка на страницата…">
+<!ENTITY printSetupCmd.accesskey "Н">
+<!ENTITY printPreviewCmd.label "Предварителен преглед принтиране">
+<!ENTITY printPreviewCmd.accesskey "п">
+<!ENTITY printCmd.label "Принтиране…">
+<!ENTITY printCmd.accesskey "П">
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY goOfflineCmd.label "Офлайн режим">
+<!ENTITY goOfflineCmd.accesskey "О">
+
+<!ENTITY menubarCmd.label "Лента меню">
+<!ENTITY menubarCmd.accesskey "Л">
+<!ENTITY navbarCmd.label "Панел за навигация">
+<!ENTITY navbarCmd.accesskey "н">
+<!ENTITY personalbarCmd.label "Панел за отметки">
+<!ENTITY personalbarCmd.accesskey "б">
+<!ENTITY bookmarksToolbarItem.label "Елементи на панела за отметки">
+<!ENTITY addonBarCmd.label "Панел за разширения">
+<!ENTITY addonBarCmd.accesskey "р">
+<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.accesskey           "S">
+
+<!ENTITY pageSourceCmd.label "Изходен код на страницата">
+<!ENTITY pageSourceCmd.accesskey "к">
+<!ENTITY pageSourceCmd.commandkey "u">
+<!ENTITY pageInfoCmd.label "Информация за страницата">
+<!ENTITY pageInfoCmd.accesskey "И">
+<!ENTITY pageInfoCmd.commandkey "i">
+<!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
+These should match what Safari and other Apple applications use on OS X Lion. -->
+<!ENTITY enterFullScreenCmd.label "Премини в режим пълен екран">
+<!ENTITY enterFullScreenCmd.accesskey "п">
+<!ENTITY exitFullScreenCmd.label "Излез от режим пълен екран">
+<!ENTITY exitFullScreenCmd.accesskey "п">
+<!ENTITY fullScreenCmd.label "Пълен екран">
+<!ENTITY fullScreenCmd.accesskey "П">
+<!ENTITY fullScreenCmd.macCommandKey "f">
+<!ENTITY showAllTabsCmd.label "Покажи всички табове">
+<!ENTITY showAllTabsCmd.accesskey "в">
+
+<!ENTITY fullScreenMinimize.tooltip "Минимизрай">
+<!ENTITY fullScreenRestore.tooltip "Възстанови">
+<!ENTITY fullScreenClose.tooltip "Затвори">
+<!ENTITY fullScreenAutohide.label "Скрий панела с инструменти">
+<!ENTITY fullScreenAutohide.accesskey "С">
+<!ENTITY fullScreenExit.label "Излез от режим пълен екран">
+<!ENTITY fullScreenExit.accesskey "Fп">
+<!ENTITY fullscreenAllowButton.label "Разреши">
+<!ENTITY fullscreenExitButton.label "Забрани">
+<!ENTITY fullscreenApproval.value "Разрешаване на преминаване в пълен екран?">
+
+<!ENTITY fullscreenExitHint.value "Можете да натиснете Esc по всяко време, за да излезете от режим пълен екран.">
+<!ENTITY leaveDOMFullScreen.label "Излез от режим пълен екран">
+<!ENTITY leaveDOMFullScreen.accesskey "п">
+
+<!ENTITY closeWindow.label "Затвори прозореца">
+<!ENTITY closeWindow.accesskey "З">
+
+<!ENTITY bookmarksMenu.label "Отметки">
+<!ENTITY bookmarksMenu.accesskey "О">
+<!ENTITY bookmarkThisPageCmd.label "Добави тази страница">
+<!ENTITY bookmarkThisPageCmd.commandkey "Д">
+<!ENTITY markPageCmd.commandkey "l">
+<!ENTITY subscribeToPageMenupopup.label "Абонирайте се за тази страница">
+<!ENTITY subscribeToPageMenuitem.label "Абонирайте се за тази страница…">
+<!ENTITY addCurPagesCmd.label "Добави всички табове към отметките…">
+<!ENTITY showAllBookmarks2.label "Покажи всички отметки">
+<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY unsortedBookmarksCmd.label "Несортирани отметки">
+<!ENTITY bookmarksToolbarChevron.tooltip "Покажи повече отметки">
+
+<!ENTITY backCmd.label                "Назад">
+<!ENTITY backCmd.accesskey            "з">
+<!ENTITY backButton.tooltip           "Върни се една страница назад">
+<!ENTITY forwardCmd.label             "Напред">
+<!ENTITY forwardCmd.accesskey         "п">
+<!ENTITY forwardButton.tooltip        "Премини една страница напред">
+<!ENTITY backForwardButtonMenu.tooltip "Щракнете с десния бутон или го плъзнете надолу, за да се покаже историята">
+<!ENTITY backForwardButtonMenuMac.tooltip "Плъзнете надолу за показване на историята">
+<!ENTITY reloadCmd.label              "Презареди">
+<!ENTITY reloadCmd.accesskey          "з">
+<!ENTITY reloadButton.tooltip         "Презареди текущата страница">
+<!ENTITY stopCmd.label                "Спри">
+<!ENTITY stopCmd.accesskey            "С">
+<!ENTITY stopCmd.macCommandKey        ".">
+<!ENTITY stopButton.tooltip           "Спри зареждането на тази страница">
+<!ENTITY goEndCap.tooltip             "Отиди на въведения адрес">
+<!ENTITY printButton.label            "Принтиране">
+<!ENTITY printButton.tooltip          "Принтирай тази страница">
+
+<!ENTITY backForwardItem.title        "Назад/Напред">
+<!ENTITY locationItem.title           "Адрес">
+<!ENTITY searchItem.title             "Търсене">
+<!ENTITY throbberItem.title           "Индикатор за активност">
+<!ENTITY bookmarksItem.title          "Отметки">
+
+<!-- Toolbar items --> 
+<!ENTITY appMenuButton.label          "Меню">
+<!ENTITY appMenuButton.tooltip        "Отворете &brandShortName; менюто">
+<!ENTITY homeButton.label             "Домашна страница">
+
+<!ENTITY feedButton.label             "Абонирай се">
+<!ENTITY feedButton.tooltip           "Абонирай се за тази страница…">
+
+<!ENTITY bookmarksButton.label          "Отметки">
+<!ENTITY bookmarksButton.tooltip        "Покажи отметки">
+<!ENTITY bookmarksCmd.commandkey "b">
+
+<!ENTITY bookmarksMenuButton.label          "Отметки">
+<!ENTITY bookmarksMenuButton.tooltip        "Покажи отметки">
+<!ENTITY bookmarksMenuButton.unsorted.label "Несортирани отметки">
+<!ENTITY viewBookmarksSidebar.label         "Покажи в страничния панел">
+<!ENTITY viewBookmarksToolbar.label         "Покажи панела за отметки">
+
+<!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
+  -  key should not contain the letters A-F, since these are reserved
+  -  shortcut keys on Linux. -->
+<!ENTITY bookmarksGtkCmd.commandkey "o">
+<!ENTITY bookmarksWinCmd.commandkey "i">
+
+<!ENTITY historyButton.label            "История">
+<!ENTITY historyButton.tooltip          "Показва списък с наскоро посетени страници">
+<!ENTITY historySidebarCmd.commandKey   "h">
+
+<!ENTITY toolsMenu.label              "Инструменти">
+<!ENTITY toolsMenu.accesskey          "И"> 
+
+<!ENTITY keywordfield.label           "Въведете ключова дума за търсенето…">
+<!ENTITY keywordfield.accesskey       "к">
+<!ENTITY search.label                 "Търсене в Интернет">
+<!ENTITY search.accesskey             "Т">
+<!ENTITY downloads.label              "Сваляния">
+<!ENTITY downloads.tooltip            "Показвай прогреса на текущите сваляния">
+<!ENTITY downloads.accesskey          "с">
+<!ENTITY downloads.commandkey         "j">
+<!ENTITY downloadsUnix.commandkey     "y">
+<!ENTITY addons.label                 "Разширения">
+<!ENTITY addons.accesskey             "а">
+<!ENTITY addons.commandkey            "A">
+
+<!ENTITY webDeveloperMenu.label       "Уеб разработчик">
+<!ENTITY webDeveloperMenu.accesskey   "У">
+
+<!ENTITY devtoolsConnect.label        "Свързване…">
+<!ENTITY devtoolsConnect.accesskey    "з">
+
+<!ENTITY errorConsoleCmd.label        "Конзола за грешки">
+<!ENTITY errorConsoleCmd.accesskey    "К">
+
+<!ENTITY remoteWebConsoleCmd.label    "Отдалечена уеб конзола">
+
+<!ENTITY browserConsoleCmd.label      "Браузърна конзола">
+<!ENTITY browserConsoleCmd.commandkey "к">
+<!ENTITY browserConsoleCmd.accesskey  "о">
+
+<!ENTITY inspectContextMenu.label     "Изследване на елемент">
+<!ENTITY inspectContextMenu.accesskey "И">
+
+<!ENTITY responsiveDesignTool.label   "Адаптивен дизайн">
+<!ENTITY responsiveDesignTool.accesskey "А">
+<!ENTITY responsiveDesignTool.commandkey "M">
+
+<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.accesskey "Y">
+
+<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
+  -  in the Tools menu. See bug 653093.
+  -  The Scratchpad is intended to provide a simple text editor for creating
+  -  and evaluating bits of JavaScript code for the purposes of function
+  -  prototyping, experimentation and convenient scripting.
+  -
+  -  It's quite possible that you won't have a good analogue for the word
+  -  "Scratchpad" in your locale. You should feel free to find a close
+  -  approximation to it or choose a word (or words) that means
+  -  "simple discardable text editor". -->
+<!ENTITY scratchpad.label             "Лесен редактор за LavaScript">
+<!ENTITY scratchpad.accesskey         "Л">
+<!ENTITY scratchpad.keycode           "VK_F4">
+<!ENTITY scratchpad.keytext           "F4">
+
+<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
+  -  application menu item that opens the browser debugger UI in the Tools menu. -->
+<!ENTITY chromeDebuggerMenu.label       "Дебъгер на браузъра">
+
+<!ENTITY devToolbarCloseButton.tooltiptext "Затвори панела с инструменти за разработчици">
+<!ENTITY devToolbarMenu.label              "Панел на разработчика">
+<!ENTITY devToolbarMenu.accesskey          "П">
+<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
+<!ENTITY devToolbar.keycode                "VK_F2">
+<!ENTITY devToolbar.keytext                "F2">
+<!ENTITY devToolboxMenuItem.label          "Покажи/Скрий инструментите">
+<!ENTITY devToolboxMenuItem.accesskey      "и">
+
+<!ENTITY devToolbarToolsButton.tooltip     "Покажи/Скрий инструментите за разработчици">
+<!ENTITY devToolbarOtherToolsButton.label  "Още инструменти">
+
+<!ENTITY getMoreDevtoolsCmd.label        "Вземи още инструменти">
+<!ENTITY getMoreDevtoolsCmd.accesskey    "о">
+
+<!ENTITY fileMenu.label         "Файл"> 
+<!ENTITY fileMenu.accesskey       "Ф">
+<!ENTITY newNavigatorCmd.label        "Нов прозорец">
+<!ENTITY newNavigatorCmd.key        "N">
+<!ENTITY newNavigatorCmd.accesskey      "п">
+<!ENTITY newPrivateWindow.label     "Нов прозорец за поверително сърфиране">
+<!ENTITY newPrivateWindow.accesskey "с">
+
+<!ENTITY editMenu.label         "Редактиране"> 
+<!ENTITY editMenu.accesskey       "Р"> 
+<!ENTITY undoCmd.label            "Възстанови">  
+<!ENTITY undoCmd.key            "В">  
+<!ENTITY undoCmd.accesskey          "В"> 
+<!ENTITY redoCmd.label            "Повтори">  
+<!ENTITY redoCmd.key            "о">  
+<!ENTITY redoCmd.accesskey          "в"> 
+<!ENTITY cutCmd.label           "Изрежи">  
+<!ENTITY cutCmd.key             "X">  
+<!ENTITY cutCmd.accesskey         "р"> 
+<!ENTITY copyCmd.label            "Копирай">  
+<!ENTITY copyCmd.key            "C">  
+<!ENTITY copyCmd.accesskey          "К"> 
+<!ENTITY pasteCmd.label           "Постави">  
+<!ENTITY pasteCmd.key           "V">  
+<!ENTITY pasteCmd.accesskey         "с"> 
+<!ENTITY deleteCmd.label          "Изтрий">  
+<!ENTITY deleteCmd.key            "D">  
+<!ENTITY deleteCmd.accesskey        "з"> 
+<!ENTITY selectAllCmd.label         "Избери всички">  
+<!ENTITY selectAllCmd.key         "A">  
+<!ENTITY selectAllCmd.accesskey       "ч"> 
+<!ENTITY preferencesCmd2.label       "Опции">
+<!ENTITY preferencesCmd2.accesskey     "О">
+<!ENTITY preferencesCmdUnix.label       "Настройки">
+<!ENTITY preferencesCmdUnix.accesskey     "Н"> 
+
+<!ENTITY clearRecentHistory.label               "Изтрий скорошната история…">
+
+<!ENTITY privateBrowsingCmd.commandkey          "P">
+
+<!ENTITY viewMenu.label         "Изглед"> 
+<!ENTITY viewMenu.accesskey       "И"> 
+<!ENTITY viewToolbarsMenu.label       "Панели с инструменти"> 
+<!ENTITY viewToolbarsMenu.accesskey     "П"> 
+<!ENTITY viewSidebarMenu.label "Страничен панел">
+<!ENTITY viewSidebarMenu.accesskey "С">
+<!ENTITY viewCustomizeToolbar.label       "Персонализирай…"> 
+<!ENTITY viewCustomizeToolbar.accesskey     "е">
+<!ENTITY viewTabsOnTop.label            "Табове отгоре">
+<!ENTITY viewTabsOnTop.accesskey        "Т">
+
+<!ENTITY historyMenu.label "История">
+<!ENTITY historyMenu.accesskey "с">
+<!ENTITY historyUndoMenu.label "Наскоро затворени табове">
+<!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
+<!ENTITY historyUndoWindowMenu.label "Наскоро затворени прозорци">
+<!ENTITY historyRestoreLastSession.label "Възстанови предишната сесия">
+
+<!ENTITY historyHomeCmd.label "Домашна страница">
+<!ENTITY showAllHistoryCmd2.label "Покажи цялата история">
+<!ENTITY showAllHistoryCmd.commandkey "H">
+
+<!ENTITY appMenuEdit.label "Редактиране">
+<!ENTITY appMenuCustomize.label "Персонализиране">
+<!ENTITY appMenuToolbarLayout.label "Панел с иструменти…">
+<!ENTITY appMenuSidebars.label "Странични панели">
+<!ENTITY appMenuFind.label "Намери…">
+<!ENTITY appMenuUnsorted.label "Несортирани отметки">
+<!ENTITY appMenuWebDeveloper.label "Уеб разработчик">
+<!ENTITY appMenuGettingStarted.label "Нека да започнем">
+<!ENTITY appMenuSafeMode.label "Презареди с изключени разширения…">
+<!ENTITY appMenuSafeMode.accesskey "П">
+
+<!ENTITY openCmd.commandkey           "l">
+<!ENTITY urlbar.placeholder2          "Въведете търсене или адрес">
+<!ENTITY urlbar.accesskey             "В">
+<!ENTITY urlbar.switchToTab.label     "Превключи на таб:">
+
+<!-- 
+  Comment duplicated from browser-sets.inc:
+
+  Search Command Key Logic works like this:
+
+  Unix: Ctrl+J (0.8, 0.9 support)
+        Ctrl+K (cross platform binding)
+  Mac:  Cmd+K (cross platform binding)
+        Cmd+Opt+F (platform convention)
+  Win:  Ctrl+K (cross platform binding)
+        Ctrl+E (IE compat)
+
+  We support Ctrl+K on all platforms now and advertise it in the menu since it is
+  our standard - it is a "safe" choice since it is near no harmful keys like "W" as
+  "E" is. People mourning the loss of Ctrl+K for emacs compat can switch their GTK
+  system setting to use emacs emulation, and we should respect it. Focus-Search-Box
+  is a fundamental keybinding and we are maintaining a XP binding so that it is easy
+  for people to switch to Linux.
+
+ -->
+<!ENTITY searchFocus.commandkey       "k">
+<!ENTITY searchFocus.commandkey2      "e">
+<!ENTITY searchFocusUnix.commandkey   "j">
+
+<!ENTITY openLinkCmdInTab.label       "Отвори линка в нов таб">
+<!ENTITY openLinkCmdInTab.accesskey   "т">
+<!ENTITY openLinkCmd.label            "Отвори линка в нов прозорец">
+<!ENTITY openLinkCmd.accesskey        "п">
+<!ENTITY openLinkInPrivateWindowCmd.label "Отвори линка в прозорец в поверителен режим">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey "п">
+<!ENTITY openLinkCmdInCurrent.label     "Отвори линк">
+<!ENTITY openLinkCmdInCurrent.accesskey "О">
+<!ENTITY openFrameCmdInTab.label      "Отвори фрейма в нов таб">
+<!ENTITY openFrameCmdInTab.accesskey  "ф">
+<!ENTITY openFrameCmd.label           "Отвори фрейма в нов прозорец">
+<!ENTITY openFrameCmd.accesskey       "р">
+<!ENTITY showOnlyThisFrameCmd.label     "Покажи само този фрейм">
+<!ENTITY showOnlyThisFrameCmd.accesskey "р">
+<!ENTITY reloadCmd.commandkey         "r">
+<!ENTITY reloadFrameCmd.label         "Презареди фрейм">
+<!ENTITY reloadFrameCmd.accesskey     "з">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Виж изходния код на избраното">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "Виж изходния код на MathML">
+<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
+         viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
+<!ENTITY viewPartialSourceCmd.accesskey "к">
+<!ENTITY viewPageSourceCmd.label      "Изходен код на страницата">
+<!ENTITY viewPageSourceCmd.accesskey  "к">
+<!ENTITY viewFrameSourceCmd.label     "Изходен код на фрейма">
+<!ENTITY viewFrameSourceCmd.accesskey "ф">
+<!ENTITY viewPageInfoCmd.label        "Информация за страницата">
+<!ENTITY viewPageInfoCmd.accesskey    "И">
+<!ENTITY viewFrameInfoCmd.label       "Информация за фрейма">
+<!ENTITY viewFrameInfoCmd.accesskey   "ф">
+<!ENTITY reloadImageCmd.label         "Презареди изображението">
+<!ENTITY reloadImageCmd.accesskey     "з">
+<!ENTITY viewImageCmd.label           "Преглед на изображението">
+<!ENTITY viewImageCmd.accesskey       "г">
+<!ENTITY viewImageInfoCmd.label       "Информация за изображението">
+<!ENTITY viewImageInfoCmd.accesskey   "И">
+<!ENTITY viewVideoCmd.label           "Отвори видеото">
+<!ENTITY viewVideoCmd.accesskey       "в">
+<!ENTITY viewBGImageCmd.label         "Преглед на фоновото изображение">
+<!ENTITY viewBGImageCmd.accesskey     "ф">
+<!ENTITY setDesktopBackgroundCmd.label      "Сложи като тапет на работния плот…">
+<!ENTITY setDesktopBackgroundCmd.accesskey  "С">
+<!ENTITY bookmarkPageCmd2.label       "Добави тази страница към отметките">
+<!ENTITY bookmarkPageCmd2.accesskey   "Д">
+<!ENTITY bookmarkThisLinkCmd.label      "Добави този линк към отметките">
+<!ENTITY bookmarkThisLinkCmd.accesskey  "л">
+<!ENTITY bookmarkThisFrameCmd.label      "Добави този фрейм към отметките">
+<!ENTITY bookmarkThisFrameCmd.accesskey  "о">
+<!ENTITY emailPageCmd.label           "Изпрати линка на имейл…">
+<!ENTITY emailPageCmd.accesskey       "й">
+<!ENTITY savePageCmd.label            "Запази страницата като…">
+<!ENTITY savePageCmd.accesskey        "к">
+<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.accesskey        "e">
+<!-- alternate for content area context menu -->
+<!ENTITY savePageCmd.accesskey2       "к">
+<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY saveFrameCmd.label           "Запази фрейма като…">
+<!ENTITY saveFrameCmd.accesskey       "ф">
+<!ENTITY printFrameCmd.label          "Принтирай фрейма…">
+<!ENTITY printFrameCmd.accesskey      "П">
+<!ENTITY saveLinkCmd.label            "Запази линка като…">
+<!ENTITY saveLinkCmd.accesskey        "л">
+<!ENTITY saveImageCmd.label           "Запази изображението като…">
+<!ENTITY saveImageCmd.accesskey       "ж">
+<!ENTITY saveVideoCmd.label           "Запази видеото като…">
+<!ENTITY saveVideoCmd.accesskey       "в">
+<!ENTITY saveAudioCmd.label           "Запази аудиото като…">
+<!ENTITY saveAudioCmd.accesskey       "а">
+<!ENTITY emailImageCmd.label          "Изпрати изображението на имейл…">
+<!ENTITY emailImageCmd.accesskey      "ж">
+<!ENTITY emailVideoCmd.label          "Изпрати видеото на имейл…">
+<!ENTITY emailVideoCmd.accesskey      "а">
+<!ENTITY emailAudioCmd.label          "Изпрати аудиото на имейл…">
+<!ENTITY emailAudioCmd.accesskey      "а">
+<!ENTITY playPluginCmd.label          "Активирай този плъгин">
+<!ENTITY playPluginCmd.accesskey      "т">
+<!ENTITY hidePluginCmd.label          "Скрий този плъгин">
+<!ENTITY hidePluginCmd.accesskey      "С">
+<!ENTITY copyLinkCmd.label            "Копирай местонахождението на линка">
+<!ENTITY copyLinkCmd.accesskey        "К">
+<!ENTITY copyImageCmd.label           "Копирай линка на изображението">
+<!ENTITY copyImageCmd.accesskey       "п">
+<!ENTITY copyImageContentsCmd.label   "Копирай изображението">
+<!ENTITY copyImageContentsCmd.accesskey  "т"> 
+<!ENTITY copyVideoURLCmd.label        "Копирай линка на видеото">
+<!ENTITY copyVideoURLCmd.accesskey    "т">
+<!ENTITY copyAudioURLCmd.label        "Копирай линка на аудиото">
+<!ENTITY copyAudioURLCmd.accesskey    "т">
+<!ENTITY copyEmailCmd.label           "Копирай адреса на електронната поща">
+<!ENTITY copyEmailCmd.accesskey       "е">
+<!ENTITY thisFrameMenu.label              "В този фрейм">
+<!ENTITY thisFrameMenu.accesskey          "р">
+
+<!-- Media (video/audio) controls -->
+<!-- LOCALIZATION NOTE: The access keys for "Play" and
+"Pause" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY mediaPlay.label             "Възпроизведи">
+<!ENTITY mediaPlay.accesskey         "и">
+<!ENTITY mediaPause.label            "Пауза">
+<!ENTITY mediaPause.accesskey        "П">
+<!-- LOCALIZATION NOTE: The access keys for "Mute" and
+"Unmute" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY mediaMute.label             "Спри звука">
+<!ENTITY mediaMute.accesskey         "з">
+<!ENTITY mediaUnmute.label           "Пусни звука">
+<!ENTITY mediaUnmute.accesskey       "П">
+<!ENTITY mediaPlaybackRate.label     "Скорост на възпроизвеждане">
+<!ENTITY mediaPlaybackRate.accesskey "о">
+<!ENTITY mediaPlaybackRate050x.label "Забавено движение (0.5×)">
+<!ENTITY mediaPlaybackRate050x.accesskey "З">
+<!ENTITY mediaPlaybackRate100x.label "Нормална скорост">
+<!ENTITY mediaPlaybackRate100x.accesskey "Н">
+<!ENTITY mediaPlaybackRate150x.label "Бърза скорост (1.5×)">
+<!ENTITY mediaPlaybackRate150x.accesskey "Б">
+<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+movie "Space Balls" and is meant to say that this speed is very
+fast. -->
+<!ENTITY mediaPlaybackRate200x.label "Много бързо (2×)">
+<!ENTITY mediaPlaybackRate200x.accesskey "М">
+<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
+"Hide Controls" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY mediaShowControls.label     "Покажи управление">
+<!ENTITY mediaShowControls.accesskey "к">
+<!ENTITY mediaHideControls.label     "Скрий управление">
+<!ENTITY mediaHideControls.accesskey "к">
+<!ENTITY videoFullScreen.label       "Пълен екран">
+<!ENTITY videoFullScreen.accesskey   "П">
+<!ENTITY videoSaveImage.label        "Съхрани кадъра като…">
+<!ENTITY videoSaveImage.accesskey    "С">
+<!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
+"Hide Statistics" are the same because the two context-menu
+items are mutually exclusive. -->
+<!ENTITY videoShowStats.label        "Покажи статистики">
+<!ENTITY videoShowStats.accesskey    "т">
+<!ENTITY videoHideStats.label        "Скрий статистики">
+<!ENTITY videoHideStats.accesskey    "т">
+
+<!-- LOCALIZATION NOTE :
+fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
+fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
+If shift key is needed with your locale popular keyboard for them,
+you can use these alternative items. Otherwise, their values should be empty.  -->
+
+<!ENTITY fullZoomEnlargeCmd.label       "Увеличи">
+<!ENTITY fullZoomEnlargeCmd.accesskey   "У">
+<!ENTITY fullZoomEnlargeCmd.commandkey  "+">
+<!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY fullZoomEnlargeCmd.commandkey3 "">
+
+<!ENTITY fullZoomReduceCmd.label        "Намали">
+<!ENTITY fullZoomReduceCmd.accesskey    "м">
+<!ENTITY fullZoomReduceCmd.commandkey   "-">
+<!ENTITY fullZoomReduceCmd.commandkey2  "">
+
+<!ENTITY fullZoomResetCmd.label         "Върни по подразбиране">
+<!ENTITY fullZoomResetCmd.accesskey     "В">
+<!ENTITY fullZoomResetCmd.commandkey    "0">
+<!ENTITY fullZoomResetCmd.commandkey2   "">
+
+<!ENTITY fullZoomToggleCmd.label        "Увеличи само текста">
+<!ENTITY fullZoomToggleCmd.accesskey    "т">
+<!ENTITY fullZoom.label                 "Мащаб">
+<!ENTITY fullZoom.accesskey             "М">
+
+<!ENTITY newTabButton.tooltip           "Отвори нов таб">
+<!ENTITY newWindowButton.tooltip        "Отвори нов прозорец">
+<!ENTITY sidebarCloseButton.tooltip     "Затвори страничния панел">
+
+<!ENTITY cutButton.tooltip              "Изрежи">
+<!ENTITY copyButton.tooltip             "Копирай">
+<!ENTITY pasteButton.tooltip            "Постави">
+
+<!ENTITY fullScreenButton.tooltip       "Разпъва прозореца на пълен екран">
+
+<!ENTITY zoomOutButton.tooltip          "Намали">
+<!ENTITY zoomInButton.tooltip           "Увеличи">
+<!ENTITY zoomControls.label             "Управление на мащаба">
+
+<!ENTITY quitApplicationCmdWin.label       "Изход"> 
+<!ENTITY quitApplicationCmdWin.accesskey   "х">
+<!ENTITY goBackCmd.commandKey "[">
+<!ENTITY goForwardCmd.commandKey "]">
+<!ENTITY quitApplicationCmd.label       "Изход"> 
+<!ENTITY quitApplicationCmd.accesskey   "х">
+<!ENTITY quitApplicationCmdMac.label    "Затвори &brandShortName;">
+<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
+<!ENTITY quitApplicationCmdUnix.key     "Q">
+
+<!ENTITY closeCmd.label                 "Затвори">  
+<!ENTITY closeCmd.key                   "W">  
+<!ENTITY closeCmd.accesskey             "З">
+
+<!ENTITY pageStyleMenu.label "Стил на страницата">
+<!ENTITY pageStyleMenu.accesskey "С">
+<!ENTITY pageStyleNoStyle.label "Без">
+<!ENTITY pageStyleNoStyle.accesskey "Б">
+<!ENTITY pageStylePersistentOnly.label "Основен стил на страницата">
+<!ENTITY pageStylePersistentOnly.accesskey "с">
+
+<!ENTITY pageReportIcon.tooltip            "Промени настройките за блокиране на попъп прозорци за този сайт">
+
+<!ENTITY allowPopups.accesskey "p">
+<!-- On Windows we use the term "Options" to describe settings, but
+     on Linux and Mac OS X we use "Preferences" - carry that distinction
+     over into this string, which is used in the "popup blocked" info bar . -->
+<!ENTITY editPopupSettingsUnix.label "Промени настройките за блокиране на попъпи…">
+<!ENTITY editPopupSettings.label "Промени опциите за блокиране на попъпи…">
+<!ENTITY editPopupSettings.accesskey "н">
+<!ENTITY dontShowMessage.accesskey "о">
+
+<!ENTITY bidiSwitchPageDirectionItem.label        "Превключи направлението на страницата">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "П">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Превключи направлението на текста">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "р">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
+
+<!ENTITY findOnCmd.label     "Намери в страницата…">
+<!ENTITY findOnCmd.accesskey "Н">
+<!ENTITY findOnCmd.commandkey "f">
+<!ENTITY findAgainCmd.label  "Намери отново">
+<!ENTITY findAgainCmd.accesskey "о">
+<!ENTITY findAgainCmd.commandkey "g">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+
+<!ENTITY spellAddDictionaries.label "Добави речници…">
+<!ENTITY spellAddDictionaries.accesskey "р">
+
+<!ENTITY editBookmark.done.label                     "Готово">
+<!ENTITY editBookmark.cancel.label                   "Отмени">
+<!ENTITY editBookmark.removeBookmark.accessKey       "П">
+
+<!ENTITY identity.unverifiedsite2 "Не е налична информация за автентичността на сайта.">
+<!ENTITY identity.connectedTo "Свързани сте към">
+<!-- Localization note (identity.runBy) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity.runBy "се управлява от">
+
+<!ENTITY identity.moreInfoLinkText "Повече информация…">
+
+<!ENTITY allTabs.filter.emptyText "Търси в табовете">
+<!-- Name for the tabs toolbar as spoken by screen readers.
+     The word "toolbar" is appended automatically and should not be contained below! -->
+<!ENTITY tabsToolbar.label "Табове на браузъра">
+
+<!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
+<!ENTITY syncTabsMenu2.label     "Табове на други устройства">
+
+<!ENTITY syncBrand.shortName.label    "Sync">
+
+<!ENTITY syncSetup.label              "Настройване на &syncBrand.shortName.label;…">
+<!ENTITY syncSetup.accesskey          "Н">
+<!ENTITY syncSyncNowItem.label        "Синхронизирай">
+<!ENTITY syncSyncNowItem.accesskey    "С">
+<!ENTITY syncToolbarButton.label      "Синхронизация">
+
+<!ENTITY addonBarCloseButton.tooltip  "Затвори панела с разширенията">
+<!ENTITY toggleAddonBarCmd.key        "/">
+
+<!ENTITY getUserMedia.selectCamera.label "Достъп до камера:">
+<!ENTITY getUserMedia.selectCamera.accesskey "к">
+<!ENTITY getUserMedia.selectMicrophone.label "Достъп до микрофон:">
+<!ENTITY getUserMedia.selectMicrophone.accesskey "м">
+
+<!ENTITY webrtcIndicatorButton.label "Достъп до камера/микрофон">
+<!ENTITY webrtcIndicatorButton.tooltip "Покажи сайтовете, които имат достъп до камерата или микрофона">
+
+<!ENTITY mixedContentBlocked.helplink "Научи повече">
+<!ENTITY mixedContentBlocked.moreinfo "Повечето сайтове ще продължат да работят нормално, въпреки че това съдържимо е блокирано..">
+
+<!ENTITY pointerLock.notification.message "Натиснете Esc по всяко време, за да се покаже отново.">
+
+<!ENTITY pluginNotification.showAll.label "Покажи всички">
+<!ENTITY pluginNotification.showAll.accesskey "П">
+
+<!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
+<!ENTITY pluginActivateNow.label "Разреши временно">
+<!ENTITY pluginActivateAlways.label "Разреши и запомни">
+<!ENTITY pluginBlockNow.label "Блокирай плъгин">

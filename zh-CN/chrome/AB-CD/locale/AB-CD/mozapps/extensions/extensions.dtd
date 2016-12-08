@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "附加组件管理器">
 
 <!ENTITY search.placeholder                   "搜索所有附加组件">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "搜索">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "移除">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "调试">
 <!ENTITY cmd.showPreferencesWin.label         "选项">
 <!ENTITY cmd.showPreferencesWin.tooltip       "更改此附加组件的选项">
 <!ENTITY cmd.showPreferencesUnix.label        "首选项">
@@ -221,10 +221,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "想问这是什么？“遥测”会不时地安装和运行一些实验项目。">
+<!ENTITY experiment.info.learnmore "详细了解">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "遥测设置">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "详细了解…">
