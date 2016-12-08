@@ -12,16 +12,16 @@
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Fuente de: ">
 
-<!ENTITY fileMenu.label "File">
+<!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "F">
 <!ENTITY savePageCmd.label "Guardar página como…">
 <!ENTITY savePageCmd.accesskey "A">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Configurar página…">
-<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY pageSetupCmd.accesskey "p">
 <!ENTITY printPreviewCmd.label "Vista previa de impresión">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Print…">
+<!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Close">
@@ -42,11 +42,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Go to Line…">
-<!ENTITY goToLineCmd.accesskey "G">
+<!ENTITY goToLineCmd.label "Ir a la línea…">
+<!ENTITY goToLineCmd.accesskey "I">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "View">
+<!ENTITY viewMenu.label           "Ver">
 <!ENTITY viewMenu.accesskey       "V">
 <!ENTITY reloadCmd.label "Reload">
 <!ENTITY reloadCmd.accesskey "R">
@@ -56,15 +56,15 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
 <!ENTITY menu_highlightSyntax.accesskey "H">
 <!ENTITY menu_textSize.label "Text Size">
-<!ENTITY menu_textSize.accesskey "Z">
-<!ENTITY menu_textEnlarge.label "Increase">
-<!ENTITY menu_textEnlarge.accesskey "I">
-<!ENTITY menu_textReduce.label "Decrease">
-<!ENTITY menu_textReduce.accesskey "D">
+<!ENTITY menu_textSize.accesskey "T">
+<!ENTITY menu_textEnlarge.label "Aumentar">
+<!ENTITY menu_textEnlarge.accesskey "A">
+<!ENTITY menu_textReduce.label "Disminuir">
+<!ENTITY menu_textReduce.accesskey "R">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Find in This Page…">
+<!ENTITY findOnCmd.label     "Buscar en esta página…">
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Find Again">
@@ -80,7 +80,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Copy Link Location">
-<!ENTITY copyLinkCmd.accesskey "L">
-<!ENTITY copyEmailCmd.label "Copy Email Address">
-<!ENTITY copyEmailCmd.accesskey "E">
+<!ENTITY copyLinkCmd.label "Copiar dirección del enlace">
+<!ENTITY copyLinkCmd.accesskey "e">
+<!ENTITY copyEmailCmd.label "Copiar dirección de correo electrónico">
+<!ENTITY copyEmailCmd.accesskey "d">

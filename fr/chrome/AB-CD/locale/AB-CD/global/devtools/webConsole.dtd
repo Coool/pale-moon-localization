@@ -8,7 +8,7 @@
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
 
-<!ENTITY window.title "Console web">
+<!ENTITY window.title "Console Web">
 <!ENTITY browserConsole.title "Console du navigateur">
 
 <!ENTITY networkPanel.requestURLColon             "URL de la requête :">
@@ -17,7 +17,7 @@
 
 <!ENTITY networkPanel.requestHeaders              "Entêtes de la requête">
 <!ENTITY networkPanel.requestCookie               "Cookie envoyé">
-<!ENTITY networkPanel.requestBody                 "Contenu de la requête">
+<!ENTITY networkPanel.requestBody                 "Corps de la requête">
 <!ENTITY networkPanel.requestFormData             "Données de formulaire envoyées">
 
 <!ENTITY networkPanel.responseHeaders             "Entêtes de la réponse">
@@ -25,7 +25,7 @@
 <!ENTITY networkPanel.responseBody                "Contenu de la réponse">
 <!ENTITY networkPanel.responseBodyCached          "Données en cache">
 <!ENTITY networkPanel.responseBodyUnknownType     "Type de contenu inconnu">
-<!ENTITY networkPanel.responseNoBody              "Aucun contenu dans la réponse">
+<!ENTITY networkPanel.responseNoBody              "Aucun corps dans la réponse">
 <!ENTITY networkPanel.responseImage               "Image reçue">
 <!ENTITY networkPanel.responseImageCached         "Image en cache">
 
@@ -66,19 +66,19 @@
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
-<!ENTITY btnPageLogging.label   "Journal">
+<!ENTITY btnPageLogging.label   "Journalisation">
 <!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « console »">
 <!ENTITY btnPageLogging.accesskey3 "u">
 <!ENTITY btnConsoleErrors       "Erreurs">
-<!ENTITY btnConsoleInfo         "Info">
+<!ENTITY btnConsoleInfo         "Infos">
 <!ENTITY btnConsoleWarnings     "Avertissements">
-<!ENTITY btnConsoleLog          "Log">
+<!ENTITY btnConsoleLog          "Journal">
 <!ENTITY btnConsoleXhr          "XHR">
 <!ENTITY btnConsoleReflows      "Reflows">
 
-<!ENTITY filterOutput.placeholder "Filtrer">
+<!ENTITY filterOutput.placeholder "Filtrer la sortie">
 <!ENTITY btnClear.label        "Vider la console">
-<!ENTITY btnClear.tooltip      "Vider la console web">
+<!ENTITY btnClear.tooltip      "Vider la console Web">
 <!ENTITY btnClear.accesskey    "V">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
