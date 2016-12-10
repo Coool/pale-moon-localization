@@ -18,14 +18,14 @@
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Recarregar aba">
 <!ENTITY  reloadTab.accesskey                "R">
-<!ENTITY  reloadAllTabs.label                "Recarregar tudo">
-<!ENTITY  reloadAllTabs.accesskey            "t">
+<!ENTITY  reloadAllTabs.label                "Recarregar todas as guias">
+<!ENTITY  reloadAllTabs.accesskey            "A">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "Fechar abas à direita">
+<!ENTITY  closeTabsToTheEnd.label            "Fechar as guias à direita">
 <!ENTITY  closeTabsToTheEnd.accesskey        "e">
-<!ENTITY  closeOtherTabs.label               "Fechar as outras abas">
+<!ENTITY  closeOtherTabs.label               "Fechar outras guias">
 <!ENTITY  closeOtherTabs.accesskey           "o">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
@@ -33,63 +33,63 @@ used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                       "Afixar aba">
-<!ENTITY  pinTab.accesskey                   "A">
-<!ENTITY  unpinTab.label                     "Desafixar aba">
-<!ENTITY  unpinTab.accesskey                 "D">
+<!ENTITY  pinTab.label                       "Fixar aba">
+<!ENTITY  pinTab.accesskey                   "P">
+<!ENTITY  unpinTab.label                     "Desprender aba">
+<!ENTITY  unpinTab.accesskey                 "b">
 <!ENTITY  moveToNewWindow.label              "Mover para nova janela">
-<!ENTITY  moveToNewWindow.accesskey          "v">
-<!ENTITY  bookmarkAllTabs.label              "Adicionar todas as abas…">
-<!ENTITY  bookmarkAllTabs.accesskey          "c">
-<!ENTITY  undoCloseTab.label                 "Reabrir aba">
-<!ENTITY  undoCloseTab.accesskey             "b">
+<!ENTITY  moveToNewWindow.accesskey          "W">
+<!ENTITY  bookmarkAllTabs.label              "Marcar todas as guias...">
+<!ENTITY  bookmarkAllTabs.accesskey          "T">
+<!ENTITY  undoCloseTab.label                 "Desfazer fechar guia">
+<!ENTITY  undoCloseTab.accesskey             "U">
 <!ENTITY  closeTab.label                     "Fechar aba">
-<!ENTITY  closeTab.accesskey                 "F">
+<!ENTITY  closeTab.accesskey                 "c">
 
-<!ENTITY  listAllTabs.label      "Listar todas as abas">
+<!ENTITY  listAllTabs.label      "Listar todas as guias">
 
 <!ENTITY tabCmd.label "Nova aba">
-<!ENTITY tabCmd.accesskey "N">
-<!ENTITY tabCmd.commandkey "T">
-<!ENTITY openLocationCmd.label "Abrir endereço…">
-<!ENTITY openLocationCmd.accesskey "b">
+<!ENTITY tabCmd.accesskey "T">
+<!ENTITY tabCmd.commandkey "t">
+<!ENTITY openLocationCmd.label "Abra o local...">
+<!ENTITY openLocationCmd.accesskey "L">
 <!ENTITY openFileCmd.label "Abrir arquivo…">
-<!ENTITY openFileCmd.accesskey "A">
-<!ENTITY openFileCmd.commandkey "O">
-<!ENTITY printSetupCmd.label "Configurar página…">
-<!ENTITY printSetupCmd.accesskey "C">
-<!ENTITY printPreviewCmd.label "Visualizar impressão">
-<!ENTITY printPreviewCmd.accesskey "z">
-<!ENTITY printCmd.label "Imprimir…">
+<!ENTITY openFileCmd.accesskey "O">
+<!ENTITY openFileCmd.commandkey "o">
+<!ENTITY printSetupCmd.label "Configuração de página...">
+<!ENTITY printSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "Visualização de impressão">
+<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printCmd.label "Imprimir...">
 <!ENTITY printCmd.accesskey "I">
 <!ENTITY printCmd.commandkey "P">
 
-<!ENTITY goOfflineCmd.label "Modo offline">
+<!ENTITY goOfflineCmd.label "Trabalhar Offline">
 <!ENTITY goOfflineCmd.accesskey "M">
 
 <!ENTITY menubarCmd.label "Barra de menus">
 <!ENTITY menubarCmd.accesskey "m">
 <!ENTITY navbarCmd.label "Barra de navegação">
 <!ENTITY navbarCmd.accesskey "B">
-<!ENTITY personalbarCmd.label "Barra dos favoritos">
+<!ENTITY personalbarCmd.label "Barra de favoritos">
 <!ENTITY personalbarCmd.accesskey "r">
-<!ENTITY bookmarksToolbarItem.label "Barra dos favoritos">
+<!ENTITY bookmarksToolbarItem.label "Barra de favoritos">
 <!ENTITY addonBarCmd.label "Barra de extensões">
 <!ENTITY addonBarCmd.accesskey "x">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "Barra de status">
 <!ENTITY statusBar.accesskey           "S">
 
-<!ENTITY pageSourceCmd.label "Código-fonte">
+<!ENTITY pageSourceCmd.label "Fonte de página">
 <!ENTITY pageSourceCmd.accesskey "f">
 <!ENTITY pageSourceCmd.commandkey "U">
-<!ENTITY pageInfoCmd.label "Propriedades da página">
+<!ENTITY pageInfoCmd.label "Página de informação">
 <!ENTITY pageInfoCmd.accesskey "P">
 <!ENTITY pageInfoCmd.commandkey "I">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
 <!ENTITY enterFullScreenCmd.label "Entrar em tela cheia">
 <!ENTITY enterFullScreenCmd.accesskey "t">
-<!ENTITY exitFullScreenCmd.label "Sair da tela cheia">
+<!ENTITY exitFullScreenCmd.label "Saída em tela cheia">
 <!ENTITY exitFullScreenCmd.accesskey "t">
 <!ENTITY fullScreenCmd.label "Tela inteira">
 <!ENTITY fullScreenCmd.accesskey "T">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Inscrever RSS…">
 <!ENTITY addCurPagesCmd.label "Adicionar todas as abas…">
 <!ENTITY showAllBookmarks2.label "Exibir todos os favoritos">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Organizar favoritos">
 <!ENTITY unsortedBookmarksCmd.label "Favoritos não organizados">
 <!ENTITY bookmarksToolbarChevron.tooltip "Exibir mais favoritos">
 
@@ -219,7 +219,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "M">
 <!ENTITY responsiveDesignTool.commandkey "m">
 
-<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.label   "Conta-gotas">
 <!ENTITY eyedropper.accesskey "Y">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
@@ -232,7 +232,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  "Scratchpad" in your locale. You should feel free to find a close
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Scratchpad">
+<!ENTITY scratchpad.label             "Bloco de anotações">
 <!ENTITY scratchpad.accesskey         "S">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
@@ -244,7 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Ocultar barra do desenvolvedor">
 <!ENTITY devToolbarMenu.label              "Barra do desenvolvedor">
 <!ENTITY devToolbarMenu.accesskey          "B">
-<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.label               "Gerenciador de aplicativos">
 <!ENTITY devAppMgrMenu.accesskey           "A">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
@@ -415,9 +415,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Salvar como…">
 <!ENTITY savePageCmd.accesskey        "v">
-<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.label            "Envie Link...">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.label            "Envie Link da página...">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "l">
@@ -451,9 +451,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyImageContentsCmd.label   "Copiar imagem">
 <!ENTITY copyImageContentsCmd.accesskey  "m"> 
 <!ENTITY copyVideoURLCmd.label        "Copiar endereço do vídeo">
-<!ENTITY copyVideoURLCmd.accesskey    "o">
+<!ENTITY copyVideoURLCmd.accesskey    "p">
 <!ENTITY copyAudioURLCmd.label        "Copiar endereço do áudio">
-<!ENTITY copyAudioURLCmd.accesskey    "o">
+<!ENTITY copyAudioURLCmd.accesskey    "p">
 <!ENTITY copyEmailCmd.label           "Copiar email">
 <!ENTITY copyEmailCmd.accesskey       "o">
 <!ENTITY thisFrameMenu.label              "Este frame">
@@ -530,7 +530,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY fullZoomToggleCmd.label        "Somente do texto">
 <!ENTITY fullZoomToggleCmd.accesskey    "S">
-<!ENTITY fullZoom.label                 "Zoom">
+<!ENTITY fullZoom.label                 "Ampliar/Reduzir">
 <!ENTITY fullZoom.accesskey             "Z">
 
 <!ENTITY newTabButton.tooltip           "Abrir uma aba">
