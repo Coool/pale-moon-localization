@@ -16,18 +16,24 @@
 
 <!ENTITY  locationBar.label             "ロケーションバー">
 
-<!ENTITY  locbar.pre.label              "ロケーションバーの使用:">
-<!ENTITY  locbar.pre.accessKey          "u">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "履歴とブックマーク">
 <!ENTITY  locbar.suggest.label          "ロケーションバーの使用:">
 <!ENTITY  locbar.history.label          "履歴のみ">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "ブックマークのみ">
-<!ENTITY  locbar.nothing.label          "候補を表示しない">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "タブで開く">
 <!ENTITY  locbar.openpage.accesskey     "O">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "ロケーションバーの使用:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "u">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "履歴とブックマーク">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.nothing.label          "候補を表示しない">
 
 <!ENTITY  acceptCookies.label           "サイトから送られてきた Cookie を保存する">
 <!ENTITY  acceptCookies.accesskey       "A">

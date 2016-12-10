@@ -32,7 +32,7 @@
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in the Web
    - Console context menu. -->
 <!ENTITY saveBodies.label     "Journaliser le contenu des requêtes et des réponses">
-<!ENTITY saveBodies.accesskey "l">
+<!ENTITY saveBodies.accesskey "u">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
    - Console context menu. -->
@@ -45,7 +45,7 @@
   -  filters. -->
 <!ENTITY btnPageNet.label   "Réseau">
 <!ENTITY btnPageNet.tooltip "Journaliser les accès réseau">
-<!ENTITY btnPageNet.accesskey "R">
+<!ENTITY btnPageNet.accesskey "r">
 <!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
   -  access key for the menu button that allows users to toggle the network
   -  logging output. On MacOSX accesskeys are available with Ctrl-*. Please make
@@ -60,7 +60,7 @@
 <!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageSecurity.label "Sécurité">
 <!ENTITY btnPageSecurity.tooltip "Journaliser les avertissements et les erreurs de sécurité">
-<!ENTITY btnPageSecurity.accesskey "S">
+<!ENTITY btnPageSecurity.accesskey "v">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
@@ -74,7 +74,7 @@
 <!ENTITY btnConsoleWarnings     "Avertissements">
 <!ENTITY btnConsoleLog          "Journal">
 <!ENTITY btnConsoleXhr          "XHR">
-<!ENTITY btnConsoleReflows      "Reflows">
+<!ENTITY btnConsoleReflows      "Reflux">
 
 <!ENTITY filterOutput.placeholder "Filtrer la sortie">
 <!ENTITY btnClear.label        "Vider la console">
@@ -95,5 +95,5 @@
 <!ENTITY copyURLCmd.accesskey "a">
 
 <!ENTITY closeCmd.key         "W">
-<!ENTITY findCmd.key          "F">
-<!ENTITY clearOutputCtrl.key  "L">
+<!ENTITY findCmd.key          "R">
+<!ENTITY clearOutputCtrl.key  "V">

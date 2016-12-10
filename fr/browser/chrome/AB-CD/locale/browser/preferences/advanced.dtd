@@ -19,7 +19,7 @@
 
 <!ENTITY useAutoScroll.label             "Utiliser le défilement automatique">
 <!ENTITY useAutoScroll.accesskey         "U">
-<!ENTITY useSmoothScrolling.label        "Utiliser le défilement doux">
+<!ENTITY useSmoothScrolling.label        "Utiliser le défilement fluide">
 <!ENTITY useSmoothScrolling.accesskey    "s">
 <!ENTITY allowHWAccel.label              "Utiliser l’accélération graphique matérielle si disponible">
 <!ENTITY allowHWAccel.accesskey          "n">
@@ -31,7 +31,7 @@
 <!ENTITY alwaysCheckDefault.accesskey    "j">
 <!ENTITY setDefault.label                "Faire de &brandShortName; le navigateur par défaut">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&brandShortName; est actuellement le navigateur par défaut">
+<!ENTITY isDefault.label                 "&brandShortName; est actuellement le navigateur par défaut.">
 
 <!ENTITY dataChoicesTab.label            "Données collectées">
 
@@ -66,7 +66,7 @@
 <!ENTITY clearCacheNow.accesskey         "V">
 <!ENTITY clearOfflineAppCacheNow.label   "Vider maintenant">
 <!ENTITY clearOfflineAppCacheNow.accesskey "d">
-<!ENTITY overrideSmartCacheSize.label    "Surcharger la gestion automatique du cache">
+<!ENTITY overrideSmartCacheSize.label    "Outrepasser la gestion automatique du cache">
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "Mises à jour">
@@ -89,14 +89,14 @@
 
 <!ENTITY updateAutoMetroWarn.label       "(&brandShortName; dans le style Windows 8 ne vérifie pas la compatibilité des modules)">
 
-<!ENTITY updateHistory.label             "Afficher l’historique des mises à jour">
+<!ENTITY updateHistory.label             "Afficher l'historique des mises à jour…">
 <!ENTITY updateHistory.accesskey         "h">
 
 <!ENTITY updateOthers.label              "Mise à jour automatique">
-<!ENTITY enableSearchUpdate.label        "les moteurs de recherche">
+<!ENTITY enableSearchUpdate.label        "Moteurs de recherche">
 <!ENTITY enableSearchUpdate.accesskey    "r">
 
-<!ENTITY offlineNotify.label             "Avertir lorsqu’un site souhaite conserver des données pour une utilisation hors connexion">
+<!ENTITY offlineNotify.label             "Avertir si un site souhaite stocker des données pour utilisation hors connexion">
 <!ENTITY offlineNotify.accesskey         "T">
 <!ENTITY offlineNotifyExceptions.label   "Exceptions…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
@@ -117,7 +117,7 @@
 <!ENTITY ocspGroup.label                 "Certificat de validation">
 <!ENTITY enableOCSP.label                "Utiliser le répondeur OCSP pour confirmer la validité actuelle des certificats">
 <!ENTITY enableOCSP.accesskey            "I">
-<!ENTITY requireOCSP.label               "Quand la connexion à un serveur OCSP échoue, considérer le certificat comme étant non valable">
+<!ENTITY requireOCSP.label               "Si la connexion à un serveur OCSP échoue, considérer le certificat comme étant invalide">
 <!ENTITY requireOCSP.accesskey           "n">
 <!ENTITY viewCerts.label                 "Afficher les certificats…">
 <!ENTITY viewCerts.accesskey             "A">
@@ -125,7 +125,7 @@
 <!ENTITY viewSecurityDevices.accesskey   "P">
 
 <!ENTITY UACompatGroup.label    "Compatibilité">
-<!ENTITY UACompat.label         "Mode agent utilisateur:">
+<!ENTITY UACompat.label         "Mode agent utilisateur :">
 <!ENTITY UACompat.Native        "Natif">
 <!ENTITY UACompat.Gecko         "Compatibilité Gecko">
 <!ENTITY UACompat.Firefox       "Compatibilité Firefox">
@@ -135,10 +135,10 @@
 <!ENTITY smoothscroll.to                    "à">
 <!ENTITY smoothscroll.params.label          "Paramètres de défilement fluide">
 <!ENTITY smoothscroll.mousewheel.label      "Défilement fluide avec roulette de la souris">
-<!ENTITY smoothscroll.mousewheel.duration   "Durée du défilement de la roulette souris:">
+<!ENTITY smoothscroll.mousewheel.duration   "Durée du défilement de la roulette souris :">
 <!ENTITY smoothscroll.arrowkeys.label       "Défilement fluide avec touches fléchées">
-<!ENTITY smoothscroll.arrowkeys.duration    "Durée de défilement des touches fléchées:">
+<!ENTITY smoothscroll.arrowkeys.duration    "Durée de défilement des touches fléchées :">
 <!ENTITY smoothscroll.pagekeys.label        "Défilement fluide page haut/bas">
-<!ENTITY smoothscroll.pagekeys.duration     "Page haut/bas durée du défilement:">
+<!ENTITY smoothscroll.pagekeys.duration     "Durée du défilement page haut/bas :">
 <!ENTITY smoothscroll.scrollbar.label       "Défilement fluide avec barres de défilements">
-<!ENTITY smoothscroll.scrollbar.duration    "Durée barre de défilement en défilement fluide:">
+<!ENTITY smoothscroll.scrollbar.duration    "Durée barre de défilement en défilement fluide :">

@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Eliminar">
 <!ENTITY cmd.uninstallAddon.accesskey         "E">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Depuración">
 <!ENTITY cmd.showPreferencesWin.label         "Opciones">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Cambiar las opciones de este complemento">
 <!ENTITY cmd.showPreferencesUnix.label        "Preferencias">
@@ -207,6 +207,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Cargando…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Lo sentimos, pero ha sucedido un error al cargar las notas de versión.">
 
+<!ENTITY addon.nativeAddon                    "Este complemento está diseñado específicamente para Pale Moon">
+<!ENTITY addon.compatAddon                    "Este complemento está diseñado para Mozilla Firefox y funciona en modo de compatibilidad">
+
 <!ENTITY addon.createdBy.label                "Por ">
 
 <!ENTITY eula.title                           "Acuerdo de licencia de usuario final">
@@ -221,10 +224,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.label "¿Qué es esto? Telemetría puede instalar y llevar a cabo experimentos de vez en cuando.">
+<!ENTITY experiment.info.learnmore "Saber más">
+<!ENTITY experiment.info.learnmore.accesskey "S">
+<!ENTITY experiment.info.changetelemetry "Configuración de telemetría">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Saber más…">

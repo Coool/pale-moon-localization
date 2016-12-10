@@ -9,26 +9,26 @@
 <!ENTITY accessibility.label             "Eingabehilfen">
 
 <!ENTITY useCursorNavigation.label       "Markieren von Text mit der Tastatur zulassen">
-<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY useCursorNavigation.accesskey   "M">
 <!ENTITY searchStartTyping.label         "Suche bereits beim Eintippen starten">
-<!ENTITY searchStartTyping.accesskey     "x">
+<!ENTITY searchStartTyping.accesskey     "u">
 <!ENTITY blockAutoRefresh.label          "Warnen, wenn Webseiten versuchen umzuleiten oder neuzuladen">
-<!ENTITY blockAutoRefresh.accesskey      "b">
+<!ENTITY blockAutoRefresh.accesskey      "W">
 
 <!ENTITY browsing.label                  "Browsing">
 
 <!ENTITY useAutoScroll.label             "Automatischen Bildlauf aktivieren">
-<!ENTITY useAutoScroll.accesskey         "a">
+<!ENTITY useAutoScroll.accesskey         "A">
 <!ENTITY useSmoothScrolling.label        "Sanften Bildlauf aktivieren">
-<!ENTITY useSmoothScrolling.accesskey    "m">
+<!ENTITY useSmoothScrolling.accesskey    "S">
 <!ENTITY allowHWAccel.label              "Hardware-Beschleunigung verwenden, wenn verfügbar">
-<!ENTITY allowHWAccel.accesskey          "r">
+<!ENTITY allowHWAccel.accesskey          "v">
 <!ENTITY checkSpelling.label             "Rechtschreibung während der Eingabe überprüfen">
-<!ENTITY checkSpelling.accesskey         "t">
+<!ENTITY checkSpelling.accesskey         "R">
 
 <!ENTITY systemDefaults.label            "Systemeinstellungen">
 <!ENTITY alwaysCheckDefault.label        "Beim Starten überprüfen, ob &brandShortName; der Standardbrowser ist"><!--XXX-->
-<!ENTITY alwaysCheckDefault.accesskey    "w">
+<!ENTITY alwaysCheckDefault.accesskey    "B">
 <!ENTITY setDefault.label                "&brandShortName; als Standardbrowser festlegen">
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; ist derzeit der Standardbrowser">
@@ -38,7 +38,7 @@
 <!ENTITY crashReporterSection.label      "Absturz-Melder">
 <!ENTITY crashReporterDesc.label         "&brandShortName; übermittelt Absturzberichte, um &vendorShortName; dabei zu helfen, den Browser stabiler und sicherer zu machen.">
 <!ENTITY enableCrashReporter.label       "Absturz-Melder aktivieren">
-<!ENTITY enableCrashReporter.accesskey   "C">
+<!ENTITY enableCrashReporter.accesskey   "A">
 <!ENTITY crashReporterLearnMore.label    "Weitere Informationen">
 
 <!ENTITY networkTab.label                "Netzwerk">
@@ -59,9 +59,9 @@
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-<!ENTITY limitCacheSizeBefore.label      "Cache auf">
+<!ENTITY limitCacheSizeBefore.label      "Cache limitieren auf">
 <!ENTITY limitCacheSizeBefore.accesskey  "C">
-<!ENTITY limitCacheSizeAfter.label       "MB Speicherplatz limitieren">
+<!ENTITY limitCacheSizeAfter.label       "MB Speicherplatz">
 <!ENTITY clearCacheNow.label             "Jetzt leeren">
 <!ENTITY clearCacheNow.accesskey         "J">
 <!ENTITY clearOfflineAppCacheNow.label   "Jetzt leeren">
@@ -82,7 +82,7 @@
 <!ENTITY updateCheck.label               "Nach Updates suchen, aber vor der Installation nachfragen">
 <!ENTITY updateCheck.accesskey           "N">
 <!ENTITY updateManual.label              "Nicht nach Updates suchen (nicht empfohlen: Sicherheitsrisiko)">
-<!ENTITY updateManual.accesskey          "N">
+<!ENTITY updateManual.accesskey          "d">
 
 <!ENTITY updateAutoAddonWarn.label       "Warnen, falls dadurch ein Add-on deaktiviert wird">
 <!ENTITY updateAutoAddonWarn.accesskey   "W">
@@ -90,55 +90,55 @@
 <!ENTITY updateAutoMetroWarn.label       "(&brandShortName; überprüft im Windows-8-Stil nicht die Kompatibilität der Add-ons)">
 
 <!ENTITY updateHistory.label             "Update-Chronik anzeigen">
-<!ENTITY updateHistory.accesskey         "p">
+<!ENTITY updateHistory.accesskey         "C">
 
 <!ENTITY updateOthers.label              "Automatisch aktualisieren:">
 <!ENTITY enableSearchUpdate.label        "Suchmaschinen">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+<!ENTITY enableSearchUpdate.accesskey    "S">
 
 <!ENTITY offlineNotify.label             "Nachfragen, wenn Websites Daten für die Verwendung im Offline-Modus speichern möchten.">
-<!ENTITY offlineNotify.accesskey         "T">
+<!ENTITY offlineNotify.accesskey         "w">
 <!ENTITY offlineNotifyExceptions.label   "Ausnahmen…">
-<!ENTITY offlineNotifyExceptions.accesskey "x">
+<!ENTITY offlineNotifyExceptions.accesskey "A">
 
 <!ENTITY offlineAppsList2.label          "Folgende Websites dürfen Daten für die Verwendung im Offline-Modus speichern:">
 <!ENTITY offlineAppsList.height          "7em">
 <!ENTITY offlineAppsListRemove.label     "Entfernen…">
-<!ENTITY offlineAppsListRemove.accesskey "R">
+<!ENTITY offlineAppsListRemove.accesskey "E">
 <!ENTITY offlineAppRemove.confirm        "Offline-Daten entfernen">
 
 <!ENTITY certificateTab.label            "Zertifikate">
-<!ENTITY certGroup.label                 "Persöhnliches Zertifikat">
+<!ENTITY certGroup.label                 "Persönliches Zertifikat">
 <!ENTITY certSelection.description       "Wenn eine Website nach dem persönlichen Sicherheitszertifikat verlangt:">
 <!ENTITY certs.auto                      "Automatisch eins wählen">
 <!ENTITY certs.auto.accesskey            "w">
 <!ENTITY certs.ask                       "Jedes Mal fragen">
-<!ENTITY certs.ask.accesskey             "i">
+<!ENTITY certs.ask.accesskey             "J">
 <!ENTITY ocspGroup.label                 "Zertifikat Validierung">
 <!ENTITY enableOCSP.label                "Das Online-Zertifikatsstatus-Protokoll (OCSP) verwenden, um die aktuelle Gültigkeit von Zertifikaten zu bestätigen">
-<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY enableOCSP.accesskey            "G">
 <!ENTITY requireOCSP.label               "Wenn eine OCSP-Server-Verbindung fehlschlägt, das Zertifikat als ungültig betrachten">
-<!ENTITY requireOCSP.accesskey           "f">
+<!ENTITY requireOCSP.accesskey           "W">
 <!ENTITY viewCerts.label                 "Zertifikate anzeigen">
-<!ENTITY viewCerts.accesskey             "s">
+<!ENTITY viewCerts.accesskey             "Z">
 <!ENTITY viewSecurityDevices.label       "Kryptographie-Module">
-<!ENTITY viewSecurityDevices.accesskey   "y">
+<!ENTITY viewSecurityDevices.accesskey   "K">
 
 <!ENTITY UACompatGroup.label    "Kompatibilität">
-<!ENTITY UACompat.label         "Benutzerkennung-Modus:">
+<!ENTITY UACompat.label         "Benutzerkennungs-Modus:">
 <!ENTITY UACompat.Native        "Nativ">
 <!ENTITY UACompat.Gecko         "Gecko Kompatibilität">
 <!ENTITY UACompat.Firefox       "Firefox Kompatibilität">
 
 <!ENTITY scrollparamTab.label               "Scrollen">
-<!ENTITY smoothscroll.explain.label         "Die Einstellungen unterhalb werden nur verwendet, wenn Sanftes Scrollen mit der Checkbox oberhalb, aktiviert ist.">
+<!ENTITY smoothscroll.explain.label         "Die folgenden Einstellungen werden nur verwendet, wenn Sanftes Scrollen in der oberen Checkbox aktiviert ist.">
 <!ENTITY smoothscroll.to                    "bis">
 <!ENTITY smoothscroll.params.label          "Sanftes Scrollen Parameter">
 <!ENTITY smoothscroll.mousewheel.label      "Sanftes Scrollen mit dem Mausrad">
-<!ENTITY smoothscroll.mousewheel.duration   "Mausrad Scroll-Geschwindigkeit:">
+<!ENTITY smoothscroll.mousewheel.duration   "Mausrad Scroll-Dauer:">
 <!ENTITY smoothscroll.arrowkeys.label       "Sanftes Scrollen mit den Pfeiltasten">
-<!ENTITY smoothscroll.arrowkeys.duration    "Pfeiltasten Scroll-Geschwindigkeit:">
-<!ENTITY smoothscroll.pagekeys.label        "Sanftes Scrollen mit der Bild Hoch/ Runter Taste">
-<!ENTITY smoothscroll.pagekeys.duration     "Bild Hoch/ Runter Scroll-Geschwindigkeit:">
+<!ENTITY smoothscroll.arrowkeys.duration    "Pfeiltasten Scroll-Dauer:">
+<!ENTITY smoothscroll.pagekeys.label        "Sanftes Scrollen mit den Bild Hoch/Runter-Tasten">
+<!ENTITY smoothscroll.pagekeys.duration     "Bild Hoch/Runter-Tasten Scroll-Dauer:">
 <!ENTITY smoothscroll.scrollbar.label       "Sanftes Scrollen mit den Bildlaufleisten">
-<!ENTITY smoothscroll.scrollbar.duration    "Bildlaufleisten Scroll-Geschwindigkeit:">
+<!ENTITY smoothscroll.scrollbar.duration    "Bildlaufleisten Scroll-Dauer:">

@@ -16,18 +16,24 @@
 
 <!ENTITY  locationBar.label             "Barra de direcciones">
 
-<!ENTITY  locbar.pre.label              "Cuando se use la barra de direcciones, sugerir:">
-<!ENTITY  locbar.pre.accessKey          "b">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "Historial y marcadores">
 <!ENTITY  locbar.suggest.label          "Cuando se use la barra de direcciones, sugerir:">
 <!ENTITY  locbar.history.label          "Historial">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Marcadores">
-<!ENTITY  locbar.nothing.label          "Nada">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "Abrir pestañas">
 <!ENTITY  locbar.openpage.accesskey     "O">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "Cuando se use la barra de direcciones, sugerir:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "b">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "Historial y marcadores">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.nothing.label          "Nada">
 
 <!ENTITY  acceptCookies.label           "Aceptar cookies">
 <!ENTITY  acceptCookies.accesskey       "c">
