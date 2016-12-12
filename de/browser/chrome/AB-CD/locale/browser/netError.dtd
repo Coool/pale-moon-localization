@@ -30,17 +30,16 @@
 ">
 
 <!ENTITY fileNotFound.title "Fehler: Datei nicht gefunden">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>Bitte überprüfen Sie den Dateinamen auf Rechtschreib-, Groß-/Kleinschreibungs- oder andere Fehler.</li>
-  <li>Bitte überprüfen Sie, ob die Datei umbenannt, gelöscht oder verschoben wurde.</li>
+<!ENTITY fileNotFound.longDesc "<ul>
+  <li>Bitte überprüfen Sie den Dateinamen auf Groß-/Kleinschreibung, Rechtschreib- oder andere Fehler.</li>
+  <li>Bitte überprüfen Sie, ob die Datei verschoben, umbenannt oder gelöscht wurde.</li>
 </ul>
 ">
 
 
 <!ENTITY generic.title "Fehler: Anfrage konnte nicht ausgeführt werden">
 <!ENTITY generic.longDesc "
-<p>&brandShortName; konnte die Seite aus irgendeinem Grund nicht laden.</p>
+<p>&brandShortName; konnte die Seite aus unbekanntem Grund nicht laden.</p>
 ">
 
 <!ENTITY malformedURI.title "Fehler: Ungültige Adresse">
@@ -86,8 +85,10 @@
 <!ENTITY netTimeout.title "Fehler: Netzwerk-Zeitüberschreitung">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "Die Adresse wurde nicht verstanden">
-<!ENTITY unknownProtocolFound.longDesc "<ul>   <li>Du musst möglicherweise andere Software installieren, um diese Adresse zu öffnen</li> </ul>">
+<!ENTITY unknownProtocolFound.title "Die Adresse wurde nicht erkannt">
+<!ENTITY unknownProtocolFound.longDesc "<ul>
+<li>Eventuell müssen Sie andere Software installieren, um diese Adresse aufrufen zu können.</li>
+</ul>">
 
 <!ENTITY proxyConnectFailure.title "Fehler: Proxy-Server verweigert die Verbindung">
 <!ENTITY proxyConnectFailure.longDesc "
@@ -116,7 +117,7 @@
 </ul>
 ">
 
-<!ENTITY unknownSocketType.title "Fehler: Unerwartete Antwort">
+<!ENTITY unknownSocketType.title "Fehler: Unerwartete Antwort vom Server">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
   <li>Bitte stellen Sie sicher, dass auf Ihrem System der Personal-Security-Manager 
@@ -126,21 +127,21 @@
 ">
 
 <!ENTITY nssFailure2.title "Fehler: Gesicherte Verbindung fehlgeschlagen">
-<!ENTITY nssFailure2.longDesc2 "<ul>   <li>Die Seite die du versuchst zu öffnen, kann nicht angezeigt werden da die Echtheit der erhaltenen Daten nicht verifiziert werden konnte</li>   <li>Bitte wende dich an den Webseiten Admin um das Problem zu lösen</li> </ul>">
+<!ENTITY nssFailure2.longDesc2 "<ul>
+<li>Die Website kann nicht angezeigt werden da die Echtheit der erhaltenen Daten nicht verifiziert werden konnte</li>
+<li>Kontaktieren Sie bitte den Inhaber der Website, um ihn über dieses Problem zu informieren.</li>
+</ul>">
 
 <!ENTITY nssBadCert.title "Sichere Verbindung fehlgeschlagen">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>Dies könnte ein Problem mit der Konfiguration des Servers sein oder jemand, der vorgibt, 
-	der Server zu sein.</li>
-  <li>Falls Sie früher bereits erfolgreich eine Verbindung zu dem Server aufgebaut haben, 
+<!ENTITY nssBadCert.longDesc2 "<ul>
+  <li>Dies könnte ein Problem mit der Konfiguration des Servers sein, oder jemand, der vorgibt, der Server zu sein.</li>
+  <li>Falls Sie früher bereits erfolgreich eine Verbindung zu diesem Server aufgebaut haben, 
 	könnte dies ein vorübergehender Fehler sein. Versuchen Sie es in diesem Fall später noch einmal.</li>
 </ul>
 ">
 
-<!ENTITY sharedLongDesc "
-<ul>
-  <li>Die Website könnte vorübergehend nicht erreichbar sein, versuchen Sie es bitte 
+<!ENTITY sharedLongDesc "<ul>
+  <li>Die Website könnte vorübergehend nicht erreichbar oder überlastet sein. Versuchen Sie es bitte 
 	später nochmals.</li>
   <li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die 
 	Netzwerk-/Internetverbindung.</li>
@@ -162,18 +163,18 @@
 ">
 
 <!ENTITY cspBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinien (Content Security Policy)">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; blockierte das laden dieser Webseite, da die Webseite eine Sicherheitsrichtlinie aktiviert hat die dies verhindert.</p>">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; verhinderte das Laden dieser Webseite, da die Webseite eine Sicherheitsrichtlinie hat, die dies nicht erlaubt.</p>">
 
-<!ENTITY xssBlockMode.title "Blockiert vom XSS Filter">
+<!ENTITY xssBlockMode.title "Blockiert vom XSS-Filter">
 <!ENTITY xssBlockMode.longDesc "<ul>
 
-<li>&brandShortName; blockiert weitere Aktionen auf dieser Seite, weil es
+<li>&brandShortName; blockiert weitere Aktionen auf dieser Seite, weil sie
 
-injizierten JavaScript code enthällt.</li>
+injizierten JavaScript-Code enthält.</li>
 
-<li>Das Laden dieser Seite wurde unterbrochen, weil entweder durch einer ausdrückliche Anfrage
+<li>Das Laden dieser Seite wurde unterbrochen, weil entweder durch eine ausdrückliche Anfrage
 
-dieser Seite das Blocken im Falle einer XSS Attacke ausgelöst hat, oder weil &brandShortName;
+der Seite das Blockieren im Falle einer XSS Attacke ausgelöst wurde, oder weil &brandShortName;
 
 konfiguriert wurde, Seiten in dieser Situation zu blocken.</li>
 
@@ -199,20 +200,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Melde diesen Fehler">
-<!ENTITY errorReporting.longDesc "Das melden dieser Webseite und der Zertifikat Information von <span id='hostname'></span> wird uns helfen bösartige Webseiten zu identifizieren und zu blocken. Danke für das aufbauen eines sicheren Internets!">
-<!ENTITY errorReporting.automatic "Melde zukünftige Probleme automatisch">
+<!ENTITY errorReporting.title "Diesen Fehler melden">
+<!ENTITY errorReporting.longDesc "Das Melden der Adresse und Zertifikatsinformationen für <span id='hostname'></span> hilft uns, bösartige Seiten zu erkennen und zu blockieren. Vielen Dank für Ihre Unterstützung beim Schaffen eines sicheren Internets!">
+<!ENTITY errorReporting.automatic "Fehler zukünftig automatisch melden">
 <!ENTITY errorReporting.learnMore "Weitere Informationen…">
-<!ENTITY errorReporting.sending "Sende Bericht">
+<!ENTITY errorReporting.sending "Bericht wird gesendet…">
 <!ENTITY errorReporting.sent "Bericht gesendet">
-<!ENTITY errorReporting.report "Bericht">
+<!ENTITY errorReporting.report "Bericht senden">
 <!ENTITY errorReporting.tryAgain "Nochmals versuchen">
 
 <!ENTITY remoteXUL.title "Remote-XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Bitte informieren Sie den Website-Inhaber über dieses Problem.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unfähig sicher zu verbinden">
+<!ENTITY sslv3Used.title "Keine sichere Verbindung möglich">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Erweiterte Infos: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.longDesc "Weitere Infos: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Weitere Informationen…">

@@ -60,14 +60,14 @@
 <!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageSecurity.label "Sécurité">
 <!ENTITY btnPageSecurity.tooltip "Journaliser les avertissements et les erreurs de sécurité">
-<!ENTITY btnPageSecurity.accesskey "v">
+<!ENTITY btnPageSecurity.accesskey "S">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
 <!ENTITY btnPageLogging.label   "Journalisation">
-<!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « console »">
+<!ENTITY btnPageLogging.tooltip "Journaliser les messages envoyés à l'objet « window.console »">
 <!ENTITY btnPageLogging.accesskey3 "u">
 <!ENTITY btnConsoleErrors       "Erreurs">
 <!ENTITY btnConsoleInfo         "Infos">
