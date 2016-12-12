@@ -92,7 +92,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.showOriginalSource): This is the label for
   -  the checkbox that toggles the display of original or sourcemap-derived
   -  sources. -->
-<!ENTITY debuggerUI.showOriginalSource           "Afficher les sources originales">
+<!ENTITY debuggerUI.showOriginalSource           "Afficher les sources d'origine">
 <!ENTITY debuggerUI.showOriginalSource.accesskey "O">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
@@ -144,9 +144,9 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.focusVariables): This is the text that appears
   -  in the source editor's context menu for the variables focus operation. -->
-<!ENTITY debuggerUI.focusVariables           "Sélectionner les variables de l'arbre">
-<!ENTITY debuggerUI.focusVariables.key       "l">
-<!ENTITY debuggerUI.focusVariables.accesskey "l">
+<!ENTITY debuggerUI.focusVariables           "Focaliser sur l'arbre des variables">
+<!ENTITY debuggerUI.focusVariables.key       "v">
+<!ENTITY debuggerUI.focusVariables.accesskey "v">
 
 <!-- LOCALIZATION NOTE (debuggerUI.condBreakPanelTitle): This is the text that
   -  appears in the conditional breakpoint panel popup as a description. -->
@@ -167,7 +167,7 @@
   -  appears in the debugger's side pane tabs. -->
 <!ENTITY debuggerUI.tabs.sources        "Sources">
 <!ENTITY debuggerUI.tabs.traces         "Traces">
-<!ENTITY debuggerUI.tabs.callstack      "Pile d'exécution">
+<!ENTITY debuggerUI.tabs.callstack      "Pile d'appels">
 <!ENTITY debuggerUI.tabs.variables      "Variables">
 <!ENTITY debuggerUI.tabs.events         "Évènements">
 

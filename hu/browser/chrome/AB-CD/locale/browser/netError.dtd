@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Ez a cím tiltva van">
-<!ENTITY deniedPortAccess.longDesc "<p>Ez a cím olyan hálózati portot használ (pl. <q>palemoon.org:25</q> a palemoon.org-on 25-ös porttal), amelyet általában a webböngészéstől <em>eltérő</em> célra szoktak használni. A böngésző megszakította ezt a lekérést az Ön védelme érdekében.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>A kért cím olyan portot adott meg (pl. <q>palemoon.org:25</q> a palemoon.org 25-ös portjához), amelyet általában <em>nem</em> szokás webböngészés céljaira használni. A böngésző nem engedélyezi ezt a lekérést az Ön védelme és biztonsága érdekében.</p>">
 
 <!ENTITY dnsNotFound.title "A kiszolgáló nem található">
 <!ENTITY dnsNotFound.longDesc "
@@ -200,14 +200,14 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.title "Hiba jelentése">
+<!ENTITY errorReporting.longDesc "A(z) <span id='hostname'></span> cím- és tanúsítványinformációinak jelentése segít a rosszindulatú webhelyek azonosításában és blokkolásában. Köszönjük, hogy segít biztonságosabbá tenni az internetet!">
+<!ENTITY errorReporting.automatic "Hibák automatikus jelentése a jövőben">
 <!ENTITY errorReporting.learnMore "További tudnivalók…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.sending "Jelentés küldése">
+<!ENTITY errorReporting.sent "Jelentés elküldve">
+<!ENTITY errorReporting.report "Jelentés">
+<!ENTITY errorReporting.tryAgain "Próbálja újra">
 
 <!ENTITY remoteXUL.title "Távoli XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Értesítse a webhely tulajdonosait erről a problémáról.</li></ul></p>">

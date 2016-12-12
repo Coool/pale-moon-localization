@@ -2,58 +2,58 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY index.title "App Manager">
-<!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.title "مدير التطبيق">
+<!ENTITY index.projects2 "التطبيقات">
+<!ENTITY index.device2 "الجهاز">
+<!ENTITY index.help "المساعدة">
 
-<!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
-<!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
-<!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
-<!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.debugMainProcess "تنقيح العملية الرئيسية">
+<!ENTITY device.debugMainProcessTooltip "افتح أدوات المطور المتصلة بالعملية الرئيسية على هذا الجهاز">
+<!ENTITY device.screenshot "لقطة الشاشة">
+<!ENTITY device.screenshotTooltip "افتح لقطة شاشة للوضع الحالي على الجهاز في لسان جديد">
+<!ENTITY device.title "مركز تحكم الجهاز">
+<!ENTITY device.notConnected "غير متصل. الرجاء توصيل الجهاز أدناه.">
+<!ENTITY device.startApp "ابدأ">
+<!ENTITY device.startAppTooltip "ابدأ هذا التطبيق على الجهاز">
+<!ENTITY device.stopApp "قف">
+<!ENTITY device.stopAppTooltip "أوقف هذا التطبيق على الجهاز">
+<!ENTITY device.debugApp "تنقيح">
+<!ENTITY device.debugAppTooltip "افتح أدوات المطور المتصلة بهذا التطبيق على الجهاز">
+<!ENTITY device.name "الاسم">
+<!ENTITY device.plain "عادي (افتراضي)">
+<!ENTITY device.privileged "ذو امتيازات">
+<!ENTITY device.certified "معتمد">
+<!ENTITY device.allow "اسمح">
+<!ENTITY device.allowTooltip "هذا التصريح مسموح للتطبيقات من هذا النوع">
+<!ENTITY device.prompt "وجّه">
+<!ENTITY device.promptTooltip "هذا التصريح يتطلب التوجيه من المستخدم للتطبيقات من هذا النوع">
+<!ENTITY device.deny "امنع">
+<!ENTITY device.denyTooltip "هذا التصريح ممنوع للتطبيقات من هذا النوع">
+<!ENTITY device.installedApps "التطبيقات المثبتة">
+<!ENTITY device.installedAppsTooltip "عرض قائمة بالتطبيقات المثبتة على الجهاز. بعض التطبيقات، مثل التطبيقات المعتمدة، قد تستثنى من هذا العرض.">
+<!ENTITY device.permissions "التصاريح">
+<!ENTITY device.permissionsTooltip "عرض جدول التصاريح التي يمكن للتطبيقات المختلفة الوصول إليها">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
-<!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.browserTabs "ألسنة المتصفح">
+<!ENTITY device.browserTabsTooltip "عرض قائمة بالألسنة في متصفح الجهاز المتصف">
+<!ENTITY device.debugBrowserTab "تنقيح">
+<!ENTITY device.debugBrowserTabTooltip "افتح أدوات المطور المتصلة بهذا اللسان على الجهاز">
+<!ENTITY device.help "المساعدة">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
+<!ENTITY connection.connectTooltip "اتصل بالجهاز">
+<!ENTITY connection.disconnect "اقطع الاتصال">
+<!ENTITY connection.disconnectTooltip "اقطع الاتصال بالجهاز الحالي أو المحاكي">
+<!ENTITY connection.notConnected2 "غير متصل.">
+<!ENTITY connection.connectTo "الاتصال بـ:">
+<!ENTITY connection.noDeviceFound "لا يوجد أجهزة. وصل جهازا">
+<!ENTITY connection.changeHostAndPort "غيّر">
+<!ENTITY connection.changeHostAndPortTooltip "غير المضيف والمنفذ المستخدم للاتصال بالجهاز (الافتراضي هو localhost:6000)">
+<!ENTITY connection.startSimulator "ابدأ المحاكي">
+<!ENTITY connection.startSimulatorTooltip "تبدء نسخة من المحاكي ووصلها">
+<!ENTITY connection.saveConnectionInfo "احفظ">
+<!ENTITY connection.saveConnectionInfoTooltip "احفظ المضيف والمنفذ">
+<!ENTITY connection.connecting "يتّصل…">
+<!ENTITY connection.disconnecting "يقطع الاتصال…">
 <!ENTITY connection.cancel "Cancel">
 <!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
 <!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">

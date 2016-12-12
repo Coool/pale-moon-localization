@@ -16,12 +16,23 @@
 
 <!ENTITY  locationBar.label             "Címsáv">
 
-<!ENTITY  locbar.pre.label              "A címsáv használatakor jelenjen meg:">
-<!ENTITY  locbar.pre.accessKey          "c">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "Előzmények és könyvjelzők">
+<!ENTITY  locbar.suggest.label          "A címsáv használatakor jelenjen meg:">
 <!ENTITY  locbar.history.label          "Előzmények">
+<!ENTITY  locbar.history.accesskey      "E">
 <!ENTITY  locbar.bookmarks.label        "Könyvjelzők">
+<!ENTITY  locbar.bookmarks.accesskey    "K">
+<!ENTITY  locbar.openpage.label         "Nyitott lapok">
+<!ENTITY  locbar.openpage.accesskey     "N">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "A címsáv használatakor jelenjen meg:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "c">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "Előzmények és könyvjelzők">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.nothing.label          "Egyik sem">
 
 <!ENTITY  acceptCookies.label           "Sütik elfogadása webhelyekről">
@@ -47,7 +58,7 @@
 <!ENTITY  showCookies.accesskey         "t">
 
 <!ENTITY  historyHeader.pre.label          "A &brandShortName;:">
-<!ENTITY  historyHeader.pre.accesskey      "F">
+<!ENTITY  historyHeader.pre.accesskey      "P">
 <!ENTITY  historyHeader.remember.label     "Megjegyzi az előzményeket">
 <!ENTITY  historyHeader.dontremember.label "Nem jegyzi meg az előzményeket">
 <!ENTITY  historyHeader.custom.label       "Egyéni beállításokat használ az előzményekhez">

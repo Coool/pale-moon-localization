@@ -25,10 +25,10 @@
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Tous les modules complémentaires ont été désactivés par le mode sans échec.">
-<!ENTITY warning.checkcompatibility.label          "La vérification de compatibilité des modules complémentaires est désactivée. Vous avez peut-être des modules complémentaires incompatibles.">
+<!ENTITY warning.checkcompatibility.label          "La vérification de compatibilité des modules complémentaires est désactivée. Il y a peut-être des modules complémentaires incompatibles.">
 <!ENTITY warning.checkcompatibility.enable.label   "Activer">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Activer la vérification de compatibilité">
-<!ENTITY warning.updatesecurity.label              "La vérification de mises à jour de sécurité pour les modules complémentaires est désactivée. Vous avez peut-être des modules complémentaires non sûrs.">
+<!ENTITY warning.updatesecurity.label              "La vérification de mises à jour de sécurité pour les modules complémentaires est désactivée. Il y a peut-être des modules complémentaires non sûrs.">
 <!ENTITY warning.updatesecurity.enable.label       "Activer">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Activer la vérification de mises à jour de sécurité pour les modules complémentaires">
 
@@ -39,8 +39,8 @@
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Rechercher">
 <!ENTITY view.discover.label                  "Catalogue">
-<!ENTITY view.recentUpdates.label             "Mis à jour">
-<!ENTITY view.availableUpdates.label          "À mettre à jour">
+<!ENTITY view.recentUpdates.label             "Mises à jour récentes">
+<!ENTITY view.availableUpdates.label          "Mises à jour disponibles">
 
 <!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label        "Rechercher des mises à jour">
@@ -63,8 +63,8 @@
 <!ENTITY updates.resetUpdatesToManual.label          "Désactiver la mise à jour automatique pour tous les modules">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "D">
 <!ENTITY updates.updating.label               "Mise à jour des modules">
-<!ENTITY updates.installed.label              "Vos modules ont été mis à jour.">
-<!ENTITY updates.downloaded.label             "Les mises à jour de vos modules ont été téléchargées.">
+<!ENTITY updates.installed.label              "Les modules ont été mis à jour.">
+<!ENTITY updates.downloaded.label             "Les mises à jour des modules ont été téléchargées.">
 <!ENTITY updates.restart.label                "Redémarrer maintenant pour terminer l'installation">
 <!ENTITY updates.noneFound.label              "Aucune mise à jour disponible">
 <!ENTITY updates.manualUpdatesFound.label     "Afficher les mises à jour disponibles">
@@ -121,9 +121,9 @@
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Que sont les modules complémentaires ?">
 <!ENTITY discover.description2                "Les modules complémentaires sont des applications permettant de personnaliser &brandShortName;
-  avec des fonctionnalités ou des styles supplémentaires. Gagnez du temps avec un panneau latéral, surveillez la météo ou changez l'apparence de &brandShortName;
-  à votre guise.">
-<!ENTITY discover.footer                      "Lorsque votre connexion Internet sera active, ce panneau vous permettra de découvrir
+avec des fonctionnalités ou des styles supplémentaires. Gagner du temps avec un panneau latéral, surveiller la météo ou changer l'apparence de &brandShortName;
+selon les goûts, etc.">
+<!ENTITY discover.footer                      "Lorsque la connexion Internet sera active, ce panneau permettra de découvrir
   certains des meilleurs modules complémentaires ainsi que les plus populaires.">
 
 <!-- detail view -->
@@ -133,7 +133,7 @@
 <!ENTITY detail.homepage.label                "Page d'accueil">
 <!ENTITY detail.numberOfDownloads.label       "Téléchargements">
 
-<!ENTITY detail.contributions.description     "Le développeur de ce module demande que vous l'aidiez à assurer la poursuite de son développement en lui versant une petite contribution.">
+<!ENTITY detail.contributions.description     "Le développeur de ce module demande de l'aide pour assurer la poursuite de son développement en lui versant une petite contribution.">
 
 <!ENTITY detail.updateType                    "Mises à jour automatiques">
 <!ENTITY detail.updateDefault.label           "Par défaut">
@@ -170,7 +170,7 @@
 <!ENTITY sort.name.tooltip                    "Trier par nom">
 <!ENTITY sort.dateUpdated.label               "Dernière mise à jour">
 <!ENTITY sort.dateUpdated.tooltip             "Trier par date de dernière mise à jour">
-<!ENTITY sort.relevance.label                 "Pertinence">
+<!ENTITY sort.relevance.label                 "Meilleur correspondance">
 <!ENTITY sort.relevance.tooltip               "Trier par pertinence">
 <!ENTITY sort.price.label                     "Prix">
 <!ENTITY sort.price.tooltip                   "Trier par prix">
@@ -210,9 +210,12 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Chargement…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Une erreur s'est produite lors du chargement des notes de version.">
 
+<!ENTITY addon.nativeAddon                    "Ce module cible directement Pale Moon">
+<!ENTITY addon.compatAddon                    "Ce module cible Mozilla Firefox et s’exécute en mode de compatibilité">
+
 <!ENTITY addon.createdBy.label                "Par ">
 
-<!ENTITY eula.title                           "Accord de licence utilisateur final">
+<!ENTITY eula.title                           "Accord de licence de l'utilisateur final">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
 <!ENTITY eula.accept                          "Accepter et installer…">

@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY permissionsManager.title        "Gestion des permissions">
+<!ENTITY permissionsManager.title        "Gestionnaire de permissions">
 
 <!ENTITY sites.search                    "Rechercher des sites">
 <!ENTITY sites.allSites                  "Tous les sites">
@@ -26,10 +26,14 @@
 <!ENTITY password.label                  "Enregistrer des mots de passe">
 <!ENTITY password.manage                 "Gérer les mots de passe…">
 
+<!ENTITY image.label                     "Charger les images">
+
 <!ENTITY cookie.label                    "Définir des cookies">
 <!ENTITY cookie.remove                   "Supprimer les cookies">
 <!ENTITY cookie.manage                   "Gérer les cookies…">
 <!ENTITY cookie.removeAll                "Supprimer tous les cookies">
+
+<!ENTITY install.label                   "Installer des extensions ou des thèmes">
 
 <!ENTITY geo.label                       "Partager ma localisation géographique">
 
@@ -39,6 +43,8 @@
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
 <!ENTITY indexedDB.label                 "Conserver des données hors connexion">
 
-<!ENTITY popup.label                     "Ouvrir des fenêtres popup">
+<!ENTITY popup.label                     "Ouvrir les fenêtres contextuelles (popup)">
 
 <!ENTITY fullscreen.label                "Plein écran">
+
+<!ENTITY pointerLock.label               "Masquer le pointeur de la souris">

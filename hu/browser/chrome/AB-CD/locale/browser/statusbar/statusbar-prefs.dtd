@@ -1,116 +1,116 @@
 <!ENTITY status4evar.window.title "Pale Moon állapotsor beállítások">
 
-<!ENTITY status4evar.pane.status "Status">
-<!ENTITY status4evar.pane.progress "Progress">
-<!ENTITY status4evar.pane.download "Download">
-<!ENTITY status4evar.pane.statusbar "Status Bar">
-<!ENTITY status4evar.pane.advanced "Advanced">
+<!ENTITY status4evar.pane.status "Állapot">
+<!ENTITY status4evar.pane.progress "Betöltés">
+<!ENTITY status4evar.pane.download "Letöltés">
+<!ENTITY status4evar.pane.statusbar "Állapotsor">
+<!ENTITY status4evar.pane.advanced "Haladó">
 
-<!ENTITY status4evar.tab.general "General">
-<!ENTITY status4evar.tab.toolbar "Status Bar">
-<!ENTITY status4evar.tab.urlbar "Address Bar">
-<!ENTITY status4evar.tab.popup "Pop-up">
-<!ENTITY status4evar.tab.tabs "Tabs">
+<!ENTITY status4evar.tab.general "Általános">
+<!ENTITY status4evar.tab.toolbar "Állapotsor">
+<!ENTITY status4evar.tab.urlbar "Címsor">
+<!ENTITY status4evar.tab.popup "Felbukkanóban">
+<!ENTITY status4evar.tab.tabs "Füleken">
 
-<!ENTITY status4evar.option.none "None">
-<!ENTITY status4evar.option.nothing "Nothing">
-<!ENTITY status4evar.option.toolbar "Status Bar">
-<!ENTITY status4evar.option.urlbar "Address Bar">
-<!ENTITY status4evar.option.popup "Pop-up">
-<!ENTITY status4evar.option.tooltip "Tooltip">
-<!ENTITY status4evar.option.bottom "Bottom">
-<!ENTITY status4evar.option.top "Top">
-<!ENTITY status4evar.option.fill "Fill">
-<!ENTITY status4evar.option.dlcount "Download count">
-<!ENTITY status4evar.option.dltime "Time remaining">
-<!ENTITY status4evar.option.both "Both">
-<!ENTITY status4evar.option.right "Right">
-<!ENTITY status4evar.option.left "Left">
-<!ENTITY status4evar.option.fixed "Fixed">
-<!ENTITY status4evar.option.simple "Simple">
-<!ENTITY status4evar.option.advanced "Advanced">
-<!ENTITY status4evar.option.browse "Browse">
-<!ENTITY status4evar.option.clear "Clear">
-<!ENTITY status4evar.option.center "Center">
-<!ENTITY status4evar.option.offset "Offset">
-<!ENTITY status4evar.option.repeat "Repeat">
-<!ENTITY status4evar.option.no-repeat "No Repeat">
-<!ENTITY status4evar.option.space "Space">
-<!ENTITY status4evar.option.round "Round">
-<!ENTITY status4evar.option.firefoxdefault "Pale Moon default">
-<!ENTITY status4evar.option.download.library "Library">
-<!ENTITY status4evar.option.download.tab "Tab">
-<!ENTITY status4evar.option.download.thirdparty "3rd Party">
+<!ENTITY status4evar.option.none "Sehol">
+<!ENTITY status4evar.option.nothing "Egyik sem">
+<!ENTITY status4evar.option.toolbar "Eszköztáron">
+<!ENTITY status4evar.option.urlbar "Címsorban">
+<!ENTITY status4evar.option.popup "Felbukkanóban">
+<!ENTITY status4evar.option.tooltip "Buboréksúgóban">
+<!ENTITY status4evar.option.bottom "Alul">
+<!ENTITY status4evar.option.top "Felül">
+<!ENTITY status4evar.option.fill "Kitöltés">
+<!ENTITY status4evar.option.dlcount "Letöltések száma">
+<!ENTITY status4evar.option.dltime "Hátralévő idő">
+<!ENTITY status4evar.option.both "Mindkettő">
+<!ENTITY status4evar.option.right "Jobboldalra">
+<!ENTITY status4evar.option.left "Baloldalra">
+<!ENTITY status4evar.option.fixed "Rögzítve">
+<!ENTITY status4evar.option.simple "Egyszerű">
+<!ENTITY status4evar.option.advanced "Haladó">
+<!ENTITY status4evar.option.browse "Tallózás">
+<!ENTITY status4evar.option.clear "Törlés">
+<!ENTITY status4evar.option.center "Középre">
+<!ENTITY status4evar.option.offset "Eltolva">
+<!ENTITY status4evar.option.repeat "Ismétlés">
+<!ENTITY status4evar.option.no-repeat "Nincs ismétlés">
+<!ENTITY status4evar.option.space "Hely">
+<!ENTITY status4evar.option.round "Kerekítés">
+<!ENTITY status4evar.option.firefoxdefault "Pale Moon alapértelmezett">
+<!ENTITY status4evar.option.download.library "Könyvtár">
+<!ENTITY status4evar.option.download.tab "Lap">
+<!ENTITY status4evar.option.download.thirdparty "Harmadik fél">
 
-<!ENTITY status4evar.unit.milliseconds "milliseconds">
-<!ENTITY status4evar.unit.seconds "seconds">
+<!ENTITY status4evar.unit.milliseconds "ezredmásodperc">
+<!ENTITY status4evar.unit.seconds "másodperc">
 <!ENTITY status4evar.unit.px "px">
 
-<!ENTITY status4evar.status.general.status.caption "Status Text">
-<!ENTITY status4evar.status.label "Show status in:">
-<!ENTITY status4evar.status.timeout.label "Hide the status after:">
-<!ENTITY status4evar.status.default.label "Show default status">
-<!ENTITY status4evar.status.network.label "Show network status">
-<!ENTITY status4evar.status.network.xhr.label "Show background network status">
-<!ENTITY toolkit.dom.status.change.label "Allow web pages to change the status">
+<!ENTITY status4evar.status.general.status.caption "Állapotszöveg">
+<!ENTITY status4evar.status.label "Állapotszöveg mutatása:">
+<!ENTITY status4evar.status.timeout.label "Állapotszövegek elrejtése:">
+<!ENTITY status4evar.status.default.label "Alapértelmezett állapot mutatása">
+<!ENTITY status4evar.status.network.label "Hálózati állapot mutatása">
+<!ENTITY status4evar.status.network.xhr.label "Bővített hálózati állapot mutatása">
+<!ENTITY toolkit.dom.status.change.label "Weboldalak megváltoztathatják az állapotszöveget">
 
-<!ENTITY status4evar.status.general.linkOver.caption "Links">
-<!ENTITY status4evar.status.linkOver.label "Show links in:">
-<!ENTITY status4evar.status.linkOver.delay.show.label "Delay before showing links:">
-<!ENTITY status4evar.status.linkOver.delay.hide.label "Delay before hiding links:">
+<!ENTITY status4evar.status.general.linkOver.caption "Hivatkozások">
+<!ENTITY status4evar.status.linkOver.label "Hivatkozások mutatása:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Hivatkozások megjelenítésének késleltetése:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Hivatkozások elrejtésének késleltetése:">
 
-<!ENTITY status4evar.status.toolbar.maxLength.label "Max status text length:">
+<!ENTITY status4evar.status.toolbar.maxLength.label "Maximális állapothossz:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Status alignment:">
-<!ENTITY status4evar.status.urlbar.color.label "Status color:">
-<!ENTITY status4evar.status.currentUrl "Current Location">
-<!ENTITY status4evar.status.statusText "Status Text">
+<!ENTITY status4evar.status.urlbar.align.label "Állapot igazítása:">
+<!ENTITY status4evar.status.urlbar.color.label "Betűszín:">
+<!ENTITY status4evar.status.currentUrl "Aktuális URL">
+<!ENTITY status4evar.status.statusText "Állapotszöveg">
 
-<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibility features">
-<!ENTITY browser.urlbar.formatting.enabled.label "Enable domain highlighting">
-<!ENTITY browser.urlbar.trimming.enabled.label "Enable protocol hiding (http:// and ftp://)">
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox kompatibilitási funkciók">
+<!ENTITY browser.urlbar.formatting.enabled.label "Domén-kiemelés engedélyezése">
+<!ENTITY browser.urlbar.trimming.enabled.label "Protokoll-elrejtés engedélyezése (http:// és ftp://)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "Default to the right side">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Swap sides when moused over">
+<!ENTITY status4evar.status.popup.invertMirror.label "Alapértelmezetten a jobboldalra">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Ugorjon a másik oldalra, mikor az egér fölé kerül">
 
-<!ENTITY status4evar.progress.style.label "Use a custom style">
+<!ENTITY status4evar.progress.style.label "Egyéni stílus használata a betöltési csíkon">
 
-<!ENTITY status4evar.progress.urlbar.enable.label "Show progress in the Address Bar">
-<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+<!ENTITY status4evar.progress.urlbar.enable.label "Betöltési állapot mutatása a címsorban">
+<!ENTITY status4evar.progress.urlbar.line.label "Vonal stílusa:">
 
-<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+<!ENTITY status4evar.progress.toolbar.force.label "Mindig mutassa az eszköztár elemet">
 
-<!ENTITY status4evar.editor.label "Editor:">
-<!ENTITY status4evar.editor.css.color.label "Color:">
-<!ENTITY status4evar.editor.css.image.label "Image:">
-<!ENTITY status4evar.editor.css.image.repeat "Repeat">
-<!ENTITY status4evar.editor.css.image.position "Position">
-<!ENTITY status4evar.editor.css.image.offset "Offset">
+<!ENTITY status4evar.editor.label "Szerkesztő:">
+<!ENTITY status4evar.editor.css.color.label "Szín:">
+<!ENTITY status4evar.editor.css.image.label "Kép:">
+<!ENTITY status4evar.editor.css.image.repeat "Ismétlés">
+<!ENTITY status4evar.editor.css.image.position "Helyzet">
+<!ENTITY status4evar.editor.css.image.offset "Eltolás">
 
 
 
-<!ENTITY status4evar.download.button.action.label "Download status button action:">
-<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
-<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
-<!ENTITY status4evar.download.label.label "Download status indicator text:">
-<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
-<!ENTITY status4evar.download.progress.label "Show download progress on the button">
-<!ENTITY status4evar.download.progress.average.label "Show average download completion">
-<!ENTITY status4evar.download.progress.max.label "Show most complete download">
-<!ENTITY status4evar.download.progress.min.label "Show least complete download">
-<!ENTITY status4evar.download.color.active.label "Progress color for active downloads:">
-<!ENTITY status4evar.download.color.paused.label "Progress color for paused downloads:">
-<!ENTITY status4evar.download.notify.animate.label "Animate button when download completes">
-<!ENTITY status4evar.download.notify.timeout.label "Highlight button when download completes:">
+<!ENTITY status4evar.download.button.action.label "Letöltés gomb feladata:">
+<!ENTITY status4evar.download.force.label "Mindig mutassa a Letöltési állapot gombot">
+<!ENTITY status4evar.download.label.force.label "Mindig mutassa a cimkéket">
+<!ENTITY status4evar.download.label.label "Letöltési állapot gomb címkéje:">
+<!ENTITY status4evar.download.tooltip.label "Letöltési állapot gomb buboréksúgója:">
+<!ENTITY status4evar.download.progress.label "Letöltés mérő mutatása a gombon">
+<!ENTITY status4evar.download.progress.average.label "Az átlagos letöltési előrehaladást mutassa">
+<!ENTITY status4evar.download.progress.max.label "A legjobban elkészült letöltést mutassa">
+<!ENTITY status4evar.download.progress.min.label "A legkevésbé elkészült letöltést mutassa">
+<!ENTITY status4evar.download.color.active.label "Letöltés mérő színe az aktív letöltésekhez:">
+<!ENTITY status4evar.download.color.paused.label "Letöltés mérő színe a felfüggesztett letöltésekhez:">
+<!ENTITY status4evar.download.notify.animate.label "Animálja a gombot ha a letöltés elkészült">
+<!ENTITY status4evar.download.notify.timeout.label "Emelje ki a gombot ha a letöltés elkészült:">
 
-<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
-<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
-<!ENTITY status4evar.addonbar.closeButton "Show the close button">
+<!ENTITY status4evar.addonbar.borderStyle "Alternatív eszköztár szegélyek használata">
+<!ENTITY status4evar.addonbar.windowGripper "Ablak átméretező mutatása">
+<!ENTITY status4evar.addonbar.closeButton "Bezárás gomb mutatása">
 
-<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
+<!ENTITY status4evar.advanced.warning "Ezek a haladók beállítások problémákat okozhatnak a Status-4-Evar-ben, vagy más kiegészítőkben. Csak saját felelősségre változtassa.">
 
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the the Address Bar XBL binding.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Kísérlet a címsor XBL kötésének erőltetésére.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Csak akkor válassza ezt az opciót, ha problémái vannak a címsor betöltési csík vagy a státusz szöveg megjelenítésével. Ez potenciálisan elronthat más kiegészítőket, amelyek a címsor XBL kötését használják.">
 
-<!ENTITY status4evar.advanced.status.detectFullScreen "Detect full-screen mode and show links/status appropriately.">
-<!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">
+<!ENTITY status4evar.advanced.status.detectFullScreen "Érzékelje a teljes képernyős módot, és annak megfelelően mutassa a linkeket/állapotot.">
+<!ENTITY status4evar.advanced.status.detectVideo "Ne mutassa a felugró állapotablakot teljes képernyős HTML5 videó lejátszása közben.">

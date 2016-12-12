@@ -7,7 +7,7 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "La connexion a échoué">
+<!ENTITY connectionFailure.title "Connexion échouée">
 <!ENTITY connectionFailure.longDesc "
 <p>Bien que le site semble valide, le navigateur n'a pas pu établir de
 connexion.</p>
@@ -27,7 +27,7 @@ connexion.</p>
 <!ENTITY deniedPortAccess.title "Port restreint pour des raisons de sécurité">
 <!ENTITY deniedPortAccess.longDesc "<p>L’adresse demandée indique un port (par ex. <q>palemoon.org:25</q> pour le port
 25 sur palemoon.org) qui est normalement utilisé pour d’<em>autres</em> usages
-que la navigation sur le Web. Le navigateur a annulé la requête pour la
+que la navigation sur le Web. Le navigateur a annulé la requête pour votre
 protection et sécurité.</p>">
 
 <!ENTITY dnsNotFound.title "Adresse introuvable">
@@ -55,18 +55,16 @@ protection et sécurité.</p>">
 </ul>
 ">
 
-<!ENTITY generic.title "La requête ne peut aboutir">
+<!ENTITY generic.title "Requête inaboutie">
 <!ENTITY generic.longDesc "
 <p>Pour une raison inconnue, le navigateur ne peut pas charger cette page.</p>
 ">
 
-<!ENTITY malformedURI.title "L'adresse n'est pas valide">
-<!ENTITY malformedURI.longDesc "
-<p>L'adresse fournie n'est pas dans un format reconnu. Veuillez vérifier qu'il
-n'y a pas d'erreur dans la barre d'adresse et réessayez.</p>
-">
+<!ENTITY malformedURI.title "Adresse non valide">
+<!ENTITY malformedURI.longDesc "<p>L'adresse fournie n'est pas dans un format reconnu. Merci de vérifier qu'il
+n'y a pas d'erreur dans la barre d'adresse et réessayer.</p>">
 
-<!ENTITY netInterrupt.title "La connexion a été interrompue">
+<!ENTITY netInterrupt.title "Transfert de données interrompu">
 <!ENTITY netInterrupt.longDesc "
 <p>Le navigateur s'est connecté avec succès mais la connexion a été interrompue
 pendant le transfert d'informations. Merci de réessayer.</p>
@@ -77,12 +75,12 @@ pendant le transfert d'informations. Merci de réessayer.</p>
   ou le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
 </ul>">
 
-<!ENTITY notCached.title "Le document est expiré">
+<!ENTITY notCached.title "Document expiré">
 <!ENTITY notCached.longDesc "
 <p>Le document demandé n'est pas disponible dans le cache du navigateur.</p>
 <ul>
   <li>Pour des raisons de sécurité, le navigateur ne redemande pas automatiquement les documents sensibles.</li>
-  <li>Cliquer sur « Essayer à nouveau » pour redemander le document à partir du site web.</li>
+  <li>Cliquer sur « Essayer à nouveau » pour redemander le document à partir du site Web.</li>
 </ul>
 ">
 
@@ -90,33 +88,31 @@ pendant le transfert d'informations. Merci de réessayer.</p>
 <!ENTITY netOffline.longDesc2 "<p>Le navigateur est en mode hors connexion et ne peut pas se connecter à l'adresse indiquée.</p>
 <ul>
   <li>L'ordinateur est-il connecté au réseau ?</li>
-  <li>Cliquez sur le bouton « Réessayer » pour revenir en mode connecté et recharger la page.</li>
+  <li>Cliquer sur le bouton « Réessayer » pour revenir en mode connecté et recharger la page.</li>
 </ul>
 ">
 
 <!ENTITY contentEncodingError.title "Erreur d'encodage de contenu">
-<!ENTITY contentEncodingError.longDesc "
-<p>La page que vous essayez de voir ne peut être affichée car elle utilise un
+<!ENTITY contentEncodingError.longDesc "<p>La page demandée ne peut être affichée car elle utilise un
 type de compression invalide ou non pris en charge.</p>
 <ul>
-  <li>Veuillez contacter le webmestre du site pour l'informer de ce problème.</li>
-</ul>
-">
+ <li>Merci de contacter le webmestre du site Web pour l'informer de ce problème.</li>
+</ul>">
 
 <!ENTITY unsafeContentType.title "Type de fichier non sûr">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Veuillez contacter les propriétaires du site web pour les informer de ce
-  problème.</li>
-</ul>">
-
-<!ENTITY netReset.title "La connexion a été réinitialisée">
-<!ENTITY netReset.longDesc "
-<p>La liaison au réseau a été interrompue pendant la négociation d'une
-connexion. Veuillez réessayer.</p>
+  <li>Merci de contacter les propriétaires du site Web pour les informer de ce problème.</li>
+</ul>
 ">
 
-<!ENTITY netTimeout.title "Le délai d'attente est dépassé">
+<!ENTITY netReset.title "Connexion interrompue">
+<!ENTITY netReset.longDesc "
+<p>La liaison au réseau a été interrompue pendant la négociation d'une
+connexion. Merci de réessayer.</p>
+">
+
+<!ENTITY netTimeout.title "Délai d'attente dépassé">
 <!ENTITY netTimeout.longDesc "
 <p>Le navigateur a attendu trop longtemps lors de la connexion au site et a
 arrêté d'attendre une réponse.</p>
@@ -132,42 +128,42 @@ arrêté d'attendre une réponse.</p>
   ou le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
 </ul>">
 
-<!ENTITY unknownProtocolFound.title "L'adresse n'a pas été reconnue">
+<!ENTITY unknownProtocolFound.title "Protocole inconnu">
 <!ENTITY unknownProtocolFound.longDesc "
 <p>L'adresse indique un protocole (par ex. « wxyz:// ») inconnu du navigateur
 qui ne peut donc pas se connecter correctement au site.</p>
 <ul>
   <li>Essayez-vous d'accéder à du contenu multimédia ou d'autres services non
-  texte ? Vérifiez les prérequis logiciels du site.</li>
+  texte ? Vérifier les prérequis logiciels du site.</li>
   <li>Certains protocoles peuvent nécessiter un logiciel tiers ou des plugins
   pour que le navigateur puisse les reconnaître.</li>
 </ul>
 ">
 
-<!ENTITY proxyConnectFailure.title "La connexion a été refusée par le serveur proxy">
+<!ENTITY proxyConnectFailure.title "Connexion refusée par le serveur proxy">
 <!ENTITY proxyConnectFailure.longDesc "
 <p>Le navigateur est configuré pour utiliser un serveur proxy mais le proxy a
 refusé la connexion.</p>
 <ul>
-  <li>La configuration proxy du navigateur est-elle correcte ? Vérifiez les
-  paramètres et réessayez.</li>
+  <li>La configuration proxy du navigateur est-elle correcte ? Vérifier les
+  paramètres et réessayer.</li>
   <li>Le service proxy autorise-t-il les connexions à partir de ce réseau ?</li>
-  <li>Vous avez toujours des problèmes ? Consultez votre administrateur réseau ou
-  votre fournisseur d'accès à Internet pour obtenir de l'aide.</li>
+  <li>Toujours des problèmes ? Consulter l'administrateur réseau ou
+le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
 </ul>
 ">
 
-<!ENTITY proxyResolveFailure.title "Le serveur proxy est introuvable">
-<!ENTITY proxyResolveFailure.longDesc "<p>Le navigateur est configuré pour utiliser un serveur proxy mais le serveur proxy est introuvable.</p><ul><li>La configuration proxy du navigateur est-elle correcte ? Vérifiez les paramètres et réessayez.</li><li>L'ordinateur est-il connecté au réseau ?</li><li>Vous avez toujours des problèmes ? Consultez votre administrateur réseau ou votre fournisseur d'accès à Internet pour obtenir de l'aide.</li></ul>">
+<!ENTITY proxyResolveFailure.title "Serveur proxy introuvable">
+<!ENTITY proxyResolveFailure.longDesc "<p>Le navigateur est configuré pour utiliser un serveur proxy mais le serveur proxy est introuvable.</p><ul><li>La configuration proxy du navigateur est-elle correcte ? Vérifier les paramètres et réessayer.</li><li>L'ordinateur est-il connecté au réseau ?</li><li>Toujours des problèmes ? Consulter l'administrateur réseau ou le fournisseur d'accès à Internet pour obtenir de l'aide.</li></ul>">
 
-<!ENTITY redirectLoop.title "La page n'est pas redirigée correctement">
-<!ENTITY redirectLoop.longDesc "<p>Le navigateur a arrêté d'attendre une réponse du site. Le site crée une redirection de telle sorte que la requête ne peut jamais aboutir.</p><ul><li>Avez-vous désactivé ou bloqué les cookies nécessaires pour ce site ?</li><li><em>NOTE</em> : Si le problème n'est pas résolu en acceptant les cookies de ce site, il s'agit probablement d'un problème de configuration du serveur et non de votre ordinateur.</li></ul>">
+<!ENTITY redirectLoop.title "Redirection circulaire">
+<!ENTITY redirectLoop.longDesc "<p>Le navigateur a arrêté d'attendre une réponse du site. Le site crée une redirection de telle sorte que la requête ne peut jamais aboutir.</p><ul><li>Avez-vous désactivé ou bloqué les cookies nécessaires pour ce site ?</li><li><em>NOTE</em> : si le problème n'est pas résolu en acceptant les cookies de ce site, il s'agit probablement d'un problème de configuration du serveur et non de cet ordinateur.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Réponse inattendue du serveur">
 <!ENTITY unknownSocketType.longDesc "<p>Le site a répondu à la requête réseau d'une façon inattendue et le navigateur ne peut continuer.</p>">
 
 <!ENTITY nssFailure2.title "Échec de la connexion sécurisée">
-<!ENTITY nssFailure2.longDesc2 "<p>La page que vous essayez de consulter ne peut pas être affichée car l'authenticité des données reçues ne peut être vérifiée.</p><ul><li>Veuillez contacter les propriétaires du site web pour les en informer.</li></ul>">
+<!ENTITY nssFailure2.longDesc2 "<p>La page demandée ne peut pas être affichée car l'authenticité des données reçues ne peut être vérifiée.</p><ul><li>Merci de contacter les propriétaires du site Web pour les en informer.</li></ul>">
 
 <!ENTITY nssBadCert.title "Échec de la connexion sécurisée">
 <!ENTITY nssBadCert.longDesc2 "
@@ -183,7 +179,7 @@ refusé la connexion.</p>
 <p>Les sites malveillants tentent d'installer des programmes qui volent les
 informations personnelles, qui utilisent votre ordinateur pour en attaquer
 d'autres ou qui endommagent votre système.</p>
-<p>Les propriétaires de sites web qui pensent que leur site a été rapporté à
+<p>Les propriétaires de sites Web qui pensent que leur site a été rapporté à
 tort comme malveillant peuvent <a href='https://www.stopbadware.org/request-review'>demander
 une révision</a>.</p>
 ">
@@ -194,17 +190,17 @@ une révision</a>.</p>
 d'identité ou à une autre fraude.</p>
 <p>Ces types de contrefaçon de sites sont utilisés dans des courriels frauduleux
 conçus pour des attaques par hameçonnage (ou phishing), dans lesquelles les pages
-web et les courriels frauduleux sont utilisés pour imiter des sources en
-lesquelles vous avez confiance.</p>">
+Web et les courriels frauduleux sont utilisés pour imiter des sources digne de confiance.</p>
+">
 
 <!ENTITY cspBlocked.title "Bloqué par une stratégie de sécurité de contenu">
 <!ENTITY cspBlocked.longDesc "<p>Le navigateur a empêché le chargement de cette page de cette manière car la page a une stratégie de sécurité de contenu qui ne le permet pas.</p>">
 
 <!ENTITY corruptedContentError.title "Erreur due à un contenu corrompu">
-<!ENTITY corruptedContentError.longDesc "<p>La page que vous essayez de voir ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>La page demandée ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Merci de contacter les propriétaires du site Web pour les informer de ce problème.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL distant">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Merci de contacter les propriétaires du site Web pour les informer de ce problème.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

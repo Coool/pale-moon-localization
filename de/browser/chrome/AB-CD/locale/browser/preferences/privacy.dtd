@@ -16,12 +16,23 @@
 
 <!ENTITY  locationBar.label             "Adressleiste">
 
-<!ENTITY  locbar.pre.label              "Beim Verwenden der Adresszeile, vorschlagen:">
-<!ENTITY  locbar.pre.accessKey          "d">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "Einträge aus Chronik und Lesezeichen">
+<!ENTITY  locbar.suggest.label          "Beim Verwenden der Adresszeile vorschlagen:">
 <!ENTITY  locbar.history.label          "Einträge aus der Chronik">
+<!ENTITY  locbar.history.accesskey      "C">
 <!ENTITY  locbar.bookmarks.label        "Einträge aus den Lesezeichen">
+<!ENTITY  locbar.bookmarks.accesskey    "L">
+<!ENTITY  locbar.openpage.label         "Offene Tabs">
+<!ENTITY  locbar.openpage.accesskey     "O">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "Beim Verwenden der Adresszeile vorschlagen:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "d">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "Einträge aus Chronik und Lesezeichen">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.nothing.label          "Nichts">
 
 <!ENTITY  acceptCookies.label           "Cookies akzeptieren">

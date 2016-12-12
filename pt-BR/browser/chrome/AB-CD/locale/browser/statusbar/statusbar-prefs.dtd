@@ -1,4 +1,4 @@
-<!ENTITY status4evar.window.title "Preferências da barra status de lua pálidas">
+<!ENTITY status4evar.window.title "Opções de barra de status do PaleMoon">
 
 <!ENTITY status4evar.pane.status "Status">
 <!ENTITY status4evar.pane.progress "Progresso">
@@ -70,47 +70,47 @@
 <!ENTITY browser.urlbar.formatting.enabled.label "Habilitar o realce de domínio">
 <!ENTITY browser.urlbar.trimming.enabled.label "Habilitar ocultação de protocolo (http:// e ftp: / /)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "Default to the right side">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Swap sides when moused over">
+<!ENTITY status4evar.status.popup.invertMirror.label "Padrão para o lado direito">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Trocar os lados quando não usar o mouse">
 
-<!ENTITY status4evar.progress.style.label "Use a custom style">
+<!ENTITY status4evar.progress.style.label "Usar um estilo personalizado">
 
-<!ENTITY status4evar.progress.urlbar.enable.label "Show progress in the Address Bar">
-<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+<!ENTITY status4evar.progress.urlbar.enable.label "Mostrar o progresso na barra de endereço">
+<!ENTITY status4evar.progress.urlbar.line.label "Estilo de linha:">
 
-<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+<!ENTITY status4evar.progress.toolbar.force.label "Sempre mostrar a barra de status">
 
 <!ENTITY status4evar.editor.label "Editor:">
-<!ENTITY status4evar.editor.css.color.label "Color:">
-<!ENTITY status4evar.editor.css.image.label "Image:">
-<!ENTITY status4evar.editor.css.image.repeat "Repeat">
-<!ENTITY status4evar.editor.css.image.position "Position">
-<!ENTITY status4evar.editor.css.image.offset "Offset">
+<!ENTITY status4evar.editor.css.color.label "Cor:">
+<!ENTITY status4evar.editor.css.image.label "Imagem:">
+<!ENTITY status4evar.editor.css.image.repeat "Repita">
+<!ENTITY status4evar.editor.css.image.position "Posição">
+<!ENTITY status4evar.editor.css.image.offset "Deslocamento">
 
 
 
-<!ENTITY status4evar.download.button.action.label "Download status button action:">
-<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
-<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
-<!ENTITY status4evar.download.label.label "Download status indicator text:">
-<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
-<!ENTITY status4evar.download.progress.label "Show download progress on the button">
-<!ENTITY status4evar.download.progress.average.label "Show average download completion">
-<!ENTITY status4evar.download.progress.max.label "Show most complete download">
-<!ENTITY status4evar.download.progress.min.label "Show least complete download">
-<!ENTITY status4evar.download.color.active.label "Progress color for active downloads:">
-<!ENTITY status4evar.download.color.paused.label "Progress color for paused downloads:">
-<!ENTITY status4evar.download.notify.animate.label "Animate button when download completes">
-<!ENTITY status4evar.download.notify.timeout.label "Highlight button when download completes:">
+<!ENTITY status4evar.download.button.action.label "Status do botão de download:">
+<!ENTITY status4evar.download.force.label "Mostrar sempre o indicador de Status de Download">
+<!ENTITY status4evar.download.label.force.label "Sempre mostrar o indicador de texto">
+<!ENTITY status4evar.download.label.label "Status do indicador de texto:">
+<!ENTITY status4evar.download.tooltip.label "Dica do status do indicador de download:">
+<!ENTITY status4evar.download.progress.label "Mostrar o progresso do download no botão">
+<!ENTITY status4evar.download.progress.average.label "Porcentagem do download completado">
+<!ENTITY status4evar.download.progress.max.label "Mostrar o download mais completo">
+<!ENTITY status4evar.download.progress.min.label "Mostrar o último download completo">
+<!ENTITY status4evar.download.color.active.label "Cor de progresso para downloads ativos:">
+<!ENTITY status4evar.download.color.paused.label "Cor de progresso para downloads pausados:">
+<!ENTITY status4evar.download.notify.animate.label "Animar botão quando o download for concluído">
+<!ENTITY status4evar.download.notify.timeout.label "Botão piscante quando o download for concluído:">
 
-<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
-<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
-<!ENTITY status4evar.addonbar.closeButton "Show the close button">
+<!ENTITY status4evar.addonbar.borderStyle "Use barra de ferramentas alternativa">
+<!ENTITY status4evar.addonbar.windowGripper "Mostrar a pinça de redimensionar janela">
+<!ENTITY status4evar.addonbar.closeButton "Mostrar botão fechar">
 
-<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
+<!ENTITY status4evar.advanced.warning "Essas configurações avançadas podem causar problemas com o Palemoon ou outras extensões. Modifique por sua conta e risco.">
 
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the the Address Bar XBL binding.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Tentar forçar a ligação endereço Bar XBL.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Selecionar esta opção somente se você tiver problemas com a barra de progresso ou status texto a ser exibir corretamente. Isto quebrará potencialmente outras extensões que tentam definir uma vinculação XBL na barra de endereço.">
 
-<!ENTITY status4evar.advanced.status.detectFullScreen "Detect full-screen mode and show links/status appropriately.">
-<!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">
+<!ENTITY status4evar.advanced.status.detectFullScreen "Detectar o modo de tela cheia e mostrar ligações/status apropriadamente.">
+<!ENTITY status4evar.advanced.status.detectVideo "Esconda o status em vídeo HTML5 de tela cheia.">

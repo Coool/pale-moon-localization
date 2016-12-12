@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "Complementos">
 
 <!ENTITY search.placeholder                   "Pesquisar complementos">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Pesquisar">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "F">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Excluir">
 <!ENTITY cmd.uninstallAddon.accesskey         "x">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Depurar">
 <!ENTITY cmd.showPreferencesWin.label         "Opções">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Modificar as opções deste complemento">
 <!ENTITY cmd.showPreferencesUnix.label        "Preferências">
@@ -126,8 +126,8 @@
 <!-- detail view -->
 <!ENTITY detail.version.label                 "Versão">
 <!ENTITY detail.lastupdated.label             "Última atualização">
-<!ENTITY detail.creator.label                 "Developer">
-<!ENTITY detail.homepage.label                "Homepage">
+<!ENTITY detail.creator.label                 "Desenvolvedor">
+<!ENTITY detail.homepage.label                "Página inicial">
 <!ENTITY detail.numberOfDownloads.label       "Downloads">
 
 <!ENTITY detail.contributions.description     "O autor solicita o seu apoio no desenvolvimento através de uma pequena contribuição.">
@@ -207,6 +207,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Carregando…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Desculpe, houve um erro ao carregar as notas da versão.">
 
+<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
+<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+
 <!ENTITY addon.createdBy.label                "Criação: ">
 
 <!ENTITY eula.title                           "Acordo de licença para o usuário final">
@@ -222,9 +225,9 @@
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
 <!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.learnmore "Saber mais">
+<!ENTITY experiment.info.learnmore.accesskey "S">
+<!ENTITY experiment.info.changetelemetry "Configurações de telemetria">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Saber mais…">

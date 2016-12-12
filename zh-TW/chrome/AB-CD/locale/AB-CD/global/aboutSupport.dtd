@@ -9,13 +9,13 @@
   如果您正在尋找關於 &brandShortName; 的一些常見問題，
   請看看我們的 <a id='supportLink'>支援網站</a>。">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "錯誤資訊報表">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "報表編號">
+<!ENTITY aboutSupport.crashes.sendDate "送出日期">
+<!ENTITY aboutSupport.crashes.allReports "所有錯誤報表">
+<!ENTITY aboutSupport.crashes.noConfig "此應用程式並未設定為要顯示錯誤資訊報表">
 
 <!ENTITY aboutSupport.extensionsTitle "擴充套件">
 <!ENTITY aboutSupport.extensionName "名稱">
@@ -23,13 +23,13 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "版本">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "實驗功能">
+<!ENTITY aboutSupport.experimentName "名稱">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentDescription "描述">
+<!ENTITY aboutSupport.experimentActive "啟用">
+<!ENTITY aboutSupport.experimentEndDate "結束日期">
+<!ENTITY aboutSupport.experimentHomepage "首頁">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "應用程式一般資訊">
@@ -39,7 +39,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "更新頻道">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "更新記錄">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "顯示更新記錄">
 
@@ -54,7 +54,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "使用者代理字串（User Agent）">
 <!ENTITY aboutSupport.appBasicsMemoryUse "記憶體使用量">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "多程序視窗">
 
 <!ENTITY aboutSupport.showDir.label "開啟資料夾">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -73,9 +73,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js 偏好設定">
 <!ENTITY aboutSupport.userJSDescription "您的設定檔資料夾中有一個 <a id='prefs-user-js-link'>user.js 檔案</a>，當中包含不是由 &brandShortName; 所建立的偏好設定。">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "被鎖定的重要偏好設定">
+<!ENTITY aboutSupport.lockedPrefsName "名稱">
+<!ENTITY aboutSupport.lockedPrefsValue "值">
 
 <!ENTITY aboutSupport.graphicsTitle "圖形">
 
@@ -94,7 +94,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "將文字複製到剪貼簿">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "將原始資料複製到剪貼簿">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxTitle "沙盒">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "試試安全模式">
+<!ENTITY aboutSupport.restartInSafeMode.label "重新啟動但停用附加元件…">
