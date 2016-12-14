@@ -10,20 +10,20 @@
 <!ENTITY  proxyTitle.label              "Configurar proxies para aceder à Internet">
 <!ENTITY  noProxyTypeRadio.label        "Sem proxy">
 <!ENTITY  noProxyTypeRadio.accesskey    "p">
-<!ENTITY  systemTypeRadio.label         "Utilizar as definições proxy do sistema">
-<!ENTITY  systemTypeRadio.accesskey     "x">
-<!ENTITY  WPADTypeRadio.label           "Detectar automaticamente as definições de proxy para esta rede">
+<!ENTITY  systemTypeRadio.label         "Utilizar definições do sistema">
+<!ENTITY  systemTypeRadio.accesskey     "U">
+<!ENTITY  WPADTypeRadio.label           "Detetar automaticamente as definições de proxy para esta rede">
 <!ENTITY  WPADTypeRadio.accesskey       "d">
 <!ENTITY  manualTypeRadio.label         "Configuração manual de proxy:">
 <!ENTITY  manualTypeRadio.accesskey     "m">
-<!ENTITY  autoTypeRadio.label           "URL de configuração automática de proxy:">
+<!ENTITY  autoTypeRadio.label           "URL de configuração automática do proxy:">
 <!ENTITY  autoTypeRadio.accesskey       "y">
 <!ENTITY  reload.label                  "Recarregar">
 <!ENTITY  reload.accesskey              "c">
 <!ENTITY  ftp.label                     "Proxy FTP:">
 <!ENTITY  ftp.accesskey                 "F">
 <!ENTITY  http.label                    "Proxy HTTP:">
-<!ENTITY  http.accesskey                "h">
+<!ENTITY  http.accesskey                "H">
 <!ENTITY  ssl.label                     "Proxy SSL:">
 <!ENTITY  ssl.accesskey                 "S">
 <!ENTITY  socks.label                   "Servidor SOCKS:">
@@ -36,9 +36,9 @@
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
 <!ENTITY  FTPport.accesskey             "r">
-<!ENTITY  SOCKSport.accesskey           "a">
-<!ENTITY  noproxy.label                 "Não utilizar Proxy para:">
-<!ENTITY  noproxy.accesskey             "n">
-<!ENTITY  noproxyExplain.label          "Exemplo: .mozilla.org, .net.nz, 192.168.1.0/24">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY  noproxy.label                 "Sem proxy para:">
+<!ENTITY  noproxy.accesskey             "m">
+<!ENTITY  noproxyExplain.label          "Exemplo: .palemoon.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Usar o mesmo proxy para todos os protocolos">
 <!ENTITY  shareproxy.accesskey          "x">
