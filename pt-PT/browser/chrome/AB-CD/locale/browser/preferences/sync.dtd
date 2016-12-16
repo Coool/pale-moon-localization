@@ -3,45 +3,45 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "Set Up &syncBrand.fullName.label;">
-<!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; lets you access your history, bookmarks, passwords and open tabs across all your devices.">
+<!ENTITY setupButton.label          "Configurar o &syncBrand.fullName.label;">
+<!ENTITY setupButton.accesskey      "C">
+<!ENTITY weaveDesc.label            "O &syncBrand.fullName.label; permite-lhe aceder ao histórico, marcadores, palavras-passe e separadores abertos em todos os seus dispositivos.">
 
 <!-- The page shown when logged in... -->
 
 <!-- Login error feedback -->
-<!ENTITY updatePass.label             "Update">
-<!ENTITY resetPass.label              "Reset">
+<!ENTITY updatePass.label             "Atualizar">
+<!ENTITY resetPass.label              "Repor">
 
 <!-- Manage Account -->
-<!ENTITY manageAccount.label          "Gerir conta ">
+<!ENTITY manageAccount.label          "Gerir conta">
 <!ENTITY manageAccount.accesskey      "n">
-<!ENTITY viewQuota.label              "View Quota">
-<!ENTITY changePassword2.label        "Change Password…">
-<!ENTITY myRecoveryKey.label          "My Recovery Key">
-<!ENTITY resetSync2.label             "Reset Sync…">
+<!ENTITY viewQuota.label              "Ver quota">
+<!ENTITY changePassword2.label        "Alterar palavra-passe…">
+<!ENTITY myRecoveryKey.label          "Minha chave de recuperação">
+<!ENTITY resetSync2.label             "Repor o Sync…">
 
-<!ENTITY pairDevice.label             "Pair a Device">
+<!ENTITY pairDevice.label             "Emparelhar um dispositivo">
 
-<!ENTITY syncMy.label               "Sync My">
-<!ENTITY engine.bookmarks.label     "Bookmarks">
-<!ENTITY engine.bookmarks.accesskey "m">
-<!ENTITY engine.tabs.label          "Tabs">
-<!ENTITY engine.tabs.accesskey      "T">
-<!ENTITY engine.history.label       "History">
-<!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Passwords">
+<!ENTITY syncMy.label               "Sincronizar">
+<!ENTITY engine.bookmarks.label     "Marcadores">
+<!ENTITY engine.bookmarks.accesskey "M">
+<!ENTITY engine.tabs.label          "Separadores">
+<!ENTITY engine.tabs.accesskey      "S">
+<!ENTITY engine.history.label       "Histórico">
+<!ENTITY engine.history.accesskey   "H">
+<!ENTITY engine.passwords.label     "Palavras-passe">
 <!ENTITY engine.passwords.accesskey "P">
-<!ENTITY engine.prefs.label         "Preferences">
-<!ENTITY engine.prefs.accesskey     "S">
-<!ENTITY engine.addons.label        "Add-ons">
-<!ENTITY engine.addons.accesskey    "A">
+<!ENTITY engine.prefs.label         "Preferências">
+<!ENTITY engine.prefs.accesskey     "s">
+<!ENTITY engine.addons.label        "Extras">
+<!ENTITY engine.addons.accesskey    "a">
 
 <!-- Device Settings -->
-<!ENTITY syncDeviceName.label       "Device Name:">
-<!ENTITY syncDeviceName.accesskey   "c">
-<!ENTITY unlinkDevice.label           "Unlink This Device">
+<!ENTITY syncDeviceName.label       "Nome do dispositivo:">
+<!ENTITY syncDeviceName.accesskey   "d">
+<!ENTITY unlinkDevice.label           "Desvincular este dispositivo">
 
 <!-- Footer stuff -->
-<!ENTITY prefs.tosLink.label        "Terms of Service">
-<!ENTITY prefs.ppLink.label         "Privacy Policy">
+<!ENTITY prefs.tosLink.label        "Termos do serviço">
+<!ENTITY prefs.ppLink.label         "Política de privacidade">

@@ -18,11 +18,11 @@
 
 <!ENTITY  locbar.suggest.label          "Nella barra degli indirizzi visualizza suggerimenti da:">
 <!ENTITY  locbar.history.label          "cronologia">
-<!ENTITY  locbar.history.accesskey      "H">
+<!ENTITY  locbar.history.accesskey      "n">
 <!ENTITY  locbar.bookmarks.label        "segnalibri">
-<!ENTITY  locbar.bookmarks.accesskey    "k">
-<!ENTITY  locbar.openpage.label         "Apri schede">
-<!ENTITY  locbar.openpage.accesskey     "O">
+<!ENTITY  locbar.bookmarks.accesskey    "b">
+<!ENTITY  locbar.openpage.label         "schede aperte">
+<!ENTITY  locbar.openpage.accesskey     "d">
 
 <!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.pre.label              "Nella barra degli indirizzi visualizza suggerimenti da:">
@@ -33,7 +33,7 @@
 <!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.both.label             "cronologia e segnalibri">
 <!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.nothing.label          "Niente">
+<!ENTITY  locbar.nothing.label          "nessun suggerimento">
 
 <!ENTITY  acceptCookies.label           "Accetta i cookie dai siti">
 <!ENTITY  acceptCookies.accesskey       "k">
@@ -57,11 +57,11 @@
 <!ENTITY  showCookies.label             "Mostra i cookie…">
 <!ENTITY  showCookies.accesskey         "r">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; provvederà a:">
+<!ENTITY  historyHeader.pre.label          "Impostazioni cronologia:">
 <!ENTITY  historyHeader.pre.accesskey      "m">
 <!ENTITY  historyHeader.remember.label     "salva la cronologia">
 <!ENTITY  historyHeader.dontremember.label "non salvare la cronologia">
-<!ENTITY  historyHeader.custom.label       "Utilizzare impostazioni personalizzate per la cronologia">
+<!ENTITY  historyHeader.custom.label       "utilizza impostazioni personalizzate">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "Verranno salvate la cronologia di navigazione, i download, le informazioni inserite nei moduli o nei campi di ricerca e i cookie impostati dai siti visitati.">

@@ -33,7 +33,7 @@
 <!ENTITY setDefault.accesskey            "o">
 <!ENTITY isDefault.label                 "&brandShortName; è attualmente il browser predefinito">
 
-<!ENTITY dataChoicesTab.label            "Scelta dei dati">
+<!ENTITY dataChoicesTab.label            "Condivisione dati">
 
 <!ENTITY crashReporterSection.label      "Segnalazione arresti anomali">
 <!ENTITY crashReporterDesc.label         "Invia a &vendorShortName; segnalazioni relative ad arresti anomali di &brandShortName; per migliorarne la stabilità e la sicurezza">
@@ -118,27 +118,27 @@
 <!ENTITY enableOCSP.label                "Utilizza il Protocollo per lo Stato dei Certificati Online (OCSP) per confermare la validità dei certificati.">
 <!ENTITY enableOCSP.accesskey            "U">
 <!ENTITY requireOCSP.label               "Quando non è possibile stabilire una connessione con il server OCSP, considera il certificato come non valido.">
-<!ENTITY requireOCSP.accesskey           "a">
+<!ENTITY requireOCSP.accesskey           "Q">
 <!ENTITY viewCerts.label                 "Mostra certificati">
 <!ENTITY viewCerts.accesskey             "M">
 <!ENTITY viewSecurityDevices.label       "Dispositivi di sicurezza">
 <!ENTITY viewSecurityDevices.accesskey   "D">
 
 <!ENTITY UACompatGroup.label    "Compatibilità">
-<!ENTITY UACompat.label         "Modalità dello User Agent:">
+<!ENTITY UACompat.label         "Modalità dell'User Agent:">
 <!ENTITY UACompat.Native        "Nativo">
 <!ENTITY UACompat.Gecko         "Compatibilità con Gecko">
 <!ENTITY UACompat.Firefox       "Compatibilità con Firefox">
 
 <!ENTITY scrollparamTab.label               "Scorrimento">
-<!ENTITY smoothscroll.explain.label         "I parametri sottoindicati hanno effetto solo se lo scorrimento continuo è abilitato nel complesso con la casella di controllo soprastante.">
+<!ENTITY smoothscroll.explain.label         "I parametri sotto indicati hanno effetto solamente se è abilitato lo scorrimento continuo nella casella sovrastante.">
 <!ENTITY smoothscroll.to                    "a">
 <!ENTITY smoothscroll.params.label          "Parametri di scorrimento continuo">
 <!ENTITY smoothscroll.mousewheel.label      "Scorrimento continuo con la rotella del mouse">
-<!ENTITY smoothscroll.mousewheel.duration   "Durata di scorrimento con rotella del mouse:">
-<!ENTITY smoothscroll.arrowkeys.label       "Scorrimento continuo con i tasti freccia">
-<!ENTITY smoothscroll.arrowkeys.duration    "Durata scorrimento con tasti freccia:">
-<!ENTITY smoothscroll.pagekeys.label        "Funzione pagina su/giù per scorrimento continuo">
-<!ENTITY smoothscroll.pagekeys.duration     "Durata di scorrimento Pagina su/giù:">
-<!ENTITY smoothscroll.scrollbar.label       "Scorrimento continuo con le barre di scorrimento">
-<!ENTITY smoothscroll.scrollbar.duration    "Durata scorrimento continuo con barra di scorrimento:">
+<!ENTITY smoothscroll.mousewheel.duration   "Durata dello scorrimento con la rotella del mouse:">
+<!ENTITY smoothscroll.arrowkeys.label       "Scorrimento continuo con le frecce direzionali">
+<!ENTITY smoothscroll.arrowkeys.duration    "Durata dello scorrimento con le frecce direzionali:">
+<!ENTITY smoothscroll.pagekeys.label        "Scorrimento continuo con pagina su/giù">
+<!ENTITY smoothscroll.pagekeys.duration     "Durata dello scorrimento con pagina su/giù:">
+<!ENTITY smoothscroll.scrollbar.label       "Scorrimento continuo con la barra di scorrimento">
+<!ENTITY smoothscroll.scrollbar.duration    "Durata dello scorrimento con la barra di scorrimento:">

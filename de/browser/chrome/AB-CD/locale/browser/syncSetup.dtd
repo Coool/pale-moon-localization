@@ -52,7 +52,7 @@
 <!ENTITY recoveryKeyEntry.label        "Ihr Wiederherstellungs-Schlüssel">
 <!ENTITY recoveryKeyEntry.accesskey    "S">
 <!ENTITY syncGenerateNewKey.label  "Einen neuen Schlüssel generieren">
-<!ENTITY recoveryKeyBackup.description "Sie benötigen den Wiederherstellungs-Schlüssel, um auf anderen Geräten auf &syncBrand.fullName.label; zuzugreifen. Bitte hinterlegen Sie eine Sicherheitskopie des Schlüssels. Wir können Ihnen nicht dabei helfen, den Wiederherstellungs-Schlüssel wiederzuerlangen.">
+<!ENTITY recoveryKeyBackup.description "Sie benötigen den Wiederherstellungs-Schlüssel, um auf anderen Geräten auf &syncBrand.fullName.label; zuzugreifen. Bitte erstellen Sie sich eine Sicherheitskopie des Schlüssels. Wir können Ihnen nicht dabei helfen, den Wiederherstellungs-Schlüssel wiederzuerlangen.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Drucken…">
 <!ENTITY button.syncKeyBackup.print.accesskey "D">
@@ -69,7 +69,7 @@
 <!ENTITY addDevice.dialog.enterCode.label   "Geben Sie den Code ein, den das Gerät anzeigt:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Bitte versuchen Sie es erneut.">
 <!ENTITY addDevice.dialog.successful.label  "Das Gerät wurde erfolgreich hinzugefügt. Die erste Synchronisation kann mehrere Minuten in Anspruch nehmen und wird im Hintergrund abgeschlossen.">
-<!ENTITY addDevice.dialog.recoveryKey.label     "Um Ihr Gerät zu aktivieren, benötigen Sie den Wiederherstellungs-Schlüssel. Bitte drucken oder sichern Sie diesen Schlüssel und nehmen Sie ihn mit sich.">
+<!ENTITY addDevice.dialog.recoveryKey.label     "Um Ihr Gerät zu aktivieren, benötigen Sie den Wiederherstellungs-Schlüssel. Bitte drucken oder sichern Sie diesen Schlüssel und bewahren Sie ihn gut auf.">
 <!ENTITY addDevice.dialog.connected.label   "Gerät verbunden">
 
 <!-- Existing Account Page 2: Manual Login -->
@@ -81,7 +81,7 @@
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "Sync-Einstellungen">
-<!ENTITY syncDeviceName.label       "Gerätname:">
+<!ENTITY syncDeviceName.label       "Gerätename:">
 <!ENTITY syncDeviceName.accesskey   "G">
 
 <!ENTITY syncMy.label               "Synchronisieren:">
@@ -101,7 +101,7 @@
 <!ENTITY choice2a.merge.main.label       "Zusammenführen der Daten auf diesem Gerät mit den &syncBrand.shortName.label;-Daten">
 <!ENTITY choice2.merge.recommended.label "Empfohlen:">
 <!ENTITY choice2a.client.main.label      "Ersetzen aller Daten auf diesem Gerät mit den &syncBrand.shortName.label;-Daten">
-<!ENTITY choice2a.server.main.label      "Überschreiben aller anderen Geräte mit den lokalen Daten">
+<!ENTITY choice2a.server.main.label      "Alle anderen Geräte ersetzen mit den Daten dieses Geräts">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Bestätigen">

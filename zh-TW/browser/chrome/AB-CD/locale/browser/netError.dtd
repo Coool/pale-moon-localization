@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "此網址已被限制">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>網址所指定的 Port (如 <q>palemoon.org:25</q> 則表示使用 Port 25) 通常<em>不是</em>給正常網站所使用的。 為了安全考量，已取消對該網址的瀏覽。</p>">
 
 <!ENTITY dnsNotFound.title "找不到伺服器">
 <!ENTITY dnsNotFound.longDesc "<ul>

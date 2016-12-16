@@ -108,13 +108,13 @@
 <!ENTITY offlineAppRemove.confirm        "Șterge datele offline">
 
 <!ENTITY certificateTab.label            "Certificate">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "Certificat personal">
 <!ENTITY certSelection.description       "Când un server cere certificatul meu personal:">
 <!ENTITY certs.auto                      "Selectează automat unul">
 <!ENTITY certs.auto.accesskey            "S">
 <!ENTITY certs.ask                       "Întreabă-mă de fiecare dată">
 <!ENTITY certs.ask.accesskey             "i">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "Validare certificat">
 <!ENTITY enableOCSP.label                "Folosește OCSP (protocolul de verificare a stării unui certificat online) pentru a confirma validitatea certificatelor">
 <!ENTITY enableOCSP.accesskey            "u">
 <!ENTITY requireOCSP.label               "Când o conexiune cu serverul OCSP eșuează, tratează certificatul ca invalid">
@@ -124,21 +124,21 @@
 <!ENTITY viewSecurityDevices.label       "Dispozitive de securitate">
 <!ENTITY viewSecurityDevices.accesskey   "D">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "Compatibilitate">
+<!ENTITY UACompat.label         "Mod Agent de utilizator:">
+<!ENTITY UACompat.Native        "Nativ">
+<!ENTITY UACompat.Gecko         "Compatibilitate Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilitate Firefox">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY scrollparamTab.label               "Derulare">
+<!ENTITY smoothscroll.explain.label         "Parametrii de mai jos au un efect doar dacă derulare lină este activată general cu caseta de selectare de mai sus.">
+<!ENTITY smoothscroll.to                    "către">
+<!ENTITY smoothscroll.params.label          "Parametrii derulare lină">
+<!ENTITY smoothscroll.mousewheel.label      "Derulare lină cu rotiţa mouse-ului">
+<!ENTITY smoothscroll.mousewheel.duration   "Durată derulare cu rotița mouse-ului:">
+<!ENTITY smoothscroll.arrowkeys.label       "Derulare lină cu săgeți">
+<!ENTITY smoothscroll.arrowkeys.duration    "Durată derulare cu taste săgeți:">
+<!ENTITY smoothscroll.pagekeys.label        "Derulare lină cu pagină sus/jos">
+<!ENTITY smoothscroll.pagekeys.duration     "Durată derulare lină cu pagină sus/jos:">
+<!ENTITY smoothscroll.scrollbar.label       "Derulare lină cu bare de derulare">
+<!ENTITY smoothscroll.scrollbar.duration    "Durată derulare lină cu bare de derulare:">
