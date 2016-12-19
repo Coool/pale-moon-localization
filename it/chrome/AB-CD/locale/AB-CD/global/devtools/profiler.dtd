@@ -13,21 +13,21 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
-<!ENTITY profilerUI.emptyNotice1    "Fare clic sul">
-<!ENTITY profilerUI.emptyNotice2    "bottone per avviare la registrazione delle chiamate di funzione JavaScript.">
+<!ENTITY profilerUI.emptyNotice1    "Fai clic sul pulsante">
+<!ENTITY profilerUI.emptyNotice2    "per avviare la registrazione delle chiamate di funzione JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
   -  in the call list view while recording a profile. -->
-<!ENTITY profilerUI.stopNotice1    "Fare clic sul">
-<!ENTITY profilerUI.stopNotice2    "pulsante per interrompere la profilatura.">
+<!ENTITY profilerUI.stopNotice1    "Fai clic nuovamente sul pulsante">
+<!ENTITY profilerUI.stopNotice2    "per interrompere la profilazione.">
 
 <!-- LOCALIZATION NOTE (profilerUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
-<!ENTITY profilerUI.loadingNotice "Caricamento in corso…">
+<!ENTITY profilerUI.loadingNotice "Caricamento…">
 
 <!-- LOCALIZATION NOTE (profilerUI.recordButton): This string is displayed
   -  on a button that starts a new profile. -->
-<!ENTITY profilerUI.recordButton.tooltip "Registrare le chiamate di funzione JavaScript.">
+<!ENTITY profilerUI.recordButton.tooltip "Registra le chiamate di funzione JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.importButton): This string is displayed
   -  on a button that opens a dialog to import a saved profile data file. -->
@@ -39,65 +39,65 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.clearButton): This string is displayed
   -  on a button that remvoes all the recordings. -->
-<!ENTITY profilerUI.clearButton "Azzera">
+<!ENTITY profilerUI.clearButton "Cancella">
 
 <!-- LOCALIZATION NOTE (profilerUI.toolbar.*): These strings are displayed
   -  in the toolbar on buttons that select which view is currently shown. -->
-<!ENTITY profilerUI.toolbar.waterfall "Timeline">
+<!ENTITY profilerUI.toolbar.waterfall "Sequenza temporale">
 <!ENTITY profilerUI.toolbar.js-calltree "JavaScript">
 <!ENTITY profilerUI.toolbar.memory-calltree "Memoria">
-<!ENTITY profilerUI.toolbar.js-flamegraph "JS Flame Chart">
-<!ENTITY profilerUI.toolbar.memory-flamegraph "Memory Flame Chart">
+<!ENTITY profilerUI.toolbar.js-flamegraph "Flame chart JS">
+<!ENTITY profilerUI.toolbar.memory-flamegraph "Flame chart memoria">
 
 <!-- LOCALIZATION NOTE (profilerUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
 <!ENTITY profilerUI.table.totalDuration2  "Tempo totale">
-<!ENTITY profilerUI.table.selfDuration2   "Auto tempo">
+<!ENTITY profilerUI.table.selfDuration2   "Tempo individuale">
 <!ENTITY profilerUI.table.totalPercentage "Costo totale">
-<!ENTITY profilerUI.table.selfPercentage  "Auto costo">
+<!ENTITY profilerUI.table.selfPercentage  "Costo individuale">
 <!ENTITY profilerUI.table.samples         "Campioni">
 <!ENTITY profilerUI.table.totalAlloc      "Allocazioni totali">
-<!ENTITY profilerUI.table.selfAlloc       "Allocazioni auto">
+<!ENTITY profilerUI.table.selfAlloc       "Allocazioni individuali">
 <!ENTITY profilerUI.table.function        "Funzione">
 
 <!-- LOCALIZATION NOTE (profilerUI.newtab.tooltiptext): The tooltiptext shown
   -  on the "+" (new tab) button for a profile when a selection is available. -->
-<!ENTITY profilerUI.newtab.tooltiptext "Aggiungi nuova scheda da selezione">
+<!ENTITY profilerUI.newtab.tooltiptext "Aggiungi nuova scheda dalla selezione">
 
 <!-- LOCALIZATION NOTE (profilerUI.options.tooltiptext): This is the tooltip
   -  for the options button. -->
-<!ENTITY profilerUI.options.tooltiptext "Configurare le preferenze delle prestazioni.">
+<!ENTITY profilerUI.options.tooltiptext "Configura preferenze prestazioni.">
 
 <!-- LOCALIZATION NOTE (profilerUI.invertTree): This is the label shown next to
   -  a checkbox that inverts and un-inverts the profiler's call tree. -->
-<!ENTITY profilerUI.invertTree             "Inverti albero delle chiamate">
-<!ENTITY profilerUI.invertTree.tooltiptext "Invertire l'albero delle chiamate visualizza i percorsi di chiamata profilati a partire dalle frame più giovani verso le più vecchie.">
+<!ENTITY profilerUI.invertTree             "Inverti albero chiamate">
+<!ENTITY profilerUI.invertTree.tooltiptext "Invertendo la visualizzazione dell’albero verranno mostrate prima le chiamate dai riquadri (frame) più recenti.">
 
 <!-- LOCALIZATION NOTE (profilerUI.invertFlameGraph): This is the label shown next to
   -  a checkbox that inverts and un-inverts the profiler's flame graph. -->
-<!ENTITY profilerUI.invertFlameGraph             "Inverti Flame Chart">
-<!ENTITY profilerUI.invertFlameGraph.tooltiptext "Invertire la flame chart visualizza i percorsi di chiamata profilati a partire dalle frame più giovani verso le più vecchie.">
+<!ENTITY profilerUI.invertFlameGraph             "Inverti Flame chart">
+<!ENTITY profilerUI.invertFlameGraph.tooltiptext "Invertendo il grafico verranno mostrate prima le chiamate dai riquadri (frame) più recenti.">
 
 <!-- LOCALIZATION NOTE (profilerUI.showPlatformData): This is the
   -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
-<!ENTITY profilerUI.showPlatformData             "Visualizza dati della piattaforma Goanna">
-<!ENTITY profilerUI.showPlatformData.tooltiptext "Mostrare i dati di piattaforma dati consente ai report del JavaScript Profiler di includere simboli della piattaforma Goanna.">
+<!ENTITY profilerUI.showPlatformData             "Visualizza dati piattaforma Goanna">
+<!ENTITY profilerUI.showPlatformData.tooltiptext "La visualizzazione dei dati della piattaforma Goanna permette di includerne i simboli nei rapporti del Profiler JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.flattenTreeRecursion): This is the
   -  label for the checkbox that toggles the flattening of tree recursion in inspected
   -  functions in the profiler. -->
-<!ENTITY profilerUI.flattenTreeRecursion             "Appiattire l'albero di recursione">
-<!ENTITY profilerUI.flattenTreeRecursion.tooltiptext "Appiattire la recursione durante l'ispezione delle funzioni.">
+<!ENTITY profilerUI.flattenTreeRecursion             "Appiattisci albero ricorsioni">
+<!ENTITY profilerUI.flattenTreeRecursion.tooltiptext "Appiattisci le ricorsioni durante l’analisi delle funzioni.">
 
 <!-- LOCALIZATION NOTE (profilerUI.enableMemory): This string
   -  is displayed next to a checkbox determining whether or not memory
   -  measurements are enabled. -->
-<!ENTITY profilerUI.enableMemory             "Registra Memoria">
-<!ENTITY profilerUI.enableMemory.tooltiptext "Registra il consumo di memoria durante la profilatura.">
+<!ENTITY profilerUI.enableMemory             "Registra memoria">
+<!ENTITY profilerUI.enableMemory.tooltiptext "Registra l’utilizzo della memoria durante la profilazione.">
 
 <!-- LOCALIZATION NOTE (profilerUI.enableFramerate): This string
   -  is displayed next to a checkbox determining whether or not framerate
   -  is recorded. -->
-<!ENTITY profilerUI.enableFramerate             "Registra frame rate">
-<!ENTITY profilerUI.enableFramerate.tooltiptext "Registra il frame rate durante la profilatura.">
+<!ENTITY profilerUI.enableFramerate             "Frequenza registrazione">
+<!ENTITY profilerUI.enableFramerate.tooltiptext "Frequenza con cui viene registrata la profilazione.">

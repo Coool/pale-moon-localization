@@ -33,8 +33,8 @@
 <!ENTITY warning.updatesecurity.enable.tooltip     "Habilitar la comprobación de seguridad de complementos">
 
 <!-- global informations -->
-<!ENTITY info.plugincheck.label                 "Haz clic aquí para ver si tus complementos están actualizados">
-<!ENTITY info.plugincheck.tooltip               "Haz clic aquí para ver si tus complementos están actualizados">
+<!ENTITY info.plugincheck.label                 "Revisar si tus complementos están actualizados">
+<!ENTITY info.plugincheck.tooltip               "Revisar si tus complementos están actualizados">
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Buscar">
@@ -85,7 +85,7 @@
 
 <!ENTITY cmd.enableAddon.label                "Habilitar">
 <!ENTITY cmd.enableAddon.accesskey            "H">
-<!ENTITY cmd.disableAddon.label               "Desactivar">
+<!ENTITY cmd.disableAddon.label               "Deshabilitar">
 <!ENTITY cmd.disableAddon.accesskey           "D">
 <!ENTITY cmd.enableTheme.label                "Usar tema">
 <!ENTITY cmd.enableTheme.accesskey            "U">
@@ -104,17 +104,17 @@
 <!ENTITY cmd.uninstallAddon.accesskey         "E">
 <!ENTITY cmd.debugAddon.label                 "Depurar">
 <!ENTITY cmd.showPreferencesWin.label         "Opciones">
-<!ENTITY cmd.showPreferencesWin.tooltip       "Modifica las opciones para este complemento">
+<!ENTITY cmd.showPreferencesWin.tooltip       "Configura las opciones de este complemento">
 <!ENTITY cmd.showPreferencesUnix.label        "Preferencias">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "Modifica las preferencias para este complemento">
 <!ENTITY cmd.contribute.label                 "Contribuir">
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "Contribuye al desarrollo de este complemento">
 
-<!ENTITY cmd.showReleaseNotes.label           "Mostrar notas de la versión">
-<!ENTITY cmd.showReleaseNotes.tooltip         "Mostrar las notas de la versión de esta actualización">
-<!ENTITY cmd.hideReleaseNotes.label           "Ocultar notas de la versión">
-<!ENTITY cmd.hideReleaseNotes.tooltip         "Ocultar las notas de la versión de esta actualización">
+<!ENTITY cmd.showReleaseNotes.label           "Mostrar notas de publicación">
+<!ENTITY cmd.showReleaseNotes.tooltip         "Mostrar las notas de publicación de esta actualización">
+<!ENTITY cmd.hideReleaseNotes.label           "Ocultar notas de publicación">
+<!ENTITY cmd.hideReleaseNotes.tooltip         "Ocultar las notas de publicación de esta actualización">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -137,11 +137,11 @@
 
 <!ENTITY detail.updateType                    "Actualizaciones automáticas">
 <!ENTITY detail.updateDefault.label           "Predeterminado">
-<!ENTITY detail.updateDefault.tooltip         "Instalar automáticamente las actualizaciones si es lo predeterminado">
+<!ENTITY detail.updateDefault.tooltip         "Las actualizaciones se instalarán automáticamente si así está predeterminado">
 <!ENTITY detail.updateAutomatic.label         "Activar">
-<!ENTITY detail.updateAutomatic.tooltip       "Instalar automáticamente las actualizaciones">
+<!ENTITY detail.updateAutomatic.tooltip       "Las actualizaciones se instalarán automáticamente">
 <!ENTITY detail.updateManual.label            "Desactivar">
-<!ENTITY detail.updateManual.tooltip          "No instalar actualizaciones automáticamente">
+<!ENTITY detail.updateManual.tooltip          "Las actualizaciones no se instalarán automáticamente">
 <!ENTITY detail.home                          "Página principal">
 <!ENTITY detail.repository                    "Perfil del complemento">
 <!ENTITY detail.size                          "Tamaño">
@@ -151,7 +151,7 @@
 <!ENTITY detail.checkForUpdates.tooltip       "Buscar actualizaciones para este complemento">
 <!ENTITY detail.showPreferencesWin.label      "Opciones">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "Modifica las opciones para este complemento">
+<!ENTITY detail.showPreferencesWin.tooltip    "Configura las opciones de este complemento">
 <!ENTITY detail.showPreferencesUnix.label     "Preferencias">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Modifica las preferencias para este complemento">
@@ -206,9 +206,9 @@
 <!ENTITY addon.includeUpdate.label            "Incluir en la actualización">
 <!ENTITY addon.updateAvailable.label          "Una actualización está disponible">
 <!ENTITY addon.checkingForUpdates.label       "Buscando actualizaciones…">
-<!ENTITY addon.releaseNotes.label             "Notas de la versión:">
+<!ENTITY addon.releaseNotes.label             "Notas de publicación:">
 <!ENTITY addon.loadingReleaseNotes.label      "Cargando...">
-<!ENTITY addon.errorLoadingReleaseNotes.label "Lo sentimos, pero hubo un error al cargar las notas de la versión.">
+<!ENTITY addon.errorLoadingReleaseNotes.label "Lo sentimos, pero hubo un error al cargar las notas de publicación.">
 
 <!ENTITY addon.nativeAddon                    "Este complemento está diseñado específicamente para Pale Moon">
 <!ENTITY addon.compatAddon                    "Este complemento está diseñado para Mozilla Firefox y funciona en modo de compatibilidad">

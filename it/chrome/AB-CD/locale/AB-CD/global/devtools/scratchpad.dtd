@@ -53,25 +53,25 @@
 <!ENTITY viewMenu.label               "Visualizza">
 <!ENTITY viewMenu.accesskey           "V">
 
-<!ENTITY lineNumbers.label             "Visualizza i numeri di riga">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.label             "Visualizza numero riga">
+<!ENTITY lineNumbers.accesskey         "n">
 
-<!ENTITY wordWrap.label                "Testo continuo">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Testo a capo">
+<!ENTITY wordWrap.accesskey            "T">
 
-<!ENTITY highlightTrailingSpace.label     "Evidenzia spazi a fine riga">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Evidenzia spazi finali">
+<!ENTITY highlightTrailingSpace.accesskey "E">
 
 <!ENTITY largerFont.label             "Carattere più grande">
 <!ENTITY largerFont.accesskey         "a">
 <!ENTITY largerFont.commandkey        "+">
 
 <!ENTITY smallerFont.label            "Carattere più piccolo">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.accesskey        "a">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Dimensioni normali">
-<!ENTITY normalSize.accesskey         "N">
+<!ENTITY normalSize.label             "Carattere predefinito">
+<!ENTITY normalSize.accesskey         "r">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "Modifica">
@@ -89,9 +89,9 @@
 <!ENTITY display.accesskey            "V">
 <!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Stampa esteticamente piacevole">
+<!ENTITY pprint.label                 "Formatta codice">
 <!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.accesskey             "F">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -150,5 +150,5 @@
   -  to evaluate the top-level function that the cursor is currently at.
   -->
 <!ENTITY evalFunction.label "Valuta la funzione corrente">
-<!ENTITY evalFunction.accesskey "v">
+<!ENTITY evalFunction.accesskey "V">
 <!ENTITY evalFunction.key "e">
