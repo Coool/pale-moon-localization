@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Questo indirizzo è bloccato">
-<!ENTITY deniedPortAccess.longDesc "<p>L'indirizzo richiesto specifica una porta (ad esempio <q>palemoon.org:25</q> per la porta 25 su palemoon.org) normalmente utilizzata per <em>altri</em> scopi che la navigazione sul Web. Il browser ha annullato la richiesta per protezione e sicurezza.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Questo indirizzo utilizza una porta di rete (ad esempio <q>palemoon.org:25</q> per la porta 25 su palemoon.org) normalmente destinata a scopi <em>differenti</em> dalla navigazione web. Il browser ha annullato la richiesta per motivi di sicurezza.</p>">
 
 <!ENTITY dnsNotFound.title "Impossibile contattare il server">
 <!ENTITY dnsNotFound.longDesc "
@@ -80,9 +80,9 @@
 <!ENTITY netTimeout.title "Tempo per la connessione esaurito">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "L'indirizzo non è stato compreso">
+<!ENTITY unknownProtocolFound.title "Indirizzo non interpretabile">
 <!ENTITY unknownProtocolFound.longDesc "
- <ul><li>Potrebbe essere necessario installare altri software per aprire questo indirizzo.</li></ul>
+ <ul><li>È necessario installare del software aggiuntivo per aprire questo indirizzo.</li></ul>
 ">
 
 <!ENTITY proxyConnectFailure.title "Connessione rifiutata dal server proxy">
@@ -115,7 +115,7 @@
 
 <!ENTITY nssFailure2.title "Connessione sicura non riuscita">
 <!ENTITY nssFailure2.longDesc2 "
-<ul><li>La pagina richiesta non può essere visualizzata in quanto l'autenticita' dei dati ricevutinnon puo' essere verificata.</li><li>Contattare il proprietario del sito web e segnalare il problema.</li></ul>
+<ul><li>La pagina che si sta cercando di visualizzare non può essere mostrata in quanto non è possibile verificare l'autenticità dei dati ricevuti.</li><li>Contattare il responsabile del sito web per informarlo del problema.</li></ul>
 ">
 
 <!ENTITY nssBadCert.title "Connessione sicura non riuscita">
@@ -143,8 +143,8 @@
 <p>L'inserimento di informazioni personali in questa pagina può dare origine a furti d'identità o altre frodi.</p>
 <p>Questo tipo di contraffazione viene sfruttato nei cosiddetti attacchi phishing, dove vengono utilizzate in modo fraudolento pagine web ed email per imitare fonti di cui solitamente ci si fida.</p>">
 
-<!ENTITY cspBlocked.title "Bloccati dai criteri di sicurezza del contenuto">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; h impedito IL caricamento DI questa pagina in questo modo perché la pagina ha una politica di sicurezza del contenuto che non lo consente.</p>">
+<!ENTITY cspBlocked.title "Bloccato dai criteri sulla sicurezza dei contenuti">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; ha bloccato il caricamento della pagina con questa modalità in quanto include dei criteri sulla sicurezza dei contenuti che lo impediscono.</p>">
 
 <!ENTITY xssBlockMode.title "Bloccato dal filtro XSS">
 <!ENTITY xssBlockMode.longDesc "
@@ -171,11 +171,11 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Segnalare l'errore">
-<!ENTITY errorReporting.longDesc "Segnalare le informazioni di indirizzo e certificato per <span id='hostname'></span> ci aiuterà a identificare e bloccare siti dannosi. Grazie per aiutarci a creare un web più sicuro!">
-<!ENTITY errorReporting.automatic "Segnalazione automatica degli errori in futuro">
+<!ENTITY errorReporting.title "Segnala questo errore">
+<!ENTITY errorReporting.longDesc "La segnalazione dell’indirizzo e delle informazioni sul certificato relativi a <span id='hostname'></span> ci aiuta a identificare e bloccare siti malevoli. Aiutaci a creare un Web più sicuro.">
+<!ENTITY errorReporting.automatic "Invia automaticamente le segnalazioni di errore in futuro">
 <!ENTITY errorReporting.learnMore "Ulteriori informazioni…">
-<!ENTITY errorReporting.sending "Invio della segnalazione">
+<!ENTITY errorReporting.sending "Invio in corso">
 <!ENTITY errorReporting.sent "Segnalazione inviata">
 <!ENTITY errorReporting.report "Segnala">
 <!ENTITY errorReporting.tryAgain "Riprova">
@@ -183,8 +183,8 @@ functionality specific to firefox. -->
 <!ENTITY remoteXUL.title "XUL remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Contattare l'amministratore del sito web e segnalare il problema.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Impossibile connettersi in modo sicuro">
+<!ENTITY sslv3Used.title "Impossibile stabilire una connessione sicura">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Informazione avanzata: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.longDesc "Dettaglio errore: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Ulteriori informazioni…">

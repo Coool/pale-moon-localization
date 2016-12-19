@@ -1,8 +1,8 @@
 <!-- LOCALIZATION NOTE (inspectorHTMLEdit.label): This is the label shown
      in the inspector contextual-menu for the item that lets users edit the
      (outer) HTML of the current node -->
-<!ENTITY inspectorHTMLEdit.label       "Modificare come HTML">
-<!ENTITY inspectorHTMLEdit.accesskey   "E">
+<!ENTITY inspectorHTMLEdit.label       "Modifica come HTML">
+<!ENTITY inspectorHTMLEdit.accesskey   "M">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLCopyInner.label): This is the label shown
      in the inspector contextual-menu for the item that lets users copy the
@@ -14,7 +14,7 @@
      in the inspector contextual-menu for the item that lets users copy the
      outer HTML of the current node -->
 <!ENTITY inspectorHTMLCopyOuter.label       "Copia HTML esterno">
-<!ENTITY inspectorHTMLCopyOuter.accesskey   "M">
+<!ENTITY inspectorHTMLCopyOuter.accesskey   "H">
 
 <!-- LOCALIZATION NOTE (inspectorCopyUniqueSelector.label): This is the label
      shown in the inspector contextual-menu for the item that lets users copy
@@ -26,13 +26,13 @@
      in the inspector contextual-menu for the item that lets users paste outer
      HTML in the current node -->
 <!ENTITY inspectorHTMLPasteOuter.label      "Incolla HTML esterno">
-<!ENTITY inspectorHTMLPasteOuter.accesskey  "P">
+<!ENTITY inspectorHTMLPasteOuter.accesskey  "I">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteInner.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste inner
      HTML in the current node -->
-<!ENTITY inspectorHTMLPasteInner.label      "Incollare HTML interno">
-<!ENTITY inspectorHTMLPasteInner.accesskey  "N">
+<!ENTITY inspectorHTMLPasteInner.label      "Incolla HTML interno">
+<!ENTITY inspectorHTMLPasteInner.accesskey  "L">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteExtraSubmenu.label): This is the label
      shown in the inspector contextual-menu for the sub-menu of the other Paste
@@ -42,31 +42,31 @@
      - as the first child of the current node
      - as the last child of the current node -->
 <!ENTITY inspectorHTMLPasteExtraSubmenu.label      "Incolla…">
-<!ENTITY inspectorHTMLPasteExtraSubmenu.accesskey  "t">
+<!ENTITY inspectorHTMLPasteExtraSubmenu.accesskey  "n">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteBefore.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste
      the HTML before the current node -->
-<!ENTITY inspectorHTMLPasteBefore.label      "Prima di">
-<!ENTITY inspectorHTMLPasteBefore.accesskey  "B">
+<!ENTITY inspectorHTMLPasteBefore.label      "Prima">
+<!ENTITY inspectorHTMLPasteBefore.accesskey  "P">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteAfter.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste
      the HTML after the current node -->
 <!ENTITY inspectorHTMLPasteAfter.label       "Dopo">
-<!ENTITY inspectorHTMLPasteAfter.accesskey   "A">
+<!ENTITY inspectorHTMLPasteAfter.accesskey   "D">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteFirstChild.label): This is the label
      shown in the inspector contextual-menu for the item that lets users paste
      the HTML as the first child the current node -->
-<!ENTITY inspectorHTMLPasteFirstChild.label      "Come primo elemento figlio">
-<!ENTITY inspectorHTMLPasteFirstChild.accesskey  "F">
+<!ENTITY inspectorHTMLPasteFirstChild.label      "Come primo figlio">
+<!ENTITY inspectorHTMLPasteFirstChild.accesskey  "f">
 
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteLastChild.label): This is the label
      shown in the inspector contextual-menu for the item that lets users paste
      the HTML as the last child the current node -->
-<!ENTITY inspectorHTMLPasteLastChild.label       "Come ultimo elemento figlio">
-<!ENTITY inspectorHTMLPasteLastChild.accesskey   "L">
+<!ENTITY inspectorHTMLPasteLastChild.label       "Come ultimo figlio">
+<!ENTITY inspectorHTMLPasteLastChild.accesskey   "o">
 
 
 <!-- LOCALIZATION NOTE (inspectorHTMLDelete.label): This is the label shown in
@@ -79,7 +79,7 @@
 
 <!-- LOCALIZATION NOTE (inspectorSearchHTML.label2): This is the label shown as
      the placeholder in inspector search box -->
-<!ENTITY inspectorSearchHTML.label2          "Ricerca con selettori CSS">
+<!ENTITY inspectorSearchHTML.label2          "Cerca selettore CSS">
 <!ENTITY inspectorSearchHTML.key            "F">
 
 <!-- LOCALIZATION NOTE (inspectorCopyImageDataUri.label): This is the label
@@ -87,10 +87,10 @@
      the URL embedding the image data encoded in Base 64 (what we name
      here Image Data URL). For more information:
      https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs -->
-<!ENTITY inspectorCopyImageDataUri.label       "Copiare dati-URL dell'immagine">
+<!ENTITY inspectorCopyImageDataUri.label       "Copia Data-URL dell’immagine">
 
 <!-- LOCALIZATION NOTE (inspectorShowDOMProperties.label): This is the label
      shown in the inspector contextual-menu for the item that lets users see
      the DOM properties of the current node. When triggered, this item
      opens the split Console and displays the properties in its side panel. -->
-<!ENTITY inspectorShowDOMProperties.label       "Visualizzare le proprietà DOM">
+<!ENTITY inspectorShowDOMProperties.label       "Visualizza proprietà DOM">

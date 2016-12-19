@@ -25,9 +25,9 @@
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Alle Add-ons wurden durch den SafeMode deaktiviert.">
-<!ENTITY warning.checkcompatibility.label          "Die Addon-Kompatibilitäts-Prüfung ist deaktiviert. Sie könnten inkompatible Add-ons haben.">
+<!ENTITY warning.checkcompatibility.label          "Die Add-on-Kompatibilitäts-Prüfung ist deaktiviert. Sie könnten inkompatible Add-ons haben.">
 <!ENTITY warning.checkcompatibility.enable.label   "Aktivieren">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Addon-Kompatibilitäts-Prüfung aktivieren">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Add-on-Kompatibilitäts-Prüfung aktivieren">
 <!ENTITY warning.updatesecurity.label              "Die Überprüfung der Sicherheit von Add-on-Updates ist deaktiviert. Ihre Sicherheit könnte durch Updates kompromittiert worden sein.">
 <!ENTITY warning.updatesecurity.enable.label       "Aktivieren">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Überprüfung auf Sicherheitsupdates für Add-ons aktivieren">
@@ -210,8 +210,8 @@ einige der besten und populärsten Add-ons zum Ausprobieren anbieten.">
 <!ENTITY addon.loadingReleaseNotes.label      "Wird geladen…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Während des Ladens der Versionshinweise ist ein Fehler aufgetreten.">
 
-<!ENTITY addon.nativeAddon                    "Diese Erweiterung ist für Pale Moon gebaut">
-<!ENTITY addon.compatAddon                    "Diese Erweiterung ist für Mozilla Firefox gebaut und läuft im Kompatibilitätsmodus">
+<!ENTITY addon.nativeAddon                    "Dieses Add-on wurde für Pale Moon angepasst">
+<!ENTITY addon.compatAddon                    "Dieses Add-on ist für Mozilla Firefox und läuft im Kompatibilitätsmodus">
 
 <!ENTITY addon.createdBy.label                "Von ">
 
@@ -227,10 +227,10 @@ einige der besten und populärsten Add-ons zum Ausprobieren anbieten.">
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "Was das? Telemetrie installiert und startet eventuell Experimente von Zeit zu Zeit.">
+<!ENTITY experiment.info.label "Was ist das? Telemetrie darf von Zeit zu Zeit Experimente installieren und laufen lassen.">
 <!ENTITY experiment.info.learnmore "Mehr erfahren">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetrie Einstellungen">
+<!ENTITY experiment.info.learnmore.accesskey "W">
+<!ENTITY experiment.info.changetelemetry "Telemetrie-Einstellungen">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
 <!ENTITY setting.learnmore "Weitere Informationen…">
