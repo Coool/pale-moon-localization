@@ -18,7 +18,7 @@ echo Packing %1...
 if exist xpi\%1.xpi del xpi\%1.xpi
 pushd %1
 rem update version
-..\sed.exe -i "s/em:version=\".*\"/em:version=\"%REL%\"/" install.rdf
+..\ssr.exe -r -w --unix "em:version\e\q[a-zA-Z0-9_.]+\q"="em:version\e\q%REL%\q" install.rdf
 rem rename AB-CD -> lang
 move /Y browser\chrome\AB-CD browser\chrome\%1 >nul:
 move /Y chrome\AB-CD\locale\AB-CD chrome\AB-CD\locale\%1 >nul:
