@@ -13,39 +13,39 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
-<!ENTITY profilerUI.emptyNotice1    "Click on the">
-<!ENTITY profilerUI.emptyNotice2    "button to start recording JavaScript function calls.">
+<!ENTITY profilerUI.emptyNotice1    "Paina">
+<!ENTITY profilerUI.emptyNotice2    "nappia aloittaaksesi JavaScript-toimintokutsujen nauhoituksen.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
   -  in the call list view while recording a profile. -->
-<!ENTITY profilerUI.stopNotice1    "Click on the">
-<!ENTITY profilerUI.stopNotice2    "button again to stop profiling.">
+<!ENTITY profilerUI.stopNotice1    "Paina">
+<!ENTITY profilerUI.stopNotice2    "nappia uudestaan lopettaaksesi profiloinnin.">
 
 <!-- LOCALIZATION NOTE (profilerUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
-<!ENTITY profilerUI.loadingNotice "Loading…">
+<!ENTITY profilerUI.loadingNotice "Ladataan…">
 
 <!-- LOCALIZATION NOTE (profilerUI.recordButton): This string is displayed
   -  on a button that starts a new profile. -->
-<!ENTITY profilerUI.recordButton.tooltip "Record JavaScript function calls.">
+<!ENTITY profilerUI.recordButton.tooltip "Nauhoita JavaScript toimintokutsut.">
 
 <!-- LOCALIZATION NOTE (profilerUI.importButton): This string is displayed
   -  on a button that opens a dialog to import a saved profile data file. -->
-<!ENTITY profilerUI.importButton "Import…">
+<!ENTITY profilerUI.importButton "Tuo…">
 
 <!-- LOCALIZATION NOTE (profilerUI.exportButton): This string is displayed
   -  on a button that opens a dialog to export a saved profile data file. -->
-<!ENTITY profilerUI.exportButton "Save">
+<!ENTITY profilerUI.exportButton "Tallenna">
 
 <!-- LOCALIZATION NOTE (profilerUI.clearButton): This string is displayed
   -  on a button that remvoes all the recordings. -->
-<!ENTITY profilerUI.clearButton "Clear">
+<!ENTITY profilerUI.clearButton "Tyhjennä">
 
 <!-- LOCALIZATION NOTE (profilerUI.toolbar.*): These strings are displayed
   -  in the toolbar on buttons that select which view is currently shown. -->
-<!ENTITY profilerUI.toolbar.waterfall "Timeline">
+<!ENTITY profilerUI.toolbar.waterfall "Aikajana">
 <!ENTITY profilerUI.toolbar.js-calltree "JavaScript">
-<!ENTITY profilerUI.toolbar.memory-calltree "Memory">
+<!ENTITY profilerUI.toolbar.memory-calltree "Muisti">
 <!ENTITY profilerUI.toolbar.js-flamegraph "JS Flame Chart">
 <!ENTITY profilerUI.toolbar.memory-flamegraph "Memory Flame Chart">
 
@@ -55,10 +55,10 @@
 <!ENTITY profilerUI.table.selfDuration2   "Self Time">
 <!ENTITY profilerUI.table.totalPercentage "Total Cost">
 <!ENTITY profilerUI.table.selfPercentage  "Self Cost">
-<!ENTITY profilerUI.table.samples         "Samples">
+<!ENTITY profilerUI.table.samples         "Näytteet">
 <!ENTITY profilerUI.table.totalAlloc      "Total Allocations">
 <!ENTITY profilerUI.table.selfAlloc       "Self Allocations">
-<!ENTITY profilerUI.table.function        "Function">
+<!ENTITY profilerUI.table.function        "Toiminto">
 
 <!-- LOCALIZATION NOTE (profilerUI.newtab.tooltiptext): The tooltiptext shown
   -  on the "+" (new tab) button for a profile when a selection is available. -->

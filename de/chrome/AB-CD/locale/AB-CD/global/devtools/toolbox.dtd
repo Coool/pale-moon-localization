@@ -67,7 +67,7 @@
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Nur für aktuelle Sitzung, lädt die Seite neu">
+<!ENTITY options.context.triggersPageRefresh  "* Nur für aktuelle Sitzung; lädt die Seite neu">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
@@ -121,8 +121,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Developer Edition Theme benutzen">
-<!ENTITY options.usedeveditiontheme.tooltip "Developer Edition Theme umschalten.">
+<!ENTITY options.usedeveditiontheme.label   "Developer Edition Browser-Theme benutzen">
+<!ENTITY options.usedeveditiontheme.tooltip "Developer Edition Browser-Theme umschalten.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -170,7 +170,7 @@
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
 <!ENTITY options.showPlatformData.label    "Goanna-Plattform Daten anzeigen">
-<!ENTITY options.showPlatformData.tooltip  "Wenn Sie diese Option aktivieren werden JavaScript Profiler-Berichte Symbole der Goanna-Plattform enthalten">
+<!ENTITY options.showPlatformData.tooltip  "Wenn Sie diese Option aktivieren, werden JavaScript Profiler-Berichte Symbole der Goanna-Plattform enthalten">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->

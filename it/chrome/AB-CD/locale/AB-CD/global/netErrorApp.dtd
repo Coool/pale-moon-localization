@@ -6,7 +6,8 @@
      file, all messages that likely don't need to tie into app-specific UI
      should go into netError.dtd -->
 
-<!ENTITY securityOverride.linkText "Oppure è possibile aggiungere un'eccezione…">
+<!ENTITY securityOverride.linkText "Oppure è possibile aggiungere un’eccezione…">
 <!ENTITY securityOverride.warningContent "
-<p>Non è necessario aggiungere un'eccezione se si utilizza una connessione internet di cui non vi fidate completamente o se non siete abituati a vedere un avviso per questo server.</p> <p>Se volete ancora aggiungere un'eccezione per questo sito, è possibile farlo nelle impostazioni di crittografia avanzata.</p>
+<p>È sconsigliato aggiungere un’eccezione nel caso in cui si stia utilizzando una connessione non completamente affidabile oppure se è la prima volta che questi avvisi di sicurezza appaiono con questo server.</p>
+<p>È comunque possibile aggiungere un’eccezione per questo sito attraverso le opzioni avanzate per la cifratura.</p>
 ">

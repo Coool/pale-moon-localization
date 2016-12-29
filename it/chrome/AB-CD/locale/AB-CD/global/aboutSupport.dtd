@@ -7,13 +7,13 @@
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "Questa pagina contiene informazioni tecniche che potrebbero risultare utili per risolvere eventuali problemi. Per le risposte alle domande più comuni a proposito di &brandShortName;, consultare il <a id='supportLink'>sito web dedicato al supporto</a>.">
 
-<!ENTITY aboutSupport.crashes.title "Rapporto di crash">
+<!ENTITY aboutSupport.crashes.title "Segnalazioni di arresto anomalo">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "ID del rapporto">
-<!ENTITY aboutSupport.crashes.sendDate "Inviato">
-<!ENTITY aboutSupport.crashes.allReports "Tutti i rapporti di crash">
-<!ENTITY aboutSupport.crashes.noConfig "Questa applicazione non è stata configurata per visualizzare i report dei crash.">
+<!ENTITY aboutSupport.crashes.id "ID segnalazione">
+<!ENTITY aboutSupport.crashes.sendDate "Inviata">
+<!ENTITY aboutSupport.crashes.allReports "Tutte le segnalazioni">
+<!ENTITY aboutSupport.crashes.noConfig "Questa applicazione non è stata configurata per visualizzare le segnalazioni di arresto anomalo.">
 
 <!ENTITY aboutSupport.extensionsTitle "Estensioni">
 <!ENTITY aboutSupport.extensionName "Nome">
@@ -21,19 +21,19 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Versione">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Funzione sperimentale">
+<!ENTITY aboutSupport.experimentsTitle "Caratteristiche sperimentali">
 <!ENTITY aboutSupport.experimentName "Nome">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Descrizione">
-<!ENTITY aboutSupport.experimentActive "Attivo">
-<!ENTITY aboutSupport.experimentEndDate "Data di fine">
-<!ENTITY aboutSupport.experimentHomepage "Home page">
+<!ENTITY aboutSupport.experimentActive "Attiva">
+<!ENTITY aboutSupport.experimentEndDate "Data termine">
+<!ENTITY aboutSupport.experimentHomepage "Pagina iniziale">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Informazioni di base">
 <!ENTITY aboutSupport.appBasicsName "Nome">
 <!ENTITY aboutSupport.appBasicsVersion "Versione">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID build">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
@@ -94,5 +94,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Provare la modalità sicura">
+<!ENTITY aboutSupport.safeModeTitle "Prova la modalità provvisoria">
 <!ENTITY aboutSupport.restartInSafeMode.label "Riavvia disattivando i componenti aggiuntivi…">

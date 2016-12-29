@@ -148,7 +148,7 @@
 
 <!ENTITY xssBlockMode.title "Bloccato dal filtro XSS">
 <!ENTITY xssBlockMode.longDesc "
-<ul><li>&brandShortName; ha bloccato ulteriori azioni su questa pagina, perché contiene codice JavaScript inserito.</li>   <li>Il caricamento della pagina è stato sospeso a causa di un'esplicita richiesta dal sito per bloccare questa pagina in caso di attacchi XSS, o perché &brandShortName; è stato configurato per bloccare le pagine in quella situazione.</li> </ul>
+<ul><li>&brandShortName; ha bloccato ulteriori azioni su questa pagina in quanto contiene codice JavaScript Injection.</li>   <li>Il caricamento della pagina è stato interrotto a causa di un'esplicita richiesta dal sito di bloccare questa pagina in caso di attacchi XSS oppure perché &brandShortName; è stato configurato per bloccare le pagine in questa situazione.</li> </ul>
 ">
 
 <!ENTITY corruptedContentError.title "Errore contenuto danneggiato">
