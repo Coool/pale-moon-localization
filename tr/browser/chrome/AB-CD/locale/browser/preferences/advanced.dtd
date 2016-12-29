@@ -108,13 +108,13 @@
 <!ENTITY offlineAppRemove.confirm        "Çevrim dışı verileri sil">
 
 <!ENTITY certificateTab.label            "Onay belgeleri">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "Şahsi Sertifika">
 <!ENTITY certSelection.description       "Sunucu kişisel onay belgemi istediğinde:">
 <!ENTITY certs.auto                      "Birini kendiliğinden seç">
 <!ENTITY certs.auto.accesskey            "B">
 <!ENTITY certs.ask                       "Her seferinde bana sor">
 <!ENTITY certs.ask.accesskey             "H">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "Sertifika Doğrulaması">
 <!ENTITY enableOCSP.label                "Onay belgelerinin şu anki geçerliliğini doğrulamak için Çevrim içi onay belgesi durumu iletişim kuralı (OCSP)'nı kullan">
 <!ENTITY enableOCSP.accesskey            "u">
 <!ENTITY requireOCSP.label               "OCSP sunucu bağlantısı koparsa, onay belgesine geçersiz muamelesi yap">
@@ -124,21 +124,21 @@
 <!ENTITY viewSecurityDevices.label       "Güvenlik aygıtları">
 <!ENTITY viewSecurityDevices.accesskey   "G">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "Uyumluluk">
+<!ENTITY UACompat.label         "Kullanıcı Temsilci Kipi:">
+<!ENTITY UACompat.Native        "Yerli">
+<!ENTITY UACompat.Gecko         "Gecko Uyumluluğu">
+<!ENTITY UACompat.Firefox       "Firefox Uyumluluğu">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY scrollparamTab.label               "Kaydırma">
+<!ENTITY smoothscroll.explain.label         "Aşağıdaki parametreler; sadece, yukarıdaki işaret kutularınında pürüzsüz kaydırma ayarı baştan açıksa çalışır.">
+<!ENTITY smoothscroll.to                    "►">
+<!ENTITY smoothscroll.params.label          "Pürüzsüz kaydırma parametreleri">
+<!ENTITY smoothscroll.mousewheel.label      "Fare tekerleği ile pürüzsüz kaydırma">
+<!ENTITY smoothscroll.mousewheel.duration   "Fare tekerleği ile kaydırma süresi:">
+<!ENTITY smoothscroll.arrowkeys.label       "Ok tuşları ile pürüzsüz kaydırma">
+<!ENTITY smoothscroll.arrowkeys.duration    "Ok tuşları ile kaydırma süresi:">
+<!ENTITY smoothscroll.pagekeys.label        "Sayfa bazlı aşağı/yukarı pürüzsüz kaydırma">
+<!ENTITY smoothscroll.pagekeys.duration     "Sayfa bazlı aşağı/yukarı kaydırma süresi:">
+<!ENTITY smoothscroll.scrollbar.label       "Kaydırma çubuklarıyla pürüzsüz kaydırma">
+<!ENTITY smoothscroll.scrollbar.duration    "Kaydırma çubuğu pürüzsüz kaydırma süresi:">

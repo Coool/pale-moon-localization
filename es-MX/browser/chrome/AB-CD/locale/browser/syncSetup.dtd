@@ -6,7 +6,7 @@
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description2 "¡Bienvenido! Si nunca has usado &syncBrand.fullName.label;, necesitarás crear una cuenta nueva.">
+<!ENTITY setup.pickSetupType.description2 "¡Bienvenido! Si nunca has usado &syncBrand.fullName.label; necesitarás crear una cuenta nueva.">
 <!ENTITY button.createNewAccount.label "Crear una cuenta nueva">
 <!ENTITY button.haveAccount.label      "Ya tengo una cuenta">
 
@@ -51,8 +51,8 @@
 <!ENTITY setup.newRecoveryKeyPage.description.label "Para asegurar totalmente tu privacidad, toda tu información es cifrada antes de ser subida. La clave de recuperación, que es necesaria para descifrar tu información, no es subida.">
 <!ENTITY recoveryKeyEntry.label        "Tu clave de recuperación">
 <!ENTITY recoveryKeyEntry.accesskey    "c">
-<!ENTITY syncGenerateNewKey.label  "Generar una nueva clave">
-<!ENTITY recoveryKeyBackup.description "Tu clave de recuperación es necesaria para accesar a &syncBrand.fullName.label; en otros dispositivos. Por favor crea una copia de respaldo. Si la pierdes, no podemos ayudarte a recuperarla.">
+<!ENTITY syncGenerateNewKey.label  "Generar una clave nueva">
+<!ENTITY recoveryKeyBackup.description "Tu clave de recuperación es necesaria para acceder a &syncBrand.fullName.label; en otros dispositivos. Por favor crea una copia de respaldo. Si la pierdes, no podemos ayudarte a recuperarla.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Imprimir…">
 <!ENTITY button.syncKeyBackup.print.accesskey "I">
@@ -74,7 +74,7 @@
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Iniciar sesión">
-<!ENTITY existingRecoveryKey.description "Puedes obtener una copia de tu clave de recuperación en Opciones de &syncBrand.shortName.label; en tu otro dispositivo, y seleccionando &quot;Mi clave de recuperación&quot; dentro de &quot;Manejar cuenta&quot;.">
+<!ENTITY existingRecoveryKey.description "Puedes obtener una copia de tu clave de recuperación en Opciones de &syncBrand.shortName.label; en tu otro dispositivo, seleccionando &quot;Mi clave de recuperación&quot; dentro de &quot;Manejar cuenta&quot;.">
 <!ENTITY verifying.label              "Verificando…">
 <!ENTITY resetPassword.label          "Restablecer contraseña">
 <!ENTITY resetSyncKey.label           "He perdido mi otro dispositivo.">
@@ -98,19 +98,19 @@
 <!ENTITY engine.addons.label        "Complementos">
 <!ENTITY engine.addons.accesskey    "C">
 
-<!ENTITY choice2a.merge.main.label       "Combinar los datos de este dispositivo con los datos de mi &syncBrand.shortName.label;">
+<!ENTITY choice2a.merge.main.label       "Combinar los datos de este dispositivo con los datos de mi cuenta &syncBrand.shortName.label;">
 <!ENTITY choice2.merge.recommended.label "Recomendado:">
-<!ENTITY choice2a.client.main.label      "Reemplazar todos los datos en este dispositivo con mis datos de &syncBrand.shortName.label;">
-<!ENTITY choice2a.server.main.label      "Reemplazar los datos en los demás dispositivos con los datos de este">
+<!ENTITY choice2a.client.main.label      "Reemplazar todos los datos de este dispositivo con los datos de mi cuenta &syncBrand.shortName.label;">
+<!ENTITY choice2a.server.main.label      "Reemplazar los datos en los demás dispositivos con los datos en este dispositivo">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Confirmar">
-<!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; combinará todos los datos del navegador de este dispositivo con tu cuenta de Sync.">
-<!ENTITY confirm.client3.label         "Advertencia: Se eliminarán los datos de &brandShortName; de este dispositivo:">
-<!ENTITY confirm.client2.moreinfo.label "&brandShortName; ahora copiará los datos de &syncBrand.fullName.label; en este dispositivo.">
+<!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; combinará todos los datos del navegador de este dispositivo con tu cuenta Sync.">
+<!ENTITY confirm.client3.label         "Advertencia: Los siguientes datos de &brandShortName; serán borrados de este dispositivo:">
+<!ENTITY confirm.client2.moreinfo.label "&brandShortName; ahora copiará los datos de tu cuenta &syncBrand.fullName.label; en este dispositivo.">
 <!ENTITY confirm.server2.label         "Advertencia: Los datos de estos dispositivos serán reemplazados con los datos locales:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Configuración completa">
-<!ENTITY changeOptions.label "Puedes cambiar esta opción seleccionando Opciones de Sync.">
+<!ENTITY changeOptions.label "Puedes cambiar esta preferencia seleccionando Opciones de Sync.">
 <!ENTITY continueUsing.label "Ahora puedes continuar usando &brandShortName;.">

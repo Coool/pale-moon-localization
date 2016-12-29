@@ -9,14 +9,14 @@
 <!ENTITY status4evar.tab.general "Obecné">
 <!ENTITY status4evar.tab.toolbar "Stavový řádek">
 <!ENTITY status4evar.tab.urlbar "Adresní řádek">
-<!ENTITY status4evar.tab.popup "Vyskakovací">
+<!ENTITY status4evar.tab.popup "Vyskakovací řádek">
 <!ENTITY status4evar.tab.tabs "Panely">
 
-<!ENTITY status4evar.option.none "Žádný">
-<!ENTITY status4evar.option.nothing "Nic">
+<!ENTITY status4evar.option.none "Nikde">
+<!ENTITY status4evar.option.nothing "Žádná">
 <!ENTITY status4evar.option.toolbar "Ve stavovém řádku">
 <!ENTITY status4evar.option.urlbar "V adresním řádku">
-<!ENTITY status4evar.option.popup "Vyskakovací">
+<!ENTITY status4evar.option.popup "Ve vyskakovacím řádku">
 <!ENTITY status4evar.option.tooltip "Místní nápověda">
 <!ENTITY status4evar.option.bottom "Dole">
 <!ENTITY status4evar.option.top "Nahoře">
@@ -26,7 +26,7 @@
 <!ENTITY status4evar.option.both "Obojí">
 <!ENTITY status4evar.option.right "Vpravo">
 <!ENTITY status4evar.option.left "Vlevo">
-<!ENTITY status4evar.option.fixed "Pevný">
+<!ENTITY status4evar.option.fixed "Pevné">
 <!ENTITY status4evar.option.simple "Jednoduchý">
 <!ENTITY status4evar.option.advanced "Rozšířený">
 <!ENTITY status4evar.option.browse "Vybrat">
@@ -55,7 +55,7 @@
 <!ENTITY toolkit.dom.status.change.label "Povolit stránkám změnit stavový text">
 
 <!ENTITY status4evar.status.general.linkOver.caption "Odkazy">
-<!ENTITY status4evar.status.linkOver.label "Zobrazovat adresy odkazů v:">
+<!ENTITY status4evar.status.linkOver.label "Zobrazovat adresy odkazů:">
 <!ENTITY status4evar.status.linkOver.delay.show.label "Zpoždění zobrazení odkazů:">
 <!ENTITY status4evar.status.linkOver.delay.hide.label "Zpoždění skrytí odkazů:">
 
@@ -113,4 +113,4 @@
 <!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Zvolte pouze pokud máte problémy se zobrazením činnosti nebo stavu v adresním řádku. Toto může potenciálně poškodit jiné rozšíření, které nastavuje XBL vazby adresního řádku.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Přizpůsobit zobrazení odkazů/stavu v režimu celé obrazovky.">
-<!ENTITY status4evar.advanced.status.detectVideo "Skrýt vyskakovací status u HTML5 videa v režimu celé obrazovky.">
+<!ENTITY status4evar.advanced.status.detectVideo "Skrýt vyskakovací řádek u HTML5 videa v režimu celé obrazovky.">

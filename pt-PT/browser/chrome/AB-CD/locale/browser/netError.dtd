@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Este endereço é restrito">
-<!ENTITY deniedPortAccess.longDesc "<p>O endereço solicitado especificou uma porta (exemplo:<q>palemoon.org:25</q> para a porta 25 em palemoon.org) que, normalmente, é utilizado para outros propósitos <em>para além</em> da navegação web. Para a sua segurança, o navegador cancelou o pedido.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>O endereço solicitado especificou uma porta (exemplo:<q>palemoon.org:25</q> para a porta 25 em palemoon.org) que, normalmente, é utilizado para outros propósitos <em>que não</em> a navegação web. Para a sua segurança, o navegador cancelou o pedido.</p>">
 
 <!ENTITY dnsNotFound.title "Servidor não encontrado">
 <!ENTITY dnsNotFound.longDesc "
@@ -57,7 +57,7 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Documento expirado">
-<!ENTITY notCached.longDesc "<p>O documento pedido não está disponível na cache do navegador.</p><ul><li>Como medida de segurança, o navegador &brandShortName; não reenvia novamente os documentos sensíveis.</li><li>Clique Tentar novamente para voltar a pedir o documento do site.</li></ul>">
+<!ENTITY notCached.longDesc "<p>O documento pedido não está disponível na cache do navegador.</p><ul><li>Por precaução, o &brandShortName; não reenvia novamente os documentos sensíveis.</li><li>Clique Tentar novamente para voltar a pedir o documento do site.</li></ul>">
 
 <!ENTITY netOffline.title "Modo off-line">
 <!ENTITY netOffline.longDesc2 "
@@ -131,7 +131,7 @@
 <!ENTITY nssFailure2.title "Falha de ligação segura">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>A página a que está a tentar aceder não pode ser mnostrada poque a autenticidade dos dados recebidos não pôde ser verificada.</li>
+  <li>A página a que está a tentar aceder não pode ser mostrada porque a autenticidade dos dados recebidos não pôde ser verificada.</li>
   <li>Por favor contacte os donos do site e informe-os sobre este problema.</li>
 </ul>
 ">
@@ -139,7 +139,7 @@
 <!ENTITY nssBadCert.title "Falha de ligação segura">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
-  <li>Este pode ser um problema com a configuração do servidor ou pode ser que algém se esteja a tentar fazer passar por este servidor.</li>
+  <li>Este pode ser um problema com a configuração do servidor ou pode ser que alguém se esteja a tentar fazer passar por este servidor.</li>
   <li>Se já estabeleceu ligação a este servidor anteriormente, o erro pode ser temporário e deve 
 tentar mais tarde.</li>
 </ul>
@@ -159,13 +159,13 @@ tentar mais tarde.</li>
 <!ENTITY malwareBlocked.title "Suspeita de site de ataque!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Os sites de ataque tentam instalar programas no seu computador para roubar informações privadas, para danificar o seu computador ou até mesmo para atacar outros computadores.</p>
-<p>Os detentores dos sites que achem que o seu site foi reportado como um site de ataque, devem <a href='https://www.stopbadware.org/request-review' >solicitar uma nova análise</a>.</p>
+<p>Os detentores dos sites que achem que o seu site foi reportado erradamente como um site de ataque, devem <a href='https://www.stopbadware.org/request-review' >solicitar uma nova análise</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Suspeita de fraude web!">
 <!ENTITY phishingBlocked.longDesc "
-<p>A introdução de dados pessoais nesta página podem originar em roubo de identidade ou outras fraudes.</p>
-<p>Este tipo de esquemas são normalmente conhecidos como em ataques de 'phishing', em que páginas web e mensagens de e-mail são utilizadas para replicar fontes confiáveis e as quais são reconhecidas pelos utilizadores.</p>
+<p>A introdução de dados pessoais nesta página podem resultar em roubo de identidade ou outras fraudes.</p>
+<p>Este tipo de esquemas são normalmente conhecidos como ataques de 'phishing', em que páginas web e mensagens de e-mail são utilizadas para replicar fontes confiáveis, fontes estas que são reconhecidas pelos utilizadores como fiáveis.</p>
 ">
 
 <!ENTITY cspBlocked.title "Bloqueada pela política de segurança">
@@ -174,11 +174,8 @@ tentar mais tarde.</li>
 <!ENTITY xssBlockMode.title "Bloqueada pelo filtro XSS">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>O &brandShortName; bloqueou quaisquer ações futuras nesta página, porque a página contém código de injeção JavaScript.</li>
+  <li>O carregamento da página foi suspenso por pedido explícito do site em virtude de potenciais ataques XSS ou porque o &brandShortName; foi configurado para bloquear as páginas que estivessem nesta situação.</li>
 </ul>
 ">
 
@@ -203,19 +200,19 @@ functionality specific to firefox. -->
 ">
 
 <!ENTITY errorReporting.title "Reportar este erro">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.longDesc "Se reportar o endereço e a informação do certificado de <span id='hostname'></span> pode ajudar-nos a identificar e bloquear sites perigosos. Obrigado por nos ajudar a tornar a Internet mais segura!">
+<!ENTITY errorReporting.automatic "De futuro, reportar erros automaticamente">
+<!ENTITY errorReporting.learnMore "Saber mais…">
+<!ENTITY errorReporting.sending "A enviar relatório">
+<!ENTITY errorReporting.sent "Relatório enviado">
+<!ENTITY errorReporting.report "Relatório">
+<!ENTITY errorReporting.tryAgain "Tentar novamente">
 
 <!ENTITY remoteXUL.title "XUL remoto">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor contacte os responsáveis do sítio web para os informar sobre este problema.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor contacte os donos do site e informe-os sobre este problema.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Ligação segura não estabelecida">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "Informação avançada: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Saber mais…">

@@ -13,14 +13,14 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
-<!ENTITY netmonitorUI.perfNotice1         "• Click on the">
-<!ENTITY netmonitorUI.perfNotice2         "button to start performance analysis.">
+<!ENTITY netmonitorUI.perfNotice1         "• Clique no">
+<!ENTITY netmonitorUI.perfNotice2         "botão para iniciar a análise de desempenho.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
-<!ENTITY netmonitorUI.reloadNotice1       "• Perform a request or">
-<!ENTITY netmonitorUI.reloadNotice2       "Reload">
-<!ENTITY netmonitorUI.reloadNotice3       "the page to see detailed information about network activity.">
+<!ENTITY netmonitorUI.reloadNotice1       "• Execute um pedido ou">
+<!ENTITY netmonitorUI.reloadNotice2       "recarregue">
+<!ENTITY netmonitorUI.reloadNotice3       "a página para ver mais informações sobre a atividade de rede.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.status2): This is the label displayed
   -  in the network table toolbar, above the "status" column. -->
@@ -45,7 +45,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.transferred): This is the label displayed
   -  in the network table toolbar, above the "transferred" column, which is the
   -  compressed / encoded size. -->
-<!ENTITY netmonitorUI.toolbar.transferred "Transferred">
+<!ENTITY netmonitorUI.toolbar.transferred "Transferido">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.size): This is the label displayed
   -  in the network table toolbar, above the "size" column, which is the
@@ -54,7 +54,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.waterfall): This is the label displayed
   -  in the network table toolbar, above the "waterfall" column. -->
-<!ENTITY netmonitorUI.toolbar.waterfall   "Linha do tempo">
+<!ENTITY netmonitorUI.toolbar.waterfall   "Cronologia">
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.headers): This is the label displayed
   -  in the network details pane identifying the headers tab. -->
@@ -66,7 +66,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.params): This is the label displayed
   -  in the network details pane identifying the params tab. -->
-<!ENTITY netmonitorUI.tab.params          "Params">
+<!ENTITY netmonitorUI.tab.params          "Parâmetros">
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.response): This is the label displayed
   -  in the network details pane identifying the response tab. -->
@@ -78,11 +78,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.preview): This is the label displayed
   -  in the network details pane identifying the preview tab. -->
-<!ENTITY netmonitorUI.tab.preview         "Preview">
+<!ENTITY netmonitorUI.tab.preview         "Pré-visualização">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.security): This is the label displayed
   -  in the network details pane identifying the security tab. -->
-<!ENTITY netmonitorUI.tab.security        "Security">
+<!ENTITY netmonitorUI.tab.security        "Segurança">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterAll): This is the label displayed
   -  in the network details footer for the "All" filtering button. -->
@@ -114,7 +114,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterMedia): This is the label displayed
   -  in the network details footer for the "Media" filtering button. -->
-<!ENTITY netmonitorUI.footer.filterMedia  "Média">
+<!ENTITY netmonitorUI.footer.filterMedia  "Multimédia">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterFlash): This is the label displayed
   -  in the network details footer for the "Flash" filtering button. -->
@@ -122,23 +122,23 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterOther): This is the label displayed
   -  in the network details footer for the "Other" filtering button. -->
-<!ENTITY netmonitorUI.footer.filterOther  "Other">
+<!ENTITY netmonitorUI.footer.filterOther  "Outro">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the "Clear" button. -->
-<!ENTITY netmonitorUI.footer.clear  "Clear">
+<!ENTITY netmonitorUI.footer.clear  "Limpar">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
-<!ENTITY netmonitorUI.footer.perf   "Toggle performance analysis…">
+<!ENTITY netmonitorUI.footer.perf   "Alternar análise de desempenho…">
 
 <!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
-<!ENTITY netmonitorUI.panesButton.tooltip "Alternarr info da rede">
+<!ENTITY netmonitorUI.panesButton.tooltip "Alternar informação de rede">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.url): This is the label displayed
   -  in the network details headers tab identifying the URL. -->
-<!ENTITY netmonitorUI.summary.url         "Pedir URL:">
+<!ENTITY netmonitorUI.summary.url         "URL do pedido:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.method): This is the label displayed
   -  in the network details headers tab identifying the method. -->
@@ -146,7 +146,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.status): This is the label displayed
   -  in the network details headers tab identifying the status code. -->
-<!ENTITY netmonitorUI.summary.status      "Código do estado:">
+<!ENTITY netmonitorUI.summary.status      "Código de estado:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.version): This is the label displayed
   -  in the network details headers tab identifying the http version. -->
@@ -166,7 +166,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.response.mime): This is the label displayed
   -  in the network details response tab identifying an image's mime. -->
-<!ENTITY netmonitorUI.response.mime       "Tipo de MIME:">
+<!ENTITY netmonitorUI.response.mime       "Tipo MIME:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.response.encoding): This is the label displayed
   -  in the network details response tab identifying an image's encoding. -->
@@ -185,17 +185,17 @@
 <!-- LOCALIZATION NOTE (debuggerUI.timings.connect): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
   -  in a "connect" state. -->
-<!ENTITY netmonitorUI.timings.connect     "A ligar:">
+<!ENTITY netmonitorUI.timings.connect     "A estabelecer ligação:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.timings.send): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
   -  in a "send" state. -->
-<!ENTITY netmonitorUI.timings.send        "a enviar:">
+<!ENTITY netmonitorUI.timings.send        "A enviar:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.timings.wait): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
   -  in a "wait" state. -->
-<!ENTITY netmonitorUI.timings.wait        "A aguardar:">
+<!ENTITY netmonitorUI.timings.wait        "Em espera:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.timings.receive): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
@@ -204,58 +204,58 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.protocol): A tooltip
   -  for warning icon that indicates a connection uses insecure protocol. -->
-<!ENTITY netmonitorUI.security.warning.sslv3      "The protocol SSL 3.0 is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.sslv3      "O protocolo SSL 3.0 foi descontinuado e não é seguro.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
-<!ENTITY netmonitorUI.security.warning.cipher     "The cipher used for encryption is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.cipher     "A cifra utilizada para encriptação foi descontinuada e é insegura.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
-<!ENTITY netmonitorUI.security.error      "An error occured:">
+<!ENTITY netmonitorUI.security.error      "Ocorreu um erro:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.protocolVersion): This is the label displayed
   -  in the security tab describing TLS/SSL protocol version. -->
-<!ENTITY netmonitorUI.security.protocolVersion "Protocol version:">
+<!ENTITY netmonitorUI.security.protocolVersion "Versão do protocolo:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
-<!ENTITY netmonitorUI.security.cipherSuite "Cipher suite:">
+<!ENTITY netmonitorUI.security.cipherSuite "Suite de cifra:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hsts): This is the label displayed
   -  in the security tab describing the usage of HTTP Strict Transport Security. -->
-<!ENTITY netmonitorUI.security.hsts "HTTP Strict Transport Security:">
+<!ENTITY netmonitorUI.security.hsts "Segurança HTTP Strict Transport:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hpkp): This is the label displayed
   -  in the security tab describing the usage of Public Key Pinning. -->
-<!ENTITY netmonitorUI.security.hpkp "Public Key Pinning:">
+<!ENTITY netmonitorUI.security.hpkp "'Pinning' da chave pública:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.connection): This is the label displayed
   -  in the security tab describing the section containing information related to
   -  the secure connection. -->
-<!ENTITY netmonitorUI.security.connection "Connection:">
+<!ENTITY netmonitorUI.security.connection "Ligação:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.certificate): This is the label displayed
   -  in the security tab describing the server certificate section. -->
-<!ENTITY netmonitorUI.security.certificate "Certificate:">
+<!ENTITY netmonitorUI.security.certificate "Certificado:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools): This is the label displayed
   -  on the context menu that shows the performance analysis tools -->
-<!ENTITY netmonitorUI.context.perfTools   "Start Performance Analysis…">
+<!ENTITY netmonitorUI.context.perfTools   "Iniciar análise de desempenho…">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools.accesskey): This is the access key
   -  for the performance analysis menu item displayed in the context menu for a request -->
-<!ENTITY netmonitorUI.context.perfTools.accesskey "S">
+<!ENTITY netmonitorUI.context.perfTools.accesskey "s">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl): This is the label displayed
   -  on the context menu that copies the selected request's url -->
-<!ENTITY netmonitorUI.context.copyUrl     "Copy URL">
+<!ENTITY netmonitorUI.context.copyUrl     "Copiar URL">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyAsCurl): This is the label displayed
   -  on the context menu that copies the selected request as a cURL command.
   -  The capitalization is part of the official name and should be used throughout all languages.
   -  http://en.wikipedia.org/wiki/CURL -->
-<!ENTITY netmonitorUI.context.copyAsCurl    "Copy as cURL">
+<!ENTITY netmonitorUI.context.copyAsCurl    "Copiar como cURL">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl.accesskey): This is the access key
   -  for the Copy URL menu item displayed in the context menu for a request -->
@@ -263,7 +263,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri): This is the label displayed
   -  on the context menu that copies the selected image as data uri -->
-<!ENTITY netmonitorUI.context.copyImageAsDataUri "Copy Image as Data URI">
+<!ENTITY netmonitorUI.context.copyImageAsDataUri "Copiar imagem como URI de dados">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri.accesskey): This is the access key
   -  for the Copy Image As Data URI menu item displayed in the context menu for a request -->
@@ -272,59 +272,59 @@
 <!-- LOCALIZATION NOTE (debuggerUI.summary.editAndResend): This is the label displayed
   -  on the button in the headers tab that opens a form to edit and resend the currently
      displayed request -->
-<!ENTITY netmonitorUI.summary.editAndResend "Edit and Resend">
+<!ENTITY netmonitorUI.summary.editAndResend "Editar e reenviar">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.editAndResend.accesskey): This is the access key
   -  for the "Edit and Resend" menu item displayed in the context menu for a request -->
-<!ENTITY netmonitorUI.summary.editAndResend.accesskey "R">
+<!ENTITY netmonitorUI.summary.editAndResend.accesskey "r">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders): This is the label displayed
   -  on the button in the headers tab that toggle view for raw request/response headers
      from the currently displayed request -->
-<!ENTITY netmonitorUI.summary.rawHeaders "Raw headers">
+<!ENTITY netmonitorUI.summary.rawHeaders "Cabeçalhos 'raw'">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Request headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Cabeçalhos do pedido:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Response headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Cabeçalhos da resposta:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
   -  network container  -->
-<!ENTITY netmonitorUI.context.newTab      "Open in New Tab">
+<!ENTITY netmonitorUI.context.newTab      "Abrir em novo separador">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab.accesskey): This is the access key
   -  for the Open in New Tab menu item displayed in the context menu of the
   -  network container -->
-<!ENTITY netmonitorUI.context.newTab.accesskey "O">
+<!ENTITY netmonitorUI.context.newTab.accesskey "o">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.newRequest): This is the label displayed
   -  as the title of the new custom request form -->
-<!ENTITY netmonitorUI.custom.newRequest   "New Request">
+<!ENTITY netmonitorUI.custom.newRequest   "Novo pedido">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.query): This is the label displayed
   -  above the query string entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.query        "Query String:">
+<!ENTITY netmonitorUI.custom.query        "Cadeia de consulta:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "Request Headers:">
+<!ENTITY netmonitorUI.custom.headers      "Cabeçalhos do pedido:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.postData     "Request Body:">
+<!ENTITY netmonitorUI.custom.postData     "Texto do pedido:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->
-<!ENTITY netmonitorUI.custom.send         "Send">
+<!ENTITY netmonitorUI.custom.send         "Enviar">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.cancel): This is the label displayed
   -  on the button which cancels and closes the custom request form -->
-<!ENTITY netmonitorUI.custom.cancel       "Cancel">
+<!ENTITY netmonitorUI.custom.cancel       "Cancelar">
 
 <!-- LOCALIZATION NOTE (debuggerUI.backButton): This is the label displayed
   -  on the button which exists the performance statistics view -->
-<!ENTITY netmonitorUI.backButton          "Back">
+<!ENTITY netmonitorUI.backButton          "Recuar">

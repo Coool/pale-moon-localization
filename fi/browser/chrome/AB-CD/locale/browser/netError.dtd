@@ -204,20 +204,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.title "Ilmoita virheestä">
 <!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.automatic "Ilmoita virheistä automaattisesti tulevaisuudessa">
+<!ENTITY errorReporting.learnMore "Lisätietoja…">
+<!ENTITY errorReporting.sending "Lähetään ilmoitusta">
+<!ENTITY errorReporting.sent "Ilmoitus lähetetty">
+<!ENTITY errorReporting.report "Ilmoita">
+<!ENTITY errorReporting.tryAgain "Yritä uudestaan">
 
 <!ENTITY remoteXUL.title "XUL-koodia etänä">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Turvallista yhteyttä ei voida muodostaa">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.learnMore "Lue lisää…">
