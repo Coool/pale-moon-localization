@@ -13,21 +13,21 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
-<!ENTITY profilerUI.emptyNotice1    "Click on the">
-<!ENTITY profilerUI.emptyNotice2    "button to start recording JavaScript function calls.">
+<!ENTITY profilerUI.emptyNotice1    "Κάντε κλικ στο">
+<!ENTITY profilerUI.emptyNotice2    "κουμπί για έναρξη εγγραφής κλήσεων συναρτήσεων JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
   -  in the call list view while recording a profile. -->
-<!ENTITY profilerUI.stopNotice1    "Click on the">
+<!ENTITY profilerUI.stopNotice1    "Κάντε κλικ στο">
 <!ENTITY profilerUI.stopNotice2    "button again to stop profiling.">
 
 <!-- LOCALIZATION NOTE (profilerUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
-<!ENTITY profilerUI.loadingNotice "Loading…">
+<!ENTITY profilerUI.loadingNotice "Φόρτωση…">
 
 <!-- LOCALIZATION NOTE (profilerUI.recordButton): This string is displayed
   -  on a button that starts a new profile. -->
-<!ENTITY profilerUI.recordButton.tooltip "Record JavaScript function calls.">
+<!ENTITY profilerUI.recordButton.tooltip "Εγγραφή κλήσεων συναρτήσεων JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.importButton): This string is displayed
   -  on a button that opens a dialog to import a saved profile data file. -->
@@ -35,17 +35,17 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.exportButton): This string is displayed
   -  on a button that opens a dialog to export a saved profile data file. -->
-<!ENTITY profilerUI.exportButton "Save">
+<!ENTITY profilerUI.exportButton "Αποθήκευση">
 
 <!-- LOCALIZATION NOTE (profilerUI.clearButton): This string is displayed
   -  on a button that remvoes all the recordings. -->
-<!ENTITY profilerUI.clearButton "Clear">
+<!ENTITY profilerUI.clearButton "Καθαρισμός">
 
 <!-- LOCALIZATION NOTE (profilerUI.toolbar.*): These strings are displayed
   -  in the toolbar on buttons that select which view is currently shown. -->
-<!ENTITY profilerUI.toolbar.waterfall "Timeline">
+<!ENTITY profilerUI.toolbar.waterfall "Χρονολόγιο">
 <!ENTITY profilerUI.toolbar.js-calltree "JavaScript">
-<!ENTITY profilerUI.toolbar.memory-calltree "Memory">
+<!ENTITY profilerUI.toolbar.memory-calltree "Μνήμη">
 <!ENTITY profilerUI.toolbar.js-flamegraph "JS Flame Chart">
 <!ENTITY profilerUI.toolbar.memory-flamegraph "Memory Flame Chart">
 

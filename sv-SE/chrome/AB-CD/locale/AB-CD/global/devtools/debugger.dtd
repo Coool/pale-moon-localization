@@ -48,7 +48,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
   -  button that toggles all breakpoints for all sources. -->
-<!ENTITY debuggerUI.sources.toggleBreakpoints "Enable/disable all breakpoints">
+<!ENTITY debuggerUI.sources.toggleBreakpoints "Aktivera/inaktivera alla brytpunkter">
 
 <!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
   - the button to start execution tracing. -->
@@ -56,7 +56,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton "Clear">
+<!ENTITY debuggerUI.clearButton "Rensa">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton.tooltip): This is the tooltip for
   -  the button that clears the collected tracing data in the tracing tab. -->
@@ -103,7 +103,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
   -  appears in the filter panel popup as a header for the operators part. -->
-<!ENTITY debuggerUI.searchPanelOperators    "Operators:">
+<!ENTITY debuggerUI.searchPanelOperators    "Operatorer:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
@@ -132,7 +132,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
-<!ENTITY debuggerUI.searchGoToLine           "Go to Line…">
+<!ENTITY debuggerUI.searchGoToLine           "Gå till rad…">
 <!ENTITY debuggerUI.searchGoToLine.key       "L">
 <!ENTITY debuggerUI.searchGoToLine.accesskey "L">
 
@@ -165,11 +165,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
-<!ENTITY debuggerUI.tabs.sources        "Sources">
+<!ENTITY debuggerUI.tabs.sources        "Källor">
 <!ENTITY debuggerUI.tabs.traces         "Traces">
-<!ENTITY debuggerUI.tabs.callstack      "Call Stack">
-<!ENTITY debuggerUI.tabs.variables      "Variables">
-<!ENTITY debuggerUI.tabs.events         "Events">
+<!ENTITY debuggerUI.tabs.callstack      "Anropsstack">
+<!ENTITY debuggerUI.tabs.variables      "Variabler">
+<!ENTITY debuggerUI.tabs.events         "Händelser">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->

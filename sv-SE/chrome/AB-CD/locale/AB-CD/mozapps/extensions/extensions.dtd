@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "Hantera tillägg">
 
 <!ENTITY search.placeholder                   "Sök bland alla tillägg">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Sök">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Ta bort">
 <!ENTITY cmd.uninstallAddon.accesskey         "T">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Felsök">
 <!ENTITY cmd.showPreferencesWin.label         "Inställningar">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Ändra tilläggets inställningar">
 <!ENTITY cmd.showPreferencesUnix.label        "Inställningar">
@@ -209,8 +209,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Hämtar…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Det uppstod tyvärr ett fel vid hämtningen av versionsfakta.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Detta tillägg är för Pale Moon">
+<!ENTITY addon.compatAddon                    "Detta tillägg är för Mozilla Firefox och körs i kompabilitetsläge">
 
 <!ENTITY addon.createdBy.label                "Av ">
 
@@ -226,10 +226,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Vad är det här? Telemetri får installera och köra experiment då och då.">
+<!ENTITY experiment.info.learnmore "Läs mer">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "Telemetri-inställningar">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Läs mer…">

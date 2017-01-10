@@ -13,13 +13,13 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
-<!ENTITY netmonitorUI.perfNotice1         "• Click on the">
-<!ENTITY netmonitorUI.perfNotice2         "button to start performance analysis.">
+<!ENTITY netmonitorUI.perfNotice1         "• Κάντε κλικ στο">
+<!ENTITY netmonitorUI.perfNotice2         "κουμπί για έναρξη ανάλυσης επιδόσεων.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
 <!ENTITY netmonitorUI.reloadNotice1       "• Perform a request or">
-<!ENTITY netmonitorUI.reloadNotice2       "Reload">
+<!ENTITY netmonitorUI.reloadNotice2       "Ανανέωση">
 <!ENTITY netmonitorUI.reloadNotice3       "the page to see detailed information about network activity.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.status2): This is the label displayed
@@ -78,11 +78,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.preview): This is the label displayed
   -  in the network details pane identifying the preview tab. -->
-<!ENTITY netmonitorUI.tab.preview         "Preview">
+<!ENTITY netmonitorUI.tab.preview         "Προεπισκόπηση">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.security): This is the label displayed
   -  in the network details pane identifying the security tab. -->
-<!ENTITY netmonitorUI.tab.security        "Security">
+<!ENTITY netmonitorUI.tab.security        "Ασφάλεια">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterAll): This is the label displayed
   -  in the network details footer for the "All" filtering button. -->
@@ -122,15 +122,15 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterOther): This is the label displayed
   -  in the network details footer for the "Other" filtering button. -->
-<!ENTITY netmonitorUI.footer.filterOther  "Other">
+<!ENTITY netmonitorUI.footer.filterOther  "Άλλο">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the "Clear" button. -->
-<!ENTITY netmonitorUI.footer.clear  "Clear">
+<!ENTITY netmonitorUI.footer.clear  "Καθαρισμός">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
-<!ENTITY netmonitorUI.footer.perf   "Toggle performance analysis…">
+<!ENTITY netmonitorUI.footer.perf   "Εναλλαγή ανάλυσης επιδόσεων…">
 
 <!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
@@ -204,7 +204,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.protocol): A tooltip
   -  for warning icon that indicates a connection uses insecure protocol. -->
-<!ENTITY netmonitorUI.security.warning.sslv3      "The protocol SSL 3.0 is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.sslv3      "Το πρωτόκολλο SSL 3.0 είναι παρωχημένο και μη ασφαλές.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
@@ -212,11 +212,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
-<!ENTITY netmonitorUI.security.error      "An error occured:">
+<!ENTITY netmonitorUI.security.error      "Παρουσιάστηκε σφάλμα:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.protocolVersion): This is the label displayed
   -  in the security tab describing TLS/SSL protocol version. -->
-<!ENTITY netmonitorUI.security.protocolVersion "Protocol version:">
+<!ENTITY netmonitorUI.security.protocolVersion "Έκδοση πρωτοκόλλου:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
@@ -233,19 +233,19 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.security.connection): This is the label displayed
   -  in the security tab describing the section containing information related to
   -  the secure connection. -->
-<!ENTITY netmonitorUI.security.connection "Connection:">
+<!ENTITY netmonitorUI.security.connection "Σύνδεση:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.certificate): This is the label displayed
   -  in the security tab describing the server certificate section. -->
-<!ENTITY netmonitorUI.security.certificate "Certificate:">
+<!ENTITY netmonitorUI.security.certificate "Πιστοποιητικό:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools): This is the label displayed
   -  on the context menu that shows the performance analysis tools -->
-<!ENTITY netmonitorUI.context.perfTools   "Start Performance Analysis…">
+<!ENTITY netmonitorUI.context.perfTools   "Έναρξη ανάλυσης επιδόσεων…">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools.accesskey): This is the access key
   -  for the performance analysis menu item displayed in the context menu for a request -->
-<!ENTITY netmonitorUI.context.perfTools.accesskey "S">
+<!ENTITY netmonitorUI.context.perfTools.accesskey "ξ">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl): This is the label displayed
   -  on the context menu that copies the selected request's url -->
@@ -294,7 +294,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
   -  network container  -->
-<!ENTITY netmonitorUI.context.newTab      "Open in New Tab">
+<!ENTITY netmonitorUI.context.newTab      "Άνοιγμα σε νέα καρτέλα">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab.accesskey): This is the access key
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -319,12 +319,12 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->
-<!ENTITY netmonitorUI.custom.send         "Send">
+<!ENTITY netmonitorUI.custom.send         "Αποστολή">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.cancel): This is the label displayed
   -  on the button which cancels and closes the custom request form -->
-<!ENTITY netmonitorUI.custom.cancel       "Cancel">
+<!ENTITY netmonitorUI.custom.cancel       "Ακύρωση">
 
 <!-- LOCALIZATION NOTE (debuggerUI.backButton): This is the label displayed
   -  on the button which exists the performance statistics view -->
-<!ENTITY netmonitorUI.backButton          "Back">
+<!ENTITY netmonitorUI.backButton          "Πίσω">
