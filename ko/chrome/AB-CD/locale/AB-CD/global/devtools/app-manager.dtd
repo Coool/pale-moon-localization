@@ -2,102 +2,102 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY index.title "App Manager">
-<!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.title "앱 관리자">
+<!ENTITY index.projects2 "앱">
+<!ENTITY index.device2 "기기">
+<!ENTITY index.help "도움말">
 
-<!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
-<!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
-<!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
-<!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.debugMainProcess "메인 프로세스 디버깅">
+<!ENTITY device.debugMainProcessTooltip "발자 도구를 열고 기기의 메인 프로세스 물리기">
+<!ENTITY device.screenshot "스크린샷">
+<!ENTITY device.screenshotTooltip "기기의 현 상태를 스크린샷으로 찍어 새 탭에 엽니다.">
+<!ENTITY device.title "기기 제어 센터">
+<!ENTITY device.notConnected "연결되지 않았습니다. 기기를 먼저 연결해 주십시오.">
+<!ENTITY device.startApp "시작">
+<!ENTITY device.startAppTooltip "기기에서 앱을 시작합니다.">
+<!ENTITY device.stopApp "중지">
+<!ENTITY device.stopAppTooltip "기기의 앱을 닫습니다.">
+<!ENTITY device.debugApp "디버깅">
+<!ENTITY device.debugAppTooltip "기기의 이 앱과 연결한 개발자 도구를 엽니다.">
+<!ENTITY device.name "이름">
+<!ENTITY device.plain "일반 (기본)">
+<!ENTITY device.privileged "특별 권한앱">
+<!ENTITY device.certified "인증앱">
+<!ENTITY device.allow "허가">
+<!ENTITY device.allowTooltip "이 앱 형식은 다음 권한을 가지고 있습니다.">
+<!ENTITY device.prompt "물어봄">
+<!ENTITY device.promptTooltip "이 앱 형식은 다음 권한을 쓰기 전 사용자에게 물어봅니다.">
+<!ENTITY device.deny "거부">
+<!ENTITY device.denyTooltip "이 앱 형식은 다음 권한을 가지고 있지 않습니다.">
+<!ENTITY device.installedApps "설치된 앱">
+<!ENTITY device.installedAppsTooltip "기기에 설치된 앱의 목록을 보여줍니다. 인증된 앱과 같은 몇몇 앱은 빠져있을 수 있습니다.">
+<!ENTITY device.permissions "권한">
+<!ENTITY device.permissionsTooltip "앱 형식에 따른 권한 접근을 나타낸 표를 보여줍니다.">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
-<!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.browserTabs "브라우저 탭">
+<!ENTITY device.browserTabsTooltip "연결되어 있는 기기의 브라우저의 탭 목록 보기">
+<!ENTITY device.debugBrowserTab "디버그">
+<!ENTITY device.debugBrowserTabTooltip "기기의 이 브라우저 탭과 연결된 개발자 도구 열기">
+<!ENTITY device.help "도움말">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.connectTooltip "기기에 연결합니다.">
+<!ENTITY connection.disconnect "연결 끊기">
+<!ENTITY connection.disconnectTooltip "현재 기기나 시뮬레이터와의 연결을 끊습니다.">
+<!ENTITY connection.notConnected2 "연결되어 있지 않습니다.">
+<!ENTITY connection.connectTo "다음 기기에 연결:">
+<!ENTITY connection.noDeviceFound "기기를 찾지 못했습니다. 기기를 꽂으십시오.">
+<!ENTITY connection.changeHostAndPort "바꾸기">
+<!ENTITY connection.changeHostAndPortTooltip "기기와 연결할 호스트와 포트를 바꿉니다. (기본값은 localhost:6000)">
+<!ENTITY connection.startSimulator "시뮬레이터 시작">
+<!ENTITY connection.startSimulatorTooltip "시뮬레이터를 시작하고 연결합니다.">
+<!ENTITY connection.saveConnectionInfo "저장">
+<!ENTITY connection.saveConnectionInfoTooltip "호스트와 포트를 저장합니다.">
+<!ENTITY connection.connecting "연결하고 있습니다…">
+<!ENTITY connection.disconnecting "연결을 끊고 있습니다…">
+<!ENTITY connection.cancel "취소">
+<!ENTITY connection.cancelConnectTooltip "연결하고 있는 것을 취소합니다.">
+<!ENTITY connection.cancelShowSimulatorTooltip "시뮬레이터 연결 모드에서 나와 첫 화면으로 돌아갑니다.">
+<!ENTITY connection.or "또는">
+<!ENTITY connection.noSimulatorInstalled "시뮬레이터가 설치되어 있지 않습니다.">
+<!ENTITY connection.installOneSimulator "시뮬레이터 설치">
+<!ENTITY connection.installOneSimulatorTooltip "적절한 부가 기능을 내려받아 시뮬레이터를 설치합니다.">
+<!ENTITY connection.installAnotherSimulator "추가">
+<!ENTITY connection.installAnotherSimulatorTooltip "적절한 부가 기능을 내려받아 다른 버전의 시뮬레이터를 설치합니다.">
+<!ENTITY connection.startRegisteredSimulator "시작:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
-<!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.localApps "로컬 앱">
+<!ENTITY projects.addApp "추가">
+<!ENTITY projects.addPackaged "패키지형 앱 추가">
+<!ENTITY projects.addPackagedTooltip "컴퓨터에 있는 새 패키지형 앱(디렉터리)을 추가합니다.">
+<!ENTITY projects.addHosted "호스트형 앱 추가">
+<!ENTITY projects.addHostedTooltip "원격 웹사이트에 있는 새 호스트형 앱(link to a manifest.webapp 파일 링크)를 추가합니다.">
+<!ENTITY projects.title "로컬 앱">
+<!ENTITY projects.appDetails "앱 정보">
+<!ENTITY projects.removeAppFromList "작업하고 있는 앱 목록에서 이 앱을 뺍니다. 기기나 시뮬레이터의 앱을 삭제하지는 않습니다.">
+<!ENTITY projects.updateApp "업데이트">
+<!ENTITY projects.updateAppTooltip "유효한지 검사를 한 다음 연결된 기기의 앱을 업데이트">
+<!ENTITY projects.debugApp "디버그">
+<!ENTITY projects.debugAppTooltip "이 앱과 연결한 개발자 도구 열기">
+<!ENTITY projects.saveManifest "저장">
+<!ENTITY projects.saveManifestTooltip "아래 매니페스트 편집기의 내용을 저장합니다.">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.noProjects "프로젝트가 없습니다. 아래에서 새로운 패키지형 앱(디렉터리)나 호스트형 앱(매니페스트 파일 링크)를 추가하십시오.">
+<!ENTITY projects.manifestEditor "매니페스트 편집기">
+<!ENTITY projects.manifestEditorTooltip "아래 패널에서 앱의 매니페스트를 고칠 수 있습니다. 업데이트 버튼을 눌러 바뀐 점을 저장하고 앱을 업데이트할 수 있습니다.">
+<!ENTITY projects.manifestViewer "매니페스트 보기">
+<!ENTITY projects.manifestViewerTooltip "아래 패널에서 앱의 매니페스트를 검사합니다.">
+<!ENTITY projects.valid "올바름">
+<!ENTITY projects.error "잘못됨">
+<!ENTITY projects.warning "경고">
+<!ENTITY projects.hosted "호스트형">
+<!ENTITY projects.packaged "패키지형">
 
-<!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.title "앱 관리자">
+<!ENTITY help.close "닫기">
+<!ENTITY help.intro "이 도구는 웹앱을 빌드하고 호환되는 기기(예: Firefox OS)에 설치하는 것을 도와줄 것입니다. <strong>앱</strong> 탭에서는 앱이 유효한지 검사한 다음 설치하는 과정을 도와줄 것입니다. <strong>기기</strong> 탭에서는 연결된 기기에 대한 정보를 줄 것입니다. 아래에 있는 도구 모음에서 기기에 연결하거나 시뮬레이터를 시작할 수 있습니다.">
+<!ENTITY help.usefullLinks "도움이 될만한 링크:">
+<!ENTITY help.appMgrDoc "문서: 앱 관리자 사용하기">
+<!ENTITY help.configuringDevice "Firefox OS 기기를 설정하는 방법">
+<!ENTITY help.troubleShooting "문제 해결">
+<!ENTITY help.simulatorAddon "시뮬레이터 부가 기능 설치">
+<!ENTITY help.adbHelperAddon "Adb 도우미 부가 기능 설치">

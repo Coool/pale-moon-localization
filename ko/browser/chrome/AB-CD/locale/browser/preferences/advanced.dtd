@@ -108,13 +108,13 @@
 <!ENTITY offlineAppRemove.confirm        "오프라인 자료 삭제">
 
 <!ENTITY certificateTab.label            "인증서">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "개인 인증서">
 <!ENTITY certSelection.description       "웹 사이트에서 개인 인증서를 요구할 때:">
 <!ENTITY certs.auto                      "자동으로 한 가지 선택">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "항상 물어 보기">
 <!ENTITY certs.ask.accesskey             "i">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "인증서 유효성 검사">
 <!ENTITY enableOCSP.label                "인증서 유효성 확인을 위해 온라인 인증서 상태 프로토콜(OCSP) 사용">
 <!ENTITY enableOCSP.accesskey            "U">
 <!ENTITY requireOCSP.label               "OCSP 서버 연결 실패 시 유효하지 않은 인증서로 간주">
@@ -124,21 +124,21 @@
 <!ENTITY viewSecurityDevices.label       "보안 장치">
 <!ENTITY viewSecurityDevices.accesskey   "y">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "호환성">
+<!ENTITY UACompat.label         "사용자 에이전트 모드:">
+<!ENTITY UACompat.Native        "기본">
+<!ENTITY UACompat.Gecko         "Gecko 호환성">
+<!ENTITY UACompat.Firefox       "파이어폭스 호환성">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY scrollparamTab.label               "스크롤">
+<!ENTITY smoothscroll.explain.label         "하단 값들은 오직 상단 체크 박스에서 부드러운 스크롤 기능 사용이 활성화된 경우에만 적용 됩니다.">
 <!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY smoothscroll.params.label          "부드러운 스크롤 기능 값">
+<!ENTITY smoothscroll.mousewheel.label      "마우스 휠 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.mousewheel.duration   "마우스 휠 스크롤 간격:">
+<!ENTITY smoothscroll.arrowkeys.label       "방향키 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.arrowkeys.duration    "방향키 스크롤 간격:">
+<!ENTITY smoothscroll.pagekeys.label        "page up/down키 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down 스크롤 간격:">
+<!ENTITY smoothscroll.scrollbar.label       "스크롤 바 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.scrollbar.duration    "스크롤 바의 부드러운 스크롤 간격:">

@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "부가 기능 관리자">
 
 <!ENTITY search.placeholder                   "부가 기능 검색">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "검색">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "제거">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "디버그">
 <!ENTITY cmd.showPreferencesWin.label         "설정">
 <!ENTITY cmd.showPreferencesWin.tooltip       "부가 기능 설정 변경">
 <!ENTITY cmd.showPreferencesUnix.label        "환경 설정">
@@ -207,8 +207,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "읽는 중…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "죄송합니다. 제품 소개 읽는 중 오류가 있습니다.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "이 부가 기능은 Pale Moon을 대상으로합니다.">
+<!ENTITY addon.compatAddon                    "이 부가 기능은 Mozilla Firefox를 대상으로하며 호환 모드로 실행됩니다.">
 
 <!ENTITY addon.createdBy.label                "- ">
 
@@ -224,10 +224,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "이것은 무엇인가요? 필요시 원격 측정이 실험을 설치하고 구동 할 수 있습니다.">
+<!ENTITY experiment.info.learnmore "더 알아보기">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "원격 측정 설정">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "더 알아보기…">

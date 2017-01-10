@@ -2,13 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Page Load Error">
+<!ENTITY loadError.label "頁面載入錯誤">
 <!ENTITY retry.label "Try Again">
 
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Failed to Connect">
-<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>雖然網站看起來存在，但是瀏覽器無法建立連線。</p><ul><li>該網站也許暫時無法使用？請稍後再試。</li><li>其他網站你也無法瀏覽嗎？ 請檢查電腦的網路連線狀態。</li><li>你的電腦或網路是否啟用了防火牆或代理伺服器？設定不正確可能會造成網頁瀏覽受到影響。</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
 <!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">

@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "북마크 모음 항목">
 <!ENTITY addonBarCmd.label "부가 기능 모음">
 <!ENTITY addonBarCmd.accesskey "A">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "상태 표시줄">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "소스 보기">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "현재 페이지 구독하기…">
 <!ENTITY addCurPagesCmd.label "모든 탭 북마크 추가…">
 <!ENTITY showAllBookmarks2.label "모든 북마크 보기">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "북마크 관리">
 <!ENTITY unsortedBookmarksCmd.label "미분류 북마크">
 <!ENTITY bookmarksToolbarChevron.tooltip "북마크 계속 보기">
 
@@ -219,7 +219,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
-<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.label   "스포이드툴">
 <!ENTITY eyedropper.accesskey "Y">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
@@ -244,7 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "개발자 도구 모음 닫기">
 <!ENTITY devToolbarMenu.label              "개발자 도구 모음">
 <!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.label               "앱 관리자">
 <!ENTITY devAppMgrMenu.accesskey           "A">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
@@ -415,9 +415,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "다른 이름으로 저장…">
 <!ENTITY savePageCmd.accesskey        "A">
-<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.label            "링크 보내기…">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.label            "페이지 링크 보내기…">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">

@@ -13,14 +13,14 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
-<!ENTITY netmonitorUI.perfNotice1         "• Click on the">
-<!ENTITY netmonitorUI.perfNotice2         "button to start performance analysis.">
+<!ENTITY netmonitorUI.perfNotice1         "• 성능 분석을 시작하려면">
+<!ENTITY netmonitorUI.perfNotice2         "단추를 누르십시오.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
-<!ENTITY netmonitorUI.reloadNotice1       "• Perform a request or">
-<!ENTITY netmonitorUI.reloadNotice2       "Reload">
-<!ENTITY netmonitorUI.reloadNotice3       "the page to see detailed information about network activity.">
+<!ENTITY netmonitorUI.reloadNotice1       "• 요구를 송신하거나 페이지를">
+<!ENTITY netmonitorUI.reloadNotice2       "새로 고침">
+<!ENTITY netmonitorUI.reloadNotice3       "하면, 네트워크 가동 상황을 확인할 수 있습니다.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.status2): This is the label displayed
   -  in the network table toolbar, above the "status" column. -->
@@ -45,7 +45,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.transferred): This is the label displayed
   -  in the network table toolbar, above the "transferred" column, which is the
   -  compressed / encoded size. -->
-<!ENTITY netmonitorUI.toolbar.transferred "Transferred">
+<!ENTITY netmonitorUI.toolbar.transferred "전송함">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.size): This is the label displayed
   -  in the network table toolbar, above the "size" column, which is the
@@ -78,11 +78,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.preview): This is the label displayed
   -  in the network details pane identifying the preview tab. -->
-<!ENTITY netmonitorUI.tab.preview         "Preview">
+<!ENTITY netmonitorUI.tab.preview         "미리 보기">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.security): This is the label displayed
   -  in the network details pane identifying the security tab. -->
-<!ENTITY netmonitorUI.tab.security        "Security">
+<!ENTITY netmonitorUI.tab.security        "보안">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterAll): This is the label displayed
   -  in the network details footer for the "All" filtering button. -->
@@ -122,15 +122,15 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.filterOther): This is the label displayed
   -  in the network details footer for the "Other" filtering button. -->
-<!ENTITY netmonitorUI.footer.filterOther  "Other">
+<!ENTITY netmonitorUI.footer.filterOther  "기타">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the "Clear" button. -->
-<!ENTITY netmonitorUI.footer.clear  "Clear">
+<!ENTITY netmonitorUI.footer.clear  "지우기">
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
-<!ENTITY netmonitorUI.footer.perf   "Toggle performance analysis…">
+<!ENTITY netmonitorUI.footer.perf   "성능 분석 열고 닫기...">
 
 <!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
@@ -204,44 +204,44 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.protocol): A tooltip
   -  for warning icon that indicates a connection uses insecure protocol. -->
-<!ENTITY netmonitorUI.security.warning.sslv3      "The protocol SSL 3.0 is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.sslv3      "프로토콜 SSL 3.0은 더 이상 사용되지 않으며 안전하지 못합니다.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
-<!ENTITY netmonitorUI.security.warning.cipher     "The cipher used for encryption is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.cipher     "암호화에 쓰인 암호기는 더 이상 사용되지 않으며 안전하지 못합니다.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
-<!ENTITY netmonitorUI.security.error      "An error occured:">
+<!ENTITY netmonitorUI.security.error      "오류가 남:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.protocolVersion): This is the label displayed
   -  in the security tab describing TLS/SSL protocol version. -->
-<!ENTITY netmonitorUI.security.protocolVersion "Protocol version:">
+<!ENTITY netmonitorUI.security.protocolVersion "프로토콜 버전:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
-<!ENTITY netmonitorUI.security.cipherSuite "Cipher suite:">
+<!ENTITY netmonitorUI.security.cipherSuite "암호 스위트:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hsts): This is the label displayed
   -  in the security tab describing the usage of HTTP Strict Transport Security. -->
-<!ENTITY netmonitorUI.security.hsts "HTTP Strict Transport Security:">
+<!ENTITY netmonitorUI.security.hsts "엄격한 전송 보안 HTTP(HSTS):">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hpkp): This is the label displayed
   -  in the security tab describing the usage of Public Key Pinning. -->
-<!ENTITY netmonitorUI.security.hpkp "Public Key Pinning:">
+<!ENTITY netmonitorUI.security.hpkp "공개키 고정(HPKP):">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.connection): This is the label displayed
   -  in the security tab describing the section containing information related to
   -  the secure connection. -->
-<!ENTITY netmonitorUI.security.connection "Connection:">
+<!ENTITY netmonitorUI.security.connection "연결:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.certificate): This is the label displayed
   -  in the security tab describing the server certificate section. -->
-<!ENTITY netmonitorUI.security.certificate "Certificate:">
+<!ENTITY netmonitorUI.security.certificate "인증서:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools): This is the label displayed
   -  on the context menu that shows the performance analysis tools -->
-<!ENTITY netmonitorUI.context.perfTools   "Start Performance Analysis…">
+<!ENTITY netmonitorUI.context.perfTools   "성능 분석 시작…">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools.accesskey): This is the access key
   -  for the performance analysis menu item displayed in the context menu for a request -->
@@ -249,13 +249,13 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl): This is the label displayed
   -  on the context menu that copies the selected request's url -->
-<!ENTITY netmonitorUI.context.copyUrl     "Copy URL">
+<!ENTITY netmonitorUI.context.copyUrl     "URL 복사">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyAsCurl): This is the label displayed
   -  on the context menu that copies the selected request as a cURL command.
   -  The capitalization is part of the official name and should be used throughout all languages.
   -  http://en.wikipedia.org/wiki/CURL -->
-<!ENTITY netmonitorUI.context.copyAsCurl    "Copy as cURL">
+<!ENTITY netmonitorUI.context.copyAsCurl    "cURL 명령어로 바꿔 복사">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl.accesskey): This is the access key
   -  for the Copy URL menu item displayed in the context menu for a request -->
@@ -263,7 +263,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri): This is the label displayed
   -  on the context menu that copies the selected image as data uri -->
-<!ENTITY netmonitorUI.context.copyImageAsDataUri "Copy Image as Data URI">
+<!ENTITY netmonitorUI.context.copyImageAsDataUri "이미지를 Data URI로 바꿔 복사">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri.accesskey): This is the access key
   -  for the Copy Image As Data URI menu item displayed in the context menu for a request -->
@@ -272,7 +272,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.summary.editAndResend): This is the label displayed
   -  on the button in the headers tab that opens a form to edit and resend the currently
      displayed request -->
-<!ENTITY netmonitorUI.summary.editAndResend "Edit and Resend">
+<!ENTITY netmonitorUI.summary.editAndResend "고쳐서 다시 보내기">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.editAndResend.accesskey): This is the access key
   -  for the "Edit and Resend" menu item displayed in the context menu for a request -->
@@ -281,20 +281,20 @@
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders): This is the label displayed
   -  on the button in the headers tab that toggle view for raw request/response headers
      from the currently displayed request -->
-<!ENTITY netmonitorUI.summary.rawHeaders "Raw headers">
+<!ENTITY netmonitorUI.summary.rawHeaders "헤더 그대로 보기">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Request headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "요청 헤더:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Response headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "응답 헤더:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
   -  network container  -->
-<!ENTITY netmonitorUI.context.newTab      "Open in New Tab">
+<!ENTITY netmonitorUI.context.newTab      "새 탭에서 열기">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab.accesskey): This is the access key
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -303,28 +303,28 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.newRequest): This is the label displayed
   -  as the title of the new custom request form -->
-<!ENTITY netmonitorUI.custom.newRequest   "New Request">
+<!ENTITY netmonitorUI.custom.newRequest   "새 요청">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.query): This is the label displayed
   -  above the query string entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.query        "Query String:">
+<!ENTITY netmonitorUI.custom.query        "쿼리 문자열:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "Request Headers:">
+<!ENTITY netmonitorUI.custom.headers      "요청 헤더:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.postData     "Request Body:">
+<!ENTITY netmonitorUI.custom.postData     "요청 전문:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->
-<!ENTITY netmonitorUI.custom.send         "Send">
+<!ENTITY netmonitorUI.custom.send         "보내기">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.cancel): This is the label displayed
   -  on the button which cancels and closes the custom request form -->
-<!ENTITY netmonitorUI.custom.cancel       "Cancel">
+<!ENTITY netmonitorUI.custom.cancel       "취소">
 
 <!-- LOCALIZATION NOTE (debuggerUI.backButton): This is the label displayed
   -  on the button which exists the performance statistics view -->
-<!ENTITY netmonitorUI.backButton          "Back">
+<!ENTITY netmonitorUI.backButton          "뒤로">
