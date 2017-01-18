@@ -18,7 +18,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
-<!ENTITY netmonitorUI.reloadNotice1       "• Perform a request or">
+<!ENTITY netmonitorUI.reloadNotice1       "• Execute um pedido ou">
 <!ENTITY netmonitorUI.reloadNotice2       "Recarregar">
 <!ENTITY netmonitorUI.reloadNotice3       "a página para ver informações detalhadas sobre a atividade de rede.">
 
@@ -78,7 +78,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tab.preview): This is the label displayed
   -  in the network details pane identifying the preview tab. -->
-<!ENTITY netmonitorUI.tab.preview         "Visualizar">
+<!ENTITY netmonitorUI.tab.preview         "Pré-visualização">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.security): This is the label displayed
   -  in the network details pane identifying the security tab. -->
@@ -130,7 +130,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
-<!ENTITY netmonitorUI.footer.perf   "Alternar análise de desempenho…">
+<!ENTITY netmonitorUI.footer.perf   "Ligar/Desligar análise de desempenho…">
 
 <!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
@@ -208,7 +208,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
-<!ENTITY netmonitorUI.security.warning.cipher     "The cipher used for encryption is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.cipher     "A cifra utilizada para encriptação foi descontinuada e é insegura.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
@@ -220,7 +220,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
-<!ENTITY netmonitorUI.security.cipherSuite "Cipher suite:">
+<!ENTITY netmonitorUI.security.cipherSuite "Suite de cifra:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hsts): This is the label displayed
   -  in the security tab describing the usage of HTTP Strict Transport Security. -->
@@ -263,7 +263,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri): This is the label displayed
   -  on the context menu that copies the selected image as data uri -->
-<!ENTITY netmonitorUI.context.copyImageAsDataUri "Copy Image as Data URI">
+<!ENTITY netmonitorUI.context.copyImageAsDataUri "Copiar imagem como URI de dados">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri.accesskey): This is the access key
   -  for the Copy Image As Data URI menu item displayed in the context menu for a request -->
@@ -281,15 +281,15 @@
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders): This is the label displayed
   -  on the button in the headers tab that toggle view for raw request/response headers
      from the currently displayed request -->
-<!ENTITY netmonitorUI.summary.rawHeaders "Raw headers">
+<!ENTITY netmonitorUI.summary.rawHeaders "Cabeçalhos não processados">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Request headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Cabeçalhos de requisição:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Response headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Cabeçalhos de resposta:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -307,15 +307,15 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.query): This is the label displayed
   -  above the query string entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.query        "Query String:">
+<!ENTITY netmonitorUI.custom.query        "Sequência de caracteres a consultar:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "Request Headers:">
+<!ENTITY netmonitorUI.custom.headers      "Cabeçalhos de requisição:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.postData     "Request Body:">
+<!ENTITY netmonitorUI.custom.postData     "Corpo da requisição:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->

@@ -4,7 +4,7 @@
 
 <!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
      is not supported on some devices. Include a trailing space as needed. -->
-<!ENTITY unsupportedPlatform.pre                             "죄송합니다만 &brandShortName;는 이 기기에서 Flash를 재생할 수 없습니다.">
+<!ENTITY unsupportedPlatform.pre                             "죄송합니다만 &brandShortName;은 이 기기에서 Flash를 재생할 수 없습니다. ">
 <!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
      supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
 <!ENTITY unsupportedPlatform.learnMore                       "상세 정보…">
@@ -25,8 +25,8 @@
 <!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
 <!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
 <!ENTITY reloadPlugin.pre                                    "">
-<!ENTITY reloadPlugin.middle                                 "페이지 새로 고침">
-<!ENTITY reloadPlugin.post                                   " to try again.">
+<!ENTITY reloadPlugin.middle                                 "페이지를 새로 고침">
+<!ENTITY reloadPlugin.post                                   " 하여 다시 시도 하십시오.">
 <!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
 <!ENTITY report.please                                       "문제점 보고서 보내기">
 <!ENTITY report.submitting                                   "보고서 전송 중…">

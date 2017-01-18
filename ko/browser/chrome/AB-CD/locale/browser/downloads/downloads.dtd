@@ -53,7 +53,7 @@
      -->
 <!ENTITY cmd.show.label                   "폴더 열기">
 <!ENTITY cmd.show.accesskey               "F">
-<!ENTITY cmd.showMac.label                "Finder에서 보기">
+<!ENTITY cmd.showMac.label                "Finder에 표시">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "다시 시도">
 <!ENTITY cmd.goToDownloadPage.label       "다운로드 페이지 가기">
@@ -62,7 +62,7 @@
 <!ENTITY cmd.copyDownloadLink.accesskey   "L">
 <!ENTITY cmd.removeFromHistory.label      "기록에서 삭제">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
-<!ENTITY cmd.clearList.label              "목록 전체 삭제">
+<!ENTITY cmd.clearList.label              "전체 목록 지우기">
 <!ENTITY cmd.clearList.accesskey          "a">
 <!ENTITY cmd.clearDownloads.label         "다운로드 항목 지우기">
 <!ENTITY cmd.clearDownloads.accesskey     "D">
@@ -87,7 +87,7 @@
 <!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
      This string is shown when there are no items in the Downloads Panel.
      -->
-<!ENTITY downloadsPanelEmpty.label        "이 세션에 대한 다운로드 없음">
+<!ENTITY downloadsPanelEmpty.label        "이 세션에는 다운로드 항목이 없습니다.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

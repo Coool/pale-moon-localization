@@ -150,7 +150,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardItem.title        "뒤로/앞으로">
 <!ENTITY locationItem.title           "주소">
 <!ENTITY searchItem.title             "검색">
-<!ENTITY throbberItem.title           "실행 색인기">
+<!ENTITY throbberItem.title           "활동 지표">
 <!ENTITY bookmarksItem.title          "북마크">
 
 <!-- Toolbar items --> 
@@ -159,7 +159,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY homeButton.label             "홈">
 
 <!ENTITY feedButton.label             "구독하기">
-<!ENTITY feedButton.tooltip           "페이지 구독하기…">
+<!ENTITY feedButton.tooltip           "현재 페이지 구독하기…">
 
 <!ENTITY bookmarksButton.label          "북마크">
 <!ENTITY bookmarksButton.tooltip        "북마크 표시">
@@ -232,7 +232,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  "Scratchpad" in your locale. You should feel free to find a close
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "스크래치 패드">
+<!ENTITY scratchpad.label             "스크래치패드">
 <!ENTITY scratchpad.accesskey         "s">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
@@ -292,12 +292,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "모두 선택">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
-<!ENTITY preferencesCmd2.label       "설정…">
+<!ENTITY preferencesCmd2.label       "설정">
 <!ENTITY preferencesCmd2.accesskey     "O">
 <!ENTITY preferencesCmdUnix.label       "환경 설정">
 <!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
-<!ENTITY clearRecentHistory.label               "사용 기록 삭제">
+<!ENTITY clearRecentHistory.label               "사용 기록 삭제…">
 
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
@@ -312,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewTabsOnTop.label            "탭 항상 위로">
 <!ENTITY viewTabsOnTop.accesskey        "T">
 
-<!ENTITY historyMenu.label "이동">
+<!ENTITY historyMenu.label "방문기록">
 <!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "최근에 닫은 탭">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
@@ -331,7 +331,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuUnsorted.label "미분류 북마크">
 <!ENTITY appMenuWebDeveloper.label "개발자 도구">
 <!ENTITY appMenuGettingStarted.label "시작하기">
-<!ENTITY appMenuSafeMode.label "안전모드로 시작…">
+<!ENTITY appMenuSafeMode.label "부가 기능을 비활성화 하고 재시작…">
 <!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
@@ -369,7 +369,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmd.accesskey        "W">
 <!ENTITY openLinkInPrivateWindowCmd.label "새 사생활 보호 창에 링크 열기">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
-<!ENTITY openLinkCmdInCurrent.label     "링크 열기">
+<!ENTITY openLinkCmdInCurrent.label     "현재 탭에 링크 열기">
 <!ENTITY openLinkCmdInCurrent.accesskey "O">
 <!ENTITY openFrameCmdInTab.label      "새 탭에 프레임 열기">
 <!ENTITY openFrameCmdInTab.accesskey  "T">

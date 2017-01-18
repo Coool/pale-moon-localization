@@ -68,13 +68,13 @@
 <!ENTITY pairDevice.dialog.description.label "새 기기를 활성화 하려면 다른 기기의 &quot;기기 연결하기&quot;를 선택하세요.">
 <!ENTITY addDevice.dialog.enterCode.label   "기기가 제공하는 코드를 입력하세요:">
 <!ENTITY addDevice.dialog.tryAgain.label    "다시 시도해 주십시오.">
-<!ENTITY addDevice.dialog.successful.label  "새로운 기기를 추가하였습니다. 초기 동기화 시 수 분 정도 소요되지만 배경 작업으로 진행될 것입니다.">
+<!ENTITY addDevice.dialog.successful.label  "새로운 기기를 추가하였습니다. 초기 동기화 시 수 분 정도 소요되지만 백그라운드에서 진행될 것입니다.">
 <!ENTITY addDevice.dialog.recoveryKey.label     "여러분의 기기를 활성화 시키려면 복구키를 입력해야 합니다. 아래 키를 저장하거나 어디에 기록해 두시기 바랍니다.">
 <!ENTITY addDevice.dialog.connected.label   "새 기기 연결함">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "로그인">
-<!ENTITY existingRecoveryKey.description "다른 기기에서 &syncBrand.shortName.label; 설정에서 &quot;계정 관리&quot; 내 &quot;나의 복구키&quot;에서 복구키를 찾을 수 있습니다.">
+<!ENTITY existingRecoveryKey.description "다른 기기의 &syncBrand.shortName.label; 설정에서 &quot;계정 관리&quot; 내 &quot;나의 복구키&quot;에서 복구키를 찾을 수 있습니다.">
 <!ENTITY verifying.label              "확인 중…">
 <!ENTITY resetPassword.label          "암호 재설정">
 <!ENTITY resetSyncKey.label           "복구키 재설정">
@@ -107,10 +107,10 @@
 <!ENTITY setup.optionsConfirmPage.title "설정 확인">
 <!ENTITY confirm.merge2.label    "&syncBrand.fullName.label;가 현재 기기의 모든 브라우저 자료를 동기화 계정에 병합합니다.">
 <!ENTITY confirm.client3.label         "경고: 현재 기기의 다음 &brandShortName; 데이터가 삭제됩니다:">
-<!ENTITY confirm.client2.moreinfo.label "&brandShortName;가 &syncBrand.fullName.label; 자료를 현재 기기로 복사합니다.">
+<!ENTITY confirm.client2.moreinfo.label "&brandShortName;이 &syncBrand.fullName.label; 자료를 현재 기기로 복사합니다.">
 <!ENTITY confirm.server2.label         "경고: 아래 기기는 로컬 데이터로 덮어 쓰게됩니다:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "설정 완료">
 <!ENTITY changeOptions.label "아래 동기화 설정을 선택해 방식을 변경할 수 있습니다.">
-<!ENTITY continueUsing.label "&brandShortName;를 계속 사용할 수 있습니다.">
+<!ENTITY continueUsing.label "&brandShortName;을 계속 사용할 수 있습니다.">

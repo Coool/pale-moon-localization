@@ -95,14 +95,14 @@
 <!ENTITY cmd.askToActivate.tooltip            "현재 부가 기능 사용 확인">
 <!ENTITY cmd.alwaysActivate.label             "항상 사용">
 <!ENTITY cmd.alwaysActivate.tooltip           "현재 부가 기능은 항상 사용">
-<!ENTITY cmd.neverActivate.label              "사용 안함 ">
+<!ENTITY cmd.neverActivate.label              "사용 안함">
 <!ENTITY cmd.neverActivate.tooltip            "현재 부가 기능은 사용 안함">
 <!ENTITY cmd.stateMenu.tooltip                "부가 기능 사용 상태 변경">
 <!ENTITY cmd.installAddon.label               "설치">
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "제거">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
-<!ENTITY cmd.debugAddon.label                 "디버그">
+<!ENTITY cmd.debugAddon.label                 "부가 기능 디버그">
 <!ENTITY cmd.showPreferencesWin.label         "설정">
 <!ENTITY cmd.showPreferencesWin.tooltip       "부가 기능 설정 변경">
 <!ENTITY cmd.showPreferencesUnix.label        "환경 설정">
@@ -111,16 +111,16 @@
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "부가 기능 개발 참여하기">
 
-<!ENTITY cmd.showReleaseNotes.label           "제품 소개 보이기">
-<!ENTITY cmd.showReleaseNotes.tooltip         "현재 업데이트 시 제품 소개 보이기">
-<!ENTITY cmd.hideReleaseNotes.label           "제품 소개 숨기기">
-<!ENTITY cmd.hideReleaseNotes.tooltip         "현재 업데이트 시 제품 소개 숨기기">
+<!ENTITY cmd.showReleaseNotes.label           "릴리즈 노트 보이기">
+<!ENTITY cmd.showReleaseNotes.tooltip         "이 업데이트의 릴리즈 노트 보이기">
+<!ENTITY cmd.hideReleaseNotes.label           "릴리즈 노트 숨기기">
+<!ENTITY cmd.hideReleaseNotes.tooltip         "이 업데이트의 릴리즈 노트 숨기기">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "부가 기능 소개">
-<!ENTITY discover.description2                "부가 기능은 &brandShortName;를 여러분의 취향에 따라 맞춤 기능을 만들어 주는 애플리케이션 혹은 테마입니다. 메일 혹은 날씨 알림, 원하는 스타일 등 다양한 기능을 제공합니다.">
+<!ENTITY discover.description2                "부가 기능은 &brandShortName;을 여러분의 취향에 따라 맞춤 기능을 만들어 주는 애플리케이션 혹은 테마입니다. 메일 혹은 날씨 알림, 원하는 스타일 등 다양한 기능을 제공합니다.">
 <!ENTITY discover.footer                      "인터넷에 연결할 때 최신 추천 부가 기능을 소개해 드립니다.">
 
 <!-- detail view -->
@@ -203,7 +203,7 @@
 <!ENTITY addon.includeUpdate.label            "업데이트 포함 항목">
 <!ENTITY addon.updateAvailable.label          "업데이트 사용 가능">
 <!ENTITY addon.checkingForUpdates.label       "업데이트 확인…">
-<!ENTITY addon.releaseNotes.label             "제품 소개:">
+<!ENTITY addon.releaseNotes.label             "릴리즈 노트:">
 <!ENTITY addon.loadingReleaseNotes.label      "읽는 중…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "죄송합니다. 제품 소개 읽는 중 오류가 있습니다.">
 
