@@ -29,13 +29,13 @@
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
-<!ENTITY options.context.inspector "Inspector">
+<!ENTITY options.context.inspector "Inspetor">
 
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
 <!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
-<!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
+<!ENTITY options.showUserAgentStyles.tooltip "Ao ativar esta opção, serão exibidos os estilos padrão carregados pelo navegador.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
@@ -62,7 +62,7 @@
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.name): This is used in
   -  the 'Default color unit' dropdown list and is visible in the options panel.
   -  -->
-<!ENTITY options.defaultColorUnit.name "Color Names">
+<!ENTITY options.defaultColorUnit.name "Nomes das cores">
 
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
@@ -84,7 +84,7 @@
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
-<!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
+<!ENTITY options.disableJavaScript.label     "Desabilitar JavaScript *">
 <!ENTITY options.disableJavaScript.tooltip   "Esta opção desativará o JavaScript para a aba atual. Se a aba ou as ferramentas forem fechadas esta configuração será perdida.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
@@ -96,7 +96,7 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Default Pale Moon Developer Tools">
+<!ENTITY options.selectDefaultTools.label     "Ferramentas do desenvolvedor padrão do Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -117,7 +117,7 @@
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label2): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
   -  tools. -->
-<!ENTITY options.selectDevToolsTheme.label2   "Themes">
+<!ENTITY options.selectDevToolsTheme.label2   "Temas">
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
@@ -136,7 +136,7 @@
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label            "Style Editor">
+<!ENTITY options.styleeditor.label            "Editor de estilo">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
@@ -156,7 +156,7 @@
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Common Preferences">
+<!ENTITY options.commonPrefs.label           "Preferências gerais">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
@@ -176,16 +176,16 @@ Goanna platform symbols">
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
-<!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
+<!ENTITY options.sourceeditor.label                     "Preferências do editor">
+<!ENTITY options.sourceeditor.detectindentation.label   "Detectar indentação">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
-<!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
-<!ENTITY options.sourceeditor.tabsize.label             "Tab size">
+<!ENTITY options.sourceeditor.expandtab.label           "Indentação através de espaços">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Utilizar espaços em vez do carácter de tabulação">
+<!ENTITY options.sourceeditor.tabsize.label             "Tamanho da tabulação">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
 <!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">
-<!ENTITY options.sourceeditor.keybinding.default.label  "Default">
+<!ENTITY options.sourceeditor.keybinding.default.label  "Padrão">
 

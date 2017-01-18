@@ -72,7 +72,7 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "브라우저 크롬과 부가 기능 디버깅에도 도구상자 쓰기">
+<!ENTITY options.enableChrome.label4    "크롬과 부가 기능 디버깅에도 도구상자 쓰기">
 <!ENTITY options.enableChrome.tooltip2  "이 옵션을 켜면 브라우저 컨텍스트에서 ([도구] &gt; [웹 개발 도구] &gt; [브라우저 도구상자]로 불러낸)여러가지 개발자 도구를 쓰고 부가 기능 관리자에서 부가 기능을 디버깅할 수 있습니다.">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
@@ -102,7 +102,7 @@
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
-<!ENTITY options.selectAdditionalTools.label  "부가 기능으로 설치된 개발자 도구s">
+<!ENTITY options.selectAdditionalTools.label  "부가 기능으로 설치된 개발자 도구">
 
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -121,8 +121,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Developer Edition 브라우저 테마 쓰기">
-<!ENTITY options.usedeveditiontheme.tooltip "Developer Edition browser 테마를 쓰거나 쓰지 않습니다.">
+<!ENTITY options.usedeveditiontheme.label   "개발자용 브라우저 테마 쓰기">
+<!ENTITY options.usedeveditiontheme.tooltip "개발자용 브라우저 테마를 쓰거나 쓰지 않습니다.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -130,8 +130,8 @@
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
-<!ENTITY options.timestampMessages.label      "시각 보기">
-<!ENTITY options.timestampMessages.tooltip    "이 옵션을 켜면 웹 콘솔의 명령어와 출력을 시각과 함께 보여줍니다.">
+<!ENTITY options.timestampMessages.label      "타임스탬프 보기">
+<!ENTITY options.timestampMessages.tooltip    "이 옵션을 켜면 웹 콘솔의 명령어와 출력을 타임스탬프와 함께 보여줍니다.">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options

@@ -17,7 +17,7 @@
 
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "기본 암호 입력">
-<!ENTITY getPassword.tokenName2.label "보안 장치">
+<!ENTITY getPassword.tokenName2.label "보안 장치:">
 <!ENTITY getPassword.password.label "암호:">
 
 <!-- Downloading a cert -->
@@ -34,18 +34,18 @@
 <!ENTITY clientAuthAsk.title "개인 인증서 요청">
 <!ENTITY clientAuthAsk.message1 "웹 사이트에서 신원을 보증할 인증서를 요청합니다.:">
 <!ENTITY clientAuthAsk.message2 "제공할 인증서 선택:">
-<!ENTITY clientAuthAsk.message3 "선택한 인증서 상세 정보">
+<!ENTITY clientAuthAsk.message3 "선택한 인증서 상세 정보:">
 
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "인증서 선택">
 <!ENTITY certPicker.info  "인증서:">
-<!ENTITY certPicker.detailsLabel "선택한 인증서 상세 정보">
+<!ENTITY certPicker.detailsLabel "선택한 인증서 상세 정보:">
 
 <!ENTITY pkcs12.setpassword.title  "인증서 백업 암호 입력">
-<!ENTITY pkcs12.setpassword.message  "입력하신 인증서 백업 암호는 곧 생성할 인증서 백업 파일을 보호합니다. 인증서를 백업하는 계속하시려면 반드시 암호를 설정해야 합니다.">
+<!ENTITY pkcs12.setpassword.message  "입력하신 인증서 백업 암호는 곧 생성할 인증서 백업 파일을 보호합니다. 인증서 백업을 계속하시려면 반드시 암호를 설정해야 합니다.">
 <!ENTITY pkcs12.setpassword.label1 "인증서 백업 암호:">
 <!ENTITY pkcs12.setpassword.label2 "인증서 백업 암호 (재입력):">
-<!ENTITY pkcs12.setpassword.reminder "중요: 만약 인증서 백업 암호를 분실하면 백업한 인증서를 다시 가져올 수 없습니다.">
+<!ENTITY pkcs12.setpassword.reminder "중요: 만약 인증서 백업 암호를 분실하면 백업한 인증서를 다시 가져올 수 없습니다. 안전한 곳에 기록해 두십시오.">
 
 <!ENTITY chooseToken.title  "토큰 선택하기">
 <!ENTITY chooseToken.message1 "토큰을 선택하십시오.">
