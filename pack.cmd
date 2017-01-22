@@ -1,7 +1,7 @@
 @echo off
-set REL=27.0.0
-rem ar bg da el en-GB fi gl hr is kn ko nl pt-BR pt-PT ro sk sl sr sv-SE tr vi zh-TW
-set LOCALES=cs de es-AR es-ES es-MX fr hu it ja pl ru zh-CN
+set REL=27.1.0
+rem ar bg da el fi gl hr is kn nl pt-BR pt-PT ro sk sl sr sv-SE tr vi zh-TW
+set LOCALES=cs de en-GB es-AR es-ES es-MX fr hu it ja ko pl ru zh-CN
 
 if not "%1" == "" (
   call :pack-xpi %1
