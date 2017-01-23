@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Ta bort lagrad data">
 
 <!ENTITY certificateTab.label            "Certifikat">
+<!ENTITY certGroup.label                 "Personligt certifikat">
 <!ENTITY certSelection.description       "När en server efterfrågar mitt personliga certifikat:">
 <!ENTITY certs.auto                      "Välj ett automatiskt">
 <!ENTITY certs.auto.accesskey            "V">
 <!ENTITY certs.ask                       "Fråga varje gång">
 <!ENTITY certs.ask.accesskey             "F">
+<!ENTITY ocspGroup.label                 "Certifikatvalidering">
+<!ENTITY enableOCSP.label                "Använd Online Certificate Status Protocol (OCSP) för att bekräfta att certifikat är giltiga">
+<!ENTITY enableOCSP.accesskey            "O">
+<!ENTITY requireOCSP.label               "När anslutningen till en OCSP-server misslyckas, betrakta certifikatet som ogiltigt">
+<!ENTITY requireOCSP.accesskey           "N">
 <!ENTITY viewCerts.label                 "Visa certifikat">
 <!ENTITY viewCerts.accesskey             "c">
-<!ENTITY verify2.label                   "Validering">
-<!ENTITY verify2.accesskey               "d">
 <!ENTITY viewSecurityDevices.label       "Säkerhetsenheter">
 <!ENTITY viewSecurityDevices.accesskey   "k">
+
+<!ENTITY UACompatGroup.label    "Kompatibilitet">
+<!ENTITY UACompat.label         "Användaragentläge:">
+<!ENTITY UACompat.Native        "Standard">
+<!ENTITY UACompat.Gecko         "Gecko-kompabilitet">
+<!ENTITY UACompat.Firefox       "Firefox-kompabilitet">
+
+<!ENTITY scrollparamTab.label               "Rullning">
+<!ENTITY smoothscroll.explain.label         "Parametrarna nedan påverkar endast om mjuk rullning är aktiverat i kryssrytan ovan.">
+<!ENTITY smoothscroll.to                    "till">
+<!ENTITY smoothscroll.params.label          "Parametrar för mjuk rullning">
+<!ENTITY smoothscroll.mousewheel.label      "Mjuk rullning med mushjul">
+<!ENTITY smoothscroll.mousewheel.duration   "Rullningstid för mushjul:">
+<!ENTITY smoothscroll.arrowkeys.label       "Mjuk rullning med piltangenter">
+<!ENTITY smoothscroll.arrowkeys.duration    "Rullningstid för piltangenter:">
+<!ENTITY smoothscroll.pagekeys.label        "Mjuk rullning med page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Rullningstid för page up/down:">
+<!ENTITY smoothscroll.scrollbar.label       "Mjuk rullning med rullningslist">
+<!ENTITY smoothscroll.scrollbar.duration    "Rullningstid för rullningslist:">

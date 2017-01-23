@@ -12,18 +12,37 @@
   technicznego</a>.
 ">
 
+<!ENTITY aboutSupport.crashes.title "Raporty o awariach">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "Zgłoś ID">
+<!ENTITY aboutSupport.crashes.sendDate "Zgłoszony">
+<!ENTITY aboutSupport.crashes.allReports "Wszystkie raporty o awariach">
+<!ENTITY aboutSupport.crashes.noConfig "Ta aplikacja nie została skonfigurowana do wyświetlania raportów o awariach.">
+
 <!ENTITY aboutSupport.extensionsTitle "Rozszerzenia">
 <!ENTITY aboutSupport.extensionName "Nazwa">
 <!ENTITY aboutSupport.extensionEnabled "Włączone">
 <!ENTITY aboutSupport.extensionVersion "Wersja">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.experimentsTitle "Funkcje eksperymentalne">
+<!ENTITY aboutSupport.experimentName "Nazwa">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "Opis">
+<!ENTITY aboutSupport.experimentActive "Aktywny">
+<!ENTITY aboutSupport.experimentEndDate "Data końcowa">
+<!ENTITY aboutSupport.experimentHomepage "Strona główna">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "Informacje o aplikacji">
 <!ENTITY aboutSupport.appBasicsName "Nazwa">
 <!ENTITY aboutSupport.appBasicsVersion "Wersja">
+<!ENTITY aboutSupport.appBasicsBuildID "Tworzenie identyfikatora">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Kanał aktualizacji">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Historia aktualizacji">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Wyświetl historię aktualizacji">
 
@@ -36,8 +55,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Włączone wtyczki">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Konfiguracja kompilacji">
 <!ENTITY aboutSupport.appBasicsUserAgent "Identyfikator programu">
-<!ENTITY aboutSupport.appBasicsCrashIDs "Zgłoszenia awarii">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Zużycie pamięci">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Wieloprocesowych Windows">
 
 <!ENTITY aboutSupport.showDir.label "Otwórz katalog">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -56,6 +76,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Preferencje user.js">
 <!ENTITY aboutSupport.userJSDescription "Folder profilu użytkownika zawiera <a id='prefs-user-js-link'>plik user.js</a> z preferencjami, które nie zostały utworzone przez program &brandShortName;.">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Ważne zmodyfikowane ustawienia">
+<!ENTITY aboutSupport.lockedPrefsName "Nazwa">
+<!ENTITY aboutSupport.lockedPrefsValue "Wartość">
+
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
@@ -72,3 +96,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Skopiuj tekst do schowka">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Skopiuj nieprzetworzone dane do schowka">
+
+<!ENTITY aboutSupport.sandboxTitle "Piaskownica">
+
+<!ENTITY aboutSupport.safeModeTitle "Spróbuj w trybie awaryjnym">
+<!ENTITY aboutSupport.restartInSafeMode.label "Uruchom ponownie z wyłączonymi dodatkami…">

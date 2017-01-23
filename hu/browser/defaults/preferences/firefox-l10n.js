@@ -1,10 +1,5 @@
-//@line 4 "e:\builds\moz2_slave\rel-m-beta-w32_rpk_5-000000000\l10n\hu\browser\firefox-l10n.js"
+//@line 4 "e:\mozdev\TychoPM\browser\locales\en-US\firefox-l10n.js"
 
-
-
-//@line 6 "e:\builds\moz2_slave\rel-m-beta-w32_rpk_5-000000000\l10n\hu\browser\firefox-l10n.js"
-
-
+//@line 6 "e:\mozdev\TychoPM\browser\locales\en-US\firefox-l10n.js"
 
 pref("general.useragent.locale", "hu");
-

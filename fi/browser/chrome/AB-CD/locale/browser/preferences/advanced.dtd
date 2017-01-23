@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Poista yhteydetöntä tilaa varten tallennetut tiedot">
 
 <!ENTITY certificateTab.label            "Varmenteet">
+<!ENTITY certGroup.label                 "Henkilökohtainen sertifikaatti">
 <!ENTITY certSelection.description       "Sivuston pyytäessä varmennettani:">
 <!ENTITY certs.auto                      "Valitse sellainen automaattisesti">
 <!ENTITY certs.auto.accesskey            "V">
 <!ENTITY certs.ask                       "Kysy joka kerta">
 <!ENTITY certs.ask.accesskey             "K">
+<!ENTITY ocspGroup.label                 "Sertifikaatin varmennus">
+<!ENTITY enableOCSP.label                "Varmenteet kelpuutetaan &quot;Varmenteen tilan yhteydenaikaisella tarkastusyhteyskäytännöllä&quot; (OCSP):">
+<!ENTITY enableOCSP.accesskey            "V">
+<!ENTITY requireOCSP.label               "Kun OCSP-palvelimeen ei pystytä muodostamaan yhteyttä, varmennetta ei hyväksytä">
+<!ENTITY requireOCSP.accesskey           "u">
 <!ENTITY viewCerts.label                 "Näytä varmenteet">
 <!ENTITY viewCerts.accesskey             "N">
-<!ENTITY verify2.label                   "Varmennus">
-<!ENTITY verify2.accesskey               "m">
 <!ENTITY viewSecurityDevices.label       "Turvallisuuslaitteet">
 <!ENTITY viewSecurityDevices.accesskey   "T">
+
+<!ENTITY UACompatGroup.label    "Yhteensopivuus">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Natiivi">
+<!ENTITY UACompat.Gecko         "Gecko-yhteensopivuus">
+<!ENTITY UACompat.Firefox       "Firefox-yhteensopivuus">
+
+<!ENTITY scrollparamTab.label               "Vieritys">
+<!ENTITY smoothscroll.explain.label         "Alla näkyvät parametrit ovat voimassa vain, jos portaaton vieritys on valittu ylläolevasta painikkeesta.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Portaattoman vierityksen parametrit">
+<!ENTITY smoothscroll.mousewheel.label      "Portaaton vieritys hiiren rullalla">
+<!ENTITY smoothscroll.mousewheel.duration   "Vierityksen kesto hiiren rullalla:">
+<!ENTITY smoothscroll.arrowkeys.label       "Portaaton vieritys nuolinäppäimillä">
+<!ENTITY smoothscroll.arrowkeys.duration    "Vierityksen kesto nuolinäppäimillä:">
+<!ENTITY smoothscroll.pagekeys.label        "Portaaton vieritys sivu ylös/alas">
+<!ENTITY smoothscroll.pagekeys.duration     "Sivu ylös/alas vierityksen kesto:">
+<!ENTITY smoothscroll.scrollbar.label       "Portaaton vieritys vierityspalkeilla">
+<!ENTITY smoothscroll.scrollbar.duration    "Portaattoman vierityksen kesto vierityspalkeilla:">

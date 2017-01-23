@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "此地址访问受限">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>请求的地址指定一个端口（例如 <q>palemoon.org:25</q> 上的端口 25 palemoon.org）通常用于 <em>其他</em> 用途，而非 Web 浏览。浏览器已取消此请求以保障您的安全。</p>">
 
 <!ENTITY dnsNotFound.title "找不到服务器">
 <!ENTITY dnsNotFound.longDesc "<ul> <li>请检查该地址是否输入错误，比如将<q><strong>www</strong>.example.com</q>错写成<q><strong>ww</strong>.example.com</q></li><li>如果您无法载入任何页面，请检查您计算机的网络连接。</li><li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li></ul>">
@@ -68,8 +68,8 @@
 <!ENTITY netTimeout.title "连接超时">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "无法理解该地址">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "无法理解该地址">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
   <li>您可能需要安装其他软件以打开此地址。</li>
 </ul>
@@ -93,10 +93,12 @@
 ">
 
 <!ENTITY nssFailure2.title "安全连接失败">
-<!ENTITY nssFailure2.longDesc "<ul>
-  <li>无法显示您尝试查看的页面，因为无法验证所收到数据的真实性。</li>
-  <li>请联系网站的所有者以告知此问题。或者使用帮助菜单中的相关命令来报告此问题站点。</li>
-</ul>">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>无法显示您正在尝试访问的页面因为无法验证接收数据的真实性。</li>
+  <li>请联系网站所有者并告知此问题。</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "安全连接失败">
 <!ENTITY nssBadCert.longDesc2 "<ul>
@@ -113,13 +115,16 @@
 ">
 
 <!ENTITY malwareBlocked.title "可疑的攻击站点！">
-<!ENTITY malwareBlocked.longDesc " <p>攻击站点尝试通过安装程序来盗取隐私数据、使用您的计算机攻击他人或者破坏您的系统。</p> <p>网站所有者若认为自己的站点被错误地报告为攻击站点，可以<a href='http://www.stopbadware.org/home/reviewinfo' >请求评审</a>。</p> ">
+<!ENTITY malwareBlocked.longDesc "
+<p>攻击网站可能尝试安装程序以窃取私密信息，使用您的电脑来攻击其他电脑，或损坏您的系统。</p>
+<p>网站所有者如果认为他们的网站被误认为攻击网站，可以尝试<a href='https://www.stopbadware.org/request-review' >请求审查</a>.</p>
+">
 
 <!ENTITY phishingBlocked.title "可疑的钓鱼网站！">
 <!ENTITY phishingBlocked.longDesc " <p>在本页面输入个人信息可能会导致账号被盗或其他危险。</p><p>这类钓鱼网站常含有被称为“钓鱼攻击”的诈骗行为，这些伪装的网页或邮件地址可能用来假冒成您信任的源地址以实施诈骗。</p> ">
 
-<!ENTITY cspFrameAncestorBlocked.title "由于内容安全策略而被阻止">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>该页面的内容安全策略不允许 &brandShortName; 以该方式加载此页面。</p>">
+<!ENTITY cspBlocked.title "被内容安全策略阻止">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 阻止了此载入页面的方式，因为页面包含的内容不被内容安全策略允许。</p>">
 
 <!ENTITY xssBlockMode.title "已被 XSS 过滤器阻止">
 <!ENTITY xssBlockMode.longDesc "
@@ -148,5 +153,20 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
+<!ENTITY errorReporting.title "报告此错误">
+<!ENTITY errorReporting.longDesc "报告此地址和证书信息 <span id='hostname'></span> 将帮助我们识别恶意站点。感谢您为创建更安全的互联网作出的贡献！">
+<!ENTITY errorReporting.automatic "自动报告未来错误。">
+<!ENTITY errorReporting.learnMore "了解详情…">
+<!ENTITY errorReporting.sending "发送报告">
+<!ENTITY errorReporting.sent "报告已发送">
+<!ENTITY errorReporting.report "报告">
+<!ENTITY errorReporting.tryAgain "重试">
+
 <!ENTITY remoteXUL.title "远程 XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>请联系网站拥有者告知这个问题。</li></ul></p>">
+
+<!ENTITY sslv3Used.title "无法安全地连接">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "高级信息：ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "了解详情…">

@@ -1,9 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY addons.windowTitle                   "Dodatki">
+<!ENTITY addons.windowTitle                   "Menadżer dodatków">
 
 <!ENTITY search.placeholder                   "Szukaj we wszystkich dodatkach">
+<!ENTITY search.buttonlabel                   "Szukaj">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -50,7 +51,7 @@
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
 <!ENTITY updates.updateAddonsAutomatically.label     "Aktualizuj dodatki automatycznie">
-<!ENTITY updates.updateAddonsAutomatically.accesskey "A">
+<!ENTITY updates.updateAddonsAutomatically.accesskey "O">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
      "Automatically", "Use default global behavior"). These menu items reset the
@@ -78,7 +79,7 @@
 <!ENTITY cmd.preferencesWin.label             "Opcje">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
 <!ENTITY cmd.preferencesUnix.label            "Preferencje">
-<!ENTITY cmd.preferencesUnix.accesskey        "P">
+<!ENTITY cmd.preferencesUnix.accesskey        "O">
 <!ENTITY cmd.about.label                      "O tym dodatku">
 <!ENTITY cmd.about.accesskey                  "d">
 
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "Z">
 <!ENTITY cmd.uninstallAddon.label             "Usuń">
 <!ENTITY cmd.uninstallAddon.accesskey         "U">
+<!ENTITY cmd.debugAddon.label                 "Debuguj">
 <!ENTITY cmd.showPreferencesWin.label         "Opcje">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Zmień opcje tego dodatku">
 <!ENTITY cmd.showPreferencesUnix.label        "Preferencje">
@@ -127,7 +129,7 @@
 <!ENTITY detail.version.label                 "Wersja">
 <!ENTITY detail.lastupdated.label             "Ostatnia aktualizacja">
 <!ENTITY detail.creator.label                 "Twórca">
-<!ENTITY detail.homepage.label                "Witryna">
+<!ENTITY detail.homepage.label                "Strona">
 <!ENTITY detail.numberOfDownloads.label       "Liczba pobrań">
 
 <!ENTITY detail.contributions.description     "Autor tego dodatku prosi o wsparcie niewielką kwotą jego dalszego rozwoju.">
@@ -150,7 +152,7 @@
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
 <!ENTITY detail.showPreferencesWin.tooltip    "Zmień opcje tego dodatku">
 <!ENTITY detail.showPreferencesUnix.label     "Preferencje">
-<!ENTITY detail.showPreferencesUnix.accesskey "P">
+<!ENTITY detail.showPreferencesUnix.accesskey "O">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Zmień preferencje związane z tym dodatkiem">
 
 
@@ -178,7 +180,7 @@
 <!ENTITY search.filter2.available.label       "dostępne dodatki">
 <!ENTITY search.filter2.available.tooltip     "Wyświetl dodatki dostępne do instalacji">
 
-<!ENTITY addon.homepage                       "Witryna">
+<!ENTITY addon.homepage                       "Strona">
 <!ENTITY addon.details.label                  "Więcej">
 <!ENTITY addon.details.tooltip                "Wyświetl więcej informacji o tym dodatku">
 <!ENTITY addon.unknownDate                    "nieznana">
@@ -207,6 +209,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Wczytywanie…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Przepraszamy, podczas pobierania informacji o wydaniu wystąpił błąd.">
 
+<!ENTITY addon.nativeAddon                    "Ten dodatek jest stworzony dla Pale Moon">
+<!ENTITY addon.compatAddon                    "Ten dodatek jest stworzony dla Mozilla Firefox i działa w trybie zgodnośći">
+
 <!ENTITY addon.createdBy.label                "Autor: ">
 
 <!ENTITY eula.title                           "Umowa licencyjna użytkownika">
@@ -215,3 +220,16 @@
 <!ENTITY eula.accept                          "Zaakceptuj i zainstaluj…">
 
 <!ENTITY settings.path.button.label           "Przeglądaj…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "Co to jest? Telemetria może zainstalować i uruchomiać eksperymenty od czasu do czasu.">
+<!ENTITY experiment.info.learnmore "Dowiedz się więcej">
+<!ENTITY experiment.info.learnmore.accesskey "D">
+<!ENTITY experiment.info.changetelemetry "Ustawienia Telemetrii">
+<!ENTITY experiment.info.changetelemetry.accesskey "J">
+
+<!ENTITY setting.learnmore "Dowiedz się więcej…">

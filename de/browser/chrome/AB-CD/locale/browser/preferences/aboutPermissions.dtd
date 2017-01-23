@@ -20,25 +20,33 @@
 <!ENTITY permission.alwaysAsk            "Jedes Mal nachfragen">
 <!ENTITY permission.allow                "Erlauben">
 <!ENTITY permission.allowForSession      "Für die Sitzung erlauben">
-<!ENTITY permission.allowFirstPartyOnly  "Nur als aufgerufene Seite erlauben">
+<!ENTITY permission.allowFirstPartyOnly  "Nur angeforderte Seite erlauben">
 <!ENTITY permission.block                "Blockieren">
 
 <!ENTITY password.label                  "Passwörter speichern">
 <!ENTITY password.manage                 "Passwörter verwalten…">
+
+<!ENTITY image.label                     "Bilder laden">
 
 <!ENTITY cookie.label                    "Cookies setzen">
 <!ENTITY cookie.remove                   "Cookies entfernen">
 <!ENTITY cookie.manage                   "Cookies verwalten…">
 <!ENTITY cookie.removeAll                "Alle Cookies entfernen">
 
-<!ENTITY geo.label                       "Standort weitergeben">
+<!ENTITY desktop-notification.label      "Benachrichtigungen anzeigen">
+
+<!ENTITY install.label                   "Erweiterungen oder Themes installieren">
+
+<!ENTITY geo.label                       "Ihren Standort weitergeben">
 
 <!ENTITY plugins.label                   "Plugins">
 
 <!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
-<!ENTITY indexedDB.label                 "Offline-Speicher verwalten">
+<!ENTITY indexedDB.label                 "Offline-Speicherung verwalten">
 
 <!ENTITY popup.label                     "Pop-up-Fenster öffnen">
 
 <!ENTITY fullscreen.label                "Zu Vollbild wechseln">
+
+<!ENTITY pointerLock.label               "Mauszeiger ausblenden">

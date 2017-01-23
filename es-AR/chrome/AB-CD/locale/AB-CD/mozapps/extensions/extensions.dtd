@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Administrador de complementos">
 
 <!ENTITY search.placeholder                   "Buscar todos los complementos">
+<!ENTITY search.buttonlabel                   "Buscar">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -27,7 +28,7 @@
 <!ENTITY warning.checkcompatibility.label          "La verificación de compatibilidad de complementos está deshabilitada. Podrías tener complementos incompatibles.">
 <!ENTITY warning.checkcompatibility.enable.label   "Habilitar">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Habilitar verificación de compatibilidad de complementos">
-<!ENTITY warning.updatesecurity.label              "La verificación de actualizaciones de seguridad de complementos está deshabilitada. Podrías estar en peligro por las actualizaciones.">
+<!ENTITY warning.updatesecurity.label              "La verificación de actualizaciones de seguridad de complementos está deshabilitada. Podrías estar en peligro por la falta de actualizaciones.">
 <!ENTITY warning.updatesecurity.enable.label       "Habilitar">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Habilitar la verificación de actualizaciones de seguridad">
 
@@ -89,7 +90,7 @@
 <!ENTITY cmd.enableTheme.label                "Usar tema">
 <!ENTITY cmd.enableTheme.accesskey            "U">
 <!ENTITY cmd.disableTheme.label               "Dejar de usar tema">
-<!ENTITY cmd.disableTheme.accesskey           "u">
+<!ENTITY cmd.disableTheme.accesskey           "D">
 <!ENTITY cmd.askToActivate.label              "Preguntar para activar">
 <!ENTITY cmd.askToActivate.tooltip            "Preguntar para usar este complemento cada vez">
 <!ENTITY cmd.alwaysActivate.label             "Siempre activar">
@@ -99,8 +100,9 @@
 <!ENTITY cmd.stateMenu.tooltip                "Cambiar cuando se ejecute este complemento">
 <!ENTITY cmd.installAddon.label               "Instalar">
 <!ENTITY cmd.installAddon.accesskey           "I">
-<!ENTITY cmd.uninstallAddon.label             "Eliminar">
+<!ENTITY cmd.uninstallAddon.label             "Quitar">
 <!ENTITY cmd.uninstallAddon.accesskey         "r">
+<!ENTITY cmd.debugAddon.label                 "Depuración">
 <!ENTITY cmd.showPreferencesWin.label         "Configuración">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Cambiar la configuración de este complemento">
 <!ENTITY cmd.showPreferencesUnix.label        "Configuración">
@@ -121,17 +123,17 @@
 <!ENTITY discover.description2                "Los complementos son aplicaciones que permiten personalizar &brandShortName; con
   funciones extra o estilo. Probá una barra lateral que te ahorre tiempo, un notificador del tiempo o un tema visual para que &brandShortName;
   esté en tu onda.">
-<!ENTITY discover.footer                      "Cuando te conectés a Internet, esta vista mostrará
+<!ENTITY discover.footer                      "Cuando te conectés a Internet, este panel mostrará
   algunos de los mejores y más populares complementos para que probés.">
 
 <!-- detail view -->
 <!ENTITY detail.version.label                 "Versión">
 <!ENTITY detail.lastupdated.label             "Última actualización">
 <!ENTITY detail.creator.label                 "Desarrollador">
-<!ENTITY detail.homepage.label                "Sitio web">
+<!ENTITY detail.homepage.label                "Página web">
 <!ENTITY detail.numberOfDownloads.label       "Descargas">
 
-<!ENTITY detail.contributions.description     "El programador de este complemento pide que lo ayuden a soportar su desarrollo continuo mediante una pequeña contribución.">
+<!ENTITY detail.contributions.description     "El desarrollador de este complemento pide que lo ayuden a soportar su desarrollo continuo mediante una pequeña contribución.">
 
 <!ENTITY detail.updateType                    "Actualizaciones automáticas">
 <!ENTITY detail.updateDefault.label           "Predeterminadas">
@@ -182,11 +184,11 @@
 <!ENTITY addon.homepage                       "Sitio web">
 <!ENTITY addon.details.label                  "Más">
 <!ENTITY addon.details.tooltip                "Mostrar más detalles sobre este complemento">
-<!ENTITY addon.unknownDate                    "Desconocido">
+<!ENTITY addon.unknownDate                    "Desconocida">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
-<!ENTITY addon.disabled.postfix               "[deshabilitado]">
+<!ENTITY addon.disabled.postfix               "(deshabilitado)">
 <!-- LOCALIZATION NOTE (addon.update.postfix): This is used in the available
      updates list to signify that an item is an update, in the form
      "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
@@ -203,10 +205,13 @@
 <!ENTITY addon.updateNow.tooltip              "Instalar la actualización para este complemento">
 <!ENTITY addon.includeUpdate.label            "Incluir en actualización">
 <!ENTITY addon.updateAvailable.label          "Hay una actualización disponible">
-<!ENTITY addon.checkingForUpdates.label       "Buscar actualizaciones…">
+<!ENTITY addon.checkingForUpdates.label       "Buscando actualizaciones…">
 <!ENTITY addon.releaseNotes.label             "Notas de lanzamiento:">
 <!ENTITY addon.loadingReleaseNotes.label      "Cargando…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "Lo sentimos, pero hubo un error cargando las notas de lanzamiento.">
+<!ENTITY addon.errorLoadingReleaseNotes.label "Lo sentimos, pero hubo un error al cargar las notas de lanzamiento.">
+
+<!ENTITY addon.nativeAddon                    "Este complemento está diseñado para Pale Moon">
+<!ENTITY addon.compatAddon                    "Este complemento está diseñado para Mozilla Firefox y se ejecuta bajo el modo de compatibilidad">
 
 <!ENTITY addon.createdBy.label                "Por ">
 
@@ -216,3 +221,16 @@
 <!ENTITY eula.accept                          "Aceptar e instalar…">
 
 <!ENTITY settings.path.button.label           "Examinar…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "¿Qué es esto? La telemetría puede instalar y ejecutar experimentos de vez en cuando.">
+<!ENTITY experiment.info.learnmore "Saber más">
+<!ENTITY experiment.info.learnmore.accesskey "S">
+<!ENTITY experiment.info.changetelemetry "Configuración de telemetría">
+<!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+<!ENTITY setting.learnmore "Saber más…">

@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Các mục của Thanh Đánh Dấu">
 <!ENTITY addonBarCmd.label "Thanh Tiện Ích">
 <!ENTITY addonBarCmd.accesskey "a">
+<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Mã nguồn của Trang">
 <!ENTITY pageSourceCmd.accesskey "M">
@@ -115,15 +117,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenu.label "Trang ưa thích (b)">
 <!ENTITY bookmarksMenu.accesskey "b">
-<!ENTITY bookmarkThisPageCmd.label "Đánh Dấu Trang Này">
+<!ENTITY bookmarkThisPageCmd.label "Đánh dấu Trang Này">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "I">
 <!ENTITY subscribeToPageMenupopup.label "Đăng kí nhận tin từ Trang Này">
 <!ENTITY subscribeToPageMenuitem.label "Đăng kí nhận tin từ Trang Này…">
 <!ENTITY addCurPagesCmd.label "Đánh dấu Tất cả Các thẻ…">
-<!ENTITY showAllBookmarks2.label "Hiển thị Tất cả Trang đánh dấu">
-<!ENTITY unsortedBookmarksCmd.label "Các trang đánh dấu Chưa sắp xếp">
-<!ENTITY bookmarksToolbarChevron.tooltip "Hiện thêm các trang đánh dấu">
+<!ENTITY showAllBookmarks2.label "Hiển thị Tất cả Dấu trang">
+<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY unsortedBookmarksCmd.label "Dấu trang Chưa Sắp xếp">
+<!ENTITY bookmarksToolbarChevron.tooltip "Hiện thêm các dấu trang">
 
 <!ENTITY backCmd.label                "Lùi">
 <!ENTITY backCmd.accesskey            "L">
@@ -159,12 +162,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY feedButton.tooltip           "Đăng kí nhận tin từ trang này…">
 
 <!ENTITY bookmarksButton.label          "Trang ưa thích">
-<!ENTITY bookmarksButton.tooltip        "Hiển thị các trang đánh dấu của bạn">
+<!ENTITY bookmarksButton.tooltip        "Hiển thị các dấu trang của bạn">
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Trang ưa thích">
-<!ENTITY bookmarksMenuButton.tooltip        "Hiển thị các trang đánh dấu của bạn">
-<!ENTITY bookmarksMenuButton.unsorted.label "Các trang đánh dấu Chưa sắp xếp">
+<!ENTITY bookmarksMenuButton.tooltip        "Hiển thị các dấu trang của bạn">
+<!ENTITY bookmarksMenuButton.unsorted.label "Dấu trang Chưa Sắp xếp">
 <!ENTITY viewBookmarksSidebar.label         "Hiện trong Thanh lề">
 <!ENTITY viewBookmarksToolbar.label         "Hiển thị Thanh công cụ Đánh dấu">
 
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.accesskey "Y">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,6 +244,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Đóng thanh Phát triển">
 <!ENTITY devToolbarMenu.label              "Thanh công cụ Phát triển">
 <!ENTITY devToolbarMenu.accesskey          "v">
+<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Bật tắt công cụ (T)">
@@ -285,7 +297,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY preferencesCmdUnix.label       "Tùy chỉnh">
 <!ENTITY preferencesCmdUnix.accesskey     "y"> 
 
-<!ENTITY clearRecentHistory.label               "Xóa lịch sử duyệt web gần đây…">
+<!ENTITY clearRecentHistory.label               "Xóa Lịch sử Gần đây…">
 
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
@@ -316,7 +328,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuToolbarLayout.label "Bố cục Thanh công cụ…">
 <!ENTITY appMenuSidebars.label "Thanh lề">
 <!ENTITY appMenuFind.label "Tìm…">
-<!ENTITY appMenuUnsorted.label "Các trang đánh dấu Chưa sắp xếp">
+<!ENTITY appMenuUnsorted.label "Dấu trang Chưa Sắp xếp">
 <!ENTITY appMenuWebDeveloper.label "Nhà phát triển Web">
 <!ENTITY appMenuGettingStarted.label "Bắt đầu">
 <!ENTITY appMenuSafeMode.label "Khởi động lại và vô hiệu hóa Tiện ích…">
@@ -393,7 +405,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBGImageCmd.accesskey     "e">
 <!ENTITY setDesktopBackgroundCmd.label      "Đặt làm ảnh nền… (s)">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "s">
-<!ENTITY bookmarkPageCmd2.label       "Đánh Dấu Trang Này">
+<!ENTITY bookmarkPageCmd2.label       "Đánh dấu Trang Này">
 <!ENTITY bookmarkPageCmd2.accesskey   "u">
 <!ENTITY bookmarkThisLinkCmd.label      "Đánh Dấu Liên Kết Này">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "u">
@@ -403,6 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Lưu Trang dưới dạng…">
 <!ENTITY savePageCmd.accesskey        "r">
+<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "r">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -601,7 +617,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "Thông tin Chi tiết…">
 
-<!ENTITY allTabs.filter.emptyText "Search Tabs">
+<!ENTITY allTabs.filter.emptyText "Tìm kiếm Thẻ">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "Thẻ trình duyệt">
@@ -609,7 +625,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "Thẻ ở thiết bị khác">
 
-<!ENTITY syncBrand.shortName.label    "Đồng bộ">
+<!ENTITY syncBrand.shortName.label    "Sync">
 
 <!ENTITY syncSetup.label              "Cài đặt &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "C">

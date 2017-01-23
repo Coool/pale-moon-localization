@@ -3,24 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY cutCmd.label "Kes">
-<!ENTITY cutCmd.accesskey "K">
+<!ENTITY cutCmd.accesskey "t">
 <!ENTITY copyCmd.label "Kopyala">
-<!ENTITY copyCmd.accesskey "p">
+<!ENTITY copyCmd.accesskey "c">
 <!ENTITY pasteCmd.label "Yapıştır">
-<!ENTITY pasteCmd.accesskey "Y">
+<!ENTITY pasteCmd.accesskey "p">
 <!ENTITY undoCmd.label "Geri al">
-<!ENTITY undoCmd.accesskey "G">
-<!ENTITY selectAllCmd.label "Tümünü seç">
-<!ENTITY selectAllCmd.accesskey "T">
-<!ENTITY deleteCmd.label "Sil">
-<!ENTITY deleteCmd.accesskey "S">
+<!ENTITY undoCmd.accesskey "u">
+<!ENTITY selectAllCmd.label "Select All">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY deleteCmd.label "Delete">
+<!ENTITY deleteCmd.accesskey "d">
 
-<!ENTITY spellAddToDictionary.label "Sözlüğe ekle">
-<!ENTITY spellAddToDictionary.accesskey "S">
-<!ENTITY spellUndoAddToDictionary.label "Sözlüğe eklemeyi geri al">
-<!ENTITY spellUndoAddToDictionary.accesskey "g">
-<!ENTITY spellCheckToggle.label "Yazım denetimi">
-<!ENTITY spellCheckToggle.accesskey "Y">
-<!ENTITY spellNoSuggestions.label "(İmla önerisi yok)">
-<!ENTITY spellDictionaries.label "Diller">
+<!ENTITY spellAddToDictionary.label "Add to Dictionary">
+<!ENTITY spellAddToDictionary.accesskey "o">
+<!ENTITY spellUndoAddToDictionary.label "Undo Add To Dictionary">
+<!ENTITY spellUndoAddToDictionary.accesskey "n">
+<!ENTITY spellCheckToggle.label "Check Spelling">
+<!ENTITY spellCheckToggle.accesskey "g">
+<!ENTITY spellNoSuggestions.label "(No Spelling Suggestions)">
+<!ENTITY spellDictionaries.label "Languages">
 <!ENTITY spellDictionaries.accesskey "l">
+
+<!ENTITY searchTextBox.clear.label "Clear">

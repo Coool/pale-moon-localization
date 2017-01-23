@@ -6,6 +6,7 @@
 <!ENTITY  connectionsDialog.title       "Configuración de la conexión">
 <!ENTITY  window.width                  "39em">
 <!ENTITY  window.macWidth               "41em">
+
 <!ENTITY  proxyTitle.label              "Configurar proxys para acceder a Internet">
 <!ENTITY  noProxyTypeRadio.label        "Sin proxy">
 <!ENTITY  noProxyTypeRadio.accesskey    "y">
@@ -22,9 +23,9 @@
 <!ENTITY  ftp.label                     "Proxy FTP:">
 <!ENTITY  ftp.accesskey                 "F">
 <!ENTITY  http.label                    "Proxy HTTP:">
-<!ENTITY  http.accesskey                "H">
+<!ENTITY  http.accesskey                "x">
 <!ENTITY  ssl.label                     "Proxy SSL:">
-<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  ssl.accesskey                 "L">
 <!ENTITY  socks.label                   "Servidor SOCKS:">
 <!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
@@ -39,5 +40,5 @@
 <!ENTITY  noproxy.label                 "Sin proxy para:">
 <!ENTITY  noproxy.accesskey             "n">
 <!ENTITY  noproxyExplain.label          "Ejemplo: .palemoon.org, .com.ar, 192.168.1.0/24">
-<!ENTITY  shareproxy.label              "Usar este mismo proxy para todos los protocolos">
-<!ENTITY  shareproxy.accesskey          "x">
+<!ENTITY  shareproxy.label              "Usar este servidor proxy para todos los protocolos">
+<!ENTITY  shareproxy.accesskey          "s">

@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "احذف بيانات الاستخدام دون اتصال">
 
 <!ENTITY certificateTab.label            "الشّهادات">
+<!ENTITY certGroup.label                 "شهادة شخصية">
 <!ENTITY certSelection.description       "عندما يطلب خادوم شهادتي الشخصيّة:">
 <!ENTITY certs.auto                      "حدد واحدة آليّا">
 <!ENTITY certs.auto.accesskey            "ل">
 <!ENTITY certs.ask                       "اسألني كلّ مرّة">
 <!ENTITY certs.ask.accesskey             "س">
+<!ENTITY ocspGroup.label                 "التحقق من صحة شهادة">
+<!ENTITY enableOCSP.label                "استخدم بروتوكول حالة الشهادة على الإنترنت (OCSP) لتأكيد الصلاحية الحاليّة للشهادات">
+<!ENTITY enableOCSP.accesskey            "خ">
+<!ENTITY requireOCSP.label               "عندما يفشل اتصال خادوم OCSP، اعتبر الشهادة غير صالحة">
+<!ENTITY requireOCSP.accesskey           "ع">
 <!ENTITY viewCerts.label                 "أظهر الشهادات">
 <!ENTITY viewCerts.accesskey             "ظ">
-<!ENTITY verify2.label                   "التحقّق">
-<!ENTITY verify2.accesskey               "ت">
 <!ENTITY viewSecurityDevices.label       "أجهزة الأمن">
 <!ENTITY viewSecurityDevices.accesskey   "ج">
+
+<!ENTITY UACompatGroup.label    "التوافق">
+<!ENTITY UACompat.label         "وضع وكيل المستخدم:">
+<!ENTITY UACompat.Native        "الأصلي">
+<!ENTITY UACompat.Gecko         "التوافق مع Gecko">
+<!ENTITY UACompat.Firefox       "التوافق مع فيرفكس">
+
+<!ENTITY scrollparamTab.label               "التمرير">
+<!ENTITY smoothscroll.explain.label         "الإعدادات التالية لن تطبق إلا في حالة تفعيل مربع الاختيار في الأعلى.">
+<!ENTITY smoothscroll.to                    "إلى">
+<!ENTITY smoothscroll.params.label          "إعدادات التمرير السلس">
+<!ENTITY smoothscroll.mousewheel.label      "التمرير السلس بعجلة الفأرة">
+<!ENTITY smoothscroll.mousewheel.duration   "زمن التمرير بعجلة الفأرة:">
+<!ENTITY smoothscroll.arrowkeys.label       "التمرير السلس بمفاتيح الأسهم">
+<!ENTITY smoothscroll.arrowkeys.duration    "زمن التمرير بمفاتيح الأسهم:">
+<!ENTITY smoothscroll.pagekeys.label        "التمرير السلس بمفتاحي page up و page down">
+<!ENTITY smoothscroll.pagekeys.duration     "زمن التمرير بمفتاحي page up و page down:">
+<!ENTITY smoothscroll.scrollbar.label       "التمرير السلس بأشرطة التمرير">
+<!ENTITY smoothscroll.scrollbar.duration    "زمن التمرير بأشرطة التمرير:">

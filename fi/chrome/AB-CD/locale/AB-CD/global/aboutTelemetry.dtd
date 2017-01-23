@@ -12,6 +12,10 @@
   Tietojen mittaus on <span>pois päältä</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Hitaat SQL-lauseet
 ">
@@ -20,12 +24,24 @@
   Selaimen jäätymiset
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogrammit
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Yksinkertaiset mittaukset
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +56,8 @@
   Lisäosien keräämät histogrammit
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Laajenna osio
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Supista osio
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -62,4 +74,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   Näytä raakadata jäätymistilanteista
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
 ">

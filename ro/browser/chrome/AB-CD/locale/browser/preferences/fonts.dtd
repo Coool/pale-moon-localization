@@ -3,9 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  fontsDialog.title                       "Fonturi">
-<!ENTITY  window.width                            "42em">
-<!ENTITY  window.macWidth                         "46em">
-<!ENTITY  window.unixWidth                        "46em">
 
 <!ENTITY  language.label                          "Fonturi pentru:">
 <!ENTITY  language.accesskey                      "F">
@@ -24,19 +21,17 @@
 <!ENTITY  monospace.label                         "Monospațiat:">
 <!ENTITY  monospace.accesskey                     "i">
 
-<!ENTITY  font.langGroup.latin1                   "Occidental">
-<!ENTITY  font.langGroup.latin2                   "Central-european">
+<!-- LOCALIZATION NOTE (font.langGroup.latin) :
+     Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
+<!ENTITY  font.langGroup.latin                    "Latin">
 <!ENTITY  font.langGroup.japanese                 "Japoneză">
 <!ENTITY  font.langGroup.trad-chinese             "Chineză tradițională (Taiwan)">
 <!ENTITY  font.langGroup.simpl-chinese            "Chineză simplificată">
 <!ENTITY  font.langGroup.trad-chinese-hk          "Chineză tradițională (Hong Kong)">
 <!ENTITY  font.langGroup.korean                   "Coreeană">
 <!ENTITY  font.langGroup.cyrillic                 "Chirilică">
-<!ENTITY  font.langGroup.baltic                   "Baltică">
 <!ENTITY  font.langGroup.el                       "Greacă">
-<!ENTITY  font.langGroup.turkish                  "Turcă">
-<!ENTITY  font.langGroup.unicode                  "Alte limbi">
-<!ENTITY  font.langGroup.user-def                 "Definite de utilizator">
+<!ENTITY  font.langGroup.other                    "Alte sisteme de scriere">
 <!ENTITY  font.langGroup.thai                     "Thailandeză">
 <!ENTITY  font.langGroup.hebrew                   "Ebraică">
 <!ENTITY  font.langGroup.arabic                   "Arabă">
@@ -72,3 +67,40 @@
 <!ENTITY languages.customize.Fallback.label       "Revenire codare caracter:">
 <!ENTITY languages.customize.Fallback.accesskey   "R">
 <!ENTITY languages.customize.Fallback.desc        "Această codificare caracter este utilizată pentru conținutul moștenit care nu reușește să declare codificarea sa.">
+
+<!ENTITY languages.customize.Fallback.auto        "Implicit pentru localizarea curentă">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.arabic):
+     Translate "Arabic" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.arabic      "Arabă">
+<!ENTITY languages.customize.Fallback.baltic      "Baltic">
+<!ENTITY languages.customize.Fallback.ceiso       "Europa Centrală, ISO">
+<!ENTITY languages.customize.Fallback.cewindows   "Europa Centrală, Microsoft">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.simplified):
+     Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.simplified  "Chineză, simplificată">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.traditional):
+     Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.traditional "Chineză, tradițională">
+<!ENTITY languages.customize.Fallback.cyrillic    "Chirilic">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.greek):
+     Translate "Greek" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.greek       "Greacă">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.hebrew):
+     Translate "Hebrew" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.hebrew      "Ebraică">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.japanese):
+     Translate "Japanese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.japanese    "Japoneză">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.korean):
+     Translate "Korean" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.korean      "Coreeană">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.thai):
+     Translate "Thai" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.thai        "Thailandeză">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.turkish):
+     Translate "Turkish" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.turkish     "Turcă">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.vietnamese):
+     Translate "Vietnamese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.vietnamese  "Vietnameză">
+<!ENTITY languages.customize.Fallback.other       "Altele (incl. vest europene)">

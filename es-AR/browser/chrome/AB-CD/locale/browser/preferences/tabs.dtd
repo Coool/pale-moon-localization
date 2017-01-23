@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY newWindowsAsTabs.label       "Abrir ventanas nuevas en nuevas pestañas">
+<!ENTITY newWindowsAsTabs.label       "Abrir ventanas nuevas en pestañas nuevas">
 <!ENTITY newWindowsAsTabs.accesskey   "t">
 
 <!ENTITY warnCloseMultipleTabs.label  "Advertirme cuando cierre múltiples pestañas">
@@ -14,8 +14,20 @@
 <!ENTITY restoreTabsOnDemand.label        "No cargar pestañas hasta que sean seleccionadas">
 <!ENTITY restoreTabsOnDemand.accesskey    "l">
 
-<!ENTITY switchToNewTabs.label        "Cuando abra un enlace en una nueva pestaña, cambiar a ella inmediatamente">
+<!ENTITY switchToNewTabs.label        "Cuando abra un enlace en una pestaña nueva, cambiar a ella inmediatamente">
 <!ENTITY switchToNewTabs.accesskey    "s">
 
-<!ENTITY showTabsInTaskbar.label          "Mostrar vista previa de pestañas en la barra de tareas de Windows">
-<!ENTITY showTabsInTaskbar.accesskey      "v">
+<!ENTITY showTabsInTaskbar.label          "Mostrar previsualización de pestañas en la barra de tareas de Windows">
+<!ENTITY showTabsInTaskbar.accesskey      "p">
+
+<!ENTITY showTabBar.label                   "Siempre mostrar la barra de pestañas">
+<!ENTITY showTabBar.accesskey               "b">
+
+<!ENTITY insertRelatedAfterCurrent.label    "Insertar pestañas relacionadas al lado de la pestaña actual">
+<!ENTITY contextLoadInBackground.label      "Al realizar una búsqueda contextual, cambiar a la pestaña nueva inmediatamente">
+<!ENTITY closeWindowWithLastTab.label       "Cerrar la ventana cuando se cierre la última pestaña">
+
+<!ENTITY newtabPage.label                   "Al abrir una pestaña nueva, mostrar:">
+<!ENTITY newtabPage.blank.label             "Una página en blanco">
+<!ENTITY newtabPage.home.label              "La página de inicio predeterminada de Pale Moon">
+<!ENTITY newtabPage.quickdial.label         "La página de marcadores rápidos">

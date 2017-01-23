@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "인증 기관">
 <!ENTITY certmgr.tab.orphan2                  "기타">
 
-<!ENTITY certmgr.ca.builtins                  "중계 인증 기관">
-<!ENTITY certmgr.ca.mycas                     "사용자 관리 인증 기관">
-
 <!ENTITY certmgr.mine                         "개인 인증서를 사용하실 수 있습니다:">
 <!ENTITY certmgr.others                       "다른 사람의 인증서를 사용하실 수 있습니다:">
 <!ENTITY certmgr.websites2                    "웹 사이트를 인증하는 데 사용할 수 있습니다:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "인증서 정보 확인 중…">
 <!ENTITY certmgr.subjectinfo.label            "발급 대상">
 <!ENTITY certmgr.issuerinfo.label             "발급자">
-<!ENTITY certmgr.validity.label               "인증서 유효성" >
+<!ENTITY certmgr.periodofvalidity.label       "유효 기간" >
 <!ENTITY certmgr.fingerprints.label           "지문">
 <!ENTITY certmgr.certdetail.title             "인증서 상세 설명">
 <!ENTITY certmgr.certdetail.cn                "도메인 (CN)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 지문">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 지문">
 
-<!ENTITY certmgr.editcert.title               "보안 인증서 설정 편집">
 <!ENTITY certmgr.editcacert.title             "인증 기관 인증서 신뢰도 설정 편집">
-<!ENTITY certmgr.editsslcert.title            "웹 사이트 인증서 신뢰도 설정 편집">
 <!ENTITY certmgr.editcert.edittrust           "신뢰도 설정 편집:">
 <!ENTITY certmgr.editcert.trustssl            "아래 인증서는 웹 사이트를 인증합니다.">
 <!ENTITY certmgr.editcert.trustemail          "아래 인증서는 메일 사용자를 인증 합니다.">
 <!ENTITY certmgr.editcert.trustobjsign        "아래 인증서는 소프트웨어 개발사를 인증합니다.">
-<!ENTITY certmgr.editsslcert.edittrust        "웹 서버 인증서 신용 설정:">
-<!ENTITY certmgr.editsslcert.dotrust          "인증서 내용을 신용합니다.">
-<!ENTITY certmgr.editsslcert.donttrust        "인증서 내용을 신용하지 않습니다.">
 <!ENTITY certmgr.editemailcert.title          "메일 인증서 신뢰도 설정 편집">
 <!ENTITY certmgr.editemailcert.edittrust      "인증서 신뢰도 설정 편집:">
 <!ENTITY certmgr.editemailcert.dotrust        "인증서 내용을 신용합니다.">
 <!ENTITY certmgr.editemailcert.donttrust      "인증서 내용을 신용하지 않습니다.">
 
 <!ENTITY certmgr.deletecert.title             "인증서 삭제">
-<!ENTITY certmgr.deletecert.beforename        "아래 인증서 삭제를 요청하셨습니다:">
-<!ENTITY certmgr.deletecert.aftername         "정말로 이 인증서를 삭제하시겠습니까?">
-<!ENTITY certmgr.deleteusercert.title         "사용자 인증서 삭제">
-<!ENTITY certmgr.deleteusercert.beforename    "인증서 삭제를 요청하셨습니다:">
-<!ENTITY certmgr.deleteusercert.aftername     "인증서를 삭제하면 해당 인증서로 암호화된 메일을 읽을 수 없습니다.">
 
 <!ENTITY certmgr.certname                     "인증서 이름">
 <!ENTITY certmgr.certserver                   "서버">
 <!ENTITY certmgr.override_lifetime            "유효기간">
 <!ENTITY certmgr.tokenname                    "보안 장치">
-<!ENTITY certmgr.issued                       "발급일">
+<!ENTITY certmgr.begins                       "시작일">
 <!ENTITY certmgr.expires                      "만료일">
 <!ENTITY certmgr.email                        "메일 주소">
 <!ENTITY certmgr.serial                       "시리얼 번호">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "E">
 <!ENTITY certmgr.editca.label                 "인증 기관 신뢰 편집">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "추가">
-<!ENTITY certmgr.add.accesskey                "A">
 <!ENTITY certmgr.export.label                 "내보내기…">
 <!ENTITY certmgr.export.accesskey             "x">
 <!ENTITY certmgr.delete2.label                "삭제…">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "항목값">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "인증서 계층 구조">
-<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "예외 목록 추가…">
 <!ENTITY certmgr.addException.accesskey       "x">
 

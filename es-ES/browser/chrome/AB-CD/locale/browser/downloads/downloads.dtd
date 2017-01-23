@@ -56,7 +56,7 @@
 <!ENTITY cmd.showMac.label                "Mostrar en Finder">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Reintentar">
-<!ENTITY cmd.goToDownloadPage.label       "Ir a la página de la descarga">
+<!ENTITY cmd.goToDownloadPage.label       "Ir a la página de descarga">
 <!ENTITY cmd.goToDownloadPage.accesskey   "G">
 <!ENTITY cmd.copyDownloadLink.label       "Copiar enlace de la descarga">
 <!ENTITY cmd.copyDownloadLink.accesskey   "L">
@@ -84,8 +84,13 @@
      -->
 <!ENTITY downloadsListEmpty.label         "No hay descargas.">
 
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "No hay descargas para esta sesión.">
+
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no
      results in the Downloads view.
      -->
-<!ENTITY downloadsListNoMatch.label       "No se encuentra ninguna descarga que concuerde.">
+<!ENTITY downloadsListNoMatch.label       "No se pudo encontrar ninguna descarga que concuerde.">

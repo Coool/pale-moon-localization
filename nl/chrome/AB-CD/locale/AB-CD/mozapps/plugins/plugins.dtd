@@ -18,12 +18,13 @@
 <!ENTITY checkForUpdates                                     "Controleren op updates…">
 <!ENTITY disabledPlugin                                      "Deze plug-in is uitgeschakeld.">
 <!ENTITY blockedPlugin.label                                 "Deze plug-in is geblokkeerd voor uw bescherming.">
+<!ENTITY hidePluginBtn.label                                 "Hide plugin">
 <!ENTITY managePlugins                                       "Plug-ins beheren…">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
 <!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
-<!ENTITY reloadPlugin.pre                                    "Laad de ">
+<!ENTITY reloadPlugin.pre                                    "">
 <!ENTITY reloadPlugin.middle                                 "pagina opnieuw">
 <!ENTITY reloadPlugin.post                                   " om het nogmaals te proberen.">
 <!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
@@ -38,3 +39,4 @@
 
 <!ENTITY plugin.file                                         "Bestand">
 <!ENTITY plugin.mimeTypes                                    "MIME-typen">
+<!ENTITY plugin.flashProtectedMode.label                     "Enable Adobe Flash protected mode">

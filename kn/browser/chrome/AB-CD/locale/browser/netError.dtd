@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "ಈ ವಿಳಾಸವು ಪ್ರತಿಬಂಧಿಸಲ್ಪಟ್ಟಿದೆ">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>T ವಿನಂತಿಸಿದ ವಿಳಾಸವು ನಿರ್ದಿಷ್ಟ ಪೋರ್ಟ್(e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) ಸಾಮಾನ್ಯವಾಗಿ ವೆಬ್ ಬ್ರೌಸಿಂಗ್ ಅಲ್ಲದ <em>ಇತರ</em >ಉದ್ದೇಶಗಳಿಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ. ಬ್ರೌಸರ್ ನಿಮ್ಮ ರಕ್ಷಣೆ ಮತ್ತು ಭದ್ರತೆಗಾಗಿ ವಿನಂತಿಯನ್ನು ರದ್ದು ಮಾಡಿದೆ.</p>">
 
 <!ENTITY dnsNotFound.title "ಪರಿಚಾರಕವು ಕಂಡುಬಂದಿಲ್ಲ">
 <!ENTITY dnsNotFound.longDesc "<ul> 
@@ -72,10 +72,12 @@
 <!ENTITY netTimeout.title "ಸಂಪರ್ಕದ ಕಾಲಾವಧಿ ಮುಗಿದಿದೆ">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "ವಿಳಾಸವನ್ನು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳಲಾಗಿಲ್ಲ">
-<!ENTITY protocolNotFound.longDesc "<ul> 
-<li>ಈ ವಿಳಾಸವನ್ನು ತೆರೆಯಲು ಬೇರೊಂದು ತಂತ್ರಾಂಶವನ್ನು ನೀವು ಅನುಸ್ಥಾಪಿಸುವುದು ಅಗತ್ಯವಾಗಿರುತ್ತದೆ.</li> 
-</ul>">
+<!ENTITY unknownProtocolFound.title "ವಿಳಾಸ ಅರ್ಥವಾಗಿರಲಿಲ್ಲ">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul> 
+  <li>ನೀವು ಈ ವಿಳಾಸಕ್ಕೆ ತೆರೆಯಲು ಇತರ ತಂತ್ರಾಂಶ ಅನುಸ್ಥಾಪಿಸ ಬೇಕು.</li> 
+</ul>
+">
 
 <!ENTITY proxyConnectFailure.title "ಪ್ರಾಕ್ಸಿ ಪರಿಚಾರಕವು ಸಂಪರ್ಕವನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತಿದೆ">
 <!ENTITY proxyConnectFailure.longDesc "<ul> 
@@ -105,10 +107,12 @@
 </ul>">
 
 <!ENTITY nssFailure2.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
-<!ENTITY nssFailure2.longDesc "<ul> 
-<li>ನೀವು ನೋಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಪಡೆಯಲಾದ ಮಾಹಿತಿಯ ವಿಶ್ವಾಸಾರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ .</li> 
-<li>ದಯವಿಟ್ಟು ಈ ತೊಂದರೆಯ ಬಗ್ಗೆ ಜಾಲತಾಣದ ಮಾಲಿಕರಿಗೆ ತಿಳಿಸಿ. ಪರ್ಯಾಯವಾಗಿ,ಭಿನ್ನಗೊಂಡ ಈ ತಾಣವನ್ನು  ವರದಿ ಮಾಡಲು ನೆರವು ಮೆನುವಿನಲ್ಲಿ ಕಂಡುಬರುವ ಆಜ್ಞೆಯನ್ನು ಬಳಸಿ.</li> 
-</ul>">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>Tಪ್ರಾಪ್ತ ದತ್ತಾಂಶದ ದೃಢೀಕರಣವನ್ನು ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ ಆದರಿಂದ ನೀವು ವೀಕ್ಷಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಪುಟ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ.</li>
+  <li>ಈ ತೊಂದರೆಯನ್ನು ತಿಳಿಸಲು ವೆಬ್ಸೈಟ್ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
 <!ENTITY nssBadCert.longDesc2 "<ul> 
@@ -122,15 +126,17 @@
 </ul>">
 
 <!ENTITY malwareBlocked.title "ಶಂಕಿತ ಧಾಳಿಕಾರಕ ತಾಣ!">
-<!ENTITY malwareBlocked.longDesc "<p>ಧಾಳಿಕಾರಕ ತಾಣಗಳು ನಿಮ್ಮ ಖಾಸಗಿ ಮಾಹಿತಿಯನ್ನು ಕದಿಯುವಂತಹ, ಇತರರಿಗೆ ಧಾಳಿ ಮಾಡುವ ಸಲುವಾಗಿ ನಿಮ್ಮ ಗಣಕವನ್ನು ಬಳಸಬಲ್ಲಂತಹ, ಅಥವ ನಿಮ್ಮ ಗಣಕವನ್ನು ಹಾಳುಗೆಡವಬಲ್ಲಂತಹ ಪ್ರೊಗ್ರಾಂಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತವೆ.</p> 
-<p>ಅಚಾತುರ್ಯದಿಂದಾಗಿ ಅವರ ತಾಣವು ಒಂದು ಧಾಳಿಕಾರಕ ತಾಣವೆಂದು ಪರಿಗಣಿತಗೊಂಡಿದೆ ಎನ್ನುವ ಜಾಲತಾಣದ ಮಾಲಿಕರು <a href='http://www.stopbadware.org/home/reviewinfo' >ಒಂದು ಮರು ಪರಿಶೀಲನೆಗೆ ಮನವಿ</a> ಸಲ್ಲಿಸಬಹುದಾಗಿದೆ.</p>">
+<!ENTITY malwareBlocked.longDesc "
+<p>ಅಟ್ಯಾಕ್ ಸೈಟ್ಗಳು ಖಾಸಗಿ ಮಾಹಿತಿ ಕದಿಯಲು ಕಾರ್ಯಕ್ರಮ ಅನುಸ್ಥಾಪಿಸಲು, ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಅನ್ನು ಇತರರ ಮೇಲೆ ದಾಳಿ ಅಥವಾ ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಯ ಹಾನಿಮಾಡಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ.</p>
+<p>ತಮ್ಮ ಸೈಟ್ ತಪ್ಪಾಗಿ ಒಂದು ದಾಳಿ ಸೈಟ್ ಆಗಿ ವರದಿ ಮಾಡಲಾಗಿದೆ ನಂಬುವ ವೆಬ್ಸೈಟ್ ಮಾಲೀಕರು<a href='https://www.stopbadware.org/request-review' >ವಿಮರ್ಶೆಗೆ ಮನವಿ ಮಾಡಿ</a>.</p>
+">
 
 <!ENTITY phishingBlocked.title "ಶಂಕಿತ ಜಾಲ ವಂಚನೆ!!">
 <!ENTITY phishingBlocked.longDesc "<p>ಈ ಪುಟದಲ್ಲಿ ಯಾವುದೆ ಖಾಸಗಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸುವುದು ಮಾಹಿತಿಯ ಕಳ್ಳತನ ಅಥವ ಇತರೆ ವಂಚನೆಗೆ ಕಾರಣವಾಗುತ್ತದೆ.</p> 
 <p>ಇಂತಹ ಬಗೆಯ ಜಾಲ ವಂಚನೆಗಳು ಫಿಶಿಂಗ್ ಧಾಳಿಗಳು ಎಂದು ಕರೆಯಲ್ಪಡುವ ಹಗರಣಗಳಲ್ಲಿ ಬಳಸಲಿದ್ದು, ಇಲ್ಲಿನ ವಂಚಕ ಜಾಲ ಪುಟಗಳು ಹಾಗು ಇಮೈಲ್‌ಗಳು ನೀವು ನಂಬಬಹುದಾದ ಮೂಲಗಳನ್ನು ಅನುಕರಿಸುತ್ತವೆ.</p>">
 
-<!ENTITY cspFrameAncestorBlocked.title "ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮದಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p> ಈ ಪುಟವನ್ನು ಈ ರೀತಿಯಲ್ಲಿ ಲೋಡ್ ಮಾಡುದಂತೆ  &brandShortName; ತಡೆದಿದೆ ಏಕೆಂದರೆ ಈ ಪುಟದಲ್ಲಿನ ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮವು ಇದಕ್ಕೆ ಅನುಮತಿ ನೀಡುವುದಿಲ್ಲ.</p>">
+<!ENTITY cspBlocked.title "ವಿಷಯ ಭದ್ರತಾ ನೀತಿಯಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; ವಿಷಯ ಭದ್ರತಾ ನೀತಿ ತಡೆಯೋಡ್ಡಿದರಿಂದ ಪುಟವನ್ನು ಈ ರೀತಿ ಲೋಡ್ ಆಗುವುದನ್ನು ತಡೆಯೊಡ್ಡಿದೆ.</p>">
 
 <!ENTITY xssBlockMode.title "XSS ಫಿಲ್ಟರ್ ಸಂಪರ್ಕ ನಿರ್ಬಂಧಿಸಿದೆ">
 <!ENTITY xssBlockMode.longDesc "<ul>
@@ -160,5 +166,20 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
+<!ENTITY errorReporting.title "ಈ ದೋಷವನ್ನು ವರದಿ ಮಾಡಿ">
+<!ENTITY errorReporting.longDesc "<span id='hostname'></span> ದ ವಿಳಾಸ ಮತ್ತು ಪ್ರಮಾಣಪತ್ರ ಮಾಹಿತಿ ವರದಿ ಮಾಡಿದರೆ ಅದನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ದುರುದ್ದೇಶಪೂರಿತ ಸೈಟ್ಗಳು ನಿರ್ಬಂಧಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಒಂದು ಸುರಕ್ಷಿತ ವೆಬ್ ರಚಿಸಲು ಸಹಾಯಕ್ಕೆ ಧನ್ಯವಾದಗಳು!">
+<!ENTITY errorReporting.automatic "ಭವಿಷ್ಯದಲ್ಲಿ ದೋಷಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ವರದಿ ಮಾಡಿ">
+<!ENTITY errorReporting.learnMore "ಹೆಚ್ಚು ತಿಳಿಯಿರಿ…">
+<!ENTITY errorReporting.sending "ವರದಿ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ">
+<!ENTITY errorReporting.sent "ವರದಿಯನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ">
+<!ENTITY errorReporting.report "ವರದಿ">
+<!ENTITY errorReporting.tryAgain "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು">
+
 <!ENTITY remoteXUL.title "ದೂರಸ್ಥ XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>ಈ ತೊಂದರೆಯ ಬಗ್ಗೆ ಜಾಲತಾಣದ ಮಾಲಿಕರಿಗೆ ತಿಳಿಸಲು ದಯವಿಟ್ಟು ಅವರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "ಸುರಕ್ಷಿತವಾಗಿ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "ಸುಧಾರಿತ ಮಾಹಿತಿ: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ…">

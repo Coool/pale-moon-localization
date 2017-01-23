@@ -1,45 +1,43 @@
-@charset "utf-8";
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * このファイルを編集して userChrome.css という名前で
- *   [プロファイルディレクトリ]/chrome/
- * ディレクトリにコピーしてください。
+ * Edit this file and copy it as userChrome.css into your
+ * profile-directory/chrome/
  */
 
 /*
- * このファイルを使って Mozilla のユーザインターフェイスの見た目をカスタマイズ
- * できます。デフォルト設定を上書きする場合は !important 宣言を使ってください。
+ * This file can be used to customize the look of Mozilla's user interface
+ * You should consider using !important on rules which you want to
+ * override default settings.
  */
 
 /*
- * 次の @namespace 規則ではデフォルト名前空間を XUL にしています。
- * 削除すると正常に動作しなくなるので、削除しないでください。
+ * Do not remove the @namespace line -- it's required for correct functioning
  */
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
 
 
 /*
- * 操作性を向上させる例:
+ * Some possible accessibility enhancements:
  */
 /*
- * デフォルトフォントサイズをすべて 20 ポイントにする:
+ * Make all the default font sizes 20 pt:
  *
  * * {
  *   font-size: 20pt !important
  * }
  */
 /*
- * メニュー項目についてはデフォルトサイズではなく 15 ポイントにする:
+ * Make menu items in particular 15 pt instead of the default size:
  *
  * menupopup > * {
  *   font-size: 15pt !important
  * }
  */
 /*
- * ロケーション (URL) バーを固定幅フォントで表示する:
+ * Give the Location (URL) Bar a fixed-width font
  *
  * #urlbar {
  *    font-family: monospace !important;
@@ -47,7 +45,6 @@
  */
 
 /*
- * その他の例は次のページを参照してください:
- * http://www.mozilla-japan.org/unix/customizing.html
+ * For more examples see http://www.mozilla.org/unix/customizing.html
  */
  

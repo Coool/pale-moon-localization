@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Odstrani ">
 
 <!ENTITY certificateTab.label            "Digitalna potrdila">
+<!ENTITY certGroup.label                 "Osebni certifikat">
 <!ENTITY certSelection.description       "Ko strežnik zahteva moje osebno digitalno potrdilo:">
 <!ENTITY certs.auto                      "ga izberi samodejno">
 <!ENTITY certs.auto.accesskey            "s">
 <!ENTITY certs.ask                       "me vsakokrat vprašaj">
 <!ENTITY certs.ask.accesskey             "k">
+<!ENTITY ocspGroup.label                 "Preverjanje veljavnosti certifikata">
+<!ENTITY enableOCSP.label                "Uporabi protokol za sprotno preverjanje digitalnih potrdil (OCSP) za potrditev njihove trenutne veljavnosti">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "Ko povezava strežnika OCSP spodleti, obravnavaj digitano potrdilo kot neveljavno">
+<!ENTITY requireOCSP.accesskey           "K">
 <!ENTITY viewCerts.label                 "Preglej digitalna potrdila">
 <!ENTITY viewCerts.accesskey             "e">
-<!ENTITY verify2.label                   "Preverjanje">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Varnostne naprave">
 <!ENTITY viewSecurityDevices.accesskey   "a">
+
+<!ENTITY UACompatGroup.label    "Združljivost">
+<!ENTITY UACompat.label         "Način za uporabniškega agenta:">
+<!ENTITY UACompat.Native        "Lastni">
+<!ENTITY UACompat.Gecko         "Gecko združljivost">
+<!ENTITY UACompat.Firefox       "Firefox združljivost">
+
+<!ENTITY scrollparamTab.label               "Pomikanje">
+<!ENTITY smoothscroll.explain.label         "Spodnji parametri vplivajo le, če je gladko drsenje splošno omogočeno s potrditvenim poljem zgoraj.">
+<!ENTITY smoothscroll.to                    "za">
+<!ENTITY smoothscroll.params.label          "Parametri za gladko drsenje">
+<!ENTITY smoothscroll.mousewheel.label      "Gladko drsenje z miškinim kolescem">
+<!ENTITY smoothscroll.mousewheel.duration   "Trajanje drsenja z miškinim kolescem:">
+<!ENTITY smoothscroll.arrowkeys.label       "Gladko drsenje s puščicami">
+<!ENTITY smoothscroll.arrowkeys.duration    "Trajanje drsenja s tipkami:">
+<!ENTITY smoothscroll.pagekeys.label        "Gladko drsenje s tipkama stran gor/dol">
+<!ENTITY smoothscroll.pagekeys.duration     "Trajanje drsenja s tipkama stran gor/dol:">
+<!ENTITY smoothscroll.scrollbar.label       "Gladko drsenje z drsniki">
+<!ENTITY smoothscroll.scrollbar.duration    "Trajanje gladkega pomikanja z drsniki:">

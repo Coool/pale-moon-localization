@@ -12,6 +12,10 @@
   Telemetry は<span>無効</span>です。
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+一般データ
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   動作の遅い SQL ステートメント
 ">
@@ -20,12 +24,22 @@
   ブラウザの動作停止
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection " スレッドは動作停止しています">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   ヒストグラム
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+キー付きヒストグラム
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   統計情報
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+アドオンの詳細
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +54,8 @@
   アドオンから収集されたヒストグラム
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  クリックして表示
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  クリックして閉じる
+<!ENTITY aboutTelemetry.toggle "
+クリックしてセクションを切り替えます
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -62,4 +72,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   生データを表示する
+">
+
+<!ENTITY aboutTelemetry.filterText "
+フィルター (文字列または /正規表現/)
 ">

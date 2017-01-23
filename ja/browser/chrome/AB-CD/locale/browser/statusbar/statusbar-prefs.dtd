@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Pale Moon ステータスバーオプション">
+
+<!ENTITY status4evar.pane.status "現在の設定">
+<!ENTITY status4evar.pane.progress "進行状況">
+<!ENTITY status4evar.pane.download "ダウンロード">
+<!ENTITY status4evar.pane.statusbar "ステータスバー">
+<!ENTITY status4evar.pane.advanced "詳細">
+
+<!ENTITY status4evar.tab.general "一般">
+<!ENTITY status4evar.tab.toolbar "ステータスバー">
+<!ENTITY status4evar.tab.urlbar "アドレスバー">
+<!ENTITY status4evar.tab.popup "ポップアップ">
+<!ENTITY status4evar.tab.tabs "タブ">
+
+<!ENTITY status4evar.option.none "なし">
+<!ENTITY status4evar.option.nothing "なし">
+<!ENTITY status4evar.option.toolbar "ステータスバー">
+<!ENTITY status4evar.option.urlbar "アドレスバー">
+<!ENTITY status4evar.option.popup "ポップアップ">
+<!ENTITY status4evar.option.tooltip "ツールヒント">
+<!ENTITY status4evar.option.bottom "下">
+<!ENTITY status4evar.option.top "上">
+<!ENTITY status4evar.option.fill "埋める">
+<!ENTITY status4evar.option.dlcount "ダウンロード数">
+<!ENTITY status4evar.option.dltime "残り時間">
+<!ENTITY status4evar.option.both "両方">
+<!ENTITY status4evar.option.right "右">
+<!ENTITY status4evar.option.left "左">
+<!ENTITY status4evar.option.fixed "パーセント">
+<!ENTITY status4evar.option.simple "シンプル">
+<!ENTITY status4evar.option.advanced "拡張">
+<!ENTITY status4evar.option.browse "閲覧">
+<!ENTITY status4evar.option.clear "クリア">
+<!ENTITY status4evar.option.center "中央">
+<!ENTITY status4evar.option.offset "オフセット">
+<!ENTITY status4evar.option.repeat "繰り返し">
+<!ENTITY status4evar.option.no-repeat "繰り返しなし">
+<!ENTITY status4evar.option.space "スペース">
+<!ENTITY status4evar.option.round "Round">
+<!ENTITY status4evar.option.firefoxdefault "Pale Moon デフォルト">
+<!ENTITY status4evar.option.download.library "ライブラリ">
+<!ENTITY status4evar.option.download.tab "タブ">
+<!ENTITY status4evar.option.download.thirdparty "サードパーティ">
+
+<!ENTITY status4evar.unit.milliseconds "ミリ秒">
+<!ENTITY status4evar.unit.seconds "秒">
+<!ENTITY status4evar.unit.px "px">
+
+<!ENTITY status4evar.status.general.status.caption "ステータステキスト">
+<!ENTITY status4evar.status.label "次のステータスを表示：">
+<!ENTITY status4evar.status.timeout.label "次の状況を非表示:">
+<!ENTITY status4evar.status.default.label "既定の状態を表示">
+<!ENTITY status4evar.status.network.label "ネットワークの状態を表示">
+<!ENTITY status4evar.status.network.xhr.label "バックグラウンドでネットワーク状態を表示">
+<!ENTITY toolkit.dom.status.change.label "状態を変更する Web ページの許可">
+
+<!ENTITY status4evar.status.general.linkOver.caption "リンク">
+<!ENTITY status4evar.status.linkOver.label "次のリンクを表示:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "リンクを表示するまでの待ち時間:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "リンクを非表示にするまでの待ち時間:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "状態テキストの最大の長さ:">
+
+<!ENTITY status4evar.status.urlbar.align.label "状態表示の位置:">
+<!ENTITY status4evar.status.urlbar.color.label "状態表示の色:">
+<!ENTITY status4evar.status.currentUrl "現在の場所">
+<!ENTITY status4evar.status.statusText "状態のテキスト">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox 互換機能">
+<!ENTITY browser.urlbar.formatting.enabled.label "ドメイン強調表示の有効">
+<!ENTITY browser.urlbar.trimming.enabled.label "プロトコル非表示の有効 (http:// と ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "デフォルトで右側に表示">
+<!ENTITY status4evar.status.popup.mouseMirror.label "マウスオーバーしたらサイドを移す">
+
+<!ENTITY status4evar.progress.style.label "カスタムスタイルの使用">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "アドレスバーに進行状況を表示">
+<!ENTITY status4evar.progress.urlbar.line.label "線のスタイル:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "常にステータスバーを表示">
+
+<!ENTITY status4evar.editor.label "編集者:">
+<!ENTITY status4evar.editor.css.color.label "色：">
+<!ENTITY status4evar.editor.css.image.label "画像:">
+<!ENTITY status4evar.editor.css.image.repeat "繰り返し">
+<!ENTITY status4evar.editor.css.image.position "位置">
+<!ENTITY status4evar.editor.css.image.offset "オフセット">
+
+
+
+<!ENTITY status4evar.download.button.action.label "ダウンロードステータスボタンの動作:">
+<!ENTITY status4evar.download.force.label "ダウンロードステータスインジケーターを常に表示">
+<!ENTITY status4evar.download.label.force.label "常にインジケーターテキストを表示">
+<!ENTITY status4evar.download.label.label "ダウンロード ステータスインジケーターのテキスト:">
+<!ENTITY status4evar.download.tooltip.label "ダウンロードステータスインジケーターのツールヒント:">
+<!ENTITY status4evar.download.progress.label "ダウンロード進行状況ボタンの表示">
+<!ENTITY status4evar.download.progress.average.label "ダウンロード完了平均時間の表示">
+<!ENTITY status4evar.download.progress.max.label "ダウンロードが最も遅い時間の表示">
+<!ENTITY status4evar.download.progress.min.label "最もはやいダウンロードの表示">
+<!ENTITY status4evar.download.color.active.label "ダウンロード中の進行状況の色:">
+<!ENTITY status4evar.download.color.paused.label "ダウンロード一時停止時の進捗状況の色:">
+<!ENTITY status4evar.download.notify.animate.label "ダウンロード完了時のアニメーションボタン">
+<!ENTITY status4evar.download.notify.timeout.label "ダウンロード完了時ボタンの強調表示:">
+
+<!ENTITY status4evar.addonbar.borderStyle "代替ツールバーの境界線を使用">
+<!ENTITY status4evar.addonbar.windowGripper "ウィンドウ サイズ変更グリップの表示">
+<!ENTITY status4evar.addonbar.closeButton "閉じるボタンの表示">
+
+<!ENTITY status4evar.advanced.warning "これらの高度な設定は、Pale Moon やその他の拡張機能に問題を引き起こす可能性があります。 自己責任で変更してください。">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "アドレスバーの XBL 使用を強制">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "アドレスバーの進行状況またはステータステキストが正しく表示されている場合に限りこれを選択してください。 アドレスバーに XBL 使用設定した場合、他の拡張機能が破損する可能性があります。">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "全画面表示モードを検出し、適切にリンク・ステータスを表示します。">
+<!ENTITY status4evar.advanced.status.detectVideo "HTML5 動画全画面の時、状態のポップアップを非表示">

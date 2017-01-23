@@ -16,12 +16,23 @@
 
 <!ENTITY  locationBar.label             "Barra degli indirizzi">
 
-<!ENTITY  locbar.pre.label              "Nella barra degli indirizzi visualizza suggerimenti da:">
-<!ENTITY  locbar.pre.accessKey          "z">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "cronologia e segnalibri">
+<!ENTITY  locbar.suggest.label          "Nella barra degli indirizzi visualizza suggerimenti da:">
 <!ENTITY  locbar.history.label          "cronologia">
+<!ENTITY  locbar.history.accesskey      "n">
 <!ENTITY  locbar.bookmarks.label        "segnalibri">
+<!ENTITY  locbar.bookmarks.accesskey    "b">
+<!ENTITY  locbar.openpage.label         "schede aperte">
+<!ENTITY  locbar.openpage.accesskey     "d">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "Nella barra degli indirizzi visualizza suggerimenti da:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "z">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "cronologia e segnalibri">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.nothing.label          "nessun suggerimento">
 
 <!ENTITY  acceptCookies.label           "Accetta i cookie dai siti">

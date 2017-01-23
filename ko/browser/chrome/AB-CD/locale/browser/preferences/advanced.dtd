@@ -27,16 +27,16 @@
 <!ENTITY checkSpelling.accesskey         "t">
 
 <!ENTITY systemDefaults.label            "기본 설정">
-<!ENTITY alwaysCheckDefault.label        "시작할 때마다 &brandShortName;가 기본 브라우저인지 확인"><!--XXX-->
+<!ENTITY alwaysCheckDefault.label        "시작할 때마다 &brandShortName;이 기본 브라우저인지 확인"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
-<!ENTITY setDefault.label                "&brandShortName;를 기본 브라우저로 설정">
+<!ENTITY setDefault.label                "&brandShortName;을 기본 브라우저로 설정">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "현재 &brandShortName;가 기본 브라우저입니다.">
+<!ENTITY isDefault.label                 "현재 &brandShortName;이 기본 브라우저입니다.">
 
 <!ENTITY dataChoicesTab.label            "데이터 선택">
 
 <!ENTITY crashReporterSection.label      "오류 보고서">
-<!ENTITY crashReporterDesc.label         "&brandShortName;가 오류 보고서를 전송하여 &vendorShortName;가 브라우저를 보다 안정적이고 보안이 강화되도록 도움">
+<!ENTITY crashReporterDesc.label         "&brandShortName;이 오류 보고서를 전송하여 &vendorShortName;가 브라우저를 보다 안정적이고 보안이 강화되도록 도움">
 <!ENTITY enableCrashReporter.label       "오류 보고서 켜기">
 <!ENTITY enableCrashReporter.accesskey   "C">
 <!ENTITY crashReporterLearnMore.label    "더 알아보기">
@@ -45,7 +45,7 @@
 
 <!ENTITY connection.label                "연결">
 
-<!ENTITY connectionDesc.label            "&brandShortName;가 인터넷에 연결하는 방법을 선택합니다.">
+<!ENTITY connectionDesc.label            "&brandShortName;이 인터넷에 연결하는 방법을 선택합니다.">
 <!ENTITY connectionSettings.label        "설정…">
 <!ENTITY connectionSettings.accesskey    "e">
 
@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "오프라인 자료 삭제">
 
 <!ENTITY certificateTab.label            "인증서">
+<!ENTITY certGroup.label                 "개인 인증서">
 <!ENTITY certSelection.description       "웹 사이트에서 개인 인증서를 요구할 때:">
 <!ENTITY certs.auto                      "자동으로 한 가지 선택">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "항상 물어 보기">
 <!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "인증서 유효성 검사">
+<!ENTITY enableOCSP.label                "인증서 유효성 확인을 위해 온라인 인증서 상태 프로토콜(OCSP) 사용">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "OCSP 서버 연결 실패 시 유효하지 않은 인증서로 간주">
+<!ENTITY requireOCSP.accesskey           "W">
 <!ENTITY viewCerts.label                 "인증서 보기">
 <!ENTITY viewCerts.accesskey             "s">
-<!ENTITY verify2.label                   "유효성 확인">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "보안 장치">
 <!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY UACompatGroup.label    "호환성">
+<!ENTITY UACompat.label         "사용자 에이전트 모드:">
+<!ENTITY UACompat.Native        "기본">
+<!ENTITY UACompat.Gecko         "Gecko 호환성">
+<!ENTITY UACompat.Firefox       "파이어폭스 호환성">
+
+<!ENTITY scrollparamTab.label               "스크롤">
+<!ENTITY smoothscroll.explain.label         "하단 값들은 오직 상단 체크 박스에서 부드러운 스크롤 기능 사용이 활성화된 경우에만 적용 됩니다.">
+<!ENTITY smoothscroll.to                    "~">
+<!ENTITY smoothscroll.params.label          "부드러운 스크롤 기능 값">
+<!ENTITY smoothscroll.mousewheel.label      "마우스 휠 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.mousewheel.duration   "마우스 휠 스크롤 간격:">
+<!ENTITY smoothscroll.arrowkeys.label       "방향키 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.arrowkeys.duration    "방향키 스크롤 간격:">
+<!ENTITY smoothscroll.pagekeys.label        "page up/down키 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down 스크롤 간격:">
+<!ENTITY smoothscroll.scrollbar.label       "스크롤 바 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.scrollbar.duration    "스크롤 바의 부드러운 스크롤 간격:">

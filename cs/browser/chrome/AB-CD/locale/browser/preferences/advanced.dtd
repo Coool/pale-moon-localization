@@ -45,9 +45,9 @@
 
 <!ENTITY connection.label                "Připojení">
 
-<!ENTITY connectionDesc.label            "Konfigurovat připojení aplikace &brandShortName; k Internetu">
-<!ENTITY connectionSettings.label        "Nastavení připojení…">
-<!ENTITY connectionSettings.accesskey    "p">
+<!ENTITY connectionDesc.label            "Konfigurovat připojení aplikace &brandShortName; k internetu">
+<!ENTITY connectionSettings.label        "Nastavení…">
+<!ENTITY connectionSettings.accesskey    "s">
 
 <!ENTITY httpCache.label                 "Mezipaměť webových stránek">
 
@@ -63,7 +63,7 @@
 <!ENTITY limitCacheSizeBefore.accesskey  "O">
 <!ENTITY limitCacheSizeAfter.label       "MB místa na disku">
 <!ENTITY clearCacheNow.label             "Vymazat">
-<!ENTITY clearCacheNow.accesskey         "V">
+<!ENTITY clearCacheNow.accesskey         "a">
 <!ENTITY clearOfflineAppCacheNow.label   "Vymazat">
 <!ENTITY clearOfflineAppCacheNow.accesskey "m">
 <!ENTITY overrideSmartCacheSize.label    "Nepoužít automatickou správu mezipaměti">
@@ -78,7 +78,7 @@
 <!ENTITY updateAuto1.label               "Instalovat aktualizace automaticky (doporučováno z důvodu vyšší bezpečnosti)">
 <!ENTITY updateAuto1.accesskey           "I">
 <!ENTITY updateAutoMetro.label           "Instalovat aktualizace automaticky z desktopu i vzhledu aplikace &brandShortName; pro Windows 8">
-<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateAutoMetro.accesskey       "a">
 <!ENTITY updateCheck.label               "Vyhledávat aktualizace, ale dotázat se, zda mají být nainstalovány">
 <!ENTITY updateCheck.accesskey           "e">
 <!ENTITY updateManual.label              "Nikdy nevyhledávat aktualizace (nedoporučováno z důvodu rizika ohrožení)">
@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Odstranit offline obsah">
 
 <!ENTITY certificateTab.label            "Certifikáty">
+<!ENTITY certGroup.label                 "Osobní certifikát">
 <!ENTITY certSelection.description       "Pokud server vyžaduje osobní certifikát:">
 <!ENTITY certs.auto                      "Zvolit automaticky">
 <!ENTITY certs.auto.accesskey            "a">
 <!ENTITY certs.ask                       "Vždy se dotázat">
 <!ENTITY certs.ask.accesskey             "d">
+<!ENTITY ocspGroup.label                 "Ověření platnosti certifikátu">
+<!ENTITY enableOCSP.label                "Používat protokol pro online ověřování certifikátů (OCSP) k ověřování platnosti certifikátů">
+<!ENTITY enableOCSP.accesskey            "P">
+<!ENTITY requireOCSP.label               "Pokud se připojení k OCSP serveru nezdaří, považovat certifikát za neplatný">
+<!ENTITY requireOCSP.accesskey           "s">
 <!ENTITY viewCerts.label                 "Správce certifikátů">
 <!ENTITY viewCerts.accesskey             "c">
-<!ENTITY verify2.label                   "Ověřování certifikátů">
-<!ENTITY verify2.accesskey               "O">
 <!ENTITY viewSecurityDevices.label       "Správce bezpečnostních zařízení">
 <!ENTITY viewSecurityDevices.accesskey   "B">
+
+<!ENTITY UACompatGroup.label    "Kompatibilita">
+<!ENTITY UACompat.label         "Režim identifikace prohlížeče:">
+<!ENTITY UACompat.Native        "Nativní">
+<!ENTITY UACompat.Gecko         "Gecko kompatibilita">
+<!ENTITY UACompat.Firefox       "Firefox kompatibilita">
+
+<!ENTITY scrollparamTab.label               "Posunování">
+<!ENTITY smoothscroll.explain.label         "Následující parametry se použijí pouze pokud je povoleno jemné posunování.">
+<!ENTITY smoothscroll.to                    "až">
+<!ENTITY smoothscroll.params.label          "Nastavení jemného posunování">
+<!ENTITY smoothscroll.mousewheel.label      "Použít jemné posunování pomocí kolečka myši">
+<!ENTITY smoothscroll.mousewheel.duration   "Doba trvání:">
+<!ENTITY smoothscroll.arrowkeys.label       "Použít jemné posunování pomocí klávesových šipek">
+<!ENTITY smoothscroll.arrowkeys.duration    "Doba trvání:">
+<!ENTITY smoothscroll.pagekeys.label        "Použít jemné posunování pomocí kláves Page Up/Down">
+<!ENTITY smoothscroll.pagekeys.duration     "Doba trvání:">
+<!ENTITY smoothscroll.scrollbar.label       "Použít jemné posunování pomocí posuvníků">
+<!ENTITY smoothscroll.scrollbar.duration    "Doba trvání:">

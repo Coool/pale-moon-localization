@@ -2,178 +2,99 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Sivun lataamisvirhe">
+<!ENTITY loadError.label "Sivun latausvirhe">
 <!ENTITY retry.label "Yritä uudestaan">
 
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Yhteyden muodostus epäonnistui">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Osoitteen käyttö on rajoitettu">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
-<!ENTITY dnsNotFound.title "Palvelinta ei löytynyt">
-<!ENTITY dnsNotFound.longDesc "
-<ul>
-  <li>Tarkista osoite kirjoitusvirheiden varalta: esim. 
-    <strong>ww</strong>.mozilla.org oikean muodon,
-    <strong>www</strong>.mozilla.org, sijaan</li>
-  <li>Jos muutkaan sivustot eivät toimi, tarkista 
-    tietokoneen verkkoasetukset.</li>
-  <li>Jos tietokone tai verkko on suojattu palomuurilla tai välityspalvelin on 
-    käytössä, tarkista että &brandShortName;in verkkoyhteyttä ei estetä.</li>
-</ul>
-">
+<!ENTITY dnsNotFound.title "Osoitetta ei löydy">
+<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
 
 <!ENTITY fileNotFound.title "Tiedostoa ei löytynyt">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>Tarkista, että tiedostonimi on kirjoitettu virheettömästi ja oikealla kirjainkoolla.</li>
-  <li>Tarkista, ettei tiedostoa ole poistettu, siirretty tai nimetty uudelleen.</li>
-</ul>
-">
+<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
 
-<!ENTITY generic.title "Verkkopyyntöä ei kyetä toteuttamaan">
-<!ENTITY generic.longDesc "
-<p>&brandShortName; ei kykene lataamaan sivua jostain syystä.</p>
-">
+<!ENTITY generic.title "Cannot Complete Request">
+<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
 
 <!ENTITY malformedURI.title "Virheellinen osoite">
-<!ENTITY malformedURI.longDesc "
-<ul>
-  <li>Verkko-osoitteet ovat yleensä muotoa
-    <strong>http://www.esimerkki.com/</strong></li>
-  <li>Tarkista, että olet käyttänyt kauttaviivoja (siis
-    <strong>/</strong>-merkkiä).</li>
-</ul>
-">
+<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
 
-<!ENTITY netInterrupt.title "Tiedonsiirto keskeytyi">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.title "Tiedonsiirto keskeytynyt">
+<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
 <!ENTITY notCached.title "Dokumentti on vanhentunut">
-<!ENTITY notCached.longDesc "<p>Pyydettyä dokumenttia ei ole tallennettu &brandShortName;in väliaikaistiedostoihin.</p><ul><li>Turvallisuusvarotoimena &brandShortName; ei automaattisesti lataa uudelleen luottamuksellisia dokumentteja.</li><li>Napsauta alta Yritä uudestaan ladataksesi dokumentin sivustolta uudestaan.</li></ul>">
+<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
 
 <!ENTITY netOffline.title "Yhteydettömässä tilassa">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>Siirry yhteystilaan ja lataa sivu uudestaan valitsemalla &quot;Yritä uudelleen&quot;.</li>
-</ul>
-">
+<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Sisällön koodausvirhe">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>Ilmoita sivuston omistajalle tästä ongelmasta.</li>
-</ul>
-">
+<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Ei turvallinen tiedostotyyppi">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Ilmoita sivuston omistajalle tästä ongelmasta.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
-<!ENTITY netReset.title "Yhteys keskeytyi">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.title "Yhteys keskeytynyt">
+<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
 
-<!ENTITY netTimeout.title "Yhteyden aikakatkaisu">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.title "Network Timeout">
+<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY protocolNotFound.title "Osoitetta ei ymmärretty">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>Osoitteen avaaminen voi vaatia uuden ohjelman asentamista.</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "Tuntematon protokolla">
+<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Välityspalvelin kieltäytyy yhteydestä">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>Tarkista, että välityspalvelinasetukset ovat oikein.</li>
-  <li>Varmista verkon ylläpidolta, että välityspalvelin on 
-    toimintakunnossa.</li>
-</ul>
-">
+<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
+<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Välityspalvelinta ei löytynyt">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>Tarkista, että välityspalvelinasetukset ovat oikein.</li>
-  <li>Varmista, että tietokoneesi verkkoyhteys on toimintakunnossa.</li>
-  <li>Jos tietokone tai verkko on suojattu palomuurilla tai välityspalvelin on 
-    käytössä, tarkista että &brandShortName;in verkkoyhteyttä ei estetä.</li>
-</ul>
-">
+<!ENTITY proxyResolveFailure.title "Välityspalvelinta ei löydy">
+<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY redirectLoop.title "Sivusto ei uudelleenohjaudu asianmukaisesti">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>Tämä virhe johtuu joskus siitä, että evästeiden asettamista ei ole
-    sallittu tai että se on erityisesti estetty tältä sivustolta.</li>
-</ul>
-">
+<!ENTITY redirectLoop.title "Redirect Loop">
+<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Odottamaton vastaus palvelimelta">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>Tarkista, että tietokoneelle on asennettu Mozillan Personal Security 
-    Manager.</li>
-  <li>Virhe voi johtua palvelimen epästandardeista asetuksista.</li>
-</ul>
-">
+<!ENTITY unknownSocketType.title "Incorrect Response">
+<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
 
 <!ENTITY nssFailure2.title "Suojatun yhteyden muodostaminen epäonnistui">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>Avattavaa sivua ei voida näyttää, koska vastaanotetun datan alkuperää ei kyetty varmentamaan.</li>
-  <li>Ilmoitathan ongelmasta sivuston omistajalle. Vaihtoehtoisesti ilmoita sivusto Mozillalle Ohje-valikon toiminnolla Ilmoita viallinen sivusto.</li>
-</ul>
-">
+<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
 <!ENTITY nssBadCert.title "Suojatun yhteyden muodostaminen epäonnistui">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>Ongelma voi johtua palvelimen asetuksista tai jonkin toisen palvelimen 
-    vilpillisestä yrityksestä tekeytyä palvelimeksi.</li>
-  <li>Jos yhteyden muodostuminen palvelimeen on aiemmin onnistunut, vika voi
-    olla väliaikainen. Yritä tällöin myöhemmin uudestaan.</li>
+<!ENTITY nssBadCert.longDesc2 "<ul>
+<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
+<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Epäilty hyökkäyssivusto!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Hyökkäyssivustot yrittävät asentaa tietokoneellesi ohjelmia, jotka keräävät henkilötietoja, käyttävät tietokonettasi toisiin tietokoneisiin kohdistuviin hyökkäyksiin tai muuten vahingoittavat tietokonettasi.</p>
-<p>Sivuston omistajat, joiden sivusto on virheellisesti ilmoitettu hyökkäyssivustoksi, voivat <a href='http://www.stopbadware.org/home/reviewinfo' >anoa sivuston tilan tarkistamista</a>.</p>
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Epäilty huijaussivusto!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Henkilötietojen kirjoittaminen tälle sivulle voi johtaa identiteettivarkauteen tai johonkin muuhun petokseen.</p>
-<p>Tämän tyyppiset verkkohuijaukset ovat osa phishing- tai khalastushuijauksia, joissa sivuilla tai sähköposteilla yritetään jäljitellä mahdollisesti luottamiesi toimijoiden viestintää.</p>
+<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
+<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Sisällön tietosuojakäytännön estämä">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; esti tämän sivun latautumisen tässä yhteydessä, koska sivun sisällön tietosuojakäytäntö kieltää sen.</p>">
-
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
-<!ENTITY xssBlockMode.longDesc "
-<ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
-</ul>
-">
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
 
 <!ENTITY corruptedContentError.title "Sisältö vioittunut virhe">
-<!ENTITY corruptedContentError.longDesc "<p>Avattavaa sivua ei voida näyttää, koska tiedonsiirrossa tapahtui virhe.</p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
-<!ENTITY remoteXUL.title "XUL-koodia etänä">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul></p>">
+<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

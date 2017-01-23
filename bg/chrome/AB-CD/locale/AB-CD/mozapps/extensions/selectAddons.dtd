@@ -1,0 +1,49 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY upgrade.style               "width: 93ch; height: 448px;">
+
+<!ENTITY checking.heading            "Проверка на Вашите разширения">
+<!ENTITY checking.progress.label     "Проверка на Вашите разширения за съвместимост с версията на  &brandShortName;.">
+
+<!ENTITY select.heading              "Изберете Вашите разширения">
+<!-- LOCALIZATION NOTE (select.description): The term used for "third parties"
+     here should match the string source.other in selectAddons.properties. -->
+<!ENTITY select.description          "Направете &brandShortName; още по-бърз като изключите разширенията, които не използвате. Разширенията, инсталирани от трети страни, ще бъдат деактивирани автоматично, освен ако не ги изберете по-долу.">
+<!ENTITY select.keep                 "Запази">
+<!-- LOCALIZATION NOTE (select.keep.style): Should be a width wide enough for
+     the string in select.keep above. -->
+<!ENTITY select.keep.style           "width: 10ch;">
+<!ENTITY select.action               "Действие">
+<!-- LOCALIZATION NOTE (select.action.style): Should be a width wide enough for
+     the action strings in selectAddons.properties or brandShortName. -->
+<!ENTITY select.action.style         "width: 40ch;">
+<!ENTITY select.source               "Инсталирано от">
+<!ENTITY select.name                 "Име">
+<!-- LOCALIZATION NOTE (select.name.style): Should be a width small enough so
+     the source column still has enough room for the source strings in
+     selectAddons.properties. -->
+<!ENTITY select.name.style           "width: 33ch;">
+
+<!ENTITY confirm.heading             "Изберете Вашите разширения">
+<!-- LOCALIZATION NOTE (confirm.description): The term used for "third parties"
+     here should match the string source.other in selectAddons.properties. -->
+<!ENTITY confirm.description         "Направете &brandShortName; още по-бърз като изключите разширенията, които не използвате. Разширенията, инсталирани от трети страни, ще бъдат деактивирани автоматично, освен ако не ги изберете по-долу..">
+
+<!ENTITY action.disable.heading      "Следните разширения ще бъдат деактивирани:">
+<!ENTITY action.incompatible.heading "Следните разширения в момента са деактивирани, но ще бъдат активирани веднага щом станат съвместими:">
+<!ENTITY action.update.heading       "Следните разширения ще бъдат обновени:">
+<!ENTITY action.enable.heading       "Следните разширения ще бъдат активирани:">
+
+<!ENTITY update.heading              "Обновяване на Вашите допълнения">
+<!ENTITY update.progress.label       "Сваляне и инсталиране на обновленията за разширенията, които сте избрали.">
+
+<!ENTITY errors.heading              "&brandShortName; не може да обнови нито едно от Вашите разширения.">
+<!ENTITY errors.description          "Не можа да бъде обновено нито едно от Вашите инсталирани разширения. &brandShortName; ще се опита малко по-късно да ги обнови автоматично.">
+
+<!ENTITY footer.label                "Можете винаги да промените вашите добавки посредством управлението на добавки.">
+<!ENTITY cancel.label                "Отмени">
+<!ENTITY back.label                  "Назад">
+<!ENTITY next.label                  "Следващ">
+<!ENTITY done.label                  "Готово">

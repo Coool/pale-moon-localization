@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Odstránenie údajov pre režim offline">
 
 <!ENTITY certificateTab.label            "Certifikáty">
+<!ENTITY certGroup.label                 "Osobný certifikát">
 <!ENTITY certSelection.description       "Pokiaľ stránka požaduje môj osobný certifikát:">
 <!ENTITY certs.auto                      "Vybrať automaticky">
 <!ENTITY certs.auto.accesskey            "m">
 <!ENTITY certs.ask                       "Vždy sa opýtať">
 <!ENTITY certs.ask.accesskey             "V">
+<!ENTITY ocspGroup.label                 "Overenie certifikátu">
+<!ENTITY enableOCSP.label                "Použiť Online Certificate Status Protocol (OCSP) na overovanie aktuálnej platnosti certifikátov">
+<!ENTITY enableOCSP.accesskey            "P">
+<!ENTITY requireOCSP.label               "Ak spojenie so serverom OCSP zlyhá, považovať certifikát za neplatný">
+<!ENTITY requireOCSP.accesskey           "A">
 <!ENTITY viewCerts.label                 "Certifikáty">
 <!ENTITY viewCerts.accesskey             "C">
-<!ENTITY verify2.label                   "Overenie">
-<!ENTITY verify2.accesskey               "O">
 <!ENTITY viewSecurityDevices.label       "Zariadenia">
 <!ENTITY viewSecurityDevices.accesskey   "Z">
+
+<!ENTITY UACompatGroup.label    "Kompatibilita">
+<!ENTITY UACompat.label         "Režim User agenta:">
+<!ENTITY UACompat.Native        "Natívny">
+<!ENTITY UACompat.Gecko         "Kompatibilita s Geckom">
+<!ENTITY UACompat.Firefox       "Kompatibilita s Firefoxom">
+
+<!ENTITY scrollparamTab.label               "Posúvanie">
+<!ENTITY smoothscroll.explain.label         "Nižšie uvedené parametre sa prejavia len ak je celkovo povolené plynulé posúvanie s vyššie uvedeným začiarkavacím políčkom.">
+<!ENTITY smoothscroll.to                    "až">
+<!ENTITY smoothscroll.params.label          "Parametre plynulého posúvania">
+<!ENTITY smoothscroll.mousewheel.label      "Plynulé posúvanie s kolieskom myši">
+<!ENTITY smoothscroll.mousewheel.duration   "Trvanie posunu kolieskom myši:">
+<!ENTITY smoothscroll.arrowkeys.label       "Plynulé posúvanie klávesami so šípkami">
+<!ENTITY smoothscroll.arrowkeys.duration    "Trvanie posunu klávesami so šípkami:">
+<!ENTITY smoothscroll.pagekeys.label        "Plynulé posúvanie klávesami Page Up/Down">
+<!ENTITY smoothscroll.pagekeys.duration     "Trvanie posunu klávesami Page Up/Down:">
+<!ENTITY smoothscroll.scrollbar.label       "Plynulé posúvanie s posuvníkmi">
+<!ENTITY smoothscroll.scrollbar.duration    "Trvanie plynulého posunu s posuvníkmi:">

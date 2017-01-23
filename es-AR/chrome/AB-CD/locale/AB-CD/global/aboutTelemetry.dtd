@@ -2,14 +2,18 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutTelemetry.pageTitle "Datos de Telemetry">
+<!ENTITY aboutTelemetry.pageTitle "Datos de telemetría">
 
 <!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetry está <span>habilitado</span>.
+  Telemetría está <span>habilitada</span>.
 ">
 
 <!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetry está <span>deshabilitado</span>.
+  Telemetría está <span>deshabilitada</span>.
+">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+Datos generales
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -17,15 +21,27 @@
 ">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "
-  Colgadas del navegador
+  Cuelgues del navegador
+">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+Cuelgues de hilo
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogramas
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+Histogramas con clave
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Medidas simples
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+Detalles del complemento
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +56,8 @@
   Histogramas recolectados por complementos
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Clic para expandir sección
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Clic para colapsar sección
+<!ENTITY aboutTelemetry.toggle "
+Hacé clic para cambiar la sección
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -53,13 +65,17 @@
 ">
 
 <!ENTITY aboutTelemetry.fullSqlWarning "
-  NOTE: Slow SQL debugging is enabled. Full SQL strings may be displayed below but they will not be submitted to Telemetry.
+NOTA: la depuración de SQL lenta está habilitada. Las cadenas completas de SQL pueden ser mostradas debajo, pero no serán enviadas a Telemetría.
 ">
 
 <!ENTITY aboutTelemetry.fetchSymbols "
-  Fetch function names for hang stacks
+Recuperar nombres de funciones para pilas de cuelgues
 ">
 
 <!ENTITY aboutTelemetry.hideSymbols "
-  Show raw data from hangs
+Mostrar datos crudos de cuelgues
+">
+
+<!ENTITY aboutTelemetry.filterText "
+Filtrar (cadenas o &quot;/regexp/&quot;)
 ">

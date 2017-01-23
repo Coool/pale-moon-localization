@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "Viranomaiset">
 <!ENTITY certmgr.tab.orphan2                  "Muut">
 
-<!ENTITY certmgr.ca.builtins                  "Sisäänrakennetut CA:t">
-<!ENTITY certmgr.ca.mycas                     "Hallitsemasi CA:t">
-
 <!ENTITY certmgr.mine                         "Sinulla on varmenteita seuraavilta organisaatioilta, jotka tunnistavat sinut:">
 <!ENTITY certmgr.others                       "Sinulla on varmenteita, jotka tunnistavat seuraavat henkilöt:">
 <!ENTITY certmgr.websites2                    "Sinulla on varmenteita, jotka tunnistavat seuraavat palvelimet:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "Tarkastetaan varmennetta...">
 <!ENTITY certmgr.subjectinfo.label            "Myönnetty">
 <!ENTITY certmgr.issuerinfo.label             "Myöntäjä">
-<!ENTITY certmgr.validity.label               "Voimassaolo" >
+<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
 <!ENTITY certmgr.fingerprints.label           "Sormenjäljet">
 <!ENTITY certmgr.certdetail.title             "Varmenteen tiedot">
 <!ENTITY certmgr.certdetail.cn                "Yleinen nimi (CN)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 sormenjälki">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 sormenjälki">
 
-<!ENTITY certmgr.editcert.title               "Muokkaa turvallisuus varmenteen asetuksia">
 <!ENTITY certmgr.editcacert.title             "Muokkaa CA varmenteen luottamusasetuksia">
-<!ENTITY certmgr.editsslcert.title            "Muokkaa verkkosivuvarmenteen luottamusasetuksia">
 <!ENTITY certmgr.editcert.edittrust           "Muokkaa luottamusasetuksia:">
 <!ENTITY certmgr.editcert.trustssl            "Tämä varmenne voi tunnistaa verkkosivuja.">
 <!ENTITY certmgr.editcert.trustemail          "Tämä varmenne voi tunnistaa sähköpostin käyttäjiä.">
 <!ENTITY certmgr.editcert.trustobjsign        "Tämä varmenne voi tunnistaa ohjelmistojen tekijöitä.">
-<!ENTITY certmgr.editsslcert.edittrust        "Muokkaa varmenteen luottamusasetuksia:">
-<!ENTITY certmgr.editsslcert.dotrust          "Luota tämä varmenteen aitouteen.">
-<!ENTITY certmgr.editsslcert.donttrust        "Älä luota tämän varmenteen aitouteen.">
 <!ENTITY certmgr.editemailcert.title          "Muokkaa sähköpostivarmenteen luottamusasetuksia">
 <!ENTITY certmgr.editemailcert.edittrust      "Muokkaa varmenteen luottamusasetuksia:">
 <!ENTITY certmgr.editemailcert.dotrust        "Luota tämän varmenteen aitouteen.">
 <!ENTITY certmgr.editemailcert.donttrust      "Älä luota tämän varmenteen aitouteen.">
 
 <!ENTITY certmgr.deletecert.title             "Poista varmenne">
-<!ENTITY certmgr.deletecert.beforename        "Seuraava varmenne poistetaan:">
-<!ENTITY certmgr.deletecert.aftername         "Oletko varma, että haluat poistaa tämän varmenteen?">
-<!ENTITY certmgr.deleteusercert.title         "Poista oma varmenne">
-<!ENTITY certmgr.deleteusercert.beforename    "Seuraava varmenne poistetaan:">
-<!ENTITY certmgr.deleteusercert.aftername     "Varmenteen poistamisen jälkeen et voi lukea sähköpostia, joka on salattu sillä.">
 
 <!ENTITY certmgr.certname                     "Varmenteen nimi">
 <!ENTITY certmgr.certserver                   "Palvelin">
 <!ENTITY certmgr.override_lifetime            "Elinikäinen">
 <!ENTITY certmgr.tokenname                    "Turvalaite">
-<!ENTITY certmgr.issued                       "Myönnetty">
+<!ENTITY certmgr.begins                       "Begins On">
 <!ENTITY certmgr.expires                      "Vanhenee">
 <!ENTITY certmgr.email                        "Sähköpostiosoite">
 <!ENTITY certmgr.serial                       "Sarjanumero">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "M">
 <!ENTITY certmgr.editca.label                 "Muokkaa CA luottamusta">
 <!ENTITY certmgr.editca.accesskey             "u">
-<!ENTITY certmgr.add.label                    "Lisää">
-<!ENTITY certmgr.add.accesskey                "L">
 <!ENTITY certmgr.export.label                 "Vie...">
 <!ENTITY certmgr.export.accesskey             "i">
 <!ENTITY certmgr.delete2.label                "Poista...">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "Kentän arvo">
 <!ENTITY certmgr.fields.accesskey             "a">
 <!ENTITY certmgr.hierarchy.label              "Varmennehierarkia">
-<!ENTITY certmgr.hierarchy.accesskey          "h">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "Lisää poikkeus...">
 <!ENTITY certmgr.addException.accesskey       "o">
 

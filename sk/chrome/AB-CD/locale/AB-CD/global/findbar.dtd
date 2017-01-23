@@ -5,7 +5,6 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
-<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "Ďalšie">
 <!ENTITY next.accesskey "a">
 <!ENTITY next.tooltip "Vyhľadať ďalší výskyt reťazca">
@@ -13,8 +12,9 @@
 <!ENTITY previous.accesskey "e">
 <!ENTITY previous.tooltip "Vyhľadať predchádzajúci výskyt reťazca">
 <!ENTITY findCloseButton.tooltip "Zavrieť panel vyhľadávania">
-<!ENTITY highlight.label "Zvýrazniť">
-<!ENTITY highlight.accesskey "v">
-<!ENTITY highlight.tooltiptext "Zvýrazniť všetky výskyty hľadaného reťazca (Ctrl+Enter)">
-<!ENTITY caseSensitiveCheckbox.label "Rozlišovať veľké/malé písmená">
-<!ENTITY caseSensitiveCheckbox.accesskey "R">
+<!ENTITY highlightAll.label "Highlight All">
+<!ENTITY highlightAll.accesskey "a">
+<!ENTITY highlightAll.tooltiptext "Highlight all occurrences of the phrase">
+<!ENTITY caseSensitive.label "Match Case">
+<!ENTITY caseSensitive.accesskey "c">
+<!ENTITY caseSensitive.tooltiptext "Search with case sensitivity">

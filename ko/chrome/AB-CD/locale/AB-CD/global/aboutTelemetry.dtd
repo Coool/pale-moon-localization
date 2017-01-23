@@ -12,6 +12,10 @@
   수집 기능 <span>사용 안함</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  일반 데이터
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   느린 SQL 문
 ">
@@ -20,18 +24,29 @@
   브라우저 중단
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+ 쓰레드 중단
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   히스토그램
+">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+키가 들어간 히스토그램
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   단순 측정
 ">
 
+<!ENTITY aboutTelemetry.addonDetailsSection "
+부가 기능 상세
+">
+
 <!ENTITY aboutTelemetry.lateWritesSection "
   최종 작성
 ">
-
 
 <!ENTITY aboutTelemetry.systemInfoSection "
   시스템 정보
@@ -41,12 +56,8 @@
   부가 기능 수집 히스토그램
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  클릭해 섹션 열기
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  클릭해 섹션 닫기
+<!ENTITY aboutTelemetry.toggle "
+클릭해서 섹션 토글
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -54,7 +65,7 @@
 ">
 
 <!ENTITY aboutTelemetry.fullSqlWarning "
-  주의E: 느린 SQL 디버깅이 시작합니다. 전체 SQL 문자열이 표시되나 데이터 측정에는 포함되지 않습니다.
+  주의: 느린 SQL 디버깅이 시작합니다. 전체 SQL 문자열이 표시되나 데이터 측정에는 포함되지 않습니다.
 ">
 
 <!ENTITY aboutTelemetry.fetchSymbols "
@@ -63,4 +74,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   중단 시 기초 자료 보이기
+">
+
+<!ENTITY aboutTelemetry.filterText "
+필터 (문자열이나 /정규식/)
 ">

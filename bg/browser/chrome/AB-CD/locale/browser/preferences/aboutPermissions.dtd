@@ -1,0 +1,50 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY permissionsManager.title        "Управление на правата">
+
+<!ENTITY sites.search                    "Търси сайтове">
+<!ENTITY sites.allSites                  "Всички сайтове">
+
+<!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
+     surround the host name of the site to make the header for the permissions page.
+     example: "Permissions for mozilla.org" -->
+<!ENTITY header.site.start               "Права за">
+<!ENTITY header.site.end                 "">
+
+<!ENTITY header.defaults                 "Права за всички сайтове">
+
+<!ENTITY permissions.forgetSite          "Забрави за този сайт">
+
+<!ENTITY permission.alwaysAsk            "Винаги питай">
+<!ENTITY permission.allow                "Позволи">
+<!ENTITY permission.allowForSession      "Разреши за тази сесия">
+<!ENTITY permission.allowFirstPartyOnly  "Не приемай бисквитки от сайтове от трети страни">
+<!ENTITY permission.block                "Блокирай">
+
+<!ENTITY password.label                  "Запази паролите">
+<!ENTITY password.manage                 "Управление на паролите…">
+
+<!ENTITY image.label                     "Load Images">
+
+<!ENTITY cookie.label                    "Настрой бисквитки">
+<!ENTITY cookie.remove                   "Премахни бисквитки">
+<!ENTITY cookie.manage                   "Настройки на бисквитките…">
+<!ENTITY cookie.removeAll                "Изтрий всички бисквитки">
+
+<!ENTITY install.label                   "Install Extensions or Themes">
+
+<!ENTITY geo.label                       "Сподели местоположение">
+
+<!ENTITY plugins.label                   "Плъгини">
+
+<!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
+     using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
+<!ENTITY indexedDB.label                 "Управление на офлайн пространството">
+
+<!ENTITY popup.label                     "Отвори попъп прозорците">
+
+<!ENTITY fullscreen.label                "Пълен екран">
+
+<!ENTITY pointerLock.label               "Hide the Mouse Pointer">

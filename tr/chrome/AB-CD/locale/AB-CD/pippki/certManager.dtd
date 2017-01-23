@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "Yetkililer">
 <!ENTITY certmgr.tab.orphan2                  "Diğerleri">
 
-<!ENTITY certmgr.ca.builtins                  "Yerleşik Sertifika Yetkilileri">
-<!ENTITY certmgr.ca.mycas                     "Tarafınızdan yönetilen Sertifika Yetkilileri">
-
 <!ENTITY certmgr.mine                         "Sizi tanımlayan şu kuruluşlardan sertifikalarınız var:">
 <!ENTITY certmgr.others                       "Şu insanları tanımlayan dosyada sertifikalarınız var:">
 <!ENTITY certmgr.websites2                    "Şu sunucuları tanımlayan dosyada sertifikalarınız var:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "Şu an sertifika doğrulanıyor...">
 <!ENTITY certmgr.subjectinfo.label            "Verilen">
 <!ENTITY certmgr.issuerinfo.label             "Veren">
-<!ENTITY certmgr.validity.label               "Geçerlilik" >
+<!ENTITY certmgr.periodofvalidity.label       "Geçerlilik Süresi" >
 <!ENTITY certmgr.fingerprints.label           "Parmak izleri">
 <!ENTITY certmgr.certdetail.title             "Sertifika Ayrıntısı">
 <!ENTITY certmgr.certdetail.cn                "Genel Adı (CN)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Parmak izi">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Parmak izi">
 
-<!ENTITY certmgr.editcert.title               "Güvenlik Sertifikası Ayarlarını Düzenle">
 <!ENTITY certmgr.editcacert.title             "CA sertifika güven ayarlarını düzenle">
-<!ENTITY certmgr.editsslcert.title            "Web site sertifika güven ayarlarını düzenle">
 <!ENTITY certmgr.editcert.edittrust           "Güven ayarlarını düzenle:">
 <!ENTITY certmgr.editcert.trustssl            "Bu sertifika, web sitelerini tanımlayabilir.">
 <!ENTITY certmgr.editcert.trustemail          "Bu sertifika, posta kullanıcılarını tanımlayabilir.">
 <!ENTITY certmgr.editcert.trustobjsign        "Bu sertifika, program yapımcılarını tanımlayabilir.">
-<!ENTITY certmgr.editsslcert.edittrust        "Sertifika güven ayarlarını düzenle:">
-<!ENTITY certmgr.editsslcert.dotrust          "Bu sertifikanın gerçekliğine güven.">
-<!ENTITY certmgr.editsslcert.donttrust        "Bu sertifikanın gerçekliğine güvenme.">
 <!ENTITY certmgr.editemailcert.title          "E-posta sertifika güven ayarlarını düzenle">
 <!ENTITY certmgr.editemailcert.edittrust      "Sertifika güven ayarlarını düzenle:">
 <!ENTITY certmgr.editemailcert.dotrust        "Bu sertifikanın gerçekliğine güven.">
 <!ENTITY certmgr.editemailcert.donttrust      "Bu sertifikanın gerçekliğine güvenme.">
 
 <!ENTITY certmgr.deletecert.title             "Sertifikayı Sil">
-<!ENTITY certmgr.deletecert.beforename        "Bu sertifikanın silinmesini istediniz:">
-<!ENTITY certmgr.deletecert.aftername         "Bu sertifikayı silmek istediğinizden emin misiniz?">
-<!ENTITY certmgr.deleteusercert.title         "Sertifikanızı Silin">
-<!ENTITY certmgr.deleteusercert.beforename    "Sertifikanın silinmesini istediniz:">
-<!ENTITY certmgr.deleteusercert.aftername     "Bu sertifikayı sildikten sonra, onunla şifrelenmiş olan postaları okuyamayacaksınız.">
 
 <!ENTITY certmgr.certname                     "Sertifika Adı">
 <!ENTITY certmgr.certserver                   "sunucu">
 <!ENTITY certmgr.override_lifetime            "Ömür boyu">
 <!ENTITY certmgr.tokenname                    "Güvenlik Cihazı">
-<!ENTITY certmgr.issued                       "Issued On">
+<!ENTITY certmgr.begins                       "Başlangıcı">
 <!ENTITY certmgr.expires                      "Son kullanma tarihi">
 <!ENTITY certmgr.email                        "Eposta Adresi">
 <!ENTITY certmgr.serial                       "Seri Numarası">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "D">
 <!ENTITY certmgr.editca.label                 "CA Güveni Düzenle">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "Ekle">
-<!ENTITY certmgr.add.accesskey                "E">
 <!ENTITY certmgr.export.label                 "Dışa aktar">
 <!ENTITY certmgr.export.accesskey             "x">
 <!ENTITY certmgr.delete2.label                "Sil...">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "Alan Değeri">
 <!ENTITY certmgr.fields.accesskey             "A">
 <!ENTITY certmgr.hierarchy.label              "Sertifika Hiyerarşisi">
-<!ENTITY certmgr.hierarchy.accesskey          "S">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "İstisna Ekle...">
 <!ENTITY certmgr.addException.accesskey       "x">
 

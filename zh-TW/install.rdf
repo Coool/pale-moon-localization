@@ -7,20 +7,23 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-zh-TW@palemoon.org"
-               em:name="Traditional Chinese (zh-TW) Language Pack"
-               em:version="26.0"
+               em:name="Chinese (Traditional) Language Pack"
+               em:version="27.0.0rc16"
                em:type="8"
-               em:creator="Mozilla Taiwan Community (MozTW)">
-    <em:contributor>Hung-Te Lin(piaip)</em:contributor> 
-    <em:contributor>Wei-Lun Sun(josesun)</em:contributor> 
-    <em:contributor>Tim Guan-Tin Chien(timdream)</em:contributor> 
-    <em:contributor>Peter Pin-Guang Chen(petercpg)</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>Hung-Te Lin(piaip)</em:translator> 
+    <em:translator>Wei-Lun Sun(josesun)</em:translator> 
+    <em:translator>Tim Guan-Tin Chien(timdream)</em:translator> 
+    <em:translator>Peter Pin-Guang Chen(petercpg)</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

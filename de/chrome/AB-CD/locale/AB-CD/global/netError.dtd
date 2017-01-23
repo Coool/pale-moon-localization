@@ -3,71 +3,39 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY loadError.label "Seiten-Ladefehler">
-<!ENTITY retry.label "Nochmals versuchen">
+<!ENTITY retry.label "Erneut versuchen">
 
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Fehler: Verbindung fehlgeschlagen">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "<p>Obwohl die Website anscheinend korrekt ist, konnte der Browser keine Verbindung herstellen.</p> <ul><li>Ist die Website vielleicht vorübergehend nicht erreichbar? Versuchen Sie es später noch einmal.</li> <li>Haben Sie Probleme, andere Websites zu besuchen? Überprüfen Sie die Netzverbindung des Computers.</li> <li>Befindet sich Ihr Netzzugang hinter einer Firewall oder einem Proxy? Fehlerhafte Einstellungen können das Browsen im Internet beeinträchtigen.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Fehler: Port aus Sicherheitsgründen blockiert">
-<!ENTITY deniedPortAccess.longDesc "<p>Die aufgerufene Adresse fordert einen Port (zB <q>mozilla.org:80</q> für Port 80 bei mozilla.org), der normalerweise <em>nicht</em> zum Browsen im Web verwendet wird. Die Anfrage wurde zu Ihrem Schutz abgebrochen.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Die angeforderte Adresse erfolgte auf einem Port (z.B. <q>palemoon.org:25</q> für Port 25 auf palemoon.org), der für <em>andere</em> Zwecke genutzt wird als Web-browsing. Der Browser hat die Anfrage zu Ihrem Schutz und Ihrer Sicherheit beendet.</p>">
 
-<!ENTITY dnsNotFound.title "Fehler: Server nicht gefunden">
-<!ENTITY dnsNotFound.longDesc "
-<ul>
-  <li>Bitte überprüfen Sie die Adresse auf Tippfehler, wie
-    <strong>ww</strong>.example.com statt
-    <strong>www</strong>.example.com</li>
-  <li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die 
-	Netzwerk-/Internetverbindung.</li>
-  <li>Wenn Ihr Computer oder Netzwerk von einer Firewall oder einem Proxy geschützt wird, stellen Sie bitte sicher,
-	dass &brandShortName; auf das Internet zugreifen darf.</li>
-</ul>
-">
+<!ENTITY dnsNotFound.title "Fehler: Adresse nicht gefunden">
+<!ENTITY dnsNotFound.longDesc "<p>Der Host-Server zur angegebenen Adresse konnte nicht gefunden werden.</p><ul><li>Haben Sie sich bei Eingabe der Adresse vertippt? (z.B. <q><strong>ww</strong>.palemoon.org</q> anstatt <q><strong>www</strong>.palemoon.org</q>)</li><li>Sind Sie sicher, dass die Domain-Adresse existiert? Ihre Registrierung ist vielleicht nicht mehr gültig.</li><li>Haben Sie Probleme, andere Websites zu besuchen? Überprüfen Sie die Einstellungen Ihres Netzwerks und DNS-Servers.</li><li>Befindet sich Ihr Netzzugang hinter einer Firewall oder einem Proxy? Fehlerhafte Einstellungen können das Browsen im Internet beeinträchtigen.</li></ul>">
 
-<!ENTITY fileNotFound.title "Fehler: Datei nicht gefunden">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>Bitte überprüfen Sie die Adresse auf Rechtschreib-, Groß-/Kleinschreibungs- oder andere Fehler.</li>
-  <li>Bitte überprüfen Sie, ob die Adresse umbenannt, gelöscht oder verschoben wurde.</li>
-</ul>
-">
+<!ENTITY fileNotFound.title "Datei nicht gefunden">
+<!ENTITY fileNotFound.longDesc "<ul><li>Könnte der Eintrag umbenannt, gelöscht oder verschoben worden sein?</li><li>Enthält die Adresse einen Rechtschreib-, Groß-/Kleinschreibungs- oder anderen Schreibfehler?</li><li>Haben Sie ausreichende Zugriffsrechte für den angeforderten Eintrag?</li></ul>">
 
 <!ENTITY generic.title "Fehler: Anfrage konnte nicht ausgeführt werden">
-<!ENTITY generic.longDesc "
-<p>&brandShortName; konnte die Seite aus unbekanntem Grund nicht laden.</p>
-">
+<!ENTITY generic.longDesc "<p>Weitere Informationen zu diesem Problem oder Fehler sind momentan nicht verfügbar.</p>">
 
-<!ENTITY malformedURI.title "Fehler: Ungültige Adresse">
-<!ENTITY malformedURI.longDesc "
-<ul>
-  <li>Web-Adressen sehen für gewöhnlich folgendermaßen aus:
-    <strong>http://www.example.com/</strong></li>
-  <li>Bitte stellen Sie sicher, dass Sie nicht den umgekehrten,
-    sondern den einfachen Schrägstrich verwenden (<strong>/</strong>).</li>
-</ul>
-">
+<!ENTITY malformedURI.title "Ungültige Adresse">
+<!ENTITY malformedURI.longDesc "<p>Die angegebene Adresse hat ein unbekanntes Format. Bitte überprüfen Sie die Adresszeile auf Fehler und versuchen Sie es erneut.</p>">
 
 <!ENTITY netInterrupt.title "Fehler: Datenübertragung unterbrochen">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "<p>Die Verbindung wurde erfolgreich aufgebaut, aber während der Datenübertragung unterbrochen.  Bitte versuchen Sie es erneut.</p><ul><li>Können Sie auch andere Websites nicht aufrufen? Überprüfen Sie die Netzwerkverbindung des Computers.</li><li>Treten auch weiterhin Probleme auf? Kontaktieren Sie Ihren Netzwerkadministrator oder Internetanbieter zur Unterstützung.</li></ul>">
 
 <!ENTITY notCached.title "Dokument erloschen">
-<!ENTITY notCached.longDesc "<p>Das angefragte Dokument ist nicht im Browser-Cache verfügbar.</p><ul><li>Als Sicherheitsmaßnahme fragt der Browser um vertrauliche Dokumente nicht automatisch erneut an.</li><li>Klicken Sie &quot;Nochmal versuchen&quot;, um das Dokument erneut von der Website anzufragen.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Das angefragte Dokument ist nicht im Browser-Cache verfügbar.</p><ul><li>Als Sicherheitsmaßnahme fragt der Browser vertrauliche Dokumente nicht automatisch erneut an.</li><li>Klicken Sie &quot;Nochmal versuchen&quot;, um das Dokument erneut von der Website anzufragen.</li></ul>">
 
 <!ENTITY netOffline.title "Fehler: Offline-Modus">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>Wählen Sie &quot;Nochmals versuchen&quot;, um in den Online-Modus zu wechseln und die Seite erneut zu laden.</li>
-</ul>
-">
+<!ENTITY netOffline.longDesc2 "<p>Der Browser ist im Offline-Modus und kann keine Verbindung herstellen.</p> <ul><li>Ist der Computer mit einem aktiven Netzwerk verbunden?</li> <li>Drücken Sie &quot;Nochmals versuchen&quot; um zum Online-Modus zu wechseln und die Seite neu zu laden.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Content-Encoding-Fehler">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>Kontaktieren Sie bitte den Inhaber der Website, um ihn über dieses Problem zu informieren.</li> 
-</ul>
-">
+<!ENTITY contentEncodingError.longDesc "<p>Die aufgerufene Seite kann nicht richtig angezeigt werden, weil sie eine ungültige oder nicht unterstützte Form der Komprimierung verwendet.</p><ul><li>Bitte kontaktieren Sie den Seiteninhaber und informieren Sie ihn über dieses Problem.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Unsicherer Dateityp">
 <!ENTITY unsafeContentType.longDesc "
@@ -77,76 +45,40 @@
 ">
 
 <!ENTITY netReset.title "Fehler: Verbindung unterbrochen">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.longDesc "<p>Die Herstellung der Netzwerkverbindung wurde unterbrochen. Bitte versuchen Sie es erneut.</p>">
 
 <!ENTITY netTimeout.title "Fehler: Netzwerk-Zeitüberschreitung">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.longDesc "<p>Die angeforderte Seite hat nicht auf die Anfrage reagiert und der Browser hat aufgehört darauf zu warten.</p><ul><li>Könnte der Server überlastet oder ausgefallen sein? Versuchen Sie es später erneut.</li><li>Können Sie andere Seiten durchsuchen? Überprüfen Sie die Netzwerkverbindung des Computers.</li><li>Ist Ihr Computer oder Netzwerk von einer Firewall oder einem Proxy geschützt? Falsche Einstellungen können bei der Webnutzung stören.</li><li>Bei anhaltenden Problemen wenden Sie sich für Unterstützung bitte an Ihren Netzwerkadministrator oder Internetanbieter.</li></ul>">
 
-<!ENTITY protocolNotFound.title "Fehler: unbekanntes Protokoll">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>Eventuell müssen Sie andere Software installieren, um diese Adresse aufrufen zu können.</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "Fehler: Unbekanntes Protokoll">
+<!ENTITY unknownProtocolFound.longDesc "<p>Die Adresse gibt ein Protokoll an (z.B. <q>wxyz://</q>), das der Browser nicht erkennt, daher kann er keine geeignete Verbindung mit der Website herstellen.</p><ul><li>Versuchen Sie Multimedia- oder andere Nicht-Text-Inhalte aufzurufen? Überprüfen Sie die Website auf zusätzliche Voraussetzungen.</li><li>Manche Protokolle könnten Software von Drittherstellern oder Plugins benötigen, bevor sie der Browser erkennen kann.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Fehler: Proxy-Server verweigert die Verbindung">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>Überprüfen Sie bitte, ob die Proxy-Einstellungen korrekt sind</li>
-  <li>Kontaktieren Sie bitte Ihren Netzwerk-Administrator, um sicherzustellen, dass der Proxy-Server 
-	funktioniert</li>
-</ul>
-">
+<!ENTITY proxyConnectFailure.title "Der Proxy-Server hat die Verbindung abgelehnt">
+<!ENTITY proxyConnectFailure.longDesc "<p>Der Browser wurde für die Verwendung eines Proxy-Servers konfiguriert, aber der Proxy verweigert die Verbindung.</p><ul><li>Sind die Proxy-Einstellungen korrekt? Überprüfen Sie die Einstellungen und versuchen Sie es dann erneut.</li><li>Erlaubt der Proxy-Service Verbindungen aus diesem Netzwerk?</li><li>Treten auch weiterhin Probleme auf? Kontaktieren Sie Ihren Netzwerkadministrator oder Internetanbieter zur Unterstützung.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Fehler: Proxy-Server nicht gefunden">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>Überprüfen Sie bitte, ob die Proxy-Einstellungen korrekt sind.</li>
-  <li>Überprüfen Sie bitte, ob eine Netzwerk-/Internet-Verbindung besteht.</li>
-  <li>Wenn Ihr Computer oder Netzwerk von einer Firewall oder einem Proxy geschützt wird, stellen Sie bitte sicher,
-	dass &brandShortName; auf das Internet zugreifen darf.</li>
-</ul>
-">
+<!ENTITY proxyResolveFailure.title "Proxy-Server nicht gefunden">
+<!ENTITY proxyResolveFailure.longDesc "<p>Der Browser wurde für die Verwendung eines Proxy-Servers konfiguriert, aber der Proxy wurde nicht gefunden.</p><ul><li>Sind die Proxy-Einstellungen korrekt? Überprüfen Sie die Einstellungen und versuchen Sie es dann erneut.</li><li>Erlaubt der Proxy-Service Verbindungen aus diesem Netzwerk?</li><li>Treten auch weiterhin Probleme auf? Kontaktieren Sie Ihren Netzwerkadministrator oder Internetanbieter zur Unterstützung.</li></ul>">
 
-<!ENTITY redirectLoop.title "Fehler: Umleitungsfehler">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>Dieses Problem kann manchmal auftreten, wenn Cookies deaktiviert oder abgelehnt 
-	werden.</li>
-</ul>
-">
+<!ENTITY redirectLoop.title "Umleitungsschleife">
+<!ENTITY redirectLoop.longDesc "<p>Der Verbindungsversuch zur aufgerufenen Adresse wurde abgebrochen. Die aufgerufene Website leitet die Anfrage so um, dass sie nie beendet werden kann.</p><ul><li>Haben Sie Cookies deaktiviert oder blockiert, die von dieser Website benötigt werden?</li><li><em>HINWEIS</em>: Falls das Akzeptieren von Cookies die Probleme mit der aufgerufenen Adresse nicht behebt, handelt es sich vermutlich um eine Fehlkonfiguration des Servers und nicht um einen Fehler Ihres Computers.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Fehler: Unerwartete Antwort">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>Bitte stellen Sie sicher, dass auf Ihrem System der Personal-Security-Manager 
-	installiert ist.</li>
-  <li>Dies kann mit einer nicht-standardgemäßen Konfiguration des Servers zusammenhängen.</li>
-</ul> 
-">
+<!ENTITY unknownSocketType.title "Ungültige Antwort">
+<!ENTITY unknownSocketType.longDesc "<p>Die aufgerufene Website hat in einer unerwarteten Art geantwortet. Der Browser kann die Verbindung nicht fortsetzen.</p>">
 
-<!ENTITY nssFailure2.title "Fehler: Gesicherte Verbindung fehlgeschlagen">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>Die Website kann nicht angezeigt werden, da die Authentizität der erhaltenen Daten nicht verifiziert werden konnte.</li>
-  <li>Kontaktieren Sie bitte den Inhaber der Website, um ihn über dieses Problem zu informieren. Alternativ können Sie auch die Funktion im Hilfe-Menü verwenden, um diese Website als fehlerhaft zu melden.</li>
-</ul>
-">
+<!ENTITY nssFailure2.title "Sichere Verbindung fehlgeschlagen">
+<!ENTITY nssFailure2.longDesc2 "<p>Die Seite kann nicht angezeigt werden, weil die Authentizität der empfangenen Daten nicht verifiziert werden konnte.</p><ul><li>Bitte kontaktieren Sie die Website-Betreiber um sie über dieses Problem zu informieren.</li></ul>">
 
 <!ENTITY nssBadCert.title "Sichere Verbindung fehlgeschlagen">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>Dies könnte ein Problem mit der Konfiguration des Servers sein oder jemand, der vorgibt, 
-	der Server zu sein.</li>
-  <li>Falls Sie früher bereits erfolgreich eine Verbindung zu dem Server aufgebaut haben, 
-	könnte dies ein vorübergehender Fehler sein. Versuchen Sie es in diesem Fall später noch einmal.</li>
+<!ENTITY nssBadCert.longDesc2 "<ul>
+ <li>Dies könnte ein Problem mit der Konfiguration des Servers sein oder jemand, der vorgibt, der Server zu sein.</li>
+ <li>Falls Sie früher bereits erfolgreich eine Verbindung zu dem Server aufgebaut haben, könnte dies ein vorübergehender Fehler sein. Versuchen Sie es in diesem Fall später noch einmal.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Angreifende Website vermutet!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Angreifende Websites versuchen Programme zu installieren, die private Daten stehlen, Ihren Computer benutzen, um andere anzugreifen oder Ihr System beschädigen</p>
-<p>Website-Inhaber, die glauben, dass ihre Website fälschlicherweise als angreifende Website gemeldet wurde, können unter <a href='http://www.stopbadware.org/home/reviewinfo' > eine erneute Einschätzung beantragen</a>.</p>
+<p>Angreifende Websites versuchen Programme zu installieren, die private Daten stehlen, Ihren Computer benutzen um andere anzugreifen oder Ihr System beschädigen</p>
+<p>Website-Inhaber, die glauben, dass ihre Website fälschlicherweise als angreifende Website gemeldet wurde, können unter <a href='https://www.stopbadware.org/request-review' > eine erneute Einschätzung beantragen</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Vermuteter Betrugsversuch!">
@@ -155,26 +87,11 @@
 <p>Diese Art von Internet-Betrug ist auch bekannt als Phishing. Dabei versuchen Kriminelle in betrügerischer Absicht, Webseiten oder E-Mails nachzuahmen, denen Sie eventuell vertrauen.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinie (Content Security Policy)">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Laden dieser Seite in dieser Weise wurde vom Browser verhindert, weil sie eine Sicherheitsrichtlinie hat, die das nicht erlaubt.</p>">
-
-<!ENTITY xssBlockMode.title "Blockiert vom XSS Filter">
-<!ENTITY xssBlockMode.longDesc "<ul>
-
-<li>&brandShortName; blockiert weitere Aktionen auf dieser Seite, weil es
-
-injizierten JavaScript code enthällt.</li>
-
-<li>Das Laden dieser Seite wurde unterbrochen, weil entweder durch einer ausdrückliche Anfrage
-
-dieser Seite das Blocken im Falle einer XSS Attacke ausgelöst hat, oder weil &brandShortName;
-
-konfiguriert wurde, Seiten in dieser Situation zu blocken.</li>
-
-</ul>">
+<!ENTITY cspBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinien (Content Security Policy)">
+<!ENTITY cspBlocked.longDesc "<p>Das Laden der Seite in dieser Weise wurde vom Browser verhindert, weil sie eine Sicherheitsrichtlinie hat, die das nicht erlaubt.</p>">
 
 <!ENTITY corruptedContentError.title "Fehler: Beschädigte Inhalte">
-<!ENTITY corruptedContentError.longDesc "<p>Die Seite, die Sie anzusehen versuchen, kann nicht angezeigt werden, da ein Fehler in der Datenübertragung festgestellt wurde.</p><ul><li>Bitte kontaktieren Sie die Website-Betreiber, um sie über dieses Problem zu verständigen.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>Die Seite, die Sie anzusehen versuchen, kann nicht angezeigt werden, da ein Fehler in der Datenübertragung festgestellt wurde.</p><ul><li>Bitte kontaktieren Sie die Website-Betreiber, um sie über dieses Problem zu informieren.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote-XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Bitte informieren Sie den Website-Inhaber über dieses Problem.</li></ul></p>">

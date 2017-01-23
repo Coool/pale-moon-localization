@@ -3,32 +3,30 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Upravte tento súbor a uložte ho pod názvom userContent.css do podpriečinka chrome 
- * v priečinku s používateľským profilom.
- */
- 
-/*
- * Tento súbor sa používa na nastavenie používateľských kaskádových štýlov
- * na webových stránkach. Pravidlá bez deklarácie !important budú prepísané
- * kaskádovými štýlmi webovej stránky, pokiaľ také existujú. Pravidlá s 
- * deklaráciou !important majú prednosť pred pravidlami na webovej stránke.
+ * Edit this file and copy it as userContent.css into your
+ * profile-directory/chrome/
  */
 
 /*
- * príklad: nastavenie orámovania so šírkou 2px pre všetky tabuľky
+ * This file can be used to apply a style to all web pages you view
+ * Rules without !important are overruled by author rules if the
+ * author sets any.  Rules with !important overrule author rules.
+ */
+
+/*
+ * example: give all tables a 2px border
  *
  * table { border: 2px solid; }
- *
  */
- 
+
 /*
- * príklad: vypnutie prvku "marquee"
+ * example: turn off "marquee" element
  *
  * marquee { -moz-binding: none; }
  *
  */
-
-/*
- * Ďalšie príklady nájdete na http://www.mozilla.org/unix/customizing.html
+ 
+/* 
+ * For more examples see http://www.mozilla.org/unix/customizing.html
  */
 

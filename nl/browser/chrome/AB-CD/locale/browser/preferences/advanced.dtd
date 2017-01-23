@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Offlinegegevens verwijderen">
 
 <!ENTITY certificateTab.label            "Certificaten">
+<!ENTITY certGroup.label                 "Persoonlijk certificaat">
 <!ENTITY certSelection.description       "Wanneer een server om mijn persoonlijke certificaat vraagt:">
 <!ENTITY certs.auto                      "Er automatisch een selecteren">
 <!ENTITY certs.auto.accesskey            "a">
 <!ENTITY certs.ask                       "Mij elke keer vragen">
 <!ENTITY certs.ask.accesskey             "e">
+<!ENTITY ocspGroup.label                 "Certificaatvalidatie">
+<!ENTITY enableOCSP.label                "Het Online Certificate Status Protocol (OCSP) gebruiken om de geldigheid van certificaten te bevestigen">
+<!ENTITY enableOCSP.accesskey            "O">
+<!ENTITY requireOCSP.label               "Wanneer een OCSP-serververbinding mislukt, het certificaat als ongeldig behandelen">
+<!ENTITY requireOCSP.accesskey           "W">
 <!ENTITY viewCerts.label                 "Certificaten bekijken">
 <!ENTITY viewCerts.accesskey             "C">
-<!ENTITY verify2.label                   "Validatie">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Beveiligingsapparaten">
 <!ENTITY viewSecurityDevices.accesskey   "B">
+
+<!ENTITY UACompatGroup.label    "Compatibiliteit">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.Gecko         "Gecko compatibiliteit">
+<!ENTITY UACompat.Firefox       "Firefox compatibiliteit">
+
+<!ENTITY scrollparamTab.label               "Scrollen">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

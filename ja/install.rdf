@@ -7,35 +7,39 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-ja@palemoon.org"
-               em:name="Japanese Language Pack"
-               em:version="26.0"
+               em:name="Japanese (JP) Language Pack"
+               em:version="27.1.0"
                em:type="8"
-               em:creator="Mozilla Japanese L10N Community / k2jp / kioh">
-    <em:contributor>Hiroki Abe</em:contributor>
-    <em:contributor>Makoto Arai</em:contributor>
-    <em:contributor>Tomoya Asai</em:contributor>
-    <em:contributor>Hideyuki Emura</em:contributor>
-    <em:contributor>Shaw Hosaka</em:contributor>
-    <em:contributor>Joji Ikeda</em:contributor>
-    <em:contributor>Masahiko Imanaka</em:contributor>
-    <em:contributor>Kosuke Kaizuka</em:contributor>
-    <em:contributor>Hidehiro Kozawa</em:contributor>
-    <em:contributor>Teiji Matsuba</em:contributor>
-    <em:contributor>Shigeki Narisawa</em:contributor>
-    <em:contributor>Takeshi Nishimura</em:contributor>
-    <em:contributor>Toshiyuki Oka</em:contributor>
-    <em:contributor>Atsushi Sakai</em:contributor>
-    <em:contributor>Hiroshi Sekiya</em:contributor>
-    <em:contributor>Youhei Tooyama</em:contributor>
-    <em:contributor>Satoru Yamaguchi</em:contributor>
-    <em:contributor>k2jp - Babelzilla</em:contributor>
-    <em:contributor>kioh - Babelzilla</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>BALLOON a.k.a. Fu-sen. (Keiichi SHIGA)</em:translator>
+    <em:translator>k2jp</em:translator>
+    <em:translator>kioh</em:translator>
+    <em:translator>Hiroki Abe</em:translator>
+    <em:translator>Makoto Arai</em:translator>
+    <em:translator>Tomoya Asai</em:translator>
+    <em:translator>Hideyuki Emura</em:translator>
+    <em:translator>Shaw Hosaka</em:translator>
+    <em:translator>Joji Ikeda</em:translator>
+    <em:translator>Masahiko Imanaka</em:translator>
+    <em:translator>Kosuke Kaizuka</em:translator>
+    <em:translator>Hidehiro Kozawa</em:translator>
+    <em:translator>Teiji Matsuba</em:translator>
+    <em:translator>Shigeki Narisawa</em:translator>
+    <em:translator>Takeshi Nishimura</em:translator>
+    <em:translator>Toshiyuki Oka</em:translator>
+    <em:translator>Atsushi Sakai</em:translator>
+    <em:translator>Hiroshi Sekiya</em:translator>
+    <em:translator>Youhei Tooyama</em:translator>
+    <em:translator>Satoru Yamaguchi</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

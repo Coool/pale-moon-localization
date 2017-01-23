@@ -14,19 +14,19 @@
 
 <!ENTITY fileMenu.label "Файл">
 <!ENTITY fileMenu.accesskey "Ф">
-<!ENTITY savePageCmd.label "Сохранить как…">
+<!ENTITY savePageCmd.label "Сохранить страницу как…">
 <!ENTITY savePageCmd.accesskey "х">
-<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Параметры страницы…">
 <!ENTITY pageSetupCmd.accesskey "с">
 <!ENTITY printPreviewCmd.label "Предварительный просмотр">
-<!ENTITY printPreviewCmd.accesskey "д">
+<!ENTITY printPreviewCmd.accesskey "р">
 <!ENTITY printCmd.label "Печать…">
 <!ENTITY printCmd.accesskey "ч">
-<!ENTITY printCmd.commandkey "p">
+<!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Закрыть">
-<!ENTITY closeCmd.accesskey "З">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY closeCmd.accesskey "к">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -45,8 +45,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goToLineCmd.label "Перейти к строке…">
 <!ENTITY goToLineCmd.accesskey "й">
 <!ENTITY goToLineCmd.commandkey "l">
-<!ENTITY viewMenu.label "Вид">
-<!ENTITY viewMenu.accesskey "д">
+
+<!ENTITY viewMenu.label           "Вид">
+<!ENTITY viewMenu.accesskey       "д">
 <!ENTITY reloadCmd.label "Обновить">
 <!ENTITY reloadCmd.accesskey "б">
 <!ENTITY reloadCmd.commandkey "r">
@@ -64,21 +65,22 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReset.accesskey "ы">
 
 <!ENTITY findOnCmd.label     "Найти на этой странице…">
-<!ENTITY findOnCmd.accesskey "Н">
+<!ENTITY findOnCmd.accesskey "а">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Найти ещё раз">
-<!ENTITY findAgainCmd.accesskey "й">
+<!ENTITY findAgainCmd.accesskey "щ">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
 <!ENTITY backCmd.label "Назад">
-<!ENTITY backCmd.accesskey "Н">
+<!ENTITY backCmd.accesskey "з">
 <!ENTITY forwardCmd.label "Вперёд">
-<!ENTITY forwardCmd.accesskey "В">
+<!ENTITY forwardCmd.accesskey "п">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Копировать ссылку">
-<!ENTITY copyLinkCmd.accesskey "ы">
-<!ENTITY copyEmailCmd.label "Копировать адрес электронной почты">
-<!ENTITY copyEmailCmd.accesskey "э">
+<!ENTITY copyLinkCmd.label "Копировать адрес ссылки">
+<!ENTITY copyLinkCmd.accesskey "и">
+<!ENTITY copyEmailCmd.label "Копировать адрес эл. почты">
+<!ENTITY copyEmailCmd.accesskey "в">

@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Bu adrese erişim kısıtlanmış">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
 <!ENTITY dnsNotFound.title "Sunucu bulunamadı">
 <!ENTITY dnsNotFound.longDesc "<ul> 
@@ -70,10 +70,12 @@ bulunduğundan emin olun. Bu işaret sola değil,
 <!ENTITY netTimeout.title "Bağlantı zaman aşımına uğradı">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Adres anlaşılamadı">
-<!ENTITY protocolNotFound.longDesc "<ul> 
-<li>Bu adresi açmak için başka bir yazılım kurmanız gerekebilir.</li> 
-</ul>">
+<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul>
+  <li>You might need to install other software to open this address.</li>
+</ul>
+">
 
 <!ENTITY proxyConnectFailure.title "Vekil sunucu bağlantı kabul etmiyor">
 <!ENTITY proxyConnectFailure.longDesc "<ul> 
@@ -104,10 +106,12 @@ olduğundan emin olun.</li>
 </ul>">
 
 <!ENTITY nssFailure2.title "Güvenli bağlantı girişimi başarısız">
-<!ENTITY nssFailure2.longDesc "<ul> 
-<li>Alınan verilerin özgünlüğü doğrulanamadığı için bakmak istediğiniz sayfa gösterilemiyor.</li> 
-<li>Lütfen site yönetici ile irtibata geçerek durumu bildirin. Bunun dışında, bu çalışmayan siteyi yardım menüsündeki komutu kullanarak rapor edebilirsiniz.</li> 
-</ul>">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "Güvenli bağlantı hatalı">
 <!ENTITY nssBadCert.longDesc2 "<ul> 
@@ -126,15 +130,17 @@ korunuyorsa, &brandShortName; uygulamasına internete erişmek için gerekli izi
 </ul>">
 
 <!ENTITY malwareBlocked.title "Şüpheli saldırı sitesi!">
-<!ENTITY malwareBlocked.longDesc "<p>Saldırı siteleri; özel bilgilerinizi çalan, bilgisayarınızı başkalarına saldırma amacıyla kullanan ya da sisteminize zarar veren programlar kurmaya çalışır.</p> 
-<p>Kendi sitelerinin yanlışlıkla saldırı sitesi olarak rapor edildiğini düşünen site sahipleri <a href='http://www.stopbadware.org/home/reviewinfo' >yeniden inceleme isteğinde</a> bulunabilir.</p>">
+<!ENTITY malwareBlocked.longDesc "
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+">
 
 <!ENTITY phishingBlocked.title "Sahtekârlık şüphesi!">
 <!ENTITY phishingBlocked.longDesc "<p>Bu sayfada yapılacak kişisel bilgi girişi, kimlik hırsızlığı ya da başka tür dolandırıcılıkla sonuçlanabilir.</p> 
 <p>Bu tür sahtekârlıklar yemleme olarak bilinen dümenlerde kullanılır. Yemleme saldırılarında araç olarak güvenebileceğiniz kurumları taklit eden sayfalara ve e-postalara başvurulur.</p>">
 
-<!ENTITY cspFrameAncestorBlocked.title "İçerik güvenlik politikası uyarınca engellendi">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; bu sayfanın bu şekilde yüklenmesini önledi, çünkü sayfanın buna izin vermeyen bir içerik güvenlik politikası var.</p>">
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -165,5 +171,20 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
+<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.learnMore "Learn more…">
+<!ENTITY errorReporting.sending "Sending report">
+<!ENTITY errorReporting.sent "Report sent">
+<!ENTITY errorReporting.report "Report">
+<!ENTITY errorReporting.tryAgain "Try again">
+
 <!ENTITY remoteXUL.title "Uzak XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Bu sorundan haberdar etmek için lütfen site sahipleri ile temasa geçin.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Learn More…">

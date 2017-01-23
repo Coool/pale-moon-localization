@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Táto adresa je zakázaná">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
 <!ENTITY dnsNotFound.title "Server sa nenašiel">
 <!ENTITY dnsNotFound.longDesc "
@@ -83,10 +83,10 @@
 <!ENTITY netTimeout.title "Čas pripojenia vypršal">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Adresa nebola rozpoznaná">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Na otvorenie tejto adresy možno bude potrebné nainštalovať ďalší softvér.</li>
+  <li>You might need to install other software to open this address.</li>
 </ul>
 ">
 
@@ -123,10 +123,10 @@
 ">
 
 <!ENTITY nssFailure2.title "Zabezpečené pripojenie zlyhalo">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>Stránku nemožno zobraziť, pretože pravosť prijímaných údajov sa nedá overiť.</li>
-  <li>Obráťte sa na vlastníkov stránky a informujte ich o tomto probléme. Môžete použiť aj príkaz v ponuke Pomocník a nahlásiť chybnú webovú stránku.</li>
+  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
@@ -148,8 +148,8 @@
 
 <!ENTITY malwareBlocked.title "Podozrivá škodlivá stránka!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Škodlivé stránky sa pokúšajú nainštalovať programy, ktoré kradnú súkromné údaje, používajú počítač na útoky na iné počítače alebo poškodzujú systém.</p>
-<p>Vlastníci stránok, ktorí si myslia, že ich stránky boli označené ako škodlivé neprávom, môžu <a href='http://www.stopbadware.org/home/reviewinfo' >požiadať o prehodnotenie</a>.</p>
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podozrivá stránka!">
@@ -158,8 +158,8 @@
 <p>Tieto typy falošných stránok sa používajú na podvody, pri ktorých sa kombináciou webovej stránky a e-mailových správ napodobňujú dôveryhodné zdroje.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Blokované kvôli zásadám ochrany obsahu">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Prehliadač &brandShortName; nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -192,5 +192,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.learnMore "Learn more…">
+<!ENTITY errorReporting.sending "Sending report">
+<!ENTITY errorReporting.sent "Report sent">
+<!ENTITY errorReporting.report "Report">
+<!ENTITY errorReporting.tryAgain "Try again">
+
 <!ENTITY remoteXUL.title "Vzdialené XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte správcu webovej stránky a informujte ho o tomto probléme.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Learn More…">

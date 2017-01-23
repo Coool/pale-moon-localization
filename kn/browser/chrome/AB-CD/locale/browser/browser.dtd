@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "ಪುಟಗುರುತುಗಳ ಉಪಕರಣ ಪಟ್ಟಿ ಯ ಅಂಶಗಳು">
 <!ENTITY addonBarCmd.label "ಆಡ್-ಆನ್ ಪಟ್ಟಿಕೆ">
 <!ENTITY addonBarCmd.accesskey "A">
+<!ENTITY statusBar.label               "ಸ್ಥಿತಿ ಪಟ್ಟಿ">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "ಪುಟದ ಮೂಲ">
 <!ENTITY pageSourceCmd.accesskey "o">
@@ -122,6 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗಿಸು...">
 <!ENTITY addCurPagesCmd.label "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪುಟಗುರುತು ಮಾಡು...">
 <!ENTITY showAllBookmarks2.label "ಎಲ್ಲಾ ಪುಟಗುರುತುಗಳನ್ನು ತೋರಿಸು">
+<!ENTITY organizeBookmarks.label "ಬುಕ್ಮಾರ್ಕ್ಗಳನ್ನು ಆಯೋಜಿಸಿ">
 <!ENTITY unsortedBookmarksCmd.label "ವಿಂಗಡಿಸದೆ ಇರುವ ಪುಟಗುರುತುಗಳು">
 <!ENTITY bookmarksToolbarChevron.tooltip "ಇನ್ನಷ್ಟು ಪುಟಗುರುತುಗಳನ್ನು ತೋರಿಸು">
 
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "ಅಯ್ಡ್ರಾಪರ್">
+<!ENTITY eyedropper.accesskey "Y">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,6 +244,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "ವಿಕಸನೆಗಾರ ಉಪಕರಣವನ್ನು ಮುಚ್ಚು">
 <!ENTITY devToolbarMenu.label              "ವಿಕಸನೆಗಾರ ಉಪಕರಣ">
 <!ENTITY devToolbarMenu.accesskey          "v">
+<!ENTITY devAppMgrMenu.label               "ಅಪ್ಲಿಕೇಶನ್ ಮ್ಯಾನೇಜರ್">
+<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "ಉಪಕರಣಗಳನ್ನು ಹೊರಳಿಸು">
@@ -261,7 +273,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY editMenu.accesskey       "E"> 
 <!ENTITY undoCmd.label            "ರದ್ದು ಮಾಡು">  
 <!ENTITY undoCmd.key            "Z">  
-<!ENTITY undoCmd.accesskey          "U"> 
+<!ENTITY undoCmd.accesskey          "u"> 
 <!ENTITY redoCmd.label            "ಮತ್ತೊಮ್ಮೆ ಮಾಡು">  
 <!ENTITY redoCmd.key            "Y">  
 <!ENTITY redoCmd.accesskey          "R"> 
@@ -270,16 +282,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.accesskey         "t"> 
 <!ENTITY copyCmd.label            "ಕಾಪಿ ಮಾಡು">  
 <!ENTITY copyCmd.key            "C">  
-<!ENTITY copyCmd.accesskey          "C"> 
+<!ENTITY copyCmd.accesskey          "c"> 
 <!ENTITY pasteCmd.label           "ಅಂಟಿಸು">  
 <!ENTITY pasteCmd.key           "V">  
-<!ENTITY pasteCmd.accesskey         "P"> 
-<!ENTITY deleteCmd.label          "ಅಳಿಸು">  
+<!ENTITY pasteCmd.accesskey         "p"> 
+<!ENTITY deleteCmd.label          "ಅಳಿಸಿಹಾಕು">  
 <!ENTITY deleteCmd.key            "D">  
-<!ENTITY deleteCmd.accesskey        "D"> 
+<!ENTITY deleteCmd.accesskey        "d"> 
 <!ENTITY selectAllCmd.label         "ಎಲ್ಲವನ್ನೂ ಆರಿಸು">  
 <!ENTITY selectAllCmd.key         "A">  
-<!ENTITY selectAllCmd.accesskey       "A"> 
+<!ENTITY selectAllCmd.accesskey       "a"> 
 <!ENTITY preferencesCmd2.label       "ಆಯ್ಕೆಗಳು">
 <!ENTITY preferencesCmd2.accesskey     "O">
 <!ENTITY preferencesCmdUnix.label       "ಆದ್ಯತೆಗಳು">
@@ -403,6 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "ಈ ಪುಟವನ್ನು ಹೀಗೆ ಉಳಿಸು...">
 <!ENTITY savePageCmd.accesskey        "A">
+<!ENTITY sendLinkCmd.label            "ಲಿಂಕ್ ಕಳುಹಿಸಿ…">
+<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendPageCmd.label            "ಪುಟ ಲಿಂಕ್ ಕಳುಹಿಸಿ…">
+<!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -609,7 +625,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "ಇತರೆ ಸಾಧನಗಳಿಂದ ಟ್ಯಾಬ್‌ಗಳು">
 
-<!ENTITY syncBrand.shortName.label    "ಸಿಂಕ್‌">
+<!ENTITY syncBrand.shortName.label    "Sync">
 
 <!ENTITY syncSetup.label              "&syncBrand.shortName.label; ಅನ್ನು ಸಿದ್ಧಗೊಳಿಸಿ…">
 <!ENTITY syncSetup.accesskey          "Y">

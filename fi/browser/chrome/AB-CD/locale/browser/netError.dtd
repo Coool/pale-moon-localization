@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Osoitteen käyttö on rajoitettu">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
 <!ENTITY dnsNotFound.title "Palvelinta ei löytynyt">
 <!ENTITY dnsNotFound.longDesc "
@@ -86,10 +86,10 @@
 <!ENTITY netTimeout.title "Yhteyden aikakatkaisu">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Osoitetta ei ymmärretty">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Osoitteen avaaminen voi vaatia uuden ohjelman asentamista.</li>
+  <li>You might need to install other software to open this address.</li>
 </ul>
 ">
 
@@ -130,10 +130,10 @@
 ">
 
 <!ENTITY nssFailure2.title "Suojatun yhteyden muodostaminen epäonnistui">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>Avattavaa sivua ei voida näyttää, koska vastaanotetun datan alkuperää ei kyetty varmentamaan.</li>
-  <li>Ilmoitathan ongelmasta sivuston omistajalle. Vaihtoehtoisesti ilmoita sivusto Mozillalle Ohje-valikon toiminnolla Ilmoita viallinen sivusto.</li>
+  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
@@ -160,8 +160,8 @@
 
 <!ENTITY malwareBlocked.title "Epäilty hyökkäyssivusto!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Hyökkäyssivustot yrittävät asentaa tietokoneellesi ohjelmia, jotka keräävät henkilötietoja, käyttävät tietokonettasi toisiin tietokoneisiin kohdistuviin hyökkäyksiin tai muuten vahingoittavat tietokonettasi.</p>
-<p>Sivuston omistajat, joiden sivusto on virheellisesti ilmoitettu hyökkäyssivustoksi, voivat <a href='http://www.stopbadware.org/home/reviewinfo' >anoa sivuston tilan tarkistamista</a>.</p>
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Epäilty huijaussivusto!">
@@ -170,8 +170,8 @@
 <p>Tämän tyyppiset verkkohuijaukset ovat osa phishing- tai khalastushuijauksia, joissa sivuilla tai sähköposteilla yritetään jäljitellä mahdollisesti luottamiesi toimijoiden viestintää.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Sisällön tietosuojakäytännön estämä">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; esti tämän sivun latautumisen tässä yhteydessä, koska sivun sisällön tietosuojakäytäntö kieltää sen.</p>">
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -204,5 +204,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Ilmoita virheestä">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Ilmoita virheistä automaattisesti tulevaisuudessa">
+<!ENTITY errorReporting.learnMore "Lisätietoja…">
+<!ENTITY errorReporting.sending "Lähetään ilmoitusta">
+<!ENTITY errorReporting.sent "Ilmoitus lähetetty">
+<!ENTITY errorReporting.report "Ilmoita">
+<!ENTITY errorReporting.tryAgain "Yritä uudestaan">
+
 <!ENTITY remoteXUL.title "XUL-koodia etänä">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Turvallista yhteyttä ei voida muodostaa">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Lue lisää…">

@@ -2,114 +2,99 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Problemă la încărcarea paginii">
-<!ENTITY retry.label "Încearcă din nou">
+<!ENTITY loadError.label "Page Load Error">
+<!ENTITY retry.label "Try Again">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Conectare imposibilă">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.title "Failed to Connect">
+<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Această adresă este restricționată">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
-<!ENTITY dnsNotFound.title "Serverul nu a fost găsit">
-<!ENTITY dnsNotFound.longDesc "<ul> <li>Verificați adresa de erori de tastare cum ar fi <strong>ww</strong>.exemplu.ro în loc de <strong>www</strong>.exemplu.ro</li> <li>Dacă nu puteți încărca nicio pagină, verificați conexiunea la rețea a calculatorului dumneavoastră.</li> <li>Dacă sistemul dumneavoastră este protejat de un paravan (firewall) sau proxy, asigurați-vă că &brandShortName; are permisiunea de a accesa internetul.</li> </ul>">
+<!ENTITY dnsNotFound.title "Address Not Found">
+<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
 
-<!ENTITY fileNotFound.title "Fișierul nu a fost găsit">
-<!ENTITY fileNotFound.longDesc "<ul> <li>Verificați ca numele fișierului să nu aibă erori de majuscule/minuscule sau alte erori de tastare.</li> <li>Verificați ca fișierul să nu fi fost mutat, redenumit sau șters.</li> </ul>">
+<!ENTITY fileNotFound.title "File Not Found">
+<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
 
-<!ENTITY generic.title "Au.">
-<!ENTITY generic.longDesc "<p>&brandShortName; nu poate încărca pagina dintr-un motiv oarecare.</p>">
+<!ENTITY generic.title "Cannot Complete Request">
+<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
 
-<!ENTITY malformedURI.title "Adresa nu este validă">
-<!ENTITY malformedURI.longDesc "<ul> <li>Adresele web se scriu de obicei așa: <strong>http://www.exemplu.ro/</strong></li> <li>Asigurați-vă că folosiți slash-uri corecte (adică <strong>/</strong>).</li> </ul>">
+<!ENTITY malformedURI.title "Invalid Address">
+<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
 
-<!ENTITY netInterrupt.title "Conexiunea a fost întreruptă">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.title "Data Transfer Interrupted">
+<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY notCached.title "Document expirat">
-<!ENTITY notCached.longDesc "<p>Documentul cerut nu mai este disponibil în memoria temporară creată de &brandShortName;.</p><ul><li>Ca o măsură de siguranță, &brandShortName; nu cere din nou automat documente ce par a fi confidențiale.</li><li>Clic pe Încearcă din nou pentru a cere din nou documentul de la saitul de unde provine.</li></ul>">
+<!ENTITY notCached.title "Document Expired">
+<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
 
-<!ENTITY netOffline.title "Mod offline">
-<!ENTITY netOffline.longDesc2 "
+<!ENTITY netOffline.title "Offline Mode">
+<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
+
+<!ENTITY contentEncodingError.title "Content Encoding Error">
+<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+
+<!ENTITY unsafeContentType.title "Unsafe File Type">
+<!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Apasă &quot;Încearcă din nou&quot; pentru a comuta la navigarea în modul online și reîncarcă pagina.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
-<!ENTITY contentEncodingError.title "Eroare în codarea conținutului">
-<!ENTITY contentEncodingError.longDesc "<ul>
-  <li>Vă rugăm să contactați proprietarii saitului pentru a-i informa despre această problemă.</li>
-</ul>">
+<!ENTITY netReset.title "Connection Interrupted">
+<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
 
-<!ENTITY unsafeContentType.title "Tip de fișier nesigur">
-<!ENTITY unsafeContentType.longDesc "<ul>
-  <li>Vă rugăm să contactați proprietarii saitului pentru a-i informa despre această problemă.</li>
-</ul>">
+<!ENTITY netTimeout.title "Network Timeout">
+<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY netReset.title "Conexiunea a fost reinițializată">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY unknownProtocolFound.title "Unknown Protocol">
+<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
 
-<!ENTITY netTimeout.title "Timpul conexiunii a expirat">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
+<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY protocolNotFound.title "Adresa nu a fost înțeleasă">
-<!ENTITY protocolNotFound.longDesc "<ul> <li>Este posibil să trebuiască să instalați alte programe pentru a deschide această adresă.</li> </ul>">
+<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
+<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Serverul proxy refuză conexiuni">
-<!ENTITY proxyConnectFailure.longDesc "<ul> <li>Asigurați-vă că parametrii proxy-ului sunt corecți.</li> <li>Luați legătura cu administratorul rețelei pentru a vă asigura că serverul proxy funcționează.</li> </ul>">
+<!ENTITY redirectLoop.title "Redirect Loop">
+<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Nu se poate găsi serverul proxy">
-<!ENTITY proxyResolveFailure.longDesc "<ul> <li>Asigurați-vă că parametrii proxy-ului sunt corecți.</li> <li>Asigurați-vă că sistemul dumneavoastră are o conexiune funcțională la rețea.</li> <li>Dacă sistemul dumneavoastră este protejat de un paravan (firewall) sau proxy, asigurați-vă că &brandShortName; are permisiunea de a folosi web-ul.</li> </ul>">
+<!ENTITY unknownSocketType.title "Incorrect Response">
+<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
 
-<!ENTITY redirectLoop.title "Pagina nu redirecționează corect">
-<!ENTITY redirectLoop.longDesc "<ul> <li>Problema poate apărea dacă dezactivați sau refuzați să acceptați cookie-uri.</li> </ul>">
+<!ENTITY nssFailure2.title "Secure Connection Failed">
+<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Răspuns neașteptat de la server">
-<!ENTITY unknownSocketType.longDesc "<ul> <li>Verificați ca sistemul dumneavoastră să aibă instalat Personal Security Manager.</li> <li>Aceasta se poate întâmpla și datorită unei configurații nestandard a serverului.</li> </ul>">
-
-<!ENTITY nssFailure2.title "Conexiunea sigură a eșuat">
-<!ENTITY nssFailure2.longDesc "<ul>
-  <li>Pagina pe care încercați să o vedeți nu poate fi afișată pentru că nu s-a putut verifica autenticitatea datelor primite.</li>
-  <li>Vă rugăm să luați legătura cu proprietarii saitului și să-i informați despre această problemă. Ca o alternativă, puteți folos comanda aflată în meniul „Ajutor” pentru a raporta un sait defect.</li>
-</ul>">
-
-<!ENTITY nssBadCert.title "Conexiunea sigură a eșuat">
+<!ENTITY nssBadCert.title "Secure Connection Failed">
 <!ENTITY nssBadCert.longDesc2 "<ul>
-  <li>Acest lucru s-ar putea datora unei probleme în configurația serverului, sau s-ar 
-putea ca cineva să încerce să pretindă că este acest server.</li>
-  <li>Dacă v-ați conectat cu succes în trecut la acest server, eroarea poate fi
-temporară și puteți încerca din nou mai târziu.</li>
-</ul>">
-
-<!ENTITY malwareBlocked.title "Sait suspect de atacuri!">
-<!ENTITY malwareBlocked.longDesc "<p>Saiturile de atac încearcă să instaleze programe sau să fure informații private, folosind calculatorul dumneavoastră pentru a ataca altele sau provocând pagube calculatorului dumneavoastră.</p>
-<p>Proprietarii saiturilor web care cred că saitul lor a fost raportat ca unul de atac dintr-o greșeală pot <a href='http://www.stopbadware.org/home/reviewinfo' >cere o recenzie</a>.</p>">
-
-<!ENTITY phishingBlocked.title "Sait suspectat de fals!">
-<!ENTITY phishingBlocked.longDesc "<p>Introducerea de informații personale pe această pagină ar putea rezulta în furt de identitate sau altă fraudă.</p>
-<p>Aceste tipuri de falsuri web sunt folosite în păcăleli numite și „phishing”, în care pagini și adrese de email sunt folosite pentru a imita unele în care aveți încredere.</p>">
-
-<!ENTITY cspFrameAncestorBlocked.title "Blocat de politica de securitate asupra conținutului">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; a împiedicat această pagină să se încarce în acest mod deoarece pagina are o politică de securitate asupra conținutului ce nu permite asta.</p>">
-
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
-<!ENTITY xssBlockMode.longDesc "
-<ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
+<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
 </ul>
 ">
 
-<!ENTITY corruptedContentError.title "Eroare cauzată de conținut corupt">
-<!ENTITY corruptedContentError.longDesc "<p>Pagina care încercați să o vedeți nu poate fi afișată deoarece a fost detectată o eroare legată de transmiterea datelor.</p><ul><li>Vă rugăm contactați deținătorii saitului pentru a-i informa de această problemă.</li></ul>">
+<!ENTITY malwareBlocked.title "Suspected Attack Site!">
+<!ENTITY malwareBlocked.longDesc "
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+">
 
-<!ENTITY remoteXUL.title "XUL la distanță">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Vă rugăm să contactați proprietarii websaitului pentru a-i informa despre această problemă.</li></ul></p>">
+<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
+<!ENTITY phishingBlocked.longDesc "
+<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
+<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
+">
+
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+
+<!ENTITY corruptedContentError.title "Corrupted Content Error">
+<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+
+<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

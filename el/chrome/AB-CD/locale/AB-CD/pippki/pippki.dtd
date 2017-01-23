@@ -9,7 +9,6 @@
 <!ENTITY setPassword.newPassword.label "Εισαγάγετε ένα νέο κωδικό:">
 <!ENTITY setPassword.reenterPassword.label "Επαναλάβετε τον κωδικό">
 <!ENTITY setPassword.meter.label "Μέτρηση ποιότητας κωδικού">
-<!ENTITY setPassword.meter.loading "Φόρτωση">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Αρχικοποίηση">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "Συσκευή ασφαλείας:">
 <!ENTITY getPassword.password.label "Κωδικός:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "Σφάλμα">
-<!ENTITY pipalert.title "Σφάλμα - δεν είναι δυνατή η ανάκτηση">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "Ασφάλεια">
-<!ENTITY pref.security.general.rHeader "Ρυθμίσεις για γενική ασφάλεια">
-<!ENTITY pref.security.general.header "Ρυθμίσεις για γενική ασφάλεια">
-<!ENTITY pref.security.general.level.title "Επίπεδο ασφαλείας">
-<!ENTITY pref.security.general.paranoid.label "Χρήση παρανοϊκών ρυθμίσεων ασφαλείας">
-<!ENTITY pref.security.general.certificates.title "Πιστοποιητικά">
-<!ENTITY pref.security.general.manageCert.label "Διαχείριση πιστοποιητικών">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Λήψη πιστοποιητικού">
 <!ENTITY downloadCert.message1 "Σας ζητήθηκε να εμπιστευθείτε μια νέα Αρχή Πιστοποίησης (CA).">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "Να είναι έμπιστη αυτή η CA για την πιστοποίηση κατασκευαστών λογισμικού.">
 <!ENTITY downloadCert.message3 "Πριν εμπιστευθείτε αυτήν την Αρχή Πιστοποίησης για οποιοδήποτε σκοπό, θα πρέπει να εξετάσετε το πιστοποιητικό και τις διαδικασίες και τις πολιτικές του (αν είναι διαθέσιμες).">
 <!ENTITY downloadCert.viewCert.label "Προβολή">
-<!ENTITY downloadCert.viewPolicy.label "Πολιτική">
 <!ENTITY downloadCert.viewCert.text "Εξέταση CA πιστοποιητικού">
-<!ENTITY downloadCert.viewPolicy.text "Εξέταση πολιτικών και διαδικασιών CA">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Ειδοποίηση Αναγνώρισης Χρήστη">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "Κωδικός αντιγράφου ασφαλείας πιστοποιητικού (ξανά):">
 <!ENTITY pkcs12.setpassword.reminder "Προειδοποίηση: Αν ξεχάσετε τον κωδικό ασφαλείας σας, δεν θα μπορείτε να ανακτήσετε αυτό το αντίγραφο αργότερα. Φυλάξτε τον σε ασφαλή τοποθεσία.">
 
-<!ENTITY pkcs12.getpassword.title  "Διάλογος εισαγωγής κωδικού">
-<!ENTITY pkcs12.getpassword.message "Εισαγάγετε τον κωδικό που χρησιμοποιείται για να κρυπτογραφήσει το αντίγραφο του πιστοποιητικού.">
-
 <!ENTITY chooseToken.title  "Επιλογή διαλόγου token">
 <!ENTITY chooseToken.message1 "Επιλέξτε ένα token">
 
@@ -81,16 +62,7 @@
 <!ENTITY createCertInfo.msg1 "Δημιουργία κλειδιού σε εξέλιξη...αυτό μπορεί να διαρκέσει μερικά λεπτά....">
 <!ENTITY createCertInfo.msg2 "Παρακαλώ περιμένετε...">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "Αίτηση υπογραφής κειμένου">
-<!ENTITY formSigning.cert "Υπογραφή πιστοποιητικού">
-<!ENTITY formSigning.confirmPassword "Για να επιβεβαιώσετε τη συμφωνία σας στην υπογραφή αυτού του μηνύματος κειμένου με τη χρήση του επιλεγμένου πιστοποιητικού, εισαγάγετε τον κύριο κωδικό:">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Προστατευμένη πιστοποίηση token">
 <!ENTITY protectedAuth.msg "Παρακαλώ κάντε πιστοποίηση στο token. Η μέθοδος πιστοποίησης εξαρτάται από το είδος του token.">
 <!ENTITY protectedAuth.tokenName.label "Token:">
-
-<!ENTITY certErrorDlg.title "Αποτυχία ασφαλούς σύνδεσης">
-<!ENTITY certErrorDlg.info1 "Μπορεί να πρόκειται για πρόβλημα με τις ρυθμίσεις του εξυπηρετητή ή  μπορεί κάποιος να προσπαθεί να πλαστογραφήσει την ταυτότητα του εξυπηρετητή.">
-<!ENTITY certErrorDlg.info2 "Αν έχετε συνδεθεί με επιτυχία με αυτόν τον εξυπηρετητή στο παρελθόν, το σφάλμα μάλλον είναι προσωρινό και μπορείτε να προσπαθήσετε ξανά αργότερα.">

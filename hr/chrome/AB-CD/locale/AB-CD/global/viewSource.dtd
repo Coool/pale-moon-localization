@@ -10,23 +10,23 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Izvor od: ">
+<!ENTITY mainWindow.preface "Source of: ">
 
-<!ENTITY fileMenu.label "Datoteka">
-<!ENTITY fileMenu.accesskey "D">
-<!ENTITY savePageCmd.label "Spremi stranicu kao…">
-<!ENTITY savePageCmd.accesskey "a">
-<!ENTITY savePageCmd.commandkey "s">
-<!ENTITY pageSetupCmd.label "Postavke stranice...">
-<!ENTITY pageSetupCmd.accesskey "s">
-<!ENTITY printPreviewCmd.label "Pregled ispisa">
-<!ENTITY printPreviewCmd.accesskey "s">
-<!ENTITY printCmd.label "Ispis...">
-<!ENTITY printCmd.accesskey "p">
-<!ENTITY printCmd.commandkey "p">
-<!ENTITY closeCmd.label "Zatvori">
-<!ENTITY closeCmd.accesskey "Z">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY fileMenu.label "File">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY savePageCmd.label "Save Page As…">
+<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY pageSetupCmd.label "Page Setup…">
+<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "Print Preview">
+<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printCmd.label "Print…">
+<!ENTITY printCmd.accesskey "P">
+<!ENTITY printCmd.commandkey "P">
+<!ENTITY closeCmd.label "Close">
+<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -42,44 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Idi na liniju...">
-<!ENTITY goToLineCmd.accesskey "l">
+<!ENTITY goToLineCmd.label "Go to Line…">
+<!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "Pogled">
-<!ENTITY viewMenu.accesskey       "g">
-<!ENTITY reloadCmd.label "Osvježi">
-<!ENTITY reloadCmd.accesskey "O">
+<!ENTITY viewMenu.label           "View">
+<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY reloadCmd.label "Reload">
+<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Prelomi duge linije"> 
-<!ENTITY menu_wrapLongLines.accesskey "G">
-<!ENTITY menu_highlightSyntax.label "Isticanje sintakse">
-<!ENTITY menu_highlightSyntax.accesskey "K">
-<!ENTITY menu_textSize.label "Veličina teksta">
-<!ENTITY menu_textSize.accesskey "t">
-<!ENTITY menu_textEnlarge.label "Uvećaj">
-<!ENTITY menu_textEnlarge.accesskey "v">
-<!ENTITY menu_textReduce.label "Umanji">
-<!ENTITY menu_textReduce.accesskey "m">
-<!ENTITY menu_textReset.label "Normalno">
+<!ENTITY menu_wrapLongLines.title "Wrap Long Lines"> 
+<!ENTITY menu_wrapLongLines.accesskey "W">
+<!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
+<!ENTITY menu_highlightSyntax.accesskey "H">
+<!ENTITY menu_textSize.label "Text Size">
+<!ENTITY menu_textSize.accesskey "Z">
+<!ENTITY menu_textEnlarge.label "Increase">
+<!ENTITY menu_textEnlarge.accesskey "I">
+<!ENTITY menu_textReduce.label "Decrease">
+<!ENTITY menu_textReduce.accesskey "D">
+<!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Pronađi na ovoj stranici...">
-<!ENTITY findOnCmd.accesskey "s">
+<!ENTITY findOnCmd.label     "Find in This Page…">
+<!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Ponovno pronađi">
-<!ENTITY findAgainCmd.accesskey "p">
+<!ENTITY findAgainCmd.label  "Find Again">
+<!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Natrag">
-<!ENTITY backCmd.accesskey "N">
-<!ENTITY forwardCmd.label "Naprijed">
-<!ENTITY forwardCmd.accesskey "p">
+<!ENTITY backCmd.label "Back">
+<!ENTITY backCmd.accesskey "B">
+<!ENTITY forwardCmd.label "Forward">
+<!ENTITY forwardCmd.accesskey "F">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Kopiraj lokaciju poveznice">
-<!ENTITY copyLinkCmd.accesskey "a">
-<!ENTITY copyEmailCmd.label "Kopiraj adresu e-pošte">
+<!ENTITY copyLinkCmd.label "Copy Link Location">
+<!ENTITY copyLinkCmd.accesskey "L">
+<!ENTITY copyEmailCmd.label "Copy Email Address">
 <!ENTITY copyEmailCmd.accesskey "E">

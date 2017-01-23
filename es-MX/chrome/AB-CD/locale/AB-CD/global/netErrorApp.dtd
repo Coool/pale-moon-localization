@@ -6,10 +6,8 @@
      file, all messages that likely don't need to tie into app-specific UI
      should go into netError.dtd -->
 
-<!ENTITY securityOverride.linkText "O puedes agregar una excepción…">
+<!ENTITY securityOverride.linkText "O puedes añadir una excepción…">
 <!ENTITY securityOverride.warningContent "
-<p>No deberías agregar una excepción si estás usando una conexión a Internet en la que no confías completamente o si no estás acostumbrado a ver una advertencia para este servidor.</p>
-
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+<p>No debes añadir una excepción si estás utilizando una conexión a internet en la que no confías totalmente o si no es usual ver una advertencia para este servidor.</p>
+ <p>Si aun así deseas añadir una excepción para este sitio, puedes hacerlo en la configuración avanzada de cifrado.</p>
 ">

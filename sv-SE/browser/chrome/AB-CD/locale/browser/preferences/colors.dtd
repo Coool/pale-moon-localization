@@ -6,8 +6,12 @@
 <!ENTITY  window.width                    "38em">
 <!ENTITY  window.macWidth                 "41em">
 
-<!ENTITY  allowPagesToUse.label           "Låt sidor använda egna färger, i stället för inställningarna ovan">
-<!ENTITY  allowPagesToUse.accesskey       "L">
+<!ENTITY  overridePageColors.label        "Åsidosätt sidans färger med mina val ovan:">
+<!ENTITY  overridePageColors.accesskey    "O">
+
+<!ENTITY  overridePageColors.always.label "Alltid">
+<!ENTITY  overridePageColors.auto.label   "Endast med högkontrastteman">
+<!ENTITY  overridePageColors.never.label  "Aldrig">
 
 <!ENTITY  color                           "Text och bakgrund">
 <!ENTITY  textColor.label                 "Text:">

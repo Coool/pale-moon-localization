@@ -3,28 +3,32 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Ulozte kopii tohoto souboru jako userContent.css do slozky chrome 
- * ve slozce s uzivatelskym profilem a upravte podle vasich predstav.
- * 
+ * Ulozte kopii tohoto souboru jako userContent.css do adresare chrome 
+ * v adresari s uzivatelskym profilem a upravte dle vasich predstav.
+ */
+
+/*
  * Tento soubor se pouziva k nastaveni uzivatelskych kaskadovych stylu
- * na webovych strankach.
- *
- * Pravidla bez deklarace !important budou prepsana kaskadovymi styly
- * na webove strance, pokud takove jsou.
- * Pravidla s deklaraci !important prevazi nad pravidly na webove strance.
- *
- * Priklad: Odstrante prvkum blink blikani
+ * na webovych strankach. Pravidla bez deklarace !important budou prepsana
+ * kaskadovymi styly webove stranky, pokud takove jsou. Pravidla s deklaraci
+ * !important prevazi nad pravidly na webove strance.
+ */
+
+/*
+ * priklad: odstranit blikajici prvky
  * blink { text-decoration: none !important; }
  *
- * Priklad: Nastavte vsem tabulkam cerny spojity ramecek, 2px siroky
- * table { border: 2px black solid !important; }
+ * priklad: nastavit vsem tabulkam cerny ramecek 2px siroky
+ * table { border: 2px black solid; }
  *
- * Priklad: Nastavte na strance www.mozilla.org prvkum s id="q"
- *          cerne pismo na bilem pozadi
+ * priklad: nastavit prvky #q na strance www.mozilla.org
  * @-moz-document url-prefix(http://www.mozilla.org/) {
- *   #q { background: white !important; color: black !important; }
+ *   #q { background: white ! important; color: black ! important; }
  * }
- *
+ */
+ 
+/* 
  * Vice prikladu naleznete na http://www.mozilla.org/unix/customizing.html
  *
  */
+

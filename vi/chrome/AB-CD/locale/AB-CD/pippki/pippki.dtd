@@ -9,7 +9,6 @@
 <!ENTITY setPassword.newPassword.label "Nhập mật khẩu mới:">
 <!ENTITY setPassword.reenterPassword.label "Nhập lại mật khẩu:">
 <!ENTITY setPassword.meter.label "Độ an toàn mật khẩu">
-<!ENTITY setPassword.meter.loading "Đang tải">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Đặt lại">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "Thiết bị Bảo mật:">
 <!ENTITY getPassword.password.label "Mật khẩu:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "Lỗi">
-<!ENTITY pipalert.title "Lỗi - không thể khôi phục">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "Bảo mật">
-<!ENTITY pref.security.general.rHeader "Thiết lập cho bảo mật chung">
-<!ENTITY pref.security.general.header "Thiết lập cho bảo mật chung">
-<!ENTITY pref.security.general.level.title "Mức độ Bảo mật">
-<!ENTITY pref.security.general.paranoid.label "Dùng thiết lập bảo mật thông thường">
-<!ENTITY pref.security.general.certificates.title "Chứng thư">
-<!ENTITY pref.security.general.manageCert.label "Quản lí Chứng chỉ">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Đang tải Chứng chỉ">
 <!ENTITY downloadCert.message1 "Bạn được hỏi có tin tưởng một CA (Bên thẩm định Chứng chỉ) mới hay không.">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "Tin CA để nhận diện các nhà phát triển phần mềm.">
 <!ENTITY downloadCert.message3 "Trước khi tin vào CA này với bất kì mục đích nào, bạn nên kiểm định chứng chỉ, điều khoản và thủ tục của nó (nếu có).">
 <!ENTITY downloadCert.viewCert.label "Xem">
-<!ENTITY downloadCert.viewPolicy.label "Điều khoản">
 <!ENTITY downloadCert.viewCert.text "Kiểm định chứng chỉ của CA">
-<!ENTITY downloadCert.viewPolicy.text "Kiểm định các điều khoản và thủ tục của CA">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Yêu cầu Nhận diện Người dùng">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "Mật khẩu sao lưu chứng chỉ (nhập lại):">
 <!ENTITY pkcs12.setpassword.reminder "Quan trọng: Nếu bạn quên mật khẩu sao lưu chứng chỉ, sau này bạn sẽ không thể phục hồi bản sao lưu này. Hãy lưu vào một nơi an toàn.">
 
-<!ENTITY pkcs12.getpassword.title  "Hộp thoại Mục nhập Mật khẩu">
-<!ENTITY pkcs12.getpassword.message "Hãy nhập mật khẩu dùng để mật hóa bản sao lưu chứng chỉ này.">
-
 <!ENTITY chooseToken.title  "Hộp thoại Chọn Token">
 <!ENTITY chooseToken.message1 "Vui lòng chọn một mã thông báo.">
 
@@ -81,16 +62,7 @@
 <!ENTITY createCertInfo.msg1 "Đang trong tiến trình Tạo Khóa… Việc này có thể mất vài phút….">
 <!ENTITY createCertInfo.msg2 "Vui lòng chờ…">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "Yêu cầu Kí">
-<!ENTITY formSigning.cert "Kí Chứng chỉ">
-<!ENTITY formSigning.confirmPassword "Để xác nhận việc bạn đồng ý kí vào thông điệp này sử dụng chứng chỉ bạn đã chọn, vui lòng xác nhận bằng cách nhập mật khẩu chính:">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Xác thực Mã thông báo được Bảo vệ">
 <!ENTITY protectedAuth.msg "Vui lòng xác thực cho mã thông báo. Phương thức xác thực tùy thuộc vào kiểu mã thông báo của bạn.">
 <!ENTITY protectedAuth.tokenName.label "Mã thông báo:">
-
-<!ENTITY certErrorDlg.title "Kết nối An toàn bị Thất bại">
-<!ENTITY certErrorDlg.info1 "Đây có thể là vấn đề với cấu hình của máy chủ hoặc có thể ai đó đang cố giả mạo là máy chủ.">
-<!ENTITY certErrorDlg.info2 "Nếu bạn đã từng kết nối thành công tới máy chủ này trong quá khứ, lỗi này có thể chỉ là tạm thời và bạn có thể thử lại sau.">

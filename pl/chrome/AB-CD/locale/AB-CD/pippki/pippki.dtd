@@ -9,7 +9,6 @@
 <!ENTITY setPassword.newPassword.label "Wprowadź nowe hasło:">
 <!ENTITY setPassword.reenterPassword.label "Wprowadź hasło ponownie:">
 <!ENTITY setPassword.meter.label "Miernik jakości hasła">
-<!ENTITY setPassword.meter.loading "Wczytywanie">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Zresetuj">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "Urządzenie zabezpieczające:">
 <!ENTITY getPassword.password.label "Hasło:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "Błąd">
-<!ENTITY pipalert.title "Błąd - nie można odzyskać">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "Zabezpieczenia">
-<!ENTITY pref.security.general.rHeader "Ustawienia zabezpieczeń">
-<!ENTITY pref.security.general.header "Ustawienia zabezpieczeń">
-<!ENTITY pref.security.general.level.title "Poziom zabezpieczenia">
-<!ENTITY pref.security.general.paranoid.label "Użyj najwyższego poziomu zabezpieczeń">
-<!ENTITY pref.security.general.certificates.title "Certyfikaty">
-<!ENTITY pref.security.general.manageCert.label "Menedżer certyfikatów">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Pobieranie certyfikatu">
 <!ENTITY downloadCert.message1 "Otrzymano prośbę o dołączenie nowego organu certyfikacji do listy zaufanych organów.">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "Zaufaj temu CA przy identyfikacji twórców oprogramowania.">
 <!ENTITY downloadCert.message3 "Jeżeli jest to możliwe, przed udzieleniem zgody należy zapoznać się z certyfikatem tego organu oraz jego polityką i stosowanymi procedurami.">
 <!ENTITY downloadCert.viewCert.label "Wyświetl">
-<!ENTITY downloadCert.viewPolicy.label "Zasady">
 <!ENTITY downloadCert.viewCert.text "Sprawdź certyfikat CA">
-<!ENTITY downloadCert.viewPolicy.text "Sprawdź uprawnienia i procedury CA">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Zażądano identyfikacji użytkownika">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "Hasło kopii bezpieczeństwa certyfikatu (ponownie):">
 <!ENTITY pkcs12.setpassword.reminder "Ważne: Jeżeli hasło zabezpieczające kopię certyfikatu zostanie utracone, późniejsze odtworzenie certyfikatu będzie niemożliwe. Zaleca się zachowanie hasła w bezpiecznym miejscu.">
 
-<!ENTITY pkcs12.getpassword.title  "Proszę podać hasło">
-<!ENTITY pkcs12.getpassword.message "Wprowadź hasło, które będzie użyte przy szyfrowaniu kopii bezpieczeństwa tego certyfikatu.">
-
 <!ENTITY chooseToken.title  "Wybór tokenu">
 <!ENTITY chooseToken.message1 "Należy wybrać token.">
 
@@ -81,16 +62,7 @@
 <!ENTITY createCertInfo.msg1 "Trwa generowanie klucza… Może to potrwać kilka minut…">
 <!ENTITY createCertInfo.msg2 "Proszę czekać…">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "Żądanie podpisu">
-<!ENTITY formSigning.cert "Podpisywanie certyfikatu">
-<!ENTITY formSigning.confirmPassword "Aby potwierdzić swą zgodę na podpisanie wiadomości za pomocą wybranego certyfikatu, należy podać hasło główne:">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Uwierzytelnienie do chronionego tokenu">
 <!ENTITY protectedAuth.msg "Należy uwierzytelnić się do tokenu. Metoda uwierzytelnienia zależy od rodzaju tokenu.">
-<!ENTITY protectedAuth.tokenName.label "Token:">
-
-<!ENTITY certErrorDlg.title "Nie udało się nawiązać bezpiecznego połączenia">
-<!ENTITY certErrorDlg.info1 "Powodem tego może być nieprawidłowa konfiguracja serwera albo próba podania się za ten serwer przez podmiot nieuprawniony.">
-<!ENTITY certErrorDlg.info2 "Jeśli użytkownik łączył się wcześniej z tym serwerem, błąd może być tymczasowy – w tej sytuacji należy spróbować ponownie później.">
+<!ENTITY protectedAuth.tokenName.label "Tokeny:">

@@ -12,6 +12,10 @@
   Telemetria jest <span>wyłączona</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+Ogólne dane
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Powolne polecenia SQL
 ">
@@ -20,12 +24,24 @@
   Zawieszenia przeglądarki
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+Zawiesza się wątek
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
+  Histogramy
+">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
   Histogramy
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Proste pomiary
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+Szczegóły dodatku
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +56,8 @@
   Histogramy zebrane przez dodatki
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Kliknij, by rozwinąć sekcję
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Kliknij, by zwinąć sekcję
+<!ENTITY aboutTelemetry.toggle "
+Kliknij, aby uruchomić sekcję
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -63,4 +75,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   Wyświetl nieprzetworzone dane z zawieszeń
+">
+
+<!ENTITY aboutTelemetry.filterText "
+Filtr (ciągi lub wyraz)
 ">

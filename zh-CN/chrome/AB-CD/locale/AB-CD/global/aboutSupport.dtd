@@ -7,18 +7,37 @@
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "本页面包含了一些技术信息，当您尝试解决某个问题时可能用得上。如果您正在寻找 &brandShortName; 常见问题的答案，请查看我们的<a id='supportLink'>技术支持网站</a>。">
 
+<!ENTITY aboutSupport.crashes.title "崩溃报告">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "报告 ID">
+<!ENTITY aboutSupport.crashes.sendDate "提交时间">
+<!ENTITY aboutSupport.crashes.allReports "所有崩溃报告">
+<!ENTITY aboutSupport.crashes.noConfig "此应用程序未被配置为显示崩溃报告。">
+
 <!ENTITY aboutSupport.extensionsTitle "扩展">
 <!ENTITY aboutSupport.extensionName "名称">
 <!ENTITY aboutSupport.extensionEnabled "已启用">
 <!ENTITY aboutSupport.extensionVersion "版本">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.experimentsTitle "实验性功能">
+<!ENTITY aboutSupport.experimentName "名称">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "描述">
+<!ENTITY aboutSupport.experimentActive "激活">
+<!ENTITY aboutSupport.experimentEndDate "结束时间">
+<!ENTITY aboutSupport.experimentHomepage "主页">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "应用程序概要">
 <!ENTITY aboutSupport.appBasicsName "名称">
 <!ENTITY aboutSupport.appBasicsVersion "版本">
+<!ENTITY aboutSupport.appBasicsBuildID "版本 ID">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "更新通道">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "更新历史">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "显示更新历史">
 
@@ -31,8 +50,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "已启用的插件">
 <!ENTITY aboutSupport.appBasicsBuildConfig "构建配置">
 <!ENTITY aboutSupport.appBasicsUserAgent "用户代理">
-<!ENTITY aboutSupport.appBasicsCrashIDs "崩溃报告">
 <!ENTITY aboutSupport.appBasicsMemoryUse "内存使用">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "多进程窗口">
 
 <!ENTITY aboutSupport.showDir.label "打开目录">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -51,6 +71,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js 设置">
 <!ENTITY aboutSupport.userJSDescription "您的配置文件夹中有一个 <a id='prefs-user-js-link'>user.js 文件</a>，其中包含了一些并非由 &brandShortName; 所创建的首选项（偏好设置）。">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "已锁定的重要首选项">
+<!ENTITY aboutSupport.lockedPrefsName "名称">
+<!ENTITY aboutSupport.lockedPrefsValue "值">
+
 <!ENTITY aboutSupport.graphicsTitle "图像">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
@@ -67,3 +91,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "复制文本到剪贴板">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "复制原始数据到剪贴板">
+
+<!ENTITY aboutSupport.sandboxTitle "沙盒">
+
+<!ENTITY aboutSupport.safeModeTitle "尝试安全模式">
+<!ENTITY aboutSupport.restartInSafeMode.label "以安全模式重新启动…">

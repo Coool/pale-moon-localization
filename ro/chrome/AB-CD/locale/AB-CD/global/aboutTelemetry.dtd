@@ -1,17 +1,3 @@
-<!--
-# Translator(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# raulmalea <raul.malea@gmail.com>
-#
--->
-<!--
-# Reviewer(s):
-#
-# Alexandru Szasz <alexxed@gmail.com>
-# raulmalea <raul.malea@gmail.com>
-#
--->
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
@@ -26,17 +12,33 @@
   Telemetria este <span>dezactivată</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "     Declarații SQL lente ">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "
   Blocări navigator ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Histograme
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Măsurători simple
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "  
@@ -52,10 +54,9 @@
   Histograme colectate de suplimente
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-     Clic pentru extinderea secțiunii ">
-
-<!ENTITY aboutTelemetry.toggleOff "       Clic pentru restrângere secțiune ">
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
+">
 
 <!ENTITY aboutTelemetry.emptySection " 
  (Nu sunt date colectate) ">
@@ -72,3 +73,6 @@
   Arată datele brute de la blocări
 ">
 
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
+">

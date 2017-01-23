@@ -12,7 +12,7 @@
 
 <!ENTITY file.close.label               "Fermer">
 <!ENTITY file.close.accesskey           "F">
-<!ENTITY cmd.close.key                  "w">
+<!ENTITY cmd.close.key                  "f">
 <!ENTITY views.label                    "Affichage">
 <!ENTITY views.accesskey                "A">
 <!ENTITY views.tooltip                  "Modifier l'affichage">
@@ -22,16 +22,16 @@
 <!ENTITY view.sort.accesskey            "T">
 <!ENTITY view.unsorted.label            "(aucun tri)">
 <!ENTITY view.unsorted.accesskey        "r">
-<!ENTITY view.sortAscending.label       "Ordre croissant (A > Z)">
+<!ENTITY view.sortAscending.label       "Ordre croissant (A &gt; Z)">
 <!ENTITY view.sortAscending.accesskey   "A">
-<!ENTITY view.sortDescending.label      "Ordre décroissant (Z > A)">
+<!ENTITY view.sortDescending.label      "Ordre décroissant (Z &gt; A)">
 <!ENTITY view.sortDescending.accesskey  "Z">
 
 <!ENTITY importBookmarksFromHTML.label     "Importer des marque-pages au format HTML…">
 <!ENTITY importBookmarksFromHTML.accesskey "I">
-<!ENTITY exportBookmarksToHTML.label       "Exporter des marque-pages au format HTML…">
+<!ENTITY exportBookmarksToHTML.label       "Exporter les marque-pages au format HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "E">
-<!ENTITY importOtherBrowser.label          "Importer des données d'un autre navigateur…">
+<!ENTITY importOtherBrowser.label          "Importer des données depuis un autre navigateur…">
 <!ENTITY importOtherBrowser.accesskey      "m">
 
 <!ENTITY cmd.backup.label               "Sauvegarder…">
@@ -58,14 +58,14 @@
 <!ENTITY cmd.open_all_in_tabs.accesskey  "v">
 
 <!ENTITY cmd.openParentFolder.label      "Ouvrir le dossier parent">
-<!ENTITY cmd.openParentFolder.accesskey  "F">
+<!ENTITY cmd.openParentFolder.accesskey  "r">
 
 <!ENTITY cmd.properties.label      "Propriétés">
 <!ENTITY cmd.properties.accesskey  "i">
 
 <!ENTITY cmd.sortby_name.label              "Trier par nom">
 <!ENTITY cmd.sortby_name.accesskey          "m">
-<!ENTITY cmd.context_sortby_name.accesskey  "m">
+<!ENTITY cmd.context_sortby_name.accesskey  "n">
 
 <!ENTITY cmd.new_bookmark.label            "Nouveau marque-page…">
 <!ENTITY cmd.new_bookmark.accesskey        "g">
@@ -75,15 +75,15 @@
 <!ENTITY cmd.new_separator.label           "Nouveau séparateur">
 <!ENTITY cmd.new_separator.accesskey       "N">
 
-<!ENTITY cmd.reloadLivebookmark.label      "Actualiser les marque-pages dynamiques">
-<!ENTITY cmd.reloadLivebookmark.accesskey  "l">
+<!ENTITY cmd.reloadLivebookmark.label      "Recharger les marque-pages dynamiques">
+<!ENTITY cmd.reloadLivebookmark.accesskey  "R">
 
 <!ENTITY cmd.moveBookmarks.label                  "Déplacer…">
 <!ENTITY cmd.moveBookmarks.accesskey              "D">
 
 <!ENTITY col.name.label              "Nom">
 <!ENTITY col.tags.label              "Étiquettes">
-<!ENTITY col.url.label               "Adresse">
+<!ENTITY col.url.label               "Emplacement">
 <!ENTITY col.lastvisit.label         "Date de visite">
 <!ENTITY col.visitcount.label        "Nombre de visites">
 <!ENTITY col.keyword.label           "Mot-clé">
@@ -93,30 +93,30 @@
 <!ENTITY col.parentfolder.label      "Dossier parent">
 <!ENTITY col.parentfolderpath.label  "Chemin du dossier parent">
 
-<!ENTITY search.label                "Rechercher :">
-<!ENTITY search.accesskey            "R">
+<!ENTITY search.label                              "Rechercher :">
+<!ENTITY search.accesskey                          "R">
 
 <!ENTITY search.in.label                           "Rechercher dans :">
 <!ENTITY search.scopeFolder.label                  "Dossier sélectionné">
 <!ENTITY search.scopeFolder.accesskey              "r">
 <!ENTITY search.scopeBookmarks.label               "Marque-pages">
-<!ENTITY search.scopeBookmarks.accesskey           "m">
+<!ENTITY search.scopeBookmarks.accesskey           "M">
 <!ENTITY search.scopeDownloads.label               "Téléchargements">
-<!ENTITY search.scopeDownloads.accesskey           "D">
+<!ENTITY search.scopeDownloads.accesskey           "T">
 <!ENTITY search.scopeHistory.label                 "Historique">
 <!ENTITY search.scopeHistory.accesskey             "H">
 <!ENTITY saveSearch.label                          "Enregistrer">
-<!ENTITY saveSearch.accesskey                      "S">
+<!ENTITY saveSearch.accesskey                      "E">
 
-<!ENTITY cmd.find.key  "F">
+<!ENTITY cmd.find.key  "c">
 
-<!ENTITY maintenance.label      "Importation et sauvegarde">
+<!ENTITY maintenance.label      "Importer et sauvegarder">
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "Importer et sauvegarder les marque-pages">
 
-<!ENTITY backButton.tooltip  "Reculer d'une page">
+<!ENTITY backButton.tooltip  "Reculer">
 
-<!ENTITY forwardButton.tooltip  "Avancer d'une page">
+<!ENTITY forwardButton.tooltip  "Avancer">
 
 <!ENTITY detailsPane.more.label "Plus">
 <!ENTITY detailsPane.more.accesskey "P">
@@ -125,7 +125,7 @@
 <!ENTITY detailsPane.selectAnItemText.description "Sélectionner un élément pour afficher et modifier ses propriétés">
 
 <!ENTITY find.label               "Chercher :">
-<!ENTITY find.accesskey           "r">
+<!ENTITY find.accesskey           "c">
 <!ENTITY view.label               "Trier">
 <!ENTITY view.accesskey           "T">
 <!ENTITY byDate.label             "Par date">

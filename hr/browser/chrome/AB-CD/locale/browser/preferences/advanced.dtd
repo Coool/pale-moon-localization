@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Ukloni izvanmrežne podatke">
 
 <!ENTITY certificateTab.label            "Certifikati">
+<!ENTITY certGroup.label                 "Personal Certificate">
 <!ENTITY certSelection.description       "Kad poslužitelj zatraži moje osobni certifikat:">
 <!ENTITY certs.auto                      "Automatski označi jednoga">
 <!ENTITY certs.auto.accesskey            "A">
 <!ENTITY certs.ask                       "Upitaj me svaki put">
 <!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY enableOCSP.label                "Koristi mrežni protokol za provjeru stanja certifikata (OCSP) za provjeru trenutne valjanosti certifikata">
+<!ENTITY enableOCSP.accesskey            "m">
+<!ENTITY requireOCSP.label               "Kada propadne veza prema OSCP poslužitelju, smatraj certifikat neispravnim">
+<!ENTITY requireOCSP.accesskey           "n">
 <!ENTITY viewCerts.label                 "Pogledaj certifikate">
 <!ENTITY viewCerts.accesskey             "c">
-<!ENTITY verify2.label                   "Ovjera">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Sigurnosni uređaji">
 <!ENTITY viewSecurityDevices.accesskey   "S">
+
+<!ENTITY UACompatGroup.label    "Compatibility">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.Gecko         "Gecko Compatibility">
+<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+
+<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

@@ -8,19 +8,22 @@
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-da@palemoon.org"
                em:name="Danish (DK) Language Pack"
-               em:version="26.1"
+               em:version="27.0.0rc15"
                em:type="8"
-               em:creator="mozilladanmark.dk / McFluffy">
-    <em:contributor>Jesper Kristensen</em:contributor> 
-    <em:contributor>Søren Lønbæk Nygaard Christensen</em:contributor> 
-    <em:contributor>Søren Munk Skrøder</em:contributor>
-    <em:contributor>McFluffy</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>Jesper Kristensen</em:translator> 
+    <em:translator>Søren Lønbæk Nygaard Christensen</em:translator> 
+    <em:translator>Søren Munk Skrøder</em:translator>
+    <em:translator>McFluffy</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

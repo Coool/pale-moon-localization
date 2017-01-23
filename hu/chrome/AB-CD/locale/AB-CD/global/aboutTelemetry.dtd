@@ -12,6 +12,10 @@
   A telemetria <span>kikapcsolva</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+Általános adatok
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Lassú SQL utasítások
 ">
@@ -20,12 +24,24 @@
   Böngészőlefagyások
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+Szállefagyások
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Hisztogramok
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+Hisztogramok kulccsal
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Egyszerű mérési eszközök
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+Kiegészítő részletei
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +56,8 @@ Késői írások
   Kiegészítők által gyűjtött hisztogramok
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Kattintson a szakasz kibontásához
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Kattintson a szakasz összecsukásához
+<!ENTITY aboutTelemetry.toggle "
+Kattintson a szakasz be/ki kapcsolásához
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -62,4 +74,8 @@ Késői írások
 
 <!ENTITY aboutTelemetry.hideSymbols "
   Nyers adatok megjelenítése a lefagyásokból
+">
+
+<!ENTITY aboutTelemetry.filterText "
+Szűrő (karakterláncok vagy /regexp/)
 ">

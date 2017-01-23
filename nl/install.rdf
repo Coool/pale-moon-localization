@@ -7,26 +7,29 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-nl@palemoon.org"
-               em:name="Nederlands (NL) Language Pack"
-               em:version="26.1"
+               em:name="Dutch (NL) Language Pack"
+               em:version="27.0.0rc15"
                em:type="8"
-               em:creator="Mozilla-NL/markh van BabelZilla.org/Moonchild">
-    <em:contributor>Gert-Paul van der Beek</em:contributor>
-    <em:contributor>Tim Maks van den Broek</em:contributor>
-    <em:contributor>Laurens Holst</em:contributor>
-    <em:contributor>Ton Kensen</em:contributor>
-    <em:contributor>Anne van Kesteren</em:contributor>
-    <em:contributor>Hendrik Maryns</em:contributor>
-    <em:contributor>Martijn Ras</em:contributor>
-    <em:contributor>leden MozBrowser-forum</em:contributor>
-    <em:contributor>markh van BabelZilla.org</em:contributor>
-    <em:contributor>Mark Straver</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>Gert-Paul van der Beek</em:translator>
+    <em:translator>Tim Maks van den Broek</em:translator>
+    <em:translator>Laurens Holst</em:translator>
+    <em:translator>Ton Kensen</em:translator>
+    <em:translator>Anne van Kesteren</em:translator>
+    <em:translator>Hendrik Maryns</em:translator>
+    <em:translator>Martijn Ras</em:translator>
+    <em:translator>leden MozBrowser-forum</em:translator>
+    <em:translator>markh van BabelZilla.org</em:translator>
+    <em:translator>Mark Straver</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

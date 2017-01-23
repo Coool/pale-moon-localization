@@ -1,0 +1,30 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the Remote Connection strings.
+  - The Remote Connection window can reached from the "connect…" menuitem
+  - in the Web Developer menu.
+  - -->
+
+<!ENTITY title      "Connect">
+<!ENTITY header     "Connect to remote device">
+<!ENTITY host       "ಅತಿಥೇಯ:">
+<!ENTITY port       "ಸಂಪರ್ಕ ಸಾಧನ:">
+<!ENTITY connect    "Connect">
+<!ENTITY connecting "ಸಂಪರ್ಕಿತಗೊಳ್ಳುತ್ತಿದೆ…">
+<!ENTITY availableAddons "ಲಭ್ಯವಿರುವ ದೂರಸ್ಥ ಆಡ್-ಒನ್ಸ್:">
+<!ENTITY availableTabs "Available remote tabs:">
+<!ENTITY availableProcesses "Available remote processes:">
+<!ENTITY connectionError "ದೋಷ:">
+<!ENTITY errorTimeout "Error: connection timeout.">
+<!ENTITY errorRefused "Error: connection refused.">
+<!ENTITY errorUnexpected "ಅನಪೇಕ್ಷಿತ ದೋಷ.">
+
+<!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
+these strings will be concatenated in a single label, remoteDocumentation will
+be used as text for a link to MDN. -->
+<!ENTITY remoteHelp "ಡೆವಲಪರ್ ಟೂಲ್ಸ್ ದೂರಸ್ಥ ಸಾಧನಗಳು (ಆಂಡ್ರಾಯ್ಡ್ ಪೇಲ್ ಮೂನ್, ಉದಾಹರಣೆಗೆ) ಡೀಬಗ್ ಮಾಡಬಹುದು. ನೀವು ದೂರದ ಸಾಧನ 'ರಿಮೋಟ್ ಡೀಬಗ್' ಆಯ್ಕೆಯನ್ನು ಆನ್ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಹೆಚ್ಚುವರಿ ನೋಡಲು ಇಲ್ಲಿ ನೋಡಿ ">
+<!ENTITY remoteDocumentation "ದಸ್ತಾವೇಜು">
+<!ENTITY remoteHelpSuffix ".">
+

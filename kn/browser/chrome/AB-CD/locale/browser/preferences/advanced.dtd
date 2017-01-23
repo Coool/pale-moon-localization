@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "ಆಫ್‌ಲೈನ್‌ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದು ಹಾಕು">
 
 <!ENTITY certificateTab.label            "ಪ್ರಮಾಣಪತ್ರಗಳು">
+<!ENTITY certGroup.label                 "ಈ ಅಧಿವೇಶನದಲ್ಲಿ ಯಾವುದೇ ಡೌನ್ಲೋಡ್ಗಳ್ಳಿಲ್ಲ">
 <!ENTITY certSelection.description       "ಒಂದು ಪರಿಚಾರಕವು ನನ್ನ ಖಾಸಗಿ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪೇಕ್ಷಿಸಿದಾಗ:">
 <!ENTITY certs.auto                      "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಒಂದನ್ನು ಆರಿಸು">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "ಪ್ರತಿ ಬಾರಿಯೂ ನನ್ನ ಅನುಮತಿ ಕೇಳು">
 <!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "ಪ್ರಮಾಣಪತ್ರ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ">
+<!ENTITY enableOCSP.label                "ಪ್ರಮಾಣಪತ್ರಗಳ ಪ್ರಸಕ್ತ ಮಾನ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸಲು ಆನ್‌ಲೈನ್ ಸರ್ಟಿಫಿಕೇಟ್ ಸ್ಟೇಟಸ್ ಪ್ರೊಟೋಕಾಲ್(OCSP)ಅನ್ನು ಬಳಸಿ">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "ಒಂದು OCSP ಪರಿಚಾರಕದೊಂದಿಗಿನ ಸಂಪರ್ಕವು ಕಡಿದುಹೋದಲ್ಲಿ, ಪ್ರಮಾಣಪತ್ರವು ಅಮಾನ್ಯವೆಂದು ಪರಿಗಣಿಸು">
+<!ENTITY requireOCSP.accesskey           "W">
 <!ENTITY viewCerts.label                 "ಪ್ರಮಾಣಪತ್ರವನ್ನು ನೋಡು">
 <!ENTITY viewCerts.accesskey             "s">
-<!ENTITY verify2.label                   "ಮಾನ್ಯಗೊಳಿಕೆ">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "ಸುರಕ್ಷತಾ ಸಾಧನಗಳು">
 <!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY UACompatGroup.label    "ಹೊಂದಾಣಿಕೆ">
+<!ENTITY UACompat.label         "ಬಳಕೆದಾರ ಏಜೆಂಟ್ ಮೋಡ್:">
+<!ENTITY UACompat.Native        "ಸ್ಥಳೀಯ">
+<!ENTITY UACompat.Gecko         "ಗೆಕ್ಕೊ ಹೊಂದಾಣಿಕೆ">
+<!ENTITY UACompat.Firefox       "ಫೈರ್ಫಾಕ್ಸ್ ಹೊಂದಾಣಿಕೆ">
+
+<!ENTITY scrollparamTab.label               "ಸ್ಕ್ರೋಲಿಂಗ್">
+<!ENTITY smoothscroll.explain.label         "ಮೇಲಿರುವ ಚೆಕ್ಬಾಕ್ಸ್ ಸಕ್ರಿಯಗೊಳಿಸಿದಲ್ಲಿ ಮಾತ್ರ ಒಟ್ಟಾರೆ ಕೆಳಗಿರುವ ಮೃದು ಸ್ಕ್ರಾಲಿಂಗ್ ನಿಯತಾಂಕಗಳ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ.">
+<!ENTITY smoothscroll.to                    "ಗೆ">
+<!ENTITY smoothscroll.params.label          "ಮೃದುವಾಗಿ ಸ್ಕ್ರೋಲ್ ನಿಯತಾಂಕಗಳು">
+<!ENTITY smoothscroll.mousewheel.label      "ಮೃದುವಾಗಿ ಸ್ಕ್ರೋಲ್ ಇರುವ ಮೌಸ್ ಚಕ್ರ">
+<!ENTITY smoothscroll.mousewheel.duration   "ಮೌಸ್ ಚಕ್ರ ಸ್ಕ್ರಾಲ್ ಅವಧಿ:">
+<!ENTITY smoothscroll.arrowkeys.label       "ಬಾಣದ ಕೀಲಿಗಳಿಂದ ಮೃದುವಾಗಿ ಸ್ಕ್ರೋಲ್">
+<!ENTITY smoothscroll.arrowkeys.duration    "ಬಾಣದ ಕೀಲಿಗಳ ಸ್ಕ್ರಾಲ್ ಅವಧಿ:">
+<!ENTITY smoothscroll.pagekeys.label        "ಮೃದುವಾದ ಸ್ಕ್ರೋಲ್ ಪುಟ ಮೇಲೆ / ಕೆಳಗೆ">
+<!ENTITY smoothscroll.pagekeys.duration     "ಪುಟ ಮೇಲೆ / ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಅವಧಿ:">
+<!ENTITY smoothscroll.scrollbar.label       "Scrollbars ಜೊತೆ ಮೃದುವಾದ ಸ್ಕ್ರೋಲ್">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbars ಮೃದುವಾದ ಸ್ಕ್ರೋಲ್ ಅವಧಿ:">

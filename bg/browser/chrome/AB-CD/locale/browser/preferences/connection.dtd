@@ -1,0 +1,44 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  connectionsDialog.title       "Настройки на връзката">
+<!ENTITY  window.width                  "52em">
+<!ENTITY  window.macWidth               "56em">
+
+<!ENTITY  proxyTitle.label              "Настройки на прокси за достъп до Интернет">
+<!ENTITY  noProxyTypeRadio.label        "Без посредник">
+<!ENTITY  noProxyTypeRadio.accesskey    "Б">
+<!ENTITY  systemTypeRadio.label         "Използвай системните настройки за прокси">
+<!ENTITY  systemTypeRadio.accesskey     "с">
+<!ENTITY  WPADTypeRadio.label           "Определи автоматично прокси настройките за тази мрежа">
+<!ENTITY  WPADTypeRadio.accesskey       "а">
+<!ENTITY  manualTypeRadio.label         "Ръчна настройка на прокси:">
+<!ENTITY  manualTypeRadio.accesskey     "Р">
+<!ENTITY  autoTypeRadio.label           "Адрес за автоматично настройване на прокси:">
+<!ENTITY  autoTypeRadio.accesskey       "д">
+<!ENTITY  reload.label                  "Презареждане">
+<!ENTITY  reload.accesskey              "з">
+<!ENTITY  ftp.label                     "FTP прокси:">
+<!ENTITY  ftp.accesskey                 "F">
+<!ENTITY  http.label                    "HTTP прокси:">
+<!ENTITY  http.accesskey                "H">
+<!ENTITY  ssl.label                     "SSL прокси:">
+<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  socks.label                   "SOCKS хост:">
+<!ENTITY  socks.accesskey               "C">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "K">
+<!ENTITY  socks5.label                  "SOCKS 5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  port.label                    "Порт:">
+<!ENTITY  HTTPport.accesskey            "П">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "р">
+<!ENTITY  SOCKSport.accesskey           "т">
+<!ENTITY  noproxy.label                 "Не използвай прокси за:">
+<!ENTITY  noproxy.accesskey             "Н">
+<!ENTITY  noproxyExplain.label          "Пример: mozilla.org, .net.nz, 192.168.1.0/24">
+<!ENTITY  shareproxy.label              "Използвай този прокси сървър за всички протоколи">
+<!ENTITY  shareproxy.accesskey          "п">

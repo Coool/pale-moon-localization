@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Διαχείριση προσθέτων">
 
 <!ENTITY search.placeholder                   "Αναζήτηση σε όλα τα πρόσθετα">
+<!ENTITY search.buttonlabel                   "Αναζήτηση">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "γ">
 <!ENTITY cmd.uninstallAddon.label             "Αφαίρεση">
 <!ENTITY cmd.uninstallAddon.accesskey         "φ">
+<!ENTITY cmd.debugAddon.label                 "Debug">
 <!ENTITY cmd.showPreferencesWin.label         "Επιλογές">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Αλλαγή των επιλογών αυτού του προσθέτου">
 <!ENTITY cmd.showPreferencesUnix.label        "Προτιμήσεις">
@@ -205,6 +207,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Φόρτωση…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Συγγνώμη, αλλά υπήρξε σφάλμα κατά την φόρτωση των σημειώσεων έκδοσης.">
 
+<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
+<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+
 <!ENTITY addon.createdBy.label                "Από ">
 
 <!ENTITY eula.title                           "Συμφωνία άδειας χρήσης τελικού χρήστη">
@@ -213,3 +218,16 @@
 <!ENTITY eula.accept                          "Αποδοχή και Εγκατάσταση…">
 
 <!ENTITY settings.path.button.label           "Περιήγηση…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
+<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.learnmore.accesskey "L">
+<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+<!ENTITY setting.learnmore "Learn More…">

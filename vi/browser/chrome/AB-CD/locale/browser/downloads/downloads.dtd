@@ -60,7 +60,7 @@
 <!ENTITY cmd.goToDownloadPage.accesskey   "g">
 <!ENTITY cmd.copyDownloadLink.label       "Sao chép liên kết tải về">
 <!ENTITY cmd.copyDownloadLink.accesskey   "l">
-<!ENTITY cmd.removeFromHistory.label      "Xóa khỏi lịch sử (e)">
+<!ENTITY cmd.removeFromHistory.label      "Xóa khỏi Lịch sử">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
 <!ENTITY cmd.clearList.label              "Xóa trắng danh sách">
 <!ENTITY cmd.clearList.accesskey          "a">
@@ -83,6 +83,11 @@
      is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Không có tải về nào.">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "Không có tải về cho phiên này.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Fehler: Port aus Sicherheitsgründen blockiert">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>Die aufgerufene Adresse fordert einen Port (z.B. <q>palemoon.org:25</q> für Port 25 bei palemoon.org), der normalerweise <em>nicht</em> zum Browsen im Web verwendet wird. Die Anfrage wurde zu Ihrem Schutz abgebrochen.</p>">
 
 <!ENTITY dnsNotFound.title "Fehler: Server nicht gefunden">
 <!ENTITY dnsNotFound.longDesc "
@@ -30,10 +30,9 @@
 ">
 
 <!ENTITY fileNotFound.title "Fehler: Datei nicht gefunden">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>Bitte überprüfen Sie die Adresse auf Rechtschreib-, Groß-/Kleinschreibungs- oder andere Fehler.</li>
-  <li>Bitte überprüfen Sie, ob die Adresse umbenannt, gelöscht oder verschoben wurde.</li>
+<!ENTITY fileNotFound.longDesc "<ul>
+  <li>Bitte überprüfen Sie den Dateinamen auf Groß-/Kleinschreibung, Rechtschreib- oder andere Fehler.</li>
+  <li>Bitte überprüfen Sie, ob die Datei verschoben, umbenannt oder gelöscht wurde.</li>
 </ul>
 ">
 
@@ -86,12 +85,10 @@
 <!ENTITY netTimeout.title "Fehler: Netzwerk-Zeitüberschreitung">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Fehler: unbekanntes Protokoll">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>Eventuell müssen Sie andere Software installieren, um diese Adresse aufrufen zu können.</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "Die Adresse wurde nicht erkannt">
+<!ENTITY unknownProtocolFound.longDesc "<ul>
+<li>Eventuell müssen Sie andere Software installieren, um diese Adresse aufrufen zu können.</li>
+</ul>">
 
 <!ENTITY proxyConnectFailure.title "Fehler: Proxy-Server verweigert die Verbindung">
 <!ENTITY proxyConnectFailure.longDesc "
@@ -120,7 +117,7 @@
 </ul>
 ">
 
-<!ENTITY unknownSocketType.title "Fehler: Unerwartete Antwort">
+<!ENTITY unknownSocketType.title "Fehler: Unerwartete Antwort vom Server">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
   <li>Bitte stellen Sie sicher, dass auf Ihrem System der Personal-Security-Manager 
@@ -130,26 +127,21 @@
 ">
 
 <!ENTITY nssFailure2.title "Fehler: Gesicherte Verbindung fehlgeschlagen">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>Die Website kann nicht angezeigt werden, da die Authentizität der erhaltenen Daten nicht verifiziert werden konnte.</li>
-  <li>Kontaktieren Sie bitte den Inhaber der Website, um ihn über dieses Problem zu informieren. Alternativ können Sie auch die Funktion im Hilfe-Menü verwenden, um diese Website als fehlerhaft zu melden.</li>
-</ul>
-">
+<!ENTITY nssFailure2.longDesc2 "<ul>
+<li>Die Website kann nicht angezeigt werden da die Echtheit der erhaltenen Daten nicht verifiziert werden konnte</li>
+<li>Kontaktieren Sie bitte den Inhaber der Website, um ihn über dieses Problem zu informieren.</li>
+</ul>">
 
 <!ENTITY nssBadCert.title "Sichere Verbindung fehlgeschlagen">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>Dies könnte ein Problem mit der Konfiguration des Servers sein oder jemand, der vorgibt, 
-	der Server zu sein.</li>
-  <li>Falls Sie früher bereits erfolgreich eine Verbindung zu dem Server aufgebaut haben, 
+<!ENTITY nssBadCert.longDesc2 "<ul>
+  <li>Dies könnte ein Problem mit der Konfiguration des Servers sein, oder jemand, der vorgibt, der Server zu sein.</li>
+  <li>Falls Sie früher bereits erfolgreich eine Verbindung zu diesem Server aufgebaut haben, 
 	könnte dies ein vorübergehender Fehler sein. Versuchen Sie es in diesem Fall später noch einmal.</li>
 </ul>
 ">
 
-<!ENTITY sharedLongDesc "
-<ul>
-  <li>Die Website könnte vorübergehend nicht erreichbar sein, versuchen Sie es bitte 
+<!ENTITY sharedLongDesc "<ul>
+  <li>Die Website könnte vorübergehend nicht erreichbar oder überlastet sein. Versuchen Sie es bitte 
 	später nochmals.</li>
   <li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die 
 	Netzwerk-/Internetverbindung.</li>
@@ -161,7 +153,7 @@
 <!ENTITY malwareBlocked.title "Angreifende Website vermutet!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Angreifende Websites versuchen Programme zu installieren, die private Daten stehlen, Ihren Computer benutzen, um andere anzugreifen oder Ihr System beschädigen</p>
-<p>Website-Inhaber, die glauben, dass ihre Website fälschlicherweise als angreifende Website gemeldet wurde, können unter <a href='http://www.stopbadware.org/home/reviewinfo' > eine erneute Einschätzung beantragen</a>.</p>
+<p>Website-Inhaber, die glauben, dass ihre Website fälschlicherweise als angreifende Website gemeldet wurde, können unter <a href='https://www.stopbadware.org/request-review' > eine erneute Einschätzung beantragen</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Vermuteter Betrugsversuch!">
@@ -170,19 +162,19 @@
 <p>Diese Art von Internet-Betrug ist auch bekannt als Phishing. Dabei versuchen Kriminelle in betrügerischer Absicht, Webseiten oder E-Mails nachzuahmen, denen Sie eventuell vertrauen.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinie (Content Security Policy)">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Laden dieser Seite in dieser Weise wurde vom Browser verhindert, weil sie eine Sicherheitsrichtlinie hat, die das nicht erlaubt.</p>">
+<!ENTITY cspBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinien (Content Security Policy)">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; verhinderte das Laden dieser Webseite, da die Webseite eine Sicherheitsrichtlinie hat, die dies nicht erlaubt.</p>">
 
-<!ENTITY xssBlockMode.title "Blockiert vom XSS Filter">
+<!ENTITY xssBlockMode.title "Blockiert vom XSS-Filter">
 <!ENTITY xssBlockMode.longDesc "<ul>
 
-<li>&brandShortName; blockiert weitere Aktionen auf dieser Seite, weil es
+<li>&brandShortName; blockiert weitere Aktionen auf dieser Seite, weil sie
 
-injizierten JavaScript code enthällt.</li>
+injizierten JavaScript-Code enthält.</li>
 
-<li>Das Laden dieser Seite wurde unterbrochen, weil entweder durch einer ausdrückliche Anfrage
+<li>Das Laden dieser Seite wurde unterbrochen, weil entweder durch eine ausdrückliche Anfrage
 
-dieser Seite das Blocken im Falle einer XSS Attacke ausgelöst hat, oder weil &brandShortName;
+der Seite das Blockieren im Falle einer XSS Attacke ausgelöst wurde, oder weil &brandShortName;
 
 konfiguriert wurde, Seiten in dieser Situation zu blocken.</li>
 
@@ -208,5 +200,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Diesen Fehler melden">
+<!ENTITY errorReporting.longDesc "Das Melden der Adresse und Zertifikatsinformationen für <span id='hostname'></span> hilft uns, bösartige Seiten zu erkennen und zu blockieren. Vielen Dank für Ihre Unterstützung beim Schaffen eines sicheren Internets!">
+<!ENTITY errorReporting.automatic "Fehler zukünftig automatisch melden">
+<!ENTITY errorReporting.learnMore "Weitere Informationen…">
+<!ENTITY errorReporting.sending "Bericht wird gesendet…">
+<!ENTITY errorReporting.sent "Bericht gesendet">
+<!ENTITY errorReporting.report "Bericht senden">
+<!ENTITY errorReporting.tryAgain "Nochmals versuchen">
+
 <!ENTITY remoteXUL.title "Remote-XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Bitte informieren Sie den Website-Inhaber über dieses Problem.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Keine sichere Verbindung möglich">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Weitere Infos: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Weitere Informationen…">

@@ -8,19 +8,23 @@
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-en-GB@palemoon.org"
                em:name="English (GB) Language Pack"
-               em:version="26.0"
+               em:version="27.1.0"
                em:type="8"
-               em:creator="Mark Tyndall / Moonchild">
-    <em:contributor>David Bartlett</em:contributor> 
-    <em:contributor>Constantine Murenin</em:contributor> 
-    <em:contributor>Ian Neal</em:contributor> 
-    <em:contributor>Mark Straver</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>Ryan C</em:translator> 
+    <em:translator>David Bartlett</em:translator> 
+    <em:translator>Constantine Murenin</em:translator> 
+    <em:translator>Ian Neal</em:translator> 
+    <em:translator>Mark Straver</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

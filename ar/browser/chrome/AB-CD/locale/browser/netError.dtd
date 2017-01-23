@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "العنوان ممنوع">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>العنوان المطلوب عيَّن منفذاً (مثال:<q>palemoon.org:25</q> يشير إلى المنفذ 25 على موقع palemoon.org) المستخدم عادة لأغراض <em>غير</em> تصفح الوب. ألغى المتصفح الطلب لحمايتك وأمانك.</p>">
 
 <!ENTITY dnsNotFound.title "الخادوم غير موجود">
 <!ENTITY dnsNotFound.longDesc "<ul> 
@@ -70,10 +70,12 @@
 <!ENTITY netTimeout.title "انتهت مهلة الاتصال">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "لم يُفهم العنوان">
-<!ENTITY protocolNotFound.longDesc "<ul> 
-<li>ربما تحتاج لتثبيت برمجيات أخرى لفتح هذا العنوان.</li> 
-</ul>">
+<!ENTITY unknownProtocolFound.title "العنوان غير مفهوم">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul>
+<li>قد تحتاج إلى تثبيت برمجيات أخرى لفتح هذا العنوان.</li>
+</ul>
+">
 
 <!ENTITY proxyConnectFailure.title "يرفض الخادوم الوسيط الاتصال">
 <!ENTITY proxyConnectFailure.longDesc "<ul> 
@@ -102,10 +104,12 @@
 </ul>">
 
 <!ENTITY nssFailure2.title "فشل الاتصال الآمن">
-<!ENTITY nssFailure2.longDesc "<ul> 
-<li>لا يمكن عرض الصفحة التي تحاول زيارتها لعدم إمكانية الاستيثاق من البيانات المستقبلة.</li> 
-<li>من فضلك اتصل بمالكي الموقع لإعلامهم بهذه المشكلة. أو كبديل استخدم الأمر الموجود في قائمة مساعدة للإبلاغ عن هذا الموقع المعطوب.</li> 
-</ul>">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+<li>الصفحة التي تحاول عرضها لا يمكن إظهارها لأنه لا يمكن التأكد من موثوقية البيانات المستلمة.</li>
+<li>يرجى مراسلة أصحاب الموقع لإعلامهم بهذه المشكلة.</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "فشل الاتصال الآمن">
 <!ENTITY nssBadCert.longDesc2 "<ul> 
@@ -122,15 +126,18 @@
 </ul>">
 
 <!ENTITY malwareBlocked.title "موقع هجوم محتمل!">
-<!ENTITY malwareBlocked.longDesc "<p>موقع الهجوم سيحاول تثبيت برامج تستولي على بياناتك الخاصة، واستخدام حاسوبك لمهاجمة الآخرين، أو الإضرار بنظامك.</p> <p>مالكي الموقع الذي يعتقدون أن قد أُبلغ عن موقعهم كموقع هجوم بطريق الخطأ يمكنهم <a href='http://www.stopbadware.org/home/reviewinfo' >طلب مراجعة</a>.</p>">
+<!ENTITY malwareBlocked.longDesc "
+<p>مواقع الهجوم تحاول تثبيت برامج تسرق المعلومات الخاصة أو تستخدم حاسوبك لمهاجمة الآخرين أو الإضرار بنظامك.</p>
+<p>أصحاب المواقع الذين يعتقدون أن موقعهم أبلغ عنه أنه موقع هجومي بالخطأ يمكنهم <a href='https://www.stopbadware.org/request-review' >طلب مراجعة</a>.</p>
+">
 
 <!ENTITY phishingBlocked.title "خداع وِب مُشتبه به!">
 <!ENTITY phishingBlocked.longDesc "<p>قد ينتج عن إدخال بيانات في هذه الصفحة سرقة الهوية أو أي احتيال آخر.</p> <p>تستخدم طرق التزوير هذه في خدع تعرف بهجمات التزوير، و فيها تستخدم صفحات و رسائل مزوّرة لتقليد مصادر تثق بها.</p>">
 
-<!ENTITY cspFrameAncestorBlocked.title "حجبتها سياسة أمن المحتوى">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>منع &brandShortName; هذه الصفحة من التحميل بهذه الطريقة لأن للصفحة سياسة أمن محتوى تمنع ذلك.</p>">
+<!ENTITY cspBlocked.title "حجبه سياسة أمان المحتوى">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; منع هذه الصفحة من التحميل بهذا الأسلوب لأن الصفحة فيها سياسة أمان محتوى يمنعها.</p>">
 
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.title "حجبه XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
   <li>&brandShortName; blocked further actions on this page, because it contains 
@@ -159,5 +166,20 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
+<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.learnMore "Learn more…">
+<!ENTITY errorReporting.sending "Sending report">
+<!ENTITY errorReporting.sent "Report sent">
+<!ENTITY errorReporting.report "Report">
+<!ENTITY errorReporting.tryAgain "Try again">
+
 <!ENTITY remoteXUL.title "XUL بعيد">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Learn More…">

@@ -5,17 +5,17 @@
 <!-- LOCALIZATION NOTE (window.width2, window.height): These values should be
 close to the golden ratio (1.618:1) while making sure it's wide enough for long
 file names and tall enough to hint that there are more downloads in the list -->
-<!ENTITY window.width2                    "550">
+<!ENTITY window.width2                    "485">
 <!ENTITY window.height                    "300"> 
 
-<!ENTITY starting.label                   "A iniciar...">
-<!ENTITY scanning.label                   "À procura de vírus...">
+<!ENTITY starting.label                   "A iniciar…">
+<!ENTITY scanning.label                   "À procura de vírus…">
 
-<!ENTITY downloads.title                  "Transferências">
+<!ENTITY downloads.title                  "Descargas">
 
 <!ENTITY cmd.pause.label                  "Pausa">
 <!ENTITY cmd.pause.accesskey              "P">
-<!ENTITY cmd.resume.label                 "Resumir">
+<!ENTITY cmd.resume.label                 "Retomar">
 <!ENTITY cmd.resume.accesskey             "R">
 <!ENTITY cmd.cancel.label                 "Cancelar">
 <!ENTITY cmd.cancel.accesskey             "C">
@@ -25,28 +25,28 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.open.label                   "Abrir">
 <!ENTITY cmd.open.accesskey               "A">
-<!ENTITY cmd.openWith.label               "Abrir com...">
+<!ENTITY cmd.openWith.label               "Abrir com…">
 <!ENTITY cmd.openWith.accesskey           "m">
-<!ENTITY cmd.retry.label                  "Voltar a tentar">
-<!ENTITY cmd.retry.accesskey              "N">
-<!ENTITY cmd.goToDownloadPage.label       "Ir para a página de transferências">
-<!ENTITY cmd.goToDownloadPage.accesskey   "I">
-<!ENTITY cmd.copyDownloadLink.label       "Copiar ligação da transferência">
+<!ENTITY cmd.retry.label                  "Tentar novamente">
+<!ENTITY cmd.retry.accesskey              "r">
+<!ENTITY cmd.goToDownloadPage.label       "Ir para a página da descarga">
+<!ENTITY cmd.goToDownloadPage.accesskey   "g">
+<!ENTITY cmd.copyDownloadLink.label       "Copiar ligação da descarga">
 <!ENTITY cmd.copyDownloadLink.accesskey   "l">
-<!ENTITY cmd.removeFromList.label         "Remover da Lista">
+<!ENTITY cmd.removeFromList.label         "Remover da lista">
 <!ENTITY cmd.removeFromList.accesskey     "e">
 
-<!ENTITY cmd.close.commandKey             "W">
-<!ENTITY cmd.close2.commandKey            "J">
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
 <!ENTITY cmd.close2Unix.commandKey        "y">
 <!ENTITY cmd.clearList.label              "Limpar lista">
-<!ENTITY cmd.clearList.tooltip            "Apaga da lista as transferências completadas, canceladas e falhadas">
-<!ENTITY cmd.clearList.accesskey          "a">
+<!ENTITY cmd.clearList.tooltip            "Remove da lista as descargas terminadas, canceladas e falhadas">
+<!ENTITY cmd.clearList.accesskey          "L">
 <!ENTITY cmd.find.commandKey              "f">
 <!ENTITY cmd.search.commandKey            "k">
 
-<!ENTITY closeWhenDone.label              "Fechar a janela quando todas as transferências terminarem">
-<!ENTITY closeWhenDone.tooltip            "Fecha a janela de transferências quando todas as transferências tiverem terminado">
+<!ENTITY closeWhenDone.label              "Fechar janela ao terminar a descarga">
+<!ENTITY closeWhenDone.tooltip            "Fecha a janela de descargas quando todos os ficheiros tiverem sido descarregados">
 
 <!ENTITY showFolder.label                 "Mostrar esta pasta">
-<!ENTITY searchBox.label                  "Procurar...">
+<!ENTITY searchBox.label                  "Pesquisar…">

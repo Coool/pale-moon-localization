@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "Szolgáltató">
 <!ENTITY certmgr.tab.orphan2                  "Mások">
 
-<!ENTITY certmgr.ca.builtins                  "Beépített hitelesítésszolgáltatók">
-<!ENTITY certmgr.ca.mycas                     "Általad kezelt hitelesítésszolgáltatók">
-
 <!ENTITY certmgr.mine                         "Az alábbi szervezetektől rendelkezel azonosító hitelesítéssel:">
 <!ENTITY certmgr.others                       "Tanúsítvány-fájlal rendelkezel az alábbi emberek azonosítására:">
 <!ENTITY certmgr.websites2                    "Tanúsítvány-fájlal rendelkezel az alábbi szerverek azonosítására:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "Tanúsítvány eredetiség vizsgálata...">
 <!ENTITY certmgr.subjectinfo.label            "Kiadott részére">
 <!ENTITY certmgr.issuerinfo.label             "Kiadott általa">
-<!ENTITY certmgr.validity.label               "Eredetiség" >
+<!ENTITY certmgr.periodofvalidity.label       "Érvényesség időtartama" >
 <!ENTITY certmgr.fingerprints.label           "Ujjlenyomatok">
 <!ENTITY certmgr.certdetail.title             "Tanúsítvány részletek">
 <!ENTITY certmgr.certdetail.cn                "Közös név (CN)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Ujjlenyomat">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Ujjlenyomat">
 
-<!ENTITY certmgr.editcert.title               "Biztonsági tanúsítvány beállítások szerkesztése">
 <!ENTITY certmgr.editcacert.title             "Hitelesítésszolgáltatói tanúsítvány megbízhatósági beállítások szerkesztése:">
-<!ENTITY certmgr.editsslcert.title            "Honlap tanúsítvány megbízhatósági beállítások szerkesztése">
 <!ENTITY certmgr.editcert.edittrust           "Megbízhatósági beállítások szerkesztése:">
 <!ENTITY certmgr.editcert.trustssl            "Ezen tanúsítvány honlapokat azonosít.">
 <!ENTITY certmgr.editcert.trustemail          "Ezen tanúsítvány levelező felhasználókat azonosít.">
 <!ENTITY certmgr.editcert.trustobjsign        "Ezen tanúsítvány szoftverkészítőket azonosít.">
-<!ENTITY certmgr.editsslcert.edittrust        "Tanúsítvány megbízhatósági beállítások szerkesztése:">
-<!ENTITY certmgr.editsslcert.dotrust          "Megbízható hitelességű tanúsítvány.">
-<!ENTITY certmgr.editsslcert.donttrust        "A tanúsítvány hitelessége nem megbízható.">
 <!ENTITY certmgr.editemailcert.title          "E-mail tanúsítvány megbízhatósági beállítások szerkesztése:">
 <!ENTITY certmgr.editemailcert.edittrust      "Tanúsítvány megbízhatósági beállítások szerkesztése:">
 <!ENTITY certmgr.editemailcert.dotrust        "Megbízom a tanúsítvány eredetiségében.">
 <!ENTITY certmgr.editemailcert.donttrust      "Nem bízom meg a tanúsítvány eredetiségében.">
 
 <!ENTITY certmgr.deletecert.title             "Tanúsítvány törlése">
-<!ENTITY certmgr.deletecert.beforename        "Ezen tanúsítvány törlését kérted:">
-<!ENTITY certmgr.deletecert.aftername         "Biztosan törölni akarod ezt a tanúsítványt?">
-<!ENTITY certmgr.deleteusercert.title         "Tanúsítványod törlése">
-<!ENTITY certmgr.deleteusercert.beforename    "A tanúsítvány törlését kérted:">
-<!ENTITY certmgr.deleteusercert.aftername     "A tanúsítvány törlése után nem lehet majd a vele titkosított leveleket elolvasni.">
 
 <!ENTITY certmgr.certname                     "Tanúsítvány neve">
 <!ENTITY certmgr.certserver                   "Szerver">
 <!ENTITY certmgr.override_lifetime            "Élettartam">
 <!ENTITY certmgr.tokenname                    "Biztonsági eszköz">
-<!ENTITY certmgr.issued                       "Kiadva">
+<!ENTITY certmgr.begins                       "Kezdődik">
 <!ENTITY certmgr.expires                      "Lejár">
 <!ENTITY certmgr.email                        "E-mail cím">
 <!ENTITY certmgr.serial                       "Sorozatszám">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "E">
 <!ENTITY certmgr.editca.label                 "Hitelesítésszolgáltató megbízhatóságának szerkesztése">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "Hozzáadás">
-<!ENTITY certmgr.add.accesskey                "A">
 <!ENTITY certmgr.export.label                 "Exportálás...">
 <!ENTITY certmgr.export.accesskey             "x">
 <!ENTITY certmgr.delete2.label                "Törlés...">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "Mező érték">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Tanúsítvány hierarchia">
-<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "Kivétel hozzáadása...">
 <!ENTITY certmgr.addException.accesskey       "x">
 

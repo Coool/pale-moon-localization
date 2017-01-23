@@ -6,14 +6,18 @@
 <!ENTITY  window.width                    "43em">
 <!ENTITY  window.macWidth                 "46em">
 
-<!ENTITY  allowPagesToUse.label           "Pozwalaj stronom stosować inne kolory niż ustawione tutaj">
-<!ENTITY  allowPagesToUse.accesskey       "i">
+<!ENTITY  overridePageColors.label        "Zastąp kolory określone przez stronę z móim wybórem:">
+<!ENTITY  overridePageColors.accesskey    "a">
+
+<!ENTITY  overridePageColors.always.label "Zawsze">
+<!ENTITY  overridePageColors.auto.label   "Tylko z kompozycjami o dużym kontraście">
+<!ENTITY  overridePageColors.never.label  "Nigdy">
 
 <!ENTITY  color                           "Tekst i tło">
 <!ENTITY  textColor.label                 "Tekst:">
-<!ENTITY  textColor.accesskey             "e">
+<!ENTITY  textColor.accesskey             "T">
 <!ENTITY  backgroundColor.label           "Tło:">
-<!ENTITY  backgroundColor.accesskey       "T">
+<!ENTITY  backgroundColor.accesskey       "P">
 <!ENTITY  useSystemColors.label           "Używaj kolorów systemowych">
 <!ENTITY  useSystemColors.accesskey       "s">
 
@@ -23,4 +27,4 @@
 <!ENTITY  linkColor.label                 "Nieodwiedzone odnośniki:">
 <!ENTITY  linkColor.accesskey             "N">
 <!ENTITY  visitedLinkColor.label          "Odwiedzone odnośniki:">
-<!ENTITY  visitedLinkColor.accesskey      "O">
+<!ENTITY  visitedLinkColor.accesskey      "o">

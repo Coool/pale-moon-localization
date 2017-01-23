@@ -3,41 +3,41 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Muokkaa tätä tiedostoa ja kopioi nimellä userChrome.css 
- * profiilikansiosi chrome-kansioon
+ * Edit this file and copy it as userChrome.css into your
+ * profile-directory/chrome/
  */
 
 /*
- * Tätä tiedostoa muokkaamalla on mahdollista radikaalisti muuttaa ohjelman
- * käyttöliittymän ulkonäköä. Jos antamasi säännön on tarkoitus korvata
- * olemassa oleva sääntö, käytä !important -lisäystä.
+ * This file can be used to customize the look of Mozilla's user interface
+ * You should consider using !important on rules which you want to
+ * override default settings.
  */
 
 /*
- * Älä poista seuraavaa @namespace riviä. Ilman sitä tiedosto ei toimi oikein.
+ * Do not remove the @namespace line -- it's required for correct functioning
  */
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* Asetetaan oletusnimiavaruus XUL:ksi */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
 
 
 /*
- * Seuraavaksi joitain mahdollisia esteettömyysmuokkauksia:
+ * Some possible accessibility enhancements:
  */
 /*
- * Aseta käytettyjen kirjasimien oletuskooksi 20 pt:
+ * Make all the default font sizes 20 pt:
  *
  * * {
  *   font-size: 20pt !important
  * }
  */
 /*
- * Aseta ainoastaan valikkojen kirjasinkooksi 15 pt oletuskoon sijaan:
+ * Make menu items in particular 15 pt instead of the default size:
  *
  * menupopup > * {
  *   font-size: 15pt !important
  * }
  */
 /*
- * Aseta osoitepalkin kirjasin tasaväliseksi
+ * Give the Location (URL) Bar a fixed-width font
  *
  * #urlbar {
  *    font-family: monospace !important;
@@ -45,6 +45,6 @@
  */
 
 /*
- * Lisää esimerkkejä säännöistä (englanniksi) osoitteesta http://www.mozilla.org/unix/customizing.html
+ * For more examples see http://www.mozilla.org/unix/customizing.html
  */
  

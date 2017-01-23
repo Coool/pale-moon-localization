@@ -15,18 +15,18 @@
 <!ENTITY fileMenu.label "Datei">
 <!ENTITY fileMenu.accesskey "D">
 <!ENTITY savePageCmd.label "Seite speichern unter…">
-<!ENTITY savePageCmd.accesskey "u">
-<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY savePageCmd.accesskey "S">
+<!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Seite einrichten…">
 <!ENTITY pageSetupCmd.accesskey "e">
 <!ENTITY printPreviewCmd.label "Druckvorschau">
 <!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Drucken…">
 <!ENTITY printCmd.accesskey "D">
-<!ENTITY printCmd.commandkey "p">
+<!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Schließen">
 <!ENTITY closeCmd.accesskey "c">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -64,13 +64,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Seite durchsuchen">
-<!ENTITY findOnCmd.accesskey "S">
+<!ENTITY findOnCmd.label     "Seite durchsuchen...">
+<!ENTITY findOnCmd.accesskey "d">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Weitersuchen">
-<!ENTITY findAgainCmd.accesskey "n">
+<!ENTITY findAgainCmd.accesskey "s">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
 <!ENTITY backCmd.label "Zurück">
 <!ENTITY backCmd.accesskey "Z">
@@ -80,6 +81,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "Ä">
 
 <!ENTITY copyLinkCmd.label "Link-Adresse kopieren">
-<!ENTITY copyLinkCmd.accesskey "k">
+<!ENTITY copyLinkCmd.accesskey "L">
 <!ENTITY copyEmailCmd.label "E-Mail-Adresse kopieren">
 <!ENTITY copyEmailCmd.accesskey "E">

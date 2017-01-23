@@ -3,41 +3,41 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Éditez ce fichier et copiez-le comme userChrome.css dans votre
- * dossier-de-profil/chrome/
+ * Edit this file and copy it as userChrome.css into your
+ * profile-directory/chrome/
  */
 
 /*
- * Ce fichier peut être utilisé pour personnaliser l'apparence de l'interface utilisateur de Mozilla
- * Pensez à utiliser !important sur les règles qui sont destinées à prendre
- * la place des paramètres par défaut.
+ * This file can be used to customize the look of Mozilla's user interface
+ * You should consider using !important on rules which you want to
+ * override default settings.
  */
 
 /*
- * Ne retirez pas la ligne @namespace line -- elle est requise pour un fonctionnement correct
+ * Do not remove the @namespace line -- it's required for correct functioning
  */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
 
 
 /*
- * Quelques améliorations possibles d'accessibilité
+ * Some possible accessibility enhancements:
  */
 /*
- * Mettre toutes les tailles de police par défaut à 20 pt :
+ * Make all the default font sizes 20 pt:
  *
  * * {
  *   font-size: 20pt !important
  * }
  */
 /*
- * Rendre en particulier les choix de menus en 15 pt au lieu de la taille par défaut :
+ * Make menu items in particular 15 pt instead of the default size:
  *
  * menupopup > * {
  *   font-size: 15pt !important
  * }
  */
 /*
- * Donner à la barre d'adresse (URL) une police à largeur fixe
+ * Give the Location (URL) Bar a fixed-width font
  *
  * #urlbar {
  *    font-family: monospace !important;
@@ -45,14 +45,6 @@
  */
 
 /*
- * Masquer l'indicateur d'activité et son animation :
- *
- * #throbber-box {
- *   display: none !important;
- * }
- */
-
-/*
- * Pour d'autres exemples, voir http://www.mozilla.org/unix/customizing.html
+ * For more examples see http://www.mozilla.org/unix/customizing.html
  */
  

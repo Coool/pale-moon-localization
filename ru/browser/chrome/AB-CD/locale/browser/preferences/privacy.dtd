@@ -14,14 +14,25 @@
 
 <!ENTITY  history.label                 "История">
 
-<!ENTITY  locationBar.label             "Панель адреса">
+<!ENTITY  locationBar.label             "Панель адресной строки">
 
-<!ENTITY  locbar.pre.label              "При использовании панели адреса предлагать ссылки:">
-<!ENTITY  locbar.pre.accessKey          "с">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "из журнала и закладок">
+<!ENTITY  locbar.suggest.label          "При использовании адресной строки предлагать ссылки:">
 <!ENTITY  locbar.history.label          "из журнала">
+<!ENTITY  locbar.history.accesskey      "ж">
 <!ENTITY  locbar.bookmarks.label        "из закладок">
+<!ENTITY  locbar.bookmarks.accesskey    "з">
+<!ENTITY  locbar.openpage.label         "из открытых вкладок">
+<!ENTITY  locbar.openpage.accesskey     "в">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "При использовании адресной строки предлагать:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "с">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "из журнала и закладок">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.nothing.label          "не предлагать">
 
 <!ENTITY  acceptCookies.label           "Принимать куки с сайтов">
@@ -31,7 +42,7 @@
 <!ENTITY  acceptThirdParty.pre.accesskey  "н">
 <!ENTITY  acceptThirdParty.always.label   "Всегда">
 <!ENTITY  acceptThirdParty.never.label    "Никогда">
-<!ENTITY  acceptThirdParty.visited.label  "С посещённых">
+<!ENTITY  acceptThirdParty.visited.label  "Посещённых сайтов">
 
 <!ENTITY  keepUntil.label               "Сохранять куки:">
 <!ENTITY  keepUntil.accesskey           "х">

@@ -5,7 +5,6 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
-<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "Tiếp">
 <!ENTITY next.accesskey "i">
 <!ENTITY next.tooltip "Tìm cụm từ ở phần sau">
@@ -13,8 +12,9 @@
 <!ENTITY previous.accesskey "r">
 <!ENTITY previous.tooltip "Tìm cụm từ ở phần trước">
 <!ENTITY findCloseButton.tooltip "Đóng thanh Tìm kiếm">
-<!ENTITY highlight.label "Tô sáng tất cả">
-<!ENTITY highlight.accesskey "s">
-<!ENTITY highlight.tooltiptext "Tô sáng tất cả các cụm từ tìm thấy">
-<!ENTITY caseSensitiveCheckbox.label "Phân biệt HOA-thường">
-<!ENTITY caseSensitiveCheckbox.accesskey "A">
+<!ENTITY highlightAll.label "Tô sáng Tất cả">
+<!ENTITY highlightAll.accesskey "s">
+<!ENTITY highlightAll.tooltiptext "Tô sáng tất cả các lần cụm từ xuất hiện">
+<!ENTITY caseSensitive.label "Phân biệt Hoa thường">
+<!ENTITY caseSensitive.accesskey "P">
+<!ENTITY caseSensitive.tooltiptext "Phân biệt chữ hoa và chữ thường khi tìm kiếm">

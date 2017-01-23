@@ -8,8 +8,6 @@
 
 <!ENTITY securityOverride.linkText "Ou il est possible d'ajouter une exception…">
 <!ENTITY securityOverride.warningContent "
-<p>Il ne faudrait pas ajouter d'exception avec une connexion à Internet dont la sécurité n'est pas complètement certaine, ou si l'avertissement reçu pour ce serveur est inhabituel.</p>
-
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+<p>Une exception ne devrait pas être ajoutée si la connexion à Internet utilisée n'est pas totalement digne de confiance ou si ce serveur n'a pas pour habitude d'envoyer un avertissement.</p>
+<p>Au cas où l'utilisateur souhaiterait tout de même ajouter une exception pour ce site, le faire dans les paramètres avancés de chiffrement.</p>
 ">

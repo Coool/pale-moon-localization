@@ -26,7 +26,7 @@
 <!ENTITY  generalMetaName       "Název">
 <!ENTITY  generalMetaContent    "Obsah">
 <!ENTITY  generalSecurityDetails   "Podrobnosti">
-<!ENTITY  generalSecurityDetails.accesskey "P">
+<!ENTITY  generalSecurityDetails.accesskey "d">
 
 <!ENTITY  mediaTab              "Média">
 <!ENTITY  mediaTab.accesskey    "M">
@@ -39,7 +39,7 @@
 <!ENTITY  mediaCount            "Počet">
 <!ENTITY  mediaDimension        "Rozměry:">
 <!ENTITY  mediaLongdesc         "Dlouhý popis:">
-<!ENTITY  mediaBlockImage.accesskey "B">
+<!ENTITY  mediaBlockImage.accesskey "s">
 <!ENTITY  mediaSaveAs           "Uložit jako…">
 <!ENTITY  mediaSaveAs.accesskey "j">
 <!ENTITY  mediaSaveAs2.accesskey "a">
@@ -48,36 +48,37 @@
 <!ENTITY  feedTab               "Kanály">
 <!ENTITY  feedTab.accesskey     "K">
 <!ENTITY  feedSubscribe         "Odebírat">
-<!ENTITY  feedSubscribe.accesskey "O">
+<!ENTITY  feedSubscribe.accesskey "r">
 
-<!ENTITY  permTab               "Povolení">
-<!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "Použít výchozí">
-<!ENTITY  permAskAlways         "Vždy se dotázat">
-<!ENTITY  permAllow             "Povolit">
-<!ENTITY  permAllowSession      "Povolit pro relaci">
-<!ENTITY  permBlock             "Blokovat">
-<!ENTITY  permissionsFor        "Povolení pro server:">
-<!ENTITY  permImage             "Načítat obrázky">
-<!ENTITY  permPopup             "Otevírat vyskakovací okna">
-<!ENTITY  permCookie            "Ukládat cookies">
-<!ENTITY  permNotifications     "Zobrazovat upozornění">
-<!ENTITY  permInstall           "Instalovat doplňky">
-<!ENTITY  permGeo               "Prozrazovat polohu">
-<!ENTITY  permPlugins           "Spouštět zásuvné moduly">
-<!ENTITY  permFullscreen        "Režim celé obrazovky">
-<!ENTITY  permPointerLock2      "Skrývat ukazatel">
+<!ENTITY  permTab                    "Povolení">
+<!ENTITY  permTab.accesskey          "P">
+<!ENTITY  permUseDefault             "Použít výchozí">
+<!ENTITY  permAskAlways              "Vždy se dotázat">
+<!ENTITY  permAllow                  "Povolit">
+<!ENTITY  permAllowSession           "Povolit pro relaci">
+<!ENTITY  permAllowFirstPartyOnly    "Blokovat třetí strany">
+<!ENTITY  permBlock                  "Blokovat">
+<!ENTITY  permissionsFor             "Povolení pro server:">
+<!ENTITY  permImage                  "Načítat obrázky">
+<!ENTITY  permPopup                  "Otevírat vyskakovací okna">
+<!ENTITY  permCookie                 "Ukládat cookies">
+<!ENTITY  permNotifications          "Zobrazovat upozornění">
+<!ENTITY  permInstall                "Instalovat doplňky">
+<!ENTITY  permGeo                    "Prozrazovat polohu">
+<!ENTITY  permPlugins                "Spouštět zásuvné moduly">
+<!ENTITY  permFullscreen             "Režim celé obrazovky">
+<!ENTITY  permPointerLock2           "Skrývat ukazatel myši">
 
 <!ENTITY  permIndexedDB              "Správa offline úložiště">
 <!ENTITY  permClearStorage           "Vymazat úložiště">
 <!ENTITY  permClearStorage.accesskey "m">
 
-<!ENTITY  securityTab           "Bezpečnost">
-<!ENTITY  securityTab.accesskey "B">
+<!ENTITY  securityTab           "Zabezpečení">
+<!ENTITY  securityTab.accesskey "b">
 <!ENTITY  securityHeader        "Bezpečnostní informace o této stránce">
 <!ENTITY  securityView.certView "Zobrazit certifikát">
 <!ENTITY  securityView.accesskey "c">
-<!ENTITY  securityView.unknown   "neznámý">
+<!ENTITY  securityView.unknown   "Neznámý">
 
 
 <!ENTITY  securityView.identity.header   "Identita webového serveru">

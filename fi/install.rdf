@@ -7,18 +7,20 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-fi@palemoon.org"
-               em:name="Finnish Language Pack"
-               em:version="26.0"
+               em:name="Finnish (FI) Language Pack"
+               em:version="27.0.0rc16"
                em:type="8"
-               em:creator="Suomennosprojekti">
-               
-    <em:contributor>mossu</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>mossu</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

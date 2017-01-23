@@ -8,37 +8,37 @@
 
 <!ENTITY accessibility.label             "Accesibilidad">
 
-<!ENTITY useCursorNavigation.label       "Siempre usar las teclas del cursor para navegar entre páginas">
+<!ENTITY useCursorNavigation.label       "Siempre usar las teclas del cursor para navegar dentro de las páginas">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchStartTyping.label         "Buscar en el texto cuando comience a escribir">
 <!ENTITY searchStartTyping.accesskey     "x">
 <!ENTITY blockAutoRefresh.label          "Alertarme cuando un sitio web intente redireccionar o recargar la página">
-<!ENTITY blockAutoRefresh.accesskey      "u">
+<!ENTITY blockAutoRefresh.accesskey      "b">
 
-<!ENTITY browsing.label                  "Navegar">
+<!ENTITY browsing.label                  "Navegación">
 
 <!ENTITY useAutoScroll.label             "Usar desplazamiento automático">
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Usar desplazamiento suave">
-<!ENTITY useSmoothScrolling.accesskey    "s">
+<!ENTITY useSmoothScrolling.accesskey    "m">
 <!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
-<!ENTITY allowHWAccel.accesskey          "h">
+<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkSpelling.label             "Revisar mi ortografía al escribir">
 <!ENTITY checkSpelling.accesskey         "t">
 
-<!ENTITY systemDefaults.label            "Configuración predeterminada del sistema">
-<!ENTITY alwaysCheckDefault.label        "Siempre verificar si &brandShortName; es el navegador predeterminado al iniciar"><!--XXX-->
-<!ENTITY alwaysCheckDefault.accesskey    "g">
-<!ENTITY setDefault.label                "Establecer &brandShortName; como navegador predeterminado">
+<!ENTITY systemDefaults.label            "Valores predeterminados del sistema">
+<!ENTITY alwaysCheckDefault.label        "Siempre verificar si &brandShortName; es el navegador web predeterminado al iniciar"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "w">
+<!ENTITY setDefault.label                "Establecer &brandShortName; como navegador web predeterminado">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&brandShortName; es tu navegador predeterminado actualmente">
+<!ENTITY isDefault.label                 "&brandShortName; es tu navegador web predeterminado actualmente">
 
 <!ENTITY dataChoicesTab.label            "Elección de datos">
 
 <!ENTITY crashReporterSection.label      "Notificador de cierres inesperados">
-<!ENTITY crashReporterDesc.label         "&brandShortName; envía informes de cierres inesperados para ayudar a que &vendorShortName; haga un navegador más seguro y estable">
+<!ENTITY crashReporterDesc.label         "&brandShortName; envía informes de cierres inesperados para ayudar a que &vendorShortName; haga un navegador web más seguro y estable">
 <!ENTITY enableCrashReporter.label       "Habilitar notificador de cierres inesperados">
-<!ENTITY enableCrashReporter.accesskey   "N">
+<!ENTITY enableCrashReporter.accesskey   "c">
 <!ENTITY crashReporterLearnMore.label    "Saber más">
 
 <!ENTITY networkTab.label                "Red">
@@ -51,7 +51,7 @@
 
 <!ENTITY httpCache.label                 "Contenido web en caché">
 
-<!ENTITY offlineStorage2.label           "Contenido web y datos de usuario sin conexión">
+<!ENTITY offlineStorage2.label           "Contenido web sin conexión y datos de usuario">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -66,7 +66,7 @@
 <!ENTITY clearCacheNow.accesskey         "h">
 <!ENTITY clearOfflineAppCacheNow.label   "Limpiar ahora">
 <!ENTITY clearOfflineAppCacheNow.accesskey "i">
-<!ENTITY overrideSmartCacheSize.label    "Ignorar administración automática de caché">
+<!ENTITY overrideSmartCacheSize.label    "Reemplazar administración automática de caché">
 <!ENTITY overrideSmartCacheSize.accesskey "o">
 
 <!ENTITY updateTab.label                 "Actualización">
@@ -94,28 +94,51 @@
 
 <!ENTITY updateOthers.label              "Actualizar automáticamente:">
 <!ENTITY enableSearchUpdate.label        "Motores de búsqueda">
-<!ENTITY enableSearchUpdate.accesskey    "M">
+<!ENTITY enableSearchUpdate.accesskey    "e">
 
-<!ENTITY offlineNotify.label             "Informarme cuando un sitio web pida guardar datos para usar sin conexión">
+<!ENTITY offlineNotify.label             "Avisarme cuando un sitio web pida almacenar datos para usar sin conexión">
 <!ENTITY offlineNotify.accesskey         "t">
 <!ENTITY offlineNotifyExceptions.label   "Excepciones…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label          "Los siguientes sitios web tienen permitido guardar datos para uso sin conexión:">
+<!ENTITY offlineAppsList2.label          "Los siguientes sitios web tienen permitido almacenar datos para uso sin conexión:">
 <!ENTITY offlineAppsList.height          "7em">
 <!ENTITY offlineAppsListRemove.label     "Quitar…">
 <!ENTITY offlineAppsListRemove.accesskey "r">
 <!ENTITY offlineAppRemove.confirm        "Quitar datos sin conexión">
 
 <!ENTITY certificateTab.label            "Certificados">
+<!ENTITY certGroup.label                 "Certificado personal">
 <!ENTITY certSelection.description       "Cuando un servidor requiera mi certificado personal:">
 <!ENTITY certs.auto                      "Seleccionar uno automáticamente">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "Preguntarme cada vez">
 <!ENTITY certs.ask.accesskey             "P">
+<!ENTITY ocspGroup.label                 "Validación de certificado">
+<!ENTITY enableOCSP.label                "Usar Online Certificate Status Protocol (OCSP) para confirmar la validez actual de los certificados">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "Cuando falle la conexión a un servidor OCSP, tratar el certificado como no válido">
+<!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "Ver certificados">
 <!ENTITY viewCerts.accesskey             "s">
-<!ENTITY verify2.label                   "Validación">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguridad">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY UACompatGroup.label    "Compatibilidad">
+<!ENTITY UACompat.label         "Modo de agente de usuario:">
+<!ENTITY UACompat.Native        "Nativo">
+<!ENTITY UACompat.Gecko         "Compatibilidad con Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilidad con Firefox">
+
+<!ENTITY scrollparamTab.label               "Desplazamiento">
+<!ENTITY smoothscroll.explain.label         "Los parámetros de abajo sólo surtirán efecto si el desplazamiento suave está habilitado con la casilla de arriba.">
+<!ENTITY smoothscroll.to                    "a">
+<!ENTITY smoothscroll.params.label          "Parámetros de desplazamiento suave">
+<!ENTITY smoothscroll.mousewheel.label      "Desplazamiento suave con la rueda del mouse">
+<!ENTITY smoothscroll.mousewheel.duration   "Duración del desplazamiento suave con la rueda del mouse:">
+<!ENTITY smoothscroll.arrowkeys.label       "Desplazamiento suave con las teclas de flechas">
+<!ENTITY smoothscroll.arrowkeys.duration    "Duración del desplazamiento con las teclas de flechas:">
+<!ENTITY smoothscroll.pagekeys.label        "Desplazamiento suave con RePág/AvPág">
+<!ENTITY smoothscroll.pagekeys.duration     "Duración del desplazamiento con RePág/AvPág:">
+<!ENTITY smoothscroll.scrollbar.label       "Desplazamiento suave con las barras de desplazamiento">
+<!ENTITY smoothscroll.scrollbar.duration    "Duración del desplazamiento suave con la barra de desplazamiento:">

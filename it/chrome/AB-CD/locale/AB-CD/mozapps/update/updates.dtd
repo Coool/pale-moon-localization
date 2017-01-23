@@ -1,10 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Aggiornamento di &brandShortName;">
+<!ENTITY  updateWizard.title              "Aggiornamento software">
 
 <!ENTITY  checking.title                  "Controllo aggiornamenti">
-<!ENTITY  updateCheck.label               "Controlla aggiornamenti ma permetti all'utente di scegliere se installarli">
+<!ENTITY  updateCheck.label               "Ricerca di nuove versioni di &brandShortName; in corso…">
 
 <!ENTITY  pluginupdatesfound.title        "Rilevati aggiornamenti per i plugin">
 <!ENTITY  pluginupdatesfound.label        "Sono disponibili una o più versioni aggiornate dei plugin in uso.">
@@ -45,9 +45,7 @@
 <!ENTITY  downloadPage.title              "Download di &brandShortName; in corso">
 <!ENTITY  downloading.intro               "Download degli aggiornamenti…">
 <!ENTITY  connecting.label                "Connessione al server degli aggiornamenti…">
-<!ENTITY  verificationFailedText.label    "&brandShortName; non può verificare l'integrità dell'aggiornamento 
-                                            incrementale scaricato, perciò verrà scaricato il pacchetto di
-                                            aggiornamento completo.">
+<!ENTITY  verificationFailedText.label    "Non è possibile verificare l’integrità dell’aggiornamento incrementale scaricato. Per questo motivo verrà scaricato il pacchetto di aggiornamento completo.">
 
 <!ENTITY  viewDetails.tooltip             "Visualizza i dettagli di questo aggiornamento">
 
@@ -59,8 +57,7 @@
                                            
 <!ENTITY  errorManual.label               "È possibile aggiornare &brandShortName; manualmente visitando il seguente link e scaricando l'ultima versione:">
                                            
-<!ENTITY  errorpatching.intro             "L'aggiornamento parziale non può essere applicato. 
-                                           &brandShortName; ritenterà nuovamente scaricando un aggiornamento completo.">
+<!ENTITY  errorpatching.intro             "Non è possibile installare l’aggiornamento parziale. Verrà effettuato un nuovo tentativo scaricando l’aggiornamento completo.">
 
 <!ENTITY  genericBackgroundError.label    "Non è possibile controllare la disponibilità di aggiornamenti. Verificare di avere installato l'ultima versione disponibile di &brandShortName; visitando:">
 <!ENTITY  errorCertAttrNoUpdate2.label    "Non è possibile procedere con l'aggiornamento di &brandShortName; in modalità sicura. Verificare di avere installato l'ultima versione disponibile di &brandShortName; visitando:">

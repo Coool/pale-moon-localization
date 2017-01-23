@@ -1,0 +1,103 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY index.title "应用管理器">
+<!ENTITY index.projects2 "应用程序">
+<!ENTITY index.device2 "设备">
+<!ENTITY index.help "帮助">
+
+<!ENTITY device.debugMainProcess "调试主要进程">
+<!ENTITY device.debugMainProcessTooltip "打开设备上连接到主进程的开发者工具">
+<!ENTITY device.screenshot "截屏">
+<!ENTITY device.screenshotTooltip "在新标签页中打开一个设备当前状态的截图">
+<!ENTITY device.title "设备控制中心">
+<!ENTITY device.notConnected "未连接。请在下面连接您的设备。">
+<!ENTITY device.startApp "开始">
+<!ENTITY device.startAppTooltip "在设备上启动此应用程序">
+<!ENTITY device.stopApp "停止">
+<!ENTITY device.stopAppTooltip "在设备上停止此应用程序">
+<!ENTITY device.debugApp "调试">
+<!ENTITY device.debugAppTooltip "打开设备上连接到本应用的开发者工具">
+<!ENTITY device.name "名称">
+<!ENTITY device.plain "普通（默认值）">
+<!ENTITY device.privileged "已授权">
+<!ENTITY device.certified "已认证">
+<!ENTITY device.allow "允许">
+<!ENTITY device.allowTooltip "此权限被此种类型应用所允许">
+<!ENTITY device.prompt "提示">
+<!ENTITY device.promptTooltip "此权限需要此种应用给用户提示">
+<!ENTITY device.deny "拒绝">
+<!ENTITY device.denyTooltip "此权限被此种类型应用所禁止">
+<!ENTITY device.installedApps "安装的应用程序">
+<!ENTITY device.installedAppsTooltip "查看设备上的已安装应用列表。某些应用，例如经过认证的应用，可能会被排除掉。">
+<!ENTITY device.permissions "权限">
+<!ENTITY device.permissionsTooltip "查看不同类型应用的访问权限表">
+<!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
+<!ENTITY device.browserTabs "浏览器标签">
+<!ENTITY device.browserTabsTooltip "查看已连接设备上浏览器的标签页列表">
+<!ENTITY device.debugBrowserTab "调试">
+<!ENTITY device.debugBrowserTabTooltip "打开设备上连接到本浏览器标签页的开发者工具">
+<!ENTITY device.help "帮助">
+
+<!ENTITY connection.connectTooltip "连接到设备">
+<!ENTITY connection.disconnect "断开连接">
+<!ENTITY connection.disconnectTooltip "从当前设备或模拟器断开连接">
+<!ENTITY connection.notConnected2 "未连接">
+<!ENTITY connection.connectTo "连接到:">
+<!ENTITY connection.noDeviceFound "未找到任何设备。请接入设备">
+<!ENTITY connection.changeHostAndPort "变更">
+<!ENTITY connection.changeHostAndPortTooltip "更改用于连接到设备的主机和端口 (默认为 localhost:6000)">
+<!ENTITY connection.startSimulator "启动模拟器">
+<!ENTITY connection.startSimulatorTooltip "启动并连接一个模拟器实例">
+<!ENTITY connection.saveConnectionInfo "保存">
+<!ENTITY connection.saveConnectionInfoTooltip "保存主机和端口">
+<!ENTITY connection.connecting "正在连接...">
+<!ENTITY connection.disconnecting "正在断开连接...">
+<!ENTITY connection.cancel "取消">
+<!ENTITY connection.cancelConnectTooltip "取消正在进行的连接">
+<!ENTITY connection.cancelShowSimulatorTooltip "退出模拟器连接模式并返回到初始提示">
+<!ENTITY connection.or "或者">
+<!ENTITY connection.noSimulatorInstalled "没有安装模拟器">
+<!ENTITY connection.installOneSimulator "安装模拟器">
+<!ENTITY connection.installOneSimulatorTooltip "通过下载有关附加程序安装某一版本的模拟器">
+<!ENTITY connection.installAnotherSimulator "添加">
+<!ENTITY connection.installAnotherSimulatorTooltip "通过下载有关附加程序安装额外版本的模拟器">
+<!ENTITY connection.startRegisteredSimulator "开始：">
+
+<!ENTITY projects.localApps "本地应用程序">
+<!ENTITY projects.addApp "添加">
+<!ENTITY projects.addPackaged "添加封装的应用">
+<!ENTITY projects.addPackagedTooltip "从您的电脑中添加一个封装的应用（目录）">
+<!ENTITY projects.addHosted "添加托管的应用">
+<!ENTITY projects.addHostedTooltip "从远程网站中添加一个托管的应用（链接到一个 manifest.webapp 文件）">
+<!ENTITY projects.title "本地应用程序">
+<!ENTITY projects.appDetails "应用详情">
+<!ENTITY projects.removeAppFromList "从您正在操作的应用列表中删除这个应用。这不会从设备或模拟器上删除它。">
+<!ENTITY projects.updateApp "更新">
+<!ENTITY projects.updateAppTooltip "在已连接设备上执行有效性检查并更新应用">
+<!ENTITY projects.debugApp "调试">
+<!ENTITY projects.debugAppTooltip "打开已连接到此应用程序的开发人员工具">
+<!ENTITY projects.saveManifest "保存">
+<!ENTITY projects.saveManifestTooltip "在下面保存清单编辑器中的内容">
+<!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
+<!ENTITY projects.noProjects "没有项目。您可以在下面添加一个新的已打包应用程序 (本地目录) 或者已托管的应用程序 (到清单文件的链接)。">
+<!ENTITY projects.manifestEditor "清单编辑器">
+<!ENTITY projects.manifestEditorTooltip "在下方的面板中编辑您的应用程序清单。“更新”按钮将会保存您的更改并更新应用程序。">
+<!ENTITY projects.manifestViewer "清单查看器">
+<!ENTITY projects.manifestViewerTooltip "在下方的面板中检查您的应用程序清单">
+<!ENTITY projects.valid "有效">
+<!ENTITY projects.error "错误">
+<!ENTITY projects.warning "警告">
+<!ENTITY projects.hosted "已托管">
+<!ENTITY projects.packaged "已打包">
+
+<!ENTITY help.title "应用管理器">
+<!ENTITY help.close "关闭">
+<!ENTITY help.intro "此工具将会帮助您构建并安装网页应用程序到兼容的设备 (比如 Firefox OS) 上。<strong>应用程序</strong> 标签页将会辅助您检查并安装您的应用。<strong>设备</strong> 标签页将会显示连接设备的状态。底部工具栏用于连接到设备或者启动模拟器。">
+<!ENTITY help.usefullLinks "有用的链接:">
+<!ENTITY help.appMgrDoc "帮助文档: 如何使用应用管理器">
+<!ENTITY help.configuringDevice "如何设置你的 Firefox OS 设备">
+<!ENTITY help.troubleShooting "疑难解答">
+<!ENTITY help.simulatorAddon "安装模拟器插件">
+<!ENTITY help.adbHelperAddon "安装 Adb 辅助插件">

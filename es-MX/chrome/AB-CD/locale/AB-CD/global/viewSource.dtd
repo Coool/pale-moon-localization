@@ -14,19 +14,19 @@
 
 <!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "A">
-<!ENTITY savePageCmd.label "Guardar como…">
+<!ENTITY savePageCmd.label "Guardar página como…">
 <!ENTITY savePageCmd.accesskey "G">
-<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Configurar página…">
-<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY pageSetupCmd.accesskey "p">
 <!ENTITY printPreviewCmd.label "Vista preliminar">
-<!ENTITY printPreviewCmd.accesskey "l">
+<!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printCmd.accesskey "I">
-<!ENTITY printCmd.commandkey "p">
+<!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Cerrar">
 <!ENTITY closeCmd.accesskey "C">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -46,40 +46,41 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goToLineCmd.accesskey "I">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "Ver">
+<!ENTITY viewMenu.label           "Vista">
 <!ENTITY viewMenu.accesskey       "V">
 <!ENTITY reloadCmd.label "Recargar">
 <!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
 <!ENTITY menu_wrapLongLines.title "Ajustar líneas largas"> 
-<!ENTITY menu_wrapLongLines.accesskey "j">
+<!ENTITY menu_wrapLongLines.accesskey "A">
 <!ENTITY menu_highlightSyntax.label "Resaltar sintaxis">
-<!ENTITY menu_highlightSyntax.accesskey "R">
+<!ENTITY menu_highlightSyntax.accesskey "s">
 <!ENTITY menu_textSize.label "Tamaño del texto">
 <!ENTITY menu_textSize.accesskey "T">
 <!ENTITY menu_textEnlarge.label "Aumentar">
 <!ENTITY menu_textEnlarge.accesskey "A">
 <!ENTITY menu_textReduce.label "Reducir">
-<!ENTITY menu_textReduce.accesskey "d">
+<!ENTITY menu_textReduce.accesskey "R">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
 <!ENTITY findOnCmd.label     "Buscar en esta página…">
 <!ENTITY findOnCmd.accesskey "B">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Repetir la búsqueda">
+<!ENTITY findAgainCmd.label  "Repetir búsqueda">
 <!ENTITY findAgainCmd.accesskey "q">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Anterior">
+<!ENTITY backCmd.label "Atrás">
 <!ENTITY backCmd.accesskey "A">
-<!ENTITY forwardCmd.label "Siguiente">
-<!ENTITY forwardCmd.accesskey "S">
+<!ENTITY forwardCmd.label "Adelante">
+<!ENTITY forwardCmd.accesskey "d">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
 <!ENTITY copyLinkCmd.label "Copiar dirección del enlace">
-<!ENTITY copyLinkCmd.accesskey "a">
-<!ENTITY copyEmailCmd.label "Copiar esta dirección de correo electrónico">
-<!ENTITY copyEmailCmd.accesskey "e">
+<!ENTITY copyLinkCmd.accesskey "e">
+<!ENTITY copyEmailCmd.label "Copiar dirección de correo electrónico">
+<!ENTITY copyEmailCmd.accesskey "d">

@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "Ауторитети">
 <!ENTITY certmgr.tab.orphan2                  "Остали">
 
-<!ENTITY certmgr.ca.builtins                  "Уграђена ПС-а">
-<!ENTITY certmgr.ca.mycas                     "Кориснички одређене ПС">
-
 <!ENTITY certmgr.mine                         "Имате сертификате наведених организација које Вас препознају:">
 <!ENTITY certmgr.others                       "Имате сертификате који идентификују ове особе:">
 <!ENTITY certmgr.websites2                    "Имате сертификате који идентификују ове сервере:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "Провера сертификата је у току…">
 <!ENTITY certmgr.subjectinfo.label            "Издато за">
 <!ENTITY certmgr.issuerinfo.label             "Издато од">
-<!ENTITY certmgr.validity.label               "Стваран" >
+<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
 <!ENTITY certmgr.fingerprints.label           "Отисак прста">
 <!ENTITY certmgr.certdetail.title             "Детаљи сертификата">
 <!ENTITY certmgr.certdetail.cn                "Општи назив">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 отисак">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 отисак прста">
 
-<!ENTITY certmgr.editcert.title               "Измени поставке безбедносних сертификата:">
 <!ENTITY certmgr.editcacert.title             "Мења подешавање поверења ПС">
-<!ENTITY certmgr.editsslcert.title            "Уређивање подешавања сертификата о поверењу">
 <!ENTITY certmgr.editcert.edittrust           "Измени поставке поверења:">
 <!ENTITY certmgr.editcert.trustssl            "Овај сертификат може да идентификује веб сајтове.">
 <!ENTITY certmgr.editcert.trustemail          "Овај сертификат може да идентификује кориснике ел. поште.">
 <!ENTITY certmgr.editcert.trustobjsign        "Овај сертификат може да идентификује произвођаче софтвера.">
-<!ENTITY certmgr.editsslcert.edittrust        "Параметри веровања сертификатима:">
-<!ENTITY certmgr.editsslcert.dotrust          "Веруј веродостојности овог сертификата.">
-<!ENTITY certmgr.editsslcert.donttrust        "Не веруј веродостојности овог сертификата.">
 <!ENTITY certmgr.editemailcert.title          "Уређивање поверења у сертификате за ел. пошту">
 <!ENTITY certmgr.editemailcert.edittrust      "Параметри веровања сертификатима:">
 <!ENTITY certmgr.editemailcert.dotrust        "Веруј веродостојности овог сертификата.">
 <!ENTITY certmgr.editemailcert.donttrust      "Не веруј веродостојности овог сертификата.">
 
 <!ENTITY certmgr.deletecert.title             "Избриши сертификат">
-<!ENTITY certmgr.deletecert.beforename        "Захтевали сте уклањање овог сертификата:">
-<!ENTITY certmgr.deletecert.aftername         "Да ли сигурно желите да уклоните овај сертификат?">
-<!ENTITY certmgr.deleteusercert.title         "Избриши Ваш сертификат">
-<!ENTITY certmgr.deleteusercert.beforename    "Захтевали сте уклањање сертификата:">
-<!ENTITY certmgr.deleteusercert.aftername     "Када једном уклоните овај сертификат, нећете моћи да читате пошту која је шифрована помоћу њега.">
 
 <!ENTITY certmgr.certname                     "Назив сертификата">
 <!ENTITY certmgr.certserver                   "Сервер">
 <!ENTITY certmgr.override_lifetime            "Животни век">
 <!ENTITY certmgr.tokenname                    "Безбедносни уређај">
-<!ENTITY certmgr.issued                       "Издато">
+<!ENTITY certmgr.begins                       "Begins On">
 <!ENTITY certmgr.expires                      "Истиче">
 <!ENTITY certmgr.email                        "Е-адреса">
 <!ENTITY certmgr.serial                       "Серијски број">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "У">
 <!ENTITY certmgr.editca.label                 "Уреди поверење">
 <!ENTITY certmgr.editca.accesskey             "У">
-<!ENTITY certmgr.add.label                    "Додај">
-<!ENTITY certmgr.add.accesskey                "Д">
 <!ENTITY certmgr.export.label                 "Извоз календара…">
 <!ENTITY certmgr.export.accesskey             "И">
 <!ENTITY certmgr.delete2.label                "Уклони…">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "Вредност поља">
 <!ENTITY certmgr.fields.accesskey             "В">
 <!ENTITY certmgr.hierarchy.label              "Хијерархија сертификата">
-<!ENTITY certmgr.hierarchy.accesskey          "Х">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "Додај изузетак…">
 <!ENTITY certmgr.addException.accesskey       "Д">
 

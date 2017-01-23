@@ -7,9 +7,8 @@
 <!ENTITY setPassword.tokenName.label "Dispositivo di sicurezza">
 <!ENTITY setPassword.oldPassword.label "Password attuale:">
 <!ENTITY setPassword.newPassword.label "Nuova password:">
-<!ENTITY setPassword.reenterPassword.label "Conferma nuova password:">
+<!ENTITY setPassword.reenterPassword.label "Nuova password (conferma):">
 <!ENTITY setPassword.meter.label "Indicatore qualità password">
-<!ENTITY setPassword.meter.loading "Caricamento">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Rimuovi">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "Dispositivo di sicurezza:">
 <!ENTITY getPassword.password.label "Password:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "Errore">
-<!ENTITY pipalert.title "Errore non recuperabile">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "Sicurezza">
-<!ENTITY pref.security.general.rHeader "Impostazioni generali di sicurezza">
-<!ENTITY pref.security.general.header "Impostazioni generali di sicurezza">
-<!ENTITY pref.security.general.level.title "Livello di sicurezza">
-<!ENTITY pref.security.general.paranoid.label "Utilizza impostazioni di sicurezza restrittive">
-<!ENTITY pref.security.general.certificates.title "Certificati">
-<!ENTITY pref.security.general.manageCert.label "Gestione certificati">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Download certificato">
 <!ENTITY downloadCert.message1 "È stato richiesto di dare fiducia a una nuova autorità di certificazione (CA).">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "Dai fiducia a questa CA per l'identificazione di produttori software.">
 <!ENTITY downloadCert.message3 "Prima di dare fiducia a questa CA per un qualsiasi scopo, è consigliabile esaminare il suo certificato, le politiche e procedure da essa adottate (se disponibili).">
 <!ENTITY downloadCert.viewCert.label "Visualizza">
-<!ENTITY downloadCert.viewPolicy.label "Politiche">
 <!ENTITY downloadCert.viewCert.text "Esamina certificato CA">
-<!ENTITY downloadCert.viewPolicy.text "Esamina politiche e procedure CA">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Richiesta identificazione utente">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "Password copia di backup del certificato (conferma):">
 <!ENTITY pkcs12.setpassword.reminder "Importante: se si dovesse scordare la password della copia di backup, non sarà possibile recuperare successivamente il contenuto. Si consiglia di conservare la password in un luogo sicuro.">
 
-<!ENTITY pkcs12.getpassword.title  "Inserimento password">
-<!ENTITY pkcs12.getpassword.message "Inserire la password utilizzata per la copia di backup di questo certificato.">
-
 <!ENTITY chooseToken.title  "Scelta token">
 <!ENTITY chooseToken.message1 "Selezionare un token.">
 
@@ -74,23 +55,14 @@
 <!ENTITY escrowWarn.benefit1 "Il vantaggio è che se non si riuscisse più ad accedere alla chiave privata di cifratura, è possibile richiederne una copia a questa autorità di certificazione.">
 <!ENTITY escrowWarn.message2 "In ogni caso, la chiave privata di cifratura verrà archiviata dall'autorità di certificazione, e potrebbe essere utilizzata per leggere la posta cifrata senza permesso.">
 <!ENTITY examineCert.label "Visualizza certificato">
-<!ENTITY examineCert.accesskey "E">
+<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Genera una chiave privata">
 <!ENTITY createCertInfo.msg1 "Generazione chiave in corso… L'elaborazione potrebbe richiedere alcuni minuti.">
 <!ENTITY createCertInfo.msg2 "Attendere…">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "Richiesta cifratura di un testo">
-<!ENTITY formSigning.cert "Certificato di firma">
-<!ENTITY formSigning.confirmPassword "Per accettare di firmare questo messaggio di testo con il certificato selezionato inserire la password principale:">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Autenticazione token protetta">
 <!ENTITY protectedAuth.msg "Autenticarsi con il token. Il metodo di autenticazione dipende dal tipo di token in uso.">
 <!ENTITY protectedAuth.tokenName.label "Token:">
-
-<!ENTITY certErrorDlg.title "Connessione sicura non riuscita">
-<!ENTITY certErrorDlg.info1 "Potrebbe trattarsi di un problema nella configurazione del server oppure di un tentativo da parte di qualcuno di sostituirsi al server stesso.">
-<!ENTITY certErrorDlg.info2 "Se è stato possibile connettersi a questo server in passato, il problema potrebbe essere solo temporaneo. Si consiglia di riprovare in seguito.">

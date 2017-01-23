@@ -5,7 +5,6 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
-<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "下一筆">
 <!ENTITY next.accesskey "N">
 <!ENTITY next.tooltip "尋找文字下次出現的位置">
@@ -13,8 +12,9 @@
 <!ENTITY previous.accesskey "P">
 <!ENTITY previous.tooltip "尋找文字前次出現的位置">
 <!ENTITY findCloseButton.tooltip "關閉文字尋找列">
-<!ENTITY highlight.label "全部強調標示">
-<!ENTITY highlight.accesskey "a">
-<!ENTITY highlight.tooltiptext "強調出全部字串出現的位置">
-<!ENTITY caseSensitiveCheckbox.label "區分大小寫">
-<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY highlightAll.label "Highlight All">
+<!ENTITY highlightAll.accesskey "a">
+<!ENTITY highlightAll.tooltiptext "Highlight all occurrences of the phrase">
+<!ENTITY caseSensitive.label "Match Case">
+<!ENTITY caseSensitive.accesskey "c">
+<!ENTITY caseSensitive.tooltiptext "Search with case sensitivity">

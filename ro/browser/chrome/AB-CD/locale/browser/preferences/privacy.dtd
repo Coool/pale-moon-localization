@@ -16,13 +16,24 @@
 
 <!ENTITY  locationBar.label             "Bara adresei">
 
-<!ENTITY  locbar.pre.label              "Când se folosește bara adresei, sugerează:">
-<!ENTITY  locbar.pre.accessKey          "r">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "Istoric și semne de carte">
+<!ENTITY  locbar.suggest.label          "Când se folosește bara de adresă, sugerează:">
 <!ENTITY  locbar.history.label          "Istoric">
+<!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Semne de carte">
-<!ENTITY  locbar.nothing.label          "Nimic">
+<!ENTITY  locbar.bookmarks.accesskey    "k">
+<!ENTITY  locbar.openpage.label         "Deschide file">
+<!ENTITY  locbar.openpage.accesskey     "O">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "When using the location bar, suggest:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "u">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "History and Bookmarks">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.nothing.label          "Nothing">
 
 <!ENTITY  acceptCookies.label           "Acceptă cookie-uri de la saituri">
 <!ENTITY  acceptCookies.accesskey       "A">

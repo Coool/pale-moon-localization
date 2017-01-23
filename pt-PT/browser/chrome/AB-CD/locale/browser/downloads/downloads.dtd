@@ -5,7 +5,7 @@
 <!-- LOCALIZATION NOTE (downloads.title):
      Used by screen readers to describe the Downloads Panel.
      -->
-<!ENTITY downloads.title                  "Transferências">
+<!ENTITY downloads.title                  "Descargas">
 
 <!-- LOCALIZATION NOTE (downloadDetails.width):
      Width of details for a Downloads Panel item (which directly influences the
@@ -42,7 +42,7 @@
 
 <!ENTITY cmd.pause.label                  "Pausa">
 <!ENTITY cmd.pause.accesskey              "P">
-<!ENTITY cmd.resume.label                 "Resumir">
+<!ENTITY cmd.resume.label                 "Retomar">
 <!ENTITY cmd.resume.accesskey             "R">
 <!ENTITY cmd.cancel.label                 "Cancelar">
 <!ENTITY cmd.cancel.accesskey             "C">
@@ -55,37 +55,42 @@
 <!ENTITY cmd.show.accesskey               "p">
 <!ENTITY cmd.showMac.label                "Mostrar no Finder">
 <!ENTITY cmd.showMac.accesskey            "F">
-<!ENTITY cmd.retry.label                  "Voltar a tentar">
-<!ENTITY cmd.goToDownloadPage.label       "Ir para a página de transferências">
+<!ENTITY cmd.retry.label                  "Tentar de novo">
+<!ENTITY cmd.goToDownloadPage.label       "Ir para a página de descargas">
 <!ENTITY cmd.goToDownloadPage.accesskey   "I">
-<!ENTITY cmd.copyDownloadLink.label       "Copiar ligação da transferência">
+<!ENTITY cmd.copyDownloadLink.label       "Copiar ligação da descarga">
 <!ENTITY cmd.copyDownloadLink.accesskey   "l">
 <!ENTITY cmd.removeFromHistory.label      "Remover do histórico">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
 <!ENTITY cmd.clearList.label              "Limpar lista">
 <!ENTITY cmd.clearList.accesskey          "a">
-<!ENTITY cmd.clearDownloads.label         "Limpar transferências">
-<!ENTITY cmd.clearDownloads.accesskey     "m">
+<!ENTITY cmd.clearDownloads.label         "Limpar descargas">
+<!ENTITY cmd.clearDownloads.accesskey     "d">
 
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
      This string is shown at the bottom of the Downloads Panel when all the
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-<!ENTITY downloadsHistory.label           "Mostrar todas as transferências">
+<!ENTITY downloadsHistory.label           "Mostrar todas as descargas">
 <!ENTITY downloadsHistory.accesskey       "s">
 
-<!ENTITY clearDownloadsButton.label       "Limpar transferências">
-<!ENTITY clearDownloadsButton.tooltip     "limpa as transferências concluídas, canceladas e falhadas">
+<!ENTITY clearDownloadsButton.label       "Limpar descargas">
+<!ENTITY clearDownloadsButton.tooltip     "Remove da lista as descargas terminadas, canceladas e falhadas">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
      This string is shown when there are no items in the Downloads view, when it
      is displayed inside a browser tab.
      -->
-<!ENTITY downloadsListEmpty.label         "Não existem transferências.">
+<!ENTITY downloadsListEmpty.label         "Não existem descargas.">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "Nenhuma descarga nesta sessão.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no
      results in the Downloads view.
      -->
-<!ENTITY downloadsListNoMatch.label       "Não foi possível encontrar transferências correspondentes.">
+<!ENTITY downloadsListNoMatch.label       "Não foi possível encontrar descargas coincidentes.">

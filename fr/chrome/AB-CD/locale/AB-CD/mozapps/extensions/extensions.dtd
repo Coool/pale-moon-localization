@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Gestionnaire de modules complémentaires">
 
 <!ENTITY search.placeholder                   "Rechercher dans tous les modules">
+<!ENTITY search.buttonlabel                   "Rechercher">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -38,8 +39,8 @@
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Rechercher">
 <!ENTITY view.discover.label                  "Catalogue">
-<!ENTITY view.recentUpdates.label             "Mis à jour">
-<!ENTITY view.availableUpdates.label          "À mettre à jour">
+<!ENTITY view.recentUpdates.label             "Mises à jour récentes">
+<!ENTITY view.availableUpdates.label          "Mises à jour disponibles">
 
 <!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label        "Rechercher des mises à jour">
@@ -99,12 +100,13 @@
 <!ENTITY cmd.stateMenu.tooltip                "Choisir quand utiliser ce module complémentaire">
 <!ENTITY cmd.installAddon.label               "Installer">
 <!ENTITY cmd.installAddon.accesskey           "I">
-<!ENTITY cmd.uninstallAddon.label             "Supprimer">
-<!ENTITY cmd.uninstallAddon.accesskey         "S">
+<!ENTITY cmd.uninstallAddon.label             "Retirer">
+<!ENTITY cmd.uninstallAddon.accesskey         "R">
+<!ENTITY cmd.debugAddon.label                 "Déboguer">
 <!ENTITY cmd.showPreferencesWin.label         "Options">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Modifier les options de ce module complémentaire">
 <!ENTITY cmd.showPreferencesUnix.label        "Préférences">
-<!ENTITY cmd.showPreferencesUnix.tooltip      "Modifier les préférences de ce module complémentaire">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "Modifier les préférences de ce module">
 <!ENTITY cmd.contribute.label                 "Contribuer">
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "Contribuer au développement de ce module complémentaire">
@@ -136,9 +138,9 @@ selon les goûts, etc.">
 <!ENTITY detail.updateType                    "Mises à jour automatiques">
 <!ENTITY detail.updateDefault.label           "Par défaut">
 <!ENTITY detail.updateDefault.tooltip         "N'installer les mises à jour automatiquement que s'il s'agit du réglage par défaut">
-<!ENTITY detail.updateAutomatic.label         "Oui">
+<!ENTITY detail.updateAutomatic.label         "Activées">
 <!ENTITY detail.updateAutomatic.tooltip       "Installer automatiquement les mises à jour">
-<!ENTITY detail.updateManual.label            "Non">
+<!ENTITY detail.updateManual.label            "Désactivées">
 <!ENTITY detail.updateManual.tooltip          "Ne pas installer automatiquement les mises à jour">
 <!ENTITY detail.home                          "Page d'accueil">
 <!ENTITY detail.repository                    "Profil du module">
@@ -156,7 +158,7 @@ selon les goûts, etc.">
 
 
 <!-- ratings -->
-<!ENTITY rating2.label                        "Notation">
+<!ENTITY rating2.label                        "Appréciation">
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Pause">
@@ -208,11 +210,27 @@ selon les goûts, etc.">
 <!ENTITY addon.loadingReleaseNotes.label      "Chargement…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Une erreur s'est produite lors du chargement des notes de version.">
 
+<!ENTITY addon.nativeAddon                    "Ce module cible directement Pale Moon">
+<!ENTITY addon.compatAddon                    "Ce module cible Mozilla Firefox et s’exécute en mode de compatibilité">
+
 <!ENTITY addon.createdBy.label                "Par ">
 
-<!ENTITY eula.title                           "Accord de licence utilisateur final">
+<!ENTITY eula.title                           "Accord de licence de l'utilisateur final">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
 <!ENTITY eula.accept                          "Accepter et installer…">
 
 <!ENTITY settings.path.button.label           "Parcourir…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "Qu'est-ce que ceci ? La télémétrie peut installer et lancer des expérimentations de temps en temps.">
+<!ENTITY experiment.info.learnmore "En savoir plus">
+<!ENTITY experiment.info.learnmore.accesskey "E">
+<!ENTITY experiment.info.changetelemetry "Paramètres de la télémétrie">
+<!ENTITY experiment.info.changetelemetry.accesskey "P">
+
+<!ENTITY setting.learnmore "En savoir plus…">

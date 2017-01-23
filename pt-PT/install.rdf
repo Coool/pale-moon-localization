@@ -7,27 +7,32 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-pt-PT@palemoon.org"
-               em:name="Português Portugal Language Pack"
-               em:version="26.0"
+               em:name="Portuguese (PT) Language Pack"
+               em:version="27.0.0rc17"
                em:type="8"
-               em:creator="Projecto de localização do Mozilla para Português / Tribaljet">
-    <em:contributor>Artur Araújo</em:contributor>
-    <em:contributor>Bruno Duarte</em:contributor>
-    <em:contributor>Carlos Rodrigues</em:contributor>
-    <em:contributor>Cláudio Esperança</em:contributor>
-    <em:contributor>Diogo Santos</em:contributor>
-    <em:contributor>Francisco Castanheiro</em:contributor>
-    <em:contributor>João Miguel Neves</em:contributor>
-    <em:contributor>Marco Sousa</em:contributor>
-    <em:contributor>Pedro Antunes</em:contributor>
-    <em:contributor>Pedro Figueira</em:contributor>
-    <em:contributor>Rita Farinha</em:contributor>
-    <em:contributor>Tribaljet</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>Sérgio Marques</em:translator>
+    <em:translator>Artur Araújo</em:translator>
+    <em:translator>Bruno Duarte</em:translator>
+    <em:translator>Carlos Rodrigues</em:translator>
+    <em:translator>Cláudio Esperança</em:translator>
+    <em:translator>Diogo Santos</em:translator>
+    <em:translator>Francisco Castanheiro</em:translator>
+    <em:translator>João Miguel Neves</em:translator>
+    <em:translator>Marco Sousa</em:translator>
+    <em:translator>Pedro Antunes</em:translator>
+    <em:translator>Pedro Figueira</em:translator>
+    <em:translator>Rita Farinha</em:translator>
+    <em:translator>Tribaljet</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
+
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

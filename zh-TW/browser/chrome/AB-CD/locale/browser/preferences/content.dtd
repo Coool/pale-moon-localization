@@ -7,6 +7,11 @@
 <!ENTITY  popupExceptions.label       "例外網站…">
 <!ENTITY  popupExceptions.accesskey   "E">
 
+<!ENTITY  loadImages.label            "載入圖片">
+<!ENTITY  loadImages.always           "自動">
+<!ENTITY  loadImages.never            "永不">
+<!ENTITY  loadImages.no3rdparty       "僅在來源伺服器">
+
 <!ENTITY  fontsAndColors.label        "字型與顏色">
 
 <!ENTITY  defaultFont.label           "預設字型:">
@@ -20,8 +25,17 @@
 <!ENTITY  colors.label                "顏色…">
 <!ENTITY  colors.accesskey            "C">
 
+<!ENTITY  languages.label             "語言">
+<!ENTITY  chooseLanguage.label        "請選擇瀏覽支援多國語言的網頁時要優先顯示哪種語言">
+<!ENTITY  chooseButton.label          "選擇…">
+<!ENTITY  chooseButton.accesskey      "o">
 
-<!ENTITY languages.label              "語言">
-<!ENTITY chooseLanguage.label         "請選擇瀏覽支援多國語言的網頁時要優先顯示哪種語言">
-<!ENTITY chooseButton.label           "選擇…">
-<!ENTITY chooseButton.accesskey       "o">
+<!ENTITY  video.label                 "視訊">
+<!ENTITY  videoMSE.label              "啟用媒體源延伸串流格式 (MSE)">
+<!ENTITY  videoMSE.accesskey          "M">
+<!ENTITY  videoMSEMP4.label           "為MP4影片啟用MSE">
+<!ENTITY  videoMSEMP4.accesskey       "4">
+<!ENTITY  videoMSEWebM.label          "為WebM影片啟用MSE">
+<!ENTITY  videoMSEWebM.accesskey      "W">
+
+

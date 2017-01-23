@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Απομάκρυνση δεδομένων για εργασία χωρίς σύνδεση">
 
 <!ENTITY certificateTab.label            "Πιστοποιητικά">
+<!ENTITY certGroup.label                 "Προσωπικό πιστοποιητικό ασφαλείας">
 <!ENTITY certSelection.description       "Όταν ένας εξυπηρετητής απαιτεί ένα πιστοποιητικό:">
 <!ENTITY certs.auto                      "Αυτόματη επιλογή ενός">
 <!ENTITY certs.auto.accesskey            "τ">
 <!ENTITY certs.ask                       "Ερώτηση κάθε φορά">
 <!ENTITY certs.ask.accesskey             "ρ">
+<!ENTITY ocspGroup.label                 "Επικύρωση πιστοποιητικού">
+<!ENTITY enableOCSP.label                "Χρήση του Online Certificate Status Protocol (OCSP) για την επιβεβαίωση της εγκυρότητας πιστοποιητικών">
+<!ENTITY enableOCSP.accesskey            "Χ">
+<!ENTITY requireOCSP.label               "Όταν αποτύχει η σύνδεση με τον εξυπηρετητή OCSP, να θεωρείται άκυρο το πιστοποιητικό">
+<!ENTITY requireOCSP.accesskey           "τ">
 <!ENTITY viewCerts.label                 "Προβολή πιστοποιητικών">
 <!ENTITY viewCerts.accesskey             "ο">
-<!ENTITY verify2.label                   "Επικύρωση">
-<!ENTITY verify2.accesskey               "ω">
 <!ENTITY viewSecurityDevices.label       "Συσκευές ασφαλείας">
 <!ENTITY viewSecurityDevices.accesskey   "σ">
+
+<!ENTITY UACompatGroup.label    "Συμβατότητα">
+<!ENTITY UACompat.label         "Κατάσταση λειτουργίας παράγοντα χρήστη:">
+<!ENTITY UACompat.Native        "Εγγενής">
+<!ENTITY UACompat.Gecko         "Συμβατότητα με Gecko">
+<!ENTITY UACompat.Firefox       "Συμβατότητα με Firefox">
+
+<!ENTITY scrollparamTab.label               "Κύλιση">
+<!ENTITY smoothscroll.explain.label         "Οι παρακάτω παράμετροι έχουν αποτέλεσμα μόνο αν η ομαλή κύλιση είναι γενικά ενεργοποιημένη με το παραπάνω πλαίσιο ελέγχου.">
+<!ENTITY smoothscroll.to                    "έως">
+<!ENTITY smoothscroll.params.label          "Παράμετροι ομαλής κύλισης">
+<!ENTITY smoothscroll.mousewheel.label      "Ομαλή κύλιση με τον τροχό του ποντικιού">
+<!ENTITY smoothscroll.mousewheel.duration   "Διάρκεια ομαλής κύλισης με τον τροχό του ποντικιού:">
+<!ENTITY smoothscroll.arrowkeys.label       "Ομαλή κύλιση με τα πλήκτρα βέλους">
+<!ENTITY smoothscroll.arrowkeys.duration    "Διάρκεια ομαλής κύλισης με τα πλήκτρα βέλους:">
+<!ENTITY smoothscroll.pagekeys.label        "Ομαλή κύλιση με τα page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Διάρκεια ομαλής κύλισης με τα page up/down:">
+<!ENTITY smoothscroll.scrollbar.label       "Ομαλή κύλιση με γραμμές κύλισης">
+<!ENTITY smoothscroll.scrollbar.duration    "Διάρκεια ομαλής κύλισης με γραμμές κύλισης:">

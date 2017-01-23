@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Preferências da barra de estado do Pale Moon">
+
+<!ENTITY status4evar.pane.status "Estado">
+<!ENTITY status4evar.pane.progress "Progresso">
+<!ENTITY status4evar.pane.download "Descargas">
+<!ENTITY status4evar.pane.statusbar "Barra de estado">
+<!ENTITY status4evar.pane.advanced "Avançado ">
+
+<!ENTITY status4evar.tab.general "Geral">
+<!ENTITY status4evar.tab.toolbar "Barra de estado">
+<!ENTITY status4evar.tab.urlbar "Barra de endereço">
+<!ENTITY status4evar.tab.popup "Pop-up">
+<!ENTITY status4evar.tab.tabs "Separadores">
+
+<!ENTITY status4evar.option.none "Nenhum">
+<!ENTITY status4evar.option.nothing "Nada">
+<!ENTITY status4evar.option.toolbar "Barra de estado">
+<!ENTITY status4evar.option.urlbar "Barra de endereço">
+<!ENTITY status4evar.option.popup "Pop-up">
+<!ENTITY status4evar.option.tooltip "Dica">
+<!ENTITY status4evar.option.bottom "Baixo">
+<!ENTITY status4evar.option.top "Cima">
+<!ENTITY status4evar.option.fill "Preencher">
+<!ENTITY status4evar.option.dlcount "Número de descargas">
+<!ENTITY status4evar.option.dltime "Tempo restante">
+<!ENTITY status4evar.option.both "Ambos">
+<!ENTITY status4evar.option.right "Direita">
+<!ENTITY status4evar.option.left "Esquerda">
+<!ENTITY status4evar.option.fixed "Fixo">
+<!ENTITY status4evar.option.simple "Simples">
+<!ENTITY status4evar.option.advanced "Avançado">
+<!ENTITY status4evar.option.browse "Explorar">
+<!ENTITY status4evar.option.clear "Limpar">
+<!ENTITY status4evar.option.center "Centrado">
+<!ENTITY status4evar.option.offset "Deslocação">
+<!ENTITY status4evar.option.repeat "Repetir">
+<!ENTITY status4evar.option.no-repeat "Não repetir">
+<!ENTITY status4evar.option.space "Espaço">
+<!ENTITY status4evar.option.round "Redonda">
+<!ENTITY status4evar.option.firefoxdefault "Padrões do Pale Moon">
+<!ENTITY status4evar.option.download.library "Repositório">
+<!ENTITY status4evar.option.download.tab "Separador">
+<!ENTITY status4evar.option.download.thirdparty "De terceiros">
+
+<!ENTITY status4evar.unit.milliseconds "milissegundos">
+<!ENTITY status4evar.unit.seconds "segundos">
+<!ENTITY status4evar.unit.px "px">
+
+<!ENTITY status4evar.status.general.status.caption "Texto">
+<!ENTITY status4evar.status.label "Mostrar estado em:">
+<!ENTITY status4evar.status.timeout.label "Ocultar estado após:">
+<!ENTITY status4evar.status.default.label "Mostrar estado padrão">
+<!ENTITY status4evar.status.network.label "Mostrar estado da rede">
+<!ENTITY status4evar.status.network.xhr.label "Mostrar estado em segundo plano">
+<!ENTITY toolkit.dom.status.change.label "Permitir que as páginas web alterem o estado">
+
+<!ENTITY status4evar.status.general.linkOver.caption "Ligações">
+<!ENTITY status4evar.status.linkOver.label "Mostrar ligações em:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Atraso antes de mostrar as ligações:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Atraso antes de ocultar as ligações:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "Tamanho máximo do texto:">
+
+<!ENTITY status4evar.status.urlbar.align.label "Alinhamento:">
+<!ENTITY status4evar.status.urlbar.color.label "Cor:">
+<!ENTITY status4evar.status.currentUrl "Localização atual">
+<!ENTITY status4evar.status.statusText "Texto">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Funcionalidades de compatibilidade com o Firefox">
+<!ENTITY browser.urlbar.formatting.enabled.label "Ativar realce de domínios">
+<!ENTITY browser.urlbar.trimming.enabled.label "Ativar ocultação de protocolos (http:// e ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "Lado direito por definição">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Trocar de lado ao passar com o rato">
+
+<!ENTITY status4evar.progress.style.label "Utilizar estilo personalizado">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "Mostrar progresso na barra de endereço">
+<!ENTITY status4evar.progress.urlbar.line.label "Estilo da linha:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "Mostrar sempre o item Barra de estado">
+
+<!ENTITY status4evar.editor.label "Editor:">
+<!ENTITY status4evar.editor.css.color.label "Cor:">
+<!ENTITY status4evar.editor.css.image.label "Imagem:">
+<!ENTITY status4evar.editor.css.image.repeat "Repetir">
+<!ENTITY status4evar.editor.css.image.position "Posição">
+<!ENTITY status4evar.editor.css.image.offset "Deslocação">
+
+
+
+<!ENTITY status4evar.download.button.action.label "Ação do botão de descarga:">
+<!ENTITY status4evar.download.force.label "Mostrar sempre o indicador de descarga">
+<!ENTITY status4evar.download.label.force.label "Mostrar sempre o texto do indicador">
+<!ENTITY status4evar.download.label.label "Texto do indicador de descarga:">
+<!ENTITY status4evar.download.tooltip.label "Dica do indicador de descarga:">
+<!ENTITY status4evar.download.progress.label "Mostrar progresso das descargas no botão">
+<!ENTITY status4evar.download.progress.average.label "Mostrar conclusão média de descargas">
+<!ENTITY status4evar.download.progress.max.label "Mostrar descarga mais completa">
+<!ENTITY status4evar.download.progress.min.label "Mostrar descarga menos completa">
+<!ENTITY status4evar.download.color.active.label "Cor de progresso para as descargas ativas:">
+<!ENTITY status4evar.download.color.paused.label "Cor de progresso para as descargas em pausa:">
+<!ENTITY status4evar.download.notify.animate.label "Animar botão ao terminar a descarga">
+<!ENTITY status4evar.download.notify.timeout.label "Realçar botão ao terminar a descarga:">
+
+<!ENTITY status4evar.addonbar.borderStyle "Utilizar margens alternativas para a barra de ferramentas">
+<!ENTITY status4evar.addonbar.windowGripper "Mostrar o redimensionador de janelas">
+<!ENTITY status4evar.addonbar.closeButton "Mostrar o botão Fechar">
+
+<!ENTITY status4evar.advanced.warning "Estas definições podem interferir negativamente com o Pale Moon ou com outros extras. Apenas deve continuar se souber o que está a fazer.">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Tentar forçar a associação XBL da barra de endereço.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Apenas deve selecionar esta opção se ocorrerem problemas com o progresso na barra de endereço ou com o texto da barra de estado. Possivelmente, esta opção entra em conflito com outras extensões que tentem definir uma associação XBL na barra de endereço.">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "Detetar modo de ecrã completo e mostrar ligações e estados apropriados.">
+<!ENTITY status4evar.advanced.status.detectVideo "Ocultar pop-up de estado em vídeos HTML5 no modo de ecrã completo.">

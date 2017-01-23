@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Lesezeichen-Symbole">
 <!ENTITY addonBarCmd.label "Add-on-Leiste">
 <!ENTITY addonBarCmd.accesskey "A">
+<!ENTITY statusBar.label               "Statusleiste">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Seitenquelltext anzeigen">
 <!ENTITY pageSourceCmd.accesskey "a">
@@ -106,7 +108,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenExitButton.label "Ablehnen">
 <!ENTITY fullscreenApproval.value "Wollen Sie den Wechsel in den Vollbild-Modus erlauben?">
 
-<!ENTITY fullscreenExitHint.value "Drücken Sie die Escape-Taste, wenn Sie Vollbild beenden möchten.">
+<!ENTITY fullscreenExitHint.value "Drücken Sie die Escape-Taste zum Verlassen des Vollbild-Modus.">
 <!ENTITY leaveDOMFullScreen.label "Vollbild beenden">
 <!ENTITY leaveDOMFullScreen.accesskey "e">
 
@@ -122,6 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Diese Seite abonnieren…">
 <!ENTITY addCurPagesCmd.label "Lesezeichen für alle Tabs hinzufügen…">
 <!ENTITY showAllBookmarks2.label "Lesezeichen verwalten">
+<!ENTITY organizeBookmarks.label "Lesezeichen verwalten">
 <!ENTITY unsortedBookmarksCmd.label "Unsortierte Lesezeichen">
 <!ENTITY bookmarksToolbarChevron.tooltip "Weitere Lesezeichen anzeigen">
 
@@ -165,7 +168,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.label          "Lesezeichen">
 <!ENTITY bookmarksMenuButton.tooltip        "Lesezeichen anzeigen">
 <!ENTITY bookmarksMenuButton.unsorted.label "Unsortierte Lesezeichen">
-<!ENTITY viewBookmarksSidebar.label         "In der Sidebar anzeigen">
+<!ENTITY viewBookmarksSidebar.label         "Lesezeichen in Sidebar anzeigen">
 <!ENTITY viewBookmarksToolbar.label         "Lesezeichen-Symbolleiste anzeigen">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "B">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "Farbpipette">
+<!ENTITY eyedropper.accesskey "F">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,13 +244,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Entwickler-Symbolleiste schließen">
 <!ENTITY devToolbarMenu.label              "Entwickler-Symbolleiste">
 <!ENTITY devToolbarMenu.accesskey          "E">
+<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "I">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Werkzeuge ein-/ausblenden">
 <!ENTITY devToolboxMenuItem.accesskey      "W">
 
 <!ENTITY devToolbarToolsButton.tooltip     "Entwicklerwerkzeuge ein-/ausblenden">
-<!ENTITY devToolbarOtherToolsButton.label  "Mehr">
+<!ENTITY devToolbarOtherToolsButton.label  "Mehr Tools">
 
 <!ENTITY getMoreDevtoolsCmd.label        "Weitere Tools laden">
 <!ENTITY getMoreDevtoolsCmd.accesskey    "T">
@@ -403,6 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "s">
 <!ENTITY savePageCmd.label            "Seite speichern unter…">
 <!ENTITY savePageCmd.accesskey        "u">
+<!ENTITY sendLinkCmd.label            "Sende Link…">
+<!ENTITY sendLinkCmd.accesskey        "s">
+<!ENTITY sendPageCmd.label            "Sende Seitenlink…">
+<!ENTITY sendPageCmd.accesskey        "S">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "u">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -552,7 +568,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label "Standard-Stil">
 <!ENTITY pageStylePersistentOnly.accesskey "S">
 
-<!ENTITY pageReportIcon.tooltip            "Die Einstellungen des Pop-up-Blockers für diese Website ändern">
+<!ENTITY pageReportIcon.tooltip            "Einstellungen des Pop-up-Blockers für diese Website ändern">
 
 <!ENTITY allowPopups.accesskey "P">
 <!-- On Windows we use the term "Options" to describe settings, but

@@ -2,143 +2,99 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Sayfa yüklenirken hata oluştu">
+<!ENTITY loadError.label "Sayfa Yükleme Hatası">
 <!ENTITY retry.label "Yeniden Dene">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Bağlanma girişimi başarısız">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.title "Bağlantı kurulamadı">
+<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Bu adrese erişim kısıtlanmış">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
-<!ENTITY dnsNotFound.title "Sunucu bulunamadı">
-<!ENTITY dnsNotFound.longDesc "<ul> 
-<li>Adres <strong>www</strong>.sunucu.com yerine 
-<strong>ww</strong>.sunucu.com 
-gibi yanlış yazılmış olabilir.</li> 
-<li>Hiçbir sayfayı açmayı başaramıyorsanız bilgisayarınızın ağ bağlantılarını gözden geçirin ve İnternet'e bağlı olduğunuzdan emin olun.</li> 
-<li>Bilgisayarınız ya da ağınız güvenlik duvarı ya da vekil sunucu tarafından korunuyorsa, &brandShortName; uygulamasına İnternet'e erişmek için gerekli izinlerin verilmiş olduğundan emin olun.</li> 
-</ul>">
+<!ENTITY dnsNotFound.title "Adres Bulunamadı">
+<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
 
-<!ENTITY fileNotFound.title "Dosya bulunamadı">
-<!ENTITY fileNotFound.longDesc "<ul> 
-<li>Büyük-küçük harflere ve yazım hatası olup olmadığına bakın.</li> 
-<li>Dosyanın taşınıp taşınmadığından, adının değiştirilip değişmediğinden ya da silinip silinmediğinden emin olun.</li> 
-</ul>">
+<!ENTITY fileNotFound.title "File Not Found">
+<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
 
-<!ENTITY generic.title "Hoppalaaa.">
-<!ENTITY generic.longDesc "<p>&brandShortName; bilinmeyen bir nedenden dolayı bu sayfayı açamıyor.</p>">
+<!ENTITY generic.title "Cannot Complete Request">
+<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
 
-<!ENTITY malformedURI.title "Adres geçerli değil">
-<!ENTITY malformedURI.longDesc "<ul> 
-<li>Web adresleri genelde <strong>http://www.example.com/</strong> biçiminde yazılır.</li> 
-<li>Adreste düzgün bölü işareti (<strong>/</strong>) 
-bulunduğundan emin olun. Bu işaret sola değil, 
-<strong>sağa yatık</strong> olmalıdır.</li> 
-</ul>">
+<!ENTITY malformedURI.title "Invalid Address">
+<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
 
-<!ENTITY netInterrupt.title "Bağlantı kesildi">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.title "Data Transfer Interrupted">
+<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY notCached.title "Belge zaman aşımına uğradı">
-<!ENTITY notCached.longDesc "<p>Talep edilen belge &brandShortName; önbelleğinde mevcut değil.</p><ul><li>Bir güvenli önlemli olarak, &brandShortName; hassas belgeleri otomatik olarak yeniden talep etmez.</li><li>Belgeyi siteden tekrar talep etmek için Yeniden dene'ye tıklayın.</li></ul>">
+<!ENTITY notCached.title "Document Expired">
+<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
 
-<!ENTITY netOffline.title "Çevrim dışı kip">
-<!ENTITY netOffline.longDesc2 "<ul> 
-<li>Çevrimiçi moda geçip sayfayı tazelemek için &quot;Yeniden dene&quot;ye tıklayın.</li> 
-</ul>">
+<!ENTITY netOffline.title "Offline Mode">
+<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
 
-<!ENTITY contentEncodingError.title "İçerik kodlama hatası">
-<!ENTITY contentEncodingError.longDesc "<ul> 
-<li>Bu sorundan haberdar etmek için lütfen site sahipleri ile temasa geçin.</li> 
-</ul>">
+<!ENTITY contentEncodingError.title "Content Encoding Error">
+<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
-<!ENTITY unsafeContentType.title "Güvensiz dosya türü">
-<!ENTITY unsafeContentType.longDesc "<ul> 
-<li>Lütfen site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li> 
-</ul>">
-
-<!ENTITY netReset.title "Bağlantı sıfırlandı">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
-
-<!ENTITY netTimeout.title "Bağlantı zaman aşımına uğradı">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
-
-<!ENTITY protocolNotFound.title "Adres anlaşılamadı">
-<!ENTITY protocolNotFound.longDesc "<ul> 
-<li>Bu adresi açmak için başka bir yazılım kurmanız gerekebilir.</li> 
-</ul>">
-
-<!ENTITY proxyConnectFailure.title "Vekil sunucu bağlantı kabul etmiyor">
-<!ENTITY proxyConnectFailure.longDesc "<ul> 
-<li>Vekil sunucu ayarlarınızın doğru olup olmadığına bakın.</li> 
-<li>Ağ yöneticinize başvurup vekil sunucunun çalıp çalışmadığıyla 
-ilgili bilgi alın.</li> 
-</ul>">
-
-<!ENTITY proxyResolveFailure.title "Vekil sunucu bulunamadı">
-<!ENTITY proxyResolveFailure.longDesc "<ul> 
-<li>Vekil sunucu ayarlarınızın doğru olup olmadığına bakın.</li> 
-<li>Bilgisayarınızın düzgün işleyen bir ağ bağlantısı olup olmadığına bakın.</li> 
-<li>Bilgisayarınız ya da ağınız güvenlik duvarı ya da vekil sunucu tarafından 
-korunuyorsa, &brandShortName; uygulamasına internete erişmek için gerekli izinlerin verilmiş olduğundan emin olun.</li> 
-</ul>">
-
-<!ENTITY redirectLoop.title "Yönlendirme geçersiz">
-<!ENTITY redirectLoop.longDesc "<ul> 
-<li>Bu sayfa düzgün biçimde yönlendirilmiyor. Bunun nedeni çerezlerin kabul 
-edilmemesi olabilir.</li> 
-</ul>">
-
-<!ENTITY unknownSocketType.title "Sunucudan beklenmeyen yanıt">
-<!ENTITY unknownSocketType.longDesc "<ul> 
-<li>Sisteminizde Kişisel Güvenlik Yöneticisi kurulu 
-olduğundan emin olun.</li> 
-<li>Sorunun nedeni sunucunun standartlara uymayan yapılandırması olabilir.</li> 
-</ul>">
-
-<!ENTITY nssFailure2.title "Güvenli bağlantı girişimi başarısız">
-<!ENTITY nssFailure2.longDesc "<ul> 
-<li>Alınan verilerin özgünlüğü doğrulanamadığı için bakmak istediğiniz sayfa gösterilemiyor.</li> 
-<li>Lütfen site yönetici ile irtibata geçerek durumu bildirin. Bunun dışında, bu çalışmayan siteyi yardım menüsündeki komutu kullanarak rapor edebilirsiniz.</li> 
-</ul>">
-
-<!ENTITY nssBadCert.title "Güvenli bağlantı hatalı">
-<!ENTITY nssBadCert.longDesc2 "<ul> 
-<li>Bu, sunucunun yapılandırmasıyla ilgili bir sorundan ya da birinin 
-sunucuyu taklit etmeye çalışmasından kaynaklanıyor olabilir.</li> 
-<li>Daha önce bu sunucuya başarılı bir şekilde bağlandıysanız sorun geçici olabilir ve daha sonra yeniden açmayı deneyebilirsiniz.</li> 
-</ul>">
-
-<!ENTITY malwareBlocked.title "Şüpheli saldırı sitesi!">
-<!ENTITY malwareBlocked.longDesc "<p>Saldırı siteleri; özel bilgilerinizi çalan, bilgisayarınızı başkalarına saldırma amacıyla kullanan ya da sisteminize zarar veren programlar kurmaya çalışır.</p> 
-<p>Kendi sitelerinin yanlışlıkla saldırı sitesi olarak rapor edildiğini düşünen site sahipleri <a href='http://www.stopbadware.org/home/reviewinfo' >yeniden inceleme isteğinde</a> bulunabilir.</p>">
-
-<!ENTITY phishingBlocked.title "Sahtekârlık şüphesi!">
-<!ENTITY phishingBlocked.longDesc "<p>Bu sayfada yapılacak kişisel bilgi girişi, kimlik hırsızlığı ya da başka tür dolandırıcılıkla sonuçlanabilir.</p> 
-<p>Bu tür sahtekârlıklar yemleme olarak bilinen dümenlerde kullanılır. Yemleme saldırılarında araç olarak güvenebileceğiniz kurumları taklit eden sayfalara ve e-postalara başvurulur.</p>">
-
-<!ENTITY cspFrameAncestorBlocked.title "İçerik güvenlik politikası uyarınca engellendi">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; bu sayfanın bu şekilde yüklenmesini önledi, çünkü sayfanın buna izin vermeyen bir içerik güvenlik politikası var.</p>">
-
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
-<!ENTITY xssBlockMode.longDesc "
+<!ENTITY unsafeContentType.title "Unsafe File Type">
+<!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
-<!ENTITY corruptedContentError.title "Hasarlı İçerik Hatası">
-<!ENTITY corruptedContentError.longDesc "<p>Veri aktarımında bir hata tespit edildiği için bakmak istediğiniz sayfa gösterilemiyor.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
+<!ENTITY netReset.title "Connection Interrupted">
+<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
 
-<!ENTITY remoteXUL.title "Uzak XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Bu sorundan haberdar etmek için lütfen site sahipleri ile temasa geçin.</li></ul></p>">
+<!ENTITY netTimeout.title "Network Timeout">
+<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+
+<!ENTITY unknownProtocolFound.title "Unknown Protocol">
+<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+
+<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
+<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+
+<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
+<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+
+<!ENTITY redirectLoop.title "Redirect Loop">
+<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+
+<!ENTITY unknownSocketType.title "Incorrect Response">
+<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+
+<!ENTITY nssFailure2.title "Secure Connection Failed">
+<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+
+<!ENTITY nssBadCert.title "Secure Connection Failed">
+<!ENTITY nssBadCert.longDesc2 "<ul>
+<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
+<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
+</ul>
+">
+
+<!ENTITY malwareBlocked.title "Suspected Attack Site!">
+<!ENTITY malwareBlocked.longDesc "
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+">
+
+<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
+<!ENTITY phishingBlocked.longDesc "
+<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
+<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
+">
+
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+
+<!ENTITY corruptedContentError.title "Corrupted Content Error">
+<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+
+<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

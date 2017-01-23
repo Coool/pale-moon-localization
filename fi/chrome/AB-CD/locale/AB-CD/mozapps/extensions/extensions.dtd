@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Lisäosien hallinta">
 
 <!ENTITY search.placeholder                   "Hae lisäosista">
+<!ENTITY search.buttonlabel                   "Haku">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "A">
 <!ENTITY cmd.uninstallAddon.label             "Poista">
 <!ENTITY cmd.uninstallAddon.accesskey         "o">
+<!ENTITY cmd.debugAddon.label                 "Vianselvitys">
 <!ENTITY cmd.showPreferencesWin.label         "Asetukset">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Muokkaa tämän lisäosan asetuksia">
 <!ENTITY cmd.showPreferencesUnix.label        "Asetukset">
@@ -208,6 +210,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Ladataan…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Tapahtui virhe ladatessa julkaisutietoja. Pahoittelemme..">
 
+<!ENTITY addon.nativeAddon                    "Tämä lisäosa on suunnattu Pale Moon-selaimelle">
+<!ENTITY addon.compatAddon                    "Tämä lisäosa on suunnattu Mozilla Firefoxille, ja toimii vain yhteensopivuustilassa">
+
 <!ENTITY addon.createdBy.label                "Tekijänä ">
 
 <!ENTITY eula.title                           "Loppukäyttäjän lisenssi">
@@ -216,3 +221,16 @@
 <!ENTITY eula.accept                          "Hyväksy ja asenna…">
 
 <!ENTITY settings.path.button.label           "Selaa…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "Mitä tämä merkitsee? Telemetria voi asentaa ja suorittaa kokeita satunnaisesti.">
+<!ENTITY experiment.info.learnmore "Lisätietoja">
+<!ENTITY experiment.info.learnmore.accesskey "L">
+<!ENTITY experiment.info.changetelemetry "Telemetria-asetukset">
+<!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+<!ENTITY setting.learnmore "Lisätietoja…">

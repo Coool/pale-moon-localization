@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "このアドレスへの接続は制限されています">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>要求されるアドレスは、通常 Web ブラウジング<em>以外</em>の目的で使用されるポート (例 <q>palemoon.org:25</q> は palemoon.org ポート番号 25) を指定します。ブラウザは保護とセキュリティの要求をキャンセルしました。</p>">
 
 <!ENTITY dnsNotFound.title "サーバが見つかりませんでした">
 <!ENTITY dnsNotFound.longDesc "
@@ -80,10 +80,10 @@
 <!ENTITY netTimeout.title "接続がタイムアウトしました">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "アドレスのプロトコルが不明です">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "アドレスの形式が不明です。">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>このプロトコルを使用するアドレスを開くには、別のソフトウェアをインストールする必要があるかもしれません。</li>
+ <li>このアドレスを開くその他のソフトウェアをインストールする必要があります。</li>
 </ul>
 ">
 
@@ -120,10 +120,10 @@
 ">
 
 <!ENTITY nssFailure2.title "安全な接続ができませんでした">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>受信したデータの真正性を検証できなかったため、このページは表示できませんでした。</li>
-  <li>この問題を Web サイトの管理者に連絡してください。あるいは [ヘルプ] メニューの [不具合のあるサイトを報告] でこのサイトについて報告してください。</li>
+ <li>受信データの信頼性を確認できなかったため、ページを表示できません。</li>
+ <li>この問題を Web サイトの所有者へ連絡してください。</li>
 </ul>
 ">
 
@@ -145,8 +145,8 @@
 
 <!ENTITY malwareBlocked.title "攻撃サイトの疑いがあります！">
 <!ENTITY malwareBlocked.longDesc "
-<p>攻撃サイトはあなたの個人情報を盗んだり、コンピュータを乗っ取って他のコンピュータへの攻撃に利用したり、あなたのシステムを破壊するためのプログラムをインストールしようとします。</p>
-<p>あなたがこのサイトの管理者で、この警告が誤りである場合は<a href='http://www.stopbadware.org/home/reviewinfo'>再審査を求める</a>ことができます。</p>
+<p>攻撃サイトは、個人情報を盗んだり、コンピュータを使用して他人を攻撃したり、システムを壊したりするプログラムをインストールしようとします。</p>
+ <p>自分のサイトが誤って攻撃サイトとして報告されたと考えている Web サイト所有者は、<a href='https://www.stopbadware.org/request-review' >レビューをリクエストして下さい</a>。</p>
 ">
 
 <!ENTITY phishingBlocked.title "偽装サイトの疑いがあります！">
@@ -155,11 +155,19 @@
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "コンテンツセキュリティポリシーによりブロックされました">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
+<!ENTITY cspBlocked.title "コンテンツセキュリティポリシーによってブロックされています。">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; このページはコンテンツセキュリティポリシーによって禁止されているため、読み込みを防いでいます。</p>">
 
-<!ENTITY xssBlockMode.title "">
-<!ENTITY xssBlockMode.longDesc "">
+<!ENTITY xssBlockMode.title "XSS フィルターによってブロックされています。">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+ <li>&brandShortName; このページは挿入された JavaScript コードが含まれているため、
+  このアクションはブロックされています。</li>
+ <li>このページの読み込みは、XSS アタックでこのページをブロックするため
+  Web サイトによって明示的に要求されている、 ＆brandShortName; の状況ページで
+  ブロックするように設定されています。</li>
+ </ul>
+">
 
 <!ENTITY corruptedContentError.title "コンテンツデータ破損エラー">
 <!ENTITY corruptedContentError.longDesc "<p>このページは、データの伝送中にエラーが検出されたため表示できません。</p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
@@ -181,5 +189,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "このエラーを報告">
+<!ENTITY errorReporting.longDesc "アドレス <span id='hostname'></span> の証明書情報を報告することで、悪意のあるサイトを特定しブロックするのに役立ちます。 より安全な Web 作成にご協力いただきありがとうございます！">
+<!ENTITY errorReporting.automatic "今後のエラーは自動的に報告する">
+<!ENTITY errorReporting.learnMore "詳細を表示...">
+<!ENTITY errorReporting.sending "レポートを送信しています">
+<!ENTITY errorReporting.sent "レポートの送信">
+<!ENTITY errorReporting.report "レポート">
+<!ENTITY errorReporting.tryAgain "再試行">
+
 <!ENTITY remoteXUL.title "リモート XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
+
+<!ENTITY sslv3Used.title "安全に接続できません">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "詳細情報: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "詳細を表示...">

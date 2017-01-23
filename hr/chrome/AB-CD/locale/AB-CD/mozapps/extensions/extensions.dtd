@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Upravitelj dodacima">
 
 <!ENTITY search.placeholder                   "Pretraži sve dodatke">
+<!ENTITY search.buttonlabel                   "Search">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Ukloni">
 <!ENTITY cmd.uninstallAddon.accesskey         "U">
+<!ENTITY cmd.debugAddon.label                 "Debug">
 <!ENTITY cmd.showPreferencesWin.label         "Mogućnosti">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Promijeni mogućnosti ovog dodatka">
 <!ENTITY cmd.showPreferencesUnix.label        "Osobitosti">
@@ -208,6 +210,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Učitavanje…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Došlo je do greške pri učitavanju bilješki izdanja.">
 
+<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
+<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+
 <!ENTITY addon.createdBy.label                "Od ">
 
 <!ENTITY eula.title                           "Licenčni ugovor za krajnjeg korisnika">
@@ -216,3 +221,16 @@
 <!ENTITY eula.accept                          "Prihvati i instaliraj…">
 
 <!ENTITY settings.path.button.label           "Pretraži…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
+<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.learnmore.accesskey "L">
+<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+<!ENTITY setting.learnmore "Learn More…">

@@ -3,48 +3,79 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY aboutTelemetry.pageTitle "Fjarmælingargögn">
+
 <!ENTITY aboutTelemetry.telemetryEnabled "
   Fjarmæling er <span>virk</span>.
 ">
+
 <!ENTITY aboutTelemetry.telemetryDisabled "
   Fjarmæling er <span>óvirk</span>.
 ">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Sýna hægar SQL tengingar
 ">
+
 <!ENTITY aboutTelemetry.chromeHangsSection "
   Vafrahrun
 ">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Súlurit
 ">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Einfaldar mælingar
 ">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
+">
+
 <!ENTITY aboutTelemetry.lateWritesSection "
   Skrifað seint
 ">
+
 <!ENTITY aboutTelemetry.systemInfoSection "
   Kerfisupplýsingar
 ">
+
 <!ENTITY aboutTelemetry.addonHistogramsSection "
   Súlurit safnað af viðbótum
 ">
-<!ENTITY aboutTelemetry.toggleOn "
-  Smelltu til að stækka
+
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
 ">
-<!ENTITY aboutTelemetry.toggleOff "
-  Smelltu til að minnka
-">
+
 <!ENTITY aboutTelemetry.emptySection "
   (Engum gögnum safnað)
 ">
+
 <!ENTITY aboutTelemetry.fullSqlWarning "
   ATHUGIÐ: Hægvirk SQL aflúsun er virk. Heildar SQL strengir gætu birst hér fyrir neðan en þeir verða ekki sendir á fjarmælingu.
 ">
+
 <!ENTITY aboutTelemetry.fetchSymbols "
   Ná í nöfn falla fyrir hrunstafla
 ">
+
 <!ENTITY aboutTelemetry.hideSymbols "
   Sýna hrá gögn frá hruni
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
 ">

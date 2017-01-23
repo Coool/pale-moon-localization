@@ -6,8 +6,12 @@
 <!ENTITY  window.width                    "48em">
 <!ENTITY  window.macWidth                 "49em">
 
-<!ENTITY  allowPagesToUse.label           "Permitir a las páginas elegir sus propios colores, en vez de mi selección anterior">
-<!ENTITY  allowPagesToUse.accesskey       "A">
+<!ENTITY  overridePageColors.label        "Reemplaza los colores especificados por la página con mis selecciones anteriores:">
+<!ENTITY  overridePageColors.accesskey    "M">
+
+<!ENTITY  overridePageColors.always.label "Siempre">
+<!ENTITY  overridePageColors.auto.label   "Sólo con temas de alto contraste">
+<!ENTITY  overridePageColors.never.label  "Nunca">
 
 <!ENTITY  color                           "Texto y fondo">
 <!ENTITY  textColor.label                 "Texto:">
@@ -15,7 +19,7 @@
 <!ENTITY  backgroundColor.label           "Fondo:">
 <!ENTITY  backgroundColor.accesskey       "F">
 <!ENTITY  useSystemColors.label           "Utilizar los colores del sistema">
-<!ENTITY  useSystemColors.accesskey       "s">
+<!ENTITY  useSystemColors.accesskey       "f">
 
 <!ENTITY  underlineLinks.label            "Subrayar enlaces">
 <!ENTITY  underlineLinks.accesskey        "y">

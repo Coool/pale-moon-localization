@@ -10,23 +10,23 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Zdrojový kód pre: ">
+<!ENTITY mainWindow.preface "Source of: ">
 
-<!ENTITY fileMenu.label "Súbor">
-<!ENTITY fileMenu.accesskey "S">
-<!ENTITY savePageCmd.label "Uložiť stránku ako…">
-<!ENTITY savePageCmd.accesskey "r">
-<!ENTITY savePageCmd.commandkey "s">
-<!ENTITY pageSetupCmd.label "Nastavenie tlače…">
-<!ENTITY pageSetupCmd.accesskey "N">
-<!ENTITY printPreviewCmd.label "Ukážka pred tlačou">
-<!ENTITY printPreviewCmd.accesskey "e">
-<!ENTITY printCmd.label "Tlačiť…">
-<!ENTITY printCmd.accesskey "T">
-<!ENTITY printCmd.commandkey "p">
-<!ENTITY closeCmd.label "Zavrieť">
-<!ENTITY closeCmd.accesskey "Z">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY fileMenu.label "File">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY savePageCmd.label "Save Page As…">
+<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY pageSetupCmd.label "Page Setup…">
+<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "Print Preview">
+<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printCmd.label "Print…">
+<!ENTITY printCmd.accesskey "P">
+<!ENTITY printCmd.commandkey "P">
+<!ENTITY closeCmd.label "Close">
+<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -42,44 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Prejsť na riadok…">
-<!ENTITY goToLineCmd.accesskey "r">
+<!ENTITY goToLineCmd.label "Go to Line…">
+<!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "Zobraziť">
-<!ENTITY viewMenu.accesskey       "Z">
-<!ENTITY reloadCmd.label "Obnoviť">
-<!ENTITY reloadCmd.accesskey "O">
+<!ENTITY viewMenu.label           "View">
+<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY reloadCmd.label "Reload">
+<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Zalamovať dlhé riadky"> 
-<!ENTITY menu_wrapLongLines.accesskey "Z">
-<!ENTITY menu_highlightSyntax.label "Zvýrazniť syntax">
-<!ENTITY menu_highlightSyntax.accesskey "s">
-<!ENTITY menu_textSize.label "Veľkosť písma">
-<!ENTITY menu_textSize.accesskey "V">
-<!ENTITY menu_textEnlarge.label "Zväčšiť veľkosť písma">
-<!ENTITY menu_textEnlarge.accesskey "v">
-<!ENTITY menu_textReduce.label "Zmenšiť veľkosť písma">
-<!ENTITY menu_textReduce.accesskey "m">
-<!ENTITY menu_textReset.label "Normálne">
+<!ENTITY menu_wrapLongLines.title "Wrap Long Lines"> 
+<!ENTITY menu_wrapLongLines.accesskey "W">
+<!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
+<!ENTITY menu_highlightSyntax.accesskey "H">
+<!ENTITY menu_textSize.label "Text Size">
+<!ENTITY menu_textSize.accesskey "Z">
+<!ENTITY menu_textEnlarge.label "Increase">
+<!ENTITY menu_textEnlarge.accesskey "I">
+<!ENTITY menu_textReduce.label "Decrease">
+<!ENTITY menu_textReduce.accesskey "D">
+<!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Hľadať na tejto stránke…">
-<!ENTITY findOnCmd.accesskey "n">
+<!ENTITY findOnCmd.label     "Find in This Page…">
+<!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Hľadať znova">
-<!ENTITY findAgainCmd.accesskey "d">
+<!ENTITY findAgainCmd.label  "Find Again">
+<!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Naspäť">
-<!ENTITY backCmd.accesskey "N">
-<!ENTITY forwardCmd.label "Dopredu">
-<!ENTITY forwardCmd.accesskey "D">
+<!ENTITY backCmd.label "Back">
+<!ENTITY backCmd.accesskey "B">
+<!ENTITY forwardCmd.label "Forward">
+<!ENTITY forwardCmd.accesskey "F">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Kopírovať adresu odkazu">
-<!ENTITY copyLinkCmd.accesskey "a">
-<!ENTITY copyEmailCmd.label "Kopírovať e-mailovú adresu">
-<!ENTITY copyEmailCmd.accesskey "e">
+<!ENTITY copyLinkCmd.label "Copy Link Location">
+<!ENTITY copyLinkCmd.accesskey "L">
+<!ENTITY copyEmailCmd.label "Copy Email Address">
+<!ENTITY copyEmailCmd.accesskey "E">

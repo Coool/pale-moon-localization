@@ -10,7 +10,7 @@
 <!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
      surround the host name of the site to make the header for the permissions page.
      example: "Permissions for mozilla.org" -->
-<!ENTITY header.site.start               "Permissions for">
+<!ENTITY header.site.start               "이용 권한">
 <!ENTITY header.site.end                 "">
 
 <!ENTITY header.defaults                 "모든 웹 사이트 기본 설정 적용">
@@ -26,10 +26,16 @@
 <!ENTITY password.label                  "암호 저장">
 <!ENTITY password.manage                 "저장 중인 암호 목록…">
 
+<!ENTITY image.label                     "이미지 표시">
+
 <!ENTITY cookie.label                    "쿠키(Cookie) 데이터 저장">
 <!ENTITY cookie.remove                   "쿠키 제거">
 <!ENTITY cookie.manage                   "쿠키 표시…">
 <!ENTITY cookie.removeAll                "모든 쿠키 제거">
+
+<!ENTITY desktop-notification.label      "알림 보이기">
+
+<!ENTITY install.label                   "확장 기능 및 테마 설치">
 
 <!ENTITY geo.label                       "위치 정보 제공">
 
@@ -37,8 +43,10 @@
 
 <!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
-<!ENTITY indexedDB.label                 "오프라인 저장소">
+<!ENTITY indexedDB.label                 "오프라인 저장소 관리">
 
-<!ENTITY popup.label                     "팝업 창">
+<!ENTITY popup.label                     "팝업 창 열기">
 
 <!ENTITY fullscreen.label                "전체 화면">
+
+<!ENTITY pointerLock.label               "마우스 포인터 숨기기">

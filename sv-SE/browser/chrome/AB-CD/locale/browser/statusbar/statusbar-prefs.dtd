@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Inställningar för Pale Moons statusfält">
+
+<!ENTITY status4evar.pane.status "Status">
+<!ENTITY status4evar.pane.progress "Förlopp">
+<!ENTITY status4evar.pane.download "Hämtning">
+<!ENTITY status4evar.pane.statusbar "Statusfält">
+<!ENTITY status4evar.pane.advanced "Avancerat">
+
+<!ENTITY status4evar.tab.general "Allmänt">
+<!ENTITY status4evar.tab.toolbar "Statusfält">
+<!ENTITY status4evar.tab.urlbar "Adressfält">
+<!ENTITY status4evar.tab.popup "Pop-up">
+<!ENTITY status4evar.tab.tabs "Flikar">
+
+<!ENTITY status4evar.option.none "Inga">
+<!ENTITY status4evar.option.nothing "Ingen">
+<!ENTITY status4evar.option.toolbar "Statusfält">
+<!ENTITY status4evar.option.urlbar "Adressfält">
+<!ENTITY status4evar.option.popup "Pop-up">
+<!ENTITY status4evar.option.tooltip "Hjälptext">
+<!ENTITY status4evar.option.bottom "Under">
+<!ENTITY status4evar.option.top "Över">
+<!ENTITY status4evar.option.fill "Fyll">
+<!ENTITY status4evar.option.dlcount "Nedladdningsräknare">
+<!ENTITY status4evar.option.dltime "Återstående tid">
+<!ENTITY status4evar.option.both "Båda">
+<!ENTITY status4evar.option.right "Höger">
+<!ENTITY status4evar.option.left "Vänster">
+<!ENTITY status4evar.option.fixed "Fast">
+<!ENTITY status4evar.option.simple "Enkel">
+<!ENTITY status4evar.option.advanced "Avancerad">
+<!ENTITY status4evar.option.browse "Bläddra">
+<!ENTITY status4evar.option.clear "Rensa">
+<!ENTITY status4evar.option.center "Centrerad">
+<!ENTITY status4evar.option.offset "Förskjutning">
+<!ENTITY status4evar.option.repeat "Upprepning">
+<!ENTITY status4evar.option.no-repeat "Ingen upprepning">
+<!ENTITY status4evar.option.space "Mellanrum">
+<!ENTITY status4evar.option.round "Rund">
+<!ENTITY status4evar.option.firefoxdefault "Pale Moons standardinställning">
+<!ENTITY status4evar.option.download.library "Bibliotek">
+<!ENTITY status4evar.option.download.tab "Flik">
+<!ENTITY status4evar.option.download.thirdparty "Tredje part">
+
+<!ENTITY status4evar.unit.milliseconds "millisekunder">
+<!ENTITY status4evar.unit.seconds "sekunder">
+<!ENTITY status4evar.unit.px "px">
+
+<!ENTITY status4evar.status.general.status.caption "Statustext">
+<!ENTITY status4evar.status.label "Visa status i:">
+<!ENTITY status4evar.status.timeout.label "Göm statusen efter:">
+<!ENTITY status4evar.status.default.label "Visa standardstatus">
+<!ENTITY status4evar.status.network.label "Visa nätverksstatus">
+<!ENTITY status4evar.status.network.xhr.label "Visa bakgrundsnätverksstatus">
+<!ENTITY toolkit.dom.status.change.label "Tillåta webbsidor att ändra statusen">
+
+<!ENTITY status4evar.status.general.linkOver.caption "Länkar">
+<!ENTITY status4evar.status.linkOver.label "Visa länkar i:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Fördörjning innan länkar visas:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Fördörjning innan länkar göms:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "Maxlängd på statustext:">
+
+<!ENTITY status4evar.status.urlbar.align.label "Statusjustering:">
+<!ENTITY status4evar.status.urlbar.color.label "Statusfärg:">
+<!ENTITY status4evar.status.currentUrl "Nuvarande plats">
+<!ENTITY status4evar.status.statusText "Statustext">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefoxkompabilitetsfunktioner">
+<!ENTITY browser.urlbar.formatting.enabled.label "Aktivera framhävning av domän">
+<!ENTITY browser.urlbar.trimming.enabled.label "Aktivera gömande av protokoll (http:// och ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "Höger sida som standard">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Byt sida vid pekning">
+
+<!ENTITY status4evar.progress.style.label "Använd en skräddarsydd stil">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "Visa förlopp i adressfältet">
+<!ENTITY status4evar.progress.urlbar.line.label "Linjestil:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "Visa alltid statusfältet">
+
+<!ENTITY status4evar.editor.label "Redigerare:">
+<!ENTITY status4evar.editor.css.color.label "Färg:">
+<!ENTITY status4evar.editor.css.image.label "Bild:">
+<!ENTITY status4evar.editor.css.image.repeat "Upprepning">
+<!ENTITY status4evar.editor.css.image.position "Position">
+<!ENTITY status4evar.editor.css.image.offset "Förskjutning">
+
+
+
+<!ENTITY status4evar.download.button.action.label "Knappåtgärd:">
+<!ENTITY status4evar.download.force.label "Visa alltid indikatorn">
+<!ENTITY status4evar.download.label.force.label "Visa alltid indikatortext">
+<!ENTITY status4evar.download.label.label "Indikatortext:">
+<!ENTITY status4evar.download.tooltip.label "Indikatorhjälptext:">
+<!ENTITY status4evar.download.progress.label "Visa hämtningsförlopp på knappen">
+<!ENTITY status4evar.download.progress.average.label "Visa genomsnittligt förlopp">
+<!ENTITY status4evar.download.progress.max.label "Visa mest klara förlopp">
+<!ENTITY status4evar.download.progress.min.label "Visa minst klara förlopp">
+<!ENTITY status4evar.download.color.active.label "Förloppsfärg för aktiva hämtningar:">
+<!ENTITY status4evar.download.color.paused.label "Förloppsfärg för pausade hämtningar:">
+<!ENTITY status4evar.download.notify.animate.label "Animera knapp när hämtningen är klar">
+<!ENTITY status4evar.download.notify.timeout.label "Framhäv knapp när hämtningen är klar:">
+
+<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
+<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
+<!ENTITY status4evar.addonbar.closeButton "Visa stängknappen">
+
+<!ENTITY status4evar.advanced.warning "Dessa avancerade inställningar kan orsaka problem med Pale Moon eller andra tillägg. Ändra på egen risk.">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Försök att tvinga XBL-bindning för adressfältet.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Välj bara detta om du har problem med visningen av förloppet eller statustexten i adressfältet. I annat fall kan denna inställning förstöra för andra tillägg som också försöker XBL-binda.">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "Upptäck helskärmsläge och visa länkar/status på lämpligt sätt.">
+<!ENTITY status4evar.advanced.status.detectVideo "Göm statuspopup vid helskärmsvideo i HTML5.">

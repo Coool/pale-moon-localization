@@ -10,23 +10,23 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Källkoden till: ">
+<!ENTITY mainWindow.preface "Source of: ">
 
-<!ENTITY fileMenu.label "Arkiv">
-<!ENTITY fileMenu.accesskey "A">
-<!ENTITY savePageCmd.label "Spara sida som…">
-<!ENTITY savePageCmd.accesskey "m">
-<!ENTITY savePageCmd.commandkey "s">
-<!ENTITY pageSetupCmd.label "Utskriftsformat…">
-<!ENTITY pageSetupCmd.accesskey "o">
-<!ENTITY printPreviewCmd.label "Förhandsgranska…">
-<!ENTITY printPreviewCmd.accesskey "h">
-<!ENTITY printCmd.label "Skriv ut…">
-<!ENTITY printCmd.accesskey "u">
-<!ENTITY printCmd.commandkey "p">
-<!ENTITY closeCmd.label "Stäng">
-<!ENTITY closeCmd.accesskey "ä">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY fileMenu.label "File">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY savePageCmd.label "Save Page As…">
+<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.commandkey "S">
+<!ENTITY pageSetupCmd.label "Page Setup…">
+<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "Print Preview">
+<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printCmd.label "Print…">
+<!ENTITY printCmd.accesskey "P">
+<!ENTITY printCmd.commandkey "P">
+<!ENTITY closeCmd.label "Close">
+<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -42,44 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Gå till rad…">
-<!ENTITY goToLineCmd.accesskey "r">
+<!ENTITY goToLineCmd.label "Go to Line…">
+<!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "Visa">
-<!ENTITY viewMenu.accesskey       "s">
-<!ENTITY reloadCmd.label "Uppdatera">
-<!ENTITY reloadCmd.accesskey "U">
+<!ENTITY viewMenu.label           "View">
+<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY reloadCmd.label "Reload">
+<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Radbryt långa rader"> 
-<!ENTITY menu_wrapLongLines.accesskey "R">
-<!ENTITY menu_highlightSyntax.label "Syntaxbetoning">
-<!ENTITY menu_highlightSyntax.accesskey "S">
-<!ENTITY menu_textSize.label "Textstorlek">
-<!ENTITY menu_textSize.accesskey "T">
-<!ENTITY menu_textEnlarge.label "Större">
-<!ENTITY menu_textEnlarge.accesskey "S">
-<!ENTITY menu_textReduce.label "Mindre">
-<!ENTITY menu_textReduce.accesskey "M">
+<!ENTITY menu_wrapLongLines.title "Wrap Long Lines"> 
+<!ENTITY menu_wrapLongLines.accesskey "W">
+<!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
+<!ENTITY menu_highlightSyntax.accesskey "H">
+<!ENTITY menu_textSize.label "Text Size">
+<!ENTITY menu_textSize.accesskey "Z">
+<!ENTITY menu_textEnlarge.label "Increase">
+<!ENTITY menu_textEnlarge.accesskey "I">
+<!ENTITY menu_textReduce.label "Decrease">
+<!ENTITY menu_textReduce.accesskey "D">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Sök på den här sidan…">
-<!ENTITY findOnCmd.accesskey "S">
+<!ENTITY findOnCmd.label     "Find in This Page…">
+<!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Sök igen">
-<!ENTITY findAgainCmd.accesskey "ö">
+<!ENTITY findAgainCmd.label  "Find Again">
+<!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Bakåt">
+<!ENTITY backCmd.label "Back">
 <!ENTITY backCmd.accesskey "B">
-<!ENTITY forwardCmd.label "Framåt">
+<!ENTITY forwardCmd.label "Forward">
 <!ENTITY forwardCmd.accesskey "F">
-<!ENTITY goBackCmd.commandKey "ö">
-<!ENTITY goForwardCmd.commandKey "ä">
+<!ENTITY goBackCmd.commandKey "[">
+<!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Kopiera länkadress">
-<!ENTITY copyLinkCmd.accesskey "K">
-<!ENTITY copyEmailCmd.label "Kopiera e-postadress">
-<!ENTITY copyEmailCmd.accesskey "e">
+<!ENTITY copyLinkCmd.label "Copy Link Location">
+<!ENTITY copyLinkCmd.accesskey "L">
+<!ENTITY copyEmailCmd.label "Copy Email Address">
+<!ENTITY copyEmailCmd.accesskey "E">

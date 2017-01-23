@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Adressen har säkerhetsrestriktioner">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>Den efterfrågade adressen specificerade en port (t.ex. <q>palemoon.org:25</q> för port 25 på palemoon.org) som normalt sett används för <em>andra syften</em> än surfning. Webbläsaren har avbrutit förfrågan för att skydda dig och din dator.</p>">
 
 <!ENTITY dnsNotFound.title "Servern hittades inte">
 <!ENTITY dnsNotFound.longDesc "
@@ -87,10 +87,10 @@
 <!ENTITY netTimeout.title "Anslutningen avbröts">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Adressen förstods inte">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "Adressen förstods inte">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Du kan behöva installera andra program för att öppna den här sidan.</li>
+  <li>Du kan behöva installera annan programvara för att öppna denna adress.</li>
 </ul>
 ">
 
@@ -130,10 +130,10 @@
 ">
 
 <!ENTITY nssFailure2.title "Säker anslutning misslyckades">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>Sidan du försöker se kan inte visas eftersom den mottagna datans autenticitet inte kan verifieras.</li>
-  <li>Kontakta webbplatsens ägare och informera dem om detta problem. Du kan även använda kommandot i Hjälp-menyn för att rapportera in problemet med webbplatsen.</li>
+  <li>Sidan du försöker se kan inte visas på grund av att den mottagna datans äkthet ej kunde fastställas.</li>
+  <li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li>
 </ul>
 ">
 
@@ -161,7 +161,7 @@
 <!ENTITY malwareBlocked.title "Misstänkt skadlig webbplats!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Skadliga webbplatser försöker installera program för att stjäla privata uppgifter, använda din dator för att angripa andras, eller för att skada ditt system.</p>
-<p>Ägare till webbplatser som anser att deras webbplats felaktigt har rapporterats som skadlig kan <a href='http://www.stopbadware.org/home/reviewinfo'>begära en omprövning</a>.</p>
+<p>Ägare till webbplatser som anser att deras webbplats felaktigt har rapporterats som skadlig kan <a href='https://www.stopbadware.org/request-review'>begära en omprövning</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Misstänkt webbförfalskning!">
@@ -170,8 +170,8 @@
 <p>Den här typen av webbförfalskningar används i något som kallas nätfiske där falska webbsidor och e-postmeddelanden används för att imitera källor du kanske litar på.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Blockerad av säkerhetspolicyn för innehåll">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; förhindrade sidan från att öppnas på detta sätt eftersom sidan har en säkerhetspolicy för innehåll som inte tillåter detta.</p>">
+<!ENTITY cspBlocked.title "Blockerat av innehållssäkerhetspolicy">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; har förhindrat denna sida från att laddas på detta viset eftersom sidan has en innehållssäkerhetspolicy som inte tillåter det.</p>">
 
 <!ENTITY xssBlockMode.title "Blockerad av XSS-filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -204,5 +204,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Rapportera detta fel">
+<!ENTITY errorReporting.longDesc "Att rapportera adressen och certifikatinfomationen för <span id='hostname'></span> hjälper oss att identifera och blockera skadliga sidor. Tack för att du gör webben till en säkrare plats!">
+<!ENTITY errorReporting.automatic "Rapportera automatiskt fel i framtiden">
+<!ENTITY errorReporting.learnMore "Läs mer…">
+<!ENTITY errorReporting.sending "Skickar rapport">
+<!ENTITY errorReporting.sent "Rapport skickad">
+<!ENTITY errorReporting.report "Rapport">
+<!ENTITY errorReporting.tryAgain "Försök igen">
+
 <!ENTITY remoteXUL.title "Extern XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakta ägaren av webbplatsen för att informera dem om detta problem.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Kunde inte ansluta säkert">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Avancerad info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Läs mer…">

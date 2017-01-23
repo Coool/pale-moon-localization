@@ -3,9 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  fontsDialog.title                       "Phông">
-<!ENTITY  window.width                            "39em">
-<!ENTITY  window.macWidth                         "43em">
-<!ENTITY  window.unixWidth                        "41em">
 
 <!ENTITY  language.label                          "Phông cho:">
 <!ENTITY  language.accesskey                      "P">
@@ -24,19 +21,17 @@
 <!ENTITY  monospace.label                         "Giãn cách đơn:">
 <!ENTITY  monospace.accesskey                     "G">
 
-<!ENTITY  font.langGroup.latin1                   "Phương Tây">
-<!ENTITY  font.langGroup.latin2                   "Trung Âu">
+<!-- LOCALIZATION NOTE (font.langGroup.latin) :
+     Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
+<!ENTITY  font.langGroup.latin                    "Latinh">
 <!ENTITY  font.langGroup.japanese                 "Nhật Bản">
-<!ENTITY  font.langGroup.trad-chinese             "Hoa Phồn Thể (Đài Loan)">
-<!ENTITY  font.langGroup.simpl-chinese            "Hoa Giản Thể">
-<!ENTITY  font.langGroup.trad-chinese-hk          "Hoa Phồn Thể (Hồng Kông)">
-<!ENTITY  font.langGroup.korean                   "Hàn Quốc">
+<!ENTITY  font.langGroup.trad-chinese             "Trung Phồn thể (Đài Loan)">
+<!ENTITY  font.langGroup.simpl-chinese            "Trung Giản thể">
+<!ENTITY  font.langGroup.trad-chinese-hk          "Trung Phồn thể (Hồng Kông)">
+<!ENTITY  font.langGroup.korean                   "Triều Tiên">
 <!ENTITY  font.langGroup.cyrillic                 "Kirin">
-<!ENTITY  font.langGroup.baltic                   "Ấn Âu">
-<!ENTITY  font.langGroup.el                       "Hi Lạp">
-<!ENTITY  font.langGroup.turkish                  "Thổ Nhĩ Kì">
-<!ENTITY  font.langGroup.unicode                  "Ngôn ngữ khác">
-<!ENTITY  font.langGroup.user-def                 "Người dùng Định nghĩa">
+<!ENTITY  font.langGroup.el                       "Hy Lạp">
+<!ENTITY  font.langGroup.other                    "Hệ thống Văn bản Khác">
 <!ENTITY  font.langGroup.thai                     "Thái">
 <!ENTITY  font.langGroup.hebrew                   "Do Thái">
 <!ENTITY  font.langGroup.arabic                   "Ả Rập">
@@ -44,8 +39,8 @@
 <!ENTITY  font.langGroup.tamil                    "Tamil">
 <!ENTITY  font.langGroup.armenian                 "Armenia">
 <!ENTITY  font.langGroup.bengali                  "Băng-gan">
-<!ENTITY  font.langGroup.canadian                 "Kí hiệu Âm tiết Canađa Thống nhất">
-<!ENTITY  font.langGroup.ethiopic                 "Ethiopic">
+<!ENTITY  font.langGroup.canadian                 "Ký hiệu Âm tiết Canada Thống nhất">
+<!ENTITY  font.langGroup.ethiopic                 "Ethiopia">
 <!ENTITY  font.langGroup.georgian                 "Gruzia">
 <!ENTITY  font.langGroup.gujarati                 "Gujarat">
 <!ENTITY  font.langGroup.gurmukhi                 "Gurmukhi">
@@ -72,3 +67,40 @@
 <!ENTITY languages.customize.Fallback.label       "Cách mã hóa ký tự thay thế:">
 <!ENTITY languages.customize.Fallback.accesskey   "C">
 <!ENTITY languages.customize.Fallback.desc        "Cách mã hóa kỹ tự này được dùng cho những nội dung, ký tự cũ mà không có cách mã hóa.">
+
+<!ENTITY languages.customize.Fallback.auto        "Mặc định cho Địa phương Hiện tại">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.arabic):
+     Translate "Arabic" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.arabic      "Ả Rập">
+<!ENTITY languages.customize.Fallback.baltic      "Baltic">
+<!ENTITY languages.customize.Fallback.ceiso       "Trung Âu, ISO">
+<!ENTITY languages.customize.Fallback.cewindows   "Trung Âu, Microsoft">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.simplified):
+     Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.simplified  "Trung Giản thể">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.traditional):
+     Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.traditional "Trung Phồn thể">
+<!ENTITY languages.customize.Fallback.cyrillic    "Kirin">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.greek):
+     Translate "Greek" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.greek       "Hy Lạp">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.hebrew):
+     Translate "Hebrew" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.hebrew      "Do Thái">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.japanese):
+     Translate "Japanese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.japanese    "Nhật Bản">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.korean):
+     Translate "Korean" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.korean      "Triều Tiên">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.thai):
+     Translate "Thai" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.thai        "Thái">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.turkish):
+     Translate "Turkish" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.turkish     "Thổ Nhĩ Kỳ">
+<!-- LOCALIZATION NOTE (languages.customize.Fallback.vietnamese):
+     Translate "Vietnamese" as an adjective for an encoding, not as the name of the language. -->
+<!ENTITY languages.customize.Fallback.vietnamese  "Việt">
+<!ENTITY languages.customize.Fallback.other       "Khác (Bao gồm Tây Âu)">

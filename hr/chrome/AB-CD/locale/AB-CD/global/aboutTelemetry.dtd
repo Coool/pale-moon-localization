@@ -12,6 +12,10 @@
   Telemetrija je <span>isključena</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Spori SQL upiti
 ">
@@ -20,12 +24,24 @@
   Smrzavanje web preglednika
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogrami
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Jednostavna mjerenja
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +56,8 @@
   Histogrami koje su prikupili dodaci
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Kliknite za proširenje
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Kliknite za skupljanje
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -62,4 +74,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   Prikaži neobrađene podatke od smrzavanja raw data from hangs
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
 ">

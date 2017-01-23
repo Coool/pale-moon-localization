@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Eklenti Yöneticisi">
 
 <!ENTITY search.placeholder                   "Tüm eklentilerde ara">
+<!ENTITY search.buttonlabel                   "Arama">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "u">
 <!ENTITY cmd.uninstallAddon.label             "Kaldır">
 <!ENTITY cmd.uninstallAddon.accesskey         "K">
+<!ENTITY cmd.debugAddon.label                 "Debug">
 <!ENTITY cmd.showPreferencesWin.label         "Seçenekler">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Bu eklentinin seçeneklerini değiştir">
 <!ENTITY cmd.showPreferencesUnix.label        "Tercihler">
@@ -206,6 +208,9 @@ en çok tutulan eklentilerden bazıları öne çıkarılacak.">
 <!ENTITY addon.loadingReleaseNotes.label      "Yükleniyor…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Üzgünüz, ancak sürüm notları yüklenirken bir hata meydana geldi.">
 
+<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
+<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+
 <!ENTITY addon.createdBy.label                "Yazan: ">
 
 <!ENTITY eula.title                           "Son kullanıcı izin anlaşması">
@@ -214,3 +219,16 @@ en çok tutulan eklentilerden bazıları öne çıkarılacak.">
 <!ENTITY eula.accept                          "Kabul et ve kur...">
 
 <!ENTITY settings.path.button.label           "Gözat…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
+<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.learnmore.accesskey "L">
+<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+<!ENTITY setting.learnmore "Learn More…">

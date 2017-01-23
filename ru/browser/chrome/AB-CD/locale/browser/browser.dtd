@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Элементы панели закладок">
 <!ENTITY addonBarCmd.label "Панель дополнений">
 <!ENTITY addonBarCmd.accesskey "д">
+<!ENTITY statusBar.label               "Панель состояния">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Исходный код страницы">
 <!ENTITY pageSourceCmd.accesskey "х">
@@ -106,7 +108,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenExitButton.label "Запретить">
 <!ENTITY fullscreenApproval.value "Разрешить переход в полноэкранный режим?">
 
-<!ENTITY fullscreenExitHint.value "Нажмите в любой момент кнопку Esc, чтобы выйти из полноэкранного режима.">
+<!ENTITY fullscreenExitHint.value "Нажмите клавишу Esc в любой момент, чтобы выйти из полноэкранного режима.">
 <!ENTITY leaveDOMFullScreen.label "Выйти из полноэкранного режима">
 <!ENTITY leaveDOMFullScreen.accesskey "ы">
 
@@ -122,6 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Подписаться на ленты новостей…">
 <!ENTITY addCurPagesCmd.label "Добавить все вкладки…">
 <!ENTITY showAllBookmarks2.label "Показать все закладки">
+<!ENTITY organizeBookmarks.label "Показать все закладки">
 <!ENTITY unsortedBookmarksCmd.label "Неподшитые закладки">
 <!ENTITY bookmarksToolbarChevron.tooltip "Показать больше закладок">
 
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "п">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "Пипетка">
+<!ENTITY eyedropper.accesskey "и">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,6 +244,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Закрыть панель разработки">
 <!ENTITY devToolbarMenu.label              "Панель разработки">
 <!ENTITY devToolbarMenu.accesskey          "а">
+<!ENTITY devAppMgrMenu.label               "Управление приложениями">
+<!ENTITY devAppMgrMenu.accesskey           "в">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Показать/скрыть инструменты">
@@ -403,6 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "п">
 <!ENTITY savePageCmd.label            "Сохранить как…">
 <!ENTITY savePageCmd.accesskey        "х">
+<!ENTITY sendLinkCmd.label            "Отправить ссылку…">
+<!ENTITY sendLinkCmd.accesskey        "т">
+<!ENTITY sendPageCmd.label            "Отправить ссылку на страницу…">
+<!ENTITY sendPageCmd.accesskey        "п">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "р">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -525,7 +541,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY copyButton.tooltip             "Копировать">
 <!ENTITY pasteButton.tooltip            "Вставить">
 
-<!ENTITY fullScreenButton.tooltip       "Раскрывает окно на полный экран">
+<!ENTITY fullScreenButton.tooltip       "Раскрыть окно на полный экран">
 
 <!ENTITY zoomOutButton.tooltip          "Уменьшить">
 <!ENTITY zoomInButton.tooltip           "Увеличить">
@@ -631,7 +647,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY mixedContentBlocked.helplink "Подробнее">
 <!ENTITY mixedContentBlocked.moreinfo "Большинство веб-сайтов будут продолжать нормально работать, даже когда это содержимое заблокировано.">
 
-<!ENTITY pointerLock.notification.message "Нажмите в любой момент кнопку Esc, чтобы показать его снова.">
+<!ENTITY pointerLock.notification.message "Нажмите в любой момент клавишу Esc, чтобы показать его снова.">
 
 <!ENTITY pluginNotification.showAll.label "Показать все">
 <!ENTITY pluginNotification.showAll.accesskey "о">

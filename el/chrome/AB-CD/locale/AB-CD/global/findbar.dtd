@@ -5,7 +5,6 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
-<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "Επόμενο">
 <!ENTITY next.accesskey "ν">
 <!ENTITY next.tooltip "Εύρεση της επόμενης εμφάνισης της φράσης">
@@ -13,8 +12,9 @@
 <!ENTITY previous.accesskey "γ">
 <!ENTITY previous.tooltip "Εύρεση της προηγούμενης εμφάνισης της φράσης">
 <!ENTITY findCloseButton.tooltip "Κλείσιμο μπάρας εύρεσης">
-<!ENTITY highlight.label "Επισήμανση">
-<!ENTITY highlight.accesskey "σ">
-<!ENTITY highlight.tooltiptext "Επισήμανση όλων των εμφανίσεων της φράσης">
-<!ENTITY caseSensitiveCheckbox.label "Συμφωνία πεζών-κεφαλαίων">
-<!ENTITY caseSensitiveCheckbox.accesskey "φ">
+<!ENTITY highlightAll.label "Επισήμανση όλων">
+<!ENTITY highlightAll.accesskey "a">
+<!ENTITY highlightAll.tooltiptext "Highlight all occurrences of the phrase">
+<!ENTITY caseSensitive.label "Match Case">
+<!ENTITY caseSensitive.accesskey "c">
+<!ENTITY caseSensitive.tooltiptext "Search with case sensitivity">

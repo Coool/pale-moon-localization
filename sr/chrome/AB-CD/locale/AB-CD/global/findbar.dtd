@@ -5,7 +5,6 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
-<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "Следеће">
 <!ENTITY next.accesskey "С">
 <!ENTITY next.tooltip "Налази наредну појаву фразе">
@@ -13,8 +12,9 @@
 <!ENTITY previous.accesskey "П">
 <!ENTITY previous.tooltip "Пронађи претходну појаву фразе">
 <!ENTITY findCloseButton.tooltip "Затвори траку за проналажење">
-<!ENTITY highlight.label "Истакни све">
-<!ENTITY highlight.accesskey "И">
-<!ENTITY highlight.tooltiptext "Истакни све појаве фразе">
-<!ENTITY caseSensitiveCheckbox.label "Разликуј величину слова">
-<!ENTITY caseSensitiveCheckbox.accesskey "Р">
+<!ENTITY highlightAll.label "Highlight All">
+<!ENTITY highlightAll.accesskey "a">
+<!ENTITY highlightAll.tooltiptext "Highlight all occurrences of the phrase">
+<!ENTITY caseSensitive.label "Match Case">
+<!ENTITY caseSensitive.accesskey "c">
+<!ENTITY caseSensitive.tooltiptext "Search with case sensitivity">

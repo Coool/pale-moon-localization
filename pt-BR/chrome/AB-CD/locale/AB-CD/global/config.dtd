@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "about:config">
+<!ENTITY window.title "sobre: config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
 <!ENTITY aboutWarningTitle.label "HIC SUNT DRACONES">
 <!ENTITY aboutWarningText.label "A modificação destas configurações avançadas pode prejudicar a estabilidade, a segurança e o desempenho deste aplicativo. Continue somente se estiver seguro do que for fazer.">
 <!ENTITY aboutWarningButton.label "Serei cuidadoso, prometo!">
@@ -17,7 +17,7 @@
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Nome">
-<!ENTITY lockColumn.label "Status">
+<!ENTITY lockColumn.label "Estado">
 <!ENTITY typeColumn.label "Tipo">
 <!ENTITY valueColumn.label "Valor">
 

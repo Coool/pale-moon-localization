@@ -3,41 +3,41 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Bewerk dit bestand en kopieer het als userChrome.css naar uw 
- * profielmap/chrome/
+ * Edit this file and copy it as userChrome.css into your
+ * profile-directory/chrome/
  */
 
 /*
- * Dit bestand kan worden gebruikt om het uiterlijk van Mozilla’s gebruikersinterface aan te passen
- * Overweeg om !important te gebruiken voor regels waarvan u wilt dat ze voorgaan op 
- * de standaardinstellingen.
+ * This file can be used to customize the look of Mozilla's user interface
+ * You should consider using !important on rules which you want to
+ * override default settings.
  */
 
 /*
- * De lijn met @namespace niet verwijderen -- deze is nodig voor correct functioneren
+ * Do not remove the @namespace line -- it's required for correct functioning
  */
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* zet de standaard namespace op XUL */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
 
 
 /*
- * Enkele mogelijke toegankelijkheidsverbeteringen:
+ * Some possible accessibility enhancements:
  */
 /*
- * Zet alle standaard lettertypegroottes op 20 pt:
+ * Make all the default font sizes 20 pt:
  *
  * * {
  *   font-size: 20pt !important
  * }
  */
 /*
- * Maak menu-items afzonderlijk 15 pt in plaats van de standaardgrootte:
+ * Make menu items in particular 15 pt instead of the default size:
  *
  * menupopup > * {
  *   font-size: 15pt !important
  * }
  */
 /*
- * Gebruik voor de locatiebalk (URL) een lettertype met vaste breedte
+ * Give the Location (URL) Bar a fixed-width font
  *
  * #urlbar {
  *    font-family: monospace !important;
@@ -45,5 +45,6 @@
  */
 
 /*
- * Voor meer voorbeelden, zie http://www.mozilla.org/unix/customizing.html
+ * For more examples see http://www.mozilla.org/unix/customizing.html
  */
+ 

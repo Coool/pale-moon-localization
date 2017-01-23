@@ -4,6 +4,7 @@
 <!ENTITY addons.windowTitle                   "Kiegészítőkezelő">
 
 <!ENTITY search.placeholder                   "Keresés a kiegészítők között">
+<!ENTITY search.buttonlabel                   "Keresés">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "T">
 <!ENTITY cmd.uninstallAddon.label             "Eltávolítás">
 <!ENTITY cmd.uninstallAddon.accesskey         "l">
+<!ENTITY cmd.debugAddon.label                 "Hibakeresés">
 <!ENTITY cmd.showPreferencesWin.label         "Beállítások">
 <!ENTITY cmd.showPreferencesWin.tooltip       "A kiegészítő beállításainak módosítása">
 <!ENTITY cmd.showPreferencesUnix.label        "Beállítások">
@@ -205,6 +207,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Betöltés…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Sajnáljuk, de hiba történt a kiadási megjegyzések betöltésekor.">
 
+<!ENTITY addon.nativeAddon                    "Pale Moon-hoz készült kiegészítő">
+<!ENTITY addon.compatAddon                    "Mozilla Firefox-hoz készült kiegészítő, kompatibilitási módban fut">
+
 <!ENTITY addon.createdBy.label                "Szerző: ">
 
 <!ENTITY eula.title                           "Végfelhasználói licencszerződés">
@@ -213,3 +218,16 @@
 <!ENTITY eula.accept                          "Elfogadás és telepítés…">
 
 <!ENTITY settings.path.button.label           "Tallózás…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "Mi ez? A telemetria időről időre kísérleteket telepíthet és futtathat.">
+<!ENTITY experiment.info.learnmore "További tudnivalók">
+<!ENTITY experiment.info.learnmore.accesskey "T">
+<!ENTITY experiment.info.changetelemetry "Telemetria beállításai">
+<!ENTITY experiment.info.changetelemetry.accesskey "b">
+
+<!ENTITY setting.learnmore "További tudnivalók…">

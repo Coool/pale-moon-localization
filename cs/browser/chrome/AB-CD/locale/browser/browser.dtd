@@ -76,9 +76,11 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Záložky nástrojové lišty">
 <!ENTITY addonBarCmd.label "Lišta doplňků">
 <!ENTITY addonBarCmd.accesskey "d">
+<!ENTITY statusBar.label               "Stavový řádek">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Zdrojový kód stránky">
-<!ENTITY pageSourceCmd.accesskey "k">
+<!ENTITY pageSourceCmd.accesskey "j">
 <!ENTITY pageSourceCmd.commandkey "u">
 <!ENTITY pageInfoCmd.label "Informace o stránce">
 <!ENTITY pageInfoCmd.accesskey "I">
@@ -122,12 +124,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Odebírat kanál této stránky…">
 <!ENTITY addCurPagesCmd.label "Přidat všechny panely do záložek…">
 <!ENTITY showAllBookmarks2.label "Zobrazit všechny záložky">
+<!ENTITY organizeBookmarks.label "Spravovat záložky">
 <!ENTITY unsortedBookmarksCmd.label "Netříděné záložky">
 <!ENTITY bookmarksToolbarChevron.tooltip "Zobrazí více záložek">
 
 <!ENTITY backCmd.label                "Zpět">
 <!ENTITY backCmd.accesskey            "Z">
-<!ENTITY backButton.tooltip           "Přejde o jednu stránku zpět">
+<!ENTITY backButton.tooltip           "Přejde na předchozí stránku">
 <!ENTITY forwardCmd.label             "Vpřed">
 <!ENTITY forwardCmd.accesskey         "V">
 <!ENTITY forwardButton.tooltip        "Přejde na následující stránku">
@@ -181,7 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY toolsMenu.label              "Nástroje">
 <!ENTITY toolsMenu.accesskey          "N"> 
 
-<!ENTITY keywordfield.label           "K vyhledávání přiřadit klíčové slovo">
+<!ENTITY keywordfield.label           "Přiřadit k tomuto vyhledávání klíčové slovo…">
 <!ENTITY keywordfield.accesskey       "h">
 <!ENTITY search.label                 "Hledání na webu">
 <!ENTITY search.accesskey             "w">
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "Kapátko">
+<!ENTITY eyedropper.accesskey "a">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,16 +244,22 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Zavře Lištu vývoje">
 <!ENTITY devToolbarMenu.label              "Lišta vývoje">
 <!ENTITY devToolbarMenu.accesskey          "v">
+<!ENTITY devAppMgrMenu.label               "Správce aplikací">
+<!ENTITY devAppMgrMenu.accesskey           "a">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "b">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Nástroje vývojáře">
-<!ENTITY devToolboxMenuItem.accesskey      "N">
+<!ENTITY devToolboxMenuItem.accesskey      "t">
 
 <!ENTITY devToolbarToolsButton.tooltip     "Přepne Nástroje vývojáře">
 <!ENTITY devToolbarOtherToolsButton.label  "Další nástroje">
 
 <!ENTITY getMoreDevtoolsCmd.label        "Získat další nástroje">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "d">
+<!ENTITY getMoreDevtoolsCmd.accesskey    "l">
 
 <!ENTITY fileMenu.label         "Soubor"> 
 <!ENTITY fileMenu.accesskey       "S">
@@ -267,14 +279,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY redoCmd.accesskey          "o"> 
 <!ENTITY cutCmd.label           "Vyjmout">  
 <!ENTITY cutCmd.key             "X">  
-<!ENTITY cutCmd.accesskey         "j"> 
+<!ENTITY cutCmd.accesskey         "y"> 
 <!ENTITY copyCmd.label            "Kopírovat">  
 <!ENTITY copyCmd.key            "C">  
 <!ENTITY copyCmd.accesskey          "K"> 
 <!ENTITY pasteCmd.label           "Vložit">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "l"> 
-<!ENTITY deleteCmd.label          "Odstranit">  
+<!ENTITY deleteCmd.label          "Smazat">  
 <!ENTITY deleteCmd.key            "d">  
 <!ENTITY deleteCmd.accesskey        "m"> 
 <!ENTITY selectAllCmd.label         "Vybrat vše">  
@@ -366,8 +378,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showOnlyThisFrameCmd.label     "Zobrazit pouze tento rám">
 <!ENTITY showOnlyThisFrameCmd.accesskey "p">
 <!ENTITY reloadCmd.commandkey         "r">
-<!ENTITY reloadFrameCmd.label         "Znovu načíst rám">
-<!ENTITY reloadFrameCmd.accesskey     "r">
+<!ENTITY reloadFrameCmd.label         "Obnovit rám">
+<!ENTITY reloadFrameCmd.accesskey     "m">
 <!ENTITY viewPartialSourceForSelectionCmd.label "Zobrazit zdrojový kód výběru">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "Zobrazit zdrojový kód MathML">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
@@ -403,6 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "e">
 <!ENTITY savePageCmd.label            "Uložit stránku jako…">
 <!ENTITY savePageCmd.accesskey        "U">
+<!ENTITY sendLinkCmd.label            "Odeslat odkaz…">
+<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendPageCmd.label            "Odeslat odkaz na stránku…">
+<!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "j">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -438,7 +454,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyVideoURLCmd.accesskey    "a">
 <!ENTITY copyAudioURLCmd.label        "Kopírovat adresu audia">
 <!ENTITY copyAudioURLCmd.accesskey    "a">
-<!ENTITY copyEmailCmd.label           "Kopírovat adresu e-mailu">
+<!ENTITY copyEmailCmd.label           "Kopírovat e-mailovou adresu">
 <!ENTITY copyEmailCmd.accesskey       "a">
 <!ENTITY thisFrameMenu.label              "Tento rám">
 <!ENTITY thisFrameMenu.accesskey          "T">
@@ -507,8 +523,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
-<!ENTITY fullZoomResetCmd.label         "Normální">
-<!ENTITY fullZoomResetCmd.accesskey     "N">
+<!ENTITY fullZoomResetCmd.label         "Výchozí">
+<!ENTITY fullZoomResetCmd.accesskey     "c">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
@@ -565,7 +581,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "Změnit orientaci stránky">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "o">
-<!ENTITY bidiSwitchTextDirectionItem.label        "Změnit orientaci textu">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Změnit směr textu">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "r">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 

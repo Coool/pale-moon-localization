@@ -8,8 +8,6 @@
 
 <!ENTITY securityOverride.linkText "O puede añadir una excepción…">
 <!ENTITY securityOverride.warningContent "
-<p>No debería añadir una excepción si se está usando una conexión a Internet en la que no se confía plenamente o si no solía ver una advertencia en este sitio.</p>
-
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+<p>No debes añadir una excepción si estás utilizando una conexión a internet en la que no confías totalmente o si no es usual ver una advertencia para este servidor.</p>
+ <p>Si aun así deseas añadir una excepción para este sitio, puedes hacerlo en la configuración avanzada de cifrado.</p>
 ">

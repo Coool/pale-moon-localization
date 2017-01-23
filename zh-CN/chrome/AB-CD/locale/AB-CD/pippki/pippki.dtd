@@ -9,7 +9,6 @@
 <!ENTITY setPassword.newPassword.label "请输入新的密码：">
 <!ENTITY setPassword.reenterPassword.label "重新输入密码：">
 <!ENTITY setPassword.meter.label "密码质量标尺">
-<!ENTITY setPassword.meter.loading "正在载入">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "重置">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "安全设备：">
 <!ENTITY getPassword.password.label "密码:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "错误">
-<!ENTITY pipalert.title "错误－无法恢复">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "安全">
-<!ENTITY pref.security.general.rHeader "常规安全设置">
-<!ENTITY pref.security.general.header "常规安全设置">
-<!ENTITY pref.security.general.level.title "安全级别">
-<!ENTITY pref.security.general.paranoid.label "使用极其严格的安全设置">
-<!ENTITY pref.security.general.certificates.title "证书">
-<!ENTITY pref.security.general.manageCert.label "管理证书">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "下载证书">
 <!ENTITY downloadCert.message1 "您被询问要求信任一个新的证书授权（CA）。">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "信任用此CA来标识的软件开发者。">
 <!ENTITY downloadCert.message3 "在信任此CA之前，您应该检查它的证书、策略和它的手续（如果有的话）。">
 <!ENTITY downloadCert.viewCert.label "查看">
-<!ENTITY downloadCert.viewPolicy.label "策略">
 <!ENTITY downloadCert.viewCert.text "检查CA证书">
-<!ENTITY downloadCert.viewPolicy.text "检查CA策略和手续">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "使用确认请求">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "证书备份密码(重复):">
 <!ENTITY pkcs12.setpassword.reminder "重要：如果您忘记了您的证书备份密码，您此后将无法恢复此备份。请将它记在一个安全的地方。">
 
-<!ENTITY pkcs12.getpassword.title  "密码输入对话框">
-<!ENTITY pkcs12.getpassword.message "请输入密码以便将此证书加密备份。">
-
 <!ENTITY chooseToken.title  "记号选择对话框">
 <!ENTITY chooseToken.message1 "请选择一个记号">
 
@@ -81,16 +62,7 @@
 <!ENTITY createCertInfo.msg1 "正在生成密钥… 可能需要几分钟…。">
 <!ENTITY createCertInfo.msg2 "请稍候…">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "文字签署请求">
-<!ENTITY formSigning.cert "正在签署证书">
-<!ENTITY formSigning.confirmPassword "为了确定您同意使用您所选的证书来签署此文本消息，请输入主密码确认：">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "保护的记号验证">
 <!ENTITY protectedAuth.msg "请验证该记号。认证方式依赖于记号的类型。">
 <!ENTITY protectedAuth.tokenName.label "记号：">
-
-<!ENTITY certErrorDlg.title "安全连接失败">
-<!ENTITY certErrorDlg.info1 "这可能是服务器配置的问题，或者由于有人冒充该服务器导致。">
-<!ENTITY certErrorDlg.info2 "如果您之前曾成功连接该服务器，那么此错误可能是暂时的，请稍后再试。">

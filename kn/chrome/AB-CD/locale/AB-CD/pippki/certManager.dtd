@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "ಅಧಿಕಾರಿಗಳು">
 <!ENTITY certmgr.tab.orphan2                  "ಇತರ">
 
-<!ENTITY certmgr.ca.builtins                  "ಅಂತರ್ನಿರ್ಮಿತ CAs">
-<!ENTITY certmgr.ca.mycas                     "ನೀವು ನಿರ್ವಹಿಸುತ್ತಿರುವ CAs">
-
 <!ENTITY certmgr.mine                         "ನಿಮ್ಮನ್ನು ಗುರುತಿಸುವ ಈ ಸಂಸ್ಥೆಯಿಂದ ಪಡೆದ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ನೀವು ಹೊಂದಿದ್ದೀರಿ:">
 <!ENTITY certmgr.others                       "ನೀವು ಈ ಜನರನ್ನು ಗುರುತಿಸುವ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಈ ಫೈಲ್ನಲ್ಲಿ ಹೊಂದಿರುವಿರಿ:">
 <!ENTITY certmgr.websites2                    "ಈ ಸರ್ವರ್ಗಳನ್ನು ಗುರುತಿಸುವ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ನೀವು ಫೈಲ್ನಲ್ಲಿ ಹೊಂದಿರುವಿರಿ:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "ಪ್ರಸ್ತುತ ಪ್ರಮಾಣಪತ್ರ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...">
 <!ENTITY certmgr.subjectinfo.label            "ಇವರಿಗೆ ನೀಡಲಾಗಿದೆ">
 <!ENTITY certmgr.issuerinfo.label             "ಇವರಿಂದ ನೀಡಲಾಗಿದೆ">
-<!ENTITY certmgr.validity.label               "ವಾಯಿದೆ" >
+<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
 <!ENTITY certmgr.fingerprints.label           "ಬೆರಳಗುರುತು">
 <!ENTITY certmgr.certdetail.title             "ಪ್ರಮಾಣಪತ್ರ ವಿವರ">
 <!ENTITY certmgr.certdetail.cn                "ಸಾಮಾನ್ಯ ಹೆಸರು (CN)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 ಬೆರಳಗುರುತು">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 ಬೆರಳಗುರುತು">
 
-<!ENTITY certmgr.editcert.title               "ಭದ್ರತಾ ಪ್ರಮಾಣಪತ್ರ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
 <!ENTITY certmgr.editcacert.title             "CA ಪ್ರಮಾಣಪತ್ರಗಳ ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
-<!ENTITY certmgr.editsslcert.title            "ವೆಬ್ಸೈಟ್ ಪ್ರಮಾಣಪತ್ರಗಳ ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
 <!ENTITY certmgr.editcert.edittrust           "ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
 <!ENTITY certmgr.editcert.trustssl            "ಈ ಪ್ರಮಾಣಪತ್ರದಿಂದ ವೆಬ್ಸೈಟ್ಗಳ್ಳನ್ನು ಗುರುತಿಸಬಹುದಾಗಿದೆ.">
 <!ENTITY certmgr.editcert.trustemail          "ಈ ಪ್ರಮಾಣಪತ್ರದಿಂದ ಮೇಲ್ ಬಳಕೆದಾರರು ಗುರುತಿಸಬಹುದಾಗಿದೆ.">
 <!ENTITY certmgr.editcert.trustobjsign        "ಈ ಪ್ರಮಾಣಪತ್ರದಿಂದ ಸಾಫ್ಟ್ವೇರ್ ತಯಾರಕರನ್ನು ಗುರುತಿಸಬಹುದಾಗಿದೆ.">
-<!ENTITY certmgr.editsslcert.edittrust        "ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ:">
-<!ENTITY certmgr.editsslcert.dotrust          "ಈ ಪ್ರಮಾಣಪತ್ರದ ದೃಢೀಕರಣವನ್ನು ನಂಬಬಹುದು.">
-<!ENTITY certmgr.editsslcert.donttrust        "ಈ ಪ್ರಮಾಣಪತ್ರದ ದೃಢೀಕರಣವನ್ನು ನಂಬಬೇಡಿ.">
 <!ENTITY certmgr.editemailcert.title          "ಇ-ಮೇಲ್ ಪ್ರಮಾಣಪತ್ರ ವಿಶ್ವಾಸಾರ್ಹ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ">
 <!ENTITY certmgr.editemailcert.edittrust      "ವಿಶ್ವಾಸಾರ್ಹ ಪ್ರಮಾಣಪತ್ರದ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ:">
 <!ENTITY certmgr.editemailcert.dotrust        "ಈ ಪ್ರಮಾಣಪತ್ರದ ದೃಢೀಕರಣವನ್ನು ನಂಬಬಹುದು.">
 <!ENTITY certmgr.editemailcert.donttrust      "ಈ ಪ್ರಮಾಣಪತ್ರದ ದೃಢೀಕರಣವನ್ನು ನಂಬಬೇಡಿ.">
 
 <!ENTITY certmgr.deletecert.title             "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಿ">
-<!ENTITY certmgr.deletecert.beforename        "ಈ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಲು ನೀವು ವಿನಂತಿಸಿದ್ದಿರಿ:">
-<!ENTITY certmgr.deletecert.aftername         "ಈ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?">
-<!ENTITY certmgr.deleteusercert.title         "ನಿಮ್ಮ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಿ">
-<!ENTITY certmgr.deleteusercert.beforename    "ಈ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಲು ನೀವು ವಿನಂತಿಸಿದ್ದಿರಿ:">
-<!ENTITY certmgr.deleteusercert.aftername     "ಈ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಳಿಸಿದ ನಂತರ, ಇದನ್ನು ಆಧರಿಸಿ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾದ ಮೇಲ್ ಓದಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.">
 
 <!ENTITY certmgr.certname                     "ಪ್ರಮಾಣಪತ್ರ ಹೆಸರು">
 <!ENTITY certmgr.certserver                   "ಸರ್ವರ್">
 <!ENTITY certmgr.override_lifetime            "ಜೀವಮಾನ">
 <!ENTITY certmgr.tokenname                    "ಸುರಕ್ಷತೆ ಸಾಧನ">
-<!ENTITY certmgr.issued                       "ಈ ದಿನ ಬಿಡುಗಡೆಗೊಳಿಸಲಾಗಿದೆ">
+<!ENTITY certmgr.begins                       "Begins On">
 <!ENTITY certmgr.expires                      "ಈ ದಿನದಂದು ಅವಧಿಯನ್ನು ಮೀರುತ್ತದೆ">
 <!ENTITY certmgr.email                        "ಇ-ಮೇಲ್ ವಿಳಾಸ">
 <!ENTITY certmgr.serial                       "ಕ್ರಮ ಸಂಖ್ಯೆ">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "E">
 <!ENTITY certmgr.editca.label                 "CA ಟ್ರಸ್ಟ್ ಬದಲಾಯಿಸಿ...">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "ಸೇರಿಸಿ">
-<!ENTITY certmgr.add.accesskey                "A">
 <!ENTITY certmgr.export.label                 "ರಫ್ತು ಮಾಡಿ...">
 <!ENTITY certmgr.export.accesskey             "x">
 <!ENTITY certmgr.delete2.label                "ಅಳಿಸಿ...">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "ಸ್ಥಾನಗಳ ಮೌಲ್ಯ">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "ಪ್ರಮಾಣಪತ್ರ ಶ್ರೇಣಿ ವ್ಯವಸ್ಥೆ">
-<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "ವಿನಾಯಿತಿ ಸೇರಿಸಿ...">
 <!ENTITY certmgr.addException.accesskey       "x">
 

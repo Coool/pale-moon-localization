@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Αυτή η διεύθυνση είναι περιορισμένη">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
 <!ENTITY dnsNotFound.title "Δεν βρέθηκε ο εξυπηρετητής">
 <!ENTITY dnsNotFound.longDesc "
@@ -86,10 +86,10 @@
 <!ENTITY netTimeout.title "Υπέρβαση ορίου χρόνου της σύνδεσης">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Δεν έγινε κατανοητή η διεύθυνση">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Ίσως χρειάζεται να εγκαταστήσετε κάποιο άλλο πρόγραμμα για να ανοίξετε αυτή τη διεύθυνση.</li>
+  <li>You might need to install other software to open this address.</li>
 </ul>
 ">
 
@@ -128,10 +128,10 @@
 ">
 
 <!ENTITY nssFailure2.title "Αποτυχία ασφαλούς σύνδεσης">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>Η σελίδα που προσπαθείτε να δείτε δεν μπορεί να εμφανιστεί επειδή δεν είναι δυνατή η πιστοποίηση της αυθεντικότητας των ληφθέντων δεδομένων.</li>
-  <li>Επικοινωνήστε με τους ιδιοκτήτες της ιστοσελίδας για να τους πληροφορήσετε για το πρόβλημα.</li>
+  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
@@ -157,8 +157,8 @@
 
 <!ENTITY malwareBlocked.title "Ύποπτη σελίδα κακόβουλων επιθέσεων!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Οι ιστοσελίδες επιθέσεων προσπαθούν να εγκαταστήσουν προγράμματα στον υπολογιστή σας τα οποία υποκλέπτουν προσωπικές σας πληροφορίες, χρησιμοποιούν τον υπολογιστή σας για να επιτίθενται σε άλλους υπολογιστές και βλάπτουν το σύστημα σας.</p>
-<p>Οι ιδιοκτήτες των ιστοσελίδων που πιστεύουν ότι η σελίδα τους έχει υποδειχθεί λανθασμένα ως κακόβουλη ιστοσελίδα μπορούν να ζητήσουν <a href='http://www.stopbadware.org/home/reviewinfo' >επανεξέταση</a>.</p>
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Σελίδα ύποπτη για πλαστογραφία!">
@@ -167,8 +167,8 @@
 <p>Αυτού του είδους οι πλαστογραφίες χρησιμοποιούνται σε απάτες γνωστές και ως phishing attacks, με τις οποίες οι ύποπτες σελίδες και τα email προσπαθούν να μιμηθούν έμπιστες σε εσάς πηγές.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Έχει φραγεί από την πολιτική προστασίας περιεχομένου">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Ο &brandShortName; εμπόδισε τη φόρτωση της σελίδας με αυτό τον τρόπο, επειδή η σελίδα έχει μια πολιτική προστασίας περιεχομένου που δεν το επιτρέπει.</p>">
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -201,5 +201,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.learnMore "Learn more…">
+<!ENTITY errorReporting.sending "Sending report">
+<!ENTITY errorReporting.sent "Report sent">
+<!ENTITY errorReporting.report "Report">
+<!ENTITY errorReporting.tryAgain "Try again">
+
 <!ENTITY remoteXUL.title "Απομακρυσμένο XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Παρακαλούμε επικοινωνήστε με τους ιδιοκτήτες της ιστοσελίδας για να τους ενημερώσετε για αυτό το πρόβλημα.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Learn More…">

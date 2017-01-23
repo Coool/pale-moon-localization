@@ -4,16 +4,16 @@
 
 <!ENTITY  updateWizard.title              "Actualización de &brandShortName;">
 
-<!ENTITY  offline.title                   "&brandShortName; está fuera de linea.">
-<!ENTITY  offline.description             "&brandShortName; necesita conectarse en línea para buscar
-                                           actualizaciones disponibles para hacer que sus complementos
+<!ENTITY  offline.title                   "&brandShortName; está trabajando sin conexión">
+<!ENTITY  offline.description             "&brandShortName; necesita conectarse para buscar actualizaciones
+                                           disponibles que puedan hacer que tus complementos
                                            sean compatibles con esta nueva versión.">
-<!ENTITY  offline.toggleOffline.label     "Pasar a conectarse en línea ahora.">
-<!ENTITY  offline.toggleOffline.accesskey "P">
+<!ENTITY  offline.toggleOffline.label     "Conectarse ahora.">
+<!ENTITY  offline.toggleOffline.accesskey "C">
 
 <!ENTITY  mismatch.win.title              "Complementos incompatibles">
 <!ENTITY  mismatch.top.label              "Los siguientes complementos no son compatibles con esta versión de
-                                           &brandShortName; y han sido desactivados:">
+                                           &brandShortName; y han sido deshabilitados:">
 <!ENTITY  mismatch.bottom.label           "&brandShortName; puede comprobar si hay versiones compatibles
                                            disponibles de estos complementos.">
 
@@ -21,11 +21,10 @@
 <!ENTITY  checking.top.label              "Buscando actualizaciones para tus complementos incompatibles…">
 <!ENTITY  checking.status                 "Esto puede tardar unos minutos…">
 
-<!ENTITY  found.wizard.title              "Complementos compatibles encontrados">
-<!ENTITY  found.top.label                 "Seleccione los complementos que quiera instalar:">
+<!ENTITY  found.wizard.title               "Complementos compatibles encontrados">
+<!ENTITY  found.top.label                 "Selecciona los complementos que quieras instalar:">
 <!ENTITY  found.disabledXPinstall.label   "Estas actualizaciones no pueden aplicarse porque la instalación de software
-                                           está desactivada en este momento. Puede cambiar esta
-                                           configuración debajo.">
+                                           está deshabilitada. Puedes cambiar esta configuración debajo.">
 <!ENTITY  found.enableXPInstall.label     "Permitir a los sitios web instalar software">
 <!ENTITY  found.enableXPInstall.accesskey "P">
 
@@ -33,32 +32,34 @@
 <!ENTITY  installing.top.label            "Descargando e instalando actualizaciones de tus complementos…">
 
 <!ENTITY  noupdates.wizard.title          "No se han encontrado complementos compatibles">
-<!ENTITY  noupdates.intro.desc            "&brandShortName; no ha podido encontrar actualizaciones para sus
-                                           complementos incompatibles.">
+<!ENTITY  noupdates.intro.desc            "&brandShortName; no ha podido encontrar actualizaciones para
+                                           tus complementos incompatibles.">
 <!ENTITY  noupdates.error.desc            "Se han encontrado algunos problemas al intentar encontrar actualizaciones.">
-<!ENTITY  noupdates.checkEnabled.desc     "&brandShortName; buscará periódicamente y le informará cuando
+<!ENTITY  noupdates.checkEnabled.desc     "&brandShortName; buscará periódicamente y te informará cuando
                                            encuentre actualizaciones compatibles para estos complementos.">
 
 <!ENTITY  finished.wizard.title           "Complementos compatibles instalados">
-<!ENTITY  finished.top.label              "&brandShortName; ha instalado las actualizaciones a tus complementos.">
-<!ENTITY  finished.checkDisabled.desc     "&brandShortName; puede buscar periódicamente e informarle
+<!ENTITY  finished.top.label              "&brandShortName; ha instalado las actualizaciones de tus complementos.">
+<!ENTITY  finished.checkDisabled.desc     "&brandShortName; puede buscar periódicamente e informarte
                                            cuando encuentre actualizaciones para los complementos.">
-<!ENTITY  finished.checkEnabled.desc      "&brandShortName; buscará periódicamente y le informará
+<!ENTITY  finished.checkEnabled.desc      "&brandShortName; buscará periódicamente y te informará
                                            cuando encuentre actualizaciones para los complementos.">
 
 <!ENTITY  adminDisabled.wizard.title      "No se pueden buscar actualizaciones">
-<!ENTITY  adminDisabled.warning.label     "No es posible buscar actualizaciones de los complementos incompatibles porque la instalación de software en &brandShortName; ha sido desactivada. Por favor, contacte con el administrador del sistema para obtener ayuda.">
+<!ENTITY  adminDisabled.warning.label     "No es posible buscar actualizaciones de los complementos incompatibles
+                                           porque la instalación de software en &brandShortName; ha sido deshabiltada.
+                                           Por favor, contacta con el administrador del sistema para obtener ayuda.">
 
 <!ENTITY  versioninfo.wizard.title        "Comprobando compatibilidad de complementos">
-<!ENTITY  versioninfo.top.label           "Comprobando la compatiblidad de sus complementos con esta
+<!ENTITY  versioninfo.top.label           "Comprobando la compatiblidad de tus complementos con esta
                                            versión de &brandShortName;.">
 <!ENTITY  versioninfo.waiting             "Esto puede tardar unos minutos…">
 
 <!ENTITY  installerrors.wizard.title      "Problemas instalando actualizaciones">
 <!ENTITY  installerrors.intro.label       "&brandShortName; ha encontrado problemas al actualizar
-                                           algunos de sus complementos.">
+                                           algunos de tus complementos.">
 
 <!-- general strings used by several of the finish pages -->
-<!ENTITY  clickFinish.label               "De clic en Finalizar para continuar iniciando &brandShortName;.">
-<!ENTITY  clickFinish.labelMac            "De clic en Terminado para continuar iniciando &brandShortName;.">
+<!ENTITY  clickFinish.label               "Haz clic en 'Finalizar' para continuar iniciando &brandShortName;.">
+<!ENTITY  clickFinish.labelMac            "Haz clic en 'Terminado' para continuar iniciando &brandShortName;.">
 <!ENTITY  enableChecking.label            "Permitir a &brandShortName; buscar actualizaciones.">

@@ -5,13 +5,13 @@
 <!ENTITY sanitizePrefs2.title          "Preferencias para borrar el historial">
 <!ENTITY sanitizeDialog2.title         "Borrar el historial reciente">
 
-<!ENTITY clearDataSettings2.label     "Al salir de &brandShortName;, borrar automáticamente:">
+<!ENTITY clearDataSettings2.label     "Al salir de &brandShortName; borrar automáticamente:">
 
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-<!ENTITY clearTimeDuration.label          "Rango de tiempo para borrar: ">
-<!ENTITY clearTimeDuration.accesskey      "R">
+<!ENTITY clearTimeDuration.label          "Período de tiempo a borrar: ">
+<!ENTITY clearTimeDuration.accesskey      "P">
 <!ENTITY clearTimeDuration.lastHour       "Última hora">
 <!ENTITY clearTimeDuration.last2Hours     "Últimas dos horas">
 <!ENTITY clearTimeDuration.last4Hours     "Últimas cuatro horas">
@@ -27,25 +27,25 @@ that require it.  -->
      of the "Details" progressive disclosure button.  See UI mockup at bug
      480169 -->
 <!ENTITY detailsProgressiveDisclosure.label     "Detalles">
-<!ENTITY detailsProgressiveDisclosure.accesskey "e">
+<!ENTITY detailsProgressiveDisclosure.accesskey "D">
 
 <!ENTITY historySection.label         "Historial">
 <!ENTITY dataSection.label            "Datos">
 
 <!ENTITY itemHistoryAndDownloads.label     "Historial de navegación y descargas">
-<!ENTITY itemHistoryAndDownloads.accesskey "n">
+<!ENTITY itemHistoryAndDownloads.accesskey "H">
 <!ENTITY itemFormSearchHistory.label       "Historial de búsquedas y formularios">
-<!ENTITY itemFormSearchHistory.accesskey   "f">
+<!ENTITY itemFormSearchHistory.accesskey   "b">
 <!ENTITY itemPasswords.label               "Contraseñas guardadas">
-<!ENTITY itemPasswords.accesskey           "C">
+<!ENTITY itemPasswords.accesskey           "g">
 <!ENTITY itemCookies.label                 "Cookies">
 <!ENTITY itemCookies.accesskey             "C">
 <!ENTITY itemCache.label                   "Caché">
 <!ENTITY itemCache.accesskey               "a">
 <!ENTITY itemOfflineApps.label             "Datos de sitios web sin conexión">
-<!ENTITY itemOfflineApps.accesskey         "o">
+<!ENTITY itemOfflineApps.accesskey         "w">
 <!ENTITY itemActiveLogins.label            "Conexiones activas">
-<!ENTITY itemActiveLogins.accesskey        "C">
+<!ENTITY itemActiveLogins.accesskey        "x">
 <!ENTITY itemSitePreferences.label         "Preferencias del sitio">
 <!ENTITY itemSitePreferences.accesskey     "P">
 

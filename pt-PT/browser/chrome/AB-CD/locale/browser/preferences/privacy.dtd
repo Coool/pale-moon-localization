@@ -4,85 +4,96 @@
 
 <!ENTITY tracking.label                 "Monitorização">
 
-<!ENTITY dntTrackingNopref.label2       "Não dizer aos sítios web sobre a minha preferência de localização">
-<!ENTITY dntTrackingNopref.accesskey    "T">
-<!ENTITY dntTrackingNotOkay.label2      "Não autorizo a ser seguido">
-<!ENTITY dntTrackingNotOkay.accesskey   "N">
-<!ENTITY dntTrackingOkay.label2         "Eu autorizo a ser seguido">
-<!ENTITY dntTrackingOkay.accesskey      "s">
+<!ENTITY dntTrackingNopref.label2       "Não informar os sites sobre as minhas preferências de monitorização">
+<!ENTITY dntTrackingNopref.accesskey    "o">
+<!ENTITY dntTrackingNotOkay.label2      "Informar os sites que não quero ser monitorizado">
+<!ENTITY dntTrackingNotOkay.accesskey   "n">
+<!ENTITY dntTrackingOkay.label2         "Informar os sites que quero ser monitorizado">
+<!ENTITY dntTrackingOkay.accesskey      "t">
 <!ENTITY doNotTrackInfo.label           "Saber mais">
 
 <!ENTITY  history.label                 "Histórico">
 
 <!ENTITY  locationBar.label             "Barra de localização">
 
-<!ENTITY  locbar.pre.label              "Ao usar a barra de localização, sugerir:">
-<!ENTITY  locbar.pre.accessKey          "l">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "Histórico e Marcadores">
+<!ENTITY  locbar.suggest.label          "Ao utilizar a barra de localização, sugerir:">
 <!ENTITY  locbar.history.label          "Histórico">
+<!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Marcadores">
+<!ENTITY  locbar.bookmarks.accesskey    "M">
+<!ENTITY  locbar.openpage.label         "Separadores abertos">
+<!ENTITY  locbar.openpage.accesskey     "S">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "Ao utilizar a barra de localização, sugerir:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "u">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "Histórico e marcadores">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.nothing.label          "Nada">
 
-<!ENTITY  acceptCookies.label           "Aceitar cookies de sítios">
-<!ENTITY  acceptCookies.accesskey       "c">
+<!ENTITY  acceptCookies.label           "Aceitar cookies dos sites">
+<!ENTITY  acceptCookies.accesskey       "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "Aceitar cookies de terceiros:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "c">
 <!ENTITY  acceptThirdParty.always.label   "Sempre">
 <!ENTITY  acceptThirdParty.never.label    "Nunca">
-<!ENTITY  acceptThirdParty.visited.label  "Do visitado">
+<!ENTITY  acceptThirdParty.visited.label  "Do site visitado">
 
-<!ENTITY  keepUntil.label               "Guardar até:">
-<!ENTITY  keepUntil.accesskey           "G">
+<!ENTITY  keepUntil.label               "Manter até:">
+<!ENTITY  keepUntil.accesskey           "t">
 
-<!ENTITY  expire.label                  "estas expirarem">
+<!ENTITY  expire.label                  "que expirem">
 <!ENTITY  close.label                   "fechar o &brandShortName;">
-<!ENTITY  askEachTime.label             "perguntar sempre que necessário">
+<!ENTITY  askEachTime.label             "perguntar-me sempre">
 
 <!ENTITY  cookieExceptions.label        "Exceções...">
-<!ENTITY  cookieExceptions.accesskey    "x">
+<!ENTITY  cookieExceptions.accesskey    "E">
 
-<!ENTITY  showCookies.label             "Mostrar as cookies...">
-<!ENTITY  showCookies.accesskey         "S">
+<!ENTITY  showCookies.label             "Mostrar cookies…">
+<!ENTITY  showCookies.accesskey         "s">
 
 <!ENTITY  historyHeader.pre.label          "O &brandShortName; irá:">
 <!ENTITY  historyHeader.pre.accesskey      "i">
-<!ENTITY  historyHeader.remember.label     "lembrar o histórico">
-<!ENTITY  historyHeader.dontremember.label "nunca lembrar o histórico">
-<!ENTITY  historyHeader.custom.label       "Usar definições personalizadas para o histórico">
+<!ENTITY  historyHeader.remember.label     "Memorizar o histórico">
+<!ENTITY  historyHeader.dontremember.label "Não memorizar o histórico">
+<!ENTITY  historyHeader.custom.label       "Utilizar definições personalizadas">
 <!ENTITY  historyHeader.post.label         "">
 
-<!ENTITY  rememberDescription.label      "O &brandShortName; irá lembrar-se da sua navegação, transferências, formulários e histórico de pesquisa e manter cookies dos sítios web que visita.">
+<!ENTITY  rememberDescription.label      "O &brandShortName; irá memorizar a navegação, descargas, formulários e histórico de pesquisa bem como manter os cookies dos sites que visitar.">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
 <!ENTITY  rememberActions.pre.label           "Poderá querer ">
-<!ENTITY  rememberActions.clearHistory.label  "limpar os seu histórico recente">
+<!ENTITY  rememberActions.clearHistory.label  "limpar o histórico recente">
 <!ENTITY  rememberActions.middle.label        ", ou ">
 <!ENTITY  rememberActions.removeCookies.label "remover cookies individualmente">
 <!ENTITY  rememberActions.post.label          ".">
 
-<!ENTITY  dontrememberDescription.label  "O &brandShortName; irá usar as mesmas definições para a navegação privada e não irá lembrar-se de qualquer histórico de navegação na web.">
+<!ENTITY  dontrememberDescription.label  "O &brandShortName; irá utilizar as definições da navegação privada e não irá memorizar qualquer histórico de navegação.">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
 <!ENTITY  dontrememberActions.pre.label          "Poderá também querer ">
-<!ENTITY  dontrememberActions.clearHistory.label "limpar todo o seu histórico actual">
+<!ENTITY  dontrememberActions.clearHistory.label "limpar todo o histórico atual">
 <!ENTITY  dontrememberActions.post.label         ".">
 
-<!ENTITY  privateBrowsingPermanent2.label "Modo permanente de navegação privada">
-<!ENTITY  privateBrowsingPermanent2.accesskey "M">
+<!ENTITY  privateBrowsingPermanent2.label "Utilizar sempre a navegação privada">
+<!ENTITY  privateBrowsingPermanent2.accesskey "p">
 
-<!ENTITY  rememberHistory2.label      "Lembrar o histórico de navegação e de transferências">
+<!ENTITY  rememberHistory2.label      "Memorizar histórico de navegação e de descargas">
 <!ENTITY  rememberHistory2.accesskey  "h">
 
-<!ENTITY  rememberSearchForm.label       "Lembrar pesquisas e histórico de formulários">
-<!ENTITY  rememberSearchForm.accesskey   "q">
+<!ENTITY  rememberSearchForm.label       "Memorizar histórico de pesquisas e de formulários">
+<!ENTITY  rememberSearchForm.accesskey   "f">
 
-<!ENTITY  clearOnClose.label             "Limpar histórico quando o &brandShortName; encerrar">
-<!ENTITY  clearOnClose.accesskey         "i">
+<!ENTITY  clearOnClose.label             "Limpar histórico ao fechar o &brandShortName;">
+<!ENTITY  clearOnClose.accesskey         "r">
 
 <!ENTITY  clearOnCloseSettings.label     "Definições…">
-<!ENTITY  clearOnCloseSettings.accesskey "ç">
+<!ENTITY  clearOnCloseSettings.accesskey "n">

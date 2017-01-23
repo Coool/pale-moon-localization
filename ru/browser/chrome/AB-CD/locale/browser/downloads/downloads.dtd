@@ -23,7 +23,7 @@
 
      That's 50 characters, so we set the width at 50ch.
      -->
-<!ENTITY downloadDetails.width            "50ch">
+<!ENTITY downloadDetails.width            "60ch">
 
 <!-- LOCALIZATION NOTE (downloadsSummary.minWidth2):
      Minimum width for the main description of the downloads summary,
@@ -83,6 +83,11 @@
      is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Загрузок нет">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "В этой сессии загрузок не было.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

@@ -3,39 +3,30 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Muokkaa tätä tiedostoa ja kopioi nimellä userContent.css 
- * profiilikansiosi chrome-kansioon
+ * Edit this file and copy it as userContent.css into your
+ * profile-directory/chrome/
  */
 
 /*
- * Tätä tiedostoa muokkaamalla on mahdollista muuttaa kaikkien ohjelmalla
- * avattujen WWW-sivujen ulkonäköä. Säännöt, joissa on !important-lisäys,
- * korvaavat sivun tekijän antamat samannimiset säännöt. Jos lisäystä ei 
- * löydy, sivulle asetetut tyylit voivat korvata tässä tiedostossa annetut.
+ * This file can be used to apply a style to all web pages you view
+ * Rules without !important are overruled by author rules if the
+ * author sets any.  Rules with !important overrule author rules.
  */
 
 /*
- * esimerkki: estetään blink-elementtiä vilkkumasta
- *
- * blink { text-decoration: none ! important; }
- *
- */
-
-/*
- * esimerkki: asetetaan kaikille taulukoille kahden kuvapisteen reunat
+ * example: give all tables a 2px border
  *
  * table { border: 2px solid; }
  */
 
 /*
- * esimerkki: estetään marquee-elementtin sisällön vieriminen
+ * example: turn off "marquee" element
  *
  * marquee { -moz-binding: none; }
  *
  */
  
 /* 
- * Lisää esimerkkejä säännöistä (englanniksi) osoitteesta 
- * http://www.mozilla.org/unix/customizing.html
+ * For more examples see http://www.mozilla.org/unix/customizing.html
  */
 

@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "Autorități">
 <!ENTITY certmgr.tab.orphan2                  "Altele">
 
-<!ENTITY certmgr.ca.builtins                  "CA integrate">
-<!ENTITY certmgr.ca.mycas                     "Certificate administrate de dvs.">
-
 <!ENTITY certmgr.mine                         "Aveți certificate care vă identifică de la aceste organizații:">
 <!ENTITY certmgr.others                       "Aveți certificate în fișier care identifică aceste persoane:">
 <!ENTITY certmgr.websites2                    "Aveți certificate în fișier care identifică aceste servere:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "Se verifică certificatul…">
 <!ENTITY certmgr.subjectinfo.label            "Emis către">
 <!ENTITY certmgr.issuerinfo.label             "Emis de">
-<!ENTITY certmgr.validity.label               "Valabilitate" >
+<!ENTITY certmgr.periodofvalidity.label       "Perioada de valabilitate" >
 <!ENTITY certmgr.fingerprints.label           "Amprente">
 <!ENTITY certmgr.certdetail.title             "Detaliu certificat">
 <!ENTITY certmgr.certdetail.cn                "Nume comun (CN)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "Amprentă SHA256">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "Amprentă SHA1">
 
-<!ENTITY certmgr.editcert.title               "Editare opțiuni certificat de securitate">
 <!ENTITY certmgr.editcacert.title             "Editează opțiuni încredere Certificat CA">
-<!ENTITY certmgr.editsslcert.title            "Editează opțiuni încredere certificat site web">
 <!ENTITY certmgr.editcert.edittrust           "Editează opțiuni încredere:">
 <!ENTITY certmgr.editcert.trustssl            "Acest certificat poate identifica site-uri web.">
 <!ENTITY certmgr.editcert.trustemail          "Acest certificat poate iedntifica utilizatori de e-mail.">
 <!ENTITY certmgr.editcert.trustobjsign        "Acest certificat poate identifica producători de programe.">
-<!ENTITY certmgr.editsslcert.edittrust        "Editează opțiuni încredere certificat:">
-<!ENTITY certmgr.editsslcert.dotrust          "Aprobați autenticitatea acestui certificat.">
-<!ENTITY certmgr.editsslcert.donttrust        "Nu aprobați autenticitatea acestui certificat.">
 <!ENTITY certmgr.editemailcert.title          "Editare opțiuni încredere certificat de e-mail:">
 <!ENTITY certmgr.editemailcert.edittrust      "Editare opțiuni încredere certificat:">
 <!ENTITY certmgr.editemailcert.dotrust        "Aprobați autenticitatea acestui certificat.">
 <!ENTITY certmgr.editemailcert.donttrust      "Nu aprobați autenticitatea acestui certificat.">
 
 <!ENTITY certmgr.deletecert.title             "Șterge certificatul">
-<!ENTITY certmgr.deletecert.beforename        "Ați cerut să ștergeți acest certificat:">
-<!ENTITY certmgr.deletecert.aftername         "Sunteți sigur că vreți să ștergeți acest certificat?">
-<!ENTITY certmgr.deleteusercert.title         "Ștergeți certificatul dvs.">
-<!ENTITY certmgr.deleteusercert.beforename    "Ați cerut să ștergeți acest certificat:">
-<!ENTITY certmgr.deleteusercert.aftername     "Odată șters acest certificat, nu veți mai putea citi e-mail-urile de care au fost criptate cu el.">
 
 <!ENTITY certmgr.certname                     "Nume certificat">
 <!ENTITY certmgr.certserver                   "Server">
 <!ENTITY certmgr.override_lifetime            "Durată">
 <!ENTITY certmgr.tokenname                    "Dispozitiv de securitate">
-<!ENTITY certmgr.issued                       "Emis la">
+<!ENTITY certmgr.begins                       "Începe pe">
 <!ENTITY certmgr.expires                      "Expiră la">
 <!ENTITY certmgr.email                        "Adresa de e-mail">
 <!ENTITY certmgr.serial                       "Număr de serie">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "E">
 <!ENTITY certmgr.editca.label                 "Editează increderea">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.add.label                    "Adăugare">
-<!ENTITY certmgr.add.accesskey                "A">
 <!ENTITY certmgr.export.label                 "Exportă…">
 <!ENTITY certmgr.export.accesskey             "x">
 <!ENTITY certmgr.delete2.label                "Sterge">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "Valoare câmp">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Ierarhie certificat">
-<!ENTITY certmgr.hierarchy.accesskey          "C">
+<!ENTITY certmgr.hierarchy.accesskey2         "H">
 <!ENTITY certmgr.addException.label           "Adăugare excepție…">
 <!ENTITY certmgr.addException.accesskey       "x">
 

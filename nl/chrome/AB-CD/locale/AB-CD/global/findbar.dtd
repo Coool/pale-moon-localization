@@ -5,7 +5,6 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
-<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "Volgende">
 <!ENTITY next.accesskey "V">
 <!ENTITY next.tooltip "Het volgende voorkomen van de tekst zoeken">
@@ -13,8 +12,9 @@
 <!ENTITY previous.accesskey "r">
 <!ENTITY previous.tooltip "Het vorige voorkomen van de tekst zoeken">
 <!ENTITY findCloseButton.tooltip "Zoekbalk sluiten">
-<!ENTITY highlight.label "Alles markeren">
-<!ENTITY highlight.accesskey "A">
-<!ENTITY highlight.tooltiptext "Alle voorkomens van de tekst markeren">
-<!ENTITY caseSensitiveCheckbox.label "Hoofdlettergevoelig">
-<!ENTITY caseSensitiveCheckbox.accesskey "o">
+<!ENTITY highlightAll.label "Highlight All">
+<!ENTITY highlightAll.accesskey "a">
+<!ENTITY highlightAll.tooltiptext "Highlight all occurrences of the phrase">
+<!ENTITY caseSensitive.label "Match Case">
+<!ENTITY caseSensitive.accesskey "c">
+<!ENTITY caseSensitive.tooltiptext "Search with case sensitivity">

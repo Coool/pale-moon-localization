@@ -9,7 +9,6 @@
 <!ENTITY setPassword.newPassword.label "Унесите нову лозинку:">
 <!ENTITY setPassword.reenterPassword.label "Поново унесите лозинку:">
 <!ENTITY setPassword.meter.label "Ниво квалитета лозинке">
-<!ENTITY setPassword.meter.loading "Учитавам">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Врати">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "Безбедносни уређај:">
 <!ENTITY getPassword.password.label "Лозинка:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "Грешка">
-<!ENTITY pipalert.title "Грешка - немогућност постављења">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "Безбедност">
-<!ENTITY pref.security.general.rHeader "Општи параметри безбедности">
-<!ENTITY pref.security.general.header "Општи параметри безбедности">
-<!ENTITY pref.security.general.level.title "Ниво безбедности">
-<!ENTITY pref.security.general.paranoid.label "Користи „параноична‟ подешавања безбедности">
-<!ENTITY pref.security.general.certificates.title "Сертификати">
-<!ENTITY pref.security.general.manageCert.label "Уређење сертификата">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Пријем сертификата">
 <!ENTITY downloadCert.message1 "Упитани сте за поверење новој провери сертификата (ПС).">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "Веруј овој ПС за избор развоја програма.">
 <!ENTITY downloadCert.message3 "Пре указивања поверења овом ПС за било коју намену испитај његов сертификат и његове полисе и процедуре (ако постоје).">
 <!ENTITY downloadCert.viewCert.label "Преглед">
-<!ENTITY downloadCert.viewPolicy.label "Полиса">
 <!ENTITY downloadCert.viewCert.text "Испитај ПС сертификат">
-<!ENTITY downloadCert.viewPolicy.text "Испитај ПС полисе и процедуре">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Захтев за идентификацију корисника">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "Резервна лозинка за сертификат (опет):">
 <!ENTITY pkcs12.setpassword.reminder "Важно: ако заборавите лозинку за резервни умножак сертификата, нећете моћи да касније вратите резервни умножак.  Молимо да лозинку сачувате на безбедно место.">
 
-<!ENTITY pkcs12.getpassword.title  "Унос лозинке">
-<!ENTITY pkcs12.getpassword.message "Молимо да унесете лозинку која је коришћена за шифровање овог резервног умношка сертификата.">
-
 <!ENTITY chooseToken.title  "Изабери знак">
 <!ENTITY chooseToken.message1 "Изаберите знак.">
 
@@ -81,16 +62,7 @@
 <!ENTITY createCertInfo.msg1 "Кључ се генерише…  Ово може да потраје неколико минута…">
 <!ENTITY createCertInfo.msg2 "Молимо да сачекате…">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "Захтев за потпис текста">
-<!ENTITY formSigning.cert "Потписујем сертификат">
-<!ENTITY formSigning.confirmPassword "Како би потврдили да сте сагласни да потпишете текст поруке користећи изабрани сертификат, молим потврдите уносећи главну лозинку:">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Аутентикација заштићеним токеном">
 <!ENTITY protectedAuth.msg "Молимо да се пријавите знаком распознавања (token).  Врста аутентикације зависи од врсте знака распознавања.">
 <!ENTITY protectedAuth.tokenName.label "Знак:">
-
-<!ENTITY certErrorDlg.title "Безбедна веза није успостављена">
-<!ENTITY certErrorDlg.info1 "Ово може да буде проблем са подешавањем сервера или може да буде неко ко жели да се представи као сервер.">
-<!ENTITY certErrorDlg.info2 "Ако сте се у прошлости успешно повезивали на овај сервер, грешка је онда можда привремена па је могуће решење да сачекате и пробате касније.">

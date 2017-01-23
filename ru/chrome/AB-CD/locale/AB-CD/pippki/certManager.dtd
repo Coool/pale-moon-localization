@@ -10,9 +10,6 @@
 <!ENTITY certmgr.tab.ca                       "Центры">
 <!ENTITY certmgr.tab.orphan2                  "Другие">
 
-<!ENTITY certmgr.ca.builtins                  "Встроенные сертификаты">
-<!ENTITY certmgr.ca.mycas                     "Сертификаты управляемые Вами">
-
 <!ENTITY certmgr.mine                         "У Вас есть сертификаты от этих организаций, которые идентифицируют Вас:">
 <!ENTITY certmgr.others                       "У Вас есть сертификаты которые идентифицируют этих людей:">
 <!ENTITY certmgr.websites2                    "У Вас есть сертификаты которые идентифицируют эти сервера:">
@@ -27,7 +24,7 @@
 <!ENTITY certmgr.pending.label                "Проверка сертификата...">
 <!ENTITY certmgr.subjectinfo.label            "Выдан:">
 <!ENTITY certmgr.issuerinfo.label             "Выдал:">
-<!ENTITY certmgr.validity.label               "Срок действия" >
+<!ENTITY certmgr.periodofvalidity.label       "Срок действия" >
 <!ENTITY certmgr.fingerprints.label           "Отпечатки пальцев">
 <!ENTITY certmgr.certdetail.title             "Детали сертификата">
 <!ENTITY certmgr.certdetail.cn                "Общее имя (ОИ)">
@@ -37,33 +34,23 @@
 <!ENTITY certmgr.certdetail.sha256fingerprint "Отпечаток пальцев SHA256">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "Отпечаток пальцев SHA1">
 
-<!ENTITY certmgr.editcert.title               "Редактировать настройки сертификата безопасности">
 <!ENTITY certmgr.editcacert.title             "Редактировать настройки доверия СБ">
-<!ENTITY certmgr.editsslcert.title            "Редактировать настройки доверия сертификата вебсайта">
 <!ENTITY certmgr.editcert.edittrust           "Редактировать настройки доверия:">
 <!ENTITY certmgr.editcert.trustssl            "Этот сертификат может идентифицировать вебсайты.">
 <!ENTITY certmgr.editcert.trustemail          "Этот сертификат может идентифицировать почты пользователей.">
 <!ENTITY certmgr.editcert.trustobjsign        "Этот сертификат может идентифицировать разработчиков софта.">
-<!ENTITY certmgr.editsslcert.edittrust        "Редактировать настройки доверия сертификата:">
-<!ENTITY certmgr.editsslcert.dotrust          "Доверять центру выдачи этого сертификата.">
-<!ENTITY certmgr.editsslcert.donttrust        "Не доверять центру выдачи этого сертификата.">
 <!ENTITY certmgr.editemailcert.title          "Редактировать настройки доверия сертификата почты:">
 <!ENTITY certmgr.editemailcert.edittrust      "Редактировать настройки доверия сертификата:">
 <!ENTITY certmgr.editemailcert.dotrust        "Доверять центру выдачи этого сертификата.">
 <!ENTITY certmgr.editemailcert.donttrust      "Не доверять центру выдачи этого сертификата.">
 
 <!ENTITY certmgr.deletecert.title             "Удалить сертификат.">
-<!ENTITY certmgr.deletecert.beforename        "Вы запросили удаление этого сертификата:">
-<!ENTITY certmgr.deletecert.aftername         "Вы уверены, что хотите его удалить?">
-<!ENTITY certmgr.deleteusercert.title         "Удаление Вашего сертификата">
-<!ENTITY certmgr.deleteusercert.beforename    "Вы запросили удаление сертификата:">
-<!ENTITY certmgr.deleteusercert.aftername     "После удаления этого сертификата, вы не сможете читать почту, которая зашифрована при помощи него.">
 
 <!ENTITY certmgr.certname                     "Имя сертификата">
 <!ENTITY certmgr.certserver                   "Сервер">
 <!ENTITY certmgr.override_lifetime            "Время жизни">
 <!ENTITY certmgr.tokenname                    "Устройства безопасности">
-<!ENTITY certmgr.issued                       "Выпущен">
+<!ENTITY certmgr.begins                       "Действителен с">
 <!ENTITY certmgr.expires                      "Истекает">
 <!ENTITY certmgr.email                        "E-mail адреса">
 <!ENTITY certmgr.serial                       "Серийный номер">
@@ -76,8 +63,6 @@
 <!ENTITY certmgr.edit3.accesskey              "Р">
 <!ENTITY certmgr.editca.label                 "Редактировать">
 <!ENTITY certmgr.editca.accesskey             "Д">
-<!ENTITY certmgr.add.label                    "Добавить">
-<!ENTITY certmgr.add.accesskey                "Д">
 <!ENTITY certmgr.export.label                 "Экспорт">
 <!ENTITY certmgr.export.accesskey             "э">
 <!ENTITY certmgr.delete2.label                "Удалить...">
@@ -95,7 +80,7 @@
 <!ENTITY certmgr.fields.label                 "Значение поля">
 <!ENTITY certmgr.fields.accesskey             "М">
 <!ENTITY certmgr.hierarchy.label              "Иерархия сертификатов">
-<!ENTITY certmgr.hierarchy.accesskey          "И">
+<!ENTITY certmgr.hierarchy.accesskey2         "х">
 <!ENTITY certmgr.addException.label           "Добавить исключение...">
 <!ENTITY certmgr.addException.accesskey       "х">
 

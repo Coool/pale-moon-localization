@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "ブックマークツールバーの項目">
 <!ENTITY addonBarCmd.label "アドオンバー">
 <!ENTITY addonBarCmd.accesskey "A">
+<!ENTITY statusBar.label               "ステータスバー">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "ページのソース">
 <!ENTITY pageSourceCmd.accesskey "o">
@@ -122,6 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "このページを購読...">
 <!ENTITY addCurPagesCmd.label "すべてのタブをブックマーク...">
 <!ENTITY showAllBookmarks2.label "すべてのブックマークを表示">
+<!ENTITY organizeBookmarks.label "ブックマークの管理">
 <!ENTITY unsortedBookmarksCmd.label "未整理のブックマーク">
 <!ENTITY bookmarksToolbarChevron.tooltip "残りのブックマークを表示します">
 
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "スポイトツール">
+<!ENTITY eyedropper.accesskey "Y">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,6 +244,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "開発ツールバーを閉じる">
 <!ENTITY devToolbarMenu.label              "開発ツールバー">
 <!ENTITY devToolbarMenu.accesskey          "v">
+<!ENTITY devAppMgrMenu.label               "アプリの管理">
+<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "開発ツールを表示">
@@ -403,6 +415,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "名前を付けてページを保存...">
 <!ENTITY savePageCmd.accesskey        "A">
+<!ENTITY sendLinkCmd.label            "リンクを送信...">
+<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendPageCmd.label            "ページ URL を送信...">
+<!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -601,21 +617,21 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "詳細を表示...">
 
-<!ENTITY allTabs.filter.emptyText "Search Tabs">
+<!ENTITY allTabs.filter.emptyText "検索タブ">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label "ブラウザタブ">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
-<!ENTITY syncTabsMenu2.label     "他の端末で開いていたタブ">
+<!ENTITY syncTabsMenu2.label     "他のデバイスで開いていたタブ">
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 
-<!ENTITY syncSetup.label              "&syncBrand.shortName.label; をセットアップ...">
+<!ENTITY syncSetup.label              "&syncBrand.shortName.label;のセットアップ...">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "今すぐ同期">
 <!ENTITY syncSyncNowItem.accesskey    "S">
-<!ENTITY syncToolbarButton.label      "Sync">
+<!ENTITY syncToolbarButton.label      "同期">
 
 <!ENTITY addonBarCloseButton.tooltip  "アドオンバーを閉じます">
 <!ENTITY toggleAddonBarCmd.key        "/">

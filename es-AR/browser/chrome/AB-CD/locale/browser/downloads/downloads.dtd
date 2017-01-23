@@ -43,7 +43,7 @@
 <!ENTITY cmd.pause.label                  "Pausar">
 <!ENTITY cmd.pause.accesskey              "P">
 <!ENTITY cmd.resume.label                 "Reanudar">
-<!ENTITY cmd.resume.accesskey             "r">
+<!ENTITY cmd.resume.accesskey             "R">
 <!ENTITY cmd.cancel.label                 "Cancelar">
 <!ENTITY cmd.cancel.accesskey             "C">
 <!-- LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
@@ -61,7 +61,7 @@
 <!ENTITY cmd.copyDownloadLink.label       "Copiar enlace de descarga">
 <!ENTITY cmd.copyDownloadLink.accesskey   "l">
 <!ENTITY cmd.removeFromHistory.label      "Quitar del historial">
-<!ENTITY cmd.removeFromHistory.accesskey  "Q">
+<!ENTITY cmd.removeFromHistory.accesskey  "e">
 <!ENTITY cmd.clearList.label              "Limpiar lista">
 <!ENTITY cmd.clearList.accesskey          "a">
 <!ENTITY cmd.clearDownloads.label         "Limpiar descargas">
@@ -73,7 +73,7 @@
      the panel at all.
      -->
 <!ENTITY downloadsHistory.label           "Mostrar todas las descargas">
-<!ENTITY downloadsHistory.accesskey       "M">
+<!ENTITY downloadsHistory.accesskey       "s">
 
 <!ENTITY clearDownloadsButton.label       "Limpiar descargas">
 <!ENTITY clearDownloadsButton.tooltip     "Limpia descargas completas, canceladas y fallidas">
@@ -83,6 +83,11 @@
      is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "No hay descargas.">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "No hay descargas para esta sesión.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

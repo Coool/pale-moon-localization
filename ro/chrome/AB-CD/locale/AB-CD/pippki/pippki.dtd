@@ -9,7 +9,6 @@
 <!ENTITY setPassword.newPassword.label "Introduceți noua parolă:">
 <!ENTITY setPassword.reenterPassword.label "Tastați din nou parola:">
 <!ENTITY setPassword.meter.label "Calitatea parolei">
-<!ENTITY setPassword.meter.loading "Încărcare">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Resetează">
@@ -21,19 +20,6 @@
 <!ENTITY getPassword.tokenName2.label "Dispozitiv de securitate:">
 <!ENTITY getPassword.password.label "Parolă:">
 
-<!-- These should be common -->
-<!ENTITY piperror.title "Eroare">
-<!ENTITY pipalert.title "Eroare iremediabilă">
-
-<!-- Prefs panel strings -->
-<!ENTITY pref.security.general.lHeader "Securitate">
-<!ENTITY pref.security.general.rHeader "Parametri generali de securitate">
-<!ENTITY pref.security.general.header "Parametri generali de securitate">
-<!ENTITY pref.security.general.level.title "Nivel de securitate">
-<!ENTITY pref.security.general.paranoid.label "Parametri 'paranoici'">
-<!ENTITY pref.security.general.certificates.title "Certificate">
-<!ENTITY pref.security.general.manageCert.label "Gestionare certificate">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Descărcare certificat">
 <!ENTITY downloadCert.message1 "Vi se cere să acreditați o autoritate nouă de certificare (AC).">
@@ -42,9 +28,7 @@
 <!ENTITY downloadCert.trustObjSign "Acreditează această AC pentru identificarea creatorilor de software.">
 <!ENTITY downloadCert.message3 "Înainte de a acredita această AC, ar trebui să îi examinați certificatul, precum și politicile și procedurile (dacă există).">
 <!ENTITY downloadCert.viewCert.label "Vizualizează">
-<!ENTITY downloadCert.viewPolicy.label "Politică">
 <!ENTITY downloadCert.viewCert.text "Examinează certificat AC">
-<!ENTITY downloadCert.viewPolicy.text "Examinează politicile și procedurile AC">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Cerere identificare utilizator">
@@ -63,9 +47,6 @@
 <!ENTITY pkcs12.setpassword.label2 "Parola de siguranță pentru certificate (din nou):">
 <!ENTITY pkcs12.setpassword.reminder "Important: Dacă uitați parola de siguranță pentru certificate, nu veți putea reface această copie mai târziu.  Aveți grijă să o păstrați într-un loc sigur.">
 
-<!ENTITY pkcs12.getpassword.title  "Introducere parolă">
-<!ENTITY pkcs12.getpassword.message "Parola cu care s-a criptat această copie de siguranță a certificatelor.">
-
 <!ENTITY chooseToken.title  "Alegere token">
 <!ENTITY chooseToken.message1 "Vă rugăm alegeți token.">
 
@@ -81,16 +62,7 @@
 <!ENTITY createCertInfo.msg1 "Generez cheia... Aceasta poate dura câteva minute....">
 <!ENTITY createCertInfo.msg2 "Vă rugăm așteptați...">
 
-<!-- Form Signing confirmation prompt -->
-<!ENTITY formSigning.title "Semnare text">
-<!ENTITY formSigning.cert "Certificat pentru semnare">
-<!ENTITY formSigning.confirmPassword "Pentru a confirma că sunteți de acord să semnați acest mesaj text cu certificatul selectat, vă rugăm tastați parola generală:">
-
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Autentificare prin identificator protejat">
 <!ENTITY protectedAuth.msg "Vă rog autentificați-vă față de identificator. Metoda de autentificare depinde de tipul identificatorului dumneavoastră.">
 <!ENTITY protectedAuth.tokenName.label "Identificator:">
-
-<!ENTITY certErrorDlg.title "Conexiunea sigură a eșuat">
-<!ENTITY certErrorDlg.info1 "Aceasta ar putea fi o problemă în configurația serverului sau ar putea fi cineva care încearcă să pretindă că este acest server.">
-<!ENTITY certErrorDlg.info2 "Dacă v-ați mai conectat la acest server cu succes în trecut, eroarea ar putea fi temporară și puteți încerca din nou mai târziu.">

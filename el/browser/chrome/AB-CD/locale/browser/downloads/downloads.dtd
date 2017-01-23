@@ -54,7 +54,7 @@
 <!ENTITY cmd.show.label                   "Άνοιγμα φακέλου λήψης">
 <!ENTITY cmd.show.accesskey               "φ">
 <!ENTITY cmd.showMac.label                "Προβολή στην &quot;Εύρεση&quot;">
-<!ENTITY cmd.showMac.accesskey            "F">
+<!ENTITY cmd.showMac.accesskey            "Ε">
 <!ENTITY cmd.retry.label                  "Προσπάθεια ξανά">
 <!ENTITY cmd.goToDownloadPage.label       "Μετάβαση στη σελίδα λήψης">
 <!ENTITY cmd.goToDownloadPage.accesskey   "β">
@@ -83,6 +83,11 @@
      is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Δεν υπάρχουν λήψεις.">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "Καμμία λήψη για αυτήν την περίοδο λειτουργίας.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

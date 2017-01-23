@@ -13,23 +13,29 @@
 <!ENTITY header.site.start               "Permisos para">
 <!ENTITY header.site.end                 "">
 
-<!ENTITY header.defaults                 "Permisos por defecto para todos los sitios">
+<!ENTITY header.defaults                 "Permisos predeterminados para todos los sitios">
 
 <!ENTITY permissions.forgetSite          "Olvidar este sitio web">
 
 <!ENTITY permission.alwaysAsk            "Preguntar siempre">
 <!ENTITY permission.allow                "Permitir">
-<!ENTITY permission.allowForSession      "Permitir para esta sesión">
-<!ENTITY permission.allowFirstPartyOnly  "Allow First Party Only">
+<!ENTITY permission.allowForSession      "Permitir durante esta sesión">
+<!ENTITY permission.allowFirstPartyOnly  "No aceptar cookies de terceros">
 <!ENTITY permission.block                "Bloquear">
 
 <!ENTITY password.label                  "Guardar contraseñas">
 <!ENTITY password.manage                 "Administrar contraseñas…">
 
+<!ENTITY image.label                     "Cargar imágenes">
+
 <!ENTITY cookie.label                    "Establecer cookies">
 <!ENTITY cookie.remove                   "Eliminar cookies">
-<!ENTITY cookie.manage                   "Administrar Cookies…">
-<!ENTITY cookie.removeAll                "Eliminar todo">
+<!ENTITY cookie.manage                   "Administrar cookies…">
+<!ENTITY cookie.removeAll                "Eliminar todas las cookies">
+
+<!ENTITY desktop-notification.label      "Mostrar notificaciones">
+
+<!ENTITY install.label                   "Instalar extensiones o temas">
 
 <!ENTITY geo.label                       "Compartir ubicación">
 
@@ -37,8 +43,10 @@
 
 <!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
-<!ENTITY indexedDB.label                 "Mantener el almacenamiento fuera de línea">
+<!ENTITY indexedDB.label                 "Mantener almacenamiento sin conexión">
 
 <!ENTITY popup.label                     "Abrir ventanas emergentes">
 
 <!ENTITY fullscreen.label                "Pantalla completa">
+
+<!ENTITY pointerLock.label               "Ocultar el puntero del ratón">

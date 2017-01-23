@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  pageInfoWindow.width  "610">
+<!ENTITY  pageInfoWindow.width  "600">
 <!ENTITY  pageInfoWindow.height "500">
 
 <!ENTITY  copy.key              "C">
@@ -30,13 +30,13 @@
 
 <!ENTITY  mediaTab              "Medios">
 <!ENTITY  mediaTab.accesskey    "M">
-<!ENTITY  mediaLocation         "Dirección:">
+<!ENTITY  mediaLocation         "Ubicación:">
 <!ENTITY  mediaText             "Texto asociado:">
 <!ENTITY  mediaAltHeader        "Texto alternativo">
 <!ENTITY  mediaAddress          "Dirección">
 <!ENTITY  mediaType             "Tipo">
 <!ENTITY  mediaSize             "Tamaño">
-<!ENTITY  mediaCount            "Cuenta">
+<!ENTITY  mediaCount            "Recuento">
 <!ENTITY  mediaDimension        "Dimensiones:">
 <!ENTITY  mediaLongdesc         "Descripción larga:">
 <!ENTITY  mediaBlockImage.accesskey "B">
@@ -50,23 +50,24 @@
 <!ENTITY  feedSubscribe         "Suscribir">
 <!ENTITY  feedSubscribe.accesskey "u">
 
-<!ENTITY  permTab               "Permisos">
-<!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "Usar predeterminado">
-<!ENTITY  permAskAlways         "Preguntar siempre">
-<!ENTITY  permAllow             "Permitir">
-<!ENTITY  permAllowSession      "Permitir en esta sesión">
-<!ENTITY  permBlock             "Bloquear">
-<!ENTITY  permissionsFor        "Permisos para:">
-<!ENTITY  permImage             "Cargar imágenes">
-<!ENTITY  permPopup             "Abrir ventanas emergentes">
-<!ENTITY  permCookie            "Establecer cookies">
-<!ENTITY  permNotifications     "Mostrar notificaciones">
-<!ENTITY  permInstall           "Instalar extensiones o temas">
-<!ENTITY  permGeo               "Compartir ubicación">
-<!ENTITY  permPlugins           "Activar plugins">
-<!ENTITY  permFullscreen        "Entrar a la pantalla completa">
-<!ENTITY  permPointerLock2      "Ocultar el puntero del ratón">
+<!ENTITY  permTab                    "Permisos">
+<!ENTITY  permTab.accesskey          "P">
+<!ENTITY  permUseDefault             "Usar el predeterminado">
+<!ENTITY  permAskAlways              "Preguntar siempre">
+<!ENTITY  permAllow                  "Permitir">
+<!ENTITY  permAllowSession           "Permitir en esta sesión">
+<!ENTITY  permAllowFirstPartyOnly    "Permitir sólo las de primeras partes">
+<!ENTITY  permBlock                  "Bloquear">
+<!ENTITY  permissionsFor             "Permisos para:">
+<!ENTITY  permImage                  "Cargar imágenes">
+<!ENTITY  permPopup                  "Abrir ventanas emergentes">
+<!ENTITY  permCookie                 "Establecer cookies">
+<!ENTITY  permNotifications          "Mostrar notificaciones">
+<!ENTITY  permInstall                "Instalar extensiones o temas">
+<!ENTITY  permGeo                    "Compartir la ubicación">
+<!ENTITY  permPlugins                "Activar plugins">
+<!ENTITY  permFullscreen             "Pasar a pantalla completa">
+<!ENTITY  permPointerLock2           "Ocultar el puntero del ratón">
 
 <!ENTITY  permIndexedDB              "Mantener almacenamiento en modo sin conexión">
 <!ENTITY  permClearStorage           "Limpiar almacenamiento">
@@ -75,7 +76,7 @@
 <!ENTITY  securityTab           "Seguridad">
 <!ENTITY  securityTab.accesskey "S">
 <!ENTITY  securityHeader        "Información de seguridad para esta página">
-<!ENTITY  securityView.certView "Ver certificado">
+<!ENTITY  securityView.certView "Mostrar el certificado">
 <!ENTITY  securityView.accesskey "V">
 <!ENTITY  securityView.unknown   "Desconocido">
 
@@ -86,12 +87,12 @@
 <!ENTITY  securityView.identity.verifier "Verificado por:">
 
 <!ENTITY  securityView.privacy.header                   "Privacidad e historial">
-<!ENTITY  securityView.privacy.history                  "¿Se ha visitado este sitio web anteriormente?">
-<!ENTITY  securityView.privacy.cookies                  "¿Este sitio está almacenando información (cookies) en este equipo?">
-<!ENTITY  securityView.privacy.viewCookies              "Ver cookies">
+<!ENTITY  securityView.privacy.history                  "¿He visitado este sitio web anteriormente?">
+<!ENTITY  securityView.privacy.cookies                  "¿Está este sitio almacenando información (cookies) en este equipo?">
+<!ENTITY  securityView.privacy.viewCookies              "Mostrar cookies">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
-<!ENTITY  securityView.privacy.passwords                "¿Se han guardado contraseñas de este sitio web?">
-<!ENTITY  securityView.privacy.viewPasswords            "Ver contraseñas guardadas">
+<!ENTITY  securityView.privacy.passwords                "¿He guardado contraseñas para este sitio web?">
+<!ENTITY  securityView.privacy.viewPasswords            "Mostrar las contraseñas guardadas">
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "v">
 
 <!ENTITY  securityView.technical.header                 "Detalles técnicos">

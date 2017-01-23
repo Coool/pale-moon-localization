@@ -2,30 +2,46 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutTelemetry.pageTitle "Dados da telemetria">
+<!ENTITY aboutTelemetry.pageTitle "Dados de telemetria">
 
 <!ENTITY aboutTelemetry.telemetryEnabled "
-  A telemetria está <span>ativada</span>.
+  A telemetria está <span>ativa</span>.
 ">
 
 <!ENTITY aboutTelemetry.telemetryDisabled "
-  A telemetria está <span>desativada</span>.
+  A telemetria está <span>inativa</span>.
+">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+Dados gerais
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
-  Declarações de SQL lentas
+  Declarações SQL lentas
 ">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "
   O navegador bloqueia
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  O processo bloqueia
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogramas
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Histogramas indexados
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Medições simples
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Detalhes do extra
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,26 +56,26 @@
   Histogramas obtidos por extras
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Clique para expandir a secção
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Clique para colapsar a secção
+<!ENTITY aboutTelemetry.toggle "
+  Clique para alternar a secção
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
-  (nenhuns dados obtidos)
+  (Nenhuns dados obtidos)
 ">
 
 <!ENTITY aboutTelemetry.fullSqlWarning "
-  NOTA: A depuração de SQL lento está ativada. Strings de SQL completas poderão ser mostradas abaixo mas não serão submetidas à telemetria.
+  NOTA: A depuração de SQL lento está ativa. As cadeias de SQL completas poderão ser mostradas abaixo mas não serão submetidas à telemetria.
 ">
 
 <!ENTITY aboutTelemetry.fetchSymbols "
-  Procurar nomes das funções para conjuntos de bloqueios
+  Obter nomes das funções para conjuntos de bloqueios
 ">
 
 <!ENTITY aboutTelemetry.hideSymbols "
-  Mostrar os dados em bruto dos bloqueios
+  Mostrar dados dos bloqueios
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filtrar (cadeia ou /regex/)
 ">

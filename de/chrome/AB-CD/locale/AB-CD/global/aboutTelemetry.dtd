@@ -12,20 +12,35 @@
   Telemetrie ist <span>deaktiviert</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  Allgemeine Daten
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Langsame SQL-Befehle
 ">
 
-<!ENTITY aboutTelemetry.chromeHangsSection "
-  Browserhänger
+<!ENTITY aboutTelemetry.chromeHangsSection "  Browser-Hänger
+">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread-Hänger
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogramme
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Schlüsselgebundene Histogramme
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Einfache Messdaten
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on-Details
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +55,8 @@
   Histogramme aus Daten, die von Add-ons gesammelt wurden
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Zum Erweitern klicken
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Zum Ausblenden klicken
+<!ENTITY aboutTelemetry.toggle "
+  Zum Umschalten der Ansicht anklicken
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -62,4 +73,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   Rohdaten von Hängern anzeigen
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (Zeichenketten oder /Reguläre Ausdrücke/)
 ">

@@ -11,21 +11,17 @@
 <!ENTITY devmgr.devlist.label                   "Modules et périphériques de sécurité">
 <!ENTITY devmgr.details.title                   "Détails">
 <!ENTITY devmgr.details.title2                  "Valeur">
-<!ENTITY devmgr.status.label                    "État">
-<!ENTITY devmgr.version.label                   "Version">
 
-<!ENTITY devmgr.button.changeslotname.label     "Changer le nom du slot">
-<!ENTITY devmgr.button.changeslotname.accesskey "C">
-<!ENTITY devmgr.button.login.label              "Connexion">
-<!ENTITY devmgr.button.login.accesskey          "n">
-<!ENTITY devmgr.button.logout.label             "Déconnexion">
-<!ENTITY devmgr.button.logout.accesskey         "D">
-<!ENTITY devmgr.button.changepw.label           "Changer le mot de passe">
-<!ENTITY devmgr.button.changepw.accesskey       "m">
-<!ENTITY devmgr.button.load.label               "Charger">
-<!ENTITY devmgr.button.load.accesskey           "g">
+<!ENTITY devmgr.button.login.label              "Se connecter">
+<!ENTITY devmgr.button.login.accesskey          "c">
+<!ENTITY devmgr.button.logout.label             "Se déconnecter">
+<!ENTITY devmgr.button.logout.accesskey         "d">
+<!ENTITY devmgr.button.changepw.label           "Modifier le mot de passe">
+<!ENTITY devmgr.button.changepw.accesskey       "M">
+<!ENTITY devmgr.button.load.label               "Charger…">
+<!ENTITY devmgr.button.load.accesskey           "C">
 <!ENTITY devmgr.button.unload.label             "Décharger">
-<!ENTITY devmgr.button.unload.accesskey         "h">
+<!ENTITY devmgr.button.unload.accesskey         "D">
 <!ENTITY devmgr.button.fips.accesskey           "F">
 
 <!ENTITY loaddevice.info                        "Saisir les informations sur le module à ajouter.">
@@ -33,7 +29,7 @@
 <!ENTITY loaddevice.modname.accesskey           "o">
 <!ENTITY loaddevice.modname.default             "Nouveau module PKCS#11">
 <!ENTITY loaddevice.filename                    "Nom de fichier du module :">
-<!ENTITY loaddevice.filename.accesskey          "i">
+<!ENTITY loaddevice.filename.accesskey          "f">
 <!ENTITY loaddevice.browse                      "Parcourir…">
 <!ENTITY loaddevice.browse.accesskey            "P">
 

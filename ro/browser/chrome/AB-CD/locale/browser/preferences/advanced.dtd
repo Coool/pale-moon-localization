@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Șterge datele offline">
 
 <!ENTITY certificateTab.label            "Certificate">
+<!ENTITY certGroup.label                 "Certificat personal">
 <!ENTITY certSelection.description       "Când un server cere certificatul meu personal:">
 <!ENTITY certs.auto                      "Selectează automat unul">
 <!ENTITY certs.auto.accesskey            "S">
 <!ENTITY certs.ask                       "Întreabă-mă de fiecare dată">
 <!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "Validare certificat">
+<!ENTITY enableOCSP.label                "Folosește OCSP (protocolul de verificare a stării unui certificat online) pentru a confirma validitatea certificatelor">
+<!ENTITY enableOCSP.accesskey            "u">
+<!ENTITY requireOCSP.label               "Când o conexiune cu serverul OCSP eșuează, tratează certificatul ca invalid">
+<!ENTITY requireOCSP.accesskey           "C">
 <!ENTITY viewCerts.label                 "Vizualizare certificate">
 <!ENTITY viewCerts.accesskey             "z">
-<!ENTITY verify2.label                   "Validare">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Dispozitive de securitate">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY UACompatGroup.label    "Compatibilitate">
+<!ENTITY UACompat.label         "Mod Agent de utilizator:">
+<!ENTITY UACompat.Native        "Nativ">
+<!ENTITY UACompat.Gecko         "Compatibilitate Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilitate Firefox">
+
+<!ENTITY scrollparamTab.label               "Derulare">
+<!ENTITY smoothscroll.explain.label         "Parametrii de mai jos au un efect doar dacă derulare lină este activată general cu caseta de selectare de mai sus.">
+<!ENTITY smoothscroll.to                    "către">
+<!ENTITY smoothscroll.params.label          "Parametrii derulare lină">
+<!ENTITY smoothscroll.mousewheel.label      "Derulare lină cu rotiţa mouse-ului">
+<!ENTITY smoothscroll.mousewheel.duration   "Durată derulare cu rotița mouse-ului:">
+<!ENTITY smoothscroll.arrowkeys.label       "Derulare lină cu săgeți">
+<!ENTITY smoothscroll.arrowkeys.duration    "Durată derulare cu taste săgeți:">
+<!ENTITY smoothscroll.pagekeys.label        "Derulare lină cu pagină sus/jos">
+<!ENTITY smoothscroll.pagekeys.duration     "Durată derulare lină cu pagină sus/jos:">
+<!ENTITY smoothscroll.scrollbar.label       "Derulare lină cu bare de derulare">
+<!ENTITY smoothscroll.scrollbar.duration    "Durată derulare lină cu bare de derulare:">

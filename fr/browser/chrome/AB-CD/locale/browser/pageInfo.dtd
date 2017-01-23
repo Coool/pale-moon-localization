@@ -8,7 +8,7 @@
 <!ENTITY  copy.key              "C">
 <!ENTITY  copy.label            "Copier">
 <!ENTITY  copy.accesskey        "C">
-<!ENTITY  selectall.key         "A">
+<!ENTITY  selectall.key         "T">
 <!ENTITY  selectall.label       "Tout sélectionner">
 <!ENTITY  selectall.accesskey   "T">
 <!ENTITY  closeWindow.key       "w">
@@ -41,8 +41,8 @@
 <!ENTITY  mediaLongdesc         "Description longue :">
 <!ENTITY  mediaBlockImage.accesskey "B">
 <!ENTITY  mediaSaveAs           "Enregistrer sous…">
-<!ENTITY  mediaSaveAs.accesskey "s">
-<!ENTITY  mediaSaveAs2.accesskey "E">
+<!ENTITY  mediaSaveAs.accesskey "E">
+<!ENTITY  mediaSaveAs2.accesskey "e">
 <!ENTITY  mediaPreview          "Aperçu du média :">
 
 <!ENTITY  feedTab               "Flux">
@@ -50,23 +50,24 @@
 <!ENTITY  feedSubscribe         "S'abonner">
 <!ENTITY  feedSubscribe.accesskey "S">
 
-<!ENTITY  permTab               "Permissions">
-<!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "Permissions par défaut">
-<!ENTITY  permAskAlways         "Toujours demander">
-<!ENTITY  permAllow             "Autoriser">
-<!ENTITY  permAllowSession      "Autoriser pour la session">
-<!ENTITY  permBlock             "Bloquer">
-<!ENTITY  permissionsFor        "Permissions pour :">
-<!ENTITY  permImage             "Charger des images">
-<!ENTITY  permPopup             "Ouvrir des fenêtres popup">
-<!ENTITY  permCookie            "Définir des cookies">
-<!ENTITY  permNotifications     "Afficher des notifications">
-<!ENTITY  permInstall           "Installer des extensions ou des thèmes">
-<!ENTITY  permGeo               "Partager la localisation">
-<!ENTITY  permPlugins           "Activer les plugins">
-<!ENTITY  permFullscreen        "Passer en mode plein écran">
-<!ENTITY  permPointerLock2      "Masquer le pointeur de la souris">
+<!ENTITY  permTab                    "Permissions">
+<!ENTITY  permTab.accesskey          "P">
+<!ENTITY  permUseDefault             "Permissions par défaut">
+<!ENTITY  permAskAlways              "Toujours demander">
+<!ENTITY  permAllow                  "Autoriser">
+<!ENTITY  permAllowSession           "Autoriser pour la session">
+<!ENTITY  permAllowFirstPartyOnly    "Domaine principal seul">
+<!ENTITY  permBlock                  "Bloquer">
+<!ENTITY  permissionsFor             "Permissions pour :">
+<!ENTITY  permImage                  "Charger des images">
+<!ENTITY  permPopup                  "Ouvrir les fenêtres contextuelles (popup)">
+<!ENTITY  permCookie                 "Définir des cookies">
+<!ENTITY  permNotifications          "Afficher des notifications">
+<!ENTITY  permInstall                "Installer des extensions ou des thèmes">
+<!ENTITY  permGeo                    "Partager la localisation">
+<!ENTITY  permPlugins                "Activer les plugins">
+<!ENTITY  permFullscreen             "Passer en mode plein écran">
+<!ENTITY  permPointerLock2           "Masquer le pointeur de la souris">
 
 <!ENTITY  permIndexedDB              "Conserver des données hors connexion">
 <!ENTITY  permClearStorage           "Supprimer les données">
@@ -75,22 +76,22 @@
 <!ENTITY  securityTab           "Sécurité">
 <!ENTITY  securityTab.accesskey "S">
 <!ENTITY  securityHeader        "Informations de sécurité pour cette page">
-<!ENTITY  securityView.certView "Afficher le certificat…">
-<!ENTITY  securityView.accesskey "A">
+<!ENTITY  securityView.certView "Voir le certificat…">
+<!ENTITY  securityView.accesskey "r">
 <!ENTITY  securityView.unknown   "Inconnu">
-<!ENTITY  securityView.identity.header   "Identité du site web">
 
 
+<!ENTITY  securityView.identity.header   "Identité du site Web">
 <!ENTITY  securityView.identity.owner    "Propriétaire : ">
-<!ENTITY  securityView.identity.domain   "site web : ">
+<!ENTITY  securityView.identity.domain   "Site Web :">
 <!ENTITY  securityView.identity.verifier "Vérifiée par : ">
 
 <!ENTITY  securityView.privacy.header                   "Vie privée et historique">
-<!ENTITY  securityView.privacy.history                  "Déjà visité ce site web auparavant ?">
-<!ENTITY  securityView.privacy.cookies                  "Ce site web collecte-t-il des informations (cookies) sur et ordinateur ?">
+<!ENTITY  securityView.privacy.history                  "Déjà visité ce site Web auparavant ?">
+<!ENTITY  securityView.privacy.cookies                  "Ce site Web collecte-t-il des informations (cookies) sur cet ordinateur ?">
 <!ENTITY  securityView.privacy.viewCookies              "Voir les cookies…">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
-<!ENTITY  securityView.privacy.passwords                "Déjà un mot de passe enregistré pour ce site web ?">
+<!ENTITY  securityView.privacy.passwords                "Déjà un mot de passe enregistré pour ce site Web ?">
 <!ENTITY  securityView.privacy.viewPasswords            "Voir les mots de passe enregistrés…">
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "V">
 

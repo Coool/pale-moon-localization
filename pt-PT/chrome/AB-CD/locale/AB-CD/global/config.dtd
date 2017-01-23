@@ -2,48 +2,48 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "Scratchpad">
+<!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
 <!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "There be dragons here!">
-<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
-<!ENTITY aboutWarningButton.label "I promise to be careful!">
-<!ENTITY aboutWarningCheckbox.label "Voltar a avisar-me da próxima vez.">
+<!ENTITY aboutWarningTitle.label "Cuidado!">
+<!ENTITY aboutWarningText.label "A alteração destas definições avançadas podem danificar (gravemente) a estabilidade, segurança e desempenho desta aplicação. Apenas deve continuar se souber o que está a fazer.">
+<!ENTITY aboutWarningButton.label "Prometo ser cuidadoso!">
+<!ENTITY aboutWarningCheckbox.label "Mostrar sempre este aviso">
 
 <!ENTITY searchPrefs.label "Pesquisar:">
 <!ENTITY searchPrefs.accesskey "r">
-<!ENTITY focusSearch.key "f">
+<!ENTITY focusSearch.key "r">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Nome da preferência">
 <!ENTITY lockColumn.label "Estado">
-<!ENTITY typeColumn.label "Tipo de Conteúdo">
+<!ENTITY typeColumn.label "Tipo">
 <!ENTITY valueColumn.label "Valor">
 
 <!-- Tooltips -->
 <!ENTITY prefColumnHeader.tooltip "Clique para ordenar"> 
-<!ENTITY columnChooser.tooltip "Clique para seleccionar as colunas a mostrar"> 
+<!ENTITY columnChooser.tooltip "Clique para selecionar as colunas a mostrar"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "C">
 <!ENTITY copyPref.label "Copiar">
 <!ENTITY copyPref.accesskey "C">
 <!ENTITY copyName.label "Copiar nome">
-<!ENTITY copyName.accesskey "N">
+<!ENTITY copyName.accesskey "n">
 <!ENTITY copyValue.label "Copiar valor">
-<!ENTITY copyValue.accesskey "V">
+<!ENTITY copyValue.accesskey "v">
 <!ENTITY modify.label "Modificar">
 <!ENTITY modify.accesskey "M">
 <!ENTITY toggle.label "Alternar">
-<!ENTITY toggle.accesskey "A">
-<!ENTITY reset.label "Voltar ao início">
-<!ENTITY reset.accesskey "V">
-<!ENTITY new.label "Novo">
-<!ENTITY new.accesskey "n">
+<!ENTITY toggle.accesskey "t">
+<!ENTITY reset.label "Repor">
+<!ENTITY reset.accesskey "R">
+<!ENTITY new.label "Nova">
+<!ENTITY new.accesskey "v">
 <!ENTITY string.label "String">
 <!ENTITY string.accesskey "S">
-<!ENTITY integer.label "Inteiro">
+<!ENTITY integer.label "Integer">
 <!ENTITY integer.accesskey "I">
-<!ENTITY boolean.label "Booleano">
+<!ENTITY boolean.label "Boolean">
 <!ENTITY boolean.accesskey "B">

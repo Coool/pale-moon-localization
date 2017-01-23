@@ -8,13 +8,29 @@
 
 <!ENTITY aboutTelemetry.telemetryDisabled "A telemetria está <span>desativada</span>.">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "Instruções SQL lentas">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "Congelamentos do navegador">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "Histogramas">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "Medições simples">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
+">
 
 <!ENTITY aboutTelemetry.lateWritesSection "Escritas atrasadas">
 
@@ -22,9 +38,9 @@
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "Histogramas coletados por extensões">
 
-<!ENTITY aboutTelemetry.toggleOn "Clique para exibir a seção">
-
-<!ENTITY aboutTelemetry.toggleOff "Clique para ocultar a seção">
+<!ENTITY aboutTelemetry.toggle "
+Clique para alternar seção
+">
 
 <!ENTITY aboutTelemetry.emptySection "(Nenhum dado coletado)">
 
@@ -33,3 +49,7 @@
 <!ENTITY aboutTelemetry.fetchSymbols "Carregar nomes das funções para pilha dos congelamentos">
 
 <!ENTITY aboutTelemetry.hideSymbols "Exibir sem processamento dados dos congelamentos">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
+">

@@ -59,10 +59,10 @@ can reach it easily. -->
 <!ENTITY printSetupCmd.label "Pagina-instellingen…">
 <!ENTITY printSetupCmd.accesskey "i">
 <!ENTITY printPreviewCmd.label "Afdrukvoorbeeld">
-<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printPreviewCmd.accesskey "V">
 <!ENTITY printCmd.label "Afdrukken…">
 <!ENTITY printCmd.accesskey "d">
-<!ENTITY printCmd.commandkey "p">
+<!ENTITY printCmd.commandkey "P">
 
 <!ENTITY goOfflineCmd.label "Offline werken">
 <!ENTITY goOfflineCmd.accesskey "f">
@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Bladwijzerwerkbalkitems">
 <!ENTITY addonBarCmd.label "Add-onbalk">
 <!ENTITY addonBarCmd.accesskey "d">
+<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Paginabron">
 <!ENTITY pageSourceCmd.accesskey "b">
@@ -122,6 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Abonneren op deze pagina…">
 <!ENTITY addCurPagesCmd.label "Bladwijzer voor alle tabbladen maken…">
 <!ENTITY showAllBookmarks2.label "Alle bladwijzers tonen">
+<!ENTITY organizeBookmarks.label "Organize Bookmarks">
 <!ENTITY unsortedBookmarksCmd.label "Ongesorteerde bladwijzers">
 <!ENTITY bookmarksToolbarChevron.tooltip "Meer bladwijzers tonen">
 
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.accesskey "Y">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,6 +244,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Ontwikkelaarswerkbalk sluiten">
 <!ENTITY devToolbarMenu.label              "Ontwikkelaarswerkbalk">
 <!ENTITY devToolbarMenu.accesskey          "O">
+<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Hulpmiddelen in-/uitschakelen">
@@ -276,7 +288,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.accesskey         "P"> 
 <!ENTITY deleteCmd.label          "Verwijderen">  
 <!ENTITY deleteCmd.key            "d">  
-<!ENTITY deleteCmd.accesskey        "V"> 
+<!ENTITY deleteCmd.accesskey        "w"> 
 <!ENTITY selectAllCmd.label         "Alles selecteren">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
@@ -403,9 +415,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "m">
 <!ENTITY savePageCmd.label            "Pagina opslaan als…">
 <!ENTITY savePageCmd.accesskey        "p">
+<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "p">
-<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY savePageCmd.commandkey       "S">
 <!ENTITY saveFrameCmd.label           "Deelvenster opslaan als…">
 <!ENTITY saveFrameCmd.accesskey       "r">
 <!ENTITY printFrameCmd.label          "Deelvenster afdrukken…">
@@ -573,7 +589,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.accesskey "Z">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Opnieuw zoeken">
-<!ENTITY findAgainCmd.accesskey "w">
+<!ENTITY findAgainCmd.accesskey "e">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 

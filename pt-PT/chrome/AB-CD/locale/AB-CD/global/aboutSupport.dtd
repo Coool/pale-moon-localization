@@ -6,10 +6,18 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-  Esta página contém as informações técnicas para o ajudar a tentar 
-  resolver um problema. Se estiver à procura de respostas para questões comuns
-  do &brandShortName;, aceda ao nosso <a id='supportLink'>sítio web de suporte</a>.
+  Esta página contém as informações técnicas para o ajudar a tentar resolver um problema.
+ Se estiver à procura de respostas para questões comuns do &brandShortName;, aceda ao
+ nosso <a id='supportLink'>site de suporte</a>.
 ">
+
+<!ENTITY aboutSupport.crashes.title "Relatórios de erro">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "ID do relatório">
+<!ENTITY aboutSupport.crashes.sendDate "Submetido">
+<!ENTITY aboutSupport.crashes.allReports "Todos os relatórios">
+<!ENTITY aboutSupport.crashes.noConfig "Esta aplicação não está configurada para mostrar relatórios de erro.">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensões">
 <!ENTITY aboutSupport.extensionName "Nome">
@@ -17,12 +25,23 @@
 <!ENTITY aboutSupport.extensionVersion "Versão">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.experimentsTitle "Funcionalidades experimentais">
+<!ENTITY aboutSupport.experimentName "Nome">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "Descrição">
+<!ENTITY aboutSupport.experimentActive "Ativada">
+<!ENTITY aboutSupport.experimentEndDate "Data de fim">
+<!ENTITY aboutSupport.experimentHomepage "Página inicial">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "Noções básicas">
 <!ENTITY aboutSupport.appBasicsName "Nome">
 <!ENTITY aboutSupport.appBasicsVersion "Versão">
+<!ENTITY aboutSupport.appBasicsBuildID "ID da compilação">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Canal de atualizações">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Histórico de atualizações">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Mostrar histórico de atualizações">
 
@@ -35,10 +54,11 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins ativos">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuração da versão">
 <!ENTITY aboutSupport.appBasicsUserAgent "Agente de utilizador">
-<!ENTITY aboutSupport.appBasicsCrashIDs "Relatórios de erros">
-<!ENTITY aboutSupport.appBasicsMemoryUse "Utilização da memória">
+<!ENTITY aboutSupport.appBasicsMemoryUse "Utilização de memória">
 
-<!ENTITY aboutSupport.showDir.label "Abrir pasta">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Janelas multi-processos">
+
+<!ENTITY aboutSupport.showDir.label "Abrir diretório">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
@@ -55,6 +75,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Preferências user.js">
 <!ENTITY aboutSupport.userJSDescription "A sua pasta de perfil contém <a id='prefs-user-js-link'>um ficheiro user.js</a>, que inclui as preferências que não foram criadas pelo &brandShortName;.">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Preferências importantes bloqueadas">
+<!ENTITY aboutSupport.lockedPrefsName "Nome">
+<!ENTITY aboutSupport.lockedPrefsValue "Valor">
+
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
@@ -66,8 +90,13 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Versões da biblioteca">
 
-<!ENTITY aboutSupport.installationHistoryTitle "Histórico de instalação">
+<!ENTITY aboutSupport.installationHistoryTitle "Histórico de instalações">
 <!ENTITY aboutSupport.updateHistoryTitle "Histórico de atualizações">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copiar texto para a área de transferência">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar dados raw para a área de transferência">
+
+<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+
+<!ENTITY aboutSupport.safeModeTitle "Tentar modo seguro">
+<!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar com os extras desativados…">

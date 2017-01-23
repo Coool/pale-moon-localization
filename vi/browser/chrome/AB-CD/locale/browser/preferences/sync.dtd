@@ -3,44 +3,44 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "Cài đặt &syncBrand.fullName.label; (S)">
-<!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; cho phép bạn truy cập lược sử, tranh đánh dấu, mật khẩu và các thẻ đang mở của bạn trên tất cả các thiết bị.">
+<!ENTITY setupButton.label          "Thiết lập &syncBrand.fullName.label;">
+<!ENTITY setupButton.accesskey      "T">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; cho phép bạn truy cập lịch sử, dấu trang, mật khẩu, và thẻ mở trên tất cả các thiết bị của bạn.">
 
 <!-- The page shown when logged in... -->
 
 <!-- Login error feedback -->
 <!ENTITY updatePass.label             "Cập nhật">
-<!ENTITY resetPass.label              "Đặt lại">
+<!ENTITY resetPass.label              "Mặc định">
 
 <!-- Manage Account -->
-<!ENTITY manageAccount.label          "Quản lý Tài khoản">
+<!ENTITY manageAccount.label          "Quản lý tài khoản">
 <!ENTITY manageAccount.accesskey      "Q">
-<!ENTITY viewQuota.label              "Xem Hạn Mức">
-<!ENTITY changePassword2.label        "Đổi mật khẩu...">
-<!ENTITY myRecoveryKey.label          "Key Khôi phục của tôi">
-<!ENTITY resetSync2.label             "Thiết lập lại Sync…">
+<!ENTITY viewQuota.label              "Xem Hạn mức">
+<!ENTITY changePassword2.label        "Thay đổi Mật khẩu…">
+<!ENTITY myRecoveryKey.label          "Chìa khóa Khôi phục của Tôi">
+<!ENTITY resetSync2.label             "Đặt lại Đồng bộ…">
 
-<!ENTITY pairDevice.label             "Ghép đối thiết bị">
+<!ENTITY pairDevice.label             "Ghép đôi Thiết bị">
 
-<!ENTITY syncMy.label               "Đồng Bộ">
-<!ENTITY engine.bookmarks.label     "Trang đánh dấu">
-<!ENTITY engine.bookmarks.accesskey "u">
+<!ENTITY syncMy.label               "Đồng bộ">
+<!ENTITY engine.bookmarks.label     "Dấu trang">
+<!ENTITY engine.bookmarks.accesskey "D">
 <!ENTITY engine.tabs.label          "Thẻ">
 <!ENTITY engine.tabs.accesskey      "T">
-<!ENTITY engine.history.label       "Lịch sử (r)">
-<!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.history.label       "Lịch sử">
+<!ENTITY engine.history.accesskey   "L">
 <!ENTITY engine.passwords.label     "Mật khẩu">
 <!ENTITY engine.passwords.accesskey "M">
 <!ENTITY engine.prefs.label         "Tùy chỉnh">
 <!ENTITY engine.prefs.accesskey     "y">
 <!ENTITY engine.addons.label        "Tiện ích">
-<!ENTITY engine.addons.accesskey    "T">
+<!ENTITY engine.addons.accesskey    "c">
 
 <!-- Device Settings -->
-<!ENTITY syncDeviceName.label       "Tên thiết bị:">
-<!ENTITY syncDeviceName.accesskey   "c">
-<!ENTITY unlinkDevice.label           "Bỏ liên kết thiết bị này">
+<!ENTITY syncDeviceName.label       "Tên Thiết bị:">
+<!ENTITY syncDeviceName.accesskey   "T">
+<!ENTITY unlinkDevice.label           "Hủy Liên kết Thiết bị Này">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "Điều khoản Dịch vụ">

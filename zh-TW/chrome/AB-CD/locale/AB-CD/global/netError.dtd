@@ -2,166 +2,99 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "頁面載入發生問題">
-<!ENTITY retry.label "重試">
+<!ENTITY loadError.label "頁面載入錯誤">
+<!ENTITY retry.label "Try Again">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "連線失敗">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.title "Failed to Connect">
+<!ENTITY connectionFailure.longDesc "<p>雖然網站看起來存在，但是瀏覽器無法建立連線。</p><ul><li>該網站也許暫時無法使用？請稍後再試。</li><li>其他網站你也無法瀏覽嗎？ 請檢查電腦的網路連線狀態。</li><li>你的電腦或網路是否啟用了防火牆或代理伺服器？設定不正確可能會造成網頁瀏覽受到影響。</li></ul>">
 
-<!ENTITY deniedPortAccess.title "此網址已被限制">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
 
-<!ENTITY dnsNotFound.title "找不到伺服器">
-<!ENTITY dnsNotFound.longDesc "<ul>
-   <li>請檢查網址是否有打錯？例如把
-   <strong>www</strong>.example.com 打成
-   <strong>ww</strong>.example.com</li>
-   <li>若無法載入任何網站，請檢查您的網路連線狀態。</li>
-   <li>若電腦或網路被防火牆或 Proxy 保護，請確定
-   &brandShortName; 被允許存取網路。</li> </ul>
-                    ">
+<!ENTITY dnsNotFound.title "Address Not Found">
+<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
 
-<!ENTITY fileNotFound.title "找不到檔案">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>請檢查檔名是否有大小寫錯誤、拼錯字。</li>
-  <li>請檢查檔案是否已被移動、改名或刪除。</li>
-</ul>
-">
+<!ENTITY fileNotFound.title "File Not Found">
+<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
 
-<!ENTITY generic.title "噢！">
-<!ENTITY generic.longDesc "
-<p>&brandShortName; 因為某些原因無法載入此網頁。</p>
-">
+<!ENTITY generic.title "Cannot Complete Request">
+<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
 
-<!ENTITY malformedURI.title "不正確的網址">
-<!ENTITY malformedURI.longDesc "<ul>
-   <li>網址通常長的像
-      <strong>http://www.example.com/</strong>。</li>
-   <li>請確定您用的是斜線 (例:
-      <strong>/</strong>)。</li>
-</ul>
-                ">
+<!ENTITY malformedURI.title "Invalid Address">
+<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
 
-<!ENTITY netInterrupt.title "資料傳輸中斷">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.title "Data Transfer Interrupted">
+<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY notCached.title "文件已過期">
-<!ENTITY notCached.longDesc "<p>您所請求的文件已不存在於 &brandShortName; 的快取當中。</p><ul><li>為了您的安全，&brandShortName; 將不會自動重新請求敏感文件。</li><li>請點下重試以重新向網站請求取得文件。</li></ul>">
+<!ENTITY notCached.title "Document Expired">
+<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
 
-<!ENTITY netOffline.title "離線模式">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>請按下「重試」以切換到連線模式並重新載入頁面。</li>
-</ul>
-">
+<!ENTITY netOffline.title "Offline Mode">
+<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
 
-<!ENTITY contentEncodingError.title "內容編碼錯誤">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>請向網站擁有者回報此問題。</li>
-</ul>
-">
+<!ENTITY contentEncodingError.title "Content Encoding Error">
+<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
-<!ENTITY unsafeContentType.title "不安全的檔案格式">
+<!ENTITY unsafeContentType.title "Unsafe File Type">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>請向網站擁有者回報此問題。</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
 </ul>
 ">
 
-<!ENTITY netReset.title "連線被重設">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.title "Connection Interrupted">
+<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
 
-<!ENTITY netTimeout.title "連線已逾時">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.title "Network Timeout">
+<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY protocolNotFound.title "無法理解的網址">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>您需要安裝其他軟體才能開啟此網址。</li>
+<!ENTITY unknownProtocolFound.title "Unknown Protocol">
+<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+
+<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
+<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+
+<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
+<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+
+<!ENTITY redirectLoop.title "Redirect Loop">
+<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+
+<!ENTITY unknownSocketType.title "Incorrect Response">
+<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+
+<!ENTITY nssFailure2.title "Secure Connection Failed">
+<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+
+<!ENTITY nssBadCert.title "Secure Connection Failed">
+<!ENTITY nssBadCert.longDesc2 "<ul>
+<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
+<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
 </ul>
 ">
 
-<!ENTITY proxyConnectFailure.title "Proxy 伺服器拒絕連線">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>請檢查 Proxy 設定是否正確。</li>
-  <li>與您的網路管理員聯絡，確定 Proxy 伺服器正常運作。</li>
-</ul>
+<!ENTITY malwareBlocked.title "Suspected Attack Site!">
+<!ENTITY malwareBlocked.longDesc "
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
 ">
 
-<!ENTITY proxyResolveFailure.title "找不到 Proxy 伺服器">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>請檢查 Proxy 設定是否正確。</li>
-  <li>請檢查您的網路連線狀態。</li>
-  <li>若電腦或網路被防火牆或 Proxy 保護，請確定
-    &brandShortName; 被允許存取網路。</li>
-</ul>
-">
-
-<!ENTITY redirectLoop.title "頁面重新導向不正確">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>有時候停用或拒絕接受 Cookie 會造成此問題。</li>
-</ul>
-">
-
-<!ENTITY unknownSocketType.title "伺服器回應錯誤">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>請確定電腦已安裝個人安全管理員 (Personal Security Manager)。</li>
-  <li>可能是伺服器上的非標準設定所造成的。</li>
-</ul>
-">
-
-<!ENTITY nssFailure2.title "安全連線失敗">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li>
-  <li>請向網站擁有者回報此問題，或是從「說明」功能表中回報這個網站的問題。</li>
-</ul>
-">
-
-<!ENTITY nssBadCert.title "安全連線失敗">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>這可能是伺服器上的組態設定造成的，或是有人嘗試假造該伺服器。</li>
-  <li>若您以前可以與該伺服器正常連線，那麼這個錯誤可能只是暫時的，您可以稍候再試試看。</li>
-</ul>
-">
-
-<!ENTITY malwareBlocked.title "可能是有害網站！">
-<!ENTITY malwareBlocked.longDesc "<p>有害網站會嘗試安裝能竊取隱私資訊、利用您的電腦攻擊他人或破壞作業系統等的惡意軟體到您的電腦上。</p> <p>如果您是網頁擁有者，發現您的網站被誤認為有害網站時可以 <a href='http://www.stopbadware.org/home/reviewinfo' >請求重新審核</a>。</p>">
-
-<!ENTITY phishingBlocked.title "可能是偽造網站！">
+<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
 <!ENTITY phishingBlocked.longDesc "
-<p>在此網頁上輸入的任何個人資訊可能會導致身分被盜用或遭受其他詐騙行為。</p>
-<p>這些類型的偽造網頁含有常見的詐騙攻擊特徵，可能是罪犯所製作用來模仿您信任的合法來源之詐騙網頁。</p>
+<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
+<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "已依內容安全政策封鎖">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; 阻止了這個頁面載入，因為這個頁面的內容安全政策不允許其以這種方式被載入。</p>">
+<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
 
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
-<!ENTITY xssBlockMode.longDesc "
-<ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
-</ul>
-">
+<!ENTITY corruptedContentError.title "Corrupted Content Error">
+<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
-<!ENTITY corruptedContentError.title "內容毀損錯誤">
-<!ENTITY corruptedContentError.longDesc "<p>因為在資料傳輸過程當中偵測到錯誤，無法顯示您正要檢視的頁面。</p><ul><li>請通知網站管理者以讓他們知道這個問題。</li></ul>">
-
-<!ENTITY remoteXUL.title "遠端 XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>請聯絡網站管理員以通知他們這個問題。</li></ul></p>">
+<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

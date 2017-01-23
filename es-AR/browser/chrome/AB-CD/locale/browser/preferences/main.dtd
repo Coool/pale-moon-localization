@@ -6,9 +6,9 @@
 
 <!ENTITY startupPage.label         "Al iniciar &brandShortName;:">
 <!ENTITY startupPage.accesskey     "i">
-<!ENTITY startupHomePage.label     "Mostrar mi página de inicio">
+<!ENTITY startupHomePage.label     "Mostrar mi página de inicio personal">
 <!ENTITY startupBlankPage.label    "Mostrar una página en blanco">
-<!ENTITY startupLastSession.label  "Mostrar las ventanas y pestañas de la última vez">
+<!ENTITY startupLastSession.label  "Mostrar mis ventanas y pestañas de la última sesión">
 
 <!ENTITY homepage.label            "Página de inicio:">
 <!ENTITY homepage.accesskey        "P">
@@ -17,7 +17,7 @@
 <!ENTITY useMultiple.label         "Usar páginas actuales">
 <!ENTITY chooseBookmark.label      "Usar un marcador…">
 <!ENTITY chooseBookmark.accesskey  "m">
-<!ENTITY restoreDefault.label      "Restaurar predeterminadas">
+<!ENTITY restoreDefault.label      "Restaurar a valor predeterminado">
 <!ENTITY restoreDefault.accesskey  "R">
 
 <!ENTITY downloads.label     "Descargas">
@@ -27,10 +27,18 @@
 <!ENTITY closeWhenDone.label "Cerrarla cuando finalicen todas las descargas">
 <!ENTITY closeWhenDone.accesskey "f">
 <!ENTITY saveTo.label "Guardar archivos en">
-<!ENTITY saveTo.accesskey "v">
+<!ENTITY saveTo.accesskey "G">
 <!ENTITY chooseFolderWin.label        "Examinar…">
 <!ENTITY chooseFolderWin.accesskey    "x">
 <!ENTITY chooseFolderMac.label        "Elegir…">
 <!ENTITY chooseFolderMac.accesskey    "e">
-<!ENTITY alwaysAsk.label "Siempre preguntarme dónde guardar archivos">
+<!ENTITY alwaysAsk.label "Siempre preguntarme dónde guardar los archivos">
 <!ENTITY alwaysAsk.accesskey "a">
+
+<!ENTITY toolkit.classic.download.window.label       "Usar la ventana clásica de descargas">
+
+<!ENTITY zoneInfo.label       "Los archivos guardados tienen información de zona:">
+<!ENTITY zoneInfo.never       "Nunca">
+<!ENTITY zoneInfo.always      "Siempre">
+<!ENTITY zoneInfo.system      "Usar configuración del sistema">
+

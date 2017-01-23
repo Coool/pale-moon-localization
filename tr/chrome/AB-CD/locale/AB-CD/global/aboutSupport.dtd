@@ -7,18 +7,37 @@
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "Bu sayfa, bir sorunu gidermeye çalışırken işinize yarabilecek teknik bilgiler içerir. &brandShortName; hakkında genel sorularla ilgili yanıt arıyorsanız <a id='supportLink'>destek sitemizi</a> ziyaret edin.">
 
+<!ENTITY aboutSupport.crashes.title "Çökme Raporları">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.sendDate "Submitted">
+<!ENTITY aboutSupport.crashes.allReports "Tüm Çökme Raporları">
+<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+
 <!ENTITY aboutSupport.extensionsTitle "Eklentiler">
 <!ENTITY aboutSupport.extensionName "Adı">
 <!ENTITY aboutSupport.extensionEnabled "Devrede">
 <!ENTITY aboutSupport.extensionVersion "Sürüm">
 <!ENTITY aboutSupport.extensionId "Kimlik">
 
+<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "Description">
+<!ENTITY aboutSupport.experimentActive "Active">
+<!ENTITY aboutSupport.experimentEndDate "End Date">
+<!ENTITY aboutSupport.experimentHomepage "Homepage">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "Uygulama temelleri">
 <!ENTITY aboutSupport.appBasicsName "Adı">
 <!ENTITY aboutSupport.appBasicsVersion "Sürüm">
+<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Güncelleme geçmişi">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Güncelleme geçmişini göster">
 
@@ -31,8 +50,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Devredeki yan uygulamalar">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Yapılandırma">
 <!ENTITY aboutSupport.appBasicsUserAgent "Kullanıcı aracı">
-<!ENTITY aboutSupport.appBasicsCrashIDs "Çökme Raporları">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Bellek kullanımı">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
 <!ENTITY aboutSupport.showDir.label "Dizini aç">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -51,6 +71,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js Tercihleri">
 <!ENTITY aboutSupport.userJSDescription "Profil klasörünüz, &brandShortName; tarafından oluşturulmamış tercihler içeren bir <a id='prefs-user-js-link'>user.js dosyası</a> içeriyor.">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedPrefsName "Name">
+<!ENTITY aboutSupport.lockedPrefsValue "Value">
+
 <!ENTITY aboutSupport.graphicsTitle "Çizimler">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
@@ -67,3 +91,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Metni panoya kopyala">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Ham metni panoya kopyala">
+
+<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+
+<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">

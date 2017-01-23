@@ -31,7 +31,7 @@
 <!ENTITY alwaysCheckDefault.accesskey    "w">
 <!ENTITY setDefault.label                "&brandShortName; を既定のブラウザに設定する">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&brandShortName; は既定のブラウザに設定されています">
+<!ENTITY isDefault.label                 "&brandShortName; を既定のブラウザに設定する">
 
 <!ENTITY dataChoicesTab.label            "データの選択">
 
@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "オフライン作業用データの削除">
 
 <!ENTITY certificateTab.label            "証明書">
+<!ENTITY certGroup.label                 "個人証明書">
 <!ENTITY certSelection.description       "サーバが個人証明書を要求したとき:">
 <!ENTITY certs.auto                      "自動的に選択する">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "毎回自分で選択する">
 <!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "証明書の検証">
+<!ENTITY enableOCSP.label                "OCSP (オンライン証明書状態プロトコル)を利用してデジタル証明書の有効性をリアルタイムに確認する">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "OCSP サーバに接続できなかった場合は証明書を無効として扱う">
+<!ENTITY requireOCSP.accesskey           "W">
 <!ENTITY viewCerts.label                 "証明書を表示...">
 <!ENTITY viewCerts.accesskey             "s">
-<!ENTITY verify2.label                   "検証...">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "セキュリティデバイス...">
 <!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY UACompatGroup.label    "互換">
+<!ENTITY UACompat.label         "ユーザーエージェントモード:">
+<!ENTITY UACompat.Native        "ネイティブ">
+<!ENTITY UACompat.Gecko         "Gecko 互換">
+<!ENTITY UACompat.Firefox       "Firefox 互換">
+
+<!ENTITY scrollparamTab.label               "スクロール">
+<!ENTITY smoothscroll.explain.label         "上のスムーズスクロールを有効にすると、以下のパラメータが有効になります。">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "スムーズスクロールのパラメーター">
+<!ENTITY smoothscroll.mousewheel.label      "マウスホイールでスクロール">
+<!ENTITY smoothscroll.mousewheel.duration   "マウスホイールスクロールの継続時間:">
+<!ENTITY smoothscroll.arrowkeys.label       "矢印キーでスムーズスクロール">
+<!ENTITY smoothscroll.arrowkeys.duration    "矢印キーはスクロールの継続時間:">
+<!ENTITY smoothscroll.pagekeys.label        "スムーズスクロールのページアップ・ダウン">
+<!ENTITY smoothscroll.pagekeys.duration     "ページアップ・ダウンのスクロール継続時間:">
+<!ENTITY smoothscroll.scrollbar.label       "スクロールバーでスムーズスクロール">
+<!ENTITY smoothscroll.scrollbar.duration    "スクロールバーのスクロール継続時間:">

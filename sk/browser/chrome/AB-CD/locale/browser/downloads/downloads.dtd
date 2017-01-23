@@ -43,7 +43,7 @@
 <!ENTITY cmd.pause.label                  "Pozastaviť">
 <!ENTITY cmd.pause.accesskey              "P">
 <!ENTITY cmd.resume.label                 "Pokračovať">
-<!ENTITY cmd.resume.accesskey             "P">
+<!ENTITY cmd.resume.accesskey             "R">
 <!ENTITY cmd.cancel.label                 "Zrušiť">
 <!ENTITY cmd.cancel.accesskey             "Z">
 <!-- LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
@@ -83,6 +83,11 @@
      is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Žiadne prevzaté súbory">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "Žiadne položky na prevzatie pre túto reláciu.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

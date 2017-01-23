@@ -11,18 +11,37 @@
   o programe &brandShortName;, navštívte <a id='supportLink'>stránku podpory</a>.
 ">
 
+<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.sendDate "Submitted">
+<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
+<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+
 <!ENTITY aboutSupport.extensionsTitle "Rozšírenia">
 <!ENTITY aboutSupport.extensionName "Názov">
 <!ENTITY aboutSupport.extensionEnabled "Povolené">
 <!ENTITY aboutSupport.extensionVersion "Verzia">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "Description">
+<!ENTITY aboutSupport.experimentActive "Active">
+<!ENTITY aboutSupport.experimentEndDate "End Date">
+<!ENTITY aboutSupport.experimentHomepage "Homepage">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "Základné nastavenia aplikácie">
 <!ENTITY aboutSupport.appBasicsName "Názov">
 <!ENTITY aboutSupport.appBasicsVersion "Verzia">
+<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "História aktualizácií">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Zobraziť históriu aktualizácií">
 
@@ -35,8 +54,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Povolené zásuvné moduly">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Konfigurácia zostavenia">
 <!ENTITY aboutSupport.appBasicsUserAgent "Reťazec User Agent">
-<!ENTITY aboutSupport.appBasicsCrashIDs "Správy o zlyhaní">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Využitie pamäte">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
 <!ENTITY aboutSupport.showDir.label "Otvoriť priečinok">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -55,6 +75,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Nastavenia v súbore user.js">
 <!ENTITY aboutSupport.userJSDescription "Priečinok vášho profilu obsahuje <a id='prefs-user-js-link'>súbor user.js</a>, ktorý obsahuje nastavenia, ktoré neboli vytvorené programom &brandShortName;.">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedPrefsName "Name">
+<!ENTITY aboutSupport.lockedPrefsValue "Value">
+
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
@@ -71,3 +95,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopírovať text do schránky">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopírovať nespracované údaje do schránky">
+
+<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+
+<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">

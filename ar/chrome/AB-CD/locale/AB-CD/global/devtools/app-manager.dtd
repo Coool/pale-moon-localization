@@ -1,0 +1,103 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY index.title "مدير التطبيق">
+<!ENTITY index.projects2 "التطبيقات">
+<!ENTITY index.device2 "الجهاز">
+<!ENTITY index.help "المساعدة">
+
+<!ENTITY device.debugMainProcess "تنقيح العملية الرئيسية">
+<!ENTITY device.debugMainProcessTooltip "افتح أدوات المطور المتصلة بالعملية الرئيسية على هذا الجهاز">
+<!ENTITY device.screenshot "لقطة الشاشة">
+<!ENTITY device.screenshotTooltip "افتح لقطة شاشة للوضع الحالي على الجهاز في لسان جديد">
+<!ENTITY device.title "مركز تحكم الجهاز">
+<!ENTITY device.notConnected "غير متصل. الرجاء توصيل الجهاز أدناه.">
+<!ENTITY device.startApp "ابدأ">
+<!ENTITY device.startAppTooltip "ابدأ هذا التطبيق على الجهاز">
+<!ENTITY device.stopApp "قف">
+<!ENTITY device.stopAppTooltip "أوقف هذا التطبيق على الجهاز">
+<!ENTITY device.debugApp "تنقيح">
+<!ENTITY device.debugAppTooltip "افتح أدوات المطور المتصلة بهذا التطبيق على الجهاز">
+<!ENTITY device.name "الاسم">
+<!ENTITY device.plain "عادي (افتراضي)">
+<!ENTITY device.privileged "ذو امتيازات">
+<!ENTITY device.certified "معتمد">
+<!ENTITY device.allow "اسمح">
+<!ENTITY device.allowTooltip "هذا التصريح مسموح للتطبيقات من هذا النوع">
+<!ENTITY device.prompt "وجّه">
+<!ENTITY device.promptTooltip "هذا التصريح يتطلب التوجيه من المستخدم للتطبيقات من هذا النوع">
+<!ENTITY device.deny "امنع">
+<!ENTITY device.denyTooltip "هذا التصريح ممنوع للتطبيقات من هذا النوع">
+<!ENTITY device.installedApps "التطبيقات المثبتة">
+<!ENTITY device.installedAppsTooltip "عرض قائمة بالتطبيقات المثبتة على الجهاز. بعض التطبيقات، مثل التطبيقات المعتمدة، قد تستثنى من هذا العرض.">
+<!ENTITY device.permissions "التصاريح">
+<!ENTITY device.permissionsTooltip "عرض جدول التصاريح التي يمكن للتطبيقات المختلفة الوصول إليها">
+<!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
+<!ENTITY device.browserTabs "ألسنة المتصفح">
+<!ENTITY device.browserTabsTooltip "عرض قائمة بالألسنة في متصفح الجهاز المتصف">
+<!ENTITY device.debugBrowserTab "تنقيح">
+<!ENTITY device.debugBrowserTabTooltip "افتح أدوات المطور المتصلة بهذا اللسان على الجهاز">
+<!ENTITY device.help "المساعدة">
+
+<!ENTITY connection.connectTooltip "اتصل بالجهاز">
+<!ENTITY connection.disconnect "اقطع الاتصال">
+<!ENTITY connection.disconnectTooltip "اقطع الاتصال بالجهاز الحالي أو المحاكي">
+<!ENTITY connection.notConnected2 "غير متصل.">
+<!ENTITY connection.connectTo "الاتصال بـ:">
+<!ENTITY connection.noDeviceFound "لا يوجد أجهزة. وصل جهازا">
+<!ENTITY connection.changeHostAndPort "غيّر">
+<!ENTITY connection.changeHostAndPortTooltip "غير المضيف والمنفذ المستخدم للاتصال بالجهاز (الافتراضي هو localhost:6000)">
+<!ENTITY connection.startSimulator "ابدأ المحاكي">
+<!ENTITY connection.startSimulatorTooltip "تبدء نسخة من المحاكي ووصلها">
+<!ENTITY connection.saveConnectionInfo "احفظ">
+<!ENTITY connection.saveConnectionInfoTooltip "احفظ المضيف والمنفذ">
+<!ENTITY connection.connecting "يتّصل…">
+<!ENTITY connection.disconnecting "يقطع الاتصال…">
+<!ENTITY connection.cancel "Cancel">
+<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
+<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
+<!ENTITY connection.or "or">
+<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
+<!ENTITY connection.installOneSimulator "Install Simulator">
+<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
+<!ENTITY connection.installAnotherSimulator "Add">
+<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
+<!ENTITY connection.startRegisteredSimulator "Start:">
+
+<!ENTITY projects.localApps "Local Apps">
+<!ENTITY projects.addApp "Add">
+<!ENTITY projects.addPackaged "Add Packaged App">
+<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
+<!ENTITY projects.addHosted "Add Hosted App">
+<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
+<!ENTITY projects.title "Local Apps">
+<!ENTITY projects.appDetails "App Details">
+<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
+<!ENTITY projects.updateApp "Update">
+<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.debugApp "Debug">
+<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
+<!ENTITY projects.saveManifest "Save">
+<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
+<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
+<!ENTITY projects.manifestEditor "Manifest Editor">
+<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
+<!ENTITY projects.manifestViewer "Manifest Viewer">
+<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
+<!ENTITY projects.valid "Valid">
+<!ENTITY projects.error "Error">
+<!ENTITY projects.warning "Warning">
+<!ENTITY projects.hosted "Hosted">
+<!ENTITY projects.packaged "Packaged">
+
+<!ENTITY help.title "App Manager">
+<!ENTITY help.close "Close">
+<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
+<!ENTITY help.usefullLinks "Useful links:">
+<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
+<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
+<!ENTITY help.troubleShooting "Troubleshooting">
+<!ENTITY help.simulatorAddon "Install Simulator Add-on">
+<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">

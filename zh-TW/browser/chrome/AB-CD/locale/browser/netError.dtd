@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "此網址已被限制">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>網址所指定的 Port (如 <q>palemoon.org:25</q> 則表示使用 Port 25) 通常<em>不是</em>給正常網站所使用的。 為了安全考量，已取消對該網址的瀏覽。</p>">
 
 <!ENTITY dnsNotFound.title "找不到伺服器">
 <!ENTITY dnsNotFound.longDesc "<ul>
@@ -82,10 +82,10 @@
 <!ENTITY netTimeout.title "連線已逾時">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "無法理解的網址">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "無法理解的網址">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>您需要安裝其他軟體才能開啟此網址。</li>
+  <li>您可能需要安裝其他軟體才能開啟此網址。</li>
 </ul>
 ">
 
@@ -123,10 +123,10 @@
 ">
 
 <!ENTITY nssFailure2.title "安全連線失敗">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li>
-  <li>請向網站擁有者回報此問題，或是從「說明」功能表中回報這個網站的問題。</li>
+  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li> 
+  <li>請向網站擁有者回報此問題。</li>
 </ul>
 ">
 
@@ -148,7 +148,10 @@
 ">
 
 <!ENTITY malwareBlocked.title "可能是有害網站！">
-<!ENTITY malwareBlocked.longDesc "<p>有害網站會嘗試安裝能竊取隱私資訊、利用您的電腦攻擊他人或破壞作業系統等的惡意軟體到您的電腦上。</p> <p>如果您是網頁擁有者，發現您的網站被誤認為有害網站時可以 <a href='http://www.stopbadware.org/home/reviewinfo' >請求重新審核</a>。</p>">
+<!ENTITY malwareBlocked.longDesc "
+<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
+<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+">
 
 <!ENTITY phishingBlocked.title "可能是偽造網站！">
 <!ENTITY phishingBlocked.longDesc "
@@ -156,8 +159,8 @@
 <p>這些類型的偽造網頁含有常見的詐騙攻擊特徵，可能是罪犯所製作用來模仿您信任的合法來源之詐騙網頁。</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "已依內容安全政策封鎖">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; 阻止了這個頁面載入，因為這個頁面的內容安全政策不允許其以這種方式被載入。</p>">
+<!ENTITY cspBlocked.title "已依內容安全政策封鎖">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 阻止了這個頁面載入，因為這個頁面的內容安全政策不允許其以這種方式被載入。</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -189,5 +192,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.learnMore "更多資訊…">
+<!ENTITY errorReporting.sending "Sending report">
+<!ENTITY errorReporting.sent "Report sent">
+<!ENTITY errorReporting.report "Report">
+<!ENTITY errorReporting.tryAgain "重試">
+
 <!ENTITY remoteXUL.title "遠端 XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>請聯絡網站管理員以通知他們這個問題。</li></ul></p>">
+
+<!ENTITY sslv3Used.title "無法安全地連線">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "進階資訊: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "更多資訊…">

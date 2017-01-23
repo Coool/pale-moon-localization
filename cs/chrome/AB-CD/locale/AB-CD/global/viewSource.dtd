@@ -15,8 +15,8 @@
 <!ENTITY fileMenu.label "Soubor">
 <!ENTITY fileMenu.accesskey "S">
 <!ENTITY savePageCmd.label "Uložit stránku jako…">
-<!ENTITY savePageCmd.accesskey "U">
-<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY savePageCmd.accesskey "j">
+<!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Vzhled stránky…">
 <!ENTITY pageSetupCmd.accesskey "V">
 <!ENTITY printPreviewCmd.label "Náhled tisku">
@@ -26,7 +26,7 @@
 <!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "Zavřít">
 <!ENTITY closeCmd.accesskey "Z">
-<!ENTITY closeCmd.commandkey "w">
+<!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
 textEnlarge.commandkey3, textReduce.commandkey2 and
@@ -43,8 +43,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey2 "">
 
 <!ENTITY goToLineCmd.label "Přejít na řádek…">
-<!ENTITY goToLineCmd.accesskey "P">
-<!ENTITY goToLineCmd.commandkey "l">
+<!ENTITY goToLineCmd.accesskey "n">
+<!ENTITY goToLineCmd.commandkey "j">
 
 <!ENTITY viewMenu.label           "Zobrazení">
 <!ENTITY viewMenu.accesskey       "Z">
@@ -71,6 +71,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findAgainCmd.accesskey "t">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findSelectionCmd.commandkey "e">
 
 <!ENTITY backCmd.label "Zpět">
 <!ENTITY backCmd.accesskey "Z">
@@ -81,5 +82,5 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY copyLinkCmd.label "Kopírovat adresu odkazu">
 <!ENTITY copyLinkCmd.accesskey "s">
-<!ENTITY copyEmailCmd.label "Kopírovat adresu e-mailu">
+<!ENTITY copyEmailCmd.label "Kopírovat e-mailovou adresu">
 <!ENTITY copyEmailCmd.accesskey "a">

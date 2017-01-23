@@ -6,8 +6,12 @@
 <!ENTITY  window.width                    "46em">
 <!ENTITY  window.macWidth                 "41em">
 
-<!ENTITY  allowPagesToUse.label           "Pagina’s toestaan om hun eigen kleuren te kiezen, in plaats van mijn selecties hierboven">
-<!ENTITY  allowPagesToUse.accesskey       "e">
+<!ENTITY  overridePageColors.label        "Override the colors specified by the page with my selections above:">
+<!ENTITY  overridePageColors.accesskey    "O">
+
+<!ENTITY  overridePageColors.always.label "Altijd">
+<!ENTITY  overridePageColors.auto.label   "Only with High Contrast themes">
+<!ENTITY  overridePageColors.never.label  "Nooit">
 
 <!ENTITY  color                           "Tekst en achtergrond">
 <!ENTITY  textColor.label                 "Tekst:">

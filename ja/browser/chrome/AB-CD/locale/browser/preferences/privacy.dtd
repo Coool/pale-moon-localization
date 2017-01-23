@@ -16,12 +16,23 @@
 
 <!ENTITY  locationBar.label             "ロケーションバー">
 
-<!ENTITY  locbar.pre.label              "ロケーションバーには次の中から候補を表示する:">
-<!ENTITY  locbar.pre.accessKey          "u">
-<!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "履歴とブックマーク">
+<!ENTITY  locbar.suggest.label          "ロケーションバーの使用:">
 <!ENTITY  locbar.history.label          "履歴のみ">
+<!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "ブックマークのみ">
+<!ENTITY  locbar.bookmarks.accesskey    "k">
+<!ENTITY  locbar.openpage.label         "タブで開く">
+<!ENTITY  locbar.openpage.accesskey     "O">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "ロケーションバーの使用:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "u">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.post.label             "">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "履歴とブックマーク">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.nothing.label          "候補を表示しない">
 
 <!ENTITY  acceptCookies.label           "サイトから送られてきた Cookie を保存する">
@@ -58,9 +69,9 @@
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-<!ENTITY  rememberActions.pre.label           "">
+<!ENTITY  rememberActions.pre.label           "これらは ">
 <!ENTITY  rememberActions.clearHistory.label  "最近の履歴を消去">
-<!ENTITY  rememberActions.middle.label        " あるいは ">
+<!ENTITY  rememberActions.middle.label        "または ">
 <!ENTITY  rememberActions.removeCookies.label "Cookie を個別に削除">
 <!ENTITY  rememberActions.post.label          " できます。">
 
@@ -68,7 +79,7 @@
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-<!ENTITY  dontrememberActions.pre.label          "">
+<!ENTITY  dontrememberActions.pre.label          "こちらも可能です ">
 <!ENTITY  dontrememberActions.clearHistory.label "現在の履歴をすべて消去">
 <!ENTITY  dontrememberActions.post.label         " できます。">
 

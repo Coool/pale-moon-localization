@@ -7,153 +7,101 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "正常に接続できませんでした">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.title "接続に失敗しました">
+<!ENTITY connectionFailure.longDesc "<p>サイトは有効と思われますが、ブラウザは接続を確立できませんでした。</p><ul><li>サイトを一時的に利用できない可能性がありますか？ あとでもう一度試してみてください。</li><li>他のサイトを閲覧できませんか？ コンピュータのネットワーク接続を確認してください。</li><li>コンピュータやネットワークはファイアウォールやプロキシによって保護されていますか？ 設定が正しくないと Web 参照が妨げられます。</li></ul>">
 
-<!ENTITY deniedPortAccess.title "このアドレスへの接続は制限されています">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.title "セキュリティ上の理由かポートが制限されています">
+<!ENTITY deniedPortAccess.longDesc "<p>要求アドレスは、通常 Web 参照<em>以外</em>の目的で使用されるポート (例えば palemoon.org のポート 25 の <q>palemoon.org:25</q>) を指定します。ブラウザは保護とセキュリティの要求をキャンセルしました。</p>">
 
-<!ENTITY dnsNotFound.title "サーバが見つかりませんでした">
-<!ENTITY dnsNotFound.longDesc "
-<ul>
-  <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
-  <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
-</ul>
-">
+<!ENTITY dnsNotFound.title "アドレスが見つかりません">
+<!ENTITY dnsNotFound.longDesc "<p>ブラウザが提供されたアドレスのホストサーバーを検出できませんでした。</p><ul><li>ドメインを入力する際に間違いをしましたか？ (<q><strong>www</ strong>.mozilla.org</q>の代わりに<q><strong>ww</ strong>.mozilla.org </q>と入力している）</li>このドメインアドレスが存在することは確実ですか？</li><li>他のサイトを閲覧できませんか？ネットワーク接続とDNSサーバーの設定を確認してください。</li><li>コンピュータまたはネットワークはファイアウォールまたはプロキシによって保護されていますか？ 設定が正しくないと、ウェブ参照が妨げられる可能性があります。</li></ul>">
 
-<!ENTITY fileNotFound.title "ファイルが見つかりませんでした">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>アドレスに大文字/小文字の違い、その他の間違いがないか確認してください。</li>
-  <li>ファイルの名前が変更、削除、または移動している可能性があります。</li>
-</ul>
-">
+<!ENTITY fileNotFound.title "ファイルが見つかりません">
+<!ENTITY fileNotFound.longDesc "<ul><li>住所にスペル、大文字またはその他の入力ミスがありませんか？</li><li>要求されたアイテムに十分なアクセス許可がありますか？</li></ul>">
 
-<!ENTITY generic.title "リクエストを正常に完了できませんでした">
-<!ENTITY generic.longDesc "
-<p>何らかの理由により &brandShortName; はこのページを正常に読み込めませんでした。</p>
-">
+<!ENTITY generic.title "要求を完了できません">
+<!ENTITY generic.longDesc "<p>この問題またはエラーに関する追加情報は現在入手できません。</p>">
 
-<!ENTITY malformedURI.title "アドレスの書式が正しくありません">
-<!ENTITY malformedURI.longDesc "
-<ul>
-  <li>Web のアドレスは通常 <strong>http://www.example.com/</strong> のようなものになります。</li>
-  <li>円記号やバックスラッシュ (<strong>\</strong>) ではなく、スラッシュ (<strong>/</strong>) が使われているか確認してください。</li>
-</ul>
-">
+<!ENTITY malformedURI.title "無効なアドレスです">
+<!ENTITY malformedURI.longDesc "<p>指定されたアドレスは、認識できる形式ではありません。ロケーションバーの誤りを確認し、もう一度やり直してください</p>。">
 
-<!ENTITY netInterrupt.title "接続が中断されました">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.title "データ転送が中断しました">
+<!ENTITY netInterrupt.longDesc "<p>ブラウザは正常に接続されましたが、情報の転送中に接続が中断されました。 もう一度お試しください。</p><ul><li>
+他のサイトを閲覧できませんか？ コンピュータのネットワーク接続を確認してください。</li><li>まだ問題がありますか？ ネットワーク管理者またはインターネットプロバイダに相談してください。</li></ul>">
 
 <!ENTITY notCached.title "ドキュメントが有効期限切れです">
-<!ENTITY notCached.longDesc "<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
+<!ENTITY notCached.longDesc "<p>要求されたドキュメントは、ブラウザのキャッシュにはありません。</p><ul><li>
+セキュリティ上の予防措置として、ブラウザは機密文書を自動的に再要求しません。</li><li>再試行 をクリックして、Web サイトからドキュメントを再要求して下さい。</li></ul>">
 
 <!ENTITY netOffline.title "オフラインモードです">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>&quot;再試行&quot; ボタンを押してブラウザをオンラインモードに切り替え、ページを再読み込みしてください。</li>
-</ul>
-">
+<!ENTITY netOffline.longDesc2 "<p>ブラウザがオフラインモードで動作しているため、要求されたアイテムに接続できません。</p><ul><li>コンピュータは有効なネットワークに接続されていますか？</li><li>&quot;再試行&quot; を押してオンラインモードに切り替え、ページを再読み込みしてください。</li></ul>">
 
-<!ENTITY contentEncodingError.title "内容符号化 (Content-Encoding) に問題があります">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>この問題を Web サイトの管理者に報告してください。</li>
-</ul>
-">
+<!ENTITY contentEncodingError.title "コンテンツのエンコードエラー">
+<!ENTITY contentEncodingError.longDesc "<p>表示しようとしているページは、無効またはサポートされていない圧縮形式を使用しているため、表示できません。</p><ul><li>この問題については、ウェブサイトの所有者に連絡してください。</li></ul>">
 
-<!ENTITY unsafeContentType.title "安全でないファイルタイプ">
+<!ENTITY unsafeContentType.title "安全でないファイルタイプです">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>この問題を Web サイトの管理者に報告してください。</li>
+ <li>この問題については、ウェブサイトの所有者に連絡してください。</li>
 </ul>
 ">
 
-<!ENTITY netReset.title "接続がリセットされました">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.title "接続が中断されました">
+<!ENTITY netReset.longDesc "<p>接続のネゴシエーション中にネットワークリンクが中断されました。 もう一度お試しください。</p>">
 
-<!ENTITY netTimeout.title "接続がタイムアウトしました">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.title "ネットワークがタイムアウトになりました">
+<!ENTITY netTimeout.longDesc "<p>要求されたサイトは接続要求に応答せず、ブラウザは応答の待機を停止しました。</p><ul><li>サーバーが高負荷または一時的に動作を停止している可能性があります。あとでもう一度試してみてください。</li><li>
+他のサイトを閲覧できませんか？ コンピュータのネットワーク接続を確認してください。</li><li>あなたのコンピュータやネットワークは、ファイアウォールやプロキシによって保護されていますか？ 設定が正しくないと、Web 参照が妨げられます。</li><li>まだ問題がありますか？ ネットワーク管理者またはインターネットプロバイダに相談してください。</li></ul>">
 
-<!ENTITY protocolNotFound.title "アドレスのプロトコルが不明です">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>このプロトコルを使用するアドレスを開くには、別のソフトウェアをインストールする必要があるかもしれません。</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "プロトコルが不明です">
+<!ENTITY unknownProtocolFound.longDesc "<p>アドレスは、ブラウザが認識できないプロトコル（例：<q>wxyz：//</ q>）を指定しているため、ブラウザはサイトに正しく接続できません。</p><ul><li>
+マルチメディアやその他のテキスト以外のサービスにアクセスしようとしていますか？ サイトで余分な要件を確認してください。</li><li>一部のプロトコルでは、ブラウザで認識される前にサードパーティのソフトウェアやプラグインが必要な場合があります。</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "プロキシサーバへの接続を拒否されました">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>プロキシ設定が正しいか確認してください。</li>
-  <li>プロキシサーバが正常に動作しているかネットワーク管理者に問い合わせてください。</li>
-</ul>
-">
+<!ENTITY proxyConnectFailure.title "プロキシサーバーの接続が拒否されました">
+<!ENTITY proxyConnectFailure.longDesc "<p>ブラウザがプロキシサーバーを使用するように構成されていますが、プロキシが接続を拒否しました。</p><ul><li>ブラウザのプロキシ設定は正しいですか？ 設定を確認して、もう一度お試しください。</li><li>プロキシサービスがこのネットワークからの接続を許可していますか？</li><li>まだ問題がありますか？ ネットワーク管理者またはインターネットプロバイダに相談してください。</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "プロキシサーバが見つかりませんでした">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>プロキシ設定が正しいか確認してください。</li>
-  <li>コンピュータが有効なネットワークに接続されているか確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
-</ul>
-">
+<!ENTITY proxyResolveFailure.title "プロキシサーバーが見つかりません">
+<!ENTITY proxyResolveFailure.longDesc "<p>ブラウザがプロキシサーバーを使用するように設定されていますが、プロキシが見つかりませんでした。</p><ul><li>ブラウザのプロキシ設定は正しいですか？ 設定を確認して、もう一度お試しください。</li><li>
+コンピュータは有効なネットワークに接続されていますか？</li><li>
+まだ問題がありますか？ ネットワーク管理者またはインターネットプロバイダに相談してください。</li></ul>">
 
-<!ENTITY redirectLoop.title "ページの自動転送設定が正しくありません">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>Cookie を無効化したり拒否していることにより、この問題が発生している可能性もあります。</li>
-</ul>
-">
+<!ENTITY redirectLoop.title "リダイレクトループが発生しています">
+<!ENTITY redirectLoop.longDesc "<p>ブラウザが要求されたアイテムの取得を停止しました。 サイトは要求が完了しないようにリダイレクトしています。</p><ul><li>
+このサイトで必要な Cookie を無効にしたりブロックしたりしていませんか？</li><li><em>注意</em>: サイトの Cookie を受け入れても問題が解決されない場合は、おそらくサーバー構成上の問題であり、コンピュータではありません。</li></ul>">
 
-<!ENTITY unknownSocketType.title "サーバの応答が不正です">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>コンピュータにパーソナルセキュリティマネージャがインストールされているか確認してください。</li>
-  <li>サーバの設定が間違っていることにより、この問題が発生している可能性もあります。</li>
-</ul>
-">
+<!ENTITY unknownSocketType.title "応答が正しくありません">
+<!ENTITY unknownSocketType.longDesc "<p>サイトが予期しない方法でネットワーク要求に応答したためブラウザを続行できません。</p>">
 
-<!ENTITY nssFailure2.title "安全な接続ができませんでした">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>受信したデータの真正性を検証できなかったため、このページは表示できませんでした。</li>
-  <li>この問題を Web サイトの管理者に連絡してください。あるいは [ヘルプ] メニューの [不具合のあるサイトを報告] でこのサイトについて報告してください。</li>
-</ul>
-">
+<!ENTITY nssFailure2.title "セキュリティ保護接続に失敗しました">
+<!ENTITY nssFailure2.longDesc2 "<p>受信したデータの信頼性を確認できなかったため、表示しようとしているページを表示できません。</p><ul><li>この問題については、ウェブサイトの所有者に連絡してください。</li></ul>">
 
-<!ENTITY nssBadCert.title "安全な接続ができませんでした">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>サーバの設定に問題があるか、誰かが正規のサーバになりすましている可能性があります。</li>
-  <li>以前は正常に接続できていた場合、この問題は恐らく一時的なものですので、後で再度試してみてください。</li>
+<!ENTITY nssBadCert.title "セキュリティ保護接続に失敗しました">
+<!ENTITY nssBadCert.longDesc2 "<ul>
+<li>これは、サーバー構成に問題がある可能性があります。または、サーバーを偽装しようとする可能性があります。</li>
+<li>過去にこのサーバーに正常に接続していた場合は、エラーが一時的に発生している可能性があります。後で再試行できます。</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "攻撃サイトの疑いがあります！">
 <!ENTITY malwareBlocked.longDesc "
-<p>攻撃サイトはあなたの個人情報を盗んだり、コンピュータを乗っ取って他のコンピュータへの攻撃に利用したり、あなたのシステムを破壊するためのプログラムをインストールしようとします。</p>
-<p>あなたがこのサイトの管理者で、この警告が誤りである場合は<a href='http://www.stopbadware.org/home/reviewinfo'>再審査を求める</a>ことができます。</p>
+<p>攻撃サイトは、個人情報を盗んだり、コンピュータを使用して他人を攻撃したり、システムを壊したりするプログラムをインストールしようとします。</p>
+<p>サイトが誤って攻撃サイトとして報告されていると思われるウェブサイトの所有者は、<a href='https://www.stopbadware.org/request-review' >プレビューを報告して下さい</a>。</p>
 ">
 
 <!ENTITY phishingBlocked.title "偽装サイトの疑いがあります！">
 <!ENTITY phishingBlocked.longDesc "
-<p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>
-<p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
+<p>このページに個人情報を入力すると、個人情報の盗難やその他の不正行為が発生する可能性があります。</p>
+<p>これらの種類の Web 偽造は、フィッシング攻撃として知られ、詐欺使用されます。この詐欺では、信頼できるソースを模倣するために不正な Web ページやメールが使用されます。</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "コンテンツセキュリティポリシーによりブロックされました">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
+<!ENTITY cspBlocked.title "コンテンツセキュリティポリシーによってブロックされています。">
+<!ENTITY cspBlocked.longDesc "<p>このページは、ページにコンテンツセキュリティポリシーが設定されていないため、このページの読み込みができませんでした。</p>">
 
-<!ENTITY xssBlockMode.title "">
-<!ENTITY xssBlockMode.longDesc "">
-
-<!ENTITY corruptedContentError.title "コンテンツデータ破損エラー">
-<!ENTITY corruptedContentError.longDesc "<p>このページは、データの伝送中にエラーが検出されたため表示できません。</p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
+<!ENTITY corruptedContentError.title "コンテンツ破損エラー">
+<!ENTITY corruptedContentError.longDesc "<p>データ送信のエラーが検出されたため、表示しようとしているページを表示できません。</p><ul><li>この問題については、Web サイトの所有者へ連絡してください。</li></ul>">
 
 <!ENTITY remoteXUL.title "リモート XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>この問題については、ウェブサイトの所有者に連絡してください。</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

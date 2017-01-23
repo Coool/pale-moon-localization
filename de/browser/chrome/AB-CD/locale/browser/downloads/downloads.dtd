@@ -64,7 +64,7 @@
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
 <!ENTITY cmd.clearList.label              "Liste leeren">
 <!ENTITY cmd.clearList.accesskey          "L">
-<!ENTITY cmd.clearDownloads.label         "Liste leeren">
+<!ENTITY cmd.clearDownloads.label         "Downloads leeren">
 <!ENTITY cmd.clearDownloads.accesskey     "L">
 
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
@@ -75,7 +75,7 @@
 <!ENTITY downloadsHistory.label           "Alle Downloads anzeigen">
 <!ENTITY downloadsHistory.accesskey       "w">
 
-<!ENTITY clearDownloadsButton.label       "Liste leeren">
+<!ENTITY clearDownloadsButton.label       "Downloads leeren">
 <!ENTITY clearDownloadsButton.tooltip     "Entfernt abgeschlossene, abgebrochene und fehlgeschlagene Downloads aus der Liste">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
@@ -83,6 +83,11 @@
      is displayed inside a browser tab.
      -->
 <!ENTITY downloadsListEmpty.label         "Keine Downloads vorhanden">
+
+<!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
+     This string is shown when there are no items in the Downloads Panel.
+     -->
+<!ENTITY downloadsPanelEmpty.label        "Keine Downloads für diese Sitzung.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

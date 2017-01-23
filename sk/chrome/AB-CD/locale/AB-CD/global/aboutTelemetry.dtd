@@ -8,13 +8,29 @@
 
 <!ENTITY aboutTelemetry.telemetryDisabled "Telemetria je <span>vypnutá</span>.">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  General Data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "Pomalé výrazy SQL">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "Zlyhania prehliadača">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Thread Hangs
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "Histogramy">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "Jednoduché merania">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Add-on Details
+">
 
 <!ENTITY aboutTelemetry.lateWritesSection "Neskoré zápisy">
 
@@ -22,9 +38,9 @@
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "Histogramy zozbierané doplnkami">
 
-<!ENTITY aboutTelemetry.toggleOn "kliknutím rozbalíte túto sekciu">
-
-<!ENTITY aboutTelemetry.toggleOff "kliknutím zbalíte túto sekciu">
+<!ENTITY aboutTelemetry.toggle "
+  Click to toggle section
+">
 
 <!ENTITY aboutTelemetry.emptySection "(nie sú zozbierané žiadne údaje)">
 
@@ -33,3 +49,7 @@
 <!ENTITY aboutTelemetry.fetchSymbols "Získať názvy funkcií pre zásobníky zlyhaní">
 
 <!ENTITY aboutTelemetry.hideSymbols "Zobraziť nespracované údaje zo zlyhaní">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strings or /regexp/)
+">

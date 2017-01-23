@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY newWindowsAsTabs.label       "Ouvrir un nouvel onglet au lieu d'une nouvelle fenêtre">
+<!ENTITY newWindowsAsTabs.label       "Ouvrir les nouvelles fenêtres dans un nouveau onglet au lieu de">
 <!ENTITY newWindowsAsTabs.accesskey   "O">
 
 <!ENTITY warnCloseMultipleTabs.label  "Avertir lors de la fermeture de plusieurs onglets">
@@ -14,8 +14,20 @@
 <!ENTITY restoreTabsOnDemand.label        "Ne pas charger les onglets tant qu'ils ne sont pas sélectionnés">
 <!ENTITY restoreTabsOnDemand.accesskey    "N">
 
-<!ENTITY switchToNewTabs.label        "Lors de l'ouverture d'un lien dans un nouvel onglet, basculer vers celui-ci immédiatement">
+<!ENTITY switchToNewTabs.label        "Lors de l'ouverture d'un lien dans un nouvel onglet, basculer immédiatement vers celui-ci">
 <!ENTITY switchToNewTabs.accesskey    "L">
 
 <!ENTITY showTabsInTaskbar.label          "Afficher les aperçus d'onglets dans la barre des tâches de Windows">
 <!ENTITY showTabsInTaskbar.accesskey      "c">
+
+<!ENTITY showTabBar.label                   "Toujours afficher la barre d'onglets">
+<!ENTITY showTabBar.accesskey               "b">
+
+<!ENTITY insertRelatedAfterCurrent.label    "Insérer les onglets apparentés à coté de l'onglet actuel">
+<!ENTITY contextLoadInBackground.label      "Lorsqu'une recherche contextuelle est effectuer, basculer immédiatement vers le nouvel onglet">
+<!ENTITY closeWindowWithLastTab.label       "Fermer la fenêtre quand le dernier onglet est fermé">
+
+<!ENTITY newtabPage.label                   "Lors de l'ouverture d'un nouvel onglet, afficher :">
+<!ENTITY newtabPage.blank.label             "Une page vide">
+<!ENTITY newtabPage.home.label              "La page de démarrage de Pale Moon">
+<!ENTITY newtabPage.quickdial.label         "La page Quickdial">

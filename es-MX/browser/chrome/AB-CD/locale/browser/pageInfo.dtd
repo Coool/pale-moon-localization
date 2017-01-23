@@ -17,10 +17,10 @@
 <!ENTITY  generalTab.accesskey  "G">
 <!ENTITY  generalURL            "Dirección:">
 <!ENTITY  generalType           "Tipo:">
-<!ENTITY  generalMode           "Modo de renderizado:">
+<!ENTITY  generalMode           "Modo de visualización:">
 <!ENTITY  generalSize           "Tamaño:">
-<!ENTITY  generalReferrer       "Dirección de referencia:">
-<!ENTITY  generalSource         "Origen:">
+<!ENTITY  generalReferrer       "URL de referencia:">
+<!ENTITY  generalSource         "Caché fuente:">
 <!ENTITY  generalModified       "Modificado:">
 <!ENTITY  generalEncoding       "Codificación:">
 <!ENTITY  generalMetaName       "Nombre">
@@ -37,7 +37,7 @@
 <!ENTITY  mediaType             "Tipo">
 <!ENTITY  mediaSize             "Tamaño">
 <!ENTITY  mediaCount            "Cuenta">
-<!ENTITY  mediaDimension        "Tamaño:">
+<!ENTITY  mediaDimension        "Dimensiones:">
 <!ENTITY  mediaLongdesc         "Descripción larga:">
 <!ENTITY  mediaBlockImage.accesskey "B">
 <!ENTITY  mediaSaveAs           "Guardar como…">
@@ -47,30 +47,31 @@
 
 <!ENTITY  feedTab               "Canales">
 <!ENTITY  feedTab.accesskey     "C">
-<!ENTITY  feedSubscribe         "Suscribir">
-<!ENTITY  feedSubscribe.accesskey "u">
+<!ENTITY  feedSubscribe         "Suscribirse">
+<!ENTITY  feedSubscribe.accesskey "b">
 
-<!ENTITY  permTab               "Permisos">
-<!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "Usar predeterminado">
-<!ENTITY  permAskAlways         "Preguntar siempre">
-<!ENTITY  permAllow             "Permitir">
-<!ENTITY  permAllowSession      "Permitir en esta sesión">
-<!ENTITY  permBlock             "Bloquear">
-<!ENTITY  permissionsFor        "Permisos para:">
-<!ENTITY  permImage             "Cargar imágenes">
-<!ENTITY  permPopup             "Abrir ventanas emergentes">
-<!ENTITY  permCookie            "Establecer cookies">
-<!ENTITY  permNotifications     "Show Notifications">
-<!ENTITY  permInstall           "Instalar extensioens o temas">
-<!ENTITY  permGeo               "Compartir ubicación">
-<!ENTITY  permPlugins           "Activar plugins">
-<!ENTITY  permFullscreen        "Enter Fullscreen">
-<!ENTITY  permPointerLock2      "Hide the Mouse Pointer">
+<!ENTITY  permTab                    "Permisos">
+<!ENTITY  permTab.accesskey          "P">
+<!ENTITY  permUseDefault             "Usar predeterminado">
+<!ENTITY  permAskAlways              "Preguntar siempre">
+<!ENTITY  permAllow                  "Permitir">
+<!ENTITY  permAllowSession           "Permitir en esta sesión">
+<!ENTITY  permAllowFirstPartyOnly    "No aceptar cookies de terceros">
+<!ENTITY  permBlock                  "Bloquear">
+<!ENTITY  permissionsFor             "Permisos para:">
+<!ENTITY  permImage                  "Cargar imágenes">
+<!ENTITY  permPopup                  "Abrir ventanas emergentes">
+<!ENTITY  permCookie                 "Establecer cookies">
+<!ENTITY  permNotifications          "Mostrar notificaciones">
+<!ENTITY  permInstall                "Instalar extensiones o temas">
+<!ENTITY  permGeo                    "Compartir ubicación">
+<!ENTITY  permPlugins                "Activar plugins">
+<!ENTITY  permFullscreen             "Pasar a pantalla completa">
+<!ENTITY  permPointerLock2           "Ocultar el puntero del ratón">
 
-<!ENTITY  permIndexedDB              "Mantener almacenamiento en modo sin conexión">
-<!ENTITY  permClearStorage           "Limpiar almacenamiento">
-<!ENTITY  permClearStorage.accesskey "C">
+<!ENTITY  permIndexedDB              "Mantener almacenamiento del modo sin conexión">
+<!ENTITY  permClearStorage           "Borrar almacenamiento">
+<!ENTITY  permClearStorage.accesskey "B">
 
 <!ENTITY  securityTab           "Seguridad">
 <!ENTITY  securityTab.accesskey "S">
@@ -86,12 +87,12 @@
 <!ENTITY  securityView.identity.verifier "Verificado por:">
 
 <!ENTITY  securityView.privacy.header                   "Privacidad e historial">
-<!ENTITY  securityView.privacy.history                  "¿He visitado este sitio web anteriormente?">
+<!ENTITY  securityView.privacy.history                  "¿He visitado este sitio web en días anteriores?">
 <!ENTITY  securityView.privacy.cookies                  "¿Este sitio web está almacenando información (cookies) en mi computadora?">
 <!ENTITY  securityView.privacy.viewCookies              "Ver cookies">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
-<!ENTITY  securityView.privacy.passwords                "¿He guardado contraseñas de este sitio web?">
+<!ENTITY  securityView.privacy.passwords                "¿He almacendado contraseñas para este sitio web?">
 <!ENTITY  securityView.privacy.viewPasswords            "Ver contraseñas guardadas">
-<!ENTITY  securityView.privacy.viewPasswords.accessKey  "v">
+<!ENTITY  securityView.privacy.viewPasswords.accessKey  "g">
 
 <!ENTITY  securityView.technical.header                 "Detalles técnicos">

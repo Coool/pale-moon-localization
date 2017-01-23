@@ -76,6 +76,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Oggetti della barra dei segnalibri">
 <!ENTITY addonBarCmd.label "Barra dei componenti aggiuntivi">
 <!ENTITY addonBarCmd.accesskey "c">
+<!ENTITY statusBar.label               "Barra di stato">
+<!ENTITY statusBar.accesskey           "o">
 
 <!ENTITY pageSourceCmd.label "Sorgente pagina">
 <!ENTITY pageSourceCmd.accesskey "n">
@@ -122,6 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Abbonati a questa pagina…">
 <!ENTITY addCurPagesCmd.label "Tutte le schede nei segnalibri…">
 <!ENTITY showAllBookmarks2.label "Visualizza tutti i segnalibri">
+<!ENTITY organizeBookmarks.label "Organizza i segnalibri">
 <!ENTITY unsortedBookmarksCmd.label "Segnalibri non catalogati">
 <!ENTITY bookmarksToolbarChevron.tooltip "Visualizza altri segnalibri">
 
@@ -216,6 +219,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "u">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
+<!ENTITY eyedropper.label   "Prelievo colore">
+<!ENTITY eyedropper.accesskey "P">
+
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
   -  The Scratchpad is intended to provide a simple text editor for creating
@@ -238,6 +244,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Chiudi la Barra sviluppatori">
 <!ENTITY devToolbarMenu.label              "Barra sviluppatori">
 <!ENTITY devToolbarMenu.accesskey          "v">
+<!ENTITY devAppMgrMenu.label               "Gestore app">
+<!ENTITY devAppMgrMenu.accesskey           "G">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
+<!ENTITY webide.keycode                    "VK_F8">
+<!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Attiva strumenti">
@@ -396,13 +408,17 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkPageCmd2.label       "Aggiungi pagina ai segnalibri…">
 <!ENTITY bookmarkPageCmd2.accesskey   "b">
 <!ENTITY bookmarkThisLinkCmd.label      "Aggiungi link nei segnalibri…">
-<!ENTITY bookmarkThisLinkCmd.accesskey  "A">
+<!ENTITY bookmarkThisLinkCmd.accesskey  "b">
 <!ENTITY bookmarkThisFrameCmd.label      "Aggiungi riquadro nei segnalibri…">
-<!ENTITY bookmarkThisFrameCmd.accesskey  "e">
+<!ENTITY bookmarkThisFrameCmd.accesskey  "b">
 <!ENTITY emailPageCmd.label           "Invia link per email…">
 <!ENTITY emailPageCmd.accesskey       "I">
 <!ENTITY savePageCmd.label            "Salva pagina con nome…">
 <!ENTITY savePageCmd.accesskey        "v">
+<!ENTITY sendLinkCmd.label            "Invia collegamento…">
+<!ENTITY sendLinkCmd.accesskey        "c">
+<!ENTITY sendPageCmd.label            "Invia collegamento pagina…">
+<!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "g">
 <!ENTITY savePageCmd.commandkey       "s">

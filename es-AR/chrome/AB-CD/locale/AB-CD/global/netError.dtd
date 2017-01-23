@@ -2,176 +2,100 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Problema cargando la página">
+<!ENTITY loadError.label "Error de carga de página web">
 <!ENTITY retry.label "Probá de nuevo">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "No se puede conectar">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.title "Falló la conexión">
+<!ENTITY connectionFailure.longDesc "<p>Aunque el sitio parece válido, el navegador no pudo establecer una conexión.</p><ul><li>¿El sitio podría estar no disponible temporalmente? Probá de nuevo más tarde.</li><li>¿Tampoco podés navegar en otros sitios? Revisá la conexión de red de tu computadora.</li><li>¿Tu computadora o red están conectadas a través de un firewall o proxy? La configuración incorrecta puede interferir con la navegación web.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Esta dirección está restringida">
-<!ENTITY deniedPortAccess.longDesc "<p>La dirección solicitada especificó un puerto (por ejemplo: <q>palemoon.org:80</q> es el puerto &quot;80&quot; en palemoon.org) normalmente usado para propósitos <em>diferentes</em> de la navegación web. El navegador canceló la solicitud para tu protección y seguridad.</p>">
+<!ENTITY deniedPortAccess.title "Puerto restringido por razones de seguridad">
+<!ENTITY deniedPortAccess.longDesc "<p>La dirección solicitada especificó un puerto (por ejemplo, <q>palemoon.org:25</q> es puerto 25 en palemoon.org) normalmente usado para <em>otros</em> propósitos diferentes de la navegación web. El navegador canceló la solicitud para tu protección y seguridad.</p>">
 
-<!ENTITY dnsNotFound.title "Servidor no encontrado">
-<!ENTITY dnsNotFound.longDesc "
-<ul>
-  <li>Verificá si la dirección web no tiene errores de tipeo como, por ejemplo,
-    <strong>ww</strong>.palemoon.org en lugar de
-    <strong>www</strong>.palemoon.org</li>
-  <li>Si no podés cargar ninguna página, verificá la conexión a la red en tu
-    computadora.</li>
-  <li>Si tu computadora o red está protegida por un firewall o proxy, asegurate
-    de que &brandShortName; tenga permiso de acceder a la web.</li>
-</ul>
-">
+<!ENTITY dnsNotFound.title "Dirección no encontrada">
+<!ENTITY dnsNotFound.longDesc "<p>El navegador no pudo encontrar el servidor de la dirección otorgada.</p><ul><li>¿Cometiste algún error al escribir el dominio (por ejemplo, <q><strong>ww</strong>.palemoon.org</q> en lugar de <q><strong>www</strong>.palemoon.org</q>)</li><li>¿Estás seguro de que esta dirección existe? Su registro puede haber expirado.</li><li>¿Tampoco podés navegar en otros sitios? Revisá la conexión de red de tu computadora y la configuración de los servidores DNS.</li><li>¿Tu computadora o red están conectadas a través de un firewall o proxy? La configuración incorrecta puede interferir con la navegación web.</li></ul>">
 
 <!ENTITY fileNotFound.title "Archivo no encontrado">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>Verificá el nombre de archivo por errores de mayúsculas o de tipeo.</li>
-  <li>Fijate si el archivo fue movido, renombrado o eliminado.</li>
-</ul>
-">
+<!ENTITY fileNotFound.longDesc "<ul><li>¿El elemento podría haber sido renombrado, quitado o reubicado?</li><li>¿Hay un error ortográfico, de capitalización u de otro tipo en la dirección?</li><li>¿Tenés permisos suficientes de acceso al elemento solicitado?</li></ul>">
 
-<!ENTITY generic.title "Epa.">
-<!ENTITY generic.longDesc "
-<p>&brandShortName; no puede cargar esta página por alguna razón.</p>
-">
+<!ENTITY generic.title "No puede completar la solicitud">
+<!ENTITY generic.longDesc "<p>Actualmente no hay disponible información adicional sobre este problema o error.</p>">
 
-<!ENTITY malformedURI.title "La dirección web no es válida">
-<!ENTITY malformedURI.longDesc "
-<ul>
-  <li>Las direcciones web usualmente son escritas como, por ejemplo, 
-    <strong>http://www.palemoon.org/</strong></li>
-  <li>Asegurate de estar usando las barras correctas (por ejemplo,
-    <strong>/</strong>).</li>
-</ul>
-">
+<!ENTITY malformedURI.title "Dirección no válida">
+<!ENTITY malformedURI.longDesc "<p>La dirección otorgada no está en un formato reconocido. Por favor, revisá la barra de direcciones en busca de errores y probá de nuevo.</p>">
 
-<!ENTITY netInterrupt.title "La conexión fue interrumpida">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.title "Transferencia de datos interrumpida">
+<!ENTITY netInterrupt.longDesc "<p>El navegador se conectó exitosamente, pero la conexión fue interrumpida al transferir información. Por favor, intentá de nuevo.</p><ul><li>¿Tampoco podés navegar en otros sitios? Revisá la conexión de red de tu computadora.</li><li>¿Seguís con problemas? Consultá con tu administrador de red o proveedor de Internet para obtener ayuda.</li></ul>">
 
 <!ENTITY notCached.title "Documento expirado">
-<!ENTITY notCached.longDesc "<p>El documento solicitado no está disponible en la memoria caché de Pale Moon.</p><ul><li>Como precaución de seguridad, Pale Moon no reenvía automáticamente documentos sensibles.</li><li>Hacé clic en el botón &quot;Probá de nuevo&quot; para solicitar el documento al sitio web nuevamente.</li></ul>">
+<!ENTITY notCached.longDesc "<p>El documento solicitado no está disponible en la caché del navegador.</p><ul><li>Como medida de precaución, el navegador no resolicita automáticamente documentos sensibles.</li><li>Hacé clic en el botón &quot;Probá de nuevo&quot; para resolicitar el documento al sitio web.</li></ul>">
 
-<!ENTITY netOffline.title "Modo sin conexión a la red">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>Hacé clic en el botón &quot;Probá de nuevo&quot; para volver al modo con conexión y recargar la página.</li>
-</ul>
-">
+<!ENTITY netOffline.title "Modo sin conexión">
+<!ENTITY netOffline.longDesc2 "<p>El navegador está funcionando sin conexión y, por lo tanto, no se puede conectar al elemento solicitado.</p><ul><li>¿Tu computadora está conectada a una red activa?</li><li>Hacé clic en el botón &quot;Probá de nuevo&quot; para intentar conectarte y recargar la página.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Error de codificación de contenido">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>Ponete en contacto con los administradores del sitio web para informarles sobre este problema.</li>
-</ul>
-">
+<!ENTITY contentEncodingError.longDesc "<p>No se puede mostrar la página que estás intentando cargar porque usa un formato de compresión no válido o no soportado.</p><ul><li>Por favor, ponete en contacto con el administrador del sitio web para informarle de este problema.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Tipo de archivo inseguro">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li>
+<li>Por favor, ponete en contacto con el administrador del sitio para informarle de este problema.</li>
 </ul>
 ">
 
-<!ENTITY netReset.title "La conexión fue restablecida">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.title "Conexión interrumpida">
+<!ENTITY netReset.longDesc "<p>El enlace de red fue interrumpido mientras se negociaba una conexión. Por favor, probá de nuevo.</p>">
 
-<!ENTITY netTimeout.title "La conexión tardó demasiado">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.title "Tiempo agotado de red">
+<!ENTITY netTimeout.longDesc "<p>El sitio solicitado no respondió a una solicitud de conexión y el navegador dejó de esperar una respuesta.</p><ul><li>¿El servidor podría estar experimentando alta demanda o una caída temporal? Probá de nuevo más tarde.</li><li>¿Tampoco podés navegar en otros sitios? Revisá la conexión de red de tu computadora.</li><li>¿Tu computadora o red están conectadas a través de un firewall o proxy? La configuración incorrecta puede interferir con la navegación web.</li><li>¿Seguís con problemas? Consultá con tu administrador de red o proveedor de Internet para obtener ayuda.</li></ul>">
 
-<!ENTITY protocolNotFound.title "La dirección no fue comprendida">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>Necesitás instalar otro software para abrir esta dirección.</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "Protocolo desconocido">
+<!ENTITY unknownProtocolFound.longDesc "<p>La dirección especifica un protocolo (por ejemplo, <q>wxyz://</q>) que el navegador no reconoce, por lo tanto no puede conectarse apropiadamente al sitio.</p><ul><li>¿Estás intentando acceder a contenido de multimedios u otros servicios que no sean texto? Revisá los requisitos extra del sitio.</li><li>Algunos protocolos pueden requerir software de terceros o plugins antes de que el navegador pueda reconocerlos.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "El servidor proxy está rechazando las conexiones">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>Verificá las opciones de proxy para confirmar que están correctas.</li>
-  <li>Ponete en contacto con tu administrador de red para asegurarte de que el servidor proxy está
-    funcionando.</li>
-</ul>
-">
+<!ENTITY proxyConnectFailure.title "Conexión rechazada del servidor proxy">
+<!ENTITY proxyConnectFailure.longDesc "<p>El navegador está configurado para usar un servidor proxy, pero el servidor rechazó una conexión.</p><ul><li>¿Es correcta la configuración del proxy del navegador? Revisá la configuración y probá de nuevo.</li><li>¿El servicio proxy permite conexiones de esta red?</li><li>¿Seguís con problemas? Consultá con tu administrador de red o proveedor de Internet para obtener ayuda.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "No se puede encontrar el servidor proxy">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>Verificá la configuración del proxy para confirmar que está correcta.</li>
-  <li>Asegurate de que tu computadora tenga una conexión de red en funcionamiento.</li>
-  <li>Si tu computadora o red están protegidas por un firewall o proxy, asegurate
-    de que &brandShortName; tenga permiso de acceder a la web.</li>
-</ul>
-">
+<!ENTITY proxyResolveFailure.title "No se encontró el servidor proxy">
+<!ENTITY proxyResolveFailure.longDesc "<p>El navegador está configurado para usar un servidor proxy, pero no se pudo encontrar el servidor.</p><ul><li>¿Es correcta la configuración del proxy del navegador? Revisá la configuración y probá de nuevo.</li><li>¿Tu computadora está conectada a una red activa?</li><li>¿Seguís con problemas? Consultá con tu administrador de red o proveedor de Internet para obtener ayuda.</li></ul>">
 
-<!ENTITY redirectLoop.title "La página no está siendo redireccionada correctamente">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>Este problema a veces es causado por deshabilitar o rechazar 
-    cookies.</li>
-</ul>
-">
+<!ENTITY redirectLoop.title "Bucle de redireccionamiento">
+<!ENTITY redirectLoop.longDesc "<p>El navegador dejó de intentar recuperar el elemento solicitado. El sitio está redireccionando en una forma en que nunca va a terminar.</p><ul><li>¿Deshabilitaste o bloqueaste cookies requeridas por este sitio?</li>
+<li><em>NOTA:</em>: si aceptar las cookies del sitio no resuelve el problema, probablemente se trate de un problema con la configuración del servidor y no con tu computadora.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Respuesta inesperada del servidor">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>Verificá que tu sistema tenga instalado Personal Security Manager.</li>
-  <li>Esto puede deberse a una configuración no estándar del servidor.</li>
-</ul>
-">
+<!ENTITY unknownSocketType.title "Respuesta incorrecta">
+<!ENTITY unknownSocketType.longDesc "<p>El sitio respondió a la solicitud de red en una forma inesperada y el navegador no puede continuar.</p>">
 
-<!ENTITY nssFailure2.title "Fallo en conexión segura">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>La página que estás tratando de ver no puede mostrarse porque la autenticidad de los datos recibidos no puede verificarse.</li>
-  <li>Ponete en contacto con los administradores del sitio web para informarles de este problema. Alternativamente, usá el comando encontrado en el menú de ayuda para informar sobre el sitio roto.</li>
-</ul>
-">
+<!ENTITY nssFailure2.title "Falló la conexión segura">
+<!ENTITY nssFailure2.longDesc2 "<p>No se puede mostrar la página que estás intentando cargar porque no se puede verificar la autenticidad de los datos recibidos.</p><ul><li>Por favor, ponete en contacto con el administrador del sitio para informarle de este problema.</li></ul>">
 
-<!ENTITY nssBadCert.title "Fallo en conexión segura">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>Esto podría ser un problema con la configuración del servidor o podría ser
-alguien tratando de imitar el servidor.</li>
-  <li>Si te conectaste a este servidor exitosamente en el pasado, el error puede
-ser temporal y deberías probar nuevamente más tarde.</li>
+<!ENTITY nssBadCert.title "Falló la conexión segura">
+<!ENTITY nssBadCert.longDesc2 "<ul>
+<li>Esto podría ser un problema con la configuración del servidor, o podría ser alguien intentando robar la identidad del servidor.</li>
+<li>Si te conectaste a este servidor exitosamente en el pasado, el error podría ser temporal, y podrías probar de nuevo más tarde.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "¡Sitio sospechoso de ataque!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Los sitios de ataque tratan de instalar programas que roban información privada, usan tu computadora para atacar otras o dañan tu sistema.</p>
-<p>Los administradores de sitios web que creen que su sitio ha sido informado como un sitio de ataque por error pueden <a href='http://www.stopbadware.org/home/reviewinfo' >solicitar una revisión</a>.</p>
+<p>Los sitios de ataque intentan instalar programas que roban información privada, usan tus computadoras para atacar a otras, o dañan tu sistema.</p>
+<p>Los administradores de sitios web que creen que sus sitios fueron informados incorrectamente como sitios de ataque pueden <a href='https://www.stopbadware.org/request-review' >solicitar una revisión</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "¡Sitio sospechoso de fraude!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Ingresando cualquier información personal en esta página puede resultar en robo de identidad o algún otro fraude.</p>
-<p>Estos tipos de falsificaciones web son usados en estafas conocidas como ataques de <i>phishing</i>, en los que páginas web y correos electrónicos fraudulentos son usados para imitar fuentes en las que puede confiar.</p>
+<p>Ingresar cualquier información personal en esta página puede resultar en robo de identidad u otro fraude.</p>
+<p>Estos tipos de fraudes web son usados en estafas conocidas como &quot;phisings&quot;, en las cuales páginas web y correos electrónicos fraudulentos son usados para hacerse pasar por fuentes en las que confiás.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Bloqueado por política de seguridad de contenido">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; evitó que se cargue esta página de esta forma porque tiene una política de seguridad de contenido que no lo permite.</p>">
-
-<!ENTITY xssBlockMode.title "Bloqueado por filtro XSS">
-<!ENTITY xssBlockMode.longDesc "<ul>
-<li>&brandShortName; bloqueó las posteriores acciones en esta página, porque contiene 
-código JavaScript inyectado.</li>
-<li>Se suspendió la carga de esta página, ya sea a causa de la solicitud explícita
-del sitio web por bloquear esta página en caso de ataques XSS, o porque &brandShortName;
-fue configurado para bloquear páginas en dicha situación.</li>
-</ul>
-">
+<!ENTITY cspBlocked.title "Bloqueada por la política de seguridad de contenido">
+<!ENTITY cspBlocked.longDesc "<p>El navegador previno que se cargue esta página de esta forma porque la página tiene una política de seguridad de contenido que no la permite.</p>">
 
 <!ENTITY corruptedContentError.title "Error de contenido corrupto">
-<!ENTITY corruptedContentError.longDesc "<p>La página web que estás tratando de ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p><ul><li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>No se puede mostrar la página que estás intentando cargar porque se detectó un error en la transmisión de datos.</p><ul><li>Por favor, ponete en contacto con el administrador del sitio para informarle de este problema.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL remoto">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Ponete en contacto con los administradores del sitio web para informarles de este problema.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Ponete en contacto con el administrador del sitio web para informarle de este problema.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

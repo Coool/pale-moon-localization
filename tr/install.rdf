@@ -7,17 +7,21 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-tr@palemoon.org"
-               em:name="Türkçe (TR) Language Pack"
-               em:version="26.0"
+               em:name="Turkish (TR) Language Pack"
+               em:version="27.0.0rc16"
                em:type="8"
-               em:creator="mozilla.org.tr">
-    <em:contributor>Mozilla Türkiye Yerelleştirme Takımı</em:contributor>
+               em:creator="palemoon.org">
+
+    <em:translator>ilkeryus</em:translator>
+    <em:translator>Mozilla Türkiye Yerelleştirme Takımı</em:translator>
+
+    <em:contributor>JustOff</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0a1</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:minVersion>27.0.0</em:minVersion>
+        <em:maxVersion>27.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

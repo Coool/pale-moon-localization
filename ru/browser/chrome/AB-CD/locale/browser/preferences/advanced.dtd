@@ -108,14 +108,37 @@
 <!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
 
 <!ENTITY certificateTab.label            "Сертификаты">
-<!ENTITY certSelection.description       "Когда сервер запрашивает личный сертификат:">
+<!ENTITY certGroup.label                 "Персональный сертификат">
+<!ENTITY certSelection.description       "Когда сервер запрашивает персональный сертификат:">
 <!ENTITY certs.auto                      "Отправлять автоматически">
 <!ENTITY certs.auto.accesskey            "а">
 <!ENTITY certs.ask                       "Спрашивать каждый раз">
 <!ENTITY certs.ask.accesskey             "ш">
+<!ENTITY ocspGroup.label                 "Проверка сертификата">
+<!ENTITY enableOCSP.label                "Использовать протокол получения статуса сертификатов (OCSP) для проверки текущего статуса сертификатов">
+<!ENTITY enableOCSP.accesskey            "п">
+<!ENTITY requireOCSP.label               "При ошибке соединения с сервером OCSP рассматривать сертификат как недействительный">
+<!ENTITY requireOCSP.accesskey           "ш">
 <!ENTITY viewCerts.label                 "Просмотр сертификатов">
 <!ENTITY viewCerts.accesskey             "с">
-<!ENTITY verify2.label                   "Настройки OCSP">
-<!ENTITY verify2.accesskey               "р">
 <!ENTITY viewSecurityDevices.label       "Устройства защиты">
 <!ENTITY viewSecurityDevices.accesskey   "о">
+
+<!ENTITY UACompatGroup.label    "Совместимость">
+<!ENTITY UACompat.label         "Использовать User Agent:">
+<!ENTITY UACompat.Native        "Собственный">
+<!ENTITY UACompat.Gecko         "Совместимый с Gecko">
+<!ENTITY UACompat.Firefox       "Совместимый с Firefox">
+
+<!ENTITY scrollparamTab.label               "Прокрутка">
+<!ENTITY smoothscroll.explain.label         "Следующие параметры используются только в случае, если плавная прокрутка включена.">
+<!ENTITY smoothscroll.to                    "—">
+<!ENTITY smoothscroll.params.label          "Параметры плавной прокрутки">
+<!ENTITY smoothscroll.mousewheel.label      "С помощью колесика мыши">
+<!ENTITY smoothscroll.mousewheel.duration   "Длительность прокрутки:">
+<!ENTITY smoothscroll.arrowkeys.label       "С помощью клавиш со стрелками">
+<!ENTITY smoothscroll.arrowkeys.duration    "Длительность прокрутки:">
+<!ENTITY smoothscroll.pagekeys.label        "С помощью клавиш PgUp/PgDn">
+<!ENTITY smoothscroll.pagekeys.duration     "Длительность прокрутки:">
+<!ENTITY smoothscroll.scrollbar.label       "С помощью полосы прокрутки">
+<!ENTITY smoothscroll.scrollbar.duration    "Длительность прокрутки:">
