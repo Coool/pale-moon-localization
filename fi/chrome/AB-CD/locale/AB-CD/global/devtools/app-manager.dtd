@@ -2,30 +2,30 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY index.title "App Manager">
-<!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.title "Sovellusmanageri">
+<!ENTITY index.projects2 "Sovellukset">
+<!ENTITY index.device2 "Laite">
+<!ENTITY index.help "Ohje">
 
 <!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
-<!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
-<!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
-<!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
+<!ENTITY device.debugMainProcessTooltip "Avaa laitteen pääprosessiin liittyvät kehittäjätyökalut">
+<!ENTITY device.screenshot "Kuvankaappaus">
+<!ENTITY device.screenshotTooltip "Avaa kuvankaappaus laitteen nykyisestä tilasta uuteen välilehteen">
+<!ENTITY device.title "Laitehallintakeskus">
+<!ENTITY device.notConnected "Ei yhteyttä. Ole hyvä, ja yhdistä laite alta.">
+<!ENTITY device.startApp "Käynnistä">
+<!ENTITY device.startAppTooltip "Käynnistä tämä sovellus laitteella">
+<!ENTITY device.stopApp "Pysäytä">
+<!ENTITY device.stopAppTooltip "Pysäytä tämä sovellus laitteella">
+<!ENTITY device.debugApp "Vianselvitys">
+<!ENTITY device.debugAppTooltip "Avaa tähän sovellukseen liittyvät kehittäjätyökalut laitteella">
+<!ENTITY device.name "Nimi">
 <!ENTITY device.plain "Plain (default)">
 <!ENTITY device.privileged "Privileged">
 <!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
+<!ENTITY device.allow "Salli">
 <!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
+<!ENTITY device.prompt "Kysy">
 <!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
 <!ENTITY device.deny "Deny">
 <!ENTITY device.denyTooltip "This permission is denied for apps of this type">

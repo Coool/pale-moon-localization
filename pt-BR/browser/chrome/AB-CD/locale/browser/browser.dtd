@@ -13,19 +13,19 @@
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
-<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(navegação privativa)">
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Navegação privativa)">
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Recarregar aba">
 <!ENTITY  reloadTab.accesskey                "R">
-<!ENTITY  reloadAllTabs.label                "Recarregar todas as guias">
+<!ENTITY  reloadAllTabs.label                "Recarregar todas as abas">
 <!ENTITY  reloadAllTabs.accesskey            "A">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "Fechar as guias à direita">
+<!ENTITY  closeTabsToTheEnd.label            "Fechar abas à direita">
 <!ENTITY  closeTabsToTheEnd.accesskey        "e">
-<!ENTITY  closeOtherTabs.label               "Fechar outras guias">
+<!ENTITY  closeOtherTabs.label               "Fechar as outras abas">
 <!ENTITY  closeOtherTabs.accesskey           "o">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
@@ -39,32 +39,32 @@ can reach it easily. -->
 <!ENTITY  unpinTab.accesskey                 "b">
 <!ENTITY  moveToNewWindow.label              "Mover para nova janela">
 <!ENTITY  moveToNewWindow.accesskey          "W">
-<!ENTITY  bookmarkAllTabs.label              "Marcar todas as guias...">
+<!ENTITY  bookmarkAllTabs.label              "Adicionar todas as abas…">
 <!ENTITY  bookmarkAllTabs.accesskey          "T">
-<!ENTITY  undoCloseTab.label                 "Desfazer fechar guia">
+<!ENTITY  undoCloseTab.label                 "Reabrir aba fechada">
 <!ENTITY  undoCloseTab.accesskey             "U">
 <!ENTITY  closeTab.label                     "Fechar aba">
 <!ENTITY  closeTab.accesskey                 "c">
 
-<!ENTITY  listAllTabs.label      "Listar todas as guias">
+<!ENTITY  listAllTabs.label      "Listar todas as abas">
 
 <!ENTITY tabCmd.label "Nova aba">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "Abra o local...">
+<!ENTITY openLocationCmd.label "Abrir endereço…">
 <!ENTITY openLocationCmd.accesskey "L">
 <!ENTITY openFileCmd.label "Abrir arquivo…">
 <!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.commandkey "o">
-<!ENTITY printSetupCmd.label "Configuração de página...">
+<!ENTITY printSetupCmd.label "Configurar página…">
 <!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "Visualização de impressão">
+<!ENTITY printPreviewCmd.label "Pré-visualizar impressão">
 <!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Imprimir...">
 <!ENTITY printCmd.accesskey "I">
 <!ENTITY printCmd.commandkey "P">
 
-<!ENTITY goOfflineCmd.label "Trabalhar Offline">
+<!ENTITY goOfflineCmd.label "Modo offline">
 <!ENTITY goOfflineCmd.accesskey "M">
 
 <!ENTITY menubarCmd.label "Barra de menus">
@@ -73,7 +73,7 @@ can reach it easily. -->
 <!ENTITY navbarCmd.accesskey "B">
 <!ENTITY personalbarCmd.label "Barra de favoritos">
 <!ENTITY personalbarCmd.accesskey "r">
-<!ENTITY bookmarksToolbarItem.label "Barra de favoritos">
+<!ENTITY bookmarksToolbarItem.label "Itens da barra de favoritos">
 <!ENTITY addonBarCmd.label "Barra de extensões">
 <!ENTITY addonBarCmd.accesskey "x">
 <!ENTITY statusBar.label               "Barra de status">

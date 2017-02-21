@@ -42,7 +42,7 @@
 
 <!ENTITY cmd.pause.label                  "Пауза">
 <!ENTITY cmd.pause.accesskey              "П">
-<!ENTITY cmd.resume.label                 "Възобнови">
+<!ENTITY cmd.resume.label                 "Възобновяване">
 <!ENTITY cmd.resume.accesskey             "В">
 <!ENTITY cmd.cancel.label                 "Отказ">
 <!ENTITY cmd.cancel.accesskey             "О">
@@ -51,14 +51,14 @@
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
-<!ENTITY cmd.show.label                   "Отвори папката с файловете">
+<!ENTITY cmd.show.label                   "Отваряне на папката с файловете">
 <!ENTITY cmd.show.accesskey               "п">
-<!ENTITY cmd.showMac.label                "Покажи във Finder">
+<!ENTITY cmd.showMac.label                "Показване в търсача">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Повторен опит">
 <!ENTITY cmd.goToDownloadPage.label       "Отиване на страницата за сваляне">
 <!ENTITY cmd.goToDownloadPage.accesskey   "О">
-<!ENTITY cmd.copyDownloadLink.label       "Копирайте линка за сваляне">
+<!ENTITY cmd.copyDownloadLink.label       "Копиране на препратката за сваляне">
 <!ENTITY cmd.copyDownloadLink.accesskey   "К">
 <!ENTITY cmd.removeFromHistory.label      "Премахване от историята">
 <!ENTITY cmd.removeFromHistory.accesskey  "П">
@@ -87,7 +87,7 @@
 <!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
      This string is shown when there are no items in the Downloads Panel.
      -->
-<!ENTITY downloadsPanelEmpty.label        "No downloads for this session.">
+<!ENTITY downloadsPanelEmpty.label        "Няма файлове за изтегляне за тази сесия.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

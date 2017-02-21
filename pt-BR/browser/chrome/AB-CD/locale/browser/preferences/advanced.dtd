@@ -8,20 +8,20 @@
 
 <!ENTITY accessibility.label             "Acessibilidade">
 
-<!ENTITY useCursorNavigation.label       "Sempre use as teclas de cursor para navegar nas páginas">
+<!ENTITY useCursorNavigation.label       "Sempre use as teclas de cursor para navegar pelas páginas">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchStartTyping.label         "Localizar texto ao começar a digitar">
 <!ENTITY searchStartTyping.accesskey     "x">
-<!ENTITY blockAutoRefresh.label          "Alertar se sites tentarem redirecionar ou recarregar a página">
+<!ENTITY blockAutoRefresh.label          "Alertar quando sites tentarem redirecionar ou recarregar a página">
 <!ENTITY blockAutoRefresh.accesskey      "b">
 
 <!ENTITY browsing.label                  "Navegação">
 
-<!ENTITY useAutoScroll.label             "Use Autorrolagem">
+<!ENTITY useAutoScroll.label             "Usar Autorrolagem">
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Usar rolagem suave">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Quando disponível, usar aceleração por hardware">
+<!ENTITY allowHWAccel.label              "Usar aceleração de hardware quando disponível">
 <!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkSpelling.label             "Verificar ortografia ao digitar">
 <!ENTITY checkSpelling.accesskey         "t">
@@ -31,13 +31,13 @@
 <!ENTITY alwaysCheckDefault.accesskey    "w">
 <!ENTITY setDefault.label                "Definir o &brandShortName; como o navegador padrão">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "O &brandShortName; já está definido como o navegador padrão">
+<!ENTITY isDefault.label                 "O &brandShortName; já está definido como seu navegador padrão">
 
 <!ENTITY dataChoicesTab.label            "Escolha de dados">
 
 <!ENTITY crashReporterSection.label      "Relatórios de travamento">
 <!ENTITY crashReporterDesc.label         "O &brandShortName; envia relatórios de travamento para ajudar a &vendorShortName; a tornar o seu navegador mais estável e seguro">
-<!ENTITY enableCrashReporter.label       "Ativar Crash Reporter">
+<!ENTITY enableCrashReporter.label       "Ativar Relatórios de travamentos">
 <!ENTITY enableCrashReporter.accesskey   "C">
 <!ENTITY crashReporterLearnMore.label    "Saiba mais">
 
@@ -45,13 +45,13 @@
 
 <!ENTITY connection.label                "Conexão">
 
-<!ENTITY connectionDesc.label            "Determine como o &brandShortName; conecta-se à internet.">
-<!ENTITY connectionSettings.label        "Configurar conexão…">
+<!ENTITY connectionDesc.label            "Configurar como o &brandShortName; conecta-se à internet">
+<!ENTITY connectionSettings.label        "Configurações…">
 <!ENTITY connectionSettings.accesskey    "C">
 
 <!ENTITY httpCache.label                 "Cache de conteúdo web">
 
-<!ENTITY offlineStorage2.label           "Conteúdo web offline e dados do usuário">
+<!ENTITY offlineStorage2.label           "Conteúdo web offline e dados de usuário">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -69,17 +69,17 @@
 <!ENTITY overrideSmartCacheSize.label    "Desativar o gerenciamento automático do cache">
 <!ENTITY overrideSmartCacheSize.accesskey "D">
 
-<!ENTITY updateTab.label                 "Atualizações">
+<!ENTITY updateTab.label                 "Atualizar">
 
 <!ENTITY updateApp.label                 "Atualizações do &brandShortName;">
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
-<!ENTITY updateAuto1.label               "Instalar automaticamente (recomendado: maior segurança)">
+<!ENTITY updateAuto1.label               "Instalar atualizações automaticamente">
 <!ENTITY updateAuto1.accesskey           "I">
-<!ENTITY updateAutoMetro.label           "Atualizar automaticamente do desktop e do &brandShortName; estilo Windows 8">
+<!ENTITY updateAutoMetro.label           "Instalar automaticamente a partir da área de trabalho e do &brandShortName; estilo Windows 8">
 <!ENTITY updateAutoMetro.accesskey       "s">
-<!ENTITY updateCheck.label               "Verificar se há atualizações, mas deixe-me escolher se deseja instalá-las">
+<!ENTITY updateCheck.label               "Verificar se há atualizações, mas deixe-me escolher se desejo instalá-las">
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "Nunca verificar se há atualizações (não recomendadas)">
 <!ENTITY updateManual.accesskey          "N">
@@ -87,13 +87,13 @@
 <!ENTITY updateAutoAddonWarn.label       "Alertar caso desative alguma extensão ou tema">
 <!ENTITY updateAutoAddonWarn.accesskey   "W">
 
-<!ENTITY updateAutoMetroWarn.label       "(o &brandShortName; estilo Windows 8 não verifica compatibilidade de complementos)">
+<!ENTITY updateAutoMetroWarn.label       "(o &brandShortName; estilo Windows 8 não verifica a compatibilidade dos complementos)">
 
 <!ENTITY updateHistory.label             "Exibir histórico de atualizações">
 <!ENTITY updateHistory.accesskey         "p">
 
 <!ENTITY updateOthers.label              "Atualizar automaticamente:">
-<!ENTITY enableSearchUpdate.label        "Mecanismos de pesquisa">
+<!ENTITY enableSearchUpdate.label        "Motores de busca">
 <!ENTITY enableSearchUpdate.accesskey    "E">
 
 <!ENTITY offlineNotify.label             "Alertar quando um site solicitar armazenamento para uso offline">
@@ -101,23 +101,23 @@
 <!ENTITY offlineNotifyExceptions.label   "Exceções…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label          "Os seguintes sites estão autorizados a guardar dados para usar no modo desligado:">
+<!ENTITY offlineAppsList2.label          "Estes sites estão autorizados a armazenar dados para uso offline:">
 <!ENTITY offlineAppsList.height          "7em">
-<!ENTITY offlineAppsListRemove.label     "Remover…">
+<!ENTITY offlineAppsListRemove.label     "Excluir…">
 <!ENTITY offlineAppsListRemove.accesskey "R">
 <!ENTITY offlineAppRemove.confirm        "Excluir dados offline">
 
 <!ENTITY certificateTab.label            "Certificados">
-<!ENTITY certGroup.label                 "Certificados pessoais">
+<!ENTITY certGroup.label                 "Certificado pessoal">
 <!ENTITY certSelection.description       "Quando um servidor solicitar meu certificado pessoal:">
 <!ENTITY certs.auto                      "Selecionar um automaticamente">
 <!ENTITY certs.auto.accesskey            "i">
 <!ENTITY certs.ask                       "Perguntar sempre">
 <!ENTITY certs.ask.accesskey             "i">
-<!ENTITY ocspGroup.label                 "Validação do certificado">
+<!ENTITY ocspGroup.label                 "Validação de certificado">
 <!ENTITY enableOCSP.label                "Usar o Protocolo Online de Status de Certificados (OCSP) para confirmar a validade atual de certificados">
 <!ENTITY enableOCSP.accesskey            "U">
-<!ENTITY requireOCSP.label               "Quando uma conexão com o servidor OCSP falhar, tratar o certificado como inválido">
+<!ENTITY requireOCSP.label               "Quando uma conexão com servidor OCSP falhar, tratar o certificado como inválido">
 <!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "Ver certificados">
 <!ENTITY viewCerts.accesskey             "s">
@@ -131,14 +131,14 @@
 <!ENTITY UACompat.Firefox       "Compatível com o Firefox">
 
 <!ENTITY scrollparamTab.label               "Rolagem">
-<!ENTITY smoothscroll.explain.label         "Os parâmetros abaixo só terão efeito se rolagem suave é habilitada no geral com a caixa de seleção acima.">
+<!ENTITY smoothscroll.explain.label         "Os parâmetros abaixo só terão efeito se a rolagem suave for habilitada na caixa de seleção acima.">
 <!ENTITY smoothscroll.to                    "para">
-<!ENTITY smoothscroll.params.label          "Parâmetros de rolagem suaves">
-<!ENTITY smoothscroll.mousewheel.label      "Rolagem suave com roda do mouse">
-<!ENTITY smoothscroll.mousewheel.duration   "Duração de rolagem da roda do mouse:">
+<!ENTITY smoothscroll.params.label          "Parâmetros de rolagem suave">
+<!ENTITY smoothscroll.mousewheel.label      "Rolagem suave com a roda do mouse">
+<!ENTITY smoothscroll.mousewheel.duration   "Duração da rolagem da roda do mouse:">
 <!ENTITY smoothscroll.arrowkeys.label       "Rolagem suave com as teclas de seta">
 <!ENTITY smoothscroll.arrowkeys.duration    "Duração do rolamento das Teclas de seta:">
-<!ENTITY smoothscroll.pagekeys.label        "Rolagem suave para cima/para baixo">
-<!ENTITY smoothscroll.pagekeys.duration     "Duração de rolagem Página para cima/para baixo:">
-<!ENTITY smoothscroll.scrollbar.label       "Rolagem suave com barras de rolagem">
-<!ENTITY smoothscroll.scrollbar.duration    "Duração de rolagem suave de barra de rolagem:">
+<!ENTITY smoothscroll.pagekeys.label        "Rolagem suave com PageUp/PageDown">
+<!ENTITY smoothscroll.pagekeys.duration     "Duração da rolagem com as teclas PageUp/pageDown:">
+<!ENTITY smoothscroll.scrollbar.label       "Rolagem suave com as barras de rolagem">
+<!ENTITY smoothscroll.scrollbar.duration    "Duração da rolagem suave com as barra de rolagem:">
