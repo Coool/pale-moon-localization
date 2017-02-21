@@ -17,7 +17,7 @@
 <!ENTITY status4evar.option.toolbar "Tilarivi">
 <!ENTITY status4evar.option.urlbar "Osoitepalkki">
 <!ENTITY status4evar.option.popup "Ponnahdus">
-<!ENTITY status4evar.option.tooltip "Tooltip">
+<!ENTITY status4evar.option.tooltip "Työkaluvinkki">
 <!ENTITY status4evar.option.bottom "Alaosa">
 <!ENTITY status4evar.option.top "Yläosa">
 <!ENTITY status4evar.option.fill "Täyttö">
@@ -35,18 +35,18 @@
 <!ENTITY status4evar.option.offset "Offset">
 <!ENTITY status4evar.option.repeat "Toista">
 <!ENTITY status4evar.option.no-repeat "Ei toistoa">
-<!ENTITY status4evar.option.space "Space">
-<!ENTITY status4evar.option.round "Round">
-<!ENTITY status4evar.option.firefoxdefault "Pale Moon default">
+<!ENTITY status4evar.option.space "Väli">
+<!ENTITY status4evar.option.round "Pyöreä">
+<!ENTITY status4evar.option.firefoxdefault "Pale Moon-oletukset">
 <!ENTITY status4evar.option.download.library "Kirjasto">
-<!ENTITY status4evar.option.download.tab "Tab">
-<!ENTITY status4evar.option.download.thirdparty "3rd Party">
+<!ENTITY status4evar.option.download.tab "Välilehti">
+<!ENTITY status4evar.option.download.thirdparty "Kolmas osapuoli">
 
 <!ENTITY status4evar.unit.milliseconds "millisekunteja">
 <!ENTITY status4evar.unit.seconds "sekunteja">
 <!ENTITY status4evar.unit.px "px">
 
-<!ENTITY status4evar.status.general.status.caption "Status Text">
+<!ENTITY status4evar.status.general.status.caption "Tilateksti">
 <!ENTITY status4evar.status.label "Näytä tila:">
 <!ENTITY status4evar.status.timeout.label "Piilota tila ajan jälkeen:">
 <!ENTITY status4evar.status.default.label "Näytä oletustila">
@@ -56,19 +56,19 @@
 
 <!ENTITY status4evar.status.general.linkOver.caption "Linkit">
 <!ENTITY status4evar.status.linkOver.label "Näytä linkit:">
-<!ENTITY status4evar.status.linkOver.delay.show.label "Delay before showing links:">
-<!ENTITY status4evar.status.linkOver.delay.hide.label "Delay before hiding links:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Viive ennen linkin näyttöä:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Viive ennen linkin kätkemistä:">
 
-<!ENTITY status4evar.status.toolbar.maxLength.label "Max status text length:">
+<!ENTITY status4evar.status.toolbar.maxLength.label "Tilatekstin maksimipituus:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Status alignment:">
-<!ENTITY status4evar.status.urlbar.color.label "Status color:">
-<!ENTITY status4evar.status.currentUrl "Current Location">
-<!ENTITY status4evar.status.statusText "Status Text">
+<!ENTITY status4evar.status.urlbar.align.label "Tilan sijoittelu:">
+<!ENTITY status4evar.status.urlbar.color.label "Tilan väri:">
+<!ENTITY status4evar.status.currentUrl "Nykyinen sijainti">
+<!ENTITY status4evar.status.statusText "Tilateksti">
 
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefoxin yhteensopivuusominaisuudet">
-<!ENTITY browser.urlbar.formatting.enabled.label "Enable domain highlighting">
-<!ENTITY browser.urlbar.trimming.enabled.label "Enable protocol hiding (http:// and ftp://)">
+<!ENTITY browser.urlbar.formatting.enabled.label "Salli verkkotunnusten korostus">
+<!ENTITY browser.urlbar.trimming.enabled.label "Salli protokollan kätkeminen (http:// ja ftp://)">
 
 <!ENTITY status4evar.status.popup.invertMirror.label "Oletuksena oikeaan laitaan">
 <!ENTITY status4evar.status.popup.mouseMirror.label "Vaihda puolta kun hiiri on päällä">
@@ -76,11 +76,11 @@
 <!ENTITY status4evar.progress.style.label "Käytä mukautettua tyyliä">
 
 <!ENTITY status4evar.progress.urlbar.enable.label "Näytä edistyminen osoiterivillä">
-<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+<!ENTITY status4evar.progress.urlbar.line.label "Viivan tyyli:">
 
-<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+<!ENTITY status4evar.progress.toolbar.force.label "Näytä aina tilapalkki">
 
-<!ENTITY status4evar.editor.label "Editor:">
+<!ENTITY status4evar.editor.label "Editori:">
 <!ENTITY status4evar.editor.css.color.label "Väri:">
 <!ENTITY status4evar.editor.css.image.label "Kuva:">
 <!ENTITY status4evar.editor.css.image.repeat "Toista">
@@ -89,28 +89,28 @@
 
 
 
-<!ENTITY status4evar.download.button.action.label "Download status button action:">
-<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
-<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
-<!ENTITY status4evar.download.label.label "Download status indicator text:">
-<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
-<!ENTITY status4evar.download.progress.label "Show download progress on the button">
-<!ENTITY status4evar.download.progress.average.label "Show average download completion">
-<!ENTITY status4evar.download.progress.max.label "Show most complete download">
-<!ENTITY status4evar.download.progress.min.label "Show least complete download">
-<!ENTITY status4evar.download.color.active.label "Progress color for active downloads:">
-<!ENTITY status4evar.download.color.paused.label "Progress color for paused downloads:">
-<!ENTITY status4evar.download.notify.animate.label "Animate button when download completes">
-<!ENTITY status4evar.download.notify.timeout.label "Highlight button when download completes:">
+<!ENTITY status4evar.download.button.action.label "Lataustilapainikkeen toiminto:">
+<!ENTITY status4evar.download.force.label "Näytä aina lataustilaindikaattori">
+<!ENTITY status4evar.download.label.force.label "Näytä aina indikaattorin teksti">
+<!ENTITY status4evar.download.label.label "Lataa tilaindikaattorin teksti:">
+<!ENTITY status4evar.download.tooltip.label "Lataa tilaindikaattorin työkaluvinkki:">
+<!ENTITY status4evar.download.progress.label "Näytä latauksen edistyminen painikkeessa">
+<!ENTITY status4evar.download.progress.average.label "Näytä latausten keskimääräinen valmistuminen">
+<!ENTITY status4evar.download.progress.max.label "Näytä pisimmällä oleva lataus">
+<!ENTITY status4evar.download.progress.min.label "Näytä vähiten valmis lataus">
+<!ENTITY status4evar.download.color.active.label "Edistymisen väri aktiivisille latauksille:">
+<!ENTITY status4evar.download.color.paused.label "Edistymisen väri keskeytetyille latauksille:">
+<!ENTITY status4evar.download.notify.animate.label "Animoi painike latauksen valmistuessa">
+<!ENTITY status4evar.download.notify.timeout.label "Korosta painike latauksen valmistuessa:">
 
-<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
-<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
-<!ENTITY status4evar.addonbar.closeButton "Show the close button">
+<!ENTITY status4evar.addonbar.borderStyle "Käytä työkalupalkin vaihtoehtoisia rajauksia">
+<!ENTITY status4evar.addonbar.windowGripper "Näytä ikkunan koonvaihtamiskursori">
+<!ENTITY status4evar.addonbar.closeButton "Näytä sulje-painike">
 
-<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
+<!ENTITY status4evar.advanced.warning "Nämä edistyneet asetukset voivat aiheuttaa ongelmia Pale Moonin tai muiden lisäosien kanssa. Tee muutoksia omalla vastuullasi.">
 
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the the Address Bar XBL binding.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Yritä pakottaa osoitepalkki XBL-rajauksiin.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Valitse tämä vain, jos sinulla on ongelmia osoitepalkin edistymisen tai tilatekstin oikean näkymisen kanssa Tämä voi mahdollisesti rikkoa muita laajennuksia, jotka yrittävät asettaa XBL-rajauksia osoitepalkkiin.">
 
-<!ENTITY status4evar.advanced.status.detectFullScreen "Detect full-screen mode and show links/status appropriately.">
-<!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">
+<!ENTITY status4evar.advanced.status.detectFullScreen "Havaitse kokonäyttömoodi ja näytä linkit/tila mukautetusti.">
+<!ENTITY status4evar.advanced.status.detectVideo "Kätke tilaponnahdus koko näytön HTML5-videossa.">

@@ -16,16 +16,16 @@
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Поверително сърфиране)">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label                    "Презареди таба">
+<!ENTITY  reloadTab.label                    "Презареждане на подпрозореца">
 <!ENTITY  reloadTab.accesskey                "П">
-<!ENTITY  reloadAllTabs.label                "Презареди всички табове">
+<!ENTITY  reloadAllTabs.label                "Презареждане на всички подпрозорци">
 <!ENTITY  reloadAllTabs.accesskey            "П">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "Затваряне на табовете отдясно">
+<!ENTITY  closeTabsToTheEnd.label            "Затваряне на подпрозорците отдясно">
 <!ENTITY  closeTabsToTheEnd.accesskey        "З">
-<!ENTITY  closeOtherTabs.label               "Затвори други табове">
+<!ENTITY  closeOtherTabs.label               "Затваряне на другите подпрозорци">
 <!ENTITY  closeOtherTabs.accesskey           "З">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
@@ -33,22 +33,22 @@ used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                       "Закрепете таба">
+<!ENTITY  pinTab.label                       "Закачане на подпрозореца">
 <!ENTITY  pinTab.accesskey                   "к">
-<!ENTITY  unpinTab.label                     "Откачете таба">
+<!ENTITY  unpinTab.label                     "Откачане на подпрозореца">
 <!ENTITY  unpinTab.accesskey                 "О">
 <!ENTITY  moveToNewWindow.label              "Премести в нов прозорец">
 <!ENTITY  moveToNewWindow.accesskey          "н">
-<!ENTITY  bookmarkAllTabs.label              "Добави всички табове в отметките…">
+<!ENTITY  bookmarkAllTabs.label              "Добавяне на всички подпрозорци в отметките…">
 <!ENTITY  bookmarkAllTabs.accesskey          "Д">
-<!ENTITY  undoCloseTab.label                 "Възстанови затворения таб">
+<!ENTITY  undoCloseTab.label                 "Възстановяване на затворения подпрозорец">
 <!ENTITY  undoCloseTab.accesskey             "В">
-<!ENTITY  closeTab.label                     "Затвори таба">
+<!ENTITY  closeTab.label                     "Затваряне на подпрозореца">
 <!ENTITY  closeTab.accesskey                 "З">
 
-<!ENTITY  listAllTabs.label      "Списък с всички табове">
+<!ENTITY  listAllTabs.label      "Списък с всички подпрозорци">
 
-<!ENTITY tabCmd.label "Нов таб">
+<!ENTITY tabCmd.label "Нов подпрозорец">
 <!ENTITY tabCmd.accesskey "т">
 <!ENTITY tabCmd.commandkey "t">
 <!ENTITY openLocationCmd.label "Отвори адрес…">
@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Елементи на панела за отметки">
 <!ENTITY addonBarCmd.label "Панел за разширения">
 <!ENTITY addonBarCmd.accesskey "р">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "Лента на състоянието">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Изходен код на страницата">
@@ -94,7 +94,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.label "Пълен екран">
 <!ENTITY fullScreenCmd.accesskey "П">
 <!ENTITY fullScreenCmd.macCommandKey "f">
-<!ENTITY showAllTabsCmd.label "Покажи всички табове">
+<!ENTITY showAllTabsCmd.label "Показване на всички подпрозорци">
 <!ENTITY showAllTabsCmd.accesskey "в">
 
 <!ENTITY fullScreenMinimize.tooltip "Минимизрай">
@@ -122,9 +122,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY markPageCmd.commandkey "l">
 <!ENTITY subscribeToPageMenupopup.label "Абонирайте се за тази страница">
 <!ENTITY subscribeToPageMenuitem.label "Абонирайте се за тази страница…">
-<!ENTITY addCurPagesCmd.label "Добави всички табове към отметките…">
+<!ENTITY addCurPagesCmd.label "Добавяне на всички подпрозорци към отметките…">
 <!ENTITY showAllBookmarks2.label "Покажи всички отметки">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Управление на отметките">
 <!ENTITY unsortedBookmarksCmd.label "Несортирани отметки">
 <!ENTITY bookmarksToolbarChevron.tooltip "Покажи повече отметки">
 
@@ -219,7 +219,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "А">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
-<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.label   "Капкомер">
 <!ENTITY eyedropper.accesskey "Y">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
@@ -309,12 +309,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "С">
 <!ENTITY viewCustomizeToolbar.label       "Персонализирай…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "е">
-<!ENTITY viewTabsOnTop.label            "Табове отгоре">
+<!ENTITY viewTabsOnTop.label            "Подпрозорците отгоре">
 <!ENTITY viewTabsOnTop.accesskey        "Т">
 
 <!ENTITY historyMenu.label "История">
 <!ENTITY historyMenu.accesskey "с">
-<!ENTITY historyUndoMenu.label "Наскоро затворени табове">
+<!ENTITY historyUndoMenu.label "Наскоро затворени подпрозорци">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Наскоро затворени прозорци">
 <!ENTITY historyRestoreLastSession.label "Възстанови предишната сесия">
@@ -337,7 +337,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Въведете търсене или адрес">
 <!ENTITY urlbar.accesskey             "В">
-<!ENTITY urlbar.switchToTab.label     "Превключи на таб:">
+<!ENTITY urlbar.switchToTab.label     "Превключване на подпрозорец:">
 
 <!-- 
   Comment duplicated from browser-sets.inc:
@@ -363,15 +363,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!ENTITY openLinkCmdInTab.label       "Отвори линка в нов таб">
+<!ENTITY openLinkCmdInTab.label       "Отваряне на препратката в нов подпрозорец">
 <!ENTITY openLinkCmdInTab.accesskey   "т">
 <!ENTITY openLinkCmd.label            "Отвори линка в нов прозорец">
 <!ENTITY openLinkCmd.accesskey        "п">
 <!ENTITY openLinkInPrivateWindowCmd.label "Отвори линка в прозорец в поверителен режим">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "п">
-<!ENTITY openLinkCmdInCurrent.label     "Отвори линк">
+<!ENTITY openLinkCmdInCurrent.label     "Отваряне на препратката">
 <!ENTITY openLinkCmdInCurrent.accesskey "О">
-<!ENTITY openFrameCmdInTab.label      "Отвори фрейма в нов таб">
+<!ENTITY openFrameCmdInTab.label      "Отваряне на рамката в нов подпрозорец">
 <!ENTITY openFrameCmdInTab.accesskey  "ф">
 <!ENTITY openFrameCmd.label           "Отвори фрейма в нов прозорец">
 <!ENTITY openFrameCmd.accesskey       "р">
@@ -533,7 +533,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.label                 "Мащаб">
 <!ENTITY fullZoom.accesskey             "М">
 
-<!ENTITY newTabButton.tooltip           "Отвори нов таб">
+<!ENTITY newTabButton.tooltip           "Отваряне на нов подпрозорец">
 <!ENTITY newWindowButton.tooltip        "Отвори нов прозорец">
 <!ENTITY sidebarCloseButton.tooltip     "Затвори страничния панел">
 
@@ -617,13 +617,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText "Повече информация…">
 
-<!ENTITY allTabs.filter.emptyText "Търси в табовете">
+<!ENTITY allTabs.filter.emptyText "Търсене в подпрозорците">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label "Табове на браузъра">
+<!ENTITY tabsToolbar.label "Подпрозорци на програмата">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
-<!ENTITY syncTabsMenu2.label     "Табове на други устройства">
+<!ENTITY syncTabsMenu2.label     "Подпрозорци на други устройства">
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 

@@ -34,13 +34,13 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
+<!ENTITY options.showUserAgentStyles.label "Mostrar estilos do navegador">
 <!ENTITY options.showUserAgentStyles.tooltip "Ao ativar esta opção, serão exibidos os estilos padrão carregados pelo navegador.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "Default color unit">
+<!ENTITY options.defaultColorUnit.label "Unidade de cor padrão">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -72,14 +72,14 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.label4    "Habilitar a depuração do &quot;chrome&quot; e dos complementos">
+<!ENTITY options.enableChrome.tooltip2  "Ao ativar esta opção, você poderá utilizar as diversas ferramentas de desenvolvedor no contexto do navegador, assim como depurar os complementos">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Ativar depuração remota">
-<!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Ao ativar esta opção, você permitirá que as ferramentas de desenvolvedor efetuem a depuração de instâncias remotas do Firefox, tais como o Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -90,8 +90,8 @@
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
-<!ENTITY options.disableCache.label2     "Disable Cache (when toolbox is open)">
-<!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
+<!ENTITY options.disableCache.label2     "Desativar cache (quando a caixa de ferramentas estiver aberta)">
+<!ENTITY options.disableCache.tooltip2   "Ao ativar esta opção, será desabilitada a cache em todas as abas que tenham a caixa de ferramentas aberta.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -121,8 +121,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Use Developer Edition browser theme">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.label   "Utilizar o tema Developer Edition">
+<!ENTITY options.usedeveditiontheme.tooltip "Alterna a utilização do tema Developer Edition.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -163,13 +163,13 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.tooltip  "Se ativar esta opção, o console web e o monitor de rede não irão limpar as saídas sempre que navegar para uma nova página">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
+<!ENTITY options.showPlatformData.label    "Mostrar dados da plataforma Goanna">
 <!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
 Goanna platform symbols">
 
@@ -185,7 +185,7 @@ Goanna platform symbols">
 <!ENTITY options.sourceeditor.expandtab.tooltip         "Utilizar espaços em vez do carácter de tabulação">
 <!ENTITY options.sourceeditor.tabsize.label             "Tamanho da tabulação">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
-<!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
+<!ENTITY options.sourceeditor.keybinding.label          "Atalhos de teclado">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">
 <!ENTITY options.sourceeditor.keybinding.default.label  "Padrão">
 

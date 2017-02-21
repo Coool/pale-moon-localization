@@ -13,7 +13,7 @@
 <!ENTITY header.site.start               "Toestemmingen voor">
 <!ENTITY header.site.end                 "">
 
-<!ENTITY header.defaults                 "Standaardtoestemmingen voor alle websites">
+<!ENTITY header.defaults                 "Standaardmachtigingen voor alle Sites">
 
 <!ENTITY permissions.forgetSite          "Deze website vergeten">
 
@@ -26,18 +26,20 @@
 <!ENTITY password.label                  "Wachtwoorden opslaan">
 <!ENTITY password.manage                 "Wachtwoorden beheren…">
 
-<!ENTITY image.label                     "Load Images">
+<!ENTITY image.label                     "Afbeeldingen laden">
 
 <!ENTITY cookie.label                    "Cookies instellen">
 <!ENTITY cookie.remove                   "Cookies verwijderen">
 <!ENTITY cookie.manage                   "Cookies beheren…">
 <!ENTITY cookie.removeAll                "Alle cookies verwijderen">
 
-<!ENTITY install.label                   "Install Extensions or Themes">
+<!ENTITY desktop-notification.label      "Meldingen weergeven">
+
+<!ENTITY install.label                   "Extensies of thema’s installeren">
 
 <!ENTITY geo.label                       "Locatie doorgeven">
 
-<!ENTITY plugins.label                   "Plug-ins">
+<!ENTITY plugins.label                   "Pluginbeheer">
 
 <!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
@@ -47,4 +49,4 @@
 
 <!ENTITY fullscreen.label                "Volledig scherm">
 
-<!ENTITY pointerLock.label               "Hide the Mouse Pointer">
+<!ENTITY pointerLock.label               "De muisaanwijzer verbergen">

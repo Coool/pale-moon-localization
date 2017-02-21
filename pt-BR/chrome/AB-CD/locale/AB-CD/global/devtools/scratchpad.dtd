@@ -51,27 +51,27 @@
 <!ENTITY closeCmd.accesskey           "F">
 
 <!ENTITY viewMenu.label               "Exibir">
-<!ENTITY viewMenu.accesskey           "V">
+<!ENTITY viewMenu.accesskey           "X">
 
 <!ENTITY lineNumbers.label             "Exibir número de linhas">
-<!ENTITY lineNumbers.accesskey         "L">
+<!ENTITY lineNumbers.accesskey         "X">
 
-<!ENTITY wordWrap.label                "Wrap Text">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.label                "Quebrar linhas">
+<!ENTITY wordWrap.accesskey            "Q">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
-<!ENTITY highlightTrailingSpace.accesskey "H">
+<!ENTITY highlightTrailingSpace.label     "Realçar espaços no fim das linhas">
+<!ENTITY highlightTrailingSpace.accesskey "R">
 
 <!ENTITY largerFont.label             "Aumentar fonte">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.accesskey         "A">
 <!ENTITY largerFont.commandkey        "+">
 
 <!ENTITY smallerFont.label            "Diminuir fonte">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.accesskey        "D">
 <!ENTITY smallerFont.commandkey       "-">
 
 <!ENTITY normalSize.label             "Tamanho Normal">
-<!ENTITY normalSize.accesskey         "N">
+<!ENTITY normalSize.accesskey         "T">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "Editar">
@@ -89,9 +89,9 @@
 <!ENTITY display.accesskey            "V">
 <!ENTITY display.key                  "L">
 
-<!ENTITY pprint.label                 "Pretty Print">
-<!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.label                 "Formatar">
+<!ENTITY pprint.key                   "P">
+<!ENTITY pprint.accesskey             "F">
 
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
-<!ENTITY evalFunction.accesskey "v">
+<!ENTITY evalFunction.label "Executar função atual">
+<!ENTITY evalFunction.accesskey "x">
 <!ENTITY evalFunction.key "e">

@@ -8,46 +8,46 @@
 <!ENTITY index.help "Hjälp">
 
 <!ENTITY device.debugMainProcess "Felsök huvudprocess">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
+<!ENTITY device.debugMainProcessTooltip "Öppna utvecklarverktygen anslutna till huvudprocessen på enheten">
 <!ENTITY device.screenshot "Skärmdump">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
+<!ENTITY device.screenshotTooltip "Öppna en skärmdump över det aktuella tillståndet för enheten i ny flik">
 <!ENTITY device.title "Enhetscentral">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
+<!ENTITY device.notConnected "Inte ansluten. Anslut din enhet nedan.">
 <!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
+<!ENTITY device.startAppTooltip "Starta denna app på enheten">
 <!ENTITY device.stopApp "Stopp">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
+<!ENTITY device.stopAppTooltip "Stoppa denna app på enheten">
 <!ENTITY device.debugApp "Felsök">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
+<!ENTITY device.debugAppTooltip "Öppna utvecklarverktygen anslutna till denna app på enheten">
 <!ENTITY device.name "Namn">
 <!ENTITY device.plain "Normal (standard)">
 <!ENTITY device.privileged "Privilegierad">
 <!ENTITY device.certified "Certifierad">
 <!ENTITY device.allow "Tillåt">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
+<!ENTITY device.allowTooltip "Denna behörighet tillåts för appar av den här typen">
 <!ENTITY device.prompt "Fråga">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
+<!ENTITY device.promptTooltip "Denna behörighet kräver användarens bekräftelse för appar av denna typ">
 <!ENTITY device.deny "Neka">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
+<!ENTITY device.denyTooltip "Denna behörighet nekas för appar av denna typ">
 <!ENTITY device.installedApps "Installerade appar">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
+<!ENTITY device.installedAppsTooltip "Visa en lista över appar som installerats på enheten. Vissa appar, t.ex. certifierade appar, kan undantas från denna vy.">
 <!ENTITY device.permissions "Rättigheter">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.permissionsTooltip "Visa en tabell över behörigheter som är tillgängliga för olika typer av appar">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
 <!ENTITY device.browserTabs "Webbläsarflikar">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
+<!ENTITY device.browserTabsTooltip "Visa en lista över webbläsarflikar på den anslutna enheten">
 <!ENTITY device.debugBrowserTab "Felsök">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
+<!ENTITY device.debugBrowserTabTooltip "Öppna utvecklarverktygen anslutna till denna webbläsarflik på enheten">
 <!ENTITY device.help "Hjälp">
 
 <!ENTITY connection.connectTooltip "Anslut till enhet">
 <!ENTITY connection.disconnect "Koppla från">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
+<!ENTITY connection.disconnectTooltip "Koppla ifrån den aktuella enheten eller simulatorn">
 <!ENTITY connection.notConnected2 "Ej ansluten.">
 <!ENTITY connection.connectTo "Anslut till:">
 <!ENTITY connection.noDeviceFound "Ingen enhet hittades. Anslut en enhet">
 <!ENTITY connection.changeHostAndPort "Ändra">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
+<!ENTITY connection.changeHostAndPortTooltip "Ändra värd och port som används för att ansluta till enheten (standard är localhost:6000)">
 <!ENTITY connection.startSimulator "Starta simulator">
 <!ENTITY connection.startSimulatorTooltip "Starta en instans av simulatorn och anslut till den">
 <!ENTITY connection.saveConnectionInfo "Spara">
@@ -55,8 +55,8 @@
 <!ENTITY connection.connecting "Ansluter…">
 <!ENTITY connection.disconnecting "Kopplar ifrån…">
 <!ENTITY connection.cancel "Avbryt">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
+<!ENTITY connection.cancelConnectTooltip "Avbryt pågående anslutning">
+<!ENTITY connection.cancelShowSimulatorTooltip "Avsluta simulatoranslutning och återgå till ursprunglig dialog">
 <!ENTITY connection.or "eller">
 <!ENTITY connection.noSimulatorInstalled "Ingen simulator installerad.">
 <!ENTITY connection.installOneSimulator "Installera simulator">
@@ -70,22 +70,22 @@
 <!ENTITY projects.addPackaged "Lägg till paketerad app">
 <!ENTITY projects.addPackagedTooltip "Lägg till en ny paketerad app (en katalog) från din dator">
 <!ENTITY projects.addHosted "Lägg till en app som du är värd för">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
+<!ENTITY projects.addHostedTooltip "Lägg till en ny app (länk till en manifest.webapp-fil) från en webbplats">
 <!ENTITY projects.title "Lokala appar">
 <!ENTITY projects.appDetails "Appdetaljer">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
+<!ENTITY projects.removeAppFromList "Ta bort appen från applistan som du arbetar på. Detta tar inte bort den från en enhet eller en simulator.">
 <!ENTITY projects.updateApp "Uppdatera">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.updateAppTooltip "Utför valideringskontroller och uppdatera appen på den anslutna enheten">
 <!ENTITY projects.debugApp "Felsök">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
+<!ENTITY projects.debugAppTooltip "Öppna utvecklarverktyg anslutna till denna app">
 <!ENTITY projects.saveManifest "Spara">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.saveManifestTooltip "Spara innehållet i manifestredigeraren nedan">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
+<!ENTITY projects.noProjects "Inga projekt. Lägg till en ny paketerad app nedan (lokal mapp) eller en värdapp (länk till en manifestfil).">
+<!ENTITY projects.manifestEditor "Manifestredigerare">
+<!ENTITY projects.manifestEditorTooltip "Redigera appens manifest i panelen nedan. Uppdateringsknappen sparar ändringarna och uppdaterar appen.">
+<!ENTITY projects.manifestViewer "Manifestläsare">
+<!ENTITY projects.manifestViewerTooltip "Granska appens manifest i panelen nedan">
 <!ENTITY projects.valid "Giltig">
 <!ENTITY projects.error "Fel">
 <!ENTITY projects.warning "Varning">
@@ -94,7 +94,7 @@
 
 <!ENTITY help.title "Apphanterare">
 <!ENTITY help.close "Stäng">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
+<!ENTITY help.intro "Detta verktyg hjälper dig att bygga och installera webbappar på kompatibla enheter (dvs Firefox OS). Fliken <strong>Appar</strong>, hjälper dig i validerings- och installationsprocessen för din app. Fliken <strong>Enhet</strong> ger dig information om den anslutna enheten. Använd verktygsfältet längst ner för att ansluta till en enhet eller starta simulatorn.">
 <!ENTITY help.usefullLinks "Användbara länkar:">
 <!ENTITY help.appMgrDoc "Dokumentation: Att använda Apphanteraren">
 <!ENTITY help.configuringDevice "Hur du ställer in din Firefox OS-enhet">
