@@ -27,7 +27,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.blackBoxMessage.unBlackBoxButton): This is
   - the text displayed in the button to stop black boxing the currently selected
   - source. -->
-<!ENTITY debuggerUI.blackBoxMessage.unBlackBoxButton "Stop black boxing this source">
+<!ENTITY debuggerUI.blackBoxMessage.unBlackBoxButton "Stoppa &quot;black boxing&quot; av denna källa">
 
 <!-- LOCALIZATION NOTE (debuggerUI.optsButton.tooltip): This is the tooltip for
   -  the button that opens up an options context menu for the debugger UI. -->
@@ -35,15 +35,15 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.blackBoxTooltip): This is the tooltip
   -  for the button that black boxes the selected source. -->
-<!ENTITY debuggerUI.sources.blackBoxTooltip "Toggle Black Boxing">
+<!ENTITY debuggerUI.sources.blackBoxTooltip "Växla &quot;black boxing-läge&quot;">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.prettyPrint): This is the tooltip for the
   -  button that pretty prints the selected source. -->
-<!ENTITY debuggerUI.sources.prettyPrint "Prettify Source">
+<!ENTITY debuggerUI.sources.prettyPrint "Försköna källan">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
-<!ENTITY debuggerUI.autoPrettyPrint     "Auto Prettify Minified Sources">
+<!ENTITY debuggerUI.autoPrettyPrint     "Försköna optimerade källor automatiskt">
 <!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
@@ -52,7 +52,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
   - the button to start execution tracing. -->
-<!ENTITY debuggerUI.startTracing "Start Tracing">
+<!ENTITY debuggerUI.startTracing "Starta spårning">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
@@ -60,7 +60,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton.tooltip): This is the tooltip for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton.tooltip "Clear the collected traces">
+<!ENTITY debuggerUI.clearButton.tooltip "Rensa insamlade spår">
 
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
@@ -69,7 +69,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
-<!ENTITY debuggerUI.ignoreCaughtExceptions           "Ignore Caught Exceptions">
+<!ENTITY debuggerUI.ignoreCaughtExceptions           "Ignorera identifierade undantag">
 <!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
@@ -98,7 +98,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
   -  the checkbox that toggles whether sources that we suspect are minified are
   -  automatically black boxed or not. -->
-<!ENTITY debuggerUI.autoBlackBox           "Automatically Black Box Minified Sources">
+<!ENTITY debuggerUI.autoBlackBox           "Automatisk &quot;black boxing&quot; av optimerade källor">
 <!ENTITY debuggerUI.autoBlackBox.accesskey "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
@@ -166,7 +166,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
 <!ENTITY debuggerUI.tabs.sources        "Källor">
-<!ENTITY debuggerUI.tabs.traces         "Traces">
+<!ENTITY debuggerUI.tabs.traces         "Spår">
 <!ENTITY debuggerUI.tabs.callstack      "Anropsstack">
 <!ENTITY debuggerUI.tabs.variables      "Variabler">
 <!ENTITY debuggerUI.tabs.events         "Händelser">

@@ -6,7 +6,7 @@
 
 <!ENTITY projectMenu_label "Projekt">
 <!ENTITY projectMenu_accesskey "P">
-<!ENTITY projectMenu_newApp_label "New App…">
+<!ENTITY projectMenu_newApp_label "Ny app…">
 <!ENTITY projectMenu_newApp_accesskey "N">
 <!ENTITY projectMenu_importPackagedApp_label "Open Packaged App…">
 <!ENTITY projectMenu_importPackagedApp_accesskey "P">
@@ -16,13 +16,13 @@
 <!ENTITY projectMenu_selectApp_accesskey "O">
 <!ENTITY projectMenu_play_label "Install and Run">
 <!ENTITY projectMenu_play_accesskey "I">
-<!ENTITY projectMenu_stop_label "Stop App">
+<!ENTITY projectMenu_stop_label "Stoppa app">
 <!ENTITY projectMenu_stop_accesskey "S">
 <!ENTITY projectMenu_debug_label "Debug App">
 <!ENTITY projectMenu_debug_accesskey "D">
-<!ENTITY projectMenu_remove_label "Remove Project">
+<!ENTITY projectMenu_remove_label "Ta bort projekt">
 <!ENTITY projectMenu_remove_accesskey "R">
-<!ENTITY projectMenu_showPrefs_label "Preferences">
+<!ENTITY projectMenu_showPrefs_label "Inställningar">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Manage Extra Components">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
@@ -46,16 +46,16 @@
 
 <!ENTITY viewMenu_label "View">
 <!ENTITY viewMenu_accesskey "V">
-<!ENTITY viewMenu_toggleEditor_label "Toggle Editor">
+<!ENTITY viewMenu_toggleEditor_label "Växla editor">
 <!ENTITY viewMenu_toggleEditor_accesskey "E">
 <!ENTITY viewMenu_zoomin_label "Zoom In">
 <!ENTITY viewMenu_zoomin_accesskey "I">
-<!ENTITY viewMenu_zoomout_label "Zoom Out">
+<!ENTITY viewMenu_zoomout_label "Zooma ut">
 <!ENTITY viewMenu_zoomout_accesskey "O">
 <!ENTITY viewMenu_resetzoom_label "Reset Zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
-<!ENTITY projectButton_label "Open App">
+<!ENTITY projectButton_label "Öppna app">
 <!ENTITY runtimeButton_label "Select Runtime">
 
 <!-- We try to repicate Firefox' bindings: -->
@@ -75,11 +75,11 @@
 <!ENTITY key_zoomout "-">
 <!ENTITY key_resetzoom "0">
 
-<!ENTITY projectPanel_myProjects "My Projects">
+<!ENTITY projectPanel_myProjects "Mina projekt">
 <!ENTITY projectPanel_runtimeApps "Runtime Apps">
 <!ENTITY projectPanel_tabs "Tabs">
-<!ENTITY runtimePanel_usb "USB Devices">
-<!ENTITY runtimePanel_wifi "Wi-Fi Devices">
+<!ENTITY runtimePanel_usb "USB-enheter">
+<!ENTITY runtimePanel_wifi "Wi-Fi-enheter">
 <!ENTITY runtimePanel_simulator "Simulators">
 <!ENTITY runtimePanel_other "Other">
 <!ENTITY runtimePanel_installsimulator "Install Simulator">
@@ -87,32 +87,32 @@
 <!ENTITY runtimePanel_nousbdevice "Can't see your device?">
 
 <!-- Lense -->
-<!ENTITY details_valid_header "valid">
-<!ENTITY details_warning_header "warnings">
+<!ENTITY details_valid_header "giltig">
+<!ENTITY details_warning_header "varningar">
 <!ENTITY details_error_header "errors">
-<!ENTITY details_description "Description">
-<!ENTITY details_location "Location">
-<!ENTITY details_manifestURL "App ID">
-<!ENTITY details_removeProject_button "Remove Project">
+<!ENTITY details_description "Beskrivning">
+<!ENTITY details_location "Plats">
+<!ENTITY details_manifestURL "App-ID">
+<!ENTITY details_removeProject_button "Ta bort projekt">
 <!ENTITY details_showPrepackageLog_button "Show Pre-package Log">
 
 <!-- New App -->
 <!ENTITY newAppWindowTitle "New App">
 <!ENTITY newAppHeader "Select template">
 <!ENTITY newAppLoadingTemplate "Loading templates…">
-<!ENTITY newAppProjectName "Project Name:">
+<!ENTITY newAppProjectName "Projektnamn:">
 
 
 <!-- Decks -->
 
-<!ENTITY deck_close "Close">
+<!ENTITY deck_close "Stäng">
 
 <!-- Addons -->
-<!ENTITY addons_title "Extra Components">
+<!ENTITY addons_title "Extra komponenter">
 <!ENTITY addons_aboutaddons "Open Add-ons Manager">
 
 <!-- Prefs -->
-<!ENTITY prefs_title "Preferences">
+<!ENTITY prefs_title "Inställningar">
 <!ENTITY prefs_editor_title "Editor">
 <!ENTITY prefs_general_title "General">
 <!ENTITY prefs_restore "Restore Defaults">
@@ -121,11 +121,11 @@
 <!ENTITY prefs_options_autoconnectruntime_tooltip "Reconnect to previous runtime when WebIDE starts">
 <!ENTITY prefs_options_rememberlastproject "Remember last project">
 <!ENTITY prefs_options_rememberlastproject_tooltip "Restore previous project when WebIDE starts">
-<!ENTITY prefs_options_templatesurl "Templates URL">
+<!ENTITY prefs_options_templatesurl "Mall-URL">
 <!ENTITY prefs_options_templatesurl_tooltip "Index of available templates">
 <!ENTITY prefs_options_showeditor "Show editor">
 <!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
-<!ENTITY prefs_options_tabsize "Tab size">
+<!ENTITY prefs_options_tabsize "Flikstorlek">
 <!ENTITY prefs_options_expandtab "Soft tabs">
 <!ENTITY prefs_options_expandtab_tooltip "Use spaces instead of the tab character">
 <!ENTITY prefs_options_detectindentation "Autoindent">
@@ -143,7 +143,7 @@
 
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title "Runtime Info">
-<!ENTITY runtimedetails_adbIsRoot "ADB is root: ">
+<!ENTITY runtimedetails_adbIsRoot "ADB är root: ">
 <!ENTITY runtimedetails_summonADBRoot "root device">
 <!ENTITY runtimedetails_ADBRootWarning "(requires unlocked bootloader)">
 <!ENTITY runtimedetails_unrestrictedPrivileges "Unrestricted DevTools privileges: ">
@@ -153,9 +153,9 @@
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "Boolean">
 <!ENTITY device_typenumber "Integer">
-<!ENTITY device_typestring "String">
-<!ENTITY device_typeobject "Object">
-<!ENTITY device_typenone "Select a type">
+<!ENTITY device_typestring "Sträng">
+<!ENTITY device_typeobject "Objekt">
+<!ENTITY device_typenone "Välj en typ">
 
 <!-- Device Preferences -->
 <!ENTITY devicepreference_title "Device Preferences">

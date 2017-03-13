@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "مدير الإضافات">
 
 <!ENTITY search.placeholder                   "ابحث في كل الإضافات">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "ابحث">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "ث">
 <!ENTITY cmd.uninstallAddon.label             "أزِل">
 <!ENTITY cmd.uninstallAddon.accesskey         "ل">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "نقّح">
 <!ENTITY cmd.showPreferencesWin.label         "خيارات">
 <!ENTITY cmd.showPreferencesWin.tooltip       "غيّر خيارات هذه الإضافة">
 <!ENTITY cmd.showPreferencesUnix.label        "تفضيلات">
@@ -207,8 +207,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "يحمّل…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "المعذرة، ولكن حصل خطأ أثناء تحميل ملاحظات الإصدار.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "هذه الإضافة معدة لـ Pale Moon">
+<!ENTITY addon.compatAddon                    "هذه الإضافة معدة لموزيلا فيرفكس وتعمل في وضع التوافق">
 
 <!ENTITY addon.createdBy.label                "طوّرها ">
 
@@ -224,10 +224,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
-<!ENTITY experiment.info.changetelemetry.accesskey "T">
+<!ENTITY experiment.info.label "ما هذا؟ قد يثبت تليمتري بعض التجارب و يشغّلها من وقت لآخر.">
+<!ENTITY experiment.info.learnmore "اطّلع على المزيد">
+<!ENTITY experiment.info.learnmore.accesskey "ط">
+<!ENTITY experiment.info.changetelemetry "إعدادات تليمتري">
+<!ENTITY experiment.info.changetelemetry.accesskey "ت">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "اطّلع على المزيد…">
