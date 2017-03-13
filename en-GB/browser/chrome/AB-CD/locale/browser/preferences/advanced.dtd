@@ -90,7 +90,7 @@
 <!ENTITY updateAutoMetroWarn.label       "(Windows 8 style &brandShortName; does not check add-on compatibility)">
 
 <!ENTITY updateHistory.label             "Show Update History">
-<!ENTITY updateHistory.accesskey         "U">
+<!ENTITY updateHistory.accesskey         "p">
 
 <!ENTITY updateOthers.label              "Automatically update:">
 <!ENTITY enableSearchUpdate.label        "Search Engines">
@@ -98,8 +98,12 @@
 
 <!ENTITY offlineNotify.label             "Tell me when a web site asks to store data for offline use">
 <!ENTITY offlineNotify.accesskey         "T">
+<!ENTITY offlineAppsPermissions.label    "When a website asks to store data for offline use:">
+<!ENTITY offlineAppsPermissions.Allow    "Allow by default">
+<!ENTITY offlineAppsPermissions.Ask      "Always ask">
+<!ENTITY offlineAppsPermissions.Deny     "Deny">
 <!ENTITY offlineNotifyExceptions.label   "Exceptions…">
-<!ENTITY offlineNotifyExceptions.accesskey "E">
+<!ENTITY offlineNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "The following web sites are allowed to store data for offline use:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -111,18 +115,18 @@
 <!ENTITY certGroup.label                 "Personal Certificate">
 <!ENTITY certSelection.description       "When a server requests my personal certificate:">
 <!ENTITY certs.auto                      "Select one automatically">
-<!ENTITY certs.auto.accesskey            "S">
+<!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "Ask me every time">
-<!ENTITY certs.ask.accesskey             "A">
+<!ENTITY certs.ask.accesskey             "i">
 <!ENTITY ocspGroup.label                 "Certificate Validation">
 <!ENTITY enableOCSP.label                "Use the Online Certificate Status Protocol (OCSP) to confirm the current validity of certificates">
 <!ENTITY enableOCSP.accesskey            "U">
 <!ENTITY requireOCSP.label               "When an OCSP server connection fails, treat the certificate as invalid">
-<!ENTITY requireOCSP.accesskey           "W">
+<!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "View Certificates">
-<!ENTITY viewCerts.accesskey             "C">
+<!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Security Devices">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+<!ENTITY viewSecurityDevices.accesskey   "y">
 
 <!ENTITY UACompatGroup.label    "Compatibility">
 <!ENTITY UACompat.label         "User Agent Mode:">

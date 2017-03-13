@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "u">
 <!ENTITY cmd.uninstallAddon.label             "Kaldır">
 <!ENTITY cmd.uninstallAddon.accesskey         "K">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Hata Ayıkla">
 <!ENTITY cmd.showPreferencesWin.label         "Seçenekler">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Bu eklentinin seçeneklerini değiştir">
 <!ENTITY cmd.showPreferencesUnix.label        "Tercihler">
@@ -208,8 +208,8 @@ en çok tutulan eklentilerden bazıları öne çıkarılacak.">
 <!ENTITY addon.loadingReleaseNotes.label      "Yükleniyor…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Üzgünüz, ancak sürüm notları yüklenirken bir hata meydana geldi.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Bu eklenti doğrudan Pale Moon'u hedef alır">
+<!ENTITY addon.compatAddon                    "Bu eklenti Mozilla Firefox'u hedefler ve uyumluluk modunda çalışır">
 
 <!ENTITY addon.createdBy.label                "Yazan: ">
 
@@ -225,10 +225,10 @@ en çok tutulan eklentilerden bazıları öne çıkarılacak.">
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Bu nedir? Telemetri, zaman zaman denemeleri yükleyebilir ve çalıştırabilir.">
+<!ENTITY experiment.info.learnmore "Daha fazla bilgi">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "Telemetri ayarları">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Daha fazlasını öğrenin…">
