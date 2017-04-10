@@ -15,9 +15,9 @@
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "Rapport-ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.sendDate "Inskickat">
+<!ENTITY aboutSupport.crashes.allReports "Alla kraschrapporter">
+<!ENTITY aboutSupport.crashes.noConfig "Programmet har inte konfigurerats för att visa kraschrapporter.">
 
 <!ENTITY aboutSupport.extensionsTitle "Tillägg">
 <!ENTITY aboutSupport.extensionName "Namn">
@@ -25,19 +25,19 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Version">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentsTitle "Experimentella funktioner">
 <!ENTITY aboutSupport.experimentName "Namn">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Beskrivning">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentActive "Aktiv">
+<!ENTITY aboutSupport.experimentEndDate "Slutdatum">
+<!ENTITY aboutSupport.experimentHomepage "Hemsida">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Programfakta">
 <!ENTITY aboutSupport.appBasicsName "Namn">
 <!ENTITY aboutSupport.appBasicsVersion "Version">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Kompilerings-ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
@@ -56,7 +56,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Användaragent">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Minnesanvändning">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Flerprocessfönster">
 
 <!ENTITY aboutSupport.showDir.label "Öppna katalog">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -75,9 +75,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js-inställningar">
 <!ENTITY aboutSupport.userJSDescription "Din profilmapp innehåller en <a id='prefs-user-js-link'>user.js-fil</a> som inkluderar inställningar som inte har skapats av &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Viktiga låsta inställningar">
 <!ENTITY aboutSupport.lockedPrefsName "Namn">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedPrefsValue "Värde">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafik">
 
@@ -98,5 +98,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandlåda">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Försök med felsäkert läge">
+<!ENTITY aboutSupport.restartInSafeMode.label "Starta om utan tillägg…">

@@ -14,10 +14,10 @@
 <!ENTITY aboutSupport.crashes.title "Αναφορές κατάρρευσης">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.id "ID Αναφοράς">
 <!ENTITY aboutSupport.crashes.sendDate "Υποβλήθηκε">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.allReports "Όλες οι αναφορές κατάρρευσης">
+<!ENTITY aboutSupport.crashes.noConfig "Αυτή η εφαρμογή δεν έχει ρυθμιστεί για να εμφανίζει αναφορές κατάρρευσης.">
 
 <!ENTITY aboutSupport.extensionsTitle "Επεκτάσεις">
 <!ENTITY aboutSupport.extensionName "Όνομα">
@@ -26,12 +26,12 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionId "ID">
 
 <!ENTITY aboutSupport.experimentsTitle "Πειραματικές λειτουργίες">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentName "Όνομα">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Περιγραφή">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentActive "Ενεργό">
+<!ENTITY aboutSupport.experimentEndDate "Ημερομηνία λήξης">
+<!ENTITY aboutSupport.experimentHomepage "Αρχική σελίδα">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Βασικά εφαρμογής">
@@ -41,7 +41,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Κανάλι Ενημερώσεων">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Ιστορικό ενημερώσεων">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Εμφάνιση ιστορικού ενημερώσεων">
 
@@ -56,7 +56,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Συμβολοσειρά παράγοντα χρήστη">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Χρήση μνήμης">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Παράθυρα Πολυδιεργασίας">
 
 <!ENTITY aboutSupport.showDir.label "Άνοιγμα καταλόγου">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -75,9 +75,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Προτιμήσεις user.js">
 <!ENTITY aboutSupport.userJSDescription "Ο φάκελος του προφίλ σας περιέχει το <a id='prefs-user-js-link'>αρχείο user.js</a>, το οποίο περιέχει προτιμήσεις που δεν δημιουργήθηκαν από τον &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Σημαντικές κλειδωμένες προτιμήσεις">
+<!ENTITY aboutSupport.lockedPrefsName "Όνομα">
+<!ENTITY aboutSupport.lockedPrefsValue "Τιμή">
 
 <!ENTITY aboutSupport.graphicsTitle "Γραφικά">
 
@@ -98,5 +98,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Δοκιμάστε την ασφαλή λειτουργία">
+<!ENTITY aboutSupport.restartInSafeMode.label "Επανεκκίνηση με τα πρόσθετα απενεργοποιημένα…">
