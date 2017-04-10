@@ -1,7 +1,7 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY addons.windowTitle                   "Διαχείριση προσθέτων">
+<!ENTITY addons.windowTitle                   "Διαχείριση Προσθέτων">
 
 <!ENTITY search.placeholder                   "Αναζήτηση σε όλα τα πρόσθετα">
 <!ENTITY search.buttonlabel                   "Αναζήτηση">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "γ">
 <!ENTITY cmd.uninstallAddon.label             "Αφαίρεση">
 <!ENTITY cmd.uninstallAddon.accesskey         "φ">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Εντοπισμός σφαλμάτων">
 <!ENTITY cmd.showPreferencesWin.label         "Επιλογές">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Αλλαγή των επιλογών αυτού του προσθέτου">
 <!ENTITY cmd.showPreferencesUnix.label        "Προτιμήσεις">
@@ -207,8 +207,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Φόρτωση…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Συγγνώμη, αλλά υπήρξε σφάλμα κατά την φόρτωση των σημειώσεων έκδοσης.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Αυτό το πρόσθετο υποστηρίζει απευθείας τον Pale Moon">
+<!ENTITY addon.compatAddon                    "Αυτό το πρόσθετο υποστηρίζει τον Mozilla Firefox και εκτελείται σε λειτουργία συμβατότητας">
 
 <!ENTITY addon.createdBy.label                "Από ">
 
@@ -224,10 +224,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Τι είναι αυτό? Η Τηλεμετρία ενδέχεται να εγκαταστήσει και να εκτελέσει πειράματα περιστασιακά.">
+<!ENTITY experiment.info.learnmore "Μάθετε Περισσότερα">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "Ρυθμίσεις Τηλεμετρίας">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Μάθετε Περισσότερα…">

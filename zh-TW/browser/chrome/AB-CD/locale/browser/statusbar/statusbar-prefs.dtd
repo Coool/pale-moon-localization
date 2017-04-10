@@ -1,116 +1,116 @@
-<!ENTITY status4evar.window.title "Pale Moon status bar preferences">
+<!ENTITY status4evar.window.title "Pale Moon 狀態列偏好">
 
 <!ENTITY status4evar.pane.status "狀態:">
-<!ENTITY status4evar.pane.progress "Progress">
+<!ENTITY status4evar.pane.progress "進度">
 <!ENTITY status4evar.pane.download "下載">
-<!ENTITY status4evar.pane.statusbar "Status Bar">
-<!ENTITY status4evar.pane.advanced "Advanced">
+<!ENTITY status4evar.pane.statusbar "狀態列">
+<!ENTITY status4evar.pane.advanced "進階">
 
-<!ENTITY status4evar.tab.general "General">
-<!ENTITY status4evar.tab.toolbar "Status Bar">
-<!ENTITY status4evar.tab.urlbar "Address Bar">
-<!ENTITY status4evar.tab.popup "Pop-up">
-<!ENTITY status4evar.tab.tabs "Tabs">
+<!ENTITY status4evar.tab.general "一般">
+<!ENTITY status4evar.tab.toolbar "狀態列">
+<!ENTITY status4evar.tab.urlbar "網址列">
+<!ENTITY status4evar.tab.popup "快顯">
+<!ENTITY status4evar.tab.tabs "分頁">
 
-<!ENTITY status4evar.option.none "None">
-<!ENTITY status4evar.option.nothing "Nothing">
-<!ENTITY status4evar.option.toolbar "Status Bar">
-<!ENTITY status4evar.option.urlbar "Address Bar">
-<!ENTITY status4evar.option.popup "Pop-up">
-<!ENTITY status4evar.option.tooltip "Tooltip">
-<!ENTITY status4evar.option.bottom "Bottom">
-<!ENTITY status4evar.option.top "Top">
-<!ENTITY status4evar.option.fill "Fill">
-<!ENTITY status4evar.option.dlcount "Download count">
-<!ENTITY status4evar.option.dltime "Time remaining">
-<!ENTITY status4evar.option.both "Both">
-<!ENTITY status4evar.option.right "Right">
-<!ENTITY status4evar.option.left "Left">
-<!ENTITY status4evar.option.fixed "Fixed">
-<!ENTITY status4evar.option.simple "Simple">
-<!ENTITY status4evar.option.advanced "Advanced">
-<!ENTITY status4evar.option.browse "Browse">
-<!ENTITY status4evar.option.clear "Clear">
-<!ENTITY status4evar.option.center "Center">
-<!ENTITY status4evar.option.offset "Offset">
-<!ENTITY status4evar.option.repeat "Repeat">
-<!ENTITY status4evar.option.no-repeat "No Repeat">
+<!ENTITY status4evar.option.none "無">
+<!ENTITY status4evar.option.nothing "不使用">
+<!ENTITY status4evar.option.toolbar "狀態列">
+<!ENTITY status4evar.option.urlbar "網址列">
+<!ENTITY status4evar.option.popup "快顯">
+<!ENTITY status4evar.option.tooltip "提示">
+<!ENTITY status4evar.option.bottom "底部">
+<!ENTITY status4evar.option.top "頂端">
+<!ENTITY status4evar.option.fill "填滿">
+<!ENTITY status4evar.option.dlcount "下載次數">
+<!ENTITY status4evar.option.dltime "仍需時間">
+<!ENTITY status4evar.option.both "兩者">
+<!ENTITY status4evar.option.right "右邊">
+<!ENTITY status4evar.option.left "左邊">
+<!ENTITY status4evar.option.fixed "固定">
+<!ENTITY status4evar.option.simple "簡單">
+<!ENTITY status4evar.option.advanced "進階">
+<!ENTITY status4evar.option.browse "瀏覽">
+<!ENTITY status4evar.option.clear "清除">
+<!ENTITY status4evar.option.center "置中">
+<!ENTITY status4evar.option.offset "位移">
+<!ENTITY status4evar.option.repeat "重複">
+<!ENTITY status4evar.option.no-repeat "不重複">
 <!ENTITY status4evar.option.space "Space">
 <!ENTITY status4evar.option.round "Round">
-<!ENTITY status4evar.option.firefoxdefault "Pale Moon default">
-<!ENTITY status4evar.option.download.library "Library">
-<!ENTITY status4evar.option.download.tab "Tab">
-<!ENTITY status4evar.option.download.thirdparty "3rd Party">
+<!ENTITY status4evar.option.firefoxdefault "Pale Moon 預設">
+<!ENTITY status4evar.option.download.library "程式庫">
+<!ENTITY status4evar.option.download.tab "分頁">
+<!ENTITY status4evar.option.download.thirdparty "第三方">
 
-<!ENTITY status4evar.unit.milliseconds "milliseconds">
-<!ENTITY status4evar.unit.seconds "seconds">
+<!ENTITY status4evar.unit.milliseconds "微秒">
+<!ENTITY status4evar.unit.seconds "秒數">
 <!ENTITY status4evar.unit.px "px">
 
-<!ENTITY status4evar.status.general.status.caption "Status Text">
-<!ENTITY status4evar.status.label "Show status in:">
-<!ENTITY status4evar.status.timeout.label "Hide the status after:">
-<!ENTITY status4evar.status.default.label "Show default status">
-<!ENTITY status4evar.status.network.label "Show network status">
-<!ENTITY status4evar.status.network.xhr.label "Show background network status">
-<!ENTITY toolkit.dom.status.change.label "Allow web pages to change the status">
+<!ENTITY status4evar.status.general.status.caption "狀態文字">
+<!ENTITY status4evar.status.label "顯示狀態在：">
+<!ENTITY status4evar.status.timeout.label "在之後隱藏狀態：">
+<!ENTITY status4evar.status.default.label "顯示預設狀態">
+<!ENTITY status4evar.status.network.label "顯示網路狀態">
+<!ENTITY status4evar.status.network.xhr.label "顯示背景網路狀態">
+<!ENTITY toolkit.dom.status.change.label "允許網頁更動狀態">
 
-<!ENTITY status4evar.status.general.linkOver.caption "Links">
-<!ENTITY status4evar.status.linkOver.label "Show links in:">
-<!ENTITY status4evar.status.linkOver.delay.show.label "Delay before showing links:">
-<!ENTITY status4evar.status.linkOver.delay.hide.label "Delay before hiding links:">
+<!ENTITY status4evar.status.general.linkOver.caption "連結">
+<!ENTITY status4evar.status.linkOver.label "顯示連結在：">
+<!ENTITY status4evar.status.linkOver.delay.show.label "顯示連結前延遲：">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "隱藏連結前遲延：">
 
-<!ENTITY status4evar.status.toolbar.maxLength.label "Max status text length:">
+<!ENTITY status4evar.status.toolbar.maxLength.label "狀態最多幾字：">
 
-<!ENTITY status4evar.status.urlbar.align.label "Status alignment:">
-<!ENTITY status4evar.status.urlbar.color.label "Status color:">
-<!ENTITY status4evar.status.currentUrl "Current Location">
-<!ENTITY status4evar.status.statusText "Status Text">
+<!ENTITY status4evar.status.urlbar.align.label "狀態對齊：">
+<!ENTITY status4evar.status.urlbar.color.label "狀態顏色：">
+<!ENTITY status4evar.status.currentUrl "目前所在">
+<!ENTITY status4evar.status.statusText "狀態文字">
 
-<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibility features">
-<!ENTITY browser.urlbar.formatting.enabled.label "Enable domain highlighting">
-<!ENTITY browser.urlbar.trimming.enabled.label "Enable protocol hiding (http:// and ftp://)">
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox相容特性">
+<!ENTITY browser.urlbar.formatting.enabled.label "啟用將網域高亮度化">
+<!ENTITY browser.urlbar.trimming.enabled.label "啟用隱藏網路協定(http://和ftp://)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "Default to the right side">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Swap sides when moused over">
+<!ENTITY status4evar.status.popup.invertMirror.label "預設靠右">
+<!ENTITY status4evar.status.popup.mouseMirror.label "滑鼠滑過時切換邊">
 
-<!ENTITY status4evar.progress.style.label "Use a custom style">
+<!ENTITY status4evar.progress.style.label "使用一個自定樣式">
 
-<!ENTITY status4evar.progress.urlbar.enable.label "Show progress in the Address Bar">
-<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+<!ENTITY status4evar.progress.urlbar.enable.label "在位址列顯示進度條">
+<!ENTITY status4evar.progress.urlbar.line.label "連結樣式：">
 
-<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+<!ENTITY status4evar.progress.toolbar.force.label "永遠顯示狀態列項目">
 
-<!ENTITY status4evar.editor.label "Editor:">
-<!ENTITY status4evar.editor.css.color.label "Color:">
-<!ENTITY status4evar.editor.css.image.label "Image:">
-<!ENTITY status4evar.editor.css.image.repeat "Repeat">
-<!ENTITY status4evar.editor.css.image.position "Position">
-<!ENTITY status4evar.editor.css.image.offset "Offset">
+<!ENTITY status4evar.editor.label "編輯器：">
+<!ENTITY status4evar.editor.css.color.label "顏色：">
+<!ENTITY status4evar.editor.css.image.label "影像：">
+<!ENTITY status4evar.editor.css.image.repeat "重複">
+<!ENTITY status4evar.editor.css.image.position "位置">
+<!ENTITY status4evar.editor.css.image.offset "位移">
 
 
 
-<!ENTITY status4evar.download.button.action.label "Download status button action:">
-<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
-<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
-<!ENTITY status4evar.download.label.label "Download status indicator text:">
-<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
-<!ENTITY status4evar.download.progress.label "Show download progress on the button">
-<!ENTITY status4evar.download.progress.average.label "Show average download completion">
-<!ENTITY status4evar.download.progress.max.label "Show most complete download">
-<!ENTITY status4evar.download.progress.min.label "Show least complete download">
-<!ENTITY status4evar.download.color.active.label "Progress color for active downloads:">
-<!ENTITY status4evar.download.color.paused.label "Progress color for paused downloads:">
-<!ENTITY status4evar.download.notify.animate.label "Animate button when download completes">
-<!ENTITY status4evar.download.notify.timeout.label "Highlight button when download completes:">
+<!ENTITY status4evar.download.button.action.label "下載狀態按鈕行為：">
+<!ENTITY status4evar.download.force.label "永遠顯示下載狀態指示器">
+<!ENTITY status4evar.download.label.force.label "永遠顯示指示器文字">
+<!ENTITY status4evar.download.label.label "下載狀態指示器文字：">
+<!ENTITY status4evar.download.tooltip.label "下載指示器提示：">
+<!ENTITY status4evar.download.progress.label "在按鈕上顯示下載進度">
+<!ENTITY status4evar.download.progress.average.label "顯示下載平均完成度">
+<!ENTITY status4evar.download.progress.max.label "顯示最快要完成的下載">
+<!ENTITY status4evar.download.progress.min.label "顯示下載最慢的">
+<!ENTITY status4evar.download.color.active.label "下載中的任務進度顏色：">
+<!ENTITY status4evar.download.color.paused.label "暫停的下載任務的進度顏色">
+<!ENTITY status4evar.download.notify.animate.label "下載完成後讓按鈕變化一下">
+<!ENTITY status4evar.download.notify.timeout.label "下載完成後讓按鈕變高亮度">
 
-<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
-<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
-<!ENTITY status4evar.addonbar.closeButton "Show the close button">
+<!ENTITY status4evar.addonbar.borderStyle "使用另一種工具列邊框">
+<!ENTITY status4evar.addonbar.windowGripper "顯示視窗重新調整大小夾持器">
+<!ENTITY status4evar.addonbar.closeButton "顯示關閉按鈕">
 
-<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
+<!ENTITY status4evar.advanced.warning "這些先進的設置可能導致Pale Moon或其他插件的問題。修改要自行負擔風險">
 
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the the Address Bar XBL binding.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding "嘗試強制網址列 XBL 綁定">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "只有在網址列中確顯示進度或狀態文字有問題時才選用此選項。這可能會破壞其他插件嘗試要把XBL綁定到位址列的動作">
 
-<!ENTITY status4evar.advanced.status.detectFullScreen "Detect full-screen mode and show links/status appropriately.">
-<!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">
+<!ENTITY status4evar.advanced.status.detectFullScreen "偵測全螢幕模式，並適當的顯示連結/狀態">
+<!ENTITY status4evar.advanced.status.detectVideo "在全螢幕 HTML5 影片時，抑止狀態跳出">
