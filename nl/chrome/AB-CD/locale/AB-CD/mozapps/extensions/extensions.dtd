@@ -4,10 +4,10 @@
 <!ENTITY addons.windowTitle                   "Add-onbeheerder">
 
 <!ENTITY search.placeholder                   "Alle add-ons doorzoeken">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Zoeken">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
-<!ENTITY search.commandkey                    "f">
+<!ENTITY search.commandkey                    "Z">
 
 <!ENTITY loading.label                        "Laden…">
 <!ENTITY listEmpty.installed.label            "U hebt geen add-ons van dit type geïnstalleerd">
@@ -210,8 +210,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Laden…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Sorry, maar er is een fout opgetreden bij het laden van de uitgaveopmerkingen.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Deze add-on is direct gericht op Pale Moon">
+<!ENTITY addon.compatAddon                    "Deze add-on is gericht op Mozilla Firefox en draait in compatibiliteitsmodus">
 
 <!ENTITY addon.createdBy.label                "Door ">
 
@@ -227,10 +227,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.label "Wat is dit? Telemetrie kan van tijd tot tijd experimenten installeren en uitvoeren.">
+<!ENTITY experiment.info.learnmore "Meer info">
+<!ENTITY experiment.info.learnmore.accesskey "I">
+<!ENTITY experiment.info.changetelemetry "Telemetrie instellingen">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Meer info…">

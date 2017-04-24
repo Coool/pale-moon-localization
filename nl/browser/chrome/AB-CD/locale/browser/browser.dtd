@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Bladwijzerwerkbalkitems">
 <!ENTITY addonBarCmd.label "Add-onbalk">
 <!ENTITY addonBarCmd.accesskey "d">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "Statusbalk">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Paginabron">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Abonneren op deze pagina…">
 <!ENTITY addCurPagesCmd.label "Bladwijzer voor alle tabbladen maken…">
 <!ENTITY showAllBookmarks2.label "Alle bladwijzers tonen">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Bladwijzers ordenen">
 <!ENTITY unsortedBookmarksCmd.label "Ongesorteerde bladwijzers">
 <!ENTITY bookmarksToolbarChevron.tooltip "Meer bladwijzers tonen">
 
@@ -196,6 +196,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.label                 "Add-ons">
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
+<!ENTITY permissions.label            "Toestemmingen">
+<!ENTITY permissions.accesskey        "T">
 
 <!ENTITY webDeveloperMenu.label       "Webontwikkelaar">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -415,10 +417,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "m">
 <!ENTITY savePageCmd.label            "Pagina opslaan als…">
 <!ENTITY savePageCmd.accesskey        "p">
-<!ENTITY sendLinkCmd.label            "Send Link…">
-<!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
-<!ENTITY sendPageCmd.accesskey        "e">
+<!ENTITY sendLinkCmd.label            "Koppeling versturen…">
+<!ENTITY sendLinkCmd.accesskey        "u">
+<!ENTITY sendPageCmd.label            "Koppeling versturen…">
+<!ENTITY sendPageCmd.accesskey        "u">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "p">
 <!ENTITY savePageCmd.commandkey       "S">
@@ -476,7 +478,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaUnmute.accesskey       "D">
 <!ENTITY mediaPlaybackRate.label     "Afspeel snelheid">
 <!ENTITY mediaPlaybackRate.accesskey "l">
-<!ENTITY mediaPlaybackRate050x.label "Slow Motion (0.5×)">
+<!ENTITY mediaPlaybackRate050x.label "Slowmotion (0.5×)">
 <!ENTITY mediaPlaybackRate050x.accesskey "S">
 <!ENTITY mediaPlaybackRate100x.label "Normale snelheid">
 <!ENTITY mediaPlaybackRate100x.accesskey "N">
@@ -558,7 +560,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
 <!ENTITY closeCmd.label                 "Sluiten">  
-<!ENTITY closeCmd.key                   "W">  
+<!ENTITY closeCmd.key                   "A">  
 <!ENTITY closeCmd.accesskey             "S">
 
 <!ENTITY pageStyleMenu.label "Paginastijl">
@@ -589,7 +591,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.accesskey "Z">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Opnieuw zoeken">
-<!ENTITY findAgainCmd.accesskey "e">
+<!ENTITY findAgainCmd.accesskey "w">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 
@@ -625,7 +627,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "Tabbladen van andere apparaten">
 
-<!ENTITY syncBrand.shortName.label    "Sync">
+<!ENTITY syncBrand.shortName.label    "Synchroniseren">
 
 <!ENTITY syncSetup.label              "&syncBrand.shortName.label; instellen…">
 <!ENTITY syncSetup.accesskey          "S">

@@ -10,94 +10,94 @@
 <!ENTITY device.debugMainProcess "Ana işlemde hata ayıkla">
 <!ENTITY device.debugMainProcessTooltip "Cihazdaki ana işleme bağlanmış Geliştirici Araçlarını aç">
 <!ENTITY device.screenshot "Ekran görüntüsü">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
+<!ENTITY device.screenshotTooltip "Cihazın mevcut durumunun ekran görüntüsünü yeni bir sekmede açın">
 <!ENTITY device.title "Aygıtı Kontrol Merkezi">
 <!ENTITY device.notConnected "Bağlı değil. Lütfen aşağıdaki aygıtınızı bağlayın.">
 <!ENTITY device.startApp "Başlat">
-<!ENTITY device.startAppTooltip "Start this app on the device">
+<!ENTITY device.startAppTooltip "Cihazda bu uygulamayı başlatın">
 <!ENTITY device.stopApp "Durdur">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
+<!ENTITY device.stopAppTooltip "Cihazda bu uygulamayı durdurun">
 <!ENTITY device.debugApp "Hata Ayıkla">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
+<!ENTITY device.debugAppTooltip "Cihazdaki bu uygulamaya bağlı Geliştirici Araçlarını açın">
 <!ENTITY device.name "Adı">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
+<!ENTITY device.plain "Düz (varsayılan)">
+<!ENTITY device.privileged "Ayrıcalıklı">
+<!ENTITY device.certified "Sertifikalı">
 <!ENTITY device.allow "İzin ver">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.allowTooltip "Bu izin, bu tür uygulamalar için verilir">
+<!ENTITY device.prompt "Komut İstemi">
+<!ENTITY device.promptTooltip "Bu izin, bu türdeki uygulamalar için bir kullanıcı istemi gerektirir">
+<!ENTITY device.deny "Reddet">
+<!ENTITY device.denyTooltip "Bu izin, bu türdeki uygulamalar için reddedilir">
+<!ENTITY device.installedApps "Yüklü uygulamalar">
+<!ENTITY device.installedAppsTooltip "Cihaza yüklenmiş olan uygulamalar listesini görüntüleyin. Sertifikalı uygulamalar gibi bazı uygulamalar bu görünümden hariç tutulabilir.">
+<!ENTITY device.permissions "İzinler">
+<!ENTITY device.permissionsTooltip "Farklı türdeki uygulamalara erişebilirlik izinlerinin tablosunu görüntüleyin">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
-<!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.browserTabs "Tarayıcı Sekmeleri">
+<!ENTITY device.browserTabsTooltip "Bağlanan cihazın tarayıcısında sekmelerin bir listesini görüntüleyin">
+<!ENTITY device.debugBrowserTab "Hata Ayıkla">
+<!ENTITY device.debugBrowserTabTooltip "Cihazdaki bu tarayıcı sekmesine bağlı Geliştirici Araçlarını açın">
+<!ENTITY device.help "Yardım">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.connectTooltip "Cihaza bağlanın">
+<!ENTITY connection.disconnect "Bağlantıyı kes">
+<!ENTITY connection.disconnectTooltip "Geçerli cihaz veya simülatörün bağlantısını kesin">
+<!ENTITY connection.notConnected2 "Bağlı Değil.">
+<!ENTITY connection.connectTo "Buraya Bağlan:">
+<!ENTITY connection.noDeviceFound "Hiçbir aygıt bulunamadı. Bir aygıt takın">
+<!ENTITY connection.changeHostAndPort "Değiştir">
+<!ENTITY connection.changeHostAndPortTooltip "Aygıta bağlanmak için kullanılan ana makineyi ve bağlantı noktasını değiştirin (varsayılan olarak localhost:6000)">
+<!ENTITY connection.startSimulator "Simülatörü Başlat">
+<!ENTITY connection.startSimulatorTooltip "Simülatörün bir örneğini başlatın ve ona bağlanın">
+<!ENTITY connection.saveConnectionInfo "Kaydet">
+<!ENTITY connection.saveConnectionInfoTooltip "Ana bilgisayar ve bağlantı noktası kaydet">
+<!ENTITY connection.connecting "Bağlanıyor…">
+<!ENTITY connection.disconnecting "Bağlantı kesiliyor…">
+<!ENTITY connection.cancel "İptal">
+<!ENTITY connection.cancelConnectTooltip "Devam eden bağlantıyı iptal et">
+<!ENTITY connection.cancelShowSimulatorTooltip "Simülatör bağlantı modundan çıkın ve ilk istemi iade edin">
+<!ENTITY connection.or "veya">
+<!ENTITY connection.noSimulatorInstalled "Yüklü Simülatör Yok.">
+<!ENTITY connection.installOneSimulator "Simülatör Yükle">
+<!ENTITY connection.installOneSimulatorTooltip "İlgili eklentiyi indirerek Simülatörün bir sürümünü yükleyin">
+<!ENTITY connection.installAnotherSimulator "Ekle">
+<!ENTITY connection.installAnotherSimulatorTooltip "İlgili eklentiyi indirerek Simülatörün ek bir sürümünü kurun">
+<!ENTITY connection.startRegisteredSimulator "Başla:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
-<!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.localApps "Yerel uygulamalar">
+<!ENTITY projects.addApp "Ekle">
+<!ENTITY projects.addPackaged "Paketlenmiş Uygulama Ekle">
+<!ENTITY projects.addPackagedTooltip "Bilgisayarınızdan yeni bir paketlenmiş uygulama (bir dizin) ekleyin">
+<!ENTITY projects.addHosted "Barındırılan Uygulanma Ekle">
+<!ENTITY projects.addHostedTooltip "Uzak bir web sitesinden yeni barındırılan bir uygulama (manifest.webapp dosyasına bağlantı) ekleyin">
+<!ENTITY projects.title "Yerel Uygulamalar">
+<!ENTITY projects.appDetails "Uygulama Ayrıntıları">
+<!ENTITY projects.removeAppFromList "Bu uygulamayı üzerinde çalıştığınız uygulamalar listesinden kaldırın. Bu, onu bir cihazdan veya bir simülatörden kaldırmaz.">
+<!ENTITY projects.updateApp "Güncelle">
+<!ENTITY projects.updateAppTooltip "Onay kontrollerini yürütün ve uygulamayı bağlı cihaza güncelleyin">
+<!ENTITY projects.debugApp "Hata Ayıkla">
+<!ENTITY projects.debugAppTooltip "Bu uygulamaya bağlı Geliştirici Araçlarını açın">
+<!ENTITY projects.saveManifest "Kaydet">
+<!ENTITY projects.saveManifestTooltip "Bildirim Düzenleyicinin içeriğini aşağıda kaydedin">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.noProjects "Proje yok. Aşağıda yeni bir paketlenmiş uygulama (yerel dizin) veya barındırılan bir uygulama ekleyin (bir bildirim dosyasına bağlantı).">
+<!ENTITY projects.manifestEditor "Bildirim Düzenleyicisi">
+<!ENTITY projects.manifestEditorTooltip "Uygulamanızın bildirim dosyasını aşağıdaki panelde düzenleyin. Güncelle düğmesi değişikliklerinizi kaydeder ve uygulamayı günceller.">
+<!ENTITY projects.manifestViewer "Bildirim Görüntüleyici">
+<!ENTITY projects.manifestViewerTooltip "Uygulamanızın bildirimini aşağıdaki panelde inceleyin">
+<!ENTITY projects.valid "Geçerli">
+<!ENTITY projects.error "Hata">
+<!ENTITY projects.warning "Uyarı">
+<!ENTITY projects.hosted "Barındırılan">
+<!ENTITY projects.packaged "Paketlenmiş">
 
-<!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.title "Uygulama Yöneticisi">
+<!ENTITY help.close "Kapat">
+<!ENTITY help.intro "Bu araç, uyumlu cihazlarda (diğer bir deyişle Firefox OS) web uygulamaları oluşturmanıza ve yüklemenize yardımcı olacaktır. <strong>Uygulamalar</strong> sekmesi uygulamanızın doğrulama ve yükleme sürecinde size yardımcı olacaktır. <strong>Cihaz</strong> sekmesi, bağlı cihazla ilgili bilgi verir. Bir cihaza bağlanmak veya simülatörü başlatmak için alt araç çubuğunu kullanın.">
+<!ENTITY help.usefullLinks "Kullanışlı bağlantılar:">
+<!ENTITY help.appMgrDoc "Belgeler: Uygulama Yöneticisini kullanma">
+<!ENTITY help.configuringDevice "Firefox OS cihazınızı ayarlama">
+<!ENTITY help.troubleShooting "Sorun giderme">
+<!ENTITY help.simulatorAddon "Simülatör Eklentisini Yükle">
+<!ENTITY help.adbHelperAddon "Adb Yardımcısı Eklentisini Yükle">

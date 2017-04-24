@@ -6,8 +6,7 @@
      file, all messages that likely don't need to tie into app-specific UI
      should go into netError.dtd -->
 
-<!ENTITY securityOverride.linkText "İsterseniz ayrıcalık tanıyın…">
+<!ENTITY securityOverride.linkText "Ya da isterseniz ayrıcalık tanıyın…">
 <!ENTITY securityOverride.warningContent "
-<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
-<p>If you still wish to add an exception for this site, you can do so in your advanced encryption settings.</p>
+<p>Tamamen güvenmediğiniz bir internet bağlantısı kullanıyorsanız veya bu sunucu için bir uyarı görmeye alışkın değilseniz, bir istisna eklememelisiniz.</p><p>Bu site için hala bir istisna eklemek arzusundaysanız, bunu gelişmiş şifreleme ayarlarınızda yapabilirsiniz.</p>
 ">

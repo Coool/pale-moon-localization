@@ -6,13 +6,13 @@
 
 <!ENTITY projectMenu_label "Projekt">
 <!ENTITY projectMenu_accesskey "P">
-<!ENTITY projectMenu_newApp_label "New App…">
+<!ENTITY projectMenu_newApp_label "Nová aplikácia…">
 <!ENTITY projectMenu_newApp_accesskey "N">
 <!ENTITY projectMenu_importPackagedApp_label "Open Packaged App…">
 <!ENTITY projectMenu_importPackagedApp_accesskey "P">
 <!ENTITY projectMenu_importHostedApp_label "Open Hosted App…">
 <!ENTITY projectMenu_importHostedApp_accesskey "H">
-<!ENTITY projectMenu_selectApp_label "Open App…">
+<!ENTITY projectMenu_selectApp_label "Otvoriť aplikáciu…">
 <!ENTITY projectMenu_selectApp_accesskey "O">
 <!ENTITY projectMenu_play_label "Install and Run">
 <!ENTITY projectMenu_play_accesskey "I">
@@ -29,7 +29,7 @@
 
 <!ENTITY runtimeMenu_label "Runtime">
 <!ENTITY runtimeMenu_accesskey "R">
-<!ENTITY runtimeMenu_disconnect_label "Disconnect">
+<!ENTITY runtimeMenu_disconnect_label "Odpojiť">
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
 <!ENTITY runtimeMenu_showPermissionTable_label "Permissions Table">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey "P">
@@ -41,7 +41,7 @@
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
 <!ENTITY runtimeMenu_showDevicePrefs_label "Device Preferences">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
-<!ENTITY runtimeMenu_showSettings_label "Device Settings">
+<!ENTITY runtimeMenu_showSettings_label "Nastavenia zariadenia">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
 <!ENTITY viewMenu_label "View">
@@ -55,7 +55,7 @@
 <!ENTITY viewMenu_resetzoom_label "Reset Zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
-<!ENTITY projectButton_label "Open App">
+<!ENTITY projectButton_label "Otvoriť aplikáciu">
 <!ENTITY runtimeButton_label "Select Runtime">
 
 <!-- We try to repicate Firefox' bindings: -->
@@ -75,13 +75,13 @@
 <!ENTITY key_zoomout "-">
 <!ENTITY key_resetzoom "0">
 
-<!ENTITY projectPanel_myProjects "My Projects">
+<!ENTITY projectPanel_myProjects "Moje projekty">
 <!ENTITY projectPanel_runtimeApps "Runtime Apps">
 <!ENTITY projectPanel_tabs "Tabs">
 <!ENTITY runtimePanel_usb "USB Devices">
 <!ENTITY runtimePanel_wifi "Wi-Fi Devices">
 <!ENTITY runtimePanel_simulator "Simulators">
-<!ENTITY runtimePanel_other "Other">
+<!ENTITY runtimePanel_other "Ostatné">
 <!ENTITY runtimePanel_installsimulator "Install Simulator">
 <!ENTITY runtimePanel_noadbhelper "Install ADB Helper">
 <!ENTITY runtimePanel_nousbdevice "Can't see your device?">
@@ -89,15 +89,15 @@
 <!-- Lense -->
 <!ENTITY details_valid_header "valid">
 <!ENTITY details_warning_header "warnings">
-<!ENTITY details_error_header "errors">
-<!ENTITY details_description "Description">
-<!ENTITY details_location "Location">
+<!ENTITY details_error_header "chyby">
+<!ENTITY details_description "Popis">
+<!ENTITY details_location "Umiestnenie">
 <!ENTITY details_manifestURL "App ID">
 <!ENTITY details_removeProject_button "Remove Project">
 <!ENTITY details_showPrepackageLog_button "Show Pre-package Log">
 
 <!-- New App -->
-<!ENTITY newAppWindowTitle "New App">
+<!ENTITY newAppWindowTitle "Nová aplikácia">
 <!ENTITY newAppHeader "Select template">
 <!ENTITY newAppLoadingTemplate "Loading templates…">
 <!ENTITY newAppProjectName "Project Name:">
@@ -105,7 +105,7 @@
 
 <!-- Decks -->
 
-<!ENTITY deck_close "Close">
+<!ENTITY deck_close "Zatvoriť">
 
 <!-- Addons -->
 <!ENTITY addons_title "Extra Components">
@@ -114,7 +114,7 @@
 <!-- Prefs -->
 <!ENTITY prefs_title "Preferences">
 <!ENTITY prefs_editor_title "Editor">
-<!ENTITY prefs_general_title "General">
+<!ENTITY prefs_general_title "Všeobecné">
 <!ENTITY prefs_restore "Restore Defaults">
 <!ENTITY prefs_manage_components "Manage Extra Components">
 <!ENTITY prefs_options_autoconnectruntime "Reconnect to previous runtime">
@@ -130,16 +130,16 @@
 <!ENTITY prefs_options_expandtab_tooltip "Use spaces instead of the tab character">
 <!ENTITY prefs_options_detectindentation "Autoindent">
 <!ENTITY prefs_options_detectindentation_tooltip "Guess indentation based on source content">
-<!ENTITY prefs_options_autocomplete "Autocomplete">
+<!ENTITY prefs_options_autocomplete "Automatické dokončovanie">
 <!ENTITY prefs_options_autocomplete_tooltip "Enable code autocompletion">
 <!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Automatically insert closing brackets">
 <!ENTITY prefs_options_keybindings "Keybindings">
-<!ENTITY prefs_options_keybindings_default "Default">
+<!ENTITY prefs_options_keybindings_default "Predvolená">
 
 <!-- Permissions Table -->
 <!ENTITY permissionstable_title "Permissions Table">
-<!ENTITY permissionstable_name_header "Name">
+<!ENTITY permissionstable_name_header "Názov">
 
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title "Runtime Info">
@@ -151,10 +151,10 @@
 <!ENTITY runtimedetails_privilegesWarning "(Will reboot device. Requires root access.)">
 
 <!-- Device Preferences and Settings -->
-<!ENTITY device_typeboolean "Boolean">
-<!ENTITY device_typenumber "Integer">
+<!ENTITY device_typeboolean "Logická">
+<!ENTITY device_typenumber "Celé číslo">
 <!ENTITY device_typestring "String">
-<!ENTITY device_typeobject "Object">
+<!ENTITY device_typeobject "Objekt">
 <!ENTITY device_typenone "Select a type">
 
 <!-- Device Preferences -->
@@ -165,7 +165,7 @@
 <!ENTITY devicepreference_addnew "Add new preference">
 
 <!-- Device Settings -->
-<!ENTITY devicesetting_title "Device Settings">
+<!ENTITY devicesetting_title "Nastavenia zariadenia">
 <!ENTITY devicesetting_search "Search settings">
 <!ENTITY devicesetting_newname "New setting name">
 <!ENTITY devicesetting_newtext "Setting value">
@@ -173,7 +173,7 @@
 
 <!-- Monitor -->
 <!ENTITY monitor_title "Monitor">
-<!ENTITY monitor_help "Help">
+<!ENTITY monitor_help "Pomocník">
 
 <!-- WiFi Authentication -->
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog

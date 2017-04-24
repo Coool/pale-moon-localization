@@ -10,53 +10,53 @@
 <!ENTITY projectMenu_newApp_accesskey "N">
 <!ENTITY projectMenu_importPackagedApp_label "Open Packaged App…">
 <!ENTITY projectMenu_importPackagedApp_accesskey "P">
-<!ENTITY projectMenu_importHostedApp_label "Open Hosted App…">
+<!ENTITY projectMenu_importHostedApp_label "Barındırılan Uygulanmayı Aç…">
 <!ENTITY projectMenu_importHostedApp_accesskey "H">
 <!ENTITY projectMenu_selectApp_label "Open App…">
 <!ENTITY projectMenu_selectApp_accesskey "O">
 <!ENTITY projectMenu_play_label "Install and Run">
 <!ENTITY projectMenu_play_accesskey "I">
-<!ENTITY projectMenu_stop_label "Stop App">
+<!ENTITY projectMenu_stop_label "Uygulamayı Durdur">
 <!ENTITY projectMenu_stop_accesskey "S">
 <!ENTITY projectMenu_debug_label "Debug App">
 <!ENTITY projectMenu_debug_accesskey "D">
-<!ENTITY projectMenu_remove_label "Remove Project">
+<!ENTITY projectMenu_remove_label "Projeyi Kaldır">
 <!ENTITY projectMenu_remove_accesskey "R">
-<!ENTITY projectMenu_showPrefs_label "Preferences">
+<!ENTITY projectMenu_showPrefs_label "Tercihler">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Manage Extra Components">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
 
-<!ENTITY runtimeMenu_label "Runtime">
+<!ENTITY runtimeMenu_label "Çalışma Zamanı">
 <!ENTITY runtimeMenu_accesskey "R">
-<!ENTITY runtimeMenu_disconnect_label "Disconnect">
+<!ENTITY runtimeMenu_disconnect_label "Bağlantıyı kes">
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
-<!ENTITY runtimeMenu_showPermissionTable_label "Permissions Table">
+<!ENTITY runtimeMenu_showPermissionTable_label "İzinler Tablosu">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey "P">
-<!ENTITY runtimeMenu_takeScreenshot_label "Screenshot">
+<!ENTITY runtimeMenu_takeScreenshot_label "Ekran görüntüsü">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "S">
-<!ENTITY runtimeMenu_showDetails_label "Runtime Info">
+<!ENTITY runtimeMenu_showDetails_label "Çalışma zamanı bilgisi">
 <!ENTITY runtimeMenu_showDetails_accesskey "E">
-<!ENTITY runtimeMenu_showMonitor_label "Monitor">
+<!ENTITY runtimeMenu_showMonitor_label "Ekran">
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
-<!ENTITY runtimeMenu_showDevicePrefs_label "Device Preferences">
+<!ENTITY runtimeMenu_showDevicePrefs_label "Cihaz Tercihleri">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
-<!ENTITY runtimeMenu_showSettings_label "Device Settings">
+<!ENTITY runtimeMenu_showSettings_label "Cihaz Ayarları">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
-<!ENTITY viewMenu_label "View">
+<!ENTITY viewMenu_label "Görünüm">
 <!ENTITY viewMenu_accesskey "V">
 <!ENTITY viewMenu_toggleEditor_label "Toggle Editor">
 <!ENTITY viewMenu_toggleEditor_accesskey "E">
-<!ENTITY viewMenu_zoomin_label "Zoom In">
+<!ENTITY viewMenu_zoomin_label "Yakınlaştır">
 <!ENTITY viewMenu_zoomin_accesskey "I">
-<!ENTITY viewMenu_zoomout_label "Zoom Out">
+<!ENTITY viewMenu_zoomout_label "Uzaklaştır">
 <!ENTITY viewMenu_zoomout_accesskey "O">
 <!ENTITY viewMenu_resetzoom_label "Reset Zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
-<!ENTITY projectButton_label "Open App">
-<!ENTITY runtimeButton_label "Select Runtime">
+<!ENTITY projectButton_label "Uygulamayı aç">
+<!ENTITY runtimeButton_label "Çalışma zamanı seç">
 
 <!-- We try to repicate Firefox' bindings: -->
 <!-- quit app -->
@@ -75,19 +75,19 @@
 <!ENTITY key_zoomout "-">
 <!ENTITY key_resetzoom "0">
 
-<!ENTITY projectPanel_myProjects "My Projects">
-<!ENTITY projectPanel_runtimeApps "Runtime Apps">
-<!ENTITY projectPanel_tabs "Tabs">
-<!ENTITY runtimePanel_usb "USB Devices">
-<!ENTITY runtimePanel_wifi "Wi-Fi Devices">
-<!ENTITY runtimePanel_simulator "Simulators">
-<!ENTITY runtimePanel_other "Other">
+<!ENTITY projectPanel_myProjects "Projelerim">
+<!ENTITY projectPanel_runtimeApps "Çalışma Zamanı Uygulamaları">
+<!ENTITY projectPanel_tabs "Sekmeler">
+<!ENTITY runtimePanel_usb "USB Cihazları">
+<!ENTITY runtimePanel_wifi "Wi-Fi Cihazları">
+<!ENTITY runtimePanel_simulator "Simülatörler">
+<!ENTITY runtimePanel_other "Diğer">
 <!ENTITY runtimePanel_installsimulator "Install Simulator">
 <!ENTITY runtimePanel_noadbhelper "Install ADB Helper">
 <!ENTITY runtimePanel_nousbdevice "Can't see your device?">
 
 <!-- Lense -->
-<!ENTITY details_valid_header "valid">
+<!ENTITY details_valid_header "geçerli">
 <!ENTITY details_warning_header "warnings">
 <!ENTITY details_error_header "errors">
 <!ENTITY details_description "Description">
@@ -135,14 +135,14 @@
 <!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Automatically insert closing brackets">
 <!ENTITY prefs_options_keybindings "Keybindings">
-<!ENTITY prefs_options_keybindings_default "Default">
+<!ENTITY prefs_options_keybindings_default "Varsayılan">
 
 <!-- Permissions Table -->
-<!ENTITY permissionstable_title "Permissions Table">
-<!ENTITY permissionstable_name_header "Name">
+<!ENTITY permissionstable_title "İzinler Tablosu">
+<!ENTITY permissionstable_name_header "Adı">
 
 <!-- Runtime Details -->
-<!ENTITY runtimedetails_title "Runtime Info">
+<!ENTITY runtimedetails_title "Çalışma zamanı bilgisi">
 <!ENTITY runtimedetails_adbIsRoot "ADB is root: ">
 <!ENTITY runtimedetails_summonADBRoot "root device">
 <!ENTITY runtimedetails_ADBRootWarning "(requires unlocked bootloader)">
@@ -152,9 +152,9 @@
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "Boolean">
-<!ENTITY device_typenumber "Integer">
-<!ENTITY device_typestring "String">
-<!ENTITY device_typeobject "Object">
+<!ENTITY device_typenumber "Tamsayı">
+<!ENTITY device_typestring "Dizge">
+<!ENTITY device_typeobject "Nesne">
 <!ENTITY device_typenone "Select a type">
 
 <!-- Device Preferences -->
@@ -172,14 +172,14 @@
 <!ENTITY devicesetting_addnew "Add new setting">
 
 <!-- Monitor -->
-<!ENTITY monitor_title "Monitor">
-<!ENTITY monitor_help "Help">
+<!ENTITY monitor_title "Ekran">
+<!ENTITY monitor_help "Yardım">
 
 <!-- WiFi Authentication -->
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
      that instructs the user to transfer an authentication token to the
      server. -->
-<!ENTITY wifi_auth_header "Client Identification">
+<!ENTITY wifi_auth_header "İstemci Kimliği">
 <!-- LOCALIZATION NOTE (wifi_auth_scan_request): Instructions requesting the
      user to transfer authentication info by scanning a QR code. -->
 <!ENTITY wifi_auth_scan_request "The endpoint you are connecting to needs more information to authenticate this connection.  Please scan the QR code below via the prompt on your other device.">
