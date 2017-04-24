@@ -14,7 +14,7 @@
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
 <!ENTITY profilerUI.emptyNotice1    "Tıklayın">
-<!ENTITY profilerUI.emptyNotice2    "button to start recording JavaScript function calls.">
+<!ENTITY profilerUI.emptyNotice2    "JavaScript işlev çağrılarını kayıt işlemini başlatma düğmesi.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
   -  in the call list view while recording a profile. -->
@@ -23,7 +23,7 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
-<!ENTITY profilerUI.loadingNotice "Loading…">
+<!ENTITY profilerUI.loadingNotice "Yükleniyor…">
 
 <!-- LOCALIZATION NOTE (profilerUI.recordButton): This string is displayed
   -  on a button that starts a new profile. -->
@@ -35,7 +35,7 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.exportButton): This string is displayed
   -  on a button that opens a dialog to export a saved profile data file. -->
-<!ENTITY profilerUI.exportButton "Save">
+<!ENTITY profilerUI.exportButton "Kaydet">
 
 <!-- LOCALIZATION NOTE (profilerUI.clearButton): This string is displayed
   -  on a button that remvoes all the recordings. -->
@@ -45,20 +45,20 @@
   -  in the toolbar on buttons that select which view is currently shown. -->
 <!ENTITY profilerUI.toolbar.waterfall "Zaman Çizelgesi">
 <!ENTITY profilerUI.toolbar.js-calltree "JavaScript">
-<!ENTITY profilerUI.toolbar.memory-calltree "Memory">
+<!ENTITY profilerUI.toolbar.memory-calltree "Bellek">
 <!ENTITY profilerUI.toolbar.js-flamegraph "JS Flame Chart">
 <!ENTITY profilerUI.toolbar.memory-flamegraph "Memory Flame Chart">
 
 <!-- LOCALIZATION NOTE (profilerUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
-<!ENTITY profilerUI.table.totalDuration2  "Total Time">
+<!ENTITY profilerUI.table.totalDuration2  "Toplam süre">
 <!ENTITY profilerUI.table.selfDuration2   "Self Time">
-<!ENTITY profilerUI.table.totalPercentage "Total Cost">
+<!ENTITY profilerUI.table.totalPercentage "Toplam Maliyet">
 <!ENTITY profilerUI.table.selfPercentage  "Self Cost">
-<!ENTITY profilerUI.table.samples         "Samples">
+<!ENTITY profilerUI.table.samples         "Örnekler">
 <!ENTITY profilerUI.table.totalAlloc      "Total Allocations">
 <!ENTITY profilerUI.table.selfAlloc       "Self Allocations">
-<!ENTITY profilerUI.table.function        "Function">
+<!ENTITY profilerUI.table.function        "İşlev">
 
 <!-- LOCALIZATION NOTE (profilerUI.newtab.tooltiptext): The tooltiptext shown
   -  on the "+" (new tab) button for a profile when a selection is available. -->

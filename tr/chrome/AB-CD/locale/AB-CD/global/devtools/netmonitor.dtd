@@ -14,7 +14,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
 <!ENTITY netmonitorUI.perfNotice1         "• Tıklayın">
-<!ENTITY netmonitorUI.perfNotice2         "button to start performance analysis.">
+<!ENTITY netmonitorUI.perfNotice2         "performans analizi başlatma düğmesi.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
@@ -78,11 +78,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.preview): This is the label displayed
   -  in the network details pane identifying the preview tab. -->
-<!ENTITY netmonitorUI.tab.preview         "Preview">
+<!ENTITY netmonitorUI.tab.preview         "Önizleme">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.security): This is the label displayed
   -  in the network details pane identifying the security tab. -->
-<!ENTITY netmonitorUI.tab.security        "Security">
+<!ENTITY netmonitorUI.tab.security        "Güvenlik">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterAll): This is the label displayed
   -  in the network details footer for the "All" filtering button. -->
@@ -122,11 +122,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterOther): This is the label displayed
   -  in the network details footer for the "Other" filtering button. -->
-<!ENTITY netmonitorUI.footer.filterOther  "Other">
+<!ENTITY netmonitorUI.footer.filterOther  "Diğer">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed
   -  in the network details footer for the "Clear" button. -->
-<!ENTITY netmonitorUI.footer.clear  "Clear">
+<!ENTITY netmonitorUI.footer.clear  "Temiz">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
@@ -146,7 +146,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.address): This is the label displayed
   -  in the network details headers tab identifying the remote address. -->
-<!ENTITY netmonitorUI.summary.address     "Remote address:">
+<!ENTITY netmonitorUI.summary.address     "Uzaktaki adres:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.status): This is the label displayed
   -  in the network details headers tab identifying the status code. -->
@@ -220,7 +220,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.protocolVersion): This is the label displayed
   -  in the security tab describing TLS/SSL protocol version. -->
-<!ENTITY netmonitorUI.security.protocolVersion "Protocol version:">
+<!ENTITY netmonitorUI.security.protocolVersion "Protokol sürümü:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
@@ -237,11 +237,11 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.security.connection): This is the label displayed
   -  in the security tab describing the section containing information related to
   -  the secure connection. -->
-<!ENTITY netmonitorUI.security.connection "Connection:">
+<!ENTITY netmonitorUI.security.connection "Bağlantı:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.certificate): This is the label displayed
   -  in the security tab describing the server certificate section. -->
-<!ENTITY netmonitorUI.security.certificate "Certificate:">
+<!ENTITY netmonitorUI.security.certificate "Onay Belgesi:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools): This is the label displayed
   -  on the context menu that shows the performance analysis tools -->
@@ -253,13 +253,13 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl): This is the label displayed
   -  on the context menu that copies the selected request's url -->
-<!ENTITY netmonitorUI.context.copyUrl     "Copy URL">
+<!ENTITY netmonitorUI.context.copyUrl     "URL'yi kopyala">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyAsCurl): This is the label displayed
   -  on the context menu that copies the selected request as a cURL command.
   -  The capitalization is part of the official name and should be used throughout all languages.
   -  http://en.wikipedia.org/wiki/CURL -->
-<!ENTITY netmonitorUI.context.copyAsCurl    "Copy as cURL">
+<!ENTITY netmonitorUI.context.copyAsCurl    "cURL olarak Kopyala">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl.accesskey): This is the access key
   -  for the Copy URL menu item displayed in the context menu for a request -->
@@ -298,7 +298,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
   -  network container  -->
-<!ENTITY netmonitorUI.context.newTab      "Open in New Tab">
+<!ENTITY netmonitorUI.context.newTab      "Yeni sekmede aç">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab.accesskey): This is the access key
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -307,7 +307,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.newRequest): This is the label displayed
   -  as the title of the new custom request form -->
-<!ENTITY netmonitorUI.custom.newRequest   "New Request">
+<!ENTITY netmonitorUI.custom.newRequest   "Yeni İstek">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.query): This is the label displayed
   -  above the query string entry in the custom request form -->
@@ -323,12 +323,12 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->
-<!ENTITY netmonitorUI.custom.send         "Send">
+<!ENTITY netmonitorUI.custom.send         "Gönder">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.cancel): This is the label displayed
   -  on the button which cancels and closes the custom request form -->
-<!ENTITY netmonitorUI.custom.cancel       "Cancel">
+<!ENTITY netmonitorUI.custom.cancel       "İptal">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.backButton): This is the label displayed
   -  on the button which exists the performance statistics view -->
-<!ENTITY netmonitorUI.backButton          "Back">
+<!ENTITY netmonitorUI.backButton          "Geri">

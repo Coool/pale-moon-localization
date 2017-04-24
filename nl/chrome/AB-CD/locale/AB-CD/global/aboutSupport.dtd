@@ -11,13 +11,13 @@
   zoekt, kijk dan op onze <a id='supportLink'>ondersteuningswebsite</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Crashrapporten">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "Rapporteer ID">
+<!ENTITY aboutSupport.crashes.sendDate "Ingediend">
+<!ENTITY aboutSupport.crashes.allReports "Alle crashrapporten">
+<!ENTITY aboutSupport.crashes.noConfig "Deze toepassing is niet geconfigureerd om crashrapporten te tonen.">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensies">
 <!ENTITY aboutSupport.extensionName "Naam">
@@ -25,13 +25,13 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Versie">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "Experimentele functies">
+<!ENTITY aboutSupport.experimentName "Naam">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentDescription "Beschrijving">
+<!ENTITY aboutSupport.experimentActive "Actief">
+<!ENTITY aboutSupport.experimentEndDate "Einddatum">
+<!ENTITY aboutSupport.experimentHomepage "Startpagina">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Toepassingsbasics">
@@ -41,7 +41,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Update kanaal">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Updategeschiedenis">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Updategeschiedenis tonen">
 
@@ -56,7 +56,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Useragent">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Geheugengebruik">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiproces Windows">
 
 <!ENTITY aboutSupport.showDir.label "Map openen">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -75,9 +75,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js-voorkeuren">
 <!ENTITY aboutSupport.userJSDescription "Uw profielmap bevat een <a id='prefs-user-js-link'>user.js-bestand</a>, dat voorkeuren bevat die niet door &brandShortName; zijn gemaakt.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Belangrijke geblokkeerde voorkeuren">
+<!ENTITY aboutSupport.lockedPrefsName "Naam">
+<!ENTITY aboutSupport.lockedPrefsValue "Waarde">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafisch">
 
@@ -98,5 +98,5 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Probeer de veilige modus">
+<!ENTITY aboutSupport.restartInSafeMode.label "Herstart met uitgeschakelde add-ons…">

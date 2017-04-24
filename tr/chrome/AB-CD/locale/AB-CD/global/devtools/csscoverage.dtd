@@ -31,11 +31,11 @@
   -  <style> tag -->
 <!ENTITY csscoverage.optimize.body1 "Yükleme işlemini bazen hareket ettirerek hızlandırabilirsiniz">
 <!ENTITY csscoverage.optimize.body2 "etiketleri sayfanın altına getirin ve yeni bir satır içi oluşturun">
-<!ENTITY csscoverage.optimize.body3 "element with the styles needed before the 'load' event to the top. Here are the style blocks you need:">
+<!ENTITY csscoverage.optimize.body3 "en üste &quot;yükleme&quot; olayından önce gerekli stilleri içeren eleman. İhtiyacınız olan stil blokları şunlardır:">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->
-<!ENTITY csscoverage.optimize.bodyX "All rules are inlined.">
+<!ENTITY csscoverage.optimize.bodyX "Tüm kurallar yerleştirildi.">
 
 <!-- LOCALIZATION NOTE (csscoverage.footer1, csscoverage.footer2a,
   -  csscoverage.footer3, csscoverage.footer4): The text displayed at the
@@ -43,5 +43,5 @@
   -  is clicked -->
 <!ENTITY csscoverage.footer1 "Bak">
 <!ENTITY csscoverage.footer2a "https://developer.mozilla.org/docs/Tools/CSS_Coverage">
-<!ENTITY csscoverage.footer3 "the MDN article on the CSS Coverage Tool">
-<!ENTITY csscoverage.footer4 "for caveats in the generation of this report.">
+<!ENTITY csscoverage.footer3 "CSS Kapsama Aracı ile ilgili MDN makalesi">
+<!ENTITY csscoverage.footer4 "bu raporun üretilmesinde uyarılar için.">
