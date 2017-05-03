@@ -26,7 +26,7 @@
 <!ENTITY malformedURI.longDesc "<p>La dirección proporcionada no tiene un formato reconocible. Revisa que no haya errores en la barra de direcciones e intenta de nuevo.</p>">
 
 <!ENTITY netInterrupt.title "Transferencia de datos interrumpida">
-<!ENTITY netInterrupt.longDesc "<p>El navegador se conectó correctamente, pero la conexión fue interrumpida mientras se transferia información. Intenta de nuevo.</p><ul><li>¿Puedes navegar otros sitios? Revisa la conexión de red de tu computadora.</li><li>¿Aún tienes problemas? Solicita asistencia al administrador de red o a tu proveedor de internet.</li></ul>">
+<!ENTITY netInterrupt.longDesc "<p>El navegador se conectó correctamente, pero la conexión fue interrumpida mientras se transfería información. Intenta de nuevo.</p><ul><li>¿Puedes navegar en otros sitios? Revisa la conexión de red de tu computadora.</li><li>¿Aún tienes problemas? Solicita asistencia al administrador de red o a tu proveedor de internet.</li></ul>">
 
 <!ENTITY notCached.title "Documento caducado">
 <!ENTITY notCached.longDesc "<p>El documento requerido no está disponible en la caché del navegador.</p><ul><li>Como medida de seguridad, el navegador no vuelve a solicitar documentos delicados de forma automática.</li><li>Haz clic en Reintentar para volver a solicitar el documento del sitio web.</li></ul>">
@@ -59,16 +59,16 @@
 <!ENTITY proxyResolveFailure.title "No se encontró al servidor proxy">
 <!ENTITY proxyResolveFailure.longDesc "<p>El navegador está configurado para utilizar un servidor proxy, pero fue encontrado.</p><ul><li>¿El proxy del navegador está configurado adecuadamente? Revisa los ajustes e intenta de nuevo.</li><li>¿La computadora está conectada a una red activa?</li><li>¿Aún tienes problemas? Solicita asistencia al administrador de red o a tu proveedor de internet.</li></ul>">
 
-<!ENTITY redirectLoop.title "Bucle de redireccionamientos">
+<!ENTITY redirectLoop.title "Bucle de redireccionamiento">
 <!ENTITY redirectLoop.longDesc "<p>El navegador ha dejado de intentar conseguir el elemento solicitado. El sitio está redireccionando la solicitud de una manera que jamás se completará.</p><ul><li>¿Has deshabilitado o bloqueado las cookies de este sitio?</li><li><em>NOTA</em>: Si el aceptar las cookies no resuelve el problema, debe tratarse de un problema de configuración del servidor y no uno de tu computadora.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Respuesta incorrecta">
 <!ENTITY unknownSocketType.longDesc "<p>El sitio respondió a la solicitud de red de una manera inesperada y el navegador no puede continuar.</p>">
 
-<!ENTITY nssFailure2.title "Conexión segura fallada">
+<!ENTITY nssFailure2.title "Conexión segura fallida">
 <!ENTITY nssFailure2.longDesc2 "<p>La página que estás intentando ver no puede ser mostrada porque la autenticidad de los datos recibidos no puede ser verificada.</p><ul><li>Contacta a los propietarios del sitio web para informarles sobre este problema.</li></ul>">
 
-<!ENTITY nssBadCert.title "Conexión segura fallada">
+<!ENTITY nssBadCert.title "Conexión segura fallida">
 <!ENTITY nssBadCert.longDesc2 "<ul>
 <li>Esto podría ser un problema de la configuración del servidor, o bien alguien está intentando suplantar al servidor.</li>
 <li>Si te has conectado a este servidor con éxito anteriormente, el error puede ser temporal. Inténtalo nuevamente más tarde.</li>

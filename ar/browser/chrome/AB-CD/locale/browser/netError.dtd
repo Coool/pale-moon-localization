@@ -140,11 +140,11 @@
 <!ENTITY xssBlockMode.title "حجبه XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li> منع&brandShortName; الأنشطة القادمة على هذه الصفحة لأنها تحتوي على
+    كود جافا سكربت محقون.</li>
+  <li>أوقف تحميل هذه الصفحة بسبب إما طلب صريح
+    من الموقع لمنع هذه الصفحة في حالة هجمات XSS، أو لأن &brandShortName;
+    قد ضبط لمنع الصفحات في تلك الحالة.</li>
 </ul>
 ">
 
@@ -166,20 +166,20 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.title "التبليغ عن هذا الخطأ">
+<!ENTITY errorReporting.longDesc "الإبلاغ عن عنوان و معلومات شهادة <span id='hostname'></span> يساعدنا في التعرف على المواقع الخبيثة و حظرها. شكرًا لمساعدتنا في جعل الويب أأمن.">
+<!ENTITY errorReporting.automatic "أبلغ عن الأعطال تلقائيًا في المستقبل">
+<!ENTITY errorReporting.learnMore "اطّلع على المزيد…">
+<!ENTITY errorReporting.sending "يرسل البلاغ">
+<!ENTITY errorReporting.sent "أُرسل البلاغ">
+<!ENTITY errorReporting.report "البلاغ">
+<!ENTITY errorReporting.tryAgain "حاول مرة أخرى">
 
 <!ENTITY remoteXUL.title "XUL بعيد">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "تعذّر الاتصال بأمان">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "معلومات متقدمة: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "اطلع على المزيد…">
