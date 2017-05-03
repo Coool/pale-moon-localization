@@ -94,7 +94,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.label "Volledig scherm">
 <!ENTITY fullScreenCmd.accesskey "d">
 <!ENTITY fullScreenCmd.macCommandKey "f">
-<!ENTITY showAllTabsCmd.label "Alle tabbladen tonen">
+<!ENTITY showAllTabsCmd.label "Alle tabbladen weergeven">
 <!ENTITY showAllTabsCmd.accesskey "A">
 
 <!ENTITY fullScreenMinimize.tooltip "Minimaliseren">
@@ -123,10 +123,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenupopup.label "Abonneren op deze pagina">
 <!ENTITY subscribeToPageMenuitem.label "Abonneren op deze pagina…">
 <!ENTITY addCurPagesCmd.label "Bladwijzer voor alle tabbladen maken…">
-<!ENTITY showAllBookmarks2.label "Alle bladwijzers tonen">
+<!ENTITY showAllBookmarks2.label "Alle bladwijzers weergeven">
 <!ENTITY organizeBookmarks.label "Bladwijzers ordenen">
 <!ENTITY unsortedBookmarksCmd.label "Ongesorteerde bladwijzers">
-<!ENTITY bookmarksToolbarChevron.tooltip "Meer bladwijzers tonen">
+<!ENTITY bookmarksToolbarChevron.tooltip "Meer bladwijzers weergeven">
 
 <!ENTITY backCmd.label                "Terug">
 <!ENTITY backCmd.accesskey            "T">
@@ -134,8 +134,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY forwardCmd.label             "Vooruit">
 <!ENTITY forwardCmd.accesskey         "V">
 <!ENTITY forwardButton.tooltip        "Een pagina vooruit gaan">
-<!ENTITY backForwardButtonMenu.tooltip "Klik met rechts of houd ingedrukt om geschiedenis te tonen">
-<!ENTITY backForwardButtonMenuMac.tooltip "Houd ingedrukt om geschiedenis te tonen">
+<!ENTITY backForwardButtonMenu.tooltip "Klik met rechts of houd ingedrukt om geschiedenis weer te geven">
+<!ENTITY backForwardButtonMenuMac.tooltip "Houd ingedrukt om geschiedenis weer te geven">
 <!ENTITY reloadCmd.label              "Vernieuwen">
 <!ENTITY reloadCmd.accesskey          "n">
 <!ENTITY reloadButton.tooltip         "Huidige pagina vernieuwen">
@@ -168,7 +168,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.label          "Bladwijzers">
 <!ENTITY bookmarksMenuButton.tooltip        "Uw bladwijzers weergeven">
 <!ENTITY bookmarksMenuButton.unsorted.label "Ongesorteerde bladwijzers">
-<!ENTITY viewBookmarksSidebar.label         "In zijbalk tonen">
+<!ENTITY viewBookmarksSidebar.label         "In zijbalk weergeven">
 <!ENTITY viewBookmarksToolbar.label         "Bladwijzerwerkbalk bekijken">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -322,7 +322,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyRestoreLastSession.label "Vorige sessie herstellen">
 
 <!ENTITY historyHomeCmd.label "Startpagina">
-<!ENTITY showAllHistoryCmd2.label "Alle geschiedenis tonen">
+<!ENTITY showAllHistoryCmd2.label "Alle geschiedenis weergeven">
 <!ENTITY showAllHistoryCmd.commandkey "h">
 
 <!ENTITY appMenuEdit.label "Bewerken">
@@ -377,7 +377,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "t">
 <!ENTITY openFrameCmd.label           "Deelvenster openen in nieuw venster">
 <!ENTITY openFrameCmd.accesskey       "v">
-<!ENTITY showOnlyThisFrameCmd.label     "Alleen dit deelvenster tonen">
+<!ENTITY showOnlyThisFrameCmd.label     "Alleen dit deelvenster weergeven">
 <!ENTITY showOnlyThisFrameCmd.accesskey "d">
 <!ENTITY reloadCmd.commandkey         "r">
 <!ENTITY reloadFrameCmd.label         "Deelvenster vernieuwen">
@@ -492,7 +492,7 @@ fast. -->
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY mediaShowControls.label     "Bedieningsknoppen tonen">
+<!ENTITY mediaShowControls.label     "Bedieningsknoppen weergeven">
 <!ENTITY mediaShowControls.accesskey "B">
 <!ENTITY mediaHideControls.label     "Bedieningsknoppen verbergen">
 <!ENTITY mediaHideControls.accesskey "B">
@@ -503,7 +503,7 @@ items are mutually exclusive. -->
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY videoShowStats.label        "Statistieken tonen">
+<!ENTITY videoShowStats.label        "Statistieken weergeven">
 <!ENTITY videoShowStats.accesskey    "t">
 <!ENTITY videoHideStats.label        "Statistieken verbergen">
 <!ENTITY videoHideStats.accesskey    "t">
@@ -560,7 +560,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
 <!ENTITY closeCmd.label                 "Sluiten">  
-<!ENTITY closeCmd.key                   "A">  
+<!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "S">
 
 <!ENTITY pageStyleMenu.label "Paginastijl">
@@ -651,7 +651,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY pointerLock.notification.message "Druk op ESC om het nogmaals te tonen.">
 
-<!ENTITY pluginNotification.showAll.label "Toon alles">
+<!ENTITY pluginNotification.showAll.label "Alles weergeven">
 <!ENTITY pluginNotification.showAll.accesskey "T">
 
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->

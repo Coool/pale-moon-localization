@@ -22,21 +22,27 @@
 <!ENTITY  addonExceptions.accesskey     "Ε">
 
 
-<!ENTITY  passwords.label               "Κωδικοί">
+<!ENTITY  passwords.label               "Κωδικοί πρόσβασης">
 
-<!ENTITY  rememberPasswords.label       "Απομνημόνευση κωδικών για σελίδες">
-<!ENTITY  rememberPasswords.accesskey   "μ">
+<!ENTITY  rememberPasswords.label       "Απομνημόνευση κωδικών πρόσβασης για τοποθεσίες">
+<!ENTITY  rememberPasswords.accesskey   "π">
 <!ENTITY  passwordExceptions.label      "Εξαιρέσεις...">
-<!ENTITY  passwordExceptions.accesskey  "ξ">
+<!ENTITY  passwordExceptions.accesskey  "σ">
 
-<!ENTITY  useMasterPassword.label        "Χρήση ενός κύριου κωδικού">
-<!ENTITY  useMasterPassword.accesskey    "ρ">
-<!ENTITY  changeMasterPassword.label     "Αλλαγή κύριου κωδικού...">
-<!ENTITY  changeMasterPassword.accesskey "γ">
+<!ENTITY  useMasterPassword.label        "Χρήση ενός κύριου κωδικού πρόσβασης">
+<!ENTITY  useMasterPassword.accesskey    "Χ">
+<!ENTITY  changeMasterPassword.label     "Αλλαγή κύριου κωδικού πρόσβασης…">
+<!ENTITY  changeMasterPassword.accesskey "κ">
 
-<!ENTITY  savedPasswords.label            "Αποθηκευμένοι κωδικοί…">
+<!ENTITY  savedPasswords.label            "Αποθηκευμένοι κωδικοί πρόσβασης…">
 <!ENTITY  savedPasswords.accesskey        "θ">
 
-<!ENTITY  XSSFilt.label              "XSS Filter">
-<!ENTITY  enableXSSFilt.label        "Enable XSS filter">
-<!ENTITY  enableXSSFilt.accesskey    "f">
+<!ENTITY  SecProto.label             "Πρωτόκολλα ασφαλείας">
+<!ENTITY  enableHSTS.label           "Ενεργοποίηση «Strict Transport Security (HSTS)»">
+<!ENTITY  enableHSTS.accesskey       "S">
+<!ENTITY  enableHPKP.label           "Ενεργοποίηση «Certificate Key Pinning (HPKP)»">
+<!ENTITY  enableHPKP.accesskey       "C">
+
+<!ENTITY  XSSFilt.label              "Φίλτρο XSS">
+<!ENTITY  enableXSSFilt.label        "Ενεργοποίηση φίλτρου XSS">
+<!ENTITY  enableXSSFilt.accesskey    "ν">

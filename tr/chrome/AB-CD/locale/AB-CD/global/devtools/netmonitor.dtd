@@ -45,7 +45,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.transferred): This is the label displayed
   -  in the network table toolbar, above the "transferred" column, which is the
   -  compressed / encoded size. -->
-<!ENTITY netmonitorUI.toolbar.transferred "Transferred">
+<!ENTITY netmonitorUI.toolbar.transferred "Aktarıldı">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.size): This is the label displayed
   -  in the network table toolbar, above the "size" column, which is the
@@ -216,7 +216,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
-<!ENTITY netmonitorUI.security.error      "An error occured:">
+<!ENTITY netmonitorUI.security.error      "Bir hata oluştu:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.protocolVersion): This is the label displayed
   -  in the security tab describing TLS/SSL protocol version. -->
@@ -245,7 +245,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools): This is the label displayed
   -  on the context menu that shows the performance analysis tools -->
-<!ENTITY netmonitorUI.context.perfTools   "Start Performance Analysis…">
+<!ENTITY netmonitorUI.context.perfTools   "Performans Analizini Başlat…">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.perfTools.accesskey): This is the access key
   -  for the performance analysis menu item displayed in the context menu for a request -->
@@ -276,7 +276,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.editAndResend): This is the label displayed
   -  on the button in the headers tab that opens a form to edit and resend the currently
      displayed request -->
-<!ENTITY netmonitorUI.summary.editAndResend "Edit and Resend">
+<!ENTITY netmonitorUI.summary.editAndResend "Düzenle ve Yeniden Gönder">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.editAndResend.accesskey): This is the access key
   -  for the "Edit and Resend" menu item displayed in the context menu for a request -->
@@ -285,15 +285,15 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders): This is the label displayed
   -  on the button in the headers tab that toggle view for raw request/response headers
      from the currently displayed request -->
-<!ENTITY netmonitorUI.summary.rawHeaders "Raw headers">
+<!ENTITY netmonitorUI.summary.rawHeaders "Satır Başlıkları">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Request headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "İstek üst bilgileri:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Response headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Yanıt üst bilgileri:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -311,11 +311,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.query): This is the label displayed
   -  above the query string entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.query        "Query String:">
+<!ENTITY netmonitorUI.custom.query        "Sorgu dizgisi:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "Request Headers:">
+<!ENTITY netmonitorUI.custom.headers      "İstek üst bilgileri:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
