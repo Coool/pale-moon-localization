@@ -57,8 +57,8 @@ move /Y browser\chrome\*.manifest browser\chrome\%1.manifest >nul:
 ..\sed.exe -i "s/en-US/%1/g" browser\chrome\%1.manifest
 move /Y chrome\*.manifest chrome\%1.manifest >nul:
 ..\sed.exe -i "s/en-US/%1/g" chrome\%1.manifest
-rem firefox-l10n.js
-..\sed.exe -i "s/\"en-US\"/\"%1\"/" browser\defaults\preferences\firefox-l10n.js
+rem palemoon-l10n.js
+..\sed.exe -i "s/\"en-US\"/\"%1\"/" browser\defaults\preferences\palemoon-l10n.js
 popd
 exit /b
 
