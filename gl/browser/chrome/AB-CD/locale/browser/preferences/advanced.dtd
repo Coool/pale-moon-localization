@@ -98,10 +98,10 @@
 
 <!ENTITY offlineNotify.label             "Informarme cando un sitio web solicita o almacenamento de datos para a utilización sen conexión">
 <!ENTITY offlineNotify.accesskey         "t">
-<!ENTITY offlineAppsPermissions.label    "When a website asks to store data for offline use:">
-<!ENTITY offlineAppsPermissions.Allow    "Allow by default">
-<!ENTITY offlineAppsPermissions.Ask      "Always ask">
-<!ENTITY offlineAppsPermissions.Deny     "Deny">
+<!ENTITY offlineAppsPermissions.label    "Cando un sitio web pida almacenar datos para o seu uso sen conexión:">
+<!ENTITY offlineAppsPermissions.Allow    "Permitir por defecto">
+<!ENTITY offlineAppsPermissions.Ask      "Preguntar sempre">
+<!ENTITY offlineAppsPermissions.Deny     "Denegar">
 <!ENTITY offlineNotifyExceptions.label   "Excepcións…">
 <!ENTITY offlineNotifyExceptions.accesskey "E">
 
@@ -112,13 +112,13 @@
 <!ENTITY offlineAppRemove.confirm        "Retirar datos sen conexión">
 
 <!ENTITY certificateTab.label            "Certificates">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "Certificado persoal">
 <!ENTITY certSelection.description       "Cando un servidor solicita o meu certificado persoal:">
 <!ENTITY certs.auto                      "Escoller un automaticamente">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "Preguntarme cada vez">
 <!ENTITY certs.ask.accesskey             "g">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "Validación de certificados">
 <!ENTITY enableOCSP.label                "Utilice o protocolo de estado de certificados en liña (OCSP) para confirmar a validez dos certificados">
 <!ENTITY enableOCSP.accesskey            "U">
 <!ENTITY requireOCSP.label               "Cando falle a conexión a un servidor OCSP, tratar o certificado como incorrecto">
@@ -128,21 +128,21 @@
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguranza">
 <!ENTITY viewSecurityDevices.accesskey   "D">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "Compatibilidade">
+<!ENTITY UACompat.label         "Modo de axente de usuario:">
+<!ENTITY UACompat.Native        "Nativo">
+<!ENTITY UACompat.Gecko         "Compatibilidade de Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilidade de Firefox">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY scrollparamTab.label               "Desprazamento">
 <!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
 <!ENTITY smoothscroll.to                    "to">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.params.label          "Parámetros de desprazamento suave">
+<!ENTITY smoothscroll.mousewheel.label      "Desprazamento suave coa roda do rato">
+<!ENTITY smoothscroll.mousewheel.duration   "Duración do desprazamento coa roda do rato:">
+<!ENTITY smoothscroll.arrowkeys.label       "Desprazamento suave coas teclas das frechas">
+<!ENTITY smoothscroll.arrowkeys.duration    "Duración do desprazamento coas teclas das frechas:">
 <!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
 <!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Desprazamento suave con barras de desprazamento">
+<!ENTITY smoothscroll.scrollbar.duration    "Duración do desprazamento suave da barra de desprazamento:">

@@ -168,20 +168,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.title "Prijavite pogrešku">
+<!ENTITY errorReporting.longDesc "Prijavljivanje adrese i certifikata informacije za <span id='hostname'></span> će nam pomoći identificirati i blokirati zlonamjerne web stranice. Hvala vam na pomoći stvaranja sigurnijeg weba!">
+<!ENTITY errorReporting.automatic "Automatski prijave pogreške u budućnosti">
+<!ENTITY errorReporting.learnMore "Saznaj više…">
+<!ENTITY errorReporting.sending "Šaljem izvješće">
+<!ENTITY errorReporting.sent "Izvješće je poslano">
+<!ENTITY errorReporting.report "Izvješće">
+<!ENTITY errorReporting.tryAgain "Pokušaj ponovo">
 
 <!ENTITY remoteXUL.title "Udaljeni XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Obavijestite vlasnike web stranice o ovom problemu.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Nije moguće sigurno povezivanje">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.learnMore "Saznaj više…">

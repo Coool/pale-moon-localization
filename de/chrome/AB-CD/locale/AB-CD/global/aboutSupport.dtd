@@ -54,9 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Aktivierte Plugins">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Build-Konfiguration">
 <!ENTITY aboutSupport.appBasicsUserAgent "User-Agent">
+<!ENTITY aboutSupport.appBasicsOS "Betriebssystem">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Speicherverwendung">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprozess-Fenster">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Abgesicherter Modus">
 
 <!ENTITY aboutSupport.showDir.label "Ordner öffnen">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -81,6 +84,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafik">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Places Datenbank">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrität">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Integrität verifizieren">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Inkrementelle GC">
 
@@ -100,3 +107,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Im Abgesicherten Modus versuchen">
 <!ENTITY aboutSupport.restartInSafeMode.label "Mit deaktivierten Add-ons neu starten…">
+
+<!ENTITY aboutSupport.restartTitle "Neustart versuchen">
+<!ENTITY aboutSupport.restartNormal.label "Normal neustarten…">

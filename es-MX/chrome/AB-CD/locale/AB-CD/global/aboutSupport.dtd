@@ -54,9 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins habilitados">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuración de la compilación">
 <!ENTITY aboutSupport.appBasicsUserAgent "Agente de usuario">
+<!ENTITY aboutSupport.appBasicsOS "Sistema operativo">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memoria">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Ventanas multiproceso">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Modo seguro">
 
 <!ENTITY aboutSupport.showDir.label "Abrir directorio">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -81,6 +84,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Base de datos de Places">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integridad">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificar integridad">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Recolección de basura incremental">
 
@@ -99,4 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.sandboxTitle "Aislamiento">
 
 <!ENTITY aboutSupport.safeModeTitle "Intentar con el modo seguro">
-<!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar con los complementos deshabilitados…">
+<!ENTITY aboutSupport.restartInSafeMode.label "Reinicio con los complementos deshabilitados…">
+
+<!ENTITY aboutSupport.restartTitle "Intentar reiniciando">
+<!ENTITY aboutSupport.restartNormal.label "Reinicio normal…">

@@ -98,10 +98,10 @@
 
 <!ENTITY offlineNotify.label             "Съобщавай ми, когато уеб сайтовете искат да съхраняват данни за офлайн използване">
 <!ENTITY offlineNotify.accesskey         "С">
-<!ENTITY offlineAppsPermissions.label    "When a website asks to store data for offline use:">
-<!ENTITY offlineAppsPermissions.Allow    "Allow by default">
-<!ENTITY offlineAppsPermissions.Ask      "Always ask">
-<!ENTITY offlineAppsPermissions.Deny     "Deny">
+<!ENTITY offlineAppsPermissions.label    "Когато бъде поискано запазване на данни за използване извън мрежата от някоя интернет страница, използвай:">
+<!ENTITY offlineAppsPermissions.Allow    "Позволи по подразбиране">
+<!ENTITY offlineAppsPermissions.Ask      "Винаги да се пита">
+<!ENTITY offlineAppsPermissions.Deny     "Откажи">
 <!ENTITY offlineNotifyExceptions.label   "Изключения…">
 <!ENTITY offlineNotifyExceptions.accesskey "И">
 
@@ -112,13 +112,13 @@
 <!ENTITY offlineAppRemove.confirm        "Изтрий офлайн данните">
 
 <!ENTITY certificateTab.label            "Удостоверения">
-<!ENTITY certGroup.label                 "Personal Certificate">
+<!ENTITY certGroup.label                 "Личен сертификат">
 <!ENTITY certSelection.description       "Когато сървърът изиска моя личен сертификат:">
 <!ENTITY certs.auto                      "Избери един автоматично">
 <!ENTITY certs.auto.accesskey            "а">
 <!ENTITY certs.ask                       "Питай ме всеки път">
 <!ENTITY certs.ask.accesskey             "П">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY ocspGroup.label                 "Проверка на сертификат">
 <!ENTITY enableOCSP.label                "Използване на Online Certificate Status Protocol (OCSP) за потвърждаване валидността на сертификатите.">
 <!ENTITY enableOCSP.accesskey            "O">
 <!ENTITY requireOCSP.label               "Когато няма връзката с OCSP сървъра сертификатът да се счита за невалиден">
@@ -131,12 +131,12 @@
 <!ENTITY UACompatGroup.label    "Съвместимост">
 <!ENTITY UACompat.label         "Режим на потребителския агент:">
 <!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompat.Gecko         "Gecko съвместимост">
+<!ENTITY UACompat.Firefox       "Firefox съвместимост">
 
 <!ENTITY scrollparamTab.label               "Превъртане">
 <!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
-<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.to                    "до">
 <!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
 <!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
 <!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">

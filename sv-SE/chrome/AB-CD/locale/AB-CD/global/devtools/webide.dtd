@@ -124,31 +124,31 @@
 <!ENTITY prefs_options_templatesurl "Mall-URL">
 <!ENTITY prefs_options_templatesurl_tooltip "Index över tillgängliga mallar">
 <!ENTITY prefs_options_showeditor "Visa redigerare">
-<!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
+<!ENTITY prefs_options_showeditor_tooltip "Visa intern redigerare">
 <!ENTITY prefs_options_tabsize "Flikstorlek">
-<!ENTITY prefs_options_expandtab "Soft tabs">
-<!ENTITY prefs_options_expandtab_tooltip "Use spaces instead of the tab character">
-<!ENTITY prefs_options_detectindentation "Autoindent">
-<!ENTITY prefs_options_detectindentation_tooltip "Guess indentation based on source content">
-<!ENTITY prefs_options_autocomplete "Autocomplete">
-<!ENTITY prefs_options_autocomplete_tooltip "Enable code autocompletion">
-<!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
-<!ENTITY prefs_options_autoclosebrackets_tooltip "Automatically insert closing brackets">
-<!ENTITY prefs_options_keybindings "Keybindings">
+<!ENTITY prefs_options_expandtab "Mjuka tabbar">
+<!ENTITY prefs_options_expandtab_tooltip "Använd mellanslag istället för tabb">
+<!ENTITY prefs_options_detectindentation "Autoindentera">
+<!ENTITY prefs_options_detectindentation_tooltip "Gissa indentering baserat på källkod">
+<!ENTITY prefs_options_autocomplete "Autokomplettering">
+<!ENTITY prefs_options_autocomplete_tooltip "Aktivera kodkomplettering">
+<!ENTITY prefs_options_autoclosebrackets "Stäng parenteser automatiskt">
+<!ENTITY prefs_options_autoclosebrackets_tooltip "Infoga automatiskt avslutande parentes">
+<!ENTITY prefs_options_keybindings "Tangentbindningar">
 <!ENTITY prefs_options_keybindings_default "Standard">
 
 <!-- Permissions Table -->
-<!ENTITY permissionstable_title "Permissions Table">
+<!ENTITY permissionstable_title "Rättighetstabell">
 <!ENTITY permissionstable_name_header "Namn">
 
 <!-- Runtime Details -->
-<!ENTITY runtimedetails_title "Runtime Info">
+<!ENTITY runtimedetails_title "Körtidsinfo">
 <!ENTITY runtimedetails_adbIsRoot "ADB är root: ">
-<!ENTITY runtimedetails_summonADBRoot "root device">
-<!ENTITY runtimedetails_ADBRootWarning "(requires unlocked bootloader)">
-<!ENTITY runtimedetails_unrestrictedPrivileges "Unrestricted DevTools privileges: ">
-<!ENTITY runtimedetails_requestPrivileges "request higher privileges">
-<!ENTITY runtimedetails_privilegesWarning "(Will reboot device. Requires root access.)">
+<!ENTITY runtimedetails_summonADBRoot "rotenhet">
+<!ENTITY runtimedetails_ADBRootWarning "(kräver upplåst uppstartshanterare)">
+<!ENTITY runtimedetails_unrestrictedPrivileges "Obegränsade DevTools-privilegier: ">
+<!ENTITY runtimedetails_requestPrivileges "begär högre privilegier">
+<!ENTITY runtimedetails_privilegesWarning "(Kommer att starta om enheten. Kräver root-åtkomst.)">
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "Boolesk">
@@ -158,40 +158,40 @@
 <!ENTITY device_typenone "Välj en typ">
 
 <!-- Device Preferences -->
-<!ENTITY devicepreference_title "Device Preferences">
-<!ENTITY devicepreference_search "Search preferences">
-<!ENTITY devicepreference_newname "New preference name">
-<!ENTITY devicepreference_newtext "Preference value">
-<!ENTITY devicepreference_addnew "Add new preference">
+<!ENTITY devicepreference_title "Enhetsinställningar">
+<!ENTITY devicepreference_search "Sökinställningar">
+<!ENTITY devicepreference_newname "Nytt inställningsnamn">
+<!ENTITY devicepreference_newtext "Inställningsvärde">
+<!ENTITY devicepreference_addnew "Lägg till ny inställning">
 
 <!-- Device Settings -->
 <!ENTITY devicesetting_title "Enhetsinställningar">
 <!ENTITY devicesetting_search "Sökinställningar">
-<!ENTITY devicesetting_newname "New setting name">
-<!ENTITY devicesetting_newtext "Setting value">
+<!ENTITY devicesetting_newname "Nytt inställningsnamn">
+<!ENTITY devicesetting_newtext "Inställningsvärde">
 <!ENTITY devicesetting_addnew "Lägga till ny inställning">
 
 <!-- Monitor -->
-<!ENTITY monitor_title "Monitor">
-<!ENTITY monitor_help "Help">
+<!ENTITY monitor_title "Övervakare">
+<!ENTITY monitor_help "Hjälp">
 
 <!-- WiFi Authentication -->
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
      that instructs the user to transfer an authentication token to the
      server. -->
-<!ENTITY wifi_auth_header "Client Identification">
+<!ENTITY wifi_auth_header "Klientidentifering">
 <!-- LOCALIZATION NOTE (wifi_auth_scan_request): Instructions requesting the
      user to transfer authentication info by scanning a QR code. -->
-<!ENTITY wifi_auth_scan_request "The endpoint you are connecting to needs more information to authenticate this connection.  Please scan the QR code below via the prompt on your other device.">
+<!ENTITY wifi_auth_scan_request "Den slutpunkt du ansluter till, behöver mer information för att autentisera anslutningen.  Ange QR-koden i dialogen nedan som visas på din andra enhet.">
 <!-- LOCALIZATION NOTE (wifi_auth_no_scanner): Link text to assist users with
      devices that can't scan a QR code. -->
-<!ENTITY wifi_auth_no_scanner "No QR scanner prompt?">
+<!ENTITY wifi_auth_no_scanner "Ingen QR-skannerfråga?">
 <!-- LOCALIZATION NOTE (wifi_auth_yes_scanner): Link text to assist users with
      devices that can scan a QR code. -->
-<!ENTITY wifi_auth_yes_scanner "Have a QR scanner prompt?">
+<!ENTITY wifi_auth_yes_scanner "Använd QR-skannerfråga?">
 <!-- LOCALIZATION NOTE (wifi_auth_token_request): Instructions requesting the
      user to transfer authentication info by transferring a token. -->
-<!ENTITY wifi_auth_token_request "If your other device asks for a token instead of scanning a QR code, please copy the value below to the other device:">
+<!ENTITY wifi_auth_token_request "Om den andra enheten frågar efter en token i stället för att skanna en QR-kod, vänligen kopiera värdet nedan till den andra enheten:">
 
 <!-- Logs panel -->
-<!ENTITY logs_title "Pre-packaging Command Logs">
+<!ENTITY logs_title "Förpaketeringskommandologgar">

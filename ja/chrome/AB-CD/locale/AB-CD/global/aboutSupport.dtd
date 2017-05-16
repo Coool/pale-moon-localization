@@ -50,9 +50,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "有効なプラグイン">
 <!ENTITY aboutSupport.appBasicsBuildConfig "ビルド設定">
 <!ENTITY aboutSupport.appBasicsUserAgent "ユーザエージェント">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "メモリ使用量">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "マルチプロセス Windows">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
 
 <!ENTITY aboutSupport.showDir.label "ディレクトリを開く">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -77,6 +80,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "グラフィックス">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "インクリメンタル GC">
 
@@ -96,3 +103,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "セーフモードを試す">
 <!ENTITY aboutSupport.restartInSafeMode.label "アドオンを無効にして再起動...">
+
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">

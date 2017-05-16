@@ -54,9 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins ativos">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuração da versão">
 <!ENTITY aboutSupport.appBasicsUserAgent "Agente de utilizador">
+<!ENTITY aboutSupport.appBasicsOS "SO">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilização de memória">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Janelas multi-processos">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Modo de segurança">
 
 <!ENTITY aboutSupport.showDir.label "Abrir diretório">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -81,6 +84,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Base de dados Places">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integridade">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificar integridade">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC incremental">
 
@@ -98,5 +105,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Tentar modo seguro">
+<!ENTITY aboutSupport.safeModeTitle "Modo seguro">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar com os extras desativados…">
+
+<!ENTITY aboutSupport.restartTitle "Reiniciar">
+<!ENTITY aboutSupport.restartNormal.label "Reiniciar normalmente…">

@@ -14,7 +14,7 @@
 <!ENTITY aboutSupport.crashes.title "Αναφορές κατάρρευσης">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "ID Αναφοράς">
+<!ENTITY aboutSupport.crashes.id "ID αναφοράς">
 <!ENTITY aboutSupport.crashes.sendDate "Υποβλήθηκε">
 <!ENTITY aboutSupport.crashes.allReports "Όλες οι αναφορές κατάρρευσης">
 <!ENTITY aboutSupport.crashes.noConfig "Αυτή η εφαρμογή δεν έχει ρυθμιστεί για να εμφανίζει αναφορές κατάρρευσης.">
@@ -25,23 +25,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Έκδοση">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Πειραματικές λειτουργίες">
+<!ENTITY aboutSupport.experimentsTitle "Πειραματικά χαρακτηριστικά">
 <!ENTITY aboutSupport.experimentName "Όνομα">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Περιγραφή">
 <!ENTITY aboutSupport.experimentActive "Ενεργό">
 <!ENTITY aboutSupport.experimentEndDate "Ημερομηνία λήξης">
-<!ENTITY aboutSupport.experimentHomepage "Αρχική σελίδα">
+<!ENTITY aboutSupport.experimentHomepage "Οικοσελίδα">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Βασικά εφαρμογής">
 <!ENTITY aboutSupport.appBasicsName "Όνομα">
 <!ENTITY aboutSupport.appBasicsVersion "Έκδοση">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID δημιουργίας">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Κανάλι Ενημερώσεων">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Κανάλι ενημερώσεων">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Ιστορικό ενημερώσεων">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Εμφάνιση ιστορικού ενημερώσεων">
 
@@ -52,17 +52,20 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "Φάκελος προφίλ">
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Ενεργές πρόσθετες λειτουργίες">
-<!ENTITY aboutSupport.appBasicsBuildConfig "Ρύθμιση παραμέτρων του Build">
+<!ENTITY aboutSupport.appBasicsBuildConfig "Διάρθρωση δημιουργίας">
 <!ENTITY aboutSupport.appBasicsUserAgent "Συμβολοσειρά παράγοντα χρήστη">
+<!ENTITY aboutSupport.appBasicsOS "ΛΣ">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Χρήση μνήμης">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Παράθυρα Πολυδιεργασίας">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Ασφαλής λειτουργία">
 
 <!ENTITY aboutSupport.showDir.label "Άνοιγμα καταλόγου">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Προβολή στην &quot;Εύρεση&quot;">
+<!ENTITY aboutSupport.showMac.label "Προβολή στην «Εύρεση»">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.showWin.label "Προβολή φακέλου">
@@ -81,12 +84,16 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Γραφικά">
 
-<!ENTITY aboutSupport.jsTitle "JavaScript">
-<!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
+<!ENTITY aboutSupport.placeDatabaseTitle "Βάση δεδομένων «Places»">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Ακεραιότητα">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Επαλήθευση ακεραιότητας">
 
-<!ENTITY aboutSupport.a11yTitle "Προσιτότητα">
+<!ENTITY aboutSupport.jsTitle "JavaScript">
+<!ENTITY aboutSupport.jsIncrementalGC "ΣΣ προσαύξησης">
+
+<!ENTITY aboutSupport.a11yTitle "Προσβασιμότητα">
 <!ENTITY aboutSupport.a11yActivated "Ενεργοποιήθηκε">
-<!ENTITY aboutSupport.a11yForceDisabled "Να μην επιτρέπεται η προσιτότητα">
+<!ENTITY aboutSupport.a11yForceDisabled "Αποτροπή προσβασιμότητας">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Εκδόσεις βιβλιοθήκης">
 
@@ -94,9 +101,12 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.updateHistoryTitle "Ιστορικό ενημερώσεων">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Αντιγραφή κειμένου στο πρόχειρο">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Αντιγραφή δεδομένων raw στο πρόχειρο">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Αντιγραφή ακατέργαστων δεδομένων στο πρόχειρο">
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
 <!ENTITY aboutSupport.safeModeTitle "Δοκιμάστε την ασφαλή λειτουργία">
 <!ENTITY aboutSupport.restartInSafeMode.label "Επανεκκίνηση με τα πρόσθετα απενεργοποιημένα…">
+
+<!ENTITY aboutSupport.restartTitle "Δοκιμάστε επανεκκίνηση">
+<!ENTITY aboutSupport.restartNormal.label "Κανονική επανεκκίνηση…">

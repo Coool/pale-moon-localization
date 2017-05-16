@@ -51,9 +51,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Включённые плагины">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Конфигурация сборки">
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
+<!ENTITY aboutSupport.appBasicsOS "ОС">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Использование памяти">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Многопроцессные окна">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Безопасный режим">
 
 <!ENTITY aboutSupport.showDir.label "Открыть каталог">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -78,6 +81,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Графика">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "База данных Places">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Целостность">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Проверить целостность">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Инкрементальный GC">
 
@@ -97,3 +104,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Попробовать безопасный режим">
 <!ENTITY aboutSupport.restartInSafeMode.label "Перезапустить с отключёнными дополнениями…">
+
+<!ENTITY aboutSupport.restartTitle "Попробовать перезапуск">
+<!ENTITY aboutSupport.restartNormal.label "Выполнить обычный перезапуск…">

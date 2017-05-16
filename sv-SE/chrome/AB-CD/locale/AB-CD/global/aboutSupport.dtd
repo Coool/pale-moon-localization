@@ -54,9 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Aktiva insticksmoduler">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Byggkonfiguration">
 <!ENTITY aboutSupport.appBasicsUserAgent "Användaragent">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Minnesanvändning">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Flerprocessfönster">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Felsäkert läge">
 
 <!ENTITY aboutSupport.showDir.label "Öppna katalog">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -81,6 +84,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafik">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Platsdatabas">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integritet">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verifiera integritet">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
 
@@ -100,3 +107,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Försök med felsäkert läge">
 <!ENTITY aboutSupport.restartInSafeMode.label "Starta om utan tillägg…">
+
+<!ENTITY aboutSupport.restartTitle "Prova omstart">
+<!ENTITY aboutSupport.restartNormal.label "Starta om vanligt…">
