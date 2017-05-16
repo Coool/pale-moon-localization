@@ -14,25 +14,25 @@
 <!ENTITY deniedPortAccess.longDesc "<p>Den efterfrågade adressen specificerade en port (t.ex. <q>palemoon.org:25</q> för port 25 på palemoon.org) som normalt sett används för <em>andra syften</em> än surfning. Webbläsaren har avbrutit förfrågan för att skydda dig och din dator.</p>">
 
 <!ENTITY dnsNotFound.title "Adressen hittades inte">
-<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<p>Webbläsaren kunde inte hitta värdservern för adressen.</p> <ul><li>Gjorde du ett misstag när du skriver domänen? (t.ex. <q><strong>ww</strong>. mozilla.org</q> istället för <q><strong>www</strong>. mozilla.org</q>)</li> <li>Är du säker på att denna domänadress finns?  Dess registrering kan ha upphört att gälla.</li> <li>Kan du inte nå andra webbplatser?  Kontrollera din nätverksanslutning och DNS-serverinställningar.</li> <li>Är datorn eller nätverket skyddat  av en brandvägg eller proxy?  Felaktiga inställningar kan störa surfning.</li></ul>">
 
 <!ENTITY fileNotFound.title "Filen kan inte hittas">
-<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
+<!ENTITY fileNotFound.longDesc "<ul><li>Kan objektet har bytt namn, tagits bort eller omplacerats?</li> <li>Finns det en stavning, kapitalisering eller andra typografiska fel i adressen?</li> <li>Har du tillräckliga åtkomstbehörigheter till det önskade objektet?</li></ul>">
 
 <!ENTITY generic.title "Kan inte slutföra begäran">
-<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
+<!ENTITY generic.longDesc "<p>Ytterligare information om det här problemet är inte tillgänglig för tillfället.</p>">
 
 <!ENTITY malformedURI.title "Felaktig Adress">
-<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
+<!ENTITY malformedURI.longDesc "<p>Formatet på den angivna adressen är okänd. Kontrollera texten i adressfältet och försök igen.</p>">
 
 <!ENTITY netInterrupt.title "Dataöverföringen avbröts">
-<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netInterrupt.longDesc "<p>Webbläsaren anslöts korrekt, men anslutningen avbröts medan information överfördes.  Vänligen försök igen.</p> <ul><li>Kan du inte nå andra webbplatser? Kontrollera datorns nätverksanslutning.</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
 
 <!ENTITY notCached.title "Utgånget dokument">
 <!ENTITY notCached.longDesc "<p>Det efterfrågade dokumentet finns inte längre i webbläsarens cacheminne.</p><ul><li>Av säkerhetsskäl försöker inte webbläsaren automatiskt att hämta om känsliga dokument.</li><li>Klicka på Försök igen för att åter hämta dokumentet från webbplatsen.</li></ul>">
 
 <!ENTITY netOffline.title "Offline-läge">
-<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
+<!ENTITY netOffline.longDesc2 "<p>Webbläsaren körs i nedkopplat läge och kan inte ansluta till det begärda objektet.</p><ul><li>Är datorn ansluten till ett aktivt nätverk?</li><li>Tryck på &quot;Försök igen&quot; för att växla till uppkopplat läge och ladda om sidan.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Kodningsfel av innehållet">
 <!ENTITY contentEncodingError.longDesc "<p>Sidan du försöker se kan inte visas på grund av att den använder en felaktig eller ej stödd sorts komprimering.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">
@@ -45,25 +45,25 @@
 ">
 
 <!ENTITY netReset.title "Anslutningen avbröts">
-<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
+<!ENTITY netReset.longDesc "<p>Nätverkslänken avbröts samtidigt som en anslutning höll på att upprättas. Vänligen försök igen.</p>">
 
 <!ENTITY netTimeout.title "Tidsgränsen för nätverket överskreds">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>Den sökta webbplatsen svarade inte på en begäran om anslutning och webbläsaren har slutat vänta på ett svar.</p> <ul><li>Kan servern uppleva hög efterfrågan eller ett tillfälligt avbrott?  Försök igen senare.</li> <li>Kan du inte surfa till andra webbplatser? Kontrollera datorns nätverksanslutning.</li> <li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?  Felaktiga inställningar kan störa surfning.</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Okänt protokoll">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Adressen anger ett protokoll (t.ex. <q>wxyz: / /</q>) som webbläsaren inte känner igen, så webbläsaren kan inte ansluta till webbplatsen.</p> <ul><li>Försöker du komma åt multimedia eller andra icke-text-tjänster? Kontrollera webbplatsen för extra krav.</li> <li>Vissa protokoll kan kräva programvara från tredje part eller plugins innan webbläsaren kan känna igen dem.</li></ul>">
 
 <!ENTITY proxyConnectFailure.title "Proxyserver vägrade anslutning">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.longDesc "<p>Webbläsaren har konfigurerats för att använda en proxyserver, men proxyn vägrade en anslutning.</p> <ul><li>Är webbläsarens proxy-konfigurationen korrekt? Kontrollera inställningarna och prova igen.</li> <li>Tillåter proxytjänsten anslutningar från detta nätverk?</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Proxyservern hittades inte">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<p>Webbläsaren har konfigurerats för att använda en proxyserver, men proxyn vägrade en anslutning.</p> <ul><li>Är webbläsarens proxy-konfigurationen korrekt? Kontrollera inställningarna och prova igen.</li> <li>Är datorn ansluten till ett fungerande nätverk?</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
 
 <!ENTITY redirectLoop.title "Omdirigera Loop">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY redirectLoop.longDesc "<p>Webbläsaren har avbrutit förfrågan att hämta det begärda objektet. Sidan försöker att omdirigera förfrågan på ett sätt som aldrig kommer att slutföras.</p><ul><li>Har du stängt av eller blockerat kakor som krävs av denna sida?</li><li><em>OBS</em>: Om att acceptera sidans kakor inte löste problemet är det med största sannolikhet ett problem med servern och inte din dator.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Felaktigt svar">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.longDesc "<p>Sidan svarade på nätverksförfrågan på ett oväntat och webbläsaren kan därför inte fortsätta.</p>">
 
 <!ENTITY nssFailure2.title "Säker anslutning misslyckades">
 <!ENTITY nssFailure2.longDesc2 "<p>Sidan du försöker se kan inte visas på grund av att den mottagna datans äkthet ej kunde fastställas.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">

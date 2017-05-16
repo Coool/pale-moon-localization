@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Dit adres heeft beperkte toegang">
-<!ENTITY deniedPortAccess.longDesc "<p>Het opgegeven adres specificeert een poort (bijv. <q> palemoon.org:25 </q> voor poort 25 op palemoon.org) die normaal gesproken gebruikt wordt voor <em> andere </em> doeleinden dan webbrowsen. De browser heeft het verzoek terwille van uw bescherming en veiligheid geannuleerd.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Het opgegeven adres specificeerde een poort (bijv. <q> palemoon.org:25 </q> voor poort 25 op palemoon.org) die normaal gesproken gebruikt wordt voor <em> andere </em> doeleinden dan webbrowsen. De browser heeft het verzoek terwille van uw bescherming en veiligheid geannuleerd.</p>">
 
 <!ENTITY dnsNotFound.title "Server niet gevonden">
 <!ENTITY dnsNotFound.longDesc "
@@ -204,10 +204,10 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Rapporteeer deze fout">
-<!ENTITY errorReporting.longDesc "Rapportage van het adres en de certificaatinformatie voor <span id='hostname'></span> zal ons helpen kwaadaardige sites te identificeren en blokkeren. Bedankt voor het helpen creëren van een veiliger web!">
-<!ENTITY errorReporting.automatic "Rapporteer fouten automatisch">
-<!ENTITY errorReporting.learnMore "Meer info…">
+<!ENTITY errorReporting.title "Rapporteer deze fout">
+<!ENTITY errorReporting.longDesc "Rapportage van het adres en de certificaatinformatie voor <span id='hostname'></span> zal ons helpen kwaadaardige sites te identificeren en blokkeren. Bedankt voor het helpen bij het creëren van een veiliger web!">
+<!ENTITY errorReporting.automatic "Rapporteer in de toekomst fouten automatisch">
+<!ENTITY errorReporting.learnMore "Meer informatie…">
 <!ENTITY errorReporting.sending "Rapport verzenden">
 <!ENTITY errorReporting.sent "Rapport verzonden">
 <!ENTITY errorReporting.report "Melden">
@@ -216,8 +216,8 @@ functionality specific to firefox. -->
 <!ENTITY remoteXUL.title "Externe XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Veilige verbinding niet mogelijk">
+<!ENTITY sslv3Used.title "Veilig verbinden niet mogelijk">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Geavanceerde informatie: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Meer info…">
+<!ENTITY sslv3Used.learnMore "Meer informatie…">

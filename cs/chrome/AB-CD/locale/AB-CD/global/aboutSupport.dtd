@@ -54,9 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Povolené zásuvné moduly">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Nastavení sestavení">
 <!ENTITY aboutSupport.appBasicsUserAgent "Identifikace prohlížeče">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Spotřeba paměti">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocesová okna">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Nouzový režim">
 
 <!ENTITY aboutSupport.showDir.label "Otevřít složku">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -81,6 +84,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Databáze umístění">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrita">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Zkontrolovat integritu">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Inkrementální GC">
 
@@ -100,3 +107,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Vyzkoušet nouzový režim">
 <!ENTITY aboutSupport.restartInSafeMode.label "Restartovat se zakázanými doplňky…">
+
+<!ENTITY aboutSupport.restartTitle "Vyzkoušet restartování">
+<!ENTITY aboutSupport.restartNormal.label "Restartovat normálně…">

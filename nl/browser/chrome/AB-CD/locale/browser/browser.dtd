@@ -87,9 +87,9 @@ can reach it easily. -->
 <!ENTITY pageInfoCmd.commandkey "i">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
-<!ENTITY enterFullScreenCmd.label "Schermvullende weergave">
+<!ENTITY enterFullScreenCmd.label "In volledig scherm uitvoeren">
 <!ENTITY enterFullScreenCmd.accesskey "S">
-<!ENTITY exitFullScreenCmd.label "Schermvullende weergave verlaten">
+<!ENTITY exitFullScreenCmd.label "Volledig scherm verlaten">
 <!ENTITY exitFullScreenCmd.accesskey "S">
 <!ENTITY fullScreenCmd.label "Volledig scherm">
 <!ENTITY fullScreenCmd.accesskey "d">
@@ -102,14 +102,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Sluiten">
 <!ENTITY fullScreenAutohide.label "Werkbalken verbergen">
 <!ENTITY fullScreenAutohide.accesskey "W">
-<!ENTITY fullScreenExit.label "Volledigschermmodus verlaten">
+<!ENTITY fullScreenExit.label "Modus volledig scherm afsluiten">
 <!ENTITY fullScreenExit.accesskey "d">
 <!ENTITY fullscreenAllowButton.label "Toestaan">
 <!ENTITY fullscreenExitButton.label "Weigeren">
-<!ENTITY fullscreenApproval.value "Volledig scherm toestaan?">
+<!ENTITY fullscreenApproval.value "Volledig Scherm toestaan?">
 
-<!ENTITY fullscreenExitHint.value "Druk op ESC om de volledigschermmodus te verlaten.">
-<!ENTITY leaveDOMFullScreen.label "Volledig scherm verlaten">
+<!ENTITY fullscreenExitHint.value "Druk op ESC om de modus Volledig Scherm te verlaten.">
+<!ENTITY leaveDOMFullScreen.label "Volledig Scherm verlaten">
 <!ENTITY leaveDOMFullScreen.accesskey "v">
 
 <!ENTITY closeWindow.label "Venster sluiten">
@@ -139,11 +139,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadCmd.label              "Vernieuwen">
 <!ENTITY reloadCmd.accesskey          "n">
 <!ENTITY reloadButton.tooltip         "Huidige pagina vernieuwen">
-<!ENTITY stopCmd.label                "Stoppen">
+<!ENTITY stopCmd.label                "Stop">
 <!ENTITY stopCmd.accesskey            "S">
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Het laden van deze pagina stoppen">
-<!ENTITY goEndCap.tooltip             "Naar het adres in de locatiebalk gaan">
+<!ENTITY goEndCap.tooltip             "Ga naar het adres in de locatiebalk">
 <!ENTITY printButton.label            "Afdrukken">
 <!ENTITY printButton.tooltip          "Deze pagina afdrukken">
 
@@ -155,7 +155,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Menu">
-<!ENTITY appMenuButton.tooltip        "&brandShortName;-menu openen">
+<!ENTITY appMenuButton.tooltip        "Open &brandShortName; menu">
 <!ENTITY homeButton.label             "Startpagina">
 
 <!ENTITY feedButton.label             "Abonneren">
@@ -184,7 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY toolsMenu.label              "Extra">
 <!ENTITY toolsMenu.accesskey          "x"> 
 
-<!ENTITY keywordfield.label           "Sleutelwoord voor deze zoektocht toevoegen…">
+<!ENTITY keywordfield.label           "Sleutelwoord voor deze zoekopdracht toevoegen…">
 <!ENTITY keywordfield.accesskey       "S">
 <!ENTITY search.label                 "Zoeken op het web">
 <!ENTITY search.accesskey             "Z">
@@ -221,7 +221,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.accesskey "R">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
-<!ENTITY eyedropper.label   "Eyedropper">
+<!ENTITY eyedropper.label   "Pipet">
 <!ENTITY eyedropper.accesskey "Y">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
@@ -246,7 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext "Ontwikkelaarswerkbalk sluiten">
 <!ENTITY devToolbarMenu.label              "Ontwikkelaarswerkbalk">
 <!ENTITY devToolbarMenu.accesskey          "O">
-<!ENTITY devAppMgrMenu.label               "App Manager">
+<!ENTITY devAppMgrMenu.label               "Applicatiebeheerder">
 <!ENTITY devAppMgrMenu.accesskey           "A">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
@@ -316,9 +316,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY historyMenu.label "Geschiedenis">
 <!ENTITY historyMenu.accesskey "G">
-<!ENTITY historyUndoMenu.label "Onlangs gesloten tabbladen">
+<!ENTITY historyUndoMenu.label "Recent gesloten tabbladen">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
-<!ENTITY historyUndoWindowMenu.label "Onlangs gesloten vensters">
+<!ENTITY historyUndoWindowMenu.label "Recent gesloten vensters">
 <!ENTITY historyRestoreLastSession.label "Vorige sessie herstellen">
 
 <!ENTITY historyHomeCmd.label "Startpagina">
@@ -327,7 +327,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Bewerken">
 <!ENTITY appMenuCustomize.label "Aanpassen">
-<!ENTITY appMenuToolbarLayout.label "Werkbalkindeling…">
+<!ENTITY appMenuToolbarLayout.label "Werkbalk Opmaak…">
 <!ENTITY appMenuSidebars.label "Zijbalken">
 <!ENTITY appMenuFind.label "Zoeken…">
 <!ENTITY appMenuUnsorted.label "Ongesorteerde bladwijzers">
@@ -371,7 +371,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmd.accesskey        "v">
 <!ENTITY openLinkInPrivateWindowCmd.label "Koppeling openen in nieuw privévenster">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "p">
-<!ENTITY openLinkCmdInCurrent.label     "Koppeling openen">
+<!ENTITY openLinkCmdInCurrent.label     "Koppeling openen in huidig tabblad">
 <!ENTITY openLinkCmdInCurrent.accesskey "o">
 <!ENTITY openFrameCmdInTab.label      "Deelvenster openen in nieuw tabblad">
 <!ENTITY openFrameCmdInTab.accesskey  "t">
@@ -487,7 +487,7 @@ items are mutually exclusive. -->
 <!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Belachelijke snelheid (2×)">
+<!ENTITY mediaPlaybackRate200x.label "Dubbele snelheid (2×)">
 <!ENTITY mediaPlaybackRate200x.accesskey "B">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
@@ -532,7 +532,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY fullZoomToggleCmd.label        "Alleen tekst zoomen">
 <!ENTITY fullZoomToggleCmd.accesskey    "t">
-<!ENTITY fullZoom.label                 "Zoomen">
+<!ENTITY fullZoom.label                 "In-/uitzoomen">
 <!ENTITY fullZoom.accesskey             "o">
 
 <!ENTITY newTabButton.tooltip           "Een nieuw tabblad openen">
@@ -543,7 +543,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY copyButton.tooltip             "Kopiëren">
 <!ENTITY pasteButton.tooltip            "Plakken">
 
-<!ENTITY fullScreenButton.tooltip       "Het venster weergeven in volledig scherm">
+<!ENTITY fullScreenButton.tooltip       "Het venster weergeven in Volledig Scherm">
 
 <!ENTITY zoomOutButton.tooltip          "Uitzoomen">
 <!ENTITY zoomInButton.tooltip           "Inzoomen">
@@ -598,7 +598,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label "Woordenboeken toevoegen…">
 <!ENTITY spellAddDictionaries.accesskey "W">
 
-<!ENTITY editBookmark.done.label                     "Klaar">
+<!ENTITY editBookmark.done.label                     "Gereed">
 <!ENTITY editBookmark.cancel.label                   "Annuleren">
 <!ENTITY editBookmark.removeBookmark.accessKey       "v">
 
@@ -646,7 +646,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY webrtcIndicatorButton.label "Camera-/microfoontoegang">
 <!ENTITY webrtcIndicatorButton.tooltip "Websites waarmee u momenteel uw camera of microfoon deelt weergeven">
 
-<!ENTITY mixedContentBlocked.helplink "Meer info ">
+<!ENTITY mixedContentBlocked.helplink "Meer informatie">
 <!ENTITY mixedContentBlocked.moreinfo "De meeste websites zullen juist blijven werken zelfs als deze inhoud is geblokkeerd.">
 
 <!ENTITY pointerLock.notification.message "Druk op ESC om het nogmaals te tonen.">

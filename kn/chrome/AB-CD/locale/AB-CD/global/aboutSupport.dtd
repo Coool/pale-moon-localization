@@ -50,9 +50,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸು">
 <!ENTITY aboutSupport.appBasicsBuildConfig "ನಿರ್ಮಾಣದ ಸಂರಚನೆ">
 <!ENTITY aboutSupport.appBasicsUserAgent "ಬಳಕೆದಾರ ಮಧ್ಯವರ್ತಿ">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "ಮೆಮೊರಿಯ ಬಳಕೆ">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
 
 <!ENTITY aboutSupport.showDir.label "ಕೋಶವನ್ನು ತೆರೆ">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -77,6 +80,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "ಗ್ರಾಫಿಕ್ಸ್‍">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+
 <!ENTITY aboutSupport.jsTitle "ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್‍">
 <!ENTITY aboutSupport.jsIncrementalGC "ಏರಿಕೆಯ GC">
 
@@ -96,3 +103,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
 <!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">

@@ -86,10 +86,10 @@
 <!ENTITY netTimeout.title "Връзката изтече">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.title "Адресът не бе разбран">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+  <li>Може да се наложи да инсталирате друга програма за да отворите този адрес.</li>
 </ul>
 ">
 
@@ -131,8 +131,8 @@
 <!ENTITY nssFailure2.title "Сигурната връзка не беше осъществена">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+  <li>Не може да видите тази страница, тъй като автентичността на получените данни не може да се удостовери.</li>
+  <li>Моля свържете се с собствениците на интернет страницата за да ги уведомите за този проблем.</li>
 </ul>
 ">
 
@@ -204,21 +204,21 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.title "Съобщи за тази грешка">
 <!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.automatic "Автоматично докладвай за грешки в бъдеще">
+<!ENTITY errorReporting.learnMore "Научете повече…">
+<!ENTITY errorReporting.sending "Изпращане на отчет">
+<!ENTITY errorReporting.sent "Доклада е изпратен">
+<!ENTITY errorReporting.report "Подаване на сигнал">
+<!ENTITY errorReporting.tryAgain "Опитайте отново">
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p>Технологията  Remote XUL вече е остаряла и не дава необходимото ниво на сигурност</p>
 <ul><li>Моля, свържете се със собствениците на уеб сайта, за да ги информирате за проблема.</li></ul>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Неуспешно защитено свързване">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "Допълнителна информация: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Научете повече…">

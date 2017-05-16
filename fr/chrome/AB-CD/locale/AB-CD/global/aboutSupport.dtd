@@ -54,9 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins activés">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuration de compilation">
 <!ENTITY aboutSupport.appBasicsUserAgent "Agent utilisateur">
+<!ENTITY aboutSupport.appBasicsOS "Système d'exploitation">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilisation mémoire">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Fenêtres multiprocessus">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Mode sans échec">
 
 <!ENTITY aboutSupport.showDir.label "Ouvrir le répertoire">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -81,6 +84,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Accélération graphique">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Base de données Places">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Intégrité">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Vérifier l’intégrité">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Ramasse-miettes incrémentiel">
 
@@ -100,3 +107,6 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Essayer en mode sans échec">
 <!ENTITY aboutSupport.restartInSafeMode.label "Redémarrer avec les modules désactivés…">
+
+<!ENTITY aboutSupport.restartTitle "Essayer de redémarrer">
+<!ENTITY aboutSupport.restartNormal.label "Redémarrer normalement…">
