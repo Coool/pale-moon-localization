@@ -11,9 +11,9 @@
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "Rapor Kimliği">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
+<!ENTITY aboutSupport.crashes.sendDate "Gönderildi">
 <!ENTITY aboutSupport.crashes.allReports "Tüm Çökme Raporları">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.noConfig "Bu uygulama çökme raporlarını görüntülemek için yapılandırılmamış.">
 
 <!ENTITY aboutSupport.extensionsTitle "Eklentiler">
 <!ENTITY aboutSupport.extensionName "Adı">
@@ -21,23 +21,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Sürüm">
 <!ENTITY aboutSupport.extensionId "Kimlik">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentsTitle "Deneysel Özellikler">
 <!ENTITY aboutSupport.experimentName "Adı">
 <!ENTITY aboutSupport.experimentId "Kimlik">
 <!ENTITY aboutSupport.experimentDescription "Tanımlama">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
+<!ENTITY aboutSupport.experimentActive "Etkin">
+<!ENTITY aboutSupport.experimentEndDate "Bitiş Tarihi">
 <!ENTITY aboutSupport.experimentHomepage "Ana sayfa">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Uygulama temelleri">
 <!ENTITY aboutSupport.appBasicsName "Adı">
 <!ENTITY aboutSupport.appBasicsVersion "Sürüm">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Kimlik oluştur">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Güncelleştirme Kanalı">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Güncelleme geçmişi">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Güncelleme geçmişini göster">
 
@@ -50,12 +50,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Devredeki yan uygulamalar">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Yapılandırma">
 <!ENTITY aboutSupport.appBasicsUserAgent "Kullanıcı aracı">
-<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsOS "İşletim Sistemi">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Bellek kullanımı">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Çok İşlemeli Windows">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsSafeMode "Güvenli Mod">
 
 <!ENTITY aboutSupport.showDir.label "Dizini aç">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -74,15 +74,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js Tercihleri">
 <!ENTITY aboutSupport.userJSDescription "Profil klasörünüz, &brandShortName; tarafından oluşturulmamış tercihler içeren bir <a id='prefs-user-js-link'>user.js dosyası</a> içeriyor.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Önemli Kilitli Tercihler">
+<!ENTITY aboutSupport.lockedPrefsName "Adı">
+<!ENTITY aboutSupport.lockedPrefsValue "Değer">
 
 <!ENTITY aboutSupport.graphicsTitle "Çizimler">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Yerler Veritabanı">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Bütünlük">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Bütünlüğü Doğrula">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Artırımlı GC">
@@ -99,10 +99,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Metni panoya kopyala">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Ham metni panoya kopyala">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxTitle "Sandbox (Güvenli Bölge)">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Güvenli Modu Deneyin">
+<!ENTITY aboutSupport.restartInSafeMode.label "Eklentileri devre dışı bırakıp tekrar başlat…">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "Yeniden Başlatmayı Deneyin">
+<!ENTITY aboutSupport.restartNormal.label "Normal olarak yeniden başlatın…">

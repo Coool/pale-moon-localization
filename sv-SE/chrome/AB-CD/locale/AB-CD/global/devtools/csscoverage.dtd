@@ -30,8 +30,8 @@
   -  separated by a styled <link> tag and 2 and 3 separated by a styled
   -  <style> tag -->
 <!ENTITY csscoverage.optimize.body1 "Du kan ibland påskynda inläsning genom att flytta">
-<!ENTITY csscoverage.optimize.body2 "tags to the bottom of the page and creating a new inline">
-<!ENTITY csscoverage.optimize.body3 "element with the styles needed before the 'load' event to the top. Here are the style blocks you need:">
+<!ENTITY csscoverage.optimize.body2 "taggar till botten av sidan och skapa en ny inline">
+<!ENTITY csscoverage.optimize.body3 "element med stilar som behövs före laddningshändelsen ovan. Här är de stilblock du behöver:">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->
@@ -44,4 +44,4 @@
 <!ENTITY csscoverage.footer1 "Se">
 <!ENTITY csscoverage.footer2a "https://developer.mozilla.org/docs/Tools/CSS_Coverage">
 <!ENTITY csscoverage.footer3 "MDN-artikeln om CSS-täckningsverktyget">
-<!ENTITY csscoverage.footer4 "for caveats in the generation of this report.">
+<!ENTITY csscoverage.footer4 "för varningar i genereringen av denna rapport.">
