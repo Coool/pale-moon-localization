@@ -21,7 +21,7 @@
 <!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
   -  the iframes menu list that appears only when the document has some.
   -  It allows you to switch the context of the whole toolbox. -->
-<!ENTITY toolboxFramesTooltip          "Select an iframe as the currently targeted document">
+<!ENTITY toolboxFramesTooltip          "Halihazırda hedeflenen belge olarak bir iframe seçin">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
@@ -79,7 +79,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Uzaktan hata ayıklamayı etkinleştir">
-<!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Bu seçeneği açmak, geliştirici araçlarının Firefox OS'taki gibi uzak Firefox örneğinde hata ayıklamasına olanak tanıyacak">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -90,13 +90,13 @@
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
-<!ENTITY options.disableCache.label2     "Disable Cache (when toolbox is open)">
-<!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
+<!ENTITY options.disableCache.label2     "Önbelleği Devre Dışı Bırak (araç kutusu açıkken)">
+<!ENTITY options.disableCache.tooltip2   "Bu seçeneği açmak, araç kutusu açık olan tüm sekmeler için önbelleği devre dışı bırakır.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Default Pale Moon Developer Tools">
+<!ENTITY options.selectDefaultTools.label     "Varsayılan Pale Moon Geliştirici Araçları">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -121,8 +121,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Use Developer Edition browser theme">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.label   "Geliştirici Sürümü tarayıcı temasını kullan">
+<!ENTITY options.usedeveditiontheme.tooltip "Geliştirici Sürümü tarayıcı temasını açar veya kapatır.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -131,7 +131,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "Zaman damgalarını etkinleştir">
-<!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
+<!ENTITY options.timestampMessages.tooltip    "Bu seçeneği etkinleştirirseniz, Web Konsolundaki komutlar ve çıktı bir zaman damgası görüntüler">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -177,8 +177,8 @@ Goanna platform symbols">
   -  section. -->
 
 <!ENTITY options.sourceeditor.label                     "Düzenleyici Tercihleri">
-<!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
+<!ENTITY options.sourceeditor.detectindentation.label   "Girintiyi algıla">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Kaynak içeriğine göre tahmini girinti">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Parantezleri otomatik kapa">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Kapanış parantezlerini otomatik olarak ekle">
 <!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">

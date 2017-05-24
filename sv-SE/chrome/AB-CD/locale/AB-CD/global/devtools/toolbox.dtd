@@ -73,7 +73,7 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label4    "Aktivera chrome och felsökning av tillägg">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.tooltip2  "Aktivera det här alternativet gör att du kan använda olika utvecklingsverktyg och felsöka webbläsartillägg från Tilläggshanteraren">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -121,8 +121,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Use Developer Edition browser theme">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.label   "Använd webbläsartemat för Developer Edition">
+<!ENTITY options.usedeveditiontheme.tooltip "Växlar Developer Edition-tema.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -141,12 +141,12 @@
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label      "Visa originalkällan">
-<!ENTITY options.stylesheetSourceMaps.tooltip    "Show original sources (e.g. Sass files) in the Style Editor and Inspector">
+<!ENTITY options.stylesheetSourceMaps.tooltip    "Visa ursprungliga källor (t.ex. Sass filer) i Stileditorn och Inspektör">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
 <!ENTITY options.stylesheetAutocompletion.label      "Komplettera automatiskt CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Autokomplettera CSS-egenskaper, värden och selektorer när du skriver i stileditorn">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
@@ -163,20 +163,19 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "Aktivera beständiga loggar">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.tooltip  "Om du aktiverar detta alternativ kommer webbkonsolen och nätverksmonitorn inte rensa utdatan varje gång du går till en ny sida">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
 <!ENTITY options.showPlatformData.label    "Visa plattformsdata för Goanna">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Goanna platform symbols">
+<!ENTITY options.showPlatformData.tooltip  "Om du aktiverar detta alternativ kommer JavaScript-profilerarens rapporter inkludera plattformsymboler för Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
+<!ENTITY options.sourceeditor.label                     "Redigerarinställningar">
 <!ENTITY options.sourceeditor.detectindentation.label   "Detektera indentering">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "Gissa indentering baserat på källkod">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Stäng parenteser automatiskt">
