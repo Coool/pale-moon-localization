@@ -49,7 +49,7 @@
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.hex): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.hex "Hex">
+<!ENTITY options.defaultColorUnit.hex "Onaltılık">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.hsl): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
@@ -67,13 +67,13 @@
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Current session only, reloads the page">
+<!ENTITY options.context.triggersPageRefresh  "* Yalnızca geçerli oturumda, sayfayı yeniden yükler">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.label4    "Chrome ve eklenti hata ayıklamayı etkinleştir">
+<!ENTITY options.enableChrome.tooltip2  "Bu seçeneği açtığınızda, tarayıcı bağlamında çeşitli geliştirici araçlarını kullanmanıza ve Eklentiler Yöneticisi'nden eklentileri ayıklamanıza izin verilir">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -145,13 +145,13 @@
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
-<!ENTITY options.stylesheetAutocompletion.label      "Autocomplete CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.label      "Otomatik Tamamlama CSS">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Yazarken Stil Düzenleyicisindeki CSS özellikleri, değerleri ve seçicilerini otomatik tamamla">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
   -  panel. -->
-<!ENTITY options.profiler.label            "JavaScript Profiler">
+<!ENTITY options.profiler.label            "JavaScript Profilcisi">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
@@ -163,15 +163,14 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "Kalıcı günlükleri etkinleştir">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.tooltip  "Bu seçeneği etkinleştirirseniz, Web Konsolu ve Ağ İzleyicisi yeni bir sayfaya her gittiğinizde çıktıyı temizlemeyecek">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
 <!ENTITY options.showPlatformData.label    "Goanna Platformu Verilerini Göster">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Goanna platform symbols">
+<!ENTITY options.showPlatformData.tooltip  "Bu seçeneği etkinleştirirseniz, JavaScript Profilci raporları Goanna platform sembollerini içerecektir">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
@@ -181,8 +180,8 @@ Goanna platform symbols">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "Kaynak içeriğine göre tahmini girinti">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Parantezleri otomatik kapa">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Kapanış parantezlerini otomatik olarak ekle">
-<!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
+<!ENTITY options.sourceeditor.expandtab.label           "Boşluklar kullanarak girinti oluştur">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Sekme karakteri yerine boşluk kullan">
 <!ENTITY options.sourceeditor.tabsize.label             "Sekme boyutu">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
 <!ENTITY options.sourceeditor.keybinding.label          "Tuş eşlemleri">

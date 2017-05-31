@@ -10,7 +10,7 @@
 <!ENTITY device.debugMainProcess "Debug main process">
 <!ENTITY device.debugMainProcessTooltip "Otvori razvojne alate vezane za glavni proces na uređaju">
 <!ENTITY device.screenshot "Snimak zaslona">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
+<!ENTITY device.screenshotTooltip "Otvori u novoj kartici snimku zaslona trenutnog stanja uređaja">
 <!ENTITY device.title "Kontrolni centar uređaja">
 <!ENTITY device.notConnected "Nije povezan. Povežite uređaj ispod.">
 <!ENTITY device.startApp "Pokreni">
@@ -18,7 +18,7 @@
 <!ENTITY device.stopApp "Stani">
 <!ENTITY device.stopAppTooltip "Zaustavi ovu aplikaciju na uređaju">
 <!ENTITY device.debugApp "Otklanjanje pogrešaka">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
+<!ENTITY device.debugAppTooltip "Otvori razvojne alate spojene na ovu aplikaciju na uređaju">
 <!ENTITY device.name "Naziv">
 <!ENTITY device.plain "Običan (zadano)">
 <!ENTITY device.privileged "Privilegirani">
@@ -42,18 +42,18 @@
 
 <!ENTITY connection.connectTooltip "Poveži se s uređajem">
 <!ENTITY connection.disconnect "Odspoji">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
+<!ENTITY connection.disconnectTooltip "Odspoji sa trenutnog uređaja ili simulatora">
 <!ENTITY connection.notConnected2 "Nije povezano.">
 <!ENTITY connection.connectTo "Spoji sa:">
 <!ENTITY connection.noDeviceFound "Nema pronađenih uređaja. Uključite uređaj">
 <!ENTITY connection.changeHostAndPort "Promijeni">
 <!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
+<!ENTITY connection.startSimulator "Pokreni simulator">
 <!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
 <!ENTITY connection.saveConnectionInfo "Spremi">
 <!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
 <!ENTITY connection.connecting "Povezivanje…">
-<!ENTITY connection.disconnecting "Disconnecting…">
+<!ENTITY connection.disconnecting "Odspajam…">
 <!ENTITY connection.cancel "Otkaži">
 <!ENTITY connection.cancelConnectTooltip "Otkaži vezu u tijeku">
 <!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
@@ -77,7 +77,7 @@
 <!ENTITY projects.updateApp "Update">
 <!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
 <!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
+<!ENTITY projects.debugAppTooltip "Otvori razvojne alate spojene na ovu aplikaciju">
 <!ENTITY projects.saveManifest "Spremi">
 <!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
@@ -99,5 +99,5 @@
 <!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
 <!ENTITY help.configuringDevice "How to setup your Firefox OS device">
 <!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
+<!ENTITY help.simulatorAddon "Instaliraj dodatak simulatora">
 <!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
