@@ -130,7 +130,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
-<!ENTITY netmonitorUI.footer.perf   "Toggle performance analysis…">
+<!ENTITY netmonitorUI.footer.perf   "Performans Analizini Aç/Kapat…">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
@@ -208,11 +208,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.protocol): A tooltip
   -  for warning icon that indicates a connection uses insecure protocol. -->
-<!ENTITY netmonitorUI.security.warning.sslv3      "The protocol SSL 3.0 is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.sslv3      "SSL 3.0 protokolü kullanımdan kaldırılmış ve güvensizdir.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
-<!ENTITY netmonitorUI.security.warning.cipher     "The cipher used for encryption is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.cipher     "Şifreleme için kullanılan şifre kullanımdan kaldırılmış ve güvensizdir.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
@@ -224,15 +224,15 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
-<!ENTITY netmonitorUI.security.cipherSuite "Cipher suite:">
+<!ENTITY netmonitorUI.security.cipherSuite "Şifreleme paketi:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hsts): This is the label displayed
   -  in the security tab describing the usage of HTTP Strict Transport Security. -->
-<!ENTITY netmonitorUI.security.hsts "HTTP Strict Transport Security:">
+<!ENTITY netmonitorUI.security.hsts "HTTP Sıkı Aktarım Güvenliği:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hpkp): This is the label displayed
   -  in the security tab describing the usage of Public Key Pinning. -->
-<!ENTITY netmonitorUI.security.hpkp "Public Key Pinning:">
+<!ENTITY netmonitorUI.security.hpkp "Genel Anahtar Sabitleme:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.connection): This is the label displayed
   -  in the security tab describing the section containing information related to
@@ -267,7 +267,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri): This is the label displayed
   -  on the context menu that copies the selected image as data uri -->
-<!ENTITY netmonitorUI.context.copyImageAsDataUri "Copy Image as Data URI">
+<!ENTITY netmonitorUI.context.copyImageAsDataUri "Görüntüyü Veri URI'sı Olarak Kopyala">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri.accesskey): This is the access key
   -  for the Copy Image As Data URI menu item displayed in the context menu for a request -->
@@ -319,7 +319,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.postData     "Request Body:">
+<!ENTITY netmonitorUI.custom.postData     "İstek Gövdesi:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->
