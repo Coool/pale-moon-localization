@@ -1,0 +1,44 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  connectionsDialog.title       "Mga Kagustuhan sa Koneksyon">
+<!ENTITY  window.width                  "37em">
+<!ENTITY  window.macWidth               "39em">
+
+<!ENTITY  proxyTitle.label              "Baguhin ang mga proxies na ginagamit upang makapunta sa Internet">
+<!ENTITY  noProxyTypeRadio.label        "Walang proxy">
+<!ENTITY  noProxyTypeRadio.accesskey    "y">
+<!ENTITY  systemTypeRadio.label         "Gamitin ang mga kagustuhan sa proxy ng sistema">
+<!ENTITY  systemTypeRadio.accesskey     "u">
+<!ENTITY  WPADTypeRadio.label           "Kusang-tumuklas ng mga kagustuhan sa proxy ng network na ito">
+<!ENTITY  WPADTypeRadio.accesskey       "w">
+<!ENTITY  manualTypeRadio.label         "Mano-manong pagbabago sa proxy:">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY  autoTypeRadio.label           "URL ng kusang pagbabago ng proxy:">
+<!ENTITY  autoTypeRadio.accesskey       "A">
+<!ENTITY  reload.label                  "Reload">
+<!ENTITY  reload.accesskey              "e">
+<!ENTITY  ftp.label                     "Proxy ng FTP:">
+<!ENTITY  ftp.accesskey                 "F">
+<!ENTITY  http.label                    "Proxy ng HTTP:">
+<!ENTITY  http.accesskey                "x">
+<!ENTITY  ssl.label                     "Proxy ng SSL:">
+<!ENTITY  ssl.accesskey                 "L">
+<!ENTITY  socks.label                   "Host ng SOCKS:">
+<!ENTITY  socks.accesskey               "C">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "K">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  port.label                    "Port:">
+<!ENTITY  HTTPport.accesskey            "P">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "r">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY  noproxy.label                 "Walang Proxy para sa:">
+<!ENTITY  noproxy.accesskey             "n">
+<!ENTITY  noproxyExplain.label          "Halimbawa: .palemoon.org, .net.nz, 192.168.1.0/24">
+<!ENTITY  shareproxy.label              "Gamitin ang proxy server na ito para sa lahat ng mga protocol">
+<!ENTITY  shareproxy.accesskey          "s">
