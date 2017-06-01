@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Mga Kagustuhan Para sa Bar ng Estado ng Pale Moon">
+
+<!ENTITY status4evar.pane.status "Kalagayan">
+<!ENTITY status4evar.pane.progress "Progreso">
+<!ENTITY status4evar.pane.download "Download">
+<!ENTITY status4evar.pane.statusbar "Bar ng Kalagayan">
+<!ENTITY status4evar.pane.advanced "Advanced">
+
+<!ENTITY status4evar.tab.general "Pangkalahatan">
+<!ENTITY status4evar.tab.toolbar "Bar ng Estado">
+<!ENTITY status4evar.tab.urlbar "Bar ng Address">
+<!ENTITY status4evar.tab.popup "Pop-up">
+<!ENTITY status4evar.tab.tabs "Mga Tab">
+
+<!ENTITY status4evar.option.none "Wala">
+<!ENTITY status4evar.option.nothing "Wala">
+<!ENTITY status4evar.option.toolbar "Bar ng Kalagayan">
+<!ENTITY status4evar.option.urlbar "Bar ng Direksyon">
+<!ENTITY status4evar.option.popup "Pop-up">
+<!ENTITY status4evar.option.tooltip "Mga Mensaheng Pantulong">
+<!ENTITY status4evar.option.bottom "Ibaba">
+<!ENTITY status4evar.option.top "Tuktok">
+<!ENTITY status4evar.option.fill "Punuin">
+<!ENTITY status4evar.option.dlcount "Bilang ng download">
+<!ENTITY status4evar.option.dltime "Nalalabing oras">
+<!ENTITY status4evar.option.both "Parehas">
+<!ENTITY status4evar.option.right "Kanan">
+<!ENTITY status4evar.option.left "Kaliwa">
+<!ENTITY status4evar.option.fixed "Nakapirmi">
+<!ENTITY status4evar.option.simple "Simple">
+<!ENTITY status4evar.option.advanced "Advanced">
+<!ENTITY status4evar.option.browse "I-browse">
+<!ENTITY status4evar.option.clear "Tanggalin">
+<!ENTITY status4evar.option.center "Gitna">
+<!ENTITY status4evar.option.offset "Galawin">
+<!ENTITY status4evar.option.repeat "Ulitin">
+<!ENTITY status4evar.option.no-repeat "Walang Ulit">
+<!ENTITY status4evar.option.space "Espasyo">
+<!ENTITY status4evar.option.round "Bilog">
+<!ENTITY status4evar.option.firefoxdefault "Paunang-tukoy ng Pale Moon">
+<!ENTITY status4evar.option.download.library "Aklatan">
+<!ENTITY status4evar.option.download.tab "Tab">
+<!ENTITY status4evar.option.download.thirdparty "Ikatlong partido">
+
+<!ENTITY status4evar.unit.milliseconds "milliseconds">
+<!ENTITY status4evar.unit.seconds "seconds">
+<!ENTITY status4evar.unit.px "px">
+
+<!ENTITY status4evar.status.general.status.caption "Kalagayan ng Teksto">
+<!ENTITY status4evar.status.label "Ipakita ang kalagayan sa:">
+<!ENTITY status4evar.status.timeout.label "Itago ang kalagayan matapos ang:">
+<!ENTITY status4evar.status.default.label "Ipakita ang pauang-tukoy na kalagayan">
+<!ENTITY status4evar.status.network.label "Ipakita ang kalagayan ng network">
+<!ENTITY status4evar.status.network.xhr.label "Ipakita ang background na kalagayan ng network">
+<!ENTITY toolkit.dom.status.change.label "Payagan ang mga pahina sa web na palitan ang kalagayan">
+
+<!ENTITY status4evar.status.general.linkOver.caption "Mga Kawing">
+<!ENTITY status4evar.status.linkOver.label "Ipakita ang mga kawing sa:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Pagkaantala bago ipakita ang mga kawing:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Pagkaantala bago itago ang mga kawing:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "Pinakamataas na haba ng teksto sa kalagayan:">
+
+<!ENTITY status4evar.status.urlbar.align.label "Pagkakahanay ng kalagayan:">
+<!ENTITY status4evar.status.urlbar.color.label "Kulay ng kalagayan:">
+<!ENTITY status4evar.status.currentUrl "Kasalukuyang lokasyon">
+<!ENTITY status4evar.status.statusText "Kalagayan ng Teksto">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibility features">
+<!ENTITY browser.urlbar.formatting.enabled.label "Paganahin ang pag-marka sa mga domain">
+<!ENTITY browser.urlbar.trimming.enabled.label "Paganahin ang pagtago ng protokol (http:// and ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "Paunang-tukoy sa kanang bahagi">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Magpalit ng panig pag iniligay ang pointer sa harap">
+
+<!ENTITY status4evar.progress.style.label "Gumamit ng isang pasadyang istilo">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "Magpakita ng progreso sa Bar ng Address">
+<!ENTITY status4evar.progress.urlbar.line.label "Istilo ng Linya:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "Always show the status bar item">
+
+<!ENTITY status4evar.editor.label "Editor:">
+<!ENTITY status4evar.editor.css.color.label "Color:">
+<!ENTITY status4evar.editor.css.image.label "Image:">
+<!ENTITY status4evar.editor.css.image.repeat "Repeat">
+<!ENTITY status4evar.editor.css.image.position "Position">
+<!ENTITY status4evar.editor.css.image.offset "Offset">
+
+
+
+<!ENTITY status4evar.download.button.action.label "Download status button action:">
+<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
+<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
+<!ENTITY status4evar.download.label.label "Download status indicator text:">
+<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
+<!ENTITY status4evar.download.progress.label "Show download progress on the button">
+<!ENTITY status4evar.download.progress.average.label "Show average download completion">
+<!ENTITY status4evar.download.progress.max.label "Show most complete download">
+<!ENTITY status4evar.download.progress.min.label "Show least complete download">
+<!ENTITY status4evar.download.color.active.label "Progress color for active downloads:">
+<!ENTITY status4evar.download.color.paused.label "Progress color for paused downloads:">
+<!ENTITY status4evar.download.notify.animate.label "Animate button when download completes">
+<!ENTITY status4evar.download.notify.timeout.label "Highlight button when download completes:">
+
+<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
+<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
+<!ENTITY status4evar.addonbar.closeButton "Show the close button">
+
+<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the the Address Bar XBL binding.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "Detect full-screen mode and show links/status appropriately.">
+<!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">

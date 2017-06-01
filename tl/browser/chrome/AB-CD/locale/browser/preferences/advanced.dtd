@@ -1,0 +1,148 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "Pangkalahatan">
+
+<!ENTITY accessibility.label             "Aksesibilidad">
+
+<!ENTITY useCursorNavigation.label       "Laging gamitin ang cursor key upang maka-galaw sa loob ng mga pahina">
+<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY searchStartTyping.label         "Hanapin ang mga teksto kapag sinimulan ko ang pag-type">
+<!ENTITY searchStartTyping.accesskey     "x">
+<!ENTITY blockAutoRefresh.label          "Balaan ako kapag ang mga website ay sumubok na ibahin o i-reload ang pahina">
+<!ENTITY blockAutoRefresh.accesskey      "b">
+
+<!ENTITY browsing.label                  "Pag-browse">
+
+<!ENTITY useAutoScroll.label             "Gamitin ang autoscrolling">
+<!ENTITY useAutoScroll.accesskey         "a">
+<!ENTITY useSmoothScrolling.label        "Gamitin ang smooth scrolling">
+<!ENTITY useSmoothScrolling.accesskey    "m">
+<!ENTITY allowHWAccel.label              "Gamitin ang hardware acceleration kung ito ay maaring gamitin">
+<!ENTITY allowHWAccel.accesskey          "r">
+<!ENTITY checkSpelling.label             "Suriin ang aking pagbabaybay habang ako ay nagta-type">
+<!ENTITY checkSpelling.accesskey         "t">
+
+<!ENTITY systemDefaults.label            "Paunang-tukoy ng sistema">
+<!ENTITY alwaysCheckDefault.label        "Laging suriin upang makita kung ang &brandShortName; ay ang default na browser sa pagbukas"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "w">
+<!ENTITY setDefault.label                "Gawing &brandShortName; ang iyong paunang-tukoy na browser">
+<!ENTITY setDefault.accesskey            "d">
+<!ENTITY isDefault.label                 "&brandShortName; ay kasalukuyang iyong paunang-tukoy na browser">
+
+<!ENTITY dataChoicesTab.label            "Pagpili ng mga datos">
+
+<!ENTITY crashReporterSection.label      "Taga-ulat ng Pagpalya">
+<!ENTITY crashReporterDesc.label         "&brandShortName; ay nagsusumite ng ulat tungkol sa pagpalya na makakatulong sa &vendorShortName; na gawin ang iyong browser na maging mas matatag at ligtas">
+<!ENTITY enableCrashReporter.label       "Paganahin ang Taga-ulat ng Pagpalya">
+<!ENTITY enableCrashReporter.accesskey   "C">
+<!ENTITY crashReporterLearnMore.label    "Matuto nang higit pa">
+
+<!ENTITY networkTab.label                "Network">
+
+<!ENTITY connection.label                "Koneksyon">
+
+<!ENTITY connectionDesc.label            "Baguhin kung paano kumonekta ang &brandShortName; sa Internet">
+<!ENTITY connectionSettings.label        "Mga Kagustuhan…">
+<!ENTITY connectionSettings.accesskey    "e">
+
+<!ENTITY httpCache.label                 "Naka-cache na nilalaman mula sa Web">
+
+<!ENTITY offlineStorage2.label           "Lokal na nilalaman ng web at datos ng gumagamit">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "Limitahan ang imbakan sa">
+<!ENTITY limitCacheSizeBefore.accesskey  "L">
+<!ENTITY limitCacheSizeAfter.label       "MB ng espasyo">
+<!ENTITY clearCacheNow.label             "Tanggalin na">
+<!ENTITY clearCacheNow.accesskey         "C">
+<!ENTITY clearOfflineAppCacheNow.label   "Tanggalin na">
+<!ENTITY clearOfflineAppCacheNow.accesskey "N">
+<!ENTITY overrideSmartCacheSize.label    "Manipulahin ang kusang pangangasiwa ng cache">
+<!ENTITY overrideSmartCacheSize.accesskey "O">
+
+<!ENTITY updateTab.label                 "Update">
+
+<!ENTITY updateApp.label                 "&brandShortName; updates:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Kusang mag-talaga ng mga update">
+<!ENTITY updateAuto1.accesskey           "A">
+<!ENTITY updateAutoMetro.label           "Kusang mag-talaga ng mga update mula sa desktop at Windows 8 istilo &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateCheck.label               "Magsuri para sa mga update, ngunit hayaan na pumili ako kung akin itong itatalaga">
+<!ENTITY updateCheck.accesskey           "C">
+<!ENTITY updateManual.label              "Hindi kailanman susuri para sa mga update (hindi inirerekomenda)">
+<!ENTITY updateManual.accesskey          "N">
+
+<!ENTITY updateAutoAddonWarn.label       "Balaan ako kung hindi nito pagaganahin ang kahit ano sa aking mga add-on">
+<!ENTITY updateAutoAddonWarn.accesskey   "W">
+
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8 istilo ng &brandShortName; ay hindi sinusuri ang compatibilidad nito sa mga add-on)">
+
+<!ENTITY updateHistory.label             "Ipakita ang kasaysayan ng mga update">
+<!ENTITY updateHistory.accesskey         "p">
+
+<!ENTITY updateOthers.label              "Kusang mag-update ng mga:">
+<!ENTITY enableSearchUpdate.label        "Mga Search Engine">
+<!ENTITY enableSearchUpdate.accesskey    "E">
+
+<!ENTITY offlineNotify.label             "Sabihin mo sa akin kapag nagtanong ang isang website na kung maari itong mag-imbak ng datos para sa lokal na paggamit">
+<!ENTITY offlineNotify.accesskey         "T">
+<!ENTITY offlineAppsPermissions.label    "Kapag nagtanong ang isang website kung maari itong mag-imbak ng datos para sa lokal na paggamit:">
+<!ENTITY offlineAppsPermissions.Allow    "Pinapayagan base sa paunang-tukoy">
+<!ENTITY offlineAppsPermissions.Ask      "Laging magtanong">
+<!ENTITY offlineAppsPermissions.Deny     "Tanggihan">
+<!ENTITY offlineNotifyExceptions.label   "Mga Hindi Kasama…">
+<!ENTITY offlineNotifyExceptions.accesskey "x">
+
+<!ENTITY offlineAppsList2.label          "Ang mga sumusunod na website ay pinahihintulutang mag-imbak ng datos para sa local na paggamit:">
+<!ENTITY offlineAppsList.height          "8em">
+<!ENTITY offlineAppsListRemove.label     "Alisin…">
+<!ENTITY offlineAppsListRemove.accesskey "R">
+<!ENTITY offlineAppRemove.confirm        "Alisin ang lokal na datos">
+
+<!ENTITY certificateTab.label            "Mga Sertipiko">
+<!ENTITY certGroup.label                 "Personal na Sertipiko">
+<!ENTITY certSelection.description       "Kapag ang isang server ay hinihiling ang aking personal na sertipiko:">
+<!ENTITY certs.auto                      "Kusang pumili ng isa">
+<!ENTITY certs.auto.accesskey            "l">
+<!ENTITY certs.ask                       "Tanungin ako palagi">
+<!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "Pagpapatunoy sa Sertipiko">
+<!ENTITY enableOCSP.label                "Gamitin ang OCSP upang kumpirmahin ang bisa ng sertipiko">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "Kapag nabigo ang koneksiyon sa server ng OCSP, tratuhin ang sertipiko bilang walang bisa">
+<!ENTITY requireOCSP.accesskey           "f">
+<!ENTITY viewCerts.label                 "Tingnan ang Mga Sertipiko">
+<!ENTITY viewCerts.accesskey             "s">
+<!ENTITY viewSecurityDevices.label       "Kagamitang Pang-seguridad">
+<!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY UACompatGroup.label    "Compatibilidad">
+<!ENTITY UACompat.label         "Paraan ng User Agent:">
+<!ENTITY UACompat.Native        "Likas">
+<!ENTITY UACompat.Gecko         "Compatibilidad ng Gecko">
+<!ENTITY UACompat.Firefox       "Compatibilidad ng Firefox">
+
+<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY smoothscroll.explain.label         "Ang mga parametro sa ibaba ay may epekto lamang kung ang smooth na pag-scroll ay pinagana sa kubuuan kasama ang checkbox sa itaas.">
+<!ENTITY smoothscroll.to                    "sa">
+<!ENTITY smoothscroll.params.label          "Mga parametro ng smooth scrolling">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll kasama ang mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Tagal ng pag-scroll ng mouse wheel:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll kasama ang mga arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Tagal ng pag-scroll ng mga arrow keys:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll ng page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Tagal ng pag-scroll ng page up/down:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll kasama ang scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Tagal ng smooth na pag-scroll ng scrollbar:">
