@@ -9,19 +9,19 @@
 <!ENTITY  copy.label            "Kopyahin">
 <!ENTITY  copy.accesskey        "C">
 <!ENTITY  selectall.key         "A">
-<!ENTITY  selectall.label       "Select All">
+<!ENTITY  selectall.label       "Piliin Lahat">
 <!ENTITY  selectall.accesskey   "A">
 <!ENTITY  closeWindow.key       "w">
 
-<!ENTITY  generalTab            "General">
+<!ENTITY  generalTab            "Pangkalahatan">
 <!ENTITY  generalTab.accesskey  "G">
 <!ENTITY  generalURL            "Address:">
-<!ENTITY  generalType           "Type:">
+<!ENTITY  generalType           "Uri:">
 <!ENTITY  generalMode           "Render Mode:">
 <!ENTITY  generalSize           "Size:">
 <!ENTITY  generalReferrer       "Referring URL:">
 <!ENTITY  generalSource         "Cache Source:">
-<!ENTITY  generalModified       "Modified:">
+<!ENTITY  generalModified       "Nabago:">
 <!ENTITY  generalEncoding       "Encoding:">
 <!ENTITY  generalMetaName       "Name">
 <!ENTITY  generalMetaContent    "Content">
@@ -30,13 +30,13 @@
 
 <!ENTITY  mediaTab              "Media">
 <!ENTITY  mediaTab.accesskey    "M">
-<!ENTITY  mediaLocation         "Location:">
+<!ENTITY  mediaLocation         "Lokasyon:">
 <!ENTITY  mediaText             "Associated Text:">
 <!ENTITY  mediaAltHeader        "Alternate Text">
 <!ENTITY  mediaAddress          "Address">
-<!ENTITY  mediaType             "Type">
+<!ENTITY  mediaType             "Uri">
 <!ENTITY  mediaSize             "Size">
-<!ENTITY  mediaCount            "Count">
+<!ENTITY  mediaCount            "Bilang">
 <!ENTITY  mediaDimension        "Dimensions:">
 <!ENTITY  mediaLongdesc         "Long Description:">
 <!ENTITY  mediaBlockImage.accesskey "B">
@@ -45,7 +45,7 @@
 <!ENTITY  mediaSaveAs2.accesskey "e">
 <!ENTITY  mediaPreview          "Media Preview:">
 
-<!ENTITY  feedTab               "Feeds">
+<!ENTITY  feedTab               "Mga Feed">
 <!ENTITY  feedTab.accesskey     "F">
 <!ENTITY  feedSubscribe         "Subscribe">
 <!ENTITY  feedSubscribe.accesskey "u">
@@ -54,26 +54,26 @@
 <!ENTITY  permTab.accesskey          "P">
 <!ENTITY  permUseDefault             "Use Default">
 <!ENTITY  permAskAlways              "Always ask">
-<!ENTITY  permAllow                  "Allow">
-<!ENTITY  permAllowSession           "Allow for Session">
+<!ENTITY  permAllow                  "Payagan">
+<!ENTITY  permAllowSession           "Payagan para sa Sesyon">
 <!ENTITY  permAllowFirstPartyOnly    "Allow First Party Only">
-<!ENTITY  permBlock                  "Block">
+<!ENTITY  permBlock                  "Harangin">
 <!ENTITY  permissionsFor             "Permissions for:">
-<!ENTITY  permImage                  "Load Images">
+<!ENTITY  permImage                  "Mag-load ng mga imahe">
 <!ENTITY  permPopup                  "Open Pop-up Windows">
 <!ENTITY  permCookie                 "Set Cookies">
 <!ENTITY  permNotifications          "Show Notifications">
-<!ENTITY  permInstall                "Install Extensions or Themes">
-<!ENTITY  permGeo                    "Share Location">
-<!ENTITY  permPlugins                "Activate Plugins">
+<!ENTITY  permInstall                "Mag-talaga ng mga Extensiyon o ng mga Tema">
+<!ENTITY  permGeo                    "Ibahagi ang Lokasyon">
+<!ENTITY  permPlugins                "Paganahin ang mga Plugin">
 <!ENTITY  permFullscreen             "Enter Fullscreen">
-<!ENTITY  permPointerLock2           "Hide the Mouse Pointer">
+<!ENTITY  permPointerLock2           "Itago ang panturo ng mouse">
 
 <!ENTITY  permIndexedDB              "Maintain Offline Storage">
 <!ENTITY  permClearStorage           "Clear Storage">
 <!ENTITY  permClearStorage.accesskey "C">
 
-<!ENTITY  securityTab           "Security">
+<!ENTITY  securityTab           "Seguridad">
 <!ENTITY  securityTab.accesskey "S">
 <!ENTITY  securityHeader        "Security information for this page">
 <!ENTITY  securityView.certView "View Certificate">
@@ -81,7 +81,7 @@
 <!ENTITY  securityView.unknown   "Unknown">
 
 
-<!ENTITY  securityView.identity.header   "Website Identity">
+<!ENTITY  securityView.identity.header   "Pagkakakilanlan ng Website">
 <!ENTITY  securityView.identity.owner    "Owner:">
 <!ENTITY  securityView.identity.domain   "Website:">
 <!ENTITY  securityView.identity.verifier "Verified by:">

@@ -4,8 +4,8 @@
 
 <!ENTITY certmgr.title                       "Tagapamahala ng Sertipiko">
 
-<!ENTITY certmgr.tab.mine                     "Your Certificates">
-<!ENTITY certmgr.tab.others2                  "People">
+<!ENTITY certmgr.tab.mine                     "Aking Mga Sertipiko">
+<!ENTITY certmgr.tab.others2                  "Mga Tao">
 <!ENTITY certmgr.tab.websites3                "Servers">
 <!ENTITY certmgr.tab.ca                       "Authorities">
 <!ENTITY certmgr.tab.orphan2                  "Others">
@@ -16,19 +16,19 @@
 <!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
 <!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
 
-<!ENTITY certmgr.detail.general_tab.title     "General">
+<!ENTITY certmgr.detail.general_tab.title     "Pangkalahatan">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
 <!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
 <!ENTITY certmgr.pending.label                "Currently verifying certificate…">
 <!ENTITY certmgr.subjectinfo.label            "Issued To">
-<!ENTITY certmgr.issuerinfo.label             "Issued By">
+<!ENTITY certmgr.issuerinfo.label             "Ibinigay Ni">
 <!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
 <!ENTITY certmgr.fingerprints.label           "Fingerprints">
 <!ENTITY certmgr.certdetail.title             "Certificate Detail">
 <!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organization (O)">
+<!ENTITY certmgr.certdetail.o                 "Organisasyon (O)">
 <!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
 <!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA-256 Fingerprint">
@@ -46,7 +46,7 @@
 
 <!ENTITY certmgr.deletecert.title             "Delete Certificate">
 
-<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certname                     "Pangalan ng Sertipiko">
 <!ENTITY certmgr.certserver                   "Server">
 <!ENTITY certmgr.override_lifetime            "Lifetime">
 <!ENTITY certmgr.tokenname                    "Security Device">
@@ -57,7 +57,7 @@
 
 <!ENTITY certmgr.close.label                  "Close">
 <!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.label                  "Tanaw…">
 <!ENTITY certmgr.view2.accesskey              "V">
 <!ENTITY certmgr.edit3.label                  "Edit Trust…">
 <!ENTITY certmgr.edit3.accesskey              "E">
@@ -81,19 +81,19 @@
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
 <!ENTITY certmgr.hierarchy.accesskey2         "H">
-<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.label           "Magdagdag ng Eksepsyon…">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Add Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.title                   "Magdagdag ng Ekspesyon sa Seguridad">
+<!ENTITY exceptionMgr.exceptionButton.label   "Kumpirmahin ang Eksepsyon sa Seguridad">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
 <!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
 <!ENTITY exceptionMgr.certlocation.caption2   "Server">
 <!ENTITY exceptionMgr.certlocation.url        "Location:">
-<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.certlocation.download   "Kunin ang Sertipiko">
 <!ENTITY exceptionMgr.certlocation.accesskey  "G">
 <!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
 <!ENTITY exceptionMgr.certstatus.viewCert     "View…">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.label         "Permanenteng iimbak itong eksepsyon">
 <!ENTITY exceptionMgr.permanent.accesskey     "P">

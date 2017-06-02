@@ -3,49 +3,49 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle                   "Tagapamahala ng mga Add-on">
 
-<!ENTITY search.placeholder                   "Search all add-ons">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.placeholder                   "Hanapin sa lahat ng mga add-on">
+<!ENTITY search.buttonlabel                   "Hanapin">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
 
-<!ENTITY loading.label                        "Loading…">
-<!ENTITY listEmpty.installed.label            "You don't have any add-ons of this type installed">
-<!ENTITY listEmpty.availableUpdates.label     "No updates found">
+<!ENTITY loading.label                        "Naglo-load…">
+<!ENTITY listEmpty.installed.label            "Wala kang add-on na may ganitong uri na naka-talaga">
+<!ENTITY listEmpty.availableUpdates.label     "Walang update ang natagpuan">
 <!ENTITY listEmpty.recentUpdates.label        "You haven't recently updated any add-ons">
-<!ENTITY listEmpty.findUpdates.label          "Check For Updates">
-<!ENTITY listEmpty.search.label               "Could not find any matching add-ons">
-<!ENTITY listEmpty.button.label               "Learn more about add-ons">
-<!ENTITY installAddonFromFile.label           "Install Add-on From File…">
+<!ENTITY listEmpty.findUpdates.label          "Tumingin Para sa Mga Update">
+<!ENTITY listEmpty.search.label               "Hindi makahanap ng anumang tumugma na mga add-on">
+<!ENTITY listEmpty.button.label               "Matuto ng higit pa tungkol sa mga add-on">
+<!ENTITY installAddonFromFile.label           "Mag-talaga ng Add-on Mula sa File…">
 <!ENTITY installAddonFromFile.accesskey       "I">
-<!ENTITY toolsMenu.tooltip                    "Tools for all add-ons">
+<!ENTITY toolsMenu.tooltip                    "Mga Tool para sa lahat ng mga add-on">
 
-<!ENTITY cmd.back.tooltip                     "Go back one page">
-<!ENTITY cmd.forward.tooltip                  "Go forward one page">
+<!ENTITY cmd.back.tooltip                     "Bumalik ng isang pahina">
+<!ENTITY cmd.forward.tooltip                  "Tumuloy ng isa pang pahina">
 
 <!-- global warnings -->
-<!ENTITY warning.safemode.label                    "All add-ons have been disabled by safe mode.">
+<!ENTITY warning.safemode.label                    "Lahat ng mga add-on ay hindi pinagana ng safe mode.">
 <!ENTITY warning.checkcompatibility.label          "Add-on compatibility checking is disabled. You may have incompatible add-ons.">
-<!ENTITY warning.checkcompatibility.enable.label   "Enable">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Enable add-on compatibility checking">
-<!ENTITY warning.updatesecurity.label              "Add-on update security checking is disabled. You may be compromised by updates.">
-<!ENTITY warning.updatesecurity.enable.label       "Enable">
-<!ENTITY warning.updatesecurity.enable.tooltip     "Enable add-on update security checking">
+<!ENTITY warning.checkcompatibility.enable.label   "Paganahin">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Paganahin ang pagsusuri sa compatibilidad ng mga add-on">
+<!ENTITY warning.updatesecurity.label              "Pagsusuri sa seguridad ng add-on ay hindi pinapagan. Maaring ikaw ay makompromiso ng mga update.">
+<!ENTITY warning.updatesecurity.enable.label       "Paganahin">
+<!ENTITY warning.updatesecurity.enable.tooltip     "Paganahin ang pagsusuri sa seguridad ng update ng add-on">
 
 <!-- global informations -->
-<!ENTITY info.plugincheck.label                 "Check to see if your plugins are up to date">
-<!ENTITY info.plugincheck.tooltip               "Check to see if your plugins are up to date">
+<!ENTITY info.plugincheck.label                 "Suriin upang makita kung ang iyong mga plugin ay napapanahon">
+<!ENTITY info.plugincheck.tooltip               "Suriin upang makita kung ang iyong mga plugin ay napapanahon">
 
 <!-- categories / views -->
-<!ENTITY view.search.label                    "Search">
-<!ENTITY view.discover.label                  "Get Add-ons">
-<!ENTITY view.recentUpdates.label             "Recent Updates">
+<!ENTITY view.search.label                    "Paghahanap">
+<!ENTITY view.discover.label                  "Kumuha ng Mga Add-on">
+<!ENTITY view.recentUpdates.label             "Mga Kamakailang Update">
 <!ENTITY view.availableUpdates.label          "Available Updates">
 
 <!-- addon updates -->
-<!ENTITY updates.checkForUpdates.label        "Check for Updates">
+<!ENTITY updates.checkForUpdates.label        "Tumingin Para sa Mga Update">
 <!ENTITY updates.checkForUpdates.accesskey    "C">
-<!ENTITY updates.viewUpdates.label            "View Recent Updates">
+<!ENTITY updates.viewUpdates.label            "Tingnan ang Mga Kamakailang Update">
 <!ENTITY updates.viewUpdates.accesskey        "V">
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
@@ -62,17 +62,17 @@
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "R">
 <!ENTITY updates.resetUpdatesToManual.label          "Reset All Add-ons to Update Manually">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "R">
-<!ENTITY updates.updating.label               "Updating add-ons">
-<!ENTITY updates.installed.label              "Your add-ons have been updated.">
-<!ENTITY updates.downloaded.label             "Your add-on updates have been downloaded.">
+<!ENTITY updates.updating.label               "Nag-uupdate ng mga add-on">
+<!ENTITY updates.installed.label              "Ang iyong mga add-on ay na-update na.">
+<!ENTITY updates.downloaded.label             "Ang mga update sa mga add-on ay na-download na.">
 <!ENTITY updates.restart.label                "Restart now to complete installation">
-<!ENTITY updates.noneFound.label              "No updates found">
+<!ENTITY updates.noneFound.label              "Walang update na natagpuan">
 <!ENTITY updates.manualUpdatesFound.label     "View Available Updates">
-<!ENTITY updates.updateSelected.label         "Install Updates">
+<!ENTITY updates.updateSelected.label         "Mag-talaga ng mga Update">
 <!ENTITY updates.updateSelected.tooltip       "Install available updates in this list">
 
 <!-- addon actions -->
-<!ENTITY cmd.showDetails.label                "Show More Information">
+<!ENTITY cmd.showDetails.label                "Ipakita ang Higit Pang Impormasyon">
 <!ENTITY cmd.showDetails.accesskey            "S">
 <!ENTITY cmd.findUpdates.label                "Find Updates">
 <!ENTITY cmd.findUpdates.accesskey            "F">
@@ -83,20 +83,20 @@
 <!ENTITY cmd.about.label                      "About">
 <!ENTITY cmd.about.accesskey                  "A">
 
-<!ENTITY cmd.enableAddon.label                "Enable">
+<!ENTITY cmd.enableAddon.label                "Paganahin">
 <!ENTITY cmd.enableAddon.accesskey            "E">
 <!ENTITY cmd.disableAddon.label               "Disable">
 <!ENTITY cmd.disableAddon.accesskey           "D">
-<!ENTITY cmd.enableTheme.label                "Wear Theme">
+<!ENTITY cmd.enableTheme.label                "Suotin ang Tema">
 <!ENTITY cmd.enableTheme.accesskey            "W">
-<!ENTITY cmd.disableTheme.label               "Stop Wearing Theme">
+<!ENTITY cmd.disableTheme.label               "Itigil ang pagsuot ng Tema">
 <!ENTITY cmd.disableTheme.accesskey           "W">
 <!ENTITY cmd.askToActivate.label              "Ask to Activate">
 <!ENTITY cmd.askToActivate.tooltip            "Ask to use this add-on each time">
 <!ENTITY cmd.alwaysActivate.label             "Always Activate">
 <!ENTITY cmd.alwaysActivate.tooltip           "Always use this add-on">
 <!ENTITY cmd.neverActivate.label              "Never Activate">
-<!ENTITY cmd.neverActivate.tooltip            "Never use this add-on">
+<!ENTITY cmd.neverActivate.tooltip            "Huwag gamitin itong add-on">
 <!ENTITY cmd.stateMenu.tooltip                "Change when this add-on runs">
 <!ENTITY cmd.installAddon.label               "Install">
 <!ENTITY cmd.installAddon.accesskey           "I">
@@ -105,7 +105,7 @@
 <!ENTITY cmd.debugAddon.label                 "Debug">
 <!ENTITY cmd.showPreferencesWin.label         "Options">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Change this add-on's options">
-<!ENTITY cmd.showPreferencesUnix.label        "Preferences">
+<!ENTITY cmd.showPreferencesUnix.label        "Mga Kagustuhan">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "Change this add-on's preferences">
 <!ENTITY cmd.contribute.label                 "Contribute">
 <!ENTITY cmd.contribute.accesskey             "C">
@@ -162,7 +162,7 @@
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Pause">
-<!ENTITY progress.cancel.tooltip              "Cancel">
+<!ENTITY progress.cancel.tooltip              "Kanselahin">
 
 
 <!-- list sorting -->
