@@ -5,7 +5,7 @@
 <!ENTITY rights.locale-direction "ltr">
 <!ENTITY rights.pagetitle       "about:rights">
 <!ENTITY rights.intro-header    "Tungkol sa Iyong Mga Karapatan">
-<!ENTITY rights.intro "&brandFullName; is free and open source software, built by a community of thousands from all over the world. There are a few things you should know:">
+<!ENTITY rights.intro "Ang &brandFullName; ay libre at open source na software, itinayo ng komunidad ng libo-libong tao mula sa buong mundo. Mayroong mga ilang bagay na dapat mong malaman:">
 
 <!-- Note on pointa / pointb / pointc form:
      These points each have an embedded link in the HTML, so each point is
@@ -15,20 +15,20 @@
 
      Also note the leading/trailing whitespace in strings here, which is
      deliberate for formatting around the embedded links. -->
-<!ENTITY rights.intro-point1a "&brandShortName; is made available to you under the terms of the ">
+<!ENTITY rights.intro-point1a "&brandShortName; ay magagamit mo sa ilalim ng mga tuntunin ng ">
 <!ENTITY rights.intro-point1b "Pampublikong Lisensya ng Mozilla">
-<!ENTITY rights.intro-point1c ". This means you may use, copy and distribute &brandShortName; to others in its source form. Binaries are subject to the Pale Moon redistribution license found on the Pale Moon website. You are also welcome to modify the source code of &brandShortName; as you want to meet your needs. The Mozilla Public License also gives you the right to distribute your modified versions.">
+<!ENTITY rights.intro-point1c ". Ibig sabihin nito maari mong gamitin, kopyahin at ipamahagi ang &brandShortName; sa iba sa source form nito. Ang mga binary naman ay sakop ng Lisensya sa Pamamahagi ng Pale Moon na matatagpuan sa website ng Pale Moon. Ikaw ay malayang baguhin ang source code ng &brandShortName; sa iyong kagustuhan hanggang sa makamit nito ang iyong pangangailangan. Ang Pampublikong Lisensya ng Mozilla ay nagbibigay rin ng karapatan sa iyo na ipamahagi ang iyong mga binagong bersyon.">
 
-<!ENTITY rights.intro-point2-a "You are, however, not granted any rights or licenses to the intellectual property of Moonchild Productions or any other party, including without limitation the Pale Moon name or logo. Additional information on trademarks may be found ">
+<!ENTITY rights.intro-point2-a "Ikaw ay hindi nabigyan ng anumang mga karapatan o lisensya sa tatak-kalakal ng Moonchild Productions o anumang partido, kasama ng walang limitasyon ang larawan at pangalan ng Pale Moon. Maaaring matagpuan ang karagdagang impormasyon sa mga trademark ">
 <!ENTITY rights.intro-point2-b "dito">
 <!ENTITY rights.intro-point2-c ".">
 
 <!-- point 2.5 text for official branded builds -->
-<!ENTITY rights.intro-point2.5 "Some features in &brandShortName; may give you the option to provide feedback to &vendorShortName;. By choosing to submit feedback, you give &vendorShortName; permission to use the feedback to improve its products, to publish the feedback on its websites, and to distribute the feedback.">
+<!ENTITY rights.intro-point2.5 "Ilan sa mga tampok ng &brandShortName; ay maaring magbigay sayo ng desisyon na magbigay ng tugon sa &vendorShortName;. Sa pagpayag mo na magbigay ng tugon, pinahihintulutan mo ang &vendorShortName; na gamitin ang iyong tugon upang mapabuti ang mga produkto nito, i-publish ang feedback sa mga website nito, at ipamahagi ang tugon.">
 
 <!-- point 3 text for official branded builds -->
-<!ENTITY rights2.intro-point3a "How we use your personal information and feedback submitted to &vendorShortName; through &brandShortName; is described in the ">
-<!ENTITY rights2.intro-point3b "&brandShortName; Privacy Policy">
+<!ENTITY rights2.intro-point3a "Kung paano namin ginagamit ang inyong personal information at feedback na pinadala sa &vendorShortName; gamit ang &brandShortName; ay nakasulat sa ">
+<!ENTITY rights2.intro-point3b "Mga Patakaran sa Paglilihim ng &brandShortName;">
 <!ENTITY rights.intro-point3c ".">
 
 <!-- point 3 text for unbranded builds -->
@@ -41,8 +41,8 @@
 
 <!-- point 4 text for unbranded builds -->
 <!ENTITY rights.intro-point4a-unbranded "If this product incorporates web services, any applicable service terms for the service(s) should be linked to the ">
-<!ENTITY rights.intro-point4b-unbranded "Website Services">
-<!ENTITY rights.intro-point4c-unbranded " section.">
+<!ENTITY rights.intro-point4b-unbranded "Mga Serbisyo sa Website">
+<!ENTITY rights.intro-point4c-unbranded " seksyon.">
 
 <!ENTITY rights2.webservices-header "&brandFullName; Web-Based Information Services">
 
@@ -52,7 +52,7 @@
      updated.  -->
 <!-- intro paragraph for branded builds -->
 <!ENTITY rights2.webservices-a "&brandFullName; uses web-based information services (&quot;Services&quot;) to provide some of the features provided for your use with this binary version of &brandShortName; under the terms described below. If you do not want to use one or more of the Services or the terms below are unacceptable, you may disable the feature or Service(s). Instructions on how to disable a particular feature or Service may be found ">
-<!ENTITY rights2.webservices-b "here">
+<!ENTITY rights2.webservices-b "dito">
 <!ENTITY rights3.webservices-c ". Other features and Services can be disabled in the application preferences.">
 
 <!-- safe browsing points for branded builds -->
@@ -65,10 +65,10 @@
 
 <!-- location aware browsing points for branded builds -->
 <!ENTITY rights.locationawarebrowsing-a "Location Aware Browsing: ">
-<!ENTITY rights.locationawarebrowsing-b "is always opt-in.  No location information is ever sent without your permission.  If you wish to disable the feature completely, follow these steps:">
-<!ENTITY rights.locationawarebrowsing-term1a "In the URL bar, type ">
+<!ENTITY rights.locationawarebrowsing-b "ay laging opt-in.  Walang impormasyon hinggil sa iyong lokasyon ang ipinapadala ng walang pahintulot.  Kung gusto mong hindi paganahin ang buong tampok na ito, sundan ang mga sumusunod:">
+<!ENTITY rights.locationawarebrowsing-term1a "Sa bar ng URL, ilagay ">
 <!ENTITY rights.locationawarebrowsing-term1b "about:config">
-<!ENTITY rights.locationawarebrowsing-term2 "Type geo.enabled">
+<!ENTITY rights.locationawarebrowsing-term2 "Ilagay geo.enabled">
 <!ENTITY rights.locationawarebrowsing-term3 "Double click on the geo.enabled preference">
 <!ENTITY rights.locationawarebrowsing-term4 "Location-Aware Browsing is now disabled">
 

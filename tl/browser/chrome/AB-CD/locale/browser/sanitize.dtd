@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY sanitizePrefs2.title          "Settings for Clearing History">
-<!ENTITY sanitizeDialog2.title         "Clear Recent History">
+<!ENTITY sanitizePrefs2.title          "Mga Kagustuhan sa Pag-tanggal ng Kasaysayan">
+<!ENTITY sanitizeDialog2.title         "Tanggalin ang Kamakailang Kasaysayan">
 
-<!ENTITY clearDataSettings2.label     "When I quit &brandShortName;, it should automatically clear all:">
+<!ENTITY clearDataSettings2.label     "Kapag isinara ko ang &brandShortName;, dapat kusa nitong alisin ang lahat ng:">
 
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
@@ -15,36 +15,36 @@
 <!ENTITY clearTimeDuration.lastHour       "Huling Oras">
 <!ENTITY clearTimeDuration.last2Hours     "Huling Dalawang Oras">
 <!ENTITY clearTimeDuration.last4Hours     "Huling Apat na Oras">
-<!ENTITY clearTimeDuration.today          "Today">
+<!ENTITY clearTimeDuration.today          "Ngayon">
 <!ENTITY clearTimeDuration.everything     "Lahat">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
-<!ENTITY clearTimeDuration.dateColumn     "Visit Date">
+<!ENTITY clearTimeDuration.dateColumn     "Petsa ng Pagbisita">
 <!ENTITY clearTimeDuration.nameColumn     "Pangalan">
 
 <!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
      of the "Details" progressive disclosure button.  See UI mockup at bug
      480169 -->
-<!ENTITY detailsProgressiveDisclosure.label     "Details">
+<!ENTITY detailsProgressiveDisclosure.label     "Mga Detalye">
 <!ENTITY detailsProgressiveDisclosure.accesskey "e">
 
 <!ENTITY historySection.label         "Kasaysayan">
-<!ENTITY dataSection.label            "Data">
+<!ENTITY dataSection.label            "Datos">
 
-<!ENTITY itemHistoryAndDownloads.label     "Browsing &amp; Download History">
+<!ENTITY itemHistoryAndDownloads.label     "Kasaysayan sa Pagbrowse &amp; Download">
 <!ENTITY itemHistoryAndDownloads.accesskey "B">
-<!ENTITY itemFormSearchHistory.label       "Form &amp; Search History">
+<!ENTITY itemFormSearchHistory.label       "Kasaysayan sa Porma &amp; Paghahanap">
 <!ENTITY itemFormSearchHistory.accesskey   "F">
-<!ENTITY itemPasswords.label               "Saved Passwords">
+<!ENTITY itemPasswords.label               "Mga Naka-save na Password">
 <!ENTITY itemPasswords.accesskey           "P">
-<!ENTITY itemCookies.label                 "Cookies">
+<!ENTITY itemCookies.label                 "Mga Cookie">
 <!ENTITY itemCookies.accesskey             "C">
 <!ENTITY itemCache.label                   "Cache">
 <!ENTITY itemCache.accesskey               "A">
-<!ENTITY itemOfflineApps.label             "Offline Website Data">
+<!ENTITY itemOfflineApps.label             "Lokal na Datos ng Website">
 <!ENTITY itemOfflineApps.accesskey         "O">
-<!ENTITY itemActiveLogins.label            "Active Logins">
+<!ENTITY itemActiveLogins.label            "Mga Aktibong Login">
 <!ENTITY itemActiveLogins.accesskey        "L">
 <!ENTITY itemSitePreferences.label         "Mga Kagustuhan ng Site">
 <!ENTITY itemSitePreferences.accesskey     "S">
@@ -52,7 +52,7 @@ that require it.  -->
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
-<!ENTITY sanitizeEverythingUndoWarning     "This action cannot be undone.">
+<!ENTITY sanitizeEverythingUndoWarning     "Ang resulta ng aksyong ito ay hindi pwedeng ibalik.">
 
 <!-- LOCALIZATION NOTE (dialog.width2): width of the Clear Recent History and
      Clear History on Shutdown dialogs.  Should be large enough to contain

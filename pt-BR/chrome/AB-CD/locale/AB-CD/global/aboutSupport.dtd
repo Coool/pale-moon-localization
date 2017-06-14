@@ -31,17 +31,17 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentDescription "Descrição">
 <!ENTITY aboutSupport.experimentActive "Ativo">
 <!ENTITY aboutSupport.experimentEndDate "Data de término">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentHomepage "Página inicial">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Informações básicas sobre o aplicativo">
 <!ENTITY aboutSupport.appBasicsName "Nome">
 <!ENTITY aboutSupport.appBasicsVersion "Versão">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID da Compilação">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Canal de Atualização">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Histórico de atualizações">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Exibir histórico de atualizações">
 
@@ -54,12 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins ativos">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuração da compilação">
 <!ENTITY aboutSupport.appBasicsUserAgent "Agente de usuário">
-<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsOS "SO">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memória">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Janelas Multiprocesso">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsSafeMode "Modo de Segurança">
 
 <!ENTITY aboutSupport.showDir.label "Abrir pasta">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -78,18 +78,18 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Preferências do user.js">
 <!ENTITY aboutSupport.userJSDescription "Sua pasta do perfil contém um <a id='prefs-user-js-link'>arquivo user.js</a>, que inclui preferências que não foram criadas pelo &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Preferências Importantes Bloqueadas">
 <!ENTITY aboutSupport.lockedPrefsName "Nome">
 <!ENTITY aboutSupport.lockedPrefsValue "Valor">
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Banco de Lugares">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integridade">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificar Integridade">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
-<!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
+<!ENTITY aboutSupport.jsIncrementalGC "GC Incremental">
 
 <!ENTITY aboutSupport.a11yTitle "Acessibilidade">
 <!ENTITY aboutSupport.a11yActivated "Ativado">
@@ -103,10 +103,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copiar como texto">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar como estrutura de dados">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxTitle "Ambiente Isolado">
 
 <!ENTITY aboutSupport.safeModeTitle "Tente o Modo de Segurança">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar com as extensões desativadas…">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "Reiniciar">
+<!ENTITY aboutSupport.restartNormal.label "Reiniciar normalmente…">
