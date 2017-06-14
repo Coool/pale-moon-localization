@@ -4,17 +4,17 @@
 
 <!ENTITY windowTitle "Pale Moon WebIDE">
 
-<!ENTITY projectMenu_label "Project">
+<!ENTITY projectMenu_label "Proyekto">
 <!ENTITY projectMenu_accesskey "P">
-<!ENTITY projectMenu_newApp_label "New App…">
+<!ENTITY projectMenu_newApp_label "Bagong App…">
 <!ENTITY projectMenu_newApp_accesskey "N">
-<!ENTITY projectMenu_importPackagedApp_label "Open Packaged App…">
+<!ENTITY projectMenu_importPackagedApp_label "Buksan ang Packaged App…">
 <!ENTITY projectMenu_importPackagedApp_accesskey "P">
 <!ENTITY projectMenu_importHostedApp_label "Open Hosted App…">
 <!ENTITY projectMenu_importHostedApp_accesskey "H">
-<!ENTITY projectMenu_selectApp_label "Open App…">
+<!ENTITY projectMenu_selectApp_label "Buksan ang App…">
 <!ENTITY projectMenu_selectApp_accesskey "O">
-<!ENTITY projectMenu_play_label "Install and Run">
+<!ENTITY projectMenu_play_label "Italaga at Patakbuhin">
 <!ENTITY projectMenu_play_accesskey "I">
 <!ENTITY projectMenu_stop_label "Stop App">
 <!ENTITY projectMenu_stop_accesskey "S">
@@ -22,7 +22,7 @@
 <!ENTITY projectMenu_debug_accesskey "D">
 <!ENTITY projectMenu_remove_label "Remove Project">
 <!ENTITY projectMenu_remove_accesskey "R">
-<!ENTITY projectMenu_showPrefs_label "Preferences">
+<!ENTITY projectMenu_showPrefs_label "Mga Kagustuhan">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Manage Extra Components">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
@@ -44,13 +44,13 @@
 <!ENTITY runtimeMenu_showSettings_label "Device Settings">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
-<!ENTITY viewMenu_label "View">
+<!ENTITY viewMenu_label "Tanaw">
 <!ENTITY viewMenu_accesskey "V">
 <!ENTITY viewMenu_toggleEditor_label "Toggle Editor">
 <!ENTITY viewMenu_toggleEditor_accesskey "E">
 <!ENTITY viewMenu_zoomin_label "Zoom In">
 <!ENTITY viewMenu_zoomin_accesskey "I">
-<!ENTITY viewMenu_zoomout_label "Zoom Out">
+<!ENTITY viewMenu_zoomout_label "Paliitin">
 <!ENTITY viewMenu_zoomout_accesskey "O">
 <!ENTITY viewMenu_resetzoom_label "Reset Zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
@@ -66,7 +66,7 @@
 <!-- reload app -->
 <!ENTITY key_play "R">
 <!-- show toolbox -->
-<!ENTITY key_toggleToolbox "VK_F12">
+<!ENTITY key_toggleToolbox "Filter variables">
 <!-- toggle sidebar -->
 <!ENTITY key_toggleEditor "B">
 <!-- zoom -->
@@ -75,13 +75,13 @@
 <!ENTITY key_zoomout "-">
 <!ENTITY key_resetzoom "0">
 
-<!ENTITY projectPanel_myProjects "My Projects">
+<!ENTITY projectPanel_myProjects "Aking Mga Proyekto">
 <!ENTITY projectPanel_runtimeApps "Runtime Apps">
-<!ENTITY projectPanel_tabs "Tabs">
+<!ENTITY projectPanel_tabs "Mga Tab">
 <!ENTITY runtimePanel_usb "USB Devices">
 <!ENTITY runtimePanel_wifi "Wi-Fi Devices">
 <!ENTITY runtimePanel_simulator "Simulators">
-<!ENTITY runtimePanel_other "Other">
+<!ENTITY runtimePanel_other "Iba">
 <!ENTITY runtimePanel_installsimulator "Install Simulator">
 <!ENTITY runtimePanel_noadbhelper "Install ADB Helper">
 <!ENTITY runtimePanel_nousbdevice "Can't see your device?">
@@ -90,7 +90,7 @@
 <!ENTITY details_valid_header "valid">
 <!ENTITY details_warning_header "warnings">
 <!ENTITY details_error_header "errors">
-<!ENTITY details_description "Description">
+<!ENTITY details_description "Deskripsyon">
 <!ENTITY details_location "Location">
 <!ENTITY details_manifestURL "App ID">
 <!ENTITY details_removeProject_button "Remove Project">

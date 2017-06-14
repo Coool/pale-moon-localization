@@ -48,7 +48,7 @@
 <!ENTITY netReset.title "Conexão interrompida">
 <!ENTITY netReset.longDesc "<p>A ligação de rede foi interrompida durante a negociação de uma conexão. Por favor tente novamente.</p>">
 
-<!ENTITY netTimeout.title "Network Timeout">
+<!ENTITY netTimeout.title "Conexão Expirou">
 <!ENTITY netTimeout.longDesc "<p>O site solicitado não respondeu a um pedido de conexão e o navegador deixou de esperar por uma resposta.</p><ul><li>Será que o servidor está recebendo acessos demais ou temporariamente indisponível? Tente de novo mais tarde.</li><li>Está impossibilitado de navegar em outros sites? Verifique sua conexão de rede.</li><li>O seu computador está protegido por um firewall ou proxy? Configurações incorretas podem interferir com a navegação.</li><li>Ainda com problemas? Entre em contato com o seu administrador de redes ou o seu provedor de Internet para obter ajuda.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Protocolo desconhecido">
@@ -60,7 +60,7 @@
 <!ENTITY proxyResolveFailure.title "Servidor proxy não encontrado">
 <!ENTITY proxyResolveFailure.longDesc "<p>O navegador está configurado para utilizar um proxy mas ele não foi encontrado.</p><ul><li>As configurações de proxy do navegador estão corretas? Verifique-as e tente novamente.</li><li>O computador está conectado a uma rede ativa?</li><li>Ainda com problemas? Entre em contato com o seu administrador de redes ou o seu provedor Internet para obter ajuda.</li></ul>">
 
-<!ENTITY redirectLoop.title "Redirect Loop">
+<!ENTITY redirectLoop.title "Ciclo de Redirecionamento">
 <!ENTITY redirectLoop.longDesc "<p>O navegador parou de tentar obter o item requisitado. O site está redirecionando o pedido de modo que ele nunca será completado.</p><ul><li>Você desativou ou bloqueou os cookies necessários para navegar neste site?</li><li><em>Nota</em>: se aceitar os cookies deste site não resolver o problema, é provável que seja um problema na configuração do servidor e não no seu computador.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Resposta incorreta">
@@ -87,13 +87,13 @@
 <p>Esses tipos de falsificações são usados em golpes conhecidos como phishing, onde páginas e emails falsos se fazem passar por fontes que você confiaria.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.title "Bloqueado pela Política de Segurança de Conteúdo">
 <!ENTITY cspBlocked.longDesc "<p>O navegador impediu o carregamento desta página em virtude das suas políticas de restrição de conteúdos.</p>">
 
-<!ENTITY corruptedContentError.title "Corrupted Content Error">
+<!ENTITY corruptedContentError.title "Erro de Conteúdo Corrompido">
 <!ENTITY corruptedContentError.longDesc "<p>A página que você está tentando abrir não pôde ser exibida porque foi detectado um erro na transmissão de dados.</p><ul><li>Por favor, entre com contato com os responsáveis pelo site para informá-los deste problema.</li></ul>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.title "XUL Remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor, entre em contato com os responsáveis por este site para informá-los deste problema.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
