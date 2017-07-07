@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  blockPopups.label           "Bloquear janelas de pop-up">
+<!ENTITY  blockPopups.label           "Bloquear janelas popup">
 <!ENTITY  blockPopups.accesskey       "B">
 <!ENTITY  popupExceptions.label       "Exceções…">
 <!ENTITY  popupExceptions.accesskey   "E">
@@ -15,9 +15,9 @@
 <!ENTITY  fontsAndColors.label        "Fontes e cores">
 
 <!ENTITY  defaultFont.label           "Fonte padrão:">
-<!ENTITY  defaultFont.accesskey       "D">
+<!ENTITY  defaultFont.accesskey       "F">
 <!ENTITY  defaultSize.label           "Tamanho:">
-<!ENTITY  defaultSize.accesskey       "S">
+<!ENTITY  defaultSize.accesskey       "T">
 
 <!ENTITY  advancedFonts.label         "Avançado…">
 <!ENTITY  advancedFonts.accesskey     "A">
@@ -26,13 +26,15 @@
 <!ENTITY  colors.accesskey            "C">
 
 <!ENTITY  languages.label             "Idiomas">
-<!ENTITY  chooseLanguage.label        "Escolha o idioma preferencial para exibição de páginas">
+<!ENTITY  chooseLanguage.label        "Escolha o idioma preferido para exibir páginas">
 <!ENTITY  chooseButton.label          "Selecionar…">
 <!ENTITY  chooseButton.accesskey      "o">
 
 <!ENTITY  video.label                 "Vídeo">
 <!ENTITY  videoMSE.label              "Habilitar Media Source Extensions (MSE)">
 <!ENTITY  videoMSE.accesskey          "M">
+<!ENTITY  videoMSENFR.label           "Utilizar MSE assincronamente">
+<!ENTITY  videoMSENFR.accesskey       "U">
 <!ENTITY  videoMSEMP4.label           "Habilitar o MSE para vídeos MP4">
 <!ENTITY  videoMSEMP4.accesskey       "4">
 <!ENTITY  videoMSEWebM.label          "Habilitar o MSE para vídeos WebM">
