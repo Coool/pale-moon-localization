@@ -15,7 +15,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.allReports "すべてのクラッシュレポート">
 <!ENTITY aboutSupport.crashes.noConfig "このアプリケーションはクラッシュレポートを表示するように設定されていません。">
 
-<!ENTITY aboutSupport.extensionsTitle "拡張機能">
+<!ENTITY aboutSupport.extensionsTitle "拡張">
 <!ENTITY aboutSupport.extensionName "名前">
 <!ENTITY aboutSupport.extensionEnabled "有効">
 <!ENTITY aboutSupport.extensionVersion "バージョン">
@@ -55,7 +55,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "マルチプロセス Windows">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsSafeMode "セーフモード">
 
 <!ENTITY aboutSupport.showDir.label "ディレクトリを開く">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -74,15 +74,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js 設定ファイル">
 <!ENTITY aboutSupport.userJSDescription "このプロファイルには、&brandShortName; では作成されない設定値が含まれた <a id='prefs-user-js-link'>user.js 設定ファイル</a> があります。">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "重要なロックされた環境設定">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "ロックされた重要な設定">
 <!ENTITY aboutSupport.lockedPrefsName "名前">
 <!ENTITY aboutSupport.lockedPrefsValue "値">
 
 <!ENTITY aboutSupport.graphicsTitle "グラフィックス">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Places データベース">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "整合性">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "整合性の検証">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "インクリメンタル GC">
@@ -101,8 +101,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "サンド ボックス">
 
-<!ENTITY aboutSupport.safeModeTitle "セーフモードを試す">
+<!ENTITY aboutSupport.safeModeTitle "セーフモードを試みる">
 <!ENTITY aboutSupport.restartInSafeMode.label "アドオンを無効にして再起動...">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "再起動を試みる">
+<!ENTITY aboutSupport.restartNormal.label "通常に再起動します...">
