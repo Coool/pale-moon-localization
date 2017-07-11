@@ -13,14 +13,14 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
-<!ENTITY netmonitorUI.perfNotice1         "• こちらをクリック">
-<!ENTITY netmonitorUI.perfNotice2         "ボタンを押してパフォーマンス分析を開始します。">
+<!ENTITY netmonitorUI.perfNotice1         "• クリック">
+<!ENTITY netmonitorUI.perfNotice2         "パフォーマンス分析を開始するためにボタンを押します。">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
 <!ENTITY netmonitorUI.reloadNotice1       "• リクエストを実行または">
 <!ENTITY netmonitorUI.reloadNotice2       "再読み込み">
-<!ENTITY netmonitorUI.reloadNotice3       "ネットワーク動作に関する詳細情報を表示するページ。">
+<!ENTITY netmonitorUI.reloadNotice3       "ネットワーク接続の詳細な情報を表示するためのページ。">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.status2): This is the label displayed
   -  in the network table toolbar, above the "status" column. -->
@@ -126,7 +126,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterFreetext): This is the label displayed
   -  in the network details footer for the url filtering textbox. -->
-<!ENTITY netmonitorUI.footer.filterFreetext.label  "Filter URLs">
+<!ENTITY netmonitorUI.footer.filterFreetext.label  "URLフィルター">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed
   -  in the network details footer for the "Clear" button. -->
@@ -150,7 +150,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.address): This is the label displayed
   -  in the network details headers tab identifying the remote address. -->
-<!ENTITY netmonitorUI.summary.address     "リモートのアドレス:">
+<!ENTITY netmonitorUI.summary.address     "リモート アドレス:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.status): This is the label displayed
   -  in the network details headers tab identifying the status code. -->
@@ -212,11 +212,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.protocol): A tooltip
   -  for warning icon that indicates a connection uses insecure protocol. -->
-<!ENTITY netmonitorUI.security.warning.sslv3      "プロトコル SSL 3.0 は廃止され、安全ではありません。">
+<!ENTITY netmonitorUI.security.warning.sslv3      "プロトコル SSL 3.0 は安全ではなく、推奨できません。">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
-<!ENTITY netmonitorUI.security.warning.cipher     "暗号化に使用される暗号は非難され、安全ではありません。">
+<!ENTITY netmonitorUI.security.warning.cipher     "使用された暗号は安全ではなく、推奨できません。">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
@@ -228,15 +228,15 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.cipherSuite): This is the label displayed
   -  in the security tab describing the cipher suite used to secure this connection. -->
-<!ENTITY netmonitorUI.security.cipherSuite "暗号:">
+<!ENTITY netmonitorUI.security.cipherSuite "暗号スイート:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hsts): This is the label displayed
   -  in the security tab describing the usage of HTTP Strict Transport Security. -->
-<!ENTITY netmonitorUI.security.hsts "HTTP トランスポートセキュリティ:">
+<!ENTITY netmonitorUI.security.hsts "HTTP Strict Transport Security:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.hpkp): This is the label displayed
   -  in the security tab describing the usage of Public Key Pinning. -->
-<!ENTITY netmonitorUI.security.hpkp "公開固定キー:">
+<!ENTITY netmonitorUI.security.hpkp "Public Key Pinning:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.connection): This is the label displayed
   -  in the security tab describing the section containing information related to
@@ -263,7 +263,7 @@
   -  on the context menu that copies the selected request as a cURL command.
   -  The capitalization is part of the official name and should be used throughout all languages.
   -  http://en.wikipedia.org/wiki/CURL -->
-<!ENTITY netmonitorUI.context.copyAsCurl    "cURL をコピー">
+<!ENTITY netmonitorUI.context.copyAsCurl    "cURL としてコピー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrl.accesskey): This is the access key
   -  for the Copy URL menu item displayed in the context menu for a request -->
@@ -271,7 +271,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri): This is the label displayed
   -  on the context menu that copies the selected image as data uri -->
-<!ENTITY netmonitorUI.context.copyImageAsDataUri "画像データ URI をコピー">
+<!ENTITY netmonitorUI.context.copyImageAsDataUri "URI として画像をコピー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri.accesskey): This is the access key
   -  for the Copy Image As Data URI menu item displayed in the context menu for a request -->
@@ -289,15 +289,15 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders): This is the label displayed
   -  on the button in the headers tab that toggle view for raw request/response headers
      from the currently displayed request -->
-<!ENTITY netmonitorUI.summary.rawHeaders "列ヘッダ">
+<!ENTITY netmonitorUI.summary.rawHeaders "Raw headers">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "要求ヘッダー:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Request headers:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "応答ヘッダー:">
+<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "Response headers:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -319,11 +319,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "要求ヘッダー:">
+<!ENTITY netmonitorUI.custom.headers      "Request Headers:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.postData     "要求本文:">
+<!ENTITY netmonitorUI.custom.postData     "Request Body:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.send): This is the label displayed
   -  on the button which sends the custom request -->

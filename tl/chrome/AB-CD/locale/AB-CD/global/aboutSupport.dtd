@@ -23,61 +23,61 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Bersyon">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentsTitle "Mga Eksperimental na Tampok">
 <!ENTITY aboutSupport.experimentName "Pangalan">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Deskripsyon">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentActive "Aktibo">
+<!ENTITY aboutSupport.experimentEndDate "Petsa ng Pagtatapos">
+<!ENTITY aboutSupport.experimentHomepage "Unang Pahina">
 
 
-<!ENTITY aboutSupport.appBasicsTitle "Application Basics">
+<!ENTITY aboutSupport.appBasicsTitle "Pangunahing Kaalaman sa Application">
 <!ENTITY aboutSupport.appBasicsName "Pangalan">
-<!ENTITY aboutSupport.appBasicsVersion "Version">
+<!ENTITY aboutSupport.appBasicsVersion "Bersyon">
 <!ENTITY aboutSupport.appBasicsBuildID "Build ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
 <!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
-<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
+<!ENTITY aboutSupport.appBasicsUpdateHistory "Kasaysayan sa Pag-update">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Ipakita ang Kasaysayan sa Pag-update">
 
-<!ENTITY aboutSupport.appBasicsProfileDir "Profile Directory">
+<!ENTITY aboutSupport.appBasicsProfileDir "Direktory ng Profile">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
-<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Profile Folder">
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Folder ng Profile">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "Enabled Plugins">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "Mga Pinapaganang Plugin">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Pagkakaayos ng Build">
-<!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
+<!ENTITY aboutSupport.appBasicsUserAgent "Kinatawan ng User">
 <!ENTITY aboutSupport.appBasicsOS "OS">
-<!ENTITY aboutSupport.appBasicsMemoryUse "Memory Use">
+<!ENTITY aboutSupport.appBasicsMemoryUse "Gamit sa Memory">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
 
-<!ENTITY aboutSupport.showDir.label "Open Directory">
+<!ENTITY aboutSupport.showDir.label "Buksan ang Direktory">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Show in Finder">
+<!ENTITY aboutSupport.showMac.label "Ipakita sa Finder">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Show Folder">
+<!ENTITY aboutSupport.showWin.label "Ipakita ang Folder">
 
-<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Important Modified Preferences">
+<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Mga Nabagong Importanteng Preference">
 <!ENTITY aboutSupport.modifiedPrefsName "Pangalan">
-<!ENTITY aboutSupport.modifiedPrefsValue "Value">
+<!ENTITY aboutSupport.modifiedPrefsValue "Laman">
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "user.js Preferences">
 <!ENTITY aboutSupport.userJSDescription "Your profile folder contains a <a id='prefs-user-js-link'>user.js file</a>, which includes preferences that were not created by &brandShortName;.">
 
 <!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
+<!ENTITY aboutSupport.lockedPrefsName "Pangalan">
 <!ENTITY aboutSupport.lockedPrefsValue "Laman">
 
 <!ENTITY aboutSupport.graphicsTitle "Graphics">
@@ -89,22 +89,22 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
 
-<!ENTITY aboutSupport.a11yTitle "Accessibility">
+<!ENTITY aboutSupport.a11yTitle "Aksesibilidad">
 <!ENTITY aboutSupport.a11yActivated "Activated">
 <!ENTITY aboutSupport.a11yForceDisabled "Prevent Accessibility">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Library Versions">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Installation History">
-<!ENTITY aboutSupport.updateHistoryTitle "Update History">
+<!ENTITY aboutSupport.updateHistoryTitle "Kasaysayan sa Pag-update">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopyahin ang teksto sa clipboard">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Copy raw data to clipboard">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopyahin ang raw na datos sa clipboard">
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
 <!ENTITY aboutSupport.safeModeTitle "Subukan ang Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.restartInSafeMode.label "I-restart ng Hindi Pinapagana ang Mga Add-on…">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "Subukang I-restart">
+<!ENTITY aboutSupport.restartNormal.label "I-restart ng maayos…">
