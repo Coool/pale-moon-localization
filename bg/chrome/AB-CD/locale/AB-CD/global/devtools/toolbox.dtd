@@ -21,7 +21,7 @@
 <!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
   -  the iframes menu list that appears only when the document has some.
   -  It allows you to switch the context of the whole toolbox. -->
-<!ENTITY toolboxFramesTooltip          "Select an iframe as the currently targeted document">
+<!ENTITY toolboxFramesTooltip          "Изберете iframe като целеви документ">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
@@ -29,18 +29,18 @@
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
-<!ENTITY options.context.inspector "Inspector">
+<!ENTITY options.context.inspector "Инспектор">
 
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
-<!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
+<!ENTITY options.showUserAgentStyles.label "Покажи стиловете на браузъра">
+<!ENTITY options.showUserAgentStyles.tooltip "Включването на тази опция ще покаже стандартните стилове, които се зареждат от браузъра.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "Default color unit">
+<!ENTITY options.defaultColorUnit.label "Стандартна единица за цветове">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -62,18 +62,18 @@
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.name): This is used in
   -  the 'Default color unit' dropdown list and is visible in the options panel.
   -  -->
-<!ENTITY options.defaultColorUnit.name "Color Names">
+<!ENTITY options.defaultColorUnit.name "Имена на цветове">
 
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Current session only, reloads the page">
+<!ENTITY options.context.triggersPageRefresh  "*Само за текущата секция, презаредете страницата">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.label4    "Включване на дебъг за chrome и добавки">
+<!ENTITY options.enableChrome.tooltip2  "Включването на тази опция ще ви позволи да използвате различни инструменти за разработчици в контекста на браузъра и дебъг на добавки от диспечера на добавки">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -84,14 +84,14 @@
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
-<!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
+<!ENTITY options.disableJavaScript.label     "Изключи JavaScript *">
 <!ENTITY options.disableJavaScript.tooltip   "Включването на тази опция ще забрани JavaScript за текущия таб. Ако табът или панелът с инструменти са затворени, тогава тази настройка ще бъде забравена.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
-<!ENTITY options.disableCache.label2     "Disable Cache (when toolbox is open)">
-<!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
+<!ENTITY options.disableCache.label2     "Изключи кеша (когато кутията с инструменти е отворен)">
+<!ENTITY options.disableCache.tooltip2   "Включването на тази опция ще забрани кеша за всички раздели, които имат отворена кутия с инструменти.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -107,7 +107,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Available Toolbox Buttons">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Налични бутони в инструментите">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -117,12 +117,12 @@
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label2): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
   -  tools. -->
-<!ENTITY options.selectDevToolsTheme.label2   "Themes">
+<!ENTITY options.selectDevToolsTheme.label2   "Теми">
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Use Developer Edition browser theme">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.label   "Използвай темата за разработчици">
+<!ENTITY options.usedeveditiontheme.tooltip "Превключи на темата за разработчици.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -130,62 +130,61 @@
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
-<!ENTITY options.timestampMessages.label      "Enable timestamps">
-<!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
+<!ENTITY options.timestampMessages.label      "Разреши timestamps">
+<!ENTITY options.timestampMessages.tooltip    "Ако разрешите тази опция, командите и изхода на уеб конзола ще показват timestamp">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label            "Style Editor">
+<!ENTITY options.styleeditor.label            "Редактор на стил">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
-<!ENTITY options.stylesheetSourceMaps.label      "Show original sources">
-<!ENTITY options.stylesheetSourceMaps.tooltip    "Show original sources (e.g. Sass files) in the Style Editor and Inspector">
+<!ENTITY options.stylesheetSourceMaps.label      "Покажи оригиналния източник">
+<!ENTITY options.stylesheetSourceMaps.tooltip    "Показване на оригиналните източници (например Sass файлове) в редактора на стилове и инспектора">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
-<!ENTITY options.stylesheetAutocompletion.label      "Autocomplete CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.label      "Автодовършване на CSS">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Автодовършване на CSS свойства, стойности и селектори в редактора на стил по време на въвеждане">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
   -  panel. -->
-<!ENTITY options.profiler.label            "JavaScript Profiler">
+<!ENTITY options.profiler.label            "Профайлър JavaScript">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Common Preferences">
+<!ENTITY options.commonPrefs.label           "Общи настройки">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
-<!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.label    "Включи устойчив лог">
+<!ENTITY options.enablePersistentLogs.tooltip  "Ако разрешите тази опция, уеб конзолата и мониторинга на мрежата няма да изчистват своя изход, когато навигирате към нова страница">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Goanna platform symbols">
+<!ENTITY options.showPlatformData.label    "Покажи данните на Goanna платформата">
+<!ENTITY options.showPlatformData.tooltip  "Ако разрешите тази опция, докладите на JavaScript Profiler ще включват символи от Goanna платформата">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
-<!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
-<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
-<!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
-<!ENTITY options.sourceeditor.tabsize.label             "Tab size">
-<!ENTITY options.sourceeditor.tabsize.accesskey         "T">
-<!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
+<!ENTITY options.sourceeditor.label                     "Редактор на настройки">
+<!ENTITY options.sourceeditor.detectindentation.label   "Откриване на отстъп">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Предположение на отстъпа на база изходно съдържание">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Автоматично затваряне на скоби">
+<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Автоматично вмъкване на затварящи скоби">
+<!ENTITY options.sourceeditor.expandtab.label           "Отстъп с интервал">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Използване на интервали, вместо знака за табулация">
+<!ENTITY options.sourceeditor.tabsize.label             "Размер на раздела">
+<!ENTITY options.sourceeditor.tabsize.accesskey         "Т">
+<!ENTITY options.sourceeditor.keybinding.label          "Клавишни комбинации">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">
-<!ENTITY options.sourceeditor.keybinding.default.label  "Default">
+<!ENTITY options.sourceeditor.keybinding.default.label  "По подразбиране">
 

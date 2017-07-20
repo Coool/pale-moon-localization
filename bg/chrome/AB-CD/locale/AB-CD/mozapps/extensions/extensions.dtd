@@ -4,7 +4,7 @@
 <!ENTITY addons.windowTitle                   "Управление на разширенията">
 
 <!ENTITY search.placeholder                   "Търси сред всички разширения">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Търси">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -102,7 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "И">
 <!ENTITY cmd.uninstallAddon.label             "Премахни">
 <!ENTITY cmd.uninstallAddon.accesskey         "П">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Дебъг">
 <!ENTITY cmd.showPreferencesWin.label         "Настройки">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Промени настройките за тази добавка">
 <!ENTITY cmd.showPreferencesUnix.label        "Настройки">
@@ -207,8 +207,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Зареждане…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Съжаляваме, но възникна грешка при изтеглянето на списъка с промени.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Тази добавка е предназначена за Pale Moon">
+<!ENTITY addon.compatAddon                    "Тази добавка е за Mozilla Firefox и работи в режим на съвместимост">
 
 <!ENTITY addon.createdBy.label                "От ">
 
@@ -224,10 +224,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Какво е това? Телеметрия може да инсталира и стартира експерименти от време на време.">
+<!ENTITY experiment.info.learnmore "Научи повече">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
-<!ENTITY experiment.info.changetelemetry.accesskey "T">
+<!ENTITY experiment.info.changetelemetry "Настройки на телеметрията">
+<!ENTITY experiment.info.changetelemetry.accesskey "Т">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Научи повече…">

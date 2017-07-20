@@ -7,10 +7,10 @@
 <!ENTITY index.device2 "Device">
 <!ENTITY index.help "Tulong">
 
-<!ENTITY device.debugMainProcess "Debug main process">
+<!ENTITY device.debugMainProcess "Debug ang pangunahing proseso">
 <!ENTITY device.debugMainProcessTooltip "Buksan ang Mga Tool ng Developer na konektado sa pangunahing proseso sa device">
 <!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
+<!ENTITY device.screenshotTooltip "Magbukas ng screenshot nang kasalukuyang estado ng device sa bagong tab">
 <!ENTITY device.title "Device Control Center">
 <!ENTITY device.notConnected "Hindi konektado. Mangyaring ikonekta ang iyong device sa ibaba.">
 <!ENTITY device.startApp "Simulan">
@@ -20,84 +20,84 @@
 <!ENTITY device.debugApp "Debug">
 <!ENTITY device.debugAppTooltip "Buksan ang Mga Tool ng Developer na konektado sa app na ito sa device">
 <!ENTITY device.name "Pangalan">
-<!ENTITY device.plain "Plain (default)">
+<!ENTITY device.plain "Plain (paunang-tukoy)">
 <!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
+<!ENTITY device.certified "Sertipikado">
 <!ENTITY device.allow "Payagan">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
+<!ENTITY device.allowTooltip "Itong pahintulot ay pinapayagan sa mga ganitong klase ng app">
 <!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
+<!ENTITY device.promptTooltip "Itong pahintulot ay nangangailangan ng user prompt para sa mga app ng ganitong klase">
 <!ENTITY device.deny "Tanggihan">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
+<!ENTITY device.denyTooltip "Itong pahintulot ay hindi pinapayagan sa mga app ng ganitong klase">
 <!ENTITY device.installedApps "Mga Naka-talagang App">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
+<!ENTITY device.installedAppsTooltip "Tingnan ang listahan ng mga app na naka-talaga sa device. Ilang mga app, gaya nang mga sertipikadong app, ay maaring hindi isama sa view na ito.">
 <!ENTITY device.permissions "Mga Pahintulot">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.permissionsTooltip "Tingnan ang table ng mga pahintulot na accessible sa iba't ibang klase ng mga app">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
+<!ENTITY device.browserTabs "Mga Tab ng Browser">
+<!ENTITY device.browserTabsTooltip "Tingnan ang listahan ng mga tab sa browser ng konektadong device">
 <!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
+<!ENTITY device.debugBrowserTabTooltip "Buksan ang Mga Developer Tool na konektado sa browser tab na nasa device">
 <!ENTITY device.help "Tulong">
 
 <!ENTITY connection.connectTooltip "Kumonekta sa device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
+<!ENTITY connection.disconnect "Dumiskonekta">
+<!ENTITY connection.disconnectTooltip "Dumiskonekta sa kasalukuyang device o simulator">
 <!ENTITY connection.notConnected2 "Hindi Konektado.">
 <!ENTITY connection.connectTo "Kumonek sa:">
 <!ENTITY connection.noDeviceFound "Walang natagpuang device. Mag-plug ng device">
 <!ENTITY connection.changeHostAndPort "Baguhin">
 <!ENTITY connection.changeHostAndPortTooltip "Baguhin ang host at port na ginamit para maka-konek sa device (paunang-tukoy ay localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
+<!ENTITY connection.startSimulator "Simulan ang Simulator">
+<!ENTITY connection.startSimulatorTooltip "Magsimula ng instance ng Simulator at kumonekta dito">
 <!ENTITY connection.saveConnectionInfo "I-save">
 <!ENTITY connection.saveConnectionInfoTooltip "I-save ang host at port">
 <!ENTITY connection.connecting "Kumokonek…">
-<!ENTITY connection.disconnecting "Disconnecting…">
+<!ENTITY connection.disconnecting "Dumidiskonekta…">
 <!ENTITY connection.cancel "Kanselahin">
 <!ENTITY connection.cancelConnectTooltip "Kanselahin ang koneksyon nasa progreso">
 <!ENTITY connection.cancelShowSimulatorTooltip "Umalis sa Simulator connection mode at bumalik sa unang prompt">
 <!ENTITY connection.or "o">
 <!ENTITY connection.noSimulatorInstalled "Walang naka-talagang simulator.">
 <!ENTITY connection.installOneSimulator "Italaga ang Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Nag-aalaga ng bersyon ng Simulator sa pagda-download nitong add-on">
+<!ENTITY connection.installOneSimulatorTooltip "Mag-talaga ng bersyon ng Simulator sa pamamagitan ng pag-download nitong add-on">
 <!ENTITY connection.installAnotherSimulator "Magdagdag">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.installAnotherSimulatorTooltip "Magtalaga ng karagdagang bersyon ng Simulator sa pamamagitan ng pag-download nitong add-on">
+<!ENTITY connection.startRegisteredSimulator "Simula:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.localApps "Mga Lokal na App">
+<!ENTITY projects.addApp "Magdagdag">
+<!ENTITY projects.addPackaged "Magdagdag ng Packaged App">
+<!ENTITY projects.addPackagedTooltip "Magdagdag ng bagong packaged app (isang direktory) mula sa iyong kompyuter">
+<!ENTITY projects.addHosted "Magdagdag ng Hosted App">
+<!ENTITY projects.addHostedTooltip "Magdagdag ng bagong hosted app (kawing sa isang manifest.webapp na file) mula sa remote na website">
+<!ENTITY projects.title "Mga Lokal na App">
+<!ENTITY projects.appDetails "Mga Detalye ng App">
+<!ENTITY projects.removeAppFromList "Alisin itong app mula sa listahan ng mga app na iyong pinagtatrabahunan. Ito ay hindi aalisin sa device o simulator.">
+<!ENTITY projects.updateApp "I-update">
+<!ENTITY projects.updateAppTooltip "Mag-execute ng mga validation check at i-update ang app sa konektadong device">
 <!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.debugAppTooltip "Buksan Mga Tool ng Developer na konektado sa app">
+<!ENTITY projects.saveManifest "I-save">
+<!ENTITY projects.saveManifestTooltip "I-save ang mga nilalaman ng Tagabago ng Manifest sa ibaba">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Tagabago ng Manifesto">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
+<!ENTITY projects.noProjects "Walang mga proyekto. Magdagdag ng bagong packaged app sa ibaba (local na direktory) o isang hosted app (kawing sa isang manifest file).">
+<!ENTITY projects.manifestEditor "Tagabago ng Manifest">
+<!ENTITY projects.manifestEditorTooltip "Baguhin ang manifest ng iyong app ibabang panel. Ang Update button ay magsa-save ng iyong mga pagbabago at iu-update ang app.">
+<!ENTITY projects.manifestViewer "Tagabasa ng Manifest">
+<!ENTITY projects.manifestViewerTooltip "Suriin ang manifest ng iyong app sa ibabang panel">
+<!ENTITY projects.valid "Balido">
 <!ENTITY projects.error "Error">
-<!ENTITY projects.warning "Warning">
+<!ENTITY projects.warning "Babala">
 <!ENTITY projects.hosted "Hosted">
 <!ENTITY projects.packaged "Packaged">
 
-<!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.title "Tagapamahala ng App">
+<!ENTITY help.close "Isara">
+<!ENTITY help.intro "Itong tool ay tutulungan kang gumawa at mag-talaga ng mga web app sa mga compatible na device (i.e. Firefox OS). Ang <strong>Mga App</strong> tab ay aalalayan ka sa validation at installation na proseso ng iyong app. Ang <strong>Device</strong> tab ay magbibigay sayo ng impormasyon tungkol sa konektadong device. Gamitin ang ibabang toolbar para makakonek sa isang device o simulan ang simulator.">
+<!ENTITY help.usefullLinks "Mga Kapaki-pakinabang na Link:">
+<!ENTITY help.appMgrDoc "Dokumentasyon: Paggamit sa Tagapamahala ng App">
+<!ENTITY help.configuringDevice "Paano i-setup ang iyong Firefox OS device">
+<!ENTITY help.troubleShooting "Paghahanap ng Problema">
+<!ENTITY help.simulatorAddon "Italaga ang Simulator Add-on">
+<!ENTITY help.adbHelperAddon "Italaga ang ADB Helper Add-on">

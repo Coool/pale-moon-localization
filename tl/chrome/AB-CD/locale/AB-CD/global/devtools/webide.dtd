@@ -10,17 +10,17 @@
 <!ENTITY projectMenu_newApp_accesskey "N">
 <!ENTITY projectMenu_importPackagedApp_label "Buksan ang Packaged App…">
 <!ENTITY projectMenu_importPackagedApp_accesskey "P">
-<!ENTITY projectMenu_importHostedApp_label "Open Hosted App…">
+<!ENTITY projectMenu_importHostedApp_label "Buksan ang Hosted App…">
 <!ENTITY projectMenu_importHostedApp_accesskey "H">
 <!ENTITY projectMenu_selectApp_label "Buksan ang App…">
 <!ENTITY projectMenu_selectApp_accesskey "O">
 <!ENTITY projectMenu_play_label "Italaga at Patakbuhin">
 <!ENTITY projectMenu_play_accesskey "I">
-<!ENTITY projectMenu_stop_label "Stop App">
+<!ENTITY projectMenu_stop_label "Ihinto ang App">
 <!ENTITY projectMenu_stop_accesskey "S">
 <!ENTITY projectMenu_debug_label "Debug App">
 <!ENTITY projectMenu_debug_accesskey "D">
-<!ENTITY projectMenu_remove_label "Remove Project">
+<!ENTITY projectMenu_remove_label "Alisin ang Proyekto">
 <!ENTITY projectMenu_remove_accesskey "R">
 <!ENTITY projectMenu_showPrefs_label "Mga Kagustuhan">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
@@ -55,7 +55,7 @@
 <!ENTITY viewMenu_resetzoom_label "Reset Zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
-<!ENTITY projectButton_label "Open App">
+<!ENTITY projectButton_label "Buksan ang App">
 <!ENTITY runtimeButton_label "Select Runtime">
 
 <!-- We try to repicate Firefox' bindings: -->
@@ -76,7 +76,7 @@
 <!ENTITY key_resetzoom "0">
 
 <!ENTITY projectPanel_myProjects "Aking Mga Proyekto">
-<!ENTITY projectPanel_runtimeApps "Runtime Apps">
+<!ENTITY projectPanel_runtimeApps "Mga Runtime App">
 <!ENTITY projectPanel_tabs "Mga Tab">
 <!ENTITY runtimePanel_usb "USB Devices">
 <!ENTITY runtimePanel_wifi "Wi-Fi Devices">
@@ -93,14 +93,14 @@
 <!ENTITY details_description "Deskripsyon">
 <!ENTITY details_location "Location">
 <!ENTITY details_manifestURL "App ID">
-<!ENTITY details_removeProject_button "Remove Project">
+<!ENTITY details_removeProject_button "Alisin ang Proyekto">
 <!ENTITY details_showPrepackageLog_button "Show Pre-package Log">
 
 <!-- New App -->
 <!ENTITY newAppWindowTitle "New App">
 <!ENTITY newAppHeader "Select template">
 <!ENTITY newAppLoadingTemplate "Loading templates…">
-<!ENTITY newAppProjectName "Project Name:">
+<!ENTITY newAppProjectName "Pangalan ng Proyekto:">
 
 
 <!-- Decks -->
@@ -119,8 +119,8 @@
 <!ENTITY prefs_manage_components "Manage Extra Components">
 <!ENTITY prefs_options_autoconnectruntime "Reconnect to previous runtime">
 <!ENTITY prefs_options_autoconnectruntime_tooltip "Reconnect to previous runtime when WebIDE starts">
-<!ENTITY prefs_options_rememberlastproject "Remember last project">
-<!ENTITY prefs_options_rememberlastproject_tooltip "Restore previous project when WebIDE starts">
+<!ENTITY prefs_options_rememberlastproject "Tandaan ang huling proyekto">
+<!ENTITY prefs_options_rememberlastproject_tooltip "Ipakita ang nakaraang proyekto pag nagbubukas ang WebIDE">
 <!ENTITY prefs_options_templatesurl "Templates URL">
 <!ENTITY prefs_options_templatesurl_tooltip "Index of available templates">
 <!ENTITY prefs_options_showeditor "Show editor">
