@@ -60,7 +60,7 @@
 <!ENTITY netOffline.title "Magtrabaho ng Walang Internet">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Pindutin ang &quot;Subukan Muli&quot; para lumipat sa moda na may internet at ulitin ang pag-load sa page.</li>
+  <li>Pindutin ang &quot;Subukan Muli&quot; para lumipat sa online mode at ulitin ang pag-load sa page.</li>
 </ul>
 ">
 
@@ -81,7 +81,7 @@
 <!ENTITY netReset.title "Ang koneksyon ay na-reset">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Ang koneksyon ay nawalan ng oras">
+<!ENTITY netTimeout.title "Ang koneksyon ay nag-time out">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Ang address ay hindi naintindihan">
@@ -147,10 +147,10 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Pinaghihinalaang Site na na-atake!">
+<!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Ang mga &quot;attack site&quot; ay sumusubok na magtalaga ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
-<p>Mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
+<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
@@ -159,8 +159,8 @@
 <p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para magaya ang mga tao o pinagmulang iyong pinagkakatiwalaan.</p>
 ">
 
-<!ENTITY cspBlocked.title "Hinarang ng Patakaran sa Seguridad ng Nilalaman">
-<!ENTITY cspBlocked.longDesc "<p>Hinarang ng &brandShortName; ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong patakaran sa seguridad ng nilalaman na hindi ito pinapayagan.</p>">
+<!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>Hinarang ng &brandShortName; ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong content security policy na hindi ito pinapayagan.</p>">
 
 <!ENTITY xssBlockMode.title "Hinarang ng XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -174,7 +174,7 @@
 ">
 
 <!ENTITY corruptedContentError.title "Kamalian dahil sa Sirang Nilalaman">
-<!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito..</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsyon…">

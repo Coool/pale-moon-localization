@@ -10,64 +10,64 @@
 <!ENTITY certmgr.tab.ca                       "Mga Awtoridad">
 <!ENTITY certmgr.tab.orphan2                  "Mga Iba">
 
-<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
-<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
+<!ENTITY certmgr.mine                         "Ikaw ay may mga sertipiko mula sa mga organisasyong ito na kumikilala sayo:">
+<!ENTITY certmgr.others                       "Mayroon kang mga sertipiko na kumikilala sa mga sumusunod na tao:">
 <!ENTITY certmgr.websites2                    "Mayroon kang mga sertipiko na kumikilala sa mga sumusunod na server:">
-<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
-<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
+<!ENTITY certmgr.cas                          "Mayroon kang mga sertipiko na kumikilala sa mga sumusunod na awtoridad ng sertipiko:">
+<!ENTITY certmgr.orphans                      "May mga sertipiko kang nasa file na hindi tugma sa ibang mga kategorya:">
 
 <!ENTITY certmgr.detail.general_tab.title     "Pangkalahatan">
 <!ENTITY certmgr.detail.general_tab.accesskey "G">
 <!ENTITY certmgr.detail.prettyprint_tab.title "Mga Detalye">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
-<!ENTITY certmgr.subjectinfo.label            "Issued To">
+<!ENTITY certmgr.pending.label                "Kasalukuyang pinatutunayan ang sertipiko…">
+<!ENTITY certmgr.subjectinfo.label            "Ibinigay Kay">
 <!ENTITY certmgr.issuerinfo.label             "Ibinigay Ni">
-<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
-<!ENTITY certmgr.fingerprints.label           "Fingerprints">
-<!ENTITY certmgr.certdetail.title             "Certificate Detail">
-<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
+<!ENTITY certmgr.periodofvalidity.label       "Hangganan ng Bisa" >
+<!ENTITY certmgr.fingerprints.label           "Mga Tatak ng Daliri">
+<!ENTITY certmgr.certdetail.title             "Detalye ng Sertipiko">
+<!ENTITY certmgr.certdetail.cn                "Karaniwang Pangalan (CN)">
 <!ENTITY certmgr.certdetail.o                 "Organisasyon (O)">
-<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
-<!ENTITY certmgr.certdetail.sha256fingerprint "SHA-256 Fingerprint">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
+<!ENTITY certmgr.certdetail.ou                "Yunit ng Organisasyon (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Numero ng Serial">
+<!ENTITY certmgr.certdetail.sha256fingerprint "SHA-256 na Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA-1 na Fingerprint">
 
-<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
-<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
-<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
-<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
-<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
-<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
-<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
-<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editcacert.title             "Baguhin ang mga setting sa pagtitiwala ng sertipko ng CA">
+<!ENTITY certmgr.editcert.edittrust           "Baguhin ang mga setting sa pagtitiwala:">
+<!ENTITY certmgr.editcert.trustssl            "Itong sertipiko ay kayang kumikilala sa mga website.">
+<!ENTITY certmgr.editcert.trustemail          "Itong sertipiko ay kayang kumilala sa mga mail user.">
+<!ENTITY certmgr.editcert.trustobjsign        "Itong sertipiko ay kayang kumikilala sa mga software maker.">
+<!ENTITY certmgr.editemailcert.title          "Baguhin ang mga setting sa pagtitiwala ng sertipko ng emaiil">
+<!ENTITY certmgr.editemailcert.edittrust      "Baguhin ang mga setting sa pagtitiwala ng sertipko:">
+<!ENTITY certmgr.editemailcert.dotrust        "Paniwalaan ang authenticity nitong sertipiko.">
+<!ENTITY certmgr.editemailcert.donttrust      "Huwag paniwalaan ang authenticity nitong sertipiko.">
 
-<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.title             "Burahin ang Sertipiko">
 
 <!ENTITY certmgr.certname                     "Pangalan ng Sertipiko">
 <!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "Security Device">
-<!ENTITY certmgr.begins                       "Begins On">
-<!ENTITY certmgr.expires                      "Expires On">
+<!ENTITY certmgr.override_lifetime            "Panghabambuhay">
+<!ENTITY certmgr.tokenname                    "Kagamitang Pang-seguridad">
+<!ENTITY certmgr.begins                       "Magsisimula sa">
+<!ENTITY certmgr.expires                      "Mawawalan ng bisa sa">
 <!ENTITY certmgr.email                        "E-Mail Address">
-<!ENTITY certmgr.serial                       "Serial Number">
+<!ENTITY certmgr.serial                       "Numero ng Serial">
 
-<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.label                  "Isara">
 <!ENTITY certmgr.close.accesskey              "C">
 <!ENTITY certmgr.view2.label                  "Tanaw…">
 <!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.label                  "Baguhin ang Pagtitiwala…">
 <!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Edit CA Trust">
+<!ENTITY certmgr.editca.label                 "Baguhin ang Pagtitiwala sa CA">
 <!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.label                 "I-export…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.label                "Burahin…">
 <!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.label         "I-delete o Di-pagkatiwalaan…">
 <!ENTITY certmgr.delete_builtin.accesskey     "D">
 <!ENTITY certmgr.backup2.label                "Backup…">
 <!ENTITY certmgr.backup2.accesskey            "B">
@@ -87,13 +87,13 @@
 <!ENTITY exceptionMgr.title                   "Magdagdag ng Ekspesyon sa Seguridad">
 <!ENTITY exceptionMgr.exceptionButton.label   "Kumpirmahin ang Eksepsyon sa Seguridad">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.supplementalWarning     "Ang mga lehitimong banko, tindahan, at ibang mga pampublikong site ay hindi magtatanong para gawin mo ito.">
 <!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Location:">
+<!ENTITY exceptionMgr.certlocation.url        "Lokasyon:">
 <!ENTITY exceptionMgr.certlocation.download   "Kunin ang Sertipiko">
 <!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
-<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.caption      "Estado ng Sertipiko">
+<!ENTITY exceptionMgr.certstatus.viewCert     "Tingnan…">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
 <!ENTITY exceptionMgr.permanent.label         "Permanenteng iimbak itong eksepsyon">
 <!ENTITY exceptionMgr.permanent.accesskey     "P">

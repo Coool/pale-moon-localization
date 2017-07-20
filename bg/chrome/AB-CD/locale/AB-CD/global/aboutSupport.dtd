@@ -8,13 +8,13 @@
 <!ENTITY aboutSupport.pageSubtitle "    
    Тази страница съдържа техническа информация, която може да се окаже полезна, когато се опитвате да решите проблем. Ако търсите отговори на конкретни въпроси относно &brandShortName;, обърнете се към нашия <a id='supportLink'>уеб сайт за поддръжка</a>. ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Съобщаване на сривове">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "ИД на отчета">
+<!ENTITY aboutSupport.crashes.sendDate "Изпратен">
+<!ENTITY aboutSupport.crashes.allReports "Всички отчети за сривове">
+<!ENTITY aboutSupport.crashes.noConfig "Това приложение не е конфигурирано да показва сривове.">
 
 <!ENTITY aboutSupport.extensionsTitle "Разширения">
 <!ENTITY aboutSupport.extensionName "Име">
@@ -22,23 +22,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Версия">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "Експериментални функции">
+<!ENTITY aboutSupport.experimentName "Име">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentDescription "Описание">
+<!ENTITY aboutSupport.experimentActive "Активно">
+<!ENTITY aboutSupport.experimentEndDate "Крайна дата">
+<!ENTITY aboutSupport.experimentHomepage "Домашна страница">
 
 
 <!ENTITY aboutSupport.appBasicsTitle "Сведения за приложението">
 <!ENTITY aboutSupport.appBasicsName "Име">
 <!ENTITY aboutSupport.appBasicsVersion "Версия">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Изграждане на ИД">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Канал за обновление">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "История на обновяването">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Покажи историята на обновяване">
 
@@ -51,12 +51,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Включени плъгини">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Конфигурация на приложението">
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
-<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsOS "ОС">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Използвана памет">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Многопроцесни прозорци">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsSafeMode "Безопасен режим">
 
 <!ENTITY aboutSupport.showDir.label "Отвори директория">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -75,15 +75,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Настройки user.js">
 <!ENTITY aboutSupport.userJSDescription "В папката на Вашия профил се намира <a id='prefs-user-js-link'>файл user.js</a>, който съдържа настройки, които не са направени от &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Важни заключени настройки">
+<!ENTITY aboutSupport.lockedPrefsName "Име">
+<!ENTITY aboutSupport.lockedPrefsValue "Стойност">
 
 <!ENTITY aboutSupport.graphicsTitle "Графика">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Места за бази данни">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Целостност">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Проверка за цялостност">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Инкрементален GC">
@@ -100,10 +100,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Копирай текста в клипборда">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Копирай необработените данни в клипборда">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxTitle "Пясъчник">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Опитай безопасен режим">
+<!ENTITY aboutSupport.restartInSafeMode.label "Рестартиране с изключени разширения…">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "Опитайте рестартиране">
+<!ENTITY aboutSupport.restartNormal.label "Нормален рестарт…">

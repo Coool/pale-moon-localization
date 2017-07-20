@@ -3,9 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY playButton.playLabel "I-play">
-<!ENTITY playButton.pauseLabel "Sandaling Itigil">
-<!ENTITY muteButton.muteLabel "Mute">
-<!ENTITY muteButton.unmuteLabel "Unmute">
+<!ENTITY playButton.pauseLabel "I-pause">
+<!ENTITY muteButton.muteLabel "I-mute">
+<!ENTITY muteButton.unmuteLabel "I-unmute">
 <!ENTITY fullscreenButton.enterfullscreenlabel "Buong Screen">
 <!ENTITY fullscreenButton.exitfullscreenlabel "Umalis sa Buong Screen">
 <!ENTITY castingButton.castingLabel "I-cast sa Screen">
@@ -13,26 +13,26 @@
 <!ENTITY stats.media "Media">
 <!ENTITY stats.size "Sukat">
 <!ENTITY stats.activity "Aktibidad">
-<!ENTITY stats.activityPaused "Nahinto">
-<!ENTITY stats.activityPlaying "Playing">
+<!ENTITY stats.activityPaused "Naka-pause">
+<!ENTITY stats.activityPlaying "Ipinapalabas">
 <!ENTITY stats.activityEnded "Natapos">
-<!ENTITY stats.activitySeeking "(seeking)">
+<!ENTITY stats.activitySeeking "(ginagalaw)">
 <!ENTITY stats.volume "Lakas ng Tunog">
-<!ENTITY stats.framesParsed "Frames parsed">
-<!ENTITY stats.framesDecoded "Frames decoded">
-<!ENTITY stats.framesPresented "Frames presented">
-<!ENTITY stats.framesPainted "Frames painted">
+<!ENTITY stats.framesParsed "Mga frame na-parse">
+<!ENTITY stats.framesDecoded "Mga frame na-decode">
+<!ENTITY stats.framesPresented "Mga frame na ipinakita">
+<!ENTITY stats.framesPainted "Mga frame na naipinta">
 
-<!ENTITY error.aborted "Video loading stopped.">
-<!ENTITY error.network "Video playback aborted due to a network error.">
-<!ENTITY error.decode "Video can't be played because the file is corrupt.">
-<!ENTITY error.srcNotSupported "Video format or MIME type is not supported.">
-<!ENTITY error.noSource2 "No video with supported format and MIME type found.">
-<!ENTITY error.generic "Video playback aborted due to an unknown error.">
+<!ENTITY error.aborted "Ang pagload ng video ay tumigil.">
+<!ENTITY error.network "Ang pagpapalabas ng video ay nahinto dahil sa network error.">
+<!ENTITY error.decode "Ang video ay hindi maipapalabas dahil sira ang file.">
+<!ENTITY error.srcNotSupported "Ang format ng video o MIME type ay hindi suportado.">
+<!ENTITY error.noSource2 "Walang suportadong format at MIME type ng video ang nahanap.">
+<!ENTITY error.generic "Ang pagpapalabas ng video ay nahinto sa hindi malamang error.">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at
 the 5 minute mark in a 6 hour long video, #1 would be "5:00" and #2 would be
 "6:00:00", result string would be "5:00 of 6:00:00 elapsed".
 -->
-<!ENTITY scrubberScale.nameFormat "#1 of #2 elapsed">
+<!ENTITY scrubberScale.nameFormat "#1 sa #2 lumipas">

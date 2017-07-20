@@ -10,8 +10,8 @@
 <!ENTITY select.heading              "Piliin ang Iyong Mga Add-on">
 <!-- LOCALIZATION NOTE (select.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY select.description          "Make &brandShortName; even faster by disabling add-ons you no longer use. Add-ons already installed by third parties will be disabled automatically unless you select them below.">
-<!ENTITY select.keep                 "Keep">
+<!ENTITY select.description          "Lalong pabilisin ang &brandShortName; sa pamamagitan ng hindi pagpapagana sa mga add-on na hindi mo na ginagamit. Mga add-on na na itinalaga ng mga third party ay hindi pagaganahin ng kusang maliban na lamang kung piliin mo sila sa ibaba.">
+<!ENTITY select.keep                 "Panatilihin">
 <!-- LOCALIZATION NOTE (select.keep.style): Should be a width wide enough for
      the string in select.keep above. -->
 <!ENTITY select.keep.style           "width: 6ch;">
@@ -29,20 +29,20 @@
 <!ENTITY confirm.heading             "Piliin ang Iyong Mga Add-on">
 <!-- LOCALIZATION NOTE (confirm.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY confirm.description         "Make &brandShortName; even faster by disabling add-ons you no longer use. Add-ons already installed by third parties will be disabled automatically unless you select them below.">
+<!ENTITY confirm.description         "Lalong pabilisin ang &brandShortName; sa pamamagitan ng hindi pagpapagana sa mga add-on na hindi mo na ginagamit. Mga add-on na na itinalaga ng mga third party ay hindi pagaganahin ng kusang maliban na lamang kung piliin mo sila sa ibaba.">
 
-<!ENTITY action.disable.heading      "The following add-ons will be disabled:">
-<!ENTITY action.incompatible.heading "The following add-ons are disabled, but will be enabled as soon as they are compatible:">
+<!ENTITY action.disable.heading      "Ang mga sumusunod na mga add-on ay hindi pagaganahin:">
+<!ENTITY action.incompatible.heading "Ang mga sumusunod na add-on ay hindi na pinagana, ngunit sa pagaganahin muli sa oras na sila'y maging compatible:">
 <!ENTITY action.update.heading       "Ang mga sumusunod na mga add-on ay i-uupdate:">
 <!ENTITY action.enable.heading       "Ang mga sumusunod na mga add-on ay pagaganahin:">
 
-<!ENTITY update.heading              "Updating Your Add-ons">
-<!ENTITY update.progress.label       "Downloading and installing updates for your selected add-ons.">
+<!ENTITY update.heading              "Inu-update ang Iyong mga Add-on">
+<!ENTITY update.progress.label       "Dina-download at itinatalaga ang mga update para sa mga pinili mong add-on.">
 
-<!ENTITY errors.heading              "&brandShortName; could not update some of your add-ons.">
-<!ENTITY errors.description          "Installing updates for some of your add-ons failed. &brandShortName; will automatically try to update them again later.">
+<!ENTITY errors.heading              "Hind ma-update ng &brandShortName; ang ilan sa iyong mga add-on.">
+<!ENTITY errors.description          "Pagtatalaga ng mga update sa ilan sa iyong mga add-on ay pumalya. Kusang susubukan ulit ng &brandShortName; na i-update sila mamaya.">
 
-<!ENTITY footer.label                "You can always change your add-ons by going to the Add-ons Manager.">
+<!ENTITY footer.label                "Maari mong baguhin ang iyong mga add-on sa pamamagitan ng pagpunta sa Tagapamahala ng mga Add-on.">
 <!ENTITY cancel.label                "Kanselahin">
 <!ENTITY back.label                  "Bumalik">
 <!ENTITY next.label                  "Susunod">

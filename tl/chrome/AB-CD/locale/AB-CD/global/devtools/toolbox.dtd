@@ -21,11 +21,11 @@
 <!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
   -  the iframes menu list that appears only when the document has some.
   -  It allows you to switch the context of the whole toolbox. -->
-<!ENTITY toolboxFramesTooltip          "Select an iframe as the currently targeted document">
+<!ENTITY toolboxFramesTooltip          "Pumili ng iframe bilang kasalukuyang tinatarget na dokumento">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
-<!ENTITY options.context.advancedSettings "Advanced settings">
+<!ENTITY options.context.advancedSettings "Mga advanced na setting">
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
@@ -34,13 +34,13 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
+<!ENTITY options.showUserAgentStyles.label "Ipakita ang Mga Istilo ng Browser">
 <!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "Default color unit">
+<!ENTITY options.defaultColorUnit.label "Paunang-tukoy na unit ng kulay">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -67,30 +67,30 @@
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Current session only, reloads the page">
+<!ENTITY options.context.triggersPageRefresh  "* Kasalukuyang sesyon lamang, nire-reload ang pahina">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
+<!ENTITY options.enableChrome.label4    "Paganahin ang chrome at add-on debugging">
 <!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3    "Enable remote debugging">
+<!ENTITY options.enableRemote.label3    "Paganahin ang remote debugging">
 <!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
-<!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
+<!ENTITY options.disableJavaScript.label     "Huwag paganahin ang JavaScript *">
 <!ENTITY options.disableJavaScript.tooltip   "Turning this option on will disable JavaScript for the current tab. If the tab or the toolbox is closed then this setting will be forgotten.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
-<!ENTITY options.disableCache.label2     "Disable Cache (when toolbox is open)">
+<!ENTITY options.disableCache.label2     "Huwag paganahin ang Cache (kapag bukas ang toolbox)">
 <!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
@@ -102,7 +102,7 @@
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
-<!ENTITY options.selectAdditionalTools.label  "Developer Tools installed by add-ons">
+<!ENTITY options.selectAdditionalTools.label  "Mga Developer Tool na itinalaga ng mga add-on">
 
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -112,7 +112,7 @@
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
   -  for the target of the toolbox. -->
-<!ENTITY options.toolNotSupported.label  "* Not supported for current toolbox target">
+<!ENTITY options.toolNotSupported.label  "* hindi suportado para sa kasalukuyang toolbox target">
 
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label2): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
@@ -130,7 +130,7 @@
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
-<!ENTITY options.timestampMessages.label      "Enable timestamps">
+<!ENTITY options.timestampMessages.label      "Paganahin ang mga timestamp">
 <!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
@@ -140,7 +140,7 @@
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
-<!ENTITY options.stylesheetSourceMaps.label      "Show original sources">
+<!ENTITY options.stylesheetSourceMaps.label      "Ipakita ang mga orihinal na pinagmulan">
 <!ENTITY options.stylesheetSourceMaps.tooltip    "Ipakita ang orihinal na pinagmulan (e.g. Sass files) sa Tagabago ng Istilo at Inspektor">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
@@ -156,36 +156,35 @@
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Common Preferences">
+<!ENTITY options.commonPrefs.label           "Mga Karaniwang Preference">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
-<!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.label    "Paganahin ang mga persistent log">
+<!ENTITY options.enablePersistentLogs.tooltip  "Kapag pinagana mo itong option, ang Web Console at Network Monitor ay hindi mag-clear ng output sa tuwing ikaw ay magna-navigate sa bagong pahina">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Goanna platform symbols">
+<!ENTITY options.showPlatformData.label    "Ipakita ang datos ng Goanna platform">
+<!ENTITY options.showPlatformData.tooltip  "Kapag pinagana mo itong option, isasama na sa mga ulat ng JavaScript Profiler ang Goanna platform symbols">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
+<!ENTITY options.sourceeditor.label                     "Mga Editor Preference">
 <!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Kusang isara ang mga bracket">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
 <!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
 <!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
-<!ENTITY options.sourceeditor.tabsize.label             "Tab size">
+<!ENTITY options.sourceeditor.tabsize.label             "Sukat ng tab">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
-<!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
+<!ENTITY options.sourceeditor.keybinding.label          "Mga Keybinding">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">
-<!ENTITY options.sourceeditor.keybinding.default.label  "Default">
+<!ENTITY options.sourceeditor.keybinding.default.label  "Paunang-tukoy">
 

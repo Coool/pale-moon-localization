@@ -25,7 +25,7 @@ direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Isara ang mga tab sa kanan">
 <!ENTITY  closeTabsToTheEnd.accesskey        "i">
-<!ENTITY  closeOtherTabs.label               "Isara ang Iba pang Mga Tab">
+<!ENTITY  closeOtherTabs.label               "Isara ang Ibang Mga Tab">
 <!ENTITY  closeOtherTabs.accesskey           "o">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
@@ -92,7 +92,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitFullScreenCmd.label "Umalis sa Buong Screen">
 <!ENTITY exitFullScreenCmd.accesskey "F">
 <!ENTITY fullScreenCmd.label "Buong Screen">
-<!ENTITY fullScreenCmd.accesskey "F">
+<!ENTITY fullScreenCmd.accesskey "B">
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Ipakita ang Lahat ng Mga Tab">
 <!ENTITY showAllTabsCmd.accesskey "A">
@@ -102,7 +102,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Isara">
 <!ENTITY fullScreenAutohide.label "Itago ang Mga Toolbar">
 <!ENTITY fullScreenAutohide.accesskey "H">
-<!ENTITY fullScreenExit.label "Umalis sa Moda ng Buong Screen">
+<!ENTITY fullScreenExit.label "Itigil ang Pagsakop sa Buong Screen">
 <!ENTITY fullScreenExit.accesskey "F">
 <!ENTITY fullscreenAllowButton.label "Payagan">
 <!ENTITY fullscreenExitButton.label "Tanggihan">
@@ -199,7 +199,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY permissions.label            "Mga Pahintulot">
 <!ENTITY permissions.accesskey        "P">
 
-<!ENTITY webDeveloperMenu.label       "Developer ng Web">
+<!ENTITY webDeveloperMenu.label       "Web Developer">
 <!ENTITY webDeveloperMenu.accesskey   "W">
 
 <!ENTITY devtoolsConnect.label        "Kumonekta…">
@@ -289,8 +289,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "P"> 
 <!ENTITY deleteCmd.label          "Burahin">  
-<!ENTITY deleteCmd.key            "D">  
-<!ENTITY deleteCmd.accesskey        "D"> 
+<!ENTITY deleteCmd.key            "B">  
+<!ENTITY deleteCmd.accesskey        "B"> 
 <!ENTITY selectAllCmd.label         "Piliin Lahat">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
@@ -309,7 +309,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "Pasadyain…"> 
+<!ENTITY viewCustomizeToolbar.label       "I-customize…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "Mga Tab nasa Tuktok">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -326,12 +326,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
 <!ENTITY appMenuEdit.label "Baguhin">
-<!ENTITY appMenuCustomize.label "Pasadyain">
+<!ENTITY appMenuCustomize.label "I-customize">
 <!ENTITY appMenuToolbarLayout.label "Ayos ng Toolbar…">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
 <!ENTITY appMenuFind.label "Hanapin…">
 <!ENTITY appMenuUnsorted.label "Magkakahalong Mga Bookmark">
-<!ENTITY appMenuWebDeveloper.label "Developer ng Web">
+<!ENTITY appMenuWebDeveloper.label "Web Developer">
 <!ENTITY appMenuGettingStarted.label "Pagsisimula">
 <!ENTITY appMenuSafeMode.label "I-restart ng Hindi Pinapagana ang Mga Add-on…">
 <!ENTITY appMenuSafeMode.accesskey "R">
@@ -388,9 +388,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
 <!ENTITY viewPartialSourceCmd.accesskey "e">
 <!ENTITY viewPageSourceCmd.label      "Ipakita ang Pinagmulan ng Pahina">
-<!ENTITY viewPageSourceCmd.accesskey  "V">
+<!ENTITY viewPageSourceCmd.accesskey  "T">
 <!ENTITY viewFrameSourceCmd.label     "Ipakita ang Pinagmulan ng Frame">
-<!ENTITY viewFrameSourceCmd.accesskey "V">
+<!ENTITY viewFrameSourceCmd.accesskey "K">
 <!ENTITY viewPageInfoCmd.label        "Ipakita ang Impormasyon ng Pahina">
 <!ENTITY viewPageInfoCmd.accesskey    "I">
 <!ENTITY viewFrameInfoCmd.label       "Ipakita ang Impormasyon ng Frame">
@@ -413,13 +413,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "L">
 <!ENTITY bookmarkThisFrameCmd.label      "I-bookmark Itong Frame">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
-<!ENTITY emailPageCmd.label           "I-email Ang Kawing…">
+<!ENTITY emailPageCmd.label           "I-email ang Kawing…">
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "I-save ang Pahina Bilang…">
 <!ENTITY savePageCmd.accesskey        "A">
-<!ENTITY sendLinkCmd.label            "Ibigay ang Kawing…">
+<!ENTITY sendLinkCmd.label            "Ipadala ang Kawing…">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Ibigay ang Kawing ng Pahina…">
+<!ENTITY sendPageCmd.label            "Ipadala ang Kawing ng Pahina…">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
@@ -467,7 +467,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "I-play">
 <!ENTITY mediaPlay.accesskey         "P">
-<!ENTITY mediaPause.label            "Sandaling Itigil">
+<!ENTITY mediaPause.label            "I-pause">
 <!ENTITY mediaPause.accesskey        "P">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
 "Unmute" are the same because the two context-menu
@@ -482,12 +482,12 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate050x.accesskey "S">
 <!ENTITY mediaPlaybackRate100x.label "Karaniwang Bilis">
 <!ENTITY mediaPlaybackRate100x.accesskey "N">
-<!ENTITY mediaPlaybackRate150x.label "Sobrang Bilis (1.5×)">
+<!ENTITY mediaPlaybackRate150x.label "Mabilis (1.5×)">
 <!ENTITY mediaPlaybackRate150x.accesskey "H">
 <!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Napakabilis (2×)">
+<!ENTITY mediaPlaybackRate200x.label "Sobrang Bilis (2×)">
 <!ENTITY mediaPlaybackRate200x.accesskey "L">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
@@ -588,7 +588,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 
 <!ENTITY findOnCmd.label     "Hanapin sa Pahina…">
-<!ENTITY findOnCmd.accesskey "F">
+<!ENTITY findOnCmd.accesskey "H">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Hanapin Muli">
 <!ENTITY findAgainCmd.accesskey "g">

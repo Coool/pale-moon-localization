@@ -2,99 +2,101 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Pumalya sa pag-load ng pahina">
+<!ENTITY loadError.label "Nabigong Pag-load ng Pahina">
 <!ENTITY retry.label "Subukan Muli">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Pumalyang maka-konek">
-<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY connectionFailure.title "Pumalyang Maka-konekta">
+<!ENTITY connectionFailure.longDesc "<p>Kahit parang balido itong site, ang browser ay hindi makapag-tatag ng koneksyon.</p><ul><li>Maari bang ang site ay pansamantalang hindi magagamit? Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Limitadong Port dahil sa Kadahilanang Pang-seguridad">
 <!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy ng isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Hindi Natagpuang Address">
-<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<p>Ang browser ay hindi makahanap ng host server para sa ibinigay na address.</p><ul><li>Ikaw ba'y nagkamali nung tina-type mo ang domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> sa halip na <q><strong>www</strong>.mozilla.org</q>)</li><li>Ikaw ba'y sigurado na ang domain address na ito ay umiiral pa?  Ang rehistro nito ay maaring nag-expire na.</li><li>Ikaw ba'y hindi makapag-browse sa ibang mga site?  Suriin ang iyong koneksyon sa network at mga DNS server setting.</li><li>Ang iyong kompyuter o network ba'y protektado ng isang firewall o proxy?  Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
 
-<!ENTITY fileNotFound.title "Hindi Nakita ang File">
-<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
+<!ENTITY fileNotFound.title "File Hindi Natagpuan">
+<!ENTITY fileNotFound.longDesc "<ul><li>Maaring ang bagay ay napalitan ang pangalan, inalis, o inilipat sa ibang lokasyon?</li><li>Mayroon bang spelling, capitalization o ibang klase ng typographical error sa address?</li><li>Meron ka bang sapat na pahintulot upang mabuksan ang hinihiling na bagay?</li></ul>">
 
 <!ENTITY generic.title "Hindi Makumpletong Hiling">
-<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
+<!ENTITY generic.longDesc "<p>Karagdagang impormasyon tungkol sa problema o error na ito ay kasalukuyang hindi makita.</p>">
 
 <!ENTITY malformedURI.title "Imbalidong Address">
 <!ENTITY malformedURI.longDesc "<p>Ang ibinigay na address ay wala sa mga kinikilalang format. Mangyaring tingnan ang bar ng lokasyon kung may pagkakamali at subukan muli.</p>">
 
 <!ENTITY netInterrupt.title "Naantalang Pagpasa ng Datos">
-<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netInterrupt.longDesc "<p>Ang browser ay matagumpay na nakakonekta, ngunit ang koneksyon ay naantala habang naglilipat ng impormasyon.  Mangyaring subukan muli.</p><ul><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksyon sa network ng iyong kompyuter.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY notCached.title "Expired na Dokumento">
-<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay hindi natagpuan sa cache ng browser.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi kusang nire-request ng browser ang mga sensitibong dokumento.</li><li>I-click ang Subukan Muli upang ire-request ang dokumento mula sa website.</li></ul>">
 
-<!ENTITY netOffline.title "Magtrabaho ng Walang Internet">
-<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
+<!ENTITY netOffline.title "Offline Mode">
+<!ENTITY netOffline.longDesc2 "<p>Ang browser ay nag-ooperate sa offline mode at hindi makakonek sa hinihiling na bagay.</p><ul><li>Ang kompyuter ba ay konektado sa isang aktibong network?</li><li>Pindutin ang &quot;Subukan Muli&quot; upang lumipat sa online mode at ma-reload ang pahina.</li></ul>">
 
-<!ENTITY contentEncodingError.title "Pagkakamali sa pagka-encode ng karakter">
-<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY contentEncodingError.title "Error sa Pagka-encode ng Karakter">
+<!ENTITY contentEncodingError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil ito ay gumagamit ng imbalido o hindi suportadong form ng compression.</p><ul>
+<li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Hindi Ligtas na File Type">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Please contact the website owners to inform them of this problem.</li>
+  <li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li>
 </ul>
 ">
 
 <!ENTITY netReset.title "Naantalang Koneksyon">
-<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
+<!ENTITY netReset.longDesc "<p>Ang network link ay naantala habang nagne-negotiate ng koneksyon. Mangyaring subukan muli.</p>">
 
-<!ENTITY netTimeout.title "Timeout ng Network">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netTimeout.title "Timeout sa Network">
+<!ENTITY netTimeout.longDesc "<p>Ang hinihiling na site ay hindi tumugon sa connection request at ang browser ay tumigil sa paghihintay ng sago.</p><ul><li>Maari bang ang server ay nakakaranas ng malaking demand o pansamantalang outage?  Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Hindi Kilalang Protokol">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Ang address ay tumutukoy ng protokol (e.g. <q>wxyz://</q>) na hindi kilala ng browser kaya hindi makakonek ng maayos sa site.</p><ul><li>Ikaw ba ay sumusubok na mag-access ng multimedia o ibang mga non-text na serbisyo? Tingnan ang site para sa mga karagdagang requirement.</li><li>May mga protokol na nangangailangan ng third-party software o mga pligin bago ito makilala ng browser.</li></ul>">
 
 <!ENTITY proxyConnectFailure.title "Tinanggihan ng Proxy Server ang Koneksyon">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit tumanggi sa koneksyon ang proxy.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang proxy service ba ay tumatanggap ng mga koneksyon mula sa iyong network?</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Hindi Matagpuang Proxy Server">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit ang proxy ay hindi matagpuan.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang kompyuter ba ay konektado sa isang aktibong network?</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY redirectLoop.title "Paulit-ulit na Redirect">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY redirectLoop.longDesc "<p>Ang browser ay tumigil na sa pagsubok na kuhain ang hiniling na bagay. Nire-redirect ng site ang hiling sa paraan na hindi ito matatapos.</p><ul><li>Mayroon ka bang hindi pinagana o hinarang na mga cookie na kinakailangan nitong site?</li><li><em>NOTE</em>: Kapag ang pagtanggap ng mga cookie ng site ay hindi nakaresolba sa problema, maaring ito'y issue sa server configuration at hindi ang iyong kompyuter.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Hindi Tamang Tugon">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.longDesc "<p>Ang site ay tumugon sa kahilingan ng network sa paraang hindi inaasahan at ang browser ay hindi makapagpatuloy.</p>">
 
 <!ENTITY nssFailure2.title "Pumalyang Secure na Koneksyon">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY nssFailure2.longDesc2 "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil ang pagiging tunay ng natatanggap na datos ay hindi maberipika.</p><ul>
+<li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 <!ENTITY nssBadCert.title "Pumalyang Secure na Koneksyon">
 <!ENTITY nssBadCert.longDesc2 "<ul>
-<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
-<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
+ <li>Ito ay maaring problema sa pagkakapigura ng server, o maari rin na may gustong gayahin ang server na ito.</li>
+ <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraaan, maaring ang pagkakamaling ito ay pansamantala lamang, at maari kang sumubok muli mamaya.</li>
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Pinaghihinalaang Site na na-atake!">
+<!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+<p>Ang mga &quot;attack site&quot; ay sumusubok na magtalaga ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
+<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
-<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
+<p>Paglalagay ng anumang personal na impormasyon sa pahinang ito ay maaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
+<p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para magaya ang mga tao o pinagmulang iyong pinagkakatiwalaan.</p>
 ">
 
-<!ENTITY cspBlocked.title "Hinarang ng Patakaran sa Seguridad ng Nilalaman">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>Pinigilan ng browser ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong content security policy na hindi ito pinapayagan.</p>">
 
-<!ENTITY corruptedContentError.title "Kamalian dahil sa Sirang Nilalaman">
-<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentError.title "Error sa Sirang Nilalaman">
+<!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,
