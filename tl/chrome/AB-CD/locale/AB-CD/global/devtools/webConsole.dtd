@@ -11,12 +11,12 @@
 <!ENTITY window.title "Web Console">
 <!ENTITY browserConsole.title "Browser Console">
 
-<!ENTITY networkPanel.requestURLColon             "Request URL:">
-<!ENTITY networkPanel.requestMethodColon          "Request Method:">
+<!ENTITY networkPanel.requestURLColon             "URL ng Hiling:">
+<!ENTITY networkPanel.requestMethodColon          "Paraan ng Hiling:">
 <!ENTITY networkPanel.statusCodeColon             "Status Code:">
 
 <!ENTITY networkPanel.requestHeaders              "Request Headers">
-<!ENTITY networkPanel.requestCookie               "Sent Cookie">
+<!ENTITY networkPanel.requestCookie               "Ipinadalang Cookie">
 <!ENTITY networkPanel.requestBody                 "Request Body">
 <!ENTITY networkPanel.requestFormData             "Sent Form Data">
 
@@ -24,10 +24,10 @@
 <!ENTITY networkPanel.responseCookie              "Nakuhang Cookie">
 <!ENTITY networkPanel.responseBody                "Response Body">
 <!ENTITY networkPanel.responseBodyCached          "Cached Data">
-<!ENTITY networkPanel.responseBodyUnknownType     "Unknown Content Type">
+<!ENTITY networkPanel.responseBodyUnknownType     "Hindi kilalang Uri ng Nilalaman">
 <!ENTITY networkPanel.responseNoBody              "No Response Body">
 <!ENTITY networkPanel.responseImage               "Natanggap na Larawan">
-<!ENTITY networkPanel.responseImageCached         "Cached Image">
+<!ENTITY networkPanel.responseImageCached         "Naka-cache na Larawan">
 
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in the Web
    - Console context menu. -->
@@ -55,7 +55,7 @@
 <!ENTITY btnPageCSS.label   "CSS">
 <!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
 <!ENTITY btnPageCSS.accesskey "C">
-<!ENTITY btnPageJS.label    "JS">
+<!ENTITY btnPageJS.label    "CSS">
 <!ENTITY btnPageJS.tooltip  "Log JavaScript exceptions">
 <!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageSecurity.label "Seguridad">
@@ -69,16 +69,16 @@
 <!ENTITY btnPageLogging.label   "Logging">
 <!ENTITY btnPageLogging.tooltip "Log messages sent to the window.console object">
 <!ENTITY btnPageLogging.accesskey3 "L">
-<!ENTITY btnConsoleErrors       "Errors">
+<!ENTITY btnConsoleErrors       "Mga Error">
 <!ENTITY btnConsoleInfo         "Info">
 <!ENTITY btnConsoleWarnings     "Mga Babala">
 <!ENTITY btnConsoleLog          "Log">
 <!ENTITY btnConsoleXhr          "XHR">
 <!ENTITY btnConsoleReflows      "Reflows">
 
-<!ENTITY filterOutput.placeholder "Filter output">
-<!ENTITY btnClear.label        "Clear">
-<!ENTITY btnClear.tooltip      "Clear the Web Console output">
+<!ENTITY filterOutput.placeholder "I-filter ang output">
+<!ENTITY btnClear.label        "Burahin">
+<!ENTITY btnClear.tooltip      "Burahin ang output ng Web Console">
 <!ENTITY btnClear.accesskey    "r">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
@@ -91,7 +91,7 @@
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY copyURLCmd.label     "Copy Link Location">
+<!ENTITY copyURLCmd.label     "Kopyahin ang Lokasyon ng Kawing">
 <!ENTITY copyURLCmd.accesskey "a">
 
 <!ENTITY closeCmd.key         "W">

@@ -10,11 +10,11 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Грешка при свързване">
+<!ENTITY connectionFailure.title "Не може да се свърже">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Адресът е забранен">
-<!ENTITY deniedPortAccess.longDesc "<p>Този адрес използва порт (например: <q>mozilla.org:80</q> за порт 80 на mozilla.org), който обикновено се използва за <em>други</em> цели, а не за сърфиране в Интернет. Браузърът отмени тази заявка, поради съображения за безопасността.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Този адрес използва порт (например: <q>palemoon.org:25</q> за порт 25 на palemoon.org), който обикновено се използва за <em>други</em> цели, а не за сърфиране в Интернет. Браузърът отмени тази заявка, поради съображения за безопасността.</p>">
 
 <!ENTITY dnsNotFound.title "Сървърът не е намерен">
 <!ENTITY dnsNotFound.longDesc "
@@ -38,7 +38,7 @@
 ">
 
 
-<!ENTITY generic.title "Оопс.">
+<!ENTITY generic.title "Упс.">
 <!ENTITY generic.longDesc "
 <p>&brandShortName; не може да зареди тази страница, поради някаква прична.</p>
 ">
@@ -83,7 +83,7 @@
 <!ENTITY netReset.title "Връзката беше прекъсната">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Връзката изтече">
+<!ENTITY netTimeout.title "Времето за изчакване на връзката изтече">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Адресът не бе разбран">
@@ -172,7 +172,7 @@
 <!ENTITY cspBlocked.title "Блокирано от съображения за сигурност">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; попречи на тази страница да се зареди, защото страницата има правила за сигурност, които не позволяват това.</p>">
 
-<!ENTITY xssBlockMode.title "Блокирано от XSS филтър">
+<!ENTITY xssBlockMode.title "Блокирано от XSS филтъра">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
   <li>&brandShortName; блокира по-нататъшните действия на тази страница, 
@@ -183,7 +183,7 @@
 </ul>
 ">
 
-<!ENTITY corruptedContentError.title "Грешка породена от повреда на съдържимото">
+<!ENTITY corruptedContentError.title "Грешка предизвикана от повредено съдържание">
 <!ENTITY corruptedContentError.longDesc "<p>Страницата, която се опитвате да видите не може да бъде показана, 
 защото беше открита грешка при прехвърляне на данните.</p><ul><li>Моля, свържете се със собствениците на уеб сайта, за да ги уведомите за проблема.</li></ul>">
 
@@ -207,18 +207,17 @@ functionality specific to firefox. -->
 <!ENTITY errorReporting.title "Съобщи за тази грешка">
 <!ENTITY errorReporting.longDesc "Докладването на адреса и информация за сертификата на <span id='hostname'></span> ни помага за намирането и блокирането на опасни сайтове. Благодаря че помагате за създаването на по-безопасен интернет!">
 <!ENTITY errorReporting.automatic "Автоматично докладвай за грешки в бъдеще">
-<!ENTITY errorReporting.learnMore "Научете повече…">
-<!ENTITY errorReporting.sending "Изпращане на отчет">
+<!ENTITY errorReporting.learnMore "Научи повече…">
+<!ENTITY errorReporting.sending "Изпращане на доклад">
 <!ENTITY errorReporting.sent "Доклада е изпратен">
-<!ENTITY errorReporting.report "Подаване на сигнал">
-<!ENTITY errorReporting.tryAgain "Опитайте отново">
+<!ENTITY errorReporting.report "Докладване">
+<!ENTITY errorReporting.tryAgain "Опитай отново">
 
-<!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p>Технологията  Remote XUL вече е остаряла и не дава необходимото ниво на сигурност</p>
-<ul><li>Моля, свържете се със собствениците на уеб сайта, за да ги информирате за проблема.</li></ul>">
+<!ENTITY remoteXUL.title "Отдалечен XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Моля, свържете се със собствениците на сайта, за да ги уведомите за проблема.</li></ul></p>">
 
 <!ENTITY sslv3Used.title "Неуспешно защитено свързване">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Допълнителна информация: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Научете повече…">
+<!ENTITY sslv3Used.learnMore "Научи повече…">

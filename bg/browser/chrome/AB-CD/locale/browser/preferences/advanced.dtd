@@ -12,7 +12,7 @@
 <!ENTITY useCursorNavigation.accesskey   "к">
 <!ENTITY searchStartTyping.label         "Търси за текст, когато започна да пиша">
 <!ENTITY searchStartTyping.accesskey     "Т">
-<!ENTITY blockAutoRefresh.label          "Предупреждавай ме, когато уеб сайтовете се опитват да презаредят страницата или се опитват да осъществят пренасочване.">
+<!ENTITY blockAutoRefresh.label          "Предупреждавай ме, когато уеб сайтовете опитват да пренасочат или презаредят страницата">
 <!ENTITY blockAutoRefresh.accesskey      "П">
 
 <!ENTITY browsing.label                  "Преглед на сайтове">
@@ -21,9 +21,9 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Плавно превъртане">
 <!ENTITY useSmoothScrolling.accesskey    "л">
-<!ENTITY allowHWAccel.label              "Използване на апаратно ускорение, когато е налично">
+<!ENTITY allowHWAccel.label              "Използвай хардуерно ускорение, когато е възможно">
 <!ENTITY allowHWAccel.accesskey          "х">
-<!ENTITY checkSpelling.label             "Проверка на правописа при писане">
+<!ENTITY checkSpelling.label             "Проверявай правописа при писане">
 <!ENTITY checkSpelling.accesskey         "П">
 
 <!ENTITY systemDefaults.label            "Системни настройки">
@@ -37,9 +37,9 @@
 
 <!ENTITY crashReporterSection.label      "Съобщаване на сривове">
 <!ENTITY crashReporterDesc.label         "&brandShortName; изпраща съобщение за срив, за да помогне на &vendorShortName; да направи браузъра по-добър и безопасен">
-<!ENTITY enableCrashReporter.label       "Включване на съобщаването на сривове">
+<!ENTITY enableCrashReporter.label       "Включване на съобщаването за сривове">
 <!ENTITY enableCrashReporter.accesskey   "р">
-<!ENTITY crashReporterLearnMore.label    "Научете повече">
+<!ENTITY crashReporterLearnMore.label    "Научи повече">
 
 <!ENTITY networkTab.label                "Мрежа">
 
@@ -51,7 +51,7 @@
 
 <!ENTITY httpCache.label                 "Кеширано уеб съдържание">
 
-<!ENTITY offlineStorage2.label           "Офлайн уеб съдържимо и потребителски данни">
+<!ENTITY offlineStorage2.label           "Офлайн уеб съдържание и потребителски данни">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -59,12 +59,12 @@
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-<!ENTITY limitCacheSizeBefore.label      "Ограничи използването на кеша до">
+<!ENTITY limitCacheSizeBefore.label      "Ограничи кеша до">
 <!ENTITY limitCacheSizeBefore.accesskey  "О">
 <!ENTITY limitCacheSizeAfter.label       "МБ дисково пространство">
-<!ENTITY clearCacheNow.label             "Изчистване">
+<!ENTITY clearCacheNow.label             "Изчисти">
 <!ENTITY clearCacheNow.accesskey         "И">
-<!ENTITY clearOfflineAppCacheNow.label   "Изчистване">
+<!ENTITY clearOfflineAppCacheNow.label   "Изчисти сега">
 <!ENTITY clearOfflineAppCacheNow.accesskey "ч">
 <!ENTITY overrideSmartCacheSize.label    "Забрани автоматичното управление на кеша">
 <!ENTITY overrideSmartCacheSize.accesskey "З">
@@ -77,17 +77,17 @@
      in preferences.properties -->
 <!ENTITY updateAuto1.label               "Автоматично инсталиране на обновленията">
 <!ENTITY updateAuto1.accesskey           "а">
-<!ENTITY updateAutoMetro.label           "Обнови автоматично от десктоп и Windows 8 стил &brandShortName;">
+<!ENTITY updateAutoMetro.label           "Автоматично обновявай &brandShortName; за десктоп или за Windows 8">
 <!ENTITY updateAutoMetro.accesskey       "W">
-<!ENTITY updateCheck.label               "Да се проверява за обновления, но нека аз преценя дали да ги инсталирам или не">
+<!ENTITY updateCheck.label               "Проверявай за обновления, но нека аз преценя дали да ги инсталирам">
 <!ENTITY updateCheck.accesskey           "П">
-<!ENTITY updateManual.label              "Никога да не се проверява за обновления (не се препоръчва)">
+<!ENTITY updateManual.label              "Никога не проверявай за обновления (не се препоръчва)">
 <!ENTITY updateManual.accesskey          "Н">
 
-<!ENTITY updateAutoAddonWarn.label       "Предупреди ме, ако това ще направи  някои мои разширения несъвместими">
-<!ENTITY updateAutoAddonWarn.accesskey   "р">
+<!ENTITY updateAutoAddonWarn.label       "Предупреди ме, ако това ще изключи някоя добавка">
+<!ENTITY updateAutoAddonWarn.accesskey   "д">
 
-<!ENTITY updateAutoMetroWarn.label       "(Windows 8 стилът  &brandShortName; не проверява за съвместимост на разширенията)">
+<!ENTITY updateAutoMetroWarn.label       "(&brandShortName; в метро стил не проверява за съвместимост на разширенията)">
 
 <!ENTITY updateHistory.label             "Покажи историята на обновяванията">
 <!ENTITY updateHistory.accesskey         "о">
@@ -98,20 +98,20 @@
 
 <!ENTITY offlineNotify.label             "Съобщавай ми, когато уеб сайтовете искат да съхраняват данни за офлайн използване">
 <!ENTITY offlineNotify.accesskey         "С">
-<!ENTITY offlineAppsPermissions.label    "Когато бъде поискано запазване на данни за използване извън мрежата от някоя интернет страница, използвай:">
+<!ENTITY offlineAppsPermissions.label    "Когато сайт поиска да съхрани данни за офлайн ползване:">
 <!ENTITY offlineAppsPermissions.Allow    "Позволи по подразбиране">
-<!ENTITY offlineAppsPermissions.Ask      "Винаги да се пита">
+<!ENTITY offlineAppsPermissions.Ask      "Винаги питай">
 <!ENTITY offlineAppsPermissions.Deny     "Откажи">
 <!ENTITY offlineNotifyExceptions.label   "Изключения…">
 <!ENTITY offlineNotifyExceptions.accesskey "И">
 
 <!ENTITY offlineAppsList2.label          "На следните сайтове е разрешено да запазват данни за офлайн използване:">
 <!ENTITY offlineAppsList.height          "10em">
-<!ENTITY offlineAppsListRemove.label     "Премахване…">
+<!ENTITY offlineAppsListRemove.label     "Изтрий…">
 <!ENTITY offlineAppsListRemove.accesskey "И">
 <!ENTITY offlineAppRemove.confirm        "Изтрий офлайн данните">
 
-<!ENTITY certificateTab.label            "Удостоверения">
+<!ENTITY certificateTab.label            "Сертификати">
 <!ENTITY certGroup.label                 "Личен сертификат">
 <!ENTITY certSelection.description       "Когато сървърът изиска моя личен сертификат:">
 <!ENTITY certs.auto                      "Избери един автоматично">
@@ -123,7 +123,7 @@
 <!ENTITY enableOCSP.accesskey            "O">
 <!ENTITY requireOCSP.label               "Когато няма връзката с OCSP сървъра сертификатът да се счита за невалиден">
 <!ENTITY requireOCSP.accesskey           "с">
-<!ENTITY viewCerts.label                 "Преглед на удостоверенията">
+<!ENTITY viewCerts.label                 "Преглед на сертификатите">
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Устройства за защита">
 <!ENTITY viewSecurityDevices.accesskey   "У">
