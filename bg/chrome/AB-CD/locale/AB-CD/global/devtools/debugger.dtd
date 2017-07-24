@@ -44,7 +44,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
 <!ENTITY debuggerUI.autoPrettyPrint     "Автоматично разкрасяване на минимизирани източници">
-<!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
+<!ENTITY debuggerUI.autoPrettyPrint.accesskey "р">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
   -  button that toggles all breakpoints for all sources. -->
@@ -65,22 +65,22 @@
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
 <!ENTITY debuggerUI.pauseExceptions           "Пауза при изключения">
-<!ENTITY debuggerUI.pauseExceptions.accesskey "E">
+<!ENTITY debuggerUI.pauseExceptions.accesskey "П">
 
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
 <!ENTITY debuggerUI.ignoreCaughtExceptions           "Игнорирай уловени изключения">
-<!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
+<!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "у">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
   -  checkbox that toggles visibility of panes when opening the debugger. -->
 <!ENTITY debuggerUI.showPanesOnInit           "При пускане покажи панела">
-<!ENTITY debuggerUI.showPanesOnInit.accesskey "S">
+<!ENTITY debuggerUI.showPanesOnInit.accesskey "П">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
 <!ENTITY debuggerUI.showVarsFilter           "Покажи панела с филтър за променливите">
-<!ENTITY debuggerUI.showVarsFilter.accesskey "V">
+<!ENTITY debuggerUI.showVarsFilter.accesskey "ф">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the
   -  checkbox that toggles visibility of hidden (non-enumerable) variables and
@@ -93,13 +93,13 @@
   -  the checkbox that toggles the display of original or sourcemap-derived
   -  sources. -->
 <!ENTITY debuggerUI.showOriginalSource           "Покажи оригиналния източник">
-<!ENTITY debuggerUI.showOriginalSource.accesskey "O">
+<!ENTITY debuggerUI.showOriginalSource.accesskey "о">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
   -  the checkbox that toggles whether sources that we suspect are minified are
   -  automatically black boxed or not. -->
 <!ENTITY debuggerUI.autoBlackBox           "Автоматична черна кутия за минимизирани източници">
-<!ENTITY debuggerUI.autoBlackBox.accesskey "В">
+<!ENTITY debuggerUI.autoBlackBox.accesskey "ч">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
   -  appears in the filter panel popup as a header for the operators part. -->
@@ -110,43 +110,43 @@
 <!ENTITY debuggerUI.searchFile           "Филтър скриптове">
 <!ENTITY debuggerUI.searchFile.key       "Р">
 <!ENTITY debuggerUI.searchFile.altkey    "O">
-<!ENTITY debuggerUI.searchFile.accesskey "P">
+<!ENTITY debuggerUI.searchFile.accesskey "с">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
   -  in the source editor's context menu for the global search operation. -->
 <!ENTITY debuggerUI.searchGlobal           "Търсене във всички файлове">
 <!ENTITY debuggerUI.searchGlobal.key       "F">
-<!ENTITY debuggerUI.searchGlobal.accesskey "F">
+<!ENTITY debuggerUI.searchGlobal.accesskey "ф">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFunction): This is the text that appears
   -  in the source editor's context menu for the function search operation. -->
 <!ENTITY debuggerUI.searchFunction           "Търсене на определена функция">
 <!ENTITY debuggerUI.searchFunction.key       "D">
-<!ENTITY debuggerUI.searchFunction.accesskey "D">
+<!ENTITY debuggerUI.searchFunction.accesskey "я">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchToken): This is the text that appears
   -  in the source editor's context menu for the token search operation. -->
 <!ENTITY debuggerUI.searchToken           "Намери">
 <!ENTITY debuggerUI.searchToken.key       "F">
-<!ENTITY debuggerUI.searchToken.accesskey "F">
+<!ENTITY debuggerUI.searchToken.accesskey "Н">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
 <!ENTITY debuggerUI.searchGoToLine           "Отиди на ред…">
 <!ENTITY debuggerUI.searchGoToLine.key       "L">
-<!ENTITY debuggerUI.searchGoToLine.accesskey "L">
+<!ENTITY debuggerUI.searchGoToLine.accesskey "д">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchVariable): This is the text that appears
   -  in the source editor's context menu for the variables search operation. -->
 <!ENTITY debuggerUI.searchVariable           "Филтър променливи">
 <!ENTITY debuggerUI.searchVariable.key       "V">
-<!ENTITY debuggerUI.searchVariable.accesskey "V">
+<!ENTITY debuggerUI.searchVariable.accesskey "п">
 
 <!-- LOCALIZATION NOTE (debuggerUI.focusVariables): This is the text that appears
   -  in the source editor's context menu for the variables focus operation. -->
 <!ENTITY debuggerUI.focusVariables           "Фокусиране променливи">
 <!ENTITY debuggerUI.focusVariables.key       "V">
-<!ENTITY debuggerUI.focusVariables.accesskey "V">
+<!ENTITY debuggerUI.focusVariables.accesskey "ф">
 
 <!-- LOCALIZATION NOTE (debuggerUI.condBreakPanelTitle): This is the text that
   -  appears in the conditional breakpoint panel popup as a description. -->
@@ -179,13 +179,13 @@
 <!-- LOCALIZATION NOTE (debuggerUI.addWatch): This is the text that
   -  appears in the watch expressions context menu for adding an expression. -->
 <!ENTITY debuggerUI.addWatch            "Добави израз за проследяване">
-<!ENTITY debuggerUI.addWatch.accesskey  "E">
+<!ENTITY debuggerUI.addWatch.accesskey  "е">
 
 <!-- LOCALIZATION NOTE (debuggerUI.removeWatch): This is the text that
   -  appears in the watch expressions context menu for removing all expressions. -->
 <!ENTITY debuggerUI.removeAllWatch           "Премахни всички изрази за проследяване">
 <!ENTITY debuggerUI.removeAllWatch.key       "E">
-<!ENTITY debuggerUI.removeAllWatch.accesskey "E">
+<!ENTITY debuggerUI.removeAllWatch.accesskey "х">
 
 <!-- LOCALIZATION NOTE (debuggerUI.stepping): These are the keycodes that
   -  control the stepping commands in the debugger (continue, step over,

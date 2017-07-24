@@ -16,7 +16,7 @@
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Сървър">
-<!ENTITY serverType.default.label      "По подразбиране: Сървър Mozilla &syncBrand.fullName.label;">
+<!ENTITY serverType.default.label      "По подразбиране: Сървър &syncBrand.fullName.label;">
 <!ENTITY serverType.custom2.label   "Използвай собствен сървър…">
 <!ENTITY signIn.account2.label      "Акаунт">
 <!ENTITY signIn.account2.accesskey  "A">
@@ -27,7 +27,7 @@
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "Данни за акаунта">
-<!ENTITY setup.emailAddress.label     "Адрес на електронната поща">
+<!ENTITY setup.emailAddress.label     "Имейл адрес">
 <!ENTITY setup.emailAddress.accesskey "е">
 <!ENTITY setup.choosePassword.label      "Изберете парола">
 <!ENTITY setup.choosePassword.accesskey  "п">
@@ -41,7 +41,7 @@
 <!ENTITY setup.tosAgree1.label      "Съгласен съм">
 <!ENTITY setup.tosAgree1.accesskey  "С">
 <!ENTITY setup.tosLink.label        "Условия на услугата">
-<!ENTITY setup.tosAgree2.label      "У">
+<!ENTITY setup.tosAgree2.label      "и">
 <!ENTITY setup.ppLink.label         "Политика за поверителност">
 <!ENTITY setup.tosAgree3.label      "">
 <!ENTITY setup.tosAgree2.accesskey  "">
@@ -54,7 +54,7 @@
 <!ENTITY syncGenerateNewKey.label  "Генерирай нов ключ">
 <!ENTITY recoveryKeyBackup.description "Вашият ключ за възстановяване е необходим за достъпване до &syncBrand.fullName.label; на други машини. Моля, създайте негово резервно копие. Ние не можем да Ви помогнем при евентуалната загуба на ключа за възстановяване.">
 
-<!ENTITY button.syncKeyBackup.print.label     "Принтирай…">
+<!ENTITY button.syncKeyBackup.print.label     "Печат…">
 <!ENTITY button.syncKeyBackup.print.accesskey "П">
 <!ENTITY button.syncKeyBackup.save.label      "Запази…">
 <!ENTITY button.syncKeyBackup.save.accesskey  "З">
@@ -63,9 +63,9 @@
 <!ENTITY pairDevice.title.label             "Свързване на устройство">
 <!ENTITY addDevice.showMeHow.label          "Покажи ми как.">
 <!ENTITY addDevice.dontHaveDevice.label     "Устройството не е при мен">
-<!ENTITY pairDevice.setup.description.label  "За активиране изберете «Свържи се с устройство» на другото Ваше устройство.">
+<!ENTITY pairDevice.setup.description.label  "За активиране изберете &quot;Свържи се с устройство&quot; на другото ваше устройство.">
 <!ENTITY addDevice.setup.enterCode.label    "След това въведете този код:">
-<!ENTITY pairDevice.dialog.description.label "За да активирате Вашето ново устройство, изберете «Настрой синхронизация».">
+<!ENTITY pairDevice.dialog.description.label "За да активирате вашето ново устройство, изберете &quot;Настройка на Sync&quot;.">
 <!ENTITY addDevice.dialog.enterCode.label   "Въведете кода, който Ви дава устройството:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Моля, опитайте отново.">
 <!ENTITY addDevice.dialog.successful.label  "Устройството беше добавено успешно. Първоначалната синхронизация може да продължи няколко минути и да завърши във фонов режим.">
@@ -73,30 +73,30 @@
 <!ENTITY addDevice.dialog.connected.label   "Устройството е свързано">
 
 <!-- Existing Account Page 2: Manual Login -->
-<!ENTITY setup.signInPage.title.label "Регистрация">
-<!ENTITY existingRecoveryKey.description "Можете да получите копие на Вашия ключ за възстановяване като отидете на &syncBrand.shortName.label; и изберете в менюто «Управление на акаунт», командата «Моят ключ за възстановяване».">
+<!ENTITY setup.signInPage.title.label "Вход">
+<!ENTITY existingRecoveryKey.description "Можете да получите копие на Вашия ключ за възстановяване като отидете на &syncBrand.shortName.label; и изберете в менюто &quot;Управление на акаунт&quot;, командата &quot;Моят ключ за възстановяване&quot;.">
 <!ENTITY verifying.label              "Проверка…">
-<!ENTITY resetPassword.label          "Ресет на паролата">
+<!ENTITY resetPassword.label          "Нулиране на паролата">
 <!ENTITY resetSyncKey.label           "Загубих другото си устройство">
 
 <!-- Sync Options -->
-<!ENTITY setup.optionsPage.title      "Настройки Sync">
+<!ENTITY setup.optionsPage.title      "Настройки на Sync">
 <!ENTITY syncDeviceName.label       "Име на устройството:">
 <!ENTITY syncDeviceName.accesskey   "И">
 
 <!ENTITY syncMy.label               "Синхронизирай моите">
 <!ENTITY engine.bookmarks.label     "Отметки">
 <!ENTITY engine.bookmarks.accesskey "О">
-<!ENTITY engine.tabs.label          "Табове">
-<!ENTITY engine.tabs.accesskey      "T">
+<!ENTITY engine.tabs.label          "Раздели">
+<!ENTITY engine.tabs.accesskey      "Р">
 <!ENTITY engine.history.label       "История">
 <!ENTITY engine.history.accesskey   "И">
 <!ENTITY engine.passwords.label     "Пароли">
 <!ENTITY engine.passwords.accesskey "П">
 <!ENTITY engine.prefs.label         "Настройки">
 <!ENTITY engine.prefs.accesskey     "Н">
-<!ENTITY engine.addons.label        "Разширения">
-<!ENTITY engine.addons.accesskey    "Р">
+<!ENTITY engine.addons.label        "Добавки">
+<!ENTITY engine.addons.accesskey    "Д">
 
 <!ENTITY choice2a.merge.main.label       "Обедини данните от това устройство с &syncBrand.shortName.label;">
 <!ENTITY choice2.merge.recommended.label "Препоръчано:">
@@ -104,7 +104,7 @@
 <!ENTITY choice2a.server.main.label      "Замени данните на всички устройства с данните на това устройство">
 
 <!-- Confirm Merge Options -->
-<!ENTITY setup.optionsConfirmPage.title "Подтвърждение">
+<!ENTITY setup.optionsConfirmPage.title "Потвърди">
 <!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; сега ще обедини всички данни на браузъра на това устройство с данните намиращи се на Вашия Sync акаунт.">
 <!ENTITY confirm.client3.label         "Предупреждение: Следните &brandShortName; данни от това устройство ще бъдат премахнати:">
 <!ENTITY confirm.client2.moreinfo.label "След това &brandShortName; ще копира данните от &syncBrand.fullName.label; на това устройство.">
@@ -112,5 +112,5 @@
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Настройката е завършена">
-<!ENTITY changeOptions.label "Можете да промените тази опция, като изберете Настройки Sync по-долу.">
+<!ENTITY changeOptions.label "Можете да промените тази опция, като изберете Настройки на Sync по-долу.">
 <!ENTITY continueUsing.label "Сега можете да продължите да използвате &brandShortName;.">

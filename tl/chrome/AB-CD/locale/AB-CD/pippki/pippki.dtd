@@ -31,7 +31,7 @@
 <!ENTITY downloadCert.viewCert.text "Suriin ang sertipiko ng CA">
 
 <!-- Strings for the SSL client auth ask dialog -->
-<!ENTITY clientAuthAsk.title "User Identification Request">
+<!ENTITY clientAuthAsk.title "Hiling sa Pagkakakilanlan ng User">
 <!ENTITY clientAuthAsk.message1 "Itong site ay hiniling na kilalanin ang iyong sarili sa pamamagitan ng sertipiko:">
 <!ENTITY clientAuthAsk.message2 "Pumili ng sertipiko na ipresenta bilang pagkakakilanlan:">
 <!ENTITY clientAuthAsk.message3 "Mga detalye ng piniling sertipiko:">
@@ -41,28 +41,28 @@
 <!ENTITY certPicker.info  "Sertipiko:">
 <!ENTITY certPicker.detailsLabel "Mga detalye ng piniling sertipiko:">
 
-<!ENTITY pkcs12.setpassword.title  "Choose a Certificate Backup Password">
+<!ENTITY pkcs12.setpassword.title  "Pumili ng Backup Password ng Sertipiko">
 <!ENTITY pkcs12.setpassword.message  "Ang backup password ng sertipiko na iyong itatakda dito ay pumoprotekta sa backup file na iyong gagawin.  Kailangan mong itakda tiong password para makapagpatuloy sa backup.">
-<!ENTITY pkcs12.setpassword.label1 "Certificate backup password:">
-<!ENTITY pkcs12.setpassword.label2 "Certificate backup password (again):">
+<!ENTITY pkcs12.setpassword.label1 "Backup password ng sertipiko:">
+<!ENTITY pkcs12.setpassword.label2 "Backup password ng sertipiko (ulit):">
 <!ENTITY pkcs12.setpassword.reminder "Importante: Kung nakalimutan mo ang backup password ng iyong sertipiko, hindi mo na maaring ibalik ang backup na ito mamaya.  Paki-lagay ito sa isang ligtas na lokasyon.">
 
-<!ENTITY chooseToken.title  "Choose Token Dialog">
+<!ENTITY chooseToken.title  "Pumili ng Token Dialog">
 <!ENTITY chooseToken.message1 "Pumili ng token.">
 
-<!ENTITY escrowWarn.title "Encryption Key Copy">
+<!ENTITY escrowWarn.title "Kopya ng Encryption Key">
 <!ENTITY escrowWarn.message1 "Importante: Itong awtoridad ng sertipiko ay nagtanong na gumawa ka ng iyong encryption private key.">
-<!ENTITY escrowWarn.benefit1 "The benefit is that if you lose access to your encryption private key, you can request a copy from this certificate authority.">
-<!ENTITY escrowWarn.message2 "However, your encryption private key will be stored by the certificate authority, and could be used to read your encrypted email or documents without your permission.">
+<!ENTITY escrowWarn.benefit1 "Ang benepisyo kapag nawalan ka ng access sa iyong encryption private key, maari kang humiling ng kopya nito mula sa awtoridad ng sertipiko.">
+<!ENTITY escrowWarn.message2 "Gayunpaman, ang iyong encryption private key ay mai-imbak nitong awtoridad ng sertipiko, at maaring magamit upang basahin ang iyong encrypted email o mga dokumento ng walang permiso mula sayo.">
 <!ENTITY examineCert.label "Tingnan ang Sertipiko">
 <!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Gumagawa Ng Pribadong Key">
-<!ENTITY createCertInfo.msg1 "Key Generation in progress… This may take a few minutes….">
+<!ENTITY createCertInfo.msg1 "Ginagawa na ang key… Maari itong abutin ng ilang minuto….">
 <!ENTITY createCertInfo.msg2 "Mangyaring maghintay…">
 
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Protektadong Token Authentication">
-<!ENTITY protectedAuth.msg "Please authenticate to the token. Authentication method depends on the type of your token.">
+<!ENTITY protectedAuth.msg "Mangyaring makipag-authenticate sa token. Authentication method ay depende sa uri ng iyong token.">
 <!ENTITY protectedAuth.tokenName.label "Token:">

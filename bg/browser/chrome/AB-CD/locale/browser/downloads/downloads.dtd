@@ -51,20 +51,20 @@
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
-<!ENTITY cmd.show.label                   "Отваряне на папката с файловете">
-<!ENTITY cmd.show.accesskey               "п">
-<!ENTITY cmd.showMac.label                "Показване в търсача">
+<!ENTITY cmd.show.label                   "Отвори съдържащата папка">
+<!ENTITY cmd.show.accesskey               "П">
+<!ENTITY cmd.showMac.label                "Покажи във Finder">
 <!ENTITY cmd.showMac.accesskey            "F">
-<!ENTITY cmd.retry.label                  "Повторен опит">
-<!ENTITY cmd.goToDownloadPage.label       "Отиване на страницата за сваляне">
-<!ENTITY cmd.goToDownloadPage.accesskey   "О">
-<!ENTITY cmd.copyDownloadLink.label       "Копиране на препратката за сваляне">
+<!ENTITY cmd.retry.label                  "Опитай отново">
+<!ENTITY cmd.goToDownloadPage.label       "Отиди на страницата за сваляне">
+<!ENTITY cmd.goToDownloadPage.accesskey   "С">
+<!ENTITY cmd.copyDownloadLink.label       "Копирай линка за сваляне">
 <!ENTITY cmd.copyDownloadLink.accesskey   "К">
-<!ENTITY cmd.removeFromHistory.label      "Премахване от историята">
-<!ENTITY cmd.removeFromHistory.accesskey  "П">
-<!ENTITY cmd.clearList.label              "Изчистване на списъка">
+<!ENTITY cmd.removeFromHistory.label      "Премахни от историята">
+<!ENTITY cmd.removeFromHistory.accesskey  "и">
+<!ENTITY cmd.clearList.label              "Изчисти списъка">
 <!ENTITY cmd.clearList.accesskey          "ч">
-<!ENTITY cmd.clearDownloads.label         "Изчистване на свалянията">
+<!ENTITY cmd.clearDownloads.label         "Изчисти свалените">
 <!ENTITY cmd.clearDownloads.accesskey     "с">
 
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
@@ -72,22 +72,22 @@
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-<!ENTITY downloadsHistory.label           "Показване на всички сваляния">
+<!ENTITY downloadsHistory.label           "Покажи всички сваляния">
 <!ENTITY downloadsHistory.accesskey       "в">
 
-<!ENTITY clearDownloadsButton.label       "Изчистване на свалянията">
+<!ENTITY clearDownloadsButton.label       "Изчисти свалянията">
 <!ENTITY clearDownloadsButton.tooltip     "Изчиства завършените, отменените и неуспешните сваляния">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
      This string is shown when there are no items in the Downloads view, when it
      is displayed inside a browser tab.
      -->
-<!ENTITY downloadsListEmpty.label         "Към момента няма сваляния">
+<!ENTITY downloadsListEmpty.label         "Няма сваляния.">
 
 <!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
      This string is shown when there are no items in the Downloads Panel.
      -->
-<!ENTITY downloadsPanelEmpty.label        "Няма файлове за изтегляне за тази сесия.">
+<!ENTITY downloadsPanelEmpty.label        "Няма сваляния в тази сесия.">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no
