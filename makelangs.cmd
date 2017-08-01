@@ -3,40 +3,42 @@ set REL=27.0.0rc1
 
 if not "%1" == "all" exit 1
 
-call :fix-lang ar Arabic AR
-call :fix-lang bg Bulgarian BG
+rem call :fix-lang ar Arabic AR
+rem call :fix-lang bg Bulgarian BG
 rem call :fix-lang zh-CN Chinese Simplified
-call :fix-lang zh-TW Chinese Traditional
-call :fix-lang hr Croatian HR
+rem call :fix-lang zh-TW Chinese Traditional
+rem call :fix-lang hr Croatian HR
 rem call :fix-lang cs Czech CZ
-call :fix-lang da Danish DK
-call :fix-lang nl Dutch NL
-call :fix-lang en-GB English GB
-call :fix-lang fi Finnish FI
+rem call :fix-lang da Danish DK
+rem call :fix-lang nl Dutch NL
+rem call :fix-lang en-GB English GB
+rem call :fix-lang fi Finnish FI
 rem call :fix-lang fr French FR
-call :fix-lang gl Galician GL
+rem call :fix-lang gl Galician GL
 rem call :fix-lang de German DE
-call :fix-lang el Greek EL
-call :fix-lang hu Hungarian HU
-call :fix-lang is Icelandic IS
+rem call :fix-lang el Greek EL
+rem call :fix-lang hu Hungarian HU
+rem call :fix-lang is Icelandic IS
 rem call :fix-lang it Italian IT
 rem call :fix-lang ja Japanese JP
 rem call :fix-lang kn Kannada IN
-call :fix-lang ko Korean KR
+rem call :fix-lang ko Korean KR
 rem call :fix-lang pl Polish PL
-call :fix-lang pt-PT Portuguese PT
-call :fix-lang pt-BR Portuguese Brazilian
-call :fix-lang ro Romanian RO
+rem call :fix-lang pt-PT Portuguese PT
+rem call :fix-lang pt-BR Portuguese Brazilian
+rem call :fix-lang ro Romanian RO
 rem call :fix-lang ru Russian RU
-call :fix-lang sr Serbian RS
-call :fix-lang sk Slovak SK
-call :fix-lang sl Slovenian SI
+rem call :fix-lang sr Serbian RS
+rem call :fix-lang sk Slovak SK
+rem call :fix-lang sl Slovenian SI
+rem call :fix-lang tl Tagalog TL
 rem call :fix-lang es-ES Spanish Spain
 rem call :fix-lang es-AR Spanish Argentina
 rem call :fix-lang es-MX Spanish Mexico
-call :fix-lang sv-SE Swedish SE
-call :fix-lang tr Turkish TR
-call :fix-lang vi Vietnamese VI
+rem call :fix-lang sv-SE Swedish SE
+rem call :fix-lang tr Turkish TR
+rem call :fix-lang uk Ukrainian UA
+rem call :fix-lang vi Vietnamese VI
 echo All done!
 exit /b
 
