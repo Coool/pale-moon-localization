@@ -35,7 +35,7 @@
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
 <!ENTITY options.showUserAgentStyles.label "Ipakita ang mga Estilo ng Browser">
-<!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
+<!ENTITY options.showUserAgentStyles.tooltip "Kapag naka-on ito ipapakita ang mga default styles na nilo-load ng browser.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
@@ -73,25 +73,25 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label4    "Paganahin ang chrome at add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.tooltip2  "Kapag naka-on itong option papayagan nitong gumamit ka ng iba't ibang developer tools sa konteksto ng browser at mag-debug ng mga add-on mula sa Tagapamahala ng mga Add-on">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Paganahin ang remote debugging">
-<!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Kapag naka-on itong option papayagan nito ang developer tools na i-debug ang remote Firefox instance gaya ng Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
 <!ENTITY options.disableJavaScript.label     "Huwag paganahin ang JavaScript *">
-<!ENTITY options.disableJavaScript.tooltip   "Turning this option on will disable JavaScript for the current tab. If the tab or the toolbox is closed then this setting will be forgotten.">
+<!ENTITY options.disableJavaScript.tooltip   "Kapag naka-on itong option hindi nito pagaganahin ang JavaScript sa kasalukuyang tab. Kung ang tab o toolbox ay nakasara makakalimutan itong setting.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
 <!ENTITY options.disableCache.label2     "Huwag paganahin ang Cache (kapag bukas ang toolbox)">
-<!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
+<!ENTITY options.disableCache.tooltip2   "Kapag naka-on itong option hindi nito pagaganahin ang cache para sa lahat ng mga an na may nakabukas na toolbox.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -107,7 +107,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Available Toolbox Buttons">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Magagamit na mga Toolbox Buttons">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -122,7 +122,7 @@
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
 <!ENTITY options.usedeveditiontheme.label   "Gamitin ang Developer Edition na tema ng browser">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.tooltip "Tino-toggle ang Developer Edition browser na tema.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -131,7 +131,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "Paganahin ang mga timestamp">
-<!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
+<!ENTITY options.timestampMessages.tooltip    "Kapag pinagana mo itong option commands at output sa Web Console ay magpapakita ng timestamp">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -146,7 +146,7 @@
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
 <!ENTITY options.stylesheetAutocompletion.label      "Autocomplete CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values at selectors sa Tagabago ng Estilo habang ikaw ay nagta-type">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
@@ -176,12 +176,12 @@
   -  section. -->
 
 <!ENTITY options.sourceeditor.label                     "Mga Editor Preference">
-<!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
+<!ENTITY options.sourceeditor.detectindentation.label   "I-detect ang indentation">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Hulaan ang indentation ayon sa nilalaman ng pinagmulan">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Kusang isara ang mga bracket">
-<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
-<!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
+<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Kusang mag-sama ng mga closing brackets">
+<!ENTITY options.sourceeditor.expandtab.label           "Indent gamit ang spaces">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Gumamit ng mga espasyo sa halip na tab character">
 <!ENTITY options.sourceeditor.tabsize.label             "Sukat ng tab">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
 <!ENTITY options.sourceeditor.keybinding.label          "Mga Keybinding">
