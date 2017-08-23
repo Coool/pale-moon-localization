@@ -51,8 +51,8 @@
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
-<!ENTITY cmd.show.label                   "Buksan ang folder na naglalaman">
-<!ENTITY cmd.show.accesskey               "F">
+<!ENTITY cmd.show.label                   "Buksan ang folder na naglalaman nito">
+<!ENTITY cmd.show.accesskey               "f">
 <!ENTITY cmd.showMac.label                "Ipakita sa Finder">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Subukan Muli">
@@ -60,7 +60,7 @@
 <!ENTITY cmd.goToDownloadPage.accesskey   "P">
 <!ENTITY cmd.copyDownloadLink.label       "Kopyahin ang Kawing ng Download">
 <!ENTITY cmd.copyDownloadLink.accesskey   "L">
-<!ENTITY cmd.removeFromHistory.label      "Alisin sa Kasaysayan">
+<!ENTITY cmd.removeFromHistory.label      "Alisin mula sa Kasaysayan">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
 <!ENTITY cmd.clearList.label              "Burahin ang laman ng listahan">
 <!ENTITY cmd.clearList.accesskey          "a">
@@ -72,7 +72,7 @@
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-<!ENTITY downloadsHistory.label           "Ipakita ang lahat ng mga download">
+<!ENTITY downloadsHistory.label           "Ipakita ang lahat ng mga Download">
 <!ENTITY downloadsHistory.accesskey       "S">
 
 <!ENTITY clearDownloadsButton.label       "Burahin ang mga Download">
@@ -93,4 +93,4 @@
      This string is shown when some search terms are specified, but there are no
      results in the Downloads view.
      -->
-<!ENTITY downloadsListNoMatch.label       "Hindi makahanap ng anumang tumugma na mga download.">
+<!ENTITY downloadsListNoMatch.label       "Walang nahanap na tumugmang mga download.">

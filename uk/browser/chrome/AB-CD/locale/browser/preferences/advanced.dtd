@@ -26,10 +26,10 @@
 <!ENTITY checkSpelling.label             "Перевіряти орфографію при наборі тексту">
 <!ENTITY checkSpelling.accesskey         "е">
 
-<!ENTITY systemDefaults.label            "System Defaults">
-<!ENTITY alwaysCheckDefault.label        "Always check to see if &brandShortName; is the default browser on startup"><!--XXX-->
+<!ENTITY systemDefaults.label            "Системні замовчування">
+<!ENTITY alwaysCheckDefault.label        "Завжди перевiряти пiд час запускання що &brandShortName; є основним"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
-<!ENTITY setDefault.label                "Make &brandShortName; the default browser">
+<!ENTITY setDefault.label                "Зробити &brandShortName; основним броузером">
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; наразі є вашим типовим браузером">
 
@@ -98,51 +98,51 @@
 
 <!ENTITY offlineNotify.label             "Повідомляти мені, коли сайт просить дозволу зберегти дані для позамережного використання.">
 <!ENTITY offlineNotify.accesskey         "П">
-<!ENTITY offlineAppsPermissions.label    "When a website asks to store data for offline use:">
-<!ENTITY offlineAppsPermissions.Allow    "Allow by default">
-<!ENTITY offlineAppsPermissions.Ask      "Always ask">
-<!ENTITY offlineAppsPermissions.Deny     "Deny">
-<!ENTITY offlineNotifyExceptions.label   "Exceptions…">
+<!ENTITY offlineAppsPermissions.label    "Коли сайт просить зберегти дані для автономної роботи:">
+<!ENTITY offlineAppsPermissions.Allow    "Дозволити за замовчуванням">
+<!ENTITY offlineAppsPermissions.Ask      "Завжди питати">
+<!ENTITY offlineAppsPermissions.Deny     "Заборонити">
+<!ENTITY offlineNotifyExceptions.label   "Винятки…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label          "The following websites are allowed to store data for offline use:">
+<!ENTITY offlineAppsList2.label          "Наступним сайтам дозволено зберігати дані для автономного використання:">
 <!ENTITY offlineAppsList.height          "7em">
-<!ENTITY offlineAppsListRemove.label     "Remove…">
+<!ENTITY offlineAppsListRemove.label     "Видалити…">
 <!ENTITY offlineAppsListRemove.accesskey "R">
 <!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
 
 <!ENTITY certificateTab.label            "Сертифікати">
 <!ENTITY certGroup.label                 "Персональный сертификат">
-<!ENTITY certSelection.description       "When a server requests my personal certificate:">
+<!ENTITY certSelection.description       "Коли сервер запитує персональний сертифiкат:">
 <!ENTITY certs.auto                      "Надсилати автоматично">
 <!ENTITY certs.auto.accesskey            "а">
 <!ENTITY certs.ask                       "Питати кожного разу">
 <!ENTITY certs.ask.accesskey             "к">
-<!ENTITY ocspGroup.label                 "Certificate Validation">
-<!ENTITY enableOCSP.label                "Use OCSP to confirm the current validity of certificates">
+<!ENTITY ocspGroup.label                 "Перевірка сертифіката">
+<!ENTITY enableOCSP.label                "Використовувати OCSP для пiдтвердження теперішньої дiйсностi сертифiкатiв">
 <!ENTITY enableOCSP.accesskey            "U">
-<!ENTITY requireOCSP.label               "When an OCSP server connection fails, treat the certificate as invalid">
+<!ENTITY requireOCSP.label               "При помилцi з'єднання iз сервером OCSP уважати сертифiкат як недiйсний">
 <!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "Перегляд сертифікатів">
 <!ENTITY viewCerts.accesskey             "с">
-<!ENTITY viewSecurityDevices.label       "Security Devices">
+<!ENTITY viewSecurityDevices.label       "Пристрої захисту">
 <!ENTITY viewSecurityDevices.accesskey   "y">
 
-<!ENTITY UACompatGroup.label    "Compatibility">
-<!ENTITY UACompat.label         "User Agent Mode:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko Compatibility">
-<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+<!ENTITY UACompatGroup.label    "Сумiснiсть">
+<!ENTITY UACompat.label         "Використовувати User Agent:">
+<!ENTITY UACompat.Native        "Свiй">
+<!ENTITY UACompat.Gecko         "Сумiсний з Gecko">
+<!ENTITY UACompat.Firefox       "Сумiсний з Firefox">
 
-<!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY scrollparamTab.label               "Прокрутка">
+<!ENTITY smoothscroll.explain.label         "Наступні параметри використовуються тільки при увімкненій плавній прокрутці.">
 <!ENTITY smoothscroll.to                    "—">
-<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
-<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
-<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
-<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
-<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
-<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
-<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
-<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">
+<!ENTITY smoothscroll.params.label          "Параметри плавної прокрутки">
+<!ENTITY smoothscroll.mousewheel.label      "За допомогою коліщатка миші">
+<!ENTITY smoothscroll.mousewheel.duration   "Тривалість прокрутки миші:">
+<!ENTITY smoothscroll.arrowkeys.label       "За допомогою клавіш курсора">
+<!ENTITY smoothscroll.arrowkeys.duration    "Тривалість прокрутки:">
+<!ENTITY smoothscroll.pagekeys.label        "За допомогою клавіш PgUp/PgDn">
+<!ENTITY smoothscroll.pagekeys.duration     "Тривалість прокрутки:">
+<!ENTITY smoothscroll.scrollbar.label       "Зо допомоги смуги прокручування">
+<!ENTITY smoothscroll.scrollbar.duration    "Тривалiсть прокручування:">
