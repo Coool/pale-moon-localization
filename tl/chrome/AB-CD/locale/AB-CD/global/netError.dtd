@@ -2,16 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Nabigong Pag-load ng Pahina">
+<!ENTITY loadError.label "Nabigo sa pag-load ng pahina">
 <!ENTITY retry.label "Subukan Muli">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Pumalyang Maka-konekta">
-<!ENTITY connectionFailure.longDesc "<p>Kahit parang balido itong site, ang browser ay hindi makapag-tatag ng koneksyon.</p><ul><li>Maari bang ang site ay pansamantalang hindi magagamit? Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
+<!ENTITY connectionFailure.title "Nabigong makakonekta">
+<!ENTITY connectionFailure.longDesc "<p>Kahit parang balido itong site, ang browser ay hindi makapag-tatag nang isang koneksyon.</p><ul><li>Maari bang ang site ay pansamantalang hindi magagamit? Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Hindi tamang mga setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Limitadong Port dahil sa Kadahilanang Pang-seguridad">
-<!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy ng isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
+<!ENTITY deniedPortAccess.title "Nilimitahan ang port dahil sa mga kadahilanang pang-seguridad">
+<!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy nang isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Hindi Natagpuang Address">
 <!ENTITY dnsNotFound.longDesc "<p>Ang browser ay hindi makahanap ng host server para sa ibinigay na address.</p><ul><li>Ikaw ba'y nagkamali nung tina-type mo ang domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> sa halip na <q><strong>www</strong>.mozilla.org</q>)</li><li>Ikaw ba'y sigurado na ang domain address na ito ay umiiral pa?  Ang rehistro nito ay maaring nag-expire na.</li><li>Ikaw ba'y hindi makapag-browse sa ibang mga site?  Suriin ang iyong koneksyon sa network at mga DNS server setting.</li><li>Ang iyong kompyuter o network ba'y protektado ng isang firewall o proxy?  Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
@@ -63,7 +63,7 @@
 <!ENTITY redirectLoop.title "Paulit-ulit na Redirect">
 <!ENTITY redirectLoop.longDesc "<p>Ang browser ay tumigil na sa pagsubok na kuhain ang hiniling na bagay. Nire-redirect ng site ang hiling sa paraan na hindi ito matatapos.</p><ul><li>Mayroon ka bang hindi pinagana o hinarang na mga cookie na kinakailangan nitong site?</li><li><em>NOTE</em>: Kapag ang pagtanggap ng mga cookie ng site ay hindi nakaresolba sa problema, maaring ito'y issue sa server configuration at hindi ang iyong kompyuter.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Hindi Tamang Tugon">
+<!ENTITY unknownSocketType.title "Maling Tugon">
 <!ENTITY unknownSocketType.longDesc "<p>Ang site ay tumugon sa kahilingan ng network sa paraang hindi inaasahan at ang browser ay hindi makapagpatuloy.</p>">
 
 <!ENTITY nssFailure2.title "Pumalyang Secure na Koneksyon">

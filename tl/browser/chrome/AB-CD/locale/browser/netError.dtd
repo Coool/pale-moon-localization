@@ -19,11 +19,11 @@
 <!ENTITY dnsNotFound.title "Hindi natagpuan ang server">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-  <li>Silipin ang address kung mayroon itong pagkakamali sa pag-type tulad ng
+  <li>Suriin ang address kung mayroon itong pagkakamali sa pag-type tulad ng
     <strong>ww</strong>.example.com sa halip na
     <strong>www</strong>.example.com</li>
   <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksyon ng network sa iyong kompyuter.</li>
-  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall or proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
@@ -95,7 +95,7 @@
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
   <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
-  <li>Makipag-ugnayan sa tagapamahala ng iyong network para masigurong ang proxy server ay gumagana.</li>
+  <li>Makipag-ugnayan sa tagapangasiwa ng iyong network para masigurong ang proxy server ay gumagana.</li>
 </ul>
 ">
 
@@ -143,7 +143,7 @@
 <ul>
   <li>Ang site ay maaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
   <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksyon ng network sa iyong kompyuter.</li>
-  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall or proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
@@ -179,7 +179,7 @@
 
 <!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsyon…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako dito!">
-<!ENTITY securityOverride.exceptionButtonLabel "Magdagdag ng Eksepsyon…">
+<!ENTITY securityOverride.exceptionButtonLabel "Maglapat ng Eksepsyon…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
@@ -205,7 +205,7 @@ functionality specific to firefox. -->
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Hindi Makakonekta Nang Matiwasay">
+<!ENTITY sslv3Used.title "Hindi Makakonekta nang Secure">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Advanced na impormasyon: ssl_error_unsupported_version">
