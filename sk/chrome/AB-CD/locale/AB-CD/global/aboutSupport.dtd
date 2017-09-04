@@ -11,13 +11,13 @@
   o programe &brandShortName;, navštívte <a id='supportLink'>stránku podpory</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Správy o zlyhaní">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.id "ID zostavy">
 <!ENTITY aboutSupport.crashes.sendDate "Odoslané">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.allReports "Všetky správy o zlyhaní">
+<!ENTITY aboutSupport.crashes.noConfig "Táto aplikácia nie je nakonfigurovaná pre zobrazenie správy o zlyhaní.">
 
 <!ENTITY aboutSupport.extensionsTitle "Rozšírenia">
 <!ENTITY aboutSupport.extensionName "Názov">
@@ -37,11 +37,11 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.appBasicsTitle "Základné nastavenia aplikácie">
 <!ENTITY aboutSupport.appBasicsName "Názov">
 <!ENTITY aboutSupport.appBasicsVersion "Verzia">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID zostavy">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Aktualizačný kanál">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "História aktualizácií">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Zobraziť históriu aktualizácií">
 
@@ -57,9 +57,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Využitie pamäte">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Viacprocesový Windows">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsSafeMode "Núdzový režim">
 
 <!ENTITY aboutSupport.showDir.label "Otvoriť priečinok">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -78,15 +78,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Nastavenia v súbore user.js">
 <!ENTITY aboutSupport.userJSDescription "Priečinok vášho profilu obsahuje <a id='prefs-user-js-link'>súbor user.js</a>, ktorý obsahuje nastavenia, ktoré neboli vytvorené programom &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Dôležité uzamknuté nastavenia">
 <!ENTITY aboutSupport.lockedPrefsName "Názov">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedPrefsValue "Hodnota">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Databáza Miest">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrita">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Overiť integritu">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Inkrementálne GC">
@@ -105,8 +105,8 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+<!ENTITY aboutSupport.safeModeTitle "Skúste núdzový režim">
+<!ENTITY aboutSupport.restartInSafeMode.label "Reštartovať s vypnutými doplnkami…">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "Skúste reštartovať">
+<!ENTITY aboutSupport.restartNormal.label "Reštartujte normálne…">

@@ -10,17 +10,17 @@
 a replacement for the standard security certificate errors produced
 by NSS/PSM via netError.xhtml. -->
 
-<!ENTITY certerror.pagetitle  "Hindi Pinagkakatiwalaang Koneksyon">
-<!ENTITY certerror.longpagetitle "Itong Koneksyon ay Hindi Pinagkakatiwalaan">
+<!ENTITY certerror.pagetitle  "Hindi Pinagkakatiwalaang Koneksiyon">
+<!ENTITY certerror.longpagetitle "Itong Koneksiyon ay Hindi Pinagkakatiwalaan">
 
 <!-- Localization note (certerror.introPara1) - The string "#1" will
 be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
 <!ENTITY certerror.introPara1 "Tinanong mo ang &brandShortName; na kumonekta
-nang secure sa <b>#1</b>, ngunit hindi namin makumpirma kung talagang ligtas ang iyong koneksyon.">
+nang secure sa <b>#1</b>, ngunit hindi namin makumpirma kung talagang ligtas ang iyong koneksiyon.">
 <!ENTITY certerror.introPara2 "Karaniwan, kapag sinusubukan mong kumonekta nang secure,
-ang mga site ay magpe-presenta ng pinagkakatiwalaang pagkakakilanlan para mapatunayang
-ikaw ay pumupunta sa tamang lugar. Gayunman, ang pagkakakilanlan ng site na ito ay hindi maberipika.">
+ang mga site ay magpre-presenta ng pinagkakatiwalaang pagkakakilanlan para mapatunayang
+ikaw ay pumupunta sa tamang lugar. Gayunman, ang pagkakakilanlan ng site na ito ay hindi mapatunayan.">
 
 <!ENTITY certerror.whatShouldIDo.heading "Ano Ang Dapat Kong Gawin?">
 <!ENTITY certerror.whatShouldIDo.content "Kung ikaw ay karaniwang kumokonek sa
@@ -32,7 +32,7 @@ nagtatangkang gayahin ang site na ito, at hindi ka dapat tumuloy.">
 <!ENTITY certerror.expert.content "Kung naiintindihan mo ang nangyayari, maari mong
 sabihin kay &brandShortName; na simulang paniwalaan ang pagkakakilanlan ng site na ito.
 <b>Kahit pa pinagkakatiwalaan mo ang site na ito, maaring may nagtatangkang
-pakialamanan ang iyong koneksyon.</b>">
+pakialamanan ang iyong koneksiyon.</b>">
 <!ENTITY certerror.expert.contentPara2 "Huwag maglapat ng eksepsyon maliban na lamang kung alam mong may magandang dahilan kung bakit hindi gumagamit ang site na ito ng pinagkakatiwalaang pagkakakilanlan.">
 <!ENTITY certerror.addException.label "Maglapat ng Eksepsyon…">
 

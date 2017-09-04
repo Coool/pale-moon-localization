@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "Modules complémentaires">
+
 <!ENTITY  warnAddonInstall.label        "Prévenir lorsque les sites essaient d'installer des modules complémentaires">
 <!ENTITY  warnAddonInstall.accesskey    "P">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Exceptions…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
+<!ENTITY  addonSecuritylevel            "Niveau de sécurité des modules complémentaires :">
+<!ENTITY  addonSecurityLevel_Off        "Désactivé : aucun modules ne sera bloqué (dangereux)">
+<!ENTITY  addonSecurityLevel_Low        "Faible : bloquer uniquement les modules avec de graves problèmes de sécurité et de stabilité">
+<!ENTITY  addonSecurityLevel_High       "Moyen : bloquer tous les modules nuisibles (par défaut, recommandé)">
+<!ENTITY  addonSecurityLevel_Extreme    "Élevé : bloquer tous les modules avec des problèmes connus">
 
 <!ENTITY  passwords.label               "Mots de passe">
 

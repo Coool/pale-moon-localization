@@ -29,8 +29,8 @@
 <!ENTITY device.promptTooltip "Itong pahintulot ay nangangailangan ng user prompt para sa mga app ng ganitong klase">
 <!ENTITY device.deny "Tanggihan">
 <!ENTITY device.denyTooltip "Itong pahintulot ay hindi pinapayagan sa mga app ng ganitong klase">
-<!ENTITY device.installedApps "Mga Naka-talagang App">
-<!ENTITY device.installedAppsTooltip "Tingnan ang listahan ng mga app na naka-talaga sa device. Ilang mga app, gaya nang mga sertipikadong app, ay maaring hindi isama sa view na ito.">
+<!ENTITY device.installedApps "Mga Naka-install na App">
+<!ENTITY device.installedAppsTooltip "Tingnan ang listahan ng mga app na naka-install sa device. Ilang mga app, gaya nang mga sertipikadong app, ay maaring hindi isama sa view na ito.">
 <!ENTITY device.permissions "Mga Pahintulot">
 <!ENTITY device.permissionsTooltip "Tingnan ang table ng mga pahintulot na accessible sa iba't ibang klase ng mga app">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
@@ -41,8 +41,8 @@
 <!ENTITY device.help "Tulong">
 
 <!ENTITY connection.connectTooltip "Kumonekta sa device">
-<!ENTITY connection.disconnect "Dumiskonekta">
-<!ENTITY connection.disconnectTooltip "Dumiskonekta sa kasalukuyang device o simulator">
+<!ENTITY connection.disconnect "Idiskonekta">
+<!ENTITY connection.disconnectTooltip "Idiskonekta sa kasalukuyang device o simulator">
 <!ENTITY connection.notConnected2 "Hindi Konektado.">
 <!ENTITY connection.connectTo "Kumonek sa:">
 <!ENTITY connection.noDeviceFound "Walang natagpuang device. Mag-plug ng device">
@@ -53,16 +53,16 @@
 <!ENTITY connection.saveConnectionInfo "I-save">
 <!ENTITY connection.saveConnectionInfoTooltip "I-save ang host at port">
 <!ENTITY connection.connecting "Kumokonek…">
-<!ENTITY connection.disconnecting "Dumidiskonekta…">
+<!ENTITY connection.disconnecting "Idinidiskonekta…">
 <!ENTITY connection.cancel "Kanselahin">
-<!ENTITY connection.cancelConnectTooltip "Kanselahin ang koneksyon nasa progreso">
+<!ENTITY connection.cancelConnectTooltip "Kanselahin ang koneksiyon nasa progreso">
 <!ENTITY connection.cancelShowSimulatorTooltip "Umalis sa Simulator connection mode at bumalik sa unang prompt">
 <!ENTITY connection.or "o">
-<!ENTITY connection.noSimulatorInstalled "Walang naka-talagang simulator.">
-<!ENTITY connection.installOneSimulator "Italaga ang Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Mag-talaga ng bersyon ng Simulator sa pamamagitan ng pag-download nitong add-on">
+<!ENTITY connection.noSimulatorInstalled "Walang naka-install na simulator.">
+<!ENTITY connection.installOneSimulator "I-install ang Simulator">
+<!ENTITY connection.installOneSimulatorTooltip "Mag-install ng bersiyon ng Simulator sa pamamagitan ng pag-download nitong add-on">
 <!ENTITY connection.installAnotherSimulator "Magdagdag">
-<!ENTITY connection.installAnotherSimulatorTooltip "Magtalaga ng karagdagang bersyon ng Simulator sa pamamagitan ng pag-download nitong add-on">
+<!ENTITY connection.installAnotherSimulatorTooltip "Mag-install ng karagdagang bersiyon ng Simulator sa pamamagitan ng pag-download nitong add-on">
 <!ENTITY connection.startRegisteredSimulator "Simula:">
 
 <!ENTITY projects.localApps "Mga Lokal na App">
@@ -70,7 +70,7 @@
 <!ENTITY projects.addPackaged "Magdagdag ng Packaged App">
 <!ENTITY projects.addPackagedTooltip "Magdagdag ng bagong packaged app (isang direktoryo) mula sa iyong kompyuter">
 <!ENTITY projects.addHosted "Magdagdag ng Hosted App">
-<!ENTITY projects.addHostedTooltip "Magdagdag ng bagong hosted app (kawing sa isang manifest.webapp na file) mula sa remote na website">
+<!ENTITY projects.addHostedTooltip "Magdagdag ng isang bagong hosted app (kawing sa isang manifest.webapp na file) mula sa isang remote na website">
 <!ENTITY projects.title "Mga Lokal na App">
 <!ENTITY projects.appDetails "Mga Detalye ng App">
 <!ENTITY projects.removeAppFromList "Alisin itong app mula sa listahan ng mga app na iyong pinagtatrabahunan. Ito ay hindi aalisin sa device o simulator.">
@@ -79,10 +79,10 @@
 <!ENTITY projects.debugApp "Debug">
 <!ENTITY projects.debugAppTooltip "Buksan ang mga Kasangkapan ng Developer na konektado sa app">
 <!ENTITY projects.saveManifest "I-save">
-<!ENTITY projects.saveManifestTooltip "I-save ang mga nilalaman ng Tagabago ng Manifest sa ibaba">
+<!ENTITY projects.saveManifestTooltip "I-save ang mga nilalaman ng Editor ng Manifest sa ibaba">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "Walang mga proyekto. Magdagdag ng bagong packaged app sa ibaba (local na direktoryo) o isang hosted app (kawing sa isang manifest file).">
-<!ENTITY projects.manifestEditor "Tagabago ng Manifest">
+<!ENTITY projects.noProjects "Walang mga proyekto. Magdagdag ng bagong packaged app sa ibaba (lokal na direktoryo) o isang hosted app (kawing sa isang manifest file).">
+<!ENTITY projects.manifestEditor "Editor ng Manifest">
 <!ENTITY projects.manifestEditorTooltip "Baguhin ang manifest ng iyong app ibabang panel. Ang Update button ay magsa-save ng iyong mga pagbabago at iu-update ang app.">
 <!ENTITY projects.manifestViewer "Tagabasa ng Manifest">
 <!ENTITY projects.manifestViewerTooltip "Suriin ang manifest ng iyong app sa ibabang panel">
@@ -94,10 +94,10 @@
 
 <!ENTITY help.title "Tagapamahala ng App">
 <!ENTITY help.close "Isara">
-<!ENTITY help.intro "Itong kasangkapan ay tutulong sayo para makagawa at mag-talaga ng mga web app sa mga compatible na device (i.e. Firefox OS). Ang <strong>Mga App</strong> tab ay aalalayan ka sa validation at installation na proseso ng iyong app. Ang <strong>Device</strong> tab ay magbibigay sayo ng impormasyon tungkol sa konektadong device. Gamitin ang ibabang toolbar para makakonek sa isang device o simulan ang simulator.">
+<!ENTITY help.intro "Itong kasangkapan ay tutulong sayo para makagawa at mag-install ng mga web app sa mga compatible na device (i.e. Firefox OS). Ang <strong>Mga App</strong> tab ay aalalayan ka sa validation at installation na proseso ng iyong app. Ang <strong>Device</strong> tab ay magbibigay sayo ng impormasyon tungkol sa konektadong device. Gamitin ang ibabang toolbar para makakonek sa isang device o simulan ang simulator.">
 <!ENTITY help.usefullLinks "Kapaki-pakinabang na mga Kawing:">
 <!ENTITY help.appMgrDoc "Dokumentasyon: Paggamit sa Tagapamahala ng App">
 <!ENTITY help.configuringDevice "Paano i-setup ang iyong Firefox OS device">
 <!ENTITY help.troubleShooting "Paghahanap ng Problema">
-<!ENTITY help.simulatorAddon "Italaga ang Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Italaga ang ADB Helper Add-on">
+<!ENTITY help.simulatorAddon "I-install ang Simulator Add-on">
+<!ENTITY help.adbHelperAddon "I-install ang ADB Helper Add-on">

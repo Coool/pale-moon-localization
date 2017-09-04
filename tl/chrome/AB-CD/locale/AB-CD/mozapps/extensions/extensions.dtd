@@ -10,13 +10,13 @@
 <!ENTITY search.commandkey                    "f">
 
 <!ENTITY loading.label                        "Naglo-load…">
-<!ENTITY listEmpty.installed.label            "Wala kang add-on na may ganitong uri na naka-talaga">
+<!ENTITY listEmpty.installed.label            "Wala kang add-on na may ganitong uri na naka-install">
 <!ENTITY listEmpty.availableUpdates.label     "Walang update ang natagpuan">
 <!ENTITY listEmpty.recentUpdates.label        "Hindi ka nag-update ng anumang mga add-on kamakailan lang">
 <!ENTITY listEmpty.findUpdates.label          "Maghanap ng mga Update">
 <!ENTITY listEmpty.search.label               "Hindi makahanap ng anumang tumugma na mga add-on">
-<!ENTITY listEmpty.button.label               "Matuto ng higit pa tungkol sa mga add-on">
-<!ENTITY installAddonFromFile.label           "Mag-talaga ng Add-on Mula sa File…">
+<!ENTITY listEmpty.button.label               "Matuto nang higit pa tungkol sa mga add-on">
+<!ENTITY installAddonFromFile.label           "Mag-install ng Add-on Mula sa File…">
 <!ENTITY installAddonFromFile.accesskey       "I">
 <!ENTITY toolsMenu.tooltip                    "Mga kasangkapan para sa lahat ng mga add-on">
 
@@ -65,11 +65,11 @@
 <!ENTITY updates.updating.label               "Nag-uupdate ng mga add-on">
 <!ENTITY updates.installed.label              "Ang iyong mga add-on ay na-update na.">
 <!ENTITY updates.downloaded.label             "Ang mga update sa mga add-on ay na-download na.">
-<!ENTITY updates.restart.label                "Mag-restart na para makumpleto ang pagtatalaga">
+<!ENTITY updates.restart.label                "Mag-restart na para makumpleto ang pag-install">
 <!ENTITY updates.noneFound.label              "Walang update na natagpuan">
 <!ENTITY updates.manualUpdatesFound.label     "Tingnan ang Mga Mayroong Update">
-<!ENTITY updates.updateSelected.label         "Mag-talaga ng mga Update">
-<!ENTITY updates.updateSelected.tooltip       "Italaga ang mga update sa listahan">
+<!ENTITY updates.updateSelected.label         "Mag-install ng mga Update">
+<!ENTITY updates.updateSelected.tooltip       "I-install ang mga update sa listahan">
 
 <!-- addon actions -->
 <!ENTITY cmd.showDetails.label                "Ipakita ang Higit Pang Impormasyon">
@@ -80,7 +80,7 @@
 <!ENTITY cmd.preferencesWin.accesskey         "O">
 <!ENTITY cmd.preferencesUnix.label            "Mga Kagustuhan">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
-<!ENTITY cmd.about.label                      "Tungkol">
+<!ENTITY cmd.about.label                      "Tungkol Dito">
 <!ENTITY cmd.about.accesskey                  "T">
 
 <!ENTITY cmd.enableAddon.label                "Paganahin">
@@ -98,7 +98,7 @@
 <!ENTITY cmd.neverActivate.label              "Huwag Kailanman Paganahin">
 <!ENTITY cmd.neverActivate.tooltip            "Huwag gamitin itong add-on">
 <!ENTITY cmd.stateMenu.tooltip                "Magpalit kapag tumakbo itong add-on">
-<!ENTITY cmd.installAddon.label               "Italaga">
+<!ENTITY cmd.installAddon.label               "I-install">
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Alisin">
 <!ENTITY cmd.uninstallAddon.accesskey         "A">
@@ -126,7 +126,7 @@
 <!ENTITY discover.footer                      "Pag konektado ka sa Internet, ipapakita ng pane na ito ang ilan sa pinakamagaganda at sikat na mga add-on para masubukan mo.">
 
 <!-- detail view -->
-<!ENTITY detail.version.label                 "Bersyon">
+<!ENTITY detail.version.label                 "bersiyon">
 <!ENTITY detail.lastupdated.label             "Huling Na-update">
 <!ENTITY detail.creator.label                 "Nag-develop">
 <!ENTITY detail.homepage.label                "Unang Pahina">
@@ -136,11 +136,11 @@
 
 <!ENTITY detail.updateType                    "Kusang Pag-update">
 <!ENTITY detail.updateDefault.label           "Paunang-tukoy">
-<!ENTITY detail.updateDefault.tooltip         "Kusang mag-talaga ng mga update lamang kung iyon ang paunang-tukoy">
+<!ENTITY detail.updateDefault.tooltip         "Kusang mag-install ng mga update lamang kung iyon ang paunang-tukoy">
 <!ENTITY detail.updateAutomatic.label         "Naka-on">
-<!ENTITY detail.updateAutomatic.tooltip       "Kusang mag-talaga ng mga update">
+<!ENTITY detail.updateAutomatic.tooltip       "Kusang mag-install ng mga update">
 <!ENTITY detail.updateManual.label            "Naka-off">
-<!ENTITY detail.updateManual.tooltip          "Huwag kusang mag-talaga ng mga update">
+<!ENTITY detail.updateManual.tooltip          "Huwag kusang mag-install ng mga update">
 <!ENTITY detail.home                          "Unang Pahina">
 <!ENTITY detail.repository                    "Add-on Profile">
 <!ENTITY detail.size                          "Sukat">
@@ -176,9 +176,9 @@
 
 <!ENTITY search.filter2.label                 "Hanapin:">
 <!ENTITY search.filter2.installed.label       "Aking Mga Add-on">
-<!ENTITY search.filter2.installed.tooltip     "Ipakita ang mga naka-talagang add-on">
+<!ENTITY search.filter2.installed.tooltip     "Ipakita ang mga naka-install na add-on">
 <!ENTITY search.filter2.available.label       "Mga Magagamit na Add-on">
-<!ENTITY search.filter2.available.tooltip     "Ipakita ang mga add-on na maaring italaga">
+<!ENTITY search.filter2.available.tooltip     "Ipakita ang mga add-on na maaring i-install">
 
 <!ENTITY addon.homepage                       "Unang Pahina">
 <!ENTITY addon.details.label                  "Karagdagan">
@@ -194,14 +194,14 @@
      necessary -->
 <!ENTITY addon.update.postfix                 "I-update">
 <!ENTITY addon.undoAction.label               "Ibalik">
-<!ENTITY addon.undoAction.tooltip             "Ibalik bago mangyari ang aksyon">
+<!ENTITY addon.undoAction.tooltip             "Ibalik bago mangyari ang aksiyon">
 <!ENTITY addon.undoRemove.label               "Ibalik">
-<!ENTITY addon.undoRemove.tooltip             "Hayaang naka-talaga ang add-on na ito">
+<!ENTITY addon.undoRemove.tooltip             "Hayaang naka-install ang add-on na ito">
 <!ENTITY addon.restartNow.label               "I-restart na">
-<!ENTITY addon.install.label                  "Italaga">
-<!ENTITY addon.install.tooltip                "Italaga itong add-on">
+<!ENTITY addon.install.label                  "I-install">
+<!ENTITY addon.install.tooltip                "I-install itong add-on">
 <!ENTITY addon.updateNow.label                "I-update Na">
-<!ENTITY addon.updateNow.tooltip              "Italaga ang update para sa add-on na ito">
+<!ENTITY addon.updateNow.tooltip              "I-install ang update para sa add-on na ito">
 <!ENTITY addon.includeUpdate.label            "Isama sa Update">
 <!ENTITY addon.updateAvailable.label          "Mayroong update">
 <!ENTITY addon.checkingForUpdates.label       "Naghahanap ng mga update…">
@@ -217,7 +217,7 @@
 <!ENTITY eula.title                           "Kasunduan sa Lisensya ng End-User">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
-<!ENTITY eula.accept                          "Tanggapin at Italaga…">
+<!ENTITY eula.accept                          "Tanggapin at I-install…">
 
 <!ENTITY settings.path.button.label           "I-browse…">
 
@@ -226,7 +226,7 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "Ano ito? Maaring mag-talaga at magpatakbo ang Telemetry ng mga eksperimento paminsan-minsan.">
+<!ENTITY experiment.info.label "Ano ito? Maaring mag-install at magpatakbo ang Telemetry ng mga eksperimento paminsan-minsan.">
 <!ENTITY experiment.info.learnmore "Matuto nang higit pa">
 <!ENTITY experiment.info.learnmore.accesskey "M">
 <!ENTITY experiment.info.changetelemetry "Mga Setting sa Telemetry">

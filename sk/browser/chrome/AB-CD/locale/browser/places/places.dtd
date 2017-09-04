@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
-<!ENTITY places.library.title  "Archív">
+<!ENTITY places.library.title  "Knižnica">
 <!ENTITY places.library.width  "760">
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "Usporiadať">
@@ -48,17 +48,19 @@
 <!ENTITY cmd.deleteDomainData.label     "Zabudnúť na túto stránku">
 <!ENTITY cmd.deleteDomainData.accesskey "b">
 
-<!ENTITY cmd.open.label                  "Otvoriť">
-<!ENTITY cmd.open.accesskey              "t">
-<!ENTITY cmd.open_window.label           "Otvoriť v novom okne">
-<!ENTITY cmd.open_window.accesskey       "m">
-<!ENTITY cmd.open_tab.label              "Otvoriť na novej karte">
-<!ENTITY cmd.open_tab.accesskey          "v">
-<!ENTITY cmd.open_all_in_tabs.label      "Otvoriť všetko na kartách">
-<!ENTITY cmd.open_all_in_tabs.accesskey  "c">
+<!ENTITY cmd.open.label                    "Otvoriť">
+<!ENTITY cmd.open.accesskey                "t">
+<!ENTITY cmd.open_window.label             "Otvoriť v novom okne">
+<!ENTITY cmd.open_window.accesskey         "m">
+<!ENTITY cmd.open_private_window.label     "Otvoriť v novom okne režimu Súkromné prehliadanie">
+<!ENTITY cmd.open_private_window.accesskey "p">
+<!ENTITY cmd.open_tab.label                "Otvoriť na novej karte">
+<!ENTITY cmd.open_tab.accesskey            "v">
+<!ENTITY cmd.open_all_in_tabs.label        "Otvoriť všetko na kartách">
+<!ENTITY cmd.open_all_in_tabs.accesskey    "k">
 
 <!ENTITY cmd.openParentFolder.label      "Otvoriť priečinok so súborom">
-<!ENTITY cmd.openParentFolder.accesskey  "c">
+<!ENTITY cmd.openParentFolder.accesskey  "s">
 
 <!ENTITY cmd.properties.label      "Vlastnosti">
 <!ENTITY cmd.properties.accesskey  "l">
@@ -90,23 +92,23 @@
 <!ENTITY col.description.label       "Popis">
 <!ENTITY col.dateadded.label         "Pridané">
 <!ENTITY col.lastmodified.label      "Posledná úprava">
-<!ENTITY col.parentfolder.label      "Containing Folder">
-<!ENTITY col.parentfolderpath.label  "Containing Folder Path">
+<!ENTITY col.parentfolder.label      "Nadradený priečinok">
+<!ENTITY col.parentfolderpath.label  "Cesta k nadradenému priečinku">
 
-<!ENTITY search.label                              "Vyhľadávanie na webe">
-<!ENTITY search.accesskey                          "V">
+<!ENTITY search.label                              "Hľadať:">
+<!ENTITY search.accesskey                          "H">
 
-<!ENTITY search.in.label                           "Search in:">
-<!ENTITY search.scopeFolder.label                  "Selected Folder">
+<!ENTITY search.in.label                           " Hľadať v:">
+<!ENTITY search.scopeFolder.label                  "Vybranom priečinku">
 <!ENTITY search.scopeFolder.accesskey              "r">
-<!ENTITY search.scopeBookmarks.label               "Záložky">
-<!ENTITY search.scopeBookmarks.accesskey           "f">
-<!ENTITY search.scopeDownloads.label               "Prevzaté súbory">
-<!ENTITY search.scopeDownloads.accesskey           "O">
-<!ENTITY search.scopeHistory.label                 "História">
+<!ENTITY search.scopeBookmarks.label               "Záložkách">
+<!ENTITY search.scopeBookmarks.accesskey           "k">
+<!ENTITY search.scopeDownloads.label               "Prevzatých súboroch">
+<!ENTITY search.scopeDownloads.accesskey           "o">
+<!ENTITY search.scopeHistory.label                 "Histórii">
 <!ENTITY search.scopeHistory.accesskey             "H">
 <!ENTITY saveSearch.label                          "Uložiť">
-<!ENTITY saveSearch.accesskey                      "d">
+<!ENTITY saveSearch.accesskey                      "i">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -114,14 +116,14 @@
 <!ENTITY maintenance.accesskey  "I">
 <!ENTITY maintenance.tooltip    "Import a zálohovanie mojich záložiek">
 
-<!ENTITY backButton.tooltip  "Späť o jednu stránku">
+<!ENTITY backButton.tooltip  "Späť">
 
-<!ENTITY forwardButton.tooltip  "Dopredu o jednu stránku">
+<!ENTITY forwardButton.tooltip  "Dopredu">
 
 <!ENTITY detailsPane.more.label "Viac">
 <!ENTITY detailsPane.more.accesskey "V">
 <!ENTITY detailsPane.less.label "Menej">
-<!ENTITY detailsPane.less.accesskey "M">
+<!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "Vyberte položku, ktorej vlastnosti chcete zobraziť alebo upraviť">
 
 <!ENTITY find.label               "Hľadať:">
@@ -130,11 +132,11 @@
 <!ENTITY view.accesskey           "b">
 <!ENTITY byDate.label             "podľa dátumu">
 <!ENTITY byDate.accesskey         "d">
-<!ENTITY bySite.label             "podľa servera">
+<!ENTITY bySite.label             "podľa názvu stránky">
 <!ENTITY bySite.accesskey         "s">
 <!ENTITY byMostVisited.label      "podľa počtu návštev">
 <!ENTITY byMostVisited.accesskey  "a">
 <!ENTITY byLastVisited.label      "podľa poslednej návštevy">
 <!ENTITY byLastVisited.accesskey  "l">
-<!ENTITY byDayAndSite.label       "podľa dátumu a servera">
-<!ENTITY byDayAndSite.accesskey   "m">
+<!ENTITY byDayAndSite.label       "podľa dátumu a názvu stránky">
+<!ENTITY byDayAndSite.accesskey   "t">

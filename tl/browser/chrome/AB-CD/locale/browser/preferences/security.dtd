@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  warnAddonInstall.label        "Balaan ako kapag ang mga site ay sumubok na mag-talaga ng mga add-on">
+<!ENTITY  addons.label                  "Mga Add-on">
+
+<!ENTITY  warnAddonInstall.label        "Balaan ako kapag ang mga site ay sumubok na mag-install ng mga add-on">
 <!ENTITY  warnAddonInstall.accesskey    "W">
 
 <!-- LOCALIZATION NOTE (blockWebForgeries.label, blockAttackSites.label):
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Mga Eksepsyon…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
+<!ENTITY  addonSecuritylevel            "Nibel ng seguridad sa mga Add-on:">
+<!ENTITY  addonSecurityLevel_Off        "Naka-off: Walang mga add-on ang haharangin (mapanganib)">
+<!ENTITY  addonSecurityLevel_Low        "Mababa: Harangin lamang ang mga add-on na may malalang problema sa seguridad at stabilidad">
+<!ENTITY  addonSecurityLevel_High       "Katamtaman: Harangin lahat ng mapanganib na mga add-on (paunang-tukoy, inirerekomenda)">
+<!ENTITY  addonSecurityLevel_Extreme    "Mataas: Harangin lahat ng mga add-on na may mga tukoy na problema">
 
 <!ENTITY  passwords.label               "Mga Password">
 

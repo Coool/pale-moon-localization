@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "Extras">
+
 <!ENTITY  warnAddonInstall.label        "Avisar-me se os sites tentarem instalar extras">
 <!ENTITY  warnAddonInstall.accesskey    "i">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Exceções…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
+<!ENTITY  addonSecuritylevel            "Nível de segurança para extras:">
+<!ENTITY  addonSecurityLevel_Off        "Desativado: os extras não são bloqueados (perigoso)">
+<!ENTITY  addonSecurityLevel_Low        "Baixo: bloquear extras com problemas que afetem segurança e estabilidade">
+<!ENTITY  addonSecurityLevel_High       "Médio: bloquear todos os extras nocivos (padrão, recomendado)">
+<!ENTITY  addonSecurityLevel_Extreme    "Alto: bloquear todos os extras com problemas conhecidos">
 
 <!ENTITY  passwords.label               "Palavras-passe">
 

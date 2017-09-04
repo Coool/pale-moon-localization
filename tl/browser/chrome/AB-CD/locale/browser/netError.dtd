@@ -22,7 +22,7 @@
   <li>Suriin ang address kung mayroon itong pagkakamali sa pag-type tulad ng
     <strong>ww</strong>.example.com sa halip na
     <strong>www</strong>.example.com</li>
-  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksyon ng network sa iyong kompyuter.</li>
+  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompyuter.</li>
   <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
@@ -41,7 +41,7 @@
 <p>Hindi ma-load ng &brandShortName; ang pahinang ito sa isang hindi alam na kadahilanan.</p>
 ">
 
-<!ENTITY malformedURI.title "Ang address ay imbalido">
+<!ENTITY malformedURI.title "Ang address ay inbalido">
 <!ENTITY malformedURI.longDesc "
 <ul>
   <li>Ang mga web address ay karaniwang nakasulat na parang
@@ -51,7 +51,7 @@
 </ul>
 ">
 
-<!ENTITY netInterrupt.title "Ang koneksyon ay naantala">
+<!ENTITY netInterrupt.title "Ang koneksiyon ay naantala">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Lipas na Dokumento">
@@ -78,20 +78,20 @@
 </ul>
 ">
 
-<!ENTITY netReset.title "Ang koneksyon ay na-reset">
+<!ENTITY netReset.title "Ang koneksiyon ay na-reset">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Ang koneksyon ay nag-time out">
+<!ENTITY netTimeout.title "Ang koneksiyon ay nag-time out">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Ang address ay hindi naintindihan">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Baka kailanganin mong mag-talaga ng ibang software para mabuksan itong address.</li>
+  <li>Baka kailanganin mong mag-install ng ibang software para mabuksan itong address.</li>
 </ul>
 ">
 
-<!ENTITY proxyConnectFailure.title "Ang proxy server ay tumatanggi sa mga koneksyon">
+<!ENTITY proxyConnectFailure.title "Ang proxy server ay tumatanggi sa mga koneksiyon">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
   <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
@@ -103,7 +103,7 @@
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
   <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
-  <li>Siguraduhing ang iyong kompyuter ay mayroong gumaganang koneksyon sa network.</li>
+  <li>Siguraduhing ang iyong kompyuter ay mayroong gumaganang koneksiyon sa network.</li>
   <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
@@ -118,12 +118,12 @@
 <!ENTITY unknownSocketType.title "Hindi inaasahang tugon mula sa server">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
-  <li>Siguraduhing ang Personal Security Manager ay nakatalaga sa iyong kompyuter.</li>
+  <li>Siguraduhing ang Personal Security Manager ay naka-install sa iyong kompyuter.</li>
   <li>Maaring ito ay sanhi ng hindi-standard na pagkakapigura sa server.</li>
 </ul>
 ">
 
-<!ENTITY nssFailure2.title "Pumalyang Secure na Koneksyon">
+<!ENTITY nssFailure2.title "Nabigong Secure na Koneksiyon">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
   <li>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil ang pagiging tunay ng natatanggap na datos ay hindi maberipika.</li>
@@ -131,7 +131,7 @@
 </ul>
 ">
 
-<!ENTITY nssBadCert.title "Pumalyang Secure na Koneksyon">
+<!ENTITY nssBadCert.title "Nabigong Secure na Koneksiyon">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
   <li>Ito ay maaring problema sa pagkakapigura ng server, o maari rin na may gustong gayahin ang server na ito.</li>
@@ -142,20 +142,20 @@
 <!ENTITY sharedLongDesc "
 <ul>
   <li>Ang site ay maaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
-  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksyon ng network sa iyong kompyuter.</li>
+  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompyuter.</li>
   <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Ang mga &quot;attack site&quot; ay sumusubok na magtalaga ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
+<p>Ang mga &quot;attack site&quot; ay sumusubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
 <p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Paglalagay ng anumang personal na impormasyon sa pahinang ito ay maaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
+<p>Paglalagay ng anumang impormasyong personal sa pahinang ito ay maaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
 <p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para magaya ang mga tao o pinagmulang iyong pinagkakatiwalaan.</p>
 ">
 
@@ -165,7 +165,7 @@
 <!ENTITY xssBlockMode.title "Hinarang ng XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>Hinarang ng &brandShortName; ang karagdagang aksyon sa pahinang ito dahil naglalaman ito ng injected code ng JavaScript</li>
+  <li>Hinarang ng &brandShortName; ang karagdagang aksiyon sa pahinang ito dahil naglalaman ito ng injected code ng JavaScript</li>
   <li>Pag-load ng pahinang ito ay sinuspinde dahil sa alin mang mga dahilan. Tahasang
     kahilingan ng website na harangin ang page sakaling magkaroon ng XSS attacks, o
     dahil ang &brandShortName; ay nakakonpigura na harangin ang mga pahina sa
@@ -187,7 +187,7 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>Hindi ka dapat maglapat ng eksepsyon kung ikaw ay gumagamit ng koneksyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
+<p>Hindi ka dapat maglapat ng eksepsyon kung ikaw ay gumagamit ng koneksiyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>

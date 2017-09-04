@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "アドオン">
+
 <!ENTITY  warnAddonInstall.label        "アドオンのインストールを求められたときに警告する">
 <!ENTITY  warnAddonInstall.accesskey    "W">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "許可サイト...">
 <!ENTITY  addonExceptions.accesskey     "E">
 
+<!ENTITY  addonSecuritylevel            "アドオンのセキュリティレベル">
+<!ENTITY  addonSecurityLevel_Off        "Off: すべてのアドオンのブロックを無効にします(危険)">
+<!ENTITY  addonSecurityLevel_Low        "低: 深刻なセキュリティ上の問題及び安定性の問題を含んでいるアドオンのみブロックします">
+<!ENTITY  addonSecurityLevel_High       "中: すべての有害なアドオンをブロックします(既定、推奨)">
+<!ENTITY  addonSecurityLevel_Extreme    "高: 既知の問題があるすべてのアドオンをブロックします。">
 
 <!ENTITY  passwords.label               "パスワード">
 

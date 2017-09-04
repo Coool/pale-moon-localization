@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "Eklentiler">
+
 <!ENTITY  warnAddonInstall.label        "Siteler eklenti kurmayı denediklerinde beni uyar">
 <!ENTITY  warnAddonInstall.accesskey    "u">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Ayrıcalıklar…">
 <!ENTITY  addonExceptions.accesskey     "k">
 
+<!ENTITY  addonSecuritylevel            "Eklenti güvenlik düzeyi:">
+<!ENTITY  addonSecurityLevel_Off        "Kapalı: Hiçbir eklenti engellenmeyecek (tehlikeli)">
+<!ENTITY  addonSecurityLevel_Low        "Düşük: Yalnızca ciddi güvenlik ve istikrar sorunları olan eklentiler engellenir">
+<!ENTITY  addonSecurityLevel_High       "Orta: Tüm zararlı eklentiler engellenir (önerilen, varsayılan)">
+<!ENTITY  addonSecurityLevel_Extreme    "Yüksek: Sorunları olduğu bilinen tüm eklentiler engellenir">
 
 <!ENTITY  passwords.label               "Parolalar">
 
