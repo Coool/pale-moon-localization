@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "Dodatki">
+
 <!ENTITY  warnAddonInstall.label        "Ostrzegaj, jeśli strony próbują instalować dodatki">
 <!ENTITY  warnAddonInstall.accesskey    "u">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Wyjątki…">
 <!ENTITY  addonExceptions.accesskey     "m">
 
+<!ENTITY  addonSecuritylevel            "Poziom bezpieczeństwa dodatku:">
+<!ENTITY  addonSecurityLevel_Off        "Wyłączony: żadne dodatki nie zostaną zablokowane (niebezpieczne)">
+<!ENTITY  addonSecurityLevel_Low        "Niski: blokuj tylko dodatki z poważnymi problemami z bezpieczeństwem i stabilnością">
+<!ENTITY  addonSecurityLevel_High       "Medium: Zablokuj wszystkie szkodliwe dodatki (domyślnie, zalecane)">
+<!ENTITY  addonSecurityLevel_Extreme    "Wysoki: Zablokuj wszystkie dodatki ze znanymi problemami">
 
 <!ENTITY  passwords.label               "Hasła">
 

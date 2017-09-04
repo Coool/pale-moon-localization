@@ -8,11 +8,11 @@
 
 <!ENTITY accessibility.label             "Aksesibilidad">
 
-<!ENTITY useCursorNavigation.label       "Laging gamitin ang cursor key upang maka-galaw sa loob ng mga pahina">
+<!ENTITY useCursorNavigation.label       "Palaging gamitin ang mga cursor key upang maka-galaw sa loob ng mga pahina">
 <!ENTITY useCursorNavigation.accesskey   "c">
-<!ENTITY searchStartTyping.label         "Hanapin ang mga teksto kapag sinimulan ko ang pag-type">
-<!ENTITY searchStartTyping.accesskey     "x">
-<!ENTITY blockAutoRefresh.label          "Balaan ako kapag ang mga website ay sumubok na ibahin o i-reload ang pahina">
+<!ENTITY searchStartTyping.label         "Hanapin ang teksto kapag sinimulan ko ang pag-type">
+<!ENTITY searchStartTyping.accesskey     "k">
+<!ENTITY blockAutoRefresh.label          "Balaan ako kapag ang mga website ay sumubok na i-redirect o i-reload ang pahina">
 <!ENTITY blockAutoRefresh.accesskey      "b">
 
 <!ENTITY browsing.label                  "Pag-browse">
@@ -26,8 +26,8 @@
 <!ENTITY checkSpelling.label             "Suriin ang aking pagbabaybay habang ako ay nagta-type">
 <!ENTITY checkSpelling.accesskey         "t">
 
-<!ENTITY systemDefaults.label            "Paunang-tukoy ng sistema">
-<!ENTITY alwaysCheckDefault.label        "Laging suriin upang makita kung ang &brandShortName; ay ang default na browser sa pagbukas"><!--XXX-->
+<!ENTITY systemDefaults.label            "Mga Paunang-tukoy ng Sistema">
+<!ENTITY alwaysCheckDefault.label        "Laging tiyakin na &brandShortName; ang iyong paunang-tukoy na browser sa pagbukas"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
 <!ENTITY setDefault.label                "Gawing &brandShortName; ang iyong paunang-tukoy na browser">
 <!ENTITY setDefault.accesskey            "d">
@@ -43,7 +43,7 @@
 
 <!ENTITY networkTab.label                "Network">
 
-<!ENTITY connection.label                "Koneksyon">
+<!ENTITY connection.label                "Koneksiyon">
 
 <!ENTITY connectionDesc.label            "I-configure kung paano kumonekta ang &brandShortName; sa Internet">
 <!ENTITY connectionSettings.label        "Mga Kagustuhan…">
@@ -75,11 +75,11 @@
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
-<!ENTITY updateAuto1.label               "Kusang mag-talaga ng mga update">
+<!ENTITY updateAuto1.label               "Kusang mag-install ng mga update">
 <!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateAutoMetro.label           "Kusang mag-talaga ng mga update mula sa desktop at Windows 8 estilo &brandShortName;">
+<!ENTITY updateAutoMetro.label           "Kusang mag-install ng mga update mula sa desktop at Windows 8 estilo &brandShortName;">
 <!ENTITY updateAutoMetro.accesskey       "s">
-<!ENTITY updateCheck.label               "Maghanap ng mga update, ngunit hayaan akong pumili kung itatalaga ko ito">
+<!ENTITY updateCheck.label               "Maghanap ng mga update, ngunit hayaan akong pumili kung i-install ko sila">
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "Hindi kailanman maghahanap ng mga update (hindi inirerekomenda)">
 <!ENTITY updateManual.accesskey          "N">
@@ -129,7 +129,7 @@
 <!ENTITY viewSecurityDevices.accesskey   "y">
 
 <!ENTITY UACompatGroup.label    "Compatibilidad">
-<!ENTITY UACompat.label         "Paraan ng User Agent:">
+<!ENTITY UACompat.label         "Mode ng Kinatawan ng Gumagamit:">
 <!ENTITY UACompat.Native        "Likas">
 <!ENTITY UACompat.Gecko         "Kompatibilidad sa Gecko">
 <!ENTITY UACompat.Firefox       "Kompatibilidad sa Firefox">

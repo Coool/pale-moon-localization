@@ -6,24 +6,24 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-Itong pahina ay naglalaman ng teknikal na impormasyon na maaaring maging kapaki-pakinabang kapag sinusubukan mong lumutas nang isang problema. Kung ikaw ay naghahanap ng mga sagot sa karaniwang mga tanong tungkol sa &brandShortName;, tingnan ang aming <a id='supportLink'>website para sa suporta</a>.
+Itong pahina ay naglalaman ng teknikal na impormasyon na maaaring maging kapaki-pakinabang kapag sinusubukan mong lumutas ng isang problema. Kung ikaw ay naghahanap ng mga sagot sa karaniwang mga tanong tungkol sa &brandShortName;, tingnan ang aming <a id='supportLink'>website para sa suporta</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Ulat sa Pagpalya">
+<!ENTITY aboutSupport.crashes.title "Mga Ulat sa Pagpalya">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.id "ID ng Ulat">
 <!ENTITY aboutSupport.crashes.sendDate "Naisumite">
-<!ENTITY aboutSupport.crashes.allReports "Lahat ng Mga Ulat sa Pagpalya">
-<!ENTITY aboutSupport.crashes.noConfig "Itong application ay hindi na-configure na magpakita ng mga ulat sa pagpalya.">
+<!ENTITY aboutSupport.crashes.allReports "Lahat ng mga Ulat sa Pagpalya">
+<!ENTITY aboutSupport.crashes.noConfig "Itong application ay hindi na-configure para magpakita ng mga ulat sa pagpalya.">
 
 <!ENTITY aboutSupport.extensionsTitle "Mga Extension">
 <!ENTITY aboutSupport.extensionName "Pangalan">
 <!ENTITY aboutSupport.extensionEnabled "Pinagana">
-<!ENTITY aboutSupport.extensionVersion "Bersyon">
+<!ENTITY aboutSupport.extensionVersion "bersiyon">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Eksperimental na mga tampok">
+<!ENTITY aboutSupport.experimentsTitle "Eksperimental na mga Tampok">
 <!ENTITY aboutSupport.experimentName "Pangalan">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Paglalarawan">
@@ -34,7 +34,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!ENTITY aboutSupport.appBasicsTitle "Pangunahing Kaalaman sa Application">
 <!ENTITY aboutSupport.appBasicsName "Pangalan">
-<!ENTITY aboutSupport.appBasicsVersion "Bersyon">
+<!ENTITY aboutSupport.appBasicsVersion "bersiyon">
 <!ENTITY aboutSupport.appBasicsBuildID "Build ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
@@ -51,9 +51,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Mga Pinapaganang Plugin">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Build Configuration">
-<!ENTITY aboutSupport.appBasicsUserAgent "Kinatawan ng User">
+<!ENTITY aboutSupport.appBasicsUserAgent "Kinatawan ng Gumagamit">
 <!ENTITY aboutSupport.appBasicsOS "OS">
-<!ENTITY aboutSupport.appBasicsMemoryUse "Gamit sa Memory">
+<!ENTITY aboutSupport.appBasicsMemoryUse "Gamit sa Memorya">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
@@ -68,23 +68,23 @@ variant of aboutSupport.showDir.label.  This allows us to use the preferred
 variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.showWin.label "Ipakita ang Folder">
 
-<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Mga Nabagong Importanteng Preference">
+<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Nabagong Mahalagang mga Preperensiya">
 <!ENTITY aboutSupport.modifiedPrefsName "Pangalan">
-<!ENTITY aboutSupport.modifiedPrefsValue "Laman">
+<!ENTITY aboutSupport.modifiedPrefsValue "Value">
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
-<!ENTITY aboutSupport.userJSTitle "Mga user.js Preference">
-<!ENTITY aboutSupport.userJSDescription "Ang iyong profile folder ay naglalaman ng <a id='prefs-user-js-link'>user.js file</a>, na naglalaman ng mga preference na hindi ginawa ng &brandShortName;.">
+<!ENTITY aboutSupport.userJSTitle "Mga Preperensiya sa user.js">
+<!ENTITY aboutSupport.userJSDescription "Ang iyong profile folder ay naglalaman ng isang <a id='prefs-user-js-link'>user.js file</a>, na kung saan ay naglalaman ng mga preperensiya na hindi ginawa ng &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Mga Importanteng Locked Preference">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Mahalagang Naka-lock na mga Preperensiya">
 <!ENTITY aboutSupport.lockedPrefsName "Pangalan">
-<!ENTITY aboutSupport.lockedPrefsValue "Laman">
+<!ENTITY aboutSupport.lockedPrefsValue "Value">
 
-<!ENTITY aboutSupport.graphicsTitle "Mga Graphic">
+<!ENTITY aboutSupport.graphicsTitle "Graphics">
 
 <!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integridad">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Beripikahin ang Integridad">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Patunayan ang Integridad">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
@@ -93,9 +93,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "Aktibo">
 <!ENTITY aboutSupport.a11yForceDisabled "Iwasan ang Accessibility">
 
-<!ENTITY aboutSupport.libraryVersionsTitle "Mga Bersyon ng Library">
+<!ENTITY aboutSupport.libraryVersionsTitle "Mga bersiyon ng Library">
 
-<!ENTITY aboutSupport.installationHistoryTitle "Kasaysayan sa Pagtatalaga">
+<!ENTITY aboutSupport.installationHistoryTitle "Kasaysayan sa Pag-install">
 <!ENTITY aboutSupport.updateHistoryTitle "Kasaysayan sa Pag-update">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopyahin ang teksto sa clipboard">
@@ -104,7 +104,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
 <!ENTITY aboutSupport.safeModeTitle "Subukan ang Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "I-restart ng Walang Pinapaganang mga Add-on…">
+<!ENTITY aboutSupport.restartInSafeMode.label "I-restart nang hindi pinapagana ang mga Add-on…">
 
 <!ENTITY aboutSupport.restartTitle "Subukang I-restart">
-<!ENTITY aboutSupport.restartNormal.label "I-restart ng maayos…">
+<!ENTITY aboutSupport.restartNormal.label "I-restart nang maayos…">

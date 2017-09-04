@@ -17,16 +17,16 @@
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "I-reload ang Tab">
-<!ENTITY  reloadTab.accesskey                "R">
-<!ENTITY  reloadAllTabs.label                "I-reload ang lahat ng mga tab">
-<!ENTITY  reloadAllTabs.accesskey            "A">
+<!ENTITY  reloadTab.accesskey                "E">
+<!ENTITY  reloadAllTabs.label                "I-reload ang Lahat ng mga Tab">
+<!ENTITY  reloadAllTabs.accesskey            "a">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Isara ang mga Tab sa Kanan">
 <!ENTITY  closeTabsToTheEnd.accesskey        "i">
-<!ENTITY  closeOtherTabs.label               "Isara ang Ibang Mga Tab">
-<!ENTITY  closeOtherTabs.accesskey           "o">
+<!ENTITY  closeOtherTabs.label               "Isara ang Ibang mga Tab">
+<!ENTITY  closeOtherTabs.accesskey           "n">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
@@ -39,32 +39,32 @@ can reach it easily. -->
 <!ENTITY  unpinTab.accesskey                 "b">
 <!ENTITY  moveToNewWindow.label              "Ilipat sa Bagong Window">
 <!ENTITY  moveToNewWindow.accesskey          "W">
-<!ENTITY  bookmarkAllTabs.label              "I-bookmark ang Lahat ng Mga Tab…">
+<!ENTITY  bookmarkAllTabs.label              "I-bookmark ang Lahat ng mga Tab…">
 <!ENTITY  bookmarkAllTabs.accesskey          "T">
-<!ENTITY  undoCloseTab.label                 "Ibalik ang Nasarang Tab">
-<!ENTITY  undoCloseTab.accesskey             "U">
+<!ENTITY  undoCloseTab.label                 "Ibalik ang Naisarang Tab">
+<!ENTITY  undoCloseTab.accesskey             "k">
 <!ENTITY  closeTab.label                     "Isara ang Tab">
 <!ENTITY  closeTab.accesskey                 "c">
 
-<!ENTITY  listAllTabs.label      "Ilista ang Lahat ng Mga Tab">
+<!ENTITY  listAllTabs.label      "Ilista ang Lahat ng mga Tab">
 
 <!ENTITY tabCmd.label "Bagong Tab">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "Buksan ang Lokasyon…">
+<!ENTITY openLocationCmd.label "Bumukas ng Lokasyon…">
 <!ENTITY openLocationCmd.accesskey "L">
-<!ENTITY openFileCmd.label "Buksan ang File…">
+<!ENTITY openFileCmd.label "Bumukas ng File…">
 <!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.commandkey "o">
 <!ENTITY printSetupCmd.label "Setup ng Pahina…">
 <!ENTITY printSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "Print Preview">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "I-print…">
+<!ENTITY printCmd.label "Ilimbag…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "p">
 
-<!ENTITY goOfflineCmd.label "Magtrabaho ng walang internet">
+<!ENTITY goOfflineCmd.label "Gumawa nang walang internet">
 <!ENTITY goOfflineCmd.accesskey "k">
 
 <!ENTITY menubarCmd.label "Halang ng Menu">
@@ -73,16 +73,16 @@ can reach it easily. -->
 <!ENTITY navbarCmd.accesskey "N">
 <!ENTITY personalbarCmd.label "Toolbar ng mga Bookmark">
 <!ENTITY personalbarCmd.accesskey "B">
-<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Toolbar ng Mga Bookmark">
-<!ENTITY addonBarCmd.label "Bar ng Add-on">
+<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Toolbar ng mga Bookmark">
+<!ENTITY addonBarCmd.label "Halang ng Add-on">
 <!ENTITY addonBarCmd.accesskey "A">
-<!ENTITY statusBar.label               "Bar ng Kalagayan">
-<!ENTITY statusBar.accesskey           "S">
+<!ENTITY statusBar.label               "Halang ng Kalagayan">
+<!ENTITY statusBar.accesskey           "K">
 
 <!ENTITY pageSourceCmd.label "Pinagmulan ng Pahina">
 <!ENTITY pageSourceCmd.accesskey "o">
 <!ENTITY pageSourceCmd.commandkey "u">
-<!ENTITY pageInfoCmd.label "Impormasyon ng Pahina">
+<!ENTITY pageInfoCmd.label "Impormasyon sa Pahina">
 <!ENTITY pageInfoCmd.accesskey "I">
 <!ENTITY pageInfoCmd.commandkey "i">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
@@ -94,7 +94,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.label "Buong Screen">
 <!ENTITY fullScreenCmd.accesskey "B">
 <!ENTITY fullScreenCmd.macCommandKey "f">
-<!ENTITY showAllTabsCmd.label "Ipakita ang Lahat ng Mga Tab">
+<!ENTITY showAllTabsCmd.label "Ipakita ang Lahat ng mga Tab">
 <!ENTITY showAllTabsCmd.accesskey "A">
 
 <!ENTITY fullScreenMinimize.tooltip "Paliitin">
@@ -124,38 +124,38 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Mag-subscribe sa Pahinang Ito…">
 <!ENTITY addCurPagesCmd.label "I-bookmark ang Lahat ng Mga Tab…">
 <!ENTITY showAllBookmarks2.label "Ipakita Lahat ng Mga Bookmark">
-<!ENTITY organizeBookmarks.label "Ayusin ang mga Bookmark">
-<!ENTITY unsortedBookmarksCmd.label "Magkakahalong Mga Bookmark">
-<!ENTITY bookmarksToolbarChevron.tooltip "Ipakita ang Higit Pang Mga Bookmark">
+<!ENTITY organizeBookmarks.label "Isaayos ang mga Bookmark">
+<!ENTITY unsortedBookmarksCmd.label "Halo-halong mga Bookmark">
+<!ENTITY bookmarksToolbarChevron.tooltip "Higit pang mga Bookmark">
 
 <!ENTITY backCmd.label                "Bumalik">
 <!ENTITY backCmd.accesskey            "B">
-<!ENTITY backButton.tooltip           "Bumalik ng isang pahina">
+<!ENTITY backButton.tooltip           "Bumalik nang isang pahina">
 <!ENTITY forwardCmd.label             "Tumuloy">
 <!ENTITY forwardCmd.accesskey         "O">
-<!ENTITY forwardButton.tooltip        "Tumuloy ng isa pang pahina">
+<!ENTITY forwardButton.tooltip        "Tumuloy sa susunod na pahina">
 <!ENTITY backForwardButtonMenu.tooltip "Mag-click sa kanan o hilahin pababa para makita ang kasaysayan">
 <!ENTITY backForwardButtonMenuMac.tooltip "Hilahin pababa para makita ang kasaysayan">
 <!ENTITY reloadCmd.label              "Ulitin">
-<!ENTITY reloadCmd.accesskey          "R">
-<!ENTITY reloadButton.tooltip         "Ulitin pag-load sa kasalukuyang pahina">
-<!ENTITY stopCmd.label                "Ihinto">
-<!ENTITY stopCmd.accesskey            "S">
+<!ENTITY reloadCmd.accesskey          "U">
+<!ENTITY reloadButton.tooltip         "Ulitin ang pag-load sa kasalukuyang pahina">
+<!ENTITY stopCmd.label                "Itigil">
+<!ENTITY stopCmd.accesskey            "G">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Ihinto ang pag-load sa pahinang ito">
-<!ENTITY goEndCap.tooltip             "Puntahan ang address sa Bar ng Lokasyon">
+<!ENTITY stopButton.tooltip           "Itigil ang pag-load sa pahinang ito">
+<!ENTITY goEndCap.tooltip             "Puntahan ang address sa Halang ng Lokasyon">
 <!ENTITY printButton.label            "Ilimbag">
-<!ENTITY printButton.tooltip          "Ilimbag ang pahinang ito">
+<!ENTITY printButton.tooltip          "Ilimbag itong pahina">
 
 <!ENTITY backForwardItem.title        "Bumalik/Tumuloy">
 <!ENTITY locationItem.title           "Lokasyon">
-<!ENTITY searchItem.title             "Hanapin">
-<!ENTITY throbberItem.title           "Tagaturo ng Aktibidad">
+<!ENTITY searchItem.title             "Paghahanap">
+<!ENTITY throbberItem.title           "Indikador ng Aktibidad">
 <!ENTITY bookmarksItem.title          "Mga Bookmark">
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Menu">
-<!ENTITY appMenuButton.tooltip        "Buksan ang talaan ng &brandShortName;">
+<!ENTITY appMenuButton.tooltip        "Buksan ang menu ng &brandShortName;">
 <!ENTITY homeButton.label             "Tahanan">
 
 <!ENTITY feedButton.label             "Mag-subscribe">
@@ -167,7 +167,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Mga Bookmark">
 <!ENTITY bookmarksMenuButton.tooltip        "Ipakita ang iyong mga bookmark">
-<!ENTITY bookmarksMenuButton.unsorted.label "Magkakahalong Mga Bookmark">
+<!ENTITY bookmarksMenuButton.unsorted.label "Halo-halong mga Bookmark">
 <!ENTITY viewBookmarksSidebar.label         "Ipakita sa Sidebar">
 <!ENTITY viewBookmarksToolbar.label         "Ipakita ang Toolbar ng mga Bookmark">
 
@@ -178,11 +178,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksWinCmd.commandkey "i">
 
 <!ENTITY historyButton.label            "Kasaysayan">
-<!ENTITY historyButton.tooltip          "Ipakita ang mga pahinang kanina'y tiningnan mo">
+<!ENTITY historyButton.tooltip          "Ipakita ang mga pahinang kanina mo lamang tiningnan">
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "Mga Kasangkapan">
-<!ENTITY toolsMenu.accesskey          "T"> 
+<!ENTITY toolsMenu.accesskey          "K"> 
 
 <!ENTITY keywordfield.label           "Magdagdag ng Keyword para sa Hanap na ito…">
 <!ENTITY keywordfield.accesskey       "K">
@@ -241,7 +241,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
   -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Tagasiyasat ng Browser">
+<!ENTITY chromeDebuggerMenu.label       "Browser Debugger">
 
 <!ENTITY devToolbarCloseButton.tooltiptext "Isara ang Toolbar ng Developer">
 <!ENTITY devToolbarMenu.label              "Toolbar ng Developer">
@@ -330,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuToolbarLayout.label "Ayos ng Toolbar…">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
 <!ENTITY appMenuFind.label "Hanapin…">
-<!ENTITY appMenuUnsorted.label "Magkakahalong Mga Bookmark">
+<!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
 <!ENTITY appMenuWebDeveloper.label "Web Developer">
 <!ENTITY appMenuGettingStarted.label "Pagsisimula">
 <!ENTITY appMenuSafeMode.label "I-restart ng Hindi Pinapagana ang Mga Add-on…">
@@ -391,7 +391,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPageSourceCmd.accesskey  "T">
 <!ENTITY viewFrameSourceCmd.label     "Ipakita ang Pinagmulan ng Frame">
 <!ENTITY viewFrameSourceCmd.accesskey "K">
-<!ENTITY viewPageInfoCmd.label        "Ipakita ang Impormasyon ng Pahina">
+<!ENTITY viewPageInfoCmd.label        "Ipakita ang Impormasyon sa Pahina">
 <!ENTITY viewPageInfoCmd.accesskey    "I">
 <!ENTITY viewFrameInfoCmd.label       "Ipakita ang Impormasyon ng Frame">
 <!ENTITY viewFrameInfoCmd.accesskey   "I">
@@ -448,11 +448,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY hidePluginCmd.accesskey      "H">
 <!ENTITY copyLinkCmd.label            "Kopyahin ang Lokasyon ng Kawing">
 <!ENTITY copyLinkCmd.accesskey        "a">
-<!ENTITY copyImageCmd.label           "Kopyahin ang Lokasyon ng Imahe">
+<!ENTITY copyImageCmd.label           "Kopyahin ang Lokasyon ng Larawan">
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY copyImageContentsCmd.label   "Kopyahin ang Larawan">
 <!ENTITY copyImageContentsCmd.accesskey  "y"> 
-<!ENTITY copyVideoURLCmd.label        "Kopyahin ang Lokasyon ng Bidyo">
+<!ENTITY copyVideoURLCmd.label        "Kopyahin ang Lokasyon ng Video">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "Kopyahin ang Lokasyon ng Tugtog">
 <!ENTITY copyAudioURLCmd.accesskey    "o">
@@ -539,7 +539,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newWindowButton.tooltip        "Bumukas ng bagong window">
 <!ENTITY sidebarCloseButton.tooltip     "Isara ang sidebar">
 
-<!ENTITY cutButton.tooltip              "Gupitin">
+<!ENTITY cutButton.tooltip              "I-cut">
 <!ENTITY copyButton.tooltip             "Kopyahin">
 <!ENTITY pasteButton.tooltip            "I-paste">
 
@@ -548,6 +548,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomOutButton.tooltip          "Paliitin">
 <!ENTITY zoomInButton.tooltip           "Palakihin">
 <!ENTITY zoomControls.label             "Kontrol sa Pag-zoom">
+
+<!ENTITY appMenuRestart.label           "I-restart">
+<!ENTITY appMenuRestart.accesskey       "R">
+<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Umalis"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "x">

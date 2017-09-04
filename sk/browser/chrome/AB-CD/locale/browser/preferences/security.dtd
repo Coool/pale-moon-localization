@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "Doplnky">
+
 <!ENTITY  warnAddonInstall.label        "Upozorniť ma, ak sa stránky pokúšajú inštalovať doplnky">
 <!ENTITY  warnAddonInstall.accesskey    "U">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Výnimky…">
 <!ENTITY  addonExceptions.accesskey     "V">
 
+<!ENTITY  addonSecuritylevel            "Úroveň bezpečnosti doplnkov:">
+<!ENTITY  addonSecurityLevel_Off        "Žiadna: Žiadny doplnok nebude blokovaný (nebezpečné)">
+<!ENTITY  addonSecurityLevel_Low        "Nízka: Blokovať len doplnky so závažnými chybami v bezpečnosti a stabilite">
+<!ENTITY  addonSecurityLevel_High       "Stredná: Blokovať všetky nebezpečné doplnky (prednastavené, odporúčané)">
+<!ENTITY  addonSecurityLevel_Extreme    "Vysoká: Blokovať všetky doplnky so známymi chybami">
 
 <!ENTITY  passwords.label               "Heslá">
 

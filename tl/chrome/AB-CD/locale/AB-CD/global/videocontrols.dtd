@@ -6,7 +6,7 @@
 <!ENTITY playButton.pauseLabel "I-pause">
 <!ENTITY muteButton.muteLabel "I-mute">
 <!ENTITY muteButton.unmuteLabel "I-unmute">
-<!ENTITY fullscreenButton.enterfullscreenlabel "Buong Screen">
+<!ENTITY fullscreenButton.enterfullscreenlabel "Sakupin ang Buong Screen">
 <!ENTITY fullscreenButton.exitfullscreenlabel "Umalis sa Buong Screen">
 <!ENTITY castingButton.castingLabel "I-cast sa Screen">
 
@@ -18,17 +18,17 @@
 <!ENTITY stats.activityEnded "Natapos">
 <!ENTITY stats.activitySeeking "(ginagalaw)">
 <!ENTITY stats.volume "Lakas ng Tunog">
-<!ENTITY stats.framesParsed "Mga frame na-parse">
-<!ENTITY stats.framesDecoded "Mga frame na-decode">
+<!ENTITY stats.framesParsed "Mga frame na na-parse">
+<!ENTITY stats.framesDecoded "Mga frame na na-decode">
 <!ENTITY stats.framesPresented "Mga frame na ipinakita">
-<!ENTITY stats.framesPainted "Mga frame na naipinta">
+<!ENTITY stats.framesPainted "Mga frame na ipininta">
 
-<!ENTITY error.aborted "Ang pagload ng video ay tumigil.">
-<!ENTITY error.network "Ang pagpapalabas ng video ay nahinto dahil sa network error.">
-<!ENTITY error.decode "Ang video ay hindi maipapalabas dahil sira ang file.">
-<!ENTITY error.srcNotSupported "Ang format ng video o MIME type ay hindi suportado.">
-<!ENTITY error.noSource2 "Walang suportadong format at MIME type ng video ang nahanap.">
-<!ENTITY error.generic "Ang pagpapalabas ng video ay nahinto sa hindi malamang error.">
+<!ENTITY error.aborted "Pag-load sa video ay itinigil.">
+<!ENTITY error.network "Pagpapalabas sa video ay natigil dahil sa isang network error.">
+<!ENTITY error.decode "Hindi maipapalabas ang video dahil sira ang file.">
+<!ENTITY error.srcNotSupported "Format ng video o uri ng MIME ay hindi suportado.">
+<!ENTITY error.noSource2 "Walang video na may suportadong format at uri ng MIME ang natagpuan.">
+<!ENTITY error.generic "Pagpapalabas sa video ay natigil dahil sa isang hindi matukoy na error.">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at

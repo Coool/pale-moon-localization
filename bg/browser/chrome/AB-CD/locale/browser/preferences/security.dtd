@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "Добавки">
+
 <!ENTITY  warnAddonInstall.label        "Предупреждавай ме, когато сайтовете искат да инсталират добавки">
 <!ENTITY  warnAddonInstall.accesskey    "П">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "Изключения…">
 <!ENTITY  addonExceptions.accesskey     "з">
 
+<!ENTITY  addonSecuritylevel            "Ниво на защита на добавките:">
+<!ENTITY  addonSecurityLevel_Off        "Изключено: Добавките няма да бъдат блокирани (опасно)">
+<!ENTITY  addonSecurityLevel_Low        "Слабо: Блокират се само добавки със сериозни проблеми в защитата и стабилността">
+<!ENTITY  addonSecurityLevel_High       "Средно: Блокират се всички вредни добавки (по подразбиране, препоръчано)">
+<!ENTITY  addonSecurityLevel_Extreme    "Високо: Блокират се всички проблемни добавки">
 
 <!ENTITY  passwords.label               "Пароли">
 

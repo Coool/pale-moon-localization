@@ -8,10 +8,10 @@
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "Ayusin">
 <!ENTITY organize.accesskey    "A">
-<!ENTITY organize.tooltip      "Ayusin ang iyong mga bookmark">
+<!ENTITY organize.tooltip      "Isaayos ang iyong mga bookmark">
 
 <!ENTITY file.close.label               "Isara">
-<!ENTITY file.close.accesskey           "C">
+<!ENTITY file.close.accesskey           "I">
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "Mga Tanaw">
 <!ENTITY views.accesskey                "T">
@@ -20,50 +20,52 @@
 <!ENTITY view.columns.accesskey         "C">
 <!ENTITY view.sort.label                "Pagkakasunod-sunod">
 <!ENTITY view.sort.accesskey            "S">
-<!ENTITY view.unsorted.label            "Di-nakaayos">
-<!ENTITY view.unsorted.accesskey        "U">
+<!ENTITY view.unsorted.label            "'Di nakaayos">
+<!ENTITY view.unsorted.accesskey        "D">
 <!ENTITY view.sortAscending.label       "A &gt; Z na Pagkakaayos">
 <!ENTITY view.sortAscending.accesskey   "A">
 <!ENTITY view.sortDescending.label      "Z &gt; A na Pagkakaayos">
 <!ENTITY view.sortDescending.accesskey  "Z">
 
-<!ENTITY importBookmarksFromHTML.label     "Kumuha ng mga bookmark mula sa HTML…">
+<!ENTITY importBookmarksFromHTML.label     "I-import ang mga bookmark mula sa HTML…">
 <!ENTITY importBookmarksFromHTML.accesskey "I">
 <!ENTITY exportBookmarksToHTML.label       "I-export ang mga Bookmark sa HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "E">
-<!ENTITY importOtherBrowser.label          "Kumuha ng Datos mula sa ibang browser…">
+<!ENTITY importOtherBrowser.label          "I-import ang Datos mula sa ibang browser…">
 <!ENTITY importOtherBrowser.accesskey      "A">
 
-<!ENTITY cmd.backup.label               "Backup…">
+<!ENTITY cmd.backup.label               "I-backup…">
 <!ENTITY cmd.backup.accesskey           "B">
 <!ENTITY cmd.restore2.label             "Ibalik">
-<!ENTITY cmd.restore2.accesskey         "R">
+<!ENTITY cmd.restore2.accesskey         "I">
 <!ENTITY cmd.restoreFromFile.label      "Pumili ng File…">
-<!ENTITY cmd.restoreFromFile.accesskey  "C">
+<!ENTITY cmd.restoreFromFile.accesskey  "P">
 
 <!ENTITY cmd.bookmarkLink.label         "I-bookmark Itong Pahina…">
 <!ENTITY cmd.bookmarkLink.accesskey     "B">
 <!ENTITY cmd.delete.label               "Alisin Itong Pahina">
-<!ENTITY cmd.delete.accesskey           "D">
+<!ENTITY cmd.delete.accesskey           "A">
 <!ENTITY cmd.deleteDomainData.label     "Limutin Itong Site">
-<!ENTITY cmd.deleteDomainData.accesskey "F">
+<!ENTITY cmd.deleteDomainData.accesskey "L">
 
-<!ENTITY cmd.open.label                  "Buksan">
-<!ENTITY cmd.open.accesskey              "O">
-<!ENTITY cmd.open_window.label           "Buksan sa isang bagong window">
-<!ENTITY cmd.open_window.accesskey       "N">
-<!ENTITY cmd.open_tab.label              "Buksan sa isang bagong tab">
-<!ENTITY cmd.open_tab.accesskey          "w">
-<!ENTITY cmd.open_all_in_tabs.label      "Buksan lahat sa mga tab">
-<!ENTITY cmd.open_all_in_tabs.accesskey  "O">
+<!ENTITY cmd.open.label                    "Buksan">
+<!ENTITY cmd.open.accesskey                "U">
+<!ENTITY cmd.open_window.label             "Buksan sa isang Bagong Window">
+<!ENTITY cmd.open_window.accesskey         "W">
+<!ENTITY cmd.open_private_window.label     "Buksan sa isang Bagong Pribadong Window">
+<!ENTITY cmd.open_private_window.accesskey "P">
+<!ENTITY cmd.open_tab.label                "Buksan sa isang Bagong Tab">
+<!ENTITY cmd.open_tab.accesskey            "N">
+<!ENTITY cmd.open_all_in_tabs.label        "Buksan Lahat sa mga Tab">
+<!ENTITY cmd.open_all_in_tabs.accesskey    "O">
 
-<!ENTITY cmd.openParentFolder.label      "Buksan ang folder na naglalaman">
+<!ENTITY cmd.openParentFolder.label      "Buksan ang folder na naglalaman nito">
 <!ENTITY cmd.openParentFolder.accesskey  "F">
 
 <!ENTITY cmd.properties.label      "Mga Katangian">
 <!ENTITY cmd.properties.accesskey  "i">
 
-<!ENTITY cmd.sortby_name.label              "Ayusin Batay sa Pangalan">
+<!ENTITY cmd.sortby_name.label              "Ayusin ayon sa Pangalan">
 <!ENTITY cmd.sortby_name.accesskey          "S">
 <!ENTITY cmd.context_sortby_name.accesskey  "r">
 
@@ -73,25 +75,25 @@
 <!ENTITY cmd.new_folder.accesskey          "o">
 <!ENTITY cmd.context_new_folder.accesskey  "F">
 <!ENTITY cmd.new_separator.label           "Bagong Panghiwalay">
-<!ENTITY cmd.new_separator.accesskey       "S">
+<!ENTITY cmd.new_separator.accesskey       "h">
 
-<!ENTITY cmd.reloadLivebookmark.label      "Reload Live Bookmark">
+<!ENTITY cmd.reloadLivebookmark.label      "I-load muli ang Live Bookmark">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "R">
 
 <!ENTITY cmd.moveBookmarks.label                  "Ilipat…">
-<!ENTITY cmd.moveBookmarks.accesskey              "M">
+<!ENTITY cmd.moveBookmarks.accesskey              "l">
 
 <!ENTITY col.name.label              "Pangalan">
 <!ENTITY col.tags.label              "Mga Tag">
 <!ENTITY col.url.label               "Lokasyon">
 <!ENTITY col.lastvisit.label         "Petsa ng Pagbisita">
 <!ENTITY col.visitcount.label        "Bilang ng Pagbisita">
-<!ENTITY col.keyword.label           "Mahalagang salita">
+<!ENTITY col.keyword.label           "Keyword">
 <!ENTITY col.description.label       "Paglalarawan">
 <!ENTITY col.dateadded.label         "Idinagdag">
 <!ENTITY col.lastmodified.label      "Huling Binago">
-<!ENTITY col.parentfolder.label      "Folder na Naglalaman">
-<!ENTITY col.parentfolderpath.label  "Lokasyon ng Folder na Naglalaman">
+<!ENTITY col.parentfolder.label      "Kinalalagyang Folder">
+<!ENTITY col.parentfolderpath.label  "Lokasyon ng Kinalalagyang Folder">
 
 <!ENTITY search.label                              "Hanapin:">
 <!ENTITY search.accesskey                          "S">
@@ -104,32 +106,32 @@
 <!ENTITY search.scopeDownloads.label               "Mga Download">
 <!ENTITY search.scopeDownloads.accesskey           "D">
 <!ENTITY search.scopeHistory.label                 "Kasaysayan">
-<!ENTITY search.scopeHistory.accesskey             "H">
-<!ENTITY saveSearch.label                          "Save">
+<!ENTITY search.scopeHistory.accesskey             "Y">
+<!ENTITY saveSearch.label                          "I-save">
 <!ENTITY saveSearch.accesskey                      "S">
 
 <!ENTITY cmd.find.key  "f">
 
-<!ENTITY maintenance.label      "Pag-import at Backup">
+<!ENTITY maintenance.label      "Import at Backup">
 <!ENTITY maintenance.accesskey  "I">
-<!ENTITY maintenance.tooltip    "Mag-import at mag-backup ng iyong mga bookmark">
+<!ENTITY maintenance.tooltip    "I-import at i-backup ng iyong mga bookmark">
 
 <!ENTITY backButton.tooltip  "Bumalik">
 
 <!ENTITY forwardButton.tooltip  "Tumuloy">
 
-<!ENTITY detailsPane.more.label "Higit Pa">
-<!ENTITY detailsPane.more.accesskey "e">
+<!ENTITY detailsPane.more.label "Higit pa">
+<!ENTITY detailsPane.more.accesskey "h">
 <!ENTITY detailsPane.less.label "Mas kaunti">
-<!ENTITY detailsPane.less.accesskey "e">
+<!ENTITY detailsPane.less.accesskey "m">
 <!ENTITY detailsPane.selectAnItemText.description "Pumili ng bagay upang matingnan at mabago ang mga katangian nito">
 
 <!ENTITY find.label               "Hanapin:">
-<!ENTITY find.accesskey           "S">
+<!ENTITY find.accesskey           "H">
 <!ENTITY view.label               "Tanaw">
 <!ENTITY view.accesskey           "t">
 <!ENTITY byDate.label             "Ayon sa Petsa">
-<!ENTITY byDate.accesskey         "D">
+<!ENTITY byDate.accesskey         "P">
 <!ENTITY bySite.label             "Ayon sa Site">
 <!ENTITY bySite.accesskey         "S">
 <!ENTITY byMostVisited.label      "Ayon sa Pinakmadalas Bisitahin">
@@ -137,4 +139,4 @@
 <!ENTITY byLastVisited.label      "Ayon sa Huling Binisita">
 <!ENTITY byLastVisited.accesskey  "H">
 <!ENTITY byDayAndSite.label       "Ayon sa Petsa at Site">
-<!ENTITY byDayAndSite.accesskey   "p">
+<!ENTITY byDayAndSite.accesskey   "t">

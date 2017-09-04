@@ -17,7 +17,7 @@
      deliberate for formatting around the embedded links. -->
 <!ENTITY rights.intro-point1a "&brandShortName; ay magagamit mo sa ilalim ng mga tuntunin ng ">
 <!ENTITY rights.intro-point1b "Mozilla Public License (Pampublikong Lisensya ng Mozilla)">
-<!ENTITY rights.intro-point1c ". Ibig sabihin nito maari mong gamitin, kopyahin at ipamahagi ang &brandShortName; sa iba sa source form nito. Ang mga binary naman ay sakop ng Lisensya sa Pamamahagi ng Pale Moon na matatagpuan sa website ng Pale Moon. Ikaw ay malayang baguhin ang source code ng &brandShortName; sa iyong kagustuhan hanggang sa makamit nito ang iyong pangangailangan. Ang Pampublikong Lisensya ng Mozilla ay nagbibigay rin ng karapatan sa iyo na ipamahagi ang iyong mga binagong bersyon.">
+<!ENTITY rights.intro-point1c ". Ibig sabihin nito maari mong gamitin, kopyahin at ipamahagi ang &brandShortName; sa iba sa source form nito. Ang mga binary naman ay sakop ng Lisensya sa Pamamahagi ng Pale Moon na matatagpuan sa website ng Pale Moon. Ikaw ay malayang baguhin ang source code ng &brandShortName; sa iyong kagustuhan hanggang sa makamit nito ang iyong pangangailangan. Ang Pampublikong Lisensya ng Mozilla ay nagbibigay rin ng karapatan sa iyo na ipamahagi ang iyong mga binagong bersiyon.">
 
 <!ENTITY rights.intro-point2-a "Ngunit ikaw ay hindi nabigyan ng anumang mga karapatan o lisensya sa tatak-kalakal ng Moonchild Productions o anumang ibang partido, kasama ng walang limitasyon ang logo at pangalan ng Pale Moon. Maaaring matagpuan ang karagdagang impormasyon sa mga trademark ">
 <!ENTITY rights.intro-point2-b "dito">
@@ -42,18 +42,18 @@
 <!-- point 4 text for unbranded builds -->
 <!ENTITY rights.intro-point4a-unbranded "Kung ang produktong ito ay nagsasama ng mga serbisyo ng web, anumang angkop na mga patakaran sa serbisyo para sa (mga) serbisyo ay dapat idugtong sa ">
 <!ENTITY rights.intro-point4b-unbranded "Mga Serbisyo sa Website">
-<!ENTITY rights.intro-point4c-unbranded " seksyon.">
+<!ENTITY rights.intro-point4c-unbranded " seksiyon.">
 
-<!ENTITY rights2.webservices-header "Mga Web-Based na mga Serbisyong Impormasyon ng &brandFullName;">
+<!ENTITY rights2.webservices-header "Web-Based na mga Serbisyong Impormasyon ng &brandFullName;">
 
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
      updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights2.webservices-a "&brandFullName; ay gumagamit ng mga web-based serbisyong impormasyon (&quot;Mga Serbisyo&quot;) upang makapag-hatid ng ilan sa mga tampok na isinama para sa iyong pag-gamit sa binary na bersyong ito ng &brandShortName; sa ilalim ng mga tuntuning inilalarawan sa ibaba. Kung ayaw mong gamitin ang isa o higit pa sa mga Serbisyo o ang mga tuntunin sa ibaba ay hindi katanggap-tanggap, maari mong hindi paganahin ang tampok o (mga) serbisyo. Mga paraan kung paano hindi paganahin ang isang partikular na tampok o Serbisyo ay matatagpuan sa ">
+<!ENTITY rights2.webservices-a "&brandFullName; ay gumagamit ng mga web-based serbisyong impormasyon (&quot;Mga Serbisyo&quot;) upang makapag-hatid ng ilan sa mga tampok na isinama para sa iyong pag-gamit sa binary na bersiyong ito ng &brandShortName; sa ilalim ng mga tuntuning inilalarawan sa ibaba. Kung ayaw mong gamitin ang isa o higit pa sa mga Serbisyo o ang mga tuntunin sa ibaba ay hindi katanggap-tanggap, maari mong hindi paganahin ang tampok o (mga) serbisyo. Mga paraan kung paano hindi paganahin ang isang partikular na tampok o Serbisyo ay matatagpuan sa ">
 <!ENTITY rights2.webservices-b "dito">
-<!ENTITY rights3.webservices-c ". Ibang mga tampok at Serbisyo ay maaring hindi paganahin sa mga preference ng application.">
+<!ENTITY rights3.webservices-c ". Ibang mga tampok at Serbisyo ay puwedeng hindi paganahin sa mga preperensiya ng application.">
 
 <!-- safe browsing points for branded builds -->
 <!ENTITY rights.safebrowsing-a "Ligtas na Pagba-browse: ">
@@ -65,24 +65,24 @@
 
 <!-- location aware browsing points for branded builds -->
 <!ENTITY rights.locationawarebrowsing-a "Location Aware na Pagba-browse: ">
-<!ENTITY rights.locationawarebrowsing-b "ay laging opt-in.  Walang impormasyon hinggil sa iyong lokasyon ang ipinapadala ng walang pahintulot.  Kung gusto mong hindi paganahin ang buong tampok na ito, sundan ang mga sumusunod:">
-<!ENTITY rights.locationawarebrowsing-term1a "Sa bar ng URL, ilagay ">
+<!ENTITY rights.locationawarebrowsing-b "ay laging opt-in.  Walang impormasyon hinggil sa iyong lokasyon ang ipinapadala nang walang pahintulot.  Kung gusto mong hindi paganahin ang buong tampok na ito, sundan ang mga sumusunod:">
+<!ENTITY rights.locationawarebrowsing-term1a "Sa halang ng URL, ilagay ">
 <!ENTITY rights.locationawarebrowsing-term1b "about:config">
 <!ENTITY rights.locationawarebrowsing-term2 "Ilagay geo.enabled">
-<!ENTITY rights.locationawarebrowsing-term3 "I-double click ang geo.enabled na preference">
+<!ENTITY rights.locationawarebrowsing-term3 "I-double click ang geo.enabled na preperensiya">
 <!ENTITY rights.locationawarebrowsing-term4 "Ang Location-Aware na Pagba-browse ay hindi na pinapagana">
 
 <!-- intro paragraph for unbranded builds -->
-<!ENTITY rights.webservices-unbranded "Ang isang pangkalahatang-ideya ng mga serbisyo ng website na kinabibilangan ng produkto, kasama ang mga tagubilin kung paano hindi paganahin ang mga ito, kung naaangkop, ay dapat isama dito.">
+<!ENTITY rights.webservices-unbranded "Isang pangkalahatang-ideya ng mga serbisyo ng website na kinabibilangan ng produkto, kasama ang mga tagubilin kung paano hindi paganahin ang mga ito, kung naaangkop, ay dapat isama dito.">
 
 <!-- point 1 text for unbranded builds -->
 <!ENTITY rights.webservices-term1-unbranded "Anumang angkop na mga tuntunin ng serbisyo para sa produktong ito ay dapat ilista dito.">
 
 <!-- points 1-7 text for branded builds -->
-<!ENTITY rights2.webservices-term1 "&vendorShortName; at ang mga nagambag, tagapaglisensya, mga namamahagi, at ang mga kasosyo nito ay nagtatrabago upang makapagbigay ng pinaka-accurate o up-to-date na mga Serbisyo. Gayunpaman, hindi namin matitiyak na ang mga impormasyong ito ay komprehensibo at walang error.  Halimbawa, ang Serbisyong Safe Browsing ay maaring hindi matukoy ang ilang mga mapanganib na site at maaring matukoy ang ilang mga ligtas na site sa pagkakamali at sa Serbisyong Location Aware, lahat ng mga lokasyong ibinibigay ng aming mga tagapaghatid ng serbisyo ay mga estimate lamang at ni maging kami o ang ang mga tagapaghatid ng serbisyo ay hindi matiyak ang pagkaka-tama ng mga lokasyong ibinibigay.">
+<!ENTITY rights2.webservices-term1 "&vendorShortName; at ang mga nag-ambag, tagapaglisensya, mga namamahagi, at ang mga kasosyo nito ay nagtatrabaho upang makapagbigay ng pinaka-wasto o up-to-date na mga Serbisyo. Gayunpaman, hindi namin matitiyak na ang mga impormasyong ito ay komprehensibo at walang pagkakamali.  Halimbawa, ang Serbisyong Safe Browsing ay maaring hindi matukoy ang ilang mga mapanganib na site at maaring tukuyin na mapanganib ang ilang ligtas na mga site sa pagkakamali at sa Serbisyong Location Aware, lahat ng mga lokasyon na ibinibigay ng aming mga tagapaghatid ng serbisyo ay mga tantiya lamang at ni maging kami o ang ang mga tagapaghatid ng serbisyo ay hindi matiyak ang pagkaka-wasto ng mga lokasyong ibinibigay nito.">
 <!ENTITY rights.webservices-term2 "Maaring itigil o baguhin ng &vendorShortName; ang mga Serbisyo sa pagpapasiya nito.">
-<!ENTITY rights2.webservices-term3 "Maari mong gamitin ang mga Services na ito kasama ang version ng &brandShortName;, at ang &vendorShortName; ay binigyan ka ng karapatan upang gamitin ito. &vendorShortName; at ang mga licensor ay may karapatan sa lahat ng Services nito. Ang mga terms na ito ay walang limitasyon sa karapatan na nakailalim sa open source licenses na pwde sa &brandShortName; at sa mga sumusunod na source code version ng &brandShortName;.">
-<!ENTITY rights.webservices-term4 "Ang mga Serbisyo ay ibinigay &quot;as-is.&quot;  &vendorShortName;, mga nagambag, tagapaglisensya, at mga namamahagi nito, dini-disclaim ang lahat ng mga warranty, kahit ipinahayag o ipinahiwatig, kabilang ng walang limitasyon, ang mga warranty na ang Mga Serbisyo ay makukuha at angkop para sa iyong mga partikular na layunin. Pinapasan mo ang buong panganib sa pagpili sa Mga Serbisyo para sa iyong mga layunin at tungkol sa kalidad at pagganap ng Mga Serbisyo. May mga ilang hurisdiksyon na hindi pinapayagan ang pagbubukod o limitasyon ng mga ipinahiwatig na garantiya, kaya ang disclaimer na ito ay maaaring hindi mailalapat sa iyo.">
-<!ENTITY rights.webservices-term5 "Maliban na lamang kung kinakailangan ng batas, &vendorShortName;, mga nagambag, tagapaglisensya, at mga namamahagi nito ay hindi mananagot sa anumang indirect, special, incidental, consequential, punitive, o exemplary damages na nagmumula sa o sa anumang paraan na may kaugnayan sa paggamit ng &brandShortName; at ang mga Serbisyo.  Ang kolektibong pananagutan sa ilalim ng mga tuntuning ito ay hindi hihigit sa $500 (limang daang dolyar). May ilang mga hurisdiksyon ang hindi nagpapahintulot sa pagbubukod o limitasyon ng ilang mga pinsala, kaya ang pagbubukod at limitasyon na ito ay maaaring hindi mailapat sa iyo.">
-<!ENTITY rights.webservices-term6 "Maaring baguhin ng &vendorShortName; ang mga tuntuning ito kung kinakailangan paminsan-minsan. Ang mga tuntuning ito ay maaring hindi mabago o makansela ng walang sinulat na pahintulot mula sa &vendorShortName;.">
-<!ENTITY rights.webservices-term7 "Ang mga tuntuning ito ay pinamamahalaan ng mga batas ng Sweden, maliban na lang sa kasalungatan ng mga probisyon ng batas. Kung ang anumang bahagi ng mga tuntuning ito ay naging hindi wasto o hindi maipapatupad, ang mga natitirang bahagi ay mananatiling may ganap na lakas at epekto. Sa kaganapan ng isang salungatan sa pagitan ng isang isinalin na bersyon ng mga salitang ito at ang bersyon sa wikang Ingles, ang bersyon sa wikang Ingles ang magkakaroon ng kontrol.">
+<!ENTITY rights2.webservices-term3 "Maari mong gamitin ang mga Serbisyong ito kasama ang bersiyon ng &brandShortName;, at binibigyan ka ng &vendorShortName; ng mga karapatan upang gamitin ito. Inirereserba ng &vendorShortName; at ng mga licensor nito ang ibang mga karapatan sa mga Serbisyo. Ang mga tuntuning ito ay hindi binalak upang limitahan ang mga karapatan na ibinigay sa mga lisensyang open source na nararapat sa &brandShortName; at sa mga katugon na bersiyong source code ng &brandShortName;.">
+<!ENTITY rights.webservices-term4 "Ang mga Serbisyo ay ibinigay &quot;as-is.&quot;  &vendorShortName;, mga nag-ambag, tagapaglisensiya, at sa mga namamahagi nito, itinatatwa ang lahat ng mga warranty, kahit ipinahayag o ipinahiwatig, kabilang ng walang limitasyon, ang mga warranty na ang mga Serbisyo ay makukuha at angkop para sa iyong mga partikular na layunin. Pinapasan mo ang buong panganib sa pagpili ng mga Serbisyo para sa iyong mga layunin at tungkol sa kalidad at pagganap ng mga Serbisyo. May mga ilang hurisdiksyon na hindi pinapayagan ang pagbubukod o limitasyon ng mga ipinahiwatig na garantiya, kaya ang pagtatatwang ito ay maaaring hindi mailapat sa iyo.">
+<!ENTITY rights.webservices-term5 "Maliban na lamang kung kinakailangan ng batas, &vendorShortName;, mga nag-ambag, tagapaglisensya, at mga namamahagi nito ay hindi mananagot sa anumang indirect, special, incidental, consequential, punitive, o exemplary damages na nagmumula sa o sa anumang paraan na may kaugnayan sa paggamit ng &brandShortName; at ng mga Serbisyo.  Ang kolektibong pananagutan sa ilalim ng mga tuntuning ito ay hindi hihigit sa $500 (limang daang dolyar). May ilang mga hurisdiksyon na hindi nagpapahintulot sa pagbubukod o limitasyon ng ilang mga pinsala, kaya ang pagbubukod at limitasyon na ito ay maaaring hindi mailapat sa iyo.">
+<!ENTITY rights.webservices-term6 "Maaring baguhin ng &vendorShortName; ang mga tuntuning ito kung kinakailangan paminsan-minsan. Ang mga tuntuning ito ay maaring hindi mabago o makansela nang walang nakasulat na pahintulot mula sa &vendorShortName;.">
+<!ENTITY rights.webservices-term7 "Ang mga tuntuning ito ay pinamamahalaan ng mga batas ng Sweden, maliban na lang sa kasalungatan ng mga probisyon ng batas. Kung ang anumang bahagi ng mga tuntuning ito ay naging hindi wasto o hindi maipapatupad, ang mga natitirang bahagi ay mananatiling may ganap na lakas at epekto. Sa kaganapan ng isang salungatan sa pagitan ng isang isinalin na bersiyon ng mga salitang ito at ang bersiyon sa wikang Ingles, ang bersiyon sa wikang Ingles ang magkakaroon ng kontrol.">

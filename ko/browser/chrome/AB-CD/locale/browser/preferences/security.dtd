@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  addons.label                  "부가 기능">
+
 <!ENTITY  warnAddonInstall.label        "부가 기능을 설치할 때 알려주기">
 <!ENTITY  warnAddonInstall.accesskey    "W">
 
@@ -21,6 +23,11 @@
 <!ENTITY  addonExceptions.label         "예외 목록…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
+<!ENTITY  addonSecuritylevel            "부가 기능 보안 수준:">
+<!ENTITY  addonSecurityLevel_Off        "끔: 부가 기능이 차단되지 않습니다. (위험)">
+<!ENTITY  addonSecurityLevel_Low        "낮음: 보안 및 안정성에 심각한 문제가 있는 부가 기능만 차단">
+<!ENTITY  addonSecurityLevel_High       "중간: 모든 유해 부가 기능 차단 (기본값, 권장)">
+<!ENTITY  addonSecurityLevel_Extreme    "높음: 알려진 문제가 있는 모든 부가 기능 차단">
 
 <!ENTITY  passwords.label               "암호 관리">
 
