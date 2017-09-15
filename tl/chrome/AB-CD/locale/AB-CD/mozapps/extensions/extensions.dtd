@@ -27,7 +27,7 @@
 <!ENTITY warning.safemode.label                    "Lahat ng mga add-on ay hindi pinagana ng safe mode.">
 <!ENTITY warning.checkcompatibility.label          "Hindi pinapagana ang pagsusuri sa add-on compatibility. Posibleng mayroon kang mga incompatible add-on.">
 <!ENTITY warning.checkcompatibility.enable.label   "Paganahin">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Paganahin ang pagsusuri sa kompatibilidad ng mga add-on">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Paganahin ang pagsusuri sa compatibility ng mga add-on">
 <!ENTITY warning.updatesecurity.label              "Pagsusuri sa seguridad ng add-on ay hindi pinapagan. Maaring ikaw ay makompromiso ng mga update.">
 <!ENTITY warning.updatesecurity.enable.label       "Paganahin">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Paganahin ang pagsusuri sa seguridad ng update ng add-on">
@@ -76,7 +76,7 @@
 <!ENTITY cmd.showDetails.accesskey            "I">
 <!ENTITY cmd.findUpdates.label                "Maghanap ng mga Update">
 <!ENTITY cmd.findUpdates.accesskey            "M">
-<!ENTITY cmd.preferencesWin.label             "Mga Option">
+<!ENTITY cmd.preferencesWin.label             "Mga Opsiyon">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
 <!ENTITY cmd.preferencesUnix.label            "Mga Kagustuhan">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
@@ -103,17 +103,17 @@
 <!ENTITY cmd.uninstallAddon.label             "Alisin">
 <!ENTITY cmd.uninstallAddon.accesskey         "A">
 <!ENTITY cmd.debugAddon.label                 "Debug">
-<!ENTITY cmd.showPreferencesWin.label         "Mga Option">
-<!ENTITY cmd.showPreferencesWin.tooltip       "Baguhin ang mga option nitong add-on">
+<!ENTITY cmd.showPreferencesWin.label         "Mga Opsiyon">
+<!ENTITY cmd.showPreferencesWin.tooltip       "Baguhin ang mga opsiyon nitong add-on">
 <!ENTITY cmd.showPreferencesUnix.label        "Mga Kagustuhan">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "Baguhin ang mga preference nitong add-on">
 <!ENTITY cmd.contribute.label                 "Magambag">
 <!ENTITY cmd.contribute.accesskey             "B">
 <!ENTITY cmd.contribute.tooltip               "Magambag sa development nitong add-on">
 
-<!ENTITY cmd.showReleaseNotes.label           "Ipakita ang Mga Tala sa Release">
+<!ENTITY cmd.showReleaseNotes.label           "Ipakita ang mga Tala sa Release">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Ipakita ang mga tala sa release para update na ito">
-<!ENTITY cmd.hideReleaseNotes.label           "Itago ang Mga Tala sa Release">
+<!ENTITY cmd.hideReleaseNotes.label           "Itago ang mga Tala sa Release">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Itago ang mga tala sa release para update na ito">
 
 <!-- discovery view -->
@@ -148,9 +148,9 @@
 <!ENTITY detail.checkForUpdates.label         "Maghanap ng mga Update">
 <!ENTITY detail.checkForUpdates.accesskey     "F">
 <!ENTITY detail.checkForUpdates.tooltip       "Suriin kung mayroong update itong add-on">
-<!ENTITY detail.showPreferencesWin.label      "Mga Option">
+<!ENTITY detail.showPreferencesWin.label      "Mga Opsiyon">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "Baguhin ang mga option nitong add-on">
+<!ENTITY detail.showPreferencesWin.tooltip    "Baguhin ang mga opsiyon nitong add-on">
 <!ENTITY detail.showPreferencesUnix.label     "Mga Preference">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Baguhin ang mga preference nitong add-on">
@@ -210,7 +210,7 @@
 <!ENTITY addon.errorLoadingReleaseNotes.label "Pasensya na, ngunit nagkaroon ng problema sa paglo-load ng mga tala sa release.">
 
 <!ENTITY addon.nativeAddon                    "Itong add-on ay direktang tinatarget ang Pale Moon">
-<!ENTITY addon.compatAddon                    "Itong add-on ay tinatarget ang Mozilla Firefox at tumatakbo sa compatibility mode">
+<!ENTITY addon.compatAddon                    "Tinatarget nitong add-on ang Mozilla Firefox at tumatakbo sa compatibility mode">
 
 <!ENTITY addon.createdBy.label                "Ni ">
 

@@ -33,7 +33,7 @@
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; ay kasalukuyang iyong paunang-tukoy na browser">
 
-<!ENTITY dataChoicesTab.label            "Pagpili ng mga datos">
+<!ENTITY dataChoicesTab.label            "Pagpipilian sa Datos">
 
 <!ENTITY crashReporterSection.label      "Taga-ulat ng Pagpalya">
 <!ENTITY crashReporterDesc.label         "&brandShortName; ay nagsusumite ng ulat tungkol sa pagpalya na makakatulong sa &vendorShortName; na gawin ang iyong browser na maging mas matatag at ligtas">
@@ -46,7 +46,7 @@
 <!ENTITY connection.label                "Koneksiyon">
 
 <!ENTITY connectionDesc.label            "I-configure kung paano kumonekta ang &brandShortName; sa Internet">
-<!ENTITY connectionSettings.label        "Mga Kagustuhan…">
+<!ENTITY connectionSettings.label        "Mga Setting…">
 <!ENTITY connectionSettings.accesskey    "e">
 
 <!ENTITY httpCache.label                 "Naka-cache na nilalaman mula sa Web">
@@ -87,7 +87,7 @@
 <!ENTITY updateAutoAddonWarn.label       "Balaan ako kung hindi nito pagaganahin ang kahit ano sa aking mga add-on">
 <!ENTITY updateAutoAddonWarn.accesskey   "W">
 
-<!ENTITY updateAutoMetroWarn.label       "(Windows 8 estilo ng &brandShortName; ay hindi sumusuri sa kompatibilidad ng mga add-on)">
+<!ENTITY updateAutoMetroWarn.label       "(Hindi sinusuri ng Windows 8 estilo ng &brandShortName; ang add-on compatibility)">
 
 <!ENTITY updateHistory.label             "Ipakita ang kasaysayan ng mga update">
 <!ENTITY updateHistory.accesskey         "p">
@@ -102,7 +102,7 @@
 <!ENTITY offlineAppsPermissions.Allow    "Pinapayagan base sa paunang-tukoy">
 <!ENTITY offlineAppsPermissions.Ask      "Laging magtanong">
 <!ENTITY offlineAppsPermissions.Deny     "Tanggihan">
-<!ENTITY offlineNotifyExceptions.label   "Mga Eksepsyon…">
+<!ENTITY offlineNotifyExceptions.label   "Mga Eksepsiyon…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "Ang mga sumusunod na website ay pinahihintulutang mag-imbak ng datos para sa local na paggamit:">
@@ -113,29 +113,29 @@
 
 <!ENTITY certificateTab.label            "Mga Sertipiko">
 <!ENTITY certGroup.label                 "Personal na Sertipiko">
-<!ENTITY certSelection.description       "Kapag ang isang server ay hinihiling ang aking personal na sertipiko:">
+<!ENTITY certSelection.description       "Kapag hiniling ng isang server ang aking personal na sertipiko:">
 <!ENTITY certs.auto                      "Kusang pumili ng isa">
 <!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "Tanungin ako palagi">
 <!ENTITY certs.ask.accesskey             "i">
-<!ENTITY ocspGroup.label                 "Pagpapatunoy sa Sertipiko">
-<!ENTITY enableOCSP.label                "Gamitin ang OCSP upang kumpirmahin ang bisa ng sertipiko">
+<!ENTITY ocspGroup.label                 "Pagpapatunay sa Sertipiko">
+<!ENTITY enableOCSP.label                "Gamitin ang OCSP upang kumpirmahin ang bisa ng mga sertipiko">
 <!ENTITY enableOCSP.accesskey            "U">
 <!ENTITY requireOCSP.label               "Kapag nabigo ang koneksiyon sa server ng OCSP, tratuhin ang sertipiko bilang walang bisa">
 <!ENTITY requireOCSP.accesskey           "f">
-<!ENTITY viewCerts.label                 "Tingnan ang Mga Sertipiko">
+<!ENTITY viewCerts.label                 "Tingnan ang mga Sertipiko">
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Kagamitang Pang-seguridad">
-<!ENTITY viewSecurityDevices.accesskey   "y">
+<!ENTITY viewSecurityDevices.accesskey   "p">
 
-<!ENTITY UACompatGroup.label    "Compatibilidad">
+<!ENTITY UACompatGroup.label    "Compatibility">
 <!ENTITY UACompat.label         "Mode ng Kinatawan ng Gumagamit:">
 <!ENTITY UACompat.Native        "Likas">
-<!ENTITY UACompat.Gecko         "Kompatibilidad sa Gecko">
-<!ENTITY UACompat.Firefox       "Kompatibilidad sa Firefox">
+<!ENTITY UACompat.Gecko         "Compatibility sa Gecko">
+<!ENTITY UACompat.Firefox       "Compatibility sa Firefox">
 
 <!ENTITY scrollparamTab.label               "Scrolling">
-<!ENTITY smoothscroll.explain.label         "Ang mga parametro sa ibaba ay may epekto lamang kung ang smooth na pag-scroll ay pinagana sa kubuuan kasama ang checkbox sa itaas.">
+<!ENTITY smoothscroll.explain.label         "Ang mga parametro sa ibaba ay may epekto lamang kung ang smooth na pag-scroll ay pinapagana sa kabuuan kasama ang checkbox sa itaas.">
 <!ENTITY smoothscroll.to                    "sa">
 <!ENTITY smoothscroll.params.label          "Mga parametro ng smooth scrolling">
 <!ENTITY smoothscroll.mousewheel.label      "Smooth scroll kasama ang mouse wheel">

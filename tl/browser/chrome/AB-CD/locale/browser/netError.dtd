@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Ang address na ito ay limitado">
-<!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tinukoy ang isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy sa isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Hindi natagpuan ang server">
 <!ENTITY dnsNotFound.longDesc "
@@ -41,7 +41,7 @@
 <p>Hindi ma-load ng &brandShortName; ang pahinang ito sa isang hindi alam na kadahilanan.</p>
 ">
 
-<!ENTITY malformedURI.title "Ang address ay inbalido">
+<!ENTITY malformedURI.title "Ang address ay imbalido">
 <!ENTITY malformedURI.longDesc "
 <ul>
   <li>Ang mga web address ay karaniwang nakasulat na parang
@@ -177,9 +177,9 @@
 <!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 
-<!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsyon…">
+<!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsiyon…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako dito!">
-<!ENTITY securityOverride.exceptionButtonLabel "Maglapat ng Eksepsyon…">
+<!ENTITY securityOverride.exceptionButtonLabel "Maglapat ng Eksepsiyon…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
@@ -187,7 +187,7 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>Hindi ka dapat maglapat ng eksepsyon kung ikaw ay gumagamit ng koneksiyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
+<p>Hindi ka dapat maglapat ng eksepsiyon kung ikaw ay gumagamit ng koneksiyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>

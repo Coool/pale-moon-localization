@@ -13,7 +13,7 @@
 <!ENTITY searchStartTyping.label         "Povoliť vyhľadávanie textu počas písania">
 <!ENTITY searchStartTyping.accesskey     "x">
 <!ENTITY blockAutoRefresh.label          "Upozorniť, ak sa webová stránka pokúša o presmerovanie alebo obnovenie">
-<!ENTITY blockAutoRefresh.accesskey      "U">
+<!ENTITY blockAutoRefresh.accesskey      "b">
 
 <!ENTITY browsing.label                  "Prehliadanie">
 
@@ -29,9 +29,9 @@
 <!ENTITY systemDefaults.label            "Nastavenie systému">
 <!ENTITY alwaysCheckDefault.label        "Pri štarte kontrolovať, či je &brandShortName; predvoleným prehliadačom"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "r">
-<!ENTITY setDefault.label                "Nastaviť &brandShortName; ako predvolený prehliadač">
+<!ENTITY setDefault.label                "Nastaviť prehliadač &brandShortName; ako predvolený prehliadač">
 <!ENTITY setDefault.accesskey            "s">
-<!ENTITY isDefault.label                 "&brandShortName; je nastavený ako predvolený prehliadač.">
+<!ENTITY isDefault.label                 "Prehliadač &brandShortName; je nastavený ako predvolený prehliadač">
 
 <!ENTITY dataChoicesTab.label            "Odosielanie údajov">
 
@@ -45,7 +45,7 @@
 
 <!ENTITY connection.label                "Pripojenie">
 
-<!ENTITY connectionDesc.label            "Nastaviť spôsob, akým sa &brandShortName; pripája k sieti Internet">
+<!ENTITY connectionDesc.label            "Konfigurovať pripojenie aplikácie &brandShortName; k internetu">
 <!ENTITY connectionSettings.label        "Nastavenia…">
 <!ENTITY connectionSettings.accesskey    "N">
 
@@ -75,31 +75,31 @@
 <!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
      so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
      in preferences.properties -->
-<!ENTITY updateAuto1.label               "Automaticky inštalovať aktualizácie (odporúčané z dôvodu zvýšenej bezpečnosti)">
+<!ENTITY updateAuto1.label               "Automaticky inštalovať aktualizácie">
 <!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateAutoMetro.label           "Automaticky inštalovať aktualizácie klasického &brandShortName;u aj verzie pre Windows 8">
+<!ENTITY updateAutoMetro.label           "Automaticky inštalovať aktualizácie klasickej verzie aplikácie &brandShortName; aj verzie pre Windows 8">
 <!ENTITY updateAutoMetro.accesskey       "m">
 <!ENTITY updateCheck.label               "Vyhľadávať aktualizácie, ale poskytnúť možnosť zvoliť, či sa nainštalujú">
 <!ENTITY updateCheck.accesskey           "k">
-<!ENTITY updateManual.label              "Nevyhľadávať aktualizácie (neodporúča sa z dôvodu zníženej bezpečnosti)">
+<!ENTITY updateManual.label              "Nevyhľadávať aktualizácie (neodporúča sa)">
 <!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateAutoAddonWarn.label       "Upozorniť, ak by nainštalovanie zakázalo niektoré doplnky">
+<!ENTITY updateAutoAddonWarn.label       "Upozorniť, ak by aktualizovanie zakázalo niektoré doplnky">
 <!ENTITY updateAutoAddonWarn.accesskey   "U">
 
-<!ENTITY updateAutoMetroWarn.label       "(verzia &brandShortName;u pre Windows 8 nekontroluje kompatibilitu doplnkov)">
+<!ENTITY updateAutoMetroWarn.label       "(verzia prehliadača &brandShortName; pre Windows 8 nekontroluje kompatibilitu doplnkov)">
 
 <!ENTITY updateHistory.label             "Zobraziť históriu aktualizácií">
 <!ENTITY updateHistory.accesskey         "h">
 
-<!ENTITY updateOthers.label              "Automaticky aktualizovať">
+<!ENTITY updateOthers.label              "Automaticky aktualizovať:">
 <!ENTITY enableSearchUpdate.label        "Vyhľadávacie moduly">
 <!ENTITY enableSearchUpdate.accesskey    "V">
 
-<!ENTITY offlineNotify.label             "Upozorniť, ak stránka môže uložiť údaje na použitie v režime offline">
+<!ENTITY offlineNotify.label             "Upozorniť, ak stránka chce uložiť údaje na použitie v režime offline">
 <!ENTITY offlineNotify.accesskey         "U">
-<!ENTITY offlineAppsPermissions.label    "Keď webová lokalita požaduje uloženie údajov pre použitie v režime offline:">
-<!ENTITY offlineAppsPermissions.Allow    "Štandardne povolené">
+<!ENTITY offlineAppsPermissions.label    "Keď webová stránka požaduje uloženie údajov pre použitie v režime offline:">
+<!ENTITY offlineAppsPermissions.Allow    "Povoliť">
 <!ENTITY offlineAppsPermissions.Ask      "Vždy sa opýtať">
 <!ENTITY offlineAppsPermissions.Deny     "Zakázať">
 <!ENTITY offlineNotifyExceptions.label   "Výnimky…">
@@ -123,19 +123,19 @@
 <!ENTITY enableOCSP.accesskey            "P">
 <!ENTITY requireOCSP.label               "Ak spojenie so serverom OCSP zlyhá, považovať certifikát za neplatný">
 <!ENTITY requireOCSP.accesskey           "A">
-<!ENTITY viewCerts.label                 "Certifikáty">
+<!ENTITY viewCerts.label                 "Zobraziť certifikáty">
 <!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "Zariadenia">
-<!ENTITY viewSecurityDevices.accesskey   "Z">
+<!ENTITY viewSecurityDevices.label       "Bezpečnostné zariadenia">
+<!ENTITY viewSecurityDevices.accesskey   "z">
 
 <!ENTITY UACompatGroup.label    "Kompatibilita">
-<!ENTITY UACompat.label         "Režim User agenta:">
+<!ENTITY UACompat.label         "Režim identifikácie prehliadača:">
 <!ENTITY UACompat.Native        "Natívny">
 <!ENTITY UACompat.Gecko         "Kompatibilita s Geckom">
 <!ENTITY UACompat.Firefox       "Kompatibilita s Firefoxom">
 
 <!ENTITY scrollparamTab.label               "Posúvanie">
-<!ENTITY smoothscroll.explain.label         "Nižšie uvedené parametre sa prejavia len ak je celkovo povolené plynulé posúvanie s vyššie uvedeným začiarkavacím políčkom.">
+<!ENTITY smoothscroll.explain.label         "Nižšie uvedené parametre sa prejavia len ak je celkovo plynulé posúvanie s vyššie uvedeným zaškrtávacím poľom.">
 <!ENTITY smoothscroll.to                    "až">
 <!ENTITY smoothscroll.params.label          "Parametre plynulého posúvania">
 <!ENTITY smoothscroll.mousewheel.label      "Plynulé posúvanie s kolieskom myši">

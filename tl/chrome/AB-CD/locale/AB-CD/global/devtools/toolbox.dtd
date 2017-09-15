@@ -73,25 +73,25 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label4    "Paganahin ang chrome at add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Kapag naka-on itong option papayagan nitong gumamit ka ng iba't ibang developer tools sa konteksto ng browser at mag-debug ng mga add-on mula sa Tagapamahala ng mga Add-on">
+<!ENTITY options.enableChrome.tooltip2  "Kapag naka-on itong opsiyon, papayagan nitong gumamit ka ng iba't ibang mga kasangkapan ng developer sa konteksto ng browser at mag-debug ng mga add-on mula sa Tagapamahala ng mga Add-on">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Paganahin ang remote debugging">
-<!ENTITY options.enableRemote.tooltip   "Kapag naka-on itong option papayagan nito ang developer tools na i-debug ang remote Firefox instance gaya ng Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Kapag naka-on itong opsiyon, papayagan nito ang mga kasangkapan ng developer na i-debug ang remote Firefox instance tulad ng Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
 <!ENTITY options.disableJavaScript.label     "Huwag paganahin ang JavaScript *">
-<!ENTITY options.disableJavaScript.tooltip   "Kapag naka-on itong option hindi nito pagaganahin ang JavaScript sa kasalukuyang tab. Kung ang tab o toolbox ay nakasara makakalimutan itong setting.">
+<!ENTITY options.disableJavaScript.tooltip   "Kapag naka-on itong opsiyon, hindi nito pagaganahin ang JavaScript sa kasalukuyang tab. Kung ang tab o toolbox ay isinara, malilimutan itong setting.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
 <!ENTITY options.disableCache.label2     "Huwag paganahin ang Cache (kapag bukas ang toolbox)">
-<!ENTITY options.disableCache.tooltip2   "Kapag naka-on itong option hindi nito pagaganahin ang cache para sa lahat ng mga an na may nakabukas na toolbox.">
+<!ENTITY options.disableCache.tooltip2   "Kapag naka-on itong opsiyon, hindi nito pagaganahin ang cache para sa lahat ng mga tab na may nakabukas na toolbox.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -131,7 +131,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "Paganahin ang mga timestamp">
-<!ENTITY options.timestampMessages.tooltip    "Kapag pinagana mo itong option commands at output sa Web Console ay magpapakita ng timestamp">
+<!ENTITY options.timestampMessages.tooltip    "Kapag pinagana mo itong opsiyon, commands at output sa Web Console ay magpapakita ng timestamp">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -163,14 +163,14 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "Paganahin ang mga persistent log">
-<!ENTITY options.enablePersistentLogs.tooltip  "Kapag pinagana mo itong option, ang Web Console at Network Monitor ay hindi mag-bubura ng output sa tuwing ikaw ay magna-navigate sa bagong pahina">
+<!ENTITY options.enablePersistentLogs.tooltip  "Kapag pinagana mo itong opsiyon, ang Web Console at Network Monitor ay hindi mag-bubura ng output sa tuwing ikaw ay magna-navigate sa bagong pahina">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
 <!ENTITY options.showPlatformData.label    "Ipakita ang datos ng Goanna platform">
-<!ENTITY options.showPlatformData.tooltip  "Kapag pinagana mo itong option, isasama na sa mga ulat ng JavaScript Profiler ang Goanna platform symbols">
+<!ENTITY options.showPlatformData.tooltip  "Kapag pinagana mo itong opsiyon, isasama na sa mga ulat ng JavaScript Profiler ang Goanna platform symbols">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->

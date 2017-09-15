@@ -10,7 +10,7 @@
 <!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
      surround the host name of the site to make the header for the permissions page.
      example: "Permissions for mozilla.org" -->
-<!ENTITY header.site.start               "Povolenia pre">
+<!ENTITY header.site.start               "Povolenia pre stránku">
 <!ENTITY header.site.end                 "">
 
 <!ENTITY header.defaults                 "Predvolené povolenia pre všetky stránky">
@@ -24,24 +24,24 @@
 <!ENTITY permission.alwaysAsk            "Vždy sa opýtať">
 <!ENTITY permission.allow                "Povoliť">
 <!ENTITY permission.allowForSession      "Povoliť pre reláciu">
-<!ENTITY permission.allowFirstPartyOnly  "Povoliť len pre pôvodnú stránku">
-<!ENTITY permission.block                "Zakázať">
+<!ENTITY permission.allowFirstPartyOnly  "Blokovať tretie strany">
+<!ENTITY permission.block                "Blokovať">
 
-<!ENTITY password.label                  "Ukladanie hesiel">
+<!ENTITY password.label                  "Ukladať heslá">
 <!ENTITY password.manage                 "Správa hesiel…">
 
 <!ENTITY image.label                     "Načítať obrázky">
 
-<!ENTITY cookie.label                    "Nastavovanie cookies">
-<!ENTITY cookie.remove                   "Odstrániť cookies">
+<!ENTITY cookie.label                    "Ukladať cookies">
+<!ENTITY cookie.remove                   "Odstraňovať cookies">
 <!ENTITY cookie.manage                   "Správa cookies…">
 <!ENTITY cookie.removeAll                "Odstrániť všetky cookies">
 
-<!ENTITY desktop-notification.label      "Zobraziť upozornenia">
+<!ENTITY desktop-notification.label      "Zobrazovať upozornenia">
 
-<!ENTITY install.label                   "Inštalácia rozšírení alebo tém">
+<!ENTITY install.label                   "Inštalovať rozšírenia alebo témy">
 
-<!ENTITY geo.label                       "Prezradenie polohy">
+<!ENTITY geo.label                       "Zdieľanie polohy">
 
 <!ENTITY plugins.label                   "Zásuvné moduly">
 
@@ -53,4 +53,4 @@
 
 <!ENTITY fullscreen.label                "Režim Na celú obrazovku">
 
-<!ENTITY pointerLock.label               "Skryť ukazovateľ myši">
+<!ENTITY pointerLock.label               "Skryť kurzor myši">
