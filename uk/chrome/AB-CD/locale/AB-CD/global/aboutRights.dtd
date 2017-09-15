@@ -4,8 +4,8 @@
 <!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
 <!ENTITY rights.locale-direction "ltr">
 <!ENTITY rights.pagetitle       "about:rights">
-<!ENTITY rights.intro-header    "About Your Rights">
-<!ENTITY rights.intro "&brandFullName; is free and open source software, built by a community of thousands from all over the world. There are a few things you should know:">
+<!ENTITY rights.intro-header    "Про ваші права">
+<!ENTITY rights.intro "&brandFullName; є безкоштовною програмою з відкритим вихідним кодом, створеною багатотисячною спільнотою людей з усього світу. Ось кілька речей, про які вам слід знати:">
 
 <!-- Note on pointa / pointb / pointc form:
      These points each have an embedded link in the HTML, so each point is
@@ -15,45 +15,45 @@
 
      Also note the leading/trailing whitespace in strings here, which is
      deliberate for formatting around the embedded links. -->
-<!ENTITY rights.intro-point1a "&brandShortName; is made available to you under the terms of the ">
+<!ENTITY rights.intro-point1a "&brandShortName; надається вам на умовах ">
 <!ENTITY rights.intro-point1b "Mozilla Public License">
-<!ENTITY rights.intro-point1c ". This means you may use, copy and distribute &brandShortName; to others in its source form. Binaries are subject to the Pale Moon redistribution license found on the Pale Moon website. You are also welcome to modify the source code of &brandShortName; as you want to meet your needs. The Mozilla Public License also gives you the right to distribute your modified versions.">
+<!ENTITY rights.intro-point1c ". Це означає, що ви можете використовувати, копіювати і поширювати &brandShortName; в форматі вихідного коду. Бінарні збірки потрапляють під дію ліцензії Pale Moon про поширення, яку можна знайти на сайті Pale Moon. Ви також можете модифікувати вихідний код &brandShortName; відповідно до своїх потреб. Публічна ліцензія Mozilla також дає вам право поширювати змінені вами збірки.">
 
-<!ENTITY rights.intro-point2-a "You are, however, not granted any rights or licenses to the intellectual property of Moonchild Productions or any other party, including without limitation the Pale Moon name or logo. Additional information on trademarks may be found ">
-<!ENTITY rights.intro-point2-b "here">
+<!ENTITY rights.intro-point2-a "Разом з тим, вам не надаються ніякі права або ліцензії на інтелектуальну власність Moonchild Productions або будь-якій іншій стороні, в тому числі на назву або логотип Pale Moon. Додаткова інформація про товарні знаки наведена за ">
+<!ENTITY rights.intro-point2-b "за наступною адресою">
 <!ENTITY rights.intro-point2-c ".">
 
 <!-- point 2.5 text for official branded builds -->
-<!ENTITY rights.intro-point2.5 "Some features in &brandShortName; may give you the option to provide feedback to &vendorShortName;. By choosing to submit feedback, you give &vendorShortName; permission to use the feedback to improve its products, to publish the feedback on its websites, and to distribute the feedback.">
+<!ENTITY rights.intro-point2.5 "Деякі функції &brandShortName; можуть надавати вам можливість відправляти відгуки в &vendorShortName;. Відправляючи відгук, ви дозволяєте &vendorShortName; використовувати відгук для поліпшення її продуктів, розміщувати відгук на її веб-сайтах і поширювати відгуки будь-якими іншими способами.">
 
 <!-- point 3 text for official branded builds -->
-<!ENTITY rights2.intro-point3a "How we use your personal information and feedback submitted to &vendorShortName; through &brandShortName; is described in the ">
-<!ENTITY rights2.intro-point3b "&brandShortName; Privacy Policy">
+<!ENTITY rights2.intro-point3a "Те, як ми використовуємо вашу персональну інформацію і відгуки, відправлені в &vendorShortName; через &brandShortName;, описано в ">
+<!ENTITY rights2.intro-point3b "Політиці приватності &brandShortName;">
 <!ENTITY rights.intro-point3c ".">
 
 <!-- point 3 text for unbranded builds -->
-<!ENTITY rights.intro-point3-unbranded "Any applicable privacy policies for this product should be listed here.">
+<!ENTITY rights.intro-point3-unbranded "Будь-які застосовані політики приватності для цього продукту повинні бути перераховані тут.">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights2.intro-point4a "Some &brandShortName; features make use of web-based information services, however, we cannot guarantee they are 100&#37; accurate or error-free. More details, including information on how to disable the features that use these services, can be found in the ">
-<!ENTITY rights.intro-point4b "service terms">
+<!ENTITY rights2.intro-point4a "Деякі функції &brandShortName; використовують інформаційні веб-служби, однак ми не можемо гарантувати їх абсолютно безпомилкову і коректну роботу. Більш детальна інформація, а також інструкції з відключення цих служб, наведена в ">
+<!ENTITY rights.intro-point4b "умовах використання служб">
 <!ENTITY rights.intro-point4c ".">
 
 <!-- point 4 text for unbranded builds -->
-<!ENTITY rights.intro-point4a-unbranded "If this product incorporates web services, any applicable service terms for the service(s) should be linked to the ">
+<!ENTITY rights.intro-point4a-unbranded "Якщо цей продукт включає в себе служби інформування про сайти, посилання на всі застосовані умови використання цих служб повинні бути приведені в розділі ">
 <!ENTITY rights.intro-point4b-unbranded "Веб-послуги">
-<!ENTITY rights.intro-point4c-unbranded " section.">
+<!ENTITY rights.intro-point4c-unbranded ".">
 
-<!ENTITY rights2.webservices-header "&brandFullName; Web-Based Information Services">
+<!ENTITY rights2.webservices-header "Інформаційні веб-служби &brandFullName;">
 
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
      updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights2.webservices-a "&brandFullName; uses web-based information services (&quot;Services&quot;) to provide some of the features provided for your use with this binary version of &brandShortName; under the terms described below. If you do not want to use one or more of the Services or the terms below are unacceptable, you may disable the feature or Service(s). Instructions on how to disable a particular feature or Service may be found ">
-<!ENTITY rights2.webservices-b "here">
-<!ENTITY rights3.webservices-c ". Other features and Services can be disabled in the application preferences.">
+<!ENTITY rights2.webservices-a "&brandFullName; використовує інформаційні веб-служби (далі «Служби»), для забезпечення деяких функцій, що надаються для вашого використання в цій бінарній версії &brandShortName; на умовах описаних нижче. Якщо ви не хочете використовувати одну або декілька з цих Служб або наведені нижче умови неприйнятні, ви можете відключити цю функцію або Службу(и). Інструкції по тому, як відключити конкретну функцію або службу можна знайти ">
+<!ENTITY rights2.webservices-b "тут">
+<!ENTITY rights3.webservices-c ". Інші функції та Служби можуть бути відключені в налаштуваннях програми.">
 
 <!-- safe browsing points for branded builds -->
 <!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
@@ -64,7 +64,7 @@
 <!ENTITY rights.safebrowsing-term4 "Safe Browsing is now disabled">
 
 <!-- location aware browsing points for branded builds -->
-<!ENTITY rights.locationawarebrowsing-a "Location Aware Browsing: ">
+<!ENTITY rights.locationawarebrowsing-a "Визначення місцеположення при веб-серфінгу: ">
 <!ENTITY rights.locationawarebrowsing-b "is always opt-in.  No location information is ever sent without your permission.  If you wish to disable the feature completely, follow these steps:">
 <!ENTITY rights.locationawarebrowsing-term1a "In the URL bar, type ">
 <!ENTITY rights.locationawarebrowsing-term1b "about:config">

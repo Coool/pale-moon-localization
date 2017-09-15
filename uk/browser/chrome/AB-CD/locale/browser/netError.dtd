@@ -133,11 +133,10 @@
 <!ENTITY xssBlockMode.title "Заблоковано XSS фільтром">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>&brandShortName; заблокований для подальших дій на цій сторінці, тому що це містить впроваджений код JavaScript.</li>
+  <li>Завантаження цієї сторінки було припинено через будь-яке явне прохання сайту, 
+  щоб блокувати цю сторінку в разі XSS атак, або тому, що &brandShortName;
+  був налаштований на блокування сторінки в цій ситуації.</li>
 </ul>
 ">
 
@@ -163,20 +162,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.title "Повідомити про цю помилку">
+<!ENTITY errorReporting.longDesc "Відправка інформації про адресу і сертифікат для <span id='hostname'></span> допоможе нам виявити і заблокувати шкідливі сайти. Дякуємо, що допомагаєте нам створювати більш безпечний Інтернет!">
+<!ENTITY errorReporting.automatic "У майбутньому автоматично повідомляти про помилки">
+<!ENTITY errorReporting.learnMore "Детальніше…">
+<!ENTITY errorReporting.sending "Відправка повідомлення">
+<!ENTITY errorReporting.sent "Повідомлення відправлено">
+<!ENTITY errorReporting.report "Повідомити">
+<!ENTITY errorReporting.tryAgain "Спробувати знову">
 
 <!ENTITY remoteXUL.title "Віддалений XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Будь ласка, зв’яжіться з власниками сайта та поінформуйте їх про цю проблему.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Встановлення захищеного з'єднання не вдалося">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "Додаткова інформація: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Детальніше…">
