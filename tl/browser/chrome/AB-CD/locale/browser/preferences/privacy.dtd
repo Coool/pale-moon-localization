@@ -4,7 +4,7 @@
 
 <!ENTITY tracking.label                 "Pagsubaybay">
 
-<!ENTITY dntTrackingNopref.label2       "Huwag sabihin sa mga site ang anumang bagay tungkol sa iyong mga kagustuhan sa pagsubaybay">
+<!ENTITY dntTrackingNopref.label2       "Huwag sabihin sa mga site ang anumang bagay tungkol sa iyong mga preperensiya sa pagsubaybay">
 <!ENTITY dntTrackingNopref.accesskey    "o">
 <!ENTITY dntTrackingNotOkay.label2      "Sabihin sa mga site na hindi ko gustong ako ay sinusubaybayan">
 <!ENTITY dntTrackingNotOkay.accesskey   "n">
@@ -14,18 +14,18 @@
 
 <!ENTITY  history.label                 "Kasaysayan">
 
-<!ENTITY  locationBar.label             "Bar ng Lokasyon">
+<!ENTITY  locationBar.label             "Halang ng Lokasyon">
 
-<!ENTITY  locbar.suggest.label          "Kapag ginagamit ang bar ng lokasyon, imungkahi na:">
+<!ENTITY  locbar.suggest.label          "Kapag ginagamit ang halang ng lokasyon, imungkahi na:">
 <!ENTITY  locbar.history.label          "Kasaysayan">
-<!ENTITY  locbar.history.accesskey      "H">
+<!ENTITY  locbar.history.accesskey      "Y">
 <!ENTITY  locbar.bookmarks.label        "Mga Bookmark">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "Bukas na mga tab">
 <!ENTITY  locbar.openpage.accesskey     "O">
 
 <!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.pre.label              "Kapag ginagamit ang bar ng lokasyon, imungkahi na:">
+<!ENTITY  locbar.pre.label              "Kapag ginagamit ang halang ng lokasyon, imungkahi na:">
 <!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.pre.accessKey          "u">
 <!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
@@ -38,7 +38,7 @@
 <!ENTITY  acceptCookies.label           "Tanggapin ang mga cookie mula sa mga site">
 <!ENTITY  acceptCookies.accesskey       "A">
 
-<!ENTITY  acceptThirdParty.pre.label      "Tumanggap ng ikatlong-parte ng mga cookie:">
+<!ENTITY  acceptThirdParty.pre.label      "Tumanggap ng third-party na mga cookie:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "c">
 <!ENTITY  acceptThirdParty.always.label   "Palagi">
 <!ENTITY  acceptThirdParty.never.label    "Hindi kailanman">
@@ -61,7 +61,7 @@
 <!ENTITY  historyHeader.pre.accesskey      "w">
 <!ENTITY  historyHeader.remember.label     "Tandaan ang kasaysayan">
 <!ENTITY  historyHeader.dontremember.label "Huwag tandaan ang kasaysayan">
-<!ENTITY  historyHeader.custom.label       "Gumamit ng pasadyang mga kagustuhan para sa kasaysayan">
+<!ENTITY  historyHeader.custom.label       "Gumamit ng pasadyang mga setting para sa kasaysayan">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "Tatandaan ng &brandShortName; ang iyong pagba-browse, pag-download, kasaysayan sa form at paghahanap, at pananatilihin ang mga cookie mula sa mga website na iyong binisita.">
@@ -69,13 +69,13 @@
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-<!ENTITY  rememberActions.pre.label           "Maaari mong ">
+<!ENTITY  rememberActions.pre.label           "Baka nais mong ">
 <!ENTITY  rememberActions.clearHistory.label  "burahin ang iyong kamakailang kasaysayan">
-<!ENTITY  rememberActions.middle.label        ", or ">
+<!ENTITY  rememberActions.middle.label        ", o ">
 <!ENTITY  rememberActions.removeCookies.label "alisin ang indibidwal na mga cookie">
 <!ENTITY  rememberActions.post.label          ".">
 
-<!ENTITY  dontrememberDescription.label  "Ang &brandShortName; ay gagamit ng parehong mga kagustuhan sa pribadong pagba-browse, at hindi tatandaan ang anumang kasaysayan tungkol sa iyong pag-browse sa Web.">
+<!ENTITY  dontrememberDescription.label  "Ang &brandShortName; ay gagamit ng parehong mga setting sa pribadong pagba-browse, at hindi tatandaan ang anumang kasaysayan tungkol sa iyong pag-browse sa Web.">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
@@ -83,17 +83,17 @@
 <!ENTITY  dontrememberActions.clearHistory.label "burahin ang lahat ng kasalukuyang kasaysayan">
 <!ENTITY  dontrememberActions.post.label         ".">
 
-<!ENTITY  privateBrowsingPermanent2.label "Laging gamitin ang mode ng pribadong pagba-browse">
+<!ENTITY  privateBrowsingPermanent2.label "Palaging gamitin ang mode ng pribadong pagba-browse">
 <!ENTITY  privateBrowsingPermanent2.accesskey "p">
 
 <!ENTITY  rememberHistory2.label      "Tandaan ang aking kasaysayan sa pagba-browse at pag-download">
 <!ENTITY  rememberHistory2.accesskey  "b">
 
-<!ENTITY  rememberSearchForm.label       "Tandaan ang kasaysayan sa porma at paghahanap">
+<!ENTITY  rememberSearchForm.label       "Tandaan ang kasaysayan sa form at paghahanap">
 <!ENTITY  rememberSearchForm.accesskey   "f">
 
 <!ENTITY  clearOnClose.label             "Burahin ang kasaysayan sa tuwing isasara ko ang &brandShortName;">
 <!ENTITY  clearOnClose.accesskey         "r">
 
-<!ENTITY  clearOnCloseSettings.label     "Mga Kagustuhan…">
+<!ENTITY  clearOnCloseSettings.label     "Mga Setting…">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
