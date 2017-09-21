@@ -14,12 +14,12 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Omezení přístupu k adrese">
-<!ENTITY deniedPortAccess.longDesc "<p>V požadované adrese (URL) byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> internetové služby než prohlížení webových stránek. Z bezpečnostních důvodů prohlížeč tento požadavek zrušil.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>V požadované URL adrese byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> internetové služby než prohlížení webových stránek. Z bezpečnostních důvodů prohlížeč tento požadavek zrušil.</p>">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-  <li>Zkontrolujte, zda je adresa URL napsána správně a neobsahuje chyby jako
+  <li>Zkontrolujte, zda je URL adresa napsána správně a neobsahuje chyby jako
     <strong>ww</strong>.server.cz místo
     <strong>www</strong>.server.cz</li>
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
@@ -46,7 +46,7 @@
 <!ENTITY malformedURI.title "Neplatná adresa">
 <!ENTITY malformedURI.longDesc "
 <ul>
-  <li>Adresa URL má zpravidla tvar
+  <li>URL adresa má zpravidla tvar
     <strong>http://www.server.cz/</strong></li>
   <li>Zkontrolujte, zda používáte správná lomítka (tj.
     <strong>/</strong>).</li>
