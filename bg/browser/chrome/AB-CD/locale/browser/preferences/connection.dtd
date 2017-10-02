@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS 5">
 <!ENTITY  socks5.accesskey              "5">
+<!ENTITY  socksRemoteDNS.label          "Използвай прокси за извършване на DNS заявки (само за SOCKS v5)">
+<!ENTITY  socksRemoteDNS.accesskey      "п">
 <!ENTITY  port.label                    "Порт:">
 <!ENTITY  HTTPport.accesskey            "П">
 <!ENTITY  SSLport.accesskey             "о">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Пример: .palemoon.org,. net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Използвай този прокси сървър за всички протоколи">
 <!ENTITY  shareproxy.accesskey          "п">
+<!ENTITY  autologinproxy.label          "Не питай за удостоверяване ако паролата е запазена">
+<!ENTITY  autologinproxy.accesskey      "з">
+<!ENTITY  autologinproxy.tooltip        "Тази опция мълчаливо ви удостоверява за прокси, когато сте записали идентификация за тях. Ще бъдете попитани, ако удостоверяването е неуспешно.">

@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY  connectionsDialog.title       "Mga Settings sa Koneksiyon">
+<!ENTITY  connectionsDialog.title       "Mga Setting sa Koneksiyon">
 <!ENTITY  window.width                  "37em">
 <!ENTITY  window.macWidth               "39em">
 
@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socksRemoteDNS.label          "Gamitin ang proxy para isagawa ang mga DNS query (SOCKS v5 lamang)">
+<!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Port:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Halimbawa: .palemoon.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Gamitin itong proxy server para sa lahat ng mga protocol">
 <!ENTITY  shareproxy.accesskey          "s">
+<!ENTITY  autologinproxy.label          "Huwag akong tanungin para sa pagpapatunay kung ang password ay naka-save">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Itong option ay tahimik na pinapatunayan ka sa mga proxy kapag ikaw ay nag-save ng mga credential para sa kanila. Ikaw ay tatanungin kapag nabigo ang pagpapatunay.">

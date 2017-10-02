@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socksRemoteDNS.label          "Använd proxy för DNS-förfrågningar (endast SOCKS v5)">
+<!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Port:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Exempel: .mozilla.org, .sunet.se, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Använd denna proxy för alla protokoll">
 <!ENTITY  shareproxy.accesskey          "ä">
+<!ENTITY  autologinproxy.label          "Fråga inte efter autentisering om lösenord är sparat">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Detta alternativ autentiserar automatiskt om du har sparade lösenord för en proxy. Om autentiseringen misslyckas kommer du att meddelas.">

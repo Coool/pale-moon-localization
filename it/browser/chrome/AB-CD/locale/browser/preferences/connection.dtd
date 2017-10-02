@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "4">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "5">
+<!ENTITY  socksRemoteDNS.label          "Utilizza proxy per le richieste DNS (solo per SOCKS v5)">
+<!ENTITY  socksRemoteDNS.accesskey      "D">
 <!ENTITY  port.label                    "Porta:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Esempio:. palemoon.org,. net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Utilizzare lo stesso proxy per tutti i protocolli">
 <!ENTITY  shareproxy.accesskey          "c">
+<!ENTITY  autologinproxy.label          "Non richiedere l’autenticazione se la password è salvata">
+<!ENTITY  autologinproxy.accesskey      "w">
+<!ENTITY  autologinproxy.tooltip        "Questa opzione permette di autenticarsi direttamente con un proxy se risultano salvate delle credenziali. La richiesta verrà visualizzata in caso di errore.">

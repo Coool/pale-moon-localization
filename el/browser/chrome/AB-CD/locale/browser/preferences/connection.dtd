@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "k">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socksRemoteDNS.label          "Χρήση του εξυπηρετητή μεσολάβησης για την εκτέλεση ερωτημάτων DNS (μόνο για SOCKS v5)">
+<!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Θύρα:">
 <!ENTITY  HTTPport.accesskey            "ρ">
 <!ENTITY  SSLport.accesskey             "ρ">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Για παράδειγμα: .palemoon.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Χρήση αυτού του διαμεσολαβητή για όλα τα πρωτόκολλα">
 <!ENTITY  shareproxy.accesskey          "δ">
+<!ENTITY  autologinproxy.label          "Να μη γίνει ερώτηση για πιστοποίηση αν είναι αποθηκευμένος ο κωδικός πρόσβασης">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Αυτή η επιλογή σας πιστοποιεί σιωπηλά σε εξυπηρετητές μεσολάβησης όταν έχετε αποθηκεύσει πιστοποιήσεις για αυτούς. Θα σας ζητηθούν αν η πιστοποίηση αποτύχει.">

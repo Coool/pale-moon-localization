@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "4">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "5">
+<!ENTITY  socksRemoteDNS.label          "Użyj serwera proxy do wykonywania zapytań DNS (tylko SOCKS v5)">
+<!ENTITY  socksRemoteDNS.accesskey      "u">
 <!ENTITY  port.label                    "Port:">
 <!ENTITY  HTTPport.accesskey            "p">
 <!ENTITY  SSLport.accesskey             "o">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Przykład: .palemoon.org, .com.pl, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Użyj tego serwera proxy dla wszystkich protokołów">
 <!ENTITY  shareproxy.accesskey          "e">
+<!ENTITY  autologinproxy.label          "Nie pytaj o uwierzytelnianie gdy hasło jest zapisane">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Ta opcja uwierzytelni użytkownika do serwerów proxy w tle, jeśli masz zapisane poświadczenia dla nich. Zostaniesz powiadomiony jeśli uwierzytelnianie się nie powiedzie.">

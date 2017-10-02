@@ -8,16 +8,16 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Nabigong makakonekta">
-<!ENTITY connectionFailure.longDesc "<p>Kahit parang balido itong site, ang browser ay hindi makapag-tatag nang isang koneksiyon.</p><ul><li>Maari bang ang site ay pansamantalang hindi magagamit? Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Hindi tamang mga setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>Kahit parang balido itong site, ang browser ay hindi makapag-tatag nang isang koneksiyon.</p><ul><li>Maaari bang ang site ay pansamantalang hindi magagamit? Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Hindi tamang mga setting ay maaaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Limitadong Port dahil sa mga Kadahilanang Pang-seguridad">
 <!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy ng isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Hindi Natagpuang Address">
-<!ENTITY dnsNotFound.longDesc "<p>Ang browser ay hindi makahanap ng host server para sa ibinigay na address.</p><ul><li>Ikaw ba'y nagkamali nung tina-type mo ang domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> sa halip na <q><strong>www</strong>.mozilla.org</q>)</li><li>Ikaw ba'y sigurado na ang domain address na ito ay umiiral pa?  Ang rehistro nito ay maaring nag-expire na.</li><li>Ikaw ba'y hindi makapag-browse sa ibang mga site?  Suriin ang iyong koneksiyon sa network at mga DNS server setting.</li><li>Ang iyong kompyuter o network ba'y protektado ng isang firewall o proxy?  Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<p>Ang browser ay hindi makahanap ng host server para sa ibinigay na address.</p><ul><li>Ikaw ba'y nagkamali nung tina-type mo ang domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> sa halip na <q><strong>www</strong>.mozilla.org</q>)</li><li>Ikaw ba'y sigurado na ang domain address na ito ay umiiral pa?  Ang rehistro nito ay maaaring nag-expire na.</li><li>Ikaw ba'y hindi makapag-browse sa ibang mga site?  Suriin ang iyong koneksiyon sa network at mga DNS server setting.</li><li>Ang iyong kompyuter o network ba'y protektado ng isang firewall o proxy?  Mga hindi tamang setting ay maaaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
 
 <!ENTITY fileNotFound.title "Hindi Natagpuang File">
-<!ENTITY fileNotFound.longDesc "<ul><li>Maaring ang bagay ay pinalitan ng pangalan, inalis, o inilipat sa ibang lokasyon?</li><li>Mayroon bang ispeling, palaking-titik (kapitalisasyon) o ibang klase ng pagkakamaling tipograpikal sa address?</li><li>Meron ka bang sapat na pahintulot upang mabuksan ang hinihiling na bagay?</li></ul>">
+<!ENTITY fileNotFound.longDesc "<ul><li>Maaaring ang bagay ay pinalitan ng pangalan, inalis, o inilipat sa ibang lokasyon?</li><li>Mayroon bang ispeling, palaking-titik (kapitalisasyon) o ibang klase ng pagkakamaling tipograpikal sa address?</li><li>Meron ka bang sapat na pahintulot upang mabuksan ang hinihiling na bagay?</li></ul>">
 
 <!ENTITY generic.title "Hindi Makumpletong Hiling">
 <!ENTITY generic.longDesc "<p>Karagdagang impormasyon tungkol sa problema o error na ito ay kasalukuyang hindi makita.</p>">
@@ -29,7 +29,7 @@
 <!ENTITY netInterrupt.longDesc "<p>Ang browser ay matagumpay na nakakonekta, ngunit ang koneksiyon ay naantala habang naglilipat ng impormasyon.  Mangyaring subukan muli.</p><ul><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompyuter.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY notCached.title "Walang Bisang Dokumento">
-<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay hindi natagpuan sa cache ng browser.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi kusang hinihiling muli ng browser ang mga sensitibong dokumento.</li><li>I-click ang Subukan Muli upang hilingin muli ang dokumento mula sa website.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay hindi natagpuan sa cache ng browser.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi awtomatikong hinihiling muli ng browser ang mga sensitibong dokumento.</li><li>I-click ang Subukan Muli upang hilingin muli ang dokumento mula sa website.</li></ul>">
 
 <!ENTITY netOffline.title "Offline Mode">
 <!ENTITY netOffline.longDesc2 "<p>Ang browser ay gumagawa nang walang internet at hindi makakonek sa hiniling na bagay.</p><ul><li>Ang kompyuter ba ay konektado sa isang aktibong network?</li><li>Pindutin ang &quot;Subukan Muli&quot; upang lumipat sa online mode at ma-reload ang pahina.</li></ul>">
@@ -49,7 +49,7 @@
 <!ENTITY netReset.longDesc "<p>Ang network link ay naantala habang nakikipagkasundo sa isang koneksiyon. Mangyaring subukan muli.</p>">
 
 <!ENTITY netTimeout.title "Timeout sa Network">
-<!ENTITY netTimeout.longDesc "<p>Ang hinihiling na site ay hindi tumugon sa connection request at ang browser ay tumigil sa paghihintay ng sagot.</p><ul><li>Maari bang ang server ay nakakaranas ng malaking demand o pansamantalang outage?  Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaring maka-sagabal sa iyong pagba-browse sa Web.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>Ang hinihiling na site ay hindi tumugon sa connection request at ang browser ay tumigil sa paghihintay ng sagot.</p><ul><li>Maaari bang ang server ay nakakaranas ng malaking demand o pansamantalang outage?  Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompyuter.</li><li>Ang kompyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaaring maka-sagabal sa iyong pagba-browse sa Web.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Hindi Kilalang Protokol">
 <!ENTITY unknownProtocolFound.longDesc "<p>Ang address ay tumutukoy ng protokol (e.g. <q>wxyz://</q>) na hindi kilala ng browser kaya hindi makakonek nang maayos sa site.</p><ul><li>sinusubukan mo bang mag-access ng multimedia o ibang mga hindi tekstong serbisyo? Tingnan ang site para sa mga karagdagang kinakailangan.</li><li>May mga protokol na nangangailangan ng third-party software o mga plugin bago ito makilala ng browser.</li></ul>">
@@ -61,7 +61,7 @@
 <!ENTITY proxyResolveFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit ang proxy ay hindi matagpuan.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang kompyuter ba ay konektado sa isang aktibong network?</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY redirectLoop.title "Paulit-ulit na Redirect">
-<!ENTITY redirectLoop.longDesc "<p>Ang browser ay tumigil na sa pagsubok na kunin ang hiniling na bagay. Nire-redirect ng site ang hiling sa paraan na hindi ito matatapos.</p><ul><li>Mayroon ka bang hindi pinagagana o hinarang na mga cookie na kinakailangan nitong site?</li><li><em>PAALALA</em>: Kapag ang pagtanggap sa mga cookie ng site ay hindi nakalutas sa problema, maaring ito'y issue sa server configuration at hindi sa iyong kompyuter.</li></ul>">
+<!ENTITY redirectLoop.longDesc "<p>Ang browser ay tumigil na sa pagsubok na kunin ang hiniling na bagay. Nire-redirect ng site ang hiling sa paraan na hindi ito matatapos.</p><ul><li>Mayroon ka bang hindi pinagagana o hinarang na mga cookie na kinakailangan nitong site?</li><li><em>PAALALA</em>: Kapag ang pagtanggap sa mga cookie ng site ay hindi nakalutas sa problema, maaaring ito'y issue sa server configuration at hindi sa iyong kompyuter.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Maling Tugon">
 <!ENTITY unknownSocketType.longDesc "<p>Ang site ay tumugon sa kahilingan ng network sa paraang hindi inaasahan at ang browser ay hindi makapagpatuloy.</p>">
@@ -72,20 +72,20 @@
 
 <!ENTITY nssBadCert.title "Nabigong Secure na Koneksiyon">
 <!ENTITY nssBadCert.longDesc2 "<ul>
- <li>Ito ay maaring problema sa pagkakapigura ng server, o maari rin na may gustong magpanggap bilang ang server na ito.</li>
- <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraan, maaring ang pagkakamaling ito ay pansamantala lamang, at maari kang sumubok muli mamaya.</li>
+ <li>Ito ay maaaring problema sa pagkakapigura ng server, o maaari rin na may gustong magpanggap bilang ang server na ito.</li>
+ <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraan, maaaring ang pagkakamaling ito ay pansamantala lamang, at maaari kang sumubok muli mamaya.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Ang mga &quot;attack site&quot; ay susubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
-<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay naiulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humingi ng isang pagsusuri</a>.</p>
+<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay naiulat na attack site sa pagkakamali ay maaaring <a href='https://www.stopbadware.org/request-review' >humingi ng isang pagsusuri</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Paglalagay ng anumang personal na impormasyon sa pahinang ito ay maaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
+<p>Paglalagay ng anumang personal na impormasyon sa pahinang ito ay maaaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
 <p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para gayahin ang mga tao o mga pinagmulang iyong pinagkakatiwalaan.</p>
 ">
 

@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socksRemoteDNS.label          "プロキシを使用して DNS クエリを実行する (SOCKS v5 のみ)">
+<!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "ポート:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "例: .mozilla.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "すべてのプロトコルでこのプロキシを使用する">
 <!ENTITY  shareproxy.accesskey          "s">
+<!ENTITY  autologinproxy.label          "パスワードを保存してある場合は認証を確認しない">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "このオプションは、プロキシへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。">

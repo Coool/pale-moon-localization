@@ -2,71 +2,71 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY index.title "App Manager">
-<!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.title "Управління додатками">
+<!ENTITY index.projects2 "Додатки">
+<!ENTITY index.device2 "Пристрій">
+<!ENTITY index.help "Довідка">
 
-<!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
-<!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
-<!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
-<!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
-<!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.debugMainProcess "Налагодження основного процесу">
+<!ENTITY device.debugMainProcessTooltip "Відкрити Інструменти розробника, приєднані до основного процесу на пристрої">
+<!ENTITY device.screenshot "Скріншот">
+<!ENTITY device.screenshotTooltip "Відкрити скріншот поточного стану пристрою в новій вкладці">
+<!ENTITY device.title "Центр керування пристроями">
+<!ENTITY device.notConnected "Не підключено. Будь ласка, підключіть ваш пристрій.">
+<!ENTITY device.startApp "Запустити">
+<!ENTITY device.startAppTooltip "Запустити цей додаток на пристрої">
+<!ENTITY device.stopApp "Зупинити">
+<!ENTITY device.stopAppTooltip "Зупинити це додаток на пристрої">
+<!ENTITY device.debugApp "Налагодж.">
+<!ENTITY device.debugAppTooltip "Відкрити Інструменти розробника, під'єднані до цього додатка на пристрої">
+<!ENTITY device.name "Ім’я">
+<!ENTITY device.plain "Просте (за замовчуванням)">
+<!ENTITY device.privileged "Привілейоване">
+<!ENTITY device.certified "Сертифіковане">
+<!ENTITY device.allow "Дозволити">
+<!ENTITY device.allowTooltip "Цей дозвіл надано для додатків такого типу">
+<!ENTITY device.prompt "Запит">
+<!ENTITY device.promptTooltip "Запитувати користувача, чи видавати цей дозвіл додаткам такого типу">
+<!ENTITY device.deny "Заборонити">
+<!ENTITY device.denyTooltip "Відмовити в дозволі додаткам такого типу">
+<!ENTITY device.installedApps "Встановлені додатки">
+<!ENTITY device.installedAppsTooltip "Переглянути список встановлених додатків на даному пристрої. Деякі додатки, наприклад сертифіковані, можуть бути виключеними з даного списку.">
+<!ENTITY device.permissions "Дозволи">
+<!ENTITY device.permissionsTooltip "Переглянути таблицю дозволів, що доступні різним типам додатків">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
-<!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.browserTabs "Вкладки браузера">
+<!ENTITY device.browserTabsTooltip "Переглянути список вкладок браузера на під'єднаному пристрої">
+<!ENTITY device.debugBrowserTab "Налагодж.">
+<!ENTITY device.debugBrowserTabTooltip "Відкрити Інструменти розробника, що під'єднані до цієї вкладки браузера на пристрої">
+<!ENTITY device.help "Довідка">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
+<!ENTITY connection.connectTooltip "Під'єднатися до пристрою">
+<!ENTITY connection.disconnect "Роз'єднати">
+<!ENTITY connection.disconnectTooltip "Від'єднатися від наявного пристрою або симулятора">
+<!ENTITY connection.notConnected2 "Не під'єднано.">
+<!ENTITY connection.connectTo "Під'єднатися до:">
+<!ENTITY connection.noDeviceFound "Жодного пристрою не знайдено. Під'єднайте пристрій">
+<!ENTITY connection.changeHostAndPort "Змінити">
+<!ENTITY connection.changeHostAndPortTooltip "Змінити хост і порт, що використовуються для під'єднання до пристрою (за замовчуванням до localhost:6000)">
+<!ENTITY connection.startSimulator "Запустити Симулятор">
+<!ENTITY connection.startSimulatorTooltip "Запустити екземпляр Симулятора та під'єднатися до нього">
+<!ENTITY connection.saveConnectionInfo "Зберегти">
+<!ENTITY connection.saveConnectionInfoTooltip "Зберегти хост і порт">
+<!ENTITY connection.connecting "Під'єднання…">
+<!ENTITY connection.disconnecting "Від'єднання…">
+<!ENTITY connection.cancel "Скасувати">
+<!ENTITY connection.cancelConnectTooltip "Відмінити процес під'єднання">
+<!ENTITY connection.cancelShowSimulatorTooltip "Вийти з режиму під'єднання до Симулятора і повернутися до початкового запиту">
+<!ENTITY connection.or "або">
+<!ENTITY connection.noSimulatorInstalled "Жодного симулятора не встановлено.">
+<!ENTITY connection.installOneSimulator "Встановити Симулятор">
 <!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
+<!ENTITY connection.installAnotherSimulator "Додати">
 <!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.startRegisteredSimulator "Запустити:">
 
 <!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
+<!ENTITY projects.addApp "Додати">
 <!ENTITY projects.addPackaged "Add Packaged App">
 <!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
 <!ENTITY projects.addHosted "Add Hosted App">
@@ -87,13 +87,13 @@
 <!ENTITY projects.manifestViewer "Manifest Viewer">
 <!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
 <!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
+<!ENTITY projects.error "Помилка">
 <!ENTITY projects.warning "Warning">
 <!ENTITY projects.hosted "Hosted">
 <!ENTITY projects.packaged "Packaged">
 
 <!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
+<!ENTITY help.close "Закрити">
 <!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
 <!ENTITY help.usefullLinks "Useful links:">
 <!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
