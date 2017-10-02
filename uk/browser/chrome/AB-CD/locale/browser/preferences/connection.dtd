@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "4">
 <!ENTITY  socks5.label                  "SOCKS 5">
 <!ENTITY  socks5.accesskey              "5">
+<!ENTITY  socksRemoteDNS.label          "Використовуйте проксі для виконання DNS-запитів (тільки для SOCKS v5)">
+<!ENTITY  socksRemoteDNS.accesskey      "д">
 <!ENTITY  port.label                    "Порт:">
 <!ENTITY  HTTPport.accesskey            "о">
 <!ENTITY  SSLport.accesskey             "р">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Приклад: .mozilla.org.ua, localhost, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Використовувати цей проксі-сервер для всіх протоколів">
 <!ENTITY  shareproxy.accesskey          "и">
+<!ENTITY  autologinproxy.label          "Не запитувати аутентифікацію якщо пароль було збережено">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Увімкнення цієї опції аутентифікує вас на проксі, не видаючи запитів, якщо ви зберегли для них облікові дані. Якщо аутентифікація не спрацює, вам буде видано запит.">

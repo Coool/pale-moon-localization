@@ -28,7 +28,7 @@
 <!ENTITY warning.checkcompatibility.label          "Hindi pinagagana ang pagsusuri sa add-on compatibility. Posibleng mayroon kang mga incompatible add-on.">
 <!ENTITY warning.checkcompatibility.enable.label   "Paganahin">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Paganahin ang pagsusuri sa compatibility ng mga add-on">
-<!ENTITY warning.updatesecurity.label              "Pagsusuri sa seguridad ng add-on ay hindi pinapagan. Maaring ikaw ay makompromiso ng mga update.">
+<!ENTITY warning.updatesecurity.label              "Pagsusuri sa seguridad ng add-on ay hindi pinapagan. Maaaring ikaw ay makompromiso ng mga update.">
 <!ENTITY warning.updatesecurity.enable.label       "Paganahin">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Paganahin ang pagsusuri sa seguridad ng update ng add-on">
 
@@ -50,7 +50,7 @@
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
-<!ENTITY updates.updateAddonsAutomatically.label     "Kusang I-update ang mga Add-on">
+<!ENTITY updates.updateAddonsAutomatically.label     "Awtomatikong I-update ang mga Add-on">
 <!ENTITY updates.updateAddonsAutomatically.accesskey "A">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
@@ -58,7 +58,7 @@
      update checking behavior for all add-ons to the default global behavior
      (which itself is either "Automatically" or "Manually", controlled by the
      updates.updateAddonsAutomatically.label menu item). -->
-<!ENTITY updates.resetUpdatesToAutomatic.label       "I-reset ang Lahat ng Mga Add-on na Kusang Mag-update">
+<!ENTITY updates.resetUpdatesToAutomatic.label       "I-reset ang Lahat ng mga Add-on na Awtomatikong Mag-update">
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "R">
 <!ENTITY updates.resetUpdatesToManual.label          "I-reset ang Lahat ng mga Add-on na Mano-manong Mag-update">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "R">
@@ -126,7 +126,7 @@
 <!ENTITY discover.footer                      "Pag konektado ka sa Internet, ipapakita ng pane na ito ang ilan sa pinakamagaganda at sikat na mga add-on para masubukan mo.">
 
 <!-- detail view -->
-<!ENTITY detail.version.label                 "bersiyon">
+<!ENTITY detail.version.label                 "Bersiyon">
 <!ENTITY detail.lastupdated.label             "Huling Na-update">
 <!ENTITY detail.creator.label                 "Nag-develop">
 <!ENTITY detail.homepage.label                "Unang Pahina">
@@ -134,13 +134,13 @@
 
 <!ENTITY detail.contributions.description     "Ang nag-develop nitong add-on ay itinatanong na tulungan mong suportahan ang patuloy na development sa pag-gawa ng maliit na kontribusyon.">
 
-<!ENTITY detail.updateType                    "Kusang Pag-update">
+<!ENTITY detail.updateType                    "Awtomatikong Pag-update">
 <!ENTITY detail.updateDefault.label           "Paunang-tukoy">
-<!ENTITY detail.updateDefault.tooltip         "Kusang mag-install ng mga update lamang kung iyon ang paunang-tukoy">
+<!ENTITY detail.updateDefault.tooltip         "Awtomatikong mag-install ng mga update lamang kung iyon ang paunang-tukoy">
 <!ENTITY detail.updateAutomatic.label         "Naka-on">
-<!ENTITY detail.updateAutomatic.tooltip       "Kusang mag-install ng mga update">
+<!ENTITY detail.updateAutomatic.tooltip       "Awtomatikong mag-install ng mga update">
 <!ENTITY detail.updateManual.label            "Naka-off">
-<!ENTITY detail.updateManual.tooltip          "Huwag kusang mag-install ng mga update">
+<!ENTITY detail.updateManual.tooltip          "Huwag awtomatikong mag-install ng mga update">
 <!ENTITY detail.home                          "Unang Pahina">
 <!ENTITY detail.repository                    "Add-on Profile">
 <!ENTITY detail.size                          "Sukat">
@@ -178,7 +178,7 @@
 <!ENTITY search.filter2.installed.label       "Aking Mga Add-on">
 <!ENTITY search.filter2.installed.tooltip     "Ipakita ang mga naka-install na add-on">
 <!ENTITY search.filter2.available.label       "Mga Magagamit na Add-on">
-<!ENTITY search.filter2.available.tooltip     "Ipakita ang mga add-on na maaring i-install">
+<!ENTITY search.filter2.available.tooltip     "Ipakita ang mga add-on na maaaring i-install">
 
 <!ENTITY addon.homepage                       "Unang Pahina">
 <!ENTITY addon.details.label                  "Karagdagan">
@@ -226,7 +226,7 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "Ano ito? Maaring mag-install at magpatakbo ang Telemetry ng mga eksperimento paminsan-minsan.">
+<!ENTITY experiment.info.label "Ano ito? Maaaring mag-install at magpatakbo ang Telemetry ng mga eksperimento paminsan-minsan.">
 <!ENTITY experiment.info.learnmore "Matuto nang higit pa">
 <!ENTITY experiment.info.learnmore.accesskey "M">
 <!ENTITY experiment.info.changetelemetry "Mga Setting sa Telemetry">

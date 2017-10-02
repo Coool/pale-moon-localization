@@ -32,6 +32,8 @@
 <!ENTITY  socks4.accesskey              "4">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "5">
+<!ENTITY  socksRemoteDNS.label          "Usar proxy para realizar consultas DNS (SOCKS v5 únicamente)">
+<!ENTITY  socksRemoteDNS.accesskey      "D">
 <!ENTITY  port.label                    "Puerto:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
@@ -42,3 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Ejemplo:. palemoon.org,. net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Utilizar este servidor proxy para todos los protocolos">
 <!ENTITY  shareproxy.accesskey          "t">
+<!ENTITY  autologinproxy.label          "No solicitar identificación si hay contraseña almacenada">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Esta opción te identifica silenciosamente a las proxis de las que tienes credenciales almacenadas. Se te solicitará identificación si el proceso falla.">

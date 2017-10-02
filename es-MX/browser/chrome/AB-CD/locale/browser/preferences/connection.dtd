@@ -13,7 +13,7 @@
 <!ENTITY  systemTypeRadio.label         "Usar los datos de proxy del sistema">
 <!ENTITY  systemTypeRadio.accesskey     "U">
 <!ENTITY  WPADTypeRadio.label           "Detectar automáticamente la configuración del proxy para esta red">
-<!ENTITY  WPADTypeRadio.accesskey       "D">
+<!ENTITY  WPADTypeRadio.accesskey       "a">
 <!ENTITY  manualTypeRadio.label         "Configuración manual del proxy:">
 <!ENTITY  manualTypeRadio.accesskey     "m">
 <!ENTITY  autoTypeRadio.label           "URL para la configuración automática del proxy:">
@@ -32,13 +32,18 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socksRemoteDNS.label          "Usar proxy para realizar consultas DNS (SOCKS v5 únicamente)">
+<!ENTITY  socksRemoteDNS.accesskey      "D">
 <!ENTITY  port.label                    "Puerto:">
-<!ENTITY  HTTPport.accesskey            "P">
+<!ENTITY  HTTPport.accesskey            "e">
 <!ENTITY  SSLport.accesskey             "o">
 <!ENTITY  FTPport.accesskey             "r">
 <!ENTITY  SOCKSport.accesskey           "t">
 <!ENTITY  noproxy.label                 "No usar proxy para:">
 <!ENTITY  noproxy.accesskey             "N">
 <!ENTITY  noproxyExplain.label          "Ejemplo: .palemoon.org, .net.nz, 192.168.1.0/24">
-<!ENTITY  shareproxy.label              "Usar el mismo proxy para todo">
+<!ENTITY  shareproxy.label              "Usar este servidor proxy para todos los protocolos">
 <!ENTITY  shareproxy.accesskey          "x">
+<!ENTITY  autologinproxy.label          "No solicitar identificación si hay contraseña almacenada">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Esta opción te identifica silenciosamente a las proxis de las que tienes credenciales almacenadas. Se te solicitará identificación si el proceso falla.">

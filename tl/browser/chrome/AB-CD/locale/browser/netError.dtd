@@ -55,7 +55,7 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Lipas na Dokumento">
-<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay wala sa cache ng &brandShortName;.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi kusang hiniling muli ng &brandShortName; ang mga sensitibong dokumento.</li><li>Pindutin ang Subukan Muli para hiling muli ang dokumento mula sa website.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay wala sa cache ng &brandShortName;.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi awtomatikong hiniling muli ng &brandShortName; ang mga sensitibong dokumento.</li><li>Pindutin ang Subukan Muli para hilingin muli ang dokumento mula sa website.</li></ul>">
 
 <!ENTITY netOffline.title "Magtrabaho ng Walang Internet">
 <!ENTITY netOffline.longDesc2 "
@@ -119,7 +119,7 @@
 <!ENTITY unknownSocketType.longDesc "
 <ul>
   <li>Siguraduhing ang Personal Security Manager ay naka-install sa iyong kompyuter.</li>
-  <li>Maaring ito ay sanhi ng hindi-standard na pagkakapigura sa server.</li>
+  <li>Maaaring ito ay sanhi ng hindi-standard na pagkakapigura sa server.</li>
 </ul>
 ">
 
@@ -134,14 +134,14 @@
 <!ENTITY nssBadCert.title "Nabigong Secure na Koneksiyon">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
-  <li>Ito ay maaring problema sa pagkakapigura ng server, o maari rin na may gustong gayahin ang server na ito.</li>
-  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraaan, maaring ang pagkakamaling ito ay pansamantala lamang, at maari kang sumubok muli mamaya.</li>
+  <li>Ito ay maaaring problema sa pagkakapigura ng server, o maaari rin na may gustong gayahin ang server na ito.</li>
+  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraaan, maaaring ang pagkakamaling ito ay pansamantala lamang, at maaari kang sumubok muli mamaya.</li>
 </ul>
 ">
 
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>Ang site ay maaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
+  <li>Ang site ay maaaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
   <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompyuter.</li>
   <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
@@ -150,12 +150,12 @@
 <!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Ang mga &quot;attack site&quot; ay sumusubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
-<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
+<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Paglalagay ng anumang impormasyong personal sa pahinang ito ay maaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
+<p>Paglalagay ng anumang impormasyong personal sa pahinang ito ay maaaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
 <p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para magaya ang mga tao o pinagmulang iyong pinagkakatiwalaan.</p>
 ">
 
@@ -177,7 +177,7 @@
 <!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 
-<!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsiyon…">
+<!ENTITY securityOverride.linkText "O maaari ka din na maglapat ng eksepsiyon…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako dito!">
 <!ENTITY securityOverride.exceptionButtonLabel "Maglapat ng Eksepsiyon…">
 
@@ -195,7 +195,7 @@ functionality specific to firefox. -->
 
 <!ENTITY errorReporting.title "I-ulat itong pagkakamali">
 <!ENTITY errorReporting.longDesc "Pag-ulat sa address at impormasyon tungkol sa sertipiko ng <span id='hostname'></span> ay makatutulong upang makilala at maharang namin ang mga site na may masamang hangarin. Maraming salamat sa pagtulong sa pag-gawa ng mas ligtas na web!">
-<!ENTITY errorReporting.automatic "Kusang mag-ulat tungkol sa mga pagkakamali sa hinaharap">
+<!ENTITY errorReporting.automatic "Awtomatikong mag-ulat tungkol sa mga pagkakamali sa hinaharap">
 <!ENTITY errorReporting.learnMore "Matuto nang higit pa…">
 <!ENTITY errorReporting.sending "Ipinapadala ang ulat">
 <!ENTITY errorReporting.sent "Ipinadala ang ulat">
