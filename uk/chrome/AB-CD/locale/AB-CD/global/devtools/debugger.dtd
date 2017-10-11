@@ -13,11 +13,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.closeButton.tooltip): This is the tooltip for
   -  the button that closes the debugger UI. -->
-<!ENTITY debuggerUI.closeButton.tooltip "Close">
+<!ENTITY debuggerUI.closeButton.tooltip "Закрити">
 
 <!-- LOCALIZATION NOTE (debuggerUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the debugger UI. -->
-<!ENTITY debuggerUI.panesButton.tooltip "Toggle panes">
+<!ENTITY debuggerUI.panesButton.tooltip "Переключити панелі">
 
 <!-- LOCALIZATION NOTE (debuggerUI.blackBoxMessage.label): This is the message
   - displayed to users when they select a black boxed source from the sources
@@ -52,11 +52,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
   - the button to start execution tracing. -->
-<!ENTITY debuggerUI.startTracing "Start Tracing">
+<!ENTITY debuggerUI.startTracing "Запустити трасування">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton "Clear">
+<!ENTITY debuggerUI.clearButton "Очистити">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton.tooltip): This is the tooltip for
   -  the button that clears the collected tracing data in the tracing tab. -->
@@ -103,18 +103,18 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
   -  appears in the filter panel popup as a header for the operators part. -->
-<!ENTITY debuggerUI.searchPanelOperators    "Operators:">
+<!ENTITY debuggerUI.searchPanelOperators    "Оператори:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
-<!ENTITY debuggerUI.searchFile           "Filter Scripts">
+<!ENTITY debuggerUI.searchFile           "Фільтр скриптів">
 <!ENTITY debuggerUI.searchFile.key       "P">
 <!ENTITY debuggerUI.searchFile.altkey    "O">
 <!ENTITY debuggerUI.searchFile.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
   -  in the source editor's context menu for the global search operation. -->
-<!ENTITY debuggerUI.searchGlobal           "Search in All Files">
+<!ENTITY debuggerUI.searchGlobal           "Пошук в усіх файлах">
 <!ENTITY debuggerUI.searchGlobal.key       "F">
 <!ENTITY debuggerUI.searchGlobal.accesskey "F">
 
@@ -126,13 +126,13 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchToken): This is the text that appears
   -  in the source editor's context menu for the token search operation. -->
-<!ENTITY debuggerUI.searchToken           "Find">
+<!ENTITY debuggerUI.searchToken           "Знайти">
 <!ENTITY debuggerUI.searchToken.key       "F">
 <!ENTITY debuggerUI.searchToken.accesskey "F">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
-<!ENTITY debuggerUI.searchGoToLine           "Go to Line…">
+<!ENTITY debuggerUI.searchGoToLine           "Перейти до рядка…">
 <!ENTITY debuggerUI.searchGoToLine.key       "L">
 <!ENTITY debuggerUI.searchGoToLine.accesskey "L">
 
@@ -165,11 +165,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
-<!ENTITY debuggerUI.tabs.sources        "Sources">
+<!ENTITY debuggerUI.tabs.sources        "Джерела">
 <!ENTITY debuggerUI.tabs.traces         "Traces">
-<!ENTITY debuggerUI.tabs.callstack      "Call Stack">
-<!ENTITY debuggerUI.tabs.variables      "Variables">
-<!ENTITY debuggerUI.tabs.events         "Events">
+<!ENTITY debuggerUI.tabs.callstack      "Стек викликів">
+<!ENTITY debuggerUI.tabs.variables      "Змінні">
+<!ENTITY debuggerUI.tabs.events         "Події">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->

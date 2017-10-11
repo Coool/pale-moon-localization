@@ -1,7 +1,7 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Software Update">
+<!ENTITY  updateWizard.title              "Оновлення програмного забезпечення">
 
 <!ENTITY  checking.title                  "Checking for Updates">
 <!ENTITY  updateCheck.label               "Looking for newer versions of &brandShortName;…">
@@ -29,7 +29,7 @@
 <!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
                                            supported on your system. Please upgrade your system, then try again.
                                            You will not see this notice again, but you can">
-<!ENTITY  unsupportedLink.label           "learn more.">
+<!ENTITY  unsupportedLink.label           "детальніше про це.">
 
 <!ENTITY  incompatibleCheck.title         "Checking Add-on Compatibility">
 <!ENTITY  incompatibleCheck.label         "Looking for newer versions of your add-ons…">
@@ -61,9 +61,9 @@
 
 <!ENTITY  viewDetails.tooltip             "View details for this update">
 
-<!ENTITY  details.link                    "Details">
+<!ENTITY  details.link                    "Деталі">
 
-<!ENTITY  error.title                     "Update Failed">
+<!ENTITY  error.title                     "Оновлення не вдалося">
 
 <!ENTITY  error.label                     "There were problems checking for, downloading, or installing this 
                                            update. &brandShortName; could not be updated because:">
@@ -87,7 +87,7 @@
 
 <!ENTITY  finishedBackgroundPage.text     "A security and stability update for &brandShortName; has been
                                            downloaded and is ready to be installed.">
-<!ENTITY  finishedBackground.name         "Update:">
+<!ENTITY  finishedBackground.name         "Оновлення:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "The update will be installed the next time &brandShortName; starts. You
                                            can restart &brandShortName; now, or continue working and restart later.">
@@ -96,6 +96,6 @@
 <!ENTITY  installed.intro                 "The update was successfully installed.">
 <!ENTITY  whatsnew.label                  "Read more about what's new…">
 
-<!ENTITY  update.details.label            "Details">
-<!ENTITY  update.installedOn.label        "Installed on:">
-<!ENTITY  update.status.label             "Status:">
+<!ENTITY  update.details.label            "Деталі">
+<!ENTITY  update.installedOn.label        "Встановлено:">
+<!ENTITY  update.status.label             "Статус:">
