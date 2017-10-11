@@ -7,24 +7,24 @@
   - in the Web Developer menu.
   - -->
 
-<!ENTITY title      "Connect">
-<!ENTITY header     "Connect to remote device">
-<!ENTITY host       "Host:">
-<!ENTITY port       "Port:">
-<!ENTITY connect    "Connect">
-<!ENTITY connecting "Connecting…">
-<!ENTITY availableAddons "Available remote add-ons:">
-<!ENTITY availableTabs "Available remote tabs:">
-<!ENTITY availableProcesses "Available remote processes:">
-<!ENTITY connectionError "Error:">
-<!ENTITY errorTimeout "Error: connection timeout.">
-<!ENTITY errorRefused "Error: connection refused.">
-<!ENTITY errorUnexpected "Unexpected error.">
+<!ENTITY title      "З’єднання">
+<!ENTITY header     "Підключення до віддаленого пристрою">
+<!ENTITY host       "Хост:">
+<!ENTITY port       "Порт:">
+<!ENTITY connect    "З’єднання">
+<!ENTITY connecting "З’єднання…">
+<!ENTITY availableAddons "Доступні віддалені доповнення:">
+<!ENTITY availableTabs "Доступні віддалені вкладки:">
+<!ENTITY availableProcesses "Доступні віддалені процеси:">
+<!ENTITY connectionError "Помилка:">
+<!ENTITY errorTimeout "Помилка: час очікування з'єднання минув.">
+<!ENTITY errorRefused "Помилка: у з'єднанні відмовлено.">
+<!ENTITY errorUnexpected "Неочікувана помилка.">
 
 <!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
 these strings will be concatenated in a single label, remoteDocumentation will
 be used as text for a link to MDN. -->
-<!ENTITY remoteHelp "The Developer Tools can debug remote devices (Pale Moon for Android, for example). Make sure that you have turned on the 'Remote debugging' option in the remote device. For more, see the ">
-<!ENTITY remoteDocumentation "documentation">
+<!ENTITY remoteHelp "За домомогою інструментів розробника в Pale Moon можна налагоджувати віддалені пристрої (наприклад, Pale Moon для Android). Перевірте чи увімкнена 'Віддалене налагодження'. Для отримання додаткової інформації прочитайте ">
+<!ENTITY remoteDocumentation "документація">
 <!ENTITY remoteHelpSuffix ".">
 

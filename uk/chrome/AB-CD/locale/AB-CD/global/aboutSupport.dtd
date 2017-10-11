@@ -11,10 +11,10 @@
   about &brandShortName;, check out our <a id='supportLink'>support website</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Звіти про збої">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.id "Ідентифікатор повідомлення">
 <!ENTITY aboutSupport.crashes.sendDate "Надіслано">
 <!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
 <!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
@@ -37,11 +37,11 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.appBasicsTitle "Application Basics">
 <!ENTITY aboutSupport.appBasicsName "Ім'я">
 <!ENTITY aboutSupport.appBasicsVersion "Версія">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID збірки">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Оновлення каналу">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Оновлення історії">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Показати історію оновлень">
 
@@ -49,7 +49,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
-<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Profile Folder">
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Тека профілю">
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Enabled Plugins">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Build Configuration">
@@ -61,11 +61,11 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Безпечний режим">
 
-<!ENTITY aboutSupport.showDir.label "Open Directory">
+<!ENTITY aboutSupport.showDir.label "Відкрити каталог">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Show in Finder">
+<!ENTITY aboutSupport.showMac.label "Показати у Finder">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.showWin.label "Показати теку">
@@ -85,20 +85,20 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsTitle "Графіка">
 
 <!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Цілісність">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
 
-<!ENTITY aboutSupport.a11yTitle "Accessibility">
+<!ENTITY aboutSupport.a11yTitle "Спеціальні можливості">
 <!ENTITY aboutSupport.a11yActivated "Активоване">
 <!ENTITY aboutSupport.a11yForceDisabled "Prevent Accessibility">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Library Versions">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Installation History">
-<!ENTITY aboutSupport.updateHistoryTitle "Update History">
+<!ENTITY aboutSupport.updateHistoryTitle "Історія оновлень">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Скопіювати в буфер обміну">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Копіювати необроблені дані до буфера обміну">

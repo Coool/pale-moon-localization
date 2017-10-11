@@ -60,44 +60,44 @@
 <!ENTITY connection.or "або">
 <!ENTITY connection.noSimulatorInstalled "Жодного симулятора не встановлено.">
 <!ENTITY connection.installOneSimulator "Встановити Симулятор">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
+<!ENTITY connection.installOneSimulatorTooltip "Встановити версію Симулятора, завантаживши відповідне розширення">
 <!ENTITY connection.installAnotherSimulator "Додати">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
+<!ENTITY connection.installAnotherSimulatorTooltip "Встановити додаткову версію Симулятора, завантаживши відповідне розширення">
 <!ENTITY connection.startRegisteredSimulator "Запустити:">
 
-<!ENTITY projects.localApps "Local Apps">
+<!ENTITY projects.localApps "Локальні додатки">
 <!ENTITY projects.addApp "Додати">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
-<!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.addPackaged "Додати упакований додаток">
+<!ENTITY projects.addPackagedTooltip "Додати новий упакований додаток (каталог) з вашого комп'ютера">
+<!ENTITY projects.addHosted "Додати розміщений додаток">
+<!ENTITY projects.addHostedTooltip "Додати новий розміщений додаток (посилання на файл manifest.webapp) із віддаленого сайту">
+<!ENTITY projects.title "Локальні додатки">
+<!ENTITY projects.appDetails "Відомості про додаток">
+<!ENTITY projects.removeAppFromList "Видалити цей додаток зі списку додатків з якими ви працюєте. Це не видалить його з пристрою чи симулятора.">
+<!ENTITY projects.updateApp "Оновити">
+<!ENTITY projects.updateAppTooltip "Виконати перевірку валідації і оновити додаток на під'єднаному пристрої">
+<!ENTITY projects.debugApp "Відлагодження">
+<!ENTITY projects.debugAppTooltip "Відкрити Інструменти розробника, під'єднані до цього додатку">
+<!ENTITY projects.saveManifest "Зберегти">
+<!ENTITY projects.saveManifestTooltip "Зберегти вміст Редактора Маніфеста нижче">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
+<!ENTITY projects.noProjects "Немає проектів. Додайте нижче новий упакований додаток (локальний каталог) чи розміщений додаток (посилання на файл маніфеста).">
+<!ENTITY projects.manifestEditor "Редактор Маніфеста">
+<!ENTITY projects.manifestEditorTooltip "Редагувати маніфест вашого додатку в панелі нижче. Кнопка &quot;Оновити&quot; збереже ваші зміни і оновить додаток.">
+<!ENTITY projects.manifestViewer "Переглядач Маніфеста">
+<!ENTITY projects.manifestViewerTooltip "Перевірити маніфест вашого додатка у панелі нижче">
+<!ENTITY projects.valid "Коректно">
 <!ENTITY projects.error "Помилка">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.warning "Попередження">
+<!ENTITY projects.hosted "Розміщено">
+<!ENTITY projects.packaged "Упаковано">
 
-<!ENTITY help.title "App Manager">
+<!ENTITY help.title "Менеджер додатків">
 <!ENTITY help.close "Закрити">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.intro "Цей інструмент допоможе вам створити та інсталювати веб-додаток на сумісний пристрій (тобто під Firefox OS). Вкладка <strong>Додатки</strong> допоможе вам у валідації та інсталяції вашого додатку. Вкладка <strong>Пристрій</strong> надасть інформацію про під'єднаний пристрій. Використовуйте нижню панель для під'єднання до пристрою або запуску симулятора.">
+<!ENTITY help.usefullLinks "Корисні посилання:">
+<!ENTITY help.appMgrDoc "Документація: Використання менеджера додатків">
+<!ENTITY help.configuringDevice "Як налаштувати ваш пристрій на Firefox OS">
+<!ENTITY help.troubleShooting "Вирішення несправностей">
+<!ENTITY help.simulatorAddon "Встановлення розширення Симулятора">
+<!ENTITY help.adbHelperAddon "Встановлення розширення Adb Helper">
