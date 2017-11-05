@@ -13,7 +13,7 @@
 <!ENTITY connectionFailure.title "Hindi maka-konek">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Ang address na ito ay limitado">
+<!ENTITY deniedPortAccess.title "Itong address ay limitado">
 <!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy sa isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Hindi natagpuan ang server">
@@ -30,7 +30,7 @@
 <!ENTITY fileNotFound.title "Hindi nakita ang file">
 <!ENTITY fileNotFound.longDesc "
 <ul>
-  <li>Suriin ang pangalan ng file para sa mga pagkakamali sa paggamit ng malaking titik o iba pang pagkakamali sa pag-type.</li>
+  <li>Suriin ang pangalan ng file para sa mga pagkakamali sa paggamit ng malaking titik o iba pang pagkakamali sa pagkaka-type.</li>
   <li>Silipin kung ang file ay inilipat, pinalitan ng pangalan o inalis.</li>
 </ul>
 ">
@@ -54,13 +54,13 @@
 <!ENTITY netInterrupt.title "Ang koneksiyon ay naantala">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
-<!ENTITY notCached.title "Lipas na Dokumento">
+<!ENTITY notCached.title "Walang Bisang Dokumento">
 <!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay wala sa cache ng &brandShortName;.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi awtomatikong hiniling muli ng &brandShortName; ang mga sensitibong dokumento.</li><li>Pindutin ang Subukan Muli para hilingin muli ang dokumento mula sa website.</li></ul>">
 
-<!ENTITY netOffline.title "Magtrabaho ng Walang Internet">
+<!ENTITY netOffline.title "Gumagawa nang Walang Internet">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Pindutin ang &quot;Subukan Muli&quot; para lumipat sa online mode at ulitin ang pag-load sa page.</li>
+  <li>Pindutin ang &quot;Subukan Muli&quot; para lumipat sa online mode at ulitin ang pag-load sa pahina.</li>
 </ul>
 ">
 
@@ -71,7 +71,7 @@
 </ul>
 ">
 
-<!ENTITY unsafeContentType.title "Hindi Ligtas na File Type">
+<!ENTITY unsafeContentType.title "Hindi Ligtas na Uri ng File">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
   <li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li>
@@ -94,7 +94,7 @@
 <!ENTITY proxyConnectFailure.title "Ang proxy server ay tumatanggi sa mga koneksiyon">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
-  <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
+  <li>Silipin ang mga setting sa proxy at tiyakin na iyon ay tama.</li>
   <li>Makipag-ugnayan sa tagapangasiwa ng iyong network para masigurong ang proxy server ay gumagana.</li>
 </ul>
 ">
@@ -102,13 +102,13 @@
 <!ENTITY proxyResolveFailure.title "Hindi mahanap ang proxy server">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
-  <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
+  <li>Silipin ang mga setting sa proxy at tiyakin na iyon ay tama.</li>
   <li>Siguraduhing ang iyong kompyuter ay mayroong gumaganang koneksiyon sa network.</li>
   <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
-<!ENTITY redirectLoop.title "Ang pahina ay hindi nagre-redirect ng maayos">
+<!ENTITY redirectLoop.title "Ang pahina ay hindi nagre-redirect nang maayos">
 <!ENTITY redirectLoop.longDesc "
 <ul>
   <li>Ang problemang ito ay minsan dulot ng hindi pagpapagana o pag-tanggi sa pag-tanggap ng mga cookie.</li>
@@ -119,7 +119,7 @@
 <!ENTITY unknownSocketType.longDesc "
 <ul>
   <li>Siguraduhing ang Personal Security Manager ay naka-install sa iyong kompyuter.</li>
-  <li>Maaaring ito ay sanhi ng hindi-standard na pagkakapigura sa server.</li>
+  <li>Maaaring ito ay sanhi ng hindi istandard na configuration sa server.</li>
 </ul>
 ">
 

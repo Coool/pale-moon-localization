@@ -5,12 +5,12 @@
 <!ENTITY upgrade.style               "width: 93ch; height: 448px;">
 
 <!ENTITY checking.heading            "Перевірка ваших додатків">
-<!ENTITY checking.progress.label     "Checking your add-ons for compatibility with this version of &brandShortName;.">
+<!ENTITY checking.progress.label     "Перевірка ваших додатків на предмет сумісності з цією версією &brandShortName;.">
 
 <!ENTITY select.heading              "Оберіть ваші додатки">
 <!-- LOCALIZATION NOTE (select.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY select.description          "Make &brandShortName; even faster by disabling add-ons you no longer use. Add-ons already installed by third parties will be disabled automatically unless you select them below.">
+<!ENTITY select.description          "Зробіть &brandShortName; ще швидшим, вимкнувши додатки якими ви не користуєтесь. Додатки, вже встановлені іншими програмами, будуть автоматично вимкнені, якщо ви не позначите їх у списку.">
 <!ENTITY select.keep                 "Залишити">
 <!-- LOCALIZATION NOTE (select.keep.style): Should be a width wide enough for
      the string in select.keep above. -->
@@ -29,20 +29,20 @@
 <!ENTITY confirm.heading             "Оберіть ваші додатки">
 <!-- LOCALIZATION NOTE (confirm.description): The term used for "third parties"
      here should match the string source.other in selectAddons.properties. -->
-<!ENTITY confirm.description         "Make &brandShortName; even faster by disabling add-ons you no longer use. Add-ons already installed by third parties will be disabled automatically unless you select them below.">
+<!ENTITY confirm.description         "Зробіть &brandShortName; ще швидшим, вимкнувши додатки якими ви не користуєтесь. Додатки, вже встановлені іншими програмами, будуть автоматично вимкнені, якщо ви не позначите їх у списку.">
 
-<!ENTITY action.disable.heading      "The following add-ons will be disabled:">
-<!ENTITY action.incompatible.heading "The following add-ons are disabled, but will be enabled as soon as they are compatible:">
-<!ENTITY action.update.heading       "The following add-ons will be updated:">
-<!ENTITY action.enable.heading       "The following add-ons will be enabled:">
+<!ENTITY action.disable.heading      "Наступні додатки будуть вимкнені:">
+<!ENTITY action.incompatible.heading "Наступні додатки зараз вимкнені, але будуть увімкнені, як тільки вони стануть сумісними:">
+<!ENTITY action.update.heading       "Наступні додатки будуть оновлені:">
+<!ENTITY action.enable.heading       "Наступні додатки будуть увімкнені:">
 
 <!ENTITY update.heading              "Оновлення ваших додатків">
-<!ENTITY update.progress.label       "Downloading and installing updates for your selected add-ons.">
+<!ENTITY update.progress.label       "Завантаження та інсталяція оновлень для вибраних вами додатків.">
 
-<!ENTITY errors.heading              "&brandShortName; could not update some of your add-ons.">
-<!ENTITY errors.description          "Installing updates for some of your add-ons failed. &brandShortName; will automatically try to update them again later.">
+<!ENTITY errors.heading              "&brandShortName; не вдалося оновити деякі з ваших додатків.">
+<!ENTITY errors.description          "Не вдалось встановити оновлення для деяких з ваших додатків. &brandShortName; спробує автоматично оновити їх через деякий час.">
 
-<!ENTITY footer.label                "You can always change your add-ons by going to the Add-ons Manager.">
+<!ENTITY footer.label                "Ви завжди можете змінити ваші додатки, перейшовши в вікно управління додатками.">
 <!ENTITY cancel.label                "Скасувати">
 <!ENTITY back.label                  "Назад">
 <!ENTITY next.label                  "Далі">

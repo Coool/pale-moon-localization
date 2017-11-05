@@ -20,19 +20,19 @@
 <!ENTITY stats.volume "Гучність">
 <!ENTITY stats.framesParsed "Кадрів проаналізовано">
 <!ENTITY stats.framesDecoded "Кадрів декодовано">
-<!ENTITY stats.framesPresented "Frames presented">
-<!ENTITY stats.framesPainted "Frames painted">
+<!ENTITY stats.framesPresented "Кадрів представлено">
+<!ENTITY stats.framesPainted "Кадрів промальовано">
 
-<!ENTITY error.aborted "Video loading stopped.">
-<!ENTITY error.network "Video playback aborted due to a network error.">
-<!ENTITY error.decode "Video can't be played because the file is corrupt.">
-<!ENTITY error.srcNotSupported "Video format or MIME type is not supported.">
-<!ENTITY error.noSource2 "No video with supported format and MIME type found.">
-<!ENTITY error.generic "Video playback aborted due to an unknown error.">
+<!ENTITY error.aborted "Завантаження відео зупинено.">
+<!ENTITY error.network "Відтворення відео перервано через помилку мережі.">
+<!ENTITY error.decode "Відео не можливо відтворити тому, що файл пошкоджений.">
+<!ENTITY error.srcNotSupported "Формат відео або тип MIME не підтримується.">
+<!ENTITY error.noSource2 "Відео в підтримуваному форматі і типі MIME не знайдено.">
+<!ENTITY error.generic "Відтворення відео перервано через невідому помилку.">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at
 the 5 minute mark in a 6 hour long video, #1 would be "5:00" and #2 would be
 "6:00:00", result string would be "5:00 of 6:00:00 elapsed".
 -->
-<!ENTITY scrubberScale.nameFormat "#1 of #2 elapsed">
+<!ENTITY scrubberScale.nameFormat "пройшло #1 з #2">
