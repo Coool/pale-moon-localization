@@ -32,7 +32,7 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "5">
-<!ENTITY  socksRemoteDNS.label          "Use proxy to perform DNS queries (SOCKS v5 only)">
+<!ENTITY  socksRemoteDNS.label          "Proxy használata DNS lekérdezésekhez (csak SOCKS v5)">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Port:">
 <!ENTITY  HTTPport.accesskey            "P">
@@ -44,6 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Példa: .mozilla.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Ugyanazon proxy használata minden protokollhoz">
 <!ENTITY  shareproxy.accesskey          "U">
-<!ENTITY  autologinproxy.label          "Do not prompt for authentication if password is saved">
-<!ENTITY  autologinproxy.accesskey      "i">
-<!ENTITY  autologinproxy.tooltip        "This option silently authenticates you to proxies when you have saved credentials for them. You will be prompted if authentication fails.">
+<!ENTITY  autologinproxy.label          "Ne kérjen hitelesítést, ha a jelszó el van mentve">
+<!ENTITY  autologinproxy.accesskey      "h">
+<!ENTITY  autologinproxy.tooltip        "Ez a beállítás csendben hitelesíti proxyk felé, ha mentette hozzájuk a hitelesítési adatokat. Ha a hitelesítés sikertelen, akkor felszólítást kap.">

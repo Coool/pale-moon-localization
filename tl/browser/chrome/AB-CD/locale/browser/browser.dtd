@@ -275,7 +275,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY editMenu.accesskey       "H"> 
 <!ENTITY undoCmd.label            "Ibalik">  
 <!ENTITY undoCmd.key            "Z">  
-<!ENTITY undoCmd.accesskey          "U"> 
+<!ENTITY undoCmd.accesskey          "B"> 
 <!ENTITY redoCmd.label            "I-redo">  
 <!ENTITY redoCmd.key            "Y">  
 <!ENTITY redoCmd.accesskey          "R"> 
@@ -284,19 +284,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.accesskey         "t"> 
 <!ENTITY copyCmd.label            "Kopyahin">  
 <!ENTITY copyCmd.key            "C">  
-<!ENTITY copyCmd.accesskey          "C"> 
+<!ENTITY copyCmd.accesskey          "K"> 
 <!ENTITY pasteCmd.label           "I-paste">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "P"> 
 <!ENTITY deleteCmd.label          "Tanggalin">  
 <!ENTITY deleteCmd.key            "B">  
-<!ENTITY deleteCmd.accesskey        "B"> 
+<!ENTITY deleteCmd.accesskey        "T"> 
 <!ENTITY selectAllCmd.label         "Piliin Lahat">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
 <!ENTITY preferencesCmd2.label       "Mga Opsiyon">
 <!ENTITY preferencesCmd2.accesskey     "O">
-<!ENTITY preferencesCmdUnix.label       "Mga Kagustuhan">
+<!ENTITY preferencesCmdUnix.label       "Mga Preperensiya">
 <!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
 <!ENTITY clearRecentHistory.label               "Burahin ang Kamakailang Kasaysayan…">
@@ -333,7 +333,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
 <!ENTITY appMenuWebDeveloper.label "Web Developer">
 <!ENTITY appMenuGettingStarted.label "Pagsisimula">
-<!ENTITY appMenuSafeMode.label "I-restart ng Hindi Pinapagana ang Mga Add-on…">
+<!ENTITY appMenuSafeMode.label "Mag-restart nang hindi pinagagana ang mga Add-on…">
 <!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
@@ -380,7 +380,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showOnlyThisFrameCmd.label     "Ipakita Lamang Itong Frame">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY reloadCmd.commandkey         "r">
-<!ENTITY reloadFrameCmd.label         "Ulitin Pag-load sa Frame">
+<!ENTITY reloadFrameCmd.label         "I-reload ang Frame">
 <!ENTITY reloadFrameCmd.accesskey     "R">
 <!ENTITY viewPartialSourceForSelectionCmd.label "Ipakita ang Pinagmulan ng Pinili">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "Ipakita ang Pinagmulan ng MathML">
@@ -568,19 +568,19 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY closeCmd.accesskey             "C">
 
 <!ENTITY pageStyleMenu.label "Estilo ng Pahina">
-<!ENTITY pageStyleMenu.accesskey "y">
+<!ENTITY pageStyleMenu.accesskey "g">
 <!ENTITY pageStyleNoStyle.label "Walang Estilo">
 <!ENTITY pageStyleNoStyle.accesskey "n">
 <!ENTITY pageStylePersistentOnly.label "Basic na Estilo ng Pahina">
 <!ENTITY pageStylePersistentOnly.accesskey "b">
 
-<!ENTITY pageReportIcon.tooltip            "Palitan ang mga pagpipilian sa pagharang ng mga pop-up para sa website na ito">
+<!ENTITY pageReportIcon.tooltip            "Palitan ang mga opsiyon sa pagharang ng mga pop-up para sa website na ito">
 
 <!ENTITY allowPopups.accesskey "p">
 <!-- On Windows we use the term "Options" to describe settings, but
      on Linux and Mac OS X we use "Preferences" - carry that distinction
      over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Baguhin ang Mga Kagustuhan ng Tagaharang ng Pop-up…">
+<!ENTITY editPopupSettingsUnix.label "Baguhin ang mga Preperensiya ng Tagaharang ng Pop-up…">
 <!ENTITY editPopupSettings.label "Baguhin ang mga Opsiyon sa Tagaharang ng Pop-up…">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">

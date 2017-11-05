@@ -12,7 +12,7 @@
 <!ENTITY loading.label                        "Naglo-load…">
 <!ENTITY listEmpty.installed.label            "Wala kang add-on na may ganitong uri na naka-install">
 <!ENTITY listEmpty.availableUpdates.label     "Walang update ang natagpuan">
-<!ENTITY listEmpty.recentUpdates.label        "Hindi ka nag-update ng anumang mga add-on kamakailan lang">
+<!ENTITY listEmpty.recentUpdates.label        "Hindi ka nag-update ng anumang mga add-on kanina">
 <!ENTITY listEmpty.findUpdates.label          "Maghanap ng mga Update">
 <!ENTITY listEmpty.search.label               "Hindi makahanap ng anumang tumugma na mga add-on">
 <!ENTITY listEmpty.button.label               "Matuto nang higit pa tungkol sa mga add-on">
@@ -24,7 +24,7 @@
 <!ENTITY cmd.forward.tooltip                  "Tumuloy ng isa pang pahina">
 
 <!-- global warnings -->
-<!ENTITY warning.safemode.label                    "Lahat ng mga add-on ay hindi pinagana ng safe mode.">
+<!ENTITY warning.safemode.label                    "Ang lahat ng mga add-on ay hindi pinagagana ng safe mode.">
 <!ENTITY warning.checkcompatibility.label          "Hindi pinagagana ang pagsusuri sa add-on compatibility. Posibleng mayroon kang mga incompatible add-on.">
 <!ENTITY warning.checkcompatibility.enable.label   "Paganahin">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Paganahin ang pagsusuri sa compatibility ng mga add-on">
@@ -33,8 +33,8 @@
 <!ENTITY warning.updatesecurity.enable.tooltip     "Paganahin ang pagsusuri sa seguridad ng update ng add-on">
 
 <!-- global informations -->
-<!ENTITY info.plugincheck.label                 "Suriin upang makita kung ang iyong mga plugin ay napapanahon">
-<!ENTITY info.plugincheck.tooltip               "Suriin upang makita kung ang iyong mga plugin ay napapanahon">
+<!ENTITY info.plugincheck.label                 "Suriin upang makita kung ang iyong mga plugin ay up to date">
+<!ENTITY info.plugincheck.tooltip               "Suriin upang makita kung ang iyong mga plugin ay up to date">
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Paghahanap">
@@ -44,9 +44,9 @@
 
 <!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label        "Maghanap ng mga Update">
-<!ENTITY updates.checkForUpdates.accesskey    "C">
-<!ENTITY updates.viewUpdates.label            "Tingnan ang Mga Kamakailang Update">
-<!ENTITY updates.viewUpdates.accesskey        "V">
+<!ENTITY updates.checkForUpdates.accesskey    "M">
+<!ENTITY updates.viewUpdates.label            "Tingnan ang mga Kamakailang Update">
+<!ENTITY updates.viewUpdates.accesskey        "G">
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
@@ -62,12 +62,12 @@
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "R">
 <!ENTITY updates.resetUpdatesToManual.label          "I-reset ang Lahat ng mga Add-on na Mano-manong Mag-update">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "R">
-<!ENTITY updates.updating.label               "Nag-uupdate ng mga add-on">
+<!ENTITY updates.updating.label               "Nag-u-update ng mga add-on">
 <!ENTITY updates.installed.label              "Ang iyong mga add-on ay na-update na.">
-<!ENTITY updates.downloaded.label             "Ang mga update sa mga add-on ay na-download na.">
-<!ENTITY updates.restart.label                "Mag-restart na para makumpleto ang pag-install">
+<!ENTITY updates.downloaded.label             "Ang update sa iyong mga add-on ay na-download na.">
+<!ENTITY updates.restart.label                "Mag-restart na para makompleto ang pag-install">
 <!ENTITY updates.noneFound.label              "Walang update na natagpuan">
-<!ENTITY updates.manualUpdatesFound.label     "Tingnan ang Mga Mayroong Update">
+<!ENTITY updates.manualUpdatesFound.label     "Tingnan ang mga Mayroong Update">
 <!ENTITY updates.updateSelected.label         "Mag-install ng mga Update">
 <!ENTITY updates.updateSelected.tooltip       "I-install ang mga update sa listahan">
 
@@ -78,7 +78,7 @@
 <!ENTITY cmd.findUpdates.accesskey            "M">
 <!ENTITY cmd.preferencesWin.label             "Mga Opsiyon">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
-<!ENTITY cmd.preferencesUnix.label            "Mga Kagustuhan">
+<!ENTITY cmd.preferencesUnix.label            "Mga Preperensiya">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
 <!ENTITY cmd.about.label                      "Tungkol Dito">
 <!ENTITY cmd.about.accesskey                  "T">
@@ -87,14 +87,14 @@
 <!ENTITY cmd.enableAddon.accesskey            "P">
 <!ENTITY cmd.disableAddon.label               "Huwag Paganahin">
 <!ENTITY cmd.disableAddon.accesskey           "H">
-<!ENTITY cmd.enableTheme.label                "Suotin ang Tema">
-<!ENTITY cmd.enableTheme.accesskey            "W">
-<!ENTITY cmd.disableTheme.label               "Itigil ang pagsuot ng Tema">
-<!ENTITY cmd.disableTheme.accesskey           "W">
+<!ENTITY cmd.enableTheme.label                "Gamitin ang Tema">
+<!ENTITY cmd.enableTheme.accesskey            "G">
+<!ENTITY cmd.disableTheme.label               "Itigil ang Paggamit ng Tema">
+<!ENTITY cmd.disableTheme.accesskey           "G">
 <!ENTITY cmd.askToActivate.label              "Itanong kung Papaganahin">
-<!ENTITY cmd.askToActivate.tooltip            "Laging gamitin itong add-on sa bawat oras">
-<!ENTITY cmd.alwaysActivate.label             "Laging Paganahin">
-<!ENTITY cmd.alwaysActivate.tooltip           "Laging gamitin itong add-on">
+<!ENTITY cmd.askToActivate.tooltip            "Palaging itanong kung gagamitin itong add-on">
+<!ENTITY cmd.alwaysActivate.label             "Palaging Paganahin">
+<!ENTITY cmd.alwaysActivate.tooltip           "Palaging gamitin itong add-on">
 <!ENTITY cmd.neverActivate.label              "Huwag Kailanman Paganahin">
 <!ENTITY cmd.neverActivate.tooltip            "Huwag gamitin itong add-on">
 <!ENTITY cmd.stateMenu.tooltip                "Magpalit kapag tumakbo itong add-on">
@@ -102,14 +102,14 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Alisin">
 <!ENTITY cmd.uninstallAddon.accesskey         "A">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "I-debug">
 <!ENTITY cmd.showPreferencesWin.label         "Mga Opsiyon">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Baguhin ang mga opsiyon nitong add-on">
-<!ENTITY cmd.showPreferencesUnix.label        "Mga Kagustuhan">
-<!ENTITY cmd.showPreferencesUnix.tooltip      "Baguhin ang mga preference nitong add-on">
-<!ENTITY cmd.contribute.label                 "Magambag">
+<!ENTITY cmd.showPreferencesUnix.label        "Mga Preperensiya">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "Baguhin ang mga preperensiya nitong add-on">
+<!ENTITY cmd.contribute.label                 "Mag-ambag">
 <!ENTITY cmd.contribute.accesskey             "B">
-<!ENTITY cmd.contribute.tooltip               "Magambag sa development nitong add-on">
+<!ENTITY cmd.contribute.tooltip               "Mag-ambag sa development nitong add-on">
 
 <!ENTITY cmd.showReleaseNotes.label           "Ipakita ang mga Tala sa Release">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Ipakita ang mga tala sa release para update na ito">
@@ -120,19 +120,17 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Ano ang mga Add-on?">
-<!ENTITY discover.description2                "Ang mga add-on ay mga application na hinahayaan kang i-customize ang &brandShortName; ng
- karagdagang functionality o estilo. Sumubok ng time-saving sidebar, isang tagapaghatid ng ulat panahon, o isang themed look para maging sayo ang
- &brandShortName;.">
-<!ENTITY discover.footer                      "Pag konektado ka sa Internet, ipapakita ng pane na ito ang ilan sa pinakamagaganda at sikat na mga add-on para masubukan mo.">
+<!ENTITY discover.description2                "Ang mga add-on ay mga application na hinahayaan kang i-customize ang &brandShortName; ng karagdagang pakinabang o estilo. Subukan ang isang time-saving sidebar, isang tagapaghatid ng ulat panahon, o isang themed look para maging sayo ang &brandShortName;.">
+<!ENTITY discover.footer                      "Kapag konektado ka sa Internet, ipapakita ng pane na ito ang ilan sa pinakamagaganda at sikat na mga add-on para masubukan mo.">
 
 <!-- detail view -->
 <!ENTITY detail.version.label                 "Bersiyon">
 <!ENTITY detail.lastupdated.label             "Huling Na-update">
-<!ENTITY detail.creator.label                 "Nag-develop">
-<!ENTITY detail.homepage.label                "Unang Pahina">
+<!ENTITY detail.creator.label                 "Developer">
+<!ENTITY detail.homepage.label                "Tahanang Pahina">
 <!ENTITY detail.numberOfDownloads.label       "Mga Download">
 
-<!ENTITY detail.contributions.description     "Ang nag-develop nitong add-on ay itinatanong na tulungan mong suportahan ang patuloy na development sa pag-gawa ng maliit na kontribusyon.">
+<!ENTITY detail.contributions.description     "Ang nag-develop nitong add-on ay humihiling na tulungan mong suportahan ang patuloy na development nito sa pag-gawa ng maliit na kontribusyon.">
 
 <!ENTITY detail.updateType                    "Awtomatikong Pag-update">
 <!ENTITY detail.updateDefault.label           "Paunang-tukoy">
@@ -141,19 +139,19 @@
 <!ENTITY detail.updateAutomatic.tooltip       "Awtomatikong mag-install ng mga update">
 <!ENTITY detail.updateManual.label            "Naka-off">
 <!ENTITY detail.updateManual.tooltip          "Huwag awtomatikong mag-install ng mga update">
-<!ENTITY detail.home                          "Unang Pahina">
+<!ENTITY detail.home                          "Tahanang Pahina">
 <!ENTITY detail.repository                    "Add-on Profile">
 <!ENTITY detail.size                          "Sukat">
 
 <!ENTITY detail.checkForUpdates.label         "Maghanap ng mga Update">
-<!ENTITY detail.checkForUpdates.accesskey     "F">
+<!ENTITY detail.checkForUpdates.accesskey     "H">
 <!ENTITY detail.checkForUpdates.tooltip       "Suriin kung mayroong update itong add-on">
 <!ENTITY detail.showPreferencesWin.label      "Mga Opsiyon">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
 <!ENTITY detail.showPreferencesWin.tooltip    "Baguhin ang mga opsiyon nitong add-on">
-<!ENTITY detail.showPreferencesUnix.label     "Mga Preference">
+<!ENTITY detail.showPreferencesUnix.label     "Mga Preperensiya">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Baguhin ang mga preference nitong add-on">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Baguhin ang mga preperensiya nitong add-on">
 
 
 <!-- ratings -->
@@ -166,7 +164,7 @@
 
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Pangalan">
-<!ENTITY sort.name.tooltip                    "Ayusin batay sa pangalan">
+<!ENTITY sort.name.tooltip                    "Ayusin ayon sa pangalan">
 <!ENTITY sort.dateUpdated.label               "Huling Na-update">
 <!ENTITY sort.dateUpdated.tooltip             "Ayusin ayon sa huling na-update">
 <!ENTITY sort.relevance.label                 "Tugmang pinakamaayos">
@@ -176,11 +174,11 @@
 
 <!ENTITY search.filter2.label                 "Hanapin:">
 <!ENTITY search.filter2.installed.label       "Aking Mga Add-on">
-<!ENTITY search.filter2.installed.tooltip     "Ipakita ang mga naka-install na add-on">
-<!ENTITY search.filter2.available.label       "Mga Magagamit na Add-on">
+<!ENTITY search.filter2.installed.tooltip     "Ipakita ang naka-install na mga add-on">
+<!ENTITY search.filter2.available.label       "Magagamit na mga Add-on">
 <!ENTITY search.filter2.available.tooltip     "Ipakita ang mga add-on na maaaring i-install">
 
-<!ENTITY addon.homepage                       "Unang Pahina">
+<!ENTITY addon.homepage                       "Tahanang Pahina">
 <!ENTITY addon.details.label                  "Karagdagan">
 <!ENTITY addon.details.tooltip                "Magpakita ng mga detalye tungkol sa add-on na ito">
 <!ENTITY addon.unknownDate                    "Hindi Kilala">

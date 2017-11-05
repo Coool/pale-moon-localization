@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutSupport.pageTitle "Troubleshooting Information">
+<!ENTITY aboutSupport.pageTitle "Інформація для вирішення проблем">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-  This page contains technical information that might be useful when you're
-  trying to solve a problem. If you are looking for answers to common questions
-  about &brandShortName;, check out our <a id='supportLink'>support website</a>.
+   Ця сторінка містить технічну інформацію, яка може бути корисна, коли ви намагаєтеся вирішити проблему. Якщо ви шукаєте відповіді на типові питання про &brandShortName;, зверніться на наш <a id='supportLink'>веб-сайт підтримки</a>.
 ">
 
 <!ENTITY aboutSupport.crashes.title "Звіти про збої">
@@ -16,8 +14,8 @@
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "Ідентифікатор повідомлення">
 <!ENTITY aboutSupport.crashes.sendDate "Надіслано">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.allReports "Всі звіти про падіння">
+<!ENTITY aboutSupport.crashes.noConfig "Ця програма не була налаштована на відображення звітів про падіння.">
 
 <!ENTITY aboutSupport.extensionsTitle "Розширення">
 <!ENTITY aboutSupport.extensionName "Ім'я">
@@ -25,7 +23,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Версія">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentsTitle "Експериментальні можливості">
 <!ENTITY aboutSupport.experimentName "Ім'я">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Опис">
@@ -34,7 +32,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentHomepage "Домашня сторінка">
 
 
-<!ENTITY aboutSupport.appBasicsTitle "Application Basics">
+<!ENTITY aboutSupport.appBasicsTitle "Відомості про застосунок">
 <!ENTITY aboutSupport.appBasicsName "Ім'я">
 <!ENTITY aboutSupport.appBasicsVersion "Версія">
 <!ENTITY aboutSupport.appBasicsBuildID "ID збірки">
@@ -45,19 +43,19 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Оновлення історії">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Показати історію оновлень">
 
-<!ENTITY aboutSupport.appBasicsProfileDir "Profile Directory">
+<!ENTITY aboutSupport.appBasicsProfileDir "Каталог профілю">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "Тека профілю">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "Enabled Plugins">
-<!ENTITY aboutSupport.appBasicsBuildConfig "Build Configuration">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "Увімкнені плагіни">
+<!ENTITY aboutSupport.appBasicsBuildConfig "Конфігурація збірки">
 <!ENTITY aboutSupport.appBasicsUserAgent "Агент користувача">
 <!ENTITY aboutSupport.appBasicsOS "ОС">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Використання пам'яті">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Багатопроцесні вікна">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Безпечний режим">
 
@@ -70,34 +68,34 @@ variant of aboutSupport.showDir.label.  This allows us to use the preferred
 variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.showWin.label "Показати теку">
 
-<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Important Modified Preferences">
+<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Важливі змінені налаштування">
 <!ENTITY aboutSupport.modifiedPrefsName "Ім'я">
 <!ENTITY aboutSupport.modifiedPrefsValue "Значення">
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
-<!ENTITY aboutSupport.userJSTitle "user.js Preferences">
-<!ENTITY aboutSupport.userJSDescription "Your profile folder contains a <a id='prefs-user-js-link'>user.js file</a>, which includes preferences that were not created by &brandShortName;.">
+<!ENTITY aboutSupport.userJSTitle "Налаштування user.js">
+<!ENTITY aboutSupport.userJSDescription "В папці вашого профілю знаходиться <a id='prefs-user-js-link'>файл user.js</a>, в якому містяться налаштування, не зроблені &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Важливі заблоковані налаштування">
 <!ENTITY aboutSupport.lockedPrefsName "Ім’я">
 <!ENTITY aboutSupport.lockedPrefsValue "Значення">
 
 <!ENTITY aboutSupport.graphicsTitle "Графіка">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
+<!ENTITY aboutSupport.placeDatabaseTitle "База даних Places">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Цілісність">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Перевірити цілісність">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
-<!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
+<!ENTITY aboutSupport.jsIncrementalGC "Інкрементальний GC">
 
 <!ENTITY aboutSupport.a11yTitle "Спеціальні можливості">
 <!ENTITY aboutSupport.a11yActivated "Активоване">
-<!ENTITY aboutSupport.a11yForceDisabled "Prevent Accessibility">
+<!ENTITY aboutSupport.a11yForceDisabled "Вимкнення спеціальних можливостей">
 
-<!ENTITY aboutSupport.libraryVersionsTitle "Library Versions">
+<!ENTITY aboutSupport.libraryVersionsTitle "Версії бібліотек">
 
-<!ENTITY aboutSupport.installationHistoryTitle "Installation History">
+<!ENTITY aboutSupport.installationHistoryTitle "Журнал встановлення">
 <!ENTITY aboutSupport.updateHistoryTitle "Історія оновлень">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Скопіювати в буфер обміну">
@@ -109,4 +107,4 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.restartInSafeMode.label "Перезавантажити з вимкненими додатками…">
 
 <!ENTITY aboutSupport.restartTitle "Спробувати перезавантажити">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartNormal.label "Виконати звичайний перезапуск…">
