@@ -11,15 +11,12 @@
 <!ENTITY  pluginupdateslink.label         "See how to upgrade your plugins.">
 
 <!ENTITY  noupdatesfound.title            "No Updates Found">
-<!ENTITY  noupdatesautoenabled.intro      "There are no updates available. &brandShortName; will check
-                                           periodically for updates.">
-<!ENTITY  noupdatesautodisabled.intro     "There are no updates available. Please check again later or enable
-                                           &brandShortName;'s automatic update checking.">
+<!ENTITY  noupdatesautoenabled.intro      "Оновлення відсутні. &brandShortName; буде періодично перевіряти наявність оновлень.">
+<!ENTITY  noupdatesautodisabled.intro     "Оновлення відсутні. Будь ласка, перевірте пізніше, або увімкніть в &brandShortName; функцію автоматичної перевірки наявності оновлень.">
 
 <!ENTITY  manualUpdate.title              "Unable to Update">
 <!ENTITY  manualUpdate.desc               "З'явилося оновлення, що підвищує безпеку і стабільність роботи, але у вас недостатньо прав, необхідних для його встановлення. Будь ласка, зв'яжіться зі своїм системним адміністратором або спробуйте провести оновлення з правами облікового запису, що має дозвіл на установку програмного забезпечення на цьому комп'ютері.">
-<!ENTITY  manualUpdate.space.desc         "A recommended security and stability update is available, but you do
-                                           not have enough space to install it.">
+<!ENTITY  manualUpdate.space.desc         "З'явилося оновлення, що підвищує безпеку і стабільність роботи, але у вас недостатньо місця на диску для його встановлення.">
 <!ENTITY  manualUpdateGetMsg.label        "You can always get the latest version of &brandShortName; at:">
 
 <!ENTITY  unsupported.title               "System Unsupported">
@@ -31,11 +28,9 @@
 
 <!ENTITY  clickHere.label                 "View more information about this update">
 
-<!ENTITY  evangelism.desc                 "It is strongly recommended that you apply this 
-                                           update for &brandShortName; as soon as possible.">
+<!ENTITY  evangelism.desc                 "Наполегливо рекомендується якомога швидше застосувати це оновлення до &brandShortName;.">
 
-<!ENTITY  license.instructions            "If you agree to the terms of this agreement, click I Agree 
-                                           below to continue installing this update.">
+<!ENTITY  license.instructions            "Якщо ви згодні з умовами цього ліцензійної угоди, виберіть нижче «Я згоден» для продовження встановлення цього оновлення.">
 
 <!ENTITY  license.titleText               "Software License Agreement">
 <!ENTITY  license.introText               "Terms and conditions for using this software.">
@@ -60,11 +55,9 @@
 
 <!ENTITY  error.label                     "При перевірці, завантаженні або установці цього оновлення виникли проблеми. &brandShortName; не був оновлений через наступні причини:">
                                            
-<!ENTITY  errorManual.label               "You can update &brandShortName; manually by visiting this link
-                                           and downloading the latest version:">
+<!ENTITY  errorManual.label               "Ви можете оновити &brandShortName; вручну, перейшовши за наступним посиланням і завантаживши його останню версію:">
                                            
-<!ENTITY  errorpatching.intro             "The partial Update could not be applied. 
-                                           &brandShortName; will try again by downloading a complete Update.">
+<!ENTITY  errorpatching.intro             "Часткове оновлення не може бути встановлено. &brandShortName; спробуєте встановити оновлення, завантаживши повне оновлення.">
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; не може визначити, чи доступне оновлення. Будь ласка, переконайтеся, що у вас встановлена остання версія &brandShortName; з сайту:">
 <!ENTITY  errorCertAttrNoUpdate2.label    "Щось не дає &brandShortName; провести безпечне оновлення. Будь ласка, переконайтеся, що у вас встановлена остання версія &brandShortName; з сайту:">
@@ -73,8 +66,7 @@
 <!ENTITY  finishedPage.title              "Update Ready to Install">
 <!ENTITY  finishedPage.text               "Оновлення буде встановлено під час наступного запуску &brandShortName;. Ви можете перезапустити &brandShortName; прямо зараз, або продовжити роботу і перезапустити його пізніше.">
 
-<!ENTITY  finishedBackgroundPage.text     "A security and stability update for &brandShortName; has been
-                                           downloaded and is ready to be installed.">
+<!ENTITY  finishedBackgroundPage.text     "Оновлення стабільності та безпеки для &brandShortName; успішно завантажено і готово для встановлення.">
 <!ENTITY  finishedBackground.name         "Оновлення:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "Оновлення буде встановлено під час наступного запуску &brandShortName;. Ви можете перезапустити &brandShortName; прямо зараз, або продовжити роботу і перезапустити його пізніше.">

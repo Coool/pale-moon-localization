@@ -3,11 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  pageInfoWindow.width  "600">
-<!ENTITY  pageInfoWindow.height "500">
+<!ENTITY  pageInfoWindow.height "650">
 
 <!ENTITY  copy.key              "C">
 <!ENTITY  copy.label            "Kopyahin">
-<!ENTITY  copy.accesskey        "C">
+<!ENTITY  copy.accesskey        "K">
 <!ENTITY  selectall.key         "A">
 <!ENTITY  selectall.label       "Piliin Lahat">
 <!ENTITY  selectall.accesskey   "A">
@@ -16,13 +16,13 @@
 <!ENTITY  generalTab            "Pangkalahatan">
 <!ENTITY  generalTab.accesskey  "G">
 <!ENTITY  generalURL            "Address:">
-<!ENTITY  generalType           "Uri:">
+<!ENTITY  generalType           "Tipo:">
 <!ENTITY  generalMode           "Render Mode:">
-<!ENTITY  generalSize           "Laki:">
+<!ENTITY  generalSize           "Sukat:">
 <!ENTITY  generalReferrer       "Pinanggalingang URL:">
 <!ENTITY  generalSource         "Pinagmulan ng Cache:">
 <!ENTITY  generalModified       "Nabago:">
-<!ENTITY  generalEncoding       "Pagka-enkode:">
+<!ENTITY  generalEncoding       "Encoding:">
 <!ENTITY  generalMetaName       "Pangalan">
 <!ENTITY  generalMetaContent    "Nilalaman">
 <!ENTITY  generalSecurityDetails   "Mga Detalye">
@@ -34,10 +34,10 @@
 <!ENTITY  mediaText             "Kaugnay na Teksto:">
 <!ENTITY  mediaAltHeader        "Alternatibong Teksto">
 <!ENTITY  mediaAddress          "Address">
-<!ENTITY  mediaType             "Uri">
-<!ENTITY  mediaSize             "Laki">
+<!ENTITY  mediaType             "Tipo">
+<!ENTITY  mediaSize             "Sukat">
 <!ENTITY  mediaCount            "Bilang">
-<!ENTITY  mediaDimension        "Mga sukat:">
+<!ENTITY  mediaDimension        "Mga Dimensiyon:">
 <!ENTITY  mediaLongdesc         "Mahabang Paglalarawan:">
 <!ENTITY  mediaBlockImage.accesskey "B">
 <!ENTITY  mediaSaveAs           "I-save bilang…">
@@ -52,11 +52,11 @@
 
 <!ENTITY  permTab                    "Mga Pahintulot">
 <!ENTITY  permTab.accesskey          "P">
-<!ENTITY  permUseDefault             "Gamitin ang paunang-tukoy">
+<!ENTITY  permUseDefault             "Gamitin ang Paunang-tukoy">
 <!ENTITY  permAskAlways              "Palaging itanong">
 <!ENTITY  permAllow                  "Payagan">
 <!ENTITY  permAllowSession           "Payagan para sa Sesyon">
-<!ENTITY  permAllowFirstPartyOnly    "Payagan ang Unang Partido Lamang">
+<!ENTITY  permAllowFirstPartyOnly    "Payagan ang Unang Party Lamang">
 <!ENTITY  permBlock                  "Harangin">
 <!ENTITY  permissionsFor             "Mga Pahintulot para sa:">
 <!ENTITY  permImage                  "Mag-load ng mga larawan">
@@ -70,14 +70,14 @@
 <!ENTITY  permPointerLock2           "Itago ang Panturo ng Mouse">
 
 <!ENTITY  permIndexedDB              "Magpanatili ng Lokal na Imbakan">
-<!ENTITY  permClearStorage           "Burahin ang Imbakan">
-<!ENTITY  permClearStorage.accesskey "C">
+<!ENTITY  permClearStorage           "Burahin ang Laman ng Imbakan">
+<!ENTITY  permClearStorage.accesskey "L">
 
 <!ENTITY  securityTab           "Seguridad">
 <!ENTITY  securityTab.accesskey "S">
 <!ENTITY  securityHeader        "Impormasyon sa seguridad para sa pahinang ito">
 <!ENTITY  securityView.certView "Tingnan ang Sertipiko">
-<!ENTITY  securityView.accesskey "V">
+<!ENTITY  securityView.accesskey "R">
 <!ENTITY  securityView.unknown   "Hindi Kilala">
 
 
@@ -92,7 +92,7 @@
 <!ENTITY  securityView.privacy.viewCookies              "Tingnan ang mga Cookie">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
 <!ENTITY  securityView.privacy.passwords                "Nag-save ba ako ng mga password para sa website na ito?">
-<!ENTITY  securityView.privacy.viewPasswords            "Tingnan ang mga Naka-save na Password">
+<!ENTITY  securityView.privacy.viewPasswords            "Tingnan ang Naka-save na mga Password">
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "w">
 
 <!ENTITY  securityView.technical.header                 "Mga Detalyeng Teknikal">

@@ -73,7 +73,7 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
-<!ENTITY options.enableChrome.tooltip2  "Turning this option on will allow you to use various developer tools in browser context and debug add-ons from the Add-ons Manager">
+<!ENTITY options.enableChrome.tooltip2  "Увімкнення цієї опції дозволить вам використовувати різні інструменти розробника в контексті браузера і налагоджувати додатки з вікна Управління додатками">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -85,7 +85,7 @@
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
 <!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
-<!ENTITY options.disableJavaScript.tooltip   "Turning this option on will disable JavaScript for the current tab. If the tab or the toolbox is closed then this setting will be forgotten.">
+<!ENTITY options.disableJavaScript.tooltip   "Включення цієї опції приведе до відключення JavaScript для поточної вкладки. Якщо вкладка або панель інструментів будуть закриті, то цей параметр буде забутий.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
@@ -163,7 +163,7 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
-<!ENTITY options.enablePersistentLogs.tooltip  "If you enable this option the Web Console and Network Monitor will not clear the output each time you navigate to a new page">
+<!ENTITY options.enablePersistentLogs.tooltip  "Якщо ви активуйте цю опцію, то Веб-консоль і Мережевий монітор неможливо очищати висновок при кожному переході на нову сторінку">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
