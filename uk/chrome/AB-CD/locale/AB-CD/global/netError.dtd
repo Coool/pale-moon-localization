@@ -10,7 +10,7 @@
 <!ENTITY connectionFailure.title "Невдала спроба з’єднання">
 <!ENTITY connectionFailure.longDesc "<p>Браузеру не вдалося встановити з'єднання з зазначеним сайтом, хоча той, швидше за все, існує.</p><ul><li>Можливо, сайт тимчасово недоступний, в цьому випадку зачекайте деякий час і спробуйте знову.</li><li>Якщо вам не вдалося відкрити інші сайти, перевірте налаштування з'єднання комп'ютера з мережею.</li><li>Якщо ваш комп'ютер або локальна мережа захищені фаєрволом або проксі-сервером, перевірте їх, так як неправильні налаштування можуть перешкодити перегляду веб-сайтів.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
+<!ENTITY deniedPortAccess.title "З метою безпеки звернення до порту було заблоковано">
 <!ENTITY deniedPortAccess.longDesc "<p>Для запитуваної адреси вказано порт (приклад: <q>palemoon.org:25</q> цей порт 25 на сайті palemoon.org) який, як правило, <em>не використовується</em> для роботи з веб-сайтами. З метою безпеки браузер скасував даний запит.</p>">
 
 <!ENTITY dnsNotFound.title "Address Not Found">
@@ -20,7 +20,7 @@
 <!ENTITY fileNotFound.longDesc "<ul><li>Можливо, файл був перейменований, видалений або переміщений?</li><li> Перевірте, чи не припустилися ви у імені файлу орфографічну помилку, невірно вказали регістр або зробили ще якусь помилку в адресі.</li><li>Перевірте, чи є у вас достатньо прав для перегляду даного файлу.</li></ul>">
 
 <!ENTITY generic.title "Cannot Complete Request">
-<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
+<!ENTITY generic.longDesc "<p>Додаткова інформація про цю помилку в даний час недоступна.</p>">
 
 <!ENTITY malformedURI.title "Invalid Address">
 <!ENTITY malformedURI.longDesc "<p>Синтаксис зазначеної адреси некоректний. Перевірте адресу на наявність помилок і спробуйте знову.</p>">
@@ -40,12 +40,12 @@
 <!ENTITY unsafeContentType.title "Unsafe File Type">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Please contact the website owners to inform them of this problem.</li>
+   <li>Будь ласка, зв'яжіться з власниками веб-сайту, щоб проінформувати їх про цю проблему.</li>
 </ul>
 ">
 
 <!ENTITY netReset.title "Connection Interrupted">
-<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
+<!ENTITY netReset.longDesc "<p>Зв'язок з сайтом було обірване на етапі встановлення з'єднання. Будь ласка, спробуйте знову.</p>">
 
 <!ENTITY netTimeout.title "Network Timeout">
 <!ENTITY netTimeout.longDesc "<p>Минув час очікування під час спроби з'єднатися із зазначеним сайтом.</p><ul><li>Можливо, сервер сайту перевантажений або тимчасово недоступний. Почекайте деякий час і спробуйте знову.</li><li>Якщо вам не вдалося відкрити інші сайти, перевірте налаштування з'єднання комп'ютера з мережею.</li><li>Якщо ваш комп'ютер або локальна мережа захищені фаєрволом або проксі-сервером, перевірте їх, так як неправильні налаштування можуть завадити перегляду веб-сайтів.</li><li>Якщо у вас є інші проблеми, проконсультуйтеся з вашим системним адміністратором або Інтернет-провайдером.</li></ul>">
@@ -53,7 +53,7 @@
 <!ENTITY unknownProtocolFound.title "Невідомий протокол">
 <!ENTITY unknownProtocolFound.longDesc "<p>Адреса починається з протоколу, невідомого браузеру (типу <q>wxyz://</q>), тому браузер не може з'єднатися з сайтом.</p><ul><li>Якщо ви з'єднуєтеся з сайтом, на якому є мультимедіа або інші нетекстові сервіси, перевірте вимоги сайту до необхідного програмного забезпечення.</li><li>Деякі протоколи можуть вимагати встановлення стороннього програмного забезпечення або плагінів для браузера перед тим, як браузер зможе їх розпізнати.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
+<!ENTITY proxyConnectFailure.title "Проксі-сервер відмовив в з'єднанні">
 <!ENTITY proxyConnectFailure.longDesc "<p>Браузер налаштований на використання проксі-сервера, проте проксі-сервер відмовив у з'єднанні.</p><ul><li>Перевірте налаштування проксі-сервера в браузері і спробуйте знову.</li><li> Перевірте, чи дозволяє проксі-сервер з'єднання з цієї мережі.</li><li>Якщо у вас є інші проблеми, проконсультуйтеся з вашим системним адміністратором або Інтернет-провайдером.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
@@ -63,12 +63,12 @@
 <!ENTITY redirectLoop.longDesc "<p>Браузер припинив спроби завантаження сторінки, так як сайт перенаправляє запит таким чином, що він ніколи не завершиться.</p><ul><li>Можливо, ви вимкнули або заблокували куки, що вимагаються цим сайтом.</li><li><em>Примітка</em>: Якщо дозвіл прийняття кук сайту не вирішує проблему, то, цілком ймовірно, це проблема на сервері, а не на вашому комп'ютері.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Incorrect Response">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.longDesc "<p>Сайт відповів на запит несподіваним чином і браузер не може обробити його відповідь.</p>">
 
-<!ENTITY nssFailure2.title "Secure Connection Failed">
+<!ENTITY nssFailure2.title "Помилка при встановленні захищеного з'єднання">
 <!ENTITY nssFailure2.longDesc2 "<p>Сторінка, яку ви намагаєтеся переглянути, не може бути відображена, так як достовірність отриманих даних не можливо перевірити.</p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту і проінформуйте їх про цю проблему.</li></ul>">
 
-<!ENTITY nssBadCert.title "Secure Connection Failed">
+<!ENTITY nssBadCert.title "Помилка при встановленні захищеного з'єднання">
 <!ENTITY nssBadCert.longDesc2 "<ul>
 <li>Це може бути проблемою з конфігурацією сервера або ж хтось намагається підмінити потрібний вам сервер іншим.</li>
 <li>Якщо раніше ви успішно з'єднувалися з цим сервером, то, можливо, ця помилка є тимчасовою. Спробуйте зайти пізніше.</li>
@@ -87,14 +87,14 @@
 <p>Подібні типи веб-сайтів використовуються в шахрайстві, відомих як фішингові атаки, при яких підроблені веб-сторінки і поштові повідомлення використовуються для імітації джерел, яким ви можете довіряти.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
+<!ENTITY cspBlocked.title "Заблоковано політикою захисту вмісту">
 <!ENTITY cspBlocked.longDesc "<p>Браузер заблокував даний спосіб завантаження цієї сторінки, тому що сторінка має політику захисту вмісту, яка це забороняє.</p>">
 
 <!ENTITY corruptedContentError.title "Corrupted Content Error">
 <!ENTITY corruptedContentError.longDesc "<p>Сторінка, яку ви намагаєтеся переглянути, не може бути показана, так як була виявлена помилка при передачі даних.</p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту і проінформуйте їх про цю проблему.</li></ul>">
 
 <!ENTITY remoteXUL.title "Віддалений XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту, щоб проінформувати їх про цю проблему.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

@@ -31,7 +31,7 @@
 
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in the Web
    - Console context menu. -->
-<!ENTITY saveBodies.label     "Log Request and Response Bodies">
+<!ENTITY saveBodies.label     "Зберігати в лог вміст запиту і відповіді">
 <!ENTITY saveBodies.accesskey "L">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
@@ -53,13 +53,13 @@
   -  for editing commands in text inputs. -->
 <!ENTITY btnPageNet.accesskeyMacOSX "t">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
+<!ENTITY btnPageCSS.tooltip2 "Вести лог помилок і попереджень CSS">
 <!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
 <!ENTITY btnPageJS.tooltip  "Log JavaScript exceptions">
 <!ENTITY btnPageJS.accesskey  "J">
 <!ENTITY btnPageSecurity.label "Безпека">
-<!ENTITY btnPageSecurity.tooltip "Log security errors and warnings">
+<!ENTITY btnPageSecurity.tooltip "Вести лог помилок і попереджень захисту">
 <!ENTITY btnPageSecurity.accesskey "u">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
@@ -67,7 +67,7 @@
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
 <!ENTITY btnPageLogging.label   "Журнал">
-<!ENTITY btnPageLogging.tooltip "Log messages sent to the window.console object">
+<!ENTITY btnPageLogging.tooltip "Повідомлення логу надіслані в об'єкт window.console">
 <!ENTITY btnPageLogging.accesskey3 "L">
 <!ENTITY btnConsoleErrors       "Помилки">
 <!ENTITY btnConsoleInfo         "Інфо">
@@ -78,7 +78,7 @@
 
 <!ENTITY filterOutput.placeholder "Вивід фільтра">
 <!ENTITY btnClear.label        "Очистити">
-<!ENTITY btnClear.tooltip      "Clear the Web Console output">
+<!ENTITY btnClear.tooltip      "Очистити вивід веб-консолі">
 <!ENTITY btnClear.accesskey    "r">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">

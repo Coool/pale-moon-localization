@@ -24,7 +24,7 @@
 <!ENTITY projectMenu_remove_accesskey "R">
 <!ENTITY projectMenu_showPrefs_label "Налаштування">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
-<!ENTITY projectMenu_manageComponents_label "Manage Extra Components">
+<!ENTITY projectMenu_manageComponents_label "Управління додатковими компонентами">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
 
 <!ENTITY runtimeMenu_label "Runtime">
@@ -116,24 +116,24 @@
 <!ENTITY prefs_editor_title "Редактор">
 <!ENTITY prefs_general_title "Загальне">
 <!ENTITY prefs_restore "Restore Defaults">
-<!ENTITY prefs_manage_components "Manage Extra Components">
-<!ENTITY prefs_options_autoconnectruntime "Reconnect to previous runtime">
-<!ENTITY prefs_options_autoconnectruntime_tooltip "Reconnect to previous runtime when WebIDE starts">
+<!ENTITY prefs_manage_components "Управління додатковими компонентами">
+<!ENTITY prefs_options_autoconnectruntime "Знову підключитися до попереднього runtime">
+<!ENTITY prefs_options_autoconnectruntime_tooltip "При запуску WebIDE знову підключитися до попереднього runtime">
 <!ENTITY prefs_options_rememberlastproject "Remember last project">
-<!ENTITY prefs_options_rememberlastproject_tooltip "Restore previous project when WebIDE starts">
+<!ENTITY prefs_options_rememberlastproject_tooltip "Відновлювати останній проект при запуску WebIDE">
 <!ENTITY prefs_options_templatesurl "URL шаблонів">
-<!ENTITY prefs_options_templatesurl_tooltip "Index of available templates">
+<!ENTITY prefs_options_templatesurl_tooltip "Індекс доступних шаблонів">
 <!ENTITY prefs_options_showeditor "Показувати редактор">
 <!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
 <!ENTITY prefs_options_tabsize "Розмір вкладки">
 <!ENTITY prefs_options_expandtab "Мягка табуляція">
-<!ENTITY prefs_options_expandtab_tooltip "Use spaces instead of the tab character">
+<!ENTITY prefs_options_expandtab_tooltip "Використовувати пробіли замість символу табуляції">
 <!ENTITY prefs_options_detectindentation "Автовідступи">
-<!ENTITY prefs_options_detectindentation_tooltip "Guess indentation based on source content">
+<!ENTITY prefs_options_detectindentation_tooltip "Вгадувати стиль відступів на основі вмісту початкових кодів">
 <!ENTITY prefs_options_autocomplete "Автозаповнення">
 <!ENTITY prefs_options_autocomplete_tooltip "Enable code autocompletion">
 <!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
-<!ENTITY prefs_options_autoclosebrackets_tooltip "Automatically insert closing brackets">
+<!ENTITY prefs_options_autoclosebrackets_tooltip "Автоматично вставляти закриваючі дужки">
 <!ENTITY prefs_options_keybindings "Комбінації клавіш">
 <!ENTITY prefs_options_keybindings_default "За замовчуванням">
 
@@ -145,10 +145,10 @@
 <!ENTITY runtimedetails_title "Відомості про Runtime">
 <!ENTITY runtimedetails_adbIsRoot "ADB це root: ">
 <!ENTITY runtimedetails_summonADBRoot "пристрій root">
-<!ENTITY runtimedetails_ADBRootWarning "(requires unlocked bootloader)">
-<!ENTITY runtimedetails_unrestrictedPrivileges "Unrestricted DevTools privileges: ">
+<!ENTITY runtimedetails_ADBRootWarning "(вимагає незаблокованого завантажувача)">
+<!ENTITY runtimedetails_unrestrictedPrivileges "Необмежені права DevTools: ">
 <!ENTITY runtimedetails_requestPrivileges "request higher privileges">
-<!ENTITY runtimedetails_privilegesWarning "(Will reboot device. Requires root access.)">
+<!ENTITY runtimedetails_privilegesWarning "(Перезавантажити пристрій. Вимагає root-доступу.)">
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "Логічне">
