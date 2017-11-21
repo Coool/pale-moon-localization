@@ -14,13 +14,13 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
 <!ENTITY netmonitorUI.perfNotice1         "• Клікніть по">
-<!ENTITY netmonitorUI.perfNotice2         "button to start performance analysis.">
+<!ENTITY netmonitorUI.perfNotice2         ", щоб запустити аналіз продуктивності.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
 <!ENTITY netmonitorUI.reloadNotice1       "• Perform a request or">
 <!ENTITY netmonitorUI.reloadNotice2       "Оновити">
-<!ENTITY netmonitorUI.reloadNotice3       "the page to see detailed information about network activity.">
+<!ENTITY netmonitorUI.reloadNotice3       "сторінку, щоб побачити детальну інформацію про мережеву активність.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.status2): This is the label displayed
   -  in the network table toolbar, above the "status" column. -->
@@ -134,7 +134,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
-<!ENTITY netmonitorUI.footer.perf   "Toggle performance analysis…">
+<!ENTITY netmonitorUI.footer.perf   "Показати/приховати аналіз продуктивності…">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
@@ -146,7 +146,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.method): This is the label displayed
   -  in the network details headers tab identifying the method. -->
-<!ENTITY netmonitorUI.summary.method      "Request method:">
+<!ENTITY netmonitorUI.summary.method      "Метод запиту:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.address): This is the label displayed
   -  in the network details headers tab identifying the remote address. -->
@@ -212,11 +212,11 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.protocol): A tooltip
   -  for warning icon that indicates a connection uses insecure protocol. -->
-<!ENTITY netmonitorUI.security.warning.sslv3      "The protocol SSL 3.0 is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.sslv3      "Протокол SSL 3.0 є застарілим і небезпечним.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.warning.cipher): A tooltip
   -  for warning icon that indicates a connection uses insecure cipher suite. -->
-<!ENTITY netmonitorUI.security.warning.cipher     "The cipher used for encryption is deprecated and insecure.">
+<!ENTITY netmonitorUI.security.warning.cipher     "Шифр, використаний для шифрування, є застарілим і небезпечним.">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.security.error): This is the label displayed
   -  in the security tab if a security error prevented the connection. -->
@@ -293,7 +293,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Request headers:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "Заголовки запиту:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
@@ -319,7 +319,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "Request Headers:">
+<!ENTITY netmonitorUI.custom.headers      "Заголовки запиту:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->

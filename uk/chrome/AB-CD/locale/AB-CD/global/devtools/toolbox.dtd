@@ -21,7 +21,7 @@
 <!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
   -  the iframes menu list that appears only when the document has some.
   -  It allows you to switch the context of the whole toolbox. -->
-<!ENTITY toolboxFramesTooltip          "Select an iframe as the currently targeted document">
+<!ENTITY toolboxFramesTooltip          "Виберіть iframe в якості поточного цільового документу">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
@@ -35,7 +35,7 @@
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
 <!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
-<!ENTITY options.showUserAgentStyles.tooltip "Turning this on will show default styles that are loaded by the browser.">
+<!ENTITY options.showUserAgentStyles.tooltip "Увімкнення цього призведе до відображення стилів за замовчуванням, завантажених браузером.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
@@ -67,19 +67,19 @@
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Current session only, reloads the page">
+<!ENTITY options.context.triggersPageRefresh  "* Тільки поточна сесія, перезавантажує сторінку">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label4    "Enable chrome and add-on debugging">
+<!ENTITY options.enableChrome.label4    "Ввімкнути налагодження chrome і додатків">
 <!ENTITY options.enableChrome.tooltip2  "Увімкнення цієї опції дозволить вам використовувати різні інструменти розробника в контексті браузера і налагоджувати додатки з вікна Управління додатками">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Enable remote debugging">
-<!ENTITY options.enableRemote.tooltip   "Turning this option on will allow the developer tools to debug remote Firefox instance like Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Увімкнення цієї опції дозволить використовувати інструменти розробника для налагодження віддаленого примірника Firefox, такого як Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -90,19 +90,19 @@
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
-<!ENTITY options.disableCache.label2     "Disable Cache (when toolbox is open)">
-<!ENTITY options.disableCache.tooltip2   "Turning this option on will disable the cache for all tabs that have the toolbox open.">
+<!ENTITY options.disableCache.label2     "Вимкнути кеш (коли відкрита панель інструментів)">
+<!ENTITY options.disableCache.tooltip2   "Увімкнення цієї опції відключить кеш для всіх вкладок, в яких відкрита панель інструментів.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Default Pale Moon Developer Tools">
+<!ENTITY options.selectDefaultTools.label     "Інструменти розробника Pale Moon за замовчуванням">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
-<!ENTITY options.selectAdditionalTools.label  "Developer Tools installed by add-ons">
+<!ENTITY options.selectAdditionalTools.label  "Інструменти розробника встановлені додатками">
 
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
@@ -112,7 +112,7 @@
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
   -  for the target of the toolbox. -->
-<!ENTITY options.toolNotSupported.label  "* Not supported for current toolbox target">
+<!ENTITY options.toolNotSupported.label  "* Не підтримується для поточної мети інструменту">
 
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label2): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
@@ -121,8 +121,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Use Developer Edition browser theme">
-<!ENTITY options.usedeveditiontheme.tooltip "Toggles the Developer Edition browser theme.">
+<!ENTITY options.usedeveditiontheme.label   "Використовувати тему браузера Developer Edition">
+<!ENTITY options.usedeveditiontheme.tooltip "Перемикає використання теми браузера Developer Edition.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -131,7 +131,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "Enable timestamps">
-<!ENTITY options.timestampMessages.tooltip    "If you enable this option commands and output in the Web Console will display a timestamp">
+<!ENTITY options.timestampMessages.tooltip    "Якщо ви активуйте це налаштування, команди і вивід в Веб-консолі будуть супроводжуватися мітками часу">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -141,12 +141,12 @@
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label      "Show original sources">
-<!ENTITY options.stylesheetSourceMaps.tooltip    "Show original sources (e.g. Sass files) in the Style Editor and Inspector">
+<!ENTITY options.stylesheetSourceMaps.tooltip    "Показувати оригінальні вихідні коди (напр. Файли Sass) в редакторі стилів і Інспекторі">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
-<!ENTITY options.stylesheetAutocompletion.label      "Autocomplete CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocomplete CSS properties, values and selectors in Style Editor as you type">
+<!ENTITY options.stylesheetAutocompletion.label      "Автодоповнення CSS">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Автодоповнення властивостей, значень і селекторів CSS в редакторі Стилів під час набору">
 
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
@@ -170,19 +170,18 @@
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
 <!ENTITY options.showPlatformData.label    "Show Goanna platform data">
-<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
-Goanna platform symbols">
+<!ENTITY options.showPlatformData.tooltip  "Якщо ви включите цю настройку, то звіти Профайлера JavaScript будуть включати символи платформи Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
 <!ENTITY options.sourceeditor.label                     "Editor Preferences">
 <!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Guess indentation based on source content">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Вгадувати стиль відступів на основі вмісту початкових кодів">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
-<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
+<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Автоматично вставляти закриваючі дужки">
 <!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Use spaces instead of the tab character">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Використовувати пробіли замість символу табуляції">
 <!ENTITY options.sourceeditor.tabsize.label             "Розмір вкладки">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
 <!ENTITY options.sourceeditor.keybinding.label          "Комбінації клавіш">

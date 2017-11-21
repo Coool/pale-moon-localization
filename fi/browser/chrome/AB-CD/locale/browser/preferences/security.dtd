@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  addons.label                  "Add-ons">
+<!ENTITY  addons.label                  "Lisäosat">
 
 <!ENTITY  warnAddonInstall.label        "Varoita, kun sivustot yrittävät asentaa lisäosia">
 <!ENTITY  warnAddonInstall.accesskey    "V">
@@ -23,11 +23,11 @@
 <!ENTITY  addonExceptions.label         "Poikkeukset…">
 <!ENTITY  addonExceptions.accesskey     "P">
 
-<!ENTITY  addonSecuritylevel            "Add-on security level:">
-<!ENTITY  addonSecurityLevel_Off        "Off: No add-ons will be blocked (dangerous)">
-<!ENTITY  addonSecurityLevel_Low        "Low: Block only add-ons with severe security and stability issues">
-<!ENTITY  addonSecurityLevel_High       "Medium: Block all harmful add-ons (default, recommended)">
-<!ENTITY  addonSecurityLevel_Extreme    "High: Block all add-ons with known issues">
+<!ENTITY  addonSecuritylevel            "Lisäosien suojaustaso:">
+<!ENTITY  addonSecurityLevel_Off        "Pois: Lisäosia ei estetä (vaarallinen)">
+<!ENTITY  addonSecurityLevel_Low        "Matala: Estää vain lisäosat, joissa on vakavia turvallisuuteen ja vakauteen liittyviä kysymyksiä">
+<!ENTITY  addonSecurityLevel_High       "Keskitaso: Estää haitalliset lisäosat (oletus, suositellaan)">
+<!ENTITY  addonSecurityLevel_Extreme    "Vahva: Estää kaikki lisäosat, joissa tunnettuja ongelmia">
 
 <!ENTITY  passwords.label               "Salasanat">
 
@@ -44,11 +44,11 @@
 <!ENTITY  savedPasswords.label            "Tallennetut salasanat…">
 <!ENTITY  savedPasswords.accesskey        "s">
 
-<!ENTITY  SecProto.label             "Security Protocols">
-<!ENTITY  enableHSTS.label           "Enable Strict Transport Security (HSTS)">
-<!ENTITY  enableHSTS.accesskey       "S">
-<!ENTITY  enableHPKP.label           "Enable Certificate Key Pinning (HPKP)">
-<!ENTITY  enableHPKP.accesskey       "C">
+<!ENTITY  SecProto.label             "Suojausprotokollat">
+<!ENTITY  enableHSTS.label           "Ota käyttöön Strict Transport Security (HSTS)">
+<!ENTITY  enableHSTS.accesskey       "H">
+<!ENTITY  enableHPKP.label           "Ota käyttöön Certificate Key Pinning (HPKP)">
+<!ENTITY  enableHPKP.accesskey       "k">
 
 <!ENTITY  XSSFilt.label              "XSS Filter">
 <!ENTITY  enableXSSFilt.label        "Enable XSS filter">

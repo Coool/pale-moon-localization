@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Osoitteen käyttö on rajoitettu">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Pyydetty osoite ilmoitti portin (esim. <q>palemoon.org:25</q> merkitsee palemoon.orgin porttia 25) jota käytetään normaalisti <em>muuhun</em> kuin verkkoselailuun. Selain on estänyt pyynnön turvallisuussyistä.</p>">
 
 <!ENTITY dnsNotFound.title "Palvelinta ei löytynyt">
 <!ENTITY dnsNotFound.longDesc "
@@ -86,10 +86,10 @@
 <!ENTITY netTimeout.title "Yhteyden aikakatkaisu">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.title "Käsittämätön osoite">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+ <li>Saatat joutua asentamaan toisen ohjelmiston tämän osoitteen avaamiseen.</li>
 </ul>
 ">
 
@@ -132,8 +132,8 @@
 <!ENTITY nssFailure2.title "Suojatun yhteyden muodostaminen epäonnistui">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+   <li>Avattavaa sivua ei voida näyttää, koska vastaanotetun tiedon aitoutta ei voitu vahvistaa.</li>
+   <li> Ilmoitathan ongelmasta sivuston omistajalle.</li>
 </ul>
 ">
 
@@ -160,8 +160,8 @@
 
 <!ENTITY malwareBlocked.title "Epäilty hyökkäyssivusto!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+<p>Hyökkäyssivustot yrittävät asentaa ohjelmia, jotka varastavat henkilökohtaisia tietoja, käyttävät tietokonettasi hyökkäyksiin tai vaurioittavat järjestelmääsi.</p>
+<p>Sivuston omistaja, joka uskoo sivustonsa raportoidun virheellisesti hyökkäyssivustoksi, voi <a href='https://www.stopbadware.org/request-review' > pyytää tarkistusta</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Epäilty huijaussivusto!">
@@ -170,8 +170,8 @@
 <p>Tämän tyyppiset verkkohuijaukset ovat osa phishing- tai khalastushuijauksia, joissa sivuilla tai sähköposteilla yritetään jäljitellä mahdollisesti luottamiesi toimijoiden viestintää.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "Estetty sisällön suojauskäytännön perusteella">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; estää sivua latautumasta näin, koska sivulla on sisällön suojauskäytäntö, joka ei salli sitä.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -205,7 +205,7 @@ functionality specific to firefox. -->
 ">
 
 <!ENTITY errorReporting.title "Ilmoita virheestä">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.longDesc "Raportoimalla osoitteen ja varmenteen tiedot kohteesta <span id='hostname'></span> auttaa meitä tunnistamaan ja estämään haitallisia sivustoja. Kiitos avustasi turvallisemman netin luomisessa!">
 <!ENTITY errorReporting.automatic "Ilmoita virheistä automaattisesti tulevaisuudessa">
 <!ENTITY errorReporting.learnMore "Lisätietoja…">
 <!ENTITY errorReporting.sending "Lähetään ilmoitusta">

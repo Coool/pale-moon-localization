@@ -3,18 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle                   "Менеджер додатків">
 
-<!ENTITY search.placeholder                   "Search all add-ons">
+<!ENTITY search.placeholder                   "Шукати всі додатки">
 <!ENTITY search.buttonlabel                   "Пошук">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
 
 <!ENTITY loading.label                        "Завантаження…">
-<!ENTITY listEmpty.installed.label            "You don't have any add-ons of this type installed">
+<!ENTITY listEmpty.installed.label            "У вас не встановлено жодного доповнення даного типу">
 <!ENTITY listEmpty.availableUpdates.label     "No updates found">
-<!ENTITY listEmpty.recentUpdates.label        "You haven't recently updated any add-ons">
+<!ENTITY listEmpty.recentUpdates.label        "Останнім часом ви не оновлювали ніяких додатків">
 <!ENTITY listEmpty.findUpdates.label          "Перевірити наявність оновлень">
-<!ENTITY listEmpty.search.label               "Could not find any matching add-ons">
+<!ENTITY listEmpty.search.label               "Жодного відповідного доповнення не знайдено">
 <!ENTITY listEmpty.button.label               "Learn more about add-ons">
 <!ENTITY installAddonFromFile.label           "Install Add-on From File…">
 <!ENTITY installAddonFromFile.accesskey       "I">
@@ -24,17 +24,17 @@
 <!ENTITY cmd.forward.tooltip                  "Go forward one page">
 
 <!-- global warnings -->
-<!ENTITY warning.safemode.label                    "All add-ons have been disabled by safe mode.">
-<!ENTITY warning.checkcompatibility.label          "Add-on compatibility checking is disabled. You may have incompatible add-ons.">
+<!ENTITY warning.safemode.label                    "В захищеному режимі всі додатки вимкнено.">
+<!ENTITY warning.checkcompatibility.label          "Перевірка сумісності додатків вимкнена. У вас можуть бути несумісні доповнення.">
 <!ENTITY warning.checkcompatibility.enable.label   "Увімкнути">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Enable add-on compatibility checking">
-<!ENTITY warning.updatesecurity.label              "Add-on update security checking is disabled. You may be compromised by updates.">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Увімкнути перевірку сумісності додатків">
+<!ENTITY warning.updatesecurity.label              "Перевірка безпечного оновлення додатків вимкнена. Оновлення можуть поставити вас під загрозу.">
 <!ENTITY warning.updatesecurity.enable.label       "Увімкнути">
-<!ENTITY warning.updatesecurity.enable.tooltip     "Enable add-on update security checking">
+<!ENTITY warning.updatesecurity.enable.tooltip     "Увімкнути перевірку безпечного оновлення додатків">
 
 <!-- global informations -->
-<!ENTITY info.plugincheck.label                 "Check to see if your plugins are up to date">
-<!ENTITY info.plugincheck.tooltip               "Check to see if your plugins are up to date">
+<!ENTITY info.plugincheck.label                 "Перевірити актуальність версій встановлених у вас плагінів">
+<!ENTITY info.plugincheck.tooltip               "Перевірити актуальність версій встановлених у вас плагінів">
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Пошук">
@@ -50,7 +50,7 @@
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
-<!ENTITY updates.updateAddonsAutomatically.label     "Update Add-ons Automatically">
+<!ENTITY updates.updateAddonsAutomatically.label     "Автоматично оновлювати додатки">
 <!ENTITY updates.updateAddonsAutomatically.accesskey "A">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
@@ -58,18 +58,18 @@
      update checking behavior for all add-ons to the default global behavior
      (which itself is either "Automatically" or "Manually", controlled by the
      updates.updateAddonsAutomatically.label menu item). -->
-<!ENTITY updates.resetUpdatesToAutomatic.label       "Reset All Add-ons to Update Automatically">
+<!ENTITY updates.resetUpdatesToAutomatic.label       "Встановити для всіх додатків режим автоматичного оновлення">
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "R">
-<!ENTITY updates.resetUpdatesToManual.label          "Reset All Add-ons to Update Manually">
+<!ENTITY updates.resetUpdatesToManual.label          "Встановити для всіх додатків режим ручного оновлення">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "R">
 <!ENTITY updates.updating.label               "Оновлення додатків">
-<!ENTITY updates.installed.label              "Your add-ons have been updated.">
-<!ENTITY updates.downloaded.label             "Your add-on updates have been downloaded.">
-<!ENTITY updates.restart.label                "Restart now to complete installation">
+<!ENTITY updates.installed.label              "Ваші додатки були оновлені.">
+<!ENTITY updates.downloaded.label             "Оновлення додатків завантажені.">
+<!ENTITY updates.restart.label                "Перезапустити для завершення установки">
 <!ENTITY updates.noneFound.label              "No updates found">
 <!ENTITY updates.manualUpdatesFound.label     "View Available Updates">
 <!ENTITY updates.updateSelected.label         "Встановити оновлення">
-<!ENTITY updates.updateSelected.tooltip       "Install available updates in this list">
+<!ENTITY updates.updateSelected.tooltip       "Встановити доступні оновлення з цього списку">
 
 <!-- addon actions -->
 <!ENTITY cmd.showDetails.label                "Докладніше">
@@ -92,29 +92,29 @@
 <!ENTITY cmd.disableTheme.label               "Stop Wearing Theme">
 <!ENTITY cmd.disableTheme.accesskey           "W">
 <!ENTITY cmd.askToActivate.label              "Ask to Activate">
-<!ENTITY cmd.askToActivate.tooltip            "Ask to use this add-on each time">
+<!ENTITY cmd.askToActivate.tooltip            "Щоразу запитувати, чи використовувати цей додаток">
 <!ENTITY cmd.alwaysActivate.label             "Always Activate">
 <!ENTITY cmd.alwaysActivate.tooltip           "Always use this add-on">
 <!ENTITY cmd.neverActivate.label              "Ніколи не активувати">
 <!ENTITY cmd.neverActivate.tooltip            "Never use this add-on">
-<!ENTITY cmd.stateMenu.tooltip                "Change when this add-on runs">
+<!ENTITY cmd.stateMenu.tooltip                "Вирішити, коли запускати цей додаток">
 <!ENTITY cmd.installAddon.label               "Встановити">
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Видалити">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
 <!ENTITY cmd.debugAddon.label                 "Налагодження">
 <!ENTITY cmd.showPreferencesWin.label         "Параметри">
-<!ENTITY cmd.showPreferencesWin.tooltip       "Change this add-on's options">
+<!ENTITY cmd.showPreferencesWin.tooltip       "Змінити налаштування цього додатку">
 <!ENTITY cmd.showPreferencesUnix.label        "Налаштування">
-<!ENTITY cmd.showPreferencesUnix.tooltip      "Change this add-on's preferences">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "Змінити налаштування цього додатку">
 <!ENTITY cmd.contribute.label                 "Внести вклад">
 <!ENTITY cmd.contribute.accesskey             "C">
-<!ENTITY cmd.contribute.tooltip               "Contribute to the development of this add-on">
+<!ENTITY cmd.contribute.tooltip               "Внести вклад в розвиток цього додатку">
 
 <!ENTITY cmd.showReleaseNotes.label           "Show Release Notes">
-<!ENTITY cmd.showReleaseNotes.tooltip         "Show the release notes for this update">
+<!ENTITY cmd.showReleaseNotes.tooltip         "Показати примітки до випуску для цього оновлення">
 <!ENTITY cmd.hideReleaseNotes.label           "Hide Release Notes">
-<!ENTITY cmd.hideReleaseNotes.tooltip         "Hide the release notes for this update">
+<!ENTITY cmd.hideReleaseNotes.tooltip         "Приховати примітки до випуску для цього оновлення">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -134,24 +134,24 @@
 
 <!ENTITY detail.updateType                    "Автоматичне оновлення">
 <!ENTITY detail.updateDefault.label           "Типово">
-<!ENTITY detail.updateDefault.tooltip         "Automatically install updates only if that's the default">
+<!ENTITY detail.updateDefault.tooltip         "Автоматично встановлювати оновлення тільки якщо це налаштування за замовчуванням">
 <!ENTITY detail.updateAutomatic.label         "Увімкнено">
 <!ENTITY detail.updateAutomatic.tooltip       "Автоматично інсталювати оновлення">
 <!ENTITY detail.updateManual.label            "Вимкнено">
-<!ENTITY detail.updateManual.tooltip          "Don't automatically install updates">
+<!ENTITY detail.updateManual.tooltip          "Не встановлювати оновлення автоматично">
 <!ENTITY detail.home                          "Домашня сторінка">
 <!ENTITY detail.repository                    "Профіль додатку">
 <!ENTITY detail.size                          "Розмір">
 
 <!ENTITY detail.checkForUpdates.label         "Перевірити наявність оновлень">
 <!ENTITY detail.checkForUpdates.accesskey     "F">
-<!ENTITY detail.checkForUpdates.tooltip       "Check for updates for this add-on">
+<!ENTITY detail.checkForUpdates.tooltip       "Перевірити наявність оновлень для цього додатку">
 <!ENTITY detail.showPreferencesWin.label      "Параметри">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "Change this add-on's options">
+<!ENTITY detail.showPreferencesWin.tooltip    "Змінити налаштування цього додатку">
 <!ENTITY detail.showPreferencesUnix.label     "Налаштування">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Change this add-on's preferences">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Змінити налаштування цього додатку">
 
 
 <!-- ratings -->
@@ -176,11 +176,11 @@
 <!ENTITY search.filter2.installed.label       "Мої додатки">
 <!ENTITY search.filter2.installed.tooltip     "Show installed add-ons">
 <!ENTITY search.filter2.available.label       "Available Add-ons">
-<!ENTITY search.filter2.available.tooltip     "Show add-ons available to install">
+<!ENTITY search.filter2.available.tooltip     "Показати додатки доступні для встановлення">
 
 <!ENTITY addon.homepage                       "Домашня сторінка">
 <!ENTITY addon.details.label                  "Більше">
-<!ENTITY addon.details.tooltip                "Show more details about this add-on">
+<!ENTITY addon.details.tooltip                "Докладніше про цей додаток">
 <!ENTITY addon.unknownDate                    "Невідомо">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
@@ -199,16 +199,16 @@
 <!ENTITY addon.install.label                  "Встановити">
 <!ENTITY addon.install.tooltip                "Встановити цей додаток">
 <!ENTITY addon.updateNow.label                "Оновити зараз">
-<!ENTITY addon.updateNow.tooltip              "Install the update for this add-on">
+<!ENTITY addon.updateNow.tooltip              "Встановити оновлення для цього додатку">
 <!ENTITY addon.includeUpdate.label            "Include in Update">
 <!ENTITY addon.updateAvailable.label          "Доступне оновлення">
 <!ENTITY addon.checkingForUpdates.label       "Перевірка наявності оновлень…">
 <!ENTITY addon.releaseNotes.label             "Примітки до випуску:">
 <!ENTITY addon.loadingReleaseNotes.label      "Завантаження…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "Sorry, but there was an error loading the release notes.">
+<!ENTITY addon.errorLoadingReleaseNotes.label "Вибачте, але при завантаженні приміток до випуску сталася помилка.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets Pale Moon">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Цей додаток призначений безпосередньо для Pale Moon">
+<!ENTITY addon.compatAddon                    "Цей додаток призначений для Mozilla Firefox і виконується в режимі сумісності">
 
 <!ENTITY addon.createdBy.label                "Від ">
 
@@ -224,7 +224,7 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
+<!ENTITY experiment.info.label "Що це? Телеметрія може час від часу встановлювати і проводити експерименти.">
 <!ENTITY experiment.info.learnmore "Детальніше">
 <!ENTITY experiment.info.learnmore.accesskey "L">
 <!ENTITY experiment.info.changetelemetry "Параметри телеметрії">
