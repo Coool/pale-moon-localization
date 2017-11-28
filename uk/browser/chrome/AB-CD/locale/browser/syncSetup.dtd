@@ -6,7 +6,7 @@
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description2 "Ласкаво просимо. Якщо ви раніше ніколи не використовували &syncBrand.fullName.label;, вам треба буде створити новий обліковий запис.">
+<!ENTITY setup.pickSetupType.description2 "Ласкаво просимо! Якщо ви раніше ніколи не використовували &syncBrand.fullName.label;, вам треба буде створити новий обліковий запис.">
 <!ENTITY button.createNewAccount.label "Створити новий обліковий запис">
 <!ENTITY button.haveAccount.label      "Я маю обліковий запис">
 
@@ -26,7 +26,7 @@
 <!ENTITY signIn.recoveryKey.accesskey   "К">
 
 <!-- New Account Page 1: Basic Account Info -->
-<!ENTITY setup.newAccountDetailsPage.title.label "Подробиці облікового запису">
+<!ENTITY setup.newAccountDetailsPage.title.label "Дані облікового запису">
 <!ENTITY setup.emailAddress.label     "Адреса електронної пошти">
 <!ENTITY setup.emailAddress.accesskey "е">
 <!ENTITY setup.choosePassword.label      "Виберіть пароль">
@@ -48,11 +48,11 @@
 
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; піклується про вашу приватність">
-<!ENTITY setup.newRecoveryKeyPage.description.label "Щоб забезпечити вашу повну приватність, всі ваші дані шифруються перед надсиланням. Ключ відновлення, необхідний для дешифровки, не надсилається.">
+<!ENTITY setup.newRecoveryKeyPage.description.label "Щоб забезпечити вашу повну приватність, всі ваші дані шифруються перед надсиланням. Ключ відновлення, необхідний для дешифрування, не надсилається.">
 <!ENTITY recoveryKeyEntry.label        "Ваш ключ відновлення">
 <!ENTITY recoveryKeyEntry.accesskey    "К">
 <!ENTITY syncGenerateNewKey.label  "Згенерувати новий ключ">
-<!ENTITY recoveryKeyBackup.description "Ваш ключ відновлення необхідний для доступу до &syncBrand.fullName.label; з інших машин. Будь ласка, створіть його резервну копію. Ми не зможемо допомогти вам повернути ваш клю відновлення.">
+<!ENTITY recoveryKeyBackup.description "Ваш ключ відновлення необхідний для доступу до &syncBrand.fullName.label; з інших машин. Будь ласка, створіть його резервну копію. Ми не зможемо допомогти вам повернути ваш ключ відновлення.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Друк…">
 <!ENTITY button.syncKeyBackup.print.accesskey "Д">
@@ -63,24 +63,24 @@
 <!ENTITY pairDevice.title.label             "Під’єднати пристрій">
 <!ENTITY addDevice.showMeHow.label          "Покажіть мені як.">
 <!ENTITY addDevice.dontHaveDevice.label     "Я не маю пристрою з собою">
-<!ENTITY pairDevice.setup.description.label  "Щоб активувати, виберіть &quot;Під’єднати пристрій&quot; на вашому іншому пристрої.">
+<!ENTITY pairDevice.setup.description.label  "Щоб активувати, виберіть «Під’єднати пристрій» на іншому вашому пристрої.">
 <!ENTITY addDevice.setup.enterCode.label    "Тоді, уведіть цей код:">
 <!ENTITY pairDevice.dialog.description.label "Щоб активувати ваш новий пристрій, виберіть &quot;Налаштувати Синхронізацію&quot; на ньому.">
-<!ENTITY addDevice.dialog.enterCode.label   "Уведіть код, що надає пристрій:">
-<!ENTITY addDevice.dialog.tryAgain.label    "Спробуйте ще раз.">
-<!ENTITY addDevice.dialog.successful.label  "Пристрій успішно додано. Початкова синхронізація триватиме кілька хвилин і завершиться на тлі.">
+<!ENTITY addDevice.dialog.enterCode.label   "Введіть наданий пристроєм код:">
+<!ENTITY addDevice.dialog.tryAgain.label    "Будь ласка, спробуйте ще раз.">
+<!ENTITY addDevice.dialog.successful.label  "Пристрій був успішно доданий. Початкова синхронізація може зайняти кілька хвилин і завершиться в фоновому режимі.">
 <!ENTITY addDevice.dialog.recoveryKey.label     "Щоб активувати ваш пристрій вам треба ввести ключ відновлення. Надрукуйте чи збережіть цей ключ та візьміть його з собою.">
 <!ENTITY addDevice.dialog.connected.label   "Пристрій під’єднано">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Увійти">
-<!ENTITY existingRecoveryKey.description "Ви можете отримати копію вашого ключа відновлення перейшовши до налаштувань &syncBrand.shortName.label; на вашому пристрої, та вибравши «Мій ключ відновлення» в «Керувати обліковим записом»">
+<!ENTITY existingRecoveryKey.description "Ви можете отримати копію вашого ключа відновлення перейшовши до налаштувань &syncBrand.shortName.label; на вашому пристрої, та вибравши команду «Мій ключ відновлення» в меню «Керувати обліковим записом».">
 <!ENTITY verifying.label              "Перевірка…">
-<!ENTITY resetPassword.label          "Стерти пароль">
-<!ENTITY resetSyncKey.label           "Я загубив мій інший пристрій.">
+<!ENTITY resetPassword.label          "Скинути пароль">
+<!ENTITY resetSyncKey.label           "Я втратив свій інший пристрій.">
 
 <!-- Sync Options -->
-<!ENTITY setup.optionsPage.title      "Варіанти синхронізації">
+<!ENTITY setup.optionsPage.title      "Налаштування Sync">
 <!ENTITY syncDeviceName.label       "Назва пристрою:">
 <!ENTITY syncDeviceName.accesskey   "Н">
 
@@ -100,17 +100,17 @@
 
 <!ENTITY choice2a.merge.main.label       "Об’єднати дані на цьому пристрої з моїми даними  &syncBrand.shortName.label;">
 <!ENTITY choice2.merge.recommended.label "Рекомендовано:">
-<!ENTITY choice2a.client.main.label      "Замінити всі дані на цьому пристрої моїми даними  &syncBrand.shortName.label;">
+<!ENTITY choice2a.client.main.label      "Замінити всі дані на цьому пристрої моїми даними &amp;syncBrand.shortName.label">
 <!ENTITY choice2a.server.main.label      "Замінити дані на всіх інших пристроях даними з цього пристрою">
 
 <!-- Confirm Merge Options -->
-<!ENTITY setup.optionsConfirmPage.title "Підтвердіть">
-<!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; увіллє всі дані браузера з цього пристрою у ваш акаунт Sync.">
-<!ENTITY confirm.client3.label         "Увага: наступні дані &brandShortName; на цьому пристрою будуть видалені:">
+<!ENTITY setup.optionsConfirmPage.title "Підтвердити">
+<!ENTITY confirm.merge2.label    "&syncBrand.fullName.label; тепер об'єднає всі дані браузера з цього пристрою з даними вашого акаунту Sync.">
+<!ENTITY confirm.client3.label         "Увага: на цьому пристрою будуть видалені наступні дані &brandShortName;:">
 <!ENTITY confirm.client2.moreinfo.label "Потім &brandShortName; скопіює ваші дані  &syncBrand.fullName.label; на цей пристрій.">
-<!ENTITY confirm.server2.label         "Увага: На наступних пристроях всі дані будуть замінені на ваші локальні:">
+<!ENTITY confirm.server2.label         "Попередження: Дані на наступних пристроях будуть перезаписані вашими локальними даними:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Налаштування завершено">
-<!ENTITY changeOptions.label "Ви можете змінити цей вибір вибравши Варіанти синхронізації нижче.">
-<!ENTITY continueUsing.label "Ви можете продовжити використання &brandShortName;.">
+<!ENTITY changeOptions.label "Ви можете змінити це налаштування, перейшовши в розташовані нижче настройки Sync.">
+<!ENTITY continueUsing.label "Тепер ви можете продовжити використання &brandShortName;.">

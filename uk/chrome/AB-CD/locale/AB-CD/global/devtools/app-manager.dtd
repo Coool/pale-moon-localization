@@ -18,17 +18,17 @@
 <!ENTITY device.stopApp "Зупинити">
 <!ENTITY device.stopAppTooltip "Зупинити це додаток на пристрої">
 <!ENTITY device.debugApp "Налагодж.">
-<!ENTITY device.debugAppTooltip "Відкрити Інструменти розробника, під'єднані до цього додатка на пристрої">
+<!ENTITY device.debugAppTooltip "Відкрити Інструменти розробника, під'єднані до цього додатку на пристрої">
 <!ENTITY device.name "Ім’я">
 <!ENTITY device.plain "Просте (за замовчуванням)">
 <!ENTITY device.privileged "Привілейоване">
 <!ENTITY device.certified "Сертифіковане">
 <!ENTITY device.allow "Дозволити">
-<!ENTITY device.allowTooltip "Цей дозвіл надано для додатків такого типу">
+<!ENTITY device.allowTooltip "Надати цей дозвіл додаткам даного типу">
 <!ENTITY device.prompt "Запит">
-<!ENTITY device.promptTooltip "Запитувати користувача, чи видавати цей дозвіл додаткам такого типу">
+<!ENTITY device.promptTooltip "Запитувати користувача, чи видавати цей дозвіл додаткам даного типу">
 <!ENTITY device.deny "Заборонити">
-<!ENTITY device.denyTooltip "Відмовити в дозволі додаткам такого типу">
+<!ENTITY device.denyTooltip "Відмовити в цьому дозволі додаткам даного типу">
 <!ENTITY device.installedApps "Встановлені додатки">
 <!ENTITY device.installedAppsTooltip "Переглянути список встановлених додатків на даному пристрої. Деякі додатки, наприклад сертифіковані, можуть бути виключеними з даного списку.">
 <!ENTITY device.permissions "Дозволи">
@@ -42,25 +42,25 @@
 
 <!ENTITY connection.connectTooltip "Під'єднатися до пристрою">
 <!ENTITY connection.disconnect "Роз'єднати">
-<!ENTITY connection.disconnectTooltip "Від'єднатися від наявного пристрою або симулятора">
+<!ENTITY connection.disconnectTooltip "Від'єднатися від поточного пристрою або симулятора">
 <!ENTITY connection.notConnected2 "Не під'єднано.">
 <!ENTITY connection.connectTo "Під'єднатися до:">
 <!ENTITY connection.noDeviceFound "Жодного пристрою не знайдено. Під'єднайте пристрій">
 <!ENTITY connection.changeHostAndPort "Змінити">
 <!ENTITY connection.changeHostAndPortTooltip "Змінити хост і порт, що використовуються для під'єднання до пристрою (за замовчуванням до localhost:6000)">
-<!ENTITY connection.startSimulator "Запустити Симулятор">
+<!ENTITY connection.startSimulator "Запустити симулятор">
 <!ENTITY connection.startSimulatorTooltip "Запустити екземпляр Симулятора та під'єднатися до нього">
 <!ENTITY connection.saveConnectionInfo "Зберегти">
 <!ENTITY connection.saveConnectionInfoTooltip "Зберегти хост і порт">
-<!ENTITY connection.connecting "Під'єднання…">
+<!ENTITY connection.connecting "З’єднання…">
 <!ENTITY connection.disconnecting "Від'єднання…">
 <!ENTITY connection.cancel "Скасувати">
-<!ENTITY connection.cancelConnectTooltip "Відмінити процес під'єднання">
+<!ENTITY connection.cancelConnectTooltip "Скасувати процес під'єднання">
 <!ENTITY connection.cancelShowSimulatorTooltip "Вийти з режиму під'єднання до Симулятора і повернутися до початкового запиту">
 <!ENTITY connection.or "або">
 <!ENTITY connection.noSimulatorInstalled "Жодного симулятора не встановлено.">
 <!ENTITY connection.installOneSimulator "Встановити Симулятор">
-<!ENTITY connection.installOneSimulatorTooltip "Встановити версію Симулятора, завантаживши відповідне розширення">
+<!ENTITY connection.installOneSimulatorTooltip "Встановити версію Симулятора, завантаживши відповідний додаток">
 <!ENTITY connection.installAnotherSimulator "Додати">
 <!ENTITY connection.installAnotherSimulatorTooltip "Встановити додаткову версію Симулятора, завантаживши відповідне розширення">
 <!ENTITY connection.startRegisteredSimulator "Запустити:">
@@ -76,16 +76,16 @@
 <!ENTITY projects.removeAppFromList "Видалити цей додаток зі списку додатків з якими ви працюєте. Це не видалить його з пристрою чи симулятора.">
 <!ENTITY projects.updateApp "Оновити">
 <!ENTITY projects.updateAppTooltip "Виконати перевірку валідації і оновити додаток на під'єднаному пристрої">
-<!ENTITY projects.debugApp "Відлагодження">
+<!ENTITY projects.debugApp "Налагодження">
 <!ENTITY projects.debugAppTooltip "Відкрити Інструменти розробника, під'єднані до цього додатку">
 <!ENTITY projects.saveManifest "Зберегти">
-<!ENTITY projects.saveManifestTooltip "Зберегти вміст Редактора Маніфеста нижче">
+<!ENTITY projects.saveManifestTooltip "Зберегти вміст Редактора Маніфесту нижче">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "Немає проектів. Додайте нижче новий упакований додаток (локальний каталог) чи розміщений додаток (посилання на файл маніфеста).">
-<!ENTITY projects.manifestEditor "Редактор Маніфеста">
+<!ENTITY projects.noProjects "Немає проектів. Додайте нижче новий упакований додаток (локальний каталог) або розміщений додаток (посилання на файл маніфесту).">
+<!ENTITY projects.manifestEditor "Редактор Маніфесту">
 <!ENTITY projects.manifestEditorTooltip "Редагувати маніфест вашого додатку в панелі нижче. Кнопка &quot;Оновити&quot; збереже ваші зміни і оновить додаток.">
-<!ENTITY projects.manifestViewer "Переглядач Маніфеста">
-<!ENTITY projects.manifestViewerTooltip "Перевірити маніфест вашого додатка у панелі нижче">
+<!ENTITY projects.manifestViewer "Переглядач Маніфесту">
+<!ENTITY projects.manifestViewerTooltip "Дослідити маніфест вашого додатку в панелі нижче">
 <!ENTITY projects.valid "Коректно">
 <!ENTITY projects.error "Помилка">
 <!ENTITY projects.warning "Попередження">
@@ -94,10 +94,10 @@
 
 <!ENTITY help.title "Менеджер додатків">
 <!ENTITY help.close "Закрити">
-<!ENTITY help.intro "Цей інструмент допоможе вам створити та інсталювати веб-додаток на сумісний пристрій (тобто під Firefox OS). Вкладка <strong>Додатки</strong> допоможе вам у валідації та інсталяції вашого додатку. Вкладка <strong>Пристрій</strong> надасть інформацію про під'єднаний пристрій. Використовуйте нижню панель для під'єднання до пристрою або запуску симулятора.">
+<!ENTITY help.intro "Цей інструмент допоможе вам створити та інсталювати веб-додатки на сумісний пристрій (тобто під Firefox OS). Вкладка <strong>Додатки</strong> допоможе вам у валідації та інсталяції вашого додатку. Вкладка <strong>Пристрій</strong> надасть інформацію про під'єднаний пристрій. Використовуйте нижню панель для під'єднання до пристрою або запуску симулятора.">
 <!ENTITY help.usefullLinks "Корисні посилання:">
 <!ENTITY help.appMgrDoc "Документація: Використання менеджера додатків">
 <!ENTITY help.configuringDevice "Як налаштувати ваш пристрій на Firefox OS">
-<!ENTITY help.troubleShooting "Вирішення несправностей">
-<!ENTITY help.simulatorAddon "Встановлення розширення Симулятора">
-<!ENTITY help.adbHelperAddon "Встановлення розширення Adb Helper">
+<!ENTITY help.troubleShooting "Вирішення проблем">
+<!ENTITY help.simulatorAddon "Встановлення додатку Симулятора">
+<!ENTITY help.adbHelperAddon "Встановлення додатку Adb Helper">

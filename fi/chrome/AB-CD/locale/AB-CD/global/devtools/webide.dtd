@@ -76,122 +76,122 @@
 <!ENTITY key_resetzoom "0">
 
 <!ENTITY projectPanel_myProjects "My Projects">
-<!ENTITY projectPanel_runtimeApps "Runtime Apps">
-<!ENTITY projectPanel_tabs "Tabs">
-<!ENTITY runtimePanel_usb "USB Devices">
-<!ENTITY runtimePanel_wifi "Wi-Fi Devices">
-<!ENTITY runtimePanel_simulator "Simulators">
-<!ENTITY runtimePanel_other "Other">
-<!ENTITY runtimePanel_installsimulator "Install Simulator">
-<!ENTITY runtimePanel_noadbhelper "Install ADB Helper">
-<!ENTITY runtimePanel_nousbdevice "Can't see your device?">
+<!ENTITY projectPanel_runtimeApps "Suorituspalvelusovelmat">
+<!ENTITY projectPanel_tabs "Välilehdet">
+<!ENTITY runtimePanel_usb "USB-laitteet">
+<!ENTITY runtimePanel_wifi "Wi-Fi-laitteet">
+<!ENTITY runtimePanel_simulator "Simulaattorit">
+<!ENTITY runtimePanel_other "Muut">
+<!ENTITY runtimePanel_installsimulator "Asenna simulaattori">
+<!ENTITY runtimePanel_noadbhelper "Asenna ADB-apuohjelma">
+<!ENTITY runtimePanel_nousbdevice "Etkö näe laitetta?">
 
 <!-- Lense -->
-<!ENTITY details_valid_header "valid">
-<!ENTITY details_warning_header "warnings">
-<!ENTITY details_error_header "errors">
-<!ENTITY details_description "Description">
-<!ENTITY details_location "Location">
-<!ENTITY details_manifestURL "App ID">
-<!ENTITY details_removeProject_button "Remove Project">
-<!ENTITY details_showPrepackageLog_button "Show Pre-package Log">
+<!ENTITY details_valid_header "voimassa">
+<!ENTITY details_warning_header "varoitukset">
+<!ENTITY details_error_header "virheet">
+<!ENTITY details_description "Kuvaus">
+<!ENTITY details_location "Sijainti">
+<!ENTITY details_manifestURL "Sovelman ID">
+<!ENTITY details_removeProject_button "Poista projekti">
+<!ENTITY details_showPrepackageLog_button "Näyt esipakkausloki">
 
 <!-- New App -->
-<!ENTITY newAppWindowTitle "New App">
-<!ENTITY newAppHeader "Select template">
-<!ENTITY newAppLoadingTemplate "Loading templates…">
-<!ENTITY newAppProjectName "Project Name:">
+<!ENTITY newAppWindowTitle "Uusi sovelma">
+<!ENTITY newAppHeader "Valitse malli">
+<!ENTITY newAppLoadingTemplate "Malleja ladataan…">
+<!ENTITY newAppProjectName "Projektinimi:">
 
 
 <!-- Decks -->
 
-<!ENTITY deck_close "Close">
+<!ENTITY deck_close "Sulje">
 
 <!-- Addons -->
-<!ENTITY addons_title "Extra Components">
-<!ENTITY addons_aboutaddons "Open Add-ons Manager">
+<!ENTITY addons_title "Ylimääräiset komponentit">
+<!ENTITY addons_aboutaddons "Avaa lisäosien hallinta">
 
 <!-- Prefs -->
-<!ENTITY prefs_title "Preferences">
-<!ENTITY prefs_editor_title "Editor">
-<!ENTITY prefs_general_title "General">
-<!ENTITY prefs_restore "Restore Defaults">
-<!ENTITY prefs_manage_components "Manage Extra Components">
-<!ENTITY prefs_options_autoconnectruntime "Reconnect to previous runtime">
-<!ENTITY prefs_options_autoconnectruntime_tooltip "Reconnect to previous runtime when WebIDE starts">
-<!ENTITY prefs_options_rememberlastproject "Remember last project">
-<!ENTITY prefs_options_rememberlastproject_tooltip "Restore previous project when WebIDE starts">
-<!ENTITY prefs_options_templatesurl "Templates URL">
-<!ENTITY prefs_options_templatesurl_tooltip "Index of available templates">
-<!ENTITY prefs_options_showeditor "Show editor">
-<!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
-<!ENTITY prefs_options_tabsize "Tab size">
-<!ENTITY prefs_options_expandtab "Soft tabs">
-<!ENTITY prefs_options_expandtab_tooltip "Use spaces instead of the tab character">
-<!ENTITY prefs_options_detectindentation "Autoindent">
-<!ENTITY prefs_options_detectindentation_tooltip "Guess indentation based on source content">
-<!ENTITY prefs_options_autocomplete "Autocomplete">
-<!ENTITY prefs_options_autocomplete_tooltip "Enable code autocompletion">
-<!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
-<!ENTITY prefs_options_autoclosebrackets_tooltip "Automatically insert closing brackets">
-<!ENTITY prefs_options_keybindings "Keybindings">
-<!ENTITY prefs_options_keybindings_default "Default">
+<!ENTITY prefs_title "Preferenssit">
+<!ENTITY prefs_editor_title "Muokkain">
+<!ENTITY prefs_general_title "Yleiset asetukset">
+<!ENTITY prefs_restore "Palauta oletukset">
+<!ENTITY prefs_manage_components "Hallitse lisäosia">
+<!ENTITY prefs_options_autoconnectruntime "Kytkeydy uutelleen edelliseen suorituspalveluun">
+<!ENTITY prefs_options_autoconnectruntime_tooltip "Kytkeydy uutelleen edelliseen suorituspalveluun, kun WebIDE käynnistyy">
+<!ENTITY prefs_options_rememberlastproject "Muista viimeinen projekti">
+<!ENTITY prefs_options_rememberlastproject_tooltip "Palauta edellinen projekti, kun WebIDE käynnistyy">
+<!ENTITY prefs_options_templatesurl "Mallien URL">
+<!ENTITY prefs_options_templatesurl_tooltip "Käytettävissä olevien mallien luettelo">
+<!ENTITY prefs_options_showeditor "Näytä muokkain">
+<!ENTITY prefs_options_showeditor_tooltip "Näytä sisäinen muokkain">
+<!ENTITY prefs_options_tabsize "Sarkainkoko">
+<!ENTITY prefs_options_expandtab "Pehmeät sarkaimet">
+<!ENTITY prefs_options_expandtab_tooltip "Käytä välilyöntejä sarkain-merkin asemesta">
+<!ENTITY prefs_options_detectindentation "Sisennyttäminen">
+<!ENTITY prefs_options_detectindentation_tooltip "Arvataan sisennys sisällön perusteella">
+<!ENTITY prefs_options_autocomplete "Täydennyttäminen">
+<!ENTITY prefs_options_autocomplete_tooltip "Salli koodin automaattinen täydennys">
+<!ENTITY prefs_options_autoclosebrackets "Sulkeiden päätättäminen">
+<!ENTITY prefs_options_autoclosebrackets_tooltip "Lopettavat sulkeet lisätään automaattisesti">
+<!ENTITY prefs_options_keybindings "Näppäinasetukset">
+<!ENTITY prefs_options_keybindings_default "Oletus">
 
 <!-- Permissions Table -->
-<!ENTITY permissionstable_title "Permissions Table">
-<!ENTITY permissionstable_name_header "Name">
+<!ENTITY permissionstable_title "Oikeuksien taulukko">
+<!ENTITY permissionstable_name_header "Nimi">
 
 <!-- Runtime Details -->
-<!ENTITY runtimedetails_title "Runtime Info">
-<!ENTITY runtimedetails_adbIsRoot "ADB is root: ">
-<!ENTITY runtimedetails_summonADBRoot "root device">
-<!ENTITY runtimedetails_ADBRootWarning "(requires unlocked bootloader)">
-<!ENTITY runtimedetails_unrestrictedPrivileges "Unrestricted DevTools privileges: ">
-<!ENTITY runtimedetails_requestPrivileges "request higher privileges">
-<!ENTITY runtimedetails_privilegesWarning "(Will reboot device. Requires root access.)">
+<!ENTITY runtimedetails_title "Suorituspalvelutiedot">
+<!ENTITY runtimedetails_adbIsRoot "ADB on root: ">
+<!ENTITY runtimedetails_summonADBRoot "root-laite">
+<!ENTITY runtimedetails_ADBRootWarning "(vaatii lukitsemattoman käynnistyslataimen)">
+<!ENTITY runtimedetails_unrestrictedPrivileges "Rajoittamattomat DevTools-oikeudet: ">
+<!ENTITY runtimedetails_requestPrivileges "pyydä suurempia oikeuksia">
+<!ENTITY runtimedetails_privilegesWarning "(Käynnistetään laite uudelleen. Vaatii root-oikeudet.)">
 
 <!-- Device Preferences and Settings -->
-<!ENTITY device_typeboolean "Boolean">
-<!ENTITY device_typenumber "Integer">
-<!ENTITY device_typestring "String">
-<!ENTITY device_typeobject "Object">
-<!ENTITY device_typenone "Select a type">
+<!ENTITY device_typeboolean "Totuusarvo">
+<!ENTITY device_typenumber "Kokonaisluku">
+<!ENTITY device_typestring "Merkkijono">
+<!ENTITY device_typeobject "Objekti">
+<!ENTITY device_typenone "Valitse tyyppi">
 
 <!-- Device Preferences -->
-<!ENTITY devicepreference_title "Device Preferences">
-<!ENTITY devicepreference_search "Search preferences">
-<!ENTITY devicepreference_newname "New preference name">
-<!ENTITY devicepreference_newtext "Preference value">
-<!ENTITY devicepreference_addnew "Add new preference">
+<!ENTITY devicepreference_title "Laitepreferenssit">
+<!ENTITY devicepreference_search "Hakupreferenssit">
+<!ENTITY devicepreference_newname "Uusi preferenssinimi">
+<!ENTITY devicepreference_newtext "Preferenssiarvo">
+<!ENTITY devicepreference_addnew "Lisää uusi preferenssi">
 
 <!-- Device Settings -->
-<!ENTITY devicesetting_title "Device Settings">
-<!ENTITY devicesetting_search "Search settings">
-<!ENTITY devicesetting_newname "New setting name">
-<!ENTITY devicesetting_newtext "Setting value">
-<!ENTITY devicesetting_addnew "Add new setting">
+<!ENTITY devicesetting_title "Laiteasetukset">
+<!ENTITY devicesetting_search "Hakuasetukset">
+<!ENTITY devicesetting_newname "Uuden asetuksen nimi">
+<!ENTITY devicesetting_newtext "Asetusarvo">
+<!ENTITY devicesetting_addnew "Lisää uusi asetus">
 
 <!-- Monitor -->
-<!ENTITY monitor_title "Monitor">
-<!ENTITY monitor_help "Help">
+<!ENTITY monitor_title "Valvonta">
+<!ENTITY monitor_help "Ohje">
 
 <!-- WiFi Authentication -->
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
      that instructs the user to transfer an authentication token to the
      server. -->
-<!ENTITY wifi_auth_header "Client Identification">
+<!ENTITY wifi_auth_header "Asiakastunnistus">
 <!-- LOCALIZATION NOTE (wifi_auth_scan_request): Instructions requesting the
      user to transfer authentication info by scanning a QR code. -->
-<!ENTITY wifi_auth_scan_request "The endpoint you are connecting to needs more information to authenticate this connection.  Please scan the QR code below via the prompt on your other device.">
+<!ENTITY wifi_auth_scan_request "Yhteyden muodostamisessa käytettävä päätepiste tarvitsee lisätietoja yhteyden tunnistamiseksi. Tarkista alla näkyvä QR-koodi toisen laitteen syötteen avulla.">
 <!-- LOCALIZATION NOTE (wifi_auth_no_scanner): Link text to assist users with
      devices that can't scan a QR code. -->
-<!ENTITY wifi_auth_no_scanner "No QR scanner prompt?">
+<!ENTITY wifi_auth_no_scanner "Ei QR-skannerikehotetta?">
 <!-- LOCALIZATION NOTE (wifi_auth_yes_scanner): Link text to assist users with
      devices that can scan a QR code. -->
-<!ENTITY wifi_auth_yes_scanner "Have a QR scanner prompt?">
+<!ENTITY wifi_auth_yes_scanner "Onko QR-skannerikehotetta?">
 <!-- LOCALIZATION NOTE (wifi_auth_token_request): Instructions requesting the
      user to transfer authentication info by transferring a token. -->
-<!ENTITY wifi_auth_token_request "If your other device asks for a token instead of scanning a QR code, please copy the value below to the other device:">
+<!ENTITY wifi_auth_token_request "Jos toinen laitteesi pyytää symbolia QR-koodin skannaamisen asemesta, kopioi alla oleva arvo toiselle laitteelle:">
 
 <!-- Logs panel -->
-<!ENTITY logs_title "Pre-packaging Command Logs">
+<!ENTITY logs_title "Komentolokien esipakkaus">

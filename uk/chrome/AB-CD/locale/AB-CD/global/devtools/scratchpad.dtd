@@ -63,18 +63,18 @@
 <!ENTITY highlightTrailingSpace.accesskey "H">
 
 <!ENTITY largerFont.label             "Збільшити шрифт">
-<!ENTITY largerFont.accesskey         "a">
+<!ENTITY largerFont.accesskey         "а">
 <!ENTITY largerFont.commandkey        "+">
 
 <!ENTITY smallerFont.label            "Зменшити шрифт">
-<!ENTITY smallerFont.accesskey        "M">
+<!ENTITY smallerFont.accesskey        "М">
 <!ENTITY smallerFont.commandkey       "-">
 
 <!ENTITY normalSize.label             "Звичайний розмір">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
-<!ENTITY editMenu.label               "Правка">
+<!ENTITY editMenu.label               "Редагувати">
 <!ENTITY editMenu.accesskey           "E">
 
 <!ENTITY run.label                    "Запустити">
@@ -130,7 +130,7 @@
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
-<!ENTITY resetContext2.label          "Reset Variables">
+<!ENTITY resetContext2.label          "Скинути змінні">
 <!ENTITY resetContext2.accesskey      "T">
 
 <!ENTITY reloadAndRun.label           "Перезавантажити і запустити">
@@ -149,6 +149,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "Evaluate Current Function">
+<!ENTITY evalFunction.label "Виконати поточну функцію">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">

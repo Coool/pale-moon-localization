@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
-<!ENTITY places.library.title  "Архів">
+<!ENTITY places.library.title  "Бібліотека">
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "Впорядкувати">
@@ -15,16 +15,16 @@
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "Вигляд">
 <!ENTITY views.accesskey                "В">
-<!ENTITY views.tooltip                  "Змінити вигляд">
+<!ENTITY views.tooltip                  "Зміна зовнішнього вигляду">
 <!ENTITY view.columns.label             "Показати колонки">
 <!ENTITY view.columns.accesskey         "к">
 <!ENTITY view.sort.label                "Сортувати">
 <!ENTITY view.sort.accesskey            "С">
 <!ENTITY view.unsorted.label            "Несортоване">
 <!ENTITY view.unsorted.accesskey        "Н">
-<!ENTITY view.sortAscending.label       "Висхідний порядок">
+<!ENTITY view.sortAscending.label       "Сортування за алфавітом">
 <!ENTITY view.sortAscending.accesskey   "п">
-<!ENTITY view.sortDescending.label      "Низхідний порядок">
+<!ENTITY view.sortDescending.label      "У зворотному порядку">
 <!ENTITY view.sortDescending.accesskey  "з">
 
 <!ENTITY importBookmarksFromHTML.label     "Імпортувати закладки з HTML…">
@@ -43,7 +43,7 @@
 
 <!ENTITY cmd.bookmarkLink.label         "Закласти цю сторінку…">
 <!ENTITY cmd.bookmarkLink.accesskey     "З">
-<!ENTITY cmd.delete.label               "Усунути цю сторінку">
+<!ENTITY cmd.delete.label               "Видалити цю сторінку">
 <!ENTITY cmd.delete.accesskey           "У">
 <!ENTITY cmd.deleteDomainData.label     "Забути про цей сайт">
 <!ENTITY cmd.deleteDomainData.accesskey "З">
@@ -53,7 +53,7 @@
 <!ENTITY cmd.open_window.label             "Відкрити у новому вікні">
 <!ENTITY cmd.open_window.accesskey         "н">
 <!ENTITY cmd.open_private_window.label     "Відкрити у новому приватному вікні">
-<!ENTITY cmd.open_private_window.accesskey "П">
+<!ENTITY cmd.open_private_window.accesskey "P">
 <!ENTITY cmd.open_tab.label                "Відкрити у новій вкладці">
 <!ENTITY cmd.open_tab.accesskey            "ц">
 <!ENTITY cmd.open_all_in_tabs.label        "Відкрити у вкладках всі">
@@ -80,7 +80,7 @@
 <!ENTITY cmd.reloadLivebookmark.label      "Оновити живу закладку">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "О">
 
-<!ENTITY cmd.moveBookmarks.label                  "Перенести…">
+<!ENTITY cmd.moveBookmarks.label                  "Перемістити…">
 <!ENTITY cmd.moveBookmarks.accesskey              "П">
 
 <!ENTITY col.name.label              "Ім’я">
@@ -88,7 +88,7 @@
 <!ENTITY col.url.label               "Адреса">
 <!ENTITY col.lastvisit.label         "Дата відвідування">
 <!ENTITY col.visitcount.label        "Відвідувань">
-<!ENTITY col.keyword.label           "Скорочення">
+<!ENTITY col.keyword.label           "Коротке ім'я">
 <!ENTITY col.description.label       "Опис">
 <!ENTITY col.dateadded.label         "Додано">
 <!ENTITY col.lastmodified.label      "Остання зміна">
@@ -116,7 +116,7 @@
 <!ENTITY maintenance.accesskey  "І">
 <!ENTITY maintenance.tooltip    "Імпортування та створення резервних копій ваших закладок">
 
-<!ENTITY backButton.tooltip  "Повернутись назад">
+<!ENTITY backButton.tooltip  "На попередню сторінку">
 
 <!ENTITY forwardButton.tooltip  "Перейти вперед">
 
@@ -128,7 +128,7 @@
 
 <!ENTITY find.label               "Знайти:">
 <!ENTITY find.accesskey           "а">
-<!ENTITY view.label               "Перегляд">
+<!ENTITY view.label               "Вигляд">
 <!ENTITY view.accesskey           "е">
 <!ENTITY byDate.label             "За датою">
 <!ENTITY byDate.accesskey         "д">

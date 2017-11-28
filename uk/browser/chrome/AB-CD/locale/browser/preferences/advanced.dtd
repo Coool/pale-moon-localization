@@ -6,9 +6,9 @@
 
 <!ENTITY generalTab.label                "Загальне">
 
-<!ENTITY accessibility.label             "Функції доступності">
+<!ENTITY accessibility.label             "Спеціальні можливості">
 
-<!ENTITY useCursorNavigation.label       "Завжди використовувати клавіші курсора для переміщення всередині сторінок">
+<!ENTITY useCursorNavigation.label       "Завжди використовувати клавіші курсору для навігації по сторінках">
 <!ENTITY useCursorNavigation.accesskey   "а">
 <!ENTITY searchStartTyping.label         "Шукати текст на сторінці у міру його набору">
 <!ENTITY searchStartTyping.accesskey     "у">
@@ -26,26 +26,26 @@
 <!ENTITY checkSpelling.label             "Перевіряти орфографію при наборі тексту">
 <!ENTITY checkSpelling.accesskey         "е">
 
-<!ENTITY systemDefaults.label            "Системні замовчування">
-<!ENTITY alwaysCheckDefault.label        "Завжди перевiряти пiд час запускання що &brandShortName; є основним"><!--XXX-->
-<!ENTITY alwaysCheckDefault.accesskey    "д">
-<!ENTITY setDefault.label                "Зробити &brandShortName; основним броузером">
-<!ENTITY setDefault.accesskey            "е">
+<!ENTITY systemDefaults.label            "Системні налаштування">
+<!ENTITY alwaysCheckDefault.label        "Завжди перевіряти при запуску, чи є &brandShortName; браузером за замовчуванням"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "w">
+<!ENTITY setDefault.label                "Зробити &brandShortName; браузером за замовчуванням">
+<!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; наразі є вашим типовим браузером">
 
 <!ENTITY dataChoicesTab.label            "Вибір даних">
 
 <!ENTITY crashReporterSection.label      "Повідомлення про падіння">
 <!ENTITY crashReporterDesc.label         "&brandShortName; відправляє повідомлення про падіння, щоб допомогти &vendorShortName; зробити ваш браузер більш стабільним і безпечним">
-<!ENTITY enableCrashReporter.label       "Включити відправку повідомлень про падіння">
-<!ENTITY enableCrashReporter.accesskey   "К">
+<!ENTITY enableCrashReporter.label       "Увімкнути надсилання повідомлень про падіння">
+<!ENTITY enableCrashReporter.accesskey   "C">
 <!ENTITY crashReporterLearnMore.label    "Дізнатися більше">
 
 <!ENTITY networkTab.label                "Мережа">
 
 <!ENTITY connection.label                "З’єднання">
 
-<!ENTITY connectionDesc.label            "Налаштуйте параметри з’єднання &brandShortName; з інтернетом">
+<!ENTITY connectionDesc.label            "Налаштування параметрів з’єднання &brandShortName; з інтернетом">
 <!ENTITY connectionSettings.label        "Налаштувати…">
 <!ENTITY connectionSettings.accesskey    "а">
 
@@ -77,7 +77,7 @@
      in preferences.properties -->
 <!ENTITY updateAuto1.label               "Автоматично встановлювати оновлення (рекомендовано: покращує безпеку)">
 <!ENTITY updateAuto1.accesskey           "А">
-<!ENTITY updateAutoMetro.label           "Автоматично оновлювати класичний та плитковий  &brandShortName;">
+<!ENTITY updateAutoMetro.label           "Автоматично оновлюватися через класичний та плитковий &brandShortName;">
 <!ENTITY updateAutoMetro.accesskey       "А">
 <!ENTITY updateCheck.label               "Перевіряти наявність оновлень, але питати мене чи хочу я їх встановити">
 <!ENTITY updateCheck.accesskey           "П">
@@ -103,12 +103,12 @@
 <!ENTITY offlineAppsPermissions.Ask      "Завжди питати">
 <!ENTITY offlineAppsPermissions.Deny     "Заборонити">
 <!ENTITY offlineNotifyExceptions.label   "Винятки…">
-<!ENTITY offlineNotifyExceptions.accesskey "к">
+<!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label          "Наступним сайтам дозволено зберігати дані для автономного використання:">
+<!ENTITY offlineAppsList2.label          "Наступним веб-сайтів дозволено зберігати дані для роботи в автономному режимі:">
 <!ENTITY offlineAppsList.height          "10em">
 <!ENTITY offlineAppsListRemove.label     "Видалити…">
-<!ENTITY offlineAppsListRemove.accesskey "Д">
+<!ENTITY offlineAppsListRemove.accesskey "R">
 <!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
 
 <!ENTITY certificateTab.label            "Сертифікати">
@@ -118,15 +118,15 @@
 <!ENTITY certs.auto.accesskey            "а">
 <!ENTITY certs.ask                       "Питати кожного разу">
 <!ENTITY certs.ask.accesskey             "к">
-<!ENTITY ocspGroup.label                 "Перевірка сертифіката">
-<!ENTITY enableOCSP.label                "Використовувати OCSP для пiдтвердження теперішньої дiйсностi сертифiкатiв">
-<!ENTITY enableOCSP.accesskey            "П">
-<!ENTITY requireOCSP.label               "При помилцi з'єднання iз сервером OCSP уважати сертифiкат як недiйсний">
-<!ENTITY requireOCSP.accesskey           "ш">
+<!ENTITY ocspGroup.label                 "Перевірка сертифікату">
+<!ENTITY enableOCSP.label                "Використовувати протокол отримання статусу сертифікатів (OCSP) для перевірки поточного статусу сертифікатів">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "При невдачі з'єднання з сервером OCSP розглядати сертифікат як недійсний">
+<!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "Перегляд сертифікатів">
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Пристрої захисту">
-<!ENTITY viewSecurityDevices.accesskey   "о">
+<!ENTITY viewSecurityDevices.accesskey   "y">
 
 <!ENTITY UACompatGroup.label    "Сумiснiсть">
 <!ENTITY UACompat.label         "Використовувати User Agent:">
@@ -140,9 +140,9 @@
 <!ENTITY smoothscroll.params.label          "Параметри плавної прокрутки">
 <!ENTITY smoothscroll.mousewheel.label      "За допомогою коліщатка миші">
 <!ENTITY smoothscroll.mousewheel.duration   "Тривалість прокрутки миші:">
-<!ENTITY smoothscroll.arrowkeys.label       "За допомогою клавіш курсора">
+<!ENTITY smoothscroll.arrowkeys.label       "За допомогою клавіш курсору">
 <!ENTITY smoothscroll.arrowkeys.duration    "Тривалість прокрутки:">
 <!ENTITY smoothscroll.pagekeys.label        "За допомогою клавіш PgUp/PgDn">
 <!ENTITY smoothscroll.pagekeys.duration     "Тривалість прокрутки:">
-<!ENTITY smoothscroll.scrollbar.label       "Зо допомоги смуги прокручування">
-<!ENTITY smoothscroll.scrollbar.duration    "Тривалiсть прокручування:">
+<!ENTITY smoothscroll.scrollbar.label       "Зо допомоги смуги прокрутки">
+<!ENTITY smoothscroll.scrollbar.duration    "Тривалість прокрутки:">
