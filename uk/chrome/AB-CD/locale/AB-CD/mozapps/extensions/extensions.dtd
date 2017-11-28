@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle                   "Менеджер додатків">
 
-<!ENTITY search.placeholder                   "Шукати всі додатки">
+<!ENTITY search.placeholder                   "Пошук серед додатків">
 <!ENTITY search.buttonlabel                   "Пошук">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
@@ -11,17 +11,17 @@
 
 <!ENTITY loading.label                        "Завантаження…">
 <!ENTITY listEmpty.installed.label            "У вас не встановлено жодного доповнення даного типу">
-<!ENTITY listEmpty.availableUpdates.label     "No updates found">
+<!ENTITY listEmpty.availableUpdates.label     "Немає оновлень">
 <!ENTITY listEmpty.recentUpdates.label        "Останнім часом ви не оновлювали ніяких додатків">
 <!ENTITY listEmpty.findUpdates.label          "Перевірити наявність оновлень">
 <!ENTITY listEmpty.search.label               "Жодного відповідного доповнення не знайдено">
-<!ENTITY listEmpty.button.label               "Learn more about add-ons">
-<!ENTITY installAddonFromFile.label           "Install Add-on From File…">
+<!ENTITY listEmpty.button.label               "Дізнатися більше про додатки">
+<!ENTITY installAddonFromFile.label           "Встановити додаток з файлу…">
 <!ENTITY installAddonFromFile.accesskey       "I">
-<!ENTITY toolsMenu.tooltip                    "Tools for all add-ons">
+<!ENTITY toolsMenu.tooltip                    "Інструменти для всіх додатків">
 
-<!ENTITY cmd.back.tooltip                     "Go back one page">
-<!ENTITY cmd.forward.tooltip                  "Go forward one page">
+<!ENTITY cmd.back.tooltip                     "На попередню сторінку">
+<!ENTITY cmd.forward.tooltip                  "На наступну сторінку">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "В захищеному режимі всі додатки вимкнено.">
@@ -45,7 +45,7 @@
 <!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label        "Перевірити наявність оновлень">
 <!ENTITY updates.checkForUpdates.accesskey    "C">
-<!ENTITY updates.viewUpdates.label            "View Recent Updates">
+<!ENTITY updates.viewUpdates.label            "Перегляд останніх оновлень">
 <!ENTITY updates.viewUpdates.accesskey        "V">
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
@@ -66,8 +66,8 @@
 <!ENTITY updates.installed.label              "Ваші додатки були оновлені.">
 <!ENTITY updates.downloaded.label             "Оновлення додатків завантажені.">
 <!ENTITY updates.restart.label                "Перезапустити для завершення установки">
-<!ENTITY updates.noneFound.label              "No updates found">
-<!ENTITY updates.manualUpdatesFound.label     "View Available Updates">
+<!ENTITY updates.noneFound.label              "Немає оновлень">
+<!ENTITY updates.manualUpdatesFound.label     "Показати доступні оновлення">
 <!ENTITY updates.updateSelected.label         "Встановити оновлення">
 <!ENTITY updates.updateSelected.tooltip       "Встановити доступні оновлення з цього списку">
 
@@ -89,14 +89,14 @@
 <!ENTITY cmd.disableAddon.accesskey           "D">
 <!ENTITY cmd.enableTheme.label                "Використати тему">
 <!ENTITY cmd.enableTheme.accesskey            "W">
-<!ENTITY cmd.disableTheme.label               "Stop Wearing Theme">
+<!ENTITY cmd.disableTheme.label               "Більше не використовувати цю тему">
 <!ENTITY cmd.disableTheme.accesskey           "W">
-<!ENTITY cmd.askToActivate.label              "Ask to Activate">
+<!ENTITY cmd.askToActivate.label              "Вмикати по запиту">
 <!ENTITY cmd.askToActivate.tooltip            "Щоразу запитувати, чи використовувати цей додаток">
-<!ENTITY cmd.alwaysActivate.label             "Always Activate">
-<!ENTITY cmd.alwaysActivate.tooltip           "Always use this add-on">
+<!ENTITY cmd.alwaysActivate.label             "Завжди вмикати">
+<!ENTITY cmd.alwaysActivate.tooltip           "Завжди використовувати цей додаток">
 <!ENTITY cmd.neverActivate.label              "Ніколи не активувати">
-<!ENTITY cmd.neverActivate.tooltip            "Never use this add-on">
+<!ENTITY cmd.neverActivate.tooltip            "Ніколи не використовувати цей додаток">
 <!ENTITY cmd.stateMenu.tooltip                "Вирішити, коли запускати цей додаток">
 <!ENTITY cmd.installAddon.label               "Встановити">
 <!ENTITY cmd.installAddon.accesskey           "I">
@@ -111,16 +111,16 @@
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "Внести вклад в розвиток цього додатку">
 
-<!ENTITY cmd.showReleaseNotes.label           "Show Release Notes">
+<!ENTITY cmd.showReleaseNotes.label           "Показати примітки щодо випуску">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Показати примітки до випуску для цього оновлення">
-<!ENTITY cmd.hideReleaseNotes.label           "Hide Release Notes">
+<!ENTITY cmd.hideReleaseNotes.label           "Приховати примітки щодо випуску">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Приховати примітки до випуску для цього оновлення">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Що таке додатки?">
-<!ENTITY discover.description2                "Додатки — це доповнення, які дозволяють вам налаштувати &brandShortName; на власний смак, додавши в нього додаткові функції або надавши йому унікальний стиль. Спробуйте використовувати заощаджуючу час бічну панель, налаштуйте повідомлення про прогноз погоди або змініть його зовнішній вигляд, щоб зробити&amp; brandShortName; саме таким, яким ви бажаєте.">
+<!ENTITY discover.description2                "Додатки — це доповнення, які дозволяють вам налаштувати &brandShortName; на власний смак, додавши в нього додаткові функції або надавши йому унікальний стиль. Спробуйте використовувати економлячу час бічну панель, налаштуйте повідомлення про прогноз погоди або змініть його зовнішній вигляд, щоб зробити&amp; brandShortName; саме таким, яким ви бажаєте.">
 <!ENTITY discover.footer                      "Коли ви з'єднаєтеся з Інтернетом, в цій панелі з'являться деякі з кращих і найбільш популярних доповнень, які ви можете випробувати в роботі.">
 
 <!-- detail view -->
@@ -164,18 +164,18 @@
 
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Ім’я">
-<!ENTITY sort.name.tooltip                    "Сортувати за назвою">
+<!ENTITY sort.name.tooltip                    "Сортувати за іменем">
 <!ENTITY sort.dateUpdated.label               "Останнє оновлення">
-<!ENTITY sort.dateUpdated.tooltip             "Sort by date updated">
+<!ENTITY sort.dateUpdated.tooltip             "Сортувати за датою оновлення">
 <!ENTITY sort.relevance.label                 "Кращий збіг">
-<!ENTITY sort.relevance.tooltip               "Sort by relevance">
+<!ENTITY sort.relevance.tooltip               "Упорядкувати за релевантністю">
 <!ENTITY sort.price.label                     "Ціна">
 <!ENTITY sort.price.tooltip                   "Сортувати по ціні">
 
 <!ENTITY search.filter2.label                 "Пошук:">
 <!ENTITY search.filter2.installed.label       "Мої додатки">
-<!ENTITY search.filter2.installed.tooltip     "Show installed add-ons">
-<!ENTITY search.filter2.available.label       "Available Add-ons">
+<!ENTITY search.filter2.installed.tooltip     "Показати встановлені додатки">
+<!ENTITY search.filter2.available.label       "Доступні додатки">
 <!ENTITY search.filter2.available.tooltip     "Показати додатки доступні для встановлення">
 
 <!ENTITY addon.homepage                       "Домашня сторінка">
@@ -194,13 +194,13 @@
 <!ENTITY addon.undoAction.label               "Відмінити">
 <!ENTITY addon.undoAction.tooltip             "Скасувати цю дію">
 <!ENTITY addon.undoRemove.label               "Відмінити">
-<!ENTITY addon.undoRemove.tooltip             "Keep this add-on installed">
+<!ENTITY addon.undoRemove.tooltip             "Залишити цей додаток встановленим">
 <!ENTITY addon.restartNow.label               "Перезавантажити зараз">
 <!ENTITY addon.install.label                  "Встановити">
 <!ENTITY addon.install.tooltip                "Встановити цей додаток">
 <!ENTITY addon.updateNow.label                "Оновити зараз">
 <!ENTITY addon.updateNow.tooltip              "Встановити оновлення для цього додатку">
-<!ENTITY addon.includeUpdate.label            "Include in Update">
+<!ENTITY addon.includeUpdate.label            "Включити оновлення">
 <!ENTITY addon.updateAvailable.label          "Доступне оновлення">
 <!ENTITY addon.checkingForUpdates.label       "Перевірка наявності оновлень…">
 <!ENTITY addon.releaseNotes.label             "Примітки до випуску:">
@@ -212,7 +212,7 @@
 
 <!ENTITY addon.createdBy.label                "Від ">
 
-<!ENTITY eula.title                           "End-User License Agreement">
+<!ENTITY eula.title                           "Ліцензійна угода з кінцевим користувачем">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
 <!ENTITY eula.accept                          "Прийняти та встановити…">

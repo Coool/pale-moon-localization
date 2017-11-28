@@ -8,13 +8,13 @@
 <!ENTITY projectMenu_accesskey "P">
 <!ENTITY projectMenu_newApp_label "Новий додаток…">
 <!ENTITY projectMenu_newApp_accesskey "N">
-<!ENTITY projectMenu_importPackagedApp_label "Open Packaged App…">
+<!ENTITY projectMenu_importPackagedApp_label "Упакований додаток…">
 <!ENTITY projectMenu_importPackagedApp_accesskey "P">
-<!ENTITY projectMenu_importHostedApp_label "Open Hosted App…">
+<!ENTITY projectMenu_importHostedApp_label "Розміщений додаток…">
 <!ENTITY projectMenu_importHostedApp_accesskey "H">
 <!ENTITY projectMenu_selectApp_label "Відкрити додаток…">
 <!ENTITY projectMenu_selectApp_accesskey "O">
-<!ENTITY projectMenu_play_label "Install and Run">
+<!ENTITY projectMenu_play_label "Встановити і запустити">
 <!ENTITY projectMenu_play_accesskey "I">
 <!ENTITY projectMenu_stop_label "Зупинити додаток">
 <!ENTITY projectMenu_stop_accesskey "S">
@@ -25,26 +25,26 @@
 <!ENTITY projectMenu_showPrefs_label "Налаштування">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Управління додатковими компонентами">
-<!ENTITY projectMenu_manageComponents_accesskey "M">
+<!ENTITY projectMenu_manageComponents_accesskey "М">
 
 <!ENTITY runtimeMenu_label "Runtime">
 <!ENTITY runtimeMenu_accesskey "R">
 <!ENTITY runtimeMenu_disconnect_label "Роз'єднати">
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
-<!ENTITY runtimeMenu_showPermissionTable_label "Permissions Table">
+<!ENTITY runtimeMenu_showPermissionTable_label "Таблиця дозволів">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey "P">
 <!ENTITY runtimeMenu_takeScreenshot_label "Скріншот">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "S">
 <!ENTITY runtimeMenu_showDetails_label "Відомості про Runtime">
 <!ENTITY runtimeMenu_showDetails_accesskey "E">
 <!ENTITY runtimeMenu_showMonitor_label "Моніторинг">
-<!ENTITY runtimeMenu_showMonitor_accesskey "M">
-<!ENTITY runtimeMenu_showDevicePrefs_label "Device Preferences">
+<!ENTITY runtimeMenu_showMonitor_accesskey "М">
+<!ENTITY runtimeMenu_showDevicePrefs_label "Налаштування пристрою">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
-<!ENTITY runtimeMenu_showSettings_label "Device Settings">
+<!ENTITY runtimeMenu_showSettings_label "Параметри пристрою">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
-<!ENTITY viewMenu_label "Вид">
+<!ENTITY viewMenu_label "Вигляд">
 <!ENTITY viewMenu_accesskey "V">
 <!ENTITY viewMenu_toggleEditor_label "Перемкнути редактор">
 <!ENTITY viewMenu_toggleEditor_accesskey "E">
@@ -82,9 +82,9 @@
 <!ENTITY runtimePanel_wifi "Wi-Fi пристрої">
 <!ENTITY runtimePanel_simulator "Симулятори">
 <!ENTITY runtimePanel_other "Інше">
-<!ENTITY runtimePanel_installsimulator "Install Simulator">
-<!ENTITY runtimePanel_noadbhelper "Install ADB Helper">
-<!ENTITY runtimePanel_nousbdevice "Can't see your device?">
+<!ENTITY runtimePanel_installsimulator "Встановити Симулятор">
+<!ENTITY runtimePanel_noadbhelper "Встановити ADB Helper">
+<!ENTITY runtimePanel_nousbdevice "Не бачите ваш пристрій?">
 
 <!-- Lense -->
 <!ENTITY details_valid_header "коректно">
@@ -94,12 +94,12 @@
 <!ENTITY details_location "Місцезнаходження">
 <!ENTITY details_manifestURL "ID додатку">
 <!ENTITY details_removeProject_button "Видалити проект">
-<!ENTITY details_showPrepackageLog_button "Show Pre-package Log">
+<!ENTITY details_showPrepackageLog_button "Показати лог передупаковки">
 
 <!-- New App -->
 <!ENTITY newAppWindowTitle "Новий додаток">
-<!ENTITY newAppHeader "Select template">
-<!ENTITY newAppLoadingTemplate "Loading templates…">
+<!ENTITY newAppHeader "Вибрати шаблон">
+<!ENTITY newAppLoadingTemplate "Завантаження шаблонів…">
 <!ENTITY newAppProjectName "Ім'я проекту:">
 
 
@@ -108,37 +108,37 @@
 <!ENTITY deck_close "Закрити">
 
 <!-- Addons -->
-<!ENTITY addons_title "Extra Components">
-<!ENTITY addons_aboutaddons "Open Add-ons Manager">
+<!ENTITY addons_title "Додаткові компоненти">
+<!ENTITY addons_aboutaddons "Відкрити вікно управління додатками">
 
 <!-- Prefs -->
 <!ENTITY prefs_title "Налаштування">
 <!ENTITY prefs_editor_title "Редактор">
 <!ENTITY prefs_general_title "Загальне">
-<!ENTITY prefs_restore "Restore Defaults">
+<!ENTITY prefs_restore "Відновити за замовчуванням">
 <!ENTITY prefs_manage_components "Управління додатковими компонентами">
-<!ENTITY prefs_options_autoconnectruntime "Знову підключитися до попереднього runtime">
-<!ENTITY prefs_options_autoconnectruntime_tooltip "При запуску WebIDE знову підключитися до попереднього runtime">
-<!ENTITY prefs_options_rememberlastproject "Remember last project">
+<!ENTITY prefs_options_autoconnectruntime "Знову підключатись до попереднього runtime">
+<!ENTITY prefs_options_autoconnectruntime_tooltip "При запуску WebIDE знову підключатися до попереднього runtime">
+<!ENTITY prefs_options_rememberlastproject "Запам'ятовувати останній проект">
 <!ENTITY prefs_options_rememberlastproject_tooltip "Відновлювати останній проект при запуску WebIDE">
 <!ENTITY prefs_options_templatesurl "URL шаблонів">
 <!ENTITY prefs_options_templatesurl_tooltip "Індекс доступних шаблонів">
 <!ENTITY prefs_options_showeditor "Показувати редактор">
-<!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
+<!ENTITY prefs_options_showeditor_tooltip "Відображати внутрішній редактор">
 <!ENTITY prefs_options_tabsize "Розмір вкладки">
 <!ENTITY prefs_options_expandtab "Мягка табуляція">
 <!ENTITY prefs_options_expandtab_tooltip "Використовувати пробіли замість символу табуляції">
 <!ENTITY prefs_options_detectindentation "Автовідступи">
 <!ENTITY prefs_options_detectindentation_tooltip "Вгадувати стиль відступів на основі вмісту початкових кодів">
 <!ENTITY prefs_options_autocomplete "Автозаповнення">
-<!ENTITY prefs_options_autocomplete_tooltip "Enable code autocompletion">
-<!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
+<!ENTITY prefs_options_autocomplete_tooltip "Ввімкнути автодоповнення коду">
+<!ENTITY prefs_options_autoclosebrackets "Автозакриття дужок">
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Автоматично вставляти закриваючі дужки">
 <!ENTITY prefs_options_keybindings "Комбінації клавіш">
 <!ENTITY prefs_options_keybindings_default "За замовчуванням">
 
 <!-- Permissions Table -->
-<!ENTITY permissionstable_title "Permissions Table">
+<!ENTITY permissionstable_title "Таблиця дозволів">
 <!ENTITY permissionstable_name_header "Ім’я">
 
 <!-- Runtime Details -->
@@ -147,7 +147,7 @@
 <!ENTITY runtimedetails_summonADBRoot "пристрій root">
 <!ENTITY runtimedetails_ADBRootWarning "(вимагає незаблокованого завантажувача)">
 <!ENTITY runtimedetails_unrestrictedPrivileges "Необмежені права DevTools: ">
-<!ENTITY runtimedetails_requestPrivileges "request higher privileges">
+<!ENTITY runtimedetails_requestPrivileges "запитувати підвищені права">
 <!ENTITY runtimedetails_privilegesWarning "(Перезавантажити пристрій. Вимагає root-доступу.)">
 
 <!-- Device Preferences and Settings -->
@@ -155,21 +155,21 @@
 <!ENTITY device_typenumber "Ціле число">
 <!ENTITY device_typestring "Рядок">
 <!ENTITY device_typeobject "Об’єкт">
-<!ENTITY device_typenone "Выберіть тип">
+<!ENTITY device_typenone "Виберіть тип">
 
 <!-- Device Preferences -->
-<!ENTITY devicepreference_title "Device Preferences">
-<!ENTITY devicepreference_search "Search preferences">
-<!ENTITY devicepreference_newname "New preference name">
-<!ENTITY devicepreference_newtext "Preference value">
-<!ENTITY devicepreference_addnew "Add new preference">
+<!ENTITY devicepreference_title "Налаштування пристрою">
+<!ENTITY devicepreference_search "Налаштування пошуку">
+<!ENTITY devicepreference_newname "Ім'я нового набору налаштувань">
+<!ENTITY devicepreference_newtext "Значення налаштування">
+<!ENTITY devicepreference_addnew "Додати нове налаштування">
 
 <!-- Device Settings -->
-<!ENTITY devicesetting_title "Device Settings">
-<!ENTITY devicesetting_search "Search settings">
-<!ENTITY devicesetting_newname "New setting name">
+<!ENTITY devicesetting_title "Параметри пристрою">
+<!ENTITY devicesetting_search "Параметри пошуку">
+<!ENTITY devicesetting_newname "Ім'я нового параметру">
 <!ENTITY devicesetting_newtext "Встановлення значення">
-<!ENTITY devicesetting_addnew "Add new setting">
+<!ENTITY devicesetting_addnew "Додати новий параметр">
 
 <!-- Monitor -->
 <!ENTITY monitor_title "Моніторинг">
@@ -179,19 +179,19 @@
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
      that instructs the user to transfer an authentication token to the
      server. -->
-<!ENTITY wifi_auth_header "Client Identification">
+<!ENTITY wifi_auth_header "Ідентифікація клієнта">
 <!-- LOCALIZATION NOTE (wifi_auth_scan_request): Instructions requesting the
      user to transfer authentication info by scanning a QR code. -->
 <!ENTITY wifi_auth_scan_request "Ви підключаєтеся до кінцевої точки, якій потрібно більше даних для аутентифікації цього з'єднання. Будь ласка, відскануйте вказаний нижче QR-код через запит на іншому пристрої.">
 <!-- LOCALIZATION NOTE (wifi_auth_no_scanner): Link text to assist users with
      devices that can't scan a QR code. -->
-<!ENTITY wifi_auth_no_scanner "No QR scanner prompt?">
+<!ENTITY wifi_auth_no_scanner "Немає запиту QR-сканера?">
 <!-- LOCALIZATION NOTE (wifi_auth_yes_scanner): Link text to assist users with
      devices that can scan a QR code. -->
-<!ENTITY wifi_auth_yes_scanner "Have a QR scanner prompt?">
+<!ENTITY wifi_auth_yes_scanner "З'явився запит QR-сканера?">
 <!-- LOCALIZATION NOTE (wifi_auth_token_request): Instructions requesting the
      user to transfer authentication info by transferring a token. -->
 <!ENTITY wifi_auth_token_request "Якщо інший пристрій запитує токен замість сканування QR-коду, скопіюйте показане нижче значення на інший пристрій:">
 
 <!-- Logs panel -->
-<!ENTITY logs_title "Pre-packaging Command Logs">
+<!ENTITY logs_title "Список команд передупаковки">

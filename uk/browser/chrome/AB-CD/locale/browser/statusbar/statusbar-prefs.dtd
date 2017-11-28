@@ -6,7 +6,7 @@
 <!ENTITY status4evar.pane.statusbar "Панель повідомлень">
 <!ENTITY status4evar.pane.advanced "Додатково">
 
-<!ENTITY status4evar.tab.general "Загальне">
+<!ENTITY status4evar.tab.general "Загальні">
 <!ENTITY status4evar.tab.toolbar "Рядок стану">
 <!ENTITY status4evar.tab.urlbar "Адресний рядок">
 <!ENTITY status4evar.tab.popup "Спливаюча">
@@ -16,17 +16,17 @@
 <!ENTITY status4evar.option.nothing "Відсутнє">
 <!ENTITY status4evar.option.toolbar "У рядку стану">
 <!ENTITY status4evar.option.urlbar "В адресному рядку">
-<!ENTITY status4evar.option.popup "У спливає рядку">
+<!ENTITY status4evar.option.popup "У спливаючому рядку">
 <!ENTITY status4evar.option.tooltip "Спливаюча підказка">
-<!ENTITY status4evar.option.bottom "Полозка знизу">
-<!ENTITY status4evar.option.top "Полозка зверху">
-<!ENTITY status4evar.option.fill "Заливка рядки">
+<!ENTITY status4evar.option.bottom "Смужка знизу">
+<!ENTITY status4evar.option.top "Cмужка зверху">
+<!ENTITY status4evar.option.fill "Заливка рядка">
 <!ENTITY status4evar.option.dlcount "Лічильник завантажень">
 <!ENTITY status4evar.option.dltime "Залишилося часу">
 <!ENTITY status4evar.option.both "Обидва">
 <!ENTITY status4evar.option.right "Справа">
 <!ENTITY status4evar.option.left "Зліва">
-<!ENTITY status4evar.option.fixed "Зарепіть">
+<!ENTITY status4evar.option.fixed "Заріпити">
 <!ENTITY status4evar.option.simple "Простий">
 <!ENTITY status4evar.option.advanced "Покращений">
 <!ENTITY status4evar.option.browse "Огляд">
@@ -38,7 +38,7 @@
 <!ENTITY status4evar.option.space "З інтервалами">
 <!ENTITY status4evar.option.round "З масштабуванням">
 <!ENTITY status4evar.option.firefoxdefault "За замовчуванням для Pale Moon">
-<!ENTITY status4evar.option.download.library "Архів">
+<!ENTITY status4evar.option.download.library "Бібліотека">
 <!ENTITY status4evar.option.download.tab "Вкладка">
 <!ENTITY status4evar.option.download.thirdparty "Iнше">
 
@@ -49,29 +49,29 @@
 <!ENTITY status4evar.status.general.status.caption "Текст повідомлень">
 <!ENTITY status4evar.status.label "Показувати повідомлення в:">
 <!ENTITY status4evar.status.timeout.label "Приховувати повідомлення після:">
-<!ENTITY status4evar.status.default.label "Показати звичайні повідомлення">
+<!ENTITY status4evar.status.default.label "Показувати стандартні повідомлення">
 <!ENTITY status4evar.status.network.label "Показати мережеві повідомлення">
-<!ENTITY status4evar.status.network.xhr.label "Показувати повідомлення мережі в фоні">
+<!ENTITY status4evar.status.network.xhr.label "Показувати фонові повідомлення мережі">
 <!ENTITY toolkit.dom.status.change.label "Дозволити веб-сторінкам змінювати статус">
 
 <!ENTITY status4evar.status.general.linkOver.caption "Посилання">
 <!ENTITY status4evar.status.linkOver.label "Показати посилання в:">
-<!ENTITY status4evar.status.linkOver.delay.show.label "Затримка перед показувати посилання:">
-<!ENTITY status4evar.status.linkOver.delay.hide.label "Затримка перед приховуванням посилання:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Затримка перед відображенням посилання:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Затримка перед прихованням посилання:">
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Максимальна довжина тексту повідомлення:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Вирівнювання повідомлення:">
+<!ENTITY status4evar.status.urlbar.align.label "Розташування повідомлення:">
 <!ENTITY status4evar.status.urlbar.color.label "Колір тексту:">
 <!ENTITY status4evar.status.currentUrl "Розташування">
 <!ENTITY status4evar.status.statusText "Текст повідомлень">
 
-<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Можливості сумісності з Firefox">
-<!ENTITY browser.urlbar.formatting.enabled.label "Включити підсвічування домену">
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Налаштування сумісності з Firefox">
+<!ENTITY browser.urlbar.formatting.enabled.label "Увімкнути підсвічування домену">
 <!ENTITY browser.urlbar.trimming.enabled.label "Включити приховування протоколу (http: // і ftp: //)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "За замовчуванням вправо">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Зміна боку при наведенні миші">
+<!ENTITY status4evar.status.popup.invertMirror.label "За замовчуванням справа">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Змінювати сторону при наведенні миші">
 
 <!ENTITY status4evar.progress.style.label "Використовувати власний стиль">
 
@@ -92,25 +92,25 @@
 <!ENTITY status4evar.download.button.action.label "Дія при натисканні на кнопку завантаження:">
 <!ENTITY status4evar.download.force.label "Завжди показувати кнопку завантажень">
 <!ENTITY status4evar.download.label.force.label "Завжди відображати текст індикатора">
-<!ENTITY status4evar.download.label.label "Текст стану завантаження:">
-<!ENTITY status4evar.download.tooltip.label "У підказці кнопки відображати:">
+<!ENTITY status4evar.download.label.label "У тексті кнопки завантажень відображати:">
+<!ENTITY status4evar.download.tooltip.label "У спливаючій підказці кнопки відображати:">
 <!ENTITY status4evar.download.progress.label "Показувати індикатор завантаження на кнопці">
-<!ENTITY status4evar.download.progress.average.label "Показувати усереднений відсоток завантаження">
-<!ENTITY status4evar.download.progress.max.label "Показувати найбільш завершену завантаження">
-<!ENTITY status4evar.download.progress.min.label "Показувати найменш завершену завантаження">
+<!ENTITY status4evar.download.progress.average.label "Показувати середній відсоток завантаження">
+<!ENTITY status4evar.download.progress.max.label "Показувати найбільш завершене завантаження">
+<!ENTITY status4evar.download.progress.min.label "Показувати найменш завершене завантаження">
 <!ENTITY status4evar.download.color.active.label "Колір індикатора активних завантажень:">
 <!ENTITY status4evar.download.color.paused.label "Колір індикатора зупинених завантажень:">
 <!ENTITY status4evar.download.notify.animate.label "Анімувати кнопку при завершенні завантаження">
 <!ENTITY status4evar.download.notify.timeout.label "Підсвічувати кнопку при завершенні завантаження:">
 
-<!ENTITY status4evar.addonbar.borderStyle "Використовувати чергуються кордону панелей інструментів">
+<!ENTITY status4evar.addonbar.borderStyle "Використовувати межі панелей інструментів, що чергуються">
 <!ENTITY status4evar.addonbar.windowGripper "Відображати елемент зміни розміру вікна">
 <!ENTITY status4evar.addonbar.closeButton "Відображати кнопку закриття">
 
 <!ENTITY status4evar.advanced.warning "Ці додаткові налаштування можуть привести до проблем з Pale Moon або іншими доповненнями. Змінюйте на свій страх і ризик.">
 
 <!ENTITY status4evar.advanced.urlbar.forceBinding "Намагатися форсувати XBL-прив'язку адресного рядка">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Використовуйте тільки при наявності проблем з адресним рядком або якщо текст повідомлення відображається некоректно. Це може привести до проблем з іншими доповненнями, які працюють з адресним рядком.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Використовуйте тільки при наявності проблем з адресним рядком або якщо текст повідомлення відображається некоректно. Це може привести до проблем з іншими розширеннями, які працюють з адресним рядком.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Відстежувати повноекранний режим і відповідно адаптувати посилання/статус.">
 <!ENTITY status4evar.advanced.status.detectVideo "Приховувати спливаючі повідомлення в повноекранному HTML5 відео.">

@@ -43,29 +43,29 @@
 <!ENTITY cmd.pause.label                  "Паузирај">
 <!ENTITY cmd.pause.accesskey              "P">
 <!ENTITY cmd.resume.label                 "Настави">
-<!ENTITY cmd.resume.accesskey             "R">
-<!ENTITY cmd.cancel.label                 "Прекини">
+<!ENTITY cmd.resume.accesskey             "Р">
+<!ENTITY cmd.cancel.label                 "Одустани">
 <!ENTITY cmd.cancel.accesskey             "C">
 <!-- LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
      cmd.showMac.accesskey):
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
-<!ENTITY cmd.show.label                   "Open Containing Folder">
-<!ENTITY cmd.show.accesskey               "F">
+<!ENTITY cmd.show.label                   "Отворите фасциклу у којој се налази">
+<!ENTITY cmd.show.accesskey               "Ф">
 <!ENTITY cmd.showMac.label                "Прикажи у фасцикли">
-<!ENTITY cmd.showMac.accesskey            "F">
+<!ENTITY cmd.showMac.accesskey            "Ф">
 <!ENTITY cmd.retry.label                  "Покушај поново">
-<!ENTITY cmd.goToDownloadPage.label       "Go To Download Page">
-<!ENTITY cmd.goToDownloadPage.accesskey   "G">
-<!ENTITY cmd.copyDownloadLink.label       "Copy Download Link">
-<!ENTITY cmd.copyDownloadLink.accesskey   "L">
-<!ENTITY cmd.removeFromHistory.label      "Remove From History">
-<!ENTITY cmd.removeFromHistory.accesskey  "e">
+<!ENTITY cmd.goToDownloadPage.label       "Иди на страницу за преузимање">
+<!ENTITY cmd.goToDownloadPage.accesskey   "Г">
+<!ENTITY cmd.copyDownloadLink.label       "Копирај везу за преузимање">
+<!ENTITY cmd.copyDownloadLink.accesskey   "Л">
+<!ENTITY cmd.removeFromHistory.label      "Уклони из историје">
+<!ENTITY cmd.removeFromHistory.accesskey  "е">
 <!ENTITY cmd.clearList.label              "Обриши листу">
 <!ENTITY cmd.clearList.accesskey          "a">
 <!ENTITY cmd.clearDownloads.label         "Обришите преузимања">
-<!ENTITY cmd.clearDownloads.accesskey     "D">
+<!ENTITY cmd.clearDownloads.accesskey     "Д">
 
 <!-- LOCALIZATION NOTE (downloadsHistory.label, downloadsHistory.accesskey):
      This string is shown at the bottom of the Downloads Panel when all the
@@ -73,16 +73,16 @@
      the panel at all.
      -->
 <!ENTITY downloadsHistory.label           "Прикажи сва преузимања">
-<!ENTITY downloadsHistory.accesskey       "S">
+<!ENTITY downloadsHistory.accesskey       "С">
 
 <!ENTITY clearDownloadsButton.label       "Обришите преузимања">
-<!ENTITY clearDownloadsButton.tooltip     "Clears completed, canceled and failed downloads">
+<!ENTITY clearDownloadsButton.tooltip     "Чисти завршена, отказана и неуспеле преузимања">
 
 <!-- LOCALIZATION NOTE (downloadsListEmpty.label):
      This string is shown when there are no items in the Downloads view, when it
      is displayed inside a browser tab.
      -->
-<!ENTITY downloadsListEmpty.label         "There are no downloads.">
+<!ENTITY downloadsListEmpty.label         "Не постоје преузимања.">
 
 <!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
      This string is shown when there are no items in the Downloads Panel.
@@ -93,4 +93,4 @@
      This string is shown when some search terms are specified, but there are no
      results in the Downloads view.
      -->
-<!ENTITY downloadsListNoMatch.label       "Could not find any matching downloads.">
+<!ENTITY downloadsListNoMatch.label       "Није било могуће пронаћи одговарајућа преузимања.">

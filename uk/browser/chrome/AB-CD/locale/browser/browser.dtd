@@ -202,7 +202,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Веб-розробка">
 <!ENTITY webDeveloperMenu.accesskey   "р">
 
-<!ENTITY devtoolsConnect.label        "Підключення…">
+<!ENTITY devtoolsConnect.label        "З'єднатися…">
 <!ENTITY devtoolsConnect.accesskey    "е">
 
 <!ENTITY errorConsoleCmd.label        "Консоль помилок">
@@ -234,14 +234,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  "Scratchpad" in your locale. You should feel free to find a close
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Чернетка">
+<!ENTITY scratchpad.label             "Простий редактор JavaScript">
 <!ENTITY scratchpad.accesskey         "Ч">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
 
 <!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
   -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Отладчик браузера">
+<!ENTITY chromeDebuggerMenu.label       "Налагоджувач браузера">
 
 <!ENTITY devToolbarCloseButton.tooltiptext "Закрити панель розробника">
 <!ENTITY devToolbarMenu.label              "Панель розробника">
@@ -254,7 +254,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webide.keytext                    "F8">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Показати /приховати інструменти">
+<!ENTITY devToolboxMenuItem.label          "Показати/приховати інструменти">
 <!ENTITY devToolboxMenuItem.accesskey      "T">
 
 <!ENTITY devToolbarToolsButton.tooltip     "Показати/приховати інструменти розробника">
@@ -271,7 +271,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newPrivateWindow.label     "Нове потайливе вікно">
 <!ENTITY newPrivateWindow.accesskey "в">
 
-<!ENTITY editMenu.label         "Правка"> 
+<!ENTITY editMenu.label         "Редагувати"> 
 <!ENTITY editMenu.accesskey       "П"> 
 <!ENTITY undoCmd.label            "Повернути">  
 <!ENTITY undoCmd.key            "Z">  
@@ -288,13 +288,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.label           "Вставити">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "т"> 
-<!ENTITY deleteCmd.label          "Стерти">  
+<!ENTITY deleteCmd.label          "Видалити">  
 <!ENTITY deleteCmd.key            "D">  
 <!ENTITY deleteCmd.accesskey        "С"> 
 <!ENTITY selectAllCmd.label         "Виділити все">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "с"> 
-<!ENTITY preferencesCmd2.label       "Налаштування">
+<!ENTITY preferencesCmd2.label       "Параметри">
 <!ENTITY preferencesCmd2.accesskey     "Н">
 <!ENTITY preferencesCmdUnix.label       "Налаштування">
 <!ENTITY preferencesCmdUnix.accesskey     "Н"> 
@@ -325,7 +325,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd2.label "Показати всю історію">
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
-<!ENTITY appMenuEdit.label "Правка">
+<!ENTITY appMenuEdit.label "Редагувати">
 <!ENTITY appMenuCustomize.label "Вигляд">
 <!ENTITY appMenuToolbarLayout.label "Панель інструментів…">
 <!ENTITY appMenuSidebars.label "Бічні панелі">
@@ -525,7 +525,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
-<!ENTITY fullZoomResetCmd.label         "Звичайний">
+<!ENTITY fullZoomResetCmd.label         "Скинути">
 <!ENTITY fullZoomResetCmd.accesskey     "ч">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
@@ -550,7 +550,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomControls.label             "Масштабування">
 
 <!ENTITY appMenuRestart.label           "Перезапуск">
-<!ENTITY appMenuRestart.accesskey       "Р">
+<!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Вийти"> 
@@ -626,7 +626,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY allTabs.filter.emptyText "Пошук вкладок">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label "Браузерних вкладок">
+<!ENTITY tabsToolbar.label "Вкладки браузера">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "Вкладки з інших пристроїв">
@@ -644,10 +644,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY getUserMedia.selectCamera.label "Доступ до камери:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
-<!ENTITY getUserMedia.selectMicrophone.label "Доступ до мікрофона:">
+<!ENTITY getUserMedia.selectMicrophone.label "Доступ до мікрофону:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Доступ до Камері/Мікрофону">
+<!ENTITY webrtcIndicatorButton.label "Доступ до Камери / Мікрофону">
 <!ENTITY webrtcIndicatorButton.tooltip "Показати сайти, які зараз мають доступ до вашої камери або мікрофону">
 
 <!ENTITY mixedContentBlocked.helplink "Дізнатись більше">

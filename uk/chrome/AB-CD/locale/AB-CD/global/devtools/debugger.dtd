@@ -31,15 +31,15 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.optsButton.tooltip): This is the tooltip for
   -  the button that opens up an options context menu for the debugger UI. -->
-<!ENTITY debuggerUI.optsButton.tooltip  "Debugger Options">
+<!ENTITY debuggerUI.optsButton.tooltip  "Параметри Налагоджувача">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.blackBoxTooltip): This is the tooltip
   -  for the button that black boxes the selected source. -->
-<!ENTITY debuggerUI.sources.blackBoxTooltip "Toggle Black Boxing">
+<!ENTITY debuggerUI.sources.blackBoxTooltip "Помістити або вийняти з чорного ящика">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.prettyPrint): This is the tooltip for the
   -  button that pretty prints the selected source. -->
-<!ENTITY debuggerUI.sources.prettyPrint "Prettify Source">
+<!ENTITY debuggerUI.sources.prettyPrint "«Красиві» вихідні коди">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
@@ -60,26 +60,26 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton.tooltip): This is the tooltip for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton.tooltip "Clear the collected traces">
+<!ENTITY debuggerUI.clearButton.tooltip "Очистити зібрані трасування">
 
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
-<!ENTITY debuggerUI.pauseExceptions           "Pause on Exceptions">
+<!ENTITY debuggerUI.pauseExceptions           "Призупиняти на винятках">
 <!ENTITY debuggerUI.pauseExceptions.accesskey "E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
-<!ENTITY debuggerUI.ignoreCaughtExceptions           "Ignore Caught Exceptions">
+<!ENTITY debuggerUI.ignoreCaughtExceptions           "Ігнорувати спіймані виключення">
 <!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
   -  checkbox that toggles visibility of panes when opening the debugger. -->
-<!ENTITY debuggerUI.showPanesOnInit           "Show Panes on Startup">
+<!ENTITY debuggerUI.showPanesOnInit           "При запуску відкривати панелі">
 <!ENTITY debuggerUI.showPanesOnInit.accesskey "S">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
-<!ENTITY debuggerUI.showVarsFilter           "Show Variables Filter Box">
+<!ENTITY debuggerUI.showVarsFilter           "Показати панель фільтру змінних">
 <!ENTITY debuggerUI.showVarsFilter.accesskey "V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the
@@ -92,7 +92,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.showOriginalSource): This is the label for
   -  the checkbox that toggles the display of original or sourcemap-derived
   -  sources. -->
-<!ENTITY debuggerUI.showOriginalSource           "Show Original Sources">
+<!ENTITY debuggerUI.showOriginalSource           "Показати оригінальні початкові коди">
 <!ENTITY debuggerUI.showOriginalSource.accesskey "O">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
@@ -138,13 +138,13 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchVariable): This is the text that appears
   -  in the source editor's context menu for the variables search operation. -->
-<!ENTITY debuggerUI.searchVariable           "Filter Variables">
+<!ENTITY debuggerUI.searchVariable           "Фільтр змінних">
 <!ENTITY debuggerUI.searchVariable.key       "V">
 <!ENTITY debuggerUI.searchVariable.accesskey "V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.focusVariables): This is the text that appears
   -  in the source editor's context menu for the variables focus operation. -->
-<!ENTITY debuggerUI.focusVariables           "Focus Variables Tree">
+<!ENTITY debuggerUI.focusVariables           "Сфокусуватися на дереві змінних">
 <!ENTITY debuggerUI.focusVariables.key       "V">
 <!ENTITY debuggerUI.focusVariables.accesskey "V">
 
@@ -154,19 +154,19 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuBreak): This is the text that
   -  appears in the source editor context menu for adding a breakpoint. -->
-<!ENTITY debuggerUI.seMenuBreak     "Add Breakpoint">
+<!ENTITY debuggerUI.seMenuBreak     "Додати точку зупину">
 <!ENTITY debuggerUI.seMenuBreak.key "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuCondBreak): This is the text that
   -  appears in the source editor context menu for adding a conditional
   -  breakpoint. -->
-<!ENTITY debuggerUI.seMenuCondBreak     "Add Conditional Breakpoint">
+<!ENTITY debuggerUI.seMenuCondBreak     "Додати умовну точку зупину">
 <!ENTITY debuggerUI.seMenuCondBreak.key "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
 <!ENTITY debuggerUI.tabs.sources        "Джерела">
-<!ENTITY debuggerUI.tabs.traces         "Traces">
+<!ENTITY debuggerUI.tabs.traces         "Трасування">
 <!ENTITY debuggerUI.tabs.callstack      "Стек викликів">
 <!ENTITY debuggerUI.tabs.variables      "Змінні">
 <!ENTITY debuggerUI.tabs.events         "Події">
@@ -178,12 +178,12 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.addWatch): This is the text that
   -  appears in the watch expressions context menu for adding an expression. -->
-<!ENTITY debuggerUI.addWatch            "Add Watch Expression">
+<!ENTITY debuggerUI.addWatch            "Додати вираз для відстеження">
 <!ENTITY debuggerUI.addWatch.accesskey  "E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.removeWatch): This is the text that
   -  appears in the watch expressions context menu for removing all expressions. -->
-<!ENTITY debuggerUI.removeAllWatch           "Remove All Watch Expressions">
+<!ENTITY debuggerUI.removeAllWatch           "Видалити всі вирази для відстеження">
 <!ENTITY debuggerUI.removeAllWatch.key       "E">
 <!ENTITY debuggerUI.removeAllWatch.accesskey "E">
 

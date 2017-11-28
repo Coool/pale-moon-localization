@@ -3,12 +3,12 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Values for changepassword.xul -->
-<!ENTITY setPassword.title  "Change Master Password">
-<!ENTITY setPassword.tokenName.label "Security Device">
-<!ENTITY setPassword.oldPassword.label "Current password:">
+<!ENTITY setPassword.title  "Зміна майстер-пароля">
+<!ENTITY setPassword.tokenName.label "Пристрій безпеки">
+<!ENTITY setPassword.oldPassword.label "Поточний пароль:">
 <!ENTITY setPassword.newPassword.label "Введіть новий пароль:">
-<!ENTITY setPassword.reenterPassword.label "New password (again):">
-<!ENTITY setPassword.meter.label "Password quality meter">
+<!ENTITY setPassword.reenterPassword.label "Повторіть введення паролю:">
+<!ENTITY setPassword.meter.label "Рівень якості паролю">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Скинути">
@@ -17,18 +17,18 @@
 
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "Ввід майстер-пароля">
-<!ENTITY getPassword.tokenName2.label "Security Device:">
+<!ENTITY getPassword.tokenName2.label "Пристрій безпеки:">
 <!ENTITY getPassword.password.label "Пароль:">
 
 <!-- Downloading a cert -->
-<!ENTITY downloadCert.title "Downloading Certificate">
+<!ENTITY downloadCert.title "Завантаження сертифікату">
 <!ENTITY downloadCert.message1 "Вам пропонують довіряти новому центру сертифікації (CA).">
 <!ENTITY downloadCert.trustSSL "Довіряти при ідентифікації веб-сайтів.">
 <!ENTITY downloadCert.trustEmail "Довіряти при ідентифікації користувачів електронної пошти.">
 <!ENTITY downloadCert.trustObjSign "Довіряти при ідентифікації виробників програмного забезпечення.">
 <!ENTITY downloadCert.message3 "Перед тим, як визначитися з довірою до цього центру, рекомендується перевірити його сертифікат, політику і процедури (якщо можливо).">
 <!ENTITY downloadCert.viewCert.label "Вигляд">
-<!ENTITY downloadCert.viewCert.text "Examine CA certificate">
+<!ENTITY downloadCert.viewCert.text "Перевірити сертифікат центру">
 
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Запит ідентифікації користувача">
@@ -37,7 +37,7 @@
 <!ENTITY clientAuthAsk.message3 "Інформація про вибраний сертифікат:">
 
 <!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Select Certificate">
+<!ENTITY certPicker.title "Виберіть сертифікат">
 <!ENTITY certPicker.info  "Сертифікат:">
 <!ENTITY certPicker.detailsLabel "Інформація про вибраний сертифікат:">
 
@@ -47,22 +47,22 @@
 <!ENTITY pkcs12.setpassword.label2 "Пароль резервної копії (повторно):">
 <!ENTITY pkcs12.setpassword.reminder "Увага: якщо ви забудете пароль резервної копії сертифікату, то потім не зможете відновити з неї сертифікат. Цю інформацію слід зберігати в безпечному місці.">
 
-<!ENTITY chooseToken.title  "Choose Token Dialog">
-<!ENTITY chooseToken.message1 "Please choose a token.">
+<!ENTITY chooseToken.title  "Вибір токена">
+<!ENTITY chooseToken.message1 "Виберіть токен.">
 
-<!ENTITY escrowWarn.title "Encryption Key Copy">
+<!ENTITY escrowWarn.title "Копія ключа шифрування">
 <!ENTITY escrowWarn.message1 "Увага: центр сертифікації пропонує вам зробити резервну копію закритого ключа шифрування.">
 <!ENTITY escrowWarn.benefit1 "Перевага цього способу в тому, що при втраті вами доступу до закритого ключа шифрування, є можливість запросити його копію з цього центру сертифікації.">
 <!ENTITY escrowWarn.message2 "Як би там не було, ваш закритий ключ шифрування буде зберігатися в центрі сертифікації і може бути використаний для того, щоб прочитати вашу зашифровану пошту або документи без вашого дозволу.">
-<!ENTITY examineCert.label "View Certificate">
+<!ENTITY examineCert.label "Перегляд сертифікату">
 <!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
-<!ENTITY createCertInfo.title "Generating A Private Key">
+<!ENTITY createCertInfo.title "Генерація закритого ключа">
 <!ENTITY createCertInfo.msg1 "Йде генерація ключів. Це може зайняти кілька хвилин….">
 <!ENTITY createCertInfo.msg2 "Будь ласка, зачекайте…">
 
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Захищена ідентифікація з використанням токену">
-<!ENTITY protectedAuth.msg "Будь ласка, пройдіть процедуру ідентифікації, використовуючи токен. Метод ідентифікації залежить від типу вашого токена.">
+<!ENTITY protectedAuth.msg "Будь ласка, пройдіть процедуру ідентифікації, використовуючи токен. Метод ідентифікації залежить від типу вашого токену.">
 <!ENTITY protectedAuth.tokenName.label "Токен:">

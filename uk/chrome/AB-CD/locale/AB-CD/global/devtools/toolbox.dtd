@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip    "Close Developer Tools">
+<!ENTITY toolboxCloseButton.tooltip    "Закрити інструменти розробки">
 <!ENTITY toolboxOptionsButton.key      "O">
 <!ENTITY toolboxNextTool.key           "]">
 <!ENTITY toolboxPreviousTool.key       "[">
@@ -25,7 +25,7 @@
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
-<!ENTITY options.context.advancedSettings "Advanced settings">
+<!ENTITY options.context.advancedSettings "Додаткові параметри">
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
@@ -34,13 +34,13 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Show Browser Styles">
+<!ENTITY options.showUserAgentStyles.label "Відображати стилі браузера">
 <!ENTITY options.showUserAgentStyles.tooltip "Увімкнення цього призведе до відображення стилів за замовчуванням, завантажених браузером.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "Default color unit">
+<!ENTITY options.defaultColorUnit.label "Одиниці задання кольору за замовчуванням">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -78,14 +78,14 @@
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3    "Enable remote debugging">
+<!ENTITY options.enableRemote.label3    "Ввімкнути віддалене налагодження">
 <!ENTITY options.enableRemote.tooltip   "Увімкнення цієї опції дозволить використовувати інструменти розробника для налагодження віддаленого примірника Firefox, такого як Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
-<!ENTITY options.disableJavaScript.label     "Disable JavaScript *">
-<!ENTITY options.disableJavaScript.tooltip   "Включення цієї опції приведе до відключення JavaScript для поточної вкладки. Якщо вкладка або панель інструментів будуть закриті, то цей параметр буде забутий.">
+<!ENTITY options.disableJavaScript.label     "Вимкнути JavaScript *">
+<!ENTITY options.disableJavaScript.tooltip   "Увімкнення цієї опції приведе до вимкнення JavaScript для поточної вкладки. Якщо вкладка або панель інструментів будуть закриті, то цей параметр буде забутий.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
@@ -107,7 +107,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Available Toolbox Buttons">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Доступні кнопки інструментів">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -130,7 +130,7 @@
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
-<!ENTITY options.timestampMessages.label      "Enable timestamps">
+<!ENTITY options.timestampMessages.label      "Показувати мітки часу">
 <!ENTITY options.timestampMessages.tooltip    "Якщо ви активуйте це налаштування, команди і вивід в Веб-консолі будуть супроводжуватися мітками часу">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
@@ -140,7 +140,7 @@
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
-<!ENTITY options.stylesheetSourceMaps.label      "Show original sources">
+<!ENTITY options.stylesheetSourceMaps.label      "Показувати оригінальні вихідні коди">
 <!ENTITY options.stylesheetSourceMaps.tooltip    "Показувати оригінальні вихідні коди (напр. Файли Sass) в редакторі стилів і Інспекторі">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
@@ -151,36 +151,36 @@
 <!-- LOCALIZATION NOTE (options.profiler.label): This is the label for the
   -  heading of the group of JavaScript Profiler preferences in the options
   -  panel. -->
-<!ENTITY options.profiler.label            "JavaScript Profiler">
+<!ENTITY options.profiler.label            "Профайлер JavaScript">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Common Preferences">
+<!ENTITY options.commonPrefs.label           "Загальні налаштування">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
-<!ENTITY options.enablePersistentLogs.label    "Enable persistent logs">
+<!ENTITY options.enablePersistentLogs.label    "Ввімкнути безперервні логи">
 <!ENTITY options.enablePersistentLogs.tooltip  "Якщо ви активуйте цю опцію, то Веб-консоль і Мережевий монітор неможливо очищати висновок при кожному переході на нову сторінку">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
+<!ENTITY options.showPlatformData.label    "Відображати дані платформи Goanna">
 <!ENTITY options.showPlatformData.tooltip  "Якщо ви включите цю настройку, то звіти Профайлера JavaScript будуть включати символи платформи Goanna">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Editor Preferences">
-<!ENTITY options.sourceeditor.detectindentation.label   "Detect indentation">
+<!ENTITY options.sourceeditor.label                     "Налаштування редактора">
+<!ENTITY options.sourceeditor.detectindentation.label   "Визначати стиль відступів">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "Вгадувати стиль відступів на основі вмісту початкових кодів">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Автозакриття дужок">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Автоматично вставляти закриваючі дужки">
-<!ENTITY options.sourceeditor.expandtab.label           "Indent using spaces">
+<!ENTITY options.sourceeditor.expandtab.label           "Відступ за допомогою пробілів">
 <!ENTITY options.sourceeditor.expandtab.tooltip         "Використовувати пробіли замість символу табуляції">
 <!ENTITY options.sourceeditor.tabsize.label             "Розмір вкладки">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">

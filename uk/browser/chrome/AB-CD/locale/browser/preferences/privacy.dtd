@@ -4,7 +4,7 @@
 
 <!ENTITY tracking.label                 "Відслідковування">
 
-<!ENTITY dntTrackingNopref.label2       "Не казати сайтам нічого про моє ставлення до відслідковування">
+<!ENTITY dntTrackingNopref.label2       "Не повідомляти сайтам нічого про мої налаштуваннях відстеження">
 <!ENTITY dntTrackingNopref.accesskey    "н">
 <!ENTITY dntTrackingNotOkay.label2      "Казати сайтам, що я не хочу щоб мене відслідковували">
 <!ENTITY dntTrackingNotOkay.accesskey   "к">
@@ -12,12 +12,12 @@
 <!ENTITY dntTrackingOkay.accesskey      "х">
 <!ENTITY doNotTrackInfo.label           "Дізнатись більше">
 
-<!ENTITY  history.label                 "Історія відвідувань">
+<!ENTITY  history.label                 "Історія">
 
 <!ENTITY  locationBar.label             "Панель адрес">
 
 <!ENTITY  locbar.suggest.label          "При використанні адресного рядка пропонувати посилання:">
-<!ENTITY  locbar.history.label          "Історію">
+<!ENTITY  locbar.history.label          "З журналу">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Закладки">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
@@ -64,7 +64,7 @@
 <!ENTITY  historyHeader.custom.label       "Використовувати власні налаштування історії">
 <!ENTITY  historyHeader.post.label         "">
 
-<!ENTITY  rememberDescription.label      "&brandShortName; буде пам’ятати вашу історію переглядів, завантажень, форм, та пошуків, а також зберігати куки з відвідуваних вами сайтів.">
+<!ENTITY  rememberDescription.label      "&brandShortName; буде пам’ятати вашу історію переглядів, завантажень, пошуку, зберігати дані форм а також зберігати куки з відвідуваних вами сайтів.">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
@@ -75,7 +75,7 @@
 <!ENTITY  rememberActions.removeCookies.label "прибрати персональні куки">
 <!ENTITY  rememberActions.post.label          ".">
 
-<!ENTITY  dontrememberDescription.label  "&brandShortName; буде використовувати ті ж налаштування що й у потайливому режимі і не буде пам’ятати історії коли ви переглядаєте мережу.">
+<!ENTITY  dontrememberDescription.label  "&brandShortName; буде використовувати ті ж налаштування що й при приватному перегляді, і не буде пам’ятати історії вашої роботи з сайтами.">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
@@ -95,5 +95,5 @@
 <!ENTITY  clearOnClose.label             "Вичищати історію коли &brandShortName; закривається">
 <!ENTITY  clearOnClose.accesskey         "к">
 
-<!ENTITY  clearOnCloseSettings.label     "Вподобання…">
+<!ENTITY  clearOnCloseSettings.label     "Параметри…">
 <!ENTITY  clearOnCloseSettings.accesskey "В">
