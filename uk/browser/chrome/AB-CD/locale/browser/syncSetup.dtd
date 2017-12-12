@@ -10,16 +10,16 @@
 <!ENTITY button.createNewAccount.label "Створити новий обліковий запис">
 <!ENTITY button.haveAccount.label      "Я маю обліковий запис">
 
-<!ENTITY setup.choicePage.title.label     "Чи використовували ви &syncBrand.fullName.label; дотепер?">
-<!ENTITY setup.choicePage.new.label       "Ніколи">
+<!ENTITY setup.choicePage.title.label     "Чи використовували ви &syncBrand.fullName.label; раніше?">
+<!ENTITY setup.choicePage.new.label       "Я ніколи раніше не використовував &syncBrand.shortName.label;">
 <!ENTITY setup.choicePage.existing2.label "Я вже використовую &syncBrand.shortName.label; на іншому пристрої">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Сервер">
-<!ENTITY serverType.default.label      "Типово: Сервер Mozilla &syncBrand.fullName.label;">
-<!ENTITY serverType.custom2.label   "Використати інший сервер…">
+<!ENTITY serverType.default.label      "За замовчуванням: Сервер Mozilla &syncBrand.fullName.label;">
+<!ENTITY serverType.custom2.label   "Використовувати інший сервер…">
 <!ENTITY signIn.account2.label      "Обліковий запис">
-<!ENTITY signIn.account2.accesskey  "З">
+<!ENTITY signIn.account2.accesskey  "О">
 <!ENTITY signIn.password.label      "Пароль">
 <!ENTITY signIn.password.accesskey  "П">
 <!ENTITY signIn.recoveryKey.label       "Ключ відновлення">
@@ -34,7 +34,7 @@
 <!ENTITY setup.confirmPassword.label     "Підтвердження пароля">
 <!ENTITY setup.confirmPassword.accesskey "д">
 <!ENTITY setup.setupMetro.label     "Синхронізуватись з &brandShortName; в інтерфейсі Windows 8">
-<!ENTITY setup.setupMetro.accesskey "S">
+<!ENTITY setup.setupMetro.accesskey "х">
 
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
      joined with implicit white space, so spaces in the strings aren't necessary -->
@@ -50,7 +50,7 @@
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; піклується про вашу приватність">
 <!ENTITY setup.newRecoveryKeyPage.description.label "Щоб забезпечити вашу повну приватність, всі ваші дані шифруються перед надсиланням. Ключ відновлення, необхідний для дешифрування, не надсилається.">
 <!ENTITY recoveryKeyEntry.label        "Ваш ключ відновлення">
-<!ENTITY recoveryKeyEntry.accesskey    "К">
+<!ENTITY recoveryKeyEntry.accesskey    "ю">
 <!ENTITY syncGenerateNewKey.label  "Згенерувати новий ключ">
 <!ENTITY recoveryKeyBackup.description "Ваш ключ відновлення необхідний для доступу до &syncBrand.fullName.label; з інших машин. Будь ласка, створіть його резервну копію. Ми не зможемо допомогти вам повернути ваш ключ відновлення.">
 

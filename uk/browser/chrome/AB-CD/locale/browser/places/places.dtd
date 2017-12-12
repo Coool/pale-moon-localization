@@ -23,7 +23,7 @@
 <!ENTITY view.unsorted.label            "Несортоване">
 <!ENTITY view.unsorted.accesskey        "Н">
 <!ENTITY view.sortAscending.label       "Сортування за алфавітом">
-<!ENTITY view.sortAscending.accesskey   "п">
+<!ENTITY view.sortAscending.accesskey   "ф">
 <!ENTITY view.sortDescending.label      "У зворотному порядку">
 <!ENTITY view.sortDescending.accesskey  "з">
 
@@ -44,7 +44,7 @@
 <!ENTITY cmd.bookmarkLink.label         "Закласти цю сторінку…">
 <!ENTITY cmd.bookmarkLink.accesskey     "З">
 <!ENTITY cmd.delete.label               "Видалити цю сторінку">
-<!ENTITY cmd.delete.accesskey           "У">
+<!ENTITY cmd.delete.accesskey           "и">
 <!ENTITY cmd.deleteDomainData.label     "Забути про цей сайт">
 <!ENTITY cmd.deleteDomainData.accesskey "З">
 
@@ -53,10 +53,10 @@
 <!ENTITY cmd.open_window.label             "Відкрити у новому вікні">
 <!ENTITY cmd.open_window.accesskey         "н">
 <!ENTITY cmd.open_private_window.label     "Відкрити у новому приватному вікні">
-<!ENTITY cmd.open_private_window.accesskey "P">
+<!ENTITY cmd.open_private_window.accesskey "п">
 <!ENTITY cmd.open_tab.label                "Відкрити у новій вкладці">
 <!ENTITY cmd.open_tab.accesskey            "ц">
-<!ENTITY cmd.open_all_in_tabs.label        "Відкрити у вкладках всі">
+<!ENTITY cmd.open_all_in_tabs.label        "Відкрити всі у вкладках">
 <!ENTITY cmd.open_all_in_tabs.accesskey    "і">
 
 <!ENTITY cmd.openParentFolder.label      "Відкрити папку з файлом">
@@ -65,7 +65,7 @@
 <!ENTITY cmd.properties.label      "Властивості">
 <!ENTITY cmd.properties.accesskey  "і">
 
-<!ENTITY cmd.sortby_name.label              "Сортувати за ім’ям">
+<!ENTITY cmd.sortby_name.label              "Сортувати за іменем">
 <!ENTITY cmd.sortby_name.accesskey          "С">
 <!ENTITY cmd.context_sortby_name.accesskey  "С">
 
@@ -77,7 +77,7 @@
 <!ENTITY cmd.new_separator.label           "Створити розділювач">
 <!ENTITY cmd.new_separator.accesskey       "д">
 
-<!ENTITY cmd.reloadLivebookmark.label      "Оновити живу закладку">
+<!ENTITY cmd.reloadLivebookmark.label      "Оновити закладку на стрічку новин">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "О">
 
 <!ENTITY cmd.moveBookmarks.label                  "Перемістити…">
@@ -87,7 +87,7 @@
 <!ENTITY col.tags.label              "Мітки">
 <!ENTITY col.url.label               "Адреса">
 <!ENTITY col.lastvisit.label         "Дата відвідування">
-<!ENTITY col.visitcount.label        "Відвідувань">
+<!ENTITY col.visitcount.label        "К-сть відвідувань">
 <!ENTITY col.keyword.label           "Коротке ім'я">
 <!ENTITY col.description.label       "Опис">
 <!ENTITY col.dateadded.label         "Додано">
@@ -99,7 +99,7 @@
 <!ENTITY search.accesskey                          "о">
 
 <!ENTITY search.in.label                           "Пошук серед:">
-<!ENTITY search.scopeFolder.label                  "Вибраний папка">
+<!ENTITY search.scopeFolder.label                  "Вибрана тека">
 <!ENTITY search.scopeFolder.accesskey              "В">
 <!ENTITY search.scopeBookmarks.label               "Закладки">
 <!ENTITY search.scopeBookmarks.accesskey           "З">
@@ -108,28 +108,28 @@
 <!ENTITY search.scopeHistory.label                 "Журнал">
 <!ENTITY search.scopeHistory.accesskey             "Ж">
 <!ENTITY saveSearch.label                          "Зберегти">
-<!ENTITY saveSearch.accesskey                      "С">
+<!ENTITY saveSearch.accesskey                      "З">
 
 <!ENTITY cmd.find.key  "f">
 
 <!ENTITY maintenance.label      "Імпорт та резервні копії">
 <!ENTITY maintenance.accesskey  "І">
-<!ENTITY maintenance.tooltip    "Імпортування та створення резервних копій ваших закладок">
+<!ENTITY maintenance.tooltip    "Імпорт та створення резервних копій ваших закладок">
 
 <!ENTITY backButton.tooltip  "На попередню сторінку">
 
-<!ENTITY forwardButton.tooltip  "Перейти вперед">
+<!ENTITY forwardButton.tooltip  "На наступну сторінку">
 
 <!ENTITY detailsPane.more.label "Більше">
 <!ENTITY detailsPane.more.accesskey "Б">
 <!ENTITY detailsPane.less.label "Менше">
 <!ENTITY detailsPane.less.accesskey "М">
-<!ENTITY detailsPane.selectAnItemText.description "Додати елемент до перегляду та редагувати його властивості">
+<!ENTITY detailsPane.selectAnItemText.description "Виберіть елемент для перегляду і редагування його властивостей">
 
 <!ENTITY find.label               "Знайти:">
 <!ENTITY find.accesskey           "а">
 <!ENTITY view.label               "Вигляд">
-<!ENTITY view.accesskey           "е">
+<!ENTITY view.accesskey           "и">
 <!ENTITY byDate.label             "За датою">
 <!ENTITY byDate.accesskey         "д">
 <!ENTITY bySite.label             "За сайтом">

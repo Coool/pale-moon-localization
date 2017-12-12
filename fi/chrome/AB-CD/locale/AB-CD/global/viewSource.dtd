@@ -10,22 +10,22 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Source of: ">
+<!ENTITY mainWindow.preface "Lähde: ">
 
 <!ENTITY fileMenu.label "Tiedosto">
-<!ENTITY fileMenu.accesskey "F">
+<!ENTITY fileMenu.accesskey "T">
 <!ENTITY savePageCmd.label "Tallenna sivu nimellä…">
-<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.accesskey "n">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Sivun asetukset…">
-<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY pageSetupCmd.accesskey "e">
 <!ENTITY printPreviewCmd.label "Tulostuksen esikatselu">
-<!ENTITY printPreviewCmd.accesskey "e">
+<!ENTITY printPreviewCmd.accesskey "k">
 <!ENTITY printCmd.label "Tulosta…">
-<!ENTITY printCmd.accesskey "P">
+<!ENTITY printCmd.accesskey "o">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Sulje">
-<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.accesskey "S">
 <!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
@@ -42,45 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Go to Line…">
-<!ENTITY goToLineCmd.accesskey "G">
-<!ENTITY goToLineCmd.commandkey "l">
+<!ENTITY goToLineCmd.label "Siirry riville…">
+<!ENTITY goToLineCmd.accesskey "S">
+<!ENTITY goToLineCmd.commandkey "i">
 
 <!ENTITY viewMenu.label           "Näytä">
-<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY viewMenu.accesskey       "N">
 <!ENTITY reloadCmd.label "Päivitä">
-<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY reloadCmd.accesskey "P">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Wrap Long Lines"> 
-<!ENTITY menu_wrapLongLines.accesskey "W">
-<!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
-<!ENTITY menu_highlightSyntax.accesskey "H">
-<!ENTITY menu_textSize.label "Text Size">
-<!ENTITY menu_textSize.accesskey "Z">
-<!ENTITY menu_textEnlarge.label "Increase">
-<!ENTITY menu_textEnlarge.accesskey "I">
-<!ENTITY menu_textReduce.label "Decrease">
-<!ENTITY menu_textReduce.accesskey "D">
+<!ENTITY menu_wrapLongLines.title "Rivitä pitkät rivit"> 
+<!ENTITY menu_wrapLongLines.accesskey "R">
+<!ENTITY menu_highlightSyntax.label "Syntaksin korostus">
+<!ENTITY menu_highlightSyntax.accesskey "n">
+<!ENTITY menu_textSize.label "Tekstikoko">
+<!ENTITY menu_textSize.accesskey "k">
+<!ENTITY menu_textEnlarge.label "Lisää">
+<!ENTITY menu_textEnlarge.accesskey "L">
+<!ENTITY menu_textReduce.label "Vähennä">
+<!ENTITY menu_textReduce.accesskey "V">
 <!ENTITY menu_textReset.label "Normaali">
 <!ENTITY menu_textReset.accesskey "N">
 
 <!ENTITY findOnCmd.label     "Etsi tältä sivulta…">
-<!ENTITY findOnCmd.accesskey "F">
+<!ENTITY findOnCmd.accesskey "E">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Find Again">
-<!ENTITY findAgainCmd.accesskey "g">
-<!ENTITY findAgainCmd.commandkey "g">
+<!ENTITY findAgainCmd.label  "Etsi seuraava">
+<!ENTITY findAgainCmd.accesskey "t">
+<!ENTITY findAgainCmd.commandkey "t">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
 
 <!ENTITY backCmd.label "Takaisin">
-<!ENTITY backCmd.accesskey "B">
-<!ENTITY forwardCmd.label "Forward">
-<!ENTITY forwardCmd.accesskey "F">
+<!ENTITY backCmd.accesskey "k">
+<!ENTITY forwardCmd.label "Seuraava">
+<!ENTITY forwardCmd.accesskey "S">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
 <!ENTITY copyLinkCmd.label "Kopioi linkin osoite">
-<!ENTITY copyLinkCmd.accesskey "L">
+<!ENTITY copyLinkCmd.accesskey "l">
 <!ENTITY copyEmailCmd.label "Kopioi sähköpostiosoite">
-<!ENTITY copyEmailCmd.accesskey "E">
+<!ENTITY copyEmailCmd.accesskey "K">

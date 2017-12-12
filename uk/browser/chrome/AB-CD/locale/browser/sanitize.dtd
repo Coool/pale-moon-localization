@@ -2,21 +2,21 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY sanitizePrefs2.title          "Вподобання вичищення історії">
-<!ENTITY sanitizeDialog2.title         "Вичистити недавню історію">
+<!ENTITY sanitizePrefs2.title          "Налаштування очищення історії">
+<!ENTITY sanitizeDialog2.title         "Видалити недавню історію пошуку">
 
-<!ENTITY clearDataSettings2.label     "Коли я закриваю &brandShortName;, він повинен автоматично вичистити всю:">
+<!ENTITY clearDataSettings2.label     "Коли я виходжу з &amp; brandShortName;, він повинен автоматично очистити всю:">
 
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-<!ENTITY clearTimeDuration.label          "За вказаний проміжок часу: ">
+<!ENTITY clearTimeDuration.label          "Проміжок часу для очищення: ">
 <!ENTITY clearTimeDuration.accesskey      "ч">
-<!ENTITY clearTimeDuration.lastHour       "останню годину">
-<!ENTITY clearTimeDuration.last2Hours     "останні 2 години">
-<!ENTITY clearTimeDuration.last4Hours     "останні 4 години">
+<!ENTITY clearTimeDuration.lastHour       "За останню годину">
+<!ENTITY clearTimeDuration.last2Hours     "За останні дві години">
+<!ENTITY clearTimeDuration.last4Hours     "За останні чотири години">
 <!ENTITY clearTimeDuration.today          "За сьогодні">
-<!ENTITY clearTimeDuration.everything     "Усю">
+<!ENTITY clearTimeDuration.everything     "Все">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
@@ -34,18 +34,18 @@ that require it.  -->
 
 <!ENTITY itemHistoryAndDownloads.label     "Історію переглядів та завантажень">
 <!ENTITY itemHistoryAndDownloads.accesskey "г">
-<!ENTITY itemFormSearchHistory.label       "Форми та пошукові запити">
-<!ENTITY itemFormSearchHistory.accesskey   "Ф">
+<!ENTITY itemFormSearchHistory.label       "Дані форм та пошукові запити">
+<!ENTITY itemFormSearchHistory.accesskey   "ф">
 <!ENTITY itemPasswords.label               "Збережені паролі">
 <!ENTITY itemPasswords.accesskey           "б">
 <!ENTITY itemCookies.label                 "Куки">
 <!ENTITY itemCookies.accesskey             "у">
 <!ENTITY itemCache.label                   "Кеш">
-<!ENTITY itemCache.accesskey               "к">
-<!ENTITY itemOfflineApps.label             "Позамережні дані сайтів">
+<!ENTITY itemCache.accesskey               "К">
+<!ENTITY itemOfflineApps.label             "Дані автономних веб-сайтів">
 <!ENTITY itemOfflineApps.accesskey         "а">
 <!ENTITY itemConnectivityData.label        "Дані про підключення до сайтів">
-<!ENTITY itemConnectivityData.accesskey    "N">
+<!ENTITY itemConnectivityData.accesskey    "й">
 <!ENTITY itemActiveLogins.label            "Активні сеанси">
 <!ENTITY itemActiveLogins.accesskey        "с">
 <!ENTITY itemSitePreferences.label         "Налаштування сайтів">
@@ -54,7 +54,7 @@ that require it.  -->
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
-<!ENTITY sanitizeEverythingUndoWarning     "Це безповоротня дія.">
+<!ENTITY sanitizeEverythingUndoWarning     "Ця дія не може бути скасована.">
 
 <!-- LOCALIZATION NOTE (dialog.width2): width of the Clear Recent History and
      Clear History on Shutdown dialogs.  Should be large enough to contain

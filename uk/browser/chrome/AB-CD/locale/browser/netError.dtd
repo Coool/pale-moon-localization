@@ -33,7 +33,7 @@
 <!ENTITY generic.title "Ой.">
 <!ENTITY generic.longDesc "<p>&brandShortName; не може завантажити цю сторінку з невизначеної причини.</p>">
 
-<!ENTITY malformedURI.title "Формат адреси неправильний">
+<!ENTITY malformedURI.title "Некоректна адреса">
 <!ENTITY malformedURI.longDesc "
 <ul>
 <li>Адреси сайтів зазвичай записуються у форматі <strong>http://www.example.com/</strong></li>
@@ -41,7 +41,7 @@
 </ul>
 ">
 
-<!ENTITY netInterrupt.title "З’єднання перервано">
+<!ENTITY netInterrupt.title "З'єднання було перервано">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Документ застарів">
@@ -61,7 +61,7 @@
 </ul>
 ">
 
-<!ENTITY unsafeContentType.title "Небезпечний тип файла">
+<!ENTITY unsafeContentType.title "Небезпечний тип файлу">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
 <li>Будь ласка, повідомте власнику сайту про цю проблему.</li>
@@ -130,7 +130,7 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Сайт підозрюється у атаці!">
+<!ENTITY malwareBlocked.title "Сайт підозрюється у атаках на комп'ютери!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Зловмисні сайти намагаються встановити програми, що крадуть конфіденційну інформацію, використовують ваш комп’ютер для подальших атак або шкодять вашій системі.</p>
 <p>Власники веб-сайтів, які вважають, що їхній сайт потрапив у список зловмисних без підстав, можуть <a href='http://www.stopbadware.org/home/reviewinfo' >вимагати перегляду цього рішення</a>.</p>
@@ -156,14 +156,14 @@
 </ul>
 ">
 
-<!ENTITY corruptedContentError.title "Пошкоджений вміст">
+<!ENTITY corruptedContentError.title "Помилка вмісту">
 <!ENTITY corruptedContentError.longDesc "<p>Сторінка, котру ви намагаєтесь переглянути, не може бути відображена, так як помічена помилка при передачі даних.</p>
 <ul><li>Будь ласка, повідомте власнику сайту про цю проблему.</li></ul>">
 
 
-<!ENTITY securityOverride.linkText "Або ви можете зробити виняток…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Заберіть мене звідси">
-<!ENTITY securityOverride.exceptionButtonLabel "Зробити виняток">
+<!ENTITY securityOverride.linkText "Або ви можете додати виняток…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Заберіть мене звідси!">
+<!ENTITY securityOverride.exceptionButtonLabel "Додати виняток…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
