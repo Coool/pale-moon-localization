@@ -13,7 +13,7 @@
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
-<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Потайливий режим)">
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Приватний перегляд)">
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Оновити вкладку">
@@ -38,18 +38,18 @@ can reach it easily. -->
 <!ENTITY  unpinTab.label                     "Відкріпити вкладку">
 <!ENTITY  unpinTab.accesskey                 "В">
 <!ENTITY  moveToNewWindow.label              "Перенести в нове вікно">
-<!ENTITY  moveToNewWindow.accesskey          "В">
+<!ENTITY  moveToNewWindow.accesskey          "е">
 <!ENTITY  bookmarkAllTabs.label              "Закласти всі вкладки…">
 <!ENTITY  bookmarkAllTabs.accesskey          "к">
-<!ENTITY  undoCloseTab.label                 "Повернути закриту вкладку">
-<!ENTITY  undoCloseTab.accesskey             "П">
+<!ENTITY  undoCloseTab.label                 "Відновити закриту вкладку">
+<!ENTITY  undoCloseTab.accesskey             "В">
 <!ENTITY  closeTab.label                     "Закрити вкладку">
-<!ENTITY  closeTab.accesskey                 "к">
+<!ENTITY  closeTab.accesskey                 "а">
 
 <!ENTITY  listAllTabs.label      "Список усіх вкладок">
 
 <!ENTITY tabCmd.label "Нова вкладка">
-<!ENTITY tabCmd.accesskey "Н">
+<!ENTITY tabCmd.accesskey "в">
 <!ENTITY tabCmd.commandkey "t">
 <!ENTITY openLocationCmd.label "Відкрити адресу…">
 <!ENTITY openLocationCmd.accesskey "а">
@@ -77,7 +77,7 @@ can reach it easily. -->
 <!ENTITY addonBarCmd.label "Панель додатків">
 <!ENTITY addonBarCmd.accesskey "д">
 <!ENTITY statusBar.label               "Панель стану">
-<!ENTITY statusBar.accesskey           "S">
+<!ENTITY statusBar.accesskey           "П">
 
 <!ENTITY pageSourceCmd.label "Початковий код сторінки">
 <!ENTITY pageSourceCmd.accesskey "а">
@@ -87,10 +87,10 @@ can reach it easily. -->
 <!ENTITY pageInfoCmd.commandkey "i">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
-<!ENTITY enterFullScreenCmd.label "Повноекранний режим">
+<!ENTITY enterFullScreenCmd.label "Перейти в повноекранний режим">
 <!ENTITY enterFullScreenCmd.accesskey "П">
 <!ENTITY exitFullScreenCmd.label "Вийти з повноекранного режиму">
-<!ENTITY exitFullScreenCmd.accesskey "П">
+<!ENTITY exitFullScreenCmd.accesskey "о">
 <!ENTITY fullScreenCmd.label "Повноекранний режим">
 <!ENTITY fullScreenCmd.accesskey "е">
 <!ENTITY fullScreenCmd.macCommandKey "f">
@@ -106,9 +106,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenExit.accesskey "В">
 <!ENTITY fullscreenAllowButton.label "Дозволити">
 <!ENTITY fullscreenExitButton.label "Відмовити">
-<!ENTITY fullscreenApproval.value "Дозволити повний екран?">
+<!ENTITY fullscreenApproval.value "Дозволити перехід в повноекранний режим?">
 
-<!ENTITY fullscreenExitHint.value "Натиском ESC ви можете вийти з повноекранного режиму.">
+<!ENTITY fullscreenExitHint.value "Натисніть Esc в будь-який момент, щоб вийти з повноекранного режиму.">
 <!ENTITY leaveDOMFullScreen.label "Вийти з повноекранного режиму">
 <!ENTITY leaveDOMFullScreen.accesskey "В">
 
@@ -126,15 +126,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Показати всі закладки">
 <!ENTITY organizeBookmarks.label "Показати всі закладки">
 <!ENTITY unsortedBookmarksCmd.label "Несортовані закладки">
-<!ENTITY bookmarksToolbarChevron.tooltip "Показати решту закладок">
+<!ENTITY bookmarksToolbarChevron.tooltip "Показати більше закладок">
 
 <!ENTITY backCmd.label                "Назад">
 <!ENTITY backCmd.accesskey            "Н">
-<!ENTITY backButton.tooltip           "Назад на одну сторінку">
+<!ENTITY backButton.tooltip           "На попередню сторінку">
 <!ENTITY forwardCmd.label             "Вперед">
 <!ENTITY forwardCmd.accesskey         "В">
-<!ENTITY forwardButton.tooltip        "Вперед на одну сторінку">
-<!ENTITY backForwardButtonMenu.tooltip "Клацніть правою клавішею чи потягніть униз ради історії">
+<!ENTITY forwardButton.tooltip        "На наступну сторінку">
+<!ENTITY backForwardButtonMenu.tooltip "Клацніть правою кнопкою або потягніть вниз для відображення історії">
 <!ENTITY backForwardButtonMenuMac.tooltip "Потягніть униз, щоб показати історію">
 <!ENTITY reloadCmd.label              "Оновити">
 <!ENTITY reloadCmd.accesskey          "О">
@@ -143,14 +143,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.accesskey            "З">
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Зупинити завантаження поточної сторінки">
-<!ENTITY goEndCap.tooltip             "Перейти за адресою з панелі адреси">
+<!ENTITY goEndCap.tooltip             "Перейти за введеною адресою">
 <!ENTITY printButton.label            "Друкувати">
 <!ENTITY printButton.tooltip          "Надрукувати поточну сторінку">
 
 <!ENTITY backForwardItem.title        "Назад/Вперед">
 <!ENTITY locationItem.title           "Адреса">
 <!ENTITY searchItem.title             "Пошук">
-<!ENTITY throbberItem.title           "Індикатор діяльності">
+<!ENTITY throbberItem.title           "Індикатор активності">
 <!ENTITY bookmarksItem.title          "Закладки">
 
 <!-- Toolbar items --> 
@@ -190,14 +190,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY search.accesskey             "ш">
 <!ENTITY downloads.label              "Завантаження">
 <!ENTITY downloads.tooltip            "Показати хід поточних завантажень">
-<!ENTITY downloads.accesskey          "З">
+<!ENTITY downloads.accesskey          "з">
 <!ENTITY downloads.commandkey         "j">
 <!ENTITY downloadsUnix.commandkey     "y">
 <!ENTITY addons.label                 "Додатки">
 <!ENTITY addons.accesskey             "Д">
 <!ENTITY addons.commandkey            "A">
-<!ENTITY permissions.label            "Права доступу">
-<!ENTITY permissions.accesskey        "P">
+<!ENTITY permissions.label            "Дозволи">
+<!ENTITY permissions.accesskey        "з">
 
 <!ENTITY webDeveloperMenu.label       "Веб-розробка">
 <!ENTITY webDeveloperMenu.accesskey   "р">
@@ -222,7 +222,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY responsiveDesignTool.commandkey "M">
 
 <!ENTITY eyedropper.label   "Піпетка">
-<!ENTITY eyedropper.accesskey "Y">
+<!ENTITY eyedropper.accesskey "і">
 
 <!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
   -  in the Tools menu. See bug 653093.
@@ -235,7 +235,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
 <!ENTITY scratchpad.label             "Простий редактор JavaScript">
-<!ENTITY scratchpad.accesskey         "Ч">
+<!ENTITY scratchpad.accesskey         "т">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
 
@@ -247,7 +247,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarMenu.label              "Панель розробника">
 <!ENTITY devToolbarMenu.accesskey          "р">
 <!ENTITY devAppMgrMenu.label               "Управління додатками">
-<!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY devAppMgrMenu.accesskey           "р">
 <!ENTITY webide.label                      "WebIDE">
 <!ENTITY webide.accesskey                  "W">
 <!ENTITY webide.keycode                    "VK_F8">
@@ -255,7 +255,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "Показати/приховати інструменти">
-<!ENTITY devToolboxMenuItem.accesskey      "T">
+<!ENTITY devToolboxMenuItem.accesskey      "і">
 
 <!ENTITY devToolbarToolsButton.tooltip     "Показати/приховати інструменти розробника">
 <!ENTITY devToolbarOtherToolsButton.label  "Інші інструменти">
@@ -268,11 +268,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label        "Нове вікно">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "Н">
-<!ENTITY newPrivateWindow.label     "Нове потайливе вікно">
+<!ENTITY newPrivateWindow.label     "Нове приватне вікно">
 <!ENTITY newPrivateWindow.accesskey "в">
 
 <!ENTITY editMenu.label         "Редагувати"> 
-<!ENTITY editMenu.accesskey       "П"> 
+<!ENTITY editMenu.accesskey       "Р"> 
 <!ENTITY undoCmd.label            "Повернути">  
 <!ENTITY undoCmd.key            "Z">  
 <!ENTITY undoCmd.accesskey          "н"> 
@@ -290,16 +290,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.accesskey         "т"> 
 <!ENTITY deleteCmd.label          "Видалити">  
 <!ENTITY deleteCmd.key            "D">  
-<!ENTITY deleteCmd.accesskey        "С"> 
+<!ENTITY deleteCmd.accesskey        "В"> 
 <!ENTITY selectAllCmd.label         "Виділити все">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "с"> 
-<!ENTITY preferencesCmd2.label       "Параметри">
+<!ENTITY preferencesCmd2.label       "Налаштування">
 <!ENTITY preferencesCmd2.accesskey     "Н">
 <!ENTITY preferencesCmdUnix.label       "Налаштування">
 <!ENTITY preferencesCmdUnix.accesskey     "Н"> 
 
-<!ENTITY clearRecentHistory.label               "Вичистити недавню історію…">
+<!ENTITY clearRecentHistory.label               "Видалити недавню історію…">
 
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
@@ -326,13 +326,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
 <!ENTITY appMenuEdit.label "Редагувати">
-<!ENTITY appMenuCustomize.label "Вигляд">
+<!ENTITY appMenuCustomize.label "Налаштувати">
 <!ENTITY appMenuToolbarLayout.label "Панель інструментів…">
 <!ENTITY appMenuSidebars.label "Бічні панелі">
 <!ENTITY appMenuFind.label "Знайти…">
 <!ENTITY appMenuUnsorted.label "Несортовані закладки">
 <!ENTITY appMenuWebDeveloper.label "Веб-розробка">
-<!ENTITY appMenuGettingStarted.label "Перші кроки">
+<!ENTITY appMenuGettingStarted.label "Початок роботи">
 <!ENTITY appMenuSafeMode.label "Перезапуск з вимкненими додатками…">
 <!ENTITY appMenuSafeMode.accesskey "д">
 
@@ -370,7 +370,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmd.label            "Відкрити посилання в новому вікні">
 <!ENTITY openLinkCmd.accesskey        "к">
 <!ENTITY openLinkInPrivateWindowCmd.label "Відкрити посилання в новому приватному вікні">
-<!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey "и">
 <!ENTITY openLinkCmdInCurrent.label     "Відкрити посилання">
 <!ENTITY openLinkCmdInCurrent.accesskey "В">
 <!ENTITY openFrameCmdInTab.label      "Відкрити фрейм в новій вкладці">
@@ -389,7 +389,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPartialSourceCmd.accesskey "к">
 <!ENTITY viewPageSourceCmd.label      "Початковий код сторінки">
 <!ENTITY viewPageSourceCmd.accesskey  "р">
-<!ENTITY viewFrameSourceCmd.label     "Початковий код фрейма">
+<!ENTITY viewFrameSourceCmd.label     "Початковий код фрейму">
 <!ENTITY viewFrameSourceCmd.accesskey "й">
 <!ENTITY viewPageInfoCmd.label        "Інформація про сторінку">
 <!ENTITY viewPageInfoCmd.accesskey    "І">
@@ -413,14 +413,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "с">
 <!ENTITY bookmarkThisFrameCmd.label      "Закласти цей фрейм">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "ф">
-<!ENTITY emailPageCmd.label           "Переслати посилання…">
+<!ENTITY emailPageCmd.label           "Надіслати посилання поштою…">
 <!ENTITY emailPageCmd.accesskey       "с">
 <!ENTITY savePageCmd.label            "Зберегти як…">
 <!ENTITY savePageCmd.accesskey        "я">
 <!ENTITY sendLinkCmd.label            "Надіслати посилання…">
-<!ENTITY sendLinkCmd.accesskey        "d">
+<!ENTITY sendLinkCmd.accesskey        "д">
 <!ENTITY sendPageCmd.label            "Надіслати посилання на сторінку…">
-<!ENTITY sendPageCmd.accesskey        "e">
+<!ENTITY sendPageCmd.accesskey        "п">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "б">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -436,11 +436,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY saveVideoCmd.accesskey       "в">
 <!ENTITY saveAudioCmd.label           "Зберегти аудіо як…">
 <!ENTITY saveAudioCmd.accesskey       "а">
-<!ENTITY emailImageCmd.label          "Переслати зображення…">
+<!ENTITY emailImageCmd.label          "Надіслати зображення поштою…">
 <!ENTITY emailImageCmd.accesskey      "ж">
-<!ENTITY emailVideoCmd.label          "Переслати відео…">
+<!ENTITY emailVideoCmd.label          "Надіслати відео поштою…">
 <!ENTITY emailVideoCmd.accesskey      "с">
-<!ENTITY emailAudioCmd.label          "Переслати аудіо…">
+<!ENTITY emailAudioCmd.label          "Надіслати аудіо поштою…">
 <!ENTITY emailAudioCmd.accesskey      "с">
 <!ENTITY playPluginCmd.label          "Активувати цей плагін">
 <!ENTITY playPluginCmd.accesskey      "А">
@@ -465,8 +465,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
 "Pause" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY mediaPlay.label             "Грати">
-<!ENTITY mediaPlay.accesskey         "а">
+<!ENTITY mediaPlay.label             "Відтворити">
+<!ENTITY mediaPlay.accesskey         "т">
 <!ENTITY mediaPause.label            "Пауза">
 <!ENTITY mediaPause.accesskey        "а">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
@@ -478,7 +478,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaUnmute.accesskey       "и">
 <!ENTITY mediaPlaybackRate.label     "Швідкість відтворення">
 <!ENTITY mediaPlaybackRate.accesskey "Ш">
-<!ENTITY mediaPlaybackRate050x.label "Вповільнена швидкість (0.5×)">
+<!ENTITY mediaPlaybackRate050x.label "Сповільнений рух (0.5×)">
 <!ENTITY mediaPlaybackRate050x.accesskey "п">
 <!ENTITY mediaPlaybackRate100x.label "Нормальна швидкість">
 <!ENTITY mediaPlaybackRate100x.accesskey "Н">
@@ -492,9 +492,9 @@ fast. -->
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY mediaShowControls.label     "Показати керувальники">
+<!ENTITY mediaShowControls.label     "Показати пульт керування">
 <!ENTITY mediaShowControls.accesskey "к">
-<!ENTITY mediaHideControls.label     "Приховати керувальники">
+<!ENTITY mediaHideControls.label     "Приховати пульт керування">
 <!ENTITY mediaHideControls.accesskey "к">
 <!ENTITY videoFullScreen.label       "Повний екран">
 <!ENTITY videoFullScreen.accesskey   "е">
@@ -526,7 +526,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "Скинути">
-<!ENTITY fullZoomResetCmd.accesskey     "ч">
+<!ENTITY fullZoomResetCmd.accesskey     "к">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
@@ -543,14 +543,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY copyButton.tooltip             "Копіювати">
 <!ENTITY pasteButton.tooltip            "Вставити">
 
-<!ENTITY fullScreenButton.tooltip       "Показати вікно на повний екран">
+<!ENTITY fullScreenButton.tooltip       "Розгорнути вікно на повний екран">
 
 <!ENTITY zoomOutButton.tooltip          "Зменшити">
 <!ENTITY zoomInButton.tooltip           "Збільшити">
-<!ENTITY zoomControls.label             "Масштабування">
+<!ENTITY zoomControls.label             "Управління масштабом">
 
 <!ENTITY appMenuRestart.label           "Перезапуск">
-<!ENTITY appMenuRestart.accesskey       "R">
+<!ENTITY appMenuRestart.accesskey       "р">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Вийти"> 
@@ -574,7 +574,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label "Основний стиль сторінки">
 <!ENTITY pageStylePersistentOnly.accesskey "О">
 
-<!ENTITY pageReportIcon.tooltip            "Змінити параметри блокування виринаючих вікон для цього сайта">
+<!ENTITY pageReportIcon.tooltip            "Змінити параметри блокування виринаючих вікон для цього сайту">
 
 <!ENTITY allowPopups.accesskey "о">
 <!-- On Windows we use the term "Options" to describe settings, but
@@ -594,7 +594,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.label     "Знайти на цій сторінці…">
 <!ENTITY findOnCmd.accesskey "ц">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Знайти наступне">
+<!ENTITY findAgainCmd.label  "Шукати знову">
 <!ENTITY findAgainCmd.accesskey "т">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
@@ -606,7 +606,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.cancel.label                   "Скасувати">
 <!ENTITY editBookmark.removeBookmark.accessKey       "П">
 
-<!ENTITY identity.unverifiedsite2 "Цей сайт не надає інформації про себе.">
+<!ENTITY identity.unverifiedsite2 "Інформація про справжність цього веб-сайту відсутня.">
 <!ENTITY identity.connectedTo "Ви під’єднані до">
 <!-- Localization note (identity.runBy) : This string appears between a
 domain name (above) and an organization name (below). E.g.
@@ -621,7 +621,7 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity.runBy "котрий запущено">
 
-<!ENTITY identity.moreInfoLinkText "Розкажіть мені про цей сайт…">
+<!ENTITY identity.moreInfoLinkText "Докладніше…">
 
 <!ENTITY allTabs.filter.emptyText "Пошук вкладок">
 <!-- Name for the tabs toolbar as spoken by screen readers.
@@ -633,7 +633,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "Синхронізація">
 
-<!ENTITY syncSetup.label              "Налаштуйте синхронізацію…">
+<!ENTITY syncSetup.label              "Налаштувати &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "Н">
 <!ENTITY syncSyncNowItem.label        "Синхронізувати зараз">
 <!ENTITY syncSyncNowItem.accesskey    "С">
@@ -643,9 +643,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY toggleAddonBarCmd.key        "/">
 
 <!ENTITY getUserMedia.selectCamera.label "Доступ до камери:">
-<!ENTITY getUserMedia.selectCamera.accesskey "C">
+<!ENTITY getUserMedia.selectCamera.accesskey "к">
 <!ENTITY getUserMedia.selectMicrophone.label "Доступ до мікрофону:">
-<!ENTITY getUserMedia.selectMicrophone.accesskey "M">
+<!ENTITY getUserMedia.selectMicrophone.accesskey "м">
 
 <!ENTITY webrtcIndicatorButton.label "Доступ до Камери / Мікрофону">
 <!ENTITY webrtcIndicatorButton.tooltip "Показати сайти, які зараз мають доступ до вашої камери або мікрофону">
@@ -656,7 +656,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY pointerLock.notification.message "Натисніть ESC будь-коли, щоб показати його знову.">
 
 <!ENTITY pluginNotification.showAll.label "Показати все">
-<!ENTITY pluginNotification.showAll.accesskey "S">
+<!ENTITY pluginNotification.showAll.accesskey "в">
 
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "Тимчасово дозволити">

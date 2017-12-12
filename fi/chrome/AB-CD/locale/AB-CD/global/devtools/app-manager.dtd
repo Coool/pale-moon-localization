@@ -30,12 +30,12 @@
 <!ENTITY device.deny "Estä">
 <!ENTITY device.denyTooltip "Tämä oikeus on estetty tämän tyypin sovelmilta">
 <!ENTITY device.installedApps "Asennetut sovelmat">
-<!ENTITY device.installedAppsTooltip "Tarkastele laitteeseen asennettujen sovelmien luetteloa. Jotkin sovelmat, kuten sertifioidut sovelmat, voidaan jättää pois tästä näkymästä.">
+<!ENTITY device.installedAppsTooltip "Näytä laitteeseen asennettujen sovelmien luettelo. Jotkin sovelmat, kuten sertifioidut sovelmat, voidaan jättää pois tästä näkymästä.">
 <!ENTITY device.permissions "Oikeudet">
-<!ENTITY device.permissionsTooltip "Tarkastele erityyppisten sovelmien käyttöoikeuksien taulukkoa">
+<!ENTITY device.permissionsTooltip "Näytä erityyppisten sovelmien käyttöoikeuksien taulukko">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
 <!ENTITY device.browserTabs "Selaimen välilehdet">
-<!ENTITY device.browserTabsTooltip "Tarkastele liitetyn laitteen selaimen välilehtien luetteloa">
+<!ENTITY device.browserTabsTooltip "Näytä liitetyn laitteen selaimen välilehtien luettelo">
 <!ENTITY device.debugBrowserTab "Vianselvitys">
 <!ENTITY device.debugBrowserTabTooltip "Avaa kehittäjätyökalut, jotka on liitetty tähän selaimen välilehteen laitteella">
 <!ENTITY device.help "Ohje">
@@ -47,11 +47,11 @@
 <!ENTITY connection.connectTo "Yhteys:">
 <!ENTITY connection.noDeviceFound "Laitetta ei löytynyt. Kytke laite">
 <!ENTITY connection.changeHostAndPort "Vaihda">
-<!ENTITY connection.changeHostAndPortTooltip "Vaihda laitteen yhdistämiseen käytetty isäntä ja portti (oletusarvoisesti localhost:6000)">
+<!ENTITY connection.changeHostAndPortTooltip "Vaihda laitteen yhdistämiseen käytetty palvelin ja portti (oletusarvoisesti localhost:6000)">
 <!ENTITY connection.startSimulator "Käynnistä simulaattori">
 <!ENTITY connection.startSimulatorTooltip "Käynnistä simulaattorin esiintymä ja ota siihen yhteys">
 <!ENTITY connection.saveConnectionInfo "Tallenna">
-<!ENTITY connection.saveConnectionInfoTooltip "Tallenna isäntä ja portti">
+<!ENTITY connection.saveConnectionInfoTooltip "Tallenna palvelin ja portti">
 <!ENTITY connection.connecting "Yhdistetään…">
 <!ENTITY connection.disconnecting "Yhteyttä katkaistaan…">
 <!ENTITY connection.cancel "Peru">
@@ -69,8 +69,8 @@
 <!ENTITY projects.addApp "Lisää">
 <!ENTITY projects.addPackaged "Lisää pakattu sovelma">
 <!ENTITY projects.addPackagedTooltip "Lisää uusi pakattu sovelma (hakemisto) tietokoneesta">
-<!ENTITY projects.addHosted "Lisää isännöivä sovelma">
-<!ENTITY projects.addHostedTooltip "Lisää uusi isännöivä sovelma (linkki manifest.webapp-tiedostoon) etäverkosta">
+<!ENTITY projects.addHosted "Lisää palvelinsovelma">
+<!ENTITY projects.addHostedTooltip "Lisää uusi palvelinsovelma (linkki manifest.webapp-tiedostoon) etäverkosta">
 <!ENTITY projects.title "Paikalliset sovelmat">
 <!ENTITY projects.appDetails "Sovelman tiedot">
 <!ENTITY projects.removeAppFromList "Poista tämä sovelma käyttämästäsi sovelmaluettelosta. Tämä ei poista sitä laitteesta tai simulaattorista.">
@@ -81,15 +81,15 @@
 <!ENTITY projects.saveManifest "Tallenna">
 <!ENTITY projects.saveManifestTooltip "Tallenna alla olevan manifestimuokkaimen sisältö">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "Projekteja ei ole. Lisää uusi pakattu sovelma alta (paikallinen hakemisto) tai isännöity sovellus (linkki manifesti-tiedostoon).">
-<!ENTITY projects.manifestEditor "Ilmentymämuokkain">
-<!ENTITY projects.manifestEditorTooltip "Muokkaa sovelmasi ilmentymää alla olevassa paneelissa. Päivitä-painiketta tallentaa muutokset ja päivittäa sovelman.">
-<!ENTITY projects.manifestViewer "Ilmentymäkatselin">
-<!ENTITY projects.manifestViewerTooltip "Tutki sovelmasi ilmentymää alla olevassa paneelissa">
+<!ENTITY projects.noProjects "Projekteja ei ole. Lisää uusi pakattu sovelma alta (paikallinen hakemisto) tai palvelinsovelma (linkki manifesti-tiedostoon).">
+<!ENTITY projects.manifestEditor "Manifestimuokkain">
+<!ENTITY projects.manifestEditorTooltip "Muokkaa sovelmasi manifestia alla olevassa paneelissa. Päivitä-painike tallentaa muutokset ja päivittäa sovelman.">
+<!ENTITY projects.manifestViewer "Manifestikatselin">
+<!ENTITY projects.manifestViewerTooltip "Tutki sovelmasi manifestia alla olevassa paneelissa">
 <!ENTITY projects.valid "Kelvollinen">
 <!ENTITY projects.error "Virhe">
 <!ENTITY projects.warning "Varoitus">
-<!ENTITY projects.hosted "Isännöity">
+<!ENTITY projects.hosted "Palvelin-">
 <!ENTITY projects.packaged "Pakattu">
 
 <!ENTITY help.title "Sovelmien hallinta">

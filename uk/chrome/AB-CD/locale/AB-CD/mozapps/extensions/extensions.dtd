@@ -17,7 +17,7 @@
 <!ENTITY listEmpty.search.label               "Жодного відповідного доповнення не знайдено">
 <!ENTITY listEmpty.button.label               "Дізнатися більше про додатки">
 <!ENTITY installAddonFromFile.label           "Встановити додаток з файлу…">
-<!ENTITY installAddonFromFile.accesskey       "I">
+<!ENTITY installAddonFromFile.accesskey       "а">
 <!ENTITY toolsMenu.tooltip                    "Інструменти для всіх додатків">
 
 <!ENTITY cmd.back.tooltip                     "На попередню сторінку">
@@ -44,14 +44,14 @@
 
 <!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label        "Перевірити наявність оновлень">
-<!ENTITY updates.checkForUpdates.accesskey    "C">
+<!ENTITY updates.checkForUpdates.accesskey    "е">
 <!ENTITY updates.viewUpdates.label            "Перегляд останніх оновлень">
-<!ENTITY updates.viewUpdates.accesskey        "V">
+<!ENTITY updates.viewUpdates.accesskey        "г">
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
 <!ENTITY updates.updateAddonsAutomatically.label     "Автоматично оновлювати додатки">
-<!ENTITY updates.updateAddonsAutomatically.accesskey "A">
+<!ENTITY updates.updateAddonsAutomatically.accesskey "в">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
      "Automatically", "Use default global behavior"). These menu items reset the
@@ -59,9 +59,9 @@
      (which itself is either "Automatically" or "Manually", controlled by the
      updates.updateAddonsAutomatically.label menu item). -->
 <!ENTITY updates.resetUpdatesToAutomatic.label       "Встановити для всіх додатків режим автоматичного оновлення">
-<!ENTITY updates.resetUpdatesToAutomatic.accesskey   "R">
+<!ENTITY updates.resetUpdatesToAutomatic.accesskey   "с">
 <!ENTITY updates.resetUpdatesToManual.label          "Встановити для всіх додатків режим ручного оновлення">
-<!ENTITY updates.resetUpdatesToManual.accesskey      "R">
+<!ENTITY updates.resetUpdatesToManual.accesskey      "с">
 <!ENTITY updates.updating.label               "Оновлення додатків">
 <!ENTITY updates.installed.label              "Ваші додатки були оновлені.">
 <!ENTITY updates.downloaded.label             "Оновлення додатків завантажені.">
@@ -73,24 +73,24 @@
 
 <!-- addon actions -->
 <!ENTITY cmd.showDetails.label                "Докладніше">
-<!ENTITY cmd.showDetails.accesskey            "S">
+<!ENTITY cmd.showDetails.accesskey            "л">
 <!ENTITY cmd.findUpdates.label                "Знайти оновлення">
-<!ENTITY cmd.findUpdates.accesskey            "F">
+<!ENTITY cmd.findUpdates.accesskey            "а">
 <!ENTITY cmd.preferencesWin.label             "Параметри">
-<!ENTITY cmd.preferencesWin.accesskey         "O">
+<!ENTITY cmd.preferencesWin.accesskey         "м">
 <!ENTITY cmd.preferencesUnix.label            "Налаштування">
-<!ENTITY cmd.preferencesUnix.accesskey        "P">
+<!ENTITY cmd.preferencesUnix.accesskey        "л">
 <!ENTITY cmd.about.label                      "Про додаток">
-<!ENTITY cmd.about.accesskey                  "A">
+<!ENTITY cmd.about.accesskey                  "П">
 
 <!ENTITY cmd.enableAddon.label                "Увімкнути">
-<!ENTITY cmd.enableAddon.accesskey            "E">
+<!ENTITY cmd.enableAddon.accesskey            "в">
 <!ENTITY cmd.disableAddon.label               "Вимкнути">
-<!ENTITY cmd.disableAddon.accesskey           "D">
+<!ENTITY cmd.disableAddon.accesskey           "и">
 <!ENTITY cmd.enableTheme.label                "Використати тему">
-<!ENTITY cmd.enableTheme.accesskey            "W">
+<!ENTITY cmd.enableTheme.accesskey            "р">
 <!ENTITY cmd.disableTheme.label               "Більше не використовувати цю тему">
-<!ENTITY cmd.disableTheme.accesskey           "W">
+<!ENTITY cmd.disableTheme.accesskey           "р">
 <!ENTITY cmd.askToActivate.label              "Вмикати по запиту">
 <!ENTITY cmd.askToActivate.tooltip            "Щоразу запитувати, чи використовувати цей додаток">
 <!ENTITY cmd.alwaysActivate.label             "Завжди вмикати">
@@ -99,16 +99,16 @@
 <!ENTITY cmd.neverActivate.tooltip            "Ніколи не використовувати цей додаток">
 <!ENTITY cmd.stateMenu.tooltip                "Вирішити, коли запускати цей додаток">
 <!ENTITY cmd.installAddon.label               "Встановити">
-<!ENTITY cmd.installAddon.accesskey           "I">
+<!ENTITY cmd.installAddon.accesskey           "н">
 <!ENTITY cmd.uninstallAddon.label             "Видалити">
-<!ENTITY cmd.uninstallAddon.accesskey         "R">
+<!ENTITY cmd.uninstallAddon.accesskey         "д">
 <!ENTITY cmd.debugAddon.label                 "Налагодження">
 <!ENTITY cmd.showPreferencesWin.label         "Параметри">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Змінити налаштування цього додатку">
 <!ENTITY cmd.showPreferencesUnix.label        "Налаштування">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "Змінити налаштування цього додатку">
 <!ENTITY cmd.contribute.label                 "Внести вклад">
-<!ENTITY cmd.contribute.accesskey             "C">
+<!ENTITY cmd.contribute.accesskey             "т">
 <!ENTITY cmd.contribute.tooltip               "Внести вклад в розвиток цього додатку">
 
 <!ENTITY cmd.showReleaseNotes.label           "Показати примітки щодо випуску">
@@ -144,13 +144,13 @@
 <!ENTITY detail.size                          "Розмір">
 
 <!ENTITY detail.checkForUpdates.label         "Перевірити наявність оновлень">
-<!ENTITY detail.checkForUpdates.accesskey     "F">
+<!ENTITY detail.checkForUpdates.accesskey     "в">
 <!ENTITY detail.checkForUpdates.tooltip       "Перевірити наявність оновлень для цього додатку">
 <!ENTITY detail.showPreferencesWin.label      "Параметри">
-<!ENTITY detail.showPreferencesWin.accesskey  "O">
+<!ENTITY detail.showPreferencesWin.accesskey  "р">
 <!ENTITY detail.showPreferencesWin.tooltip    "Змінити налаштування цього додатку">
 <!ENTITY detail.showPreferencesUnix.label     "Налаштування">
-<!ENTITY detail.showPreferencesUnix.accesskey "P">
+<!ENTITY detail.showPreferencesUnix.accesskey "а">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Змінити налаштування цього додатку">
 
 
@@ -226,8 +226,8 @@
      to cause this tab to appear. -->
 <!ENTITY experiment.info.label "Що це? Телеметрія може час від часу встановлювати і проводити експерименти.">
 <!ENTITY experiment.info.learnmore "Детальніше">
-<!ENTITY experiment.info.learnmore.accesskey "L">
+<!ENTITY experiment.info.learnmore.accesskey "е">
 <!ENTITY experiment.info.changetelemetry "Параметри телеметрії">
-<!ENTITY experiment.info.changetelemetry.accesskey "T">
+<!ENTITY experiment.info.changetelemetry.accesskey "а">
 
 <!ENTITY setting.learnmore "Детальніше…">

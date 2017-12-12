@@ -48,53 +48,55 @@
 <!ENTITY netReset.longDesc "<p>Verkon linkki katkesi yhteyttä muodostettaessa. Yritä uudestaan.</p>">
 
 <!ENTITY netTimeout.title "Verkon aikakatkaisu">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>Palvelin ei vastannut yhteyspyyntöön, ja selain lopetti vastauksen odottamisen.</p><ul><li>Palvelin voi olla kovan rasituksen alainen tai väliaikaisesti huollettavana. Yritä myöhemmin uudestaan.</li><li>Jos muutkaan sivustot eivät toimi, tarkista tietokoneen verkkoasetukset.</li><li>Onko tietokone tai verkko suojattu palomuurilla tai käytetäänkö välityspalvelinta?  Virheelliset asetukset voivat haitata selaamista.</li><li>Jos ongelmat jatkuvat, ota yhteyttä verkon ylläpitoon tai verkkoyhteyden palveluntarjoajaan.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Tuntematon protokolla">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Osoite määrittää protokollan (esimerkiksi <q>wxyz: / /</q>), jota selain ei tunnista, joten selain ei saa kunnolla yhteyttä sivustoon.</p> <ul><li>Yrittätkö käyttää multimedia- tai muita tekstittömiä palveluja? Tarkistaa sivuston eritysvaatimukset.</li> <li>Jotkin protokollat voivat vaatia kolmannen osapuolen ohjelmistoa tai liitännäistä ennen kuin selain voi tunnistaa ne.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.title "Välityspalvelin kieltäytyi yhteydestä">
+<!ENTITY proxyConnectFailure.longDesc "<p>Selain on asetettu käyttämään välityspalvelinta, mutta välityspalvelin ei hyväksynyt yhteyttä.</p><ul><li>Ovatko selaimen välityspalvelinasetukset oikeat? Tarkista asetukset ja yritä uudelleen.</li><li>Tulisiko välityspalvelimen hyväksyä yhteydet tästä verkkoyhteydestä?</li><li>Jos ongelmat jatkuvat, ota yhteyttä verkon ylläpitoon tai verkkoyhteyden palveluntarjoajaan.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Välityspalvelinta ei löydy">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<p>Selain on asetettu käyttämään välityspalvelinta, mutta siihen ei saatu yhteyttä.</p><ul><li>Ovatko selaimen välityspalvelinasetukset oikeat? Tarkista asetukset ja yritä uudelleen.</li><li>Onko tietokoneen verkkoyhteys toimintakykyinen?</li><li>Jos ongelmat jatkuvat, ota yhteyttä verkon ylläpitoon tai verkkoyhteyden palveluntarjoajaan.</li></ul>">
 
-<!ENTITY redirectLoop.title "Redirect Loop">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY redirectLoop.title "Uudelleenohjaussilmukka">
+<!ENTITY redirectLoop.longDesc "<p>Selain on lopettanut pyydetyn kohteen lataamisen. Palvelin uudelleenohjaa yhteyspyyntöjä loputtomasti.</p><ul><li>Onko kaikki tai sivuston tarvitsemat evästeet estetty?</li><li><em>HUOM</em>: Jos sivuston evästeiden salliminen ei korjaa ongelmaa, vika on luultavasti palvelimen asetuksissa, eikä tässä tietokoneessa.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Incorrect Response">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.title "Väärä vastaus">
+<!ENTITY unknownSocketType.longDesc "<p>Sivusto vastasi verkkopyyntöön odottamattomalla tavalla ja selain joutui keskeyttämään toiminnon.</p>">
 
 <!ENTITY nssFailure2.title "Suojatun yhteyden muodostaminen epäonnistui">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY nssFailure2.longDesc2 "<p>Avattavaa sivua ei voida näyttää, koska vastaanotetun datan alkuperää ei kyetty varmentamaan.</p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul>">
 
 <!ENTITY nssBadCert.title "Suojatun yhteyden muodostaminen epäonnistui">
 <!ENTITY nssBadCert.longDesc2 "<ul>
-<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
-<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
+ <li>Ongelma voi johtua palvelimen asetuksista tai jonkin toisen palvelimen 
+ vilpillisestä yrityksestä tekeytyä palvelimeksi.</li>
+ <li>Jos yhteyden muodostuminen palvelimeen on aiemmin onnistunut, vika voi
+ olla väliaikainen. Yritä tällöin myöhemmin uudestaan.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Epäilty hyökkäyssivusto!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+<p>Hyökkäyssivustot yrittävät asentaa ohjelmia, jotka varastavat henkilökohtaisia tietoja, käyttävät tietokonettasi ulkopuolisiin hyökkäyksiin tai vaurioittavat järjestelmääsi.</p>
+<p>Sivuston omistaja, joka uskoo sivustonsa raportoidun virheellisesti hyökkäyssivustoksi, voi <a href='https://www.stopbadware.org/request-review' > pyytää tarkistusta</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Epäilty huijaussivusto!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
-<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
+<p>Henkilötietojen kirjoittaminen tälle sivulle voi johtaa identiteettivarkauteen tai johonkin muuhun petokseen.</p>
+<p>Tämän tyyppiset verkkohuijaukset ovat osa phishing- tai kalastushuijauksia, joissa sivuilla tai sähköposteilla yritetään jäljitellä mahdollisesti luottamiesi toimijoiden viestintää.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "Estetty sisällön suojauskäytännön perusteella">
+<!ENTITY cspBlocked.longDesc "<p>Selain esti tämän sivun latautumisen tässä yhteydessä, koska sivun sisällön tietosuojakäytäntö kieltää sen.</p>">
 
 <!ENTITY corruptedContentError.title "Sisältö vioittunut virhe">
-<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>Avattavaa sivua ei voida näyttää, koska tiedonsiirrossa tapahtui virhe.</p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.title "XUL-koodia etänä">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,

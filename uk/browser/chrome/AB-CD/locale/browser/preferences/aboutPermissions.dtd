@@ -2,9 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY permissionsManager.title        "Керівник Дозволами">
+<!ENTITY permissionsManager.title        "Управління Дозволами">
 
-<!ENTITY sites.search                    "Шукати сайт">
+<!ENTITY sites.search                    "Пошук сайтів">
 <!ENTITY sites.allSites                  "Всі сайти">
 
 <!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
@@ -13,7 +13,7 @@
 <!ENTITY header.site.start               "Дозволи для">
 <!ENTITY header.site.end                 "">
 
-<!ENTITY header.defaults                 "Типові дозволи для всіх сайтів">
+<!ENTITY header.defaults                 "Дозволи за замовчуванням для всіх сайтів">
 
 <!ENTITY permissions.sitesReload         "Оновити список сайтів">
 
@@ -24,20 +24,20 @@
 <!ENTITY permission.alwaysAsk            "Завжди питати">
 <!ENTITY permission.allow                "Дозволити">
 <!ENTITY permission.allowForSession      "Дозволити на сеанс">
-<!ENTITY permission.allowFirstPartyOnly  "Не приймати куки сторонніх сайтів">
+<!ENTITY permission.allowFirstPartyOnly  "Не приймати куки від сторонніх сайтів">
 <!ENTITY permission.block                "Заблокувати">
 
 <!ENTITY password.label                  "Зберігати паролі">
-<!ENTITY password.manage                 "Керувати паролями…">
+<!ENTITY password.manage                 "Управління паролями…">
 
 <!ENTITY image.label                     "Завантажувати зображення">
 
 <!ENTITY cookie.label                    "Встановлювати куки">
 <!ENTITY cookie.remove                   "Вилучити куки">
-<!ENTITY cookie.manage                   "Керувати куками…">
+<!ENTITY cookie.manage                   "Керування куками…">
 <!ENTITY cookie.removeAll                "Вилучити всі куки">
 
-<!ENTITY desktop-notification.label      "Відображати повідомлення">
+<!ENTITY desktop-notification.label      "Показувати сповіщення">
 
 <!ENTITY install.label                   "Встановлювати розширення або теми">
 
@@ -47,10 +47,10 @@
 
 <!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
-<!ENTITY indexedDB.label                 "Втримувати позамережне сховище">
+<!ENTITY indexedDB.label                 "Керувати автономним сховищем">
 
 <!ENTITY popup.label                     "Відкривати виринаючі вікна">
 
-<!ENTITY fullscreen.label                "Повний екран">
+<!ENTITY fullscreen.label                "Повноекранний режим">
 
-<!ENTITY pointerLock.label               "Приховувати покажчик мищі">
+<!ENTITY pointerLock.label               "Приховувати вказівник миші">

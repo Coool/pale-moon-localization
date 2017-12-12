@@ -13,14 +13,14 @@
 <!ENTITY searchStartTyping.label         "Шукати текст на сторінці у міру його набору">
 <!ENTITY searchStartTyping.accesskey     "у">
 <!ENTITY blockAutoRefresh.label          "Попереджати мене, коли сайти намагаються переадресувати чи перезавантажити сторінку">
-<!ENTITY blockAutoRefresh.accesskey      "ю">
+<!ENTITY blockAutoRefresh.accesskey      "з">
 
 <!ENTITY browsing.label                  "Перегляд сайтів">
 
 <!ENTITY useAutoScroll.label             "Використовувати автоматичну прокрутку">
 <!ENTITY useAutoScroll.accesskey         "и">
 <!ENTITY useSmoothScrolling.label        "Використовувати плавну прокрутку">
-<!ENTITY useSmoothScrolling.accesskey    "и">
+<!ENTITY useSmoothScrolling.accesskey    "л">
 <!ENTITY allowHWAccel.label              "Використовувати апаратне прискорення, якщо можливо">
 <!ENTITY allowHWAccel.accesskey          "а">
 <!ENTITY checkSpelling.label             "Перевіряти орфографію при наборі тексту">
@@ -28,17 +28,17 @@
 
 <!ENTITY systemDefaults.label            "Системні налаштування">
 <!ENTITY alwaysCheckDefault.label        "Завжди перевіряти при запуску, чи є &brandShortName; браузером за замовчуванням"><!--XXX-->
-<!ENTITY alwaysCheckDefault.accesskey    "w">
+<!ENTITY alwaysCheckDefault.accesskey    "д">
 <!ENTITY setDefault.label                "Зробити &brandShortName; браузером за замовчуванням">
-<!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&brandShortName; наразі є вашим типовим браузером">
+<!ENTITY setDefault.accesskey            "е">
+<!ENTITY isDefault.label                 "На даний момент браузером за замовчуванням є &brandShortName;">
 
 <!ENTITY dataChoicesTab.label            "Вибір даних">
 
 <!ENTITY crashReporterSection.label      "Повідомлення про падіння">
 <!ENTITY crashReporterDesc.label         "&brandShortName; відправляє повідомлення про падіння, щоб допомогти &vendorShortName; зробити ваш браузер більш стабільним і безпечним">
 <!ENTITY enableCrashReporter.label       "Увімкнути надсилання повідомлень про падіння">
-<!ENTITY enableCrashReporter.accesskey   "C">
+<!ENTITY enableCrashReporter.accesskey   "т">
 <!ENTITY crashReporterLearnMore.label    "Дізнатися більше">
 
 <!ENTITY networkTab.label                "Мережа">
@@ -51,7 +51,7 @@
 
 <!ENTITY httpCache.label                 "Кешований веб-вміст">
 
-<!ENTITY offlineStorage2.label           "Позамережний веб-вміст та користувацькі дані">
+<!ENTITY offlineStorage2.label           "Автономний веб-вміст і дані користувача">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -59,15 +59,15 @@
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-<!ENTITY limitCacheSizeBefore.label      "Обмежити до">
+<!ENTITY limitCacheSizeBefore.label      "Обмежити кеш до">
 <!ENTITY limitCacheSizeBefore.accesskey  "О">
 <!ENTITY limitCacheSizeAfter.label       "МБ на диску">
 <!ENTITY clearCacheNow.label             "Очистити зараз">
 <!ENTITY clearCacheNow.accesskey         "ч">
 <!ENTITY clearOfflineAppCacheNow.label   "Очистити зараз">
 <!ENTITY clearOfflineAppCacheNow.accesskey "з">
-<!ENTITY overrideSmartCacheSize.label    "Переважити автоматичне керування кешем">
-<!ENTITY overrideSmartCacheSize.accesskey "О">
+<!ENTITY overrideSmartCacheSize.label    "Вимкнути автоматичне керування кешем">
+<!ENTITY overrideSmartCacheSize.accesskey "к">
 
 <!ENTITY updateTab.label                 "Оновлення">
 
@@ -81,11 +81,11 @@
 <!ENTITY updateAutoMetro.accesskey       "А">
 <!ENTITY updateCheck.label               "Перевіряти наявність оновлень, але питати мене чи хочу я їх встановити">
 <!ENTITY updateCheck.accesskey           "П">
-<!ENTITY updateManual.label              "Не перевіряти оновлення (не рекомендовано: небезпечно)">
+<!ENTITY updateManual.label              "Ніколи не перевіряти оновлення (не рекомендовано: небезпечно)">
 <!ENTITY updateManual.accesskey          "Н">
 
-<!ENTITY updateAutoAddonWarn.label       "Попереджати мене якщо це вимкне котрийсь з моїх додатків">
-<!ENTITY updateAutoAddonWarn.accesskey   "К">
+<!ENTITY updateAutoAddonWarn.label       "Попереджати мене, якщо при цьому будуть вимкнені будь-які додатки">
+<!ENTITY updateAutoAddonWarn.accesskey   "ж">
 
 <!ENTITY updateAutoMetroWarn.label       "(плитковий &brandShortName; не перевіряє сумісніть додатків)">
 
@@ -103,16 +103,16 @@
 <!ENTITY offlineAppsPermissions.Ask      "Завжди питати">
 <!ENTITY offlineAppsPermissions.Deny     "Заборонити">
 <!ENTITY offlineNotifyExceptions.label   "Винятки…">
-<!ENTITY offlineNotifyExceptions.accesskey "x">
+<!ENTITY offlineNotifyExceptions.accesskey "к">
 
 <!ENTITY offlineAppsList2.label          "Наступним веб-сайтів дозволено зберігати дані для роботи в автономному режимі:">
 <!ENTITY offlineAppsList.height          "10em">
 <!ENTITY offlineAppsListRemove.label     "Видалити…">
-<!ENTITY offlineAppsListRemove.accesskey "R">
-<!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
+<!ENTITY offlineAppsListRemove.accesskey "д">
+<!ENTITY offlineAppRemove.confirm        "Видалити дані автономних веб-сайтів">
 
 <!ENTITY certificateTab.label            "Сертифікати">
-<!ENTITY certGroup.label                 "Персональный сертификат">
+<!ENTITY certGroup.label                 "Персональний сертификат">
 <!ENTITY certSelection.description       "Коли сервер запитує персональний сертифiкат:">
 <!ENTITY certs.auto                      "Надсилати автоматично">
 <!ENTITY certs.auto.accesskey            "а">
@@ -120,13 +120,13 @@
 <!ENTITY certs.ask.accesskey             "к">
 <!ENTITY ocspGroup.label                 "Перевірка сертифікату">
 <!ENTITY enableOCSP.label                "Використовувати протокол отримання статусу сертифікатів (OCSP) для перевірки поточного статусу сертифікатів">
-<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY enableOCSP.accesskey            "п">
 <!ENTITY requireOCSP.label               "При невдачі з'єднання з сервером OCSP розглядати сертифікат як недійсний">
-<!ENTITY requireOCSP.accesskey           "f">
+<!ENTITY requireOCSP.accesskey           "р">
 <!ENTITY viewCerts.label                 "Перегляд сертифікатів">
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Пристрої захисту">
-<!ENTITY viewSecurityDevices.accesskey   "y">
+<!ENTITY viewSecurityDevices.accesskey   "о">
 
 <!ENTITY UACompatGroup.label    "Сумiснiсть">
 <!ENTITY UACompat.label         "Використовувати User Agent:">
