@@ -1,0 +1,30 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the Remote Connection strings.
+  - The Remote Connection window can reached from the "connect…" menuitem
+  - in the Web Developer menu.
+  - -->
+
+<!ENTITY title      "Sambungkan">
+<!ENTITY header     "Tersambung ke perangkat remote">
+<!ENTITY host       "Host:">
+<!ENTITY port       "Port:">
+<!ENTITY connect    "Sambungkan">
+<!ENTITY connecting "Menghubungkan…">
+<!ENTITY availableAddons "Pengaya remote yang tersedia:">
+<!ENTITY availableTabs "Tab remote yang tersedia:">
+<!ENTITY availableProcesses "Proses remote yang tersedia:">
+<!ENTITY connectionError "Kesalahan:">
+<!ENTITY errorTimeout "Error: koneksi timeout.">
+<!ENTITY errorRefused "Error: koneksi ditolak.">
+<!ENTITY errorUnexpected "Kesalahan yang tidak terduga.">
+
+<!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
+these strings will be concatenated in a single label, remoteDocumentation will
+be used as text for a link to MDN. -->
+<!ENTITY remoteHelp "Developer Tools dapat debug perangkat remote (pucat Moon untuk Android, misalnya). Pastikan bahwa Anda telah menghidupkan 'Remote debug' pilihan dalam perangkat remote. Untuk selengkapnya, lihat ">
+<!ENTITY remoteDocumentation "dokumentasi">
+<!ENTITY remoteHelpSuffix ".">
+

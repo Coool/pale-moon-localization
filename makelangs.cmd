@@ -18,6 +18,7 @@ rem call :fix-lang gl Galician GL
 rem call :fix-lang de German DE
 rem call :fix-lang el Greek EL
 rem call :fix-lang hu Hungarian HU
+rem call :fix-lang id Indonesian ID
 rem call :fix-lang is Icelandic IS
 rem call :fix-lang it Italian IT
 rem call :fix-lang ja Japanese JP

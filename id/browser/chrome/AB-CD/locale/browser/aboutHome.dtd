@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;
+
+<!-- These strings are used in the about:home page -->
+
+<!ENTITY abouthome.pageTitle "&amp; brandFullName; Halaman awal">
+
+<!ENTITY abouthome.searchEngineButton.label "Pencarian">
+
+<!ENTITY abouthome.bookmarksButton.label "Halaman">
+<!ENTITY abouthome.historyButton.label   "Sejarah">
+<!ENTITY abouthome.settingsButton.label  "Pengaturan">
+<!ENTITY abouthome.addonsButton.label    "Pengaya">
+<!ENTITY abouthome.appsButton.label      "Pasar">
+<!ENTITY abouthome.downloadsButton.label "Mengunduh">
+<!ENTITY abouthome.syncButton.label      "&amp; syncBrand.shortName.label;">
