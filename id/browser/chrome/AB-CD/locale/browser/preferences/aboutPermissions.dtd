@@ -1,0 +1,56 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY permissionsManager.title        "Manajer Perizinan">
+
+<!ENTITY sites.search                    "Penelusuran Situs">
+<!ENTITY sites.allSites                  "Semua Situs">
+
+<!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
+     surround the host name of the site to make the header for the permissions page.
+     example: "Permissions for mozilla.org" -->
+<!ENTITY header.site.start               "Izin untuk">
+<!ENTITY header.site.end                 "">
+
+<!ENTITY header.defaults                 "Izin default untuk semua situs">
+
+<!ENTITY permissions.sitesReload         "Muat ulang daftar situs">
+
+<!ENTITY permissions.forgetSite          "Lupakan situs ini">
+
+<!ENTITY permission.default              "Utamakan">
+
+<!ENTITY permission.alwaysAsk            "Selalu bertanya">
+<!ENTITY permission.allow                "Izinkan">
+<!ENTITY permission.allowForSession      "Izinkan untuk sesi ini">
+<!ENTITY permission.allowFirstPartyOnly  "Izinkan hanya pihak pertama">
+<!ENTITY permission.block                "Cekal">
+
+<!ENTITY password.label                  "Simpan Kata Sandi">
+<!ENTITY password.manage                 "Kelola Kata Sandi…">
+
+<!ENTITY image.label                     "Muat Gambar">
+
+<!ENTITY cookie.label                    "Setel Cookie">
+<!ENTITY cookie.remove                   "Bersihkan Cookie">
+<!ENTITY cookie.manage                   "Kelola Cookie…">
+<!ENTITY cookie.removeAll                "Bersihkan Cookie">
+
+<!ENTITY desktop-notification.label      "Tampilkan pemberitahuan">
+
+<!ENTITY install.label                   "Pasang Ekstensi atau Tema">
+
+<!ENTITY geo.label                       "Bagi Lokasi">
+
+<!ENTITY plugins.label                   "Plugin">
+
+<!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
+     using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
+<!ENTITY indexedDB.label                 "Pelihara Penyimpanan Luring">
+
+<!ENTITY popup.label                     "Buka Jendela Pop-up">
+
+<!ENTITY fullscreen.label                "Layar Penuh">
+
+<!ENTITY pointerLock.label               "Sembunyikan Penunjuk Mouse">

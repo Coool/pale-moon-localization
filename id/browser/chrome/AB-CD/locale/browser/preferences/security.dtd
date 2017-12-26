@@ -1,0 +1,55 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  addons.label                  "Pengaya">
+
+<!ENTITY  warnAddonInstall.label        "Peringatkan saya ketika situs mencoba memasang pengaya">
+<!ENTITY  warnAddonInstall.accesskey    "P">
+
+<!-- LOCALIZATION NOTE (blockWebForgeries.label, blockAttackSites.label):
+  The methods by which forged (phished) and attack sites will be detected by
+  phishing providers will vary from human review to machine-based heuristics to a
+  combination of both, so it's important that these strings and
+  useDownloadedList.label convey the meaning "reported" (and not something like
+  "known").
+-->
+<!ENTITY  blockAttackSites.label     "Blok situs penyerang yang telah dilaporkan">
+<!ENTITY  blockAttackSites.accesskey "k">
+
+<!ENTITY  blockWebForgeries.label     "Blok situs palsu yang telah dilaporkan">
+<!ENTITY  blockWebForgeries.accesskey "B">
+
+<!ENTITY  addonExceptions.label         "Pengecualian…">
+<!ENTITY  addonExceptions.accesskey     "e">
+
+<!ENTITY  addonSecuritylevel            "Level keamanan pengaya:">
+<!ENTITY  addonSecurityLevel_Off        "Mati: Tak ada pengaya yang diblokir (berbahaya)">
+<!ENTITY  addonSecurityLevel_Low        "Rendah: Blokir pengaya dengan masalah keamanan dan kestabilan parah">
+<!ENTITY  addonSecurityLevel_High       "Sedang: Blokir semua pengaya yang merusah (baku, disarankan)">
+<!ENTITY  addonSecurityLevel_Extreme    "Tinggi: Blokir semua pengaya dengan masalah yang diketahui">
+
+<!ENTITY  passwords.label               "Kata sandi">
+
+<!ENTITY  rememberPasswords.label       "Ingat kata sandi">
+<!ENTITY  rememberPasswords.accesskey   "I">
+<!ENTITY  passwordExceptions.label      "Pengecualian…">
+<!ENTITY  passwordExceptions.accesskey  "n">
+
+<!ENTITY  useMasterPassword.label        "Gunakan kata sandi utama">
+<!ENTITY  useMasterPassword.accesskey    "G">
+<!ENTITY  changeMasterPassword.label     "Ubah Kata Sandi Utama…">
+<!ENTITY  changeMasterPassword.accesskey "b">
+
+<!ENTITY  savedPasswords.label            "Kata Sandi Tersimpan…">
+<!ENTITY  savedPasswords.accesskey        "P">
+
+<!ENTITY  SecProto.label             "Protokol Keamanan">
+<!ENTITY  enableHSTS.label           "Aktifkan Strict Transport Security (HSTS)">
+<!ENTITY  enableHSTS.accesskey       "S">
+<!ENTITY  enableHPKP.label           "Aktifkan Certificate Key Pinning (HPKP)">
+<!ENTITY  enableHPKP.accesskey       "C">
+
+<!ENTITY  XSSFilt.label              "Filter XSS">
+<!ENTITY  enableXSSFilt.label        "Aktifkan filter XSS">
+<!ENTITY  enableXSSFilt.accesskey    "f">

@@ -1,0 +1,32 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+
+<!-- These strings are used by Firefox's custom about:certerror page,
+a replacement for the standard security certificate errors produced
+by NSS/PSM via netError.xhtml. -->
+
+<!ENTITY certerror.pagetitle  "Koneksi tidak bertenaga">
+<!ENTITY certerror.longpagetitle "Koneksi ini tidak terpercaya">
+
+<!-- Localization note (certerror.introPara1) - The string "#1" will
+be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara1 "Anda telah bertanya &amp; brandShortName; untuk terhubung dengan aman ke <b> # 1 </b>, namun kami tidak dapat memastikan bahwa koneksi Anda aman.">
+<!ENTITY certerror.introPara2 "Biasanya, ketika Anda mencoba untuk terhubung dengan aman, situs akan menyajikan identifikasi yang terpercaya untuk membuktikan bahwa Anda akan pergi ke tempat yang tepat. Namun, identitas situs ini tidak bisa diverifikasi.">
+
+<!ENTITY certerror.whatShouldIDo.heading "Apa yang harus saya lakukan?">
+<!ENTITY certerror.whatShouldIDo.content "Jika Anda biasanya terhubung ke situs ini tanpa masalah, kesalahan ini bisa berarti seseorang mencoba meniru situs tersebut, dan Anda tidak boleh melanjutkannya.">
+<!ENTITY certerror.getMeOutOfHere.label "Keluarkan saya dari sini!">
+
+<!ENTITY certerror.expert.heading "Saya Memahami Resiko">
+<!ENTITY certerror.expert.content "Jika Anda mengerti apa yang sedang terjadi, Anda bisa memberi tahu &amp; brandShortName; untuk mulai mempercayai identifikasi situs ini.
+<b> Bahkan jika Anda mempercayai situs ini, kesalahan ini bisa berarti seseorang merusak koneksi Anda. </b>">
+<!ENTITY certerror.expert.contentPara2 "Jangan menambahkan pengecualian kecuali Anda tahu ada alasan bagus mengapa situs ini tidak menggunakan identifikasi terpercaya.">
+<!ENTITY certerror.addException.label "Tambahkan Pengecualian…">
+
+<!ENTITY certerror.technical.heading "Rincian Teknis">

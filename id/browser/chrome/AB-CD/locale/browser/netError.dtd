@@ -1,0 +1,160 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+
+<!ENTITY loadError.label "Problem loading page">
+<!ENTITY retry.label "Try Again">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "Unable to connect">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+
+<!ENTITY deniedPortAccess.title "This address is restricted">
+<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+
+<!ENTITY dnsNotFound.title "Server tidak ditemukan">
+<!ENTITY dnsNotFound.longDesc "
+<ul><li>Periksa alamat untuk mengetik kesalahan seperti <strong>ww</strong>. example.com bukan <strong>www</strong>. example.com</li> <li>jika Anda tidak dapat memuat halaman apapun, periksa koneksi jaringan komputer.</li>   <li>Jika komputer atau jaringan Anda dilindungi oleh firewall atau proxy, pastikan bahwa &brandShortName; diizinkan untuk mengakses Web.</li> </ul>
+">
+
+<!ENTITY fileNotFound.title "File tidak dapat ditemukan">
+<!ENTITY fileNotFound.longDesc "
+<ul><li>Memeriksa nama file untuk kapitalisasi atau kesalahan lainnya mengetik.</li>   <li>Periksa untuk melihat jika file pindah, diganti atau dihapus.</li> </ul>
+">
+
+
+<!ENTITY generic.title "Oops.">
+<!ENTITY generic.longDesc "
+<p>&brandShortName; tidak dapat memuat halaman ini untuk beberapa alasan.</p>
+">
+
+<!ENTITY malformedURI.title "Alamat tidak valid">
+<!ENTITY malformedURI.longDesc "
+<ul><li>Alamat web biasanya ditulis seperti <strong>http://www.example.com/</strong></li> <li>pastikan bahwa Anda menggunakan garis miring maju (yaitu     <strong></strong> /).</li> </ul>
+">
+
+<!ENTITY netInterrupt.title "Sambungan terputus">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+
+<!ENTITY notCached.title "Dokumen kadaluarsa">
+<!ENTITY notCached.longDesc "<p>Diminta document ini tidak tersedia dalam &brandShortName;'s cache.</p> <ul><li>Sebagai tindakan pencegahan keamanan, &brandShortName; tidak tidak secara otomatis kembali permintaan dokumen sensitif.</li> <li>Klik coba lagi untuk kembali permintaan dokumen dari website.</li></ul>">
+
+<!ENTITY netOffline.title "Mode offline">
+<!ENTITY netOffline.longDesc2 "
+<ul><li>Tekan &quot;Coba lagi&quot; untuk beralih ke online mode dan reload halaman.</li></ul>
+">
+
+<!ENTITY contentEncodingError.title "Kesalahan pengkodean konten">
+<!ENTITY contentEncodingError.longDesc "
+<ul><li>Silahkan hubungi pemilik situs web untuk menginformasikan mereka tentang masalah ini.</li></ul>
+">
+
+<!ENTITY unsafeContentType.title "Jenis File yang aman">
+<!ENTITY unsafeContentType.longDesc "
+<ul><li>Silahkan hubungi pemilik situs web untuk menginformasikan mereka tentang masalah ini.</li></ul>
+">
+
+<!ENTITY netReset.title "Koneksi telah diubah kembali">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
+
+<!ENTITY netTimeout.title "Koneksi telah timed out">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+
+<!ENTITY unknownProtocolFound.title "Alamat tidak mengerti">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul><li>Anda mungkin perlu menginstal perangkat lunak lain untuk membuka alamat ini.</li></ul>
+">
+
+<!ENTITY proxyConnectFailure.title "Proxy server menolak koneksi">
+<!ENTITY proxyConnectFailure.longDesc "
+<ul><li>Periksa pengaturan proxy untuk memastikan bahwa mereka benar.</li>   <li>Hubungi administrator jaringan Anda untuk memastikan proxy server bekerja.</li> </ul>
+">
+
+<!ENTITY proxyResolveFailure.title "Tidak dapat menemukan proxy server">
+<!ENTITY proxyResolveFailure.longDesc "
+<ul><li>Periksa pengaturan proxy untuk memastikan bahwa mereka benar.</li>   <li>Cek untuk memastikan bahwa komputer Anda memiliki koneksi jaringan kerja.</li>   <li>Jika komputer atau jaringan Anda dilindungi oleh firewall atau proxy, pastikan bahwa &brandShortName; diizinkan untuk mengakses Web.</li> </ul>
+">
+
+<!ENTITY redirectLoop.title "Halaman tidak mengalihkan dengan benar">
+<!ENTITY redirectLoop.longDesc "
+<ul><li>Kadang-kadang masalah ini dapat disebabkan oleh menonaktifkan atau menolak untuk menerima cookie.</li></ul>
+">
+
+<!ENTITY unknownSocketType.title "Respon yang tidak terduga dari server">
+<!ENTITY unknownSocketType.longDesc "
+<ul><li>Cek untuk memastikan bahwa sistem Anda memiliki manajer keamanan pribadi diinstal.</li>   <li>Ini mungkin karena non-standar konfigurasi di server.</li> </ul>
+">
+
+<!ENTITY nssFailure2.title "Sambungan aman gagal">
+<!ENTITY nssFailure2.longDesc2 "
+<ul><li>Anda mencoba untuk melihat halaman tidak dapat ditampilkan karena keaslian data diterima tidak dapat diverifikasi.</li>   <li>Silahkan hubungi pemilik situs web untuk menginformasikan mereka tentang masalah ini.</li> </ul>
+">
+
+<!ENTITY nssBadCert.title "Sambungan aman gagal">
+<!ENTITY nssBadCert.longDesc2 "
+<ul><li>Ini bisa menjadi masalah dengan konfigurasi server, atau bisa jadi seseorang yang mencoba untuk meniru server.</li>   <li>Jika Anda tersambung ke server ini berhasil di masa lalu, kesalahan mungkin bersifat sementara, dan Anda dapat mencoba lagi nanti.</li> </ul>
+">
+
+<!ENTITY sharedLongDesc "
+<ul><li>Situs mungkin sementara tidak tersedia atau terlalu sibuk. Coba lagi dalam beberapa saat.</li>   <li>Jika Anda tidak dapat memuat halaman apapun, periksa koneksi jaringan komputer.</li>   <li>Jika komputer atau jaringan Anda dilindungi oleh firewall atau proxy, pastikan bahwa &brandShortName; diizinkan untuk mengakses Web.</li> </ul>
+">
+
+<!ENTITY malwareBlocked.title "Situs dicurigai serangan!">
+<!ENTITY malwareBlocked.longDesc "
+<p>Serangan situs mencoba untuk menginstal program yang mencuri informasi pribadi, menggunakan komputer Anda untuk menyerang orang lain, atau merusak sistem Anda.</p> <p>Pemilik situs web yang percaya situs mereka telah dilaporkan sebagai sebuah serangan situs di kesalahan mungkin <a href='https://www.stopbadware.org/request-review' > permintaan peninjauan</a>.</p>
+">
+
+<!ENTITY phishingBlocked.title "Diduga pemalsuan Web!">
+<!ENTITY phishingBlocked.longDesc "
+<p>Memasukkan informasi pribadi pada laman ini dapat mengakibatkan pencurian identitas atau penipuan lain.</p> <p>Jenis web pemalsuan yang digunakan dalam penipuan yang dikenal sebagai serangan phishing, di mana penipuan halaman web dan email digunakan untuk meniru sumber-sumber yang Anda dapat mempercayai.</p>
+">
+
+<!ENTITY cspBlocked.title "Diblokir oleh kebijakan keamanan">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; dicegah Halaman ini memuat cara ini karena halaman memiliki kebijakan keamanan yang dilarang itu</p>">
+
+<!ENTITY xssBlockMode.title "Diblokir oleh XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul><li>&brandShortName; lebih lanjut diblokir tindakan pada Halaman ini, karena mengandung kode JavaScript yang disuntikkan.</li>   <li>Halaman ini telah ditunda karena baik permintaan eksplisit oleh situs web untuk memblokir Halaman ini dalam kasus serangan XSS, atau karena &brandShortName; telah dikonfigurasi untuk memblokir halaman dalam situasi.</li> </ul>
+">
+
+<!ENTITY corruptedContentError.title "Kesalahan konten yang rusak">
+<!ENTITY corruptedContentError.longDesc "<p>Halaman yang Anda mencoba untuk melihat tidak dapat ditampilkan karena adanya kesalahan dalam transmisi data terdeteksi.</p> <ul><li>Silahkan hubungi pemilik situs web untuk menginformasikan mereka tentang masalah ini.</li></ul>">
+
+
+<!ENTITY securityOverride.linkText "Atau Anda dapat menambahkan pengecualian…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Keluarkan saya dari sini!">
+<!ENTITY securityOverride.exceptionButtonLabel "Tambahkan Pengecualian…">
+
+<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
+contents of the <button> tags. It uses strings already defined above. The
+button is included here (instead of netError.xhtml) because it exposes
+functionality specific to firefox. -->
+
+<!ENTITY securityOverride.warningContent "
+<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
+
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+">
+
+<!ENTITY errorReporting.title "Report this error">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "Automatically report errors in the future">
+<!ENTITY errorReporting.learnMore "Learn more…">
+<!ENTITY errorReporting.sending "Sending report">
+<!ENTITY errorReporting.sent "Report sent">
+<!ENTITY errorReporting.report "Report">
+<!ENTITY errorReporting.tryAgain "Try again">
+
+<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Learn More…">

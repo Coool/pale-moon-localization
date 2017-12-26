@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Preferensi status bar bulan pucat">
+
+<!ENTITY status4evar.pane.status "Status">
+<!ENTITY status4evar.pane.progress "Kemajuan">
+<!ENTITY status4evar.pane.download "Mengunduh">
+<!ENTITY status4evar.pane.statusbar "Status bar">
+<!ENTITY status4evar.pane.advanced "Maju">
+
+<!ENTITY status4evar.tab.general "Umum">
+<!ENTITY status4evar.tab.toolbar "Status bar">
+<!ENTITY status4evar.tab.urlbar "Address Bar">
+<!ENTITY status4evar.tab.popup "Muncul">
+<!ENTITY status4evar.tab.tabs "Tab">
+
+<!ENTITY status4evar.option.none "Tak satupun">
+<!ENTITY status4evar.option.nothing "Tidak ada">
+<!ENTITY status4evar.option.toolbar "Status bar">
+<!ENTITY status4evar.option.urlbar "Address Bar">
+<!ENTITY status4evar.option.popup "Muncul">
+<!ENTITY status4evar.option.tooltip "Keterangan alat">
+<!ENTITY status4evar.option.bottom "Bawah">
+<!ENTITY status4evar.option.top "Puncak">
+<!ENTITY status4evar.option.fill "Fill">
+<!ENTITY status4evar.option.dlcount "Jumlah mengunduh">
+<!ENTITY status4evar.option.dltime "Waktu yang tersisa">
+<!ENTITY status4evar.option.both "Kedua">
+<!ENTITY status4evar.option.right "Kanan">
+<!ENTITY status4evar.option.left "Kiri">
+<!ENTITY status4evar.option.fixed "Fixed">
+<!ENTITY status4evar.option.simple "Sederhana">
+<!ENTITY status4evar.option.advanced "Maju">
+<!ENTITY status4evar.option.browse "Jelajahi">
+<!ENTITY status4evar.option.clear "Bersih">
+<!ENTITY status4evar.option.center "Pusat">
+<!ENTITY status4evar.option.offset "Mengimbangi">
+<!ENTITY status4evar.option.repeat "Ulangi">
+<!ENTITY status4evar.option.no-repeat "Tidak berulang">
+<!ENTITY status4evar.option.space "Ruang">
+<!ENTITY status4evar.option.round "Bulat">
+<!ENTITY status4evar.option.firefoxdefault "Default Pale Moon">
+<!ENTITY status4evar.option.download.library "Perpustakaan">
+<!ENTITY status4evar.option.download.tab "Tab">
+<!ENTITY status4evar.option.download.thirdparty "Pihak ke-3">
+
+<!ENTITY status4evar.unit.milliseconds "milidetik">
+<!ENTITY status4evar.unit.seconds "detik">
+<!ENTITY status4evar.unit.px "px">
+
+<!ENTITY status4evar.status.general.status.caption "Teks status">
+<!ENTITY status4evar.status.label "Tampilkan status di:">
+<!ENTITY status4evar.status.timeout.label "Sembunyikan status setelah:">
+<!ENTITY status4evar.status.default.label "Tampilkan status semula">
+<!ENTITY status4evar.status.network.label "Tampilkan status jaringan">
+<!ENTITY status4evar.status.network.xhr.label "Tampilkan status jaringan latar belakang">
+<!ENTITY toolkit.dom.status.change.label "Izinkan halaman web mengubah status">
+
+<!ENTITY status4evar.status.general.linkOver.caption "Tautan">
+<!ENTITY status4evar.status.linkOver.label "Tampilkan link di:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Keterlambatan sebelum menampilkan tautan:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Keterlambatan sebelum menyembunyikan tautan:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "Panjang teks status maksimal:">
+
+<!ENTITY status4evar.status.urlbar.align.label "Status alignment:">
+<!ENTITY status4evar.status.urlbar.color.label "Status color:">
+<!ENTITY status4evar.status.currentUrl "Current Location">
+<!ENTITY status4evar.status.statusText "Status Text">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Fitur kompatibilitas Firefox">
+<!ENTITY browser.urlbar.formatting.enabled.label "Aktifkan penyorotan domain">
+<!ENTITY browser.urlbar.trimming.enabled.label "Aktifkan penyembunyian protokol (http:// dan ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "Kesemula ke sisi kanan">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Tukar sisi saat melompati">
+
+<!ENTITY status4evar.progress.style.label "Gunakan gaya khusus">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "Show progress in the Address Bar">
+<!ENTITY status4evar.progress.urlbar.line.label "Line style:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "Selalu tampilkan progress meter">
+
+<!ENTITY status4evar.editor.label "Editor:">
+<!ENTITY status4evar.editor.css.color.label "Warna:">
+<!ENTITY status4evar.editor.css.image.label "Gambar:">
+<!ENTITY status4evar.editor.css.image.repeat "Ulangi">
+<!ENTITY status4evar.editor.css.image.position "Posisi">
+<!ENTITY status4evar.editor.css.image.offset "Mengimbangi">
+
+
+
+<!ENTITY status4evar.download.button.action.label "Status mengunduh button action:">
+<!ENTITY status4evar.download.force.label "Selalu tampilkan indikator Status mengunduh">
+<!ENTITY status4evar.download.label.force.label "Selalu tampilkan teks indikator">
+<!ENTITY status4evar.download.label.label "Status mengunduh indicator text:">
+<!ENTITY status4evar.download.tooltip.label "Mengunduh tooltip indikator status status:">
+<!ENTITY status4evar.download.progress.label "Tampilkan kemajuan mengunduh di tombol">
+<!ENTITY status4evar.download.progress.average.label "Tampilkan rata-rata selesai mengunduh">
+<!ENTITY status4evar.download.progress.max.label "Tampilkan mengunduh paling lengkap">
+<!ENTITY status4evar.download.progress.min.label "Tampilkan mengunduh paling tidak lengkap">
+<!ENTITY status4evar.download.color.active.label "Warna kemajuan untuk mengunduh berkerja:">
+<!ENTITY status4evar.download.color.paused.label "Warna kemajuan untuk unduhan yang dijeda:">
+<!ENTITY status4evar.download.notify.animate.label "Tombol animate saat mengunduh selesai">
+<!ENTITY status4evar.download.notify.timeout.label "Sorot tombol saat mengunduh selesai:">
+
+<!ENTITY status4evar.addonbar.borderStyle "Gunakan bilah alat alternatif">
+<!ENTITY status4evar.addonbar.windowGripper "Tunjukkan jendela re-size gripper">
+<!ENTITY status4evar.addonbar.closeButton "Tampilkan tombol tutup">
+
+<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the the Address Bar XBL binding.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "Deteksi mode layar penuh dan tampilkan link / status dengan tepat.">
+<!ENTITY status4evar.advanced.status.detectVideo "Sembunyikan status popup di video HTML5 layar penuh.">

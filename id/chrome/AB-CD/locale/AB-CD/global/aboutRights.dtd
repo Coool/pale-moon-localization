@@ -1,0 +1,89 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
+<!ENTITY rights.locale-direction "ltr">
+<!ENTITY rights.pagetitle       "tentang: hak">
+<!ENTITY rights.intro-header    "Tentang Hak Anda">
+<!ENTITY rights.intro "&namalengkapmerek; Perangkat lunak bebas dan buka sumber, dibangun oleh komunitas ribuan orang dari seluruh dunia. Ada beberapa hal yang harus Anda ketahui:">
+
+<!-- Note on pointa / pointb / pointc form:
+     These points each have an embedded link in the HTML, so each point is
+     split into chunks for text before the link, the link text, and the text
+     after the link. If a localized grammar doesn't need the before or after
+     chunk, it can be left blank.
+
+     Also note the leading/trailing whitespace in strings here, which is
+     deliberate for formatting around the embedded links. -->
+<!ENTITY rights.intro-point1a "&amp; mereknamapendek; tersedia untuk Anda sesuai dengan persyaratan ">
+<!ENTITY rights.intro-point1b "Lisensi Publik Mozilla">
+<!ENTITY rights.intro-point1c ". Ini berarti Anda dapat menggunakan, menyalin dan mendistribusikan &amp; mereknamapendek; kepada orang lain dalam bentuk sumbernya. Biner tunduk pada lisensi redistribusi Pale Moon yang ada di situs Pale Moon. Anda juga dapat memodifikasi kode sumber &amp; mereknamapendek; karena Anda ingin memenuhi kebutuhan Anda. Lisensi Publik Mozilla juga memberi Anda hak untuk mendistribusikan versi modifikasi Anda.">
+
+<!ENTITY rights.intro-point2-a "Namun, Anda tidak diberi hak atau lisensi apapun untuk kekayaan intelektual 
+Produksi Moonchild atau pihak lainnya, termasuk namun tidak terbatas pada nama atau logo Pale Moon. Informasi tambahan tentang merek dagang dapat ditemukan ">
+<!ENTITY rights.intro-point2-b "sini">
+<!ENTITY rights.intro-point2-c ".">
+
+<!-- point 2.5 text for official branded builds -->
+<!ENTITY rights.intro-point2.5 "Beberapa fitur di &amp; mereknamapendek; mungkin memberi Anda pilihan untuk memberikan umpan balik kepada &namapendekvendor;. Dengan memilih mengirimkan umpan balik, Anda memberi &amp; namapendekvendor; izin untuk menggunakan umpan balik untuk memperbaiki produknya, untuk mempublikasikan umpan balik di situs webnya, dan untuk mendistribusikan umpan balik.">
+
+<!-- point 3 text for official branded builds -->
+<!ENTITY rights2.intro-point3a "Bagaimana kami menggunakan informasi pribadi Anda dan umpan balik yang disampaikan ke &amp; namapendekvendor; melalui &namapendekmerek; dijelaskan di ">
+<!ENTITY rights2.intro-point3b "&amp; namapendekmerek; Kebijakan pribadi">
+<!ENTITY rights.intro-point3c ".">
+
+<!-- point 3 text for unbranded builds -->
+<!ENTITY rights.intro-point3-unbranded "Kebijakan privasi yang berlaku untuk produk ini harus tercantum di sini.">
+
+<!-- point 4 text for official branded builds -->
+<!ENTITY rights2.intro-point4a "Beberapa &namapendekmerek; Fitur memanfaatkan layanan informasi berbasis web, namun kami tidak dapat menjamin bahwa mereka 100&#37; akurat atau bebas dari kesalahan. Rincian lebih lanjut, termasuk informasi tentang cara menonaktifkan fitur yang menggunakan layanan ini, dapat ditemukan di ">
+<!ENTITY rights.intro-point4b "istilah layanan">
+<!ENTITY rights.intro-point4c ".">
+
+<!-- point 4 text for unbranded builds -->
+<!ENTITY rights.intro-point4a-unbranded "Jika produk ini dilengkapi layanan web, persyaratan layanan yang berlaku untuk layanan tersebut harus ditautkan ke ">
+<!ENTITY rights.intro-point4b-unbranded "Layanan Website">
+<!ENTITY rights.intro-point4c-unbranded " bagian.">
+
+<!ENTITY rights2.webservices-header "&amp; NamapanJangMerek; Layanan Informasi Berbasis Web">
+
+<!-- Note that this paragraph references a couple of entities from
+     preferences/security.dtd, so that we can refer to text the user sees in
+     the UI, without this page being forgotten every time those strings are
+     updated.  -->
+<!-- intro paragraph for branded builds -->
+<!ENTITY rights2.webservices-a "&amp; namapanjangmerek; menggunakan layanan informasi berbasis web (&quot;Layanan&quot;) untuk menyediakan beberapa fitur yang disediakan untuk penggunaan Anda dengan versi biner &amp; namapendekmerek ini; dengan ketentuan yang dijelaskan di bawah ini. Jika Anda tidak ingin menggunakan satu atau beberapa Layanan atau persyaratan di bawah ini tidak dapat diterima, Anda dapat menonaktifkan fitur atau Layanan. Petunjuk cara menonaktifkan fitur atau Layanan tertentu dapat ditemukan ">
+<!ENTITY rights2.webservices-b "sini">
+<!ENTITY rights3.webservices-c ". Fitur dan Layanan lainnya dapat dinonaktifkan dalam preferensi aplikasi.">
+
+<!-- safe browsing points for branded builds -->
+<!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
+<!ENTITY rights.safebrowsing-b "Disabling the Safe Browsing feature is not recommended as it may result in you going to unsafe sites.  If you wish to disable the feature completely, follow these steps:">
+<!ENTITY rights.safebrowsing-term1 "Open the application preferences">
+<!ENTITY rights.safebrowsing-term2 "Select the Security selection">
+<!ENTITY rights.safebrowsing-term3 "Uncheck the options to &quot;&blockAttackSites.label;&quot; and &quot;&blockWebForgeries.label;&quot;">
+<!ENTITY rights.safebrowsing-term4 "Safe Browsing is now disabled">
+
+<!-- location aware browsing points for branded builds -->
+<!ENTITY rights.locationawarebrowsing-a "Lokasi sadar penjelajah: ">
+<!ENTITY rights.locationawarebrowsing-b "selalu diikutsertakan Tidak ada informasi lokasi yang pernah dikirim tanpa seizin Anda. Jika Anda ingin menonaktifkan fitur sepenuhnya, ikuti langkah-langkah ini:">
+<!ENTITY rights.locationawarebrowsing-term1a "Di bilah URL, ketik ">
+<!ENTITY rights.locationawarebrowsing-term1b "tentang: config">
+<!ENTITY rights.locationawarebrowsing-term2 "Ketik geo.diaktifkan">
+<!ENTITY rights.locationawarebrowsing-term3 "Klik dua kali pada preferensi geo.diaktifkan">
+<!ENTITY rights.locationawarebrowsing-term4 "Penjelajahan Lokasi-Sadar sekarang dinonaktifkan">
+
+<!-- intro paragraph for unbranded builds -->
+<!ENTITY rights.webservices-unbranded "Ikhtisar layanan situs web yang disertakan produk, beserta petunjuk tentang cara menonaktifkannya, jika ada, harus disertakan di sini.">
+
+<!-- point 1 text for unbranded builds -->
+<!ENTITY rights.webservices-term1-unbranded "Ketentuan layanan yang berlaku untuk produk ini harus tercantum di sini.">
+
+<!-- points 1-7 text for branded builds -->
+<!ENTITY rights2.webservices-term1 "&namapendekmerek; dan kontributornya, pemberi lisensi dan mitra kerjanya memberikan Layanan yang paling akurat dan terbaru. Namun, kami tidak dapat menjamin bahwa informasi ini komprehensif dan bebas dari kesalahan. Misalnya, Layanan Penjelajahan Aman mungkin tidak mengidentifikasi beberapa situs berisiko dan mungkin mengidentifikasi beberapa situs yang aman karena kesalahan dan Lokasi Layanan Sadar semua lokasi yang dikembalikan oleh penyedia layanan kami hanya perkiraan dan kami maupun penyedia layanan kami menjamin keakuratan lokasi yang diberikan.">
+<!ENTITY rights.webservices-term2 "&amp; namapendekmerek; dapat menghentikan atau mengubah Layanan atas kebijaksanaannya sendiri.">
+<!ENTITY rights2.webservices-term3 "Anda dipersilahkan untuk menggunakan Layanan ini dengan versi &amp;namapendekmerek terlampir;, dan namapendevendor; Berikan Anda hak untuk melakukannya. &amp; namapendekvendor; dan pemberi lisensinya menyimpan semua hak lain dalam Layanan. Persyaratan ini tidak dimaksudkan untuk membatasi hak yang diberikan berdasarkan lisensi buka sumber yang berlaku untuk &amp; namapendekmerek; dan versi kode sumber yang sesuai &amp; namapendekmerek;.">
+<!ENTITY rights.webservices-term4 "Layanan disediakan &quot;apa adanya.&quot; &amp; namapendekvendor;, kontributor, pemberi lisensinya, dan distributornya, menolak semua jaminan, baik tersurat maupun tersirat, termasuk namun tidak terbatas, menjamin bahwa Layanan dapat diperdagangkan dan sesuai untuk tujuan tertentu Anda. Anda menanggung seluruh risiko untuk memilih Layanan untuk tujuan Anda dan mengenai kualitas dan kinerja Layanan. Beberapa yurisdiksi tidak mengizinkan pengecualian atau pembatasan jaminan tersirat, jadi penafian ini mungkin tidak berlaku untuk Anda.">
+<!ENTITY rights.webservices-term5 "Kecuali yang diwajibkan oleh hukum, &namapendekvendor;, kontributor, pemberi lisensinya, dan distributornya tidak bertanggung jawab atas kerusakan tidak langsung, khusus, ringan, konsekuensial, hukuman, atau teladan yang timbul dari atau dengan cara apapun yang berkaitan dengan penggunaan &amp; namapendekmerek; dan Layanan. Kewajiban kolektif berdasarkan persyaratan ini tidak akan melebihi $ 500 (lima ratus dolar). Beberapa yurisdiksi tidak mengizinkan pengecualian atau batasan kerusakan tertentu, jadi pengecualian dan pembatasan ini mungkin tidak berlaku untuk Anda.">
+<!ENTITY rights.webservices-term6 "&amp; namapendekvendor; dapat memperbarui persyaratan ini seperlunya dari waktu ke waktu. Persyaratan ini mungkin tidak diubah atau dibatalkan tanpa persetujuan tertulis dari vendor dan namapendekvendor.">
+<!ENTITY rights.webservices-term7 "Istilah-istilah ini diatur oleh undang-undang Swedia, tidak termasuk pertentangan ketentuan hukumnya. Jika sebagian dari persyaratan ini dianggap tidak sah atau tidak dapat diterapkan, bagian yang tersisa akan tetap berlaku dan berlaku penuh. Jika terjadi konflik antara versi terjemahan dari persyaratan ini dan versi bahasa Inggris, versi bahasa Inggris harus dikendalikan.">

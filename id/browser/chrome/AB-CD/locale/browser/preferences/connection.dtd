@@ -1,0 +1,49 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  connectionsDialog.title       "Pengaturan Koneksi">
+<!ENTITY  window.width                  "37em">
+<!ENTITY  window.macWidth               "39em">
+
+<!ENTITY  proxyTitle.label              "Atur Proksi untuk Akses ke Internet">
+<!ENTITY  noProxyTypeRadio.label        "Tanpa proksi">
+<!ENTITY  noProxyTypeRadio.accesskey    "y">
+<!ENTITY  systemTypeRadio.label         "Pakai pengaturan proksi sistem">
+<!ENTITY  systemTypeRadio.accesskey     "u">
+<!ENTITY  WPADTypeRadio.label           "Deteksi otomatis pengaturan proksi untuk jaringan ini">
+<!ENTITY  WPADTypeRadio.accesskey       "w">
+<!ENTITY  manualTypeRadio.label         "Konfigurasi proksi manual:">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY  autoTypeRadio.label           "URL konfigurasi proksi otomatis:">
+<!ENTITY  autoTypeRadio.accesskey       "A">
+<!ENTITY  reload.label                  "Muat ulang">
+<!ENTITY  reload.accesskey              "e">
+<!ENTITY  ftp.label                     "Proksi FTP:">
+<!ENTITY  ftp.accesskey                 "F">
+<!ENTITY  http.label                    "Proksi HTTP:">
+<!ENTITY  http.accesskey                "x">
+<!ENTITY  ssl.label                     "Proksi SSL:">
+<!ENTITY  ssl.accesskey                 "L">
+<!ENTITY  socks.label                   "Host SOCKS:">
+<!ENTITY  socks.accesskey               "C">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "K">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socksRemoteDNS.label          "Pakai proksi untuk melakukan permintaan DNS (SOCKS v5 saja)">
+<!ENTITY  socksRemoteDNS.accesskey      "d">
+<!ENTITY  port.label                    "Porta:">
+<!ENTITY  HTTPport.accesskey            "P">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "r">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY  noproxy.label                 "Tanpa Proksi untuk:">
+<!ENTITY  noproxy.accesskey             "n">
+<!ENTITY  noproxyExplain.label          "Contoh:. palemoon.org,. net.nz, 192.168.1.0/24">
+<!ENTITY  shareproxy.label              "Pakai peladen proksi ini untuk semua protokol">
+<!ENTITY  shareproxy.accesskey          "s">
+<!ENTITY  autologinproxy.label          "Jangan meminta otentifikasi jika sandi disimpan">
+<!ENTITY  autologinproxy.accesskey      "i">
+<!ENTITY  autologinproxy.tooltip        "Opsi ini diam2 mengotentifikasi Anda ke proksi jika Anda memiliki kredensial yang tersimpan. Anda akan ditanya jika otentifikasi gagal.">
