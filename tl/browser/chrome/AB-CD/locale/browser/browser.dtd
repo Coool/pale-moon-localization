@@ -54,8 +54,8 @@ can reach it easily. -->
 <!ENTITY openLocationCmd.label "Bumukas ng Lokasyon…">
 <!ENTITY openLocationCmd.accesskey "L">
 <!ENTITY openFileCmd.label "Bumukas ng File…">
-<!ENTITY openFileCmd.accesskey "O">
-<!ENTITY openFileCmd.commandkey "o">
+<!ENTITY openFileCmd.accesskey "M">
+<!ENTITY openFileCmd.commandkey "m">
 <!ENTITY printSetupCmd.label "Setup ng Pahina…">
 <!ENTITY printSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "Print Preview">
@@ -197,7 +197,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Mga Pahintulot">
-<!ENTITY permissions.accesskey        "P">
+<!ENTITY permissions.accesskey        "m">
 
 <!ENTITY webDeveloperMenu.label       "Web Developer">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -294,8 +294,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Piliin Lahat">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
-<!ENTITY preferencesCmd2.label       "Mga Opsiyon">
-<!ENTITY preferencesCmd2.accesskey     "O">
+<!ENTITY preferencesCmd2.label       "Mga Preperensiya">
+<!ENTITY preferencesCmd2.accesskey     "P">
 <!ENTITY preferencesCmdUnix.label       "Mga Preperensiya">
 <!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
@@ -333,7 +333,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
 <!ENTITY appMenuWebDeveloper.label "Web Developer">
 <!ENTITY appMenuGettingStarted.label "Pagsisimula">
-<!ENTITY appMenuSafeMode.label "Mag-restart nang hindi pinagagana ang mga Add-on…">
+<!ENTITY appMenuSafeMode.label "I-restart sa Safe Mode…">
 <!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
@@ -554,11 +554,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Umalis"> 
-<!ENTITY quitApplicationCmdWin.accesskey   "x">
+<!ENTITY quitApplicationCmdWin.accesskey   "m">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Umalis"> 
-<!ENTITY quitApplicationCmd.accesskey   "Q">
+<!ENTITY quitApplicationCmd.accesskey   "M">
 <!ENTITY quitApplicationCmdMac.label    "Umalis sa &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">

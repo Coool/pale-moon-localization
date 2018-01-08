@@ -5,16 +5,17 @@
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
 %brandDTD;
 
-<!ENTITY loadError.label "Problem loading page">
-<!ENTITY retry.label "Try Again">
+<!ENTITY loadError.label "Masalah pemuatan halaman">
+<!ENTITY retry.label "Coba lagi">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Unable to connect">
+<!ENTITY connectionFailure.title "Tidak dapat terhubung">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "This address is restricted">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "Alamat ini dibatasi">
+<!ENTITY deniedPortAccess.longDesc "<p>Alamat yang diminta menentukan port (misalnya<q>palemoon.org:25</q> untuk port 25 di palemoon.org) yang biasanya digunakan untuk tujuan <em> lainnya </em> daripada penjelajahan Web. Browser telah membatalkan permintaan perlindungan dan keamanan Anda.</P>
+ ">
 
 <!ENTITY dnsNotFound.title "Server tidak ditemukan">
 <!ENTITY dnsNotFound.longDesc "
@@ -135,26 +136,26 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
+<p> Anda seharusnya tidak menambahkan pengecualian jika Anda menggunakan koneksi internet yang tidak Anda percaya sepenuhnya atau jika Anda tidak terbiasa melihat peringatan untuk server ini. </p>
 
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+<button id = 'getMeOutOfHereButton'> &amp; securityOverride.getMeOutOfHereButton; </button>
+<button id = 'exceptionDialogButton'> &amp; securityOverride.exceptionButtonLabel; </button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.title "Laporkan kesalahan ini">
+<!ENTITY errorReporting.longDesc "Melaporkan informasi alamat dan sertifikat untuk <span id = 'hostname'> </span> akan membantu kami mengidentifikasi dan memblokir situs berbahaya. Terima kasih telah membantu membuat web yang lebih aman!">
+<!ENTITY errorReporting.automatic "Secara otomatis melaporkan kesalahan di masa mendatang">
+<!ENTITY errorReporting.learnMore "Belajarlah lagi…">
+<!ENTITY errorReporting.sending "Mengirim laporan">
+<!ENTITY errorReporting.sent "Laporan terkirim">
+<!ENTITY errorReporting.report "Melaporkan">
+<!ENTITY errorReporting.tryAgain "Coba lagi">
 
 <!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p> <ul> <li> Hubungi pemilik situs web untuk memberi tahu mereka tentang masalah ini. </li> </ul> </p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Tidak dapat terhubung dengan aman">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "Info lanjutan: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Belajarlah lagi…">

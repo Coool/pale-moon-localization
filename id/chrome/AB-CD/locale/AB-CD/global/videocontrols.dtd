@@ -2,33 +2,33 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY playButton.playLabel "Play">
-<!ENTITY playButton.pauseLabel "Pause">
-<!ENTITY muteButton.muteLabel "Mute">
-<!ENTITY muteButton.unmuteLabel "Unmute">
-<!ENTITY fullscreenButton.enterfullscreenlabel "Full Screen">
-<!ENTITY fullscreenButton.exitfullscreenlabel "Exit Full Screen">
-<!ENTITY castingButton.castingLabel "Cast to Screen">
+<!ENTITY playButton.playLabel "Bermain">
+<!ENTITY playButton.pauseLabel "Berhenti sebentar">
+<!ENTITY muteButton.muteLabel "Bisu">
+<!ENTITY muteButton.unmuteLabel "Bersuara">
+<!ENTITY fullscreenButton.enterfullscreenlabel "Layar penuh">
+<!ENTITY fullscreenButton.exitfullscreenlabel "Keluar dari Layar Penuh">
+<!ENTITY castingButton.castingLabel "Transmisikan ke Layar">
 
 <!ENTITY stats.media "Media">
-<!ENTITY stats.size "Size">
-<!ENTITY stats.activity "Activity">
-<!ENTITY stats.activityPaused "Paused">
-<!ENTITY stats.activityPlaying "Playing">
-<!ENTITY stats.activityEnded "Ended">
-<!ENTITY stats.activitySeeking "(seeking)">
+<!ENTITY stats.size "Ukuran">
+<!ENTITY stats.activity "Aktivitas">
+<!ENTITY stats.activityPaused "Dijeda">
+<!ENTITY stats.activityPlaying "Bermain">
+<!ENTITY stats.activityEnded "Berakhir">
+<!ENTITY stats.activitySeeking "(pencarian)">
 <!ENTITY stats.volume "Volume">
-<!ENTITY stats.framesParsed "Frames parsed">
-<!ENTITY stats.framesDecoded "Frames decoded">
-<!ENTITY stats.framesPresented "Frames presented">
-<!ENTITY stats.framesPainted "Frames painted">
+<!ENTITY stats.framesParsed "Bingkai diurai">
+<!ENTITY stats.framesDecoded "Bingkai diterjemahkan">
+<!ENTITY stats.framesPresented "Bingkai disajikan">
+<!ENTITY stats.framesPainted "Bingkai dicat">
 
-<!ENTITY error.aborted "Video loading stopped.">
-<!ENTITY error.network "Video playback aborted due to a network error.">
-<!ENTITY error.decode "Video can't be played because the file is corrupt.">
-<!ENTITY error.srcNotSupported "Video format or MIME type is not supported.">
-<!ENTITY error.noSource2 "No video with supported format and MIME type found.">
-<!ENTITY error.generic "Video playback aborted due to an unknown error.">
+<!ENTITY error.aborted "Pemutaran video berhenti.">
+<!ENTITY error.network "Pemutaran video dibatalkan karena kesalahan jaringan.">
+<!ENTITY error.decode "Video tidak dapat diputar karena file tersebut rusak.">
+<!ENTITY error.srcNotSupported "Format video atau tipe MIME tidak didukung.">
+<!ENTITY error.noSource2 "Tidak ada video dengan format yang didukung dan tipe MIME ditemukan.">
+<!ENTITY error.generic "Pemutaran video gagal karena kesalahan yang tidak diketahui.">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at

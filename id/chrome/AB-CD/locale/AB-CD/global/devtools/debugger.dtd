@@ -35,155 +35,155 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.blackBoxTooltip): This is the tooltip
   -  for the button that black boxes the selected source. -->
-<!ENTITY debuggerUI.sources.blackBoxTooltip "Toggle Black Boxing">
+<!ENTITY debuggerUI.sources.blackBoxTooltip "Toggle kotak hitam">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.prettyPrint): This is the tooltip for the
   -  button that pretty prints the selected source. -->
-<!ENTITY debuggerUI.sources.prettyPrint "Prettify Source">
+<!ENTITY debuggerUI.sources.prettyPrint "Menghiasi sumber">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
-<!ENTITY debuggerUI.autoPrettyPrint     "Auto Prettify Minified Sources">
+<!ENTITY debuggerUI.autoPrettyPrint     "Auto menghiasi Minified sumber">
 <!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
   -  button that toggles all breakpoints for all sources. -->
-<!ENTITY debuggerUI.sources.toggleBreakpoints "Enable/disable all breakpoints">
+<!ENTITY debuggerUI.sources.toggleBreakpoints "Mengaktifkan/menonaktifkan semua breakpoints">
 
 <!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
   - the button to start execution tracing. -->
-<!ENTITY debuggerUI.startTracing "Start Tracing">
+<!ENTITY debuggerUI.startTracing "Mulai menelusuri">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton "Clear">
+<!ENTITY debuggerUI.clearButton "Bersihkan">
 
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton.tooltip): This is the tooltip for
   -  the button that clears the collected tracing data in the tracing tab. -->
-<!ENTITY debuggerUI.clearButton.tooltip "Clear the collected traces">
+<!ENTITY debuggerUI.clearButton.tooltip "Menghapus jejak-jejak dikumpulkan">
 
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
-<!ENTITY debuggerUI.pauseExceptions           "Pause on Exceptions">
+<!ENTITY debuggerUI.pauseExceptions           "Jeda pengecualian">
 <!ENTITY debuggerUI.pauseExceptions.accesskey "E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
-<!ENTITY debuggerUI.ignoreCaughtExceptions           "Ignore Caught Exceptions">
+<!ENTITY debuggerUI.ignoreCaughtExceptions           "Mengabaikan tertangkap pengecualian">
 <!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
   -  checkbox that toggles visibility of panes when opening the debugger. -->
-<!ENTITY debuggerUI.showPanesOnInit           "Show Panes on Startup">
+<!ENTITY debuggerUI.showPanesOnInit           "Tampilkan panel pada Startup">
 <!ENTITY debuggerUI.showPanesOnInit.accesskey "S">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
-<!ENTITY debuggerUI.showVarsFilter           "Show Variables Filter Box">
+<!ENTITY debuggerUI.showVarsFilter           "Menunjukkan kotak Filter variabel">
 <!ENTITY debuggerUI.showVarsFilter.accesskey "V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the
   -  checkbox that toggles visibility of hidden (non-enumerable) variables and
   -  properties in stack views. The "enumerable" flag is a state of a property
   -  defined in JavaScript. When in doubt, leave untranslated. -->
-<!ENTITY debuggerUI.showOnlyEnum           "Show Only Enumerable Properties">
+<!ENTITY debuggerUI.showOnlyEnum           "Tampilkan hanya properti Enumerable">
 <!ENTITY debuggerUI.showOnlyEnum.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOriginalSource): This is the label for
   -  the checkbox that toggles the display of original or sourcemap-derived
   -  sources. -->
-<!ENTITY debuggerUI.showOriginalSource           "Show Original Sources">
+<!ENTITY debuggerUI.showOriginalSource           "Tampilkan sumber-sumber asli">
 <!ENTITY debuggerUI.showOriginalSource.accesskey "O">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
   -  the checkbox that toggles whether sources that we suspect are minified are
   -  automatically black boxed or not. -->
-<!ENTITY debuggerUI.autoBlackBox           "Automatically Black Box Minified Sources">
+<!ENTITY debuggerUI.autoBlackBox           "Secara otomatis kotak hitam Minified sumber">
 <!ENTITY debuggerUI.autoBlackBox.accesskey "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
   -  appears in the filter panel popup as a header for the operators part. -->
-<!ENTITY debuggerUI.searchPanelOperators    "Operators:">
+<!ENTITY debuggerUI.searchPanelOperators    "Operator:">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
-<!ENTITY debuggerUI.searchFile           "Filter Scripts">
+<!ENTITY debuggerUI.searchFile           "Menyaring script">
 <!ENTITY debuggerUI.searchFile.key       "P">
 <!ENTITY debuggerUI.searchFile.altkey    "O">
 <!ENTITY debuggerUI.searchFile.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
   -  in the source editor's context menu for the global search operation. -->
-<!ENTITY debuggerUI.searchGlobal           "Search in All Files">
+<!ENTITY debuggerUI.searchGlobal           "Cari di semua file">
 <!ENTITY debuggerUI.searchGlobal.key       "F">
 <!ENTITY debuggerUI.searchGlobal.accesskey "F">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFunction): This is the text that appears
   -  in the source editor's context menu for the function search operation. -->
-<!ENTITY debuggerUI.searchFunction           "Search for Function Definition">
+<!ENTITY debuggerUI.searchFunction           "Mencari definisi fungsi">
 <!ENTITY debuggerUI.searchFunction.key       "D">
 <!ENTITY debuggerUI.searchFunction.accesskey "D">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchToken): This is the text that appears
   -  in the source editor's context menu for the token search operation. -->
-<!ENTITY debuggerUI.searchToken           "Find">
+<!ENTITY debuggerUI.searchToken           "Menemukan">
 <!ENTITY debuggerUI.searchToken.key       "F">
 <!ENTITY debuggerUI.searchToken.accesskey "F">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
-<!ENTITY debuggerUI.searchGoToLine           "Go to Line…">
+<!ENTITY debuggerUI.searchGoToLine           "Pergi ke baris…">
 <!ENTITY debuggerUI.searchGoToLine.key       "L">
 <!ENTITY debuggerUI.searchGoToLine.accesskey "L">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchVariable): This is the text that appears
   -  in the source editor's context menu for the variables search operation. -->
-<!ENTITY debuggerUI.searchVariable           "Filter Variables">
+<!ENTITY debuggerUI.searchVariable           "Variabel filter">
 <!ENTITY debuggerUI.searchVariable.key       "V">
 <!ENTITY debuggerUI.searchVariable.accesskey "V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.focusVariables): This is the text that appears
   -  in the source editor's context menu for the variables focus operation. -->
-<!ENTITY debuggerUI.focusVariables           "Focus Variables Tree">
+<!ENTITY debuggerUI.focusVariables           "Fokus variabel pohon">
 <!ENTITY debuggerUI.focusVariables.key       "V">
 <!ENTITY debuggerUI.focusVariables.accesskey "V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.condBreakPanelTitle): This is the text that
   -  appears in the conditional breakpoint panel popup as a description. -->
-<!ENTITY debuggerUI.condBreakPanelTitle "This breakpoint will stop execution only if the following expression is true">
+<!ENTITY debuggerUI.condBreakPanelTitle "Breakpoint ini akan menghentikan eksekusi hanya jika ekspresi berikut benar">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuBreak): This is the text that
   -  appears in the source editor context menu for adding a breakpoint. -->
-<!ENTITY debuggerUI.seMenuBreak     "Add Breakpoint">
+<!ENTITY debuggerUI.seMenuBreak     "Tambahkan Breakpoint">
 <!ENTITY debuggerUI.seMenuBreak.key "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuCondBreak): This is the text that
   -  appears in the source editor context menu for adding a conditional
   -  breakpoint. -->
-<!ENTITY debuggerUI.seMenuCondBreak     "Add Conditional Breakpoint">
+<!ENTITY debuggerUI.seMenuCondBreak     "Tambahkan Breakpoint bersyarat">
 <!ENTITY debuggerUI.seMenuCondBreak.key "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
-<!ENTITY debuggerUI.tabs.sources        "Sources">
-<!ENTITY debuggerUI.tabs.traces         "Traces">
-<!ENTITY debuggerUI.tabs.callstack      "Call Stack">
-<!ENTITY debuggerUI.tabs.variables      "Variables">
-<!ENTITY debuggerUI.tabs.events         "Events">
+<!ENTITY debuggerUI.tabs.sources        "Sumber">
+<!ENTITY debuggerUI.tabs.traces         "Jejak">
+<!ENTITY debuggerUI.tabs.callstack      "Tumpukan Panggilan">
+<!ENTITY debuggerUI.tabs.variables      "Variabel">
+<!ENTITY debuggerUI.tabs.events         "Kegiatan">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->
-<!ENTITY debuggerUI.seMenuAddWatch      "Selection to Watch Expression">
+<!ENTITY debuggerUI.seMenuAddWatch      "Pilihan untuk menonton ekspresi">
 <!ENTITY debuggerUI.seMenuAddWatch.key  "E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.addWatch): This is the text that
   -  appears in the watch expressions context menu for adding an expression. -->
-<!ENTITY debuggerUI.addWatch            "Add Watch Expression">
+<!ENTITY debuggerUI.addWatch            "Tambahkan menonton ekspresi">
 <!ENTITY debuggerUI.addWatch.accesskey  "E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.removeWatch): This is the text that
   -  appears in the watch expressions context menu for removing all expressions. -->
-<!ENTITY debuggerUI.removeAllWatch           "Remove All Watch Expressions">
+<!ENTITY debuggerUI.removeAllWatch           "Menghapus semua ekspresi menonton">
 <!ENTITY debuggerUI.removeAllWatch.key       "E">
 <!ENTITY debuggerUI.removeAllWatch.accesskey "E">
 
