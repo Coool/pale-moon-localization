@@ -25,88 +25,88 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Versi">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "Fitur Eksperimental">
+<!ENTITY aboutSupport.experimentName "Nama">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentDescription "Deskripsi">
+<!ENTITY aboutSupport.experimentActive "Aktif">
+<!ENTITY aboutSupport.experimentEndDate "Tanggal akhir">
+<!ENTITY aboutSupport.experimentHomepage "Beranda">
 
 
-<!ENTITY aboutSupport.appBasicsTitle "Application Basics">
-<!ENTITY aboutSupport.appBasicsName "Name">
-<!ENTITY aboutSupport.appBasicsVersion "Version">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsTitle "Dasar Aplikasi">
+<!ENTITY aboutSupport.appBasicsName "Nama">
+<!ENTITY aboutSupport.appBasicsVersion "Versi">
+<!ENTITY aboutSupport.appBasicsBuildID "Membangun ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
-<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Perbarui Saluran">
+<!ENTITY aboutSupport.appBasicsUpdateHistory "Perbarui Riwayat">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Tampilkan Riwayat Pembaruan">
 
-<!ENTITY aboutSupport.appBasicsProfileDir "Profile Directory">
+<!ENTITY aboutSupport.appBasicsProfileDir "Direktori Profil">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
-<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Profile Folder">
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Folder Profil">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "Enabled Plugins">
-<!ENTITY aboutSupport.appBasicsBuildConfig "Build Configuration">
-<!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugin yang Diaktifkan">
+<!ENTITY aboutSupport.appBasicsBuildConfig "Bangun Konfigurasi">
+<!ENTITY aboutSupport.appBasicsUserAgent "Agen pengguna">
 <!ENTITY aboutSupport.appBasicsOS "OS">
-<!ENTITY aboutSupport.appBasicsMemoryUse "Memory Use">
+<!ENTITY aboutSupport.appBasicsMemoryUse "Penggunaan memori">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsSafeMode "Mode aman">
 
-<!ENTITY aboutSupport.showDir.label "Open Directory">
+<!ENTITY aboutSupport.showDir.label "Buka Direktori">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Show in Finder">
+<!ENTITY aboutSupport.showMac.label "Tampilkan di Finder">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Show Folder">
+<!ENTITY aboutSupport.showWin.label "Tampilkan Folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Important Modified Preferences">
-<!ENTITY aboutSupport.modifiedPrefsName "Name">
-<!ENTITY aboutSupport.modifiedPrefsValue "Value">
+<!ENTITY aboutSupport.modifiedPrefsName "Nama">
+<!ENTITY aboutSupport.modifiedPrefsValue "Nilai">
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "user.js Preferences">
 <!ENTITY aboutSupport.userJSDescription "Your profile folder contains a <a id='prefs-user-js-link'>user.js file</a>, which includes preferences that were not created by &brandShortName;.">
 
 <!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedPrefsName "Nama">
+<!ENTITY aboutSupport.lockedPrefsValue "Nilai">
 
-<!ENTITY aboutSupport.graphicsTitle "Graphics">
+<!ENTITY aboutSupport.graphicsTitle "Grafis">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Tempat Database">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integritas">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verifikasi Integritas">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
 
-<!ENTITY aboutSupport.a11yTitle "Accessibility">
-<!ENTITY aboutSupport.a11yActivated "Activated">
-<!ENTITY aboutSupport.a11yForceDisabled "Prevent Accessibility">
+<!ENTITY aboutSupport.a11yTitle "Aksesibilitas">
+<!ENTITY aboutSupport.a11yActivated "Diaktifkan">
+<!ENTITY aboutSupport.a11yForceDisabled "Mencegah Aksesibilitas">
 
-<!ENTITY aboutSupport.libraryVersionsTitle "Library Versions">
+<!ENTITY aboutSupport.libraryVersionsTitle "Versi Perpustakaan">
 
-<!ENTITY aboutSupport.installationHistoryTitle "Installation History">
-<!ENTITY aboutSupport.updateHistoryTitle "Update History">
+<!ENTITY aboutSupport.installationHistoryTitle "Riwayat Instalasi">
+<!ENTITY aboutSupport.updateHistoryTitle "Perbarui Riwayat">
 
-<!ENTITY aboutSupport.copyTextToClipboard.label "Copy text to clipboard">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Copy raw data to clipboard">
+<!ENTITY aboutSupport.copyTextToClipboard.label "Salin teks ke clipboard">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Salin data mentah ke clipboard">
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
 
 <!ENTITY aboutSupport.safeModeTitle "Coba Mode Aman">
-<!ENTITY aboutSupport.restartInSafeMode.label "Mulai ulang dengan pengaya cacat…">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
 <!ENTITY aboutSupport.restartTitle "Coba hidupkan ulang">
 <!ENTITY aboutSupport.restartNormal.label "Hidupkan ulang secara normal…">

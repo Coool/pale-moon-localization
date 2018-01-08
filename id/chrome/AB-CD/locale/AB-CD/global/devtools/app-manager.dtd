@@ -4,100 +4,100 @@
 
 <!ENTITY index.title "App Manager">
 <!ENTITY index.projects2 "Apps">
-<!ENTITY index.device2 "Device">
-<!ENTITY index.help "Help">
+<!ENTITY index.device2 "Perangkat">
+<!ENTITY index.help "Tolong">
 
-<!ENTITY device.debugMainProcess "Debug main process">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
-<!ENTITY device.screenshot "Screenshot">
-<!ENTITY device.screenshotTooltip "Open a screenshot of the current state of the device in a new tab">
-<!ENTITY device.title "Device Control Center">
-<!ENTITY device.notConnected "Not connected. Please connect your device below.">
+<!ENTITY device.debugMainProcess "Debug proses utama">
+<!ENTITY device.debugMainProcessTooltip "Buka alat bantu pengembang terhubung ke proses utama pada perangkat">
+<!ENTITY device.screenshot "Cuplikan Layar">
+<!ENTITY device.screenshotTooltip "Buka cuplikan layar dari negara saat ini dari perangkat dalam tab baru">
+<!ENTITY device.title "Pusat Kontrol Perangkat">
+<!ENTITY device.notConnected "Tidak terhubung. Harap hubungkan perangkat Anda di bawah ini.">
 <!ENTITY device.startApp "Start">
-<!ENTITY device.startAppTooltip "Start this app on the device">
-<!ENTITY device.stopApp "Stop">
-<!ENTITY device.stopAppTooltip "Stop this app on the device">
+<!ENTITY device.startAppTooltip "Mulai pada perangkat app ini">
+<!ENTITY device.stopApp "Berhenti">
+<!ENTITY device.stopAppTooltip "Menghentikan app pada perangkat">
 <!ENTITY device.debugApp "Debug">
-<!ENTITY device.debugAppTooltip "Open the Developer Tools connected to this app on the device">
-<!ENTITY device.name "Name">
-<!ENTITY device.plain "Plain (default)">
-<!ENTITY device.privileged "Privileged">
+<!ENTITY device.debugAppTooltip "Buka alat bantu pengembang terhubung ke aplikasi ini di perangkat ini">
+<!ENTITY device.name "Nama">
+<!ENTITY device.plain "Dataran tinggi (default)">
+<!ENTITY device.privileged "Hak istimewa">
 <!ENTITY device.certified "Certified">
-<!ENTITY device.allow "Allow">
-<!ENTITY device.allowTooltip "This permission is allowed for apps of this type">
-<!ENTITY device.prompt "Prompt">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
-<!ENTITY device.deny "Deny">
-<!ENTITY device.denyTooltip "This permission is denied for apps of this type">
-<!ENTITY device.installedApps "Installed Apps">
-<!ENTITY device.installedAppsTooltip "View a list of apps installed on the device. Some apps, such as certified apps, may be excluded from this view.">
-<!ENTITY device.permissions "Permissions">
-<!ENTITY device.permissionsTooltip "View a table of the permissions accessible to the different types of apps">
+<!ENTITY device.allow "Izinkan">
+<!ENTITY device.allowTooltip "Izin ini adalah aplikasi yang diizinkan untuk jenis ini">
+<!ENTITY device.prompt "Konfirmasi">
+<!ENTITY device.promptTooltip "Izin ini memerlukan konfirmasi pengguna aplikasi untuk jenis ini">
+<!ENTITY device.deny "Menyangkal">
+<!ENTITY device.denyTooltip "Izin ini adalah menolak apps dari jenis ini">
+<!ENTITY device.installedApps "Aplikasi Yang Diinstal">
+<!ENTITY device.installedAppsTooltip "Melihat daftar aplikasi yang diinstal pada perangkat. Beberapa aplikasi, seperti aplikasi bersertifikat, mungkin dapat dikecualikan dari pandangan ini.">
+<!ENTITY device.permissions "Izin">
+<!ENTITY device.permissionsTooltip "Melihat tabel izin roda untuk berbagai jenis apps">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Browser Tabs">
-<!ENTITY device.browserTabsTooltip "View a list of tabs in the browser of the connected device">
+<!ENTITY device.browserTabs "Tab Browser">
+<!ENTITY device.browserTabsTooltip "Melihat daftar browser tab pada perangkat yang terhubung">
 <!ENTITY device.debugBrowserTab "Debug">
-<!ENTITY device.debugBrowserTabTooltip "Open the Developer Tools connected to this browser tab on the device">
-<!ENTITY device.help "Help">
+<!ENTITY device.debugBrowserTabTooltip "Buka alat bantu pengembang terhubung ke tab browser ini pada perangkat">
+<!ENTITY device.help "Membantu">
 
-<!ENTITY connection.connectTooltip "Connect to the device">
-<!ENTITY connection.disconnect "Disconnect">
-<!ENTITY connection.disconnectTooltip "Disconnect from the current device or simulator">
-<!ENTITY connection.notConnected2 "Not Connected.">
-<!ENTITY connection.connectTo "Connect to:">
-<!ENTITY connection.noDeviceFound "No device found. Plug a device">
-<!ENTITY connection.changeHostAndPort "Change">
-<!ENTITY connection.changeHostAndPortTooltip "Change the host and port used to connect to the device (defaults to localhost:6000)">
-<!ENTITY connection.startSimulator "Start Simulator">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
-<!ENTITY connection.saveConnectionInfo "Save">
-<!ENTITY connection.saveConnectionInfoTooltip "Save the host and port">
-<!ENTITY connection.connecting "Connecting…">
-<!ENTITY connection.disconnecting "Disconnecting…">
-<!ENTITY connection.cancel "Cancel">
-<!ENTITY connection.cancelConnectTooltip "Cancel the connection in progress">
-<!ENTITY connection.cancelShowSimulatorTooltip "Exit the Simulator connection mode and return to the initial prompt">
-<!ENTITY connection.or "or">
-<!ENTITY connection.noSimulatorInstalled "No simulator installed.">
-<!ENTITY connection.installOneSimulator "Install Simulator">
-<!ENTITY connection.installOneSimulatorTooltip "Install a version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.installAnotherSimulator "Add">
-<!ENTITY connection.installAnotherSimulatorTooltip "Install an additional version of the Simulator by downloading the relevant add-on">
-<!ENTITY connection.startRegisteredSimulator "Start:">
+<!ENTITY connection.connectTooltip "Menghubungkan ke perangkat">
+<!ENTITY connection.disconnect "Lepaskan koneksi">
+<!ENTITY connection.disconnectTooltip "Lepaskan dari perangkat saat ini simulator atau">
+<!ENTITY connection.notConnected2 "Tidak Terhubung.">
+<!ENTITY connection.connectTo "Menghubungkan ke:">
+<!ENTITY connection.noDeviceFound "Tidak ada perangkat yang ditemukan. Menancapkan perangkat">
+<!ENTITY connection.changeHostAndPort "Mengubah">
+<!ENTITY connection.changeHostAndPortTooltip "Mengubah host dan port yang digunakan untuk menghubungkan ke perangkat (default ke localhost:6000)">
+<!ENTITY connection.startSimulator "Simulator Mulai">
+<!ENTITY connection.startSimulatorTooltip "Mulai turunan dari Simulator dan menghubungkannya">
+<!ENTITY connection.saveConnectionInfo "Simpan">
+<!ENTITY connection.saveConnectionInfoTooltip "Simpan host dan nomor port">
+<!ENTITY connection.connecting "Menghubungkan…">
+<!ENTITY connection.disconnecting "Melepaskan…">
+<!ENTITY connection.cancel "Membatalkan">
+<!ENTITY connection.cancelConnectTooltip "Membatalkan koneksi yang sedang berlangsung">
+<!ENTITY connection.cancelShowSimulatorTooltip "Simulator keluar dari mode koneksi dan kembali ke prompt awal">
+<!ENTITY connection.or "atau">
+<!ENTITY connection.noSimulatorInstalled "Simulator tidak diinstal.">
+<!ENTITY connection.installOneSimulator "Simulator Instal">
+<!ENTITY connection.installOneSimulatorTooltip "Menginstal versi Simulator dengan mendownload add-on yang relevan">
+<!ENTITY connection.installAnotherSimulator "Tambah">
+<!ENTITY connection.installAnotherSimulatorTooltip "Menginstal versi tambahan Simulator dengan mendownload add-on yang relevan">
+<!ENTITY connection.startRegisteredSimulator "Mulai:">
 
-<!ENTITY projects.localApps "Local Apps">
-<!ENTITY projects.addApp "Add">
-<!ENTITY projects.addPackaged "Add Packaged App">
-<!ENTITY projects.addPackagedTooltip "Add a new packaged app (a directory) from your computer">
-<!ENTITY projects.addHosted "Add Hosted App">
-<!ENTITY projects.addHostedTooltip "Add a new hosted app (link to a manifest.webapp file) from a remote website">
-<!ENTITY projects.title "Local Apps">
-<!ENTITY projects.appDetails "App Details">
-<!ENTITY projects.removeAppFromList "Remove this app from the list of apps you are working on. This will not remove it from a device or a simulator.">
-<!ENTITY projects.updateApp "Update">
-<!ENTITY projects.updateAppTooltip "Execute validation checks and update the app to the connected device">
+<!ENTITY projects.localApps "Aplikasi Lokal">
+<!ENTITY projects.addApp "Tambah">
+<!ENTITY projects.addPackaged "Menambahkan Paket App">
+<!ENTITY projects.addPackagedTooltip "Menambahkan dikemas baru app (sebuah direktori) dari komputer Anda">
+<!ENTITY projects.addHosted "Menambahkan Host App">
+<!ENTITY projects.addHostedTooltip "Menambahkan Host baru app (link ke manifest.file webapp) dari sebuah situs web jarak jauh">
+<!ENTITY projects.title "Aplikasi Lokal">
+<!ENTITY projects.appDetails "App Rincian">
+<!ENTITY projects.removeAppFromList "Lepaskan ini dari daftar app apps anda bekerja pada. Hal ini tidak akan menghapusnya dari perangkat atau simulator yang.">
+<!ENTITY projects.updateApp "Memperbarui">
+<!ENTITY projects.updateAppTooltip "Menjalankan pemeriksaan validasi dan memperbarui app untuk perangkat yang terhubung">
 <!ENTITY projects.debugApp "Debug">
-<!ENTITY projects.debugAppTooltip "Open Developer Tools connected to this app">
-<!ENTITY projects.saveManifest "Save">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.debugAppTooltip "Buka alat bantu pengembang terhubung ke aplikasi ini">
+<!ENTITY projects.saveManifest "Simpan">
+<!ENTITY projects.saveManifestTooltip "Menyimpan konten Editor yang nyata di bawah ini">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
-<!ENTITY projects.error "Error">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.noProjects "Tidak ada proyek. Menambahkan dikemas baru app di bawah (direktori lokal) atau sebuah host app (link ke sebuah file Manifest).">
+<!ENTITY projects.manifestEditor "Editor yang nyata">
+<!ENTITY projects.manifestEditorTooltip "Anda dapat mengedit app yang nyata dalam panel di bawah ini. Tombol Pembaruan akan menyimpan perubahan anda dan memperbarui app.">
+<!ENTITY projects.manifestViewer "Penampil yang nyata">
+<!ENTITY projects.manifestViewerTooltip "Perhatikanlah app yang nyata dalam panel di bawah ini">
+<!ENTITY projects.valid "Sah">
+<!ENTITY projects.error "Kesalahan saat">
+<!ENTITY projects.warning "Peringatan">
+<!ENTITY projects.hosted "Host">
+<!ENTITY projects.packaged "Paket">
 
 <!ENTITY help.title "App Manager">
-<!ENTITY help.close "Close">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.close "Tutup">
+<!ENTITY help.intro "Alat bantu ini akan membantu Anda membangun dan menginstal aplikasi web pada perangkat yang kompatibel dengan (mis. Firefox OS). <strong>Apps</strong> tab akan membantu anda dalam proses instalasi dan validasi perangkat app. <strong>Perangkat</strong> akan memberi Anda informasi tab tentang perangkat yang terhubung. Gunakan bagian bawah toolbar untuk menghubungkan ke perangkat atau mulai simulator.">
+<!ENTITY help.usefullLinks "Link yang Berguna:">
+<!ENTITY help.appMgrDoc "Dokumentasi: Menggunakan App Manager">
+<!ENTITY help.configuringDevice "Bagaimana cara menyetel perangkat OS Firefox">
+<!ENTITY help.troubleShooting "Memecahkan Masalah">
+<!ENTITY help.simulatorAddon "Menginstal Add-on Simulator">
+<!ENTITY help.adbHelperAddon "Menginstal Add-on Pembantu Adb">

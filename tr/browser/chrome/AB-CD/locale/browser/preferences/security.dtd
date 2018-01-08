@@ -20,21 +20,24 @@
 <!ENTITY  blockWebForgeries.label     "Bildirilmiş sahtekârlık sitelerini engelle">
 <!ENTITY  blockWebForgeries.accesskey "h">
 
-<!ENTITY  addonExceptions.label         "Ayrıcalıklar…">
+<!ENTITY  addonExceptions.label         "İstisnalar…">
 <!ENTITY  addonExceptions.accesskey     "k">
 
 <!ENTITY  addonSecuritylevel            "Eklenti güvenlik düzeyi:">
 <!ENTITY  addonSecurityLevel_Off        "Kapalı: Hiçbir eklenti engellenmeyecek (tehlikeli)">
-<!ENTITY  addonSecurityLevel_Low        "Düşük: Yalnızca ciddi güvenlik ve istikrar sorunları olan eklentiler engellenir">
-<!ENTITY  addonSecurityLevel_High       "Orta: Tüm zararlı eklentiler engellenir (önerilen, varsayılan)">
-<!ENTITY  addonSecurityLevel_Extreme    "Yüksek: Sorunları olduğu bilinen tüm eklentiler engellenir">
+<!ENTITY  addonSecurityLevel_Low        "Düşük: Yalnızca ciddi güvenlik ve istikrar sorunları olan eklentileri engelle">
+<!ENTITY  addonSecurityLevel_High       "Orta: Tüm zararlı eklentiler engelle (varsayılan, önerilen)">
+<!ENTITY  addonSecurityLevel_Extreme    "Yüksek: Sorunları olduğu bilinen tüm eklentiler engelle">
 
 <!ENTITY  passwords.label               "Parolalar">
 
 <!ENTITY  rememberPasswords.label       "Sitelerde girilen parolaları hatırla">
 <!ENTITY  rememberPasswords.accesskey   "o">
-<!ENTITY  passwordExceptions.label      "Ayrıcalıklar…">
+<!ENTITY  passwordExceptions.label      "İstisnalar…">
 <!ENTITY  passwordExceptions.accesskey  "c">
+
+<!ENTITY  autofillPasswords.label       "Giriş bilgilerini otomatik olarak doldur">
+<!ENTITY  autofillPasswords.accesskey   "A">
 
 <!ENTITY  useMasterPassword.label        "Ana parola kullan">
 <!ENTITY  useMasterPassword.accesskey    "p">

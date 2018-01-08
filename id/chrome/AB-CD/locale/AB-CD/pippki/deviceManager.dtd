@@ -2,35 +2,35 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY devmgr.title                           "Device Manager">
+<!ENTITY devmgr.title                           "Pengaturan perangkat">
 <!-- LOCALIZATION NOTE (devmgr.style): This is CSS style for Device Manager
      window size. Don't translate "width" nor "height". Adjust the numbers
      to make window contents fit. -->
-<!ENTITY devmgr.style                           "width: 52em; height: 32em;">
+<!ENTITY devmgr.style                           "lebar: 52em; tinggi: 32em;">
 
-<!ENTITY devmgr.devlist.label                   "Security Modules and Devices">
-<!ENTITY devmgr.details.title                   "Details">
-<!ENTITY devmgr.details.title2                  "Value">
+<!ENTITY devmgr.devlist.label                   "Modul keamanan dan Perangkat">
+<!ENTITY devmgr.details.title                   "Rincian">
+<!ENTITY devmgr.details.title2                  "Nilai">
 
-<!ENTITY devmgr.button.login.label              "Log In">
+<!ENTITY devmgr.button.login.label              "Masuk">
 <!ENTITY devmgr.button.login.accesskey          "n">
-<!ENTITY devmgr.button.logout.label             "Log Out">
-<!ENTITY devmgr.button.logout.accesskey         "O">
-<!ENTITY devmgr.button.changepw.label           "Change Password">
+<!ENTITY devmgr.button.logout.label             "Keluar">
+<!ENTITY devmgr.button.logout.accesskey         "Itu">
+<!ENTITY devmgr.button.changepw.label           "Ganti kata sandi">
 <!ENTITY devmgr.button.changepw.accesskey       "P">
-<!ENTITY devmgr.button.load.label               "Load">
+<!ENTITY devmgr.button.load.label               "Beban">
 <!ENTITY devmgr.button.load.accesskey           "L">
-<!ENTITY devmgr.button.unload.label             "Unload">
-<!ENTITY devmgr.button.unload.accesskey         "U">
+<!ENTITY devmgr.button.unload.label             "Membongkar">
+<!ENTITY devmgr.button.unload.accesskey         "Itu">
 <!ENTITY devmgr.button.fips.accesskey           "F">
 
-<!ENTITY loaddevice.info                        "Enter the information for the module you want to add.">
-<!ENTITY loaddevice.modname                     "Module Name:">
+<!ENTITY loaddevice.info                        "Masukkan informasi untuk modul yang ingin Anda tambahkan.">
+<!ENTITY loaddevice.modname                     "Nama modul:">
 <!ENTITY loaddevice.modname.accesskey           "M">
-<!ENTITY loaddevice.modname.default             "New PKCS#11 Module">
-<!ENTITY loaddevice.filename                    "Module filename:">
+<!ENTITY loaddevice.modname.default             "Baru PKCS #11 Modul">
+<!ENTITY loaddevice.filename                    "Modul nama file:">
 <!ENTITY loaddevice.filename.accesskey          "f">
-<!ENTITY loaddevice.browse                      "Browse…">
+<!ENTITY loaddevice.browse                      "Isi…">
 <!ENTITY loaddevice.browse.accesskey            "B">
 
-<!ENTITY loaddevice.title                       "Load PKCS#11 Device">
+<!ENTITY loaddevice.title                       "Beban PKCS #11 Perangkat">

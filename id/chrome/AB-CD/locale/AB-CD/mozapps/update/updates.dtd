@@ -1,101 +1,97 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Software Update">
+<!ENTITY  updateWizard.title              "Pembaruan perangkat lunak">
 
-<!ENTITY  checking.title                  "Checking for Updates">
-<!ENTITY  updateCheck.label               "Looking for newer versions of &brandShortName;…">
+<!ENTITY  checking.title                  "Memeriksa Pembaruan">
+<!ENTITY  updateCheck.label               "Mencari versi yang lebih baru dari &amp; brandShortName;…">
 
-<!ENTITY  pluginupdatesfound.title        "Found Updates for Plugins">
-<!ENTITY  pluginupdatesfound.label        "Newer versions of one or more of your plugins were found.">
-<!ENTITY  pluginupdateslink.label         "See how to upgrade your plugins.">
+<!ENTITY  pluginupdatesfound.title        "Update ditemukan untuk Plugin">
+<!ENTITY  pluginupdatesfound.label        "Versi yang lebih baru dari satu atau lebih plugin Anda ditemukan.">
+<!ENTITY  pluginupdateslink.label         "Lihat bagaimana untuk meng upgrade plugin Anda.">
 
-<!ENTITY  noupdatesfound.title            "No Updates Found">
-<!ENTITY  noupdatesautoenabled.intro      "There are no updates available. &brandShortName; will check
-                                           periodically for updates.">
-<!ENTITY  noupdatesautodisabled.intro     "There are no updates available. Please check again later or enable
-                                           &brandShortName;'s automatic update checking.">
+<!ENTITY  noupdatesfound.title            "Tidak ada Pembaruan Ditemukan">
+<!ENTITY  noupdatesautoenabled.intro      "Tidak ada update yang tersedia. &amp; brandShortName; akan memeriksa
+                                            secara berkala untuk update.">
+<!ENTITY  noupdatesautodisabled.intro     "Tidak ada update yang tersedia. Silakan periksa lagi nanti atau mengaktifkan
+                                            &amp; brandShortName;'s otomatis pembaruan pemeriksaan.">
 
-<!ENTITY  manualUpdate.title              "Unable to Update">
-<!ENTITY  manualUpdate.desc               "A recommended security and stability update is available, but you do
-                                           not have the system permissions required to install it. Please contact your
-                                           system administrator, or try again from an account that has permission to
-                                           install software on this computer.">
-<!ENTITY  manualUpdate.space.desc         "A recommended security and stability update is available, but you do
-                                           not have enough space to install it.">
-<!ENTITY  manualUpdateGetMsg.label        "You can always get the latest version of &brandShortName; at:">
+<!ENTITY  manualUpdate.title              "Tidak dapat Perbarui">
+<!ENTITY  manualUpdate.desc               "Sebuah keamanan dan stabilitas pembaruan direkomendasikan tersedia, tetapi Anda
+                                            tidak memiliki izin yang diperlukan sistem untuk menginstalnya. Silahkan hubungi
+                                            administrator sistem, atau coba lagi dari account yang memiliki izin untuk
+                                            menginstal perangkat lunak pada komputer ini.">
+<!ENTITY  manualUpdate.space.desc         "Sebuah keamanan dan stabilitas pembaruan direkomendasikan tersedia, tetapi Anda
+                                            tidak memiliki cukup ruang untuk menginstalnya.">
+<!ENTITY  manualUpdateGetMsg.label        "Anda selalu bisa mendapatkan versi terbaru dari &amp; brandShortName; di:">
 
-<!ENTITY  unsupported.title               "System Unsupported">
-<!ENTITY  unsupported.label               "Your &brandShortName; is out of date, but the latest version is not
-                                           supported on your system. Please upgrade your system, then try again.
-                                           You will not see this notice again, but you can">
-<!ENTITY  unsupportedLink.label           "learn more.">
+<!ENTITY  unsupported.title               "Sistem yang tidak didukung">
+<!ENTITY  unsupported.label               "Anda &amp; brandShortName; adalah dari tanggal, tapi versi terbaru tidak
+                                            didukung pada sistem Anda. Silakan meng-upgrade sistem anda, kemudian coba lagi.
+                                           Anda tidak akan melihat pemberitahuan ini lagi, tapi Anda bisa">
+<!ENTITY  unsupportedLink.label           "belajarlah lagi.">
 
-<!ENTITY  incompatibleCheck.title         "Checking Add-on Compatibility">
-<!ENTITY  incompatibleCheck.label         "Looking for newer versions of your add-ons…">
+<!ENTITY  incompatibleCheck.title         "Memeriksa Tambahan Kesesuaian">
+<!ENTITY  incompatibleCheck.label         "Mencari versi yang lebih baru dari Tambahan Anda…">
 
-<!ENTITY  clickHere.label                 "View more information about this update">
+<!ENTITY  clickHere.label                 "Lihat informasi lebih lanjut tentang pembaruan ini">
 
-<!ENTITY  evangelism.desc                 "It is strongly recommended that you apply this 
-                                           update for &brandShortName; as soon as possible.">
+<!ENTITY  evangelism.desc                 "Hal ini sangat disarankan agar Anda menerapkan pembaruan untuk &amp; brandShortName; secepatnya.">
 
-<!ENTITY  license.instructions            "If you agree to the terms of this agreement, click I Agree 
-                                           below to continue installing this update.">
+<!ENTITY  license.instructions            "Jika Anda setuju dengan persyaratan perjanjian ini, klik Saya Setuju bawah untuk melanjutkan menginstal pembaruan ini.">
 
-<!ENTITY  license.titleText               "Software License Agreement">
-<!ENTITY  license.introText               "Terms and conditions for using this software.">
-<!ENTITY  license.instructionText         "Please read the following license agreement. Use the scroll bar to view the rest of this agreement.">
-<!ENTITY  license.accept                  "I accept the terms of the License Agreement">
+<!ENTITY  license.titleText               "Perjanjian Lisensi Perangkat Lunak">
+<!ENTITY  license.introText               "Syarat dan ketentuan untuk menggunakan software ini.">
+<!ENTITY  license.instructionText         "Silahkan baca perjanjian lisensi berikut. Gunakan scroll bar untuk melihat sisa perjanjian ini.">
+<!ENTITY  license.accept                  "Saya menerima persyaratan dari Perjanjian Lisensi">
 <!ENTITY  license.accept.accesskey        "c">
-<!ENTITY  license.decline                 "I do NOT accept the terms of the License Agreement">
+<!ENTITY  license.decline                 "Saya tidak menerima persyaratan Perjanjian Lisensi">
 <!ENTITY  license.decline.accesskey       "T">
 
-<!ENTITY  incompatibleList.title          "Incompatible Add-ons Found">
+<!ENTITY  incompatibleList.title          "Tidak kompatibel Pengaya Ditemukan">
 
-<!ENTITY  downloadPage.title              "Downloading &brandShortName;">
-<!ENTITY  downloading.intro               "Downloading the update…">
-<!ENTITY  connecting.label                "Connecting to the update server…">
-<!ENTITY  verificationFailedText.label    "&brandShortName; was unable to verify the integrity of the 
-                                           incremental update it downloaded, so it is now downloading
-                                           the complete update package.">
+<!ENTITY  downloadPage.title              "Unduh &brandShortName;">
+<!ENTITY  downloading.intro               "Unduh Memperbaharui…">
+<!ENTITY  connecting.label                "Menghubungkan ke server pembaruan…">
+<!ENTITY  verificationFailedText.label    "&brandShortName; tidak dapat memverifikasi integritas update inkremental itu di unduh, sehingga kini mengunduh
+ paket pembaruan lengkap.">
 
-<!ENTITY  viewDetails.tooltip             "View details for this update">
+<!ENTITY  viewDetails.tooltip             "Lihat rincian untuk update ini">
 
-<!ENTITY  details.link                    "Details">
+<!ENTITY  details.link                    "Rincian">
 
-<!ENTITY  error.title                     "Update Failed">
+<!ENTITY  error.title                     "Pembaharuan gagal">
 
-<!ENTITY  error.label                     "There were problems checking for, downloading, or installing this 
-                                           update. &brandShortName; could not be updated because:">
+<!ENTITY  error.label                     "Ada masalah memeriksa, mengunduh, atau menginstal ini pembaruan. &amp; brandShortName; tidak dapat diperbarui karena:">
                                            
-<!ENTITY  errorManual.label               "You can update &brandShortName; manually by visiting this link
-                                           and downloading the latest version:">
+<!ENTITY  errorManual.label               "Anda dapat memperbarui &brandShortName; manual dengan mengunjungi link ini
+                                            dan men-download versi terbaru:">
                                            
-<!ENTITY  errorpatching.intro             "The partial Update could not be applied. 
-                                           &brandShortName; will try again by downloading a complete Update.">
+<!ENTITY  errorpatching.intro             "Pembaruan sebagian tidak dapat diterapkan.
+                                            &amp; brandShortName; akan mencoba lagi dengan mendownload Update yang lengkap.">
 
-<!ENTITY  genericBackgroundError.label    "&brandShortName; is unable to determine if there is an update available. Please
-                                           make sure that you have the latest version of &brandShortName; from:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Something is preventing &brandShortName; from updating securely.
-                                           Please make sure that you have the latest version of &brandShortName; from:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Something is trying to trick &brandShortName; into accepting an
-                                           insecure update. Please contact your network provider and seek help.">
+<!ENTITY  genericBackgroundError.label    "&amp; brandShortName; tidak dapat menentukan apakah ada update yang tersedia. Silahkan
+                                            pastikan Anda memiliki versi terbaru &amp; brandShortName; dari:">
+<!ENTITY  errorCertAttrNoUpdate2.label    "Ada yang mencegah &amp; brandShortName; dari memperbarui dengan aman
+                                            Pastikan Anda memiliki versi terbaru &amp; brandShortName; dari:">
+<!ENTITY  errorCertAttrHasUpdate.label    "Ada yang mencoba mengelabui &amp; brandShortName; menerima sebuah
+                                            update yang tidak aman Hubungi penyedia jaringan Anda dan cari bantuan.">
 
-<!ENTITY  finishedPage.title              "Update Ready to Install">
-<!ENTITY  finishedPage.text               "The update will be installed the next time &brandShortName; starts. You 
-                                           can restart &brandShortName; now, or continue working and restart later.">
+<!ENTITY  finishedPage.title              "Pembaruan Siap dipasang">
+<!ENTITY  finishedPage.text               "Pembaruan akan dipasang pada waktu berikutnya &brandShortName; dimulai Kamu
+                                            bisa restart &brandShortName; sekarang, atau terus bekerja dan restart nanti.">
 
-<!ENTITY  finishedBackgroundPage.text     "A security and stability update for &brandShortName; has been
-                                           downloaded and is ready to be installed.">
-<!ENTITY  finishedBackground.name         "Update:">
+<!ENTITY  finishedBackgroundPage.text     "Pembaruan keamanan dan stabilitas untuk &amp; brandShortName; telah
+                                            download dan siap untuk diinstal.">
+<!ENTITY  finishedBackground.name         "Memperbarui:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
-<!ENTITY  finishedBackground.more         "The update will be installed the next time &brandShortName; starts. You
-                                           can restart &brandShortName; now, or continue working and restart later.">
+<!ENTITY  finishedBackground.more         "Pembaruan akan dipasang pada waktu berikutnya &brandShortName; dimulai Kamu
+                                            bisa restart &brandShortName; sekarang, atau terus bekerja dan restart nanti.">
 
-<!ENTITY  installed.title                 "Update Installed">
-<!ENTITY  installed.intro                 "The update was successfully installed.">
-<!ENTITY  whatsnew.label                  "Read more about what's new…">
+<!ENTITY  installed.title                 "Pembaruan Terpasang">
+<!ENTITY  installed.intro                 "Pembaruan berhasil diinstal.">
+<!ENTITY  whatsnew.label                  "Baca lebih lanjut tentang apa yang baru…">
 
-<!ENTITY  update.details.label            "Details">
-<!ENTITY  update.installedOn.label        "Installed on:">
+<!ENTITY  update.details.label            "Rincian">
+<!ENTITY  update.installedOn.label        "Dipasang pada:">
 <!ENTITY  update.status.label             "Status:">

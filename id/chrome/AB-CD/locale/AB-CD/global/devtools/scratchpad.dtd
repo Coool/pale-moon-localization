@@ -20,76 +20,77 @@
   -  "Scratchpad" in your locale. You should feel free to find a close
   -  approximation to it or choose a word (or words) that means
   -  "simple discardable text editor". -->
-<!ENTITY window.title                 "Scratchpad">
+<!ENTITY window.title                 "Papan penggaris">
 
-<!ENTITY fileMenu.label               "File">
+<!ENTITY fileMenu.label               "Mengajukan">
 <!ENTITY fileMenu.accesskey           "F">
 
-<!ENTITY newWindowCmd.label           "New Window">
+<!ENTITY newWindowCmd.label           "Jendela baru">
 <!ENTITY newWindowCmd.accesskey       "N">
 <!ENTITY newWindowCmd.commandkey      "n">
 
-<!ENTITY openFileCmd.label            "Open File…">
+<!ENTITY openFileCmd.label            "Membuka file…">
 <!ENTITY openFileCmd.accesskey        "O">
 <!ENTITY openFileCmd.commandkey       "o">
 
-<!ENTITY openRecentMenu.label         "Open Recent">
+<!ENTITY openRecentMenu.label         "Buka Recent">
 <!ENTITY openRecentMenu.accesskey     "R">
 
-<!ENTITY revertCmd.label              "Revert…">
+<!ENTITY revertCmd.label              "Kembali…">
 <!ENTITY revertCmd.accesskey          "t">
 
-<!ENTITY saveFileCmd.label            "Save">
+<!ENTITY saveFileCmd.label            "Menyimpan">
 <!ENTITY saveFileCmd.accesskey        "S">
 <!ENTITY saveFileCmd.commandkey       "s">
 
-<!ENTITY saveFileAsCmd.label          "Save As…">
+<!ENTITY saveFileAsCmd.label          "Simpan Sebagai…">
 <!ENTITY saveFileAsCmd.accesskey      "A">
 
-<!ENTITY closeCmd.label               "Close">
+<!ENTITY closeCmd.label               "Dekat">
 <!ENTITY closeCmd.key                 "W">
 <!ENTITY closeCmd.accesskey           "C">
 
-<!ENTITY viewMenu.label               "View">
+<!ENTITY viewMenu.label               "Melihat">
 <!ENTITY viewMenu.accesskey           "V">
 
-<!ENTITY lineNumbers.label             "Show Line Numbers">
+<!ENTITY lineNumbers.label             "Tampilkan Nomor Baris">
 <!ENTITY lineNumbers.accesskey         "L">
 
-<!ENTITY wordWrap.label                "Wrap Text">
+<!ENTITY wordWrap.label                "Bungkus Teks">
 <!ENTITY wordWrap.accesskey            "W">
 
-<!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
+<!ENTITY highlightTrailingSpace.label     "Sorot Trailing Space
+ ">
 <!ENTITY highlightTrailingSpace.accesskey "H">
 
-<!ENTITY largerFont.label             "Larger Font">
+<!ENTITY largerFont.label             "Font lebih besar">
 <!ENTITY largerFont.accesskey         "a">
 <!ENTITY largerFont.commandkey        "+">
 
-<!ENTITY smallerFont.label            "Smaller Font">
+<!ENTITY smallerFont.label            "Font yang lebih kecil">
 <!ENTITY smallerFont.accesskey        "M">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "Ukuran normal">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "Edit">
 <!ENTITY editMenu.accesskey           "E">
 
-<!ENTITY run.label                    "Run">
+<!ENTITY run.label                    "Menjalankan">
 <!ENTITY run.accesskey                "R">
 <!ENTITY run.key                      "r">
 
-<!ENTITY inspect.label                "Inspect">
+<!ENTITY inspect.label                "Memeriksa">
 <!ENTITY inspect.accesskey            "I">
 <!ENTITY inspect.key                  "i">
 
-<!ENTITY display.label                "Display">
+<!ENTITY display.label                "Tampilan">
 <!ENTITY display.accesskey            "D">
 <!ENTITY display.key                  "l">
 
-<!ENTITY pprint.label                 "Pretty Print">
+<!ENTITY pprint.label                 "Cukup Cetak">
 <!ENTITY pprint.key                   "p">
 <!ENTITY pprint.accesskey             "P">
 
@@ -99,11 +100,11 @@
   -  the user is evaluating against. I.e., Content (current tab) or Chrome
   -  (browser).
   -->
-<!ENTITY environmentMenu.label        "Environment">
+<!ENTITY environmentMenu.label        "Lingkungan Hidup">
 <!ENTITY environmentMenu.accesskey    "N">
 
 
-<!ENTITY contentContext.label         "Content">
+<!ENTITY contentContext.label         "Kadar">
 <!ENTITY contentContext.accesskey     "C">
 
 <!-- LOCALIZATION NOTE (browserContext.label, accesskey): This menu item is used
@@ -118,22 +119,22 @@
 <!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
   -  for the help button in the menubar but Gnome does not.
   -->
-<!ENTITY helpMenu.label               "Help">
+<!ENTITY helpMenu.label               "Membantu">
 <!ENTITY helpMenu.accesskey           "H">
-<!ENTITY helpMenuWin.label            "Help">
+<!ENTITY helpMenuWin.label            "Membantu">
 <!ENTITY helpMenuWin.accesskey        "H">
 
-<!ENTITY documentationLink.label      "Scratchpad Help on MDN">
+<!ENTITY documentationLink.label      "Alas Bantuan MDN">
 <!ENTITY documentationLink.accesskey  "D">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
-<!ENTITY resetContext2.label          "Reset Variables">
+<!ENTITY resetContext2.label          "Atur ulang Variabel">
 <!ENTITY resetContext2.accesskey      "T">
 
-<!ENTITY reloadAndRun.label           "Reload And Run">
+<!ENTITY reloadAndRun.label           "Reload Dan Run">
 <!ENTITY reloadAndRun.accesskey       "E">
 <!ENTITY reloadAndRun.key             "r">
 

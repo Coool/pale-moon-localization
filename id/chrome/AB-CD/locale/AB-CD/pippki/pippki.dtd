@@ -3,66 +3,66 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Values for changepassword.xul -->
-<!ENTITY setPassword.title  "Change Master Password">
-<!ENTITY setPassword.tokenName.label "Security Device">
-<!ENTITY setPassword.oldPassword.label "Current password:">
-<!ENTITY setPassword.newPassword.label "New password:">
-<!ENTITY setPassword.reenterPassword.label "New password (again):">
-<!ENTITY setPassword.meter.label "Password quality meter">
+<!ENTITY setPassword.title  "Ubah Menguasai Password">
+<!ENTITY setPassword.tokenName.label "Alat keamanan">
+<!ENTITY setPassword.oldPassword.label "Kata sandi saat ini:">
+<!ENTITY setPassword.newPassword.label "Kata sandi baru:">
+<!ENTITY setPassword.reenterPassword.label "Password Baru (Lagi):">
+<!ENTITY setPassword.meter.label "Kualitas sandi meteran">
 
 <!-- Values for resetpassword.xul -->
-<!ENTITY resetPasswordButtonLabel "Reset">
-<!ENTITY resetPassword.title  "Reset Master Password">
-<!ENTITY resetPassword.text  "If you reset your master password, all your stored web and e-mail passwords, form data, personal certificates, and private keys will be forgotten. Are you sure you want to reset your master password?">
+<!ENTITY resetPasswordButtonLabel "Ulang">
+<!ENTITY resetPassword.title  "Menguasai reset kata sandi">
+<!ENTITY resetPassword.text  "Jika Anda mereset kata sandi Anda menguasai, semua disimpan web dan e-mail kata sandi Anda, data formulir, sertifikat pribadi, dan kunci pribadi akan dilupakan. Apakah Anda yakin ingin mereset katasandi menguasai Anda?">
 
 <!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Enter Master Password">
-<!ENTITY getPassword.tokenName2.label "Security Device:">
-<!ENTITY getPassword.password.label "Password:">
+<!ENTITY getPassword.title  "Masukkan Menguasai kata sandi">
+<!ENTITY getPassword.tokenName2.label "Alat keamanan:">
+<!ENTITY getPassword.password.label "Kata sandi:">
 
 <!-- Downloading a cert -->
-<!ENTITY downloadCert.title "Downloading Certificate">
-<!ENTITY downloadCert.message1 "You have been asked to trust a new Certificate Authority (CA).">
-<!ENTITY downloadCert.trustSSL "Trust this CA to identify websites.">
-<!ENTITY downloadCert.trustEmail "Trust this CA to identify email users.">
-<!ENTITY downloadCert.trustObjSign "Trust this CA to identify software developers.">
-<!ENTITY downloadCert.message3 "Before trusting this CA for any purpose, you should examine its certificate and its policy and procedures (if available).">
-<!ENTITY downloadCert.viewCert.label "View">
-<!ENTITY downloadCert.viewCert.text "Examine CA certificate">
+<!ENTITY downloadCert.title "Unduh Sertifikat">
+<!ENTITY downloadCert.message1 "Anda telah diminta untuk percaya Otoritas Sertifikat baru (CA).">
+<!ENTITY downloadCert.trustSSL "Percayalah CA ini untuk mengidentifikasi situs web.">
+<!ENTITY downloadCert.trustEmail "Percayalah CA ini untuk mengidentifikasi pengguna email.">
+<!ENTITY downloadCert.trustObjSign "Percayalah CA ini untuk mengidentifikasi pengembang perangkat lunak.">
+<!ENTITY downloadCert.message3 "Sebelum mempercayai CA ini untuk tujuan apapun, sebaiknya Anda memeriksa sertifikat dan kebijakan dan prosedur (jika tersedia).">
+<!ENTITY downloadCert.viewCert.label "Melihat">
+<!ENTITY downloadCert.viewCert.text "Memeriksa sertifikat CA">
 
 <!-- Strings for the SSL client auth ask dialog -->
-<!ENTITY clientAuthAsk.title "User Identification Request">
-<!ENTITY clientAuthAsk.message1 "This site has requested that you identify yourself with a certificate:">
-<!ENTITY clientAuthAsk.message2 "Choose a certificate to present as identification:">
-<!ENTITY clientAuthAsk.message3 "Details of selected certificate:">
+<!ENTITY clientAuthAsk.title "Pengguna Identifikasi Permintaan">
+<!ENTITY clientAuthAsk.message1 "Situs ini telah meminta agar Anda mengidentifikasikan diri dengan sertifikat:">
+<!ENTITY clientAuthAsk.message2 "Pilih sertifikat untuk disajikan sebagai identifikasi:">
+<!ENTITY clientAuthAsk.message3 "Perincian sertifikat yang dipilih:">
 
 <!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Select Certificate">
-<!ENTITY certPicker.info  "Certificate:">
-<!ENTITY certPicker.detailsLabel "Details of selected certificate:">
+<!ENTITY certPicker.title "Pilih Sertifikat">
+<!ENTITY certPicker.info  "Sertifikat:">
+<!ENTITY certPicker.detailsLabel "Detail sertifikat yang dipilih:">
 
-<!ENTITY pkcs12.setpassword.title  "Choose a Certificate Backup Password">
-<!ENTITY pkcs12.setpassword.message  "The certificate backup password you set here protects the backup file that you are about to create.  You must set this password to proceed with the backup.">
-<!ENTITY pkcs12.setpassword.label1 "Certificate backup password:">
-<!ENTITY pkcs12.setpassword.label2 "Certificate backup password (again):">
-<!ENTITY pkcs12.setpassword.reminder "Important: If you forget your certificate backup password, you will not be able to restore this backup later.  Please record it in a safe location.">
+<!ENTITY pkcs12.setpassword.title  "Pilih Sertifikat Cadangan Sandi">
+<!ENTITY pkcs12.setpassword.message  "Sandi cadangan sertifikat Anda mengatur sini melindungi file cadangan yang akan Anda buat. Anda harus mengatur Kata sandi ini untuk melanjutkan cadangan.">
+<!ENTITY pkcs12.setpassword.label1 "Sertifikat sandi cadangan:">
+<!ENTITY pkcs12.setpassword.label2 "Sandi cadangan sertifikat (lagi):">
+<!ENTITY pkcs12.setpassword.reminder "Penting: Jika Anda lupa kata sandi cadangan sertifikat Anda, Anda tidak akan dapat mengembalikan cadangan ini nanti. Harap merekamnya di lokasi yang aman.">
 
-<!ENTITY chooseToken.title  "Choose Token Dialog">
-<!ENTITY chooseToken.message1 "Please choose a token.">
+<!ENTITY chooseToken.title  "Pilih Token Dialog">
+<!ENTITY chooseToken.message1 "Silakan pilih token.">
 
-<!ENTITY escrowWarn.title "Encryption Key Copy">
-<!ENTITY escrowWarn.message1 "Important: This certificate authority has asked to make a backup of your encryption private key.">
-<!ENTITY escrowWarn.benefit1 "The benefit is that if you lose access to your encryption private key, you can request a copy from this certificate authority.">
-<!ENTITY escrowWarn.message2 "However, your encryption private key will be stored by the certificate authority, and could be used to read your encrypted email or documents without your permission.">
-<!ENTITY examineCert.label "View Certificate">
+<!ENTITY escrowWarn.title "Kunci Enkripsi Salinan">
+<!ENTITY escrowWarn.message1 "Penting: otoritas sertifikat ini telah diminta untuk membuat cadangan dari enkripsi kunci pribadi Anda.">
+<!ENTITY escrowWarn.benefit1 "Manfaat adalah bahwa jika Anda kehilangan akses ke enkripsi kunci pribadi Anda, Anda dapat meminta salinan dari otoritas sertifikat ini.">
+<!ENTITY escrowWarn.message2 "Namun, enkripsi kunci pribadi Anda akan disimpan oleh otoritas sertifikat, dan dapat digunakan untuk membaca email terenkripsi atau dokumen tanpa izin Anda.">
+<!ENTITY examineCert.label "Lihat Sertifikat">
 <!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
-<!ENTITY createCertInfo.title "Generating A Private Key">
-<!ENTITY createCertInfo.msg1 "Key Generation in progress… This may take a few minutes….">
-<!ENTITY createCertInfo.msg2 "Please wait…">
+<!ENTITY createCertInfo.title "Membangkitkan Kunci Swasta">
+<!ENTITY createCertInfo.msg1 "Generasi kunci dalam kemajuan... ini dapat berlangsung beberapa menit….">
+<!ENTITY createCertInfo.msg2 "Silakan tunggu…">
 
 <!-- Strings for protectedAuth dialog -->
-<!ENTITY protectedAuth.title "Protected Token Authentication">
-<!ENTITY protectedAuth.msg "Please authenticate to the token. Authentication method depends on the type of your token.">
+<!ENTITY protectedAuth.title "Dilindungi Token Otentikasi">
+<!ENTITY protectedAuth.msg "Silakan otentikasi ke token. Metode otentikasi tergantung pada jenis token Anda.">
 <!ENTITY protectedAuth.tokenName.label "Token:">
