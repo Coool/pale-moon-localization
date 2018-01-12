@@ -8,16 +8,16 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Tidak dapat terhubung">
-<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>Walaupun situs sepertinya berlaku, peramban mampu memantapkan koneksi.</p><ul><li>Situs dapat sementara tidak tersedia? Cobalah lagi nanti.</li><li>Apakah anda tidak dapat mengunjungi isi situs lain? Memeriksa koneksi jaringan komputer.</li><li>Adalah komputer atau jaringan terlindung oleh firewall atau proxy anda? Pengaturan yang salah dapat mengganggu Web penjelajahan.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Pelabuhan Dibatasi untuk Alasan Keamanan">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.longDesc "<p>Alamat yang diminta menentukan sebuah port (misalnya <q>palemoon.org:25</q> untuk port 25 di palemoon.org) yang biasanya digunakan untuk tujuan <em>lainnya</em> dari penjelajahan Web. Browser telah membatalkan permintaan perlindungan dan keamanan anda.</p>">
 
 <!ENTITY dnsNotFound.title "Alamat Tidak Ditemukan">
-<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<p>Browser tidak bisa menemukan server host untuk alamat yang tersedia.</p><ul><li>Apakah anda membuat suatu kesalahan saat mengetik domain? (misal <q><strong>ww</strong>.mozilla.org</q> sebagai gantinya dari <q> <strong>www</strong>.mozilla.org</q>)</li><li>Apakah anda yakin alamat domain ini ada?  Pendaftarannya mungkin sudah kadaluwarsa.</li><li>Anda tidak dapat menjelajahi situs lain?  Periksa pengaturan koneksi jaringan dan server DNS anda.</li><li>Apakah komputer atau jaringan anda dilindungi oleh sebuah firewall atau proxy?  Pengaturan yang salah dapat mengganggu Web browsing.</li></ul>">
 
 <!ENTITY fileNotFound.title "Berkas Tidak Ditemukan">
-<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
+<!ENTITY fileNotFound.longDesc "<ul><li>Mungkinkah barang itu telah diganti namanya, dihapus, atau dipindahkan?</li><li>Apakah ada sebuah ejaan, kapitalisasi, atau kesalahan ketik lainnya dalam alamat?</li><li>Apakah anda memiliki izin akses yang memadai untuk item yang diminta?</li></ul>">
 
 <!ENTITY generic.title "Tidak bisa Melengkapi Permintaan">
 <!ENTITY generic.longDesc "<p>Informasi tambahan tentang masalah ini atau kesalahan saat ini tidak tersedia.</p>">
@@ -29,7 +29,7 @@
 <!ENTITY netInterrupt.longDesc "<p>Browser berhasil tersambung, namun koneksi terputus saat mentransfer informasi. Silahkan coba lagi.</p><ul><li>Apakah anda tidak dapat melihat situs lain? Periksa koneksi jaringan komputer.</li><li>Masih mengalami masalah? Konsultasikan dengan administrator jaringan atau penyedia layanan Internet anda untuk mendapatkan bantuan.</li></ul>">
 
 <!ENTITY notCached.title "Dokumen Kadaluarsa">
-<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Dokumen yang diminta tidak tersedia dalam cache browser.</p><ul><li>Sebagai sebuah tindakan pencegahan, browser tidak secara otomatis meminta ulang dokumen sensitif.</li><li>Klik Try Again untuk meminta kembali dokumen dari situs web.</li></ul>">
 
 <!ENTITY netOffline.title "Mode Offline">
 <!ENTITY netOffline.longDesc2 "<p>Browser beroperasi dalam mode offline dan tidak dapat terhubung ke item yang diminta.</p><ul><li>Apakah komputer terhubung ke jaringan aktif?</li><li>Tekan &quot;Coba Lagi&quot; untuk beralih ke mode online dan memuat ulang halaman.</li></ul>">
@@ -48,50 +48,51 @@
 <!ENTITY netReset.longDesc "<p>Tautan jaringan terganggu saat menegosiasikan koneksi. Silahkan coba lagi.</p>">
 
 <!ENTITY netTimeout.title "Waktu Jaringan habis">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>Situs yang diminta tidak menanggapi permintaan untuk sebuah koneksi dan browser telah berhenti menunggu sebuah balasan.</p><ul><li>Mungkinkah server mengalami permintaan tinggi atau pemadaman sementara?  Coba lagi nanti.</li><li>Anda tidak dapat menjelajahi situs lain?  Periksa koneksi jaringan komputer.</li><li>Apakah komputer atau jaringan anda dilindungi oleh sebuah firewall atau proxy?  Pengaturan yang salah dapat mengganggu pada penjelajahan Web.</li><li>Masih mengalami masalah? Konsultasikan dengan administrator jaringan atau penyedia layanan Internet anda untuk mendapatkan bantuan.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Protokol Tidak Dikenal">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Menentukan alamat protokol (misalnya <q>wxyz://</q>) browser tidak mengenali, jadi browser tidak dapat sebagaimana mestinya tersambung ke situs.</p><ul><li>Apakah anda mencoba untuk mengakses multimedia atau layanan non-teks lainnya? Memeriksa situs untuk persyaratan tambahan.</li><li>Beberapa protokol mungkin memerlukan perangkat lunak pihak ketiga atau plugin sebelum browser dapat menyadari mereka.</li></ul>">
 
 <!ENTITY proxyConnectFailure.title "Server proxy menolak koneksi">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.longDesc "<p>Browser dikonfigurasikan untuk menggunakan server proxy, namun proxy menolak sebuah koneksi.</p><ul><li>Apakah konfigurasi proxy browser benar? Periksa pengaturannya dan coba lagi.</li><li>Apakah layanan proxy mengizinkan koneksi dari jaringan ini?</li><li>Masih mengalami masalah? Konsultasikan dengan administrator jaringan atau penyedia layanan Internet anda untuk mendapatkan bantuan.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Server Proxy Tidak Ditemukan">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<p>Browser dikonfigurasi untuk menggunakan sebuah server proxy, namun proxy tidak dapat ditemukan.</p><ul><li>Apakah konfigurasi proxy browser benar? Periksa pengaturannya dan mencoba lagi.</li><li>Apakah komputer terhubung ke sebuah jaringan aktif?</li><li>Masih mengalami masalah? Konsultasikan dengan administrator jaringan atau penyedia layanan Internet anda untuk mendapatkan bantuan.</li></ul>">
 
 <!ENTITY redirectLoop.title "Pengalihan Putaran">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY redirectLoop.longDesc "<p>Browser telah berhenti mencoba mengambil item yang diminta. Situs ini mengalihkan permintaan dengan cara yang tidak akan pernah lengkap.</p><ul><li>Sudahkah anda menonaktifkan atau memblokir cookie yang dibutuhkan oleh situs ini?</li><li><em>NOTE</em>: Jika menerima cookie situs tidak menyelesaikan masalah, kemungkinan masalah konfigurasi server dan bukan komputer anda.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Respon yang salah">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.longDesc "<p>Situs menanggapi permintaan jaringan dengan cara yang tidak terduga dan browser tidak dapat melanjutkan.</p>">
 
 <!ENTITY nssFailure2.title "Sambungan Aman Gagal">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY nssFailure2.longDesc2 "<p>Halaman yang ingin anda lihat tidak bisa ditampilkan karena keaslian dari data yang diterima tidak bisa diverifikasi.</p><ul><li>Silahkan hubungi pemilik website untuk memberi tahu mereka tentang masalah ini.</li></ul>">
 
 <!ENTITY nssBadCert.title "Sambungan Aman Gagal">
 <!ENTITY nssBadCert.longDesc2 "<ul>
-<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
-<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
+<li>Ini bisa jadi sebuah masalah dengan konfigurasi server, atau bisa jadi seseorang mencoba meniru server.</li>
+<li>Jika anda tersambung ke server ini dengan sukses di masa lalu, kesalahan mungkin bersifat sementara, dan anda bisa mencoba lagi nanti.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Situs Serangan yang Diduga!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
+<p>Serangan situs mencoba untuk menginstal program yang mencuri informasi pribadi, menggunakan komputer anda untuk menyerang orang lain, atau merusak sistem anda.</p>
+<p>Pemilik situs web yang percaya situs mereka telah dilaporkan sebagai sebuah serangan pada kesalahan mungkin <a href='https://www.stopbadware.org/request-review' >meminta sebuah peninjauan</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Pemalsuan Web yang Diduga!">
 <!ENTITY phishingBlocked.longDesc "
-<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
-<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
+<p>Memasukkan informasi pribadi apapun pada halaman ini bisa mengakibatkan pencurian identitas atau penipuan lainnya.</p>
+<p>Jenis pemalsuan web ini digunakan dalam penipuan yang dikenal sebagai serangan phishing, di mana laman web dan email penipuan digunakan untuk meniru sumber-sumber yang mungkin anda percayai.
+</p>
 ">
 
 <!ENTITY cspBlocked.title "Diblokir oleh Kebijakan Keamanan Konten">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.longDesc "<p>Browser mencegah halaman ini sejak dimuat dengan cara ini karena halaman tersebut memiliki sebuah kebijakan keamanan konten yang melarangnya.</p>">
 
 <!ENTITY corruptedContentError.title "Galat Konten yang Rusak">
-<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentError.longDesc "<p>Halaman yang anda coba untuk lihat tidak dapat ditampilkan karena adanya kesalahan dalam transmisi data yang terdeteksi.</p><ul><li>Silahkan hubungi pemilik situs web untuk menginformasikan mereka tentang masalah ini.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Hubungi pemilik situs web untuk memberi tahu mereka tentang masalah ini.</li></ul></p>">
