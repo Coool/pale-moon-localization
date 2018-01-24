@@ -44,7 +44,7 @@ can reach it easily. -->
 <!ENTITY  undoCloseTab.label                 "Ibalik ang Naisarang Tab">
 <!ENTITY  undoCloseTab.accesskey             "k">
 <!ENTITY  closeTab.label                     "Isara ang Tab">
-<!ENTITY  closeTab.accesskey                 "c">
+<!ENTITY  closeTab.accesskey                 "r">
 
 <!ENTITY  listAllTabs.label      "Ilista ang Lahat ng mga Tab">
 
@@ -60,7 +60,7 @@ can reach it easily. -->
 <!ENTITY printSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "Print Preview">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Ilimbag…">
+<!ENTITY printCmd.label "I-print…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "p">
 
@@ -144,8 +144,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Itigil ang pag-load sa pahinang ito">
 <!ENTITY goEndCap.tooltip             "Puntahan ang address sa Halang ng Lokasyon">
-<!ENTITY printButton.label            "Ilimbag">
-<!ENTITY printButton.tooltip          "Ilimbag itong pahina">
+<!ENTITY printButton.label            "I-print">
+<!ENTITY printButton.tooltip          "I-print itong pahina">
 
 <!ENTITY backForwardItem.title        "Bumalik/Tumuloy">
 <!ENTITY locationItem.title           "Lokasyon">
@@ -271,8 +271,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newPrivateWindow.label     "Bagong Pribadong Window">
 <!ENTITY newPrivateWindow.accesskey "W">
 
-<!ENTITY editMenu.label         "Baguhin"> 
-<!ENTITY editMenu.accesskey       "H"> 
+<!ENTITY editMenu.label         "Edit"> 
+<!ENTITY editMenu.accesskey       "E"> 
 <!ENTITY undoCmd.label            "Ibalik">  
 <!ENTITY undoCmd.key            "Z">  
 <!ENTITY undoCmd.accesskey          "B"> 
@@ -325,7 +325,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd2.label "Ipakita Lahat ng Kasaysayan">
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
-<!ENTITY appMenuEdit.label "Baguhin">
+<!ENTITY appMenuEdit.label "Edit">
 <!ENTITY appMenuCustomize.label "I-customize">
 <!ENTITY appMenuToolbarLayout.label "Ayos ng Toolbar…">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
@@ -426,21 +426,21 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY savePageCmd.commandkey       "s">
 <!ENTITY saveFrameCmd.label           "I-save ang Frame Bilang…">
 <!ENTITY saveFrameCmd.accesskey       "F">
-<!ENTITY printFrameCmd.label          "Ilimbag ang Frame…">
+<!ENTITY printFrameCmd.label          "I-print ang Frame…">
 <!ENTITY printFrameCmd.accesskey      "P">
 <!ENTITY saveLinkCmd.label            "I-save ang Kawing Bilang…">
 <!ENTITY saveLinkCmd.accesskey        "k">
 <!ENTITY saveImageCmd.label           "I-save ang Larawan Bilang…">
 <!ENTITY saveImageCmd.accesskey       "v">
-<!ENTITY saveVideoCmd.label           "I-save ang Bidyo Bilang…">
+<!ENTITY saveVideoCmd.label           "I-save ang Video Bilang…">
 <!ENTITY saveVideoCmd.accesskey       "v">
-<!ENTITY saveAudioCmd.label           "I-save ang Tugtog Bilang…">
+<!ENTITY saveAudioCmd.label           "I-save ang Audio Bilang…">
 <!ENTITY saveAudioCmd.accesskey       "v">
 <!ENTITY emailImageCmd.label          "I-email ang Larawan…">
 <!ENTITY emailImageCmd.accesskey      "g">
-<!ENTITY emailVideoCmd.label          "I-email ang Bidyo…">
+<!ENTITY emailVideoCmd.label          "I-email ang Video…">
 <!ENTITY emailVideoCmd.accesskey      "a">
-<!ENTITY emailAudioCmd.label          "I-email ang Tugtog…">
+<!ENTITY emailAudioCmd.label          "I-email ang Audio…">
 <!ENTITY emailAudioCmd.accesskey      "a">
 <!ENTITY playPluginCmd.label          "Paganahin itong plugin">
 <!ENTITY playPluginCmd.accesskey      "c">
@@ -454,7 +454,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyImageContentsCmd.accesskey  "y"> 
 <!ENTITY copyVideoURLCmd.label        "Kopyahin ang Lokasyon ng Video">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
-<!ENTITY copyAudioURLCmd.label        "Kopyahin ang Lokasyon ng Tugtog">
+<!ENTITY copyAudioURLCmd.label        "Kopyahin ang Lokasyon ng Audio">
 <!ENTITY copyAudioURLCmd.accesskey    "o">
 <!ENTITY copyEmailCmd.label           "Kopyahin ang Email Address">
 <!ENTITY copyEmailCmd.accesskey       "E">
@@ -503,9 +503,9 @@ items are mutually exclusive. -->
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY videoShowStats.label        "Ipakita ang Mga Istatistika">
+<!ENTITY videoShowStats.label        "Ipakita ang mga Estadistika">
 <!ENTITY videoShowStats.accesskey    "t">
-<!ENTITY videoHideStats.label        "Itago ang Mga Istatistika">
+<!ENTITY videoHideStats.label        "Itago ang mga Estadistika">
 <!ENTITY videoHideStats.accesskey    "t">
 
 <!-- LOCALIZATION NOTE :
@@ -580,8 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- On Windows we use the term "Options" to describe settings, but
      on Linux and Mac OS X we use "Preferences" - carry that distinction
      over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Baguhin ang mga Preperensiya ng Tagaharang ng Pop-up…">
-<!ENTITY editPopupSettings.label "Baguhin ang mga Opsiyon sa Tagaharang ng Pop-up…">
+<!ENTITY editPopupSettingsUnix.label "I-edit ang mga Preperensiya ng Tagaharang ng Pop-up…">
+<!ENTITY editPopupSettings.label "I-edit ang mga Opsiyon sa Tagaharang ng Pop-up…">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
@@ -633,7 +633,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 
-<!ENTITY syncSetup.label              "Itakda ang &syncBrand.shortName.label;…">
+<!ENTITY syncSetup.label              "I-set up ang &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "Mag-sync Na">
 <!ENTITY syncSyncNowItem.accesskey    "S">
