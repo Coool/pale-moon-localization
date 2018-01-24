@@ -11,13 +11,13 @@
   do &brandShortName;, confira o <a id='supportLink'>site de suporte</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Relatório de Erro">
+<!ENTITY aboutSupport.crashes.title "Relatórios de Travamentos">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "ID do relatório">
 <!ENTITY aboutSupport.crashes.sendDate "Enviado">
-<!ENTITY aboutSupport.crashes.allReports "Todos os relatórios de erro">
-<!ENTITY aboutSupport.crashes.noConfig "Este aplicativo não está configurado para mostrar relatórios de erro.">
+<!ENTITY aboutSupport.crashes.allReports "Todos os relatórios de travamentos">
+<!ENTITY aboutSupport.crashes.noConfig "Este aplicativo não está configurado para mostrar relatórios de travamentos.">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensões">
 <!ENTITY aboutSupport.extensionName "Nome">
@@ -53,13 +53,13 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins ativos">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuração da compilação">
-<!ENTITY aboutSupport.appBasicsUserAgent "Agente de usuário">
+<!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "SO">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memória">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Janelas Multiprocesso">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Modo de Segurança">
+<!ENTITY aboutSupport.appBasicsSafeMode "Modo Seguro">
 
 <!ENTITY aboutSupport.showDir.label "Abrir pasta">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -84,7 +84,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Banco de Lugares">
+<!ENTITY aboutSupport.placeDatabaseTitle "Base de dados Places">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integridade">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificar Integridade">
 
@@ -100,13 +100,13 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.installationHistoryTitle "Histórico de instalações">
 <!ENTITY aboutSupport.updateHistoryTitle "Histórico de atualizações">
 
-<!ENTITY aboutSupport.copyTextToClipboard.label "Copiar como texto">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar como estrutura de dados">
+<!ENTITY aboutSupport.copyTextToClipboard.label "Copiar texto para a área de transferência">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar dados brutos para a área de transferência">
 
-<!ENTITY aboutSupport.sandboxTitle "Ambiente Isolado">
+<!ENTITY aboutSupport.sandboxTitle "Ambiente isolado (Sandbox)">
 
-<!ENTITY aboutSupport.safeModeTitle "Tente o Modo de Segurança">
+<!ENTITY aboutSupport.safeModeTitle "Tente o Modo Seguro">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar no modo seguro…">
 
-<!ENTITY aboutSupport.restartTitle "Reiniciar">
+<!ENTITY aboutSupport.restartTitle "Tente Reiniciar">
 <!ENTITY aboutSupport.restartNormal.label "Reiniciar normalmente…">

@@ -22,8 +22,8 @@
   <li>Suriin ang address kung mayroon itong pagkakamali sa pag-type tulad ng
     <strong>ww</strong>.example.com sa halip na
     <strong>www</strong>.example.com</li>
-  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompyuter.</li>
-  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompiyuter.</li>
+  <li>Kung ang iyong kompiyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
@@ -103,8 +103,8 @@
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
   <li>Silipin ang mga setting sa proxy at tiyakin na iyon ay tama.</li>
-  <li>Siguraduhing ang iyong kompyuter ay mayroong gumaganang koneksiyon sa network.</li>
-  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+  <li>Siguraduhing ang iyong kompiyuter ay mayroong gumaganang koneksiyon sa network.</li>
+  <li>Kung ang iyong kompiyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
@@ -118,7 +118,7 @@
 <!ENTITY unknownSocketType.title "Hindi inaasahang tugon mula sa server">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
-  <li>Siguraduhing ang Personal Security Manager ay naka-install sa iyong kompyuter.</li>
+  <li>Siguraduhing ang Personal Security Manager ay naka-install sa iyong kompiyuter.</li>
   <li>Maaaring ito ay sanhi ng hindi istandard na configuration sa server.</li>
 </ul>
 ">
@@ -134,22 +134,22 @@
 <!ENTITY nssBadCert.title "Nabigong Secure na Koneksiyon">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
-  <li>Ito ay maaaring problema sa pagkakapigura ng server, o maaari rin na may gustong gayahin ang server na ito.</li>
-  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraaan, maaaring ang pagkakamaling ito ay pansamantala lamang, at maaari kang sumubok muli mamaya.</li>
+  <li>Ito ay maaaring problema sa configuration ng server, o maaari din na may taong gustong gayahin ang server na ito.</li>
+  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito noon, maaaring ang pagkakamaling ito ay pansamantala lamang, at puwede mong subukan ito muli mamaya.</li>
 </ul>
 ">
 
 <!ENTITY sharedLongDesc "
 <ul>
   <li>Ang site ay maaaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
-  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompyuter.</li>
-  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompiyuter.</li>
+  <li>Kung ang iyong kompiyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Ang mga &quot;attack site&quot; ay sumusubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
+<p>Ang mga &quot;attack site&quot; ay sumusubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompiyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
 <p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
 ">
 
@@ -160,25 +160,22 @@
 ">
 
 <!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>Hinarang ng &brandShortName; ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong content security policy na hindi ito pinapayagan.</p>">
+<!ENTITY cspBlocked.longDesc "<p>Hinarang ng &brandShortName; ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay may content security policy na hindi ito pinapayagan.</p>">
 
 <!ENTITY xssBlockMode.title "Hinarang ng XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
   <li>Hinarang ng &brandShortName; ang karagdagang aksiyon sa pahinang ito dahil naglalaman ito ng injected code ng JavaScript</li>
-  <li>Pag-load ng pahinang ito ay sinuspinde dahil sa alin mang mga dahilan. Tahasang
-    kahilingan ng website na harangin ang page sakaling magkaroon ng XSS attacks, o
-    dahil ang &brandShortName; ay nakakonpigura na harangin ang mga pahina sa
-    ganoong mga sitwasyon.</li>
+  <li>Pag-load ng pahinang ito ay sinuspinde dahil sa tahasang kahilingan ng website na harangin ang pahina kung sakaling magkaroon ng XSS attacks, o dahil ang &brandShortName; ay naka-configure na harangin ang mga pahina sa ganoong mga sitwasyon.</li>
 </ul>
 ">
 
-<!ENTITY corruptedContentError.title "Kamalian dahil sa Sirang Nilalaman">
+<!ENTITY corruptedContentError.title "Error sa Sirang Nilalaman">
 <!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "O maaari ka din na maglapat ng eksepsiyon…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako dito!">
+<!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako rito!">
 <!ENTITY securityOverride.exceptionButtonLabel "Maglapat ng Eksepsiyon…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
@@ -194,12 +191,12 @@ functionality specific to firefox. -->
 ">
 
 <!ENTITY errorReporting.title "I-ulat itong pagkakamali">
-<!ENTITY errorReporting.longDesc "Pag-ulat sa address at impormasyon tungkol sa sertipiko ng <span id='hostname'></span> ay makatutulong upang makilala at maharang namin ang mga site na may masamang hangarin. Maraming salamat sa pagtulong sa pag-gawa ng mas ligtas na web!">
+<!ENTITY errorReporting.longDesc "Ang pag-ulat sa address at impormasyon tungkol sa sertipiko ng <span id='hostname'></span> ay makatutulong upang makilala at maharang namin ang mga site na may masamang hangarin. Maraming salamat sa pagtulong sa paggawa ng mas ligtas na web!">
 <!ENTITY errorReporting.automatic "Awtomatikong mag-ulat tungkol sa mga pagkakamali sa hinaharap">
 <!ENTITY errorReporting.learnMore "Matuto nang higit pa…">
 <!ENTITY errorReporting.sending "Ipinadadala ang ulat">
-<!ENTITY errorReporting.sent "Ipinadala ang ulat">
-<!ENTITY errorReporting.report "Ulat">
+<!ENTITY errorReporting.sent "Naipadala na ang ulat">
+<!ENTITY errorReporting.report "I-ulat">
 <!ENTITY errorReporting.tryAgain "Subukan muli">
 
 <!ENTITY remoteXUL.title "Remote XUL">
@@ -208,5 +205,5 @@ functionality specific to firefox. -->
 <!ENTITY sslv3Used.title "Hindi Makakonekta nang Secure">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced na impormasyon: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Matuto nang higit pa…">

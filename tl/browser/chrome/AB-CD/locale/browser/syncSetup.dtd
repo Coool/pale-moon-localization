@@ -6,18 +6,18 @@
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description2 "Mabuhay! Kung ikaw ay hindi pa nakagagamit ng &syncBrand.fullName.label; dati, kailangan mong gumawa ng bagong account.">
+<!ENTITY setup.pickSetupType.description2 "Mabuhay! Kung ikaw ay hindi pa nakagagamit ng &syncBrand.fullName.label; dati, kailangan mo munang gumawa ng bagong account.">
 <!ENTITY button.createNewAccount.label "Lumikha ng Bagong Account">
 <!ENTITY button.haveAccount.label      "Mayroon Akong Account">
 
 <!ENTITY setup.choicePage.title.label     "Ginamit mo na ba ang &syncBrand.fullName.label; dati?">
-<!ENTITY setup.choicePage.new.label       "Hindi ko pa nagagamit ang &syncBrand.shortName.label; dati">
+<!ENTITY setup.choicePage.new.label       "Hindi pa ako nakagagamit ng &syncBrand.shortName.label; dati">
 <!ENTITY setup.choicePage.existing2.label "Ako ay gumagamit na ng &syncBrand.shortName.label; sa ibang device">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Server">
 <!ENTITY serverType.default.label      "Paunang-tukoy: &syncBrand.fullName.label; server">
-<!ENTITY serverType.custom2.label   "Gumamit ng pasadyang server…">
+<!ENTITY serverType.custom2.label   "Gumamit ng custom server…">
 <!ENTITY signIn.account2.label      "Account">
 <!ENTITY signIn.account2.accesskey  "A">
 <!ENTITY signIn.password.label      "Password">
@@ -40,7 +40,7 @@
      joined with implicit white space, so spaces in the strings aren't necessary -->
 <!ENTITY setup.tosAgree1.label      "Sumasang-ayon ako sa">
 <!ENTITY setup.tosAgree1.accesskey  "a">
-<!ENTITY setup.tosLink.label        "Mga Palatuntunan">
+<!ENTITY setup.tosLink.label        "Mga Tuntunin ng Serbisyo">
 <!ENTITY setup.tosAgree2.label      "at sa">
 <!ENTITY setup.ppLink.label         "Mga Patakaran sa Paglilihim">
 <!ENTITY setup.tosAgree3.label      "">
@@ -48,13 +48,13 @@
 
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; ay Nagmamalasakit Sa Iyong Paglilihim">
-<!ENTITY setup.newRecoveryKeyPage.description.label "Para matiyak ang iyong kabuuang paglilihim, lahat ng iyong datos ay inencrypt bago ito in-upload. Ang Recovery Key na kailangan para ma-decrypt ang iyong datos ay hindi ipinadala.">
+<!ENTITY setup.newRecoveryKeyPage.description.label "Para matiyak ang iyong kabuuang paglilihim, ang lahat ng iyong datos ay in-encrypt bago ito in-upload. Ang Recovery Key na kailangan para ma-decrypt ang iyong datos ay hindi ipinadala.">
 <!ENTITY recoveryKeyEntry.label        "Iyong Recovery Key">
 <!ENTITY recoveryKeyEntry.accesskey    "K">
 <!ENTITY syncGenerateNewKey.label  "Gumawa ng bagong key">
 <!ENTITY recoveryKeyBackup.description "Ang iyong Recovery Key ay kinakailangan upang ma-access ang &syncBrand.fullName.label; sa ibang mga machine. Mangyaring gumawa ng backup na kopya. Hindi ka namin matutulungan upang ma-recover ang iyong Recovery Key.">
 
-<!ENTITY button.syncKeyBackup.print.label     "Ilimbag…">
+<!ENTITY button.syncKeyBackup.print.label     "I-print…">
 <!ENTITY button.syncKeyBackup.print.accesskey "P">
 <!ENTITY button.syncKeyBackup.save.label      "I-save…">
 <!ENTITY button.syncKeyBackup.save.accesskey  "S">
@@ -65,7 +65,7 @@
 <!ENTITY addDevice.dontHaveDevice.label     "Hindi ko kasama ang device">
 <!ENTITY pairDevice.setup.description.label  "Para ma-activate, piliin ang &quot;I-pares ang Device&quot; sa iyong ibang device.">
 <!ENTITY addDevice.setup.enterCode.label    "Pagkatapos, ilagay itong code:">
-<!ENTITY pairDevice.dialog.description.label "Para ma-activate ang iyong bagong device, piliin ang &quot;Itakda ang Sync&quot; sa device.">
+<!ENTITY pairDevice.dialog.description.label "Para ma-activate ang iyong bagong device, piliin ang &quot;I-set up ang Sync&quot; sa device.">
 <!ENTITY addDevice.dialog.enterCode.label   "Ilagay ang code na ibinibigay ng device:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Paki-subukan muli.">
 <!ENTITY addDevice.dialog.successful.label  "Ang device ay matagumpay na naidagdag. Ang paunang synchronization ay maaaring umabot ng ilang minuto at matatapos sa background.">
@@ -75,43 +75,43 @@
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "Mag-sign In">
 <!ENTITY existingRecoveryKey.description "Maaari kang makakuha ng kopya nang iyong recovery key sa pamamagitan ng pagtungo sa mga opsiyon ng &syncBrand.shortName.label; sa iyong ibang device, at pagpili sa &quot;Aking Recovery Key&quot; sa ilalim ng &quot;Pangasiwaan ang account&quot;.">
-<!ENTITY verifying.label              "Pinapatunayan…">
+<!ENTITY verifying.label              "Bineberipika…">
 <!ENTITY resetPassword.label          "I-reset ang Password">
-<!ENTITY resetSyncKey.label           "Nawala ko ang iba kong device.">
+<!ENTITY resetSyncKey.label           "Nawala ko ang isa kong device.">
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "Mga Opsiyon ng Sync">
 <!ENTITY syncDeviceName.label       "Pangalan ng Device:">
 <!ENTITY syncDeviceName.accesskey   "c">
 
-<!ENTITY syncMy.label               "I-sync ang aking">
+<!ENTITY syncMy.label               "I-sync ang aking:">
 <!ENTITY engine.bookmarks.label     "Mga Bookmark">
 <!ENTITY engine.bookmarks.accesskey "m">
 <!ENTITY engine.tabs.label          "Mga Tab">
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "Kasaysayan">
-<!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.history.accesskey   "y">
 <!ENTITY engine.passwords.label     "Mga Password">
 <!ENTITY engine.passwords.accesskey "P">
-<!ENTITY engine.prefs.label         "Mga Kagustuhan">
+<!ENTITY engine.prefs.label         "Mga Preperensiya">
 <!ENTITY engine.prefs.accesskey     "S">
 <!ENTITY engine.addons.label        "Mga Add-on">
 <!ENTITY engine.addons.accesskey    "A">
 
-<!ENTITY choice2a.merge.main.label       "Pagsamahin ang mga datos nitong device sa aking mga datos sa &syncBrand.shortName.label;">
-<!ENTITY choice2.merge.recommended.label "Nirerekomenda:">
-<!ENTITY choice2a.client.main.label      "Pagsamahin lahat ng mga datos nitong device sa aking
-mga datos sa &syncBrand.shortName.label;">
-<!ENTITY choice2a.server.main.label      "Palitan lahat ng ibang mga device ng datos nitong device">
+<!ENTITY choice2a.merge.main.label       "Pagsamahin ang datos nitong device at ng aking datos sa &syncBrand.shortName.label;">
+<!ENTITY choice2.merge.recommended.label "Inirerekomenda:">
+<!ENTITY choice2a.client.main.label      "Palitan ang lahat ng datos nitong device ng aking
+datos sa &syncBrand.shortName.label;">
+<!ENTITY choice2a.server.main.label      "Palitan ang datos ng ibang mga device ng datos nitong device">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Kumpirmahin">
 <!ENTITY confirm.merge2.label    "Pagsasamahin na ng &syncBrand.shortName.label; ang lahat ng datos sa browser nitong device sa iyong Sync account.">
-<!ENTITY confirm.client3.label         "Babala: Ang mga sumusunod na datos ng &brandShortName; sa device na ito ay ma-aalis:">
-<!ENTITY confirm.client2.moreinfo.label "Kokopyahin ng &brandShortName; ang mga datos ng iyong &syncBrand.fullName.label; patungo sa device na ito.">
-<!ENTITY confirm.server2.label         "Babala: Ang mga datos ng mga sumusunod na device ay mapapalitan ng iyong lokal na datos:">
+<!ENTITY confirm.client3.label         "Babala: Ang mga sumusunod na datos ng &brandShortName; sa device na ito ay aalisin:">
+<!ENTITY confirm.client2.moreinfo.label "Kokopyahin ng &brandShortName; ang datos ng iyong &syncBrand.fullName.label; patungo sa device na ito.">
+<!ENTITY confirm.server2.label         "Babala: Ang datos ng mga sumusunod na device ay mapapalitan ng iyong lokal na datos:">
 
 <!-- New & Existing Account: Setup Complete -->
-<!ENTITY setup.successPage.title "Nakumpleto ang Pag-setup">
+<!ENTITY setup.successPage.title "Nakumpleto ang Setup">
 <!ENTITY changeOptions.label "Maaari mong baguhin itong preperensiya sa pagpili sa Mga Opsiyon ng Sync sa ibaba.">
 <!ENTITY continueUsing.label "Maaari mo nang ipagpatuloy ang paggamit ng &brandShortName;.">
