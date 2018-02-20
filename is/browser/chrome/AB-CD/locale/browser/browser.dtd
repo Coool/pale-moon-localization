@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Vinna án nettengingar">
 <!ENTITY goOfflineCmd.accesskey "g">
 
+<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Valmyndaslá">
 <!ENTITY menubarCmd.accesskey "V">
 <!ENTITY navbarCmd.label "Flakktækjaslá">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "V"> 
 <!ENTITY viewSidebarMenu.label "Hliðslá">
 <!ENTITY viewSidebarMenu.accesskey "H">
-<!ENTITY viewCustomizeToolbar.label       "Sérsníða…"> 
+<!ENTITY viewCustomizeToolbar.label       "Customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "S">
 <!ENTITY viewTabsOnTop.label            "Flipar efst">
 <!ENTITY viewTabsOnTop.accesskey        "t">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Breyta">
 <!ENTITY appMenuCustomize.label "Sérsníða">
-<!ENTITY appMenuToolbarLayout.label "Útlit tækjaslár…">
+<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "Hliðarslá">
 <!ENTITY appMenuFind.label "Finna…">
 <!ENTITY appMenuUnsorted.label "Óröðuð bókamerki">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Auka aðdrátt">
 <!ENTITY zoomControls.label             "Aðdráttar stýringar">
 
-<!ENTITY appMenuRestart.label           "Restart">
+<!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Breyta stillingum sprettigluggabana fyrir þennan vef">
 
 <!ENTITY allowPopups.accesskey "L">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Breyta stillingum sprettigluggabana…">
-<!ENTITY editPopupSettings.label "Breyta stillingum sprettigluggabana…">
+<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
 <!ENTITY editPopupSettings.accesskey "B">
 <!ENTITY dontShowMessage.accesskey "E">
 

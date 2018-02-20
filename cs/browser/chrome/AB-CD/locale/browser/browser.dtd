@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Pracovat offline">
 <!ENTITY goOfflineCmd.accesskey "l">
 
+<!ENTITY restartCmd.label "Restartovat…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Hlavní nabídka">
 <!ENTITY menubarCmd.accesskey "H">
 <!ENTITY navbarCmd.label "Lišta navigace">
@@ -149,7 +152,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY backForwardItem.title        "Zpět/Vpřed">
 <!ENTITY locationItem.title           "Adresa">
-<!ENTITY searchItem.title             "Hledání">
+<!ENTITY searchItem.title             "Vyhledávací pole">
 <!ENTITY throbberItem.title           "Ukazatel činnosti">
 <!ENTITY bookmarksItem.title          "Záložky">
 
@@ -186,8 +189,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY keywordfield.label           "Přiřadit k tomuto vyhledávání klíčové slovo…">
 <!ENTITY keywordfield.accesskey       "h">
-<!ENTITY search.label                 "Hledání na webu">
-<!ENTITY search.accesskey             "w">
+<!ENTITY search.label                 "Vyhledávání na webu">
+<!ENTITY search.accesskey             "V">
 <!ENTITY downloads.label              "Správce stahování">
 <!ENTITY downloads.tooltip            "Zobrazí průběh stahování">
 <!ENTITY downloads.accesskey          "t">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "N"> 
 <!ENTITY viewSidebarMenu.label "Postranní lišta">
 <!ENTITY viewSidebarMenu.accesskey "P">
-<!ENTITY viewCustomizeToolbar.label       "Nastavit lišty…"> 
+<!ENTITY viewCustomizeToolbar.label       "Nastavit lišty"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "V">
 <!ENTITY viewTabsOnTop.label            "Panely navrchu">
 <!ENTITY viewTabsOnTop.accesskey        "a">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Upravit">
 <!ENTITY appMenuCustomize.label "Přizpůsobit">
-<!ENTITY appMenuToolbarLayout.label "Upravit lišty…">
+<!ENTITY appMenuToolbarLayout.label "Upravit lišty">
 <!ENTITY appMenuSidebars.label "Postranní lišty">
 <!ENTITY appMenuFind.label "Najít…">
 <!ENTITY appMenuUnsorted.label "Netříděné záložky">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Přiblíží">
 <!ENTITY zoomControls.label             "Lupa">
 
-<!ENTITY appMenuRestart.label           "Restartovat">
+<!ENTITY appMenuRestart.label           "Restartovat…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Změní nastavení blokování vyskakovacích oken pro tento server">
 
 <!ENTITY allowPopups.accesskey "P">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Upravit předvolby blokování vyskakovacích oken…">
-<!ENTITY editPopupSettings.label "Upravit možnosti blokování vyskakovacích oken…">
+<!ENTITY editPopupSettingsUnix.label "Upravit předvolby blokování vyskakovacích oken">
+<!ENTITY editPopupSettings.label "Upravit možnosti blokování vyskakovacích oken">
 <!ENTITY editPopupSettings.accesskey "U">
 <!ENTITY dontShowMessage.accesskey "N">
 

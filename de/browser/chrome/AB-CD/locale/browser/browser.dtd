@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Offline arbeiten">
 <!ENTITY goOfflineCmd.accesskey "O">
 
+<!ENTITY restartCmd.label "Neustart…">
+<!ENTITY restartCmd.accesskey "N">
+
 <!ENTITY menubarCmd.label "Menüleiste">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "Navigations-Symbolleiste">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "y"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "b">
-<!ENTITY viewCustomizeToolbar.label       "Anpassen…"> 
+<!ENTITY viewCustomizeToolbar.label       "Anpassen"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "A">
 <!ENTITY viewTabsOnTop.label            "Tabs oben">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Bearbeiten">
 <!ENTITY appMenuCustomize.label "Anpassen">
-<!ENTITY appMenuToolbarLayout.label "Symbolleisten anpassen…">
+<!ENTITY appMenuToolbarLayout.label "Symbolleisten anpassen">
 <!ENTITY appMenuSidebars.label "Sidebars">
 <!ENTITY appMenuFind.label "Suchen…">
 <!ENTITY appMenuUnsorted.label "Unsortierte Lesezeichen">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Vergrößern">
 <!ENTITY zoomControls.label             "Zoom-Einstellungen">
 
-<!ENTITY appMenuRestart.label           "Neustart">
+<!ENTITY appMenuRestart.label           "Neustart…">
 <!ENTITY appMenuRestart.accesskey       "N">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Einstellungen des Pop-up-Blockers für diese Website ändern">
 
 <!ENTITY allowPopups.accesskey "P">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Pop-up-Blocker-Einstellungen bearbeiten…">
-<!ENTITY editPopupSettings.label "Pop-up-Blocker-Einstellungen bearbeiten…">
+<!ENTITY editPopupSettingsUnix.label "Pop-up-Blocker einstellen">
+<!ENTITY editPopupSettings.label "Pop-up-Blocker einstellen">
 <!ENTITY editPopupSettings.accesskey "b">
 <!ENTITY dontShowMessage.accesskey "I">
 

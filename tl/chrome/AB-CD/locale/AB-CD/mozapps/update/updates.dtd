@@ -7,19 +7,19 @@
 <!ENTITY  updateCheck.label               "Naghahanap ng mas bagong bersiyon ng &brandShortName;…">
 
 <!ENTITY  pluginupdatesfound.title        "Nakakita ng mga Update para sa mga Plugin">
-<!ENTITY  pluginupdatesfound.label        "Mas bagong bersiyon ng isa o higit pa ng iyong mga plugin ang natagpuan.">
+<!ENTITY  pluginupdatesfound.label        "May natagpuang mas bagong bersiyon para sa isa o higit pa ng iyong mga plugin.">
 <!ENTITY  pluginupdateslink.label         "Tingnan kung paano i-upgrade ang iyong mga plugin.">
 
 <!ENTITY  noupdatesfound.title            "Walang mga Update na Natagpuan">
 <!ENTITY  noupdatesautoenabled.intro      "Walang update na natagpuan. Madalas na nagsusuri ang &brandShortName; kung may update.">
-<!ENTITY  noupdatesautodisabled.intro     "Walang update na natagpuan. Paki-tingnan ulit mamaya o paganahin ang awtomatikong pagsusuri kung may update ang &brandShortName;.">
+<!ENTITY  noupdatesautodisabled.intro     "Walang update na natagpuan. Paki-tingnan ulit mamaya o paganahin ang awtomatikong pagsusuri kung may update ng &amp;brandShortName.">
 
 <!ENTITY  manualUpdate.title              "Hindi Makapag-update">
 <!ENTITY  manualUpdate.desc               "Isang inirerekomendang update sa seguridad at estabilidad ang nakita, ngunit wala ka ng mga kinakailangang pahintulot sa sistema para ma-install ito. Makipag-ugnayan sa tagapamahala ng iyong sistema, o subukan muli sa ibang account na may pahintulot na mag-install ng software sa kompiyuter na ito.">
 <!ENTITY  manualUpdate.space.desc         "Isang inirerekomendang update sa seguridad at estabilidad ang nakita, ngunit kulang ang espasyo sa iyong disk upang ma-install ito.">
 <!ENTITY  manualUpdateGetMsg.label        "Maaari mong makuha ang pinakabagong bersiyon ng &brandShortName; sa:">
 
-<!ENTITY  unsupported.title               "'Di-suportadong Sistema">
+<!ENTITY  unsupported.title               "Di-suportadong Sistema">
 <!ENTITY  unsupported.label               "Iyong &brandShortName; ay luma na, pero hindi sinusuportahan ng pinakabagong bersiyon ang iyong sistema. Paki-upgrade ang iyong sistema, pagkatapos ay subukan muli.
 Hindi mo na muling makikita itong pabatid, pero maaari mong">
 <!ENTITY  unsupportedLink.label           "alamin pa.">
@@ -35,18 +35,18 @@ Hindi mo na muling makikita itong pabatid, pero maaari mong">
 
 <!ENTITY  license.titleText               "Kasunduan sa Lisensya ng Software">
 <!ENTITY  license.introText               "Mga tuntunin at kondisyon sa paggamit nitong software.">
-<!ENTITY  license.instructionText         "Paki-basa ang sumusunod na kasunduan sa lisensya. Gamitin ang scroll bar para makita ang kabuuan nitong kasunduan.">
+<!ENTITY  license.instructionText         "Paki-basa ang sumusunod na kasunduan sa lisensiya. Gamitin ang scroll bar para makita ang natitirang bahagi nitong kasunduan.">
 <!ENTITY  license.accept                  "Tinatanggap ko ang mga tuntunin ng Kasunduan sa Lisensya">
-<!ENTITY  license.accept.accesskey        "c">
-<!ENTITY  license.decline                 "Hindi ko tinatanggap ang mga tuntunin ng Kasunduan sa Lisensya">
-<!ENTITY  license.decline.accesskey       "T">
+<!ENTITY  license.accept.accesskey        "t">
+<!ENTITY  license.decline                 "HINDI ko tinatanggap ang mga tuntunin ng Kasunduan sa Lisensiya">
+<!ENTITY  license.decline.accesskey       "H">
 
-<!ENTITY  incompatibleList.title          "Mga Di-compatible na Add-on Natagpuan">
+<!ENTITY  incompatibleList.title          "May mga Di-compatible na Add-on">
 
-<!ENTITY  downloadPage.title              "Dina-download ang &brandShortName;">
-<!ENTITY  downloading.intro               "Dina-download ang update…">
+<!ENTITY  downloadPage.title              "Dino-download ang &brandShortName;">
+<!ENTITY  downloading.intro               "Dino-download ang update…">
 <!ENTITY  connecting.label                "Kumokonek sa update server…">
-<!ENTITY  verificationFailedText.label    "Hindi mapatunayan ng &brandShortName; ang integridad ng incremental update na dinownload nito, kaya dina-download na nito ang buong pakete ng update.">
+<!ENTITY  verificationFailedText.label    "Hindi mapatunayan ng &brandShortName; ang integridad ng incremental update na dinownload nito, kaya dino-download na nito ang buong pakete ng update.">
 
 <!ENTITY  viewDetails.tooltip             "Tingnan ang mga detalye nitong update">
 
@@ -54,29 +54,28 @@ Hindi mo na muling makikita itong pabatid, pero maaari mong">
 
 <!ENTITY  error.title                     "Nabigong Update">
 
-<!ENTITY  error.label                     "Mayroong mga problema sa paghahanap, pagda-download, o pag-install nitong update. &brandShortName; ay hindi ma-update dahil:">
+<!ENTITY  error.label                     "May mga problema sa paghahanap, pagda-download, o pag-install nitong update. Hindi ma-update ang &brandShortName; dahil:">
                                            
 <!ENTITY  errorManual.label               "Maaari mong i-update ang &brandShortName; nang mano-mano sa pagbisita nitong kawing at pagda-download ng pinakabagong bersiyon:">
                                            
-<!ENTITY  errorpatching.intro             "Ang bahagyang Update ay hindi ma-apply. 
-Susubukan muli ng &brandShortName; sa pagda-download ng isang kumpletong Update.">
+<!ENTITY  errorpatching.intro             "Ang Bahagyang Update ay hindi ma-apply. Susubukan ulit ito ng &brandShortName; sa pamamagitan ng pag-download ng Kumpletong Update.">
 
 <!ENTITY  genericBackgroundError.label    "Hindi matukoy ng &brandShortName; kung mayroong update. Paki-sigurado na mayroon ka ng pinakabagong bersiyon ng &brandShortName; mula sa:">
 <!ENTITY  errorCertAttrNoUpdate2.label    "May pumipigil sa &brandShortName; sa pag-u-update nang secure. Paki-sigurado na mayroon ka ng pinakabagong bersiyon ng &brandShortName; mula sa:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Mayroong sumusubok na linlangin ang &brandShortName; sa pagtanggap ng                                            hindi ligtas na update. Mangyaring makipag-ugnayan sa iyong network provider at humingi ng tulong.">
+<!ENTITY  errorCertAttrHasUpdate.label    "May sumusubok na linlangin ang &brandShortName; sa pagtanggap ng hindi secure na update. Mangyaring makipag-ugnayan sa iyong network provider at humingi ng tulong.">
 
-<!ENTITY  finishedPage.title              "Update Handa nang I-install">
-<!ENTITY  finishedPage.text               "Ang update ay mai-install sa susunod na pagbukas ng &brandShortName;. Maaari mo nang i-restart ang &brandShortName;, o magpatuloy at i-restart na lang mamaya.">
+<!ENTITY  finishedPage.title              "Handa na para I-install ang Update">
+<!ENTITY  finishedPage.text               "Ang update ay ma-iinstall sa susunod na pagbukas ng &brandShortName;. Maaari mo nang i-restart ang &brandShortName;, o magpatuloy at i-restart na lamang mamaya.">
 
-<!ENTITY  finishedBackgroundPage.text     "Isang update sa seguridad at stabilidad ng &brandShortName; ang na-download at handa nang i-install.">
+<!ENTITY  finishedBackgroundPage.text     "Isang update sa seguridad at estabilidad ng &brandShortName; ang na-download at handa na para i-install.">
 <!ENTITY  finishedBackground.name         "Update:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
-<!ENTITY  finishedBackground.more         "Ang update ay mai-install sa susunod na pagbukas ng &brandShortName;. Maaari mo nang i-restart ang &brandShortName;, o magpatuloy at i-restart na lang mamaya.">
+<!ENTITY  finishedBackground.more         "Ang update ay ma-iinstall sa susunod na pagbukas ng &brandShortName;. Maaari mo nang i-restart ang &brandShortName;, o magpatuloy at i-restart na lamang mamaya.">
 
 <!ENTITY  installed.title                 "Na-install na ang Update">
 <!ENTITY  installed.intro                 "Ang update ay matagumpay na na-install.">
-<!ENTITY  whatsnew.label                  "Magbasa nang higit pa tungkol sa kung anong bago…">
+<!ENTITY  whatsnew.label                  "Magbasa ng higit pa tungkol sa kung anong bago…">
 
 <!ENTITY  update.details.label            "Mga Detalye">
-<!ENTITY  update.installedOn.label        "Itinalaga noong:">
+<!ENTITY  update.installedOn.label        "Na-install noong:">
 <!ENTITY  update.status.label             "Kalagayan:">

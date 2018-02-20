@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Gumawa nang walang internet">
 <!ENTITY goOfflineCmd.accesskey "k">
 
+<!ENTITY restartCmd.label "I-restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Halang ng Menu">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "Toolbar ng Nabigasyon">
@@ -120,8 +123,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "I-bookmark Itong Pahina">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY subscribeToPageMenupopup.label "Mag-subscribe sa Pahinang Ito">
-<!ENTITY subscribeToPageMenuitem.label "Mag-subscribe sa Pahinang Ito…">
+<!ENTITY subscribeToPageMenupopup.label "Magsuskribi sa Pahinang Ito">
+<!ENTITY subscribeToPageMenuitem.label "Magsuskribi sa Pahinang Ito…">
 <!ENTITY addCurPagesCmd.label "I-bookmark ang Lahat ng mga Tab…">
 <!ENTITY showAllBookmarks2.label "Ipakita Lahat ng mga Bookmark">
 <!ENTITY organizeBookmarks.label "Isaayos ang mga Bookmark">
@@ -158,8 +161,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuButton.tooltip        "Buksan ang menu ng &brandShortName;">
 <!ENTITY homeButton.label             "Tahanan">
 
-<!ENTITY feedButton.label             "Mag-subscribe">
-<!ENTITY feedButton.tooltip           "Mag-subscribe sa pahinang ito…">
+<!ENTITY feedButton.label             "Magsuskribi">
+<!ENTITY feedButton.tooltip           "Magsuskribi sa pahinang ito…">
 
 <!ENTITY bookmarksButton.label          "Mga Bookmark">
 <!ENTITY bookmarksButton.tooltip        "Ipakita ang iyong mga bookmark">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "I-customize…"> 
+<!ENTITY viewCustomizeToolbar.label       "I-customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "Mga Tab nasa Itaas">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Edit">
 <!ENTITY appMenuCustomize.label "I-customize">
-<!ENTITY appMenuToolbarLayout.label "Ayos ng Toolbar…">
+<!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Toolbar">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
 <!ENTITY appMenuFind.label "Hanapin…">
 <!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
@@ -474,16 +477,16 @@ items are mutually exclusive. -->
 items are mutually exclusive. -->
 <!ENTITY mediaMute.label             "I-mute">
 <!ENTITY mediaMute.accesskey         "M">
-<!ENTITY mediaUnmute.label           "Alisin sa pagka-mute">
+<!ENTITY mediaUnmute.label           "I-unmute">
 <!ENTITY mediaUnmute.accesskey       "m">
-<!ENTITY mediaPlaybackRate.label     "Bilis ng Takbo">
+<!ENTITY mediaPlaybackRate.label     "Bilis ng Pag-play">
 <!ENTITY mediaPlaybackRate.accesskey "l">
 <!ENTITY mediaPlaybackRate050x.label "Medyo Mabagal (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "S">
+<!ENTITY mediaPlaybackRate050x.accesskey "G">
 <!ENTITY mediaPlaybackRate100x.label "Karaniwang Bilis">
 <!ENTITY mediaPlaybackRate100x.accesskey "N">
 <!ENTITY mediaPlaybackRate150x.label "Mabilis (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "H">
+<!ENTITY mediaPlaybackRate150x.accesskey "M">
 <!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
@@ -492,10 +495,10 @@ fast. -->
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY mediaShowControls.label     "Ipakita ang Mga Kontrol">
-<!ENTITY mediaShowControls.accesskey "C">
-<!ENTITY mediaHideControls.label     "Itago ang Mga Kontrol">
-<!ENTITY mediaHideControls.accesskey "C">
+<!ENTITY mediaShowControls.label     "Ipakita ang mga Kontrol">
+<!ENTITY mediaShowControls.accesskey "K">
+<!ENTITY mediaHideControls.label     "Itago ang mga Kontrol">
+<!ENTITY mediaHideControls.accesskey "K">
 <!ENTITY videoFullScreen.label       "Buong Screen">
 <!ENTITY videoFullScreen.accesskey   "F">
 <!ENTITY videoSaveImage.label        "I-save ang Snapshot Bilang…">
@@ -521,7 +524,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
 
 <!ENTITY fullZoomReduceCmd.label        "Paliitin">
-<!ENTITY fullZoomReduceCmd.accesskey    "O">
+<!ENTITY fullZoomReduceCmd.accesskey    "L">
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
@@ -530,7 +533,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY fullZoomToggleCmd.label        "I-zoom ang teksto lamang">
+<!ENTITY fullZoomToggleCmd.label        "Teksto lamang ang i-zoom">
 <!ENTITY fullZoomToggleCmd.accesskey    "T">
 <!ENTITY fullZoom.label                 "Zoom">
 <!ENTITY fullZoom.accesskey             "Z">
@@ -547,9 +550,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY zoomOutButton.tooltip          "Paliitin">
 <!ENTITY zoomInButton.tooltip           "Palakihin">
-<!ENTITY zoomControls.label             "Kontrol sa Pag-zoom">
+<!ENTITY zoomControls.label             "Mga Kontrol Pang-zoom">
 
-<!ENTITY appMenuRestart.label           "I-restart">
+<!ENTITY appMenuRestart.label           "I-restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Palitan ang mga opsiyon sa pagharang ng mga pop-up para sa website na ito">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "I-edit ang mga Preperensiya ng Tagaharang ng Pop-up…">
-<!ENTITY editPopupSettings.label "I-edit ang mga Opsiyon sa Tagaharang ng Pop-up…">
+<!ENTITY editPopupSettingsUnix.label "I-edit ang mga Preperensiya ng Tagaharang ng Pop-up">
+<!ENTITY editPopupSettings.label "I-edit ang mga Preperensiya ng Tagaharang ng Pop-up">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
@@ -651,7 +651,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY webrtcIndicatorButton.tooltip "Ipakita ang mga site na kasalukuyan mong binabahagian ng kamera o mikropono">
 
 <!ENTITY mixedContentBlocked.helplink "Matuto nang higit pa">
-<!ENTITY mixedContentBlocked.moreinfo "Karamihan ng mga website ay gagana parin kahit pa ang nilalamang ito ay hinarang.">
+<!ENTITY mixedContentBlocked.moreinfo "Karamihan sa mga website ay gumagana pa rin kahit pa ang nilalamang ito ay hinarang.">
 
 <!ENTITY pointerLock.notification.message "Pindutin ang ESC sa anumang oras para ipakita ito muli.">
 
