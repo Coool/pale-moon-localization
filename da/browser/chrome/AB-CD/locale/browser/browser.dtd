@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Arbejd offline">
 <!ENTITY goOfflineCmd.accesskey "o">
 
+<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Menulinje">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "Navigationslinje">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "V"> 
 <!ENTITY viewSidebarMenu.label "Sidebjælke">
 <!ENTITY viewSidebarMenu.accesskey "b">
-<!ENTITY viewCustomizeToolbar.label       "Tilpas…"> 
+<!ENTITY viewCustomizeToolbar.label       "Customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "p">
 <!ENTITY viewTabsOnTop.label            "Faneblade øverst">
 <!ENTITY viewTabsOnTop.accesskey        "ø">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Rediger">
 <!ENTITY appMenuCustomize.label "Tilpas">
-<!ENTITY appMenuToolbarLayout.label "Tilpas værktøjslinjer…">
+<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "Sidebjælker">
 <!ENTITY appMenuFind.label "Find…">
 <!ENTITY appMenuUnsorted.label "Usorterede bogmærker">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Zoom ind">
 <!ENTITY zoomControls.label             "Zoom-knapper">
 
-<!ENTITY appMenuRestart.label           "Restart">
+<!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Rediger indstillinger for blokering af pop op-vinduer for dette websted">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Rediger præferencer for blokering af pop op-vinduer…">
-<!ENTITY editPopupSettings.label "Rediger indstillinger for blokering af pop op-vinduer…">
+<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 

@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "離線模式">
 <!ENTITY goOfflineCmd.accesskey "W">
 
+<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "選單列">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "瀏覽工具列">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "側邊欄">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "自訂…"> 
+<!ENTITY viewCustomizeToolbar.label       "Customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "分頁列置頂">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "編輯">
 <!ENTITY appMenuCustomize.label "自訂">
-<!ENTITY appMenuToolbarLayout.label "工具列配置…">
+<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "側邊欄">
 <!ENTITY appMenuFind.label "尋找…">
 <!ENTITY appMenuUnsorted.label "未排序書籤">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "放大">
 <!ENTITY zoomControls.label             "縮放控制">
 
-<!ENTITY appMenuRestart.label           "Restart">
+<!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "變更此網站開啟彈出型視窗的設定">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "編輯彈出型視窗阻擋偏好設定…">
-<!ENTITY editPopupSettings.label "編輯彈出型視窗阻擋選項…">
+<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 

@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "오프라인으로 작업">
 <!ENTITY goOfflineCmd.accesskey "w">
 
+<!ENTITY restartCmd.label "재시작…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "메뉴 모음">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "주소창 모음">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "탐색창">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "사용자 지정…"> 
+<!ENTITY viewCustomizeToolbar.label       "사용자 설정"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "탭 항상 위로">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "편집">
 <!ENTITY appMenuCustomize.label "사용자 설정">
-<!ENTITY appMenuToolbarLayout.label "도구 모음 배치…">
+<!ENTITY appMenuToolbarLayout.label "도구 모음 배치">
 <!ENTITY appMenuSidebars.label "탐색창">
 <!ENTITY appMenuFind.label "찾기…">
 <!ENTITY appMenuUnsorted.label "미분류 북마크">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "확대">
 <!ENTITY zoomControls.label             "크기 조정">
 
-<!ENTITY appMenuRestart.label           "재시작">
+<!ENTITY appMenuRestart.label           "재시작…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "이 웹 사이트에 대한 팝업창 설정 변경">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "팝업창 차단 설정…">
-<!ENTITY editPopupSettings.label "팝업창 차단 설정…">
+<!ENTITY editPopupSettingsUnix.label "팝업창 차단 설정">
+<!ENTITY editPopupSettings.label "팝업창 차단 설정">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 

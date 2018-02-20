@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Работать автономно">
 <!ENTITY goOfflineCmd.accesskey "б">
 
+<!ENTITY restartCmd.label "Перезапуск…">
+<!ENTITY restartCmd.accesskey "р">
+
 <!ENTITY menubarCmd.label "Панель меню">
 <!ENTITY menubarCmd.accesskey "м">
 <!ENTITY navbarCmd.label "Панель навигации">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "П"> 
 <!ENTITY viewSidebarMenu.label "Боковая панель">
 <!ENTITY viewSidebarMenu.accesskey "Б">
-<!ENTITY viewCustomizeToolbar.label       "Настроить…"> 
+<!ENTITY viewCustomizeToolbar.label       "Настроить"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "с">
 <!ENTITY viewTabsOnTop.label            "Вкладки сверху">
 <!ENTITY viewTabsOnTop.accesskey        "к">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Правка">
 <!ENTITY appMenuCustomize.label "Изменить">
-<!ENTITY appMenuToolbarLayout.label "Панель инструментов…">
+<!ENTITY appMenuToolbarLayout.label "Панель инструментов">
 <!ENTITY appMenuSidebars.label "Боковые панели">
 <!ENTITY appMenuFind.label "Найти…">
 <!ENTITY appMenuUnsorted.label "Неподшитые закладки">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Увеличить">
 <!ENTITY zoomControls.label             "Управление масштабом">
 
-<!ENTITY appMenuRestart.label           "Перезапуск">
+<!ENTITY appMenuRestart.label           "Перезапуск…">
 <!ENTITY appMenuRestart.accesskey       "р">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Изменить параметры блокировки всплывающих окон для этого веб-сайта">
 
 <!ENTITY allowPopups.accesskey "Р">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Изменить настройки блокировки всплывающих окон…">
-<!ENTITY editPopupSettings.label "Изменить настройки блокировки всплывающих окон…">
+<!ENTITY editPopupSettingsUnix.label "Изменить настройки блокировки всплывающих окон">
+<!ENTITY editPopupSettings.label "Изменить настройки блокировки всплывающих окон">
 <!ENTITY editPopupSettings.accesskey "И">
 <!ENTITY dontShowMessage.accesskey "н">
 

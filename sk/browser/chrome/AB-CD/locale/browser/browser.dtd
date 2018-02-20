@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Pracovať offline">
 <!ENTITY goOfflineCmd.accesskey "f">
 
+<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Hlavná ponuka">
 <!ENTITY menubarCmd.accesskey "H">
 <!ENTITY navbarCmd.label "Navigačný panel">
@@ -197,7 +200,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "D">
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Povolenia">
-<!ENTITY permissions.accesskey        "m">
+<!ENTITY permissions.accesskey        "o">
 
 <!ENTITY webDeveloperMenu.label       "Webový vývojár">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -294,8 +297,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Vybrať všetko">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "a"> 
-<!ENTITY preferencesCmd2.label       "Preferences">
-<!ENTITY preferencesCmd2.accesskey     "P">
+<!ENTITY preferencesCmd2.label       "Možnosti">
+<!ENTITY preferencesCmd2.accesskey     "M">
 <!ENTITY preferencesCmdUnix.label       "Možnosti">
 <!ENTITY preferencesCmdUnix.accesskey     "M"> 
 
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "P"> 
 <!ENTITY viewSidebarMenu.label "Bočný panel">
 <!ENTITY viewSidebarMenu.accesskey "B">
-<!ENTITY viewCustomizeToolbar.label       "Prispôsobiť…"> 
+<!ENTITY viewCustomizeToolbar.label       "Customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "P">
 <!ENTITY viewTabsOnTop.label            "Karty navrchu">
 <!ENTITY viewTabsOnTop.accesskey        "K">
@@ -327,13 +330,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Úpravy">
 <!ENTITY appMenuCustomize.label "Prispôsobenie">
-<!ENTITY appMenuToolbarLayout.label "Rozloženie panela nástrojov…">
+<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "Bočné panely">
 <!ENTITY appMenuFind.label "Hľadať…">
 <!ENTITY appMenuUnsorted.label "Nezaradené záložky">
 <!ENTITY appMenuWebDeveloper.label "Webový vývojár">
 <!ENTITY appMenuGettingStarted.label "Začíname">
-<!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
+<!ENTITY appMenuSafeMode.label "Reštartovať v núdzovom režime…">
 <!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Priblížiť">
 <!ENTITY zoomControls.label             "Lupa">
 
-<!ENTITY appMenuRestart.label           "Reštartovať">
+<!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Zmeniť nastavenie blokovania vyskakovacích okien pre tento server">
 
 <!ENTITY allowPopups.accesskey "o">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Upraviť blokovanie vyskakovacích okien…">
-<!ENTITY editPopupSettings.label "Upraviť blokovanie vyskakovacích okien…">
+<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
 <!ENTITY editPopupSettings.accesskey "U">
 <!ENTITY dontShowMessage.accesskey "N">
 

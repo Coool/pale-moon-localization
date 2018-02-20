@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "脱机工作">
 <!ENTITY goOfflineCmd.accesskey "k">
 
+<!ENTITY restartCmd.label "重新启动…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "菜单栏">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "导航工具栏">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "侧栏">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "定制…"> 
+<!ENTITY viewCustomizeToolbar.label       "自定义"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "标签页置顶">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "编辑">
 <!ENTITY appMenuCustomize.label "定制">
-<!ENTITY appMenuToolbarLayout.label "工具栏布局…">
+<!ENTITY appMenuToolbarLayout.label "工具栏布局">
 <!ENTITY appMenuSidebars.label "侧边栏">
 <!ENTITY appMenuFind.label "查找…">
 <!ENTITY appMenuUnsorted.label "未分类书签">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "放大">
 <!ENTITY zoomControls.label             "缩放控制">
 
-<!ENTITY appMenuRestart.label           "重新启动">
+<!ENTITY appMenuRestart.label           "重新启动…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "更改此站点的弹出阻止设置">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "编辑弹出阻止首选项…">
-<!ENTITY editPopupSettings.label "编辑弹出阻止选项…">
+<!ENTITY editPopupSettingsUnix.label "编辑弹出窗口阻止程序首选项">
+<!ENTITY editPopupSettings.label "编辑弹出窗口阻止程序首选项">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 

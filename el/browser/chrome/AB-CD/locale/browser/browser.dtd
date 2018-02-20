@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Εργασία χωρίς σύνδεση">
 <!ENTITY goOfflineCmd.accesskey "χ">
 
+<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Εργαλειοθήκη μενού">
 <!ENTITY menubarCmd.accesskey "θ">
 <!ENTITY navbarCmd.label "Εργαλειοθήκη πλοήγησης">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "ρ"> 
 <!ENTITY viewSidebarMenu.label "Πλευρική στήλη">
 <!ENTITY viewSidebarMenu.accesskey "ε">
-<!ENTITY viewCustomizeToolbar.label       "Προσαρμογή..."> 
+<!ENTITY viewCustomizeToolbar.label       "Customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "Π">
 <!ENTITY viewTabsOnTop.label            "Καρτέλες στο πάνω μέρος">
 <!ENTITY viewTabsOnTop.accesskey        "π">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Επεξεργασία">
 <!ENTITY appMenuCustomize.label "Προσαρμογή">
-<!ENTITY appMenuToolbarLayout.label "Διάταξη εργαλειοθήκης…">
+<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "Πλευρικές στήλες">
 <!ENTITY appMenuFind.label "Εύρεση…">
 <!ENTITY appMenuUnsorted.label "Αταξινόμητοι σελιδοδείκτες">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Εστίαση">
 <!ENTITY zoomControls.label             "Στοιχεία ελέγχου μεγέθυνσης">
 
-<!ENTITY appMenuRestart.label           "Επανεκκίνηση">
+<!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Αλλαγή ρυθμίσεων φραγής αναδυόμενων για αυτή την ιστοσελίδα">
 
 <!ENTITY allowPopups.accesskey "ν">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Επεξεργασία προτιμήσεων φραγής αναδυόμενων...">
-<!ENTITY editPopupSettings.label "Επεξεργασία επιλογών φραγής αναδυόμενων...">
+<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
 <!ENTITY editPopupSettings.accesskey "ξ">
 <!ENTITY dontShowMessage.accesskey "Ν">
 

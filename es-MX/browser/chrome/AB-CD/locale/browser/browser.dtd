@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Trabajar sin conexión">
 <!ENTITY goOfflineCmd.accesskey "T">
 
+<!ENTITY restartCmd.label "Reiniciar…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Barra de menú">
 <!ENTITY menubarCmd.accesskey "B">
 <!ENTITY navbarCmd.label "Barra de navegación">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "h"> 
 <!ENTITY viewSidebarMenu.label "Barra lateral">
 <!ENTITY viewSidebarMenu.accesskey "l">
-<!ENTITY viewCustomizeToolbar.label       "Personalizar…"> 
+<!ENTITY viewCustomizeToolbar.label       "Personalizar"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "r">
 <!ENTITY viewTabsOnTop.label            "Pestañas encima">
 <!ENTITY viewTabsOnTop.accesskey        "P">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Editar">
 <!ENTITY appMenuCustomize.label "Personalizar">
-<!ENTITY appMenuToolbarLayout.label "Disposición de las barras de herramientas…">
+<!ENTITY appMenuToolbarLayout.label "Distribución de barra de herramientas">
 <!ENTITY appMenuSidebars.label "Barras laterales">
 <!ENTITY appMenuFind.label "Buscar...">
 <!ENTITY appMenuUnsorted.label "Marcadores sin clasificar">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Aumentar acercamiento">
 <!ENTITY zoomControls.label             "Controles de acercamiento">
 
-<!ENTITY appMenuRestart.label           "Reiniciar">
+<!ENTITY appMenuRestart.label           "Reiniciar…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Cambiar configuración de bloqueo de ventanas emergentes para este sitio web">
 
 <!ENTITY allowPopups.accesskey "v">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Editar preferencias de bloqueo de ventanas emergentes…">
-<!ENTITY editPopupSettings.label "Editar opciones de bloqueo de ventanas emergentes…">
+<!ENTITY editPopupSettingsUnix.label "Editar preferencias del bloqueador de ventanas emergentes">
+<!ENTITY editPopupSettings.label "Editar preferencias del bloqueador de ventanas emergentes">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "N">
 

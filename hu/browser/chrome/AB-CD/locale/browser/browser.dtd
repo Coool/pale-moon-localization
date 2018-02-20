@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Kapcsolat nélküli munka">
 <!ENTITY goOfflineCmd.accesskey "p">
 
+<!ENTITY restartCmd.label "Újraindítás…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Menüsor">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "Böngésző eszköztár">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "E"> 
 <!ENTITY viewSidebarMenu.label "Oldalsáv">
 <!ENTITY viewSidebarMenu.accesskey "O">
-<!ENTITY viewCustomizeToolbar.label       "Testreszabás…"> 
+<!ENTITY viewCustomizeToolbar.label       "Testreszabás"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "T">
 <!ENTITY viewTabsOnTop.label            "Felül elhelyezett fülek">
 <!ENTITY viewTabsOnTop.accesskey        "F">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Szerkesztés">
 <!ENTITY appMenuCustomize.label "Testreszabás">
-<!ENTITY appMenuToolbarLayout.label "Eszköztár elrendezése…">
+<!ENTITY appMenuToolbarLayout.label "Eszköztár elrendezése">
 <!ENTITY appMenuSidebars.label "Oldalsávok">
 <!ENTITY appMenuFind.label "Keresés…">
 <!ENTITY appMenuUnsorted.label "Nem rendezett könyvjelzők">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Nagyítás">
 <!ENTITY zoomControls.label             "Nagyítás">
 
-<!ENTITY appMenuRestart.label           "Újraindítás">
+<!ENTITY appMenuRestart.label           "Újraindítás…">
 <!ENTITY appMenuRestart.accesskey       "j">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Felugró ablakok tiltási beállításainak módosítása ennél a webhelynél">
 
 <!ENTITY allowPopups.accesskey "f">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Felugró ablakok tiltásának beállításai…">
-<!ENTITY editPopupSettings.label "Felugró ablakok tiltásának beállításai…">
+<!ENTITY editPopupSettingsUnix.label "Felugró ablakok tiltásának beállításai">
+<!ENTITY editPopupSettings.label "Felugró ablakok tiltásának beállításai">
 <!ENTITY editPopupSettings.accesskey "F">
 <!ENTITY dontShowMessage.accesskey "N">
 

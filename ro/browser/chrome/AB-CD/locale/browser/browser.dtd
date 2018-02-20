@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Lucrează offline">
 <!ENTITY goOfflineCmd.accesskey "z">
 
+<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "Bara meniului">
 <!ENTITY menubarCmd.accesskey "m">
 <!ENTITY navbarCmd.label "Bară de navigare">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "B"> 
 <!ENTITY viewSidebarMenu.label "Bară laterală">
 <!ENTITY viewSidebarMenu.accesskey "l">
-<!ENTITY viewCustomizeToolbar.label       "Personalizează..."> 
+<!ENTITY viewCustomizeToolbar.label       "Customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "P">
 <!ENTITY viewTabsOnTop.label            "Filele deasupra">
 <!ENTITY viewTabsOnTop.accesskey        "F">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Editează">
 <!ENTITY appMenuCustomize.label "Personalizare">
-<!ENTITY appMenuToolbarLayout.label "Aranjamentul barei de unelte…">
+<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "Bare laterale">
 <!ENTITY appMenuFind.label "Caută…">
 <!ENTITY appMenuUnsorted.label "Semne de carte nesortate">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Apropie">
 <!ENTITY zoomControls.label             "Controale de apropiere/depărtare">
 
-<!ENTITY appMenuRestart.label           "Restart">
+<!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Modifică parametrii de blocare a ferestrelor popup pentru acest sait web">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Editează preferințele de blocare a ferestrelor popup...">
-<!ENTITY editPopupSettings.label "Editează opțiunile de blocare a ferestrelor popup...">
+<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "N">
 

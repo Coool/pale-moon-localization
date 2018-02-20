@@ -67,6 +67,9 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "オフライン作業">
 <!ENTITY goOfflineCmd.accesskey "k">
 
+<!ENTITY restartCmd.label "再起動…">
+<!ENTITY restartCmd.accesskey "R">
+
 <!ENTITY menubarCmd.label "メニューバー">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "ナビゲーションツールバー">
@@ -309,7 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "サイドバー">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "カスタマイズ…"> 
+<!ENTITY viewCustomizeToolbar.label       "カスタマイズ"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "タブを上部に表示">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -327,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "編集">
 <!ENTITY appMenuCustomize.label "カスタマイズ">
-<!ENTITY appMenuToolbarLayout.label "ツールバーのカスタマイズ…">
+<!ENTITY appMenuToolbarLayout.label "ツールバーのカスタマイズ">
 <!ENTITY appMenuSidebars.label "サイドバー">
 <!ENTITY appMenuFind.label "ページ内検索…">
 <!ENTITY appMenuUnsorted.label "未整理のブックマーク">
@@ -549,7 +552,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "拡大">
 <!ENTITY zoomControls.label             "拡大/縮小コントロール">
 
-<!ENTITY appMenuRestart.label           "再起動">
+<!ENTITY appMenuRestart.label           "再起動…">
 <!ENTITY appMenuRestart.accesskey       "R">
 <!ENTITY appMenuRestartCmd.commandkey   "R">
 
@@ -577,11 +580,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "この Web サイトでのポップアップブロック設定を変更します">
 
 <!ENTITY allowPopups.accesskey "p">
-<!-- On Windows we use the term "Options" to describe settings, but
-     on Linux and Mac OS X we use "Preferences" - carry that distinction
-     over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "ポップアップブロック設定を変更…">
-<!ENTITY editPopupSettings.label "ポップアップブロック設定を変更…">
+<!ENTITY editPopupSettingsUnix.label "ポップアップブロック設定を変更">
+<!ENTITY editPopupSettings.label "ポップアップブロック設定を変更">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
