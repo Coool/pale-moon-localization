@@ -27,11 +27,11 @@
 <!ENTITY checkSpelling.accesskey         "t">
 
 <!ENTITY systemDefaults.label            "Padrões do sistema">
-<!ENTITY alwaysCheckDefault.label        "Ao iniciar, verificar se o &brandShortName; é o navegador padrão"><!--XXX-->
+<!ENTITY alwaysCheckDefault.label        "Ao iniciar, sempre verificar se o &brandShortName; é o navegador padrão"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
 <!ENTITY setDefault.label                "Definir o &brandShortName; como o navegador padrão">
 <!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "O &brandShortName; já está definido como seu navegador padrão">
+<!ENTITY isDefault.label                 "O &brandShortName; já está definido como o navegador padrão">
 
 <!ENTITY dataChoicesTab.label            "Escolha de dados">
 
@@ -45,11 +45,11 @@
 
 <!ENTITY connection.label                "Conexão">
 
-<!ENTITY connectionDesc.label            "Configurar como o &brandShortName; conecta-se à internet">
+<!ENTITY connectionDesc.label            "Configurar como o &brandShortName; conecta-se à Internet">
 <!ENTITY connectionSettings.label        "Configurações…">
 <!ENTITY connectionSettings.accesskey    "C">
 
-<!ENTITY httpCache.label                 "Cache de conteúdo web">
+<!ENTITY httpCache.label                 "Conteúdo web em cache">
 
 <!ENTITY offlineStorage2.label           "Conteúdo web offline e dados de usuário">
 
@@ -66,7 +66,7 @@
 <!ENTITY clearCacheNow.accesskey         "L">
 <!ENTITY clearOfflineAppCacheNow.label   "Limpar agora">
 <!ENTITY clearOfflineAppCacheNow.accesskey "m">
-<!ENTITY overrideSmartCacheSize.label    "Desativar o gerenciamento automático do cache">
+<!ENTITY overrideSmartCacheSize.label    "Sobrepor o gerenciamento automático do cache">
 <!ENTITY overrideSmartCacheSize.accesskey "D">
 
 <!ENTITY updateTab.label                 "Atualizar">
@@ -81,10 +81,10 @@
 <!ENTITY updateAutoMetro.accesskey       "s">
 <!ENTITY updateCheck.label               "Verificar se há atualizações, mas deixe-me escolher se desejo instalá-las">
 <!ENTITY updateCheck.accesskey           "C">
-<!ENTITY updateManual.label              "Nunca verificar se há atualizações (não recomendadas)">
+<!ENTITY updateManual.label              "Nunca verificar se há atualizações (não recomendado)">
 <!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateAutoAddonWarn.label       "Alertar caso desative alguma extensão ou tema">
+<!ENTITY updateAutoAddonWarn.label       "Alertar se isto irá desabilitar algum complemento">
 <!ENTITY updateAutoAddonWarn.accesskey   "W">
 
 <!ENTITY updateAutoMetroWarn.label       "(o &brandShortName; estilo Windows 8 não verifica a compatibilidade dos complementos)">
@@ -99,7 +99,7 @@
 <!ENTITY offlineNotify.label             "Alertar quando um site solicitar armazenamento para uso offline">
 <!ENTITY offlineNotify.accesskey         "T">
 <!ENTITY offlineAppsPermissions.label    "Se um site pedir para guardar dados para utilização off-line:">
-<!ENTITY offlineAppsPermissions.Allow    "Permitem por padrão">
+<!ENTITY offlineAppsPermissions.Allow    "Permitir por padrão">
 <!ENTITY offlineAppsPermissions.Ask      "Sempre perguntar">
 <!ENTITY offlineAppsPermissions.Deny     "Negar">
 <!ENTITY offlineNotifyExceptions.label   "Exceções…">
@@ -141,8 +141,8 @@
 <!ENTITY smoothscroll.mousewheel.label      "Rolagem suave com a roda do mouse">
 <!ENTITY smoothscroll.mousewheel.duration   "Duração da rolagem da roda do mouse:">
 <!ENTITY smoothscroll.arrowkeys.label       "Rolagem suave com as teclas de seta">
-<!ENTITY smoothscroll.arrowkeys.duration    "Duração do rolamento das Teclas de seta:">
+<!ENTITY smoothscroll.arrowkeys.duration    "Duração da rolagem das teclas de seta:">
 <!ENTITY smoothscroll.pagekeys.label        "Rolagem suave com PageUp/PageDown">
-<!ENTITY smoothscroll.pagekeys.duration     "Duração da rolagem com as teclas PageUp/pageDown:">
+<!ENTITY smoothscroll.pagekeys.duration     "Duração da rolagem com as teclas PageUp/PageDown:">
 <!ENTITY smoothscroll.scrollbar.label       "Rolagem suave com as barras de rolagem">
-<!ENTITY smoothscroll.scrollbar.duration    "Duração da rolagem suave com as barra de rolagem:">
+<!ENTITY smoothscroll.scrollbar.duration    "Duração da rolagem suave com as barras de rolagem:">

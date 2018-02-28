@@ -16,7 +16,7 @@
 
 <!ENTITY  serif.label                             "Serif:">
 <!ENTITY  serif.accesskey                         "S">
-<!ENTITY  sans-serif.label                        "Sans-serif:">
+<!ENTITY  sans-serif.label                        "Sans serif:">
 <!ENTITY  sans-serif.accesskey                    "n">
 <!ENTITY  monospace.label                         "Monospatieret:">
 <!ENTITY  monospace.accesskey                     "M">
@@ -31,7 +31,7 @@
 <!ENTITY  font.langGroup.korean                   "Koreansk">
 <!ENTITY  font.langGroup.cyrillic                 "Kyrillisk">
 <!ENTITY  font.langGroup.el                       "Græsk">
-<!ENTITY  font.langGroup.other                    "Other Writing Systems">
+<!ENTITY  font.langGroup.other                    "Andre skriftsystemer">
 <!ENTITY  font.langGroup.thai                     "Thai">
 <!ENTITY  font.langGroup.hebrew                   "Hebræisk">
 <!ENTITY  font.langGroup.arabic                   "Arabisk">
@@ -58,7 +58,7 @@
 
 <!-- default font type -->
 <!ENTITY  useDefaultFontSerif.label               "Serif">
-<!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
+<!ENTITY  useDefaultFontSansSerif.label           "Sans-serif">
 
 <!ENTITY  allowPagesToUse.label                   "Tillad sider at vælge deres egne farver i stedet for mine valg ovenover">
 <!ENTITY  allowPagesToUse.accesskey               "i">
@@ -68,40 +68,40 @@
 <!ENTITY languages.customize.Fallback.accesskey   "R">
 <!ENTITY languages.customize.Fallback.desc        "Denne tegnkodning bruges for indhold, som mangler en erklæring om tegnkodning.">
 
-<!ENTITY languages.customize.Fallback.auto        "Default for Current Locale">
+<!ENTITY languages.customize.Fallback.auto        "Standard for aktuel lokation">
 <!ENTITY languages.customize.Fallback.utf8        "UTF-8">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.arabic):
      Translate "Arabic" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.arabic      "Arabic">
-<!ENTITY languages.customize.Fallback.baltic      "Baltic">
-<!ENTITY languages.customize.Fallback.ceiso       "Central European, ISO">
-<!ENTITY languages.customize.Fallback.cewindows   "Central European, Microsoft">
+<!ENTITY languages.customize.Fallback.arabic      "Arabisk">
+<!ENTITY languages.customize.Fallback.baltic      "Baltisk">
+<!ENTITY languages.customize.Fallback.ceiso       "Centraleuropæisk, ISO">
+<!ENTITY languages.customize.Fallback.cewindows   "Centraleuropæisk, Microsoft">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.simplified):
      Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.simplified  "Chinese, Simplified">
+<!ENTITY languages.customize.Fallback.simplified  "Kinesisk, forenklet">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.traditional):
      Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.traditional "Chinese, Traditional">
-<!ENTITY languages.customize.Fallback.cyrillic    "Cyrillic">
+<!ENTITY languages.customize.Fallback.traditional "Kinesisk, traditionelt">
+<!ENTITY languages.customize.Fallback.cyrillic    "Kyrillisk">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.greek):
      Translate "Greek" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.greek       "Greek">
+<!ENTITY languages.customize.Fallback.greek       "Græsk">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.hebrew):
      Translate "Hebrew" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.hebrew      "Hebrew">
+<!ENTITY languages.customize.Fallback.hebrew      "Hebræisk">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.japanese):
      Translate "Japanese" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.japanese    "Japanese">
+<!ENTITY languages.customize.Fallback.japanese    "Japansk">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.korean):
      Translate "Korean" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.korean      "Korean">
+<!ENTITY languages.customize.Fallback.korean      "Koreansk">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.thai):
      Translate "Thai" as an adjective for an encoding, not as the name of the language. -->
 <!ENTITY languages.customize.Fallback.thai        "Thai">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.turkish):
      Translate "Turkish" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.turkish     "Turkish">
+<!ENTITY languages.customize.Fallback.turkish     "Tyrkisk">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.vietnamese):
      Translate "Vietnamese" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.vietnamese  "Vietnamese">
-<!ENTITY languages.customize.Fallback.other       "Other (incl. Western European)">
+<!ENTITY languages.customize.Fallback.vietnamese  "Vietnamesisk">
+<!ENTITY languages.customize.Fallback.other       "Andre (inkl. Vesteuropæisk)">
