@@ -62,30 +62,30 @@
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.name): This is used in
   -  the 'Default color unit' dropdown list and is visible in the options panel.
   -  -->
-<!ENTITY options.defaultColorUnit.name "Ονόματα χρωμάτων">
+<!ENTITY options.defaultColorUnit.name "Ονόματα Χρωμάτων">
 
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Για την τρέχουσα συνεδρία μόνο, επαναφορτώνει τη σελίδα">
+<!ENTITY options.context.triggersPageRefresh  "* Μόνο τρέχουσα συνεδρία, επαναφορτώνει τη σελίδα">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label4    "Ενεργοποίηση αποσφαλμάτωσης chrome και πρόσθετων">
-<!ENTITY options.enableChrome.tooltip2  "Η ενεργοποίηση αυτής της επιλογής θα επιτρέψει τη χρήση εργαλείων προγραμματισμού στο περιεχόμενο του περιηγητή και την αποσφαλμάτωση πρόσθετων στον Διαχειριστή πρόσθετων">
+<!ENTITY options.enableChrome.tooltip2  "Η ενεργοποίηση αυτής της επιλογής επιτρέπει τη χρήση εργαλείων προγραμματισμού στο συμφραζόμενο του περιηγητή και την αποσφαλμάτωση πρόσθετων της Διαχείρισης Πρόσθετων">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3    "Ενεργοποίηση remote debugging">
+<!ENTITY options.enableRemote.label3    "Ενεργοποίηση απομακρυσμένης αποσφαλμάτωσης">
 <!ENTITY options.enableRemote.tooltip   "Η ενεργοποίηση αυτής της επιλογής θα επιτρέψει στα εργαλεία προγραμματισμού να αποσφαλματώσουν απομακρυσμένα στιγμιότυπα Firefox όπως το Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
 <!ENTITY options.disableJavaScript.label     "Απενεργοποίηση JavaScript *">
-<!ENTITY options.disableJavaScript.tooltip   "Με την ενεργοποίηση αυτής της επιλογής θα απενεργοποιηθεί το JavaScript για την τρέχουσα καρτέλα. Αν κλείσετε την καρτέλα ή την εργαλειοθήκη, η ρύθμιση θα επαναφερθεί. ">
+<!ENTITY options.disableJavaScript.tooltip   "Η ενεργοποίηση αυτής της επιλογής απενεργοποιεί την JavaScript για την τρέχουσα καρτέλα. Αυτή η ρύθμιση θα απολησμονηθεί με το κλείσιμο είτε της καρτέλας είτε της εργαλειοθήκης.">
 
 <!-- LOCALIZATION NOTE (options.disableCache.label2,
   -  options.disableCache.tooltip2): This is the options panel label and
@@ -96,18 +96,18 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Προεγκατεστημένα εργαλεία προγραμματισμού του Pale Moon">
+<!ENTITY options.selectDefaultTools.label     "Προεγκατεστημένα Εργαλεία Προγραμματισμού του Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
-<!ENTITY options.selectAdditionalTools.label  "Εργαλεία προγραμματισμού εγκατεστημένα από πρόσθετα">
+<!ENTITY options.selectAdditionalTools.label  "Εργαλεία Προγραμματισμού εγκατεστημένα από πρόσθετα">
 
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Διαθέσιμα κουμπιά εργαλειοθήκης">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Διαθέσιμα Κουμπιά Εργαλειοθήκης">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported

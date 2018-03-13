@@ -103,7 +103,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
   -  appears in the filter panel popup as a header for the operators part. -->
-<!ENTITY debuggerUI.searchPanelOperators    "Operators:">
+<!ENTITY debuggerUI.searchPanelOperators    "管理員操作">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
@@ -132,7 +132,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
-<!ENTITY debuggerUI.searchGoToLine           "Go to Line…">
+<!ENTITY debuggerUI.searchGoToLine           "跳到某行…">
 <!ENTITY debuggerUI.searchGoToLine.key       "L">
 <!ENTITY debuggerUI.searchGoToLine.accesskey "L">
 
@@ -165,11 +165,11 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
-<!ENTITY debuggerUI.tabs.sources        "Sources">
-<!ENTITY debuggerUI.tabs.traces         "Traces">
-<!ENTITY debuggerUI.tabs.callstack      "Call Stack">
+<!ENTITY debuggerUI.tabs.sources        "來源">
+<!ENTITY debuggerUI.tabs.traces         "追查">
+<!ENTITY debuggerUI.tabs.callstack      "呼叫堆疊:">
 <!ENTITY debuggerUI.tabs.variables      "變數">
-<!ENTITY debuggerUI.tabs.events         "Events">
+<!ENTITY debuggerUI.tabs.events         "事件">
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->

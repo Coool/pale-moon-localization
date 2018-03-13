@@ -65,7 +65,7 @@ can reach it easily. -->
 <!ENTITY printCmd.commandkey "p">
 
 <!ENTITY goOfflineCmd.label "Gumawa nang walang internet">
-<!ENTITY goOfflineCmd.accesskey "k">
+<!ENTITY goOfflineCmd.accesskey "i">
 
 <!ENTITY restartCmd.label "I-restart…">
 <!ENTITY restartCmd.accesskey "R">
@@ -83,7 +83,7 @@ can reach it easily. -->
 <!ENTITY statusBar.accesskey           "K">
 
 <!ENTITY pageSourceCmd.label "Pinagmulan ng Pahina">
-<!ENTITY pageSourceCmd.accesskey "o">
+<!ENTITY pageSourceCmd.accesskey "p">
 <!ENTITY pageSourceCmd.commandkey "u">
 <!ENTITY pageInfoCmd.label "Impormasyon ng Pahina">
 <!ENTITY pageInfoCmd.accesskey "I">
@@ -104,19 +104,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenRestore.tooltip "Ibalik">
 <!ENTITY fullScreenClose.tooltip "Isara">
 <!ENTITY fullScreenAutohide.label "Itago ang mga Toolbar">
-<!ENTITY fullScreenAutohide.accesskey "H">
+<!ENTITY fullScreenAutohide.accesskey "T">
 <!ENTITY fullScreenExit.label "Itigil ang Pagsakop sa Buong Screen">
-<!ENTITY fullScreenExit.accesskey "F">
+<!ENTITY fullScreenExit.accesskey "B">
 <!ENTITY fullscreenAllowButton.label "Payagan">
 <!ENTITY fullscreenExitButton.label "Tanggihan">
 <!ENTITY fullscreenApproval.value "Payagan ang pagsakop sa buong screen?">
 
-<!ENTITY fullscreenExitHint.value "Pindutin ang ESC sa anumang oras para umalis sa buong screen.">
+<!ENTITY fullscreenExitHint.value "Pindutin ang ESC sa anumang oras para itigil ang pagsakop sa buong screen.">
 <!ENTITY leaveDOMFullScreen.label "Umalis sa Buong Screen">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
 
 <!ENTITY closeWindow.label "Isara ang Window">
-<!ENTITY closeWindow.accesskey "d">
+<!ENTITY closeWindow.accesskey "w">
 
 <!ENTITY bookmarksMenu.label "Mga Bookmark">
 <!ENTITY bookmarksMenu.accesskey "B">
@@ -126,7 +126,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenupopup.label "Magsuskribi sa Pahinang Ito">
 <!ENTITY subscribeToPageMenuitem.label "Magsuskribi sa Pahinang Ito…">
 <!ENTITY addCurPagesCmd.label "I-bookmark ang Lahat ng mga Tab…">
-<!ENTITY showAllBookmarks2.label "Ipakita Lahat ng mga Bookmark">
+<!ENTITY showAllBookmarks2.label "Ipakita ang Lahat ng mga Bookmark">
 <!ENTITY organizeBookmarks.label "Isaayos ang mga Bookmark">
 <!ENTITY unsortedBookmarksCmd.label "Halo-halong mga Bookmark">
 <!ENTITY bookmarksToolbarChevron.tooltip "Higit pang mga Bookmark">
@@ -200,7 +200,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Mga Pahintulot">
-<!ENTITY permissions.accesskey        "m">
+<!ENTITY permissions.accesskey        "h">
 
 <!ENTITY webDeveloperMenu.label       "Web Developer">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -221,7 +221,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY inspectContextMenu.accesskey "Q">
 
 <!ENTITY responsiveDesignTool.label   "Tanaw ng Disenyong Tumutugon">
-<!ENTITY responsiveDesignTool.accesskey "R">
+<!ENTITY responsiveDesignTool.accesskey "G">
 <!ENTITY responsiveDesignTool.commandkey "M">
 
 <!ENTITY eyedropper.label   "Tagakuha ng Kulay">
@@ -375,13 +375,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkInPrivateWindowCmd.label "Buksan ang Kawing sa Bagong Pribadong Window">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
 <!ENTITY openLinkCmdInCurrent.label     "Buksan ang Kawing sa Kasalukuyang Tab">
-<!ENTITY openLinkCmdInCurrent.accesskey "O">
+<!ENTITY openLinkCmdInCurrent.accesskey "G">
 <!ENTITY openFrameCmdInTab.label      "Buksan ang Frame sa Bagong Tab">
 <!ENTITY openFrameCmdInTab.accesskey  "T">
 <!ENTITY openFrameCmd.label           "Buksan ang Frame sa Bagong Window">
 <!ENTITY openFrameCmd.accesskey       "W">
 <!ENTITY showOnlyThisFrameCmd.label     "Ipakita Lamang Itong Frame">
-<!ENTITY showOnlyThisFrameCmd.accesskey "S">
+<!ENTITY showOnlyThisFrameCmd.accesskey "E">
 <!ENTITY reloadCmd.commandkey         "r">
 <!ENTITY reloadFrameCmd.label         "I-reload ang Frame">
 <!ENTITY reloadFrameCmd.accesskey     "R">
@@ -389,7 +389,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPartialSourceForMathMLCmd.label    "Ipakita ang Pinagmulan ng MathML">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
-<!ENTITY viewPartialSourceCmd.accesskey "e">
+<!ENTITY viewPartialSourceCmd.accesskey "l">
 <!ENTITY viewPageSourceCmd.label      "Ipakita ang Pinagmulan ng Pahina">
 <!ENTITY viewPageSourceCmd.accesskey  "T">
 <!ENTITY viewFrameSourceCmd.label     "Ipakita ang Pinagmulan ng Frame">
@@ -398,12 +398,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPageInfoCmd.accesskey    "I">
 <!ENTITY viewFrameInfoCmd.label       "Ipakita ang Impormasyon ng Frame">
 <!ENTITY viewFrameInfoCmd.accesskey   "I">
-<!ENTITY reloadImageCmd.label         "I-load muli ang Larawan">
+<!ENTITY reloadImageCmd.label         "I-reload ang Larawan">
 <!ENTITY reloadImageCmd.accesskey     "R">
 <!ENTITY viewImageCmd.label           "Tingnan ang Larawan">
 <!ENTITY viewImageCmd.accesskey       "I">
 <!ENTITY viewImageInfoCmd.label       "Ipakita ang Impormasyon ng Larawan">
-<!ENTITY viewImageInfoCmd.accesskey   "f">
+<!ENTITY viewImageInfoCmd.accesskey   "p">
 <!ENTITY viewVideoCmd.label           "Panoorin ang Video">
 <!ENTITY viewVideoCmd.accesskey       "I">
 <!ENTITY viewBGImageCmd.label         "Ipakita ang Background na Larawan">

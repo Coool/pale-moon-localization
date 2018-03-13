@@ -10,8 +10,8 @@
 a replacement for the standard security certificate errors produced
 by NSS/PSM via netError.xhtml. -->
 
-<!ENTITY certerror.pagetitle  "Μη έμπιστη σύνδεση">
-<!ENTITY certerror.longpagetitle "Η τρέχουσα σύνδεση στην σελίδα δεν είναι έμπιστη">
+<!ENTITY certerror.pagetitle  "Αναξιόπιστη Σύνδεση">
+<!ENTITY certerror.longpagetitle "Αυτή η Σύνδεση είναι Αναξιόπιστη">
 
 <!-- Localization note (certerror.introPara1) - The string "#1" will
 be replaced at runtime with the name of the server to which the user
@@ -33,8 +33,7 @@ was trying to connect. -->
 πείτε στον &brandShortName; να εμπιστεύεται από εδώ και πέρα την ταυτότητα της σελίδας.
 <b>Ακόμα και αν εμπιστεύεστε αυτή την σελίδα, αυτό το σφάλμα μπορεί να σημαίνει ότι κάποιος 
 υποκλέπτει στοιχεία από την σύνδεση σας.</b>">
-<!ENTITY certerror.expert.contentPara2 "Μην προσθέτετε εξαιρέσεις εκτός και αν γνωρίζετε πολύ καλά 
-το λόγο για τον οποίο αυτή η σελίδα δεν χρησιμοποιεί έμπιστη πιστοποίηση.">
-<!ENTITY certerror.addException.label "Προσθήκη εξαίρεσης…">
+<!ENTITY certerror.expert.contentPara2 "Μην προσθέτετε εξαίρεση, εκτός και αν γνωρίζετε έναν καλό λόγο για τον οποίον αυτή η σελίδα δεν χρησιμοποιεί αξιόπιστη ταυτοποίηση.">
+<!ENTITY certerror.addException.label "Προσθήκη Εξαίρεσης…">
 
-<!ENTITY certerror.technical.heading "Τεχνικές λεπτομέρειες">
+<!ENTITY certerror.technical.heading "Τεχνικές Λεπτομέρειες">

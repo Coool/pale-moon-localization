@@ -10,7 +10,7 @@
 <!ENTITY search.commandkey                    "f">
 
 <!ENTITY loading.label                        "Naglo-load…">
-<!ENTITY listEmpty.installed.label            "Wala kang add-on na may ganitong uri na naka-install">
+<!ENTITY listEmpty.installed.label            "Wala kang anumang add-on ng ganitong tipo na naka-install">
 <!ENTITY listEmpty.availableUpdates.label     "Walang update ang natagpuan">
 <!ENTITY listEmpty.recentUpdates.label        "Hindi ka nag-update ng anumang mga add-on kanina">
 <!ENTITY listEmpty.findUpdates.label          "Maghanap ng mga Update">
@@ -28,7 +28,7 @@
 <!ENTITY warning.checkcompatibility.label          "Hindi pinagagana ang pagsusuri sa add-on compatibility. Posibleng mayroon kang mga incompatible add-on.">
 <!ENTITY warning.checkcompatibility.enable.label   "Paganahin">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Paganahin ang pagsusuri sa compatibility ng mga add-on">
-<!ENTITY warning.updatesecurity.label              "Pagsusuri sa seguridad ng add-on ay hindi pinapagan. Maaaring ikaw ay makompromiso ng mga update.">
+<!ENTITY warning.updatesecurity.label              "Pagsusuri sa seguridad ng add-on ay hindi pinagagana. Puwedeng ikaw ay makompromiso ng mga update.">
 <!ENTITY warning.updatesecurity.enable.label       "Paganahin">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Paganahin ang pagsusuri sa seguridad ng update ng add-on">
 
@@ -92,12 +92,12 @@
 <!ENTITY cmd.disableTheme.label               "Itigil ang Paggamit ng Tema">
 <!ENTITY cmd.disableTheme.accesskey           "G">
 <!ENTITY cmd.askToActivate.label              "Itanong kung Papaganahin">
-<!ENTITY cmd.askToActivate.tooltip            "Palaging itanong kung gagamitin itong add-on">
-<!ENTITY cmd.alwaysActivate.label             "Palaging Paganahin">
-<!ENTITY cmd.alwaysActivate.tooltip           "Palaging gamitin itong add-on">
+<!ENTITY cmd.askToActivate.tooltip            "Laging itanong kung gagamitin itong add-on">
+<!ENTITY cmd.alwaysActivate.label             "Laging Paganahin">
+<!ENTITY cmd.alwaysActivate.tooltip           "Laging gamitin itong add-on">
 <!ENTITY cmd.neverActivate.label              "Huwag Kailanman Paganahin">
 <!ENTITY cmd.neverActivate.tooltip            "Huwag gamitin itong add-on">
-<!ENTITY cmd.stateMenu.tooltip                "Magpalit kapag tumakbo itong add-on">
+<!ENTITY cmd.stateMenu.tooltip                "Palitan kung kailan gagamitin ang add-on na ito">
 <!ENTITY cmd.installAddon.label               "I-install">
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Alisin">
@@ -192,9 +192,9 @@
      necessary -->
 <!ENTITY addon.update.postfix                 "I-update">
 <!ENTITY addon.undoAction.label               "Ibalik">
-<!ENTITY addon.undoAction.tooltip             "Ibalik bago mangyari ang aksiyon">
+<!ENTITY addon.undoAction.tooltip             "Ibalik ang aksiyong ito">
 <!ENTITY addon.undoRemove.label               "Ibalik">
-<!ENTITY addon.undoRemove.tooltip             "Hayaang naka-install ang add-on na ito">
+<!ENTITY addon.undoRemove.tooltip             "Panatilihing naka-install ang add-on na ito">
 <!ENTITY addon.restartNow.label               "I-restart na">
 <!ENTITY addon.install.label                  "I-install">
 <!ENTITY addon.install.tooltip                "I-install itong add-on">
@@ -207,12 +207,12 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Naglo-load…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Pasensiya na, ngunit nagkaroon ng problema sa paglo-load ng mga release note.">
 
-<!ENTITY addon.nativeAddon                    "Itong add-on ay direktang tinatarget ang Pale Moon">
-<!ENTITY addon.compatAddon                    "Tinatarget nitong add-on ang Mozilla Firefox at tumatakbo sa compatibility mode">
+<!ENTITY addon.nativeAddon                    "Direktang tina-target ng add-on na ito ang Pale Moon">
+<!ENTITY addon.compatAddon                    "Tinatarget ng add-on na ito ang Mozilla Firefox at tumatakbo sa compatibility mode">
 
 <!ENTITY addon.createdBy.label                "Ni ">
 
-<!ENTITY eula.title                           "Kasunduan sa Lisensya ng End-User">
+<!ENTITY eula.title                           "Kasunduan sa Lisensiya ng End-User">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
 <!ENTITY eula.accept                          "Tanggapin at I-install…">

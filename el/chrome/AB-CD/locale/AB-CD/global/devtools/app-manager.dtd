@@ -2,41 +2,41 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY index.title "Διαχείριση εφαρμογών">
+<!ENTITY index.title "Διαχείριση Εφαρμογών">
 <!ENTITY index.projects2 "Εφαρμογές">
 <!ENTITY index.device2 "Συσκευή">
 <!ENTITY index.help "Βοήθεια">
 
-<!ENTITY device.debugMainProcess "Εντοπισμός σφαλμάτων της κύριας διεργασίας">
-<!ENTITY device.debugMainProcessTooltip "Άνοιγμα των Εργαλείων Ανάπτυξης συνδεδεμένα με την κύρια διεργασία στη συσκευή">
+<!ENTITY device.debugMainProcess "Αποσφαλμάτωση κύριας διεργασίας">
+<!ENTITY device.debugMainProcessTooltip "Άνοιγμα των Εργαλείων Προγραμματισμού συνδεδεμένων στην κύρια διεργασία στη συσκευή">
 <!ENTITY device.screenshot "Στιγμιότυπο οθόνης">
 <!ENTITY device.screenshotTooltip "Άνοιγμα ενός στιγμιότυπου της τρέχουσας κατάστασης της συσκευής σε μια νέα καρτέλα">
-<!ENTITY device.title "Κέντρο Ελέγχου Συσκευής">
+<!ENTITY device.title "Κέντρο Ελέγχου Συσκευών">
 <!ENTITY device.notConnected "Δεν υπάρχει σύνδεση. Παρακαλώ συνδέστε τη συσκευή σας.">
 <!ENTITY device.startApp "Εκκίνηση">
 <!ENTITY device.startAppTooltip "Εκκίνηση αυτής της εφαρμογής στη συσκευή">
 <!ENTITY device.stopApp "Διακοπή">
 <!ENTITY device.stopAppTooltip "Τερματισμός αυτής της εφαρμογής στη συσκευή">
-<!ENTITY device.debugApp "Εντοπισμός σφαλμάτων">
-<!ENTITY device.debugAppTooltip "Άνοιγμα των Εργαλείων Ανάπτυξης συνδεδεμένα με αυτήν την εφαρμογή στη συσκευή">
+<!ENTITY device.debugApp "Αποσφαλμάτωση">
+<!ENTITY device.debugAppTooltip "Άνοιγμα των Εργαλείων Προγραμματισμού συνδεδεμένων σε αυτήν την εφαρμογή στη συσκευή">
 <!ENTITY device.name "Όνομα">
 <!ENTITY device.plain "Απλή (προεπιλογή)">
 <!ENTITY device.privileged "Με Προνόμια">
 <!ENTITY device.certified "Πιστοποιημένη">
-<!ENTITY device.allow "Να επιτρέπεται">
-<!ENTITY device.allowTooltip "Αυτό το δικαίωμα επιτρέπεται για εφαρμογές αυτού του τύπου">
-<!ENTITY device.prompt "Με Ερώτηση">
-<!ENTITY device.promptTooltip "Αυτό το δικαίωμα απαιτεί ερώτηση στον χρήστη για εφαρμογές αυτού του τύπου">
-<!ENTITY device.deny "Να μην επιτρέπεται">
-<!ENTITY device.denyTooltip "Αυτό το δικαίωμα δεν επιτρέπεται για εφαρμογές αυτού του τύπου">
+<!ENTITY device.allow "Άδεια">
+<!ENTITY device.allowTooltip "Αυτή η άδεια χορηγείται σε εφαρμογές αυτού του τύπου">
+<!ENTITY device.prompt "Ερώτηση">
+<!ENTITY device.promptTooltip "Αυτή η άδεια απαιτεί ερώτηση στον χρήστη για εφαρμογές αυτού του τύπου">
+<!ENTITY device.deny "Αποκλεισμός">
+<!ENTITY device.denyTooltip "Αυτή η άδεια δεν χορηγείται σε εφαρμογές αυτού του τύπου">
 <!ENTITY device.installedApps "Εγκατεστημένες Εφαρμογές">
 <!ENTITY device.installedAppsTooltip "Εμφάνιση λίστας των εγκατεστημένων εφαρμογών στη συσκευή. Κάποιες εφαρμογές, όπως οι πιστοποιημένες εφαρμογές, μπορεί να εξαιρούνται από αυτή τη λίστα.">
-<!ENTITY device.permissions "Δικαιώματα">
+<!ENTITY device.permissions "Άδειες">
 <!ENTITY device.permissionsTooltip "Εμφάνιση πίνακα των δικαιωμάτων που είναι προσβάσιμα σε διαφορετικούς τύπους εφαρμογών">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
 <!ENTITY device.browserTabs "Καρτέλες περιηγητή">
 <!ENTITY device.browserTabsTooltip "Εμφάνιση λίστας των καρτελών του περιηγητή στη συνδεδεμένη συσκευή">
-<!ENTITY device.debugBrowserTab "Εντοπισμός σφαλμάτων">
+<!ENTITY device.debugBrowserTab "Αποσφαλμάτωση">
 <!ENTITY device.debugBrowserTabTooltip "Άνοιγμα των Εργαλείων Ανάπτυξης συνδεδεμένα με αυτήν την καρτέλα περιηγητή στη συσκευή">
 <!ENTITY device.help "Βοήθεια">
 
@@ -44,7 +44,7 @@
 <!ENTITY connection.disconnect "Αποσύνδεση">
 <!ENTITY connection.disconnectTooltip "Αποσύνδεση από την τρέχουσα συσκευή ή προσομοιωτή">
 <!ENTITY connection.notConnected2 "Χωρίς Σύνδεση.">
-<!ENTITY connection.connectTo "Σύνδεση:">
+<!ENTITY connection.connectTo "Σύνδεση σε:">
 <!ENTITY connection.noDeviceFound "Δεν βρέθηκε συσκευή. Συνδέστε μια συσκευή">
 <!ENTITY connection.changeHostAndPort "Αλλαγή">
 <!ENTITY connection.changeHostAndPortTooltip "Αλλαγή της διεύθυνσης και της θύρας για τη σύνδεση στη συσκευή (προεπιλεγμένη localhost:6000)">
@@ -52,17 +52,17 @@
 <!ENTITY connection.startSimulatorTooltip "Εκκίνηση μιας παρουσίας του Προσομοιωτή και σύνδεση με αυτήν">
 <!ENTITY connection.saveConnectionInfo "Αποθήκευση">
 <!ENTITY connection.saveConnectionInfoTooltip "Αποθήκευση της διεύθυνσης και της θύρας">
-<!ENTITY connection.connecting "Σύνδεση…">
-<!ENTITY connection.disconnecting "Αποσύνδεση…">
-<!ENTITY connection.cancel "Ακύρωση">
+<!ENTITY connection.connecting "Σύνδεση σε εξέλιξη…">
+<!ENTITY connection.disconnecting "Αποσύνδεση σε εξέλιξη…">
+<!ENTITY connection.cancel "Άκυρο">
 <!ENTITY connection.cancelConnectTooltip "Ακύρωση της σύνδεσης σε εξέλιξη">
 <!ENTITY connection.cancelShowSimulatorTooltip "Έξοδος από τη λειτουργία Προσομοίωσης και επιστροφή στην αρχική επιλογή">
 <!ENTITY connection.or "ή">
-<!ENTITY connection.noSimulatorInstalled "Δεν υπάρχει εγκατεστημένος προσομοιωτής.">
+<!ENTITY connection.noSimulatorInstalled "Κανένας εγκατεστημένος προσομοιωτής.">
 <!ENTITY connection.installOneSimulator "Εγκατάσταση Προσομοιωτή">
-<!ENTITY connection.installOneSimulatorTooltip "Εγκατάσταση μιας έκδοσης του Προσομοιωτή με τη λήψη του σχετικού πρόσθετου">
+<!ENTITY connection.installOneSimulatorTooltip "Εγκατάσταση μιας έκδοσης του Προσομοιωτή μέσω λήψης του σχετικού πρόσθετου">
 <!ENTITY connection.installAnotherSimulator "Προσθήκη">
-<!ENTITY connection.installAnotherSimulatorTooltip "Εγκατάσταση μιας πρόσθετης έκδοσης του Προσομοιωτή με τη λήψη του σχετικού πρόσθετου">
+<!ENTITY connection.installAnotherSimulatorTooltip "Εγκατάσταση μιας πρόσθετης έκδοσης του Προσομοιωτή μέσω λήψης του σχετικού πρόσθετου">
 <!ENTITY connection.startRegisteredSimulator "Έναρξη:">
 
 <!ENTITY projects.localApps "Τοπικές Εφαρμογές">
@@ -76,8 +76,8 @@
 <!ENTITY projects.removeAppFromList "Αφαίρεση αυτής της εφαρμογής από τη λίστα των εφαρμογών που δουλεύετε. Δε θα γίνει αφαίρεση από τη συσκευή ή τον προσομοιωτή.">
 <!ENTITY projects.updateApp "Ενημέρωση">
 <!ENTITY projects.updateAppTooltip "Εκτέλεση ελέγχων επικύρωσης και ενημέρωση της εφαρμογής στη συνδεδεμένη συσκευή">
-<!ENTITY projects.debugApp "Εντοπισμός σφαλμάτων">
-<!ENTITY projects.debugAppTooltip "Άνοιγμα των Εργαλείων Ανάπτυξης συνδεδεμένα με αυτήν την εφαρμογή">
+<!ENTITY projects.debugApp "Αποσφαλμάτωση">
+<!ENTITY projects.debugAppTooltip "Άνοιγμα των Εργαλείων Προγραμματισμού συνδεδεμένων σε αυτήν την εφαρμογή">
 <!ENTITY projects.saveManifest "Αποθήκευση">
 <!ENTITY projects.saveManifestTooltip "Αποθήκευση των περιεχομένων του Επεξεργαστή Manifest">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
@@ -96,7 +96,7 @@
 <!ENTITY help.close "Κλείσιμο">
 <!ENTITY help.intro "Αυτό το εργαλείο θα σας βοηθήσει να δημιουργήσετε και να εγκαταστήσετε εφαρμογές ιστού σε συμβατές συσκευές (π.χ. Firefox OS). Η καρτέλα <strong>Εφαρμογές</strong> θα σας βοηθήσει στη διαδικασία επικύρωσης και εγκατάστασης της εφαρμογής σας. Η καρτέλα <strong>Συσκευή</strong> θα σας δώσει πληροφορίες σχετικά με τη συνδεδεμένη συσκευή. Χρησιμοποιήστε τη γραμμή εργαλείων κάτω για να συνδεθείτε σε μια συσκευή ή να ξεκινήσετε τον προσομοιωτή.">
 <!ENTITY help.usefullLinks "Χρήσιμοι σύνδεσμοι:">
-<!ENTITY help.appMgrDoc "Τεκμηρίωση: Χρησιμοποιώντας τη διαχείριση εφαρμογών">
+<!ENTITY help.appMgrDoc "Άρθρο: Χρησιμοποιώντας τη Διαχείριση Εφαρμογών">
 <!ENTITY help.configuringDevice "Πώς να ρυθμίσετε τη συσκευή σας με λειτουργικό σύστημα Firefox OS">
 <!ENTITY help.troubleShooting "Αντιμετώπιση προβλημάτων">
 <!ENTITY help.simulatorAddon "Εγκατάσταση Πρόσθετου Προσομοιωτή">
