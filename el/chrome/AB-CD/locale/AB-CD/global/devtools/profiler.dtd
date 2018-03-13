@@ -13,21 +13,21 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
-<!ENTITY profilerUI.emptyNotice1    "Κάντε κλικ στο">
+<!ENTITY profilerUI.emptyNotice1    "Κλικ στο">
 <!ENTITY profilerUI.emptyNotice2    "κουμπί για έναρξη εγγραφής κλήσεων συναρτήσεων JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
   -  in the call list view while recording a profile. -->
-<!ENTITY profilerUI.stopNotice1    "Κάντε κλικ στο">
-<!ENTITY profilerUI.stopNotice2    "κουμπί ξανά για να διακόψετε τη συλλογή δεδομένων προφίλ.">
+<!ENTITY profilerUI.stopNotice1    "Κλικ στο κουμπί">
+<!ENTITY profilerUI.stopNotice2    "ξανά για να διακόψετε τη συλλογή δεδομένων προφίλ.">
 
 <!-- LOCALIZATION NOTE (profilerUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
-<!ENTITY profilerUI.loadingNotice "Φόρτωση…">
+<!ENTITY profilerUI.loadingNotice "Φόρτωση σε εξέλιξη…">
 
 <!-- LOCALIZATION NOTE (profilerUI.recordButton): This string is displayed
   -  on a button that starts a new profile. -->
-<!ENTITY profilerUI.recordButton.tooltip "Εγγραφή κλήσεων συναρτήσεων JavaScript.">
+<!ENTITY profilerUI.recordButton.tooltip "Καταγραφή κλήσεων συναρτήσεων JavaScript.">
 
 <!-- LOCALIZATION NOTE (profilerUI.importButton): This string is displayed
   -  on a button that opens a dialog to import a saved profile data file. -->
@@ -51,14 +51,14 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
-<!ENTITY profilerUI.table.totalDuration2  "Συνολικός χρόνος">
+<!ENTITY profilerUI.table.totalDuration2  "Συνολικός Χρόνος">
 <!ENTITY profilerUI.table.selfDuration2   "Ίδιος Χρόνος">
-<!ENTITY profilerUI.table.totalPercentage "Συνολικό κόστος">
+<!ENTITY profilerUI.table.totalPercentage "Συνολικό Κόστος">
 <!ENTITY profilerUI.table.selfPercentage  "Ίδιο Κόστος">
 <!ENTITY profilerUI.table.samples         "Δείγματα">
 <!ENTITY profilerUI.table.totalAlloc      "Συνολικές Δεσμεύσεις">
-<!ENTITY profilerUI.table.selfAlloc       "Αυτονομισμοί">
-<!ENTITY profilerUI.table.function        "Μέθοδος">
+<!ENTITY profilerUI.table.selfAlloc       "Ίδιες Δεσμεύσεις">
+<!ENTITY profilerUI.table.function        "Συνάρτηση">
 
 <!-- LOCALIZATION NOTE (profilerUI.newtab.tooltiptext): The tooltiptext shown
   -  on the "+" (new tab) button for a profile when a selection is available. -->
@@ -66,7 +66,7 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.options.tooltiptext): This is the tooltip
   -  for the options button. -->
-<!ENTITY profilerUI.options.tooltiptext "Ρύθμιση προτιμήσεων επίδοσης.">
+<!ENTITY profilerUI.options.tooltiptext "Παραμετροποίηση προτιμήσεων επιδόσεων.">
 
 <!-- LOCALIZATION NOTE (profilerUI.invertTree): This is the label shown next to
   -  a checkbox that inverts and un-inverts the profiler's call tree. -->
