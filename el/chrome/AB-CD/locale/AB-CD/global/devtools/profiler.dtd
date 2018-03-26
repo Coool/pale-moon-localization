@@ -43,11 +43,11 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.toolbar.*): These strings are displayed
   -  in the toolbar on buttons that select which view is currently shown. -->
-<!ENTITY profilerUI.toolbar.waterfall "Χρονολόγιο">
+<!ENTITY profilerUI.toolbar.waterfall "Χρονοδιάγραμμα">
 <!ENTITY profilerUI.toolbar.js-calltree "JavaScript">
 <!ENTITY profilerUI.toolbar.memory-calltree "Μνήμη">
-<!ENTITY profilerUI.toolbar.js-flamegraph "Γράφημα JS Flame">
-<!ENTITY profilerUI.toolbar.memory-flamegraph "Γράφημα Μνήμης Flame">
+<!ENTITY profilerUI.toolbar.js-flamegraph "Flame Chart JS">
+<!ENTITY profilerUI.toolbar.memory-flamegraph "Flame Chart Μνήμης">
 
 <!-- LOCALIZATION NOTE (profilerUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
@@ -87,8 +87,8 @@
 <!-- LOCALIZATION NOTE (profilerUI.flattenTreeRecursion): This is the
   -  label for the checkbox that toggles the flattening of tree recursion in inspected
   -  functions in the profiler. -->
-<!ENTITY profilerUI.flattenTreeRecursion             "Ομαλοποίηση αναδρομής δέντρου">
-<!ENTITY profilerUI.flattenTreeRecursion.tooltiptext "Ομαλοποίηση αναδρομής κατά την επιθεώρηση συναρτήσεων.">
+<!ENTITY profilerUI.flattenTreeRecursion             "Ισοπέδωση Αναδρομής Δέντρου">
+<!ENTITY profilerUI.flattenTreeRecursion.tooltiptext "Ισοπέδωση αναδρομής κατά την επιθεώρηση συναρτήσεων.">
 
 <!-- LOCALIZATION NOTE (profilerUI.enableMemory): This string
   -  is displayed next to a checkbox determining whether or not memory

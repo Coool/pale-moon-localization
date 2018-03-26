@@ -72,11 +72,11 @@ can reach it easily. -->
 
 <!ENTITY menubarCmd.label "Halang ng Menu">
 <!ENTITY menubarCmd.accesskey "M">
-<!ENTITY navbarCmd.label "Toolbar ng Nabigasyon">
+<!ENTITY navbarCmd.label "Halang ng Nabigasyon">
 <!ENTITY navbarCmd.accesskey "N">
-<!ENTITY personalbarCmd.label "Toolbar ng mga Bookmark">
+<!ENTITY personalbarCmd.label "Halang ng mga Bookmark">
 <!ENTITY personalbarCmd.accesskey "B">
-<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Toolbar ng mga Bookmark">
+<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Halang ng mga Bookmark">
 <!ENTITY addonBarCmd.label "Halang ng Add-on">
 <!ENTITY addonBarCmd.accesskey "A">
 <!ENTITY statusBar.label               "Halang ng Kalagayan">
@@ -103,7 +103,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenMinimize.tooltip "Paliitin">
 <!ENTITY fullScreenRestore.tooltip "Ibalik">
 <!ENTITY fullScreenClose.tooltip "Isara">
-<!ENTITY fullScreenAutohide.label "Itago ang mga Toolbar">
+<!ENTITY fullScreenAutohide.label "Itago ang mga Halang">
 <!ENTITY fullScreenAutohide.accesskey "T">
 <!ENTITY fullScreenExit.label "Itigil ang Pagsakop sa Buong Screen">
 <!ENTITY fullScreenExit.accesskey "B">
@@ -172,7 +172,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.tooltip        "Ipakita ang iyong mga bookmark">
 <!ENTITY bookmarksMenuButton.unsorted.label "Halo-halong mga Bookmark">
 <!ENTITY viewBookmarksSidebar.label         "Ipakita sa Sidebar">
-<!ENTITY viewBookmarksToolbar.label         "Ipakita ang Toolbar ng mga Bookmark">
+<!ENTITY viewBookmarksToolbar.label         "Ipakita ang Halang ng mga Bookmark">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -246,8 +246,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  application menu item that opens the browser debugger UI in the Tools menu. -->
 <!ENTITY chromeDebuggerMenu.label       "Browser Debugger">
 
-<!ENTITY devToolbarCloseButton.tooltiptext "Isara ang Toolbar ng Developer">
-<!ENTITY devToolbarMenu.label              "Toolbar ng Developer">
+<!ENTITY devToolbarCloseButton.tooltiptext "Isara ang Halang ng Developer">
+<!ENTITY devToolbarMenu.label              "Halang ng Developer">
 <!ENTITY devToolbarMenu.accesskey          "v">
 <!ENTITY devAppMgrMenu.label               "Tagapamahala ng App">
 <!ENTITY devAppMgrMenu.accesskey           "A">
@@ -308,7 +308,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewMenu.label         "Tanaw"> 
 <!ENTITY viewMenu.accesskey       "T"> 
-<!ENTITY viewToolbarsMenu.label       "Mga Toolbar"> 
+<!ENTITY viewToolbarsMenu.label       "Mga Halang"> 
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "e">
@@ -330,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Edit">
 <!ENTITY appMenuCustomize.label "I-customize">
-<!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Toolbar">
+<!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Halang">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
 <!ENTITY appMenuFind.label "Hanapin…">
 <!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
@@ -385,7 +385,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadCmd.commandkey         "r">
 <!ENTITY reloadFrameCmd.label         "I-reload ang Frame">
 <!ENTITY reloadFrameCmd.accesskey     "R">
-<!ENTITY viewPartialSourceForSelectionCmd.label "Ipakita ang Pinagmulan ng Pinili">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Ipakita ang Pinagmulan ng Seleksiyon">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "Ipakita ang Pinagmulan ng MathML">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
@@ -413,7 +413,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkPageCmd2.label       "I-bookmark Itong Pahina">
 <!ENTITY bookmarkPageCmd2.accesskey   "m">
 <!ENTITY bookmarkThisLinkCmd.label      "I-bookmark Itong Kawing">
-<!ENTITY bookmarkThisLinkCmd.accesskey  "L">
+<!ENTITY bookmarkThisLinkCmd.accesskey  "N">
 <!ENTITY bookmarkThisFrameCmd.label      "I-bookmark Itong Frame">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
 <!ENTITY emailPageCmd.label           "I-email ang Kawing…">
@@ -639,7 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Sync">
 
-<!ENTITY addonBarCloseButton.tooltip  "Isara ang Bar ng Add-on">
+<!ENTITY addonBarCloseButton.tooltip  "Isara ang Halang ng Add-on">
 <!ENTITY toggleAddonBarCmd.key        "/">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera na ibabahagi:">
