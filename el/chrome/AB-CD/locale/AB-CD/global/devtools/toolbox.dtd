@@ -7,7 +7,7 @@
 
 <!ENTITY closeCmd.key  "W">
 
-<!ENTITY toolboxCloseButton.tooltip    "Κλείσιμο εργαλείων προγραμματισμού">
+<!ENTITY toolboxCloseButton.tooltip    "Κλείσιμο Εργαλείων Προγραμματιστή">
 <!ENTITY toolboxOptionsButton.key      "O">
 <!ENTITY toolboxNextTool.key           "]">
 <!ENTITY toolboxPreviousTool.key       "[">
@@ -25,7 +25,7 @@
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
-<!ENTITY options.context.advancedSettings "Ρυθμίσεις για προχωρημένους">
+<!ENTITY options.context.advancedSettings "Προχωρημένες ρυθμίσεις">
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
@@ -34,8 +34,8 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Εμφάνιση στυλ περιηγητή">
-<!ENTITY options.showUserAgentStyles.tooltip "Με την ενεργοποίηση της επιλογής θα εμφανιστούν τα προεπιλεγμένα στυλ που έχουν φορτωθεί από τον περιηγητή.">
+<!ENTITY options.showUserAgentStyles.label "Εμφάνιση Στυλ Περιηγητή">
+<!ENTITY options.showUserAgentStyles.tooltip "Η ενεργοποίηση αυτής της επιλογής εμφανίζει τα προεπιλεγμένα στυλ που έχουν φορτωθεί από τον περιηγητή.">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
@@ -79,7 +79,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Ενεργοποίηση απομακρυσμένης αποσφαλμάτωσης">
-<!ENTITY options.enableRemote.tooltip   "Η ενεργοποίηση αυτής της επιλογής θα επιτρέψει στα εργαλεία προγραμματισμού να αποσφαλματώσουν απομακρυσμένα στιγμιότυπα Firefox όπως το Firefox OS">
+<!ENTITY options.enableRemote.tooltip   "Η ενεργοποίηση αυτής της επιλογής επιτρέπει στα εργαλεία προγραμματιστή την αποσφαλμάτωση απομακρυσμένων στιγμιότυπων Firefox, όπως το Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -91,23 +91,23 @@
   -  options.disableCache.tooltip2): This is the options panel label and
   -  tooltip for the checkbox that toggles the cache on or off. -->
 <!ENTITY options.disableCache.label2     "Απενεργοποίηση cache (όταν η εργαλειοθήκη είναι ανοιχτή)">
-<!ENTITY options.disableCache.tooltip2   "Με την ενεργοποίηση της επιλογής θα απενεργοποιηθεί η μνήμη cache για τις καρτέλες όπου είναι ανοιχτή η εργαλειοθήκη.">
+<!ENTITY options.disableCache.tooltip2   "Η ενεργοποίηση αυτής της επιλογής απενεργοποιεί τη μνήμη cache για όλες τις καρτέλες που έχουν την εργαλειοθήκη ανοιχτή.">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Προεγκατεστημένα Εργαλεία Προγραμματισμού του Pale Moon">
+<!ENTITY options.selectDefaultTools.label     "Προεγκατεστημένα Εργαλεία Προγραμματιστή του Pale Moon">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
   -  installed by add-ons. -->
-<!ENTITY options.selectAdditionalTools.label  "Εργαλεία Προγραμματισμού εγκατεστημένα από πρόσθετα">
+<!ENTITY options.selectAdditionalTools.label  "Εργαλεία Προγραμματιστή εγκατεστημένα από πρόσθετα">
 
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Διαθέσιμα Κουμπιά Εργαλειοθήκης">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Διαθέσιμα κουμπιά εργαλειοθήκης">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -121,12 +121,12 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Χρήση θέματος της Developer Edition">
-<!ENTITY options.usedeveditiontheme.tooltip "Εναλλάσσει το θέμα της Developer Edition του περιηγητή.">
+<!ENTITY options.usedeveditiontheme.label   "Χρήση θέματος περιηγητή της Έκδοσης Προγραμματιστή">
+<!ENTITY options.usedeveditiontheme.tooltip "Εναλλάσσει το θέμα περιηγητή της Έκδοσης Προγραμματιστή.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
-<!ENTITY options.webconsole.label            "Κονσόλα Web">
+<!ENTITY options.webconsole.label            "Κονσόλα Ιστού">
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
@@ -177,14 +177,14 @@
 
 <!ENTITY options.sourceeditor.label                     "Προτιμήσεις επεξεργασίας">
 <!ENTITY options.sourceeditor.detectindentation.label   "Εντοπισμός εσοχής">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Μαντέψτε την εσοχή βάσει του περιεχομένου της πηγής">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Αυτόματο κλείσιμο αγκύλων">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Εκτίμηση εσοχής βάσει περιεχομένου της πηγής">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Αυτόματο κλείσιμο αγκυλών">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Αυτόματη εισαγωγή αγκύλης κλεισίματος">
-<!ENTITY options.sourceeditor.expandtab.label           "Εσοχή με χρήση κενού διαστήματος">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Χρήση κενού διαστήματος αντί του χαρακτήρα tab">
-<!ENTITY options.sourceeditor.tabsize.label             "Μέγεθος καρτέλας">
+<!ENTITY options.sourceeditor.expandtab.label           "Εσοχή με χρήση κενών διαστημάτων">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Χρήση κενών διαστημάτων αντί του χαρακτήρα στηλοθέτη">
+<!ENTITY options.sourceeditor.tabsize.label             "Μήκος στηλοθέτη">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "θ">
-<!ENTITY options.sourceeditor.keybinding.label          "Συντομεύσεις">
+<!ENTITY options.sourceeditor.keybinding.label          "Συντομεύσεις Πληκτρολογίου">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "Σ">
 <!ENTITY options.sourceeditor.keybinding.default.label  "Προεπιλογή">
 

@@ -27,7 +27,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.blackBoxMessage.unBlackBoxButton): This is
   - the text displayed in the button to stop black boxing the currently selected
   - source. -->
-<!ENTITY debuggerUI.blackBoxMessage.unBlackBoxButton "Διακοπή του black boxing αυτής της πηγής">
+<!ENTITY debuggerUI.blackBoxMessage.unBlackBoxButton "Διακοπή μεταχείρισης αυτής της πηγής ως μαύρο κουτί">
 
 <!-- LOCALIZATION NOTE (debuggerUI.optsButton.tooltip): This is the tooltip for
   -  the button that opens up an options context menu for the debugger UI. -->
@@ -35,15 +35,15 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.blackBoxTooltip): This is the tooltip
   -  for the button that black boxes the selected source. -->
-<!ENTITY debuggerUI.sources.blackBoxTooltip "Εναλλαγή της λειτουργίας black boxing">
+<!ENTITY debuggerUI.sources.blackBoxTooltip "Εναλλαγή λειτουργίας Μαύρων Κουτιών">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.prettyPrint): This is the tooltip for the
   -  button that pretty prints the selected source. -->
-<!ENTITY debuggerUI.sources.prettyPrint "Εξωραϊσμός της πηγής">
+<!ENTITY debuggerUI.sources.prettyPrint "Εξωραϊσμός Πηγής">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
-<!ENTITY debuggerUI.autoPrettyPrint     "Αυτόματος εξωραϊσμός των Minified πηγών">
+<!ENTITY debuggerUI.autoPrettyPrint     "Αυτόματος Εξωραϊσμός Συντετμημένων Πηγών">
 <!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
@@ -69,7 +69,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
-<!ENTITY debuggerUI.ignoreCaughtExceptions           "Παράβλεψη Εξαιρέσεων">
+<!ENTITY debuggerUI.ignoreCaughtExceptions           "Παράβλεψη Συλληφθέντων Εξαιρέσεων">
 <!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
@@ -86,7 +86,7 @@
   -  checkbox that toggles visibility of hidden (non-enumerable) variables and
   -  properties in stack views. The "enumerable" flag is a state of a property
   -  defined in JavaScript. When in doubt, leave untranslated. -->
-<!ENTITY debuggerUI.showOnlyEnum           "Εμφάνιση μόνο αριθμήσιμων ιδιοτήτων">
+<!ENTITY debuggerUI.showOnlyEnum           "Εμφάνιση μόνο απαριθμήσιμων ιδιοτήτων">
 <!ENTITY debuggerUI.showOnlyEnum.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOriginalSource): This is the label for
@@ -98,7 +98,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
   -  the checkbox that toggles whether sources that we suspect are minified are
   -  automatically black boxed or not. -->
-<!ENTITY debuggerUI.autoBlackBox           "Αυτόματη ενεργοποίηση του Black Box σε Minified πηγές">
+<!ENTITY debuggerUI.autoBlackBox           "Αυτόματη μεταχείριση Συντετμημένων Πηγών ως Μαύρα Κουτιά">
 <!ENTITY debuggerUI.autoBlackBox.accesskey "Β">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
@@ -114,7 +114,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
   -  in the source editor's context menu for the global search operation. -->
-<!ENTITY debuggerUI.searchGlobal           "Αναζήτηση σε Όλα τα Αρχεία">
+<!ENTITY debuggerUI.searchGlobal           "Αναζήτηση σε όλα τα αρχεία">
 <!ENTITY debuggerUI.searchGlobal.key       "F">
 <!ENTITY debuggerUI.searchGlobal.accesskey "F">
 

@@ -12,7 +12,7 @@
 <!ENTITY device.screenshot "Στιγμιότυπο οθόνης">
 <!ENTITY device.screenshotTooltip "Άνοιγμα ενός στιγμιότυπου της τρέχουσας κατάστασης της συσκευής σε μια νέα καρτέλα">
 <!ENTITY device.title "Κέντρο Ελέγχου Συσκευών">
-<!ENTITY device.notConnected "Δεν υπάρχει σύνδεση. Παρακαλώ συνδέστε τη συσκευή σας.">
+<!ENTITY device.notConnected "Χωρίς σύνδεση. Παρακαλείστε να συνδέσετε τη συσκευή σας παρακάτω.">
 <!ENTITY device.startApp "Εκκίνηση">
 <!ENTITY device.startAppTooltip "Εκκίνηση αυτής της εφαρμογής στη συσκευή">
 <!ENTITY device.stopApp "Διακοπή">
@@ -34,29 +34,29 @@
 <!ENTITY device.permissions "Άδειες">
 <!ENTITY device.permissionsTooltip "Εμφάνιση πίνακα των δικαιωμάτων που είναι προσβάσιμα σε διαφορετικούς τύπους εφαρμογών">
 <!ENTITY device.permissionsHelpLink "https://developer.mozilla.org/docs/Web/Apps/App_permissions">
-<!ENTITY device.browserTabs "Καρτέλες περιηγητή">
+<!ENTITY device.browserTabs "Καρτέλες Περιηγητή">
 <!ENTITY device.browserTabsTooltip "Εμφάνιση λίστας των καρτελών του περιηγητή στη συνδεδεμένη συσκευή">
 <!ENTITY device.debugBrowserTab "Αποσφαλμάτωση">
 <!ENTITY device.debugBrowserTabTooltip "Άνοιγμα των Εργαλείων Ανάπτυξης συνδεδεμένα με αυτήν την καρτέλα περιηγητή στη συσκευή">
 <!ENTITY device.help "Βοήθεια">
 
-<!ENTITY connection.connectTooltip "Σύνδεση σε συσκευή">
+<!ENTITY connection.connectTooltip "Σύνδεση στη συσκευή">
 <!ENTITY connection.disconnect "Αποσύνδεση">
 <!ENTITY connection.disconnectTooltip "Αποσύνδεση από την τρέχουσα συσκευή ή προσομοιωτή">
 <!ENTITY connection.notConnected2 "Χωρίς Σύνδεση.">
 <!ENTITY connection.connectTo "Σύνδεση σε:">
-<!ENTITY connection.noDeviceFound "Δεν βρέθηκε συσκευή. Συνδέστε μια συσκευή">
+<!ENTITY connection.noDeviceFound "Καμία συσκευή. Συνδέστε μια συσκευή">
 <!ENTITY connection.changeHostAndPort "Αλλαγή">
-<!ENTITY connection.changeHostAndPortTooltip "Αλλαγή της διεύθυνσης και της θύρας για τη σύνδεση στη συσκευή (προεπιλεγμένη localhost:6000)">
-<!ENTITY connection.startSimulator "Έναρξη Προσομοιωτή">
-<!ENTITY connection.startSimulatorTooltip "Εκκίνηση μιας παρουσίας του Προσομοιωτή και σύνδεση με αυτήν">
+<!ENTITY connection.changeHostAndPortTooltip "Αλλαγή της διεύθυνσης και θύρας σύνδεσης στη συσκευή (προεπιλεγμένες localhost:6000)">
+<!ENTITY connection.startSimulator "Εκκίνηση Προσομοιωτή">
+<!ENTITY connection.startSimulatorTooltip "Εκκίνηση ενός στιγμιότυπου του Προσομοιωτή και σύνδεση σε αυτό">
 <!ENTITY connection.saveConnectionInfo "Αποθήκευση">
-<!ENTITY connection.saveConnectionInfoTooltip "Αποθήκευση της διεύθυνσης και της θύρας">
+<!ENTITY connection.saveConnectionInfoTooltip "Αποθήκευση διεύθυνσης και θύρας">
 <!ENTITY connection.connecting "Σύνδεση σε εξέλιξη…">
 <!ENTITY connection.disconnecting "Αποσύνδεση σε εξέλιξη…">
 <!ENTITY connection.cancel "Άκυρο">
 <!ENTITY connection.cancelConnectTooltip "Ακύρωση της σύνδεσης σε εξέλιξη">
-<!ENTITY connection.cancelShowSimulatorTooltip "Έξοδος από τη λειτουργία Προσομοίωσης και επιστροφή στην αρχική επιλογή">
+<!ENTITY connection.cancelShowSimulatorTooltip "Έξοδος από τη λειτουργία σύνδεσης Προσομοιωτή και επιστροφή στην αρχική προτροπή">
 <!ENTITY connection.or "ή">
 <!ENTITY connection.noSimulatorInstalled "Κανένας εγκατεστημένος προσομοιωτής.">
 <!ENTITY connection.installOneSimulator "Εγκατάσταση Προσομοιωτή">
@@ -81,7 +81,7 @@
 <!ENTITY projects.saveManifest "Αποθήκευση">
 <!ENTITY projects.saveManifestTooltip "Αποθήκευση των περιεχομένων του Επεξεργαστή Manifest">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "Χωρίς έργα. Προσθέσετε μια νέα πακεταρισμένη εφαρμογή (τοπικό κατάλογο) ή μια φιλοξενούμενη εφαρμογή (σύνδεσμος σε αρχείο manifest).">
+<!ENTITY projects.noProjects "Κανένα έργο. Προσθέστε παρακάτω μια νέα πακεταρισμένη εφαρμογή (τοπικός κατάλογος) ή μια φιλοξενούμενη εφαρμογή (σύνδεσμος σε αρχείο manifest).">
 <!ENTITY projects.manifestEditor "Επεξεργαστής Manifest">
 <!ENTITY projects.manifestEditorTooltip "Επεξεργαστείτε το manifest της εφαρμογής σας στον παρακάτω πίνακα. Το κουμπί Ενημέρωση θα αποθηκεύσει τις αλλαγές σας και θα ενημερώσει την εφαρμογή.">
 <!ENTITY projects.manifestViewer "Προβολή Manifest">

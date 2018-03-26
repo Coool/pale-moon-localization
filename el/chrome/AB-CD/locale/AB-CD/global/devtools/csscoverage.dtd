@@ -29,13 +29,13 @@
   -  csscoverage.preload3): These 3 are part of a paragraph with 1 and 2
   -  separated by a styled <link> tag and 2 and 3 separated by a styled
   -  <style> tag -->
-<!ENTITY csscoverage.optimize.body1 "Μπορείτε κάποιες φορές να επιταχύνετε τη φόρτωση μετακινώντας">
+<!ENTITY csscoverage.optimize.body1 "Κάποιες φορές μπορείτε να επιταχύνετε τη φόρτωση μετακινώντας στην κορυφή το στοιχείο">
 <!ENTITY csscoverage.optimize.body2 "ετικέτες στο κάτω μέρος της σελίδας και δημιουργώντας ένα νέο ενσωματωμένο">
-<!ENTITY csscoverage.optimize.body3 "στοιχείο με τα στυλ που απαιτούνται πριν από το event 'load' στην κορυφή. Εδώ είναι τα στυλ μπλοκ που χρειάζεστε:">
+<!ENTITY csscoverage.optimize.body3 "με τα στυλ που απαιτούνται πριν το συμβάν 'load'. Τα αναγκαία μπλοκ στυλ είναι τα εξής:">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->
-<!ENTITY csscoverage.optimize.bodyX "Όλοι οι κανόνες είναι ενσωματωμένοι.">
+<!ENTITY csscoverage.optimize.bodyX "Όλοι οι κανόνες είναι ενσωματωμένοι στη γραμμή.">
 
 <!-- LOCALIZATION NOTE (csscoverage.footer1, csscoverage.footer2a,
   -  csscoverage.footer3, csscoverage.footer4): The text displayed at the
@@ -43,5 +43,5 @@
   -  is clicked -->
 <!ENTITY csscoverage.footer1 "Βλ.">
 <!ENTITY csscoverage.footer2a "https://developer.mozilla.org/docs/Tools/CSS_Coverage">
-<!ENTITY csscoverage.footer3 "το άρθρο MDN στο εργαλείο κάλυψης CSS">
-<!ENTITY csscoverage.footer4 "για προειδοποιήσεις κατά την παραγωγή αυτής της έκθεσης.">
+<!ENTITY csscoverage.footer3 "το άρθρο MDN στο Εργαλείο Κάλυψης CSS">
+<!ENTITY csscoverage.footer4 "για επιφυλάξεις κατά την παραγωγή αυτής της έκθεσης.">

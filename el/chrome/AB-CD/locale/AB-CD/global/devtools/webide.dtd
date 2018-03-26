@@ -17,13 +17,13 @@
 <!ENTITY projectMenu_play_label "Εγκατάσταση και Εκτέλεση">
 <!ENTITY projectMenu_play_accesskey "I">
 <!ENTITY projectMenu_stop_label "Διακοπή Εφαρμογής">
-<!ENTITY projectMenu_stop_accesskey "S">
-<!ENTITY projectMenu_debug_label "Εντοπισμός Σφαλμάτων Εφαρμογής">
-<!ENTITY projectMenu_debug_accesskey "D">
+<!ENTITY projectMenu_stop_accesskey "Δ">
+<!ENTITY projectMenu_debug_label "Αποσφαλμάτωση Εφαρμογής">
+<!ENTITY projectMenu_debug_accesskey "Α">
 <!ENTITY projectMenu_remove_label "Αφαίρεση Έργου">
 <!ENTITY projectMenu_remove_accesskey "R">
 <!ENTITY projectMenu_showPrefs_label "Προτιμήσεις">
-<!ENTITY projectMenu_showPrefs_accesskey "e">
+<!ENTITY projectMenu_showPrefs_accesskey "Π">
 <!ENTITY projectMenu_manageComponents_label "Διαχείριση Επιπλέον Στοιχείων">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
 
@@ -31,7 +31,7 @@
 <!ENTITY runtimeMenu_accesskey "R">
 <!ENTITY runtimeMenu_disconnect_label "Αποσύνδεση">
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
-<!ENTITY runtimeMenu_showPermissionTable_label "Πίνακας Δικαιωμάτων">
+<!ENTITY runtimeMenu_showPermissionTable_label "Πίνακας Αδειών">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey "P">
 <!ENTITY runtimeMenu_takeScreenshot_label "Στιγμιότυπο οθόνης">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "S">
@@ -46,9 +46,9 @@
 
 <!ENTITY viewMenu_label "Προβολή">
 <!ENTITY viewMenu_accesskey "V">
-<!ENTITY viewMenu_toggleEditor_label "Ενεργοποίηση/Απενεργοποίηση Επεξεργαστή">
+<!ENTITY viewMenu_toggleEditor_label "Εναλλαγή Επεξεργαστή">
 <!ENTITY viewMenu_toggleEditor_accesskey "Ε">
-<!ENTITY viewMenu_zoomin_label "Εστίαση">
+<!ENTITY viewMenu_zoomin_label "Μεγέθυνση">
 <!ENTITY viewMenu_zoomin_accesskey "I">
 <!ENTITY viewMenu_zoomout_label "Σμίκρυνση">
 <!ENTITY viewMenu_zoomout_accesskey "O">
@@ -94,13 +94,13 @@
 <!ENTITY details_location "Τοποθεσία">
 <!ENTITY details_manifestURL "Αναγνωριστικό εφαρμογής">
 <!ENTITY details_removeProject_button "Αφαίρεση Έργου">
-<!ENTITY details_showPrepackageLog_button "Εμφάνιση προ-πακέτο καταγραφής">
+<!ENTITY details_showPrepackageLog_button "Προβολή Καταγραφής Προ-πακεταρίσματος">
 
 <!-- New App -->
-<!ENTITY newAppWindowTitle "Νέα εφαρμογή">
+<!ENTITY newAppWindowTitle "Νέα Εφαρμογή">
 <!ENTITY newAppHeader "Επιλογή προτύπου">
 <!ENTITY newAppLoadingTemplate "Φόρτωση προτύπων…">
-<!ENTITY newAppProjectName "Όνομα έργου:">
+<!ENTITY newAppProjectName "Όνομα Έργου:">
 
 
 <!-- Decks -->
@@ -109,36 +109,36 @@
 
 <!-- Addons -->
 <!ENTITY addons_title "Επιπλέον στοιχεία">
-<!ENTITY addons_aboutaddons "Διαχείριση Προσθέτων">
+<!ENTITY addons_aboutaddons "Άνοιγμα Διαχείρισης Προσθέτων">
 
 <!-- Prefs -->
 <!ENTITY prefs_title "Προτιμήσεις">
 <!ENTITY prefs_editor_title "Πρόγραμμα επεξεργασίας">
 <!ENTITY prefs_general_title "Γενικά">
-<!ENTITY prefs_restore "Επαναφορά προεπιλογών">
+<!ENTITY prefs_restore "Επαναφορά Προεπιλογών">
 <!ENTITY prefs_manage_components "Διαχείριση Επιπλέον Στοιχείων">
 <!ENTITY prefs_options_autoconnectruntime "Επανασύνδεση με το προηγούμενο runtime">
 <!ENTITY prefs_options_autoconnectruntime_tooltip "Επανασύνδεση με το προηγούμενο runtime όταν αρχίσει το WebIDE">
-<!ENTITY prefs_options_rememberlastproject "Απομνημόνευση του τελευταίου έργου">
-<!ENTITY prefs_options_rememberlastproject_tooltip "Επαναφορά του προηγούμενου έργου, όταν ξεκινά το WebIDE">
+<!ENTITY prefs_options_rememberlastproject "Απομνημόνευση τελευταίου έργου">
+<!ENTITY prefs_options_rememberlastproject_tooltip "Επαναφορά του προηγούμενου έργου κατά την εκκίνηση του WebIDE">
 <!ENTITY prefs_options_templatesurl "URL Προτύπων">
-<!ENTITY prefs_options_templatesurl_tooltip "Λίστα διαθέσιμων προτύπων">
+<!ENTITY prefs_options_templatesurl_tooltip "Ευρετήριο διαθέσιμων προτύπων">
 <!ENTITY prefs_options_showeditor "Εμφάνιση επεξεργαστή">
 <!ENTITY prefs_options_showeditor_tooltip "Εμφάνιση εσωτερικής επεξεργασίας">
-<!ENTITY prefs_options_tabsize "Μέγεθος Tab">
+<!ENTITY prefs_options_tabsize "Μήκος στηλοθέτη">
 <!ENTITY prefs_options_expandtab "Soft tabs">
-<!ENTITY prefs_options_expandtab_tooltip "Χρησιμοποιήστε κενά διαστήματα αντί για το χαρακτήρα tab">
-<!ENTITY prefs_options_detectindentation "Αυτόματος υπολογισμός εσοχών">
-<!ENTITY prefs_options_detectindentation_tooltip "Μαντέψτε την εσοχή βάση του περιεχομένου της πηγής">
+<!ENTITY prefs_options_expandtab_tooltip "Χρήση κενών διαστημάτων αντί του χαρακτήρα στηλοθέτη">
+<!ENTITY prefs_options_detectindentation "Αυτόματη προσθήκη εσοχών">
+<!ENTITY prefs_options_detectindentation_tooltip "Εκτίμηση εσοχής βάσει περιεχομένου της πηγής">
 <!ENTITY prefs_options_autocomplete "Αυτόματη συμπλήρωση">
 <!ENTITY prefs_options_autocomplete_tooltip "Ενεργοποίηση αυτόματης συμπλήρωσης κώδικα">
-<!ENTITY prefs_options_autoclosebrackets "Αυτόματο κλείσιμο αγκύλων">
+<!ENTITY prefs_options_autoclosebrackets "Αυτόματο κλείσιμο αγκυλών">
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Αυτόματη εισαγωγή αγκύλης κλεισίματος">
-<!ENTITY prefs_options_keybindings "Συντομεύσεις">
+<!ENTITY prefs_options_keybindings "Συντομεύσεις Πληκτρολογίου">
 <!ENTITY prefs_options_keybindings_default "Προεπιλεγμένο">
 
 <!-- Permissions Table -->
-<!ENTITY permissionstable_title "Πίνακας Δικαιωμάτων">
+<!ENTITY permissionstable_title "Πίνακας Αδειών">
 <!ENTITY permissionstable_name_header "Όνομα">
 
 <!-- Runtime Details -->
@@ -146,8 +146,8 @@
 <!ENTITY runtimedetails_adbIsRoot "Το ADB είναι root: ">
 <!ENTITY runtimedetails_summonADBRoot "root device">
 <!ENTITY runtimedetails_ADBRootWarning "(απαιτεί ξεκλείδωτο bootloader)">
-<!ENTITY runtimedetails_unrestrictedPrivileges "Δικαιώματα Εργαλείων Ανάπτυξης χωρίς περιορισμό: ">
-<!ENTITY runtimedetails_requestPrivileges "αίτηση υψηλότερων δικαιωμάτων">
+<!ENTITY runtimedetails_unrestrictedPrivileges "Απεριόριστες άδειες Εργαλείων Προγραμματιστή: ">
+<!ENTITY runtimedetails_requestPrivileges "αίτηση ανώτερων αδειών">
 <!ENTITY runtimedetails_privilegesWarning "(Θα επανεκκινήσει τη συσκευή. Απαιτεί πρόσβαση root.)">
 
 <!-- Device Preferences and Settings -->
@@ -155,7 +155,7 @@
 <!ENTITY device_typenumber "Ακέραιος">
 <!ENTITY device_typestring "Συμβολοσειρά">
 <!ENTITY device_typeobject "Αντικείμενο">
-<!ENTITY device_typenone "Επιλέξτε έναν τύπο">
+<!ENTITY device_typenone "Επιλογή τύπου">
 
 <!-- Device Preferences -->
 <!ENTITY devicepreference_title "Προτιμήσεις Συσκευής">

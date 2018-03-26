@@ -18,8 +18,8 @@
 
 <!-- LOCALIZATION NOTE (csscoverage.unused, csscoverage.noMatches):
   -  This is the heading and body text for the CSS usage part of the report -->
-<!ENTITY csscoverage.unused "Hindi nagamit na mga patakaran">
-<!ENTITY csscoverage.noMatches "Walang mga tugma ang natagpuan para sa mga sumusunod na rule:">
+<!ENTITY csscoverage.unused "Mga Patakarang Di Nagamit">
+<!ENTITY csscoverage.noMatches "Walang tugma na natagpuan para sa mga sumusunod na rule:">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.header):
   -  This is the heading for the CSS optimization part of the report -->
@@ -29,13 +29,13 @@
   -  csscoverage.preload3): These 3 are part of a paragraph with 1 and 2
   -  separated by a styled <link> tag and 2 and 3 separated by a styled
   -  <style> tag -->
-<!ENTITY csscoverage.optimize.body1 "Minsan maaari mong pabilisin ang pag-load sa pamamagitan ng pag-galaw">
-<!ENTITY csscoverage.optimize.body2 "mga tag sa ibaba ng pahina at paglikha ng isang bagong inline">
-<!ENTITY csscoverage.optimize.body3 "elemento na may mga style na kailangan bago ang ‘load’ event sa tuktok. Narito ang mga style block na kailangan mo:">
+<!ENTITY csscoverage.optimize.body1 "Minsan ay puwede mong pabilisin ang pag-load sa pamamagitan ng paglipat">
+<!ENTITY csscoverage.optimize.body2 "ng mga tag sa ibaba ng pahina at paglikha ng bagong inline">
+<!ENTITY csscoverage.optimize.body3 "elemento na may mga kinakailangang style bago ang ‘load’ event sa itaas. Narito ang mga style block na kailangan mo:">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->
-<!ENTITY csscoverage.optimize.bodyX "Lahat ng mga rule ay inlined.">
+<!ENTITY csscoverage.optimize.bodyX "Ang lahat ng mga rule ay inlined.">
 
 <!-- LOCALIZATION NOTE (csscoverage.footer1, csscoverage.footer2a,
   -  csscoverage.footer3, csscoverage.footer4): The text displayed at the

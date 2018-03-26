@@ -80,10 +80,10 @@
 <!ENTITY netTimeout.title "Tengitími rann út">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.title "Óþekkt samskiptaregla">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+  <li>Til að opna þetta veffang gætir þú þurft að hlaða inn öðrum hugbúnaði.</li>
 </ul>
 ">
 
@@ -126,8 +126,8 @@
 <!ENTITY nssFailure2.title "Örugg tenging mistókst">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+  <li>Ekki er hægt að sýna síðuna vegna þess að ekki var hægt að auðkenna gögnin.</li>
+  <li>Hafið samband við vefstjóra svæðisins til að láta hann vita af þessu vandamáli.</li>
 </ul>
 ">
 
@@ -151,10 +151,8 @@
 ">
 
 <!ENTITY malwareBlocked.title "Grunað árásarsvæði!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
-">
+<!ENTITY malwareBlocked.longDesc "<p>Árásarsvæði eru svæði sem reyna að setja inn forrit til að stela persónulegum upplýsingum, nota tölvuna þína til að gera árás á aðra, eða valda skemmdum.</p> 
+<p>Vefstjóra sem grunar að þeirra svæði hafi rangt verið tilkynnt sem árásarsvæði geta <a href='https://www.stopbadware.org/request-review' >beðið um endurskoðun</a>.</p>">
 
 <!ENTITY phishingBlocked.title "Grunað falsað vefsvæði!">
 <!ENTITY phishingBlocked.longDesc "
@@ -162,8 +160,8 @@
 <p>Þessar tegundir af vef fölsunum eru notaðar í svikum betur þekktar sem vefveiðar, í því eru sviksamlegar vefsíður og tölvupóstur notað til að líkja eftir aðilum sem þú treystir.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "Lokað á vegna öryggisreglu (CSP)">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; kom í veg fyrir að þessi síða birtist á þennan hátt þar sem síðan inniheldur öryggisreglu sem kemur í veg fyrir það.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -196,20 +194,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
+<!ENTITY errorReporting.title "Tilkynna villu">
+<!ENTITY errorReporting.longDesc "Að tilkynna slóðina og skilríkið fyrir <span id='hostname'></span> mun hjálpa okkur að bera kennsl á og loka á hættuleg vefsvæði. Takk fyrir að hjálpa okkur að búa til öruggari vef!">
+<!ENTITY errorReporting.automatic "Tilkynna sjálfvirkt villur í framtíðinni">
+<!ENTITY errorReporting.learnMore "Fræðast meira…">
+<!ENTITY errorReporting.sending "Sendi skýrslu">
+<!ENTITY errorReporting.sent "Skýrsla send">
+<!ENTITY errorReporting.report "Skýrsla">
+<!ENTITY errorReporting.tryAgain "Reyndu aftur">
 
 <!ENTITY remoteXUL.title "Fjarlægt XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Hafðu samband við eigendur vefsvæðins til að láta þá vita af þessu vandamáli.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Get ekki tengst á öruggan hátt">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Learn More…">
+<!ENTITY sslv3Used.longDesc "Ítarlegar upplýsingar: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Vita meira…">
