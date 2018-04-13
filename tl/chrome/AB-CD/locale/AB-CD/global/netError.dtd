@@ -19,14 +19,14 @@
 <!ENTITY fileNotFound.title "Hindi Natagpuang File">
 <!ENTITY fileNotFound.longDesc "<ul><li>Maaaring ang bagay ay pinalitan ng pangalan, inalis, o inilipat sa ibang lokasyon?</li><li>Mayroon bang ispeling, palaking-titik (kapitalisasyon) o ibang klase ng pagkakamaling tipograpikal sa address?</li><li>Meron ka bang sapat na pahintulot upang mabuksan ang hinihiling na bagay?</li></ul>">
 
-<!ENTITY generic.title "Hindi Makumpletong Hiling">
+<!ENTITY generic.title "Hindi Makompletong Hiling">
 <!ENTITY generic.longDesc "<p>Karagdagang impormasyon tungkol sa problema o error na ito ay kasalukuyang hindi makita.</p>">
 
 <!ENTITY malformedURI.title "Imbalidong Address">
 <!ENTITY malformedURI.longDesc "<p>Ang ibinigay na address ay wala sa mga kinikilalang format. Mangyaring tingnan ang halang ng lokasyon kung may pagkakamali at subukan muli.</p>">
 
 <!ENTITY netInterrupt.title "Naantalang Pagpasa ng Datos">
-<!ENTITY netInterrupt.longDesc "<p>Ang browser ay matagumpay na nakakonekta, ngunit ang koneksiyon ay naantala habang naglilipat ng impormasyon.  Mangyaring subukan muli.</p><ul><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompiyuter.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
+<!ENTITY netInterrupt.longDesc "<p>Ang browser ay matagumpay na nakakonekta, ngunit ang koneksiyon ay naantala habang naglilipat ng impormasyon.  Mangyaring subukan muli.</p><ul><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompiyuter.</li><li>Nagkakaroon pa rin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY notCached.title "Walang Bisang Dokumento">
 <!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay hindi natagpuan sa cache ng browser.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi awtomatikong hinihiling muli ng browser ang mga sensitibong dokumento.</li><li>I-click ang Subukan Muli upang hilingin muli ang dokumento mula sa website.</li></ul>">
@@ -49,16 +49,16 @@
 <!ENTITY netReset.longDesc "<p>Ang network link ay naantala habang nakikipag-negotiate ng koneksiyon. Paki-subukan muli.</p>">
 
 <!ENTITY netTimeout.title "Timeout sa Network">
-<!ENTITY netTimeout.longDesc "<p>Ang hinihiling na site ay hindi tumugon sa connection request at ang browser ay tumigil sa paghihintay ng sagot.</p><ul><li>Maaari bang ang server ay nakakaranas ng malaking demand o pansamantalang outage?  Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompiyuter.</li><li>Ang kompiyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaaring maka-sagabal sa iyong pagba-browse sa Web.</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>Ang hinihiling na site ay hindi tumugon sa connection request at ang browser ay tumigil sa paghihintay ng sagot.</p><ul><li>Maaari bang ang server ay nakakaranas ng malaking demand o pansamantalang outage?  Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompiyuter.</li><li>Ang kompiyuter o network mo ba ay protektado ng isang firewall o proxy? Mga hindi tamang setting ay maaaring maka-sagabal sa iyong pagba-browse sa Web.</li><li>Nagkakaroon pa rin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Hindi Kilalang Protokol">
 <!ENTITY unknownProtocolFound.longDesc "<p>Ang address ay tumutukoy ng protokol (e.g. <q>wxyz://</q>) na hindi kilala ng browser kaya hindi makakonek nang maayos sa site.</p><ul><li>sinusubukan mo bang mag-access ng multimedia o ibang mga hindi tekstong serbisyo? Tingnan ang site para sa mga karagdagang kinakailangan.</li><li>May mga protokol na nangangailangan ng third-party software o mga plugin bago ito makilala ng browser.</li></ul>">
 
 <!ENTITY proxyConnectFailure.title "Tinanggihan ng Proxy Server ang Koneksiyon">
-<!ENTITY proxyConnectFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit tumanggi sa koneksiyon ang proxy.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang proxy service ba ay tumatanggap ng mga koneksiyon mula sa iyong network?</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
+<!ENTITY proxyConnectFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit tumanggi sa koneksiyon ang proxy.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang proxy service ba ay tumatanggap ng mga koneksiyon mula sa iyong network?</li><li>Nagkakaroon pa rin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Hindi Matagpuang Proxy Server">
-<!ENTITY proxyResolveFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit ang proxy ay hindi matagpuan.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang kompiyuter ba ay konektado sa isang aktibong network?</li><li>Nagkakaroon parin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<p>Ang browser ay na-configure na gumamit ng isang proxy server, ngunit ang proxy ay hindi matagpuan.</p><ul><li>Ang proxy configuration ng browser ba ay tama? Suriin ang mga setting at subukan muli.</li><li>Ang kompiyuter ba ay konektado sa isang aktibong network?</li><li>Nagkakaroon pa rin ng problema? Konsultahin ang tagapamahala ng iyong network o internet provider para sa tulong.</li></ul>">
 
 <!ENTITY redirectLoop.title "Paulit-ulit na Redirect">
 <!ENTITY redirectLoop.longDesc "<p>Ang browser ay tumigil na sa pagsubok na kunin ang hiniling na bagay. Nire-redirect ng site ang hiling sa paraan na hindi ito matatapos.</p><ul><li>Mayroon ka bang hindi pinagagana o hinarang na mga cookie na kinakailangan nitong site?</li><li><em>PAALALA</em>: Kapag ang pagtanggap sa mga cookie ng site ay hindi nakalutas sa problema, maaaring ito'y issue sa server configuration at hindi sa iyong kompiyuter.</li></ul>">
