@@ -34,10 +34,10 @@
 <!ENTITY openFileCmd.commandkey       "m">
 
 <!ENTITY openRecentMenu.label         "Buksan ang Kamakailan">
-<!ENTITY openRecentMenu.accesskey     "R">
+<!ENTITY openRecentMenu.accesskey     "U">
 
 <!ENTITY revertCmd.label              "Ibalik…">
-<!ENTITY revertCmd.accesskey          "t">
+<!ENTITY revertCmd.accesskey          "k">
 
 <!ENTITY saveFileCmd.label            "I-save">
 <!ENTITY saveFileCmd.accesskey        "S">
@@ -48,7 +48,7 @@
 
 <!ENTITY closeCmd.label               "Isara">
 <!ENTITY closeCmd.key                 "W">
-<!ENTITY closeCmd.accesskey           "C">
+<!ENTITY closeCmd.accesskey           "I">
 
 <!ENTITY viewMenu.label               "Tanaw">
 <!ENTITY viewMenu.accesskey           "T">
@@ -57,7 +57,7 @@
 <!ENTITY lineNumbers.accesskey         "L">
 
 <!ENTITY wordWrap.label                "Balutin ang Teksto">
-<!ENTITY wordWrap.accesskey            "W">
+<!ENTITY wordWrap.accesskey            "B">
 
 <!ENTITY highlightTrailingSpace.label     "Markahan ang Trailing na Espasyo">
 <!ENTITY highlightTrailingSpace.accesskey "H">
@@ -85,7 +85,7 @@
 <!ENTITY inspect.accesskey            "I">
 <!ENTITY inspect.key                  "i">
 
-<!ENTITY display.label                "Display">
+<!ENTITY display.label                "I-display">
 <!ENTITY display.accesskey            "D">
 <!ENTITY display.key                  "l">
 
@@ -104,7 +104,7 @@
 
 
 <!ENTITY contentContext.label         "Nilalaman">
-<!ENTITY contentContext.accesskey     "C">
+<!ENTITY contentContext.accesskey     "L">
 
 <!-- LOCALIZATION NOTE (browserContext.label, accesskey): This menu item is used
   -  to select an execution environment for the browser window itself as opposed
@@ -119,9 +119,9 @@
   -  for the help button in the menubar but Gnome does not.
   -->
 <!ENTITY helpMenu.label               "Tulong">
-<!ENTITY helpMenu.accesskey           "H">
+<!ENTITY helpMenu.accesskey           "G">
 <!ENTITY helpMenuWin.label            "Tulong">
-<!ENTITY helpMenuWin.accesskey        "H">
+<!ENTITY helpMenuWin.accesskey        "G">
 
 <!ENTITY documentationLink.label      "Tulong sa Scratchpad sa MDN">
 <!ENTITY documentationLink.accesskey  "D">
@@ -133,11 +133,11 @@
 <!ENTITY resetContext2.label          "I-reset ang mga Variable">
 <!ENTITY resetContext2.accesskey      "T">
 
-<!ENTITY reloadAndRun.label           "I-reload At I-run">
+<!ENTITY reloadAndRun.label           "I-reload at I-run">
 <!ENTITY reloadAndRun.accesskey       "E">
 <!ENTITY reloadAndRun.key             "r">
 
-<!ENTITY executeMenu.label            "Execute">
+<!ENTITY executeMenu.label            "I-execute">
 <!ENTITY executeMenu.accesskey        "X">
 
 <!-- LOCALIZATION NOTE (errorConsoleCmd.commandkey): This command key launches

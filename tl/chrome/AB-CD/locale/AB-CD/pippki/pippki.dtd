@@ -4,7 +4,7 @@
 
 <!-- Values for changepassword.xul -->
 <!ENTITY setPassword.title  "Palitan ang Master Password">
-<!ENTITY setPassword.tokenName.label "Kagamitang Pang-seguridad">
+<!ENTITY setPassword.tokenName.label "Kagamitang Pangseguridad">
 <!ENTITY setPassword.oldPassword.label "Kasalukuyang password:">
 <!ENTITY setPassword.newPassword.label "Bagong password:">
 <!ENTITY setPassword.reenterPassword.label "Bagong password (ulit):">
@@ -17,7 +17,7 @@
 
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "Ilagay ang Master Password">
-<!ENTITY getPassword.tokenName2.label "Kagamitang Pang-seguridad:">
+<!ENTITY getPassword.tokenName2.label "Kagamitang Pangseguridad:">
 <!ENTITY getPassword.password.label "Password:">
 
 <!-- Downloading a cert -->
@@ -33,7 +33,7 @@
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "Hiling sa Pagkakakilanlan ng User">
 <!ENTITY clientAuthAsk.message1 "Itong site ay hiniling na kilalanin ang iyong sarili sa pamamagitan ng sertipiko:">
-<!ENTITY clientAuthAsk.message2 "Pumili ng sertipiko na ipresenta bilang pagkakakilanlan:">
+<!ENTITY clientAuthAsk.message2 "Pumili ng sertipiko na ipepresenta bilang pagkakakilanlan:">
 <!ENTITY clientAuthAsk.message3 "Mga detalye ng piniling sertipiko:">
 
 <!-- Strings for the cert picker dialog -->
@@ -53,12 +53,12 @@
 <!ENTITY escrowWarn.title "Kopya ng Encryption Key">
 <!ENTITY escrowWarn.message1 "Importante: Itong awtoridad ng sertipiko ay nagtanong na gumawa ka ng iyong encryption private key.">
 <!ENTITY escrowWarn.benefit1 "Ang benepisyo kapag nawalan ka ng access sa iyong encryption private key, maaari kang humiling ng kopya nito mula sa awtoridad ng sertipiko.">
-<!ENTITY escrowWarn.message2 "Gayunpaman, ang iyong encryption private key ay mai-imbak ng awtoridad ng sertipiko, at maaaring magamit upang basahin ang iyong encrypted email o mga dokumento ng walang permiso mula sayo.">
+<!ENTITY escrowWarn.message2 "Gayunpaman, ang iyong encryption private key ay mai-imbak ng awtoridad ng sertipiko, at maaaring magamit upang basahin ang iyong encrypted email o mga dokumento nang walang permiso mula sa iyo.">
 <!ENTITY examineCert.label "Tingnan ang Sertipiko">
-<!ENTITY examineCert.accesskey "V">
+<!ENTITY examineCert.accesskey "T">
 
 <!-- Strings for the CreateCertInfo dialog  -->
-<!ENTITY createCertInfo.title "Gumagawa Ng Pribadong Key">
+<!ENTITY createCertInfo.title "Gumagawa ng Private Key">
 <!ENTITY createCertInfo.msg1 "Ginagawa na ang key… Maaari itong abutin nang ilang minuto….">
 <!ENTITY createCertInfo.msg2 "Mangyaring maghintay…">
 

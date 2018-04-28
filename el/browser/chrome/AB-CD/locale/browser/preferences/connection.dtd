@@ -14,9 +14,9 @@
 <!ENTITY  systemTypeRadio.accesskey     "ω">
 <!ENTITY  WPADTypeRadio.label           "Αυτόματος εντοπισμός ρυθμίσεων διαμεσολαβητή για αυτό το δίκτυο">
 <!ENTITY  WPADTypeRadio.accesskey       "υ">
-<!ENTITY  manualTypeRadio.label         "Χειροκίνητη ρύθμιση διαμεσολαβητή:">
+<!ENTITY  manualTypeRadio.label         "Χειροκίνητη παραμετροποίηση διαμεσολαβητή:">
 <!ENTITY  manualTypeRadio.accesskey     "ι">
-<!ENTITY  autoTypeRadio.label           "URL αυτόματης ρύθμισης διαμεσολαβητή:">
+<!ENTITY  autoTypeRadio.label           "Διεύθυνση URL αυτόματης παραμετροποίησης διαμεσολαβητή:">
 <!ENTITY  autoTypeRadio.accesskey       "θ">
 <!ENTITY  reload.label                  "Ανανέωση">
 <!ENTITY  reload.accesskey              "ν">
@@ -32,7 +32,7 @@
 <!ENTITY  socks4.accesskey              "k">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
-<!ENTITY  socksRemoteDNS.label          "Χρήση του εξυπηρετητή μεσολάβησης για την εκτέλεση ερωτημάτων DNS (μόνο για SOCKS v5)">
+<!ENTITY  socksRemoteDNS.label          "Χρήση του διαμεσολαβητή στη διατύπωση ερωτημάτων DNS (μόνο για SOCKS v5)">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Θύρα:">
 <!ENTITY  HTTPport.accesskey            "ρ">
@@ -46,4 +46,4 @@
 <!ENTITY  shareproxy.accesskey          "δ">
 <!ENTITY  autologinproxy.label          "Να μη γίνει ερώτηση για πιστοποίηση αν είναι αποθηκευμένος ο κωδικός πρόσβασης">
 <!ENTITY  autologinproxy.accesskey      "i">
-<!ENTITY  autologinproxy.tooltip        "Αυτή η επιλογή σας πιστοποιεί σιωπηλά σε εξυπηρετητές μεσολάβησης όταν έχετε αποθηκεύσει πιστοποιήσεις για αυτούς. Θα σας ζητηθούν αν η πιστοποίηση αποτύχει.">
+<!ENTITY  autologinproxy.tooltip        "Αυτή η επιλογή σάς πιστοποιεί σιωπηλά σε διαμεσολαβητές, εφόσον για αυτούς έχετε αποθηκευμένα διαπιστευτήρια. Θα σας ζητηθούν αν η πιστοποίηση αποτύχει.">

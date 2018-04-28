@@ -13,12 +13,12 @@
 <!ENTITY projectMenu_importHostedApp_label "Buksan ang Hosted App…">
 <!ENTITY projectMenu_importHostedApp_accesskey "H">
 <!ENTITY projectMenu_selectApp_label "Buksan ang App…">
-<!ENTITY projectMenu_selectApp_accesskey "O">
-<!ENTITY projectMenu_play_label "I-install at Patakbuhin">
+<!ENTITY projectMenu_selectApp_accesskey "U">
+<!ENTITY projectMenu_play_label "I-install at I-run">
 <!ENTITY projectMenu_play_accesskey "I">
-<!ENTITY projectMenu_stop_label "Ihinto ang App">
-<!ENTITY projectMenu_stop_accesskey "S">
-<!ENTITY projectMenu_debug_label "Debug App">
+<!ENTITY projectMenu_stop_label "Itigil ang App">
+<!ENTITY projectMenu_stop_accesskey "G">
+<!ENTITY projectMenu_debug_label "I-debug ang App">
 <!ENTITY projectMenu_debug_accesskey "D">
 <!ENTITY projectMenu_remove_label "Alisin ang Proyekto">
 <!ENTITY projectMenu_remove_accesskey "R">
@@ -41,7 +41,7 @@
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
 <!ENTITY runtimeMenu_showDevicePrefs_label "Mga Preperensiya ng Device">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
-<!ENTITY runtimeMenu_showSettings_label "Device Settings">
+<!ENTITY runtimeMenu_showSettings_label "Mga Setting ng Device">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
 <!ENTITY viewMenu_label "Tanaw">
@@ -128,11 +128,11 @@
 <!ENTITY prefs_options_tabsize "Sukat ng tab">
 <!ENTITY prefs_options_expandtab "Soft tabs">
 <!ENTITY prefs_options_expandtab_tooltip "Gumamit ng mga espasyo sa halip na tab character">
-<!ENTITY prefs_options_detectindentation "Kusang pag-indent">
+<!ENTITY prefs_options_detectindentation "Awtomatikong pag-indent">
 <!ENTITY prefs_options_detectindentation_tooltip "Hulaan ang indentation ayon sa nilalaman ng pinagmulan">
 <!ENTITY prefs_options_autocomplete "Autocomplete">
-<!ENTITY prefs_options_autocomplete_tooltip "Pagkakasaayos ang code autocompletion">
-<!ENTITY prefs_options_autoclosebrackets "Kusang isara ang mga brackets">
+<!ENTITY prefs_options_autocomplete_tooltip "Paganahin ang code autocompletion">
+<!ENTITY prefs_options_autoclosebrackets "Awtomatikong isara ang mga brackets">
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Awtomatikong mag-insert ng mga closing brackets">
 <!ENTITY prefs_options_keybindings "Mga Keybinding">
 <!ENTITY prefs_options_keybindings_default "Paunang-tukoy">
@@ -155,7 +155,7 @@
 <!ENTITY device_typenumber "Integer">
 <!ENTITY device_typestring "String">
 <!ENTITY device_typeobject "Object">
-<!ENTITY device_typenone "Pumili ng uri">
+<!ENTITY device_typenone "Pumili ng tipo">
 
 <!-- Device Preferences -->
 <!ENTITY devicepreference_title "Mga Preperensiya ng Device">
@@ -165,10 +165,10 @@
 <!ENTITY devicepreference_addnew "Magdagdag ng bagong preperensiya">
 
 <!-- Device Settings -->
-<!ENTITY devicesetting_title "Device Settings">
-<!ENTITY devicesetting_search "Search settings">
+<!ENTITY devicesetting_title "Mga Setting ng Device">
+<!ENTITY devicesetting_search "Hanapin sa mga setting">
 <!ENTITY devicesetting_newname "Bagong pangalan ng setting">
-<!ENTITY devicesetting_newtext "Laman ng setting">
+<!ENTITY devicesetting_newtext "Setting value">
 <!ENTITY devicesetting_addnew "Magdagdag ng bagong setting">
 
 <!-- Monitor -->
@@ -185,13 +185,13 @@
 <!ENTITY wifi_auth_scan_request "Ang endpoint na kung saan kumokonekta ka ay nangangailangan ng higit pang impormasyon para mapatunayan itong koneksiyon.  Paki-scan ang QR code sa ibaba gamit ang prompt na lalabas sa iyong ibang device.">
 <!-- LOCALIZATION NOTE (wifi_auth_no_scanner): Link text to assist users with
      devices that can't scan a QR code. -->
-<!ENTITY wifi_auth_no_scanner "Walang QR scaner prompt?">
+<!ENTITY wifi_auth_no_scanner "Walang QR scanner prompt?">
 <!-- LOCALIZATION NOTE (wifi_auth_yes_scanner): Link text to assist users with
      devices that can scan a QR code. -->
 <!ENTITY wifi_auth_yes_scanner "Mayroong QR scanner prompt?">
 <!-- LOCALIZATION NOTE (wifi_auth_token_request): Instructions requesting the
      user to transfer authentication info by transferring a token. -->
-<!ENTITY wifi_auth_token_request "Kapag ang iyong ibang device ay nagtanong ng token sa halip na pag-scan ng QR code, paki-kopya ang value sa ibaba papunta sa ibang device:">
+<!ENTITY wifi_auth_token_request "Kapag ang iba mong device ay humingi ng token sa halip na pag-scan ng QR code, paki-kopya ang value sa ibaba papunta sa iba mong device:">
 
 <!-- Logs panel -->
 <!ENTITY logs_title "Pre-packaging Command Logs">
