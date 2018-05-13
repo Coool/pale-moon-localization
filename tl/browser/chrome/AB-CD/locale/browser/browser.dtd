@@ -70,16 +70,16 @@ can reach it easily. -->
 <!ENTITY restartCmd.label "I-restart…">
 <!ENTITY restartCmd.accesskey "R">
 
-<!ENTITY menubarCmd.label "Hálang ng Menu">
+<!ENTITY menubarCmd.label "Halang ng Menu">
 <!ENTITY menubarCmd.accesskey "M">
-<!ENTITY navbarCmd.label "Hálang ng Nabigasyon">
+<!ENTITY navbarCmd.label "Halang ng Nabigasyon">
 <!ENTITY navbarCmd.accesskey "N">
-<!ENTITY personalbarCmd.label "Hálang ng mga Bookmark">
+<!ENTITY personalbarCmd.label "Halang ng mga Bookmark">
 <!ENTITY personalbarCmd.accesskey "B">
-<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Hálang ng mga Bookmark">
-<!ENTITY addonBarCmd.label "Hálang ng Add-on">
+<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Halang ng mga Bookmark">
+<!ENTITY addonBarCmd.label "Halang ng Add-on">
 <!ENTITY addonBarCmd.accesskey "A">
-<!ENTITY statusBar.label               "Hálang ng Kalagayan">
+<!ENTITY statusBar.label               "Halang ng Kalagayan">
 <!ENTITY statusBar.accesskey           "K">
 
 <!ENTITY pageSourceCmd.label "Pinagmulan ng Pahina">
@@ -103,7 +103,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenMinimize.tooltip "Paliitin">
 <!ENTITY fullScreenRestore.tooltip "Ibalik">
 <!ENTITY fullScreenClose.tooltip "Isara">
-<!ENTITY fullScreenAutohide.label "Itago ang mga Hálang">
+<!ENTITY fullScreenAutohide.label "Itago ang mga Halang">
 <!ENTITY fullScreenAutohide.accesskey "T">
 <!ENTITY fullScreenExit.label "Itigil ang Pagsakop sa Buong Screen">
 <!ENTITY fullScreenExit.accesskey "B">
@@ -146,7 +146,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.accesskey            "G">
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Itigil ang pag-load sa pahinang ito">
-<!ENTITY goEndCap.tooltip             "Puntahan ang address sa Hálang ng Lokasyon">
+<!ENTITY goEndCap.tooltip             "Puntahan ang address sa Halang ng Lokasyon">
 <!ENTITY printButton.label            "I-print">
 <!ENTITY printButton.tooltip          "I-print itong pahina">
 
@@ -172,7 +172,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.tooltip        "Ipakita ang iyong mga bookmark">
 <!ENTITY bookmarksMenuButton.unsorted.label "Halo-halong mga Bookmark">
 <!ENTITY viewBookmarksSidebar.label         "Ipakita sa Sidebar">
-<!ENTITY viewBookmarksToolbar.label         "Ipakita ang Hálang ng mga Bookmark">
+<!ENTITY viewBookmarksToolbar.label         "Ipakita ang Halang ng mga Bookmark">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -246,8 +246,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  application menu item that opens the browser debugger UI in the Tools menu. -->
 <!ENTITY chromeDebuggerMenu.label       "Browser Debugger">
 
-<!ENTITY devToolbarCloseButton.tooltiptext "Isara ang Hálang ng Developer">
-<!ENTITY devToolbarMenu.label              "Hálang ng Developer">
+<!ENTITY devToolbarCloseButton.tooltiptext "Isara ang Halang ng Developer">
+<!ENTITY devToolbarMenu.label              "Halang ng Developer">
 <!ENTITY devToolbarMenu.accesskey          "v">
 <!ENTITY devAppMgrMenu.label               "Tagapamahala ng App">
 <!ENTITY devAppMgrMenu.accesskey           "A">
@@ -308,7 +308,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewMenu.label         "Tanaw"> 
 <!ENTITY viewMenu.accesskey       "T"> 
-<!ENTITY viewToolbarsMenu.label       "Mga Hálang"> 
+<!ENTITY viewToolbarsMenu.label       "Mga Halang"> 
 <!ENTITY viewToolbarsMenu.accesskey     "H"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "e">
@@ -330,7 +330,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Edit">
 <!ENTITY appMenuCustomize.label "I-customize">
-<!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Hálang">
+<!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Halang">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
 <!ENTITY appMenuFind.label "Maghanap…">
 <!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
@@ -639,7 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Sync">
 
-<!ENTITY addonBarCloseButton.tooltip  "Isara ang Hálang ng Add-on">
+<!ENTITY addonBarCloseButton.tooltip  "Isara ang Halang ng Add-on">
 <!ENTITY toggleAddonBarCmd.key        "/">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera na ibabahagi:">
@@ -650,7 +650,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY webrtcIndicatorButton.label "Access sa Kamera / Mikropono">
 <!ENTITY webrtcIndicatorButton.tooltip "Ipakita ang mga site na kasalukuyan mong binabahagian ng kamera o mikropono">
 
-<!ENTITY mixedContentBlocked.helplink "Matuto nang higit pa">
+<!ENTITY mixedContentBlocked.helplink "Matuto ng higit pa">
 <!ENTITY mixedContentBlocked.moreinfo "Karamihan sa mga website ay gumagana pa rin kahit pa ang nilalamang ito ay hinarang.">
 
 <!ENTITY pointerLock.notification.message "Pindutin ang ESC anumang oras para ipakita ito ulit.">
