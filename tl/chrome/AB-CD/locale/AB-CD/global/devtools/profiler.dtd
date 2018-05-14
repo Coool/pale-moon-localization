@@ -13,7 +13,7 @@
 
 <!-- LOCALIZATION NOTE (profilerUI.emptyNotice1/2): This is the label shown
   -  in the call list view when empty. -->
-<!ENTITY profilerUI.emptyNotice1    "• I-click ang">
+<!ENTITY profilerUI.emptyNotice1    "I-click ang">
 <!ENTITY profilerUI.emptyNotice2    "button upang simulan ang pagtatala ng mga tawag sa JavaScript function.">
 
 <!-- LOCALIZATION NOTE (profilerUI.stopNotice1/2): This is the label shown
@@ -46,17 +46,17 @@
 <!ENTITY profilerUI.toolbar.waterfall "Timeline">
 <!ENTITY profilerUI.toolbar.js-calltree "JavaScript">
 <!ENTITY profilerUI.toolbar.memory-calltree "Memorya">
-<!ENTITY profilerUI.toolbar.js-flamegraph "JS Flame Tsart">
-<!ENTITY profilerUI.toolbar.memory-flamegraph "Memory Flame Tsart">
+<!ENTITY profilerUI.toolbar.js-flamegraph "JS Flame Chart">
+<!ENTITY profilerUI.toolbar.memory-flamegraph "Memory Flame Chart">
 
 <!-- LOCALIZATION NOTE (profilerUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
-<!ENTITY profilerUI.table.totalDuration2  "Kabuoang Oras">
+<!ENTITY profilerUI.table.totalDuration2  "Kabuuang Oras">
 <!ENTITY profilerUI.table.selfDuration2   "Sariling Oras">
-<!ENTITY profilerUI.table.totalPercentage "Kabuoang Gastos">
+<!ENTITY profilerUI.table.totalPercentage "Kabuuang Gastos">
 <!ENTITY profilerUI.table.selfPercentage  "Sariling Gastos">
 <!ENTITY profilerUI.table.samples         "Mga halimbawa">
-<!ENTITY profilerUI.table.totalAlloc      "Kabuoang mga Alokasyon">
+<!ENTITY profilerUI.table.totalAlloc      "Kabuuang mga Alokasyon">
 <!ENTITY profilerUI.table.selfAlloc       "Sariling mga Alokasyon">
 <!ENTITY profilerUI.table.function        "Function">
 
@@ -82,7 +82,7 @@
   -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
 <!ENTITY profilerUI.showPlatformData             "Ipakita ang Datos sa Goanna Platform">
-<!ENTITY profilerUI.showPlatformData.tooltiptext "Pagpapakita ng datos ng plataporma ay nagpapagna sa paguulat ng JavaScript profile na isama ang mga Goanna platform symbols.">
+<!ENTITY profilerUI.showPlatformData.tooltiptext "Pinapayagan ng pagpapakita ng datos sa plataporma ang mga ulat sa JavaScript profiler na isama ang Goanna platform symbols.">
 
 <!-- LOCALIZATION NOTE (profilerUI.flattenTreeRecursion): This is the
   -  label for the checkbox that toggles the flattening of tree recursion in inspected

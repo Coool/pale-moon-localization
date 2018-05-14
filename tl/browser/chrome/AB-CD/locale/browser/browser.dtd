@@ -51,9 +51,9 @@ can reach it easily. -->
 <!ENTITY tabCmd.label "Bagong Tab">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "Bumukas ng Lokasyon…">
+<!ENTITY openLocationCmd.label "Bumukás ng Lokasyon…">
 <!ENTITY openLocationCmd.accesskey "L">
-<!ENTITY openFileCmd.label "Bumukas ng File…">
+<!ENTITY openFileCmd.label "Bumukás ng File…">
 <!ENTITY openFileCmd.accesskey "M">
 <!ENTITY openFileCmd.commandkey "m">
 <!ENTITY printSetupCmd.label "Setup ng Pahina…">
@@ -91,9 +91,9 @@ can reach it easily. -->
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
 <!ENTITY enterFullScreenCmd.label "Sakupin ang Buong Screen">
-<!ENTITY enterFullScreenCmd.accesskey "F">
+<!ENTITY enterFullScreenCmd.accesskey "B">
 <!ENTITY exitFullScreenCmd.label "Umalis sa Buong Screen">
-<!ENTITY exitFullScreenCmd.accesskey "F">
+<!ENTITY exitFullScreenCmd.accesskey "B">
 <!ENTITY fullScreenCmd.label "Buong Screen">
 <!ENTITY fullScreenCmd.accesskey "B">
 <!ENTITY fullScreenCmd.macCommandKey "f">
@@ -133,7 +133,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY backCmd.label                "Bumalik">
 <!ENTITY backCmd.accesskey            "B">
-<!ENTITY backButton.tooltip           "Bumalik nang isang pahina">
+<!ENTITY backButton.tooltip           "Bumalik ng isang pahina">
 <!ENTITY forwardCmd.label             "Tumuloy">
 <!ENTITY forwardCmd.accesskey         "O">
 <!ENTITY forwardButton.tooltip        "Tumuloy sa susunod na pahina">
@@ -158,7 +158,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Menu">
-<!ENTITY appMenuButton.tooltip        "Buksan ang menu ng &brandShortName;">
+<!ENTITY appMenuButton.tooltip        "Buksán ang menu ng &brandShortName;">
 <!ENTITY homeButton.label             "Tahanan">
 
 <!ENTITY feedButton.label             "Magsuskribi">
@@ -309,12 +309,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewMenu.label         "Tanaw"> 
 <!ENTITY viewMenu.accesskey       "T"> 
 <!ENTITY viewToolbarsMenu.label       "Mga Halang"> 
-<!ENTITY viewToolbarsMenu.accesskey     "T"> 
+<!ENTITY viewToolbarsMenu.accesskey     "H"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
 <!ENTITY viewSidebarMenu.accesskey "e">
 <!ENTITY viewCustomizeToolbar.label       "I-customize"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
-<!ENTITY viewTabsOnTop.label            "Mga Tab nasa Itaas">
+<!ENTITY viewTabsOnTop.label            "Ilagay ang mga Tab sa Itaas">
 <!ENTITY viewTabsOnTop.accesskey        "T">
 
 <!ENTITY historyMenu.label "Kasaysayan">
@@ -332,7 +332,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuCustomize.label "I-customize">
 <!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Halang">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
-<!ENTITY appMenuFind.label "Hanapin…">
+<!ENTITY appMenuFind.label "Maghanap…">
 <!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
 <!ENTITY appMenuWebDeveloper.label "Web Developer">
 <!ENTITY appMenuGettingStarted.label "Pagsisimula">
@@ -368,17 +368,17 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!ENTITY openLinkCmdInTab.label       "Buksan ang Kawing sa Bagong Tab">
+<!ENTITY openLinkCmdInTab.label       "Buksán ang Kawing sa Bagong Tab">
 <!ENTITY openLinkCmdInTab.accesskey   "T">
-<!ENTITY openLinkCmd.label            "Buksan ang Kawing sa Bagong Window">
+<!ENTITY openLinkCmd.label            "Buksán ang Kawing sa Bagong Window">
 <!ENTITY openLinkCmd.accesskey        "W">
-<!ENTITY openLinkInPrivateWindowCmd.label "Buksan ang Kawing sa Bagong Pribadong Window">
+<!ENTITY openLinkInPrivateWindowCmd.label "Buksán ang Kawing sa Bagong Pribadong Window">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
-<!ENTITY openLinkCmdInCurrent.label     "Buksan ang Kawing sa Kasalukuyang Tab">
+<!ENTITY openLinkCmdInCurrent.label     "Buksán ang Kawing sa Kasalukuyang Tab">
 <!ENTITY openLinkCmdInCurrent.accesskey "G">
-<!ENTITY openFrameCmdInTab.label      "Buksan ang Frame sa Bagong Tab">
+<!ENTITY openFrameCmdInTab.label      "Buksán ang Frame sa Bagong Tab">
 <!ENTITY openFrameCmdInTab.accesskey  "T">
-<!ENTITY openFrameCmd.label           "Buksan ang Frame sa Bagong Window">
+<!ENTITY openFrameCmd.label           "Buksán ang Frame sa Bagong Window">
 <!ENTITY openFrameCmd.accesskey       "W">
 <!ENTITY showOnlyThisFrameCmd.label     "Ipakita Lamang Itong Frame">
 <!ENTITY showOnlyThisFrameCmd.accesskey "E">
@@ -440,15 +440,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY saveAudioCmd.label           "I-save ang Audio Bilang…">
 <!ENTITY saveAudioCmd.accesskey       "v">
 <!ENTITY emailImageCmd.label          "I-email ang Larawan…">
-<!ENTITY emailImageCmd.accesskey      "g">
+<!ENTITY emailImageCmd.accesskey      "m">
 <!ENTITY emailVideoCmd.label          "I-email ang Video…">
 <!ENTITY emailVideoCmd.accesskey      "a">
 <!ENTITY emailAudioCmd.label          "I-email ang Audio…">
 <!ENTITY emailAudioCmd.accesskey      "a">
 <!ENTITY playPluginCmd.label          "Paganahin itong plugin">
-<!ENTITY playPluginCmd.accesskey      "c">
+<!ENTITY playPluginCmd.accesskey      "g">
 <!ENTITY hidePluginCmd.label          "Itago itong plugin">
-<!ENTITY hidePluginCmd.accesskey      "H">
+<!ENTITY hidePluginCmd.accesskey      "G">
 <!ENTITY copyLinkCmd.label            "Kopyahin ang Lokasyon ng Kawing">
 <!ENTITY copyLinkCmd.accesskey        "a">
 <!ENTITY copyImageCmd.label           "Kopyahin ang Lokasyon ng Larawan">
@@ -462,7 +462,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyEmailCmd.label           "Kopyahin ang Email Address">
 <!ENTITY copyEmailCmd.accesskey       "E">
 <!ENTITY thisFrameMenu.label              "Itong Frame">
-<!ENTITY thisFrameMenu.accesskey          "h">
+<!ENTITY thisFrameMenu.accesskey          "t">
 
 <!-- Media (video/audio) controls -->
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
@@ -500,7 +500,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.label     "Itago ang mga Kontrol">
 <!ENTITY mediaHideControls.accesskey "K">
 <!ENTITY videoFullScreen.label       "Buong Screen">
-<!ENTITY videoFullScreen.accesskey   "F">
+<!ENTITY videoFullScreen.accesskey   "B">
 <!ENTITY videoSaveImage.label        "I-save ang Snapshot Bilang…">
 <!ENTITY videoSaveImage.accesskey    "S">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
@@ -538,8 +538,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.label                 "Zoom">
 <!ENTITY fullZoom.accesskey             "Z">
 
-<!ENTITY newTabButton.tooltip           "Bumukas ng bagong tab">
-<!ENTITY newWindowButton.tooltip        "Bumukas ng bagong window">
+<!ENTITY newTabButton.tooltip           "Bumukás ng bagong tab">
+<!ENTITY newWindowButton.tooltip        "Bumukás ng bagong window">
 <!ENTITY sidebarCloseButton.tooltip     "Isara ang sidebar">
 
 <!ENTITY cutButton.tooltip              "I-cut">
@@ -568,13 +568,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY closeCmd.label                 "Isara">  
 <!ENTITY closeCmd.key                   "W">  
-<!ENTITY closeCmd.accesskey             "C">
+<!ENTITY closeCmd.accesskey             "S">
 
 <!ENTITY pageStyleMenu.label "Estilo ng Pahina">
 <!ENTITY pageStyleMenu.accesskey "g">
 <!ENTITY pageStyleNoStyle.label "Walang Estilo">
 <!ENTITY pageStyleNoStyle.accesskey "n">
-<!ENTITY pageStylePersistentOnly.label "Basic na Estilo ng Pahina">
+<!ENTITY pageStylePersistentOnly.label "Basikong Estilo ng Pahina">
 <!ENTITY pageStylePersistentOnly.accesskey "b">
 
 <!ENTITY pageReportIcon.tooltip            "Palitan ang mga opsiyon sa pagharang ng mga pop-up para sa website na ito">
@@ -583,7 +583,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editPopupSettingsUnix.label "I-edit ang mga Preperensiya ng Tagaharang ng Pop-up">
 <!ENTITY editPopupSettings.label "I-edit ang mga Preperensiya ng Tagaharang ng Pop-up">
 <!ENTITY editPopupSettings.accesskey "E">
-<!ENTITY dontShowMessage.accesskey "D">
+<!ENTITY dontShowMessage.accesskey "H">
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "Magpalit ng Direksyon sa Pahina">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "D">
@@ -594,8 +594,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.label     "Hanapin sa Pahina…">
 <!ENTITY findOnCmd.accesskey "H">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Hanapin Muli">
-<!ENTITY findAgainCmd.accesskey "g">
+<!ENTITY findAgainCmd.label  "Maghanap Ulit">
+<!ENTITY findAgainCmd.accesskey "u">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 
@@ -604,7 +604,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY editBookmark.done.label                     "Tapos Na">
 <!ENTITY editBookmark.cancel.label                   "Kanselahin">
-<!ENTITY editBookmark.removeBookmark.accessKey       "R">
+<!ENTITY editBookmark.removeBookmark.accessKey       "A">
 
 <!ENTITY identity.unverifiedsite2 "Hindi nagbigay ang website na ito ng impormasyon tungkol sa kanyang pagkakakilanlan.">
 <!ENTITY identity.connectedTo "Ikaw ay konektado sa">
@@ -643,20 +643,20 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY toggleAddonBarCmd.key        "/">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera na ibabahagi:">
-<!ENTITY getUserMedia.selectCamera.accesskey "C">
+<!ENTITY getUserMedia.selectCamera.accesskey "K">
 <!ENTITY getUserMedia.selectMicrophone.label "Mikropono na ibabahagi:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
 <!ENTITY webrtcIndicatorButton.label "Access sa Kamera / Mikropono">
 <!ENTITY webrtcIndicatorButton.tooltip "Ipakita ang mga site na kasalukuyan mong binabahagian ng kamera o mikropono">
 
-<!ENTITY mixedContentBlocked.helplink "Matuto nang higit pa">
+<!ENTITY mixedContentBlocked.helplink "Matuto ng higit pa">
 <!ENTITY mixedContentBlocked.moreinfo "Karamihan sa mga website ay gumagana pa rin kahit pa ang nilalamang ito ay hinarang.">
 
-<!ENTITY pointerLock.notification.message "Pindutin ang ESC anumang oras para ipakita ito muli.">
+<!ENTITY pointerLock.notification.message "Pindutin ang ESC anumang oras para ipakita ito ulit.">
 
 <!ENTITY pluginNotification.showAll.label "Ipakita Lahat">
-<!ENTITY pluginNotification.showAll.accesskey "S">
+<!ENTITY pluginNotification.showAll.accesskey "K">
 
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "Payagan Na">

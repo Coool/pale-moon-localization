@@ -27,11 +27,11 @@
 <!ENTITY checkSpelling.accesskey         "φ">
 
 <!ENTITY systemDefaults.label            "Προεπιλογές συστήματος">
-<!ENTITY alwaysCheckDefault.label        "Πάντα έλεγχος στην εκκίνηση για το αν ο &brandShortName; είναι ο προεπιλεγμένος περιηγητής"><!--XXX-->
+<!ENTITY alwaysCheckDefault.label        "Πάντα έλεγχος κατά την εκκίνηση για το αν ο &brandShortName; είναι ο προεπιλεγμένος περιηγητής"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "τ">
-<!ENTITY setDefault.label                "Ορίστε τον &brandShortName; ως τον προεπιλεγμένο περιηγητή">
+<!ENTITY setDefault.label                "Ορισμός του &brandShortName; ως του προεπιλεγμένου περιηγητή">
 <!ENTITY setDefault.accesskey            "ρ">
-<!ENTITY isDefault.label                 "Ο &brandShortName; είναι ο προεπιλεγμένος σας περιηγητής">
+<!ENTITY isDefault.label                 "Ο &brandShortName; είναι επί του παρόντος ο προεπιλεγμένος σας περιηγητής">
 
 <!ENTITY dataChoicesTab.label            "Επιλογές δεδομένων">
 
@@ -113,7 +113,7 @@
 
 <!ENTITY certificateTab.label            "Πιστοποιητικά">
 <!ENTITY certGroup.label                 "Προσωπικό πιστοποιητικό ασφαλείας">
-<!ENTITY certSelection.description       "Όταν ένας εξυπηρετητής απαιτεί ένα πιστοποιητικό:">
+<!ENTITY certSelection.description       "Όταν ένας διακομιστής απαιτεί προσωπικό πιστοποιητικό:">
 <!ENTITY certs.auto                      "Αυτόματη επιλογή ενός">
 <!ENTITY certs.auto.accesskey            "τ">
 <!ENTITY certs.ask                       "Ερώτηση κάθε φορά">
@@ -121,7 +121,7 @@
 <!ENTITY ocspGroup.label                 "Επικύρωση πιστοποιητικού">
 <!ENTITY enableOCSP.label                "Χρήση του Online Certificate Status Protocol (OCSP) για την επιβεβαίωση της εγκυρότητας πιστοποιητικών">
 <!ENTITY enableOCSP.accesskey            "Χ">
-<!ENTITY requireOCSP.label               "Όταν αποτύχει η σύνδεση με τον εξυπηρετητή OCSP, να θεωρείται άκυρο το πιστοποιητικό">
+<!ENTITY requireOCSP.label               "Όταν αποτυγχάνει μια σύνδεση διακομιστή OCSP, το πιστοποιητικό να θεωρείται άκυρο">
 <!ENTITY requireOCSP.accesskey           "τ">
 <!ENTITY viewCerts.label                 "Προβολή πιστοποιητικών">
 <!ENTITY viewCerts.accesskey             "ο">

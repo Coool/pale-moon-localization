@@ -48,47 +48,47 @@
 <!ENTITY netReset.longDesc "<p>Spojenie bolo v priebehu otvárania komunikačného kanála neočakávane prerušené. Prosím, skúste to znova.</p>">
 
 <!ENTITY netTimeout.title "Čas pre sieťovú operáciu vypršal">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>Požadováná stránka neodpovedala na požiadavku na pripojenie a prehliadač ukončil čakanie na odpoveď.</p><ul><li>Server môže byť veľmi vyťažený, alebo dočasne nedostupný. Opakujte neskôr znova.</li><li>Je možné, že sa jedná o sieťový problém medzi Vaším počítačom a serverom. Skontrolujte pripojenie k sieti.</li><li>Je Váš počítač, alebo sieť chránená pomocou firewallu, alebo proxy? Nesprávne nastavenia môžu spôsobovať problémy.</li><li>Pokiaľ problém pretrváva, konzultuje ho so správcom siete alebo poskytovateľom pripojenia k internetu.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Neznámy protokol">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Adresu určuje protokol (napr. <q>wxyz://</q>), ktorý prehliadač nerozpoznal a preto sa k nej nemôže správne pripojiť.</p><ul><li>Snažíte sa pripojiť k multimédiám, alebo inej netextovej službe? Skontrolujte, čo stránka požaduje.</li><li>Niektoré protokoly môžu vyžadovať software tretích strán, alebo zásuvné moduly skôr, ako ich prehliadač môže rozpoznať.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.title "Proxy server odmietol pripojenie">
+<!ENTITY proxyConnectFailure.longDesc "<p>Prehliadač je nakonfigurovaný na použitie proxy serveru, ktorý odmietol spojenie.</p><ul><li>Skontrolujte nastavenia proxy serveru a akciu opakujte.</li><li>Umožňuje proxy server pripojenie z Vašej siete?</li><li>Pokiaľ problém stále pretrváva, kontaktujte správcu siete, alebo poskytovateľa internetu.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyResolveFailure.title "Proxy server nebol nájdený">
+<!ENTITY proxyResolveFailure.longDesc "<p>Prehliadač je nakonfigurovaný na použitie proxy serveru, ktorý nie je možné nájsť.</p><ul><li>Skontrolujte nastavenia proxy serveru a akciu opakujte.</li><li>Je počítač pripojený do aktívnej siete?</li><li>Pokiaľ problém stále pretrváva, kontaktujte správcu siete, alebo poskytovateľa internetu.</li></ul>">
 
-<!ENTITY redirectLoop.title "Redirect Loop">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY redirectLoop.title "Nekonečné presmerovanie">
+<!ENTITY redirectLoop.longDesc "<p>Prehliadač zastavil pokus o načítanie požadovanej položky. Stránka požiadavku presmerováva tak, aby sa nikdy nedokončila.</p><ul><li>Máte vypnuté alebo blokované cookies požadované touto stránkou?</li><li><em>Poznámka</em>: Ak sa prijatím cookies problém nevyrieši, je to problém konfigurácie serveru a nie Vášho počítača.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Incorrect Response">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY unknownSocketType.title "Nesprávna odpoveď">
+<!ENTITY unknownSocketType.longDesc "<p>Stránka odpovedala na požiadavku neočakávaným spôsobom a prehliadač nemohol pokračovať.</p>">
 
-<!ENTITY nssFailure2.title "Secure Connection Failed">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY nssFailure2.title "Zabezpečené pripojenie zlyhalo">
+<!ENTITY nssFailure2.longDesc2 "<p>Stránku nie je možné zobraziť, pretože pravosť príjmaných údajov sa nedá overiť.</p><ul><li>Prosím obráťte sa na vlastníkov stránky a informujte ich o tomto probléme.</li></ul>">
 
-<!ENTITY nssBadCert.title "Secure Connection Failed">
+<!ENTITY nssBadCert.title "Zabezpečené pripojenie zlyhalo">
 <!ENTITY nssBadCert.longDesc2 "<ul>
  <li>Toto môže byť problém s konfiguráciou servera alebo sa ho niekto snaží napodobniť.</li>
  <li>Ak ste sa k tomuto serveru úspešne pripojili v minulosti, chyba môže byť dočasná a pokus by ste mali opakovať neskôr.</li>
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Suspected Attack Site!">
+<!ENTITY malwareBlocked.title "Podozrivá škodlivá stránka!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Škodlivé stránky sa pokúšajú nainštalovať programy, ktoré kradnú súkromné údaje, používajú počítač na útoky na iné počítače alebo poškodzujú systém.</p>
 <p>Vlastníci stránok, ktorí si myslia, že ich stránky boli označené ako škodlivé neprávom, môžu <a href='http://www.stopbadware.org/request-review' >požiadať o prehodnotenie</a>.</p>
 ">
 
-<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
+<!ENTITY phishingBlocked.title "Podozrivá stránka!">
 <!ENTITY phishingBlocked.longDesc "
 <p>Ak na tejto stránke zadáte nejaké osobné údaje, môžu byť použité na krádež identity alebo inak zneužité.</p>
 <p>Tieto typy falošných stránok sa používajú na podvody, pri ktorých sa kombináciou webovej stránky a e-mailových správ napodobňujú dôveryhodné zdroje.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "Blokované kvôli zásadám ochrany obsahu">
+<!ENTITY cspBlocked.longDesc "<p>Prehliadač zabránil načítaniu tejto stránky, pretože takýto spôsob načítania bezpečnostné pravidlá obsahu to zakazujú.</p>">
 
 <!ENTITY corruptedContentError.title "Poškodený obsah stránky">
 <!ENTITY corruptedContentError.longDesc "<p>Táto stránka nemohla byť zobrazená kvôli chybe pri prenose údajov.</p><ul><li>Kontaktuje prevádzkovateľa webovej stránky a informujte ho o tomto probléme.</li></ul>">

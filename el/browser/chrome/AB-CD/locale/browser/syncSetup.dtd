@@ -15,9 +15,9 @@
 <!ENTITY setup.choicePage.existing2.label "Χρησιμοποιώ ήδη τον &syncBrand.shortName.label; σε άλλη συσκευή">
 
 <!-- New Account AND Existing Account -->
-<!ENTITY server.label               "Εξυπηρετητής">
-<!ENTITY serverType.default.label      "Προεπιλογή: Εξυπηρετητής &syncBrand.fullName.label;">
-<!ENTITY serverType.custom2.label   "Χρήση προσαρμοσμένου εξυπηρετητή…">
+<!ENTITY server.label               "Διακομιστής">
+<!ENTITY serverType.default.label      "Προεπιλογή: Διακομιστής &syncBrand.fullName.label;">
+<!ENTITY serverType.custom2.label   "Χρήση προσαρμοσμένου διακομιστή…">
 <!ENTITY signIn.account2.label      "Λογαριασμός">
 <!ENTITY signIn.account2.accesskey  "γ">
 <!ENTITY signIn.password.label      "Κωδικός">
@@ -27,7 +27,7 @@
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "Λεπτομέρειες λογαριασμού">
-<!ENTITY setup.emailAddress.label     "Ηλεκ/κή Διεύ/ση">
+<!ENTITY setup.emailAddress.label     "Ηλεκτρονική Διεύθυνση">
 <!ENTITY setup.emailAddress.accesskey "E">
 <!ENTITY setup.choosePassword.label      "Επιλέξτε έναν κωδικό">
 <!ENTITY setup.choosePassword.accesskey  "ξ">
@@ -105,7 +105,7 @@
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title "Επιβεβαίωση">
-<!ENTITY confirm.merge2.label    "Ο &syncBrand.fullName.label; τώρα θα συγχωνεύσει όλα τα δεδομένα του περιηγητή αυτής της συσκευής με το λογαριασμό Sync σας.">
+<!ENTITY confirm.merge2.label    "Ο &syncBrand.fullName.label; τώρα θα συγχωνεύσει όλα τα δεδομένα του περιηγητή αυτής της συσκευής με τον λογαριασμό Συγχρονισμού σας.">
 <!ENTITY confirm.client3.label         "Προειδοποίηση: Θα διαγραφούν τα παρακάτω δεδομένα του &brandShortName; σε αυτή τη συσκευή:">
 <!ENTITY confirm.client2.moreinfo.label "Μετά, ο &brandShortName; θα αντιγράψει τα δεδομένα του &syncBrand.fullName.label; σας σε αυτή την συσκευή.">
 <!ENTITY confirm.server2.label         "Προειδοποίηση: Οι παρακάτω συσκευές θα αντικατασταθούν με τα τοπικά σας δεδομένα:">

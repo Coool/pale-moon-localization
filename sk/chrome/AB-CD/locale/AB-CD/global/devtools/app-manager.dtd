@@ -8,7 +8,7 @@
 <!ENTITY index.help "Pomocník">
 
 <!ENTITY device.debugMainProcess "Debug hlavný proces">
-<!ENTITY device.debugMainProcessTooltip "Open the Developer Tools connected to the main process on the device">
+<!ENTITY device.debugMainProcessTooltip "Otvoriť vývojárske nástroje pripojené k tomuto prehliadaču na zariadení">
 <!ENTITY device.screenshot "Snímok obrazovky">
 <!ENTITY device.screenshotTooltip "Otvorte snímku aktuálneho stavu zariadenia na novej karte">
 <!ENTITY device.title "Riadiace centrum zariadenia">
@@ -26,7 +26,7 @@
 <!ENTITY device.allow "Povoliť">
 <!ENTITY device.allowTooltip "Toto povolenie je povolené pre aplikácie tohto typu">
 <!ENTITY device.prompt "Výzva">
-<!ENTITY device.promptTooltip "This permission requires a user prompt for apps of this type">
+<!ENTITY device.promptTooltip "Toto povolenie vyžaduje výzvu používateľovi pre aplikácie tohto typu">
 <!ENTITY device.deny "Zakázať">
 <!ENTITY device.denyTooltip "Toto povolenie je zakázané pre aplikácie tohto typu">
 <!ENTITY device.installedApps "Nainštalované aplikácie">
@@ -49,7 +49,7 @@
 <!ENTITY connection.changeHostAndPort "Zmeniť">
 <!ENTITY connection.changeHostAndPortTooltip "Zmente host a port použitý na pripojenie k zariadeniu (predvolené localhost:6000)">
 <!ENTITY connection.startSimulator "Spustite simulátor">
-<!ENTITY connection.startSimulatorTooltip "Start an instance of the Simulator and connect to it">
+<!ENTITY connection.startSimulatorTooltip "Spustiť inštanciu simulátora a pripojiť sa k nemu">
 <!ENTITY connection.saveConnectionInfo "Uložiť">
 <!ENTITY connection.saveConnectionInfoTooltip "Uložiť host a port">
 <!ENTITY connection.connecting "Pripája sa…">
@@ -79,25 +79,25 @@
 <!ENTITY projects.debugApp "Ladiť">
 <!ENTITY projects.debugAppTooltip "Otvoriť vývojárske nástroje pripojené k tejto aplikácii">
 <!ENTITY projects.saveManifest "Uložiť">
-<!ENTITY projects.saveManifestTooltip "Save the contents of the Manifest Editor below">
+<!ENTITY projects.saveManifestTooltip "Uložiť obsah Manifest editoru nižšie">
 <!ENTITY projects.hostedManifestPlaceHolder2 "http://example.com/app/manifest.webapp">
-<!ENTITY projects.noProjects "No projects. Add a new packaged app below (local directory) or a hosted app (link to a manifest file).">
-<!ENTITY projects.manifestEditor "Manifest Editor">
-<!ENTITY projects.manifestEditorTooltip "Edit your app's manifest in the panel below. The Update button will save your changes and update the app.">
-<!ENTITY projects.manifestViewer "Manifest Viewer">
-<!ENTITY projects.manifestViewerTooltip "Examine your app's manifest in the panel below">
-<!ENTITY projects.valid "Valid">
+<!ENTITY projects.noProjects "Žiadne projekty. Pridajte novo zabalenú aplikáciu nižsie (miestna zložka) alebo hostovanú aplikáciu (odkaz na súbor s manifestom).">
+<!ENTITY projects.manifestEditor "Editor manifestu">
+<!ENTITY projects.manifestEditorTooltip "Upravte manifest aplikácie na paneli nižšie. Tlačidlo Aktualizovať uloží Vaše zmeny a aktualizuje aplikáciu.">
+<!ENTITY projects.manifestViewer "Prezerač Manifest">
+<!ENTITY projects.manifestViewerTooltip "Preskúmať manifest Vašej aplikácie na paneli nižšie">
+<!ENTITY projects.valid "Platný">
 <!ENTITY projects.error "Chyba">
-<!ENTITY projects.warning "Warning">
-<!ENTITY projects.hosted "Hosted">
-<!ENTITY projects.packaged "Packaged">
+<!ENTITY projects.warning "Varovanie">
+<!ENTITY projects.hosted "Hostované">
+<!ENTITY projects.packaged "Zabalené">
 
 <!ENTITY help.title "Správca aplikácií">
 <!ENTITY help.close "Zatvoriť">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
+<!ENTITY help.intro "Tento nástroj Vám pomôže zostavit a nainštalovať webové aplikácie na kompatibilné zariadenia (napr. Firefox OS). Panel <strong>Aplikácie</strong> Vám pomôže s ich kontrolov a inštaláciou. Na panele <strong>Zariadenia</strong> nájdete informácie o pripojených zariadeniach. Pre pripojenie zariadenia alebo spustenie simulátoru použite spodnú lištu.">
 <!ENTITY help.usefullLinks "Užitočné odkazy:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.appMgrDoc "Dokumentácia: Použitím Správcu aplikácií">
+<!ENTITY help.configuringDevice "Ako nastaviť Vaše Firefox OS zariadenie">
+<!ENTITY help.troubleShooting "Riešenie problémov">
+<!ENTITY help.simulatorAddon "Nainštalujte doplnok Simulátor">
+<!ENTITY help.adbHelperAddon "Inštalovať doplnok Adb Helper">

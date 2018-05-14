@@ -6,7 +6,7 @@
 %brandDTD;
 
 <!ENTITY loadError.label "Problema sa pag-load ng pahina">
-<!ENTITY retry.label "Subukan Muli">
+<!ENTITY retry.label "Subukan Ulit">
 
 <!-- Specific error messages -->
 
@@ -55,12 +55,12 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Walang Bisang Dokumento">
-<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay wala sa cache ng &brandShortName;.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi awtomatikong hiniling muli ng &brandShortName; ang mga sensitibong dokumento.</li><li>Pindutin ang Subukan Muli para hilingin muli ang dokumento mula sa website.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay wala sa cache ng &brandShortName;.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi awtomatikong hiniling ulit ng &brandShortName; ang mga sensitibong dokumento.</li><li>Pindutin ang Subukan Ulit para hilingin ulit ang dokumento mula sa website.</li></ul>">
 
 <!ENTITY netOffline.title "Gumagawa nang Walang Internet">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Pindutin ang &quot;Subukan Muli&quot; para lumipat sa online mode at ulitin ang pag-load sa pahina.</li>
+  <li>Pindutin ang &quot;Subukan Ulit&quot; para lumipat sa online mode at ulitin ang pag-load sa pahina.</li>
 </ul>
 ">
 
@@ -87,7 +87,7 @@
 <!ENTITY unknownProtocolFound.title "Ang address ay hindi naintindihan">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Baka kailanganin mong mag-install ng ibang software para mabuksan itong address.</li>
+  <li>Baka kailanganin mong mag-install ng ibang software para mabuksán itong address.</li>
 </ul>
 ">
 
@@ -135,13 +135,13 @@
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
   <li>Ito ay maaaring problema sa configuration ng server, o maaari din na may taong gustong gayahin ang server na ito.</li>
-  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito noon, maaaring ang pagkakamaling ito ay pansamantala lamang, at puwede mong subukan ito muli mamaya.</li>
+  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito noon, maaaring ang pagkakamaling ito ay pansamantala lamang, at puwede mong subukan ito ulit mamaya.</li>
 </ul>
 ">
 
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>Ang site ay maaaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
+  <li>Ang site ay maaaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan ulit makalipas ang ilang sandali.</li>
   <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompiyuter.</li>
   <li>Kung ang iyong kompiyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
@@ -193,11 +193,11 @@ functionality specific to firefox. -->
 <!ENTITY errorReporting.title "I-ulat itong pagkakamali">
 <!ENTITY errorReporting.longDesc "Ang pag-ulat sa address at impormasyon tungkol sa sertipiko ng <span id='hostname'></span> ay makatutulong upang makilala at maharang namin ang mga site na may masamang hangarin. Maraming salamat sa iyong pagtulong sa paggawa ng mas ligtas na web!">
 <!ENTITY errorReporting.automatic "Awtomatikong mag-ulat tungkol sa mga pagkakamali sa hinaharap">
-<!ENTITY errorReporting.learnMore "Matuto nang higit pa…">
+<!ENTITY errorReporting.learnMore "Matuto ng higit pa…">
 <!ENTITY errorReporting.sending "Ipinadadala ang ulat">
 <!ENTITY errorReporting.sent "Naipadala na ang ulat">
 <!ENTITY errorReporting.report "I-ulat">
-<!ENTITY errorReporting.tryAgain "Subukan muli">
+<!ENTITY errorReporting.tryAgain "Subukan ulit">
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
@@ -206,4 +206,4 @@ functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
-<!ENTITY sslv3Used.learnMore "Matuto nang higit pa…">
+<!ENTITY sslv3Used.learnMore "Matuto ng higit pa…">

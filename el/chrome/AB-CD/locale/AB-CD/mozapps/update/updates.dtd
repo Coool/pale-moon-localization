@@ -1,16 +1,16 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Ενημέρωση &brandShortName;">
+<!ENTITY  updateWizard.title              "Ενημέρωση Λογισμικού">
 
 <!ENTITY  checking.title                  "Έλεγχος για ενημερώσεις">
-<!ENTITY  updateCheck.label               "Έλεγχος για ενημερώσεις, αλλά με δυνατότητα επιλογής για το αν εγκατασταθούν ή όχι">
+<!ENTITY  updateCheck.label               "Αναζήτηση νεότερων εκδόσεων του &brandShortName;…">
 
 <!ENTITY  pluginupdatesfound.title        "Βρέθηκαν ενημερώσεις για πρόσθετες λειτουργίες">
 <!ENTITY  pluginupdatesfound.label        "Βρέθηκαν νεότερες εκδόσεις για μια ή περισσότερες πρόσθετες λειτουργίες.">
 <!ENTITY  pluginupdateslink.label         "Δείτε τον τρόπο ενημέρωσης των πρόσθετων λειτουργιών σας.">
 
-<!ENTITY  noupdatesfound.title            "Δεν υπάρχουν ενημερώσεις">
+<!ENTITY  noupdatesfound.title            "Δεν βρέθηκαν ενημερώσεις">
 <!ENTITY  noupdatesautoenabled.intro      "Δεν υπάρχουν νέες ενημερώσεις διαθέσιμες. Ο &brandShortName; μπορεί να ελέγχει ανά τακτά χρονικά διαστήματα για ενημερώσεις.">
 <!ENTITY  noupdatesautodisabled.intro     "Δεν υπάρχουν νέες ενημερώσεις διαθέσιμες. Παρακαλώ ελέγξτε ξανά αργότερα ή ενεργοποιήστε τον αυτόματο έλεγχο ενημερώσεων του &brandShortName;.">
 
@@ -28,7 +28,7 @@
 <!ENTITY  incompatibleCheck.title         "Έλεγχος συμβατότητας προσθέτων">
 <!ENTITY  incompatibleCheck.label         "Αναζήτηση για νεότερες εκδόσεις των προσθέτων σας…">
 
-<!ENTITY  clickHere.label                 "Μάθετε περισσότερα για αυτή την ενημέρωση">
+<!ENTITY  clickHere.label                 "Προβολή πληροφοριών για αυτήν την ενημέρωση">
 
 <!ENTITY  evangelism.desc                 "Σας συστήνουμε να εγκαταστήσετε αυτή την ενημέρωση για τον &brandShortName; όσο το δυνατόν πιο σύντομα.">
 
@@ -36,7 +36,7 @@
                                            να συνεχίσετε με την εγκατάσταση αυτής της ενημέρωσης.">
 
 <!ENTITY  license.titleText               "Άδεια χρήσης λογισμικού">
-<!ENTITY  license.introText               "Όροι και συνθήκες χρήσης αυτού του λογισμικού.">
+<!ENTITY  license.introText               "Όροι και προϋποθέσεις χρήσης αυτού του λογισμικού.">
 <!ENTITY  license.instructionText         "Διαβάστε την ακόλουθη άδεια χρήσης. Χρησιμοποιήστε την μπάρα κύλισης για να δείτε το υπόλοιπο κείμενο της άδειας.">
 <!ENTITY  license.accept                  "Αποδέχομαι τους όρους της άδειας χρήσης">
 <!ENTITY  license.accept.accesskey        "χ">
@@ -46,8 +46,8 @@
 <!ENTITY  incompatibleList.title          "Βρέθηκαν ασύμβατα πρόσθετα">
 
 <!ENTITY  downloadPage.title              "Γίνεται λήψη του &brandShortName;">
-<!ENTITY  downloading.intro               "Γίνεται λήψη της ενημέρωσης...">
-<!ENTITY  connecting.label                "Σύνδεση με τον εξυπηρετητή ενημερώσεων...">
+<!ENTITY  downloading.intro               "Λήψη ενημέρωσης σε εξέλιξη…">
+<!ENTITY  connecting.label                "Σύνδεση στον διακομιστή ενημερώσεων σε εξέλιξη…">
 <!ENTITY  verificationFailedText.label    "Ο &brandShortName; δεν μπόρεσε να επιβεβαιώσει την ακεραιότητα της σταδιακής ενημέρωσης που 
                                            λήφθηκε, και έτσι τώρα κάνει λήψη ολόκληρου του πακέτου αναβάθμισης.">
 
@@ -55,7 +55,7 @@
 
 <!ENTITY  details.link                    "Λεπτομέρειες">
 
-<!ENTITY  error.title                     "Αποτυχία ενημέρωσης">
+<!ENTITY  error.title                     "Αποτυχία Ενημέρωσης">
 
 <!ENTITY  error.label                     "Υπήρξαν προβλήματα με τον έλεγχο, τη λήψη ή την εγκατάσταση αυτής της ενημέρωσης. Ο &brandShortName; δεν
                                            κατάφερε να ενημερωθεί λόγω του:">
@@ -71,7 +71,7 @@
                                            Παρακαλώ ελέγξτε ότι έχετε την πιο πρόσφατη έκδοση του &brandShortName; από:">
 <!ENTITY  errorCertAttrHasUpdate.label    "Κάτι προσπαθεί να ξεγελάσει τον &brandShortName; ώστε να δεχθεί μια μη ασφαλή ενημέρωση. Παρακαλώ επικοινωνήστε με τον πάροχό σας για βοήθεια.">
 
-<!ENTITY  finishedPage.title              "Η ενημέρωση είναι έτοιμη για εγκατάσταση">
+<!ENTITY  finishedPage.title              "Ενημέρωση έτοιμη προς εγκατάσταση">
 <!ENTITY  finishedPage.text               "Η ενημέρωση θα εγκατασταθεί κατά την επόμενη εκκίνηση του &brandShortName;. Μπορείτε
                                            να επανεκκινήσετε τον &brandShortName; τώρα ή να συνεχίσετε και να τον επανεκκινήσετε αργότερα.">
 
@@ -86,5 +86,5 @@
 <!ENTITY  whatsnew.label                  "Διαβάστε περισσότερα για το τι νέο υπάρχει...">
 
 <!ENTITY  update.details.label            "Λεπτομέρειες">
-<!ENTITY  update.installedOn.label        "Εγκαταστάθηκε σε:">
+<!ENTITY  update.installedOn.label        "Εγκαταστάθηκε στις:">
 <!ENTITY  update.status.label             "Κατάσταση:">
