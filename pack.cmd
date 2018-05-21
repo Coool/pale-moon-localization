@@ -1,5 +1,5 @@
 @echo off
-set REL=27.9.0
+set REL=27.9.2
 rem ar da fi gl hr id is ja kn ro sk sl sr vi zh-TW
 set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sv-SE tl tr uk zh-CN
 
