@@ -15,7 +15,7 @@ temp_dir=$(mktemp -d /tmp/crowdin.XXXXXX)
 trap "rm -rf $temp_dir" 0 2 3 15
 
 printf "\n  unzipping $1.zip ... "
-unzip -q $1.zip -d $temp_dir
+unzip -q $1.zip -x "v27/*" -d $temp_dir
 if [ $? -eq 0 ]; then
   printf "done\n"
 else
