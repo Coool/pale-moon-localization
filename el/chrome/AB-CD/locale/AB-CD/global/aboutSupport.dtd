@@ -6,7 +6,9 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-Αυτή η σελίδα περιέχει τεχνικές πληροφορίες που μπορεί να σας χρησιμεύσουν στην επίλυση κάποιου προβλήματος. Αν ψάχνετε για απαντήσεις σε συχνές ερωτήσεις σχετικά με τον &brandShortName;, συμβουλευτείτε τη σχετική <a id='supportLink'>ιστοσελίδα υποστήριξης</a>.
+  Αυτή η σελίδα περιέχει τεχνικές πληροφορίες που πιθανόν να σας φανούν χρήσιμες στην επίλυση κάποιων  
+  προβλημάτων. Αν ψάχνετε για απαντήσεις σε συχνές ερωτήσεις για τον 
+  &brandShortName;, επισκεφτείτε την <a id='supportLink'>σελίδα υποστήριξης</a>.
 ">
 
 <!ENTITY aboutSupport.crashes.title "Αναφορές Καταρρεύσεων">
@@ -30,18 +32,18 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Ενεργό">
 <!ENTITY aboutSupport.experimentEndDate "Ημ/νία Λήξης">
 <!ENTITY aboutSupport.experimentHomepage "Οικοσελίδα">
-
+<!ENTITY aboutSupport.experimentBranch "Διακλάδωση">
 
 <!ENTITY aboutSupport.appBasicsTitle "Βασικές Πληροφορίες Εφαρμογής">
 <!ENTITY aboutSupport.appBasicsName "Όνομα">
 <!ENTITY aboutSupport.appBasicsVersion "Έκδοση">
-<!ENTITY aboutSupport.appBasicsBuildID "ID δημιουργίας">
+<!ENTITY aboutSupport.appBasicsBuildID "ID έκδοσης">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
 <!ENTITY aboutSupport.appBasicsUpdateChannel "Κανάλι ενημερώσεων">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Ιστορικό Ενημερώσεων">
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Προβολή Ιστορικού Ενημερώσεων">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Προβολή ιστορικού ενημερώσεων">
 
 <!ENTITY aboutSupport.appBasicsProfileDir "Κατάλογος Προφίλ">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
@@ -50,12 +52,18 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "Φάκελος Προφίλ">
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Ενεργές Πρόσθετες Λειτουργίες">
-<!ENTITY aboutSupport.appBasicsBuildConfig "Διάρθρωση δημιουργίας">
-<!ENTITY aboutSupport.appBasicsUserAgent "Συμβολοσειρά παράγοντα χρήστη">
+<!ENTITY aboutSupport.appBasicsBuildConfig "Ρύθμιση δομής">
+<!ENTITY aboutSupport.appBasicsUserAgent "Λειτουργία χρήσης">
 <!ENTITY aboutSupport.appBasicsOS "Λειτουργικό Σύστημα">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Χρήση Μνήμης">
+<!ENTITY aboutSupport.appBasicsPerformance "Επιδόσεις">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Παράθυρα Πολυδιεργασίας">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Εγγεγραμμένα Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Προφίλ">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Παράθυρα πολυδιεργασιών">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Ασφαλής Λειτουργία">
 
@@ -63,10 +71,10 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Προβολή στην «Εύρεση»">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!ENTITY aboutSupport.showMac.label "Προβολή στον Finder">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Προβολή Φακέλου">
+<!ENTITY aboutSupport.showWin2.label "Άνοιγμα φακέλου">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Σημαντικές Τροποποιημένες Προτιμήσεις">
 <!ENTITY aboutSupport.modifiedPrefsName "Όνομα">
@@ -74,7 +82,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "Προτιμήσεις user.js">
-<!ENTITY aboutSupport.userJSDescription "Ο φάκελος του προφίλ σας περιέχει ένα <a id='prefs-user-js-link'>αρχείο user.js</a>, το οποίο περιλαμβάνει προτιμήσεις που δεν δημιουργήθηκαν από τον &brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Ο φάκελος του προφίλ σας περιέχει το <a id='prefs-user-js-link'>αρχείο user.js</a>, που περιέχει προτιμήσεις που δεν δημιουργήθηκαν από τον &brandShortName;.">
 
 <!ENTITY aboutSupport.lockedKeyPrefsTitle "Σημαντικές Κλειδωμένες Προτιμήσεις">
 <!ENTITY aboutSupport.lockedPrefsName "Όνομα">
@@ -82,12 +90,12 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Γραφικά">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Βάση δεδομένων «Places»">
+<!ENTITY aboutSupport.placeDatabaseTitle "Βάση δεδομένων τοποθεσιών">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Ακεραιότητα">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Επαλήθευση Ακεραιότητας">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
-<!ENTITY aboutSupport.jsIncrementalGC "ΣΣ προσαύξησης">
+<!ENTITY aboutSupport.jsIncrementalGC "Αυξητική ΣΣ">
 
 <!ENTITY aboutSupport.a11yTitle "Προσβασιμότητα">
 <!ENTITY aboutSupport.a11yActivated "Ενεργοποιήθηκε">
@@ -101,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Αντιγραφή κειμένου στο πρόχειρο">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Αντιγραφή ακατέργαστων δεδομένων στο πρόχειρο">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
 <!ENTITY aboutSupport.safeModeTitle "Δοκιμή Ασφαλούς Λειτουργίας">
 <!ENTITY aboutSupport.restartInSafeMode.label "Επανεκκίνηση σε Ασφαλή Λειτουργία…">
 
 <!ENTITY aboutSupport.restartTitle "Δοκιμή Επανεκκίνησης">
 <!ENTITY aboutSupport.restartNormal.label "Κανονική επανεκκίνηση…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Λειτουργίες">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Διαγνωστικά">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Αρχείο καταγραφής αποτυχιών">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Αρχείο καταγραφής αποφάσεων">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Απενεργοποιημένες λειτουργίες φύλαξης κατάρρευσης">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Λύσεις">

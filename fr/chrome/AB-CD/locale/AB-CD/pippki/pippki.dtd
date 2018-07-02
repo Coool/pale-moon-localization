@@ -16,11 +16,6 @@
 <!ENTITY resetPassword.text  "Si le mot de passe principal est réinitialisé, tous les mots de passe Web et de courriels, les données de formulaires, les certificats personnels et les clés privées seront oubliés.
 Faut-il vraiment réinitialiser le mot de passe principal ?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Saisir le mot de passe principal">
-<!ENTITY getPassword.tokenName2.label "Périphérique de sécurité :">
-<!ENTITY getPassword.password.label "Mot de passe :">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Téléchargement du certificat">
 <!ENTITY downloadCert.message1 "Une demande de confirmer une nouvelle Autorité de Certification (AC) a été émise.">
@@ -37,11 +32,6 @@ Faut-il vraiment réinitialiser le mot de passe principal ?">
 <!ENTITY clientAuthAsk.message2 "Choisir un certificat à présenter comme identification :">
 <!ENTITY clientAuthAsk.message3 "Détails du certificat sélectionné :">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Sélectionner un certificat">
-<!ENTITY certPicker.info  "Certificat :">
-<!ENTITY certPicker.detailsLabel "Détails du certificat sélectionné :">
-
 <!ENTITY pkcs12.setpassword.title  "Choisir un mot de passe de sauvegarde du certificat">
 <!ENTITY pkcs12.setpassword.message  "Le mot de passe de sauvegarde du certificat que vous venez de définir protège le fichier de sauvegarde que vous allez créer. Vous devez définir ce mot de passe pour commencer cette sauvegarde.">
 <!ENTITY pkcs12.setpassword.label1 "Mot de passe de sauvegarde du certificat :">
@@ -50,13 +40,6 @@ Faut-il vraiment réinitialiser le mot de passe principal ?">
 
 <!ENTITY chooseToken.title  "Choisir un jeton">
 <!ENTITY chooseToken.message1 "Merci de choisir un jeton.">
-
-<!ENTITY escrowWarn.title "Copie de la clé de chiffrement">
-<!ENTITY escrowWarn.message1 "Important : cette autorité de certificat a demandé à faire une sauvegarde de votre clé privée de chiffrement.">
-<!ENTITY escrowWarn.benefit1 "L'intérêt est qu'en cas de perte de l'accès à la clé de chiffrement privée, il sera possible d'en demander une copie à cette Autorité de Certification.">
-<!ENTITY escrowWarn.message2 "Cependant, la clé de chiffrement privée sera stockée par l'Autorité de Certification, et pourra être utilisée pour lire le courriel ou des documents chiffrés sans permission.">
-<!ENTITY examineCert.label "Voir le certificat">
-<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Génération d'une clé privée">

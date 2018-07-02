@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "一般">
 <!ENTITY status4evar.tab.toolbar "狀態列">
-<!ENTITY status4evar.tab.urlbar "網址列">
 <!ENTITY status4evar.tab.popup "快顯">
 <!ENTITY status4evar.tab.tabs "分頁">
 
 <!ENTITY status4evar.option.none "無">
 <!ENTITY status4evar.option.nothing "不使用">
 <!ENTITY status4evar.option.toolbar "狀態列">
-<!ENTITY status4evar.option.urlbar "網址列">
 <!ENTITY status4evar.option.popup "快顯">
 <!ENTITY status4evar.option.tooltip "提示">
 <!ENTITY status4evar.option.bottom "底部">
 <!ENTITY status4evar.option.top "頂端">
-<!ENTITY status4evar.option.fill "填滿">
 <!ENTITY status4evar.option.dlcount "下載次數">
 <!ENTITY status4evar.option.dltime "仍需時間">
 <!ENTITY status4evar.option.both "兩者">
 <!ENTITY status4evar.option.right "右邊">
 <!ENTITY status4evar.option.left "左邊">
-<!ENTITY status4evar.option.fixed "固定">
 <!ENTITY status4evar.option.simple "簡單">
 <!ENTITY status4evar.option.advanced "進階">
 <!ENTITY status4evar.option.browse "瀏覽">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "狀態最多幾字：">
 
-<!ENTITY status4evar.status.urlbar.align.label "狀態對齊：">
-<!ENTITY status4evar.status.urlbar.color.label "狀態顏色：">
-<!ENTITY status4evar.status.currentUrl "目前所在">
-<!ENTITY status4evar.status.statusText "狀態文字">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox相容特性">
 <!ENTITY browser.urlbar.formatting.enabled.label "啟用將網域高亮度化">
 <!ENTITY browser.urlbar.trimming.enabled.label "啟用隱藏網路協定(http://和ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "滑鼠滑過時切換邊">
 
 <!ENTITY status4evar.progress.style.label "使用一個自定樣式">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "在位址列顯示進度條">
-<!ENTITY status4evar.progress.urlbar.line.label "連結樣式：">
 
 <!ENTITY status4evar.progress.toolbar.force.label "始終顯示進度表">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "使用另一種工具列邊框">
 <!ENTITY status4evar.addonbar.windowGripper "顯示視窗重新調整大小夾持器">
 <!ENTITY status4evar.addonbar.closeButton "顯示關閉按鈕">
-
-<!ENTITY status4evar.advanced.warning "這些先進的設置可能導致Pale Moon或其他插件的問題。修改要自行負擔風險">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "嘗試強制網址列 XBL 綁定">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "只有在網址列中確顯示進度或狀態文字有問題時才選用此選項。這可能會破壞其他插件嘗試要把XBL綁定到位址列的動作">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "偵測全螢幕模式，並適當的顯示連結/狀態">
 <!ENTITY status4evar.advanced.status.detectVideo "在全螢幕 HTML5 影片時，抑止狀態跳出">

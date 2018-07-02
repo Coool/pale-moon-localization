@@ -2,103 +2,87 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Page Load Error">
-<!ENTITY retry.label "Try Again">
+<!ENTITY loadError.label "ಪುಟ ಲೋಡ್‍ ಆಗುವಾಗಿನ ತೊಂದರೆ">
+<!ENTITY retry.label "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Failed to Connect">
-<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY connectionFailure.title "ಸಂಪರ್ಕ ಹೊಂದಲು ವಿಫಲವಾಯಿತು">
+<!ENTITY connectionFailure.longDesc "<p>ತಾಣವು ಸಿಂಧುವೆಂದು ತೋರಿದರೂ, ವೀಕ್ಷಕಕ್ಕೆ ಒಂದು ಸಂಪರ್ಕವನ್ನು ಸಾಧಿಸಲು ವಿಫಲವಾಗಿದೆ.</p><ul><li>ತಾಣವು ತಾತ್ಕಾಲಿಕವಾಗಿ ಅಲಭ್ಯವಾಗಿರಬೇಕೆ?ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಪ್ರಯತ್ನಿಸಿ.</li><li>ಇತರೆ ತಾಣಗಳನ್ನು ವೀಕ್ಷಿಸಲು ನಿಮ್ಮಿಂದ ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲವೆ?  ಗಣಕದ ಜಾಲಬಂಧ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ.</li><li>ನಿಮ್ಮ ಗಣಕ ಅಥವ ಜಾಲ ಸಂಪರ್ಕವು ಫೈರ್ವಾಲ್ ಅಥವ ಪ್ರಾಕ್ಸಿಯಿಂದ ಸಂರಕ್ಷಿತಗೊಂಡಿದೆಯೆ? ಸರಿಯಲ್ಲದ ಸಿದ್ಧತೆಗಳು ಜಾಲ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಹಸ್ತಕ್ಷೇಪ ಮಾಡಬಹುದು.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "ಸುರಕ್ಷತಾ ಕಾರಣಗಳಿಂದಾಗಿ ಸಂಪರ್ಕಸ್ಥಾನವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
+<!ENTITY deniedPortAccess.longDesc "<p>ಮನವಿ ಸಲ್ಲಿಸಲಾದ ವಿಳಾಸವು ಒಂದು ಸಂಪರ್ಕ ಸ್ಥಾನವನ್ನು (e.g. <q>mozilla.org:80</q> ಪೋರ್ಟ್ 80 ಕ್ಕೆ mozilla.org ನಲ್ಲಿ) ಸೂಚಿಸಿದೆ ಸಾಮಾನ್ಯವಾಗಿ ಜಾಲ ವೀಕ್ಷಣೆಯಲ್ಲದೆ <em>ಇತರೆ</em> ಕಾರ್ಯಗಳಿಗೂ ಬಳಸಲ್ಪಡುತ್ತದೆ. ವೀಕ್ಷಕವು ನಿಮ್ಮ ಸುರಕ್ಷತೆ ಹಾಗು ಸಂರಕ್ಷಣೆಯ ಸಲುವಾಗಿ ಈ ಮನವಿಯನ್ನು ರದ್ದು ಮಾಡಿದೆ.</p>">
 
-<!ENTITY dnsNotFound.title "Address Not Found">
-<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY dnsNotFound.title "ವಿಳಾಸವು ಕಂಡುಬಂದಿಲ್ಲ">
+<!ENTITY dnsNotFound.longDesc "<p>ಒದಗಿಸಲಾದ ವಿಳಾಸಕ್ಕೆ ಅತಿಥೇಯ ಪರಿಚಾರಕವನ್ನು ವೀಕ್ಷಕಕ್ಕೆ  ಹುಡುಕಲಾಗಿಲ್ಲ.</p><ul><li>ತಾಣದ ವಿಳಾಸವನ್ನು ಸೂಚಿಸುವಲ್ಲಿ ಏನಾದರೂ ತಪ್ಪಾಗಿದೆಯೇ ? (ಉದಾ. <q><strong>www</strong>.mozilla.org</q> ನ ಬದಲಿಗೆ <q><strong>ww</strong>.mozilla.org</q> ಎಂದು )</li><li>ಈ ತಾಣವು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ ಎಂಬುದು ನಿಮಗೆ ಖಚಿತವೇ ? ಅದರ ನೋಂದಣಿಯ ಅವಧಿ ಮುಗಿದಿರಬಹುದು.</li><li>ನೀವು ಇತರೆ ತಾಣಗಳನ್ನು ವೀಕ್ಷಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲವೆ?  ನಿಮ್ಮ ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಹಾಗು DNS ಪರಿಚಾರಕ ಸಿದ್ಧತೆಗಳನ್ನು  ಪರೀಕ್ಷಿಸಿ.</li><li>ನಿಮ್ಮ ಗಣಕ ಅಥವ ಜಾಲ ಸಂಪರ್ಕವು ಫೈರ್ವಾಲ್ ಅಥವ ಪ್ರಾಕ್ಸಿಯಿಂದ ಸಂರಕ್ಷಿತಗೊಂಡಿದೆಯೆ? ಸರಿಯಲ್ಲದ ಸಿದ್ಧತೆಗಳು ಜಾಲ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಹಸ್ತಕ್ಷೇಪ ಮಾಡಬಹುದು</li></ul>">
 
-<!ENTITY fileNotFound.title "File Not Found">
-<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
+<!ENTITY fileNotFound.title "ಕಡತವು ಕಂಡು ಬಂದಿಲ್ಲ">
+<!ENTITY fileNotFound.longDesc "<ul><li>ಅದರ ಹೆಸರು ಬದಲಾಯಿಸರಬಹುದು, ತೆಗೆದುಹಾಕಲ್ಪಟ್ಟಿರಬಹುದು, ಅಥವ ಸ್ಥಳಾಂತರಗೊಂಡಿರಬಹುದು</li><li>ವಿಳಾಸದಲ್ಲಿ ಕಾಗುಣಿತ, ಕ್ಯಾಪಿಟಲೈಸೇಶನ್, ಅಥವ ಬೆರಳಚ್ಚುದೋಷ ಇದ್ದಿರಬಹುದೆ?</li><li>ನೀವು ಮನವಿ ಸಲ್ಲಿಸಿದ ವಿಷಯವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ನಿಮಗೆ ಸಾಕಷ್ಟು ಅನುಮತಿ ಇದೆಯೆ?</li></ul>">
 
-<!ENTITY generic.title "Cannot Complete Request">
-<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
+<!ENTITY fileAccessDenied.title "ಕಡತ ಪ್ರವೇಶವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>ಅದನ್ನು ತೆಗೆದುಹಾಕಿರಬಹುದು, ಜರುಗಿಸಿರಬಹುದು, ಅಥವಾ ಕಡತದ ಅನುಮತಿಗಳು ಪ್ರವೇಶವನ್ನು ತಡೆಹಿಡಿಯುತ್ತಿರವಬಹುದು.</li></ul>">
 
-<!ENTITY malformedURI.title "Invalid Address">
-<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
+<!ENTITY generic.title "ಮನವಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಿಲ್ಲ">
+<!ENTITY generic.longDesc "<p>ಈ ತೊಂದರೆ ಅಥವ ದೋಷಕ್ಕಾಗಿನ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ ಪ್ರಸ್ತುತ ಲಭ್ಯವಿಲ್ಲ.</p>">
 
-<!ENTITY netInterrupt.title "Data Transfer Interrupted">
-<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY malformedURI.title "ಅಸಿಂಧುವಾದ ವಿಳಾಸ">
+<!ENTITY malformedURI.longDesc "<p>ಒದಗಿಸಲಾದ ವಿಳಾಸವು ಒಂದು ಗುರುತಿಸಬಲ್ಲ ಮಾದರಿಯಲ್ಲಿ ಇಲ್ಲ. ದಯವಿಟ್ಟು  ತಪ್ಪುಗಳಿಗಾಗಿ ಸ್ಥಳ ಪಟ್ಟಿಯಲ್ಲಿ ನೋಡಿ ನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</p>">
 
-<!ENTITY notCached.title "Document Expired">
-<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
+<!ENTITY netInterrupt.title "ಮಾಹಿತಿ ವರ್ಗಾವಣೆ ಗೆ ಅಡ್ಡಿ ಉಂಟಾಗಿದೆ">
+<!ENTITY netInterrupt.longDesc "<p>ವೀಕ್ಷಕವು ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕ ಸಾಧಿಸಿತು, ಆದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಾಗುವಾಗ ಸಂಪರ್ಕಕ್ಕೆ ಅಡ್ಡಿ ಉಂಟಾಗಿದೆ.  ದಯವಿಟ್ಟು ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</p><ul><li>ನೀವು ಇತರೆ ತಾಣಗಳನ್ನು  ವೀಕ್ಷಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲವೆ? ಗಣಕದ ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ.</li><li>ಇನ್ನೂ ಸಹ ತೊಂದರೆ ಇದೆಯೆ?ನೆರವಿಗಾಗಿ ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಅಥವ ಜಾಲ ಸಂಪರ್ಕ ಒದಗಿಸುವವರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
-<!ENTITY netOffline.title "Offline Mode">
-<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
+<!ENTITY notCached.title "ದಸ್ತಾವೇಜಿನ ವಾಯಿದೆ ತೀರದೆ">
+<!ENTITY notCached.longDesc "<p>ಮನವಿ ಮಾಡಲಾದ ದಸ್ತಾವೇಜು ಜಾಲವೀಕ್ಷಕದ ಕ್ಯಾಶೆಯಲ್ಲಿ ಕಂಡುಬಂದಿಲ್ಲ.</p><ul><li>ಸುರಕ್ಷತಾ ಮುನ್ನೆಚ್ಚರಿಕೆಯಾಗಿ, ಜಾಲವೀಕ್ಷಕವು ತಾನಾಗಿಯೆ ಯಾವುದೆ ಸೂಕ್ಷ್ಮಸಂವೇದಿ ದಸ್ತಾವೇಜುಗಳಿಗಾಗಿ ಮರು-ಮನವಿ ಸಲ್ಲಿಸುವುದಿಲ್ಲ.</li><li>ಜಾಲತಾಣದಿಂದ ದಸ್ತಾವೇಜನ್ನು ಮರಳಿ ಮನವಿ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ.</li></ul>">
 
-<!ENTITY contentEncodingError.title "Content Encoding Error">
-<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY netOffline.title "ಆಫ್‍ಲೈನ್ ವಿಧಾನ">
+<!ENTITY netOffline.longDesc2 "<p>ಜಾಲವೀಕ್ಷಕವು ತನ್ನ ಆಫ್‌ಲೈನ್ ಕ್ರಮದಲ್ಲಿದೆ ಮತ್ತು ಮನವಿ ಮಾಡಲಾದ ಅಂಶದೊಂದಿಗೆ ಸಂಪರ್ಕವನ್ನು ಸಾಧಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</p><ul><li>ಇದು ಗಣಕವು  ಸಕ್ರಿಯ ಜಾಲಬಂಧದೊಂದಿಗೆ ಸಂಪರ್ಕತಗೊಂಡಿದೆಯೆ?</li><li>ಆನ್‌ಲೈನ್ ಕ್ರಮಕ್ಕೆ ಬದಲಾಯಿಸಿ ನಂತರ ಪುಟವನ್ನು ಮರಳಿ ಲೋಡ್ ಮಾಡಲು &quot;ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸು&quot; ಅನ್ನು ಒತ್ತಿ.</li></ul>">
 
-<!ENTITY unsafeContentType.title "Unsafe File Type">
-<!ENTITY unsafeContentType.longDesc "
-<ul>
-  <li>Please contact the website owners to inform them of this problem.</li>
-</ul>
-">
+<!ENTITY contentEncodingError.title "ವಿಷಯದ ಎನ್ಕೋಡಿಂಗ್‌ ದೋಷ">
+<!ENTITY contentEncodingError.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುತ್ತಿರುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಅದು ಅಮಾನ್ಯವಾದ ಅಥವ ಬೆಂಬಲವಿಲ್ಲದ ಬಗೆಯ ಒಂದು ಸಂಕುಚನ(ಕಂಪ್ರೆಶನ್) ಅನ್ನು ಬಳಸುತ್ತದೆ.</p><ul><li>ದಯವಿಟ್ಟು ಈ ತೊಂದರೆಯನ್ನು ತಿಳಿಸಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
-<!ENTITY netReset.title "Connection Interrupted">
-<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
+<!ENTITY unsafeContentType.title "ಅಸುರಕ್ಷಿತ ಕಡತದ ಬಗೆ">
+<!ENTITY unsafeContentType.longDesc "<ul> <li>ದಯವಿಟ್ಟು ಈ ತೊಂದರೆಯನ್ನು ತಿಳಿಸಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li> </ul>">
 
-<!ENTITY netTimeout.title "Network Timeout">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netReset.title "ಸಂಪರ್ಕಕ್ಕೆ ಅಡ್ಡಿ ಉಂಟಾಗಿದೆ">
+<!ENTITY netReset.longDesc "<p> ಒಂದು ಸಂಪರ್ಕಕ್ಕೆ ಪ್ರಯತ್ನಿಸುವಾಗ ಜಾಲಕೊಂಡಿಗೆ ಅಡ್ಡಿ ಉಂಟಾಗಿದೆ. ದಯವಿಟ್ಟು ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</p>">
 
-<!ENTITY unknownProtocolFound.title "Unknown Protocol">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY netTimeout.title "ಜಾಲಬಂಧದ ಅವಧಿ ಅಂತ್ಯಗೊಂಡಿದೆ">
+<!ENTITY netTimeout.longDesc "<p>ಮನವಿ ಸಲ್ಲಿಸಲಾದ ತಾಣವು ಒಂದು ಸಂಪರ್ಕ ಮನವಿಗೆ ಪ್ರತಿಸ್ಪಂದಿಸುತ್ತಿಲ್ಲ  ಹಾಗು ವೀಕ್ಷಕವು ಒಂದು ಪ್ರತ್ಯುತ್ತರಕ್ಕೆ ಕಾಯುವುದನ್ನು ನಿಲ್ಲಿಸಿದೆ.</p><ul><li>ಪರಿಚಾರಕವು ಅತಿಯಾದ ಬೇಡಿಕೆಗೆ ಒಳಪಟ್ಟಿರಬಹುದೆ ಅಥವ ಒಂದು ತಾತ್ಕಾಲಿಕ ಸಂಪರ್ಕ ಕಡಿತಕ್ಕೆ ಒಳಗಾಗಿರಬಹುದೆ?  ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li><li>ನೀವು ಬೇರೆ ತಾಣಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲವೆ? ಗಣಕದ ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ.</li><li>ನಿಮ್ಮ ಗಣಕ ಅಥವ ಜಾಲ ಸಂಪರ್ಕವು ಫೈರ್ವಾಲ್ ಅಥವ ಪ್ರಾಕ್ಸಿಯಿಂದ ಸಂರಕ್ಷಿತಗೊಂಡಿದೆಯೆ? ಸರಿಯಲ್ಲದ ಸಿದ್ಧತೆಗಳು ಜಾಲ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಹಸ್ತಕ್ಷೇಪ ಮಾಡಬಹುದು.</li><li>ಇನ್ನೂ ಸಹ ತೊಂದರೆ ಇದೆಯೆ?ನೆರವಿಗಾಗಿ ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಅಥವ ಜಾಲ ಸಂಪರ್ಕ ಒದಗಿಸುವವರನ್ನು ಸಂಪರ್ಕಿಸಿ</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY unknownProtocolFound.title "ಅಜ್ಞಾತ ಪ್ರೊಟೊಕಾಲ್">
+<!ENTITY unknownProtocolFound.longDesc "<p>ವಿಳಾಸ ಸೂಚಿಸುವ ಒಂದು ಪ್ರೊಟೊಕಾಲನ್ನು  (e.g. <q>wxyz://</q>) ವೀಕ್ಷಕವು ಗುರುತಿಸಲಾಗಿಲ್ಲ, ಆದ್ದರಿಂದ ವೀಕ್ಷಕವು ತಾಣಕ್ಕೆ  ಸರಿಯಾಗಿ ಸಂಪರ್ಕ ಹೊಂದಲಾಗುತ್ತಿಲ್ಲ.</p><ul><li>ನೀವು ಮಲ್ಟಿಮೀಡಿಯಾ ಅಥವ ಪಠ್ಯವಲ್ಲದ ಇತರೆ ಸೇವೆಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೀರಾ?? ತಾಣದ ಹೆಚ್ಚುವರಿ ಅಗತ್ಯತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ.</li><li>ಕೆಲವೊಂದು ಪ್ರೋಟೊಕಾಲ್‍ಗಳನ್ನು ವೀಕ್ಷಕವು ಗುರುತಿಸಲು ಕೆಲವೊಂದು ಮೂರನೆ ಪಕ್ಷದ(third party) ತಂತ್ರಾಂಶ ಅಥವ ಪ್ಲಗ್‍ಇನ್‍ಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.title "ಪ್ರಾಕ್ಸಿ ಪರಿಚಾರಕವು ಸಂಪರ್ಕವನ್ನು ನಿರಾಕರಿಸಿದೆ">
+<!ENTITY proxyConnectFailure.longDesc "<p>ವೀಕ್ಷಕವು ಒಂದು ಪ್ರಾಕ್ಸಿ ಪರಿಚಾರಕವನ್ನು ಬಳಸಲು ಸಂರಚಿತಗೊಂಡಿದೆ, ಆದರೆ ಪ್ರಾಕ್ಸಿಯು ಒಂದು ಸಂಪರ್ಕವನ್ನು ನಿರಾಕರಿಸಿದೆ.</p><ul><li>ವೀಕ್ಷಕದ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆಯು ಸರಿಯಾಗಿದೆಯೆ? ಸಂರಚನೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ ಹಾಗು ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li><li>ಪ್ರಾಕ್ಸಿ ಸೇವೆಯು ಈ ಜಾಲದಿಂದ ಸಂಪರ್ಕವನ್ನು ಅನುಮತಿಸುತ್ತದೆಯೆ?</li><li>ಇನ್ನೂ ಸಹ ತೊಂದರೆ ಇದೆಯೆ?ನೆರವಿಗಾಗಿ ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಅಥವ ಜಾಲ ಸಂಪರ್ಕ ಒದಗಿಸುವವರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
-<!ENTITY redirectLoop.title "Redirect Loop">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY proxyResolveFailure.title "ಪ್ರಾಕ್ಸಿ ಪರಿಚಾರಕವು ಕಂಡು ಬಂದಿಲ್ಲ">
+<!ENTITY proxyResolveFailure.longDesc "<p>ವೀಕ್ಷಕವು ಒಂದು ಪ್ರಾಕ್ಸಿ ಪರಿಚಾರಕವನ್ನು ಬಳಸಲು ಸಂರಚಿತಗೊಂಡಿದೆ, ಆದರೆ ಪ್ರಾಕ್ಸಿಯು ಕಂಡು ಬಂದಿಲ್ಲ.</p><ul><li>ವೀಕ್ಷಕದ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆಯು ಸರಿಯಾಗಿದೆಯೆ? ಸಂರಚನೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ ಹಾಗು ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li><li>ಗಣಕವು ಒಂದು ಸಕ್ರಿಯ ಜಾಲಕ್ಕೆ ಸಂಪರ್ಕಿತಗೊಂಡಿದೆಯೆ?</li><li>ಇನ್ನೂ ಸಹ ತೊಂದರೆ ಇದೆಯೆ?ನೆರವಿಗಾಗಿ ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಅಥವ ಜಾಲ ಸಂಪರ್ಕ ಒದಗಿಸುವವರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Incorrect Response">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY redirectLoop.title "ಮರಳಿ ನಿರ್ದೇಶಿತ ಆವರ್ತನ(Redirect Loop)">
+<!ENTITY redirectLoop.longDesc "<p>ವೀಕ್ಷಕವು ಮನವಿ ಸಲ್ಲಿಸಿದ ವಿಷಯವನ್ನು ಮರಳಿ ಪಡೆಯುವುದನ್ನು ನಿಲ್ಲಿಸಿದೆ. ತಾಣವು ಎಂದೆಂದಿಗೂ ಮುಗಿಯದ ರೀತಿಯಲ್ಲಿ  ಮನವಿಯನ್ನು  ಮರಳಿ ನಿರ್ದೇಶಿಸುತ್ತಿದೆ.</p><ul><li>ಈ ತಾಣಕ್ಕೆ ಅಗತ್ಯವಿರುವ ಕುಕಿಗಳನ್ನು ನೀವು ಅಶಕ್ತ ಅಥವ ನಿರ್ಬಂಧಿಸಿದ್ದೀರೆ?</li><li><em>ಸೂಚನೆ</em>: ಈ ತಾಣದ ಕುಕಿಗಳನ್ನು ಅನುಮತಿಸಿದರೂ ಸಹ ತೊಂದರೆ ಪರಿಹಾರವಾಗದಿದ್ದರೆ, ಅದು ಒಂದು ಪರಿಚಾರಕದ ಸಂರಚನೆಗೆ ಸಂಬಂಧಿತ ವಿಷಯವಾಗಿದ್ದು ನಿಮ್ಮ ಗಣಕಕ್ಕೆ ಸಂಬಂಧ ಪಟ್ಟಿದ್ದಲ್ಲಎಂದರ್ಥ.</li></ul>">
 
-<!ENTITY nssFailure2.title "Secure Connection Failed">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY unknownSocketType.title "ಸರಿಯಲ್ಲದ ಪ್ರತ್ಯುತ್ತರ">
+<!ENTITY unknownSocketType.longDesc "<p>ತಾಣವು ಒಂದು ಅನಿರೀಕ್ಷಿತ ರೀತಿಯಲ್ಲಿ ಜಾಲ ಮನವಿಗಳಿಗೆ ಪ್ರತ್ಯುತ್ತರಿಸಿದೆ ಹಾಗು ವೀಕ್ಷಕವು ಮುಂದುವರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.</p>">
 
-<!ENTITY nssBadCert.title "Secure Connection Failed">
-<!ENTITY nssBadCert.longDesc2 "<ul>
-<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
-<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
-</ul>
-">
+<!ENTITY nssFailure2.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
+<!ENTITY nssFailure2.longDesc2 "<p>ನೀವು ನೋಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಪಡೆಯಲಾದ ಮಾಹಿತಿಯ ವಿಶ್ವಾಸಾರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.</p><ul><li>ದಯವಿಟ್ಟು ಈ ತೊಂದರೆಯನ್ನು ತಿಳಿಸಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
-<!ENTITY malwareBlocked.title "Suspected Attack Site!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
-">
+<!ENTITY nssBadCert.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>ಇದು ಪರಿಚಾರಕದ ಸಂರಚನೆಯಲ್ಲಿನ ಒಂದು ತೊಂದರೆ ಇರಬಹುದು, ಅಥವ ಯಾರಾದರೂ ಪರಿಚಾರಕದಂತೆ ವರ್ತಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.</li> <li>ಈ ಮೊದಲು ನೀವು ಪರಿಚಾರಕಕ್ಕೆ ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕ ಹೊಂದಲು ಸಾಧ್ಯವಾಗಿದ್ದಲ್ಲಿ, ಈಗಿನ ದೋಷವು ತಾತ್ಕಾಲಿಕವಾಗಿರಬಹುದು, ಹಾಗು ನೀವು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li> </ul>">
 
-<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
-<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
-">
+<!ENTITY securityOverride.linkText "ಅಥವ ನೀವು ಒಂದು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಹುದು…">
+<!ENTITY securityOverride.warningContent "<p>ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ನಂಬದೆ ಇರುವಂತಹ ಒಂದು ಅಂತರಜಾಲ ಸಂಪರ್ಕವನ್ನು ಬಳಸುತ್ತಿದ್ದಲ್ಲಿ ಅಥವ ನಿಮಗೆ ಈ ಪರಿಚಾರಕಕ್ಕಾಗಿ ಈ ಮೊದಲು ಒಂದು ಎಚ್ಚರಿಕೆ ಕಾಣಿಸದೆ ಇದ್ದಲ್ಲಿ ನೀವು ಒಂದು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಾರದು.</p>  <p>ಆದರೂ ಸಹ ನೀವು ಈ ತಾಣಕ್ಕೆ ಒಂದು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಲು ಬಯಸಿದರೆ, ನಿಮ್ಮ ಸುಧಾರಿತ ಗೂಢಲಿಪೀಕರಣ(ಎನ್‌ಕ್ರಿಪ್ಶನ್ ) ಸಿದ್ಧತೆಗಳಲ್ಲಿ ಹಾಗೆ ಮಾಡಬಹುದಾಗಿದೆ.</p>">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮದಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
+<!ENTITY cspBlocked.longDesc "<p> ಈ ಪುಟವನ್ನು ಈ ರೀತಿಯಲ್ಲಿ ಲೋಡ್ ಮಾಡದಂತೆ ಜಾಲವೀಕ್ಷಕವು ತಡೆದಿದೆ ಏಕೆಂದರೆ ಈ ಪುಟದಲ್ಲಿನ ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮವು ಇದಕ್ಕೆ ಅನುಮತಿ ನೀಡುವುದಿಲ್ಲ.</p>">
 
-<!ENTITY corruptedContentError.title "Corrupted Content Error">
-<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "ವಿಷಯ ಹಾಳಾದ ದೋಷ">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಲ್ಲಿ ಒಂದು ದೋಷವು ಕಂಡು ಬಂದಿದೆ.</p><ul><li>ಈ ತೊಂದರೆಯನ್ನು ವರದಿ ಮಾಡಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.title "ದೂರಸ್ಥ XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>ಈ ತೊಂದರೆಯ ಬಗ್ಗೆ ಜಾಲತಾಣದ ಮಾಲಿಕರಿಗೆ ತಿಳಿಸಲು ಅವರನ್ನು ಸಂಪರ್ಕಸಿ.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "ನಿಮ್ಮ ಸಂಪರ್ಕವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ‍">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span>ಹಳತಾದ ಮತ್ತು ಆಕ್ರಮಣಕ್ಕೆ ಸಿಲುಕಬಹುದಾದ ಸುರಕ್ಷತಾ ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸುತ್ತಿದೆ. ಆಕ್ರಮಣಕಾರ ನಿಮಗೆ ಸುರಕ್ಷಿತ ಎನಿಸಬಹುದಾದ ಮಾಹಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಬಹಿರಂಗಪಡಿಸಬಲ್ಲ. ಜಾಲತಾಣದ ನಿರ್ವಾಹಕ ಈ ಸರ್ವರ್ ಅನ್ನು ನೀವು ಭೇಟಿ ನೀಡುವುದಕ್ಕಿಂತ ಮುಂಚೆ ಸರಿಪಡಿಸಬೇಕಿದೆ.</p><p>ದೋಷದ ಸಂಕೇತ: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

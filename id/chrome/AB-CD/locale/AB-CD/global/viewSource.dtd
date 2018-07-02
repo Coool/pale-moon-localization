@@ -10,22 +10,22 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Sumber dari: ">
+<!ENTITY mainWindow.preface "Kode Sumber dari: ">
 
-<!ENTITY fileMenu.label "Data">
-<!ENTITY fileMenu.accesskey "F">
-<!ENTITY savePageCmd.label "Simpan halaman sebagai…">
-<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY fileMenu.label "Berkas">
+<!ENTITY fileMenu.accesskey "B">
+<!ENTITY savePageCmd.label "Simpan Laman dengan Nama…">
+<!ENTITY savePageCmd.accesskey "S">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Pengaturan halaman…">
-<!ENTITY pageSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "Pratinjau Print">
-<!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Mencetak…">
-<!ENTITY printCmd.accesskey "P">
+<!ENTITY pageSetupCmd.label "Tata Laman…">
+<!ENTITY pageSetupCmd.accesskey "L">
+<!ENTITY printPreviewCmd.label "Pratinjau Cetak">
+<!ENTITY printPreviewCmd.accesskey "P">
+<!ENTITY printCmd.label "Cetak…">
+<!ENTITY printCmd.accesskey "C">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Tutup">
-<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.accesskey "T">
 <!ENTITY closeCmd.commandkey "W">
 
 <!-- LOCALIZATION NOTE :
@@ -42,45 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Pergi ke Garis…">
-<!ENTITY goToLineCmd.accesskey "G">
+<!ENTITY goToLineCmd.label "Lompat ke Baris…">
+<!ENTITY goToLineCmd.accesskey "L">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "Melihat">
-<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY viewMenu.label           "Tampilan">
+<!ENTITY viewMenu.accesskey       "T">
 <!ENTITY reloadCmd.label "Muat ulang">
-<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY reloadCmd.accesskey "u">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Bungkus Garis Panjang"> 
-<!ENTITY menu_wrapLongLines.accesskey "W">
-<!ENTITY menu_highlightSyntax.label "Penyorotan Sintaks">
-<!ENTITY menu_highlightSyntax.accesskey "H">
+<!ENTITY menu_wrapLongLines.title "Potong Baris Panjang"> 
+<!ENTITY menu_wrapLongLines.accesskey "P">
+<!ENTITY menu_highlightSyntax.label "Pewarnaan Sintaks">
+<!ENTITY menu_highlightSyntax.accesskey "w">
 <!ENTITY menu_textSize.label "Ukuran Teks">
-<!ENTITY menu_textSize.accesskey "Z">
-<!ENTITY menu_textEnlarge.label "Meningkat">
-<!ENTITY menu_textEnlarge.accesskey "I">
-<!ENTITY menu_textReduce.label "Mengurangi">
-<!ENTITY menu_textReduce.accesskey "D">
+<!ENTITY menu_textSize.accesskey "T">
+<!ENTITY menu_textEnlarge.label "Besarkan">
+<!ENTITY menu_textEnlarge.accesskey "B">
+<!ENTITY menu_textReduce.label "Kecilkan">
+<!ENTITY menu_textReduce.accesskey "K">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Cari pada Halaman ini…">
-<!ENTITY findOnCmd.accesskey "F">
+<!ENTITY findOnCmd.label     "Cari di Laman Ini…">
+<!ENTITY findOnCmd.accesskey "L">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Temukan Lagi">
-<!ENTITY findAgainCmd.accesskey "g">
+<!ENTITY findAgainCmd.label  "Cari Lagi">
+<!ENTITY findAgainCmd.accesskey "i">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Kembali">
-<!ENTITY backCmd.accesskey "B">
-<!ENTITY forwardCmd.label "Meneruskan">
-<!ENTITY forwardCmd.accesskey "F">
+<!ENTITY backCmd.label "Mundur">
+<!ENTITY backCmd.accesskey "d">
+<!ENTITY forwardCmd.label "Maju">
+<!ENTITY forwardCmd.accesskey "j">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Gandakan Link Lokasi">
+<!ENTITY copyLinkCmd.label "Salin Lokasi Tautan">
 <!ENTITY copyLinkCmd.accesskey "L">
-<!ENTITY copyEmailCmd.label "Copy Email Address">
+<!ENTITY copyEmailCmd.label "Salin Alamat Surel">
 <!ENTITY copyEmailCmd.accesskey "E">

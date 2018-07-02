@@ -1,0 +1,54 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY permissionsManager.title        "Správca povolení">
+
+<!ENTITY sites.search                    "Hľadať v stránkach">
+<!ENTITY sites.allSites                  "Všetky stránky">
+
+<!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
+     surround the host name of the site to make the header for the permissions page.
+     example: "Permissions for mozilla.org" -->
+<!ENTITY header.site.start               "Povolenia pre stránku">
+<!ENTITY header.site.end                 "">
+
+<!ENTITY header.defaults                 "Predvolené povolenia pre všetky stránky">
+
+<!ENTITY permissions.sitesReload         "Znova načítať zoznam stránok">
+
+<!ENTITY permissions.forgetSite          "Zabudnúť na túto stránku">
+
+<!ENTITY permission.default              "Použiť predvolené nastavenia">
+
+<!ENTITY permission.alwaysAsk            "Vždy sa opýtať">
+<!ENTITY permission.allow                "Povoliť">
+<!ENTITY permission.allowForSession      "Povoliť pre reláciu">
+<!ENTITY permission.allowFirstPartyOnly  "Blokovať tretie strany">
+<!ENTITY permission.block                "Blokovať">
+
+<!ENTITY password.label                  "Ukladať heslá">
+<!ENTITY password.manage                 "Správa hesiel…">
+
+<!ENTITY image.label                     "Načítať obrázky">
+
+<!ENTITY cookie.label                    "Ukladať cookies">
+<!ENTITY cookie.remove                   "Odstraňovať cookies">
+<!ENTITY cookie.manage                   "Správa cookies…">
+<!ENTITY cookie.removeAll                "Odstrániť všetky cookies">
+
+<!ENTITY desktop-notification.label      "Zobrazovať upozornenia">
+
+<!ENTITY install.label                   "Inštalovať rozšírenia alebo témy">
+
+<!ENTITY geo.label                       "Zdieľanie polohy">
+
+<!ENTITY plugins.label                   "Zásuvné moduly">
+
+<!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
+     using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
+<!ENTITY indexedDB.label                 "Správa ukladacieho priestoru pre režim offline">
+
+<!ENTITY popup.label                     "Otváranie vyskakovacích okien">
+
+<!ENTITY focusSearch.key                 "f">

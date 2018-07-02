@@ -6,10 +6,6 @@
 <!ENTITY  checking.title                  "Buscando actualizaciones">
 <!ENTITY  updateCheck.label               "En busca de nuevas versiones de &brandShortName;…">
 
-<!ENTITY  pluginupdatesfound.title        "Actualizaciones de plugins encontradas">
-<!ENTITY  pluginupdatesfound.label        "Se encontraron versiones nuevas de uno o más de tus plugins.">
-<!ENTITY  pluginupdateslink.label         "Ver cómo actualizar tus plugins.">
-
 <!ENTITY  noupdatesfound.title            "No se encontraron actualizaciones">
 <!ENTITY  noupdatesautoenabled.intro      "No hay actualizaciones disponibles. &brandShortName; buscará
                                            actualizaciones periódicamente.">
@@ -31,26 +27,10 @@
                                            No vas a ver más este mensaje, pero puedes">
 <!ENTITY  unsupportedLink.label           "obtener más información.">
 
-<!ENTITY  incompatibleCheck.title         "Comprobando la compatibilidad de los complementos">
-<!ENTITY  incompatibleCheck.label         "Buscando la versión más reciente de tus complementos…">
-
 <!ENTITY  clickHere.label                 "Ver más información sobre esta actualización">
 
 <!ENTITY  evangelism.desc                 "Te recomendamos ampliamente instalar esta 
                                            actualización de &brandShortName; lo antes posible.">
-
-<!ENTITY  license.instructions            "Si aceptas los términos de este acuerdo, haz clic en 'Estoy de acuerdo' 
-                                           debajo para continuar con la instalación.">
-
-<!ENTITY  license.titleText               "Acuerdo de licencia de software">
-<!ENTITY  license.introText               "Términos y condiciones de uso de este software.">
-<!ENTITY  license.instructionText         "Lee el siguiente acuerdo de licencia. Usa la barra de desplazamiento para ver el texto restante.">
-<!ENTITY  license.accept                  "Acepto los términos del acuerdo de licencia">
-<!ENTITY  license.accept.accesskey        "c">
-<!ENTITY  license.decline                 "NO acepto los términos del acuerdo de licencia">
-<!ENTITY  license.decline.accesskey       "N">
-
-<!ENTITY  incompatibleList.title          "Hay complementos incompatibles">
 
 <!ENTITY  downloadPage.title              "Descargando &brandShortName;">
 <!ENTITY  downloading.intro               "Descargando la actualización…">
@@ -63,7 +43,7 @@
 
 <!ENTITY  details.link                    "Detalles">
 
-<!ENTITY  error.title                     "La actualización ha fallado">
+<!ENTITY  error.title                     "Falló la actualización">
 
 <!ENTITY  error.label                     "Hubo problemas al comprobar, descargar o instalar esta 
                                            actualización. No se pudo actualizar &brandShortName; porque:">
@@ -76,10 +56,6 @@
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; no puede determinar si hay una actualización disponible. Por favor,
                                            asegúrate de que tienes la última versión de &brandShortName; en:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Algo esta impidiendo a &brandShortName; actualizarse de forma segura.
-                                           Por favor, asegúrate que tienes la última versión de &brandShortName; en:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Algo esta tratando de engañar a &brandShortName; para que acepte
-                                           una actualización insegura. Ponte en contacto con tu proveedor de red.">
 
 <!ENTITY  finishedPage.title              "Actualización lista para instalar">
 <!ENTITY  finishedPage.text               "La actualización se instalará la próxima vez que inicie &brandShortName;. Puedes 
@@ -91,10 +67,10 @@
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "La actualización se instalará cuando reinicie &brandShortName;. Puedes
                                            hacerlo ahora o dejarlo para más tarde mientras continúas trabajando.">
-
-<!ENTITY  installed.title                 "Actualización instalada">
-<!ENTITY  installed.intro                 "La actualización se instaló correctamente.">
-<!ENTITY  whatsnew.label                  "Más información acerca de las novedades…">
+<!ENTITY  finishedBackground.moreElevated "Esta actualización requiere privilegios de administrador. La actualización
+                                           se instalará la próxima vez que se inicie &brandShortName;. Puede reiniciar
+                                           &brandShortName; ahora, continuar trabajando y reiniciar más tarde,
+                                           o declinar esta actualización.">
 
 <!ENTITY  update.details.label            "Detalles">
 <!ENTITY  update.installedOn.label        "Instalado en:">

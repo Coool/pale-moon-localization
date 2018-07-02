@@ -6,9 +6,9 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-  Cette page contient des informations techniques qui pourraient être utiles lors de
-  la résolution d'un problème. En cas de recherche de réponses à des questions courantes
-  sur &brandShortName;, prière de consulter le <a id='supportLink'>site d'assistance</a>.
+  Cette page contient des informations techniques qui pourraient être utiles quand vous essayez
+  de résoudre un problème. Si vous cherchez des réponses à des questions courantes
+  sur &brandShortName;, veuillez consulter notre <a id='supportLink'>site web d’assistance</a>.
 ">
 
 <!ENTITY aboutSupport.crashes.title "Rapports de plantage">
@@ -32,7 +32,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Active">
 <!ENTITY aboutSupport.experimentEndDate "Fin de l'expérimentation">
 <!ENTITY aboutSupport.experimentHomepage "Page d'accueil">
-
+<!ENTITY aboutSupport.experimentBranch "Branche">
 
 <!ENTITY aboutSupport.appBasicsTitle "Paramètres de base de l'application">
 <!ENTITY aboutSupport.appBasicsName "Nom">
@@ -56,6 +56,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Agent utilisateur">
 <!ENTITY aboutSupport.appBasicsOS "Système d'exploitation">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilisation mémoire">
+<!ENTITY aboutSupport.appBasicsPerformance "Performances">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers enregistrés">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profils">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Fenêtres multiprocessus">
 
@@ -66,9 +72,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Afficher dans le Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Ouvrir le dossier">
+<!ENTITY aboutSupport.showWin2.label "Ouvrir le dossier correspondant">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Préférences modifiées importantes">
 <!ENTITY aboutSupport.modifiedPrefsName "Nom">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copier le texte dans le presse-papiers">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copier les informations brutes dans le presse-papiers">
 
-<!ENTITY aboutSupport.sandboxTitle "Bac à sable">
-
 <!ENTITY aboutSupport.safeModeTitle "Essayer en mode sans échec">
 <!ENTITY aboutSupport.restartInSafeMode.label "Redémarrer en mode sans échec…">
 
 <!ENTITY aboutSupport.restartTitle "Essayer de redémarrer">
 <!ENTITY aboutSupport.restartNormal.label "Redémarrer normalement…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Fonctionnalités">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostics">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Journal des échecs">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU n°1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU n°2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Journal des décisions">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Fonctionnalités désactivées par la protection contre les plantages">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Solutions de contournement">

@@ -4,17 +4,47 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Dane Telemetrii">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetria jest <span>włączona</span>.
-">
+<!ENTITY aboutTelemetry.changeDataChoices "Zmień">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetria jest <span>wyłączona</span>.
-">
+<!ENTITY aboutTelemetry.uploadEnabled "Wysyłanie danych o zdrowiu Firefoksa jest <span>włączone</span>.">
 
-<!ENTITY aboutTelemetry.generalDataSection "
-Ogólne dane
-">
+<!ENTITY aboutTelemetry.uploadDisabled "Wysyłanie danych o zdrowiu Firefoksa jest <span>wyłączone</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "Rejestrowanie rozszerzonych danych telemetrii jest <span>włączone</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "Rejestrowanie rozszerzonych danych telemetrii jest <span>wyłączone</span>.">
+
+<!ENTITY aboutTelemetry.pingDataSource "Źródło danych ping:">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "Bieżące">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "Archiwum">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "Prezentacja danych ping:">
+
+<!ENTITY aboutTelemetry.structured "Ustrukturyzowane">
+
+<!ENTITY aboutTelemetry.raw "Nieprzetworzony JSON">
+
+<!ENTITY aboutTelemetry.showSubsessionData "Dane podsesji">
+
+<!ENTITY aboutTelemetry.choosePing "Pingi:">
+
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; Nowsze">
+
+<!ENTITY aboutTelemetry.showOlderPing "Starsze &gt;&gt;">
+
+<!ENTITY aboutTelemetry.rawPingData "Nieprzetworzone dane">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "Tydzień">
+
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
+
+<!ENTITY aboutTelemetry.generalDataSection "Ogólne">
+
+<!ENTITY aboutTelemetry.environmentDataSection "Dane środowiska">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "Dziennik telemetrii">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
   Powolne polecenia SQL
@@ -24,41 +54,35 @@ Ogólne dane
   Zawieszenia przeglądarki
 ">
 
-<!ENTITY aboutTelemetry.threadHangStatsSection "
-Zawiesza się wątek
-">
+<!ENTITY aboutTelemetry.threadHangStatsSection "Zawieszenia wątków">
+
+<!ENTITY aboutTelemetry.scalarsSection "Skalary">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "Keyed scalars">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogramy
 ">
 
-<!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Histogramy
-">
+<!ENTITY aboutTelemetry.keyedHistogramsSection "Indeksowane histogramy">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Proste pomiary
 ">
 
-<!ENTITY aboutTelemetry.addonDetailsSection "
-Szczegóły dodatku
-">
+<!ENTITY aboutTelemetry.addonDetailsSection "Szczegóły dodatków">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
   Późne zapisy
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Informacje systemowe
-">
+<!ENTITY aboutTelemetry.sessionInfoSection "Informacje o sesji">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
   Histogramy zebrane przez dodatki
 ">
 
-<!ENTITY aboutTelemetry.toggle "
-Kliknij, aby uruchomić sekcję
-">
+<!ENTITY aboutTelemetry.toggle "Kliknij, by przełączyć sekcję">
 
 <!ENTITY aboutTelemetry.emptySection "
   (Brak zebranych danych)
@@ -77,6 +101,8 @@ Kliknij, aby uruchomić sekcję
   Wyświetl nieprzetworzone dane z zawieszeń
 ">
 
-<!ENTITY aboutTelemetry.filterText "
-Filtr (ciągi lub wyraz)
-">
+<!ENTITY aboutTelemetry.filterText "Filtruj (tekst lub /regexp/)">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "Zawartość">
+
+<!ENTITY aboutTelemetry.rawPayload "Nieprzetworzona zawartość">

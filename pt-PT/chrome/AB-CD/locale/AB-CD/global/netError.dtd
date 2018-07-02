@@ -7,7 +7,7 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Falha ao estabelecer ligação">
+<!ENTITY connectionFailure.title "Falha ao conectar">
 <!ENTITY connectionFailure.longDesc "<p>O site parece válido mas o navegador não conseguiu estabelecer a ligação.</p><ul>
 <li>Poderá o site estar indisponível temporariamente? Por favor tente mais tarde.</li><li>Consegue estabelecer ligação a outros sites? Verifique a ligação de rede do computador.</li><li>O seu computador está protegido por uma firewall ou um proxy? Definições incorretas podem interferir com a navegação.</li></ul>">
 
@@ -19,6 +19,9 @@
 
 <!ENTITY fileNotFound.title "Ficheiro não encontrado">
 <!ENTITY fileNotFound.longDesc "<ul><li>Será que o item foi renomeado, removido ou movido?</li><li>Existe algum erro tipográfico no endereço?</li><li>Possui permissões para aceder ao item solicitado?</li></ul>">
+
+<!ENTITY fileAccessDenied.title "O acesso ao ficheiro foi recusado">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Pode ter sido removido, movido, ou as permissões do ficheiro podem estar a impedir o acesso.</li> </ul>">
 
 <!ENTITY generic.title "Pedido não realizado">
 <!ENTITY generic.longDesc "<p>Não existem quaisquer informações adicionais sobre este problema ou erro.</p>">
@@ -77,30 +80,22 @@ tentar mais tarde.</li>
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Suspeita de site de ataque!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Os sites de ataque tentam instalar programas no seu computador para roubar informações privadas, para danificar o seu computador ou até mesmo para atacar outros computadores.</p>
-<p>Os detentores dos sites que achem que o seu site foi reportado erradamente como um site de ataque, devem <a href='https://www.stopbadware.org/request-review' >solicitar uma nova análise</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Suspeita de fraude web!">
-<!ENTITY phishingBlocked.longDesc "
-<p>A introdução de dados pessoais nesta página pode resultar em roubo de identidade ou outras fraudes.</p>
-<p>Este tipo de esquemas são normalmente conhecidos como ataques de 'phishing', em que páginas web e mensagens de e-mail são utilizadas para replicar fontes confiáveis, fontes estas que são reconhecidas pelos utilizadores como fiáveis.</p>
+<!ENTITY securityOverride.linkText "Ou pode adicionar uma exceção…">
+<!ENTITY securityOverride.warningContent "
+<p>Não deve adicionar uma exceção se estiver a utilizar uma ligação à Internet em que não confia plenamente ou se, normalmente, estes avisos não surgem neste servidor.</p>
+<p>Se, ainda assim, desejar adicionar uma exceção para este site, pode efetuá-lo nas definições avançadas de cifra.</p>
 ">
 
 <!ENTITY cspBlocked.title "Bloqueada pela política de segurança">
 <!ENTITY cspBlocked.longDesc "<p>O navegador impediu o carregamento desta página em virtude das suas políticas de restrição de conteúdos.</p>">
 
-<!ENTITY corruptedContentError.title "Conteúdo danificado">
-<!ENTITY corruptedContentError.longDesc "<p>A página a que está a tentar aceder não pode ser mostrada porque foi detetado um erro na transmissão de dados.</p><ul><li>Por favor contacte os donos do site para os informar sobre este problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Erro de conteúdo corrompido">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está a tentar ver não pode ser mostrada porque foi detetado um erro na transmissão de dados.</p><ul><li>Por favor contacte os donos do site para os informar sobre este problema.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor contacte os donos do site e informe-os sobre este problema.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "A sua ligação não é segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> utiliza uma tecnologia de segurança que está desatualizada e vulnerável a ataques. Um atacante pode facilmente obter as informações que você acha que estão seguras. O administrador do site precisa de corrigir o servidor para poder ser acedido. </p><p>Código de erro: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

@@ -12,13 +12,13 @@
   technicznego</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Raporty o awariach">
+<!ENTITY aboutSupport.crashes.title "Zgłoszenia awarii">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Zgłoś ID">
-<!ENTITY aboutSupport.crashes.sendDate "Zgłoszony">
-<!ENTITY aboutSupport.crashes.allReports "Wszystkie raporty o awariach">
-<!ENTITY aboutSupport.crashes.noConfig "Ta aplikacja nie została skonfigurowana do wyświetlania raportów o awariach.">
+<!ENTITY aboutSupport.crashes.id "ID zgłoszenia">
+<!ENTITY aboutSupport.crashes.sendDate "Data przesłania">
+<!ENTITY aboutSupport.crashes.allReports "Wszystkie zgłoszenia awarii">
+<!ENTITY aboutSupport.crashes.noConfig "Ten program nie został skonfigurowany do wyświetlania zgłoszeń awarii.">
 
 <!ENTITY aboutSupport.extensionsTitle "Rozszerzenia">
 <!ENTITY aboutSupport.extensionName "Nazwa">
@@ -26,19 +26,19 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Wersja">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Funkcje eksperymentalne">
+<!ENTITY aboutSupport.experimentsTitle "Eksperymenty">
 <!ENTITY aboutSupport.experimentName "Nazwa">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Opis">
 <!ENTITY aboutSupport.experimentActive "Aktywny">
-<!ENTITY aboutSupport.experimentEndDate "Data końcowa">
-<!ENTITY aboutSupport.experimentHomepage "Strona główna">
+<!ENTITY aboutSupport.experimentEndDate "Data zakończenia">
+<!ENTITY aboutSupport.experimentHomepage "Strona">
+<!ENTITY aboutSupport.experimentBranch "Wersja">
 
-
-<!ENTITY aboutSupport.appBasicsTitle "Informacje o aplikacji">
+<!ENTITY aboutSupport.appBasicsTitle "Informacje o aplikacji">
 <!ENTITY aboutSupport.appBasicsName "Nazwa">
 <!ENTITY aboutSupport.appBasicsVersion "Wersja">
-<!ENTITY aboutSupport.appBasicsBuildID "Tworzenie identyfikatora">
+<!ENTITY aboutSupport.appBasicsBuildID "ID kompilacji">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
@@ -57,19 +57,25 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Identyfikator programu">
 <!ENTITY aboutSupport.appBasicsOS "System operacyjny">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Zużycie pamięci">
+<!ENTITY aboutSupport.appBasicsPerformance "Wydajność">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Wieloprocesowych Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Zarejestrowane wątki usługowe">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Tryb bezpieczny">
+<!ENTITY aboutSupport.appBasicsProfiles "Profile">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Okna wieloprocesowe">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Tryb awaryjny">
 
 <!ENTITY aboutSupport.showDir.label "Otwórz katalog">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Pokaż w Finderze">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!ENTITY aboutSupport.showMac.label "Pokaż w Finderze">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Pokaż folder">
+<!ENTITY aboutSupport.showWin2.label "Otwórz folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Ważne zmodyfikowane ustawienia">
 <!ENTITY aboutSupport.modifiedPrefsName "Nazwa">
@@ -77,15 +83,15 @@ variant of aboutSupport.showDir.label. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "Preferencje user.js">
-<!ENTITY aboutSupport.userJSDescription "Folder profilu użytkownika zawiera <a id='prefs-user-js-link'>plik user.js</a> z preferencjami, które nie zostały utworzone przez program &brandShortName;.">
+<!ENTITY aboutSupport.userJSDescription "Folder profilu użytkownika zawiera <a id='prefs-user-js-link'>plik user.js</a> z preferencjami, które nie zostały utworzone przez program &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Ważne zmodyfikowane ustawienia">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Ważne zablokowane ustawienia">
 <!ENTITY aboutSupport.lockedPrefsName "Nazwa">
 <!ENTITY aboutSupport.lockedPrefsValue "Wartość">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Lokalizacja bazy danych">
+<!ENTITY aboutSupport.placeDatabaseTitle "Baza danych „Places”">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integralność">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Sprawdź integralność">
 
@@ -104,10 +110,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Skopiuj tekst do schowka">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Skopiuj nieprzetworzone dane do schowka">
 
-<!ENTITY aboutSupport.sandboxTitle "Piaskownica">
-
-<!ENTITY aboutSupport.safeModeTitle "Spróbuj w trybie awaryjnym">
+<!ENTITY aboutSupport.safeModeTitle "Tryb awaryjny">
 <!ENTITY aboutSupport.restartInSafeMode.label "Uruchom ponownie w trybie awaryjnym…">
 
 <!ENTITY aboutSupport.restartTitle "Spróbuj uruchomić ponownie">
 <!ENTITY aboutSupport.restartNormal.label "Uruchom ponownie normalnie…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funkcje">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostyka">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Dziennik niepowodzeń">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU 1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU 2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decyzje">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funkcje wyłączone dla ochrony przed awariami">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Obejścia problemów">

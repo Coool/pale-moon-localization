@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "H">
 <!ENTITY fullScreenExit.label "원래 화면으로 복구">
 <!ENTITY fullScreenExit.accesskey "F">
-<!ENTITY fullscreenAllowButton.label "허가">
-<!ENTITY fullscreenExitButton.label "거부">
-<!ENTITY fullscreenApproval.value "전체 화면 표시 모드를 허가합니까?">
 
 <!ENTITY fullscreenExitHint.value "ESC 키를 누르면, 전체 화면 표시 모드를 종료합니다.">
 <!ENTITY leaveDOMFullScreen.label "전체 화면 표시 모드 종료">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "이용 권한">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "설정">
+<!ENTITY preferencesCmd2.accesskey    "P">
 
 <!ENTITY webDeveloperMenu.label       "웹 개발 도구">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "모두 선택">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
-<!ENTITY preferencesCmd2.label       "설정">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "환경 설정">
-<!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
 <!ENTITY clearRecentHistory.label               "사용 기록 삭제…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "개발자 도구">
 <!ENTITY appMenuGettingStarted.label "시작하기">
 <!ENTITY appMenuSafeMode.label "안전 모드로 다시 시작…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "검색어나 주소 입력">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "탭 전환:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "재시작…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "종료"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "x">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "공유할 마이크:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "카메라 / 마이크 사용">
-<!ENTITY webrtcIndicatorButton.tooltip "현재 카메라나 마이크를 공유하고 있는 사이트 표시">
 
-<!ENTITY mixedContentBlocked.helplink "자세히 보기">
 <!ENTITY mixedContentBlocked.moreinfo "대부분의 웹 사이트는 이 콘텐츠를 차단하더라도 여전히 잘 돌아갑니다.">
 
 <!ENTITY pointerLock.notification.message "ESC를 누르면 다시 나타납니다.">

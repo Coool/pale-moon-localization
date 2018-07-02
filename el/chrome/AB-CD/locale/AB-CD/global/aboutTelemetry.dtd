@@ -4,16 +4,86 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Δεδομένα Τηλεμετρίας">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Η Τηλεμετρία είναι <span>ενεργοποιημένη</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Αλλαγή">
+
+<!ENTITY aboutTelemetry.uploadEnabled "
+  FHR data upload is <span>enabled</span>.
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Η Τηλεμετρία είναι <span>απενεργοποιημένη</span>.
+<!ENTITY aboutTelemetry.uploadDisabled "
+  FHR data upload is <span>disabled</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  Extended Telemetry recording is <span>enabled</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  Extended Telemetry recording is <span>disabled</span>.
+">
+
+<!ENTITY aboutTelemetry.pingDataSource "
+Ping data source:
+">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Current ping data
+">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Archived ping data
+">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Ping data display:
+">
+
+<!ENTITY aboutTelemetry.structured "
+Structured
+">
+
+<!ENTITY aboutTelemetry.raw "
+Raw JSON
+">
+
+<!ENTITY aboutTelemetry.showSubsessionData "
+Show subsession data
+">
+
+<!ENTITY aboutTelemetry.choosePing "
+Επιλογή ping:
+">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Νεότερο ping
+">
+
+<!ENTITY aboutTelemetry.showOlderPing "
+Παλαιότερο ping &gt;&gt;
+">
+
+<!ENTITY aboutTelemetry.rawPingData "
+Ακατέργαστα δεδομένα ping…
+">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "
+Εβδομάδα">
+
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
-Γενικά Δεδομένα
+  Γενικά δεδομένα
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Δεδομένα περιβάλλοντος
+">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Αρχείο καταγραφής τηλεμετρίας
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -25,7 +95,15 @@
 ">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
-Νήματα που δεν ανταποκρίνονται
+  Thread Hangs
+">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Scalars
+">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Μονόμετρα μεγέθη με κλειδί
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
@@ -33,7 +111,7 @@
 ">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Ιστογράμματα
+  Keyed Histograms
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
@@ -41,15 +119,15 @@
 ">
 
 <!ENTITY aboutTelemetry.addonDetailsSection "
-Λεπτομέρειες Πρόσθετου
+  Λεπτομέρειες προσθέτου
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
-Καθυστερημένες Εγγραφές
+  Καθυστερημένες εγγραφές
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-Πληροφορίες Συστήματος
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Πληροφορίες συνεδρίας
 ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
@@ -57,7 +135,7 @@
 ">
 
 <!ENTITY aboutTelemetry.toggle "
-Κλικ για εναλλαγή ενότητας
+  Click to toggle section
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -73,9 +151,17 @@
 ">
 
 <!ENTITY aboutTelemetry.hideSymbols "
-  Show raw data from hangs
+  Εμφάνιση ακατέργαστων δεδομένων από τα &quot;κολλήματα&quot;
 ">
 
 <!ENTITY aboutTelemetry.filterText "
-Φίλτρο (συμβολοσειρά ή /regexp/)
+  Φίλτρο (συμβολοσειρές ή /regexp/)
+">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Ωφέλιμο φορτίο
+">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Ακατέργαστο ωφέλιμο φορτίο
 ">

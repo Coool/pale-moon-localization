@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "W">
 <!ENTITY fullScreenExit.label "Modus volledig scherm afsluiten">
 <!ENTITY fullScreenExit.accesskey "d">
-<!ENTITY fullscreenAllowButton.label "Toestaan">
-<!ENTITY fullscreenExitButton.label "Weigeren">
-<!ENTITY fullscreenApproval.value "Volledig Scherm toestaan?">
 
 <!ENTITY fullscreenExitHint.value "Druk op ESC om de modus Volledig Scherm te verlaten.">
 <!ENTITY leaveDOMFullScreen.label "Volledig Scherm verlaten">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Toestemmingen">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "Opties">
+<!ENTITY preferencesCmd2.accesskey    "O">
 
 <!ENTITY webDeveloperMenu.label       "Webontwikkelaar">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Alles selecteren">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
-<!ENTITY preferencesCmd2.label       "Voorkeuren">
-<!ENTITY preferencesCmd2.accesskey     "V">
-<!ENTITY preferencesCmdUnix.label       "Voorkeuren">
-<!ENTITY preferencesCmdUnix.accesskey     "V"> 
 
 <!ENTITY clearRecentHistory.label               "Recente geschiedenis wissen…">
 
@@ -312,7 +307,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "W"> 
 <!ENTITY viewSidebarMenu.label "Zijbalk">
 <!ENTITY viewSidebarMenu.accesskey "Z">
-<!ENTITY viewCustomizeToolbar.label       "Aanpassen"> 
+<!ENTITY viewCustomizeToolbar.label       "Aanpassen…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "A">
 <!ENTITY viewTabsOnTop.label            "Bovenliggende tabbladen">
 <!ENTITY viewTabsOnTop.accesskey        "t">
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Webontwikkelaar">
 <!ENTITY appMenuGettingStarted.label "Aan de slag">
 <!ENTITY appMenuSafeMode.label "Opnieuw starten in de Veilige Modus…">
-<!ENTITY appMenuSafeMode.accesskey "r">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Voer zoekterm of adres in">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Wisselen naar tabblad:">
 
@@ -442,7 +435,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailImageCmd.label          "Afbeelding e-mailen…">
 <!ENTITY emailImageCmd.accesskey      "a">
 <!ENTITY emailVideoCmd.label          "Video e-mailen…">
-<!ENTITY emailVideoCmd.accesskey      "a">
+<!ENTITY emailVideoCmd.accesskey      "l">
 <!ENTITY emailAudioCmd.label          "Audio e-mailen…">
 <!ENTITY emailAudioCmd.accesskey      "a">
 <!ENTITY playPluginCmd.label          "Deze plug-in activeren">
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Herstarten…">
 <!ENTITY appMenuRestart.accesskey       "H">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Afsluiten"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "A">
@@ -580,8 +572,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Pop-upinstellingen voor deze website wijzigen">
 
 <!ENTITY allowPopups.accesskey "P">
-<!ENTITY editPopupSettingsUnix.label "Pop-upblokkeringsvoorkeuren bewerken">
-<!ENTITY editPopupSettings.label "Pop-upblokkeringsvoorkeuren bewerken">
+<!ENTITY editPopupSettingsUnix.label "Pop-upblokkeringsvoorkeuren bewerken…">
+<!ENTITY editPopupSettings.label "Pop-upblokkeringsopties bewerken…">
 <!ENTITY editPopupSettings.accesskey "b">
 <!ENTITY dontShowMessage.accesskey "n">
 
@@ -631,7 +623,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "Tabbladen van andere apparaten">
 
-<!ENTITY syncBrand.shortName.label    "Synchroniseren">
+<!ENTITY syncBrand.shortName.label    "Sync">
 
 <!ENTITY syncSetup.label              "&syncBrand.shortName.label; instellen…">
 <!ENTITY syncSetup.accesskey          "S">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Te delen microfoon:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "m">
 
-<!ENTITY webrtcIndicatorButton.label "Camera-/microfoontoegang">
-<!ENTITY webrtcIndicatorButton.tooltip "Websites waarmee u momenteel uw camera of microfoon deelt weergeven">
 
-<!ENTITY mixedContentBlocked.helplink "Meer informatie">
 <!ENTITY mixedContentBlocked.moreinfo "De meeste websites zullen juist blijven werken zelfs als deze inhoud is geblokkeerd.">
 
 <!ENTITY pointerLock.notification.message "Druk op ESC om het nogmaals te tonen.">

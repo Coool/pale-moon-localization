@@ -5,15 +5,16 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "Dikkat, Ejderha çıkabilir!">
-<!ENTITY aboutWarningText.label "Bu gelişmiş ayarların değiştirilmesi, bu uygulamanın kararlılığı, güvenliği ve performansı için ciddi derecede zararlı olabilir. Yalnızca, ne yaptığınızı biliyorsanız devam etmelisiniz.">
-<!ENTITY aboutWarningButton.label "Dikkatli olacağıma söz veriyorum!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "Garanti kapsamından çıkabilirsiniz!">
+<!ENTITY aboutWarningText.label "Bu gelişmiş ayarların değerlerini değiştirmek bu uygulamanın istikrarına, güvenliğine ve başarımına zarar verebilir. Sadece ne yaptığınızdan eminseniz devam etmelisiniz.">
+<!ENTITY aboutWarningButton2.label "Riski kabul ediyorum!">
 <!ENTITY aboutWarningCheckbox.label "Bu uyarıyı bir sonraki kez göster">
 
 <!ENTITY searchPrefs.label "Arama:">
 <!ENTITY searchPrefs.accesskey "A">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Ayar ismi">
@@ -23,16 +24,16 @@
 
 <!-- Tooltips -->
 <!ENTITY prefColumnHeader.tooltip "Sıralamak için tıklayın"> 
-<!ENTITY columnChooser.tooltip "Kolonları görüntülemek için seçip tıklayınız"> 
+<!ENTITY columnChooser.tooltip "Görüntülenecek sütunları seçmek için tıklayın"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "C">
 <!ENTITY copyPref.label "Kopyala">
 <!ENTITY copyPref.accesskey "K">
-<!ENTITY copyName.label "Ayar ismini kopyala">
-<!ENTITY copyName.accesskey "k">
+<!ENTITY copyName.label "Adı kopyala">
+<!ENTITY copyName.accesskey "A">
 <!ENTITY copyValue.label "Değeri kopyala">
-<!ENTITY copyValue.accesskey "o">
+<!ENTITY copyValue.accesskey "e">
 <!ENTITY modify.label "Değerini değiştir">
 <!ENTITY modify.accesskey "D">
 <!ENTITY toggle.label "Değerini değiştir">
@@ -40,7 +41,7 @@
 <!ENTITY reset.label "Sıfırla">
 <!ENTITY reset.accesskey "S">
 <!ENTITY new.label "Yeni">
-<!ENTITY new.accesskey "n">
+<!ENTITY new.accesskey "Y">
 <!ENTITY string.label "Dizgi">
 <!ENTITY string.accesskey "D">
 <!ENTITY integer.label "Sayı">

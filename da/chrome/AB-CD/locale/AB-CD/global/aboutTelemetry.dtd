@@ -4,16 +4,88 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetry-data">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetry er <span>aktiveret</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Skift
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetry er <span>deaktiveret</span>.
+<!ENTITY aboutTelemetry.uploadEnabled "
+  FHR-data-upload er <span>aktiveret</span>.
+">
+
+<!ENTITY aboutTelemetry.uploadDisabled "
+  FHR-data-upload er <span>deaktiveret</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  Udvidet Telemetry-recording er <span>aktiveret</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  Udvidet Telemetry-recording er <span>deaktiveret</span>.
+">
+
+<!ENTITY aboutTelemetry.pingDataSource "
+Ping datakilde:
+">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Nuværende ping-data
+">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Arkiverede ping-data
+">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Visning af ping-data:
+">
+
+<!ENTITY aboutTelemetry.structured "
+Struktureret
+">
+
+<!ENTITY aboutTelemetry.raw "
+Rå JSON
+">
+
+<!ENTITY aboutTelemetry.showSubsessionData "
+Vis data fra undersession
+">
+
+<!ENTITY aboutTelemetry.choosePing "
+Vælg ping:
+">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Nyere ping
+">
+
+<!ENTITY aboutTelemetry.showOlderPing "
+Ældre ping &gt;&gt;
+">
+
+<!ENTITY aboutTelemetry.rawPingData "
+Rå ping-data ...
+">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "
+Uge
+">
+
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
-Generelle Data
+  Generelle data
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Miljø-data
+">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Telemetry-log
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -25,7 +97,15 @@ Generelle Data
 ">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
-Tråd hænger
+  Tråd-frysninger
+">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Skalarer
+">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Indtastede skalarer
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
@@ -33,7 +113,7 @@ Tråd hænger
 ">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
-Nøglebaseret histogrammer
+  Indtastede histogrammer
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
@@ -41,15 +121,15 @@ Nøglebaseret histogrammer
 ">
 
 <!ENTITY aboutTelemetry.addonDetailsSection "
-Tilføjelse detaljer
+  Detaljer for tilføjelser
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
   Sene skrivninger
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Systemoplysninger
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Sessionsoplysninger
 ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
@@ -57,7 +137,7 @@ Tilføjelse detaljer
 ">
 
 <!ENTITY aboutTelemetry.toggle "
-Klikke for at skifte sektion
+  Klik for at udvide eller folde sektionen sammen
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -77,5 +157,13 @@ Klikke for at skifte sektion
 ">
 
 <!ENTITY aboutTelemetry.filterText "
-Filter (strenge eller /regexp/)
+  Filtrer (strenge eller /regexp/)
+">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Payload
+">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Rå Payload
 ">

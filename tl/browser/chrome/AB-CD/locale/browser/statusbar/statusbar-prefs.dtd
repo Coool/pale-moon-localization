@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "Pangkalahatan">
 <!ENTITY status4evar.tab.toolbar "Halang ng Kalagayan">
-<!ENTITY status4evar.tab.urlbar "Halang ng Address">
 <!ENTITY status4evar.tab.popup "Pop-up">
 <!ENTITY status4evar.tab.tabs "Mga Tab">
 
 <!ENTITY status4evar.option.none "Wala">
 <!ENTITY status4evar.option.nothing "Walang gagawin">
 <!ENTITY status4evar.option.toolbar "Halang ng Kalagayan">
-<!ENTITY status4evar.option.urlbar "Halang ng Address">
 <!ENTITY status4evar.option.popup "Pop-up">
 <!ENTITY status4evar.option.tooltip "Tooltip">
 <!ENTITY status4evar.option.bottom "Ibaba">
 <!ENTITY status4evar.option.top "Itaas">
-<!ENTITY status4evar.option.fill "Punuin">
 <!ENTITY status4evar.option.dlcount "Bilang ng download">
 <!ENTITY status4evar.option.dltime "Nalalabing oras">
 <!ENTITY status4evar.option.both "Parehas">
 <!ENTITY status4evar.option.right "Kanan">
 <!ENTITY status4evar.option.left "Kaliwa">
-<!ENTITY status4evar.option.fixed "Nakapirme">
 <!ENTITY status4evar.option.simple "Simple">
 <!ENTITY status4evar.option.advanced "Advanced">
 <!ENTITY status4evar.option.browse "I-browse">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Pinakamataas na haba ng teksto sa kalagayan:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Pagkakahanay ng kalagayan:">
-<!ENTITY status4evar.status.urlbar.color.label "Kulay ng kalagayan:">
-<!ENTITY status4evar.status.currentUrl "Kasalukuyang lokasyon">
-<!ENTITY status4evar.status.statusText "Kalagayan ng Teksto">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibility features">
 <!ENTITY browser.urlbar.formatting.enabled.label "Paganahin ang pag-marka sa mga dominyo">
 <!ENTITY browser.urlbar.trimming.enabled.label "Paganahin ang pagtatago sa protokol (http:// and ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Magpalit ng panig kapag iniligay ang pointer sa harap nito">
 
 <!ENTITY status4evar.progress.style.label "Gumamit ng isang custom na estilo">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Ipakita ang progreso sa Halang ng Address">
-<!ENTITY status4evar.progress.urlbar.line.label "Estilo ng linya:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Laging ipakita ang metro ng progreso">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Gumamit ng alternatibong mga border ng halang">
 <!ENTITY status4evar.addonbar.windowGripper "Ipakita ang window re-size gripper">
 <!ENTITY status4evar.addonbar.closeButton "Ipakita ang close button">
-
-<!ENTITY status4evar.advanced.warning "Ang mga advanced na preperensiya ay maaaring magdulot ng mga problema sa Pale Moon at sa iba pang mga ekstensiyon. Wala kaming pananagutan kung sakaling may mangyaring problema.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Piliting ilapat ang XBL binding ng Halang ng Address">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Piliin lamang ito kung may mga problema ka sa progreso ng Halang ng Address o hindi naipapakita ang teksto ng kalagayan nang tama. Maaari nitong sirain ang ibang mga ekstensiyon na sinusubukang magtakda ng XBL binding sa Halang ng Address.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Suriin kung sakop ang buong screen at ipakita ang mga kawing/kalagayan kung naangkop">
 <!ENTITY status4evar.advanced.status.detectVideo "Itago ang popup ng kalagayan kapag may HTML5 video na sumasakop sa buong screen">

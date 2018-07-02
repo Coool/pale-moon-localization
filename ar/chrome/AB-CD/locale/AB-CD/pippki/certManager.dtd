@@ -2,98 +2,92 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "Certificate Manager">
+<!ENTITY certmgr.title                       "مدير الشهادة">
 
-<!ENTITY certmgr.tab.mine                     "Your Certificates">
-<!ENTITY certmgr.tab.others2                  "People">
-<!ENTITY certmgr.tab.websites3                "Servers">
-<!ENTITY certmgr.tab.ca                       "Authorities">
-<!ENTITY certmgr.tab.orphan2                  "Others">
+<!ENTITY certmgr.tab.mine                     "شهاداتك">
+<!ENTITY certmgr.tab.others2                  "الناس">
+<!ENTITY certmgr.tab.websites3                "الخوادم">
+<!ENTITY certmgr.tab.ca                       "السلطات">
+<!ENTITY certmgr.tab.orphan2                  "أخرى">
 
-<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
-<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
-<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
-<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
-<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
+<!ENTITY certmgr.mine                         "لديك شهادات من هذه المنظمات التي تحدد لك:">
+<!ENTITY certmgr.others                       "لديك شهادات في ملف تحديد هؤلاء الأشخاص:">
+<!ENTITY certmgr.websites2                    "لديك شهادات في الملف تحدد هذه الخوادم:">
+<!ENTITY certmgr.cas                          "لديك شهادات في الملف تحدد سلطات الشهادة هذه:">
+<!ENTITY certmgr.orphans                      "لديك شهادات في ملف لا تتناسب مع أي من الفئات الأخرى:">
 
-<!ENTITY certmgr.detail.general_tab.title     "General">
-<!ENTITY certmgr.detail.general_tab.accesskey "G">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.general_tab.title     "عام">
+<!ENTITY certmgr.detail.general_tab.accesskey "ج">
+<!ENTITY certmgr.detail.prettyprint_tab.title "التفاصيل">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
-<!ENTITY certmgr.subjectinfo.label            "Issued To">
-<!ENTITY certmgr.issuerinfo.label             "Issued By">
-<!ENTITY certmgr.periodofvalidity.label       "Period of Validity" >
-<!ENTITY certmgr.fingerprints.label           "Fingerprints">
-<!ENTITY certmgr.certdetail.title             "Certificate Detail">
-<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organization (O)">
-<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
+<!ENTITY certmgr.pending.label                "جارٍ التحقق من الشهادة...">
+<!ENTITY certmgr.subjectinfo.label            "صدرت إلى">
+<!ENTITY certmgr.issuerinfo.label             "صادر عن">
+<!ENTITY certmgr.periodofvalidity.label       "فترة الصلاحية" >
+<!ENTITY certmgr.fingerprints.label           "بصمات الأصابع">
+<!ENTITY certmgr.certdetail.title             "تفاصيل الشهادة">
+<!ENTITY certmgr.certdetail.cn                "الاسم الشائع (CN)">
+<!ENTITY certmgr.certdetail.o                 "منظمة (O)">
+<!ENTITY certmgr.certdetail.ou                "الوحدة التنظيمية (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "الرقم التسلسلي">
 <!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "بصمة SHA1">
 
-<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
-<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
-<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
-<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
-<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
-<!ENTITY certmgr.editemailcert.title          "Edit email certificate trust settings">
-<!ENTITY certmgr.editemailcert.edittrust      "Edit certificate trust settings:">
-<!ENTITY certmgr.editemailcert.dotrust        "Trust the authenticity of this certificate.">
-<!ENTITY certmgr.editemailcert.donttrust      "Do not trust the authenticity of this certificate.">
+<!ENTITY certmgr.editcacert.title             "تحرير إعدادات الثقة شهادة المرجع المصدق">
+<!ENTITY certmgr.editcert.edittrust           "تحرير إعدادات الثقة:">
+<!ENTITY certmgr.editcert.trustssl            "هذه الشهادة تستطيع تحديد المواقع.">
+<!ENTITY certmgr.editcert.trustemail          "يمكن لهذه الشهادة التعرف على مستخدمي البريد.">
+<!ENTITY certmgr.editcert.trustobjsign        "هذه الشهادة تستطيع التعرف على صانعي البرمجيات.">
 
-<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.title             "حذف الشهادة">
 
-<!ENTITY certmgr.certname                     "Certificate Name">
-<!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "Security Device">
-<!ENTITY certmgr.begins                       "Begins On">
-<!ENTITY certmgr.expires                      "Expires On">
-<!ENTITY certmgr.email                        "E-Mail Address">
-<!ENTITY certmgr.serial                       "Serial Number">
+<!ENTITY certmgr.certname                     "اسم الشهادة">
+<!ENTITY certmgr.certserver                   "الخادوم">
+<!ENTITY certmgr.override_lifetime            "مدة العمر">
+<!ENTITY certmgr.tokenname                    "جهاز الأمان">
+<!ENTITY certmgr.begins                       "ويبدأ في">
+<!ENTITY certmgr.expires                      "تنتهي صلاحيته في">
+<!ENTITY certmgr.email                        "عنوان البريد الإلكتروني">
+<!ENTITY certmgr.serial                       "الرقم التسلسلي">
 
-<!ENTITY certmgr.close.label                  "Close">
+<!ENTITY certmgr.close.label                  "أغلق">
 <!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "View…">
+<!ENTITY certmgr.view2.label                  "عرض...">
 <!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Edit Trust…">
+<!ENTITY certmgr.edit3.label                  "تحرير الثقة…">
 <!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.editca.label                 "Edit CA Trust">
-<!ENTITY certmgr.editca.accesskey             "d">
-<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.export.label                 "تصدير…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Delete…">
+<!ENTITY certmgr.delete2.label                "حذف...">
 <!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
+<!ENTITY certmgr.delete_builtin.label         "حذف أو عدم الثقة...">
 <!ENTITY certmgr.delete_builtin.accesskey     "D">
-<!ENTITY certmgr.backup2.label                "Backup…">
+<!ENTITY certmgr.backup2.label                "النسخ الاحتياطي...">
 <!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.backupall2.label             "احتياطية لجميع...">
 <!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.label               "استيراد...">
 <!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "Certificate Fields">
+<!ENTITY certmgr.details.label                "ملفّات الشّهادات">
 <!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Field Value">
+<!ENTITY certmgr.fields.label                 "قيمة الحقل">
 <!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
+<!ENTITY certmgr.hierarchy.label              "التسلسل الهرمي للشهادة">
 <!ENTITY certmgr.hierarchy.accesskey2         "H">
-<!ENTITY certmgr.addException.label           "Add Exception…">
+<!ENTITY certmgr.addException.label           "إضافة استثناء...">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Add Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
+<!ENTITY exceptionMgr.title                   "إضافة استثناء أمان">
+<!ENTITY exceptionMgr.exceptionButton.label   "تأكيد استثناء الأمان">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
-<!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Location:">
-<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
+<!ENTITY exceptionMgr.supplementalWarning     "لن تطلب منك البنوك أو المتاجر أو المواقع العامة الأخرى القيام بذلك.">
+<!ENTITY exceptionMgr.certlocation.caption2   "الخادوم">
+<!ENTITY exceptionMgr.certlocation.url        "الموقع:">
+<!ENTITY exceptionMgr.certlocation.download   "الحصول على شهادة">
 <!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
-<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
+<!ENTITY exceptionMgr.certstatus.caption      "حالة الشهادة">
+<!ENTITY exceptionMgr.certstatus.viewCert     "عرض...">
 <!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
+<!ENTITY exceptionMgr.permanent.label         "تخزين هذا الاستثناء بشكل دائم">
 <!ENTITY exceptionMgr.permanent.accesskey     "P">

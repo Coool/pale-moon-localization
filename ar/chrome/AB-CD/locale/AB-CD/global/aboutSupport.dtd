@@ -13,7 +13,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "معرّف البلاغ">
 <!ENTITY aboutSupport.crashes.sendDate "أُرسلَ">
 <!ENTITY aboutSupport.crashes.allReports "كل بلاغات الانهيار">
-<!ENTITY aboutSupport.crashes.noConfig "لم يُضبط هذا التطبيق لعرض بلاغات الانهيار.">
+<!ENTITY aboutSupport.crashes.noConfig "لم يُضبط التطبيق لعرض بلاغات الانهيار.">
 
 <!ENTITY aboutSupport.extensionsTitle "الامتدادات">
 <!ENTITY aboutSupport.extensionName "الاسم">
@@ -21,14 +21,14 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "النسخة">
 <!ENTITY aboutSupport.extensionId "المعرّف">
 
-<!ENTITY aboutSupport.experimentsTitle "مزايا تجريبية">
+<!ENTITY aboutSupport.experimentsTitle "المزايا التجريبية">
 <!ENTITY aboutSupport.experimentName "الاسم">
 <!ENTITY aboutSupport.experimentId "المعرّف">
 <!ENTITY aboutSupport.experimentDescription "الوصف">
 <!ENTITY aboutSupport.experimentActive "نشط">
 <!ENTITY aboutSupport.experimentEndDate "تاريخ الانتهاء">
 <!ENTITY aboutSupport.experimentHomepage "صفحة البداية">
-
+<!ENTITY aboutSupport.experimentBranch "فرع">
 
 <!ENTITY aboutSupport.appBasicsTitle "أساسيات التطبيق">
 <!ENTITY aboutSupport.appBasicsName "الاسم">
@@ -52,6 +52,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "عميل المستخدم">
 <!ENTITY aboutSupport.appBasicsOS "نظام التشغيل">
 <!ENTITY aboutSupport.appBasicsMemoryUse "استخدام الذاكرة">
+<!ENTITY aboutSupport.appBasicsPerformance "الأداء">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "عمّال الخدمة المسجلين">
+
+<!ENTITY aboutSupport.appBasicsProfiles "ملفات الإعدادات">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "نوافذ متعددة السيرورات">
 
@@ -62,13 +68,13 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "أظهِر في الباحث">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "أظهِر المجلد">
+<!ENTITY aboutSupport.showWin2.label "افتح المجلد">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "التفضيلات المهمّة المُعدّلة">
 <!ENTITY aboutSupport.modifiedPrefsName "الاسم">
-<!ENTITY aboutSupport.modifiedPrefsValue "القيمة">
+<!ENTITY aboutSupport.modifiedPrefsValue "قيمة">
 
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 <!ENTITY aboutSupport.userJSTitle "تفضيلات user.js">
@@ -80,9 +86,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "الرسوميات">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "قاعدة بيانات الاماكن">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "النزاهة">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "تحقق النزاهة">
+<!ENTITY aboutSupport.placeDatabaseTitle "قاعدة بيانات الأماكن">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "التكامل">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "تحقّق من التكامل">
 
 <!ENTITY aboutSupport.jsTitle "جافاسكربت">
 <!ENTITY aboutSupport.jsIncrementalGC "جامع القمامة التزايدي">
@@ -99,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "انسخ النص إلى الحافظة">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "انسخ البيانات الخام إلى الحافظة">
 
-<!ENTITY aboutSupport.sandboxTitle "العزل">
-
 <!ENTITY aboutSupport.safeModeTitle "جرّب الوضع الآمن">
-<!ENTITY aboutSupport.restartInSafeMode.label "اعادة تشغيل في الوضع الامن">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.restartTitle "محاولة اعادة تشغيل">
-<!ENTITY aboutSupport.restartNormal.label "اعادة تشغيل عادة…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "الميزات">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "التشخيص">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "سجل الأعطال">
+<!ENTITY aboutSupport.graphicsGPU1Title "معالج الرسوميات #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "معالج الرسوميات #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "سجل القرارات">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "خصائص حامي التحطم المعطَّلة">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "الحلول الالتفافية">

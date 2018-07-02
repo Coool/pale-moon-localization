@@ -4,16 +4,88 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Datos sa Telemetry">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-Telemetry ay <span>pinagagana</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Change
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-Ang Telemetry ay <span>hindi pinagagana</span>.
+<!ENTITY aboutTelemetry.uploadEnabled "
+  FHR data upload is <span>enabled</span>.
+">
+
+<!ENTITY aboutTelemetry.uploadDisabled "
+  FHR data upload is <span>disabled</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  Extended Telemetry recording is <span>enabled</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  Extended Telemetry recording is <span>disabled</span>.
+">
+
+<!ENTITY aboutTelemetry.pingDataSource "
+Ping data source:
+">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Current ping data
+">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Archived ping data
+">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Ping data display:
+">
+
+<!ENTITY aboutTelemetry.structured "
+Structured
+">
+
+<!ENTITY aboutTelemetry.raw "
+Raw JSON
+">
+
+<!ENTITY aboutTelemetry.showSubsessionData "
+Show subsession data
+">
+
+<!ENTITY aboutTelemetry.choosePing "
+Choose ping:
+">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Newer ping
+">
+
+<!ENTITY aboutTelemetry.showOlderPing "
+Older ping &gt;&gt;
+">
+
+<!ENTITY aboutTelemetry.rawPingData "
+Raw ping data…
+">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "
+Week
+">
+
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
 Pangkalahatang Datos
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Environment Data
+">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Telemetry Log
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -26,6 +98,14 @@ Mga Browser Hang
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
 Mga Thread Hang
+">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Scalars
+">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Keyed Scalars
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
@@ -48,8 +128,8 @@ Mga Detalye ng Add-on
   Mga Nahuling Pagsulat
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-Impormasyon sa Sistema
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Session Information
 ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
@@ -78,4 +158,12 @@ Ipakita ang raw na datos mula sa mga hang
 
 <!ENTITY aboutTelemetry.filterText "
 Filter (strings o /regexp/)
+">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Payload
+">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Raw Payload
 ">

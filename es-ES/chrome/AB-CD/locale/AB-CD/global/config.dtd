@@ -5,15 +5,16 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "¡Habrá dragones aquí!">
-<!ENTITY aboutWarningText.label "Cambiar estos ajustes avanzados puede ser (bastante) dañino para la estabilidad, seguridad y desempeño de esta aplicación. Solo deberías continuar si sabes lo que estás haciendo.">
-<!ENTITY aboutWarningButton.label "¡Prometo tener cuidado!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "¡Zona hostil para manazas!">
+<!ENTITY aboutWarningText.label "Cambiar estas preferencias avanzadas puede ser perjudicial para la estabilidad, seguridad y rendimiento de esta aplicación. Sólo debería continuar si está seguro de lo que está haciendo.">
+<!ENTITY aboutWarningButton2.label "¡Acepto el riesgo!">
 <!ENTITY aboutWarningCheckbox.label "Mostrar esta advertencia la próxima vez">
 
 <!ENTITY searchPrefs.label "Buscar:">
 <!ENTITY searchPrefs.accesskey "B">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Nombre de la preferencia">
@@ -41,9 +42,9 @@
 <!ENTITY reset.accesskey "R">
 <!ENTITY new.label "Nuevo">
 <!ENTITY new.accesskey "o">
-<!ENTITY string.label "Cadena">
+<!ENTITY string.label "cadena">
 <!ENTITY string.accesskey "C">
-<!ENTITY integer.label "Entero">
+<!ENTITY integer.label "entero">
 <!ENTITY integer.accesskey "E">
-<!ENTITY boolean.label "Lógico">
-<!ENTITY boolean.accesskey "L">
+<!ENTITY boolean.label "sí/no">
+<!ENTITY boolean.accesskey "s">

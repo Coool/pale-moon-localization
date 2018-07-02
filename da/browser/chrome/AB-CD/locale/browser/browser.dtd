@@ -51,7 +51,7 @@ can reach it easily. -->
 <!ENTITY tabCmd.label "Nyt faneblad">
 <!ENTITY tabCmd.accesskey "f">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "Åbn adresse…">
+<!ENTITY openLocationCmd.label "Åbn…">
 <!ENTITY openLocationCmd.accesskey "Å">
 <!ENTITY openFileCmd.label "Åbn fil…">
 <!ENTITY openFileCmd.accesskey "b">
@@ -90,11 +90,11 @@ can reach it easily. -->
 <!ENTITY pageInfoCmd.commandkey "i">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
-<!ENTITY enterFullScreenCmd.label "Start fuldskærmstilstand">
+<!ENTITY enterFullScreenCmd.label "Start fuld skærm">
 <!ENTITY enterFullScreenCmd.accesskey "F">
-<!ENTITY exitFullScreenCmd.label "Afslut fuldskærmstilstand">
+<!ENTITY exitFullScreenCmd.label "Afslut fuld skærm">
 <!ENTITY exitFullScreenCmd.accesskey "F">
-<!ENTITY fullScreenCmd.label "Fuldskærm">
+<!ENTITY fullScreenCmd.label "Fuld skærm">
 <!ENTITY fullScreenCmd.accesskey "F">
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Vis alle faneblade">
@@ -105,14 +105,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Luk">
 <!ENTITY fullScreenAutohide.label "Skjul værktøjslinjer">
 <!ENTITY fullScreenAutohide.accesskey "S">
-<!ENTITY fullScreenExit.label "Afslut fuldskærmstilstand">
+<!ENTITY fullScreenExit.label "Afslut fuld skærm">
 <!ENTITY fullScreenExit.accesskey "A">
-<!ENTITY fullscreenAllowButton.label "Tillad">
-<!ENTITY fullscreenExitButton.label "Afvis">
-<!ENTITY fullscreenApproval.value "Tillad fuldskærmstilstand?">
 
 <!ENTITY fullscreenExitHint.value "Tast ESC for at afslutte visning i fuld skærm.">
-<!ENTITY leaveDOMFullScreen.label "Afslut fuldskærmstilstand">
+<!ENTITY leaveDOMFullScreen.label "Afslut fuld skærm">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
 
 <!ENTITY closeWindow.label "Luk vindue">
@@ -126,7 +123,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenupopup.label "Abonner på denne side">
 <!ENTITY subscribeToPageMenuitem.label "Abonner på denne side…">
 <!ENTITY addCurPagesCmd.label "Bogmærk alle faneblade…">
-<!ENTITY showAllBookmarks2.label "Organiser bogmærker">
+<!ENTITY showAllBookmarks2.label "Vis alle bogmærker">
 <!ENTITY organizeBookmarks.label "Organize Bookmarks">
 <!ENTITY unsortedBookmarksCmd.label "Usorterede bogmærker">
 <!ENTITY bookmarksToolbarChevron.tooltip "Vis flere bogmærker">
@@ -189,7 +186,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY keywordfield.label           "Tilføj et stikord til denne søgning…">
 <!ENTITY keywordfield.accesskey       "s">
-<!ENTITY search.label                 "Søgning">
+<!ENTITY search.label                 "Søg med ">
 <!ENTITY search.accesskey             "S">
 <!ENTITY downloads.label              "Filhentning">
 <!ENTITY downloads.tooltip            "Vis status for filhentning">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Permissions">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "Indstillinger">
+<!ENTITY preferencesCmd2.accesskey    "I">
 
 <!ENTITY webDeveloperMenu.label       "Webudvikler">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Marker alt">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "a"> 
-<!ENTITY preferencesCmd2.label       "Preferences">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "Præferencer">
-<!ENTITY preferencesCmdUnix.accesskey     "P"> 
 
 <!ENTITY clearRecentHistory.label               "Ryd seneste historik…">
 
@@ -310,9 +305,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewMenu.accesskey       "V"> 
 <!ENTITY viewToolbarsMenu.label       "Værktøjslinjer"> 
 <!ENTITY viewToolbarsMenu.accesskey     "V"> 
-<!ENTITY viewSidebarMenu.label "Sidebjælke">
-<!ENTITY viewSidebarMenu.accesskey "b">
-<!ENTITY viewCustomizeToolbar.label       "Customize"> 
+<!ENTITY viewSidebarMenu.label "Sidepaneler">
+<!ENTITY viewSidebarMenu.accesskey "S">
+<!ENTITY viewCustomizeToolbar.label       "Tilpas…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "p">
 <!ENTITY viewTabsOnTop.label            "Faneblade øverst">
 <!ENTITY viewTabsOnTop.accesskey        "ø">
@@ -322,25 +317,23 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyUndoMenu.label "Senest lukkede faneblade">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Senest lukkede vinduer">
-<!ENTITY historyRestoreLastSession.label "Genskab forrige session">
+<!ENTITY historyRestoreLastSession.label "Gendan forrige session">
 
 <!ENTITY historyHomeCmd.label "Hjem">
-<!ENTITY showAllHistoryCmd2.label "Vis historik">
-<!ENTITY showAllHistoryCmd.commandkey "V">
+<!ENTITY showAllHistoryCmd2.label "Vis al historik">
+<!ENTITY showAllHistoryCmd.commandkey "H">
 
 <!ENTITY appMenuEdit.label "Rediger">
 <!ENTITY appMenuCustomize.label "Tilpas">
 <!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
-<!ENTITY appMenuSidebars.label "Sidebjælker">
+<!ENTITY appMenuSidebars.label "Sidepaneler">
 <!ENTITY appMenuFind.label "Find…">
 <!ENTITY appMenuUnsorted.label "Usorterede bogmærker">
 <!ENTITY appMenuWebDeveloper.label "Webudvikler">
 <!ENTITY appMenuGettingStarted.label "Kom i gang">
 <!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
-<!ENTITY appMenuSafeMode.accesskey "G">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Søg eller indtast en adresse">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Skift til faneblad:">
 
@@ -476,9 +469,9 @@ items are mutually exclusive. -->
 "Unmute" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaMute.label             "Slå lyd fra">
-<!ENTITY mediaMute.accesskey         "l">
+<!ENTITY mediaMute.accesskey         "S">
 <!ENTITY mediaUnmute.label           "Slå lyd til">
-<!ENTITY mediaUnmute.accesskey       "l">
+<!ENTITY mediaUnmute.accesskey       "S">
 <!ENTITY mediaPlaybackRate.label     "Afspilningshastighed">
 <!ENTITY mediaPlaybackRate.accesskey "f">
 <!ENTITY mediaPlaybackRate050x.label "Slow Motion (0.5×)">
@@ -499,17 +492,17 @@ items are mutually exclusive. -->
 <!ENTITY mediaShowControls.accesskey "n">
 <!ENTITY mediaHideControls.label     "Skjul knapper">
 <!ENTITY mediaHideControls.accesskey "n">
-<!ENTITY videoFullScreen.label       "Fuldskærm">
+<!ENTITY videoFullScreen.label       "Fuld skærm">
 <!ENTITY videoFullScreen.accesskey   "F">
 <!ENTITY videoSaveImage.label        "Gem snapshot som…">
 <!ENTITY videoSaveImage.accesskey    "S">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY videoShowStats.label        "Vis statistikker">
-<!ENTITY videoShowStats.accesskey    "t">
-<!ENTITY videoHideStats.label        "Skjul statistikker">
-<!ENTITY videoHideStats.accesskey    "t">
+<!ENTITY videoShowStats.label        "Vis oplysninger">
+<!ENTITY videoShowStats.accesskey    "p">
+<!ENTITY videoHideStats.label        "Skjul oplysninger">
+<!ENTITY videoHideStats.accesskey    "p">
 
 <!-- LOCALIZATION NOTE :
 fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
@@ -540,7 +533,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY newTabButton.tooltip           "Åbn et nyt faneblad">
 <!ENTITY newWindowButton.tooltip        "Åbn et nyt vindue">
-<!ENTITY sidebarCloseButton.tooltip     "Luk sidebjælke">
+<!ENTITY sidebarCloseButton.tooltip     "Luk sidepanel">
 
 <!ENTITY cutButton.tooltip              "Klip">
 <!ENTITY copyButton.tooltip             "Kopier">
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Afslut"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "A">
@@ -580,8 +572,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Rediger indstillinger for blokering af pop op-vinduer for dette websted">
 
 <!ENTITY allowPopups.accesskey "p">
-<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
-<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettingsUnix.label "Rediger indstillinger for blokering af pop op-vinduer…">
+<!ENTITY editPopupSettings.label "Rediger indstillinger for blokering af pop op-vinduer…">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Mikrofon til deling:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Adgang til kamera/mikrofon">
-<!ENTITY webrtcIndicatorButton.tooltip "Vis de websteder, som du i øjeblikket deler dit kamera og/eller din mikrofon med">
 
-<!ENTITY mixedContentBlocked.helplink "Læs mere">
 <!ENTITY mixedContentBlocked.moreinfo "De fleste websteder vil stadig fungere korrekt, selvom dette indhold er blokeret.">
 
 <!ENTITY pointerLock.notification.message "Tryk på ESC for at få den vist igen.">

@@ -39,7 +39,7 @@ can reach it easily. -->
 <!ENTITY  unpinTab.accesskey                 "b">
 <!ENTITY  moveToNewWindow.label              "移动到新窗口">
 <!ENTITY  moveToNewWindow.accesskey          "W">
-<!ENTITY  bookmarkAllTabs.label              "将全部标签页加为书签…">
+<!ENTITY  bookmarkAllTabs.label              "为全部标签页添加书签…">
 <!ENTITY  bookmarkAllTabs.accesskey          "T">
 <!ENTITY  undoCloseTab.label                 "恢复关闭的标签页">
 <!ENTITY  undoCloseTab.accesskey             "U">
@@ -51,7 +51,7 @@ can reach it easily. -->
 <!ENTITY tabCmd.label "新建标签页">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "打开位置…">
+<!ENTITY openLocationCmd.label "打开地址…">
 <!ENTITY openLocationCmd.accesskey "L">
 <!ENTITY openFileCmd.label "打开文件…">
 <!ENTITY openFileCmd.accesskey "O">
@@ -76,7 +76,7 @@ can reach it easily. -->
 <!ENTITY navbarCmd.accesskey "N">
 <!ENTITY personalbarCmd.label "书签工具栏">
 <!ENTITY personalbarCmd.accesskey "B">
-<!ENTITY bookmarksToolbarItem.label "书签工具栏项">
+<!ENTITY bookmarksToolbarItem.label "书签工具栏项目">
 <!ENTITY addonBarCmd.label "附加组件栏">
 <!ENTITY addonBarCmd.accesskey "A">
 <!ENTITY statusBar.label               "状态栏​​​​​​​">
@@ -101,15 +101,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllTabsCmd.accesskey "A">
 
 <!ENTITY fullScreenMinimize.tooltip "最小化">
-<!ENTITY fullScreenRestore.tooltip "恢复">
+<!ENTITY fullScreenRestore.tooltip "还原">
 <!ENTITY fullScreenClose.tooltip "关闭">
 <!ENTITY fullScreenAutohide.label "隐藏工具栏">
 <!ENTITY fullScreenAutohide.accesskey "H">
 <!ENTITY fullScreenExit.label "退出全屏模式">
 <!ENTITY fullScreenExit.accesskey "F">
-<!ENTITY fullscreenAllowButton.label "允许">
-<!ENTITY fullscreenExitButton.label "拒绝">
-<!ENTITY fullscreenApproval.value "允许全屏？">
 
 <!ENTITY fullscreenExitHint.value "可随时按 ESC 退出全屏。">
 <!ENTITY leaveDOMFullScreen.label "退出全屏">
@@ -125,7 +122,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY markPageCmd.commandkey "l">
 <!ENTITY subscribeToPageMenupopup.label "订阅此页">
 <!ENTITY subscribeToPageMenuitem.label "订阅此页…">
-<!ENTITY addCurPagesCmd.label "将所有标签页加入书签…">
+<!ENTITY addCurPagesCmd.label "为所有标签页添加书签…">
 <!ENTITY showAllBookmarks2.label "管理所有书签">
 <!ENTITY organizeBookmarks.label "组织书签">
 <!ENTITY unsortedBookmarksCmd.label "未分类书签">
@@ -145,7 +142,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.label                "停止">
 <!ENTITY stopCmd.accesskey            "S">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "停止载入当前页">
+<!ENTITY stopButton.tooltip           "停止载入此页面">
 <!ENTITY goEndCap.tooltip             "转到地址栏中指向的地址">
 <!ENTITY printButton.label            "打印">
 <!ENTITY printButton.tooltip          "打印当前页">
@@ -187,9 +184,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY toolsMenu.label              "工具">
 <!ENTITY toolsMenu.accesskey          "T"> 
 
-<!ENTITY keywordfield.label           "为此搜索添加关键字…">
+<!ENTITY keywordfield.label           "为此搜索引擎添加关键词…">
 <!ENTITY keywordfield.accesskey       "K">
-<!ENTITY search.label                 "网页搜索">
+<!ENTITY search.label                 "使用 ">
 <!ENTITY search.accesskey             "S">
 <!ENTITY downloads.label              "下载">
 <!ENTITY downloads.tooltip            "显示正在下载项目的进度">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "权限">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "选项">
+<!ENTITY preferencesCmd2.accesskey    "O">
 
 <!ENTITY webDeveloperMenu.label       "Web 开发者">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "全选">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
-<!ENTITY preferencesCmd2.label       "首选项">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "首选项">
-<!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
 <!ENTITY clearRecentHistory.label               "清除最近的历史记录…">
 
@@ -312,7 +307,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "侧栏">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "自定义"> 
+<!ENTITY viewCustomizeToolbar.label       "定制…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "标签页置顶">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -331,16 +326,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuEdit.label "编辑">
 <!ENTITY appMenuCustomize.label "定制">
 <!ENTITY appMenuToolbarLayout.label "工具栏布局">
-<!ENTITY appMenuSidebars.label "侧边栏">
+<!ENTITY appMenuSidebars.label "侧栏">
 <!ENTITY appMenuFind.label "查找…">
 <!ENTITY appMenuUnsorted.label "未分类书签">
 <!ENTITY appMenuWebDeveloper.label "Web 开发者">
 <!ENTITY appMenuGettingStarted.label "新手上路">
 <!ENTITY appMenuSafeMode.label "以安全模式重新启动…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "搜索或输入网址">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "切换到标签页：">
 
@@ -405,20 +398,20 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewImageInfoCmd.label       "查看图像信息">
 <!ENTITY viewImageInfoCmd.accesskey   "f">
 <!ENTITY viewVideoCmd.label           "查看视频">
-<!ENTITY viewVideoCmd.accesskey       "I">
+<!ENTITY viewVideoCmd.accesskey       "i">
 <!ENTITY viewBGImageCmd.label         "查看背景图像">
 <!ENTITY viewBGImageCmd.accesskey     "w">
 <!ENTITY setDesktopBackgroundCmd.label      "设为桌面背景…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "S">
-<!ENTITY bookmarkPageCmd2.label       "将此页加为书签">
+<!ENTITY bookmarkPageCmd2.label       "为此网页添加书签">
 <!ENTITY bookmarkPageCmd2.accesskey   "m">
-<!ENTITY bookmarkThisLinkCmd.label      "将此链接加为书签">
+<!ENTITY bookmarkThisLinkCmd.label      "为此链接添加书签">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "L">
-<!ENTITY bookmarkThisFrameCmd.label      "将此框架加为书签">
+<!ENTITY bookmarkThisFrameCmd.label      "为此框架添加书签">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
 <!ENTITY emailPageCmd.label           "用邮件发送链接…">
 <!ENTITY emailPageCmd.accesskey       "E">
-<!ENTITY savePageCmd.label            "页面另存为…">
+<!ENTITY savePageCmd.label            "将页面另存为…">
 <!ENTITY savePageCmd.accesskey        "A">
 <!ENTITY sendLinkCmd.label            "发送链接…">
 <!ENTITY sendLinkCmd.accesskey        "d">
@@ -427,17 +420,17 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
 <!ENTITY savePageCmd.commandkey       "s">
-<!ENTITY saveFrameCmd.label           "框架另存为…">
+<!ENTITY saveFrameCmd.label           "将框架另存为…">
 <!ENTITY saveFrameCmd.accesskey       "F">
 <!ENTITY printFrameCmd.label          "打印框架…">
 <!ENTITY printFrameCmd.accesskey      "P">
-<!ENTITY saveLinkCmd.label            "链接另存为…">
+<!ENTITY saveLinkCmd.label            "从链接另存文件为…">
 <!ENTITY saveLinkCmd.accesskey        "k">
-<!ENTITY saveImageCmd.label           "图像另存为…">
+<!ENTITY saveImageCmd.label           "将图像另存为…">
 <!ENTITY saveImageCmd.accesskey       "v">
-<!ENTITY saveVideoCmd.label           "视频另存为…">
+<!ENTITY saveVideoCmd.label           "将视频另存为…">
 <!ENTITY saveVideoCmd.accesskey       "v">
-<!ENTITY saveAudioCmd.label           "音频另存为…">
+<!ENTITY saveAudioCmd.label           "将音频另存为…">
 <!ENTITY saveAudioCmd.accesskey       "v">
 <!ENTITY emailImageCmd.label          "用邮件发送图片…">
 <!ENTITY emailImageCmd.accesskey      "g">
@@ -501,7 +494,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.accesskey "C">
 <!ENTITY videoFullScreen.label       "全屏">
 <!ENTITY videoFullScreen.accesskey   "F">
-<!ENTITY videoSaveImage.label        "快照另存为…">
+<!ENTITY videoSaveImage.label        "将截图另存为…">
 <!ENTITY videoSaveImage.accesskey    "S">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "重新启动…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "退出"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "x">
@@ -570,18 +562,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "C">
 
-<!ENTITY pageStyleMenu.label "页面风格">
+<!ENTITY pageStyleMenu.label "页面样式">
 <!ENTITY pageStyleMenu.accesskey "y">
-<!ENTITY pageStyleNoStyle.label "无风格">
-<!ENTITY pageStyleNoStyle.accesskey "n">
-<!ENTITY pageStylePersistentOnly.label "基本页面风格">
-<!ENTITY pageStylePersistentOnly.accesskey "b">
+<!ENTITY pageStyleNoStyle.label "无样式">
+<!ENTITY pageStyleNoStyle.accesskey "N">
+<!ENTITY pageStylePersistentOnly.label "基本页面样式">
+<!ENTITY pageStylePersistentOnly.accesskey "B">
 
-<!ENTITY pageReportIcon.tooltip            "更改此站点的弹出阻止设置">
+<!ENTITY pageReportIcon.tooltip            "更改对此网站的弹窗拦截设置">
 
 <!ENTITY allowPopups.accesskey "p">
-<!ENTITY editPopupSettingsUnix.label "编辑弹出窗口阻止程序首选项">
-<!ENTITY editPopupSettings.label "编辑弹出窗口阻止程序首选项">
+<!ENTITY editPopupSettingsUnix.label "编辑弹窗拦截首选项…">
+<!ENTITY editPopupSettings.label "编辑弹窗拦截选项…">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
@@ -626,12 +618,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY allTabs.filter.emptyText "Search Tabs">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label "浏览器标签">
+<!ENTITY tabsToolbar.label "浏览器标签页">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "来自其他设备的标签页">
 
-<!ENTITY syncBrand.shortName.label    "Sync">
+<!ENTITY syncBrand.shortName.label    "同步">
 
 <!ENTITY syncSetup.label              "设置 &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "Y">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "共享的麦克风：">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "摄像头/麦克风访问">
-<!ENTITY webrtcIndicatorButton.tooltip "显示您正在共享您摄像头或麦克风的站点">
 
-<!ENTITY mixedContentBlocked.helplink "详细了解">
 <!ENTITY mixedContentBlocked.moreinfo "即使此类内容被屏蔽，大多数网站仍能正常工作。">
 
 <!ENTITY pointerLock.notification.message "随时可以按 ESC 显示鼠标指针。">
@@ -661,4 +650,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "本次允许">
 <!ENTITY pluginActivateAlways.label "长期允许">
-<!ENTITY pluginBlockNow.label "屏蔽插件">
+<!ENTITY pluginBlockNow.label "拦截插件">

@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Rimozione password principale">
 <!ENTITY resetPassword.text  "La rimozione della password principale comporterà la perdita di tutte le password di posta e dei siti web, dei dati dei moduli, dei certificati personali e delle chiavi private memorizzate. Rimuovere la password principale?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Inserimento password principale">
-<!ENTITY getPassword.tokenName2.label "Dispositivo di sicurezza:">
-<!ENTITY getPassword.password.label "Password:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Download certificato">
 <!ENTITY downloadCert.message1 "È stato richiesto di dare fiducia a una nuova autorità di certificazione (CA).">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Scegliere un certificato da presentare come identificativo:">
 <!ENTITY clientAuthAsk.message3 "Dettagli del certificato selezionato:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Selezione certificato">
-<!ENTITY certPicker.info  "Certificato:">
-<!ENTITY certPicker.detailsLabel "Dettagli del certificato selezionato:">
-
 <!ENTITY pkcs12.setpassword.title  "Scegliere una password per la copia di backup del certificato">
 <!ENTITY pkcs12.setpassword.message  "La password della copia di backup del certificato serve a proteggere l'archivio che ci si accinge a creare. Per procedere con la creazione dell'archivio è necessario impostare una password.">
 <!ENTITY pkcs12.setpassword.label1 "Password copia di backup del certificato:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Scelta token">
 <!ENTITY chooseToken.message1 "Selezionare un token.">
-
-<!ENTITY escrowWarn.title "Copia chiave di cifratura">
-<!ENTITY escrowWarn.message1 "Importante: questa autorità di certificazione chiede che venga effettuata una copia di backup della chiave privata di cifratura.">
-<!ENTITY escrowWarn.benefit1 "Il vantaggio è che se non si riuscisse più ad accedere alla chiave privata di cifratura, è possibile richiederne una copia a questa autorità di certificazione.">
-<!ENTITY escrowWarn.message2 "In ogni caso, la chiave privata di cifratura verrà archiviata dall'autorità di certificazione, e potrebbe essere utilizzata per leggere la posta cifrata senza permesso.">
-<!ENTITY examineCert.label "Visualizza certificato">
-<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Genera una chiave privata">

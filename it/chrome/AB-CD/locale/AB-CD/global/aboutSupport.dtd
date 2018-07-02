@@ -28,7 +28,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Attiva">
 <!ENTITY aboutSupport.experimentEndDate "Data termine">
 <!ENTITY aboutSupport.experimentHomepage "Pagina iniziale">
-
+<!ENTITY aboutSupport.experimentBranch "Branch">
 
 <!ENTITY aboutSupport.appBasicsTitle "Informazioni di base">
 <!ENTITY aboutSupport.appBasicsName "Nome">
@@ -52,6 +52,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User agent">
 <!ENTITY aboutSupport.appBasicsOS "Sistema operativo">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilizzo memoria">
+<!ENTITY aboutSupport.appBasicsPerformance "Prestazioni">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service worker registrati">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profili">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Finestre multiprocesso">
 
@@ -62,9 +68,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Mostra nel Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Mostra cartella">
+<!ENTITY aboutSupport.showWin2.label "Apri cartella">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Preferenze importanti modificate">
 <!ENTITY aboutSupport.modifiedPrefsName "Nome">
@@ -99,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copia testo negli appunti">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copia dati non elaborati negli appunti">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
 <!ENTITY aboutSupport.safeModeTitle "Prova la modalità provvisoria">
 <!ENTITY aboutSupport.restartInSafeMode.label "Riavvia in modalità provvisoria…">
 
 <!ENTITY aboutSupport.restartTitle "Prova a riavviare">
 <!ENTITY aboutSupport.restartNormal.label "Riavvia normalmente…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Caratteristiche">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostica">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Registro errori">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro decisioni">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funzioni disattivate da Crash Guard">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Soluzioni alternative">

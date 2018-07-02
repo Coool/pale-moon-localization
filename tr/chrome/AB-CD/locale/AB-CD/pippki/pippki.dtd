@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Ana Parolayı Sıfırla">
 <!ENTITY resetPassword.text  "Eğer ana parolanızı sıfırlarsanız, web ve e-posta parolanız, form verileriniz, kişisel onay belgeleriniz ve özel anahtarlarınız kaybolur.  Ana parolanızı sıfırlamak istediğinizden emin misiniz?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Ana parolanızı girin">
-<!ENTITY getPassword.tokenName2.label "Güvenlik aygıtı:">
-<!ENTITY getPassword.password.label "Parola:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Onay belgesi indiriliyor">
 <!ENTITY downloadCert.message1 "Yeni bir onay belgesi yetkilisi (CA) güvenliğini sordunuz.">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Tanımlamada kullanılacak onay belgesini seçin:">
 <!ENTITY clientAuthAsk.message3 "Seçilen onay belgesi detayları:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Onay belgesi seçin">
-<!ENTITY certPicker.info  "Onay belgesi:">
-<!ENTITY certPicker.detailsLabel "Seçilen onay belgesi detayları:">
-
 <!ENTITY pkcs12.setpassword.title  "Onay belgesi yedekleme parolanızı seçin">
 <!ENTITY pkcs12.setpassword.message  "Koyduğunuz onay belgesi yedekleme parolası, oluşturmak istediğiniz yedekleme dosyalarını korur. Yedeklemeye devam etmek için bu parolayı koymak zorundasınız.">
 <!ENTITY pkcs12.setpassword.label1 "Onay belgesi yedekleme parolası:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Simge Seçim Kutusu">
 <!ENTITY chooseToken.message1 "Lütfen bir simge secin.">
-
-<!ENTITY escrowWarn.title "Anahtar şifreleme kopyası">
-<!ENTITY escrowWarn.message1 "Önemli: onay belgesi yetkilisi, şifrelemede kullandığınız  özel anahtarlarınız için bir yedekleme yapmanızı rica etti.">
-<!ENTITY escrowWarn.benefit1 "Buradaki avantajınız, özel şifreleme anahtarınızı kaybetmeniz hâlinde bu onay belgesi yetkilisinden bir kopyasını talep edebilecek olmanızdır.">
-<!ENTITY escrowWarn.message2 "Her şeye rağmen onay belgesi yetkilisi tarafından şifrelenmiş özel anahtarınız kaydoldu ve şifrelenmiş e-posta veya belgelerinizi  sizin izniniz olmadan okumak amacı ile kullanılabilir.">
-<!ENTITY examineCert.label "Onay belgesini göster">
-<!ENTITY examineCert.accesskey "O">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Özel anahtar oluştur">

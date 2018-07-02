@@ -2,18 +2,19 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "about: config">
+<!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
 <!ENTITY aboutWarningTitle.label "Tutaj budzą się demony !">
-<!ENTITY aboutWarningText.label "Zmiana tych ustawień zaawansowanych może być (poważnie) szkodliwa dla stabilności, bezpieczeństwa i wydajności tej aplikacji. Kontynuuj tylko wtedy, gdy masz pewność tego, co robisz.">
-<!ENTITY aboutWarningButton.label "Obiecuję być ostrożnym!">
+<!ENTITY aboutWarningText.label "Modyfikacja tych ustawień może spowodować problemy, takie jak utrata stabilności i wydajności programu oraz zagrożenie bezpieczeństwa. Kontynuuj tylko wtedy, gdy masz pewność tego, co robisz.">
+<!ENTITY aboutWarningButton2.label "Akceptuję ryzyko!">
 <!ENTITY aboutWarningCheckbox.label "Wyświetl to ostrzeżenie następnym razem">
 
 <!ENTITY searchPrefs.label "Szukaj:">
 <!ENTITY searchPrefs.accesskey "S">
-<!ENTITY focusSearch.key "c">
+<!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Nazwa">
@@ -26,7 +27,7 @@
 <!ENTITY columnChooser.tooltip "Kliknij, aby wybrać kolumny, które zostaną wyświetlone"> 
 
 <!-- Context Menu -->
-<!ENTITY copyPref.key "E">
+<!ENTITY copyPref.key "C">
 <!ENTITY copyPref.label "Kopiuj">
 <!ENTITY copyPref.accesskey "K">
 <!ENTITY copyName.label "Kopiuj nazwę">
@@ -34,16 +35,16 @@
 <!ENTITY copyValue.label "Kopiuj wartość">
 <!ENTITY copyValue.accesskey "w">
 <!ENTITY modify.label "Modyfikuj">
-<!ENTITY modify.accesskey "C">
+<!ENTITY modify.accesskey "M">
 <!ENTITY toggle.label "Przełącz">
 <!ENTITY toggle.accesskey "P">
 <!ENTITY reset.label "Resetuj">
-<!ENTITY reset.accesskey "W">
+<!ENTITY reset.accesskey "R">
 <!ENTITY new.label "Dodaj ustawienie typu">
 <!ENTITY new.accesskey "D">
 <!ENTITY string.label "Łańcuch (string)">
 <!ENTITY string.accesskey "s">
 <!ENTITY integer.label "Liczba całkowita (Integer)">
-<!ENTITY integer.accesskey "K">
+<!ENTITY integer.accesskey "I">
 <!ENTITY boolean.label "Wartość logiczna (Boolean)">
-<!ENTITY boolean.accesskey "P">
+<!ENTITY boolean.accesskey "B">

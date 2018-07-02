@@ -3,26 +3,35 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY cutCmd.label "Potong">
-<!ENTITY cutCmd.accesskey "t">
-<!ENTITY copyCmd.label "Salinan">
-<!ENTITY copyCmd.accesskey "c">
-<!ENTITY pasteCmd.label "Menempelkan">
+<!ENTITY cutCmd.accesskey "P">
+<!ENTITY copyCmd.label "Salin">
+<!ENTITY copyCmd.accesskey "S">
+<!ENTITY pasteCmd.label "Tempel">
 <!ENTITY pasteCmd.accesskey "p">
-<!ENTITY undoCmd.label "Membuka">
-<!ENTITY undoCmd.accesskey "u">
+<!ENTITY undoCmd.label "Urungkan">
+<!ENTITY undoCmd.accesskey "g">
 <!ENTITY selectAllCmd.label "Pilih Semua">
 <!ENTITY selectAllCmd.accesskey "a">
 <!ENTITY deleteCmd.label "Hapus">
-<!ENTITY deleteCmd.accesskey "d">
+<!ENTITY deleteCmd.accesskey "H">
 
-<!ENTITY spellAddToDictionary.label "Tambahkan ke Kamus">
-<!ENTITY spellAddToDictionary.accesskey "o">
-<!ENTITY spellUndoAddToDictionary.label "Mengulang Tambahan Ke Kamus">
+<!ENTITY spellAddToDictionary.label "Tambah ke Kamus">
+<!ENTITY spellAddToDictionary.accesskey "K">
+<!ENTITY spellUndoAddToDictionary.label "Batalkan Penambahan ke Kamus">
 <!ENTITY spellUndoAddToDictionary.accesskey "n">
 <!ENTITY spellCheckToggle.label "Periksa Ejaan">
-<!ENTITY spellCheckToggle.accesskey "g">
-<!ENTITY spellNoSuggestions.label "(Tidak ada saran ejaan)">
+<!ENTITY spellCheckToggle.accesskey "E">
+<!ENTITY spellNoSuggestions.label "(Tidak ada saran pengejaan)">
 <!ENTITY spellDictionaries.label "Bahasa">
-<!ENTITY spellDictionaries.accesskey "l">
+<!ENTITY spellDictionaries.accesskey "B">
 
-<!ENTITY searchTextBox.clear.label "Bersih">
+<!ENTITY searchTextBox.clear.label "Bersihkan">
+
+<!ENTITY fillLoginMenu.label          "Isi Info Masuk">
+<!ENTITY fillLoginMenu.accesskey      "I">
+<!ENTITY fillPasswordMenu.label       "Isi Sandi">
+<!ENTITY fillPasswordMenu.accesskey   "I">
+<!ENTITY fillUsernameMenu.label       "Isi Nama Pengguna">
+<!ENTITY fillUsernameMenu.accesskey   "I">
+<!ENTITY noLoginSuggestions.label     "(Tidak Ada Saran Info Masuk)">
+<!ENTITY viewSavedLogins.label        "Lihat Info Masuk Tersimpan">

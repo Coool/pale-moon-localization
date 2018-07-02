@@ -7,6 +7,8 @@
 
 <!ENTITY loadError.label "Chyba při načítání stránky">
 <!ENTITY retry.label "Zkusit znovu">
+<!ENTITY returnToPreviousPage.label "Přejít zpět">
+<!ENTITY advanced.label "Rozšířené">
 
 <!-- Specific error messages -->
 
@@ -14,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Omezení přístupu k adrese">
-<!ENTITY deniedPortAccess.longDesc "<p>V požadované URL adrese byl zadán port (např. <q>palemoon.org:25</q> pro port 25 na serveru palemoon.org), který se normálně používá pro <em>jiné</em> internetové služby než prohlížení webových stránek. Z bezpečnostních důvodů prohlížeč tento požadavek zrušil.</p>">
+<!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
 <!ENTITY dnsNotFound.longDesc "
@@ -32,16 +34,27 @@
 <!ENTITY fileNotFound.title "Soubor nenalezen">
 <!ENTITY fileNotFound.longDesc "
 <ul>
-  <li>Zkontrolujte, zda je název souboru napsán správně, a to včetně velikosti písmen.</li>
-  <li>Zkontrolujte, zda soubor nebyl přesunut, přejmenován nebo odstraněn.</li>
+  <li>Zkontrolujte, že je název souboru napsán správně, a to včetně velikosti písmen.</li>
+  <li>Zkontrolujte, že soubor nebyl přesunut, přejmenován nebo odstraněn.</li>
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "Přístup k souboru byl odepřen">
+<!ENTITY fileAccessDenied.longDesc "<ul>
+  <li>Možná byl odstraněn, přesunut nebo jeho oprávnění zabraňují přístupu.</li>
+</ul>">
 
 <!ENTITY generic.title "Nepodařilo se dokončit požadavek">
 <!ENTITY generic.longDesc "
 <p>&brandShortName; nemůže tuto stránku načíst.</p>
 ">
+
+<!ENTITY captivePortal.title "Přihlásit se do sítě">
+<!ENTITY captivePortal.longDesc "
+<p>Tato síť může vyžadovat přihlášení pro přístup k internetu.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Otevřít přihlašovací stránku">
 
 <!ENTITY malformedURI.title "Neplatná adresa">
 <!ENTITY malformedURI.longDesc "
@@ -145,6 +158,11 @@ kdo se snaží vydávat za server.</li>
  chyba jenom dočasná, a můžete to zkusit znovu později.</li>
 </ul>
 ">
+<!ENTITY certerror.longpagetitle1 "Vaše připojení není zabezpečené">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "Majitel serveru <span class='hostname'/> nakonfiguroval své webové stránky nesprávně. Abychom chránili vaše informace před odcizením, &brandShortName; se k této webové stránce nepřipojil.">
 
 <!ENTITY sharedLongDesc "
 <ul>
@@ -185,6 +203,8 @@ později.</li>
 
 <!ENTITY corruptedContentError.title "Chyba v obsahu stránky">
 <!ENTITY corruptedContentError.longDesc "<p>Požadovanou stránku nelze zobrazit, protože přenesená data jsou chybná.</p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Chyba v obsahu stránky">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Požadovanou stránku nelze zobrazit, protože při přenosu dat došlo k chybě.</p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "Nebo můžete přidat výjimku…">
@@ -203,15 +223,6 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Nahlášení této chyby">
-<!ENTITY errorReporting.longDesc "Hlášení adresy a informace o certifikátu pro <span id='hostname'></span> nám pomohou identifikovat a blokovat škodlivé stránky. Děkujeme, že pomáháte utvářet bezpečnější web!">
-<!ENTITY errorReporting.automatic "Automaticky v budoucnu hlásit chyby">
-<!ENTITY errorReporting.learnMore "Zjistit více…">
-<!ENTITY errorReporting.sending "Odesílání hlášení">
-<!ENTITY errorReporting.sent "Hlášení odesláno">
-<!ENTITY errorReporting.report "Hlášení">
-<!ENTITY errorReporting.tryAgain "Zkusit znovu">
-
 <!ENTITY remoteXUL.title "Vzdálené XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul></p>">
 
@@ -220,3 +231,32 @@ functionality specific to firefox. -->
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Rozšířené informace: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Zjistit více…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "Podrobné informace: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "Vaše připojení není zabezpečené">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "Podrobné informace: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "Rozšířené">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> používá zabezpečení, které je zastaralé a náchylné k útoku. Útočník by mohl snadno odhalit informace, o kterých jste si mysleli, že jsou v bezpečí.">
+<!ENTITY weakCryptoAdvanced.override "(Nezabezpečeno) Zkusí načíst <span class='hostname'></span> pomocí zastaralého zabezpečení">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Není možné navázat zabezpečené připojení k <span id='wrongSystemTime_URL'/>, protože se zdá, že vaše hodiny ukazují špatný čas.</p> <p>Váš počítač si myslí, že je <span id='wrongSystemTime_systemDate'/> a mělo by být <span id='wrongSystemTime_actualDate'/>. Pro vyřešení tohoto problému prosím opravte nastavení data a času.</p>">
+
+<!ENTITY certerror.pagetitle1  "Nezabezpečené připojení">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tento server používá HTTP
+Strict Transport Security (HSTS), čímž určuje, že se má &brandShortName; připojovat
+pouze zabezpečeně. Z tohoto důvodu není možné přidat pro tento certifikát výjimku.">
+<!ENTITY certerror.copyToClipboard.label "Zkopírovat text do schránky">
+
+<!ENTITY inadequateSecurityError.title "Vaše připojení není zabezpečené">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> používá technologii která je zastaralá a náchylná k útoku. Útočník může snadno získat informace, které si myslíte, že jsou zabezpečené. Správce serveru musí server opravit předtím, než budete moci stránku navštívit.</p><p>Kód chyby: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Zdá se, že příčinou může být vaše nastavení zabezpečení. Chcete obnovit výchozí nastavení?">
+<!ENTITY prefReset.label "Obnovit výchozí nastavení">

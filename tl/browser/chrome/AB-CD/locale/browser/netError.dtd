@@ -7,6 +7,8 @@
 
 <!ENTITY loadError.label "Problema sa pag-load ng pahina">
 <!ENTITY retry.label "Subukan Ulit">
+<!ENTITY returnToPreviousPage.label "Go Back">
+<!ENTITY advanced.label "Advanced">
 
 <!-- Specific error messages -->
 
@@ -14,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Itong address ay limitado">
-<!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy sa isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
+<!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Hindi natagpuan ang server">
 <!ENTITY dnsNotFound.longDesc "
@@ -35,11 +37,24 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "Access to the file was denied">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>It may have been removed, moved, or file permissions may be preventing access.</li>
+</ul>
+">
 
 <!ENTITY generic.title "Hala.">
 <!ENTITY generic.longDesc "
 <p>Dahil sa isang hindi malamang dahilan ay hindi ma-load ng &brandShortName; ang pahinang ito.</p>
 ">
+
+<!ENTITY captivePortal.title "Login to network">
+<!ENTITY captivePortal.longDesc "
+<p>This network may require you to login to access the internet.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Open Login Page">
 
 <!ENTITY malformedURI.title "Ang address ay imbalido">
 <!ENTITY malformedURI.longDesc "
@@ -138,6 +153,11 @@
   <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito noon, maaaring ang pagkakamaling ito ay pansamantala lamang, at puwede mong subukan ito ulit mamaya.</li>
 </ul>
 ">
+<!ENTITY certerror.longpagetitle1 "Your connection is not secure">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "The owner of <span class='hostname'/> has configured their website improperly.  To protect your information from being stolen, &brandShortName; has not connected to this website.">
 
 <!ENTITY sharedLongDesc "
 <ul>
@@ -172,6 +192,8 @@
 
 <!ENTITY corruptedContentError.title "Error sa Sirang Nilalaman">
 <!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Corrupted Content Error">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "O maaari ka din na maglapat ng eksepsiyon…">
@@ -190,15 +212,6 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "I-ulat itong pagkakamali">
-<!ENTITY errorReporting.longDesc "Ang pag-ulat sa address at impormasyon tungkol sa sertipiko ng <span id='hostname'></span> ay makatutulong upang makilala at maharang namin ang mga site na may masamang hangarin. Maraming salamat sa iyong pagtulong sa paggawa ng mas ligtas na web!">
-<!ENTITY errorReporting.automatic "Awtomatikong mag-ulat tungkol sa mga pagkakamali sa hinaharap">
-<!ENTITY errorReporting.learnMore "Matuto ng higit pa…">
-<!ENTITY errorReporting.sending "Ipinadadala ang ulat">
-<!ENTITY errorReporting.sent "Naipadala na ang ulat">
-<!ENTITY errorReporting.report "I-ulat">
-<!ENTITY errorReporting.tryAgain "Subukan ulit">
-
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
 
@@ -207,3 +220,33 @@ functionality specific to firefox. -->
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Matuto ng higit pa…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "Advanced info: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "Your connection is not secure">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "Advanced info: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "Advanced">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe.">
+<!ENTITY weakCryptoAdvanced.override "(Not secure) Try loading <span class='hostname'></span> using outdated security">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>A secure connection to <span id='wrongSystemTime_URL'/> isn’t possible because your clock appears to show the wrong time.</p> <p>Your computer thinks it is <span id='wrongSystemTime_systemDate'/>, when it should be <span id='wrongSystemTime_actualDate'/>. To fix this problem, change your date and time settings to match the correct time.</p>">
+
+<!ENTITY certerror.pagetitle1  "Insecure Connection">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "This site uses HTTP
+Strict Transport Security (HSTS) to specify that &brandShortName; may only connect
+to it securely. As a result, it is not possible to add an exception for this
+certificate.">
+<!ENTITY certerror.copyToClipboard.label "Copy text to clipboard">
+
+<!ENTITY inadequateSecurityError.title "Your connection is not secure">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe. The website administrator will need to fix the server first before you can visit the site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "It looks like your network security settings might be causing this. Do you want the default settings to be restored?">
+<!ENTITY prefReset.label "Restore default settings">

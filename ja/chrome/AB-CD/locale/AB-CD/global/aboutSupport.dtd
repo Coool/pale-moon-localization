@@ -11,9 +11,9 @@
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "レポート ID">
-<!ENTITY aboutSupport.crashes.sendDate "送信済">
+<!ENTITY aboutSupport.crashes.sendDate "送信日時">
 <!ENTITY aboutSupport.crashes.allReports "すべてのクラッシュレポート">
-<!ENTITY aboutSupport.crashes.noConfig "このアプリケーションはクラッシュレポートを表示するように設定されていません。">
+<!ENTITY aboutSupport.crashes.noConfig "このプログラムはクラッシュレポートを表示できるように設定されていません。">
 
 <!ENTITY aboutSupport.extensionsTitle "拡張機能">
 <!ENTITY aboutSupport.extensionName "名前">
@@ -25,10 +25,10 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentName "名前">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "説明">
-<!ENTITY aboutSupport.experimentActive "有効">
+<!ENTITY aboutSupport.experimentActive "アクティブ">
 <!ENTITY aboutSupport.experimentEndDate "終了日">
 <!ENTITY aboutSupport.experimentHomepage "ホームページ">
-
+<!ENTITY aboutSupport.experimentBranch "ブランチ">
 
 <!ENTITY aboutSupport.appBasicsTitle "アプリケーション基本情報">
 <!ENTITY aboutSupport.appBasicsName "名前">
@@ -37,34 +37,40 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "チャンネルを更新">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "更新チャンネル">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "更新履歴">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "更新履歴を表示">
 
-<!ENTITY aboutSupport.appBasicsProfileDir "プロファイルフォルダ">
+<!ENTITY aboutSupport.appBasicsProfileDir "プロファイルフォルダー">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
-<!ENTITY aboutSupport.appBasicsProfileDirWinMac "プロファイルフォルダ">
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac "プロファイルフォルダー">
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "有効なプラグイン">
 <!ENTITY aboutSupport.appBasicsBuildConfig "ビルド設定">
-<!ENTITY aboutSupport.appBasicsUserAgent "ユーザエージェント">
+<!ENTITY aboutSupport.appBasicsUserAgent "ユーザーエージェント">
 <!ENTITY aboutSupport.appBasicsOS "OS">
-<!ENTITY aboutSupport.appBasicsMemoryUse "メモリ使用量">
+<!ENTITY aboutSupport.appBasicsMemoryUse "メモリー使用量">
+<!ENTITY aboutSupport.appBasicsPerformance "パフォーマンス">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "マルチプロセス Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "登録された Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "プロファイル">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "マルチプロセスウィンドウ">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "セーフモード">
 
-<!ENTITY aboutSupport.showDir.label "ディレクトリを開く">
+<!ENTITY aboutSupport.showDir.label "ディレクトリーを開く">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Finder で表示">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!ENTITY aboutSupport.showMac.label "Finder に表示">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "フォルダを開く">
+<!ENTITY aboutSupport.showWin2.label "フォルダーを開く">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "変更された重要な設定">
 <!ENTITY aboutSupport.modifiedPrefsName "名前">
@@ -78,7 +84,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.lockedPrefsName "名前">
 <!ENTITY aboutSupport.lockedPrefsValue "値">
 
-<!ENTITY aboutSupport.graphicsTitle "グラフィックス">
+<!ENTITY aboutSupport.graphicsTitle "グラフィック">
 
 <!ENTITY aboutSupport.placeDatabaseTitle "Places データベース">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "整合性">
@@ -89,7 +95,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.a11yTitle "アクセシビリティ">
 <!ENTITY aboutSupport.a11yActivated "有効">
-<!ENTITY aboutSupport.a11yForceDisabled "アクセシビリティを無効にする">
+<!ENTITY aboutSupport.a11yForceDisabled "アクセシビリティの無効化">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "ライブラリのバージョン">
 
@@ -99,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "テキストをクリップボードにコピー">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "生データをクリップボードにコピー">
 
-<!ENTITY aboutSupport.sandboxTitle "サンド ボックス">
-
 <!ENTITY aboutSupport.safeModeTitle "セーフモードを試みる">
 <!ENTITY aboutSupport.restartInSafeMode.label "セーフモードで再起動する…">
 
 <!ENTITY aboutSupport.restartTitle "再起動を試みる">
 <!ENTITY aboutSupport.restartNormal.label "通常の再起動をします…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "機能">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "診断">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "失敗ログ">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "決定ログ">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "クラッシュガードが無効化した機能">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "回避策">

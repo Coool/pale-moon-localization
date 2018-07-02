@@ -6,18 +6,18 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-  Ta stran vsebuje tehnične podatke, ki jih boste morda potrebovali pri odpravljanu
+  Ta stran vsebuje tehnične podatke, ki jih boste morda potrebovali pri odpravljanju
   težav. Če iščete odgovore na splošna vprašanja o programu
   &brandShortName;, obiščite <a id='supportLink'>strani za podporo uporabnikom</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Poročila o sesutju">
+<!ENTITY aboutSupport.crashes.title "Poročila o sesutjih">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "ID poročila">
-<!ENTITY aboutSupport.crashes.sendDate "Oddano">
-<!ENTITY aboutSupport.crashes.allReports "Vsa poročila o sesutju">
-<!ENTITY aboutSupport.crashes.noConfig "Ta aplikacija ni konfigurirana za prikaz poročila o zrušitvah.">
+<!ENTITY aboutSupport.crashes.sendDate "Datum pošiljanja">
+<!ENTITY aboutSupport.crashes.allReports "Vsa poročila o sesutjih">
+<!ENTITY aboutSupport.crashes.noConfig "Ta program ni bil nastavljen za prikaz poročil o sesutjih.">
 
 <!ENTITY aboutSupport.extensionsTitle "Razširitve">
 <!ENTITY aboutSupport.extensionName "Ime">
@@ -25,23 +25,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Različica">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Eksperimentalnih funkcij">
+<!ENTITY aboutSupport.experimentsTitle "Poskusne zmogljivosti">
 <!ENTITY aboutSupport.experimentName "Ime">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Opis">
 <!ENTITY aboutSupport.experimentActive "Aktivno">
-<!ENTITY aboutSupport.experimentEndDate "Končni datum">
+<!ENTITY aboutSupport.experimentEndDate "Datum konca">
 <!ENTITY aboutSupport.experimentHomepage "Domača stran">
-
+<!ENTITY aboutSupport.experimentBranch "Veja">
 
 <!ENTITY aboutSupport.appBasicsTitle "Osnovni podatki">
 <!ENTITY aboutSupport.appBasicsName "Ime">
 <!ENTITY aboutSupport.appBasicsVersion "Različica">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID gradnje">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Posodobitveni kanal">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Zgodovina posodobitev">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Prikaži zgodovino posodobitev">
 
@@ -51,24 +51,30 @@ This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDi
 Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "Mapa s profilom">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "Omogočeni vstavki">
-<!ENTITY aboutSupport.appBasicsBuildConfig "Nastavitev gradnje">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "Omogočeni vtičniki">
+<!ENTITY aboutSupport.appBasicsBuildConfig "Nastavitev graditve">
 <!ENTITY aboutSupport.appBasicsUserAgent "Uporabniški agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Poraba pomnilnika">
+<!ENTITY aboutSupport.appBasicsPerformance "Učinkovitost">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Registrirani Service Workerji">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsProfiles "Profili">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Večprocesna okna">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Varni način">
 
 <!ENTITY aboutSupport.showDir.label "Odpri mapo">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Prikaži v Finderju">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Pokaži mapo">
+<!ENTITY aboutSupport.showWin2.label "Odpri mapo">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Pomembne spremenjene nastavitve">
 <!ENTITY aboutSupport.modifiedPrefsName "Ime">
@@ -78,15 +84,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Nastavitve user.js">
 <!ENTITY aboutSupport.userJSDescription "V vaši mapi s profilom se nahaja <a id='prefs-user-js-link'>datoteka user.js</a>, ki vsebuje nastavitve, ki jih ni ustvaril &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Pomembne zaklenjene nastavitve">
+<!ENTITY aboutSupport.lockedPrefsName "Ime">
+<!ENTITY aboutSupport.lockedPrefsValue "Vrednost">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Podatkovna zbirka mest">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Celovitost">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Preveri celovitost">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Inkrementalen GC">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopiraj besedilo v odložišče">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopiraj neobdelane podatke v odložišče">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.safeModeTitle "Poskusite varni način">
 <!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
 <!ENTITY aboutSupport.restartTitle "Try Restart">
 <!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Možnosti">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostika">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Dnevnik napak">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPE št. 1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPE št. 2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Dnevnik odločitev">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Onemogočene možnosti zaščite pred sesutjem">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Zaobidenja">

@@ -4,78 +4,84 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Fjarmælingargögn">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Fjarmæling er <span>virk</span>.
-">
+<!ENTITY aboutTelemetry.changeDataChoices "  Breyta">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Fjarmæling er <span>óvirk</span>.
-">
+<!ENTITY aboutTelemetry.uploadEnabled "  FHR gagnaupphal er <span>virkt</span>.">
 
-<!ENTITY aboutTelemetry.generalDataSection "
-  General Data
-">
+<!ENTITY aboutTelemetry.uploadDisabled "  FHR gagnaupphal er <span>óvirkt</span>.">
 
-<!ENTITY aboutTelemetry.slowSqlSection "
-  Sýna hægar SQL tengingar
-">
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  Skráning á auka fjarmælingum er <span>virkt</span>.">
 
-<!ENTITY aboutTelemetry.chromeHangsSection "
-  Vafrahrun
-">
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  Skráning á auka fjarmælingum er <span>óvirkt</span>.">
 
-<!ENTITY aboutTelemetry.threadHangStatsSection "
-  Thread Hangs
-">
+<!ENTITY aboutTelemetry.pingDataSource "Ping gagnastaðsetning:">
 
-<!ENTITY aboutTelemetry.histogramsSection "
-  Súlurit
-">
+<!ENTITY aboutTelemetry.showCurrentPingData "Núverandi ping gögn">
 
-<!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Keyed Histograms
-">
+<!ENTITY aboutTelemetry.showArchivedPingData "Vistuð ping gögn">
 
-<!ENTITY aboutTelemetry.simpleMeasurementsSection "
-  Einfaldar mælingar
-">
+<!ENTITY aboutTelemetry.pingDataDisplay "Ping gögn birt:">
 
-<!ENTITY aboutTelemetry.addonDetailsSection "
-  Add-on Details
-">
+<!ENTITY aboutTelemetry.structured "Samsetning">
 
-<!ENTITY aboutTelemetry.lateWritesSection "
-  Skrifað seint
-">
+<!ENTITY aboutTelemetry.raw "Hrátt JSON">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Kerfisupplýsingar
-">
+<!ENTITY aboutTelemetry.showSubsessionData "Sýna subsession gögn">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "
-  Súlurit safnað af viðbótum
-">
+<!ENTITY aboutTelemetry.choosePing "Velja ping:">
 
-<!ENTITY aboutTelemetry.toggle "
-  Click to toggle section
-">
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; Nýrra ping">
 
-<!ENTITY aboutTelemetry.emptySection "
-  (Engum gögnum safnað)
-">
+<!ENTITY aboutTelemetry.showOlderPing "Eldra ping &gt;&gt;">
 
-<!ENTITY aboutTelemetry.fullSqlWarning "
-  ATHUGIÐ: Hægvirk SQL aflúsun er virk. Heildar SQL strengir gætu birst hér fyrir neðan en þeir verða ekki sendir á fjarmælingu.
-">
+<!ENTITY aboutTelemetry.rawPingData "Hrá ping gögn…">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-  Ná í nöfn falla fyrir hrunstafla
-">
+<!ENTITY aboutTelemetry.archiveWeekHeader "Vika">
 
-<!ENTITY aboutTelemetry.hideSymbols "
-  Sýna hrá gögn frá hruni
-">
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
 
-<!ENTITY aboutTelemetry.filterText "
-  Filter (strings or /regexp/)
-">
+<!ENTITY aboutTelemetry.generalDataSection "  Almenn gögn">
+
+<!ENTITY aboutTelemetry.environmentDataSection "  Umhverfisgögn">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "  Atburðaskrá fjarmælingar">
+
+<!ENTITY aboutTelemetry.slowSqlSection "  Sýna hægar SQL tengingar">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "  Vafrahrun">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "  Hangandi þræðir">
+
+<!ENTITY aboutTelemetry.scalarsSection "  Kvarðar">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Keyed Scalars">
+
+<!ENTITY aboutTelemetry.histogramsSection "  Súlurit">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "  Lyklaðar mælingar">
+
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "  Einfaldar mælingar">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "  Upplýsingar um viðbót">
+
+<!ENTITY aboutTelemetry.lateWritesSection "  Skrifað seint">
+
+<!ENTITY aboutTelemetry.sessionInfoSection "  Lotuupplýsingar">
+
+<!ENTITY aboutTelemetry.addonHistogramsSection "  Súlurit safnað af viðbótum">
+
+<!ENTITY aboutTelemetry.toggle "  Smelltu til víxla vali">
+
+<!ENTITY aboutTelemetry.emptySection "  (Engum gögnum safnað)">
+
+<!ENTITY aboutTelemetry.fullSqlWarning "  ATHUGIÐ: Hægvirk SQL aflúsun er virk. Heildar SQL strengir gætu birst hér fyrir neðan en þeir verða ekki sendir á fjarmælingu.">
+
+<!ENTITY aboutTelemetry.fetchSymbols "  Ná í nöfn falla fyrir hrunstafla">
+
+<!ENTITY aboutTelemetry.hideSymbols "   Sýna hrá gögn frá hruni">
+
+<!ENTITY aboutTelemetry.filterText "  Sía (strengir eða /regexp/)">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  Innihald">
+
+<!ENTITY aboutTelemetry.rawPayload "  Hrá gögn">

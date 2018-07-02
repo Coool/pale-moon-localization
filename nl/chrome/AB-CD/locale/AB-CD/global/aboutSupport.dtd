@@ -14,8 +14,8 @@
 <!ENTITY aboutSupport.crashes.title "Crashrapporten">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Rapportage-ID">
-<!ENTITY aboutSupport.crashes.sendDate "Ingediend">
+<!ENTITY aboutSupport.crashes.id "Rapport-ID">
+<!ENTITY aboutSupport.crashes.sendDate "Verzonden">
 <!ENTITY aboutSupport.crashes.allReports "Alle crashrapporten">
 <!ENTITY aboutSupport.crashes.noConfig "Deze toepassing is niet geconfigureerd om crashrapporten weer te geven.">
 
@@ -31,17 +31,17 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentDescription "Beschrijving">
 <!ENTITY aboutSupport.experimentActive "Actief">
 <!ENTITY aboutSupport.experimentEndDate "Einddatum">
-<!ENTITY aboutSupport.experimentHomepage "Startpagina">
-
+<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentBranch "Branch">
 
 <!ENTITY aboutSupport.appBasicsTitle "Toepassingsbasics">
 <!ENTITY aboutSupport.appBasicsName "Naam">
 <!ENTITY aboutSupport.appBasicsVersion "Versie">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Build-ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update kanaal">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Updatekanaal">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Updategeschiedenis">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Updategeschiedenis weergeven">
 
@@ -54,21 +54,27 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Ingeschakelde plug-ins">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Buildconfiguratie">
 <!ENTITY aboutSupport.appBasicsUserAgent "Useragent">
-<!ENTITY aboutSupport.appBasicsOS "Besturingssysteem">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Geheugengebruik">
+<!ENTITY aboutSupport.appBasicsPerformance "Prestaties">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiproces Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Geregistreerde Service Workers">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Veilige Modus">
+<!ENTITY aboutSupport.appBasicsProfiles "Profielen">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess-vensters">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Veilige modus">
 
 <!ENTITY aboutSupport.showDir.label "Map openen">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "In Finder weergeven">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Map weergeven">
+<!ENTITY aboutSupport.showWin2.label "Map openen">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Belangrijke aangepaste voorkeuren">
 <!ENTITY aboutSupport.modifiedPrefsName "Naam">
@@ -78,15 +84,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js-voorkeuren">
 <!ENTITY aboutSupport.userJSDescription "Uw profielmap bevat een <a id='prefs-user-js-link'>user.js-bestand</a>, dat voorkeuren bevat die niet door &brandShortName; zijn gemaakt.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Belangrijke geblokkeerde voorkeuren">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Belangrijke vergrendelde voorkeuren">
 <!ENTITY aboutSupport.lockedPrefsName "Naam">
 <!ENTITY aboutSupport.lockedPrefsValue "Waarde">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafisch">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Database van Places">
+<!ENTITY aboutSupport.placeDatabaseTitle "Places-database">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integriteit">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verifiëer Integriteit">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Integriteit verifiëren">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incrementele GC">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Tekst naar klembord kopiëren">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Onbewerkte gegevens naar klembord kopiëren">
 
-<!ENTITY aboutSupport.sandboxTitle "Zandbak">
+<!ENTITY aboutSupport.safeModeTitle "Veilige modus proberen">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.safeModeTitle "Probeer de veilige modus">
-<!ENTITY aboutSupport.restartInSafeMode.label "Opnieuw starten in de Veilige Modus…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
 
-<!ENTITY aboutSupport.restartTitle "Herstart proberen">
-<!ENTITY aboutSupport.restartNormal.label "Normaal herstarten…">
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Functies">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostische gegevens">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Foutenlogboek">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Beslissingenlogboek">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Door crashbeveiliging uitgeschakelde functies">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">

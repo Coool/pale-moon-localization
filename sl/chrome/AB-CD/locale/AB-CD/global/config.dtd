@@ -5,20 +5,21 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "Neraziskana ozemlja!">
-<!ENTITY aboutWarningText.label "Spreminjanje teh naprednih nastavitev lahko (hudo) vpliva na zanesljivost, varnost in zmogljivost tega programa. Nadaljujte samo v primeru, da veste kaj počnete.">
-<!ENTITY aboutWarningButton.label "Obljubim, da bom previden!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "To lahko uniči vašo garancijo!">
+<!ENTITY aboutWarningText.label "Spreminjanje teh naprednih nastavitev lahko vpliva na zanesljivost, varnost in učinkovitost tega programa. Nadaljujte samo v primeru, da ste prepričani v svoje početje.">
+<!ENTITY aboutWarningButton2.label "Sprejmem tveganje!">
 <!ENTITY aboutWarningCheckbox.label "Naslednjič prikaži to opozorilo">
 
 <!ENTITY searchPrefs.label "Iskanje:">
 <!ENTITY searchPrefs.accesskey "I">
 <!ENTITY focusSearch.key "i">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Ime nastavitve">
 <!ENTITY lockColumn.label "Stanje">
-<!ENTITY typeColumn.label "Vrsta vsebine">
+<!ENTITY typeColumn.label "Vrsta">
 <!ENTITY valueColumn.label "Vrednost">
 
 <!-- Tooltips -->

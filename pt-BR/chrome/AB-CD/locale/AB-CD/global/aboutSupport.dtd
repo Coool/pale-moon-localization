@@ -5,11 +5,9 @@
 <!ENTITY aboutSupport.pageTitle "Dados para suporte">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "
-  Esta página contém informações técnicas que podem ser úteis se você estiver
-  tentando solucionar um problema. Se estiver procurando respostas para as dúvidas mais comuns
-  do &brandShortName;, confira o <a id='supportLink'>site de suporte</a>.
-">
+<!ENTITY aboutSupport.pageSubtitle "  Esta página contém informações técnicas que podem ser úteis se você estiver 
+tentando solucionar um problema. Se estiver procurando respostas para as dúvidas mais comuns 
+do &brandShortName;, confira o <a id='supportLink'>site de suporte</a>.">
 
 <!ENTITY aboutSupport.crashes.title "Relatórios de Travamentos">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
@@ -32,7 +30,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Ativo">
 <!ENTITY aboutSupport.experimentEndDate "Data de término">
 <!ENTITY aboutSupport.experimentHomepage "Página inicial">
-
+<!ENTITY aboutSupport.experimentBranch "Marca">
 
 <!ENTITY aboutSupport.appBasicsTitle "Informações básicas sobre o aplicativo">
 <!ENTITY aboutSupport.appBasicsName "Nome">
@@ -56,6 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "SO">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memória">
+<!ENTITY aboutSupport.appBasicsPerformance "Desempenho">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers registrados">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Perfis">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Janelas Multiprocesso">
 
@@ -66,9 +70,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Abrir no Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Abrir pasta">
+<!ENTITY aboutSupport.showWin2.label "Abrir pasta">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Preferências importantes modificadas">
 <!ENTITY aboutSupport.modifiedPrefsName "Nome">
@@ -103,10 +107,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copiar texto para a área de transferência">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar dados brutos para a área de transferência">
 
-<!ENTITY aboutSupport.sandboxTitle "Ambiente isolado (Sandbox)">
-
 <!ENTITY aboutSupport.safeModeTitle "Tente o Modo Seguro">
-<!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar no modo seguro…">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.restartTitle "Tente Reiniciar">
-<!ENTITY aboutSupport.restartNormal.label "Reiniciar normalmente…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funcionalidades">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnósticos">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Registro de falhas">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro de decisões">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Proteção contra travamentos desabilitada">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Soluções alternativas">

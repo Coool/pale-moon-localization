@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Poista pääsalasana">
 <!ENTITY resetPassword.text  "Jos pääsalasana poistetaan, kaikki tallennetut sivusto- ja sähköpostisalasanat, lomaketiedot, henkilökohtaiset varmenteet ja salaiset avaimet unohdetaan. Poistetaanko pääsalasana?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Kirjoita pääsalasana">
-<!ENTITY getPassword.tokenName2.label "Turvallisuuslaite:">
-<!ENTITY getPassword.password.label "Salasana:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Ladataan varmennetta">
 <!ENTITY downloadCert.message1 "Aseta uuden varmentajan luotettavuus.">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Valitse todentavana esitettävä varmenne:">
 <!ENTITY clientAuthAsk.message3 "Valitun varmenteen yksityiskohdat:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Valitse varmenne">
-<!ENTITY certPicker.info  "Varmenne:">
-<!ENTITY certPicker.detailsLabel "Valitun varmenteen yksityiskohdat:">
-
 <!ENTITY pkcs12.setpassword.title  "Valitse varmenteen varmuuskopion salasana">
 <!ENTITY pkcs12.setpassword.message  "Varmenteen varmuuskopion salasana suojaa varmuuskopiota, jota ollaan luomassa. Salasana täytyy asettaa varmuuskopiolle.">
 <!ENTITY pkcs12.setpassword.label1 "Varmenteen varmuuskopion salasana:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Valitse tunniste">
 <!ENTITY chooseToken.message1 "Valitse tunniste.">
-
-<!ENTITY escrowWarn.title "Salausavaimen kopio">
-<!ENTITY escrowWarn.message1 "Tärkeää: Tämä varmentaja pyytää tekemään varmuuskopion salaisesta salausavaimestasi.">
-<!ENTITY escrowWarn.benefit1 "Tämän hyöty on siinä, että jos salainen avain hukkuu, sen varmuuskopion voi pyytää tältä varmentajalta.">
-<!ENTITY escrowWarn.message2 "Tällöin salainen avain kuitenkin on varmentajan hallussa ja sitä voitaisiin väärinkäyttää henkilökohtaisen sähköpostin lukemiseen luvatta.">
-<!ENTITY examineCert.label "Näytä varmenne">
-<!ENTITY examineCert.accesskey "N">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Luodaan salaista avainta">

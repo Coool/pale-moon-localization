@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "常规​​​​​">
 <!ENTITY status4evar.tab.toolbar "状态栏​​​​​​​">
-<!ENTITY status4evar.tab.urlbar "地址栏">
 <!ENTITY status4evar.tab.popup "弹出窗口">
 <!ENTITY status4evar.tab.tabs "标签页">
 
 <!ENTITY status4evar.option.none "无">
 <!ENTITY status4evar.option.nothing "无">
 <!ENTITY status4evar.option.toolbar "状态栏​​​​​​​">
-<!ENTITY status4evar.option.urlbar "地址栏">
 <!ENTITY status4evar.option.popup "弹出窗口">
 <!ENTITY status4evar.option.tooltip "工具提示">
 <!ENTITY status4evar.option.bottom "底部">
 <!ENTITY status4evar.option.top "顶部">
-<!ENTITY status4evar.option.fill "填充">
 <!ENTITY status4evar.option.dlcount "下载计数">
 <!ENTITY status4evar.option.dltime "剩余时间">
 <!ENTITY status4evar.option.both "两边">
 <!ENTITY status4evar.option.right "右边">
 <!ENTITY status4evar.option.left "左边">
-<!ENTITY status4evar.option.fixed "固定">
 <!ENTITY status4evar.option.simple "简单">
 <!ENTITY status4evar.option.advanced "高级">
 <!ENTITY status4evar.option.browse "浏览">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "最大状态文本长度：">
 
-<!ENTITY status4evar.status.urlbar.align.label "状态对齐方式：">
-<!ENTITY status4evar.status.urlbar.color.label "状态颜色：">
-<!ENTITY status4evar.status.currentUrl "当前位置">
-<!ENTITY status4evar.status.statusText "状态文本">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox 兼容性功能">
 <!ENTITY browser.urlbar.formatting.enabled.label "启用域名高亮">
 <!ENTITY browser.urlbar.trimming.enabled.label "启用协议隐藏（http:// 和 ftp://）">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "鼠标悬浮时交换左右放置">
 
 <!ENTITY status4evar.progress.style.label "使用自定义样式">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "在地址栏中显示进度">
-<!ENTITY status4evar.progress.urlbar.line.label "线条样式：">
 
 <!ENTITY status4evar.progress.toolbar.force.label "始终显示进度条">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "使用备用工具栏边框">
 <!ENTITY status4evar.addonbar.windowGripper "显示窗口缩放手柄">
 <!ENTITY status4evar.addonbar.closeButton "显示关闭按钮">
-
-<!ENTITY status4evar.advanced.warning "这些高级设置可能导致 Pale Moon 或其他扩展的使用问题。修改后果自负。">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "尝试强制为地址栏绑定 XBL。">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "仅在地址栏进度或状态文本显示出现问题时选中此项。为地址栏设置 XBL 绑定的选项可能破坏其他扩展的功能性。">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "检测全屏模式，并适当地显示链接/状态。">
 <!ENTITY status4evar.advanced.status.detectVideo "在播放全屏 HTML5 视频时隐藏状态弹框。">

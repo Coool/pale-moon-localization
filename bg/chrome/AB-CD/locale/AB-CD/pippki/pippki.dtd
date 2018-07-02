@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Нулиране на главната парола">
 <!ENTITY resetPassword.text  "Ако нулирате главната парола, всичките съхранени пароли за сайтове и електронна поща, текстови форми, лични сертификати и персонални ключове ще бъдат загубени. Сигурни ли сте, че искате да нулирате главната парола?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Въведете главна парола">
-<!ENTITY getPassword.tokenName2.label "Устройство за защита:">
-<!ENTITY getPassword.password.label "Парола:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Сваляне на сертификата">
 <!ENTITY downloadCert.message1 "Постъпи заявка за доверяване към нов сертификатен удостоверител (СА).">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Изберете сертификат за идентификация:">
 <!ENTITY clientAuthAsk.message3 "Информация за избрания сертификат:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Избор на сертификат">
-<!ENTITY certPicker.info  "Сертификат:">
-<!ENTITY certPicker.detailsLabel "Информация за избрания сертификат:">
-
 <!ENTITY pkcs12.setpassword.title  "Избор на парола за резервно копие на сертификат">
 <!ENTITY pkcs12.setpassword.message  "Паролата за резервно копие на сертификат, която въвеждате тук, защитава резервния файл, който ще създадете. Трябва да зададете парола, за да продължите процеса по създаване на резервно копие на сертификата.">
 <!ENTITY pkcs12.setpassword.label1 "Парола за резервното копие:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Избор на токен">
 <!ENTITY chooseToken.message1 "Моля, изберете токен.">
-
-<!ENTITY escrowWarn.title "Копиране на криптиращия ключ">
-<!ENTITY escrowWarn.message1 "Внимание: Сертификатният удостоверител е поискал да направи резервно копие на вашия личен криптиращ ключ.">
-<!ENTITY escrowWarn.benefit1 "Преимуществото на това е, че ако загубите достъпа до Вашия личен криптиращ ключ, можете да поискате копие от този сертификатен удостоверител.">
-<!ENTITY escrowWarn.message2 "Имайте предвид обаче, че Вашият личен криптиращ ключ ще бъде съхранен от сертификатора и може да бъде използван за четене на Вашите криптирани писма или документи, без Ваше позволение.">
-<!ENTITY examineCert.label "Преглед на сертификата">
-<!ENTITY examineCert.accesskey "П">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Генериране на частен ключ">

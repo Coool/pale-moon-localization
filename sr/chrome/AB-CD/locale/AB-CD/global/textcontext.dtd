@@ -2,27 +2,36 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY cutCmd.label "Cut">
-<!ENTITY cutCmd.accesskey "t">
-<!ENTITY copyCmd.label "Copy">
-<!ENTITY copyCmd.accesskey "c">
-<!ENTITY pasteCmd.label "Paste">
-<!ENTITY pasteCmd.accesskey "p">
-<!ENTITY undoCmd.label "Undo">
-<!ENTITY undoCmd.accesskey "u">
-<!ENTITY selectAllCmd.label "Select All">
-<!ENTITY selectAllCmd.accesskey "a">
-<!ENTITY deleteCmd.label "Delete">
-<!ENTITY deleteCmd.accesskey "d">
+<!ENTITY cutCmd.label "Исеци">
+<!ENTITY cutCmd.accesskey "И">
+<!ENTITY copyCmd.label "Копирај">
+<!ENTITY copyCmd.accesskey "К">
+<!ENTITY pasteCmd.label "Налепи">
+<!ENTITY pasteCmd.accesskey "Н">
+<!ENTITY undoCmd.label "Опозови">
+<!ENTITY undoCmd.accesskey "О">
+<!ENTITY selectAllCmd.label "Изабери све">
+<!ENTITY selectAllCmd.accesskey "с">
+<!ENTITY deleteCmd.label "Уклони ставку">
+<!ENTITY deleteCmd.accesskey "У">
 
-<!ENTITY spellAddToDictionary.label "Add to Dictionary">
-<!ENTITY spellAddToDictionary.accesskey "o">
-<!ENTITY spellUndoAddToDictionary.label "Undo Add To Dictionary">
-<!ENTITY spellUndoAddToDictionary.accesskey "n">
-<!ENTITY spellCheckToggle.label "Check Spelling">
-<!ENTITY spellCheckToggle.accesskey "g">
-<!ENTITY spellNoSuggestions.label "(No Spelling Suggestions)">
-<!ENTITY spellDictionaries.label "Languages">
-<!ENTITY spellDictionaries.accesskey "l">
+<!ENTITY spellAddToDictionary.label "Додај у речник">
+<!ENTITY spellAddToDictionary.accesskey "Д">
+<!ENTITY spellUndoAddToDictionary.label "Опозови додавање у речник">
+<!ENTITY spellUndoAddToDictionary.accesskey "з">
+<!ENTITY spellCheckToggle.label "Провери правопис">
+<!ENTITY spellCheckToggle.accesskey "р">
+<!ENTITY spellNoSuggestions.label "(нема предлога)">
+<!ENTITY spellDictionaries.label "Језици">
+<!ENTITY spellDictionaries.accesskey "Ј">
 
-<!ENTITY searchTextBox.clear.label "Clear">
+<!ENTITY searchTextBox.clear.label "Обриши">
+
+<!ENTITY fillLoginMenu.label          "Попуни пријаву">
+<!ENTITY fillLoginMenu.accesskey      "П">
+<!ENTITY fillPasswordMenu.label       "Попуни лозинку">
+<!ENTITY fillPasswordMenu.accesskey   "П">
+<!ENTITY fillUsernameMenu.label       "Попуни корисничко име">
+<!ENTITY fillUsernameMenu.accesskey   "П">
+<!ENTITY noLoginSuggestions.label     "(нема предлога пријаве)">
+<!ENTITY viewSavedLogins.label        "Погледај снимљене пријаве">

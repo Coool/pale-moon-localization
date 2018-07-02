@@ -1,5 +1,6 @@
 @echo off
-set REL=27.9.3
+set REL=28.0.0rc1
+
 rem ar da fi gl hr id is ja kn ro sk sl sr vi zh-TW
 set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sv-SE tl tr uk zh-CN
 
@@ -23,6 +24,7 @@ rem update version
 ..\ssr.exe -r -w --unix "em:version\e\q[a-zA-Z0-9_.]+\q"="em:version\e\q%REL%\q" ^
                         "maxVersion>[a-zA-Z0-9_.\*]+<"="maxVersion>%MAX%.*<"     install.rdf
 rem rename AB-CD -> lang
+move /Y browser\chrome\AB-CD\locale\AB-CD browser\chrome\AB-CD\locale\%1 >nul:
 move /Y browser\chrome\AB-CD browser\chrome\%1 >nul:
 move /Y chrome\AB-CD\locale\AB-CD chrome\AB-CD\locale\%1 >nul:
 move /Y chrome\AB-CD chrome\%1 >nul:
@@ -32,5 +34,6 @@ rem Rename lang -> AB-CD
 move /Y chrome\%1 chrome\AB-CD >nul:
 move /Y chrome\AB-CD\locale\%1 chrome\AB-CD\locale\AB-CD >nul:
 move /Y browser\chrome\%1 browser\chrome\AB-CD >nul:
+move /Y browser\chrome\AB-CD\locale\%1 browser\chrome\AB-CD\locale\AB-CD >nul:
 popd
 exit /b

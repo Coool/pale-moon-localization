@@ -5,20 +5,21 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "There be dragons here!">
-<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
-<!ENTITY aboutWarningButton.label "I promise to be careful!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "Breytingar hér gætu haft afleiðingar!">
+<!ENTITY aboutWarningText.label "Ef þú breytir ítarlegum stillingum getur það haft áhrif á stöðugleika, öryggi, og afköst þessa forrits. Þú ættir því aðeins að halda áfram ef þú veist hvað þú ert að gera.">
+<!ENTITY aboutWarningButton2.label "Ég samþykki áhættuna!">
 <!ENTITY aboutWarningCheckbox.label "Sýna aðvörun næst">
 
 <!ENTITY searchPrefs.label "Leita:">
 <!ENTITY searchPrefs.accesskey "L">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Stillinganafn">
 <!ENTITY lockColumn.label "Staða">
-<!ENTITY typeColumn.label "Efnistegund">
+<!ENTITY typeColumn.label "Tegund">
 <!ENTITY valueColumn.label "Gildi">
 
 <!-- Tooltips -->

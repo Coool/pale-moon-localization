@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "일반">
 <!ENTITY status4evar.tab.toolbar "상태 표시줄">
-<!ENTITY status4evar.tab.urlbar "주소 표시줄">
 <!ENTITY status4evar.tab.popup "팝업">
 <!ENTITY status4evar.tab.tabs "탭">
 
 <!ENTITY status4evar.option.none "없음">
 <!ENTITY status4evar.option.nothing "없음">
 <!ENTITY status4evar.option.toolbar "상태 표시줄">
-<!ENTITY status4evar.option.urlbar "주소 표시줄">
 <!ENTITY status4evar.option.popup "팝업">
 <!ENTITY status4evar.option.tooltip "풍선 도움말">
 <!ENTITY status4evar.option.bottom "아래">
 <!ENTITY status4evar.option.top "위">
-<!ENTITY status4evar.option.fill "채우기">
 <!ENTITY status4evar.option.dlcount "다운로드 수">
 <!ENTITY status4evar.option.dltime "남은 시간">
 <!ENTITY status4evar.option.both "둘다 표시">
 <!ENTITY status4evar.option.right "오른쪽">
 <!ENTITY status4evar.option.left "왼쪽">
-<!ENTITY status4evar.option.fixed "고정">
 <!ENTITY status4evar.option.simple "간편">
 <!ENTITY status4evar.option.advanced "고급">
 <!ENTITY status4evar.option.browse "찾아보기">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "상태 텍스트 최대 길이:">
 
-<!ENTITY status4evar.status.urlbar.align.label "상태 정렬:">
-<!ENTITY status4evar.status.urlbar.color.label "상태 색상:">
-<!ENTITY status4evar.status.currentUrl "현재 URL">
-<!ENTITY status4evar.status.statusText "상태 텍스트">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox 호환성 기능">
 <!ENTITY browser.urlbar.formatting.enabled.label "도메인 강조 사용">
 <!ENTITY browser.urlbar.trimming.enabled.label "프로토콜 숨기기 사용 (http:// &amp; ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "마우스 커서를 올리면 방향 전환을 합니다.">
 
 <!ENTITY status4evar.progress.style.label "사용자 지정 스타일 사용">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "주소 표시줄에 진행 상태 표시">
-<!ENTITY status4evar.progress.urlbar.line.label "라인 스타일">
 
 <!ENTITY status4evar.progress.toolbar.force.label "항상 진행률 표시 보이기">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "상호 도구모음 경계 사용">
 <!ENTITY status4evar.addonbar.windowGripper "창 크기 변경 손잡이 표시">
 <!ENTITY status4evar.addonbar.closeButton "닫기 버튼 표시">
-
-<!ENTITY status4evar.advanced.warning "고급 설정은 Pale Moon이나 다른 부가 기능에 문제를 일으킬 수 있습니다. 이러한 문제를 감안하고 수정해 주십시오.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "주소 표시줄 XBL 바인딩 강제 시도">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "주소 표시줄 진행 상태 표시 및 상태 텍스트 표시에 문제가 있는 경우에만 이 옵션을 선택하십시오. 다른 부가 확장 기능에서 주소 표시줄에 XBL 바인딩 설정을 방해할 가능성이 있습니다.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "전체화면 모드를 감지하고 링크/상태를 적절하게 표시합니다.">
 <!ENTITY status4evar.advanced.status.detectVideo "HTML5 비디오의 전체 화면에서 상태팝업을 숨깁니다.">

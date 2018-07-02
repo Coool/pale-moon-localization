@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "O">
 <!ENTITY fullScreenExit.label "Sair do modo de tela cheia">
 <!ENTITY fullScreenExit.accesskey "S">
-<!ENTITY fullscreenAllowButton.label "Permitir">
-<!ENTITY fullscreenExitButton.label "Negar">
-<!ENTITY fullscreenApproval.value "Permitir tela cheia?">
 
 <!ENTITY fullscreenExitHint.value "Tecle ESC a qualquer momento para sair da tela cheia.">
 <!ENTITY leaveDOMFullScreen.label "Sair da tela cheia">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "a">
 <!ENTITY permissions.label            "Permissões">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "Preferências">
+<!ENTITY preferencesCmd2.accesskey    "P">
 
 <!ENTITY webDeveloperMenu.label       "Desenvolvedor web">
 <!ENTITY webDeveloperMenu.accesskey   "s">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Selecionar tudo">  
 <!ENTITY selectAllCmd.key         "a">  
 <!ENTITY selectAllCmd.accesskey       "S"> 
-<!ENTITY preferencesCmd2.label       "Preferências">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "Preferências">
-<!ENTITY preferencesCmdUnix.accesskey     "P"> 
 
 <!ENTITY clearRecentHistory.label               "Limpar histórico recente…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Desenvolvedor web">
 <!ENTITY appMenuGettingStarted.label "Primeiros passos">
 <!ENTITY appMenuSafeMode.label "Reiniciar no modo seguro…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "L">
-<!ENTITY urlbar.placeholder2          "Digite uma pesquisa ou endereço">
 <!ENTITY urlbar.accesskey             "D">
 <!ENTITY urlbar.switchToTab.label     "Mudar para a aba:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Reiniciar…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Sair"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "S">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Microfone a compartilhar:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Acesso a câmera/microfone">
-<!ENTITY webrtcIndicatorButton.tooltip "Exibir os sites com os quais você está compartilhando sua câmera ou microfone">
 
-<!ENTITY mixedContentBlocked.helplink "Saiba mais">
 <!ENTITY mixedContentBlocked.moreinfo "A maioria dos sites ainda funcionará corretamente mesmo com este conteúdo bloqueado.">
 
 <!ENTITY pointerLock.notification.message "Tecle ESC quando quiser exibi-lo novamente.">

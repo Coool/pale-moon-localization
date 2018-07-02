@@ -10,19 +10,19 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Fuente de: ">
+<!ENTITY mainWindow.preface "Código fuente de: ">
 
 <!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "A">
-<!ENTITY savePageCmd.label "Guardar página como…">
-<!ENTITY savePageCmd.accesskey "a">
+<!ENTITY savePageCmd.label "Guardar página actual como…">
+<!ENTITY savePageCmd.accesskey "A">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Configurar página…">
-<!ENTITY pageSetupCmd.accesskey "p">
-<!ENTITY printPreviewCmd.label "Vista previa de impresión">
+<!ENTITY pageSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "Vista preliminar">
 <!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Imprimir…">
-<!ENTITY printCmd.accesskey "m">
+<!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Cerrar">
 <!ENTITY closeCmd.accesskey "C">
@@ -54,20 +54,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_wrapLongLines.title "Ajustar líneas largas"> 
 <!ENTITY menu_wrapLongLines.accesskey "j">
 <!ENTITY menu_highlightSyntax.label "Resaltar sintaxis">
-<!ENTITY menu_highlightSyntax.accesskey "s">
+<!ENTITY menu_highlightSyntax.accesskey "R">
 <!ENTITY menu_textSize.label "Tamaño del texto">
 <!ENTITY menu_textSize.accesskey "T">
 <!ENTITY menu_textEnlarge.label "Aumentar">
 <!ENTITY menu_textEnlarge.accesskey "A">
-<!ENTITY menu_textReduce.label "Disminuir">
-<!ENTITY menu_textReduce.accesskey "R">
+<!ENTITY menu_textReduce.label "Reducir">
+<!ENTITY menu_textReduce.accesskey "D">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
 <!ENTITY findOnCmd.label     "Buscar en esta página…">
 <!ENTITY findOnCmd.accesskey "B">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Buscar de nuevo">
+<!ENTITY findAgainCmd.label  "Repetir la búsqueda">
 <!ENTITY findAgainCmd.accesskey "R">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
@@ -75,12 +75,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY backCmd.label "Atrás">
 <!ENTITY backCmd.accesskey "t">
-<!ENTITY forwardCmd.label "Adelante">
+<!ENTITY forwardCmd.label "Siguiente">
 <!ENTITY forwardCmd.accesskey "S">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
 <!ENTITY copyLinkCmd.label "Copiar dirección del enlace">
-<!ENTITY copyLinkCmd.accesskey "e">
-<!ENTITY copyEmailCmd.label "Copiar dirección de correo electrónico">
-<!ENTITY copyEmailCmd.accesskey "d">
+<!ENTITY copyLinkCmd.accesskey "d">
+<!ENTITY copyEmailCmd.label "Copiar dirección de correo">
+<!ENTITY copyEmailCmd.accesskey "a">

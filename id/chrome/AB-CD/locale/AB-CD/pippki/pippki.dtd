@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Menguasai reset kata sandi">
 <!ENTITY resetPassword.text  "Jika Anda mereset kata sandi Anda menguasai, semua disimpan web dan e-mail kata sandi Anda, data formulir, sertifikat pribadi, dan kunci pribadi akan dilupakan. Apakah Anda yakin ingin mereset katasandi menguasai Anda?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Masukkan Menguasai kata sandi">
-<!ENTITY getPassword.tokenName2.label "Alat keamanan:">
-<!ENTITY getPassword.password.label "Kata sandi:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Unduh Sertifikat">
 <!ENTITY downloadCert.message1 "Anda telah diminta untuk percaya Otoritas Sertifikat baru (CA).">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Pilih sertifikat untuk disajikan sebagai identifikasi:">
 <!ENTITY clientAuthAsk.message3 "Perincian sertifikat yang dipilih:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Pilih Sertifikat">
-<!ENTITY certPicker.info  "Sertifikat:">
-<!ENTITY certPicker.detailsLabel "Detail sertifikat yang dipilih:">
-
 <!ENTITY pkcs12.setpassword.title  "Pilih Sertifikat Cadangan Sandi">
 <!ENTITY pkcs12.setpassword.message  "Sandi cadangan sertifikat Anda mengatur sini melindungi file cadangan yang akan Anda buat. Anda harus mengatur Kata sandi ini untuk melanjutkan cadangan.">
 <!ENTITY pkcs12.setpassword.label1 "Sertifikat sandi cadangan:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Pilih Token Dialog">
 <!ENTITY chooseToken.message1 "Silakan pilih token.">
-
-<!ENTITY escrowWarn.title "Kunci Enkripsi Salinan">
-<!ENTITY escrowWarn.message1 "Penting: otoritas sertifikat ini telah diminta untuk membuat cadangan dari enkripsi kunci pribadi Anda.">
-<!ENTITY escrowWarn.benefit1 "Manfaat adalah bahwa jika Anda kehilangan akses ke enkripsi kunci pribadi Anda, Anda dapat meminta salinan dari otoritas sertifikat ini.">
-<!ENTITY escrowWarn.message2 "Namun, enkripsi kunci pribadi Anda akan disimpan oleh otoritas sertifikat, dan dapat digunakan untuk membaca email terenkripsi atau dokumen tanpa izin Anda.">
-<!ENTITY examineCert.label "Lihat Sertifikat">
-<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Membangkitkan Kunci Swasta">

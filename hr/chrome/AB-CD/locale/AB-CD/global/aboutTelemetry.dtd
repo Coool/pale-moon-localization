@@ -4,78 +4,88 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetrija">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetrija je <span>uključena</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "  Promijeni">
+
+<!ENTITY aboutTelemetry.uploadEnabled "  FHR slanje podataka je <span>uključeno</span>.">
+
+<!ENTITY aboutTelemetry.uploadDisabled "  FHR slanje podataka je <span>isključeno</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  Snimanje proširene telemetrije je <span>uključeno</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  Snimanje proširene telemetrije je <span>isključeno</span>.">
+
+<!ENTITY aboutTelemetry.pingDataSource "Ping izvora podataka:">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "Trenutni ping podaci">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "Arhivirani ping podaci">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "Pingaj podatkovni zaslon:">
+
+<!ENTITY aboutTelemetry.structured "Strukturirano">
+
+<!ENTITY aboutTelemetry.raw "Neobrađeni JSON">
+
+<!ENTITY aboutTelemetry.showSubsessionData "Prikaži podatke podsesije">
+
+<!ENTITY aboutTelemetry.choosePing "Odaberi ping:">
+
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; noviji ping">
+
+<!ENTITY aboutTelemetry.showOlderPing "Stariji ping &gt;&gt;">
+
+<!ENTITY aboutTelemetry.rawPingData "Neobrađeni ping podaci ...">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "Tjedan">
+
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
+
+<!ENTITY aboutTelemetry.generalDataSection "  Opći podaci">
+
+<!ENTITY aboutTelemetry.environmentDataSection "  Podaci okruženja">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "  Zapisnik telemetrije">
+
+<!ENTITY aboutTelemetry.slowSqlSection "  Spori SQL upiti">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "  Smrzavanje web preglednika">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "  Viseći threadovi">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Scalars
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetrija je <span>isključena</span>.
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Keyed Scalars
 ">
 
-<!ENTITY aboutTelemetry.generalDataSection "
-  General Data
-">
+<!ENTITY aboutTelemetry.histogramsSection "  Histogrami">
 
-<!ENTITY aboutTelemetry.slowSqlSection "
-  Spori SQL upiti
-">
+<!ENTITY aboutTelemetry.keyedHistogramsSection "  Histogrami s ključem">
 
-<!ENTITY aboutTelemetry.chromeHangsSection "
-  Smrzavanje web preglednika
-">
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "  Jednostavna mjerenja">
 
-<!ENTITY aboutTelemetry.threadHangStatsSection "
-  Thread Hangs
-">
+<!ENTITY aboutTelemetry.addonDetailsSection "  Detalji dodatka">
 
-<!ENTITY aboutTelemetry.histogramsSection "
-  Histogrami
-">
+<!ENTITY aboutTelemetry.lateWritesSection "  Zakašnjela zapisivanja">
 
-<!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Keyed Histograms
-">
+<!ENTITY aboutTelemetry.sessionInfoSection "  Informacije o sesiji">
 
-<!ENTITY aboutTelemetry.simpleMeasurementsSection "
-  Jednostavna mjerenja
-">
+<!ENTITY aboutTelemetry.addonHistogramsSection "  Histogrami koje su prikupili dodaci">
 
-<!ENTITY aboutTelemetry.addonDetailsSection "
-  Add-on Details
-">
+<!ENTITY aboutTelemetry.toggle "  Kliknite za uključivanje/isključivanje sekcije">
 
-<!ENTITY aboutTelemetry.lateWritesSection "
-  Zakašnjela zapisivanja
-">
+<!ENTITY aboutTelemetry.emptySection "  (Nema prikupljenih podataka)">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Informacije o sustavu
-">
+<!ENTITY aboutTelemetry.fullSqlWarning "  NAPOMENA: Detaljno praćenje sporih SQL upita je uključeno. Potpuni SQL upiti mogu biti prikazani ispod, međutim oni neće biti poslali Telemetriji.">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "
-  Histogrami koje su prikupili dodaci
-">
+<!ENTITY aboutTelemetry.fetchSymbols "  Prikupi imena funkcija za informacije o smrzavanju">
 
-<!ENTITY aboutTelemetry.toggle "
-  Click to toggle section
-">
+<!ENTITY aboutTelemetry.hideSymbols "  Prikaži neobrađene podatke od smrzavanja raw data from hangs">
 
-<!ENTITY aboutTelemetry.emptySection "
-  (Nema prikupljenih podataka)
-">
+<!ENTITY aboutTelemetry.filterText "  Filtriraj (tekst ili /regexp/)">
 
-<!ENTITY aboutTelemetry.fullSqlWarning "
-  NAPOMENA: Detaljno praćenje sporih SQL upita je uključeno. Potpuni SQL upiti mogu biti prikazani ispod, međutim oni neće biti poslali Telemetriji.
-">
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  Sadržaj">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-  Prikupi imena funkcija za informacije o smrzavanju
-">
-
-<!ENTITY aboutTelemetry.hideSymbols "
-  Prikaži neobrađene podatke od smrzavanja raw data from hangs
-">
-
-<!ENTITY aboutTelemetry.filterText "
-  Filter (strings or /regexp/)
-">
+<!ENTITY aboutTelemetry.rawPayload "  Neobrađeni podaci">

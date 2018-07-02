@@ -11,13 +11,13 @@
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "报告 ID">
-<!ENTITY aboutSupport.crashes.sendDate "提交时间">
-<!ENTITY aboutSupport.crashes.allReports "所有崩溃报告">
+<!ENTITY aboutSupport.crashes.sendDate "提交日期">
+<!ENTITY aboutSupport.crashes.allReports "全部崩溃报告">
 <!ENTITY aboutSupport.crashes.noConfig "此应用程序未被配置为显示崩溃报告。">
 
 <!ENTITY aboutSupport.extensionsTitle "扩展">
 <!ENTITY aboutSupport.extensionName "名称">
-<!ENTITY aboutSupport.extensionEnabled "已启用">
+<!ENTITY aboutSupport.extensionEnabled "启用">
 <!ENTITY aboutSupport.extensionVersion "版本">
 <!ENTITY aboutSupport.extensionId "ID">
 
@@ -28,7 +28,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "激活">
 <!ENTITY aboutSupport.experimentEndDate "结束时间">
 <!ENTITY aboutSupport.experimentHomepage "主页">
-
+<!ENTITY aboutSupport.experimentBranch "分支">
 
 <!ENTITY aboutSupport.appBasicsTitle "应用程序概要">
 <!ENTITY aboutSupport.appBasicsName "名称">
@@ -52,6 +52,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "用户代理">
 <!ENTITY aboutSupport.appBasicsOS "操作系统">
 <!ENTITY aboutSupport.appBasicsMemoryUse "内存使用">
+<!ENTITY aboutSupport.appBasicsPerformance "性能">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "已注册的 Service Worker">
+
+<!ENTITY aboutSupport.appBasicsProfiles "配置文件">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "多进程窗口">
 
@@ -62,9 +68,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "显示于 Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "显示文件夹">
+<!ENTITY aboutSupport.showWin2.label "打开文件夹">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "修改过的重要首选项">
 <!ENTITY aboutSupport.modifiedPrefsName "名称">
@@ -74,13 +80,13 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js 设置">
 <!ENTITY aboutSupport.userJSDescription "您的配置文件夹中有一个 <a id='prefs-user-js-link'>user.js 文件</a>，其中包含了一些并非由 &brandShortName; 所创建的首选项（偏好设置）。">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "已锁定的重要首选项">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "重要的已锁定的首选项">
 <!ENTITY aboutSupport.lockedPrefsName "名称">
 <!ENTITY aboutSupport.lockedPrefsValue "值">
 
 <!ENTITY aboutSupport.graphicsTitle "图像">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "地方数据库">
+<!ENTITY aboutSupport.placeDatabaseTitle "Places 数据库">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "完整性">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "验证完整性">
 
@@ -89,7 +95,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.a11yTitle "无障碍环境">
 <!ENTITY aboutSupport.a11yActivated "已激活">
-<!ENTITY aboutSupport.a11yForceDisabled "停用无障碍功能">
+<!ENTITY aboutSupport.a11yForceDisabled "停用无障碍环境">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "库版本">
 
@@ -99,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "复制文本到剪贴板">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "复制原始数据到剪贴板">
 
-<!ENTITY aboutSupport.sandboxTitle "沙盒">
-
 <!ENTITY aboutSupport.safeModeTitle "尝试安全模式">
-<!ENTITY aboutSupport.restartInSafeMode.label "以安全模式重新启动…">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.restartTitle "尝试重启">
-<!ENTITY aboutSupport.restartNormal.label "正常重启...">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "特性">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "诊断">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "失败日志">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "决策日志">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "崩溃守卫已禁用功能">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "变通方法">

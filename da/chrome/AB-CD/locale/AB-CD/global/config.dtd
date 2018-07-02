@@ -5,20 +5,21 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "There be dragons here!">
-<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
-<!ENTITY aboutWarningButton.label "I promise to be careful!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "Garantien dækker muligvis ikke her!">
+<!ENTITY aboutWarningText.label "Ændring af disse indstillinger kan forringe dette programs stabilitet, sikkerhed og ydelse væsentligt. Du bør kun fortsætte, hvis du ved, hvad du gør.">
+<!ENTITY aboutWarningButton2.label "Jeg lover at være forsigtig!">
 <!ENTITY aboutWarningCheckbox.label "Vis mig denne advarsel næste gang">
 
 <!ENTITY searchPrefs.label "Søg:">
 <!ENTITY searchPrefs.accesskey "s">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Indstillingsnavn">
 <!ENTITY lockColumn.label "Status">
-<!ENTITY typeColumn.label "Indholdstype">
+<!ENTITY typeColumn.label "Type">
 <!ENTITY valueColumn.label "Værdi">
 
 <!-- Tooltips -->
@@ -35,8 +36,8 @@
 <!ENTITY copyValue.accesskey "o">
 <!ENTITY modify.label "Rediger">
 <!ENTITY modify.accesskey "R">
-<!ENTITY toggle.label "Vælg">
-<!ENTITY toggle.accesskey "V">
+<!ENTITY toggle.label "Skift">
+<!ENTITY toggle.accesskey "S">
 <!ENTITY reset.label "Nulstil">
 <!ENTITY reset.accesskey "u">
 <!ENTITY new.label "Ny nøgle">

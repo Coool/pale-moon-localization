@@ -5,9 +5,7 @@
 <!ENTITY aboutSupport.pageTitle "Impormasyon sa Paghahanap ng Problema">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "
-Itong pahina ay naglalaman ng teknikal na impormasyon na maaaring maging kapaki-pakinabang kapag sinusubukan mong lumutas ng isang problema. Kung ikaw ay naghahanap ng mga sagot sa karaniwang mga tanong tungkol sa &brandShortName;, tingnan ang aming <a id='supportLink'>website para sa suporta</a>.
-">
+<!ENTITY aboutSupport.pageSubtitle "  This page contains technical information that might be useful when you're trying to solve a problem. If you are looking for answers to common questions about &brandShortName;, check out our <a id='supportLink'>support web site</a>.">
 
 <!ENTITY aboutSupport.crashes.title "Mga Ulat sa Pag-crash">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
@@ -30,7 +28,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Aktibo">
 <!ENTITY aboutSupport.experimentEndDate "Petsa ng Pagtatapos">
 <!ENTITY aboutSupport.experimentHomepage "Unang Pahina">
-
+<!ENTITY aboutSupport.experimentBranch "Branch">
 
 <!ENTITY aboutSupport.appBasicsTitle "Pangunahing Kaalaman sa Aplikasyon">
 <!ENTITY aboutSupport.appBasicsName "Pangalan">
@@ -54,6 +52,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Gamit sa Memorya">
+<!ENTITY aboutSupport.appBasicsPerformance "Performance">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Registered Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profiles">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
@@ -64,9 +68,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Ipakita sa Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Ipakita ang Folder">
+<!ENTITY aboutSupport.showWin2.label "Open Folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Nabagong Mahalagang mga Preperensiya">
 <!ENTITY aboutSupport.modifiedPrefsName "Pangalan">
@@ -101,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopyahin ang teksto sa clipboard">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopyahin ang raw na datos sa clipboard">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
 <!ENTITY aboutSupport.safeModeTitle "Subukan ang Safe Mode">
-<!ENTITY aboutSupport.restartInSafeMode.label "I-restart sa Safe Mode…">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.restartTitle "Subukang I-restart">
-<!ENTITY aboutSupport.restartNormal.label "I-restart nang maayos…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Features">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostics">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Failure Log">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decision Log">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Crash Guard Disabled Features">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">

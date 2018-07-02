@@ -5,15 +5,16 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
 <!ENTITY aboutWarningTitle.label "¡Aquí adentro está la llorona!">
-<!ENTITY aboutWarningText.label "Cambiar estos ajustes avanzados puede ser (bastante) dañino para la estabilidad, seguridad y desempeño de esta aplicación. Solo deberías seguir si sabes perfectamente lo que estás haciendo.">
-<!ENTITY aboutWarningButton.label "¡Prometo ser muy cuidadoso!">
-<!ENTITY aboutWarningCheckbox.label "Mostrar esta advertencia la próxima vez">
+<!ENTITY aboutWarningText.label "Cambiar estas preferencias avanzadas puede ser (gravemente) perjudicial para la estabilidad, seguridad, funcionalidad y rendimiento de esta aplicación. Debes continuar únicamente si estás seguro de lo que estás haciendo: no nos haremos responsables de ningún caso de usuarios mutilados, quemados o devorados.">
+<!ENTITY aboutWarningButton2.label "¡Acepto el riesgo!">
+<!ENTITY aboutWarningCheckbox.label "Mostrar siempre esta advertencia.">
 
 <!ENTITY searchPrefs.label "Buscar:">
 <!ENTITY searchPrefs.accesskey "B">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Nombre de la preferencia">

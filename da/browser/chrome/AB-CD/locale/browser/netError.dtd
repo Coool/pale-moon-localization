@@ -6,7 +6,9 @@
 %brandDTD;
 
 <!ENTITY loadError.label "Problem med indlæsning af side">
-<!ENTITY retry.label "Forsøg igen">
+<!ENTITY retry.label "Prøv igen">
+<!ENTITY returnToPreviousPage.label "Gå tilbage">
+<!ENTITY advanced.label "Avanceret">
 
 <!-- Specific error messages -->
 
@@ -14,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Adgang til denne adresse er underlagt begrænsninger">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Serveren blev ikke fundet">
 <!ENTITY dnsNotFound.longDesc "
@@ -22,8 +24,10 @@
   <li>Undersøg adressen for tastefejl, såsom
     <strong>ww</strong>.eksempel.dk i stedet for
     <strong>www</strong>.eksempel.dk</li>
-  <li>Hvis du ikke kan indlæse nogen sider overhovedet, undersøg da din computers netværksforbindelse.</li>
-  <li>Hvis din computer eller netværk er beskyttet af en firewall eller proxy, sørg da for at &brandShortName; har tilladelse til at tilgå nettet.</li>
+  <li>Hvis du ikke kan indlæse nogen sider overhovedet, undersøg da din
+   computers netværksforbindelse.</li>
+  <li>Hvis din computer eller netværk er beskyttet af en firewall eller proxy, sørg da 
+  for at &brandShortName; har tilladelse til at tilgå nettet.</li>
 </ul>
 ">
 
@@ -35,17 +39,30 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "Filen kunne ikke tilgås">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>Den kan være blevet slettet, flyttet, eller tilladelserne for filen kan forhindre adgang.</li>
+</ul>
+">
 
 <!ENTITY generic.title "Hovsa.">
 <!ENTITY generic.longDesc "
-<p>&brandShortName; kan ikke indlæse denne side, af en eller anden grund.</p>
+<p>&brandShortName; kan ikke indlæse denne side af en eller anden grund.</p>
 ">
+
+<!ENTITY captivePortal.title "Login til netværk">
+<!ENTITY captivePortal.longDesc "
+<p>Dette netværk kræver muligvis, at du skal logge ind for at bruge internettet.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Åbn login-siden">
 
 <!ENTITY malformedURI.title "Adressen er ikke gyldig">
 <!ENTITY malformedURI.longDesc "
 <ul>
   <li>Webadresser skrives normalt som
-    <strong>http://www.example.com/</strong></li>
+    <strong>http://www.eksempel.dk/</strong></li>
   <li>Sørg for at du ikke benytter divisionstegn (dvs.
     <strong>/</strong>).</li>
 </ul>
@@ -57,24 +74,24 @@
 <!ENTITY notCached.title "Siden er udløbet">
 <!ENTITY notCached.longDesc "<p>Den forespurgte side er ikke tilgængelig i cacheen.</p><ul><li>Af sikkerhedshensyn henter &brandShortName; ikke automatisk følsomme sider igen.</li><li>Klik for at prøve at hente siden igen fra webstedet.</li></ul>">
 
-<!ENTITY netOffline.title "Offline mode">
+<!ENTITY netOffline.title "Offline-tilstand">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Vælg &quot;Prøv igen&quot; for at skifte til online-tilstand og genindlæse siden.</li>
+  <li>Klik på &quot;Prøv igen&quot; for at skifte til online-tilstand og genindlæse siden.</li>
 </ul>
 ">
 
 <!ENTITY contentEncodingError.title "Indholdskodningsfejl">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Kontakt venligst ejerne af webstedet omkring dette problem.</li>
+  <li>Kontakt ejerne af webstedet omkring dette problem.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Usikker filtype">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Kontakt venligst ejerne af webstedet omkring dette problem.</li>
+  <li>Kontakt ejerne af webstedet omkring dette problem.</li>
 </ul>
 ">
 
@@ -84,50 +101,54 @@
 <!ENTITY netTimeout.title "Forbindelsens tidsfrist udløb">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY unknownProtocolFound.title "The address wasn't understood">
+<!ENTITY unknownProtocolFound.title "Adressen kunne ikke forstås">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+  <li>Du er måske nødt til at installere andet software for at åbne denne adresse.</li>
 </ul>
 ">
 
 <!ENTITY proxyConnectFailure.title "Proxyserveren afviser forbindelser">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
-  <li>Undersøg proxy-indstillingerne og vær sikker på at de er korrekte.</li>
-  <li>Kontakt din netværks-administrator for at sikre dig at proxyserveren fungerer.</li>
+  <li>Undersøg proxy-indstillingerne, og vær sikker på, at de er korrekte.</li>
+  <li>Kontakt din netværks-administrator for at sikre dig, at proxyserveren
+    fungerer.</li>
 </ul>
 ">
 
 <!ENTITY proxyResolveFailure.title "Kunne ikke finde proxyserveren">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
-  <li>Undersøg proxy-indstillingerne og vær sikker på at de er korrekte.</li>
+  <li>Undersøg proxy-indstillingerne, og vær sikker på, at de er korrekte.</li>
   <li>Undersøg om din computer har en fungerende netværksforbindelse.</li>
-  <li>Hvis din computer eller netværk er beskyttet af en firewall eller proxy, sørg da for at &brandShortName; har tilladelse til at tilgå nettet.</li>
+  <li>Hvis din computer eller netværk er beskyttet af en firewall eller proxy, sørg da
+  for at &brandShortName; har tilladelse til at tilgå nettet.</li>
 </ul>
 ">
 
 <!ENTITY redirectLoop.title "Denne side viderefører ikke forespørgslen korrekt">
 <!ENTITY redirectLoop.longDesc "
 <ul>
-  <li>Dette problem kan nogle gange skyldes, at cookies er slået fra, eller modtagelse af cookies er blevet nægtet.</li>
+  <li>Dette problem kan nogle gange skyldes, at cookies er slået fra, eller modtagelse
+    af cookies er blevet nægtet.</li>
 </ul>
 ">
 
 <!ENTITY unknownSocketType.title "Uventet svar fra server">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
-  <li>Undersøg om dit system har Personal Security Manager installeret.</li>
-  <li>Dette kan skyldes en ikke-standard opsætning af serveren.</li>
+  <li>Undersøg om dit system har Personal Security Manager
+    installeret.</li>
+  <li>Dette kan skyldes en ikke-standardopsætning af serveren.</li>
 </ul>
 ">
 
 <!ENTITY nssFailure2.title "Sikker forbindelse mislykkedes">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+  <li>Siden kunne ikke vises, da autenticiteten af de modtagne data ikke kunne bekræftes.</li>
+  <li>Kontakt ejerne af webstedet omkring dette problem.</li>
 </ul>
 ">
 
@@ -137,12 +158,20 @@
 <li>Hvis du har kunnet tilgå serveren tidligere kan dette problem være midlertidligt og du anbefales at prøve igen senere.</li>
 </ul>
 ">
+<!ENTITY certerror.longpagetitle1 "Din forbindelse er ikke sikker">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "Ejeren af <span class='hostname'/> har ikke konfigureret sit websted korrekt. For at undgå at dine informationer bliver stjålet, har &brandShortName; ikke oprettet forbindelse til webstedet.">
 
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>Siden kan være midlertidigt utilgængelig eller travlt optaget. Prøv igen om et øjeblik.</li>
-  <li>Hvis du er ude af stand til at indlæse nogen sider overhovedet, undersøg da din computers netværksforbindelse.</li>
-  <li>Hvis din computer eller dit netværk er beskyttet af en firewall eller proxy, sørg da for at &brandShortName; har tilladelse til at tilgå nettet.</li>
+  <li>Siden kan være midlertidigt utilgængelig eller travlt optaget. Prøv igen om et 
+  øjeblik.</li>
+  <li>Hvis du er ude af stand til at indlæse nogen sider overhovedet, undersøg da din 
+  computers netværksforbindelse.</li>
+  <li>Hvis din computer eller dit netværk er beskyttet af en firewall eller proxy, sørg 
+  da for at &brandShortName; har tilladelse til at tilgå nettet.</li>
 </ul>
 ">
 
@@ -158,8 +187,8 @@
 <p>Denne type netsvindel er kendt som phishing-angreb, hvor falske websteder og emails bruges til at imitere kilder du normalt stoler på.</p>
 ">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "Blokeret grundet indholdssikkerhedspolitik">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; forhindrede denne side i at blive indlæst på denne måde da den har en indholdssikkerhedspolitik, der forbyder dette.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -174,6 +203,8 @@
 
 <!ENTITY corruptedContentError.title "Fejlbehæftet indhold">
 <!ENTITY corruptedContentError.longDesc "<p>Siden, du forsøger at se, kan ikke vises, da der er fundet en fejl i overførslen af data.</p><ul><li>Kontakt venligst ejerne af webstedet omkring dette problem.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Fejlbehæftet indhold">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Siden, du forsøger at se, kan ikke vises, da der er fundet en fejl i overførslen af data.</p><ul><li>Kontakt ejerne af webstedet omkring dette problem.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "Eller du kan tilføje en undtagelse…">
@@ -192,20 +223,41 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Report this error">
-<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
-<!ENTITY errorReporting.automatic "Automatically report errors in the future">
-<!ENTITY errorReporting.learnMore "Learn more…">
-<!ENTITY errorReporting.sending "Sending report">
-<!ENTITY errorReporting.sent "Report sent">
-<!ENTITY errorReporting.report "Report">
-<!ENTITY errorReporting.tryAgain "Try again">
-
 <!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakt venligst ejerne af webstedet omkring dette problem.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakt ejerne af webstedet omkring dette problem.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Unable to Connect Securely">
+<!ENTITY sslv3Used.title "Kan ikke oprette sikker forbindelse">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Learn More…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "Avanceret info: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "Usikker forbindelse">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "Avanceret info: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "Avanceret">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> bruger forældet sikkerheds-teknologi, der er sårbar overfor angreb. En angriber ville nemt kunne afsløre information, som du troede var sikker.">
+<!ENTITY weakCryptoAdvanced.override "USIKKERT: Forsøg at indlæse <span class='hostname'></span>, selvom den bruger forældet sikkerheds-teknologi">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Det er ikke muligt at oprette en sikker forbindelse til <span id='wrongSystemTime_URL'/>, fordi din computers ur lader til at være forkert indstillet.</p> <p>Din computer mener, at det er <span id='wrongSystemTime_systemDate'/>, men det burde være <span id='wrongSystemTime_actualDate'/>. Indstil dato og klokkeslæt korrekt for at løse dette problem.</p>">
+
+<!ENTITY certerror.pagetitle1  "Usikker forbindelse">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Webstedet bruger  HTTP
+Strict Transport Security (HSTS) til at angive at &brandShortName; kun
+kan oprette en sikker forbindelse til det. Derfor er det ikke muligt at
+tilføje en undtagelse for dette certifikat.">
+<!ENTITY certerror.copyToClipboard.label "Kopiér tekst til udklipsholder">
+
+<!ENTITY inadequateSecurityError.title "Din forbindelse er ikke sikker">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> bruger forældet sikkerheds-teknologi, der er sårbar overfor angreb. En angriber kan derfor nemt få adgang til information, som du troede var sikker. Webstedets administrator er nødt til at løse problemerne på serveren, før du kan besøge webstedet.</p><p>Fejlkode: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Det ser ud til, at dine indstillinger for netværkssikkerhed forårsager dette. Vil du gendanne til standard-indstillinger?">
+<!ENTITY prefReset.label "Gendan indstillinger til standard">

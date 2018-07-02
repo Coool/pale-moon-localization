@@ -4,17 +4,49 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Dados de telemetria">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  A telemetria está <span>ativa</span>.
-">
+<!ENTITY aboutTelemetry.changeDataChoices "  Alterar">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  A telemetria está <span>inativa</span>.
-">
+<!ENTITY aboutTelemetry.uploadEnabled "  O envio de dados FHR está <span>ativado</span>.">
+
+<!ENTITY aboutTelemetry.uploadDisabled "  O envio de dados FHR está <span>desativado</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  A gravação estendida de telemetria está <span>ativada</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  A gravação estendida de telemetria está <span>desativada</span>.">
+
+<!ENTITY aboutTelemetry.pingDataSource "Fonte de dados ping:">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "Dados ping atuais">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "Dados ping arquivados">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "Apresentação de dados de ping:">
+
+<!ENTITY aboutTelemetry.structured "Estruturado">
+
+<!ENTITY aboutTelemetry.raw "JSON em bruto">
+
+<!ENTITY aboutTelemetry.showSubsessionData "Mostrar dados de sub-sessão">
+
+<!ENTITY aboutTelemetry.choosePing "Escolha o ping:">
+
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; Ping recente">
+
+<!ENTITY aboutTelemetry.showOlderPing "Ping antigo &gt;&gt;">
+
+<!ENTITY aboutTelemetry.rawPingData "Dados ping em bruto…">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "Fraco">
+
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
 
 <!ENTITY aboutTelemetry.generalDataSection "
 Dados gerais
 ">
+
+<!ENTITY aboutTelemetry.environmentDataSection "  Dados do ambiente">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "  Registo de telemetria">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
   Declarações SQL lentas
@@ -27,6 +59,10 @@ Dados gerais
 <!ENTITY aboutTelemetry.threadHangStatsSection "
   O processo bloqueia
 ">
+
+<!ENTITY aboutTelemetry.scalarsSection "  Escalares">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Escalares codificados">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogramas
@@ -48,9 +84,7 @@ Dados gerais
   Escritas atrasadas
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Informação do sistema
-">
+<!ENTITY aboutTelemetry.sessionInfoSection "  Informações da sessão">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
   Histogramas obtidos por extras
@@ -79,3 +113,7 @@ Dados gerais
 <!ENTITY aboutTelemetry.filterText "
   Filtrar (cadeia ou /regex/)
 ">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  Payload">
+
+<!ENTITY aboutTelemetry.rawPayload "  Payload em bruto">

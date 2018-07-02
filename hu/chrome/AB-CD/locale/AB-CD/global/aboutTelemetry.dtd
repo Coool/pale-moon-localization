@@ -4,17 +4,51 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetriai adatok">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  A telemetria <span>bekapcsolva</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "  Változtatás">
+
+<!ENTITY aboutTelemetry.uploadEnabled "  Az FHR adatok feltöltése <span>engedélyezett</span>.">
+
+<!ENTITY aboutTelemetry.uploadDisabled "  Az FHR adatok feltöltése <span>tiltott</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  A bővített telemetria-rögzítés <span>engedélyezett</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  A bővített telemetria-rögzítés <span>tiltott</span>.">
+
+<!ENTITY aboutTelemetry.pingDataSource "Adatforrás pingelése:">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "Aktuális ping adatok">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "Archivált ping adatok">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "Ping adatok megjelenítése:">
+
+<!ENTITY aboutTelemetry.structured "Strukturált">
+
+<!ENTITY aboutTelemetry.raw "Nyers JSON">
+
+<!ENTITY aboutTelemetry.showSubsessionData "Almunkamenet adatainak megjelenítése">
+
+<!ENTITY aboutTelemetry.choosePing "Válasszon pinget:">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Újabb ping
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  A telemetria <span>kikapcsolva</span>.
-">
+<!ENTITY aboutTelemetry.showOlderPing "Régebbi ping &gt;&gt;">
+
+<!ENTITY aboutTelemetry.rawPingData "Nyers ping adatok…">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "Hét">
+
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
 
 <!ENTITY aboutTelemetry.generalDataSection "
 Általános adatok
 ">
+
+<!ENTITY aboutTelemetry.environmentDataSection "  Környezeti adatok">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "  Telemetriai napló">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
   Lassú SQL utasítások
@@ -27,6 +61,10 @@
 <!ENTITY aboutTelemetry.threadHangStatsSection "
 Szállefagyások
 ">
+
+<!ENTITY aboutTelemetry.scalarsSection "  Skalárok">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Kulcsos skalárok">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Hisztogramok
@@ -48,9 +86,7 @@ Kiegészítő részletei
 Késői írások
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Rendszerinformációk
-">
+<!ENTITY aboutTelemetry.sessionInfoSection "  Munkamenet-információk">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
   Kiegészítők által gyűjtött hisztogramok
@@ -79,3 +115,7 @@ Kattintson a szakasz be/ki kapcsolásához
 <!ENTITY aboutTelemetry.filterText "
 Szűrő (karakterláncok vagy /regexp/)
 ">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  Terhelés">
+
+<!ENTITY aboutTelemetry.rawPayload "  Nyers terhelés">

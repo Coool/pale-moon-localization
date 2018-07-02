@@ -4,16 +4,88 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Datos telemétricos">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  A telemetría está <span>activada</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Cambiar
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  A telemetría está <span>desactivada</span>.
+<!ENTITY aboutTelemetry.uploadEnabled "
+  O envío de datos FHR está <span>activado</span>.
+">
+
+<!ENTITY aboutTelemetry.uploadDisabled "
+  O envío de datos FHR está <span>desactivado</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  O rexistro estendido de telemetría está <span>activado</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  O rexistro estendido de telemetría está <span>desactivado</span>.
+">
+
+<!ENTITY aboutTelemetry.pingDataSource "
+Orixe dos datos de ping:
+">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Datos actuais de ping
+">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Datos arquivados de ping
+">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Ping data display:
+">
+
+<!ENTITY aboutTelemetry.structured "
+Structured
+">
+
+<!ENTITY aboutTelemetry.raw "
+Raw JSON
+">
+
+<!ENTITY aboutTelemetry.showSubsessionData "
+Amosar datos de subsesión
+">
+
+<!ENTITY aboutTelemetry.choosePing "
+Escolla ping:
+">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Ping máis recente
+">
+
+<!ENTITY aboutTelemetry.showOlderPing "
+Ping máis antigo &gt;&gt;
+">
+
+<!ENTITY aboutTelemetry.rawPingData "
+Raw ping data…
+">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "
+Semana
+">
+
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
-  General Data
+  Datos xerais
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Datos do entorno
+">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Rexistro de telemetría
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -21,11 +93,19 @@
 ">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "
-  Os bloqueos do navegador
+  Bloqueos do navegador
 ">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
-  Thread Hangs
+  Bloqueos dos fillos
+">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Scalars
+">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Keyed Scalars
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
@@ -33,7 +113,7 @@
 ">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Keyed Histograms
+  Histogramas con lendas
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
@@ -41,15 +121,15 @@
 ">
 
 <!ENTITY aboutTelemetry.addonDetailsSection "
-  Add-on Details
+  Detalles do complemento
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
   Escritura atrasada
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Información do sistema
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Session Information
 ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
@@ -57,7 +137,7 @@
 ">
 
 <!ENTITY aboutTelemetry.toggle "
-  Click to toggle section
+  Prema para cambiar de sección
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -77,5 +157,13 @@
 ">
 
 <!ENTITY aboutTelemetry.filterText "
-  Filter (strings or /regexp/)
+  Filtrar (cadeas ou expresións regulares)
+">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Payload
+">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Raw Payload
 ">

@@ -6,10 +6,6 @@
 <!ENTITY  checking.title                  "Kontrola aktualizací">
 <!ENTITY  updateCheck.label               "Vyhledávat aktualizace, ale dotázat se, zda mají být nainstalovány">
 
-<!ENTITY  pluginupdatesfound.title        "Nalezeny aktualizace zásuvných modulů">
-<!ENTITY  pluginupdatesfound.label        "Byla nalezena jedna nebo více aktualizací zásuvných modulů.">
-<!ENTITY  pluginupdateslink.label         "Jak aktualizovat zásuvné moduly.">
-
 <!ENTITY  noupdatesfound.title            "Aktualizace nenalezeny">
 <!ENTITY  noupdatesautoenabled.intro      "Nebyly nalezeny žádné nové aktualizace. Aplikace &brandShortName; 
                                            bude pravidelně zjišťovat jejich dostupnost.">
@@ -31,26 +27,10 @@
                                            Poté již tuto zprávu neuvidíte, ale může si ">
 <!ENTITY  unsupportedLink.label           "zjistit více.">
 
-<!ENTITY  incompatibleCheck.title         "Kontrola kompatibility doplňků">
-<!ENTITY  incompatibleCheck.label         "Zjišťování dostupnosti nových verzí vašich doplňků…">
-
 <!ENTITY  clickHere.label                 "Zobrazit více informací o této aktualizaci">
 
 <!ENTITY  evangelism.desc                 "Je důrazně doporučováno aktualizovat aplikaci &brandShortName; 
                                            co možná nejdříve.">
-
-<!ENTITY  license.instructions            "Pokud souhlasíte s podmínkami tohoto licenčního ujednání, 
-                                           klepněte na Souhlasím a pokračujte v instalaci aktualizace.">
-
-<!ENTITY  license.titleText               "Licenční ujednání">
-<!ENTITY  license.introText               "Podmínky pro užití tohoto software.">
-<!ENTITY  license.instructionText         "Přečtěte si prosím pozorně následující licenční ujednání. Pro zobrazení celého textu použijte posuvníky.">
-<!ENTITY  license.accept                  "Souhlasím s podmínkami tohoto licenčního ujednání">
-<!ENTITY  license.accept.accesskey        "S">
-<!ENTITY  license.decline                 "Nesouhlasím s podmínkami tohoto licenčního ujednání">
-<!ENTITY  license.decline.accesskey       "N">
-
-<!ENTITY  incompatibleList.title          "Nalezeny nekompatibilní doplňky">
 
 <!ENTITY  downloadPage.title              "Stahování aplikace &brandShortName;">
 <!ENTITY  downloading.intro               "Stahování aktualizací…">
@@ -76,10 +56,6 @@
 
 <!ENTITY  genericBackgroundError.label    "Aplikaci &brandShortName; se nepodařilo ověřit dostupnost aktualizací. 
                                            Ověřte prosím, zda máte nejnovější verzi aplikace &brandShortName; z:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Aplikaci &brandShortName; je bráněno v bezpečné aktualizaci. 
-                                           Ověřte prosím, zda máte nejnovější verzi aplikace &brandShortName; z:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Aplikaci &brandShortName; je nabízena nezabezpečená aktualizace. 
-                                           Kontaktujte správce sítě a požádejte ho o pomoc.">
 
 <!ENTITY  finishedPage.title              "Aktualizace je připravena k instalaci">
 <!ENTITY  finishedPage.text               "Aktualizace bude nainstalována při příštím startu aplikace &brandShortName;. 
@@ -93,10 +69,7 @@
 <!ENTITY  finishedBackground.more         "Aktualizace bude nainstalována při příštím startu aplikace &brandShortName;. 
                                            Nyní můžete aplikaci &brandShortName; restartovat 
                                            nebo pokračovat v práci a restartovat ji později.">
-
-<!ENTITY  installed.title                 "Aktualizace nainstalována">
-<!ENTITY  installed.intro                 "Aktualizace byla úspěšně nainstalována.">
-<!ENTITY  whatsnew.label                  "Přečtěte si více o tom, co je nového…">
+<!ENTITY  finishedBackground.moreElevated "Tato aktualizace vyžaduje oprávnění správce. Aktualizace bude nainstalována při příštím spuštění aplikace &brandShortName;. Aplikaci můžete restartovat nyní, pokračovat v práci a restartovat později, nebo tuto aktualizaci zcela zrušit.">
 
 <!ENTITY  update.details.label            "Podrobnosti">
 <!ENTITY  update.installedOn.label        "Nainstalováno dne:">

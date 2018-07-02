@@ -7,100 +7,82 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Det gick inte att ansluta">
-<!ENTITY connectionFailure.longDesc "<p>Även om sidan verkar giltig, kunde webbläsaren inte att upprätta en anslutning.</p> <ul><li>Är sidan tillfälligt otillgänglig? Försök igen senare.</li> <li>Kan du inte surfa till andra webbplatser?  Kontrollera datorns nätverksanslutning.</li> <li>Är datorn eller nätverket skyddat av en brandvägg eller proxy? Felaktiga inställningar kan störa surfning.</li></ul>">
+<!ENTITY connectionFailure.title "Anslutningen misslyckades">
+<!ENTITY connectionFailure.longDesc "<p>Även fast webbplatsen tycks vara giltig, kunde inte webbläsaren etablera en anslutning med den.</p><ul><li>Är webbplatsen kanske tillfälligt nere? Försök igen senare.</li><li>Kan du inte besöka andra webbplatser heller? Kontrollera datorns nätverksanslutning.</li><li>Är datorn eller nätverket skyddat av en brandvägg eller proxy? Felaktiga inställningar kan påverka webbläsning.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Port begränsas av säkerhetsskäl">
-<!ENTITY deniedPortAccess.longDesc "<p>Den efterfrågade adressen specificerade en port (t.ex. <q>palemoon.org:25</q> för port 25 på palemoon.org) som normalt sett används för <em>andra syften</em> än surfning. Webbläsaren har avbrutit förfrågan för att skydda dig och din dator.</p>">
+<!ENTITY deniedPortAccess.title "Porten har säkerhetsrestriktioner">
+<!ENTITY deniedPortAccess.longDesc "<p>Den efterfrågade adressen anger en port (t.ex. <q>mozilla.org:80</q> för port 80 på mozilla.org) som normalt används för <em>andra</em> syften än webbsurfning. Webbläsaren har av säkerhetsskäl avbrutit anslutningsförsöket.</p>">
 
 <!ENTITY dnsNotFound.title "Adressen hittades inte">
-<!ENTITY dnsNotFound.longDesc "<p>Webbläsaren kunde inte hitta värdservern för adressen.</p> <ul><li>Gjorde du ett misstag när du skriver domänen? (t.ex. <q><strong>ww</strong>. mozilla.org</q> istället för <q><strong>www</strong>. mozilla.org</q>)</li> <li>Är du säker på att denna domänadress finns?  Dess registrering kan ha upphört att gälla.</li> <li>Kan du inte nå andra webbplatser?  Kontrollera din nätverksanslutning och DNS-serverinställningar.</li> <li>Är datorn eller nätverket skyddat  av en brandvägg eller proxy?  Felaktiga inställningar kan störa surfning.</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<p>Webbläsaren kunde inte finna den angivna adressens värdserver.</p><ul><li>Har du kanske skrivit in fel adress? (t.ex. <q><strong>ww</strong>.mozilla.org</q> i stället för <q><strong>www</strong>.mozilla.org</q>)</li><li>Är du säker på att domänadressen existerar?  Dess registrering kanske har förfallit.</li><li>Kan du inte heller besöka andra webbplatser?  Kontrollera nätverksanslutning och inställningar för DNS-server.</li><li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?  Felaktiga inställningar kan påverka webbläsning.</li></ul>">
 
 <!ENTITY fileNotFound.title "Filen kan inte hittas">
-<!ENTITY fileNotFound.longDesc "<ul><li>Kan objektet har bytt namn, tagits bort eller omplacerats?</li> <li>Finns det en stavning, kapitalisering eller andra typografiska fel i adressen?</li> <li>Har du tillräckliga åtkomstbehörigheter till det önskade objektet?</li></ul>">
+<!ENTITY fileNotFound.longDesc "<ul><li>Kan den ha fått ett annat namn, tagits bort eller flyttats?</li><li>Finns det stavfel eller andra typografiska fel i adressen?</li><li>Har du tillräckliga rättigheter till den efterfrågade posten?</li></ul>">
 
-<!ENTITY generic.title "Kan inte slutföra begäran">
-<!ENTITY generic.longDesc "<p>Ytterligare information om det här problemet är inte tillgänglig för tillfället.</p>">
+<!ENTITY fileAccessDenied.title "Åtkomst till filen nekades">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Det kan ha tagits bort, flyttats eller filrättigheter kan hindra tillgång.</li></ul>">
 
-<!ENTITY malformedURI.title "Felaktig Adress">
-<!ENTITY malformedURI.longDesc "<p>Formatet på den angivna adressen är okänd. Kontrollera texten i adressfältet och försök igen.</p>">
+<!ENTITY generic.title "Kan inte fullborda förfrågan">
+<!ENTITY generic.longDesc "<p>Ytterligare information om det här problemet eller felet finns för närvarande inte.</p>">
+
+<!ENTITY malformedURI.title "Ogiltig adress">
+<!ENTITY malformedURI.longDesc "<p>Den angivna adressen har inte ett igenkännbart format. Kontrollera om det gjorts några misstag i adressfältet och försök igen.</p>">
 
 <!ENTITY netInterrupt.title "Dataöverföringen avbröts">
-<!ENTITY netInterrupt.longDesc "<p>Webbläsaren anslöts korrekt, men anslutningen avbröts medan information överfördes.  Vänligen försök igen.</p> <ul><li>Kan du inte nå andra webbplatser? Kontrollera datorns nätverksanslutning.</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
+<!ENTITY netInterrupt.longDesc "<p>Webbläsaren lyckades med anslutningen, men anslutningen avbröts medan information överfördes. Vänligen försök igen.</p><ul><li>Kan du inte besöka andra webbplatser heller? Kontrollera datorns nätverksanslutning.</li><li>Har du fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för ytterligare hjälp.</li></ul>">
 
 <!ENTITY notCached.title "Utgånget dokument">
-<!ENTITY notCached.longDesc "<p>Det efterfrågade dokumentet finns inte längre i webbläsarens cacheminne.</p><ul><li>Av säkerhetsskäl försöker inte webbläsaren automatiskt att hämta om känsliga dokument.</li><li>Klicka på Försök igen för att åter hämta dokumentet från webbplatsen.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Det efterfrågade dokumentet finns inte längre i webbläsarens cache.</p><ul><li>Av säkerhetsskäl försöker inte webbläsaren automatiskt att hämta om känsliga dokument.</li><li>Klicka på Försök igen för att åter hämta dokumentet från webbplatsen.</li></ul>">
 
-<!ENTITY netOffline.title "Offline-läge">
-<!ENTITY netOffline.longDesc2 "<p>Webbläsaren körs i nedkopplat läge och kan inte ansluta till det begärda objektet.</p><ul><li>Är datorn ansluten till ett aktivt nätverk?</li><li>Tryck på &quot;Försök igen&quot; för att växla till uppkopplat läge och ladda om sidan.</li></ul>">
+<!ENTITY netOffline.title "Nedkopplat läge">
+<!ENTITY netOffline.longDesc2 "<p>Webbläsaren befinner sig i nedkopplat läge och kan inte ansluta till den efterfrågade tjänsten.</p><ul><li>Är datorn ansluten till ett fungerande nätverk?</li><li>Klicka på &quot;Försök igen&quot; för att koppla upp och ladda om sidan.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Kodningsfel av innehållet">
-<!ENTITY contentEncodingError.longDesc "<p>Sidan du försöker se kan inte visas på grund av att den använder en felaktig eller ej stödd sorts komprimering.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">
+<!ENTITY contentEncodingError.longDesc "<p>Sidan kan inte visas eftersom den använder en typ av komprimering som är ogiltig eller som inte stöds.</p><ul><li>Kontakta webbplatsens ägare och informera dem om detta problem.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Osäker filtyp">
-<!ENTITY unsafeContentType.longDesc "
-<ul>
-  <li>Kontakta webbplatsens ägare för att informera dem om detta problem.</li>
-</ul>
-">
+<!ENTITY unsafeContentType.longDesc "<ul> <li>Kontakta webbplatsens ägare för att informera dem om detta problem.</li> </ul>">
 
 <!ENTITY netReset.title "Anslutningen avbröts">
-<!ENTITY netReset.longDesc "<p>Nätverkslänken avbröts samtidigt som en anslutning höll på att upprättas. Vänligen försök igen.</p>">
+<!ENTITY netReset.longDesc "<p>Nätverkslänken avbröts under anslutningsförsöket. Försök igen.</p>">
 
-<!ENTITY netTimeout.title "Tidsgränsen för nätverket överskreds">
-<!ENTITY netTimeout.longDesc "<p>Den sökta webbplatsen svarade inte på en begäran om anslutning och webbläsaren har slutat vänta på ett svar.</p> <ul><li>Kan servern uppleva hög efterfrågan eller ett tillfälligt avbrott?  Försök igen senare.</li> <li>Kan du inte surfa till andra webbplatser? Kontrollera datorns nätverksanslutning.</li> <li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?  Felaktiga inställningar kan störa surfning.</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
+<!ENTITY netTimeout.title "Anslutningen avbröts">
+<!ENTITY netTimeout.longDesc "<p>Den efterfrågade webbplatsen svarade inte på anslutningsförsöket och webbläsaren har slutat vänta på ett svar.</p><ul><li>Kan servern vara utsatt för en stor belastning eller ett tillfälligt avbrott?  Försök igen senare.</li><li>Kan du inte heller besöka andra webbplatser? Kontrollera datorns nätverksanslutning.</li><li>Är datorn eller nätverket skyddat av en brandvägg eller proxy?  Felaktiga inställningar kan påverka webbläsning.</li><li>Har du fortfarande problem? Rådfråga nätverksadministratören eller internetleverantören för ytterligare hjälp.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Okänt protokoll">
-<!ENTITY unknownProtocolFound.longDesc "<p>Adressen anger ett protokoll (t.ex. <q>wxyz: / /</q>) som webbläsaren inte känner igen, så webbläsaren kan inte ansluta till webbplatsen.</p> <ul><li>Försöker du komma åt multimedia eller andra icke-text-tjänster? Kontrollera webbplatsen för extra krav.</li> <li>Vissa protokoll kan kräva programvara från tredje part eller plugins innan webbläsaren kan känna igen dem.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Den angivna adressen specificerar ett protokoll (t.ex. <q>wxyz://</q>) som webbläsaren inte känner till, så webbläsaren kan inte ansluta till platsen.</p><ul><li>Försöker du komma åt multimedia eller andra icke-textbaserade tjänster? Kontrollera om platsen har särskilda krav.</li><li>Vissa protokoll kan kräva tredjepartsprogram eller insticksmoduler för att webbläsaren ska kunna känna igen dem.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxyserver vägrade anslutning">
-<!ENTITY proxyConnectFailure.longDesc "<p>Webbläsaren har konfigurerats för att använda en proxyserver, men proxyn vägrade en anslutning.</p> <ul><li>Är webbläsarens proxy-konfigurationen korrekt? Kontrollera inställningarna och prova igen.</li> <li>Tillåter proxytjänsten anslutningar från detta nätverk?</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
+<!ENTITY proxyConnectFailure.title "Proxyservern avslog anslutningen">
+<!ENTITY proxyConnectFailure.longDesc "<p>Webbläsaren är inställd på att använda en proxyserver, men proxyn avvisade anslutningen.</p><ul><li>Är webbläsarens proxyinställningar riktiga? Kontrollera inställningarna och försök igen.</li><li>Tillåter proxyn anslutningar från det här nätverket?</li><li>Har du fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för ytterligare hjälp.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Proxyservern hittades inte">
-<!ENTITY proxyResolveFailure.longDesc "<p>Webbläsaren har konfigurerats för att använda en proxyserver, men proxyn vägrade en anslutning.</p> <ul><li>Är webbläsarens proxy-konfigurationen korrekt? Kontrollera inställningarna och prova igen.</li> <li>Är datorn ansluten till ett fungerande nätverk?</li> <li>Fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för hjälp.</li></ul>">
+<!ENTITY proxyResolveFailure.longDesc "<p>Webbläsaren är inställd på att använda en proxyserver, men proxyn kunde inte hittas.</p><ul><li>Är webbläsarens proxyinställningar riktiga? Kontrollera inställningarna och försök igen.</li><li>Är datorn ansluten till ett fungerande nätverk?</li><li>Har du fortfarande problem? Rådfråga nätverksadministratören eller Internetleverantören för ytterligare hjälp.</li></ul>">
 
-<!ENTITY redirectLoop.title "Omdirigera Loop">
-<!ENTITY redirectLoop.longDesc "<p>Webbläsaren har avbrutit förfrågan att hämta det begärda objektet. Sidan försöker att omdirigera förfrågan på ett sätt som aldrig kommer att slutföras.</p><ul><li>Har du stängt av eller blockerat kakor som krävs av denna sida?</li><li><em>OBS</em>: Om att acceptera sidans kakor inte löste problemet är det med största sannolikhet ett problem med servern och inte din dator.</li></ul>">
+<!ENTITY redirectLoop.title "Omdirigeringsslinga">
+<!ENTITY redirectLoop.longDesc "<p>Webbläsaren har avbrutit försöket att hämta det efterfrågade objektet. Platsen dirigerar om förfrågan på ett sätt som omöjliggör ett slutförande.</p><ul><li>Har du inaktiverat eller blockerat kakor från den här platsen?</li><li><em>NOTERA</em>: Om ett accepterande av den här platsens kakor inte löser problemet är det sannolikt ett problem med serverns konfiguration och inte med din dator.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Felaktigt svar">
-<!ENTITY unknownSocketType.longDesc "<p>Sidan svarade på nätverksförfrågan på ett oväntat och webbläsaren kan därför inte fortsätta.</p>">
+<!ENTITY unknownSocketType.longDesc "<p>Platsen svarade på ett oväntat sätt på nätverksförfrågan och webbläsaren kan inte fortsätta.</p>">
 
 <!ENTITY nssFailure2.title "Säker anslutning misslyckades">
-<!ENTITY nssFailure2.longDesc2 "<p>Sidan du försöker se kan inte visas på grund av att den mottagna datans äkthet ej kunde fastställas.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">
+<!ENTITY nssFailure2.longDesc2 "<p>Sidan du försöker se kan inte visas eftersom den mottagna datans autenticitet inte kan verifieras.</p><ul><li>Kontakta webbplatsens ägare och informera dem om detta problem.</li></ul>">
 
 <!ENTITY nssBadCert.title "Säker anslutning misslyckades">
-<!ENTITY nssBadCert.longDesc2 "<ul>
- <li>Detta kan bero på ett problem med serverns konfiguration, eller så kanske
- någon annan felaktigt utger sig för att vara servern.</li>
- <li>Om du tidigare utan problem har anslutit till den här servern kanske felet
- är tillfälligt och du kan försöka igen senare.</li>
-</ul>
-">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>Detta kan bero på ett problem med serverns konfiguration, eller så kanske någon annan felaktigt utger sig för att vara servern.</li> <li>Om du tidigare utan problem har anslutit till den här servern kanske felet är tillfälligt och du kan försöka igen senare.</li> </ul>">
 
-<!ENTITY malwareBlocked.title "Misstänkt skadlig webbplats!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Skadliga webbplatser försöker installera program för att stjäla privata uppgifter, använda din dator för att angripa andras, eller för att skada ditt system.</p>
-<p>Ägare till webbplatser som anser att deras webbplats felaktigt har rapporterats som skadlig kan <a href='https://www.stopbadware.org/request-review'>begära en omprövning</a>.</p>
-">
+<!ENTITY securityOverride.linkText "Eller så kan du lägga till ett undantag ...">
+<!ENTITY securityOverride.warningContent "<p>Du ska inte lägga till ett undantag om du använder en internetanslutning som du inte har ett fullständigt förtroende för eller om du inte är vana att se en varning för den här servern.</p> <p>Om du fortfarande vill lägga till ett undantag för den här webbplatsen, kan du göra det i dina avancerade krypteringsinställningar.</p>">
 
-<!ENTITY phishingBlocked.title "Misstänkt webbförfalskning!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Personliga uppgifter som lämnas på den där sidan kan resultera i identitetsstöld eller annat bedrägeri.</p>
-<p>Den här typen av webbförfalskningar används i något som kallas nätfiske där falska webbsidor och e-postmeddelanden används för att imitera källor du kanske litar på.</p>
-">
+<!ENTITY cspBlocked.title "Blockerad av säkerhetspolicyn för innehåll">
+<!ENTITY cspBlocked.longDesc "<p>Webbläsaren hindrade den här sidan från att laddas på detta sätt eftersom sidan har en säkerhetspolicy för innehåll som inte tillåter det.</p>">
 
-<!ENTITY cspBlocked.title "Blockerat av innehållssäkerhetspolicy">
-<!ENTITY cspBlocked.longDesc "<p>Webbläsaren har förhindrat denna sida från att laddas på detta viset eftersom sidan has en innehållssäkerhetspolicy som inte tillåter det.</p>">
-
-<!ENTITY corruptedContentError.title "Skadat innehåll">
-<!ENTITY corruptedContentError.longDesc "<p>Sidan du försöker se kan inte visas på grund av att ett fel i dataöverföringen upptäcktes.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Skadat innehåll">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Sidan du försöker se kan inte visas på grund av att ett fel i dataöverföringen upptäcktes.</p><ul><li>Kontakta ägarna till webbplatsen för att informera dem om detta problem.</li></ul>">
 
 <!ENTITY remoteXUL.title "Extern XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakta ägaren av webbplatsen för att informera dem om detta problem.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Din anslutning är inte säker">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> använder säkerhetsteknologi som är föråldrad och sårbara för angrepp. En angripare kan lätt avslöja information som du tänkt ska vara säker. Webbplatsens administratör måste laga servern innan du kan besöka webbplatsen.</p><p>Felkod: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

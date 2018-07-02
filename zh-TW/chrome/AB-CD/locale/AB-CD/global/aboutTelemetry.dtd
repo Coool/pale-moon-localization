@@ -4,43 +4,74 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetry 資料">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "Telemetry 已 <span>啟用</span>。">
+<!ENTITY aboutTelemetry.changeDataChoices "變更">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "Telemetry 已 <span>停用</span>。">
+<!ENTITY aboutTelemetry.uploadEnabled "<span>已啟用</span> Firefox 健康檢查報告資料上傳。">
 
-<!ENTITY aboutTelemetry.generalDataSection "
-一般資料
-">
+<!ENTITY aboutTelemetry.uploadDisabled "<span>已停用</span> Firefox 健康檢查報告資料上傳。">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "<span>已啟用</span> Extended Telemetry 紀錄。">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "<span>已停用</span> Extended Telemetry 紀錄。">
+
+<!ENTITY aboutTelemetry.pingDataSource "Ping 資料來源:">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "目前的 ping 資料">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "已封存的 ping 資料">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "顯示 ping 資料:">
+
+<!ENTITY aboutTelemetry.structured "結構化">
+
+<!ENTITY aboutTelemetry.raw "原始 JSON">
+
+<!ENTITY aboutTelemetry.showSubsessionData "顯示 subsession 資料">
+
+<!ENTITY aboutTelemetry.choosePing "選擇 ping:">
+
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; 較新的 ping">
+
+<!ENTITY aboutTelemetry.showOlderPing "較舊的 ping &gt;&gt;">
+
+<!ENTITY aboutTelemetry.rawPingData "原始 ping 資料…">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "週">
+
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
+
+<!ENTITY aboutTelemetry.generalDataSection "一般資料">
+
+<!ENTITY aboutTelemetry.environmentDataSection "環境資料">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "Telemetry 紀錄">
 
 <!ENTITY aboutTelemetry.slowSqlSection "慢速的 SQL 陳述句">
 
 <!ENTITY aboutTelemetry.chromeHangsSection "瀏覽器停滯">
 
-<!ENTITY aboutTelemetry.threadHangStatsSection "
-執行緒遲滯
+<!ENTITY aboutTelemetry.threadHangStatsSection "執行緒遲滯">
+
+<!ENTITY aboutTelemetry.scalarsSection "Scalars">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "Keyed Scalars
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "柱狀圖">
 
-<!ENTITY aboutTelemetry.keyedHistogramsSection "
-Keyed Histograms
-">
+<!ENTITY aboutTelemetry.keyedHistogramsSection "Keyed Histograms">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "簡易測量">
 
-<!ENTITY aboutTelemetry.addonDetailsSection "
-附加元件詳情
-">
+<!ENTITY aboutTelemetry.addonDetailsSection "附加元件詳情">
 
 <!ENTITY aboutTelemetry.lateWritesSection "慢速寫入">
 
-<!ENTITY aboutTelemetry.systemInfoSection "系統資訊">
+<!ENTITY aboutTelemetry.sessionInfoSection "使用階段資訊">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "附加元件所收集資訊的柱狀圖">
 
-<!ENTITY aboutTelemetry.toggle "
-點選以切換段落
-">
+<!ENTITY aboutTelemetry.toggle "點選以切換段落">
 
 <!ENTITY aboutTelemetry.emptySection "（未收集資料）">
 
@@ -50,6 +81,8 @@ Keyed Histograms
 
 <!ENTITY aboutTelemetry.hideSymbols "啟用 Telemetry">
 
-<!ENTITY aboutTelemetry.filterText "
-篩選（字串或 /regexp/）
-">
+<!ENTITY aboutTelemetry.filterText "篩選（字串或 /regexp/）">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "酬載">
+
+<!ENTITY aboutTelemetry.rawPayload "原始酬載">

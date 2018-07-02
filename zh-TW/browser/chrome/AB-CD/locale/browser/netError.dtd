@@ -7,6 +7,8 @@
 
 <!ENTITY loadError.label "頁面載入發生問題">
 <!ENTITY retry.label "重試">
+<!ENTITY returnToPreviousPage.label "返回">
+<!ENTITY advanced.label "進階">
 
 <!-- Specific error messages -->
 
@@ -14,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "此網址已被限制">
-<!ENTITY deniedPortAccess.longDesc "<p>網址所指定的 Port (如 <q>palemoon.org:25</q> 則表示使用 Port 25) 通常<em>不是</em>給正常網站所使用的。 為了安全考量，已取消對該網址的瀏覽。</p>">
+<!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "找不到伺服器">
 <!ENTITY dnsNotFound.longDesc "<ul>
@@ -34,11 +36,18 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "對檔案的存取要求已被拒絕">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>可能是檔案被移走、移除，或存取權限不正確，造成無法存取。</li></ul>">
 
 <!ENTITY generic.title "噢！">
 <!ENTITY generic.longDesc "
 <p>&brandShortName; 因為某些原因無法載入此網頁。</p>
 ">
+
+<!ENTITY captivePortal.title "登入到網路">
+<!ENTITY captivePortal.longDesc "<p>這個網路可能會需要您先登入才能存取網際網路。</p>">
+
+<!ENTITY openPortalLoginPage.label "開啟登入頁面">
 
 <!ENTITY malformedURI.title "不正確的網址">
 <!ENTITY malformedURI.longDesc "<ul>
@@ -83,11 +92,7 @@
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "無法理解的網址">
-<!ENTITY unknownProtocolFound.longDesc "
-<ul>
-  <li>您可能需要安裝其他軟體才能開啟此網址。</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.longDesc "<ul><li>您可能需要安裝其他軟體才能開啟此網址。</li></ul>">
 
 <!ENTITY proxyConnectFailure.title "Proxy 伺服器拒絕連線">
 <!ENTITY proxyConnectFailure.longDesc "
@@ -123,12 +128,10 @@
 ">
 
 <!ENTITY nssFailure2.title "安全連線失敗">
-<!ENTITY nssFailure2.longDesc2 "
-<ul>
-  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li> 
+<!ENTITY nssFailure2.longDesc2 "<ul>
+  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li>
   <li>請向網站擁有者回報此問題。</li>
-</ul>
-">
+</ul>">
 
 <!ENTITY nssBadCert.title "安全連線失敗">
 <!ENTITY nssBadCert.longDesc2 "
@@ -137,6 +140,11 @@
   <li>若您以前可以與該伺服器正常連線，那麼這個錯誤可能只是暫時的，您可以稍候再試試看。</li>
 </ul>
 ">
+<!ENTITY certerror.longpagetitle1 "您的連線並不安全">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "<span class='hostname'/> 的網站管理員未正確設定好網站。為了確保您的資訊不會被盜走，&brandShortName; 並未連線至該網站。">
 
 <!ENTITY sharedLongDesc "
 <ul>
@@ -168,6 +176,8 @@
 
 <!ENTITY corruptedContentError.title "內容毀損錯誤">
 <!ENTITY corruptedContentError.longDesc "<p>因為在資料傳輸過程當中偵測到錯誤，無法顯示您正要檢視的頁面。</p><ul><li>請通知網站管理者以讓他們知道這個問題。</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "內容毀損錯誤">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>因為在資料傳輸過程當中偵測到錯誤，無法顯示您正要檢視的頁面。</p><ul><li>請通知網站管理者以讓他們知道這個問題。</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "或者您也可以新增例外網站…">
@@ -185,15 +195,6 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "回報此錯誤">
-<!ENTITY errorReporting.longDesc "回報此位址和憑證資訊 <span id='hostname'></span> 將協助我們識別和阻止惡意網站。謝謝你幫忙建立一個更安全的網路環境！">
-<!ENTITY errorReporting.automatic "在以後自動回報錯誤">
-<!ENTITY errorReporting.learnMore "更多資訊…">
-<!ENTITY errorReporting.sending "傳送回報">
-<!ENTITY errorReporting.sent "回報已傳送">
-<!ENTITY errorReporting.report "回報">
-<!ENTITY errorReporting.tryAgain "重試">
-
 <!ENTITY remoteXUL.title "遠端 XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>請聯絡網站管理員以通知他們這個問題。</li></ul></p>">
 
@@ -202,3 +203,30 @@ functionality specific to firefox. -->
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "進階資訊: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "更多資訊…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "進階資訊: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "您的連線並不安全">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "進階資訊: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "進階">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> 使用過時的安全性技術，容易遭受攻擊。攻擊者可以簡單地得知您認為安全地資訊。">
+<!ENTITY weakCryptoAdvanced.override "嘗試使用過時的安全性設定載入此頁面 <span class='hostname'></span>（不安全）">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>您的系統時間不正確，無法與 <span id='wrongSystemTime_URL'/> 建立安全連線。</p> <p>您的電腦認為目前時間為 <span id='wrongSystemTime_systemDate'/>，但應該是 <span id='wrongSystemTime_actualDate'/>。若要修正此問題，請將您的系統日期與時間設定為正確時間。</p>">
+
+<!ENTITY certerror.pagetitle1  "不安全的連線">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "此網站透過 HTTP Strict Transport Security (HSTS) 要求 &brandShortName; 僅能透過安全連線連結到該網站，所以無法將此憑證加入例外清單。">
+<!ENTITY certerror.copyToClipboard.label "將文字複製到剪貼簿">
+
+<!ENTITY inadequateSecurityError.title "您的連線並不安全">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> 使用過時的安全性技術，容易遭受攻擊。攻擊者可以簡單地得知您認為安全的資訊。網站管理員修正伺服器設定後您才能連線至此網站。</p><p>錯誤代碼: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "看來可能是您的網路安全設定造成此問題，您是否要恢復預設設定值？">
+<!ENTITY prefReset.label "還原預設設定">

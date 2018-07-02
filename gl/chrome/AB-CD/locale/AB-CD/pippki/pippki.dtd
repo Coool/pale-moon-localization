@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Restabelecer o contrasinal principal">
 <!ENTITY resetPassword.text  "Se restabelece o contrasinal principal esqueceranse os contrasinais de web e correo electrónico, os datos dos formularios, os certificados persoais e as chaves privadas que estean almacenados. Está seguro de que quere restabelecelo?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Introduza o contrasinal principal">
-<!ENTITY getPassword.tokenName2.label "Dispositivo de seguranza:">
-<!ENTITY getPassword.password.label "Contrasinal:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Descargando certificado">
 <!ENTITY downloadCert.message1 "Solicitouse que confíe nunha nova autoridade certificadora (AC).">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Escolla un certificado para presentar como identificación:">
 <!ENTITY clientAuthAsk.message3 "Detalles do certificado seleccionado:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Seleccionar certificado">
-<!ENTITY certPicker.info  "Certificado:">
-<!ENTITY certPicker.detailsLabel "Detalles do certificado seleccionado:">
-
 <!ENTITY pkcs12.setpassword.title  "Escolla un contrasinal para a copia de seguranza do certificado">
 <!ENTITY pkcs12.setpassword.message  "O contrasinal da copia de seguranza do certificado protexe o ficheiro que vai crear. Estabeleza ese contrasinal para realizar a copia de seguranza.">
 <!ENTITY pkcs12.setpassword.label1 "Contrasinal da copia de seguranza do certificado:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Caixa de diálogo de escolla da chave electrónica">
 <!ENTITY chooseToken.message1 "Escolla unha chave electrónica.">
-
-<!ENTITY escrowWarn.title "Copia da chave de cifrado">
-<!ENTITY escrowWarn.message1 "Importante: Esta autoridade certificadora solicitou facer unha copia de seguranza da súa chave privada de cifrado.">
-<!ENTITY escrowWarn.benefit1 "A vantaxe é que, se perde o acceso á súa chave privada de cifrado, pode solicitar unha copia desta autoridade certificadora.">
-<!ENTITY escrowWarn.message2 "Con todo, a súa chave privada de cifrado será gardada pola autoridade certificadora, e podería utilizarse para ler o seu correo ou documentos cifrados sen o seu permiso.">
-<!ENTITY examineCert.label "Ver o certificado">
-<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Xerando unha chave privada">

@@ -14,10 +14,10 @@
 <!ENTITY aboutSupport.crashes.title "Správy o zlyhaní">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "ID zostavy">
-<!ENTITY aboutSupport.crashes.sendDate "Odoslané">
+<!ENTITY aboutSupport.crashes.id "Identifikátor správy">
+<!ENTITY aboutSupport.crashes.sendDate "Dátum odoslania">
 <!ENTITY aboutSupport.crashes.allReports "Všetky správy o zlyhaní">
-<!ENTITY aboutSupport.crashes.noConfig "Táto aplikácia nie je nakonfigurovaná pre zobrazenie správy o zlyhaní.">
+<!ENTITY aboutSupport.crashes.noConfig "Táto aplikácia nepodporuje zobrazenie správ o zlyhaní.">
 
 <!ENTITY aboutSupport.extensionsTitle "Rozšírenia">
 <!ENTITY aboutSupport.extensionName "Názov">
@@ -29,19 +29,19 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentName "Názov">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Popis">
-<!ENTITY aboutSupport.experimentActive "Aktívne">
+<!ENTITY aboutSupport.experimentActive "Aktívna">
 <!ENTITY aboutSupport.experimentEndDate "Dátum ukončenia">
 <!ENTITY aboutSupport.experimentHomepage "Domovská stránka">
-
+<!ENTITY aboutSupport.experimentBranch "Vetva">
 
 <!ENTITY aboutSupport.appBasicsTitle "Základné nastavenia aplikácie">
 <!ENTITY aboutSupport.appBasicsName "Názov">
 <!ENTITY aboutSupport.appBasicsVersion "Verzia">
-<!ENTITY aboutSupport.appBasicsBuildID "ID zostavy">
+<!ENTITY aboutSupport.appBasicsBuildID "Identifikátor zostavenia">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Aktualizačný kanál">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Kanál aktualizácií">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "História aktualizácií">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Zobraziť históriu aktualizácií">
 
@@ -56,8 +56,14 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Reťazec User Agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Využitie pamäte">
+<!ENTITY aboutSupport.appBasicsPerformance "Výkon">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Viacprocesový Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Registrovaní Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profily">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocesové okná">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Núdzový režim">
 
@@ -66,9 +72,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Zobraziť vo Finderi">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Zobraziť priečinok">
+<!ENTITY aboutSupport.showWin2.label "Otvoriť priečinok">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Dôležité upravené nastavenia">
 <!ENTITY aboutSupport.modifiedPrefsName "Názov">
@@ -84,9 +90,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Databáza Miest">
+<!ENTITY aboutSupport.placeDatabaseTitle "Databáza umiestnení">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integrita">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Overiť integritu">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Skontrolovať integritu">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Inkrementálne GC">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopírovať text do schránky">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopírovať nespracované údaje do schránky">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
-<!ENTITY aboutSupport.safeModeTitle "Skúste núdzový režim">
+<!ENTITY aboutSupport.safeModeTitle "Vyskúšajte núdzový režim">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reštartovať v núdzovom režime…">
 
-<!ENTITY aboutSupport.restartTitle "Skúste reštartovať">
-<!ENTITY aboutSupport.restartNormal.label "Reštartujte normálne…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Reštartovať normálne…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funkcie">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostika">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Záznam chýb">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decision Log">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Zakázať funkcie Crash Guard">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Možné riešenia">

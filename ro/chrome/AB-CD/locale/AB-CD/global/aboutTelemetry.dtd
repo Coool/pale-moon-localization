@@ -4,75 +4,84 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Date telemetrice">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetria este <span>activată</span>.
-">
+<!ENTITY aboutTelemetry.changeDataChoices "  Modifică">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetria este <span>dezactivată</span>.
-">
+<!ENTITY aboutTelemetry.uploadEnabled "   Încărcarea de date pentru raportul de stare (FHR) <span>activată</span>.">
 
-<!ENTITY aboutTelemetry.generalDataSection "
-  General Data
-">
+<!ENTITY aboutTelemetry.uploadDisabled "   Încărcarea de date pentru raportul de stare (FHR) <span>dezactivată</span>.">
 
-<!ENTITY aboutTelemetry.slowSqlSection "     Declarații SQL lente ">
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  Înregistrarea telemetriei extinse este <span>activată</span>.">
 
-<!ENTITY aboutTelemetry.chromeHangsSection "
-  Blocări navigator ">
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  Înregistrarea telemetriei extinse este <span>dezactivată</span>.">
 
-<!ENTITY aboutTelemetry.threadHangStatsSection "
-  Thread Hangs
-">
+<!ENTITY aboutTelemetry.pingDataSource "Sursa datelor pentru ping:">
 
-<!ENTITY aboutTelemetry.histogramsSection "
-  Histograme
-">
+<!ENTITY aboutTelemetry.showCurrentPingData "Date actuale ping">
 
-<!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Keyed Histograms
-">
+<!ENTITY aboutTelemetry.showArchivedPingData "Date ping arhivate">
 
-<!ENTITY aboutTelemetry.simpleMeasurementsSection "
-  Măsurători simple
-">
+<!ENTITY aboutTelemetry.pingDataDisplay "Afișare date ping:">
 
-<!ENTITY aboutTelemetry.addonDetailsSection "
-  Add-on Details
-">
+<!ENTITY aboutTelemetry.structured "Structurat">
 
-<!ENTITY aboutTelemetry.lateWritesSection "  
-   Scrieri întârziate
+<!ENTITY aboutTelemetry.raw "JSON brut">
 
-">
+<!ENTITY aboutTelemetry.showSubsessionData "Arată datele pentru subsesiune">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Informații sistem
-">
+<!ENTITY aboutTelemetry.choosePing "Alege ping:">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "
-  Histograme colectate de suplimente
-">
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; ping mai recent">
 
-<!ENTITY aboutTelemetry.toggle "
-  Click to toggle section
-">
+<!ENTITY aboutTelemetry.showOlderPing "&gt;&gt; ping mai vechi">
 
-<!ENTITY aboutTelemetry.emptySection " 
- (Nu sunt date colectate) ">
+<!ENTITY aboutTelemetry.rawPingData "Date de ping brute">
 
-<!ENTITY aboutTelemetry.fullSqlWarning "
-  NOTĂ: Depanarea lentă SQL este activată. Șirurile SQL pot fi afișate mai jos, dar ele nu vor fi transmise de Telemetrie.
-">
+<!ENTITY aboutTelemetry.archiveWeekHeader "Săptămână">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-  Adu numele funcțiilor pentru stivele blocate
-">
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
 
-<!ENTITY aboutTelemetry.hideSymbols "
-  Arată datele brute de la blocări
-">
+<!ENTITY aboutTelemetry.generalDataSection "  Date generale">
 
-<!ENTITY aboutTelemetry.filterText "
-  Filter (strings or /regexp/)
-">
+<!ENTITY aboutTelemetry.environmentDataSection "  Date mediu">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "  Jurnalul telemetriei">
+
+<!ENTITY aboutTelemetry.slowSqlSection "  Declarații SQL lente">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "  Blocări ale browserului">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "  Fire de execuție blocate">
+
+<!ENTITY aboutTelemetry.scalarsSection "  Scalari">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Scalari codificați">
+
+<!ENTITY aboutTelemetry.histogramsSection "  Histograme">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "  Histograme de chei">
+
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "  Măsurători simple">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "  Detalii supliment">
+
+<!ENTITY aboutTelemetry.lateWritesSection "  Scrieri întârziate">
+
+<!ENTITY aboutTelemetry.sessionInfoSection "  Informații despre sesiune">
+
+<!ENTITY aboutTelemetry.addonHistogramsSection "  Histograme colectate de suplimente">
+
+<!ENTITY aboutTelemetry.toggle "  Clic pentru a comuta secțiunea">
+
+<!ENTITY aboutTelemetry.emptySection "  (Nu sunt date colectate)">
+
+<!ENTITY aboutTelemetry.fullSqlWarning "  NOTĂ: Depanarea lentă SQL este activată. Șirurile SQL pot fi afișate mai jos, dar ele nu vor fi transmise de Telemetrie.">
+
+<!ENTITY aboutTelemetry.fetchSymbols "  Adu numele funcțiilor pentru stivele blocate">
+
+<!ENTITY aboutTelemetry.hideSymbols "  Arată datele brute de la blocări">
+
+<!ENTITY aboutTelemetry.filterText "  Filtru (șir caracter sau /regexp/)">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  Payload">
+
+<!ENTITY aboutTelemetry.rawPayload "  Payload brut">

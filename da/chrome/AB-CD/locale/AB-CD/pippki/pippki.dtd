@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Nulstil hovedadgangskode">
 <!ENTITY resetPassword.text  "Hvis du nulstiller din hovedadgangskode, vil alle dine gemte web- og mail-adgangskoder, formulardata, personlige certifikater og private nøgler blive glemt. Er du sikker på, at du vil nulstille din hovedadgangskode?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Indtast hovedadgangskode">
-<!ENTITY getPassword.tokenName2.label "Sikkerhedsenhed:">
-<!ENTITY getPassword.password.label "Adgangskode:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Henter certifikat">
 <!ENTITY downloadCert.message1 "Du er blevet bedt om at stole på en ny certifikatautoritet (CA).">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Vælg et certifikat der skal vises som identifikation:">
 <!ENTITY clientAuthAsk.message3 "Detaljer for det valgte certifikat:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Vælg certifikat">
-<!ENTITY certPicker.info  "Certifikat:">
-<!ENTITY certPicker.detailsLabel "Detaljer for det valgte certifikat:">
-
 <!ENTITY pkcs12.setpassword.title  "Vælg en adgangskode for certifikatsikkerhedskopi">
 <!ENTITY pkcs12.setpassword.message  "Adgangskoden, du vælger til din certifikatsikkerhedskopi, beskytter den sikkerhedskopi du er ved at oprette.  Du skal angive denne adgangskode for at fortsætte sikkerhedskopieringen.">
 <!ENTITY pkcs12.setpassword.label1 "Adgangskode for certifikatsikkerhedskopi:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Vælg token">
 <!ENTITY chooseToken.message1 "Vælg venligst et token.">
-
-<!ENTITY escrowWarn.title "Kopi af krypteringsnøgle">
-<!ENTITY escrowWarn.message1 "Vigtigt: Denne certifikatautoritet har bedt om lov til at tage en kopi af din private krypteringsnøgle.">
-<!ENTITY escrowWarn.benefit1 "Fordelen er, at hvis du mister adgang til din private krypteringsnøgle, kan du bede om en kopi fra denne certifikatautoritet.">
-<!ENTITY escrowWarn.message2 "Men, din private krypteringsnøgle vil blive gemt af certifikatautoriteten, og kan bruges til at læse din krypterede mails og dokumenter uden din tilladelse.">
-<!ENTITY examineCert.label "Vis certifikat">
-<!ENTITY examineCert.accesskey "V">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Generer en privat nøgle">

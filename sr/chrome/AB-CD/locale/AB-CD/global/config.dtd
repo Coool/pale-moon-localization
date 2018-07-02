@@ -5,24 +5,25 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "There be dragons here!">
-<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
-<!ENTITY aboutWarningButton.label "I promise to be careful!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "Ово може да поништи гаранцију!">
+<!ENTITY aboutWarningText.label "Мењање ових напредних поставки може да нашкоди стабилности, безбедности и брзини овог програма. Наставите само ако сте сигурни да знате шта радите.">
+<!ENTITY aboutWarningButton2.label "Прихватам ризик!">
 <!ENTITY aboutWarningCheckbox.label "Прикажи ово упозорење и следећи пут">
 
 <!ENTITY searchPrefs.label "Тражи:">
 <!ENTITY searchPrefs.accesskey "р">
-<!ENTITY focusSearch.key "е">
+<!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Име својства">
 <!ENTITY lockColumn.label "Стање">
-<!ENTITY typeColumn.label "Врста садржаја">
+<!ENTITY typeColumn.label "Тип">
 <!ENTITY valueColumn.label "Вредност">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "Притисните за ређање"> 
+<!ENTITY prefColumnHeader.tooltip "Притисните за сортирање"> 
 <!ENTITY columnChooser.tooltip "Кликните да изаберете колоне за приказ"> 
 
 <!-- Context Menu -->
@@ -42,8 +43,8 @@
 <!ENTITY new.label "Нови">
 <!ENTITY new.accesskey "Н">
 <!ENTITY string.label "Стринг">
-<!ENTITY string.accesskey "с">
+<!ENTITY string.accesskey "С">
 <!ENTITY integer.label "Цео број">
-<!ENTITY integer.accesskey "ц">
+<!ENTITY integer.accesskey "Ц">
 <!ENTITY boolean.label "Булово (boolean)">
-<!ENTITY boolean.accesskey "б">
+<!ENTITY boolean.accesskey "л">

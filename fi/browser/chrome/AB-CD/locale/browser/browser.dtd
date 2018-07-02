@@ -41,8 +41,8 @@ can reach it easily. -->
 <!ENTITY  moveToNewWindow.accesskey          "S">
 <!ENTITY  bookmarkAllTabs.label              "Lisää välilehdet kirjanmerkkeihin…">
 <!ENTITY  bookmarkAllTabs.accesskey          "i">
-<!ENTITY  undoCloseTab.label                 "Kumoa Sulje välilehti">
-<!ENTITY  undoCloseTab.accesskey             "L">
+<!ENTITY  undoCloseTab.label                 "Kumoa välilehden sulkeminen">
+<!ENTITY  undoCloseTab.accesskey             "u">
 <!ENTITY  closeTab.label                     "Sulje välilehti">
 <!ENTITY  closeTab.accesskey                 "S">
 
@@ -51,7 +51,7 @@ can reach it easily. -->
 <!ENTITY tabCmd.label "Uusi välilehti">
 <!ENTITY tabCmd.accesskey "v">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "Avaa sijainti…">
+<!ENTITY openLocationCmd.label "Avaa kohde…">
 <!ENTITY openLocationCmd.accesskey "A">
 <!ENTITY openFileCmd.label "Avaa tiedosto…">
 <!ENTITY openFileCmd.accesskey "d">
@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "P">
 <!ENTITY fullScreenExit.label "Poistu kokoruututilasta">
 <!ENTITY fullScreenExit.accesskey "o">
-<!ENTITY fullscreenAllowButton.label "Salli">
-<!ENTITY fullscreenExitButton.label "Estä">
-<!ENTITY fullscreenApproval.value "Sallitaanko kokoruututila?">
 
 <!ENTITY fullscreenExitHint.value "Poistu kokoruututilasta koska tahansa painamalla ESC-näppäintä.">
 <!ENTITY leaveDOMFullScreen.label "Poistu kokoruututilasta">
@@ -189,7 +186,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY keywordfield.label           "Lisää pikakomento tälle haulle…">
 <!ENTITY keywordfield.accesskey       "L">
-<!ENTITY search.label                 "Verkkohaku">
+<!ENTITY search.label                 "Hae palvelusta ">
 <!ENTITY search.accesskey             "k">
 <!ENTITY downloads.label              "Lataukset">
 <!ENTITY downloads.tooltip            "Näytä latausikkuna">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Oikeudet">
 <!ENTITY permissions.accesskey        "d">
+<!ENTITY preferencesCmd2.label        "Asetukset">
+<!ENTITY preferencesCmd2.accesskey    "A">
 
 <!ENTITY webDeveloperMenu.label       "Web-työkalut (englanninkielisiä)">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Valitse kaikki">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "V"> 
-<!ENTITY preferencesCmd2.label       "Preferenssit">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "Asetukset">
-<!ENTITY preferencesCmdUnix.accesskey     "A"> 
 
 <!ENTITY clearRecentHistory.label               "Poista historiatietoja…">
 
@@ -312,7 +307,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Sivupaneeli">
 <!ENTITY viewSidebarMenu.accesskey "p">
-<!ENTITY viewCustomizeToolbar.label       "Mukauta"> 
+<!ENTITY viewCustomizeToolbar.label       "Muokkaa…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "M">
 <!ENTITY viewTabsOnTop.label            "Välilehdet ylimpänä">
 <!ENTITY viewTabsOnTop.accesskey        "V">
@@ -331,16 +326,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuEdit.label "Muokkaa">
 <!ENTITY appMenuCustomize.label "Muokkaa">
 <!ENTITY appMenuToolbarLayout.label "Työkalupalkin asettelu">
-<!ENTITY appMenuSidebars.label "Sivupaneeli">
+<!ENTITY appMenuSidebars.label "Sivupalkit">
 <!ENTITY appMenuFind.label "Etsi…">
 <!ENTITY appMenuUnsorted.label "Järjestelemättä olevat kirjanmerkit">
 <!ENTITY appMenuWebDeveloper.label "Web-työkalut (englanninkielisiä)">
 <!ENTITY appMenuGettingStarted.label "Alkuun pääseminen">
 <!ENTITY appMenuSafeMode.label "Käynnistä vikasietotilassa…">
-<!ENTITY appMenuSafeMode.accesskey "K">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Kirjoita osoite tai hakutermi">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Siirry välilehteen:">
 
@@ -372,7 +365,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmdInTab.accesskey   "v">
 <!ENTITY openLinkCmd.label            "Avaa uuteen ikkunaan">
 <!ENTITY openLinkCmd.accesskey        "i">
-<!ENTITY openLinkInPrivateWindowCmd.label "Avaa linkki uuteen yksityiseen ikkunaan">
+<!ENTITY openLinkInPrivateWindowCmd.label "Avaa uuteen yksityiseen ikkunaan">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "y">
 <!ENTITY openLinkCmdInCurrent.label     "Avaa">
 <!ENTITY openLinkCmdInCurrent.accesskey "A">
@@ -469,7 +462,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 "Pause" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "Toista">
-<!ENTITY mediaPlay.accesskey         "T">
+<!ENTITY mediaPlay.accesskey         "o">
 <!ENTITY mediaPause.label            "Pysäytä">
 <!ENTITY mediaPause.accesskey        "y">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
@@ -554,14 +547,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Käynnistä…">
 <!ENTITY appMenuRestart.accesskey       "ä">
-<!ENTITY appMenuRestartCmd.commandkey   "ä">
 
 <!ENTITY quitApplicationCmdWin.label       "Lopeta"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "L">
 <!ENTITY goBackCmd.commandKey "Ö">
 <!ENTITY goForwardCmd.commandKey "Ä">
-<!ENTITY quitApplicationCmd.label       "Lopeta"> 
-<!ENTITY quitApplicationCmd.accesskey   "L">
+<!ENTITY quitApplicationCmd.label       "Sulje"> 
+<!ENTITY quitApplicationCmd.accesskey   "S">
 <!ENTITY quitApplicationCmdMac.label    "Lopeta &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
@@ -580,8 +572,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Muuta tämän sivuston ponnahdusikkuna-asetuksia">
 
 <!ENTITY allowPopups.accesskey "S">
-<!ENTITY editPopupSettingsUnix.label "Muokkaa ponnahdusikkunoiden eston asetuksia">
-<!ENTITY editPopupSettings.label "Muokkaa ponnahdusikkunoiden eston asetuksia">
+<!ENTITY editPopupSettingsUnix.label "Muokkaa ponnahdusikkunoiden eston asetuksia…">
+<!ENTITY editPopupSettings.label "Muokkaa ponnahdusikkunoiden eston asetuksia…">
 <!ENTITY editPopupSettings.accesskey "M">
 <!ENTITY dontShowMessage.accesskey "Ä">
 
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Jaettava mikrofoni:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "m">
 
-<!ENTITY webrtcIndicatorButton.label "Kameran / mikrofonin käyttöoikeudet">
-<!ENTITY webrtcIndicatorButton.tooltip "Näytä sivustot, joiden olet sallinut käyttävän tietokoneesi kameraa tai mikrofonia">
 
-<!ENTITY mixedContentBlocked.helplink "Lue lisää">
 <!ENTITY mixedContentBlocked.moreinfo "Useimmat sivustot toimivat asianmukaisesti vaikka tämä sisältö on estetty.">
 
 <!ENTITY pointerLock.notification.message "Paina ESC-näppäintä näyttääksesi sen uudestaan.">

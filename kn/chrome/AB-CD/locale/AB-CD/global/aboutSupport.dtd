@@ -7,13 +7,13 @@
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "  ನೀವು ಒಂದು ಸಮಸ್ಯೆಗೆ ಪರಿಹಾರ ಹುಡುಕುವಾಗ ನಿಮಗೆ ನೆರವಾಗುವಂತಹ ಮಾಹಿತಿಗಳನ್ನು ಈ ಪುಟವು ಹೊಂದಿರುತ್ತದೆ. ನೀವು &brandShortName; ಕುರಿತಾದ ಸಾಮಾನ್ಯವಾದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರವನ್ನು ಹುಡುಕುತ್ತಿದ್ದಲ್ಲಿ, <a id='supportLink'>ಬೆಂಬಲ ಜಾಲ ತಾಣ</a>ವನ್ನು ನೋಡಿ.">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "ಕ್ರಿಯಾವೈಫಲ್ಯ ವರದಿಗಳು">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "ವರದಿ ID">
+<!ENTITY aboutSupport.crashes.sendDate "ಸಲ್ಲಿಸಲಾಗಿದೆ">
+<!ENTITY aboutSupport.crashes.allReports "ಎಲ್ಲ ಕ್ರಿಯಾವೈಫಲ್ಯಗಳ ವರದಿಗಾರ">
+<!ENTITY aboutSupport.crashes.noConfig "ಈ ಅನ್ವಯವನ್ನು ಕ್ರಿಯಾವೈಫಲ್ಯ ವರದಿಗಳನ್ನು ಪ್ರದರ್ಶಿಸುವಂತೆ ಸಂರಚಿಸಲಾಗಿಲ್ಲ.">
 
 <!ENTITY aboutSupport.extensionsTitle "ವಿಸ್ತರಣೆಗಳು">
 <!ENTITY aboutSupport.extensionName "ಹೆಸರು">
@@ -21,23 +21,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "ಆವೃತ್ತಿ">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "ಪ್ರಯೋಗಾತ್ಮಕ ವೈಶಿಷ್ಟ್ಯಗಳು">
+<!ENTITY aboutSupport.experimentName "ಹೆಸರು">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
-
+<!ENTITY aboutSupport.experimentDescription "ವಿವರಣೆ">
+<!ENTITY aboutSupport.experimentActive "ಸಕ್ರಿಯ">
+<!ENTITY aboutSupport.experimentEndDate "ಅಂತ್ಯದ ದಿನಾಂಕ">
+<!ENTITY aboutSupport.experimentHomepage "ನೆಲೆಪುಟ">
+<!ENTITY aboutSupport.experimentBranch "ಶಾಖೆ">
 
 <!ENTITY aboutSupport.appBasicsTitle "ಅನ್ವಯದ ಮೂಲತತ್ವಗಳು">
 <!ENTITY aboutSupport.appBasicsName "ಹೆಸರು">
 <!ENTITY aboutSupport.appBasicsVersion "ಆವೃತ್ತಿ">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ನಿರ್ಮಿತಿ ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "ಪರಿಷ್ಕರಿಸು ವಾಹಿನಿ">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "ಅಪ್‌ಡೇಟ್‌ ಇತಿಹಾಸ">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "ಅಪ್ಡೇಟ್ ಇತಿಹಾಸವನ್ನು ತೋರಿಸು">
 
@@ -52,19 +52,25 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "ಬಳಕೆದಾರ ಮಧ್ಯವರ್ತಿ">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "ಮೆಮೊರಿಯ ಬಳಕೆ">
+<!ENTITY aboutSupport.appBasicsPerformance "ಕಾರ್ಯಕ್ಷಮತೆ">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "ನೊಂದಾಯಿಸಿಕೊಂಡ ಸೇವಾ ಕೆಲಸಗಾರರು">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsProfiles "ಪ್ರೊಫೈಲ್‌ಗಳು">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "ಬಹುಪ್ರಕ್ರಿಯೆ ಕಿಟಕಿಗಳು">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "ಸುರಕ್ಷಾ ಸ್ಥಿತಿ">
 
 <!ENTITY aboutSupport.showDir.label "ಕೋಶವನ್ನು ತೆರೆ">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "ಶೋಧಕದಲ್ಲಿ ತೋರಿಸು">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "ಕಡತಕೋಶವನ್ನು ತೋರಿಸು">
+<!ENTITY aboutSupport.showWin2.label "Open Folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "ಪ್ರಮುಖ ಮಾರ್ಪಡಿಕೆ ಮಾಡಲಾದ ಆದ್ಯತೆಗಳು">
 <!ENTITY aboutSupport.modifiedPrefsName "ಹೆಸರು">
@@ -74,15 +80,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js ಆದ್ಯತೆಗಳು">
 <!ENTITY aboutSupport.userJSDescription "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ <a id='prefs-user-js-link'>user.js file</a> ಅನ್ನು ಹೊಂದಿದ್ದು, ಅದರಲ್ಲಿ &brandShortName; ನಲ್ಲಿ ಇರದೆ ಇರುವಂತಹ ಆದ್ಯತೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "ಪ್ರಮುಖ ಲಾಕ್ ಮಾಡಲಾದ ಆದ್ಯತೆಗಳು">
+<!ENTITY aboutSupport.lockedPrefsName "ಹೆಸರು">
+<!ENTITY aboutSupport.lockedPrefsValue "ಮೌಲ್ಯ">
 
 <!ENTITY aboutSupport.graphicsTitle "ಗ್ರಾಫಿಕ್ಸ್‍">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "ಸ್ಥಳಗಳ ದತ್ತಸಂಚಯ">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "ಸಮಗ್ರತೆ">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "ಸಮಗ್ರತೆ ದೃಢಪಡಿಸು">
 
 <!ENTITY aboutSupport.jsTitle "ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್‍">
 <!ENTITY aboutSupport.jsIncrementalGC "ಏರಿಕೆಯ GC">
@@ -99,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "ಪಠ್ಯವನ್ನು ನಕಲುಫಲಕಕ್ಕೆ  ಪ್ರತಿಮಾಡು">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "ಕಚ್ಛಾ ದತ್ತಾಂಶವನ್ನು ನಕಲುಫಲಕಕ್ಕೆ ಪ್ರತಿ ಮಾಡು">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.safeModeTitle "ಸುರಕ್ಷಾ ಸ್ಥಿತಿ ಪ್ರಯತ್ನಿಸಿ">
 <!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
 <!ENTITY aboutSupport.restartTitle "Try Restart">
 <!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "ವೈಶಿಷ್ಟ್ಯಗಳು">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "ತಪಾಸಣೆ">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "ವಿಫಲತೆಯ ದಿನಚರಿ">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "ನಿರ್ಣಯ ದಿನಚರಿ">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "ಕುಸಿತ ರಕ್ಷಕ ವೈಶಿಷ್ಟ್ಯ ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದೆ">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "ಪರ್ಯಾಯಮಾರ್ಗಗಳು">
