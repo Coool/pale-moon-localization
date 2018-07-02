@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Đặt lại Mật khẩu Chính">
 <!ENTITY resetPassword.text  "Nếu bạn đặt lại mật khẩu chính, toàn bộ các mật khẩu web, email, dữ liệu biểu mẫu, chứng chỉ và khóa cá nhân đã lưu sẽ bị xóa. Bạn có chắc muốn xóa mật khẩu chính của mình không?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Nhập Mật khẩu Chính">
-<!ENTITY getPassword.tokenName2.label "Thiết bị Bảo mật:">
-<!ENTITY getPassword.password.label "Mật khẩu:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Đang tải Chứng chỉ">
 <!ENTITY downloadCert.message1 "Bạn được hỏi có tin tưởng một CA (Bên thẩm định Chứng chỉ) mới hay không.">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Chọn một chứng chỉ để thực hiện việc nhận diện này:">
 <!ENTITY clientAuthAsk.message3 "Chi tiết của chứng chỉ đã chọn:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Chọn Chứng chỉ">
-<!ENTITY certPicker.info  "Chứng chỉ:">
-<!ENTITY certPicker.detailsLabel "Chi tiết của chứng chỉ đã chọn:">
-
 <!ENTITY pkcs12.setpassword.title  "Chọn một Mật khẩu Sao lưu Chứng chỉ">
 <!ENTITY pkcs12.setpassword.message  "Mật khẩu sao lưu chứng chỉ mà bạn đặt ở đây bảo vệ tập tin sao lưu mà bạn sẽ tạo. Bạn phải đặt mật khẩu để tiến hành sao lưu.">
 <!ENTITY pkcs12.setpassword.label1 "Mật khẩu sao lưu chứng chỉ:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Hộp thoại Chọn Token">
 <!ENTITY chooseToken.message1 "Vui lòng chọn một mã thông báo.">
-
-<!ENTITY escrowWarn.title "Chép Khóa Mã hóa">
-<!ENTITY escrowWarn.message1 "Quan trọng: Bên thẩm định chứng chỉ này yêu cầu bạn tạo một bản sao lưu khóa mật hóa cá nhân.">
-<!ENTITY escrowWarn.benefit1 "Lợi ích của nó là nếu bạn mất quyền truy cập vào khóa mật hóa cá nhân, bạn có thể yêu cầu một bản sao từ bên thẩm định chứng chỉ này.">
-<!ENTITY escrowWarn.message2 "Tuy nhiên, khóa mật hóa cá nhân của bạn sẽ được lưu bởi bên thẩm định chứng chỉ, và có thể dùng để đọc các email và tài liệu đã mật hóa của bạn mà không cần sự cho phép của bạn.">
-<!ENTITY examineCert.label "Xem Chứng Thư">
-<!ENTITY examineCert.accesskey "X">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Tạo một Khóa Cá nhân">

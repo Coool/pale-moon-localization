@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "A fájl nem található">
 <!ENTITY fileNotFound.longDesc "<ul><li>Lehet, hogy a fájlt átnevezték, eltávolították vagy áthelyezték?</li><li>Nincs elgépelés, kis- és nagybetű eltérés stb. a címben?</li><li>Rendelkezik a megfelelő hozzáférési jogokkal a kért fájlhoz?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "A fájl elérése megtagadva">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Lehet hogy törölve lett, át lett helyezve, vagy a fájljogosultságok megakadályozzák a hozzáférést.</li> </ul>">
+
 <!ENTITY generic.title "A kérés nem teljesíthető">
 <!ENTITY generic.longDesc "<p>Jelenleg nem áll rendelkezésre további információ a problémáról vagy hibáról.</p>">
 
@@ -79,30 +82,19 @@ ideiglenes, és később újra megpróbálhatja.</li>
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Valószínűleg támadó webhely!">
-<!ENTITY malwareBlocked.longDesc "
-<p>A támadó webhelyek megpróbálnak olyan programokat telepíteni, amelyek személyes adatokat lopnak el, a számítógépet mások megtámadására használják, vagy károsítják a rendszert.</p>
-<p>Azok a webhelytulajdonosok, akik szerint a webhelyüket tévedésből azonosították támadó webhelyként, <a href='http://www.stopbadware.org/home/reviewinfo' >felülvizsgálatot kérhetnek</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Valószínűleg hamisított webhely!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Ha személyes adatot ad meg ezen az oldalon, az a személyazonosságának ellopásához vagy más csaláshoz vezethet.</p>
-<p>Az ilyen típusú hamisított weboldalakat az adathalászat nevű csaláshoz szokták felhasználni, amely során megbízhatónak tűnő weboldalakkal vagy e-mailekkel próbálják a felhasználó becsapni.</p>
-">
+<!ENTITY securityOverride.linkText "Vagy hozzáadhat egy kivételt…">
+<!ENTITY securityOverride.warningContent "<p>Ne adjon hozzá kivételt, ha nem teljesen megbízható internetkapcsolatot használ, vagy ha nem szokta látni ezt a figyelmeztetést ennél a kiszolgálónál.</p><p>Ha még mindig fel akarja venni ezt a webhelyet a kivételek közé, megteheti haladó titkosítási beállítások között.</p>">
 
 <!ENTITY cspBlocked.title "Blokkolva a tartalombiztonsági irányelv szerint">
 <!ENTITY cspBlocked.longDesc "<p>A böngésző nem engedte meg, hogy az oldalt ezen a módon betöltse, mert az oldal tartalombiztonsági irányelve ezt tiltja.</p>">
 
-<!ENTITY corruptedContentError.title "Sérült tartalom hiba">
-<!ENTITY corruptedContentError.longDesc "<p>A megtekinteni kívánt oldal nem jeleníthető meg, mert az adatátvitel közben hiba történt.</p><ul><li>Lépjen kapcsolatba a webhely üzemeltetőjével, és értesítse a problémáról.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Sérült tartalom hiba">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A megtekinteni kívánt oldal nem jeleníthető meg, mert az adatátvitel közben hiba történt.</p><ul><li>Lépjen kapcsolatba a webhely üzemeltetőjével, és értesítse a problémáról.</li></ul>">
 
 <!ENTITY remoteXUL.title "Távoli XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Értesítse a webhely tulajdonosait erről a problémáról.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "A kapcsolat nem biztonságos">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> olyan biztonsági technológiát használ, amely elavult, és sérülékeny a támadásokkal szemben. Egy támadó könnyen felfedhet olyan információkat, amelyeket biztonságosnak gondol. A weboldal rendszergazdájának ki kell javítania a kiszolgálót, mielőtt meglátogathatja az oldalt.</p><p>Hibakód: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

@@ -5,7 +5,7 @@
 <!ENTITY rights.locale-direction "ltr">
 <!ENTITY rights.pagetitle       "about:rights">
 <!ENTITY rights.intro-header    "Sobre os seus direitos">
-<!ENTITY rights.intro "O &brandFullName; é livre e é um software open source, construído por uma comunidade de centenas de pessoas de todo o mundo. Existem algumas coisas que deve saber:">
+<!ENTITY rights.intro "O &brandFullName; é livre e é um software open source, construído por uma comunidade de milhares de pessoas em todo o mundo. Existem algumas coisas que deve saber:">
 
 <!-- Note on pointa / pointb / pointc form:
      These points each have an embedded link in the HTML, so each point is
@@ -17,14 +17,14 @@
      deliberate for formatting around the embedded links. -->
 <!ENTITY rights.intro-point1a "O &brandShortName; é disponibilizado nos termos da ">
 <!ENTITY rights.intro-point1b "Mozilla Public License">
-<!ENTITY rights.intro-point1c ". Isto significa que pode utilizar, copiar e distribuir o código fonte do &brandShortName; a terceiros. Os binários estão sujeitos à licença de redistribuição do Pale Moon, disponível no site do Pale Moon. Também lhe é permitido alterar o código fonte do &brandShortName; de acordo com as suas necessidades. A Mozilla Public License também lhe concede o direito de distribuir versões modificadas.">
+<!ENTITY rights.intro-point1c ". Isto significa que pode usar, copiar e distribuir o &brandShortName; para outras pessoas.  Também pode modificar o código fonte do &brandShortName; conforme as suas necessidades. A Mozilla Public License também lhe dá o direito de distribuir as suas versões modificadas.">
 
-<!ENTITY rights.intro-point2-a "Contudo, não lhe são concedidos quaisquer direitos sobre a propriedade intelectual de Moonchild Productions, incluindo aqui o nome e o logótipo Pale Moon. Pode encontrara mais informações sobre as marcas registadas ">
+<!ENTITY rights.intro-point2-a "No entanto, não tem qualquer direito sobre as marcas registadas ou licenças detidas por Moonchild Productions ou qualquer outra, incluindo sem limitações o nome ou logo das aplicações Basilisk e Pale Moon. Pode encontrar informação adicional sobre marcas registadas ">
 <!ENTITY rights.intro-point2-b "aqui">
 <!ENTITY rights.intro-point2-c ".">
 
 <!-- point 2.5 text for official branded builds -->
-<!ENTITY rights.intro-point2.5 "Algumas funcionalidades do &brandShortName; dão-lhe a oportunidade de disponibilizar algumas informações à &vendorShortName;. Se optar por enviar essas informações, você está a permitir que a &vendorShortName; utilize as para melhorar os seus produtos mas também está a conceder a permissão para publicar e divulgar essas informações nos seus sites.">
+<!ENTITY rights.intro-point2.5 "Algumas funcionalidades no &brandShortName;, tais como o relator de falhas, dão-lhe a opção de fornecer feedback à &vendorShortName;. Ao escolher enviar feedback, você dá à &vendorShortName; autorização para utilizar o feedback para melhorar os seus produtos, para publicar o feedback nos seus websites e para distribuir o feedback.">
 
 <!-- point 3 text for official branded builds -->
 <!ENTITY rights2.intro-point3a "A forma de utilização das informações disponibilizadas à &vendorShortName; através do &brandShortName; está descrita na ">
@@ -46,6 +46,9 @@
 
 <!ENTITY rights2.webservices-header "Serviços de informação do &brandFullName; baseados na web">
 
+<!-- point 5 -->
+<!ENTITY rights.intro-point5 "Para poder reproduzir alguns tipos de vídeo, o &brandShortName; pode descarregar alguns módulos de terceiros para descodificar o conteúdo, caso a reprodução de conteúdo DRM esteja ativa ou disponível.">
+
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
@@ -56,14 +59,17 @@
 <!ENTITY rights3.webservices-c ". Outras funcionalidades ou serviços podem ser desativados nas preferências da aplicação.">
 
 <!-- safe browsing points for branded builds -->
+<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
+     an API key is obtained. Official builds do not use SafeBrowsing. -->
 <!ENTITY rights.safebrowsing-a "Navegação segura: ">
 <!ENTITY rights.safebrowsing-b "A desativação da navegação segura não é recomendada uma vez que pode implicar a navegação em sites perigosos. No entanto, se quiser desativar esta funcionalidade, siga estes passos:">
 <!ENTITY rights.safebrowsing-term1 "Abra as preferências da aplicação">
 <!ENTITY rights.safebrowsing-term2 "Selecione a secção Segurança">
-<!ENTITY rights.safebrowsing-term3 "Desmarque as opções para &quot;&blockAttackSites.label;&quot; e &quot;&blockWebForgeries.label;&quot;">
+<!ENTITY rights2.safebrowsing-term3 "Desmarque a opção para ativar a navegação segura">
 <!ENTITY rights.safebrowsing-term4 "A navegação segura está desativada">
 
 <!-- location aware browsing points for branded builds -->
+<!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Navegação com geo-localização: ">
 <!ENTITY rights.locationawarebrowsing-b "está sempre desativada. Nenhuma informação de localização é enviada sem a sua autorização. Se desativar completamente a funcionalidade, siga este passos:">
 <!ENTITY rights.locationawarebrowsing-term1a "Na barra de URL, digite ">
@@ -79,10 +85,10 @@
 <!ENTITY rights.webservices-term1-unbranded "Quaisquer termos de serviço aplicáveis a este produto devem ser listados aqui.">
 
 <!-- points 1-7 text for branded builds -->
-<!ENTITY rights2.webservices-term1 "A &vendorShortName; os seus colaboradores, licenciadores e associados trabalham para disponibilizar a informação mais precisa e atualizada sobre 'phishing' e 'malware'. No entanto, não podemos garantir que esta informação é de fácil compreensão e livre de erros. Por exemplo, o serviço de navegação segura poderá não identificar alguns sites perigosos ou identificar alguns sites seguros com inseguro e o serviço de conhecimento da localização disponibilizado pelos nossos fornecedores do serviço poderá indicar apenas uma estimativa, não podendo nós ou os nossos fornecedores do serviço garantir com exatidão as localizações corretas.">
+<!ENTITY rights2.webservices-term1 "A &vendorShortName; os seus colaboradores, licenciantes e parceiros trabalham para fornecer os serviços mais precisos e atualizados.  No entanto, não podemos garantir que esta informação é abrangente e livre de erros.  Por exemplo, o serviço de navegação segura poderá não identificar alguns sites perigosos e identificar alguns sites seguros com erro e, no serviço de localização, todas as localizações devolvidas pelos nossos fornecedores do serviço são apenas estimativas e nem nós nem os nossos fornecedores do serviço garantimos a exatidão das localizações fornecidas.">
 <!ENTITY rights.webservices-term2 "A &vendorShortName; pode descontinuar ou alterar os serviços a qualquer momento.">
-<!ENTITY rights2.webservices-term3 "Pode utilizar os serviços que acompanham a versão do &brandShortName;, e a &vendorShortName;  dá-lhe os direitos necessários para o fazer. A &vendorShortName; e os seus licenciadores reservam todos os outros direitos dos serviços.  Estes termos não têm a intenção de limitar quaisquer direitos sobre as licenças livres aplicáveis ao &brandShortName; e às correspondentes versões dos códigos fonte do &brandShortName;.">
-<!ENTITY rights.webservices-term4 "Os serviços são disponibilizados na forma &quot;AS-IS.&quot; a &vendorShortName;, os seus colaboradores, licenciadores e distribuidores, renunciam a todas as garantias, sejam elas explícitas ou implícitas incluindo, sem limites, garantias de que o serviço é comercial e que serve para os seus objetivos pessoais.  Você é responsável por selecionar os serviços para os seus propósitos, assim como a qualidade e o desempenho dos mesmos. Algumas jurisdições não permitem a exclusão ou a limitação de garantias implícitas e, como tal, este aviso poderá não ser adequado para si.">
-<!ENTITY rights.webservices-term5 "Exceto se necessário por lei, a &vendorShortName;, os seus colaboradores, licenciadores e distribuidores não poderão ser responsabilizados por qualquer dano indireto, especial, acidental, consequente, punitivo, ou danos decorrentes que, de alguma forma estejam relacionados com o uso do &brandShortName; e os serviços.  A responsabilidade coletiva sob estes termos, não poderá exceder $500 (quinhentos dólares). Algumas jurisdições não permitem a exclusão ou a limitação de alguns danos e, como tal, esta exclusão e limitação poderá lhe ser aplicável.">
+<!ENTITY rights2.webservices-term3 "Está à vontade para utilizar estes Serviços que acompanham a sua versão do &brandShortName;, e a &vendorShortName; concede-lhe os direitos necessários para o fazer.  A &vendorShortName; e os seus licenciadores reservam todos os outros direitos nos Serviços.  Estes termos não têm a intenção de limitar quaisquer direitos sobre as licenças de código aberto aplicáveis ao &brandShortName; e às correspondentes versões do código fonte do &brandShortName;.">
+<!ENTITY rights.webservices-term4 "Os serviços são disponibilizados &quot;as-is.&quot;  A &vendorShortName;, os seus colaboradores, licenciadores e distribuidores renunciam a todas as garantias, sejam elas explícitas ou implícitas, incluindo sem limites, garantias que o serviço é comercial e serve para os seus objetivos pessoais.  Você é responsável por selecionar os serviços para os seus propósitos, assim como a qualidade e o desempenho dos serviços. Algumas jurisdições não permitem a exclusão ou a limitação de garantias implícitas, como tal este aviso poderá não ser adequado para si.">
+<!ENTITY rights.webservices-term5 "Exceto quando obrigatório por lei, a &vendorShortName;, os seus colaboradores, licenciadores e distribuidores não poderão ser responsabilizados por qualquer dano indireto, especial, acidental, consequente, punitivo, exemplares ou danos diretos decorrentes da utilização do &brandShortName; e os seus serviços.  A responsabilidade coletiva sob estes termos, não poderá exceder $500 (quinhentos dólares). Algumas jurisdições não permitem a exclusão ou a limitação de alguns danos e, como tal, esta exclusão e limitação poderá não ser aplicável a si.">
 <!ENTITY rights.webservices-term6 "A &vendorShortName; poderá atualizar os termos do serviço sempre que necessário. Estes termos não poderão ser alterados ou cancelados sem o acordo escrito da &vendorShortName;.">
-<!ENTITY rights.webservices-term7 "Estes termos são regidos pelas leis Suécia, excluindo conflitos de provisão de leis. Se algum destes termos for identificado como inválido ou sem valor jurídico, as restantes porções manterão a sua validade e efeito. No caso de um conflito entre a versão traduzida e a versão em inglês destes termos, a versão em inglês é a que prevalece.">
+<!ENTITY rights.webservices-term7 "Estes termos são regidos pelas leis da Suécia, excluindo quaisquer conflitos com provisão de leis. Se alguma parte destes termos for identificado como inválido ou sem valor jurídico, as restantes porções manterão a sua validade e efeito. No caso de um conflito entre a versão traduzida e a versão em inglês destes termos, a versão em inglês é a que prevalece.">

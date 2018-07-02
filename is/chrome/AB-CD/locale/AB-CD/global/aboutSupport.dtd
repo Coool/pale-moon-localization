@@ -5,19 +5,15 @@
 <!ENTITY aboutSupport.pageTitle "Upplýsingar fyrir úrræðaleit">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "
-  Þessi síða inniheldur tæknilegar upplýsingar sem gætu verið hjálplegar ef þú ert að 
-  reyna að leysa eitthvað vandamál. Ef þú ert að leita að svörum við algengum spurningum
-  um &brandShortName;, athugaðu þá <a id='supportLink'>stuðningsvefsvæðið okkar</a>.
-">
+<!ENTITY aboutSupport.pageSubtitle "  Þessi síða inniheldur tæknilegar upplýsingar sem gætu verið hjálplegar ef þú ert að reyna að leysa eitthvað vandamál. Ef þú ert að leita að svörum við algengum spurningum um &brandShortName;, athugaðu þá <a id='supportLink'>hjálparvefsvæðið okkar</a>.">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Hrunskýrslur">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "Skýrslu auðkenni">
+<!ENTITY aboutSupport.crashes.sendDate "Sent">
+<!ENTITY aboutSupport.crashes.allReports "Allar hrunskýrslur">
+<!ENTITY aboutSupport.crashes.noConfig "Ekki er búið að stilla þetta forrit til að birta hrunskýrslur.">
 
 <!ENTITY aboutSupport.extensionsTitle "Viðbætur">
 <!ENTITY aboutSupport.extensionName "Nafn">
@@ -25,23 +21,23 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Útgáfa">
 <!ENTITY aboutSupport.extensionId "Auðkenni">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
-<!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
-
+<!ENTITY aboutSupport.experimentsTitle "Tilraunakenndir eiginleikar">
+<!ENTITY aboutSupport.experimentName "Nafn">
+<!ENTITY aboutSupport.experimentId "Auðkenni">
+<!ENTITY aboutSupport.experimentDescription "Lýsing">
+<!ENTITY aboutSupport.experimentActive "Virkur">
+<!ENTITY aboutSupport.experimentEndDate "Lokadagsetning">
+<!ENTITY aboutSupport.experimentHomepage "Heimasíða">
+<!ENTITY aboutSupport.experimentBranch "Grein">
 
 <!ENTITY aboutSupport.appBasicsTitle "Grunnupplýsingar forrits">
 <!ENTITY aboutSupport.appBasicsName "Nafn">
 <!ENTITY aboutSupport.appBasicsVersion "Útgáfa">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Byggingarauðkenni">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Uppfærslurás">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Uppfærslusaga">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Sýna uppfærslusögu">
 
@@ -54,21 +50,27 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Virk tengiforrit">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Smíð stillingar">
 <!ENTITY aboutSupport.appBasicsUserAgent "Auðkenni forrits">
-<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsOS "Stýrikerfi">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Notað minni">
+<!ENTITY aboutSupport.appBasicsPerformance "Afköst">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Skráðir Service Workers">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsProfiles "Notendur">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Margþráða gluggi">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Öryggishamur">
 
 <!ENTITY aboutSupport.showDir.label "Opna möppu">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Sýna í Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Sýna möppu">
+<!ENTITY aboutSupport.showWin2.label "Opna möppu">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Mikilvægar breyttar stillingar">
 <!ENTITY aboutSupport.modifiedPrefsName "Nafn">
@@ -78,15 +80,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js stillingar">
 <!ENTITY aboutSupport.userJSDescription "Notandamappan þín inniheldur <a id='prefs-user-js-link'>user.js skrá</a>, sem inniheldur stillingar sem voru ekki búnar til af &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Mikilvægir læstir valkostir">
+<!ENTITY aboutSupport.lockedPrefsName "Nafn">
+<!ENTITY aboutSupport.lockedPrefsValue "Gildi">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafík">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+<!ENTITY aboutSupport.placeDatabaseTitle "Gagnagrunnur fyrir staði">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Áreiðanleiki">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Sannprófa áreiðanleika">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Stigvaxandi GC">
@@ -103,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Afrita texta á klemmuspjald">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Afrita hrá gögn á klemmuspjald">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.safeModeTitle "Prófaðu öryggisham">
 <!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
 <!ENTITY aboutSupport.restartTitle "Try Restart">
 <!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Eiginleikar">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Greining">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Villu loggur">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Atburðaskrá fyrir ákvarðanir">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Óvirkar stillingar fyrir hrunvara">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Leiðir framhjá villum">

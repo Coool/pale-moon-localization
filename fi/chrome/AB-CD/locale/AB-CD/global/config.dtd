@@ -5,20 +5,21 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "There be dragons here!">
-<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
-<!ENTITY aboutWarningButton.label "I promise to be careful!">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "Huomio, vaarallinen sivu edessä!">
+<!ENTITY aboutWarningText.label "Tällä sivulla olevien asetusten muuttamisella voi olla vahingollisia vaikutuksia tämän ohjelman turvallisuuteen, vakauteen ja suorituskykyyn. Älä koske näihin asetuksiin ellet tiedä tarkalleen, mitä olet tekemässä.">
+<!ENTITY aboutWarningButton2.label "Otan riskin!">
 <!ENTITY aboutWarningCheckbox.label "Näytä varoitus myös ensi kerralla">
 
 <!ENTITY searchPrefs.label "Etsi:">
 <!ENTITY searchPrefs.accesskey "E">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Asetuksen nimi">
 <!ENTITY lockColumn.label "Tila">
-<!ENTITY typeColumn.label "Sisältötyyppi">
+<!ENTITY typeColumn.label "Tyyppi">
 <!ENTITY valueColumn.label "Arvo">
 
 <!-- Tooltips -->

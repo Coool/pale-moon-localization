@@ -4,16 +4,79 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetrija">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetrija je <span>vključena</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Spremeni
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetrija je <span>izključena</span>.
+<!ENTITY aboutTelemetry.uploadEnabled "
+  Nalaganje podatkov FHR je <span>omogočeno</span>.
+">
+
+<!ENTITY aboutTelemetry.uploadDisabled "
+  Nalaganje podatkov FHR je <span>onemogočeno</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  Razširjenjo spremljanje telemetrije je <span>omogočeno</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  Razširjenjo spremljanje telemetrije je <span>onemogočeno</span>.
+">
+
+<!ENTITY aboutTelemetry.pingDataSource "
+Podatkovni vir pinga:
+">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Trenutni podatki pinga
+">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Arhivirani podatki pinga
+">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "Prikaz podatkov pinga:">
+
+<!ENTITY aboutTelemetry.structured "Strukturirano">
+
+<!ENTITY aboutTelemetry.raw "Neobdelan JSON">
+
+<!ENTITY aboutTelemetry.showSubsessionData "
+Prikaži podatke podseje
+">
+
+<!ENTITY aboutTelemetry.choosePing "
+Izberite ping:
+">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Novejši ping
+">
+
+<!ENTITY aboutTelemetry.showOlderPing "
+Starejši ping &gt;&gt;
+">
+
+<!ENTITY aboutTelemetry.rawPingData "Surovi podatki pinga ...">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "
+Teden
+">
+
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
-  General Data
+  Splošni podatki
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Podatki o okolju">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Dnevnik telemetrije
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -25,15 +88,21 @@
 ">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
-  Thread Hangs
+  Sesutja niti
 ">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Skalarji">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Skalarji s ključi">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogrami
 ">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
-  Keyed Histograms
+  Histogrami s ključi
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
@@ -41,23 +110,21 @@
 ">
 
 <!ENTITY aboutTelemetry.addonDetailsSection "
-  Add-on Details
+  Podrobnosti dodatkov
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
   Poznejša pisanja
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Sistemski podatki
-">
+<!ENTITY aboutTelemetry.sessionInfoSection "Podatki o seji">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
   Histogrami dodatkov
 ">
 
 <!ENTITY aboutTelemetry.toggle "
-  Click to toggle section
+  Kliknite za preklop odseka
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -77,5 +144,12 @@
 ">
 
 <!ENTITY aboutTelemetry.filterText "
-  Filter (strings or /regexp/)
+  Filtriraj (nizi ali /regexp/)
+">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Koristna vsebina">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Surova koristna vsebina
 ">

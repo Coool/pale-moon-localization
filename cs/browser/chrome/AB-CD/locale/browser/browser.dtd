@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "S">
 <!ENTITY fullScreenExit.label "Ukončit režim celé obrazovky">
 <!ENTITY fullScreenExit.accesskey "k">
-<!ENTITY fullscreenAllowButton.label "Povolit">
-<!ENTITY fullscreenExitButton.label "Zakázat">
-<!ENTITY fullscreenApproval.value "Povolit režim celé obrazovky?">
 
 <!ENTITY fullscreenExitHint.value "K ukončení režimu celé obrazovky stiskněte Escape">
 <!ENTITY leaveDOMFullScreen.label "Ukončit režim celé obrazovky">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "a">
 <!ENTITY permissions.label            "Správce oprávnění">
 <!ENTITY permissions.accesskey        "o">
+<!ENTITY preferencesCmd2.label        "Možnosti">
+<!ENTITY preferencesCmd2.accesskey    "M">
 
 <!ENTITY webDeveloperMenu.label       "Vývoj webu">
 <!ENTITY webDeveloperMenu.accesskey   "w">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Vybrat vše">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "a"> 
-<!ENTITY preferencesCmd2.label       "Možnosti">
-<!ENTITY preferencesCmd2.accesskey     "M">
-<!ENTITY preferencesCmdUnix.label       "Předvolby">
-<!ENTITY preferencesCmdUnix.accesskey     "v"> 
 
 <!ENTITY clearRecentHistory.label               "Vymazat nedávnou historii…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Vývoj webu">
 <!ENTITY appMenuGettingStarted.label "Začínáme">
 <!ENTITY appMenuSafeMode.label "Restartovat do Nouzového režimu…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Hledat nebo zadat adresu URL">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Přepnout na panel:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Restartovat…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Ukončit"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "k">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Sdílet mikrofon:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "m">
 
-<!ENTITY webrtcIndicatorButton.label "Sdílení kamery / mikrofonu">
-<!ENTITY webrtcIndicatorButton.tooltip "Zobrazí stránky, se kterými aktuálně sdílete kameru nebo mikrofon">
 
-<!ENTITY mixedContentBlocked.helplink "Zjistit více">
 <!ENTITY mixedContentBlocked.moreinfo "Většina stránek bude fungovat správně, přestože bude takovýto obsah zablokován..">
 
 <!ENTITY pointerLock.notification.message "Pro opětovné zobrazení stiskněte Escape.">

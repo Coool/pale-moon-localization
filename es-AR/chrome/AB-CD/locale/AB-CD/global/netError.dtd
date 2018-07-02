@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Archivo no encontrado">
 <!ENTITY fileNotFound.longDesc "<ul><li>¿El elemento podría haber sido renombrado, quitado o reubicado?</li><li>¿Hay un error ortográfico, de capitalización u de otro tipo en la dirección?</li><li>¿Tenés permisos suficientes de acceso al elemento solicitado?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Acceso denegado al archivo">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Puede haberse eliminado, movido o los permisos del archivo pueden evitar el acceso.</li></ul>">
+
 <!ENTITY generic.title "No puede completar la solicitud">
 <!ENTITY generic.longDesc "<p>Actualmente no hay disponible información adicional sobre este problema o error.</p>">
 
@@ -76,30 +79,22 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "¡Sitio sospechoso de ataque!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Los sitios de ataque intentan instalar programas que roban información privada, usan tus computadoras para atacar a otras, o dañan tu sistema.</p>
-<p>Los administradores de sitios web que creen que sus sitios fueron informados incorrectamente como sitios de ataque pueden <a href='https://www.stopbadware.org/request-review' >solicitar una revisión</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "¡Sitio sospechoso de fraude!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Ingresar cualquier información personal en esta página puede resultar en robo de identidad u otro fraude.</p>
-<p>Estos tipos de fraudes web son usados en estafas conocidas como &quot;phisings&quot;, en las cuales páginas web y correos electrónicos fraudulentos son usados para hacerse pasar por fuentes en las que confiás.</p>
+<!ENTITY securityOverride.linkText "O puede agregar una excepción…">
+<!ENTITY securityOverride.warningContent "
+<p>No debería agregar una excepción si está usando una conexión de internet en la que no confía completamente o si no solía ver esta advertencia en este servidor.</p>
+<p>Si aún desea agregar una excepción para este sitio, puede hacerlo en la configuración avanzada de cifrado.</p>
 ">
 
 <!ENTITY cspBlocked.title "Bloqueada por la política de seguridad de contenido">
 <!ENTITY cspBlocked.longDesc "<p>El navegador previno que se cargue esta página de esta forma porque la página tiene una política de seguridad de contenido que no la permite.</p>">
 
-<!ENTITY corruptedContentError.title "Error de contenido corrupto">
-<!ENTITY corruptedContentError.longDesc "<p>No se puede mostrar la página que estás intentando cargar porque se detectó un error en la transmisión de datos.</p><ul><li>Por favor, ponete en contacto con el administrador del sitio para informarle de este problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Error de contenido corrupto">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La página que está tratando de ver no puede mostrarse porque se detectó un error en la transmisión de los datos.</p><ul><li>Contacte a los dueños del sitio web para informarles de este problema.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Ponete en contacto con el administrador del sitio web para informarle de este problema.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "La conexión no es segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> usa tecnología de seguridad que es obsoleta y vulnerable a los ataques. Un atacante podría fácilmente revelar información que se piensa segura. El administrador del sitio web necesitará corregir el servidor antes de poder visitar el sitio.</p><p>Código de error: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

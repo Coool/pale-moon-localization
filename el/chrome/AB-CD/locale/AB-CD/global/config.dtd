@@ -5,20 +5,21 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "Υπάρχουν &quot;δράκοι&quot; εδώ!">
-<!ENTITY aboutWarningText.label "Changing these advanced settings can be (severely) harmful to the stability, security, and performance of this application. You should only continue if you know what you are doing.">
-<!ENTITY aboutWarningButton.label "Υπόσχεση για προσοχή!">
-<!ENTITY aboutWarningCheckbox.label "Εμφάνιση αυτής της προειδοποίησης και την επόμενη φορά">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "Προσοχή! Μπορεί να ακυρώσετε την εγγύηση του προϊόντος! ;-)">
+<!ENTITY aboutWarningText.label "Η αλλαγή των προεπιλεγμένων τιμών πιθανόν να προκαλέσει  ανεπιθύμητες παρενέργειες στην σταθερότητα, ασφάλεια και συμπεριφορά αυτής της εφαρμογής. Θα πρέπει να συνεχίσετε με τις αλλαγές μόνο αν γνωρίζετε καλά τι κάνετε.">
+<!ENTITY aboutWarningButton2.label "Δέχομαι το ρίσκο!">
+<!ENTITY aboutWarningCheckbox.label "Εμφάνιση της προειδοποίησης και την επόμενη φορά">
 
 <!ENTITY searchPrefs.label "Αναζήτηση:">
 <!ENTITY searchPrefs.accesskey "ζ">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "Όνομα Προτίμησης">
 <!ENTITY lockColumn.label "Κατάσταση">
-<!ENTITY typeColumn.label "Τύπος">
+<!ENTITY typeColumn.label "Είδος">
 <!ENTITY valueColumn.label "Τιμή">
 
 <!-- Tooltips -->
@@ -26,7 +27,7 @@
 <!ENTITY columnChooser.tooltip "Κλικ για επιλογή εμφανιζόμενων στηλών"> 
 
 <!-- Context Menu -->
-<!ENTITY copyPref.key "C">
+<!ENTITY copyPref.key "Ψ">
 <!ENTITY copyPref.label "Αντιγραφή">
 <!ENTITY copyPref.accesskey "γ">
 <!ENTITY copyName.label "Αντιγραφή Ονόματος">
@@ -36,14 +37,14 @@
 <!ENTITY modify.label "Τροποποίηση">
 <!ENTITY modify.accesskey "ρ">
 <!ENTITY toggle.label "Εναλλαγή">
-<!ENTITY toggle.accesskey "λ">
+<!ENTITY toggle.accesskey "Ε">
 <!ENTITY reset.label "Επαναφορά">
 <!ENTITY reset.accesskey "π">
 <!ENTITY new.label "Νέο">
 <!ENTITY new.accesskey "Ν">
 <!ENTITY string.label "Συμβολοσειράς">
 <!ENTITY string.accesskey "λ">
-<!ENTITY integer.label "Ακεραίου">
+<!ENTITY integer.label "Ακέραιος">
 <!ENTITY integer.accesskey "Α">
-<!ENTITY boolean.label "Δυϊκού">
+<!ENTITY boolean.label "Δυαδικός">
 <!ENTITY boolean.accesskey "Δ">

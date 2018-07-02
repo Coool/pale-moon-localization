@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "Obecné">
 <!ENTITY status4evar.tab.toolbar "Stavový řádek">
-<!ENTITY status4evar.tab.urlbar "Adresní řádek">
 <!ENTITY status4evar.tab.popup "Vyskakovací řádek">
 <!ENTITY status4evar.tab.tabs "Panely">
 
 <!ENTITY status4evar.option.none "Nikde">
 <!ENTITY status4evar.option.nothing "Žádná">
 <!ENTITY status4evar.option.toolbar "Ve stavovém řádku">
-<!ENTITY status4evar.option.urlbar "V adresním řádku">
 <!ENTITY status4evar.option.popup "Ve vyskakovacím řádku">
 <!ENTITY status4evar.option.tooltip "Místní nápověda">
 <!ENTITY status4evar.option.bottom "Dole">
 <!ENTITY status4evar.option.top "Nahoře">
-<!ENTITY status4evar.option.fill "Vyplnit">
 <!ENTITY status4evar.option.dlcount "Počet stahování">
 <!ENTITY status4evar.option.dltime "Zbývající čas">
 <!ENTITY status4evar.option.both "Obojí">
 <!ENTITY status4evar.option.right "Vpravo">
 <!ENTITY status4evar.option.left "Vlevo">
-<!ENTITY status4evar.option.fixed "Pevné">
 <!ENTITY status4evar.option.simple "Jednoduchý">
 <!ENTITY status4evar.option.advanced "Rozšířený">
 <!ENTITY status4evar.option.browse "Vybrat">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Maximální délka stavu:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Zarovnání:">
-<!ENTITY status4evar.status.urlbar.color.label "Barva písma:">
-<!ENTITY status4evar.status.currentUrl "Aktuální adresa">
-<!ENTITY status4evar.status.statusText "Stavový text">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Funkce pro Firefox kompatibilitu">
 <!ENTITY browser.urlbar.formatting.enabled.label "Povolit zvýrazňování domény">
 <!ENTITY browser.urlbar.trimming.enabled.label "Povolit skrývání protokolu (http:// a ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Změnit strany při najetí myší">
 
 <!ENTITY status4evar.progress.style.label "Použít vlastní styl pro lištu činnosti">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Zobrazit činnosti v adresním řádku">
-<!ENTITY status4evar.progress.urlbar.line.label "Styl linky:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Vždy zobrazit lištu činnosti">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Použít alternativní ohraničení lišty">
 <!ENTITY status4evar.addonbar.windowGripper "Zobrazit chytač změny velikosti okna">
 <!ENTITY status4evar.addonbar.closeButton "Zobrazit zavírací tlačítko">
-
-<!ENTITY status4evar.advanced.warning "Změna některých hodnot v tomto rozšířeném nastavení může způsobit problémy s prohlížečem Pale Moon nebo jinými rozšířeními. Doporučujeme pokračovat pouze pokud víte, co děláte.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Pokusit se vynutit XBL vazby adresního řádku.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Zvolte pouze pokud máte problémy se zobrazením činnosti nebo stavu v adresním řádku. Může to potenciálně poškodit jiné rozšíření, které nastavuje XBL vazby adresního řádku.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Přizpůsobit zobrazení stavu/odkazů v režimu celé obrazovky.">
 <!ENTITY status4evar.advanced.status.detectVideo "Skrýt vyskakovací řádek u HTML5 videa v režimu celé obrazovky.">

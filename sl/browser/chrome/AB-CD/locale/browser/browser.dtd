@@ -41,7 +41,7 @@ can reach it easily. -->
 <!ENTITY  moveToNewWindow.accesskey          "k">
 <!ENTITY  bookmarkAllTabs.label              "Dodaj vse zavihke med zaznamke …">
 <!ENTITY  bookmarkAllTabs.accesskey          "v">
-<!ENTITY  undoCloseTab.label                 "Prekliči zapiranje zavihka">
+<!ENTITY  undoCloseTab.label                 "Ponovno odpri zavihek">
 <!ENTITY  undoCloseTab.accesskey             "h">
 <!ENTITY  closeTab.label                     "Zapri zavihek">
 <!ENTITY  closeTab.accesskey                 "Z">
@@ -92,7 +92,7 @@ can reach it easily. -->
 These should match what Safari and other Apple applications use on OS X Lion. -->
 <!ENTITY enterFullScreenCmd.label "Celoten zaslon">
 <!ENTITY enterFullScreenCmd.accesskey "C">
-<!ENTITY exitFullScreenCmd.label "Končaj celoten zaslon">
+<!ENTITY exitFullScreenCmd.label "Izhod iz celozaslonskega načina">
 <!ENTITY exitFullScreenCmd.accesskey "C">
 <!ENTITY fullScreenCmd.label "Celoten zaslon">
 <!ENTITY fullScreenCmd.accesskey "C">
@@ -105,14 +105,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Zapri">
 <!ENTITY fullScreenAutohide.label "Skrij orodne vrstice">
 <!ENTITY fullScreenAutohide.accesskey "S">
-<!ENTITY fullScreenExit.label "Končaj celoten zaslon">
+<!ENTITY fullScreenExit.label "Izhod iz celozaslonskega načina">
 <!ENTITY fullScreenExit.accesskey "C">
-<!ENTITY fullscreenAllowButton.label "Dovoli">
-<!ENTITY fullscreenExitButton.label "Zavrni">
-<!ENTITY fullscreenApproval.value "Dovolim celoten zaslon?">
 
 <!ENTITY fullscreenExitHint.value "Z ESC lahko kadar koli končate celoten zaslon.">
-<!ENTITY leaveDOMFullScreen.label "Končaj celoten zaslon">
+<!ENTITY leaveDOMFullScreen.label "Izhod iz celozaslonskega načina">
 <!ENTITY leaveDOMFullScreen.accesskey "j">
 
 <!ENTITY closeWindow.label "Zapri okno">
@@ -146,7 +143,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.accesskey            "S">
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Prenehaj z nalaganjem te strani">
-<!ENTITY goEndCap.tooltip             "Odpri mesto v naslovnem polju">
+<!ENTITY goEndCap.tooltip             "Odpri mesto v vrstici z naslovom">
 <!ENTITY printButton.label            "Natisni">
 <!ENTITY printButton.tooltip          "Natisni to stran">
 
@@ -172,7 +169,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.tooltip        "Prikaži zaznamke">
 <!ENTITY bookmarksMenuButton.unsorted.label "Nerazvrščeni zaznamki">
 <!ENTITY viewBookmarksSidebar.label         "Prikaži v stranski vrstici">
-<!ENTITY viewBookmarksToolbar.label         "Prikaži vrstico zaznamkov">
+<!ENTITY viewBookmarksToolbar.label         "Prikaži orodno vrstico zaznamkov">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -189,7 +186,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY keywordfield.label           "Dodaj ključno besedo k iskanju …">
 <!ENTITY keywordfield.accesskey       "K">
-<!ENTITY search.label                 "Spletno iskanje">
+<!ENTITY search.label                 "Iskalnik ">
 <!ENTITY search.accesskey             "O">
 <!ENTITY downloads.label              "Prenosi">
 <!ENTITY downloads.tooltip            "Prikaži napredek trenutnih prenosov">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Dovoljenja">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "Možnosti">
+<!ENTITY preferencesCmd2.accesskey    "o">
 
 <!ENTITY webDeveloperMenu.label       "Spletni razvoj">
 <!ENTITY webDeveloperMenu.accesskey   "S">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Izberi vse">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "V"> 
-<!ENTITY preferencesCmd2.label       "Preferences">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "Nastavitve">
-<!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
 <!ENTITY clearRecentHistory.label               "Počisti nedavno zgodovino">
 
@@ -312,7 +307,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Stranska vrstica">
 <!ENTITY viewSidebarMenu.accesskey "v">
-<!ENTITY viewCustomizeToolbar.label       "Customize"> 
+<!ENTITY viewCustomizeToolbar.label       "Po meri …"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "P">
 <!ENTITY viewTabsOnTop.label            "Zavihki na vrhu">
 <!ENTITY viewTabsOnTop.accesskey        "Z">
@@ -329,7 +324,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd.commandkey "S">
 
 <!ENTITY appMenuEdit.label "Urejanje">
-<!ENTITY appMenuCustomize.label "Po meri">
+<!ENTITY appMenuCustomize.label "Prilagodi">
 <!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "Stranske vrstice">
 <!ENTITY appMenuFind.label "Najdi …">
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Spletni razvoj">
 <!ENTITY appMenuGettingStarted.label "Prvi koraki">
 <!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
-<!ENTITY appMenuSafeMode.accesskey "P">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Iskanje ali naslov strani">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Preklopi na zavihek:">
 
@@ -445,9 +438,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailVideoCmd.accesskey      "o">
 <!ENTITY emailAudioCmd.label          "Pošlji zvok po e-pošti …">
 <!ENTITY emailAudioCmd.accesskey      "o">
-<!ENTITY playPluginCmd.label          "Omogoči vstavek">
+<!ENTITY playPluginCmd.label          "Omogoči vtičnik">
 <!ENTITY playPluginCmd.accesskey      "m">
-<!ENTITY hidePluginCmd.label          "Skrij vstavek">
+<!ENTITY hidePluginCmd.label          "Skrij vtičnik">
 <!ENTITY hidePluginCmd.accesskey      "S">
 <!ENTITY copyLinkCmd.label            "Kopiraj mesto povezave">
 <!ENTITY copyLinkCmd.accesskey        "i">
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Izhod"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "h">
@@ -577,11 +569,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label "Osnovni slog strani">
 <!ENTITY pageStylePersistentOnly.accesskey "o">
 
-<!ENTITY pageReportIcon.tooltip            "Spremeni nastavitve prepovedovanja neželenih oken za to stran">
+<!ENTITY pageReportIcon.tooltip            "Spremeni nastavitve prepovedovanja pojavnih oken za to stran">
 
 <!ENTITY allowPopups.accesskey "d">
-<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
-<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettingsUnix.label "Uredi nastavitve zavračanja pojavnih oken …">
+<!ENTITY editPopupSettings.label "Uredi možnosti zavračanja pojavnih oken …">
 <!ENTITY editPopupSettings.accesskey "U">
 <!ENTITY dontShowMessage.accesskey "N">
 
@@ -635,9 +627,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncSetup.label              "&syncBrand.shortName.label; …">
 <!ENTITY syncSetup.accesskey          "u">
-<!ENTITY syncSyncNowItem.label        "Uskladi zdaj">
+<!ENTITY syncSyncNowItem.label        "Sinhroniziraj">
 <!ENTITY syncSyncNowItem.accesskey    "u">
-<!ENTITY syncToolbarButton.label      "Uskladi">
+<!ENTITY syncToolbarButton.label      "Sinhroniziraj">
 
 <!ENTITY addonBarCloseButton.tooltip  "Zapri vrstico dodatkov">
 <!ENTITY toggleAddonBarCmd.key        "/">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Uporabi mikrofon:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Dostop do kamere in mikrofona">
-<!ENTITY webrtcIndicatorButton.tooltip "Prikaži strani, katerim je trenutno dovoljena uporaba kamere in mikrofona">
 
-<!ENTITY mixedContentBlocked.helplink "Več o tem">
 <!ENTITY mixedContentBlocked.moreinfo "Večina strani bo delovala pravilo, čeprav je ta vsebina zavrnjena.">
 
 <!ENTITY pointerLock.notification.message "Pritisnite ESC za ponovni prikaz.">
@@ -661,4 +650,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "Dovoli zdaj">
 <!ENTITY pluginActivateAlways.label "Dovoli in si zapomni">
-<!ENTITY pluginBlockNow.label "Zavrni vstavek">
+<!ENTITY pluginBlockNow.label "Zavrni vtičnik">

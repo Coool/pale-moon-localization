@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "E">
 <!ENTITY fullScreenExit.label "Kilépés a teljes képernyős módból">
 <!ENTITY fullScreenExit.accesskey "K">
-<!ENTITY fullscreenAllowButton.label "Engedélyezés">
-<!ENTITY fullscreenExitButton.label "Tiltás">
-<!ENTITY fullscreenApproval.value "Engedélyezi a teljes képernyőt?">
 
 <!ENTITY fullscreenExitHint.value "A teljes képernyős mód elhagyásához nyomja meg az ESC billentyűt.">
 <!ENTITY leaveDOMFullScreen.label "Kilépés a teljes képernyős módból">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Engedélyek">
 <!ENTITY permissions.accesskey        "E">
+<!ENTITY preferencesCmd2.label        "Beállítások">
+<!ENTITY preferencesCmd2.accesskey    "B">
 
 <!ENTITY webDeveloperMenu.label       "Webfejlesztő">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Minden kijelölése">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "i"> 
-<!ENTITY preferencesCmd2.label       "Beállítások">
-<!ENTITY preferencesCmd2.accesskey     "B">
-<!ENTITY preferencesCmdUnix.label       "Beállítások">
-<!ENTITY preferencesCmdUnix.accesskey     "B"> 
 
 <!ENTITY clearRecentHistory.label               "Előzmények törlése…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Webfejlesztő">
 <!ENTITY appMenuGettingStarted.label "Kezdő lépések">
 <!ENTITY appMenuSafeMode.label "Újraindítás csökkentett módban…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Keresés vagy cím">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Váltás erre a lapra:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Újraindítás…">
 <!ENTITY appMenuRestart.accesskey       "j">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Kilépés"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "K">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Megosztandó mikrofon:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Kamera/mikrofon elérése">
-<!ENTITY webrtcIndicatorButton.tooltip "Megjeleníti azon oldalakat, amelyekkel megosztja kameráját vagy mikrofonját">
 
-<!ENTITY mixedContentBlocked.helplink "További információ">
 <!ENTITY mixedContentBlocked.moreinfo "A legtöbb weboldal ezen tartalom blokkolása után is megfelelően fog működni.">
 
 <!ENTITY pointerLock.notification.message "Nyomja meg bármikor az Esc-t a megjelenítéséhez.">

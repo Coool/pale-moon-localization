@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "General">
 <!ENTITY status4evar.tab.toolbar "Bară de stare">
-<!ENTITY status4evar.tab.urlbar "Bară de adrese">
 <!ENTITY status4evar.tab.popup "Pop-up">
 <!ENTITY status4evar.tab.tabs "File">
 
 <!ENTITY status4evar.option.none "Nici unul">
 <!ENTITY status4evar.option.nothing "Nimic">
 <!ENTITY status4evar.option.toolbar "Bară de stare">
-<!ENTITY status4evar.option.urlbar "Bară de adrese">
 <!ENTITY status4evar.option.popup "Pop-up">
 <!ENTITY status4evar.option.tooltip "Etichetă">
 <!ENTITY status4evar.option.bottom "Jos">
 <!ENTITY status4evar.option.top "Sus">
-<!ENTITY status4evar.option.fill "Umple">
 <!ENTITY status4evar.option.dlcount "Numărul descărcărilor">
 <!ENTITY status4evar.option.dltime "Timpul rămas">
 <!ENTITY status4evar.option.both "Ambele">
 <!ENTITY status4evar.option.right "Dreapta">
 <!ENTITY status4evar.option.left "Stânga">
-<!ENTITY status4evar.option.fixed "Fixat">
 <!ENTITY status4evar.option.simple "Simplu">
 <!ENTITY status4evar.option.advanced "Avansat">
 <!ENTITY status4evar.option.browse "Răsfoiește">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Lungime maximă text stare:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Aliniere stare:">
-<!ENTITY status4evar.status.urlbar.color.label "Culoare stare:">
-<!ENTITY status4evar.status.currentUrl "Locaţia curentă">
-<!ENTITY status4evar.status.statusText "Text stare">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Caracteristici de compatibilitate Firefox">
 <!ENTITY browser.urlbar.formatting.enabled.label "Permite evidenţiere domeniu">
 <!ENTITY browser.urlbar.trimming.enabled.label "Permite ascundere protocol (http:// şi ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Schmbă părțile când mouse-ul este deasupra">
 
 <!ENTITY status4evar.progress.style.label "Folosește un stil personalizat">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Arată progresul în bara de adrese">
-<!ENTITY status4evar.progress.urlbar.line.label "Stil linie:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Always show the progress meter">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Folosește margini alternative pentru bara de unelte">
 <!ENTITY status4evar.addonbar.windowGripper "Arată indicator schimbare dimensiuni fereastră">
 <!ENTITY status4evar.addonbar.closeButton "Arată butonul Închide">
-
-<!ENTITY status4evar.advanced.warning "Aceste reglaje avansate pot crea probleme cu Pale Moon sau alte extensii. Modificați pe propria răspundere.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Încercare de forțare blocare XBL Bara de adrese.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Selectează aceasta doar dacă ai probleme cu afișarea corectă a progresului sau textului de stare în Bara de adrese. Aceasta va opri potențial alte extensii ce încearcă să blocheze XBL Bara de adrese.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Dectctează modul ecran complet și arată legăturile/starea corect.">
 <!ENTITY status4evar.advanced.status.detectVideo "Ascunde pop-up de stare pentru video HTML5 mod ecran complet.">

@@ -6,8 +6,8 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
- Esta página contém as informações técnicas para o ajudar a tentar resolver um problema.
- Se estiver à procura de respostas para questões comuns do &brandShortName;, aceda ao
+ Esta página contém as informações técnicas que o podem ajudar a resolver um problema.
+ Se estiver à procura de respostas para questões comuns sobre o &brandShortName;, aceda ao
  nosso <a id='supportLink'>site de suporte</a>.
 ">
 
@@ -32,7 +32,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Ativada">
 <!ENTITY aboutSupport.experimentEndDate "Data de fim">
 <!ENTITY aboutSupport.experimentHomepage "Página inicial">
-
+<!ENTITY aboutSupport.experimentBranch "Ramo">
 
 <!ENTITY aboutSupport.appBasicsTitle "Noções básicas">
 <!ENTITY aboutSupport.appBasicsName "Nome">
@@ -56,6 +56,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Agente de utilizador">
 <!ENTITY aboutSupport.appBasicsOS "SO">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilização de memória">
+<!ENTITY aboutSupport.appBasicsPerformance "Desempenho">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers registados">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Perfis">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Janelas multi-processos">
 
@@ -66,9 +72,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Mostrar no Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Mostrar pasta">
+<!ENTITY aboutSupport.showWin2.label "Abrir pasta">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Preferências importantes modificadas">
 <!ENTITY aboutSupport.modifiedPrefsName "Nome">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copiar texto para a área de transferência">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar dados raw para a área de transferência">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
 <!ENTITY aboutSupport.safeModeTitle "Modo seguro">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar no modo de segurança…">
 
 <!ENTITY aboutSupport.restartTitle "Reiniciar">
 <!ENTITY aboutSupport.restartNormal.label "Reiniciar normalmente…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funcionalidades">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnósticos">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Registo de falha">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Registo de decisões">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funcionalidades desativadas do Crash Guard">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Alternativas">

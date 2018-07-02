@@ -10,7 +10,7 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "ソース: ">
+<!ENTITY mainWindow.preface "次のソース: ">
 
 <!ENTITY fileMenu.label "ファイル">
 <!ENTITY fileMenu.accesskey "F">
@@ -36,7 +36,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
-<!ENTITY textEnlarge.commandkey3 "">
+<!ENTITY textEnlarge.commandkey3 ";">
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
@@ -53,15 +53,15 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY reloadCmd.commandkey "r">
 <!ENTITY menu_wrapLongLines.title "長い行を折り返す"> 
 <!ENTITY menu_wrapLongLines.accesskey "W">
-<!ENTITY menu_highlightSyntax.label "構文の強調表示">
+<!ENTITY menu_highlightSyntax.label "構文を強調表示">
 <!ENTITY menu_highlightSyntax.accesskey "H">
 <!ENTITY menu_textSize.label "文字サイズ">
 <!ENTITY menu_textSize.accesskey "Z">
-<!ENTITY menu_textEnlarge.label "増加">
+<!ENTITY menu_textEnlarge.label "大きく">
 <!ENTITY menu_textEnlarge.accesskey "I">
-<!ENTITY menu_textReduce.label "減少">
+<!ENTITY menu_textReduce.label "小さく">
 <!ENTITY menu_textReduce.accesskey "D">
-<!ENTITY menu_textReset.label "普通">
+<!ENTITY menu_textReset.label "通常サイズ">
 <!ENTITY menu_textReset.accesskey "N">
 
 <!ENTITY findOnCmd.label     "このページを検索...">

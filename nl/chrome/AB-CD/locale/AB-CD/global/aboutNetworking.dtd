@@ -3,15 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY aboutNetworking.title                 "Over netwerken">
-<!ENTITY aboutNetworking.warning               "Dit is zeer experimenteel. Niet gebruiken zonder toezicht van volwassenen.">
+<!ENTITY aboutNetworking.warning               "Dit is zeer experimenteel. Niet te gebruiken zonder toezicht van volwassenen.">
 <!ENTITY aboutNetworking.showNextTime          "Deze waarschuwing de volgende keer weergeven">
 <!ENTITY aboutNetworking.ok                    "OK">
-<!ENTITY aboutNetworking.http                  "Http">
+<!ENTITY aboutNetworking.HTTP                  "HTTP">
 <!ENTITY aboutNetworking.sockets               "Sockets">
 <!ENTITY aboutNetworking.dns                   "DNS">
 <!ENTITY aboutNetworking.websockets            "WebSockets">
-<!ENTITY aboutNetworking.refresh               "Verversen">
-<!ENTITY aboutNetworking.autoRefresh           "Elke 3 seconden automatisch verversen">
+<!ENTITY aboutNetworking.refresh               "Vernieuwen">
+<!ENTITY aboutNetworking.autoRefresh           "Om de 3 seconden automatisch vernieuwen">
 <!ENTITY aboutNetworking.hostname              "Hostnaam">
 <!ENTITY aboutNetworking.port                  "Poort">
 <!ENTITY aboutNetworking.spdy                  "SPDY">
@@ -25,7 +25,19 @@
 <!ENTITY aboutNetworking.family                "Familie">
 <!ENTITY aboutNetworking.addresses             "Adressen">
 <!ENTITY aboutNetworking.expires               "Verloopt (seconden)">
-<!ENTITY aboutNetworking.messagesSent          "Verzonden berichten">
-<!ENTITY aboutNetworking.messagesReceived      "Ontvangen berichten">
-<!ENTITY aboutNetworking.bytesSent             "Verzonden bytes">
-<!ENTITY aboutNetworking.bytesReceived         "Ontvangen bytes">
+<!ENTITY aboutNetworking.messagesSent          "Berichten verzonden">
+<!ENTITY aboutNetworking.messagesReceived      "Berichten ontvangen">
+<!ENTITY aboutNetworking.bytesSent             "Bytes verzonden">
+<!ENTITY aboutNetworking.bytesReceived         "Bytes ontvangen">
+<!ENTITY aboutNetworking.logging               "Logboekregistratie">
+<!ENTITY aboutNetworking.logTutorial           "Zie <a href='https://developer.mozilla.org/docs/Mozilla/Debugging/HTTP_logging'>HTTP logging</a> voor instructies over het gebruik van dit hulpmiddel.">
+<!ENTITY aboutNetworking.currentLogFile        "Huidige logbestand:">
+<!ENTITY aboutNetworking.currentLogModules     "Huidige logmodules:">
+<!ENTITY aboutNetworking.setLogFile            "Logbestand instellen">
+<!ENTITY aboutNetworking.setLogModules         "Logmodules instellen">
+<!ENTITY aboutNetworking.startLogging          "Registratie starten">
+<!ENTITY aboutNetworking.stopLogging           "Registratie stoppen">
+<!ENTITY aboutNetworking.dnsLookup             "DNS-zoekactie">
+<!ENTITY aboutNetworking.dnsLookupButton       "Omzetten">
+<!ENTITY aboutNetworking.dnsDomain             "Domein">
+<!ENTITY aboutNetworking.dnsLookupTableColumn  "IP-adressen">

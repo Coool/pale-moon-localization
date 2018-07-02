@@ -4,16 +4,88 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Datos de telemetría">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "
-  Telemetría está <span>habilitada</span>.
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Cambiar
 ">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "
-  Telemetría está <span>deshabilitada</span>.
+<!ENTITY aboutTelemetry.uploadEnabled "
+  Subida de datos FHR <span>habilitada</span>.
+">
+
+<!ENTITY aboutTelemetry.uploadDisabled "
+  Subida de datos FHR <span>deshabilitada</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  Grabación de Telemetry estendida <span>habilitada</span>.
+">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  Grabación de Telemetry extendida <span>deshabilitada</span>.
+">
+
+<!ENTITY aboutTelemetry.pingDataSource "
+Fuente de datos de ping:
+">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Datos de ping actuales
+">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Datos de ping archivados
+">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Mostrar datos de ping:
+">
+
+<!ENTITY aboutTelemetry.structured "
+Estructurados
+">
+
+<!ENTITY aboutTelemetry.raw "
+JSON en bruto
+">
+
+<!ENTITY aboutTelemetry.showSubsessionData "
+Mostrar datos de subsesión
+">
+
+<!ENTITY aboutTelemetry.choosePing "
+Elegir ping:
+">
+
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Ping más reciente
+">
+
+<!ENTITY aboutTelemetry.showOlderPing "
+Ping más antiguo &gt;&gt;
+">
+
+<!ENTITY aboutTelemetry.rawPingData "
+Datos de ping en bruto ...
+">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "
+Semana
+">
+
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
 Datos generales
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Datos de entorno
+">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Registro de Telemetry
 ">
 
 <!ENTITY aboutTelemetry.slowSqlSection "
@@ -27,6 +99,13 @@ Datos generales
 <!ENTITY aboutTelemetry.threadHangStatsSection "
 Cuelgues de hilo
 ">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+ Escalares">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  
+  Escalares con clave">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogramas
@@ -48,8 +127,8 @@ Detalles del complemento
   Últimas escrituras
 ">
 
-<!ENTITY aboutTelemetry.systemInfoSection "
-  Informacion del sistema
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Información de sesión
 ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
@@ -78,4 +157,12 @@ Mostrar datos crudos de cuelgues
 
 <!ENTITY aboutTelemetry.filterText "
 Filtrar (cadenas o &quot;/regexp/&quot;)
+">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Payload
+">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Payload en bruto
 ">

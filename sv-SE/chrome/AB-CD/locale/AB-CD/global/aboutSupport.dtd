@@ -5,19 +5,15 @@
 <!ENTITY aboutSupport.pageTitle "Felsökningsinformation">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "
-  Den här sidan innehåller teknisk information som kan vara till hjälp när du
-  försöker lösa ett problem. Vill du se svaren på några av de vanligaste frågorna
-  om &brandShortName; kan du besöka vår <a id='supportLink'>supportwebbplats</a>.
-">
+<!ENTITY aboutSupport.pageSubtitle "  Den här sidan innehåller teknisk information som kan vara till hjälp när du försöker lösa ett problem. Vill du se svaren på några av de vanligaste frågorna om &brandShortName;, kan du besöka vår <a id='supportLink'>supportwebbplats</a>.">
 
 <!ENTITY aboutSupport.crashes.title "Kraschrapporter">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "Rapport-ID">
-<!ENTITY aboutSupport.crashes.sendDate "Inskickat">
+<!ENTITY aboutSupport.crashes.sendDate "Datum">
 <!ENTITY aboutSupport.crashes.allReports "Alla kraschrapporter">
-<!ENTITY aboutSupport.crashes.noConfig "Programmet har inte konfigurerats för att visa kraschrapporter.">
+<!ENTITY aboutSupport.crashes.noConfig "Det här programmet är inte konfigurerat att visa kraschrapporter.">
 
 <!ENTITY aboutSupport.extensionsTitle "Tillägg">
 <!ENTITY aboutSupport.extensionName "Namn">
@@ -29,19 +25,19 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentName "Namn">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Beskrivning">
-<!ENTITY aboutSupport.experimentActive "Aktiv">
+<!ENTITY aboutSupport.experimentActive "Aktiverad">
 <!ENTITY aboutSupport.experimentEndDate "Slutdatum">
 <!ENTITY aboutSupport.experimentHomepage "Hemsida">
-
+<!ENTITY aboutSupport.experimentBranch "Branch">
 
 <!ENTITY aboutSupport.appBasicsTitle "Programfakta">
 <!ENTITY aboutSupport.appBasicsName "Namn">
 <!ENTITY aboutSupport.appBasicsVersion "Version">
-<!ENTITY aboutSupport.appBasicsBuildID "Kompilerings-ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Versions-ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Uppdatera kanal">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Uppdateringskanal">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Uppdateringshistorik">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Visa uppdateringshistorik">
 
@@ -56,8 +52,14 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Användaragent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Minnesanvändning">
+<!ENTITY aboutSupport.appBasicsPerformance "Prestanda">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Flerprocessfönster">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Registrerade  Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profiler">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess fönster">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Felsäkert läge">
 
@@ -66,9 +68,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Visa i Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Öppna mapp">
+<!ENTITY aboutSupport.showWin2.label "Öppna mapp">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Viktiga ändrade inställningar">
 <!ENTITY aboutSupport.modifiedPrefsName "Namn">
@@ -84,7 +86,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafik">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Platsdatabas">
+<!ENTITY aboutSupport.placeDatabaseTitle "Platser databas">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integritet">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verifiera integritet">
 
@@ -103,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopiera text till urklipp">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopiera rådata till urklipp">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandlåda">
+<!ENTITY aboutSupport.safeModeTitle "Prova felsäkert läge">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.safeModeTitle "Försök med felsäkert läge">
-<!ENTITY aboutSupport.restartInSafeMode.label "Starta om i felsäkert läge…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
 
-<!ENTITY aboutSupport.restartTitle "Prova omstart">
-<!ENTITY aboutSupport.restartNormal.label "Starta om vanligt…">
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funktioner">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostik">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Fellogg">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Beslutslogg">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Kraschskydd inaktiverade funktioner">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Lösningar">

@@ -4,12 +4,8 @@
 
 <!ENTITY tracking.label                 "Tracciamento">
 
-<!ENTITY dntTrackingNopref.label2       "Non comunicare alcuna preferenza relativa al tracciamento dei dati personali">
-<!ENTITY dntTrackingNopref.accesskey    "a">
 <!ENTITY dntTrackingNotOkay.label2      "Richiedi ai siti di non effettuare alcun tracciamento">
 <!ENTITY dntTrackingNotOkay.accesskey   "h">
-<!ENTITY dntTrackingOkay.label2         "Comunica ai siti la disponibilità a essere tracciato">
-<!ENTITY dntTrackingOkay.accesskey      "i">
 <!ENTITY doNotTrackInfo.label           "Ulteriori informazioni">
 
 <!ENTITY  history.label                 "Cronologia">
@@ -23,17 +19,6 @@
 <!ENTITY  locbar.bookmarks.accesskey    "b">
 <!ENTITY  locbar.openpage.label         "schede aperte">
 <!ENTITY  locbar.openpage.accesskey     "d">
-
-<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.pre.label              "Nella barra degli indirizzi visualizza suggerimenti da:">
-<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.pre.accessKey          "z">
-<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.post.label             "">
-<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.both.label             "cronologia e segnalibri">
-<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
-<!ENTITY  locbar.nothing.label          "nessun suggerimento">
 
 <!ENTITY  acceptCookies.label           "Accetta i cookie dai siti">
 <!ENTITY  acceptCookies.accesskey       "k">
@@ -49,7 +34,6 @@
 
 <!ENTITY  expire.label                  "alla loro scadenza">
 <!ENTITY  close.label                   "alla chiusura di &brandShortName;">
-<!ENTITY  askEachTime.label             "chiedi ogni volta">
 
 <!ENTITY  cookieExceptions.label        "Eccezioni…">
 <!ENTITY  cookieExceptions.accesskey    "E">

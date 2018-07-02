@@ -7,6 +7,8 @@
 
 <!ENTITY loadError.label "Probléma az oldal betöltése közben">
 <!ENTITY retry.label "Próbálja újra">
+<!ENTITY returnToPreviousPage.label "Ugrás vissza">
+<!ENTITY advanced.label "Speciális">
 
 <!-- Specific error messages -->
 
@@ -14,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Ez a cím tiltva van">
-<!ENTITY deniedPortAccess.longDesc "<p>A kért cím olyan portot adott meg (pl. <q>palemoon.org:25</q> a palemoon.org 25-ös portjához), amelyet általában <em>nem</em> szokás webböngészés céljaira használni. A böngésző nem engedélyezi ezt a lekérést az Ön védelme és biztonsága érdekében.</p>">
+<!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "A kiszolgáló nem található">
 <!ENTITY dnsNotFound.longDesc "
@@ -37,11 +39,18 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "A fájl elérése megtagadva">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Lehet hogy törölve lett, át lett helyezve, vagy a fájljogosultságok megakadályozzák a hozzáférést.</li> </ul>">
 
 <!ENTITY generic.title "Hoppá!">
 <!ENTITY generic.longDesc "
 <p> A &brandShortName; nem tudja betölteni az oldalt valamilyen okból.</p>
 ">
+
+<!ENTITY captivePortal.title "Bejelentkezés a hálózatba">
+<!ENTITY captivePortal.longDesc "<p>Ez a hálózat megkövetelheti a bejelentkezést az internet eléréséhez.</p>">
+
+<!ENTITY openPortalLoginPage.label "Bejelentkezőképernyő megnyitása">
 
 <!ENTITY malformedURI.title "A cím érvénytelen">
 <!ENTITY malformedURI.longDesc "
@@ -143,6 +152,11 @@ megpróbálja átvenni a kiszolgáló személyiségét.</li>
 ideiglenes, és később újra megpróbálhatja.</li>
 </ul>
 ">
+<!ENTITY certerror.longpagetitle1 "A kapcsolat nem biztonságos">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "A(z) <span class='hostname'/> tulajdonosa a weboldalát helytelenül állította be. Az Ön adatainak ellopását megakadályozandó a &brandShortName; nem csatlakozott ehhez a weboldalhoz.">
 
 <!ENTITY sharedLongDesc "
 <ul>
@@ -183,6 +197,8 @@ ideiglenes, és később újra megpróbálhatja.</li>
 
 <!ENTITY corruptedContentError.title "Sérült tartalom hiba">
 <!ENTITY corruptedContentError.longDesc "<p>A megtekinteni kívánt oldal nem jeleníthető meg, mert az adatátvitel közben hiba történt.</p><ul><li>Lépjen kapcsolatba a webhely üzemeltetőjével, és értesítse a problémáról.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Sérült tartalom hiba">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A megtekinteni kívánt oldal nem jeleníthető meg, mert az adatátvitel közben hiba történt.</p><ul><li>Lépjen kapcsolatba a webhely üzemeltetőjével, és értesítse a problémáról.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "Vagy hozzáadhat egy kivételt…">
@@ -200,15 +216,6 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Hiba jelentése">
-<!ENTITY errorReporting.longDesc "A(z) <span id='hostname'></span> cím- és tanúsítványinformációinak jelentése segít a rosszindulatú webhelyek azonosításában és blokkolásában. Köszönjük, hogy segít biztonságosabbá tenni az internetet!">
-<!ENTITY errorReporting.automatic "Hibák automatikus jelentése a jövőben">
-<!ENTITY errorReporting.learnMore "További tudnivalók…">
-<!ENTITY errorReporting.sending "Jelentés küldése">
-<!ENTITY errorReporting.sent "Jelentés elküldve">
-<!ENTITY errorReporting.report "Jelentés">
-<!ENTITY errorReporting.tryAgain "Próbálja újra">
-
 <!ENTITY remoteXUL.title "Távoli XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Értesítse a webhely tulajdonosait erről a problémáról.</li></ul></p>">
 
@@ -217,3 +224,30 @@ functionality specific to firefox. -->
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Speciális információ: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "További tudnivalók…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "Speciális információ: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "A kapcsolat nem biztonságos">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "Speciális információ: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "Speciális">
+<!ENTITY weakCryptoAdvanced.longDesc "A(z) <span class='hostname'></span> elavult és sebezhető biztonsági technológiát használ. Egy támadó egyszerűen megszerezhet olyan adatokat, amiket Ön biztonságban lévőnek hitt.">
+<!ENTITY weakCryptoAdvanced.override "(Nem biztonságos) Próbálja meg elavult biztonsági technológia használatával betölteni ezt: <span class='hostname'></span>">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Nem lehet biztonságosan kapcsolódni ehhez: <span id='wrongSystemTime_URL'/>, mert az órája úgy tűnik, rosszul jár.</p> <p>A számítógépe azt hiszi <span id='wrongSystemTime_systemDate'/> van, valójában <span id='wrongSystemTime_actualDate'/>. Ennek javításához módosítsa a dátum- és időbeállításait, hogy azok megfeleljenek a valós időnek.</p>">
+
+<!ENTITY certerror.pagetitle1  "Nem biztonságos kapcsolat">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Ez az oldal HTTP Strict Transport Security (HSTS) használatával adja meg, hogy a &brandShortName; csak biztonságosan kapcsolódjon. Emiatt nem lehet kivételt felvenni ehhez a tanúsítványhoz.">
+<!ENTITY certerror.copyToClipboard.label "Szöveg másolása a vágólapra">
+
+<!ENTITY inadequateSecurityError.title "A kapcsolat nem biztonságos">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> olyan biztonsági technológiát használ, amely elavult, és sérülékeny a támadásokkal szemben. Egy támadó könnyen felfedhet olyan információkat, amelyeket biztonságosnak gondol. A weboldal rendszergazdájának ki kell javítania a kiszolgálót, mielőtt meglátogathatja az oldalt.</p><p>Hibakód: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Úgy tűnik, ezt a hálózat biztonsági beállításai okozhatják. Szeretné helyreállítani az alapbeállításokat?">
+<!ENTITY prefReset.label "Alap beállítások visszaállítása">

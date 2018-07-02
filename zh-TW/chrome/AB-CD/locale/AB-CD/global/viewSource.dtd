@@ -10,21 +10,21 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "來源: ">
+<!ENTITY mainWindow.preface "原始碼: ">
 
-<!ENTITY fileMenu.label "File">
+<!ENTITY fileMenu.label "檔案">
 <!ENTITY fileMenu.accesskey "F">
-<!ENTITY savePageCmd.label "Save Page As…">
-<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.label "另存新檔…">
+<!ENTITY savePageCmd.accesskey "a">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Page Setup…">
+<!ENTITY pageSetupCmd.label "頁面設定…">
 <!ENTITY pageSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "Print Preview">
+<!ENTITY printPreviewCmd.label "預覽列印">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Print…">
+<!ENTITY printCmd.label "列印…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "P">
-<!ENTITY closeCmd.label "Close">
+<!ENTITY closeCmd.label "關閉">
 <!ENTITY closeCmd.accesskey "C">
 <!ENTITY closeCmd.commandkey "W">
 
@@ -42,45 +42,45 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Go to Line…">
+<!ENTITY goToLineCmd.label "移至行號…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label           "View">
+<!ENTITY viewMenu.label           "檢視">
 <!ENTITY viewMenu.accesskey       "V">
-<!ENTITY reloadCmd.label "Reload">
+<!ENTITY reloadCmd.label "重新載入">
 <!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Wrap Long Lines"> 
+<!ENTITY menu_wrapLongLines.title "自動換行"> 
 <!ENTITY menu_wrapLongLines.accesskey "W">
-<!ENTITY menu_highlightSyntax.label "Syntax Highlighting">
+<!ENTITY menu_highlightSyntax.label "語法強調">
 <!ENTITY menu_highlightSyntax.accesskey "H">
-<!ENTITY menu_textSize.label "Text Size">
-<!ENTITY menu_textSize.accesskey "Z">
-<!ENTITY menu_textEnlarge.label "Increase">
+<!ENTITY menu_textSize.label "文字大小">
+<!ENTITY menu_textSize.accesskey "z">
+<!ENTITY menu_textEnlarge.label "放大">
 <!ENTITY menu_textEnlarge.accesskey "I">
-<!ENTITY menu_textReduce.label "Decrease">
+<!ENTITY menu_textReduce.label "縮小">
 <!ENTITY menu_textReduce.accesskey "D">
-<!ENTITY menu_textReset.label "Normal">
+<!ENTITY menu_textReset.label "標準">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Find in This Page…">
+<!ENTITY findOnCmd.label     "尋找文字…">
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Find Again">
+<!ENTITY findAgainCmd.label  "找下一個">
 <!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
 
-<!ENTITY backCmd.label "Back">
+<!ENTITY backCmd.label "上一頁">
 <!ENTITY backCmd.accesskey "B">
-<!ENTITY forwardCmd.label "Forward">
+<!ENTITY forwardCmd.label "下一頁">
 <!ENTITY forwardCmd.accesskey "F">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Copy Link Location">
+<!ENTITY copyLinkCmd.label "複製鏈結網址">
 <!ENTITY copyLinkCmd.accesskey "L">
-<!ENTITY copyEmailCmd.label "Copy Email Address">
+<!ENTITY copyEmailCmd.label "複製電子郵件地址">
 <!ENTITY copyEmailCmd.accesskey "E">

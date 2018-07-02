@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "Splošno">
 <!ENTITY status4evar.tab.toolbar "Statusna vrstica">
-<!ENTITY status4evar.tab.urlbar "Naslovna vrstica">
 <!ENTITY status4evar.tab.popup "Pojavno okno">
 <!ENTITY status4evar.tab.tabs "Zavihki">
 
 <!ENTITY status4evar.option.none "Brez">
 <!ENTITY status4evar.option.nothing "Nič">
 <!ENTITY status4evar.option.toolbar "Statusna vrstica">
-<!ENTITY status4evar.option.urlbar "Naslovna vrstica">
 <!ENTITY status4evar.option.popup "Pojavno okno">
 <!ENTITY status4evar.option.tooltip "Namig">
 <!ENTITY status4evar.option.bottom "Spodnja">
 <!ENTITY status4evar.option.top "Zgornja">
-<!ENTITY status4evar.option.fill "Zapolni">
 <!ENTITY status4evar.option.dlcount "Štetje prenosov">
 <!ENTITY status4evar.option.dltime "Preostali čas">
 <!ENTITY status4evar.option.both "Oboje">
 <!ENTITY status4evar.option.right "Desno">
 <!ENTITY status4evar.option.left "Levo">
-<!ENTITY status4evar.option.fixed "Poravnano">
 <!ENTITY status4evar.option.simple "Preprosto">
 <!ENTITY status4evar.option.advanced "Napredno">
 <!ENTITY status4evar.option.browse "Brskaj">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Maksimalna dolžina besedila statusa:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Poravnava statusa:">
-<!ENTITY status4evar.status.urlbar.color.label "Barva statusa:">
-<!ENTITY status4evar.status.currentUrl "Trenutna lokacija">
-<!ENTITY status4evar.status.statusText "Besedilo statusa">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Lastnosti Firefox združljivosti">
 <!ENTITY browser.urlbar.formatting.enabled.label "Omogoči označevanje domene">
 <!ENTITY browser.urlbar.trimming.enabled.label "Omogočanje skrivanja protokola (http:// in ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Zamenjava strani, ko greš z miško prek">
 
 <!ENTITY status4evar.progress.style.label "Uporabi slog po meri">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Prikaži napredek v naslovni vrstici">
-<!ENTITY status4evar.progress.urlbar.line.label "Slog črte:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Always show the progress meter">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Uporabi alternativne obrobe orodne vrstice">
 <!ENTITY status4evar.addonbar.windowGripper "Pokaži prijemalo za spreminjanje velikosti okna">
 <!ENTITY status4evar.addonbar.closeButton "Pokaži gumb za zaprtje">
-
-<!ENTITY status4evar.advanced.warning "Te napredne nastavitve lahko povzročijo težave s Pale Moon-om ali z drugimi razširitvami. Spreminjate na lastno odgovornost.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Poskus prisilnega spreminjanja XBL vezave naslovne vrstice.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Izberite to možnost samo če imate težave s prikazovanjem napredka v naslovni vrstici ali s pravilnim prikazovanjem statusnega besedila. To pa lahko ustvari težave drugih razširitev, ki poskušajo nastaviti XBL vezavo naslovne vrstice.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Odkrivanje celozaslonskega načina in ustrezno prikazovanje povezav/stanja.">
 <!ENTITY status4evar.advanced.status.detectVideo "Skrij statusno pojavno okno v celozaslonskem HTML5 videu.">

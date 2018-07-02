@@ -4,13 +4,54 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Dados da telemetria">
 
-<!ENTITY aboutTelemetry.telemetryEnabled "A telemetria está <span>ativada</span>.">
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Alterar">
 
-<!ENTITY aboutTelemetry.telemetryDisabled "A telemetria está <span>desativada</span>.">
+<!ENTITY aboutTelemetry.uploadEnabled "  O envio de dados FHR está <span>ativo</span>.">
+
+<!ENTITY aboutTelemetry.uploadDisabled "  O envio de dados FHR está <span>desativado</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  Registro estendido da telemetria está <span>ativo</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  Registro estendido da telemetria está <span>desativado</span>.">
+
+<!ENTITY aboutTelemetry.pingDataSource "Fonte de dados do ping:">
+
+<!ENTITY aboutTelemetry.showCurrentPingData "Dados do ping atual">
+
+<!ENTITY aboutTelemetry.showArchivedPingData "Dados de ping arquivados">
+
+<!ENTITY aboutTelemetry.pingDataDisplay "Exibição de dados de ping:">
+
+<!ENTITY aboutTelemetry.structured "
+Estruturado
+">
+
+<!ENTITY aboutTelemetry.raw "
+Raw JSON
+">
+
+<!ENTITY aboutTelemetry.showSubsessionData "Mostrar dados da subseção">
+
+<!ENTITY aboutTelemetry.choosePing "Escolha o ping:">
+
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; Ping recente">
+
+<!ENTITY aboutTelemetry.showOlderPing "Ping antigo &gt;&gt;">
+
+<!ENTITY aboutTelemetry.rawPingData "Dados brutos do ping…">
+
+<!ENTITY aboutTelemetry.archiveWeekHeader "Semana">
+
+<!ENTITY aboutTelemetry.archivePingHeader "Ping">
 
 <!ENTITY aboutTelemetry.generalDataSection "
   Dados gerais
 ">
+
+<!ENTITY aboutTelemetry.environmentDataSection "  Dados do ambiente">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "  Registro de telemetria">
 
 <!ENTITY aboutTelemetry.slowSqlSection "Instruções SQL lentas">
 
@@ -18,6 +59,13 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
   Congelamentos das threads
+">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Escalares">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Keyed Scalars
 ">
 
 <!ENTITY aboutTelemetry.histogramsSection "
@@ -36,7 +84,8 @@ Detalhes dos complementos
 
 <!ENTITY aboutTelemetry.lateWritesSection "Escritas atrasadas">
 
-<!ENTITY aboutTelemetry.systemInfoSection "Informações do sistema">
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Informações da sessão">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
 Histogramas coletados por complementos
@@ -61,3 +110,9 @@ Carregar nomes das funções para congelamento de pilhas
 <!ENTITY aboutTelemetry.filterText "
 Filtrar (textos or /expreg/)
 ">
+
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Carga útil">
+
+<!ENTITY aboutTelemetry.rawPayload "
+  Carga útil bruta">

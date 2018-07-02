@@ -8,7 +8,7 @@
 <!ENTITY aboutSupport.pageSubtitle "
   Diese Seite enthält technische Informationen, die nützlich sein könnten,
   wenn Sie versuchen, ein Problem zu lösen. Wenn Sie nach Antworten auf häufig
-  gestellten Fragen zu &brandShortName; suchen, besuchen Sie bitte unsere  <a id='supportLink'>Hilfeseite</a>.
+  gestellte Fragen zu &brandShortName; suchen, besuchen Sie bitte unsere  <a id='supportLink'>Hilfeseite</a>.
 ">
 
 <!ENTITY aboutSupport.crashes.title "Fehlerberichte">
@@ -32,7 +32,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Aktiv">
 <!ENTITY aboutSupport.experimentEndDate "Enddatum">
 <!ENTITY aboutSupport.experimentHomepage "Homepage">
-
+<!ENTITY aboutSupport.experimentBranch "Zweig">
 
 <!ENTITY aboutSupport.appBasicsTitle "Allgemeine Informationen">
 <!ENTITY aboutSupport.appBasicsName "Name">
@@ -56,6 +56,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User-Agent">
 <!ENTITY aboutSupport.appBasicsOS "Betriebssystem">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Speicherverwendung">
+<!ENTITY aboutSupport.appBasicsPerformance "Leistung">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Angemeldete Service-Worker">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profile">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprozess-Fenster">
 
@@ -66,9 +72,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Im Finder anzeigen">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Ordner anzeigen">
+<!ENTITY aboutSupport.showWin2.label "Ordner öffnen">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Wichtige modifizierte Einstellungen">
 <!ENTITY aboutSupport.modifiedPrefsName "Name">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Text in die Zwischenablage kopieren">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Rohdaten in die Zwischenablage kopieren">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
 <!ENTITY aboutSupport.safeModeTitle "Im Abgesicherten Modus versuchen">
-<!ENTITY aboutSupport.restartInSafeMode.label "Neustart im Abgesicherten Modus...">
+<!ENTITY aboutSupport.restartInSafeMode.label "Neustart im Abgesicherten Modus…">
 
 <!ENTITY aboutSupport.restartTitle "Neustart versuchen">
 <!ENTITY aboutSupport.restartNormal.label "Normal neustarten…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Allgemeine Merkmale">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Weitere Informationen">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Fehlerprotokoll">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU 1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU 2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Entscheidungsprotokoll">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Absturzverhinderung hat Funktionen deaktiviert">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Lösungen">

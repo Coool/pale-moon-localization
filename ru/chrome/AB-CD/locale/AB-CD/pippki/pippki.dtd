@@ -15,11 +15,6 @@
 <!ENTITY resetPassword.title  "Сброс мастер-пароля">
 <!ENTITY resetPassword.text  "При сбросе мастер-пароля, все сохранённые пароли для веб-сайтов, электронной почты, данные форм, личные сертификаты и закрытые ключи будут утеряны. Вы действительно хотите сбросить свой мастер-пароль?">
 
-<!-- Values for getpassword.xul -->
-<!ENTITY getPassword.title  "Ввод мастер-пароля">
-<!ENTITY getPassword.tokenName2.label "Устройство защиты:">
-<!ENTITY getPassword.password.label "Пароль:">
-
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Загрузка сертификата">
 <!ENTITY downloadCert.message1 "Вам предлагают доверять новому центру сертификации (CA).">
@@ -36,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2 "Выберите сертификат для идентификации:">
 <!ENTITY clientAuthAsk.message3 "Информация о выбранном сертификате:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title "Выбор сертификата">
-<!ENTITY certPicker.info  "Сертификат:">
-<!ENTITY certPicker.detailsLabel "Информация о выбранном сертификате:">
-
 <!ENTITY pkcs12.setpassword.title  "Выбор пароля резервной копии сертификата">
 <!ENTITY pkcs12.setpassword.message  "Введённый пароль служит для защиты резервной копии сертификата. Для продолжения резервного копирования требуется установка пароля.">
 <!ENTITY pkcs12.setpassword.label1 "Пароль резервной копии:">
@@ -49,13 +39,6 @@
 
 <!ENTITY chooseToken.title  "Выбор токена">
 <!ENTITY chooseToken.message1 "Выберите токен.">
-
-<!ENTITY escrowWarn.title "Копия ключа шифрования">
-<!ENTITY escrowWarn.message1 "Внимание: центр сертификации предлагает вам сделать резервную копию закрытого ключа шифрования.">
-<!ENTITY escrowWarn.benefit1 "Преимущество этого способа в том, что при потере вами доступа к закрытому ключу шифрования, имеется возможность запросить его копию из этого центра сертификации.">
-<!ENTITY escrowWarn.message2 "Как бы то ни было, ваш закрытый ключ шифрования будет храниться в центре сертификации и может быть использован для того, чтобы прочитать вашу зашифрованную почту или документы без вашего разрешения.">
-<!ENTITY examineCert.label "Просмотр сертификата">
-<!ENTITY examineCert.accesskey "р">
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Генерация закрытого ключа">

@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "Algemeen">
 <!ENTITY status4evar.tab.toolbar "Statusbalk">
-<!ENTITY status4evar.tab.urlbar "Adresbalk">
 <!ENTITY status4evar.tab.popup "Pop-ups">
 <!ENTITY status4evar.tab.tabs "Tabbladen">
 
 <!ENTITY status4evar.option.none "Geen">
 <!ENTITY status4evar.option.nothing "Niets">
 <!ENTITY status4evar.option.toolbar "Statusbalk">
-<!ENTITY status4evar.option.urlbar "Adresbalk">
 <!ENTITY status4evar.option.popup "Pop-ups">
 <!ENTITY status4evar.option.tooltip "Knopinfo">
 <!ENTITY status4evar.option.bottom "Onderaan">
 <!ENTITY status4evar.option.top "Bovenaan">
-<!ENTITY status4evar.option.fill "Uitvullen">
 <!ENTITY status4evar.option.dlcount "Aantal downloads">
 <!ENTITY status4evar.option.dltime "Resterende tijd">
 <!ENTITY status4evar.option.both "Beide">
 <!ENTITY status4evar.option.right "Rechts">
 <!ENTITY status4evar.option.left "Links">
-<!ENTITY status4evar.option.fixed "Vast">
 <!ENTITY status4evar.option.simple "Eenvoudig">
 <!ENTITY status4evar.option.advanced "Geavanceerd">
 <!ENTITY status4evar.option.browse "Bladeren">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Max. statuslengte:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Status uitlijning:">
-<!ENTITY status4evar.status.urlbar.color.label "Status kleur:">
-<!ENTITY status4evar.status.currentUrl "Huidige locatie">
-<!ENTITY status4evar.status.statusText "Status tekst">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox compatibiliteit functies">
 <!ENTITY browser.urlbar.formatting.enabled.label "Domein markering inschakelen">
 <!ENTITY browser.urlbar.trimming.enabled.label "Schakel protocol verbergen in (http: // en ftp: //)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Wissel zijkanten wanneer u er met de muis overheen gaat">
 
 <!ENTITY status4evar.progress.style.label "Gebruik een gebruikersstijl">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Voortgang in de adresbalk weergeven">
-<!ENTITY status4evar.progress.urlbar.line.label "Lijnstijl:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Altijd de voortgangsindicator weergeven">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Gebruik wisselende werkbalkranden">
 <!ENTITY status4evar.addonbar.windowGripper "Vensterafmeting handvat weergeven">
 <!ENTITY status4evar.addonbar.closeButton "Sluitknop weergeven">
-
-<!ENTITY status4evar.advanced.warning "Deze geavanceerde instellingen kunnen problemen veroorzaken met Pale Moon of andere extensies. Wijzigingen voor eigen risico.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Poging om de Address Bar XBL-binding af te dwingen.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Selecteer dit alleen als u problemen hebt met de weergave van de adresbalk-voortgang of de statustekst. Dit kan mogelijk andere extensies verstoren die proberen een XBL-binding op de adresbalk te plaatsen.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Detecteer volledige schermmodus en geef de koppelingen/status op de juiste manier weer.">
 <!ENTITY status4evar.advanced.status.detectVideo "Verberg status popup in full-screen HTML5 video.">

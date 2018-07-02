@@ -17,14 +17,14 @@
      deliberate for formatting around the embedded links. -->
 <!ENTITY rights.intro-point1a "&brandShortName; está disponible bajo los términos de la ">
 <!ENTITY rights.intro-point1b "Licencia Pública de Mozilla">
-<!ENTITY rights.intro-point1c ". Esto significa que puedes usar, copiar y distribuir &brandShortName; a otras personas en su formato de código fuente. Los binarios están sujetos a la licencia de redistribución de Pale Moon que se encuentra en su sitio web oficial. También se te invita a modificar el código fuente de &brandShortName; cuanto quieras para cubrir tus necesidades. La Licencia Pública de Mozilla también te da el derecho a distribuir tus versiones modificadas.">
+<!ENTITY rights.intro-point1c ". Esto quiere decir que puedes usar, copiar y distribuir &brandShortName;. También te invitamos a modificar el código fuente de &brandShortName; tanto como necesites. La licencia pública de Mozilla tambien te da el derecho de distribuir tus versiones modificadas.">
 
-<!ENTITY rights.intro-point2-a "Sin embargo, no se te concede ningún derecho ni licencia sobre la propiedad intelectual de Moonchild Productions o cualquier otra compañía involucrada, incluyendo el nombre y logotipo de Pale Moon, sin limitarse a ellos. Puedes encontrar información adicional sobre marcas registradas ">
+<!ENTITY rights.intro-point2-a "No se te conceden los derechos sobre las patentes y licencias de las marcas registradas de Moonchild Productions ni de cualquiera otra organización, incluyendo sin limitarse los nombres y logotipos de Basilisk y Pale Moon. Puedes leer más Información sobre marcas registradas ">
 <!ENTITY rights.intro-point2-b "aquí">
 <!ENTITY rights.intro-point2-c ".">
 
 <!-- point 2.5 text for official branded builds -->
-<!ENTITY rights.intro-point2.5 "Algunas características de &brandShortName; pueden darte la opción de enviar comentarios a &brandShortName;. Al elegir enviar comentarios, le das a &brandShortName; el permiso de usar dichos comentarios para mejorar sus productos, publicar esos comentarios en sus sitios web y también distribuirlos.">
+<!ENTITY rights.intro-point2.5 "Algunas de las características en &brandShortName; te dan la opción de enviar comentarios a los editores de este software. Al optar por enviar tus comentarios, le das permiso a los editores de utilizarlos para mejorar sus productos, publicarlos en sus sitios web y distribuirlos.">
 
 <!-- point 3 text for official branded builds -->
 <!ENTITY rights2.intro-point3a "El cómo usamos tu información personal y comentarios suministrados a &vendorShortName; a través de &brandShortName; se describe en la ">
@@ -46,6 +46,9 @@
 
 <!ENTITY rights2.webservices-header "Servicios de información de &brandFullName; basados en web">
 
+<!-- point 5 -->
+<!ENTITY rights.intro-point5 "Para reproducir ciertos tipos de video, puede que &brandShortName; descargue ciertos módulos de descifrado de contenido de terceros, si la reproducción de contenido DRM está disponible y habilitada.">
+
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
@@ -56,14 +59,17 @@
 <!ENTITY rights3.webservices-c ". Otras características y servicios pueden ser deshabilitados en las preferencias de la aplicación.">
 
 <!-- safe browsing points for branded builds -->
+<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
+     an API key is obtained. Official builds do not use SafeBrowsing. -->
 <!ENTITY rights.safebrowsing-a "Navegación segura: ">
 <!ENTITY rights.safebrowsing-b "Deshabilitar la navegación segura no es recomendable ya que puede resultar en que visites sitios peligrosos. Si deseas deshabilitarla por completo, sigue estos pasos:">
 <!ENTITY rights.safebrowsing-term1 "Abre las preferencias de la aplicación">
 <!ENTITY rights.safebrowsing-term2 "Selecciona la selección de seguridad">
-<!ENTITY rights.safebrowsing-term3 "Desactiva las opciones para &quot;&blockAttackSites.label;&quot; y &quot;&blockWebForgeries.label;&quot;">
+<!ENTITY rights2.safebrowsing-term3 "Desmarcar la opción para habilitar la navegación segura">
 <!ENTITY rights.safebrowsing-term4 "La navegación segura ahora está deshabilitada">
 
 <!-- location aware browsing points for branded builds -->
+<!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Navegación con ubicación geográfica: ">
 <!ENTITY rights.locationawarebrowsing-b "siempre es opcional. Nunca se enviará información de ubicación sin tu permiso. Si deseas deshabilitar esta función por completo, sigue estos pasos:">
 <!ENTITY rights.locationawarebrowsing-term1a "En la barra de direcciones, escribe ">
@@ -79,10 +85,10 @@
 <!ENTITY rights.webservices-term1-unbranded "Todos los términos de servicio aplicables a este producto deben estar listados aquí.">
 
 <!-- points 1-7 text for branded builds -->
-<!ENTITY rights2.webservices-term1 "&vendorShortName; y sus contribuidores, licenciatarios y socios trabajan para proporcionar los servicios más precisos y actualizados posibles. Mas no podemos garantizar que esta información sea completa y libre de errores. Por ejemplo, el servicio de navegación segura podría no identificar algunos sitios peligrosos y podría identificar algunos sitios seguros por error, y la navegación con ubicación geográfica se basa en estimaciones dadas por nuestros proveedores de servicio y no es posible garantizar la precisión de las ubicaciones proporcionadas.">
+<!ENTITY rights2.webservices-term1 "&vendorShortName; y sus contribuidores, licenciatarios y socios trabajan para proporcionar los servicios más precisos y actualizados. Sin embargo, no podemos garantizar que esta información sea completa y sin errores. Por ejemplo, las ubicaaciones que el servicio de navegación con ubicación geográfica proporciona son solo estimaciones y ni nosotros ni nuestro provedor del servicio garantiza su precisión.">
 <!ENTITY rights.webservices-term2 "&vendorShortName; puede descontinuar o modificar los servicios a discreción.">
-<!ENTITY rights2.webservices-term3 "Te invitamos a utilizar estos servicios con las versiones incluidas en &brandShortName;, y &vendorShortName; te garantiza el derecho a hacerlo así. &vendorShortName; y sus licenciatarios se reservan el resto de los derechos sobre sus servicios. Estos términos no pretenden limitar ningún derecho otorgado bajo la licencia de código abierto aplicable a &brandShortName; y la versión de código fuente correspondiente de &brandShortName;.">
-<!ENTITY rights.webservices-term4 "Los servicios son proporcionados &quot;como son&quot;. &vendorShortName;, sus colaboradores, licenciatarios y distribuidores no ofrecen garantía alguna, expresa o implícita, incluyendo sin limitación la garantía de que los servicios son comerciables y adecuados para tus propósitos particulares. Asumes todo el riesgo de elegir estos servicios para cumplir tus fines así como aceptar su calidad y rendimiento. Algunas jurisdicciones no permiten la exclusión o limitación de garantías implícitas, por lo que esta renuncia puede no aplicarse a ti.">
-<!ENTITY rights.webservices-term5 "Con excepción de lo requerido por la ley, &vendorShortName;, sus colaboradores, licenciatarios y distribuidores no serán responsables por ningún daño indirecto, especial, incidental, consecuencial, punitivo o ejemplar que surja de alguna manera relacionados con el uso de &brandShortName; y sus servicios. La responsabilidad colectiva en virtud de estos términos no excederá los 500 USD (quinientos dólares estadounidenses). Algunas jurisdicciones no permiten la exclusión o limitación de ciertos daños, por lo que esta exclusión y limitación puede no aplicarse a ti.">
+<!ENTITY rights2.webservices-term3 "Te invitamos a utilizar estos servicios con la versión de &brandShortName; que los incluye, y &vendorShortName; te garantiza los derechos a hacerlo así. &vendorShortName; y sus licenciatarios se reservan el resto de los derechos sobre sus servicios. Estos términos no pretenden limitar ningún derecho otorgado bajo la licencia de código abierto aplicable a &brandShortName; y las versiones de código fuente correspondientes de &brandShortName;, sin embargo estos servicios (opcionales) se ponen a tu disposición sin que eso signifique que tus derechos sobre ellos se extiendan.">
+<!ENTITY rights.webservices-term4 "Los servicios son proporcionados «como son» y «como estén disponibles». &vendorShortName;, sus colaboradores, licenciatarios y distribuidores no ofrecen garantía alguna, expresa o implícita, incluyendo sin limitación la garantía de que los servicios son comerciables y adecuados para tus propósitos particulares. Asumes todo el riesgo de elegir estos servicios para cumplir tus fines así como aceptar su calidad y rendimiento. Si tu jurisdicción no permite la exclusión o limitación de garantías, no debes hacer uso de &brandShortName; ni de sus servicios.">
+<!ENTITY rights.webservices-term5 "Con excepción de lo requerido por la ley, &vendorShortName;, sus colaboradores, licenciatarios y distribuidores no serán responsables por ningún daño indirecto, especial, incidental, consecuencial, punitivo o ejemplar que surja o se relacione con el uso de &brandShortName; y sus servicios. La responsabilidad colectiva en virtud de estos términos no excederá los $500 (quinientos dólares estadounidenses). Si tu jurisdicción no permite la exclusión o limitación ciertos daños, no debes hacer uso de &brandShortName; ni de sus servicios.">
 <!ENTITY rights.webservices-term6 "&vendorShortName; puede actualizar estos términos cuando sea necesario de vez en cuando. Estos términos no pueden ser modificados o cancelados sin un acuerdo por escrito de &vendorShortName;.">
-<!ENTITY rights.webservices-term7 "Estos términos se rigen por las leyes de Suecia, excluyendo sus disposiciones de conflicto de leyes. Si alguna sección de estos términos es considerada inválida o inaplicable, las secciones restantes permanecerán en plena vigencia y efecto. En caso de que se produzcan conflictos entre una versión traducida de estos términos y la versión en idioma inglés, será la versión en inglés la que tenga validez.">
+<!ENTITY rights.webservices-term7 "Estos términos se rigen por las leyes de Suecia, excluyendo cualquier disposición por conflicto de leyes. Si alguna sección de estos términos es considerada inválida o inaplicable, las secciones restantes permanecerán en plena vigencia y efecto. En caso de que se produzcan conflictos entre una versión traducida de estos términos y la versión en idioma inglés, será la versión en inglés la que tenga validez.">

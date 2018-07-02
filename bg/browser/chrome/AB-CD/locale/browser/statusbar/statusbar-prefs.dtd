@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "Общи">
 <!ENTITY status4evar.tab.toolbar "Лента на състоянието">
-<!ENTITY status4evar.tab.urlbar "Адресна лента">
 <!ENTITY status4evar.tab.popup "Изскачащ прозорец">
 <!ENTITY status4evar.tab.tabs "Раздели">
 
 <!ENTITY status4evar.option.none "Без">
 <!ENTITY status4evar.option.nothing "Нищо">
 <!ENTITY status4evar.option.toolbar "Лента на състоянието">
-<!ENTITY status4evar.option.urlbar "Адресна лента">
 <!ENTITY status4evar.option.popup "Изскачащ прозорец">
 <!ENTITY status4evar.option.tooltip "Пояснение">
 <!ENTITY status4evar.option.bottom "Отдолу">
 <!ENTITY status4evar.option.top "Отгоре">
-<!ENTITY status4evar.option.fill "Запълване">
 <!ENTITY status4evar.option.dlcount "Брой на свалянията">
 <!ENTITY status4evar.option.dltime "Оставащо време">
 <!ENTITY status4evar.option.both "И двете">
 <!ENTITY status4evar.option.right "Дясно">
 <!ENTITY status4evar.option.left "Ляво">
-<!ENTITY status4evar.option.fixed "Фиксирано">
 <!ENTITY status4evar.option.simple "Опростено">
 <!ENTITY status4evar.option.advanced "Разширено">
 <!ENTITY status4evar.option.browse "Преглед">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Максимална дължина на текста:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Подравняване на състоянието:">
-<!ENTITY status4evar.status.urlbar.color.label "Цвят на състоянието:">
-<!ENTITY status4evar.status.currentUrl "Текущо местоположение">
-<!ENTITY status4evar.status.statusText "Текст на състоянието">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Функции за съвместимост на Firefox">
 <!ENTITY browser.urlbar.formatting.enabled.label "Включи осветяването на домейни">
 <!ENTITY browser.urlbar.trimming.enabled.label "Включи протокол за скриване (http:// и ftp://)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Сменяй страните при посочване с мишката">
 
 <!ENTITY status4evar.progress.style.label "Използване на потребителски стил">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Покажи напредъка в адресната лента">
-<!ENTITY status4evar.progress.urlbar.line.label "Стил на линия:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Винаги показвай индикатора за напредък">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Използвай алтернативен граници на лентата">
 <!ENTITY status4evar.addonbar.windowGripper "Покажи захвата за преоразмеряване на прозорец">
 <!ENTITY status4evar.addonbar.closeButton "Покажи бутона за затваряне">
-
-<!ENTITY status4evar.advanced.warning "Тези разширени настройки може да причинят проблеми на Pale Moon или други разширения. Модифицирай на свой риск.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Опит за форсирано свързване на XBL на адресната лента.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Изберете това само в случай че имате проблем с адресната лента или с неправилно показване на текста на състоянието. Има вероятност да се счупят разширения, които се опитват да настроят XBL обвързването на лентата на състоянието.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Откриване на режим на цял екран и показване на линкове/състояние по подходящ начин.">
 <!ENTITY status4evar.advanced.status.detectVideo "Скрий изкачащите прозорци на HTML5 видеото на цял екран.">

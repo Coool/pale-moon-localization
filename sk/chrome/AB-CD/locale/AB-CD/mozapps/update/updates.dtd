@@ -1,14 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "Aktualizácia aplikácie &brandShortName;">
+<!ENTITY  updateWizard.title              "Aktualizácia softvéru">
 
 <!ENTITY  checking.title                  "Vyhľadávajú sa aktualizácie">
-<!ENTITY  updateCheck.label               "Vyhľadávať aktualizácie, ale poskytnúť možnosť zvoliť, či sa nainštalujú">
-
-<!ENTITY  pluginupdatesfound.title        "Nájdené aktualizácie zásuvných modulov">
-<!ENTITY  pluginupdatesfound.label        "Bola nájdená novšia verzia jedného alebo viacerých vami používaných zásuvných modulov.">
-<!ENTITY  pluginupdateslink.label         "Pozrite sa, ako ich môžete aktualizovať.">
+<!ENTITY  updateCheck.label               "Vyhľadáva sa novšia verzia programu &brandShortName;…">
 
 <!ENTITY  noupdatesfound.title            "Nenájdené žiadne aktualizácie">
 <!ENTITY  noupdatesautoenabled.intro      "Neboli nájdené žiadne aktualizácie. &brandShortName; bude
@@ -31,26 +27,10 @@
                                            Táto správa sa už viac nezobrazí.">
 <!ENTITY  unsupportedLink.label           "Ďalšie informácie">
 
-<!ENTITY  incompatibleCheck.title         "Kontrola kompatibility doplnkov">
-<!ENTITY  incompatibleCheck.label         "Vyhľadávajú sa nové verzie vašich doplnkov…">
-
 <!ENTITY  clickHere.label                 "Zobraziť ďalšie informácie o tejto aktualizácii">
 
 <!ENTITY  evangelism.desc                 "Dôrazne odporúčame čo najskôr použiť túto aktualizáciu
                                            aplikácie &brandShortName;.">
-
-<!ENTITY  license.instructions            "Ak súhlasíte s podmienkami tejto licenčnej zmluvy, kliknite na tlačidlo Súhlasím
-                                           a pokračujte v inštalácii aktualizácie.">
-
-<!ENTITY  license.titleText               "Softvérová licenčná zmluva">
-<!ENTITY  license.introText               "Licenčné podmienky na používanie tohto softvéru.">
-<!ENTITY  license.instructionText         "Prečítajte si nasledujúcu licenčnú zmluvu. Na zobrazenie zvyšku textu použite posúvač.">
-<!ENTITY  license.accept                  "SÚHLASÍM s licenčnou zmluvou">
-<!ENTITY  license.accept.accesskey        "S">
-<!ENTITY  license.decline                 "NESÚHLASÍM s licenčnou zmluvou">
-<!ENTITY  license.decline.accesskey       "N">
-
-<!ENTITY  incompatibleList.title          "Nájdené nekompatibilné doplnky">
 
 <!ENTITY  downloadPage.title              "Preberá sa &brandShortName;">
 <!ENTITY  downloading.intro               "Preberá sa aktualizácia…">
@@ -76,10 +56,6 @@
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; nedokázal zistiť, či je dostupná nejaká aktualizácia.
                                            Uistite sa, že máte najnovšiu verziu aplikácie &brandShortName; na stránke:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "Z neznámeho dôvodu nie je možné &brandShortName;  bezpečne aktualizovať.
-                                           Uistite sa, že máte najnovšiu verziu aplikácie &brandShortName; na stránke:">
-<!ENTITY  errorCertAttrHasUpdate.label    "Niečo sa snaží prinútiť &brandShortName; akceptovať nezabezpečenú
-                                           aktualizáciu. Kontaktujte správcu sieťového pripojenia a požiadajte o pomoc.">
 
 <!ENTITY  finishedPage.title              "Aktualizácia pripravená na inštaláciu">
 <!ENTITY  finishedPage.text               "Táto aktualizácia bude nainštalovaná pri najbližšom spustení aplikácie
@@ -93,10 +69,7 @@
 <!ENTITY  finishedBackground.more         "Táto aktualizácia bude nainštalovaná pri najbližšom spustení aplikácie
                                            &brandShortName;. Aplikáciu &brandShortName; môžete reštartovať teraz, alebo
                                            pokračujte v práci a reštartujte neskôr.">
-
-<!ENTITY  installed.title                 "Aktualizácia nainštalovaná">
-<!ENTITY  installed.intro                 "Aktualizácia bola úspešne nainštalovaná.">
-<!ENTITY  whatsnew.label                  "Prečítajte si, čo je nové…">
+<!ENTITY  finishedBackground.moreElevated "Táto aktualizácia vyžaduje oprávnenie administrátora. Aktualizácia bude nainštalovaná pri ďalšom spustení aplikácie &brandShortName;. Aplikáciu môžete reštartovať teraz, alebo môžete pokračovať v práci a reštartovať neskôr, alebo môžete túto aktualizáciu úplne zrušiť.">
 
 <!ENTITY  update.details.label            "Podrobnosti">
 <!ENTITY  update.installedOn.label        "Nainštalovaná:">

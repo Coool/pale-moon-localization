@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "a">
 <!ENTITY fullScreenExit.label "Vollbild beenden">
 <!ENTITY fullScreenExit.accesskey "V">
-<!ENTITY fullscreenAllowButton.label "Erlauben">
-<!ENTITY fullscreenExitButton.label "Ablehnen">
-<!ENTITY fullscreenApproval.value "Wollen Sie den Wechsel in den Vollbild-Modus erlauben?">
 
 <!ENTITY fullscreenExitHint.value "Drücken Sie die Escape-Taste zum Verlassen des Vollbild-Modus.">
 <!ENTITY leaveDOMFullScreen.label "Vollbild beenden">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Berechtigungen">
 <!ENTITY permissions.accesskey        "e">
+<!ENTITY preferencesCmd2.label        "Einstellungen">
+<!ENTITY preferencesCmd2.accesskey    "B">
 
 <!ENTITY webDeveloperMenu.label       "Web-Entwickler">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Alles markieren">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "m"> 
-<!ENTITY preferencesCmd2.label       "Einstellungen">
-<!ENTITY preferencesCmd2.accesskey     "B">
-<!ENTITY preferencesCmdUnix.label       "Einstellungen">
-<!ENTITY preferencesCmdUnix.accesskey     "E"> 
 
 <!ENTITY clearRecentHistory.label               "Neueste Chronik löschen…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Web-Entwickler">
 <!ENTITY appMenuGettingStarted.label "Erste Schritte">
 <!ENTITY appMenuSafeMode.label "Neustart im Abgesicherten Modus...">
-<!ENTITY appMenuSafeMode.accesskey "d">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Suche oder Adresse eingeben">
 <!ENTITY urlbar.accesskey             "s">
 <!ENTITY urlbar.switchToTab.label     "Wechseln zum Tab:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Neustart…">
 <!ENTITY appMenuRestart.accesskey       "N">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Beenden"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "B">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Zugriff auf folgendes Mikrofon erlauben:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Zugriff auf Kamera / Mikrofon">
-<!ENTITY webrtcIndicatorButton.tooltip "Websites anzeigen, denen derzeit der Zugriff auf Kamera oder Mikrofon erlaubt ist">
 
-<!ENTITY mixedContentBlocked.helplink "Weitere Informationen">
 <!ENTITY mixedContentBlocked.moreinfo "Die meisten Websites funktionieren auch, wenn diese Art Inhalt blockiert wird.">
 
 <!ENTITY pointerLock.notification.message "Der Mauszeiger kann jederzeit durch Drücken der ESC-Taste wieder angezeigt werden.">

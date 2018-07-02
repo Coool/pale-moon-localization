@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Файл не знайдено">
 <!ENTITY fileNotFound.longDesc "<ul><li>Можливо, файл був перейменований, видалений або переміщений?</li><li> Перевірте, чи не припустилися ви у імені файлу орфографічну помилку, невірно вказали регістр або зробили ще якусь помилку в адресі.</li><li>Перевірте, чи є у вас достатньо прав для перегляду даного файлу.</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Доступ до файлу було заборонено">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Він міг бути вилучений, переміщений, або дозволи файлу забороняють доступ.</li></ul>">
+
 <!ENTITY generic.title "Неможливо завершити запит">
 <!ENTITY generic.longDesc "<p>Додаткова інформація про цю помилку в даний час недоступна.</p>">
 
@@ -75,30 +78,22 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Цей сайт підозрюється в атаках на комп'ютери!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Сайти, що атакують комп'ютери, намагаються встановити програмне забезпечення, яке краде персональну інформацію, шкодить вашій системі або використовує ваш комп'ютер для атак на інші комп'ютери.</p>
-<p>Власники веб-сайтів, які вважають, що їх сайт потрапив в список «атакуючих» помилково, можуть <a href='https://www.stopbadware.org/request-review' >надіслати запит на перегляд цього рішення</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Цей сайт підозрюється в шахрайстві!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Введення на цій сторінці будь-якої особистої інформації може призвести до її викрадення або використання в шахрайських цілях.</p>
-<p>Подібні типи веб-сайтів використовуються в шахрайстві, відомих як фішингові атаки, при яких підроблені веб-сторінки і поштові повідомлення використовуються для імітації джерел, яким ви можете довіряти.</p>
+<!ENTITY securityOverride.linkText "Або ви можете додати виняток…">
+<!ENTITY securityOverride.warningContent "
+<p>Вам краще не додавати виняток, якщо ви використовуєте Інтернет-з'єднання, якому ви повністю не довіряєте, або якщо ви не бачили попередження для цього сервера.</p>
+<p>Якщо ви все ж бажаєте додати виняток для цього сайту, ви можете зробити це в додаткових налаштуваннях шифрування.</p>
 ">
 
 <!ENTITY cspBlocked.title "Заблоковано політикою захисту вмісту">
 <!ENTITY cspBlocked.longDesc "<p>Браузер заблокував даний спосіб завантаження цієї сторінки, тому що сторінка має політику захисту вмісту, яка це забороняє.</p>">
 
-<!ENTITY corruptedContentError.title "Помилка спотворення вмісту">
-<!ENTITY corruptedContentError.longDesc "<p>Сторінка, яку ви намагаєтеся переглянути, не може бути показана, так як була виявлена помилка при передачі даних.</p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту і проінформуйте їх про цю проблему.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Пошкоджений вміст">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Сторінка, яку ви намагаєтесь переглянути, не може бути показана через те, що було виявлено помилку в передачі даних.</p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту та повідомте їх про цю проблему.</li></ul>">
 
 <!ENTITY remoteXUL.title "Віддалений XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту, щоб проінформувати їх про цю проблему.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Ваше з'єднання незахищене">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> використовує технологію безпеки, яка є застарілою і вразливою до атак. Нападник може з легкістю розкрити інформацію, яка, на вашу думку, є захищеною. Перш, ніж ви зможете відвідати сайт, його адміністратор повинен виправити це на сервері.</p><p>Код помилки: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

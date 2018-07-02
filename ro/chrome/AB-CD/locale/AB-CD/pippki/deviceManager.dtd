@@ -2,11 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY devmgr.title                           "Gestionar dispozitive">
-<!-- LOCALIZATION NOTE (devmgr.style): This is CSS style for Device Manager
+<!ENTITY devmgr.title                           "Manager de dispozitive">
+<!-- LOCALIZATION NOTE (devmgr.style2): This is CSS style for Device Manager
      window size. Don't translate "width" nor "height". Adjust the numbers
      to make window contents fit. -->
-<!ENTITY devmgr.style                           "width: 52em; height: 32em;">
+<!ENTITY devmgr.style2                          "width: 67em; height: 32em;">
 
 <!ENTITY devmgr.devlist.label                   "Module și dispozitive de securitate">
 <!ENTITY devmgr.details.title                   "Detalii">
@@ -24,13 +24,13 @@
 <!ENTITY devmgr.button.unload.accesskey         "D">
 <!ENTITY devmgr.button.fips.accesskey           "F">
 
-<!ENTITY loaddevice.info                        "Introduceți informații despre modulul pe care doriți să îl adăugați.">
+<!ENTITY loaddevice.info                        "Introdu informații despre modulul pe care dorești să îl adaugi.">
 <!ENTITY loaddevice.modname                     "Nume modul:">
 <!ENTITY loaddevice.modname.accesskey           "N">
 <!ENTITY loaddevice.modname.default             "Modul PKCS#11 nou">
 <!ENTITY loaddevice.filename                    "Nume fișier modul:">
 <!ENTITY loaddevice.filename.accesskey          "N">
-<!ENTITY loaddevice.browse                      "Răsfoire...">
+<!ENTITY loaddevice.browse                      "Răsfoiește…">
 <!ENTITY loaddevice.browse.accesskey            "R">
 
 <!ENTITY loaddevice.title                       "Încarcă dispozitiv PKCS#11">

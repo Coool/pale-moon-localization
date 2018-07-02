@@ -6,10 +6,6 @@
 <!ENTITY  checking.title                  "Naghahanap ng mga Update">
 <!ENTITY  updateCheck.label               "Naghahanap ng mas bagong bersiyon ng &brandShortName;…">
 
-<!ENTITY  pluginupdatesfound.title        "Nakakita ng mga Update para sa mga Plugin">
-<!ENTITY  pluginupdatesfound.label        "May natagpuang mas bagong bersiyon para sa isa o higit pa ng iyong mga plugin.">
-<!ENTITY  pluginupdateslink.label         "Tingnan kung paano i-upgrade ang iyong mga plugin.">
-
 <!ENTITY  noupdatesfound.title            "Walang mga Update na Natagpuan">
 <!ENTITY  noupdatesautoenabled.intro      "Walang update na natagpuan. Madalas na nagsusuri ang &brandShortName; kung may update.">
 <!ENTITY  noupdatesautodisabled.intro     "Walang update na natagpuan. Paki-tingnan ulit mamaya o paganahin ang awtomatikong pagsusuri kung may update ng &amp;brandShortName.">
@@ -24,24 +20,9 @@
 Hindi mo na makikita ulit ang pabatid na ito, pero puwede kang">
 <!ENTITY  unsupportedLink.label           "matuto ng higit pa.">
 
-<!ENTITY  incompatibleCheck.title         "Sinusuri ang Add-on Compatibility">
-<!ENTITY  incompatibleCheck.label         "Naghahanap ng mas bagong bersiyon ng iyong mga add-on…">
-
 <!ENTITY  clickHere.label                 "Tingnan ang karagdagang impormasyon tungkol sa update na ito">
 
 <!ENTITY  evangelism.desc                 "Inirerekomenda na ilapat mo itong update para sa &brandShortName; sa lalong madaling panahon.">
-
-<!ENTITY  license.instructions            "Kung ikaw ay sumasangayon sa mga tuntunin nitong kasunduan, i-click ang Tinatanggap Ko sa ibaba upang magpatuloy sa pag-install nitong update.">
-
-<!ENTITY  license.titleText               "Kasunduan sa Lisensya ng Software">
-<!ENTITY  license.introText               "Mga tuntunin at kondisyon sa paggamit nitong software.">
-<!ENTITY  license.instructionText         "Paki-basa ang sumusunod na kasunduan sa lisensiya. Gamitin ang scroll bar para makita ang natitirang bahagi nitong kasunduan.">
-<!ENTITY  license.accept                  "Tinatanggap ko ang mga tuntunin ng Kasunduan sa Lisensya">
-<!ENTITY  license.accept.accesskey        "t">
-<!ENTITY  license.decline                 "HINDI ko tinatanggap ang mga tuntunin ng Kasunduan sa Lisensiya">
-<!ENTITY  license.decline.accesskey       "H">
-
-<!ENTITY  incompatibleList.title          "May mga Di-compatible na Add-on">
 
 <!ENTITY  downloadPage.title              "Dino-download ang &brandShortName;">
 <!ENTITY  downloading.intro               "Dino-download ang update…">
@@ -61,8 +42,6 @@ Hindi mo na makikita ulit ang pabatid na ito, pero puwede kang">
 <!ENTITY  errorpatching.intro             "Ang Bahagyang Update ay hindi ma-apply. Susubukan ulit ito ng &brandShortName; sa pamamagitan ng pag-download ng Kompletong Update.">
 
 <!ENTITY  genericBackgroundError.label    "Hindi matukoy ng &brandShortName; kung mayroong update. Paki-sigurado na mayroon ka ng pinakabagong bersiyon ng &brandShortName; mula sa:">
-<!ENTITY  errorCertAttrNoUpdate2.label    "May pumipigil sa &brandShortName; sa pag-u-update nang secure. Paki-sigurado na mayroon ka ng pinakabagong bersiyon ng &brandShortName; mula sa:">
-<!ENTITY  errorCertAttrHasUpdate.label    "May sumusubok na linlangin ang &brandShortName; sa pagtanggap ng hindi secure na update. Mangyaring makipag-ugnayan sa iyong network provider at humingi ng tulong.">
 
 <!ENTITY  finishedPage.title              "Handa na para I-install ang Update">
 <!ENTITY  finishedPage.text               "Ang update ay mai-install sa susunod na pagbukás ng &brandShortName;. Maaari mo nang i-restart ang &brandShortName;, o magpatuloy at i-restart na lamang mamaya.">
@@ -71,10 +50,10 @@ Hindi mo na makikita ulit ang pabatid na ito, pero puwede kang">
 <!ENTITY  finishedBackground.name         "Update:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "Ang update ay mai-install sa susunod na pagbukás ng &brandShortName;. Maaari mo nang i-restart ang &brandShortName;, o magpatuloy at i-restart na lamang mamaya.">
-
-<!ENTITY  installed.title                 "Na-install na ang Update">
-<!ENTITY  installed.intro                 "Ang update ay matagumpay na na-install.">
-<!ENTITY  whatsnew.label                  "Magbasa ng higit pa tungkol sa kung anong bago…">
+<!ENTITY  finishedBackground.moreElevated "This update requires administrator privileges. The update will be
+                                           installed the next time &brandShortName; starts. You can restart
+                                           &brandShortName; now, continue working and restart later, or decline this
+                                           update.">
 
 <!ENTITY  update.details.label            "Mga Detalye">
 <!ENTITY  update.installedOn.label        "Na-install noong:">

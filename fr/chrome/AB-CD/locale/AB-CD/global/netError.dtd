@@ -55,6 +55,9 @@ protection et sécurité.</p>">
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "L’accès au fichier a été refusé">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Il a peut-être été supprimé, déplacé ou les permissions associées au fichier ne permettent pas d’y accéder.</li></ul>">
+
 <!ENTITY generic.title "Requête inaboutie">
 <!ENTITY generic.longDesc "
 <p>Pour une raison inconnue, le navigateur ne peut pas charger cette page.</p>
@@ -174,37 +177,22 @@ le fournisseur d'accès à Internet pour obtenir de l'aide.</li>
   peut-être temporaire et vous pouvez essayer à nouveau plus tard.</li>
 </ul>">
 
-<!ENTITY malwareBlocked.title "Suspicion de site malveillant !">
-<!ENTITY malwareBlocked.longDesc "
-<p>Les sites malveillants tentent d'installer des programmes qui volent les
-informations personnelles, qui utilisent votre ordinateur pour en attaquer
-d'autres ou qui endommagent votre système.</p>
-<p>Les propriétaires de sites Web qui pensent que leur site a été rapporté à
-tort comme malveillant peuvent <a href='https://www.stopbadware.org/request-review'>demander
-une révision</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Suspicion de site contrefait !">
-<!ENTITY phishingBlocked.longDesc "
-<p>Saisir des informations personnelles sur cette page peut aboutir à un vol
-d'identité ou à une autre fraude.</p>
-<p>Ces types de contrefaçon de sites sont utilisés dans des courriels frauduleux
-conçus pour des attaques par hameçonnage (ou phishing), dans lesquelles les pages
-Web et les courriels frauduleux sont utilisés pour imiter des sources digne de confiance.</p>
+<!ENTITY securityOverride.linkText "Ou vous pouvez ajouter une exception…">
+<!ENTITY securityOverride.warningContent "
+<p>Vous ne devez pas ajouter d’exception si vous utilisez une connexion à Internet en laquelle vous n’avez pas totalement confiance ou si vous n’avez pas l’habitude de recevoir un avertissement pour ce serveur.</p>
+<p>Si vous souhaitez tout de même ajouter une exception pour ce site, vous pouvez le faire depuis les paramètres de chiffrement avancés.</p>
 ">
 
 <!ENTITY cspBlocked.title "Bloqué par une stratégie de sécurité de contenu">
 <!ENTITY cspBlocked.longDesc "<p>Le navigateur a empêché le chargement de cette page de cette manière car la page a une stratégie de sécurité de contenu qui ne le permet pas.</p>">
 
-<!ENTITY corruptedContentError.title "Erreur due à un contenu corrompu">
-<!ENTITY corruptedContentError.longDesc "<p>La page demandée ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Merci de contacter les propriétaires du site Web pour les informer de ce problème.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Erreur due à un contenu corrompu">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La page que vous essayez de voir ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL distant">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Merci de contacter les propriétaires du site Web pour les informer de ce problème.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "La connexion n’est pas sécurisée">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> fait appel à des technologies de sécurisation obsolètes et vulnérables aux attaques. Un attaquant pourrait facilement révéler des informations que vous pensiez être sécurisées. L’administrateur du site web devra d’abord corriger le serveur avant que vous puissiez visiter le site.</p><p>Code d’erreur : NS_ERROR_NET_INADEQUATE_SECURITY</p>">

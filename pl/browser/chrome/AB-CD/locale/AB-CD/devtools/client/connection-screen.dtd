@@ -1,0 +1,34 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the Remote Connection strings.
+  - The Remote Connection window can reached from the "connect…" menuitem
+  - in the Web Developer menu.
+  - -->
+
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+
+<!ENTITY title      "Połącz">
+<!ENTITY header     "Połącz ze zdalnym urządzeniem">
+<!ENTITY host       "Host:">
+<!ENTITY port       "Port:">
+<!ENTITY connect    "Połącz">
+<!ENTITY connecting "Łączenie…">
+<!ENTITY availableAddons "Dostępne zdalne dodatki:">
+<!ENTITY availableTabs "Dostępne zdalne karty:">
+<!ENTITY availableProcesses "Dostępne zdalne procesy:">
+<!ENTITY connectionError "Błąd:">
+<!ENTITY errorTimeout "Błąd: przekroczono limit czasu połączenia.">
+<!ENTITY errorRefused "Błąd: połączenie odrzucone.">
+<!ENTITY errorUnexpected "Niespodziewany błąd.">
+
+<!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
+these strings will be concatenated in a single label, remoteDocumentation will
+be used as text for a link to MDN. -->
+<!ENTITY remoteHelp "Narzędzia Deweloperskie mogą debugować urządzenia zdalne (np. Pale Moon dla Androida,). Upewnij się, że została włączona opcja &quot;zdalnego debugowania&quot; w zdalnym urządzeniu. Aby uzyskać więcej, zobacz ">
+<!ENTITY remoteDocumentation "dokumentacji">
+<!ENTITY remoteHelpSuffix ".">
+

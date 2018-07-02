@@ -7,13 +7,13 @@
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "Esta páxina contén información técnica que pode serlle útil cando tente solucionar un problema. Se está buscando respostas a preguntas frecuentes sobre o &brandShortName;, visite o noso <a id='supportLink'>sitio web de asistencia</a>.">
 
-<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!ENTITY aboutSupport.crashes.title "Informes de erro">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Report ID">
-<!ENTITY aboutSupport.crashes.sendDate "Submitted">
-<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
-<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+<!ENTITY aboutSupport.crashes.id "ID do informe">
+<!ENTITY aboutSupport.crashes.sendDate "Data de envío">
+<!ENTITY aboutSupport.crashes.allReports "Todos os informes de erro">
+<!ENTITY aboutSupport.crashes.noConfig "Este aplicativo non está configurado para amosar informes de erro.">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensións">
 <!ENTITY aboutSupport.extensionName "Nome">
@@ -21,25 +21,25 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Versión">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
-<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentsTitle "Características experimentais">
+<!ENTITY aboutSupport.experimentName "Nome">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Description">
-<!ENTITY aboutSupport.experimentActive "Active">
-<!ENTITY aboutSupport.experimentEndDate "End Date">
-<!ENTITY aboutSupport.experimentHomepage "Homepage">
-
+<!ENTITY aboutSupport.experimentDescription "Descrición">
+<!ENTITY aboutSupport.experimentActive "Activo">
+<!ENTITY aboutSupport.experimentEndDate "Data de remate">
+<!ENTITY aboutSupport.experimentHomepage "Páxina de inicio">
+<!ENTITY aboutSupport.experimentBranch "Branch">
 
 <!ENTITY aboutSupport.appBasicsTitle "Configuración básica do aplicativo">
 <!ENTITY aboutSupport.appBasicsName "Nome">
 <!ENTITY aboutSupport.appBasicsVersion "Versión">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "ID da compilación">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
-<!ENTITY aboutSupport.appBasicsUpdateHistory "Update History">
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Show Update History">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Canle de actualización">
+<!ENTITY aboutSupport.appBasicsUpdateHistory "Historial de actualizacións">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Amosar o historial de actualizacións">
 
 <!ENTITY aboutSupport.appBasicsProfileDir "Cartafol do perfil">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
@@ -52,19 +52,25 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memoria">
+<!ENTITY aboutSupport.appBasicsPerformance "Performance">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers rexistrados">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+<!ENTITY aboutSupport.appBasicsProfiles "Profiles">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Xanelas multiproceso">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Modo seguro">
 
 <!ENTITY aboutSupport.showDir.label "Abrir cartafol">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Mostrar no Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!ENTITY aboutSupport.showMac.label "Amosar no Finder">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Mostrar cartafol">
+<!ENTITY aboutSupport.showWin2.label "Open Folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Preferencias importantes modificadas">
 <!ENTITY aboutSupport.modifiedPrefsName "Nome">
@@ -74,9 +80,9 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "Preferencias de user.js">
 <!ENTITY aboutSupport.userJSDescription "O cartafol do seu perfil contén un ficheiro <a id='prefs-user-js-link'>user.js</a>, que inclúe preferencias que non foron creadas polo &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
-<!ENTITY aboutSupport.lockedPrefsName "Name">
-<!ENTITY aboutSupport.lockedPrefsValue "Value">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Preferencias importantes bloqueadas">
+<!ENTITY aboutSupport.lockedPrefsName "Nome">
+<!ENTITY aboutSupport.lockedPrefsValue "Valor">
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
@@ -99,10 +105,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Copiar texto ao portapapeis">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Copiar datos en crudo ao portapapeis">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
-<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.safeModeTitle "Probar modo seguro">
 <!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
 <!ENTITY aboutSupport.restartTitle "Try Restart">
 <!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Features">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostics">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Failure Log">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decision Log">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Crash Guard Disabled Features">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">

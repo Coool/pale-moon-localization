@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Datei nicht gefunden">
 <!ENTITY fileNotFound.longDesc "<ul><li>Könnte der Eintrag umbenannt, gelöscht oder verschoben worden sein?</li><li>Enthält die Adresse einen Rechtschreib-, Groß-/Kleinschreibungs- oder anderen Schreibfehler?</li><li>Haben Sie ausreichende Zugriffsrechte für den angeforderten Eintrag?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Zugriff auf die Datei wurde verweigert">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Sie wurde möglicherweise entfernt, verschoben, oder Dateiberechtigungen könnten den Zugriff verhindern.</li></ul>">
+
 <!ENTITY generic.title "Fehler: Anfrage konnte nicht ausgeführt werden">
 <!ENTITY generic.longDesc "<p>Weitere Informationen zu diesem Problem oder Fehler sind momentan nicht verfügbar.</p>">
 
@@ -75,30 +78,22 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Angreifende Website vermutet!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Angreifende Websites versuchen Programme zu installieren, die private Daten stehlen, Ihren Computer benutzen um andere anzugreifen oder Ihr System beschädigen</p>
-<p>Website-Inhaber, die glauben, dass ihre Website fälschlicherweise als angreifende Website gemeldet wurde, können unter <a href='https://www.stopbadware.org/request-review' > eine erneute Einschätzung beantragen</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Vermuteter Betrugsversuch!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Falls Sie hier persönliche Daten eingeben, müssen Sie mit Identitätsdiebstahl oder sonstigem Betrug rechnen.</p>
-<p>Diese Art von Internet-Betrug ist auch bekannt als Phishing. Dabei versuchen Kriminelle in betrügerischer Absicht, Webseiten oder E-Mails nachzuahmen, denen Sie eventuell vertrauen.</p>
+<!ENTITY securityOverride.linkText "Oder Sie können eine Ausnahme hinzufügen…">
+<!ENTITY securityOverride.warningContent "
+<p>Sie sollten keine Ausnahme hinzufügen, wenn Sie eine Internetverbindung verwenden, der Sie nicht komplett vertrauen, oder nicht gewohnt sind, diese Warnung für diesen Server zu sehen.</p>
+<p>Wenn Sie trotzdem eine Ausnahme für diese Website hinzufügen möchten, können Sie das in Ihren erweiterten Verschlüsselungseinstellungen tun.</p>
 ">
 
 <!ENTITY cspBlocked.title "Blockiert durch Inhaltsicherheitsrichtlinien (Content Security Policy)">
 <!ENTITY cspBlocked.longDesc "<p>Das Laden der Seite in dieser Weise wurde vom Browser verhindert, weil sie eine Sicherheitsrichtlinie hat, die das nicht erlaubt.</p>">
 
-<!ENTITY corruptedContentError.title "Fehler: Beschädigte Inhalte">
-<!ENTITY corruptedContentError.longDesc "<p>Die Seite, die Sie anzusehen versuchen, kann nicht angezeigt werden, da ein Fehler in der Datenübertragung festgestellt wurde.</p><ul><li>Bitte kontaktieren Sie die Website-Betreiber, um sie über dieses Problem zu informieren.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Fehler: Beschädigte Inhalte">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Die Seite, die Sie anzusehen versuchen, kann nicht angezeigt werden, da ein Fehler in der Datenübertragung festgestellt wurde.</p><ul><li>Bitte kontaktieren Sie die Website-Betreiber, um sie über dieses Problem zu verständigen.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote-XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Bitte informieren Sie den Website-Inhaber über dieses Problem.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Diese Verbindung ist nicht sicher">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> verwendet Sicherheitstechnologie, welche veraltet und verwundbar ist. Ein Angreifer könnte leicht Informationen entschlüsseln, welche Sie für sicher hielten. Der Website-Administrator muss dieses Problem auf dem Server beheben, bevor Sie die Seite aufrufen können.</p><p>Fehlercode: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

@@ -2,12 +2,22 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Error messages that are likely to be overridden by applications go in this
-     file, all messages that likely don't need to tie into app-specific UI
-     should go into netError.dtd -->
+<!-- This file exists to allow applications to override one or more messages
+     from netError.dtd; Applications which want to do this should override
+     this file with their own version of netErrorApp.dtd -->
+
+<!-- An example (from Firefox):
 
 <!ENTITY securityOverride.linkText "Oder Sie können eine Ausnahme hinzufügen…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Bring mich hier raus!">
+<!ENTITY securityOverride.exceptionButtonLabel "Ausnahme hinzufügen…">
+
 <!ENTITY securityOverride.warningContent "
 <p>Sie sollten keine Ausnahme hinzufügen, wenn Sie nicht absolutes Vertrauen in die Sicherheit Ihrer aktuellen Verbindung haben oder wenn Sie bisher keine Warnung für diesen Server erhalten haben.</p>
-<p>Wenn Sie immer noch eine Ausnahme für diese Seite hinzufügen möchten, können Sie dies in den erweiterten Verschlüsselungs-Einstellungen tun.</p>
+<p>Wenn Sie dennoch eine Ausnahme für diese Seite hinzufügen möchten, können Sie dies in den erweiterten Verschlüsselungsoptionen einstellen.</p>
+
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
+
+-->

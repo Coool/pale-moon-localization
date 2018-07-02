@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "П">
 <!ENTITY fullScreenExit.label "Вийти з повноекранного режиму">
 <!ENTITY fullScreenExit.accesskey "В">
-<!ENTITY fullscreenAllowButton.label "Дозволити">
-<!ENTITY fullscreenExitButton.label "Відмовити">
-<!ENTITY fullscreenApproval.value "Дозволити перехід в повноекранний режим?">
 
 <!ENTITY fullscreenExitHint.value "Натисніть Esc в будь-який момент, щоб вийти з повноекранного режиму.">
 <!ENTITY leaveDOMFullScreen.label "Вийти з повноекранного режиму">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Дозволи">
 <!ENTITY permissions.accesskey        "Д">
+<!ENTITY preferencesCmd2.label        "Налаштування">
+<!ENTITY preferencesCmd2.accesskey    "Н">
 
 <!ENTITY webDeveloperMenu.label       "Веб-розробка">
 <!ENTITY webDeveloperMenu.accesskey   "р">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Виділити все">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "с"> 
-<!ENTITY preferencesCmd2.label       "Налаштування">
-<!ENTITY preferencesCmd2.accesskey     "Н">
-<!ENTITY preferencesCmdUnix.label       "Налаштування">
-<!ENTITY preferencesCmdUnix.accesskey     "Н"> 
 
 <!ENTITY clearRecentHistory.label               "Видалити недавню історію…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Веб-розробка">
 <!ENTITY appMenuGettingStarted.label "Початок роботи">
 <!ENTITY appMenuSafeMode.label "Перезавантажити в безпечному режимі…">
-<!ENTITY appMenuSafeMode.accesskey "д">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Введіть пошуковий запит або адресу">
 <!ENTITY urlbar.accesskey             "с">
 <!ENTITY urlbar.switchToTab.label     "Перемкнутись на вкладку:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Перезавантажити…">
 <!ENTITY appMenuRestart.accesskey       "р">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Вийти"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "й">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Доступ до мікрофону:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "м">
 
-<!ENTITY webrtcIndicatorButton.label "Доступ до Камери / Мікрофону">
-<!ENTITY webrtcIndicatorButton.tooltip "Показати сайти, які зараз мають доступ до вашої камери або мікрофону">
 
-<!ENTITY mixedContentBlocked.helplink "Дізнатись більше">
 <!ENTITY mixedContentBlocked.moreinfo "Більшість сайтів все одно працюватимуть належним чином, навіть коли цей вміст заблоковано.">
 
 <!ENTITY pointerLock.notification.message "Натисніть ESC будь-коли, щоб показати його знову.">

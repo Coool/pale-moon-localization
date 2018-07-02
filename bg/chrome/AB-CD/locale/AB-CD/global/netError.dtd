@@ -19,6 +19,11 @@
 <!ENTITY fileNotFound.title "Файлът не е намерен">
 <!ENTITY fileNotFound.longDesc "<ul><li>Може ли елемента да е бил преименуван, премахнат или преместен?</li> <li>Има ли главни букви или друга правописна грешка в адреса?</li> <li>Имате ли достатъчно права за достъп до искания елемент?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Достъпът до файла е отказан">
+<!ENTITY fileAccessDenied.longDesc "<ul>
+  <li>Може да е премахнат, преместен или правата му да ограничават достъпа.</li>
+</ul>">
+
 <!ENTITY generic.title "Не може да се завърши заявката">
 <!ENTITY generic.longDesc "<p>Допълнителна информация за този проблем или грешка в момента не е налична.</p>">
 
@@ -78,31 +83,19 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Вероятен атакуващ сайт!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Сайтовете от този тип се опитват да инсталират програми, които крадат лична информация, може да повреди компютъра ви или да го използва, за да атакува други компютри.</p>
-<p>Собствениците на уеб сайтове, които са сигурни, че техните сайтове не са опасни, могат <a href='http://www.stopbadware.org/home/reviewinfo' >да поискат заявка за преразглеждане на това решение</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Вероятен измамнически сайт!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Въвеждането на каквато и да било лична информация в този сайт, може да доведе до нейното открадване или използването ѝ за други измамнически цели.</p>
-<p>Тези видове измамнически сайтове се използват за фишинг атаки, при които опасни сайтове и имейл адреси се представят за други, на които потребителите вярват, с цел да ги заблудят.</p>
-">
+<!ENTITY securityOverride.linkText "Или може да добавите изключение…">
+<!ENTITY securityOverride.warningContent "<p>Не трябва да добавяте изключение, ако използвате връзка към интернет, на която нямате пълно доверявате или ако не сте виждали предупреждение от този сървър.</p><p>Ако все пак искате да добавите изключение, може да го направите от разширените настройки на шифроването.</p>">
 
 <!ENTITY cspBlocked.title "Блокирано от съображения за сигурност">
 <!ENTITY cspBlocked.longDesc "<p>Браузъра попречи на тази страница да се зареди, защото страницата има правила за сигурност, които не позволяват това.</p>">
 
-<!ENTITY corruptedContentError.title "Грешка заради повредено съдъражние">
-<!ENTITY corruptedContentError.longDesc "<p>Страницата, която се опитвате да видите не може да бъде показана, 
-защото беше открита грешка при прехвърляне на данните.</p><ul><li>Моля, свържете се със собствениците на уеб сайта, за да ги уведомите за проблема.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Грешка поради развалено съдържание">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Страницата не може да бъде показана поради грешка при прехвърляне на данните.</p><ul><li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li></ul>">
 
 <!ENTITY remoteXUL.title "Отдалечен XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Моля, свържете се със собствениците на този сайт, за да ги информирате за проблема.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Връзката е незащитена">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> използва остаряла технология за сигурност, уязвима към атаки. Такива атаки могат лесно да разкрият информация, която мислите, че е защитена. Администраторът на сайта трябва да поправи сървъра преди да може да използвате сайта.</p><p>Код на грешка: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

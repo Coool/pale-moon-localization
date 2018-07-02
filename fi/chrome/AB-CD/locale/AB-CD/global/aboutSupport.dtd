@@ -14,10 +14,10 @@
 <!ENTITY aboutSupport.crashes.title "Kaatumisraportit">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "Ilmoitustunnus">
+<!ENTITY aboutSupport.crashes.id "Ilmoituksen tunnus">
 <!ENTITY aboutSupport.crashes.sendDate "Lähetetty">
-<!ENTITY aboutSupport.crashes.allReports "Kaikki kaatumisraportit">
-<!ENTITY aboutSupport.crashes.noConfig "Tätä sovellusta ei ole asetettu näyttämään kaatumisraportteja.">
+<!ENTITY aboutSupport.crashes.allReports "Kaikki kaatumisilmoitukset">
+<!ENTITY aboutSupport.crashes.noConfig "Tätä ohjelmaa ei ole säädetty näyttämään kaatumisilmoituksia.">
 
 <!ENTITY aboutSupport.extensionsTitle "Laajennukset">
 <!ENTITY aboutSupport.extensionName "Nimi">
@@ -27,12 +27,12 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!ENTITY aboutSupport.experimentsTitle "Kokeelliset ominaisuudet">
 <!ENTITY aboutSupport.experimentName "Nimi">
-<!ENTITY aboutSupport.experimentId "Tunnus">
+<!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Kuvaus">
-<!ENTITY aboutSupport.experimentActive "Aktiivinen">
-<!ENTITY aboutSupport.experimentEndDate "Päättymispäivä">
+<!ENTITY aboutSupport.experimentActive "Käynnissä">
+<!ENTITY aboutSupport.experimentEndDate "Loppumispäivämäärä">
 <!ENTITY aboutSupport.experimentHomepage "Kotisivu">
-
+<!ENTITY aboutSupport.experimentBranch "Kanava">
 
 <!ENTITY aboutSupport.appBasicsTitle "Ohjelman perustiedot">
 <!ENTITY aboutSupport.appBasicsName "Nimi">
@@ -56,19 +56,25 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Selaintunniste">
 <!ENTITY aboutSupport.appBasicsOS "Käyttöjärjestelmä">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Muistin käyttö">
+<!ENTITY aboutSupport.appBasicsPerformance "Suorituskyky">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Moniprosessi-ikkunoita">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Rekisteröidyt Service Workers -apukomentosarjat">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Suojattu tila">
+<!ENTITY aboutSupport.appBasicsProfiles "Profiilit">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Usean prosessin ikkunoita">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Vikasietotila">
 
 <!ENTITY aboutSupport.showDir.label "Avaa kansio">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Avaa Finderissa">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Avaa kansio">
+<!ENTITY aboutSupport.showWin2.label "Avaa kansio">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Tärkeät muutetut asetukset">
 <!ENTITY aboutSupport.modifiedPrefsName "Nimi">
@@ -78,15 +84,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js-asetukset">
 <!ENTITY aboutSupport.userJSDescription "Profiilisi sisältää <a id='prefs-user-js-link'>user.js-tiedoston</a>, joka sisältää muiden kuin &brandShortName;in määrittelemät asetukset.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "Tärkeät lukitut preferenssit">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Tärkeät lukitut asetukset">
 <!ENTITY aboutSupport.lockedPrefsName "Nimi">
 <!ENTITY aboutSupport.lockedPrefsValue "Arvo">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafiikka">
 
 <!ENTITY aboutSupport.placeDatabaseTitle "Places-tietokanta">
-<!ENTITY aboutSupport.placeDatabaseIntegrity "Eheys">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Todenna eheys">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Virheettömyys">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Tarkista virheettömyys">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Jatkuva roskienkeräys">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopioi teksti leikepöydälle">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopioi muokkaamaton data leikepöydälle">
 
-<!ENTITY aboutSupport.sandboxTitle "Hiekkalaatikko">
+<!ENTITY aboutSupport.safeModeTitle "Kokeile vikasietotilaa">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.safeModeTitle "Kokeile suojattua tilaa">
-<!ENTITY aboutSupport.restartInSafeMode.label "Käynnistä vikasietotilassa…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
 
-<!ENTITY aboutSupport.restartTitle "Kokeile uudelleenkäynnistystä">
-<!ENTITY aboutSupport.restartNormal.label "Käynnistä normaalisti…">
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Ominaisuudet">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostiikka">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Virheloki">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Päätösloki">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Kaatumisvahdin käytöstä poistamat ominaisuudet">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Hätäratkaisut">

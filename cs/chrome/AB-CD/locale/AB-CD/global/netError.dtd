@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Soubor nenalezen">
 <!ENTITY fileNotFound.longDesc "<p>Požadovaný soubor nebyl na zadané URL adrese nalezen. Je možné, že byl odstraněn, přejmenován nebo přesunut.</p><ul><li>Zkontrolujte prosím, zda je URL adresa napsána správně, a to včetně velikosti písmen.</li><li>Jste-li autorem tohoto souboru, ověřte, že daný soubor na serveru existuje a že má příslušná oprávnění na zobrazení.</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Přístup k souboru byl odepřen">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Možná byl odebrán, přesunut nebo jeho oprávnění zabraňují přístupu.</li></ul>">
+
 <!ENTITY generic.title "Nepodařilo se dokončit požadavek">
 <!ENTITY generic.longDesc "<p>Další informace o této chybě nejsou bohužel dostupné.</p>">
 
@@ -75,30 +78,22 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Podezřelá útočná stránka!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Útočné stránky se pokouší nainstalovat programy, které kradou vaše důvěrná data, používají váš počítač k dalším útokům, nebo jakkoliv poničí váš systém.</p>
-<p>Vlastníci webových stránek, kteří jsou přesvědčeni, že jejich stránky byly nahlášeny omylem jako útočné, mohou <a href='https://www.stopbadware.org/request-review'>požádat o kontrolu</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Podezřelá podvodná stránka!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Vložení osobních informací na takovéto stránce může skončit krádeží identity nebo jiným podvodem.</p>
-<p>Tyto podvodné stránky nazývané též útoky typu phishing se snaží zpravidla napodobit webové stránky nebo e-maily ze zdrojů, kterým věříte.</p>
+<!ENTITY securityOverride.linkText "Nebo můžete přidat výjimku…">
+<!ENTITY securityOverride.warningContent "
+<p>Není doporučováno přidávat výjimku, pokud nemůžete svému internetovému spojení plně důvěřovat nebo pokud nejste u tohoto serveru zvyklí vídat podobná varování.</p>
+<p>Pokud si přesto přejete výjimku pro tuto stránku přidat, můžete tak učinit v rozšířeném nastavení šifrování.</p>
 ">
 
 <!ENTITY cspBlocked.title "Zablokováno dle bezpečnostních pravidel obsahu">
 <!ENTITY cspBlocked.longDesc "<p>Aplikace zabránila načtení této stránky, protože takovýto způsob načtení bezpečnostní pravidla této stránky zakazují.</p>">
 
-<!ENTITY corruptedContentError.title "Chyba v obsahu stránky">
-<!ENTITY corruptedContentError.longDesc "<p>Požadovanou stránku nelze zobrazit, protože přenesená data jsou chybná.</p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Chyba v obsahu stránky">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Požadovanou stránku nelze zobrazit, protože při přenosu dat došlo k chybě.</p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul>">
 
 <!ENTITY remoteXUL.title "Vzdálené XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Vaše připojení není zabezpečené">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> používá technologii, která je zastaralá a náchylná k útoku. Útočník může snadno získat informace, které si myslíte, že jsou zabezpečené. Správce serveru musí server opravit předtím, než budete moci stránku navštívit.</p><p>Kód chyby: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

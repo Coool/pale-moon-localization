@@ -1,0 +1,54 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY permissionsManager.title        "Gerenciador de Permissões">
+
+<!ENTITY sites.search                    "Localizar sites">
+<!ENTITY sites.allSites                  "Todos os sites">
+
+<!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
+     surround the host name of the site to make the header for the permissions page.
+     example: "Permissions for mozilla.org" -->
+<!ENTITY header.site.start               "Permissões para">
+<!ENTITY header.site.end                 "">
+
+<!ENTITY header.defaults                 "Permissões padrão para todos os sites">
+
+<!ENTITY permissions.sitesReload         "Recarregar lista de sites">
+
+<!ENTITY permissions.forgetSite          "Limpar tudo sobre este site">
+
+<!ENTITY permission.default              "Usar o padrão">
+
+<!ENTITY permission.alwaysAsk            "Perguntar sempre">
+<!ENTITY permission.allow                "Permitir">
+<!ENTITY permission.allowForSession      "Permitir para essa sessão">
+<!ENTITY permission.allowFirstPartyOnly  "Permitir somente as originadas do próprio site">
+<!ENTITY permission.block                "Bloquear">
+
+<!ENTITY password.label                  "Memorizar senhas">
+<!ENTITY password.manage                 "Gerenciar as senhas…">
+
+<!ENTITY image.label                     "Carregar imagens">
+
+<!ENTITY cookie.label                    "Definir Cookies">
+<!ENTITY cookie.remove                   "Excluir Cookies">
+<!ENTITY cookie.manage                   "Gerenciar Cookies…">
+<!ENTITY cookie.removeAll                "Excluir todos os cookies">
+
+<!ENTITY desktop-notification.label      "Exibir notificações">
+
+<!ENTITY install.label                   "Instalar extensões ou temas">
+
+<!ENTITY geo.label                       "Compartilhar localização">
+
+<!ENTITY plugins.label                   "Plugins">
+
+<!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
+     using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
+<!ENTITY indexedDB.label                 "Preservar armazenamento offline">
+
+<!ENTITY popup.label                     "Abrir janelas popup">
+
+<!ENTITY focusSearch.key                 "f">

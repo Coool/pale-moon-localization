@@ -2,103 +2,87 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "Page Load Error">
-<!ENTITY retry.label "Try Again">
+<!ENTITY loadError.label "مشكلة في تحميل الصفحة">
+<!ENTITY retry.label "حاوِل مجددًا">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Failed to Connect">
-<!ENTITY connectionFailure.longDesc "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY connectionFailure.title "تعذر الاتصال">
+<!ENTITY connectionFailure.longDesc "<p>بالرغم من أن الموقع يبدو صحيحا، لم يستطع المتصفح الاتصال به.</p><ul><li>ربما الموقع غير متوفر مؤقتًا؟ حاول فيما بعد</li><li>هل لا تستطيع تصفح المواقع الأخرى؟  تأكد من وصلة حاسوبك بالشبكة.</li><li>حاسوبك أو شبكتك محمية بجدار ناري أو وسيط؟ الإعدادات الخطأ قد تتعارض مع تصفح الوِب.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Port Restricted for Security Reasons">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>palemoon.org:25</q> for port 25 on palemoon.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "المنفذ ممنوع لأسباب الأمان">
+<!ENTITY deniedPortAccess.longDesc "<p>حدَّد العنوان المطلوب منفذا (مثال <q>mozilla.org:80</q> من أجل المنفذ 80 على mozilla.org) يُستخدم عادة لأسباب <em>غير</em> تصفّح الوِب. ألغى المتصفّح الطّلب لحمايتك وأمنك.</p>">
 
-<!ENTITY dnsNotFound.title "Address Not Found">
-<!ENTITY dnsNotFound.longDesc "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>">
+<!ENTITY dnsNotFound.title "العنوان غير موجود">
+<!ENTITY dnsNotFound.longDesc "<p>لم يعثر المتصفح على الخادوم المستضيف للعنوان المعطى.</p><ul><li>هل قمت بخطأ في كتابة النطاق؟ (مثل <q><strong>ww</strong>.mozilla.org</q> بدلا من <q><strong>www</strong>.mozilla.org</q>)</li><li>أمتأكد من وجود عنوان النطاق هذا؟  ربما قد يكون انتهى تسجيله.</li><li>ألا تستطيع تصفح المواقع الأخرى؟  راجع إعدادات الشبكة وخادوم DNS.</li><li>حاسوبك أو شبكتك محمية بجدار ناري أو وسيط؟  الإعدادات الخطأ قد تتعارض مع تصفح الوِب.</li></ul>">
 
-<!ENTITY fileNotFound.title "File Not Found">
-<!ENTITY fileNotFound.longDesc "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>">
+<!ENTITY fileNotFound.title "الملف غير موجود">
+<!ENTITY fileNotFound.longDesc "<ul><li>ربما حُذِف العنصر، تغير اسمه، أو مكانه؟</li><li>هل هناك خطأ إملائي أو مطبعي في العنوان؟</li><li>هل لديك صلاحيات كافية للنفاذ إلى العنصر المطلوب؟</li></ul>">
 
-<!ENTITY generic.title "Cannot Complete Request">
-<!ENTITY generic.longDesc "<p>Additional information about this problem or error is currently unavailable.</p>">
+<!ENTITY fileAccessDenied.title "مُنِع الوصول للملف">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>قد يكون حُذِف أو نُقِل أو أن صلاحيّات الملف تمنع الوصول إليه.</li></ul>">
 
-<!ENTITY malformedURI.title "Invalid Address">
-<!ENTITY malformedURI.longDesc "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>">
+<!ENTITY generic.title "تعذّر إكمال الطلب">
+<!ENTITY generic.longDesc "<p>لا يوجد حاليا المزيد من المعلومات حول هذه المشكلة أو الخطأ.</p>">
 
-<!ENTITY netInterrupt.title "Data Transfer Interrupted">
-<!ENTITY netInterrupt.longDesc "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY malformedURI.title "عنوان غير صحيح">
+<!ENTITY malformedURI.longDesc "<p>تنسيق العنوان المُعطى غير معروف. من فضلك راجع شريط العنوان بحثا عن أخطاء ثم أعد المحاولة.</p>">
 
-<!ENTITY notCached.title "Document Expired">
-<!ENTITY notCached.longDesc "<p>The requested document is not available in the browser's cache.</p><ul><li>As a security precaution, the browser does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
+<!ENTITY netInterrupt.title "قُوطِع نقل البيانات">
+<!ENTITY netInterrupt.longDesc "<p>اتصل المتصفح بنجاح، لكن قطع الاتصال أثناء نقل البيانات.  من فضلك أعد المحاولة.</p><ul><li>ألا تستطيع تصفح المواقع الأخرى؟ راجع اتصال الحاسوب بالشبكة</li><li>أمازلت تواجه مشاكل؟ راجع مدير الشبكة أو مزود الخدمة للمساعدة</li></ul>">
 
-<!ENTITY netOffline.title "Offline Mode">
-<!ENTITY netOffline.longDesc2 "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Press &quot;Try Again&quot; to switch to online mode and reload the page.</li></ul>">
+<!ENTITY notCached.title "انتهت صلاحية المستند">
+<!ENTITY notCached.longDesc "<p>المستند المطلوب لم يعد متوفرًا في ذاكرة المتصفح الخبيئة.</p><ul><li>كإجراء وقائي، المتصفح لا يعيد طلب المستندات الحساسة بشكل آلي.</li><li>اضغط على 'حاول مجددًا' لإعادة طلب المستند من الموقع.</li></ul>">
 
-<!ENTITY contentEncodingError.title "Content Encoding Error">
-<!ENTITY contentEncodingError.longDesc "<p>The page you are trying to view cannot be shown because it uses an invalid or unsupported form of compression.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY netOffline.title "وضع بدون اتصال">
+<!ENTITY netOffline.longDesc2 "<p>المتصفح يعمل في وضع اللا اتصال ولا يستطيع تحميل العنصر المطلوب.</p><ul><li>هل الحاسوب متصل بشبكة نشِطة؟</li><li>اضغط على ”حاول مجددًا“ للتبديل إلى وضع الاتصال وإعادة تحميل الصفحة.</li></ul>">
 
-<!ENTITY unsafeContentType.title "Unsafe File Type">
-<!ENTITY unsafeContentType.longDesc "
-<ul>
-  <li>Please contact the website owners to inform them of this problem.</li>
-</ul>
-">
+<!ENTITY contentEncodingError.title "ترميز محتوى خاطئ">
+<!ENTITY contentEncodingError.longDesc "<p>الصفحة التي تحاول فتحها لا يمكن عرضها لأنها تستخدم صيغة ضغط غير سليمة أو غير مدعومة.</p><ul><li>الرجاء الاتصال أصحاب الموقع لإخبارهم بهذه المشكلة. </li></ul>">
 
-<!ENTITY netReset.title "Connection Interrupted">
-<!ENTITY netReset.longDesc "<p>The network link was interrupted while negotiating a connection. Please try again.</p>">
+<!ENTITY unsafeContentType.title "نوع ملف غير آمن">
+<!ENTITY unsafeContentType.longDesc "<ul> <li>من فضلك اتصل بمالكي الموقع لإعلامهم بهذه المشكلة.</li> </ul>">
 
-<!ENTITY netTimeout.title "Network Timeout">
-<!ENTITY netTimeout.longDesc "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY netReset.title "قُوطِع الاتصال">
+<!ENTITY netReset.longDesc "<p>قُطعت وصلة الشبكة أثناء بدأ الاتصال. أعد المحاولة رجاءً.</p>">
 
-<!ENTITY unknownProtocolFound.title "Unknown Protocol">
-<!ENTITY unknownProtocolFound.longDesc "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>">
+<!ENTITY netTimeout.title "انتهت مهلة الشبكة">
+<!ENTITY netTimeout.longDesc "<p>لم يستجب الموقع المطلوب لطلب الاتصال، وتوقف المتصفح عن انتظار رده.</p><ul><li>ربما يواجه الخادوم طلبا متزايدا أو يعاني من انقطاع مؤقت؟  أعد المحاولة فيما بعد.</li><li>ألا تستطيع تصفح المواقع الأخرى؟ راجع اتصال الحاسوب بالشبكة.</li><li>حاسوبك أو شبكتك محمية بجدار ناري أو وسيط؟  الإعدادات الخطأ قد تتعارض مع تصفح الوِب.</li><li>أمازلت تواجه مشاكل؟ راجع مدير الشبكة أو مزود الخدمة للمساعدة</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Proxy Server Refused Connection">
-<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY unknownProtocolFound.title "بروتوكول مجهول">
+<!ENTITY unknownProtocolFound.longDesc "<p>يحدد العنوان بروتوكولا (مثلا: <q>wxyz://</q>) لا يتعرفه المتصفح، لذا لا يستطيع المتصفح الاتصال بالموقع بشكل سليم.</p><ul><li>هل تحاول الوصول لمحتوى متعدد الوسائط أو خدمة غير نصية؟ راجع الموقع لمتطلبات إضافية.</li><li>قد تحتاج بعض البروتوكولات لبرامج إضافية أو ملحقات ليستطيع المتصفح التعرف عليها.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Proxy Server Not Found">
-<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
+<!ENTITY proxyConnectFailure.title "رفض الخادوم الوسيط الاتصال">
+<!ENTITY proxyConnectFailure.longDesc "<p>ضُبِط المتصفح ليستخدم خادوما وسيطا، لكن الوسيط رفض الاتصال.</p><ul><li>هل إعدادات الوسيط سليمة؟ تأكد من الإعدادات وأعد المحاولة.</li><li>هل يسمح الخادوم الوسيط بالاتصالات من هذه الشبكة؟</li><li>أمازلت تواجه مشاكل؟ راجع مدير الشبكة أو مزود الخدمة للمساعدة</li></ul>">
 
-<!ENTITY redirectLoop.title "Redirect Loop">
-<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+<!ENTITY proxyResolveFailure.title "لم يُعثر على خادوم وسيط">
+<!ENTITY proxyResolveFailure.longDesc "<p>ضُبِط المتصفح ليستخدم خادوما وسيطا، لكن تعذّر العثور على الوسيط.</p><ul><li>هل إعدادات الوسيط سليمة؟ تأكد من الإعدادات وأعد المحاولة.</li><li>هل يتصل الحاسوب بشبكة تعمل؟</li><li>أمازلت تواجه مشاكل؟ راجع مدير الشبكة أو مزود الخدمة للمساعدة</li></ul>">
 
-<!ENTITY unknownSocketType.title "Incorrect Response">
-<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
+<!ENTITY redirectLoop.title "حلقة إعادة توجيه">
+<!ENTITY redirectLoop.longDesc "<p>توقف المتصفح عن محاولة جلب العنصر المطلوب. يعيد الموقع توجيه الطلب بصورة لن تتم أبدا.</p><ul><li>هل عطّلت أو منعت الكعكات من هذا الموقع؟</li><li><em>ملاحظة</em>: إذا كان قبول كعكات هذا الموقع لا يحل مشكلتك، فهذه على الأرجح مشكلة في إعدادات الخادوم وليس حاسوبك.</li></ul>">
 
-<!ENTITY nssFailure2.title "Secure Connection Failed">
-<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY unknownSocketType.title "استجابة غير صحيحة">
+<!ENTITY unknownSocketType.longDesc "<p>استجاب الموقع لطلب الشبكة بطرقة غير متوقعة ولا يستطيع التصفح الاستمرار.</p>">
 
-<!ENTITY nssBadCert.title "Secure Connection Failed">
-<!ENTITY nssBadCert.longDesc2 "<ul>
-<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
-<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
-</ul>
-">
+<!ENTITY nssFailure2.title "الاتصال الآمن فشل">
+<!ENTITY nssFailure2.longDesc2 "<p>الصفحة التي تحاول فتحها لا يمكن عرضها لأن صحة البيانات المستلمة لا يمكن تأكيدها.</p><ul><li>الرجاء الاتصال بأصحاب الموقع لإخبارهم بهذه المشكلة.</li></ul>">
 
-<!ENTITY malwareBlocked.title "Suspected Attack Site!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Attack sites try to install programs that steal private information, use your computer to attack others, or damage your system.</p>
-<p>Website owners who believe their site has been reported as an attack site in error may <a href='https://www.stopbadware.org/request-review' >request a review</a>.</p>
-">
+<!ENTITY nssBadCert.title "الاتصال الآمن فشل">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>قد تكون هذه مشكلة في إعدادات الخادوم، أو ربما يحاول شخص ما تقليد الخادوم.</li> <li>إذا كنت قد اتصلت بالموقع بنجاح في الماضي، فقد يكون الخطأ مؤقتا ويمكنك المحاولة فيما بعد.</li> </ul>">
 
-<!ENTITY phishingBlocked.title "Suspected Web Forgery!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Entering any personal information on this page may result in identity theft or other fraud.</p>
-<p>These types of web forgeries are used in scams known as phishing attacks, in which fraudulent web pages and emails are used to imitate sources you may trust.</p>
-">
+<!ENTITY securityOverride.linkText "أو يمكنك إضافة استثناء…">
+<!ENTITY securityOverride.warningContent "<p>يجب ألا تضيف استثناءً إذا كنت تستخدم اتصال إنترنت لا تثق به تمامًا أو إذا لم تعتد على رؤية تحذير من هذا الخادوم.</p><p>إذا ما زلت تريد إضافة استثناء لهذا الموقع، يمكنك ذلك من إعدادات التعمية المتقدمة.</p>">
 
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>The browser prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+<!ENTITY cspBlocked.title "حجبتها سياسة أمن المحتوى">
+<!ENTITY cspBlocked.longDesc "<p>منع المتصفح هذه الصفحة من التحميل بهذه الطريقة لأنها تملك سياسة أمن للمحتوى لا تسمح بذلك.</p>">
 
-<!ENTITY corruptedContentError.title "Corrupted Content Error">
-<!ENTITY corruptedContentError.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "خطأ: محتوى فاسد">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>تعذر عرض الصفحة التي تريد مشاهدتها بسبب خطأ أثناء نقل البيانات.</p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Please contact the website owners to inform them of this problem.</li></ul></p>">
+<!ENTITY remoteXUL.title "XUL بعيد">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "اتّصالك غير آمن">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p>يستخدم <span class='hostname'></span> تقنية أمنية عتيقة و عرضة للهجوم. يمكن لمهاجم بسهولة الاطلاع على معلومات تظنها بمأمن. على مدير الموقع إصلاح الخادوم قبل أن يمكنك زيارة الموقع.</p><p>رمز العطل: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

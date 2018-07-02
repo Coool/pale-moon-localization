@@ -13,7 +13,7 @@
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
-<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Navigare fără urme)">
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Navigare privată)">
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Reîncarcă fila">
@@ -24,48 +24,48 @@
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Închide filele de la dreapta">
-<!ENTITY  closeTabsToTheEnd.accesskey        "D">
+<!ENTITY  closeTabsToTheEnd.accesskey        "d">
 <!ENTITY  closeOtherTabs.label               "Închide celelalte file">
-<!ENTITY  closeOtherTabs.accesskey           "Î">
+<!ENTITY  closeOtherTabs.accesskey           "o">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                       "Fixare filă">
-<!ENTITY  pinTab.accesskey                   "f">
+<!ENTITY  pinTab.label                       "Fixează fila">
+<!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "Anulează fixarea">
-<!ENTITY  unpinTab.accesskey                 "x">
-<!ENTITY  moveToNewWindow.label              "Mutare în fereastră nouă">
-<!ENTITY  moveToNewWindow.accesskey          "M">
-<!ENTITY  bookmarkAllTabs.label              "Pune semne de carte la toate filele...">
+<!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  moveToNewWindow.label              "Mută într-o fereastră nouă">
+<!ENTITY  moveToNewWindow.accesskey          "W">
+<!ENTITY  bookmarkAllTabs.label              "Însemnează toate filele…">
 <!ENTITY  bookmarkAllTabs.accesskey          "t">
 <!ENTITY  undoCloseTab.label                 "Anulează închiderea filei">
 <!ENTITY  undoCloseTab.accesskey             "u">
 <!ENTITY  closeTab.label                     "Închide fila">
 <!ENTITY  closeTab.accesskey                 "c">
 
-<!ENTITY  listAllTabs.label      "Listă cu toate filele">
+<!ENTITY  listAllTabs.label      "Listează toate filele">
 
 <!ENTITY tabCmd.label "Filă nouă">
-<!ENTITY tabCmd.accesskey "F">
+<!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "Deschide o adresă...">
+<!ENTITY openLocationCmd.label "Deschide locația…">
 <!ENTITY openLocationCmd.accesskey "a">
-<!ENTITY openFileCmd.label "Deschide un fișier...">
-<!ENTITY openFileCmd.accesskey "u">
+<!ENTITY openFileCmd.label "Deschide fișierul…">
+<!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.commandkey "o">
-<!ENTITY printSetupCmd.label "Aranjare în pagină...">
-<!ENTITY printSetupCmd.accesskey "g">
-<!ENTITY printPreviewCmd.label "Previzualizare tipărire">
-<!ENTITY printPreviewCmd.accesskey "t">
+<!ENTITY printSetupCmd.label "Aranjare în pagină…">
+<!ENTITY printSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "Previzualizează pentru tipărire">
+<!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Tipărește…">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "p">
 
 <!ENTITY goOfflineCmd.label "Lucrează offline">
-<!ENTITY goOfflineCmd.accesskey "z">
+<!ENTITY goOfflineCmd.accesskey "k">
 
 <!ENTITY restartCmd.label "Restart…">
 <!ENTITY restartCmd.accesskey "R">
@@ -74,15 +74,15 @@ can reach it easily. -->
 <!ENTITY menubarCmd.accesskey "m">
 <!ENTITY navbarCmd.label "Bară de navigare">
 <!ENTITY navbarCmd.accesskey "n">
-<!ENTITY personalbarCmd.label "Bară pentru semne de carte">
+<!ENTITY personalbarCmd.label "Bara semnelor de carte">
 <!ENTITY personalbarCmd.accesskey "B">
-<!ENTITY bookmarksToolbarItem.label "Elemente pe bara pentru semne de carte">
+<!ENTITY bookmarksToolbarItem.label "Elemente pe bara semnelor de carte">
 <!ENTITY addonBarCmd.label "Bară de suplimente">
 <!ENTITY addonBarCmd.accesskey "a">
 <!ENTITY statusBar.label               "Bară de stare">
 <!ENTITY statusBar.accesskey           "S">
 
-<!ENTITY pageSourceCmd.label "Sursă pagină">
+<!ENTITY pageSourceCmd.label "Sursa paginii">
 <!ENTITY pageSourceCmd.accesskey "u">
 <!ENTITY pageSourceCmd.commandkey "u">
 <!ENTITY pageInfoCmd.label "Informații despre pagină">
@@ -90,42 +90,39 @@ can reach it easily. -->
 <!ENTITY pageInfoCmd.commandkey "i">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
-<!ENTITY enterFullScreenCmd.label "Vedeți pe tot ecranul">
-<!ENTITY enterFullScreenCmd.accesskey "e">
-<!ENTITY exitFullScreenCmd.label "Ieșire din modul pe tot ecranul">
-<!ENTITY exitFullScreenCmd.accesskey "e">
-<!ENTITY fullScreenCmd.label "Pe tot ecranul">
-<!ENTITY fullScreenCmd.accesskey "n">
+<!ENTITY enterFullScreenCmd.label "Intră în ecran complet">
+<!ENTITY enterFullScreenCmd.accesskey "F">
+<!ENTITY exitFullScreenCmd.label "Ieși din ecran complet">
+<!ENTITY exitFullScreenCmd.accesskey "F">
+<!ENTITY fullScreenCmd.label "Ecran complet">
+<!ENTITY fullScreenCmd.accesskey "F">
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Arată toate filele">
-<!ENTITY showAllTabsCmd.accesskey "A">
+<!ENTITY showAllTabsCmd.accesskey "a">
 
 <!ENTITY fullScreenMinimize.tooltip "Minimizează">
-<!ENTITY fullScreenRestore.tooltip "Revenire">
+<!ENTITY fullScreenRestore.tooltip "Restaurează">
 <!ENTITY fullScreenClose.tooltip "Închide">
 <!ENTITY fullScreenAutohide.label "Ascunde barele de unelte">
-<!ENTITY fullScreenAutohide.accesskey "A">
-<!ENTITY fullScreenExit.label "Revenire din modul „ecran complet”">
-<!ENTITY fullScreenExit.accesskey "R">
-<!ENTITY fullscreenAllowButton.label "Permite">
-<!ENTITY fullscreenExitButton.label "Interzice">
-<!ENTITY fullscreenApproval.value "Permiteți vederea pe tot ecranul?">
+<!ENTITY fullScreenAutohide.accesskey "H">
+<!ENTITY fullScreenExit.label "Ieși din modul ecran complet">
+<!ENTITY fullScreenExit.accesskey "F">
 
 <!ENTITY fullscreenExitHint.value "Apăsați ESC oricând pentru a ieși din vederea pe tot ecranul.">
-<!ENTITY leaveDOMFullScreen.label "Revenire la ecran normal">
+<!ENTITY leaveDOMFullScreen.label "Ieși din ecranul complet">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
 
 <!ENTITY closeWindow.label "Închide fereastra">
 <!ENTITY closeWindow.accesskey "d">
 
 <!ENTITY bookmarksMenu.label "Semne de carte">
-<!ENTITY bookmarksMenu.accesskey "S">
-<!ENTITY bookmarkThisPageCmd.label "Pune un semn la această pagină">
+<!ENTITY bookmarksMenu.accesskey "B">
+<!ENTITY bookmarkThisPageCmd.label "Însemnează această pagină">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY subscribeToPageMenupopup.label "Abonare la această pagină">
-<!ENTITY subscribeToPageMenuitem.label "Abonare la această pagină...">
-<!ENTITY addCurPagesCmd.label "Pune semne de carte la toate filele...">
+<!ENTITY subscribeToPageMenupopup.label "Abonează-te la această pagină">
+<!ENTITY subscribeToPageMenuitem.label "Abonează-te la această pagină…">
+<!ENTITY addCurPagesCmd.label "Însemnează toate filele…">
 <!ENTITY showAllBookmarks2.label "Arată toate semnele de carte">
 <!ENTITY organizeBookmarks.label "Organizează Semnele de carte">
 <!ENTITY unsortedBookmarksCmd.label "Semne de carte nesortate">
@@ -137,11 +134,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY forwardCmd.label             "Înainte">
 <!ENTITY forwardCmd.accesskey         "n">
 <!ENTITY forwardButton.tooltip        "Mergi cu o pagină înainte">
-<!ENTITY backForwardButtonMenu.tooltip "Clic dreapta sau trageți în jos pentru a vedea istoricul">
-<!ENTITY backForwardButtonMenuMac.tooltip "Trageți în jos pentru a vedea istoricul">
+<!ENTITY backForwardButtonMenu.tooltip "Clic-dreapta sau trage în jos pentru a afișa istoricul">
+<!ENTITY backForwardButtonMenuMac.tooltip "Trage în jos pentru a afișa istoricul">
 <!ENTITY reloadCmd.label              "Reîncarcă">
 <!ENTITY reloadCmd.accesskey          "R">
-<!ENTITY reloadButton.tooltip         "Reîncarcă pagina curentă">
+<!ENTITY reloadButton.tooltip         "Reîncarcă pagina actuală">
 <!ENTITY stopCmd.label                "Oprește">
 <!ENTITY stopCmd.accesskey            "O">
 <!ENTITY stopCmd.macCommandKey        ".">
@@ -166,7 +163,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksButton.label          "Semne de carte">
 <!ENTITY bookmarksButton.tooltip        "Afișează semnele dumneavoastră de carte">
-<!ENTITY bookmarksCmd.commandkey "r">
+<!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Semne de carte">
 <!ENTITY bookmarksMenuButton.tooltip        "Afișează semnele dumneavoastră de carte">
@@ -177,7 +174,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
-<!ENTITY bookmarksGtkCmd.commandkey "n">
+<!ENTITY bookmarksGtkCmd.commandkey "o">
 <!ENTITY bookmarksWinCmd.commandkey "i">
 
 <!ENTITY historyButton.label            "Istoric">
@@ -185,11 +182,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "Unelte">
-<!ENTITY toolsMenu.accesskey          "U"> 
+<!ENTITY toolsMenu.accesskey          "t"> 
 
-<!ENTITY keywordfield.label           "Adaugă un cuvânt cheie pentru căutare...">
-<!ENTITY keywordfield.accesskey       "h">
-<!ENTITY search.label                 "Căutare pe web">
+<!ENTITY keywordfield.label           "Adaugă un cuvânt cheie pentru această căutare…">
+<!ENTITY keywordfield.accesskey       "K">
+<!ENTITY search.label                 "Căutare ">
 <!ENTITY search.accesskey             "C">
 <!ENTITY downloads.label              "Descărcări">
 <!ENTITY downloads.tooltip            "Afișează progresul fișierelor în curs de descărcare">
@@ -197,10 +194,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY downloads.commandkey         "j">
 <!ENTITY downloadsUnix.commandkey     "y">
 <!ENTITY addons.label                 "Suplimente">
-<!ENTITY addons.accesskey             "S">
+<!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Permissions">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "Opțiuni">
+<!ENTITY preferencesCmd2.accesskey    "O">
 
 <!ENTITY webDeveloperMenu.label       "Dezvoltator web">
 <!ENTITY webDeveloperMenu.accesskey   "w">
@@ -218,7 +217,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY browserConsoleCmd.accesskey  "c">
 
 <!ENTITY inspectContextMenu.label     "Inspectează elementul">
-<!ENTITY inspectContextMenu.accesskey "I">
+<!ENTITY inspectContextMenu.accesskey "S">
 
 <!ENTITY responsiveDesignTool.label   "Vizualizare design receptiv">
 <!ENTITY responsiveDesignTool.accesskey "R">
@@ -271,8 +270,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label        "Fereastră nouă">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "n">
-<!ENTITY newPrivateWindow.label     "Fereastră fără urme nouă">
-<!ENTITY newPrivateWindow.accesskey "m">
+<!ENTITY newPrivateWindow.label     "Fereastră privată nouă">
+<!ENTITY newPrivateWindow.accesskey "W">
 
 <!ENTITY editMenu.label         "Editare"> 
 <!ENTITY editMenu.accesskey       "E"> 
@@ -293,32 +292,28 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.accesskey         "p"> 
 <!ENTITY deleteCmd.label          "Șterge">  
 <!ENTITY deleteCmd.key            "D">  
-<!ENTITY deleteCmd.accesskey        "r"> 
+<!ENTITY deleteCmd.accesskey        "D"> 
 <!ENTITY selectAllCmd.label         "Selectează tot">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "a"> 
-<!ENTITY preferencesCmd2.label       "Preferences">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "Preferințe">
-<!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
-<!ENTITY clearRecentHistory.label               "Curăță istoricul recent…">
+<!ENTITY clearRecentHistory.label               "Șterge istoricul recent…">
 
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
 <!ENTITY viewMenu.label         "Vizualizare"> 
 <!ENTITY viewMenu.accesskey       "V"> 
 <!ENTITY viewToolbarsMenu.label       "Bare de unelte"> 
-<!ENTITY viewToolbarsMenu.accesskey     "B"> 
+<!ENTITY viewToolbarsMenu.accesskey     "t"> 
 <!ENTITY viewSidebarMenu.label "Bară laterală">
-<!ENTITY viewSidebarMenu.accesskey "l">
-<!ENTITY viewCustomizeToolbar.label       "Customize"> 
+<!ENTITY viewSidebarMenu.accesskey "e">
+<!ENTITY viewCustomizeToolbar.label       "Personalizează…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "P">
 <!ENTITY viewTabsOnTop.label            "Filele deasupra">
 <!ENTITY viewTabsOnTop.accesskey        "F">
 
 <!ENTITY historyMenu.label "Istoric">
-<!ENTITY historyMenu.accesskey "I">
+<!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "File închise recent">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Ferestre închise recent">
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Dezvoltator Web">
 <!ENTITY appMenuGettingStarted.label "Ghid pentru începători">
 <!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Căutați sau introduceți adresa">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Schimbă la fila:">
 
@@ -368,20 +361,20 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!ENTITY openLinkCmdInTab.label       "Deschide legătura în filă nouă">
+<!ENTITY openLinkCmdInTab.label       "Deschide linkul într-o filă nouă">
 <!ENTITY openLinkCmdInTab.accesskey   "t">
-<!ENTITY openLinkCmd.label            "Deschide legătura în fereastră nouă">
-<!ENTITY openLinkCmd.accesskey        "D">
-<!ENTITY openLinkInPrivateWindowCmd.label "Deschide legătura în fereastră fără urme nouă">
-<!ENTITY openLinkInPrivateWindowCmd.accesskey "m">
-<!ENTITY openLinkCmdInCurrent.label     "Deschide legătura">
-<!ENTITY openLinkCmdInCurrent.accesskey "D">
-<!ENTITY openFrameCmdInTab.label      "Deschide cadrul în filă nouă">
-<!ENTITY openFrameCmdInTab.accesskey  "f">
-<!ENTITY openFrameCmd.label           "Deschide cadrul în fereastră nouă">
-<!ENTITY openFrameCmd.accesskey       "D">
+<!ENTITY openLinkCmd.label            "Deschide linkul într-o fereastră nouă">
+<!ENTITY openLinkCmd.accesskey        "W">
+<!ENTITY openLinkInPrivateWindowCmd.label "Deschide linkul într-o fereastră privată nouă">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey "p">
+<!ENTITY openLinkCmdInCurrent.label     "Deschide linkul">
+<!ENTITY openLinkCmdInCurrent.accesskey "O">
+<!ENTITY openFrameCmdInTab.label      "Deschide cadrul într-o filă nouă">
+<!ENTITY openFrameCmdInTab.accesskey  "t">
+<!ENTITY openFrameCmd.label           "Deschide cadrul într-o fereastră nouă">
+<!ENTITY openFrameCmd.accesskey       "W">
 <!ENTITY showOnlyThisFrameCmd.label     "Afișează doar acest cadru">
-<!ENTITY showOnlyThisFrameCmd.accesskey "A">
+<!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY reloadCmd.commandkey         "r">
 <!ENTITY reloadFrameCmd.label         "Reîncarcă cadrul">
 <!ENTITY reloadFrameCmd.accesskey     "R">
@@ -404,22 +397,22 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewImageCmd.accesskey       "i">
 <!ENTITY viewImageInfoCmd.label       "Vezi informații despre imagine">
 <!ENTITY viewImageInfoCmd.accesskey   "f">
-<!ENTITY viewVideoCmd.label           "Vezi clipul">
+<!ENTITY viewVideoCmd.label           "Vezi videoclipul">
 <!ENTITY viewVideoCmd.accesskey       "i">
 <!ENTITY viewBGImageCmd.label         "Vezi imaginea de fundal">
-<!ENTITY viewBGImageCmd.accesskey     "f">
-<!ENTITY setDesktopBackgroundCmd.label      "Setează ca tapet pe spațiul de lucru...">
+<!ENTITY viewBGImageCmd.accesskey     "w">
+<!ENTITY setDesktopBackgroundCmd.label      "Setează ca fundal pentru desktop…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "S">
-<!ENTITY bookmarkPageCmd2.label       "Pune semn de carte la această pagină">
+<!ENTITY bookmarkPageCmd2.label       "Însemnează această pagină">
 <!ENTITY bookmarkPageCmd2.accesskey   "m">
-<!ENTITY bookmarkThisLinkCmd.label      "Pune semn de carte la această legătură">
+<!ENTITY bookmarkThisLinkCmd.label      "Însemnează acest link">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "l">
 <!ENTITY bookmarkThisFrameCmd.label      "Pune semn de carte la acest cadru">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
-<!ENTITY emailPageCmd.label           "Email cu legătura…">
-<!ENTITY emailPageCmd.accesskey       "l">
-<!ENTITY savePageCmd.label            "Salvează pagina ca...">
-<!ENTITY savePageCmd.accesskey        "S">
+<!ENTITY emailPageCmd.label           "Trimite e-mail cu linkul…">
+<!ENTITY emailPageCmd.accesskey       "e">
+<!ENTITY savePageCmd.label            "Salvează pagina ca…">
+<!ENTITY savePageCmd.accesskey        "a">
 <!ENTITY sendLinkCmd.label            "Trimite legătura…">
 <!ENTITY sendLinkCmd.accesskey        "d">
 <!ENTITY sendPageCmd.label            "Trimite legătura la pagină…">
@@ -427,58 +420,58 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
 <!ENTITY savePageCmd.commandkey       "s">
-<!ENTITY saveFrameCmd.label           "Salvează cadrul ca...">
-<!ENTITY saveFrameCmd.accesskey       "v">
-<!ENTITY printFrameCmd.label          "Tipărește cadrul...">
+<!ENTITY saveFrameCmd.label           "Salvează cadrul ca…">
+<!ENTITY saveFrameCmd.accesskey       "F">
+<!ENTITY printFrameCmd.label          "Tipărește cadrul…">
 <!ENTITY printFrameCmd.accesskey      "p">
-<!ENTITY saveLinkCmd.label            "Salvează legătura ca...">
-<!ENTITY saveLinkCmd.accesskey        "r">
-<!ENTITY saveImageCmd.label           "Salvează imaginea ca...">
+<!ENTITY saveLinkCmd.label            "Salvează linkul ca…">
+<!ENTITY saveLinkCmd.accesskey        "k">
+<!ENTITY saveImageCmd.label           "Salvează imaginea ca…">
 <!ENTITY saveImageCmd.accesskey       "v">
-<!ENTITY saveVideoCmd.label           "Salvează clipul ca…">
+<!ENTITY saveVideoCmd.label           "Salvează videoclipul ca…">
 <!ENTITY saveVideoCmd.accesskey       "v">
 <!ENTITY saveAudioCmd.label           "Salvează fișierul audio ca…">
 <!ENTITY saveAudioCmd.accesskey       "v">
-<!ENTITY emailImageCmd.label          "Email cu imaginea…">
-<!ENTITY emailImageCmd.accesskey      "i">
-<!ENTITY emailVideoCmd.label          "Email Video…">
-<!ENTITY emailVideoCmd.accesskey      "v">
-<!ENTITY emailAudioCmd.label          "Email Audio…">
+<!ENTITY emailImageCmd.label          "Trimite e-mail cu imaginea…">
+<!ENTITY emailImageCmd.accesskey      "g">
+<!ENTITY emailVideoCmd.label          "Trimite e-mail cu fișierul video…">
+<!ENTITY emailVideoCmd.accesskey      "a">
+<!ENTITY emailAudioCmd.label          "Trimite e-mail cu fișierul audio…">
 <!ENTITY emailAudioCmd.accesskey      "a">
-<!ENTITY playPluginCmd.label          "Activați plugin">
-<!ENTITY playPluginCmd.accesskey      "g">
-<!ENTITY hidePluginCmd.label          "Ascunde acest modul">
-<!ENTITY hidePluginCmd.accesskey      "l">
-<!ENTITY copyLinkCmd.label            "Copiază adresa legăturii">
-<!ENTITY copyLinkCmd.accesskey        "C">
-<!ENTITY copyImageCmd.label           "Copiază adresa imaginii">
+<!ENTITY playPluginCmd.label          "Activează acest plugin">
+<!ENTITY playPluginCmd.accesskey      "c">
+<!ENTITY hidePluginCmd.label          "Ascunde acest plugin">
+<!ENTITY hidePluginCmd.accesskey      "H">
+<!ENTITY copyLinkCmd.label            "Copiază locația linkului">
+<!ENTITY copyLinkCmd.accesskey        "a">
+<!ENTITY copyImageCmd.label           "Copiază locația imaginii">
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY copyImageContentsCmd.label   "Copiază imaginea">
-<!ENTITY copyImageContentsCmd.accesskey  "p"> 
-<!ENTITY copyVideoURLCmd.label        "Copiază adresa clipului">
+<!ENTITY copyImageContentsCmd.accesskey  "y"> 
+<!ENTITY copyVideoURLCmd.label        "Copiază locația videoclipului">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
-<!ENTITY copyAudioURLCmd.label        "Copiază adresa fișierului audio">
+<!ENTITY copyAudioURLCmd.label        "Copiază locația fișierului audio">
 <!ENTITY copyAudioURLCmd.accesskey    "o">
-<!ENTITY copyEmailCmd.label           "Copiază adresa de email">
+<!ENTITY copyEmailCmd.label           "Copiază adresa de e-mail">
 <!ENTITY copyEmailCmd.accesskey       "e">
 <!ENTITY thisFrameMenu.label              "Acest cadru">
-<!ENTITY thisFrameMenu.accesskey          "d">
+<!ENTITY thisFrameMenu.accesskey          "h">
 
 <!-- Media (video/audio) controls -->
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
 "Pause" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY mediaPlay.label             "Redare">
-<!ENTITY mediaPlay.accesskey         "R">
-<!ENTITY mediaPause.label            "Pauză">
-<!ENTITY mediaPause.accesskey        "P">
+<!ENTITY mediaPlay.label             "Redă">
+<!ENTITY mediaPlay.accesskey         "P">
+<!ENTITY mediaPause.label            "Pune pe pauză">
+<!ENTITY mediaPause.accesskey        "p">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
 "Unmute" are the same because the two context-menu
 items are mutually exclusive. -->
-<!ENTITY mediaMute.label             "Mut">
+<!ENTITY mediaMute.label             "Dezactivează sunetul">
 <!ENTITY mediaMute.accesskey         "M">
-<!ENTITY mediaUnmute.label           "Activează sonorul">
-<!ENTITY mediaUnmute.accesskey       "A">
+<!ENTITY mediaUnmute.label           "Activează sunetul">
+<!ENTITY mediaUnmute.accesskey       "m">
 <!ENTITY mediaPlaybackRate.label     "Viteză redare">
 <!ENTITY mediaPlaybackRate.accesskey "v">
 <!ENTITY mediaPlaybackRate050x.label "Încetinire (0.5×)">
@@ -499,9 +492,9 @@ items are mutually exclusive. -->
 <!ENTITY mediaShowControls.accesskey "c">
 <!ENTITY mediaHideControls.label     "Ascunde controalele">
 <!ENTITY mediaHideControls.accesskey "c">
-<!ENTITY videoFullScreen.label       "Pe tot ecranul">
-<!ENTITY videoFullScreen.accesskey   "P">
-<!ENTITY videoSaveImage.label        "Salvează captura ca…">
+<!ENTITY videoFullScreen.label       "Ecran complet">
+<!ENTITY videoFullScreen.accesskey   "F">
+<!ENTITY videoSaveImage.label        "Salvează instantaneul ca…">
 <!ENTITY videoSaveImage.accesskey    "S">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -517,26 +510,26 @@ fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
 
-<!ENTITY fullZoomEnlargeCmd.label       "Mărește">
-<!ENTITY fullZoomEnlargeCmd.accesskey   "r">
+<!ENTITY fullZoomEnlargeCmd.label       "Mărire">
+<!ENTITY fullZoomEnlargeCmd.accesskey   "i">
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
 
-<!ENTITY fullZoomReduceCmd.label        "Micșorează">
+<!ENTITY fullZoomReduceCmd.label        "Micșorare">
 <!ENTITY fullZoomReduceCmd.accesskey    "o">
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
-<!ENTITY fullZoomResetCmd.label         "Reinițializare">
-<!ENTITY fullZoomResetCmd.accesskey     "n">
+<!ENTITY fullZoomResetCmd.label         "Resetează">
+<!ENTITY fullZoomResetCmd.accesskey     "R">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY fullZoomToggleCmd.label        "Zoom doar pe text">
+<!ENTITY fullZoomToggleCmd.label        "Scalare doar pe text">
 <!ENTITY fullZoomToggleCmd.accesskey    "t">
-<!ENTITY fullZoom.label                 "Mărime text">
-<!ENTITY fullZoom.accesskey             "M">
+<!ENTITY fullZoom.label                 "Mărimea textului">
+<!ENTITY fullZoom.accesskey             "Z">
 
 <!ENTITY newTabButton.tooltip           "Deschide o filă nouă">
 <!ENTITY newWindowButton.tooltip        "Deschide o fereastră nouă">
@@ -554,14 +547,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Ieșire"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "e">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-<!ENTITY quitApplicationCmd.label       "Ieșire"> 
-<!ENTITY quitApplicationCmd.accesskey   "e">
+<!ENTITY quitApplicationCmd.label       "Ieși"> 
+<!ENTITY quitApplicationCmd.accesskey   "Q">
 <!ENTITY quitApplicationCmdMac.label    "Ieșire">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
@@ -570,32 +562,32 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "c">
 
-<!ENTITY pageStyleMenu.label "Stil pagină">
-<!ENTITY pageStyleMenu.accesskey "p">
-<!ENTITY pageStyleNoStyle.label "Fără stil">
-<!ENTITY pageStyleNoStyle.accesskey "F">
-<!ENTITY pageStylePersistentOnly.label "Stil principal">
-<!ENTITY pageStylePersistentOnly.accesskey "p">
+<!ENTITY pageStyleMenu.label "Stilul paginii">
+<!ENTITY pageStyleMenu.accesskey "y">
+<!ENTITY pageStyleNoStyle.label "Niciun stil">
+<!ENTITY pageStyleNoStyle.accesskey "N">
+<!ENTITY pageStylePersistentOnly.label "Stilul paginii de bază">
+<!ENTITY pageStylePersistentOnly.accesskey "b">
 
-<!ENTITY pageReportIcon.tooltip            "Modifică parametrii de blocare a ferestrelor popup pentru acest sait web">
+<!ENTITY pageReportIcon.tooltip            "Modifică setările de blocare a ferestrelor pop-up pentru acest site web">
 
 <!ENTITY allowPopups.accesskey "p">
-<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
-<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettingsUnix.label "Editează preferințele de blocare a ferestrelor pop-up…">
+<!ENTITY editPopupSettings.label "Editează opțiunile de blocare a ferestrelor pop-up…">
 <!ENTITY editPopupSettings.accesskey "E">
-<!ENTITY dontShowMessage.accesskey "N">
+<!ENTITY dontShowMessage.accesskey "D">
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "Schimbă direcția paginii">
-<!ENTITY bidiSwitchPageDirectionItem.accesskey    "g">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "d">
 <!ENTITY bidiSwitchTextDirectionItem.label        "Schimbă direcția textului">
-<!ENTITY bidiSwitchTextDirectionItem.accesskey    "x">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "w">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 
-<!ENTITY findOnCmd.label     "Caută în această pagină...">
-<!ENTITY findOnCmd.accesskey "n">
+<!ENTITY findOnCmd.label     "Găsește în această pagină…">
+<!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Caută din nou">
-<!ENTITY findAgainCmd.accesskey "d">
+<!ENTITY findAgainCmd.label  "Găsește din nou">
+<!ENTITY findAgainCmd.accesskey "G">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 
@@ -626,12 +618,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY allTabs.filter.emptyText "Caută în file">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label "Filele navigatorului">
+<!ENTITY tabsToolbar.label "Filele browserului">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "File de pe alte dispozitive">
 
-<!ENTITY syncBrand.shortName.label    "Sync">
+<!ENTITY syncBrand.shortName.label    "Sincronizare">
 
 <!ENTITY syncSetup.label              "Setați &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "S">
@@ -647,18 +639,15 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Microfon de folosit:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Acces la cameră / microfon">
-<!ENTITY webrtcIndicatorButton.tooltip "Afișează saiturile cărora le permiteți să vă folosească camera sau microfonul">
 
-<!ENTITY mixedContentBlocked.helplink "Află mai multe">
 <!ENTITY mixedContentBlocked.moreinfo "Majoritatea saiturilor web vor funcționa corect în continuare chiar dacă acest tip de conținut e blocat.">
 
 <!ENTITY pointerLock.notification.message "Apasă ESC oricând pentru a-l afișa din nou.">
 
 <!ENTITY pluginNotification.showAll.label "Arată-le pe toate">
-<!ENTITY pluginNotification.showAll.accesskey "a">
+<!ENTITY pluginNotification.showAll.accesskey "A">
 
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "Permite acum">
 <!ENTITY pluginActivateAlways.label "Permite și ține minte">
-<!ENTITY pluginBlockNow.label "Blocare plugin">
+<!ENTITY pluginBlockNow.label "Blochează pluginul">

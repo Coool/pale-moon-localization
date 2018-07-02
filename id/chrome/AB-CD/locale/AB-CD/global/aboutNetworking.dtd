@@ -3,29 +3,41 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY aboutNetworking.title                 "Tentang Jaringan">
-<!ENTITY aboutNetworking.warning               "Ini sangat eksperimental. Jangan gunakan tanpa pengawasan orang dewasa.">
-<!ENTITY aboutNetworking.showNextTime          "Tunjukkan peringatan ini lain kali">
-<!ENTITY aboutNetworking.ok                    "Baik">
-<!ENTITY aboutNetworking.http                  "Http">
+<!ENTITY aboutNetworking.warning               "Fitur ini bersifat percobaan. Jangan menggunakan fitur ini tanpa bantuan ahli.">
+<!ENTITY aboutNetworking.showNextTime          "Tampilkan lagi peringatan ini nanti">
+<!ENTITY aboutNetworking.ok                    "Oke">
+<!ENTITY aboutNetworking.HTTP                  "HTTP">
 <!ENTITY aboutNetworking.sockets               "Soket">
 <!ENTITY aboutNetworking.dns                   "DNS">
-<!ENTITY aboutNetworking.websockets            "WebSoket">
-<!ENTITY aboutNetworking.refresh               "Menyegarkan">
-<!ENTITY aboutNetworking.autoRefresh           "Otomatismenyegarkan setiap 3 detik">
-<!ENTITY aboutNetworking.hostname              "Nama tuan rumah">
-<!ENTITY aboutNetworking.port                  "Pelabuhan">
+<!ENTITY aboutNetworking.websockets            "WebSocket">
+<!ENTITY aboutNetworking.refresh               "Segarkan">
+<!ENTITY aboutNetworking.autoRefresh           "Segarkan otomatis tiap 3 detik">
+<!ENTITY aboutNetworking.hostname              "Nama host">
+<!ENTITY aboutNetworking.port                  "Port">
 <!ENTITY aboutNetworking.spdy                  "SPDY">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Aktif">
-<!ENTITY aboutNetworking.idle                  "Diam">
-<!ENTITY aboutNetworking.host                  "Tuan rumah">
+<!ENTITY aboutNetworking.idle                  "Menganggur">
+<!ENTITY aboutNetworking.host                  "Host">
 <!ENTITY aboutNetworking.tcp                   "TCP">
 <!ENTITY aboutNetworking.sent                  "Dikirim">
 <!ENTITY aboutNetworking.received              "Diterima">
 <!ENTITY aboutNetworking.family                "Keluarga">
 <!ENTITY aboutNetworking.addresses             "Alamat">
-<!ENTITY aboutNetworking.expires               "Kedaluwarsa (Detik)">
-<!ENTITY aboutNetworking.messagesSent          "Pesan terkirim">
-<!ENTITY aboutNetworking.messagesReceived      "Pesan diterima">
-<!ENTITY aboutNetworking.bytesSent             "Bytes terkirim">
-<!ENTITY aboutNetworking.bytesReceived         "Byte diterima">
+<!ENTITY aboutNetworking.expires               "Hangus (Detik)">
+<!ENTITY aboutNetworking.messagesSent          "Pesan Terkirim">
+<!ENTITY aboutNetworking.messagesReceived      "Pesan Diterima">
+<!ENTITY aboutNetworking.bytesSent             "Byte Dikirim">
+<!ENTITY aboutNetworking.bytesReceived         "Byte Diterima">
+<!ENTITY aboutNetworking.logging               "Logging">
+<!ENTITY aboutNetworking.logTutorial           "See <a href='https://developer.mozilla.org/docs/Mozilla/Debugging/HTTP_logging'>HTTP Logging</a> for instructions on how to use this tool.">
+<!ENTITY aboutNetworking.currentLogFile        "Current Log File:">
+<!ENTITY aboutNetworking.currentLogModules     "Current Log Modules:">
+<!ENTITY aboutNetworking.setLogFile            "Set Log File">
+<!ENTITY aboutNetworking.setLogModules         "Set Log Modules">
+<!ENTITY aboutNetworking.startLogging          "Start Logging">
+<!ENTITY aboutNetworking.stopLogging           "Stop Logging">
+<!ENTITY aboutNetworking.dnsLookup             "Pencarian DNS">
+<!ENTITY aboutNetworking.dnsLookupButton       "Selesaikan">
+<!ENTITY aboutNetworking.dnsDomain             "Domain">
+<!ENTITY aboutNetworking.dnsLookupTableColumn  "IP">

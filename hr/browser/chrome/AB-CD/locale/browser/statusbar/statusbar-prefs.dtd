@@ -8,25 +8,21 @@
 
 <!ENTITY status4evar.tab.general "Općenito">
 <!ENTITY status4evar.tab.toolbar "Statusna traka">
-<!ENTITY status4evar.tab.urlbar "Adresna traka">
 <!ENTITY status4evar.tab.popup "Pop-up">
 <!ENTITY status4evar.tab.tabs "Kartice">
 
 <!ENTITY status4evar.option.none "Nijedan">
 <!ENTITY status4evar.option.nothing "Ništa">
 <!ENTITY status4evar.option.toolbar "Statusna traka">
-<!ENTITY status4evar.option.urlbar "Adresna traka">
 <!ENTITY status4evar.option.popup "Pop-up">
 <!ENTITY status4evar.option.tooltip "Tooltip">
 <!ENTITY status4evar.option.bottom "Dno">
 <!ENTITY status4evar.option.top "Vrh">
-<!ENTITY status4evar.option.fill "Popuni">
 <!ENTITY status4evar.option.dlcount "Broji preuzimanje">
 <!ENTITY status4evar.option.dltime "Preostalo vrijeme">
 <!ENTITY status4evar.option.both "Oboje">
 <!ENTITY status4evar.option.right "Desno">
 <!ENTITY status4evar.option.left "Lijevo">
-<!ENTITY status4evar.option.fixed "Fixed">
 <!ENTITY status4evar.option.simple "Jednostavno">
 <!ENTITY status4evar.option.advanced "Napredno">
 <!ENTITY status4evar.option.browse "Pretraži">
@@ -61,11 +57,6 @@
 
 <!ENTITY status4evar.status.toolbar.maxLength.label "Maksimalna dužina teksta statusa:">
 
-<!ENTITY status4evar.status.urlbar.align.label "Poravnanje statusa:">
-<!ENTITY status4evar.status.urlbar.color.label "Boja statusa:">
-<!ENTITY status4evar.status.currentUrl "Trenutna lokacija">
-<!ENTITY status4evar.status.statusText "Tekst statusa">
-
 <!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox značajke kompatibilnosti">
 <!ENTITY browser.urlbar.formatting.enabled.label "Omogući označavanje domena">
 <!ENTITY browser.urlbar.trimming.enabled.label "Omogući skrivanje protokola (http:// i ftp: / /)">
@@ -74,9 +65,6 @@
 <!ENTITY status4evar.status.popup.mouseMirror.label "Zamijeni strane kada je miš iznad">
 
 <!ENTITY status4evar.progress.style.label "Koristite prilagođeni stil">
-
-<!ENTITY status4evar.progress.urlbar.enable.label "Pokaži napredak u adresnoj traci">
-<!ENTITY status4evar.progress.urlbar.line.label "Stil crte:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "Always show the progress meter">
 
@@ -106,11 +94,6 @@
 <!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
 <!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
 <!ENTITY status4evar.addonbar.closeButton "Show the close button">
-
-<!ENTITY status4evar.advanced.warning "These advanced settings may cause issues with Pale Moon or other extensions. Modify at your own risk.">
-
-<!ENTITY status4evar.advanced.urlbar.forceBinding "Attempt to force the Address Bar XBL binding.">
-<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Only select this if you have problems with the Address Bar progress or status text being displaying correctly. This will potentially break other extensions that try to set an XBL binding on the Address Bar.">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "Detect full-screen mode and show links/status appropriately.">
 <!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">

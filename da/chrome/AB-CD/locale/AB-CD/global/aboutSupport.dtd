@@ -8,40 +8,40 @@
 <!ENTITY aboutSupport.pageSubtitle "
   Denne side indeholder teknisk information som måske kan være brugbar når du forsøger
   at løse et problem. Hvis du leder efter svar på ofte spurgte spørgsmål vedrørende
-  &brandShortName;, kan du besøge vores <a id='supportLink'>support websted</a>.
+  &brandShortName;, kan du besøge vores <a id='supportLink'>supportwebsted</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Nedbrudsrapporter">
+<!ENTITY aboutSupport.crashes.title "Fejlrapporter">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "Rapport-ID">
-<!ENTITY aboutSupport.crashes.sendDate "Indsendt">
-<!ENTITY aboutSupport.crashes.allReports "Alle nedbrudsrapporter">
-<!ENTITY aboutSupport.crashes.noConfig "Dette program er ikke konfigureret til at vise rapporter om nedbrud.">
+<!ENTITY aboutSupport.crashes.sendDate "Sendt">
+<!ENTITY aboutSupport.crashes.allReports "Alle fejlrapporter">
+<!ENTITY aboutSupport.crashes.noConfig "Dette program er ikke konfigureret til at vise fejlrapporter.">
 
-<!ENTITY aboutSupport.extensionsTitle "Tilføjelser">
+<!ENTITY aboutSupport.extensionsTitle "Udvidelser">
 <!ENTITY aboutSupport.extensionName "Navn">
 <!ENTITY aboutSupport.extensionEnabled "Aktiveret">
 <!ENTITY aboutSupport.extensionVersion "Version">
 <!ENTITY aboutSupport.extensionId "ID">
 
 <!ENTITY aboutSupport.experimentsTitle "Eksperimentelle funktioner">
-<!ENTITY aboutSupport.experimentName "Navn">
+<!ENTITY aboutSupport.experimentName "Navne">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Beskrivelse">
 <!ENTITY aboutSupport.experimentActive "Aktiv">
 <!ENTITY aboutSupport.experimentEndDate "Slutdato">
-<!ENTITY aboutSupport.experimentHomepage "Webside">
-
+<!ENTITY aboutSupport.experimentHomepage "Websted">
+<!ENTITY aboutSupport.experimentBranch "Gren">
 
 <!ENTITY aboutSupport.appBasicsTitle "Programinfo">
 <!ENTITY aboutSupport.appBasicsName "Navn">
 <!ENTITY aboutSupport.appBasicsVersion "Version">
-<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+<!ENTITY aboutSupport.appBasicsBuildID "Build-ID">
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Opdater kanal">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Opdateringskanal">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Opdateringshistorik">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Vis opdateringshistorik">
 
@@ -53,22 +53,28 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Aktive plugins">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Byggekonfiguration">
-<!ENTITY aboutSupport.appBasicsUserAgent "Brugeragent">
-<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
+<!ENTITY aboutSupport.appBasicsOS "Styresystem">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Hukommelsesforbrug">
+<!ENTITY aboutSupport.appBasicsPerformance "Ydelse">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Registrerede Service Workers">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Sikker tilstand">
+<!ENTITY aboutSupport.appBasicsProfiles "Profiler">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiproces-vinduer">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Fejlsikret tilstand">
 
 <!ENTITY aboutSupport.showDir.label "Åbn mappe">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Vis i Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Åbn mappe">
+<!ENTITY aboutSupport.showWin2.label "Åbn mappe">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Vigtige ændrede indstillinger">
 <!ENTITY aboutSupport.modifiedPrefsName "Navn">
@@ -84,12 +90,12 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafik">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Steder Database">
+<!ENTITY aboutSupport.placeDatabaseTitle "Databasen Places">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integritet">
-<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificer integritet">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Bekræft integritet">
 
-<!ENTITY aboutSupport.jsTitle "Javascript">
-<!ENTITY aboutSupport.jsIncrementalGC "Forøget GC">
+<!ENTITY aboutSupport.jsTitle "JavaScript">
+<!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
 
 <!ENTITY aboutSupport.a11yTitle "Tilgængelighed">
 <!ENTITY aboutSupport.a11yActivated "Aktiveret">
@@ -103,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopier tekst til udklipsholderen">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopier rå data til udklipsholderen">
 
-<!ENTITY aboutSupport.sandboxTitle "Sandkasse">
+<!ENTITY aboutSupport.safeModeTitle "Prøv fejlsikret tilstand">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
 
-<!ENTITY aboutSupport.safeModeTitle "Prøv sikker tilstand">
-<!ENTITY aboutSupport.restartInSafeMode.label "Genstart i sikker tilstand…">
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
 
-<!ENTITY aboutSupport.restartTitle "Prøv at genstarte">
-<!ENTITY aboutSupport.restartNormal.label "Genstart normalt…">
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funktioner">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostik">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Fejl-log">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Beslutnings-log">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funktioner deaktiveret af Crash guard">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Løsninger">

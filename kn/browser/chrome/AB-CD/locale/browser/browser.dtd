@@ -16,16 +16,16 @@
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(ಖಾಸಗಿ ವೀಕ್ಷಣೆ)">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label                    "ಟ್ಯಾಬ್ ಅನ್ನು ಮರಳಿ ಲೋಡ್ ಮಾಡು">
+<!ENTITY  reloadTab.label                    "Reload ಹಾಳೆ">
 <!ENTITY  reloadTab.accesskey                "R">
-<!ENTITY  reloadAllTabs.label                "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರಳಿ ಲೋಡ್ ಮಾಡು">
+<!ENTITY  reloadAllTabs.label                "All ಹಾಳೆಗಳನ್ನು ರೀಲೋಡ್ ಮಾಡು">
 <!ENTITY  reloadAllTabs.accesskey            "A">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "ಬಲಕ್ಕಿರುವ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚುತ್ತದೆ">
+<!ENTITY  closeTabsToTheEnd.label            "Right ಇರುವ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚುತ್ತದೆ">
 <!ENTITY  closeTabsToTheEnd.accesskey        "i">
-<!ENTITY  closeOtherTabs.label               "ಇತರೆ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚು">
+<!ENTITY  closeOtherTabs.label               "ಇತರೆ ಟ್ಯಾಬ್‌ಗಳನ್ನು Close">
 <!ENTITY  closeOtherTabs.accesskey           "o">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
@@ -33,30 +33,30 @@ used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                       "ಟ್ಯಾಬನ್ನು ಅಂಟಿಸು">
+<!ENTITY  pinTab.label                       "Pin ಹಾಳೆ">
 <!ENTITY  pinTab.accesskey                   "P">
-<!ENTITY  unpinTab.label                     "ಟ್ಯಾಬ್ ಅನ್ನು ಮುಕ್ತಗೊಳಿಸು">
+<!ENTITY  unpinTab.label                     "Tab ಅನ್ನು ಮುಕ್ತಗೊಳಿಸು">
 <!ENTITY  unpinTab.accesskey                 "b">
-<!ENTITY  moveToNewWindow.label              "ಹೊಸ ಕಿಟಕಿಗೆ ಜರುಗಿಸು">
+<!ENTITY  moveToNewWindow.label              "ಹೊಸ Window ಗೆ ಜರುಗಿಸು">
 <!ENTITY  moveToNewWindow.accesskey          "W">
-<!ENTITY  bookmarkAllTabs.label              "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪುಟಗುರುತು ಮಾಡು…">
+<!ENTITY  bookmarkAllTabs.label              "ಎಲ್ಲಾ ಹಾಳೆಗಳನ್ನು ಪುಟಗುರುತು ಮಾಡು…">
 <!ENTITY  bookmarkAllTabs.accesskey          "T">
-<!ENTITY  undoCloseTab.label                 "ಟ್ಯಾಬ್ ಮುಚ್ಚುವಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸು">
+<!ENTITY  undoCloseTab.label                 "Undo ಟ್ಯಾಬ್ ಮುಚ್ಚು">
 <!ENTITY  undoCloseTab.accesskey             "U">
 <!ENTITY  closeTab.label                     "ಟ್ಯಾಬ್‌ ಅನ್ನು ಮುಚ್ಚು">
-<!ENTITY  closeTab.accesskey                 "c">
+<!ENTITY  closeTab.accesskey                 "C">
 
 <!ENTITY  listAllTabs.label      "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡು">
 
-<!ENTITY tabCmd.label "ಹೊಸ ಟ್ಯಾಬ್">
+<!ENTITY tabCmd.label "ಹೊಸ ಹಾಳೆ">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openLocationCmd.label "ತಾಣವನ್ನು ತೆರೆ...">
+<!ENTITY openLocationCmd.label "ತಾಣವನ್ನು ತೆರೆ…">
 <!ENTITY openLocationCmd.accesskey "L">
-<!ENTITY openFileCmd.label "ಕಡತವನ್ನು ತೆರೆ...">
+<!ENTITY openFileCmd.label "ಕಡತವನ್ನು ತೆರೆ…">
 <!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.commandkey "o">
-<!ENTITY printSetupCmd.label "ಪುಟದ ಹೊಂದಾಣಿಕೆಗಳು...">
+<!ENTITY printSetupCmd.label "ಪುಟದ Setup…">
 <!ENTITY printSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "ಮುದ್ರಣ ಮುನ್ನೋಟ">
 <!ENTITY printPreviewCmd.accesskey "v">
@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "H">
 <!ENTITY fullScreenExit.label "ಪೂರ್ಣತೆರೆಯ ವಿಧಾನದಿಂದ ಹೊರನಡೆ">
 <!ENTITY fullScreenExit.accesskey "F">
-<!ENTITY fullscreenAllowButton.label "ಅನುಮತಿಸು">
-<!ENTITY fullscreenExitButton.label "ನಿರಾಕರಿಸು">
-<!ENTITY fullscreenApproval.value "ಪೂರ್ಣತೆರೆಯನ್ನು ಅನುಮತಿಸಬೇಕೆ?">
 
 <!ENTITY fullscreenExitHint.value "ಪೂರ್ಣತೆರೆಯಿಂದ ಯಾವುದೆ ಸಮಯದಲ್ಲಿ ನಿರ್ಗಮಿಸಲು ESC ಅನ್ನು ಒತ್ತಿ.">
 <!ENTITY leaveDOMFullScreen.label "ಪೂರ್ಣತೆರೆಯಿಂದ ನಿರ್ಗಮಿಸು">
@@ -123,23 +120,23 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "ಈ ಪುಟವನ್ನು ಪುಟಗುರುತು ಮಾಡು">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY subscribeToPageMenupopup.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗಿಸು">
-<!ENTITY subscribeToPageMenuitem.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗಿಸು...">
+<!ENTITY subscribeToPageMenupopup.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗು">
+<!ENTITY subscribeToPageMenuitem.label "ಈ ಪುಟಕ್ಕೆ ಚಂದಾದಾರನಾಗು…">
 <!ENTITY addCurPagesCmd.label "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪುಟಗುರುತು ಮಾಡು...">
 <!ENTITY showAllBookmarks2.label "ಎಲ್ಲಾ ಪುಟಗುರುತುಗಳನ್ನು ತೋರಿಸು">
 <!ENTITY organizeBookmarks.label "ಬುಕ್ಮಾರ್ಕ್ಗಳನ್ನು ಆಯೋಜಿಸಿ">
 <!ENTITY unsortedBookmarksCmd.label "ವಿಂಗಡಿಸದೆ ಇರುವ ಪುಟಗುರುತುಗಳು">
 <!ENTITY bookmarksToolbarChevron.tooltip "ಇನ್ನಷ್ಟು ಪುಟಗುರುತುಗಳನ್ನು ತೋರಿಸು">
 
-<!ENTITY backCmd.label                "ಹಿಂದಕ್ಕೆ">
+<!ENTITY backCmd.label                "ಹಿಂದೆ">
 <!ENTITY backCmd.accesskey            "B">
 <!ENTITY backButton.tooltip           "ಒಂದು ಪುಟ ಹಿಂದಕ್ಕೆ ಹೋಗು">
-<!ENTITY forwardCmd.label             "ಮುಂದಕ್ಕೆ">
+<!ENTITY forwardCmd.label             "ಮುಂದೆ">
 <!ENTITY forwardCmd.accesskey         "F">
 <!ENTITY forwardButton.tooltip        "ಒಂದು ಪುಟ ಮುಂದಕ್ಕೆ ಹೋಗು">
 <!ENTITY backForwardButtonMenu.tooltip "ಇತಿಹಾಸವನ್ನು ತೋರಿಸಲು ಮೌಸ್‌ನ ಬಲಗುಂಡಿಯನ್ನು ಒತ್ತಿ ಅಥವ ಕೆಳಕ್ಕೆ ಎಳೆಯಿರಿ">
 <!ENTITY backForwardButtonMenuMac.tooltip "ಇತಿಹಾಸವನ್ನು ತೋರಿಸಲು ಕೆಳಕ್ಕೆ ಎಳೆಯಿರಿ">
-<!ENTITY reloadCmd.label              "ಮತ್ತೊಮ್ಮೆ ಲೋಡ್ ಮಾಡು">
+<!ENTITY reloadCmd.label              "ಪುನಃ ಲೋಡ್ ಮಾಡು">
 <!ENTITY reloadCmd.accesskey          "R">
 <!ENTITY reloadButton.tooltip         "ಪ್ರಸಕ್ತ ಪುಟವನ್ನು ಮತ್ತೊಮ್ಮೆ ಲೋಡ್‍ ಮಾಡು">
 <!ENTITY stopCmd.label                "ನಿಲ್ಲು">
@@ -177,7 +174,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
-<!ENTITY bookmarksGtkCmd.commandkey "o">
+<!ENTITY bookmarksGtkCmd.commandkey "b">
 <!ENTITY bookmarksWinCmd.commandkey "i">
 
 <!ENTITY historyButton.label            "ಇತಿಹಾಸ">
@@ -189,7 +186,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY keywordfield.label           "ಈ ಹುಡುಕಾಟಕ್ಕೆ ಒಂದು ಮುಖ್ಯಪದವನ್ನು ಸೇರಿಸು...">
 <!ENTITY keywordfield.accesskey       "K">
-<!ENTITY search.label                 "ಜಾಲ ಹುಡುಕಾಟ">
+<!ENTITY search.label                 "ಹುಡುಕು ">
 <!ENTITY search.accesskey             "S">
 <!ENTITY downloads.label              "ಡೌನ್‍ಲೋಡ್‍ಗಳು">
 <!ENTITY downloads.tooltip            "ನಡೆಯುತ್ತಿರುವ ಡೌನ್‍ಲೋಡ್‍ಗಳ ಪ್ರಗತಿಯನ್ನು ತೋರಿಸು">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Permissions">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "ಆಯ್ಕೆಗಳು">
+<!ENTITY preferencesCmd2.accesskey    "O">
 
 <!ENTITY webDeveloperMenu.label       "ಜಾಲ ವಿಕಸನೆಗಾರ">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -285,7 +284,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.label           "ಕತ್ತರಿಸು">  
 <!ENTITY cutCmd.key             "X">  
 <!ENTITY cutCmd.accesskey         "t"> 
-<!ENTITY copyCmd.label            "ಕಾಪಿ ಮಾಡು">  
+<!ENTITY copyCmd.label            "ಪ್ರತಿ ಮಾಡು">  
 <!ENTITY copyCmd.key            "C">  
 <!ENTITY copyCmd.accesskey          "c"> 
 <!ENTITY pasteCmd.label           "ಅಂಟಿಸು">  
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "ಎಲ್ಲವನ್ನೂ ಆರಿಸು">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "a"> 
-<!ENTITY preferencesCmd2.label       "Preferences">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "ಆದ್ಯತೆಗಳು">
-<!ENTITY preferencesCmdUnix.accesskey     "n"> 
 
 <!ENTITY clearRecentHistory.label               "ಇತ್ತೀಚಿನ ಇತಿಹಾಸವನ್ನು ಅಳಿಸಿಹಾಕು…">
 
@@ -312,7 +307,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "ಬದಿಯ ಪಟ್ಟಿ">
 <!ENTITY viewSidebarMenu.accesskey "e">
-<!ENTITY viewCustomizeToolbar.label       "Customize"> 
+<!ENTITY viewCustomizeToolbar.label       "ನನ್ನಿಚ್ಛೆಗೆ ತಕ್ಕಂತೆ ಹೊಂದಿಸು..."> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 <!ENTITY viewTabsOnTop.label            "ಮೇಲಿರುವ ಟ್ಯಾಬ್‌ಗಳು">
 <!ENTITY viewTabsOnTop.accesskey        "T">
@@ -329,7 +324,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
 <!ENTITY appMenuEdit.label "ಸಂಪಾದನೆ">
-<!ENTITY appMenuCustomize.label "ಇಚ್ಛೆಗೆ ಅನುಸಾರವಾಗಿ ಬದಲಾಯಿಸು">
+<!ENTITY appMenuCustomize.label "ಅಗತ್ಯಾನುಗುಣಗೊಳಿಸು">
 <!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
 <!ENTITY appMenuSidebars.label "ಬದಿಪಟ್ಟಿಕೆಗಳು">
 <!ENTITY appMenuFind.label "ಹುಡುಕು…">
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "ಜಾಲ ವಿಕಸನಾಗಾರರು">
 <!ENTITY appMenuGettingStarted.label "ಆರಂಭಿಸುವಿಕೆ">
 <!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "ವಿಳಾಸವನ್ನು ಹುಡುಕು ಅಥವ ನಮೂದಿಸು">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "ಟ್ಯಾಬ್‌ಗೆ ಬದಲಾಯಿಸು:">
 
@@ -368,17 +361,17 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!ENTITY openLinkCmdInTab.label       "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
+<!ENTITY openLinkCmdInTab.label       "ಹೊಸ ಹಾಳೆಯಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
 <!ENTITY openLinkCmdInTab.accesskey   "T">
-<!ENTITY openLinkCmd.label            "ಹೊಸ ಕಿಟಕಿಯಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
+<!ENTITY openLinkCmd.label            "ಹೊಸ Window ಯಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
 <!ENTITY openLinkCmd.accesskey        "W">
-<!ENTITY openLinkInPrivateWindowCmd.label "ಹೊಸ ಖಾಸಗಿ ಕಿಟಕಿಯಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
+<!ENTITY openLinkInPrivateWindowCmd.label "ಹೊಸ Private ಕಿಟಕಿಯಲ್ಲಿ ಕೊಂಡಿಯನ್ನು ತೆರೆ">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
 <!ENTITY openLinkCmdInCurrent.label     "ಕೊಂಡಿಯನ್ನು ತೆರೆ">
 <!ENTITY openLinkCmdInCurrent.accesskey "O">
-<!ENTITY openFrameCmdInTab.label      "ಚೌಕಟ್ಟನ್ನು ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ">
+<!ENTITY openFrameCmdInTab.label      "ಚೌಕಟ್ಟನ್ನು ಹೊಸ ಹಾಳೆಯಲ್ಲಿ ತೆರೆ">
 <!ENTITY openFrameCmdInTab.accesskey  "T">
-<!ENTITY openFrameCmd.label           "ಚೌಕಟ್ಟನ್ನು (ಫ್ರೇಮ್) ಹೊಸ ಕಿಟಕಿಯಲ್ಲಿ ತೆರೆಯಿರಿ">
+<!ENTITY openFrameCmd.label           "ಚೌಕಟ್ಟನ್ನು ಹೊಸ Window ಯಲ್ಲಿ ತೆರೆಯಿರಿ">
 <!ENTITY openFrameCmd.accesskey       "W">
 <!ENTITY showOnlyThisFrameCmd.label     "ಕೇವಲ ಈ ಚೌಕಟ್ಟನ್ನು ಮಾತ್ರ ತೋರಿಸು">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
@@ -405,7 +398,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewImageInfoCmd.label       "ಚಿತ್ರದ ಮಾಹಿತಿಯನ್ನು ನೋಡು">
 <!ENTITY viewImageInfoCmd.accesskey   "f">
 <!ENTITY viewVideoCmd.label           "ವೀಡಿಯೋ ಅನ್ನು ನೋಡಿ">
-<!ENTITY viewVideoCmd.accesskey       "I">
+<!ENTITY viewVideoCmd.accesskey       "i">
 <!ENTITY viewBGImageCmd.label         "ಹಿನ್ನಲೆಯ ಚಿತ್ರವನ್ನು ನೋಡು">
 <!ENTITY viewBGImageCmd.accesskey     "w">
 <!ENTITY setDesktopBackgroundCmd.label      "ಗಣಕತೆರೆಯ ಹಿನ್ನಲೆಯಾಗಿ ಹೊಂದಿಸು...">
@@ -435,7 +428,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY saveLinkCmd.accesskey        "k">
 <!ENTITY saveImageCmd.label           "ಚಿತ್ರವನ್ನು ಹೀಗೆ ಉಳಿಸು...">
 <!ENTITY saveImageCmd.accesskey       "v">
-<!ENTITY saveVideoCmd.label           "ವೀಡಿಯೋ ಅನ್ನು ಹೀಗೆ ಉಳಿಸು…">
+<!ENTITY saveVideoCmd.label           "ವೀಡಿಯೋ ಅನ್ನು ಹೀಗೆ Save …">
 <!ENTITY saveVideoCmd.accesskey       "v">
 <!ENTITY saveAudioCmd.label           "ಆಡಿಯೋ ಅನ್ನು ಹೀಗೆ ಉಳಿಸು…">
 <!ENTITY saveAudioCmd.accesskey       "v">
@@ -443,7 +436,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailImageCmd.accesskey      "g">
 <!ENTITY emailVideoCmd.label          "ವೀಡಿಯೊವನ್ನು ಇಮೈಲ್ ಮಾಡಿ…">
 <!ENTITY emailVideoCmd.accesskey      "a">
-<!ENTITY emailAudioCmd.label          "ಆಡಿಯೊವನ್ನು ಇಮೈಲ್ ಮಾಡಿ…">
+<!ENTITY emailAudioCmd.label          "Email ಆಡಿಯೊ…">
 <!ENTITY emailAudioCmd.accesskey      "a">
 <!ENTITY playPluginCmd.label          "ಈ ಪ್ಲಗ್ಇನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು">
 <!ENTITY playPluginCmd.accesskey      "c">
@@ -499,7 +492,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaShowControls.accesskey "C">
 <!ENTITY mediaHideControls.label     "ನಿಯಂತ್ರಣಗಳನ್ನು ಅಡಗಿಸು">
 <!ENTITY mediaHideControls.accesskey "C">
-<!ENTITY videoFullScreen.label       "ಪೂರ್ಣ ತೆರೆ">
+<!ENTITY videoFullScreen.label       "ಪೂರ್ಣ ಪರದೆ">
 <!ENTITY videoFullScreen.accesskey   "F">
 <!ENTITY videoSaveImage.label        "ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಅನ್ನು ಹೀಗೆ ಉಳಿಸು…">
 <!ENTITY videoSaveImage.accesskey    "S">
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Restart…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "ಹೊರನಡೆ"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "x">
@@ -573,15 +565,15 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStyleMenu.label "ಪುಟದ ಶೈಲಿ">
 <!ENTITY pageStyleMenu.accesskey "y">
 <!ENTITY pageStyleNoStyle.label "ಯಾವುದೇ ಶೈಲಿ ಇಲ್ಲ">
-<!ENTITY pageStyleNoStyle.accesskey "n">
+<!ENTITY pageStyleNoStyle.accesskey "N">
 <!ENTITY pageStylePersistentOnly.label "ಮೂಲ  ಪುಟದ ಶೈಲಿ">
-<!ENTITY pageStylePersistentOnly.accesskey "b">
+<!ENTITY pageStylePersistentOnly.accesskey "B">
 
 <!ENTITY pageReportIcon.tooltip            "ಈ ಜಾಲ ತಾಣಕ್ಕೆ ಪುಟಿಕೆ ನಿರ್ಬಂಧಿಸುವ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸು">
 
 <!ENTITY allowPopups.accesskey "p">
-<!ENTITY editPopupSettingsUnix.label "Edit Pop-up Blocker Preferences">
-<!ENTITY editPopupSettings.label "Edit Pop-up Blocker Preferences">
+<!ENTITY editPopupSettingsUnix.label "ಪುಟಿಕೆಯನ್ನು ನಿರ್ಬಂಧಿಸುವ (ಪಾಪ್ಅಪ್ ಬ್ಲಾಕರ್) ಆದ್ಯತೆಗಳನ್ನು ಸಂಪಾದಿಸು...">
+<!ENTITY editPopupSettings.label "ಪುಟಿಕೆಯನ್ನು ನಿರ್ಬಂಧಿಸುವ (ಪಾಪ್ಅಪ್ ಬ್ಲಾಕರ್)ಆಯ್ಕೆಗಳನ್ನು ಸಂಪಾದಿಸು...">
 <!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
@@ -631,13 +623,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (syncTabsMenu2.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu2.label     "ಇತರೆ ಸಾಧನಗಳಿಂದ ಟ್ಯಾಬ್‌ಗಳು">
 
-<!ENTITY syncBrand.shortName.label    "Sync">
+<!ENTITY syncBrand.shortName.label    "ಸಿಂಕ್‌">
 
 <!ENTITY syncSetup.label              "&syncBrand.shortName.label; ಅನ್ನು ಸಿದ್ಧಗೊಳಿಸಿ…">
 <!ENTITY syncSetup.accesskey          "Y">
 <!ENTITY syncSyncNowItem.label        "ಈಗಲೆ ಸಿಂಕ್ ಮಾಡು">
 <!ENTITY syncSyncNowItem.accesskey    "S">
-<!ENTITY syncToolbarButton.label      "ಸಿಂಕ್‌ ಮಾಡು">
+<!ENTITY syncToolbarButton.label      "ಸಿಂಕ್‌">
 
 <!ENTITY addonBarCloseButton.tooltip  "ಆಡ್‌-ಆನ್ ಪಟ್ಟಿಕೆಯನ್ನು ಮುಚ್ಚು">
 <!ENTITY toggleAddonBarCmd.key        "/">
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "ಹಂಚಲು ಮೈಕ್ರೊಫೋನ್:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "ಕ್ಯಾಮೆರಾ / ಮೈಕ್ರೊಫೋನ್ ನಿಲುಕಣೆ">
-<!ENTITY webrtcIndicatorButton.tooltip "ನಿಮ್ಮ ಕ್ಯಾಮೆರಾ ಮತ್ತು ಮೈಕ್ರೊಫೋನ್ ಅನ್ನು ನೀವು ಪ್ರಸಕ್ತ ಹಂಚಿಕೊಂಡಿರುವ ತಾಣಗಳನ್ನು ತೋರಿಸು">
 
-<!ENTITY mixedContentBlocked.helplink "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ">
 <!ENTITY mixedContentBlocked.moreinfo "ಈ ವಿಷಯವನ್ನು ನಿರ್ಬಂಧಿಸಿದ್ದರೂ ಸಹ ಹೆಚ್ಚಿನ ಜಾಲತಾಣಗಳು ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ.">
 
 <!ENTITY pointerLock.notification.message "ಅದನ್ನು ಯಾವುದೆ ಸಮಯದಲ್ಲಿ ತೋರಿಸಲು ESC ಅನ್ನು ಒತ್ತಿ.">

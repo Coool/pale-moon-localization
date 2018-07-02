@@ -6,7 +6,9 @@
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
-   Ця сторінка містить технічну інформацію, яка може бути корисна, коли ви намагаєтеся вирішити проблему. Якщо ви шукаєте відповіді на типові питання про &brandShortName;, зверніться на наш <a id='supportLink'>веб-сайт підтримки</a>.
+  Ця сторінка містить технічну інформацію, що може стати у нагоді під час вирішення проблем.
+  Якщо ж вам потрібні відповіді на загальні питання щодо 
+  &brandShortName; — відвідайте наш <a id='supportLink'>сайт підтримки</a>.
 ">
 
 <!ENTITY aboutSupport.crashes.title "Звіти про збої">
@@ -30,7 +32,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "Активно">
 <!ENTITY aboutSupport.experimentEndDate "Кінцева дата">
 <!ENTITY aboutSupport.experimentHomepage "Домашня сторінка">
-
+<!ENTITY aboutSupport.experimentBranch "Гілка">
 
 <!ENTITY aboutSupport.appBasicsTitle "Відомості про застосунок">
 <!ENTITY aboutSupport.appBasicsName "Ім'я">
@@ -54,6 +56,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Агент користувача">
 <!ENTITY aboutSupport.appBasicsOS "ОС">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Використання пам'яті">
+<!ENTITY aboutSupport.appBasicsPerformance "Швидкодія">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Зареєстровані Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Профілі">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Багатопроцесні вікна">
 
@@ -64,9 +72,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Показати у Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Показати теку">
+<!ENTITY aboutSupport.showWin2.label "Відкрити теку">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Важливі змінені налаштування">
 <!ENTITY aboutSupport.modifiedPrefsName "Ім'я">
@@ -101,10 +109,17 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Скопіювати в буфер обміну">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Копіювати необроблені дані до буфера обміну">
 
-<!ENTITY aboutSupport.sandboxTitle "Пісочниця">
-
 <!ENTITY aboutSupport.safeModeTitle "Спробувати безпечний режим">
 <!ENTITY aboutSupport.restartInSafeMode.label "Перезавантажити в безпечному режимі…">
 
 <!ENTITY aboutSupport.restartTitle "Спробувати перезавантажити">
 <!ENTITY aboutSupport.restartNormal.label "Виконати звичайний перезапуск…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Можливості">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Діагностика">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Журнал збоїв">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Журнал рішень">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Можливості, вимкнені захистом від збоїв">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Способи обходу">

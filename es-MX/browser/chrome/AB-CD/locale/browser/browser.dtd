@@ -107,9 +107,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenAutohide.accesskey "O">
 <!ENTITY fullScreenExit.label "Salir del modo pantalla completa">
 <!ENTITY fullScreenExit.accesskey "c">
-<!ENTITY fullscreenAllowButton.label "Permitir">
-<!ENTITY fullscreenExitButton.label "Denegar">
-<!ENTITY fullscreenApproval.value "¿Permitir pantalla completa?">
 
 <!ENTITY fullscreenExitHint.value "Presiona ESC en cualquier momento para salir de pantalla completa.">
 <!ENTITY leaveDOMFullScreen.label "Salir de pantalla completa">
@@ -201,6 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.commandkey            "A">
 <!ENTITY permissions.label            "Permisos">
 <!ENTITY permissions.accesskey        "m">
+<!ENTITY preferencesCmd2.label        "Preferencias">
+<!ENTITY preferencesCmd2.accesskey    "P">
 
 <!ENTITY webDeveloperMenu.label       "Desarrollador Web">
 <!ENTITY webDeveloperMenu.accesskey   "W">
@@ -297,10 +296,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY selectAllCmd.label         "Seleccionar todo">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "S"> 
-<!ENTITY preferencesCmd2.label       "Preferencias">
-<!ENTITY preferencesCmd2.accesskey     "P">
-<!ENTITY preferencesCmdUnix.label       "Preferencias">
-<!ENTITY preferencesCmdUnix.accesskey     "f"> 
 
 <!ENTITY clearRecentHistory.label               "Borrar el historial reciente…">
 
@@ -337,10 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Desarrollador Web">
 <!ENTITY appMenuGettingStarted.label "Primeros pasos">
 <!ENTITY appMenuSafeMode.label "Reiniciar en modo seguro…">
-<!ENTITY appMenuSafeMode.accesskey "R">
 
 <!ENTITY openCmd.commandkey           "l">
-<!ENTITY urlbar.placeholder2          "Introduce una dirección o un término de búsqueda">
 <!ENTITY urlbar.accesskey             "d">
 <!ENTITY urlbar.switchToTab.label     "Ir a la pestaña:">
 
@@ -554,7 +547,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY appMenuRestart.label           "Reiniciar…">
 <!ENTITY appMenuRestart.accesskey       "R">
-<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Salir"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "S">
@@ -635,7 +627,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncSetup.label              "Configurar &syncBrand.shortName.label;...">
 <!ENTITY syncSetup.accesskey          "S">
-<!ENTITY syncSyncNowItem.label        "Sincronizar Ahora">
+<!ENTITY syncSyncNowItem.label        "Sincronizar ahora">
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Sync">
 
@@ -647,10 +639,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY getUserMedia.selectMicrophone.label "Micrófono a compartir:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
 
-<!ENTITY webrtcIndicatorButton.label "Acceso a cámara y micrófono">
-<!ENTITY webrtcIndicatorButton.tooltip "Mostrar los sitios con los que estás compartiendo tu cámara o micrófono">
 
-<!ENTITY mixedContentBlocked.helplink "Más información">
 <!ENTITY mixedContentBlocked.moreinfo "La mayoría de los sitios web aun funcionarán incluso si este contenido está bloqueado.">
 
 <!ENTITY pointerLock.notification.message "Presiona ESC en cualquier momento para mostrarlo de nuevo.">

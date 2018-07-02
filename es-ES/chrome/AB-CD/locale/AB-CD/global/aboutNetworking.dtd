@@ -2,21 +2,21 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutNetworking.title                 "Acerca de Red">
-<!ENTITY aboutNetworking.warning               "Esto es muy experimental. No usar sin supervisión de un adulto.">
+<!ENTITY aboutNetworking.title                 "Acerca del tráfico de red">
+<!ENTITY aboutNetworking.warning               "Esto es muy experimental. No debe usarse sin supervisión de un adulto.">
 <!ENTITY aboutNetworking.showNextTime          "Mostrar esta advertencia la próxima vez">
 <!ENTITY aboutNetworking.ok                    "Aceptar">
-<!ENTITY aboutNetworking.http                  "Http">
+<!ENTITY aboutNetworking.HTTP                  "HTTP">
 <!ENTITY aboutNetworking.sockets               "Sockets">
 <!ENTITY aboutNetworking.dns                   "DNS">
 <!ENTITY aboutNetworking.websockets            "WebSockets">
 <!ENTITY aboutNetworking.refresh               "Refrescar">
-<!ENTITY aboutNetworking.autoRefresh           "Actualizar automáticamente cada 3 segundos">
-<!ENTITY aboutNetworking.hostname              "Nombre de host">
+<!ENTITY aboutNetworking.autoRefresh           "Referescar automáticamente cada 3 segundos">
+<!ENTITY aboutNetworking.hostname              "Nombre del servidor">
 <!ENTITY aboutNetworking.port                  "Puerto">
 <!ENTITY aboutNetworking.spdy                  "SPDY">
 <!ENTITY aboutNetworking.ssl                   "SSL">
-<!ENTITY aboutNetworking.active                "Activo">
+<!ENTITY aboutNetworking.active                "Activado">
 <!ENTITY aboutNetworking.idle                  "Inactivo">
 <!ENTITY aboutNetworking.host                  "Servidor">
 <!ENTITY aboutNetworking.tcp                   "TCP">
@@ -24,8 +24,20 @@
 <!ENTITY aboutNetworking.received              "Recibido">
 <!ENTITY aboutNetworking.family                "Familia">
 <!ENTITY aboutNetworking.addresses             "Direcciones">
-<!ENTITY aboutNetworking.expires               "Caduca (Segundos)">
+<!ENTITY aboutNetworking.expires               "Expira (segundos)">
 <!ENTITY aboutNetworking.messagesSent          "Mensajes Enviados">
 <!ENTITY aboutNetworking.messagesReceived      "Mensajes Recibidos">
 <!ENTITY aboutNetworking.bytesSent             "Bytes Enviados">
-<!ENTITY aboutNetworking.bytesReceived         "Bytes Recibidos">
+<!ENTITY aboutNetworking.bytesReceived         "Bytes recibidos">
+<!ENTITY aboutNetworking.logging               "Registro">
+<!ENTITY aboutNetworking.logTutorial           "Vea <a href='https://developer.mozilla.org/docs/Mozilla/Debugging/HTTP_logging'>Registro HTTP</a> para más instrucciones sobre cómo usar esta herramienta.">
+<!ENTITY aboutNetworking.currentLogFile        "Archivo actual de registro:">
+<!ENTITY aboutNetworking.currentLogModules     "Módulos actuales de registro:">
+<!ENTITY aboutNetworking.setLogFile            "Establecer archivo de registro">
+<!ENTITY aboutNetworking.setLogModules         "Establecer módulos de registro">
+<!ENTITY aboutNetworking.startLogging          "Comenzar a registrar">
+<!ENTITY aboutNetworking.stopLogging           "Terminar de registrar">
+<!ENTITY aboutNetworking.dnsLookup             "Búsqueda DNS">
+<!ENTITY aboutNetworking.dnsLookupButton       "Resolver">
+<!ENTITY aboutNetworking.dnsDomain             "Dominio">
+<!ENTITY aboutNetworking.dnsLookupTableColumn  "IPs">

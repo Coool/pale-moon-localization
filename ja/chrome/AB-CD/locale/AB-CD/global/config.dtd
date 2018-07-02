@@ -5,20 +5,21 @@
 <!ENTITY window.title "about:config">
 
 <!-- about:config warning page -->
-<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
-<!ENTITY aboutWarningTitle.label "ここにドラゴンがいます！">
-<!ENTITY aboutWarningText.label "これらの高度な設定を変更すると、このアプリケーションの安定性、セキュリティ、パフォーマンスに (重大な) 悪影響を及ぼすことがあります。 行う事を把握している場合にのみ続けるべきです。">
-<!ENTITY aboutWarningButton.label "注意することを約束します！">
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
+<!ENTITY aboutWarningTitle.label "動作保証対象外になります！">
+<!ENTITY aboutWarningText.label "プログラムの高度な設定を変更すると、安定性、セキュリティ、パフォーマンスに深刻な問題を引き起こす恐れがあります。設定変更による影響を完全に理解している場合に限ってご利用ください。">
+<!ENTITY aboutWarningButton2.label "危険性を承知の上で使用する">
 <!ENTITY aboutWarningCheckbox.label "次回もこの警告を表示する">
 
 <!ENTITY searchPrefs.label "検索:">
 <!ENTITY searchPrefs.accesskey "r">
 <!ENTITY focusSearch.key "r">
+<!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "設定名">
 <!ENTITY lockColumn.label "状態">
-<!ENTITY typeColumn.label "ファイルの種類 (Content Type)">
+<!ENTITY typeColumn.label "型">
 <!ENTITY valueColumn.label "値">
 
 <!-- Tooltips -->

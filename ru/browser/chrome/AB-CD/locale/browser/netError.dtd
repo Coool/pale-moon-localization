@@ -7,6 +7,8 @@
 
 <!ENTITY loadError.label "Проблема при загрузке страницы">
 <!ENTITY retry.label "Попробовать снова">
+<!ENTITY returnToPreviousPage.label "Вернуться назад">
+<!ENTITY advanced.label "Дополнительно">
 
 <!-- Specific error messages -->
 
@@ -14,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Обращение к данному адресу заблокировано">
-<!ENTITY deniedPortAccess.longDesc "<p>Для запрошенного адреса указан порт (пример: <q>palemoon.org:25</q> это порт 25 на сайте palemoon.org) который, как правило, <em>не используется</em> для работы с веб-сайтами. В целях безопасности браузер отменил данный запрос.</p>">
+<!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Сервер не найден">
 <!ENTITY dnsNotFound.longDesc "
@@ -32,11 +34,23 @@
    <li>Проверьте, не был ли файл переименован, удалён или перемещён.</li>
 </ul>">
 
+<!ENTITY fileAccessDenied.title "В доступе к файлу отказано">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>Возможно, что он был удалён или перемещён, или разрешения на файл не дают получить к нему доступ.</li>
+</ul>">
 
 <!ENTITY generic.title "Ой.">
 <!ENTITY generic.longDesc "
 <p>&brandShortName; не может загрузить эту страницу по какой-то причине.</p>
 ">
+
+<!ENTITY captivePortal.title "Вход в сеть">
+<!ENTITY captivePortal.longDesc "
+<p>Эта сеть может потребовать от вас произвести авторизацию для получения доступа в Интернет.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Открыть страницу входа">
 
 <!ENTITY malformedURI.title "Некорректный адрес">
 <!ENTITY malformedURI.longDesc "
@@ -129,6 +143,11 @@
 <li>Это может быть проблемой с конфигурацией сервера или же кто-то пытается подменить нужный вам сервер другим.</li>
 <li>Если в прошлом вы успешно соединялись с этим сервером, то, возможно, эта ошибка является временной. Попробуйте зайти позже.</li>
 </ul>">
+<!ENTITY certerror.longpagetitle1 "Ваше соединение не защищено">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "Владелец <span class='hostname'/> неправильно настроил свой веб-сайт. Чтобы защитить вашу информацию от кражи, &brandShortName; не соединился с этим веб-сайтом.">
 
 <!ENTITY sharedLongDesc "
 <ul>
@@ -169,6 +188,8 @@
 <ul>
 <li>Пожалуйста, свяжитесь с владельцами веб-сайта и проинформируйте их об этой проблеме.</li>
 </ul>">
+<!ENTITY corruptedContentErrorv2.title "Ошибка искаженного содержимого">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Страница, которую вы пытаетесь просмотреть, не может быть показана, так как была обнаружена ошибка при передаче данных.</p><ul><li>Пожалуйста, свяжитесь с владельцами веб-сайта и проинформируйте их об этой проблеме.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "И вы можете добавить исключение…">
@@ -188,15 +209,6 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY errorReporting.title "Сообщить об этой ошибке">
-<!ENTITY errorReporting.longDesc "Отправка информации об адресе и сертификате для <span id='hostname'></span> поможет нам обнаружить и заблокировать вредоносные сайты. Спасибо, что помогаете нам создать более безопасный Интернет!">
-<!ENTITY errorReporting.automatic "В будущем автоматически сообщать об ошибках">
-<!ENTITY errorReporting.learnMore "Подробнее…">
-<!ENTITY errorReporting.sending "Отправка сообщения">
-<!ENTITY errorReporting.sent "Сообщение отправлено">
-<!ENTITY errorReporting.report "Сообщить">
-<!ENTITY errorReporting.tryAgain "Попробовать снова">
-
 <!ENTITY remoteXUL.title "Удалённый XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Пожалуйста, свяжитесь с владельцами веб-сайта, чтобы проинформировать их об этой проблеме.</li></ul></p>">
 
@@ -205,3 +217,30 @@ functionality specific to firefox. -->
      "ssl_error_unsupported_version". -->
 <!ENTITY sslv3Used.longDesc "Дополнительная информация: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "Подробнее…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "Дополнительная информация: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "Ваше соединение не защищено">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "Дополнительная информация: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "Дополнительно">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> использует защитную технологию, которая является устаревшей и уязвимой для атаки. Злоумышленник может легко выявить информацию, которая, как вы думали, находится в безопасности.">
+<!ENTITY weakCryptoAdvanced.override "(Не защищено) Попробуйте загрузить <span class='hostname'></span>, используя устаревшую защиту">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Защищённое соединение с <span id='wrongSystemTime_URL'/> не представляется возможным, потому что похоже, что ваши часы показывают неправильное время.</p> <p>Ваш компьютер думает, что сейчас <span id='wrongSystemTime_systemDate'/>, тогда как на самом деле сейчас <span id='wrongSystemTime_actualDate'/>. Чтобы устранить эту проблему, измените ваши настройки даты и времени, чтобы установить правильное время.</p>">
+
+<!ENTITY certerror.pagetitle1  "Незащищённое соединение">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Этот сайт использует HTTP Strict Transport Security (HSTS), чтобы указать, что &brandShortName; должен подключаться к нему только через защищённое соединение. В результате, добавление исключения для этого сертификата невозможно.">
+<!ENTITY certerror.copyToClipboard.label "Копировать текст в буфер обмена">
+
+<!ENTITY inadequateSecurityError.title "Ваше соединение не защищено">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> использует защитную технологию, которая является устаревшей и уязвимой для атаки. Злоумышленник может легко выявить информацию, которая, как вы думали, находится в безопасности. Для того, чтобы вы смогли посетить веб-сайт, администратор веб-сайта должен сначала исправить его сервер.</p><p>Код ошибки: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Похоже, что причиной этого могут быть настройки безопасности вашей сети. Вы хотите восстановить настройки по умолчанию?">
+<!ENTITY prefReset.label "Восстановить настройки по умолчанию">

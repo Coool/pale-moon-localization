@@ -1,0 +1,54 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY permissionsManager.title        "Tagapamahala ng mga Pahintulot">
+
+<!ENTITY sites.search                    "Hanapin sa mga Site">
+<!ENTITY sites.allSites                  "Lahat ng mga Site">
+
+<!-- LOCALIZATION NOTE (permissions.header.start, permissions.header.end): These strings
+     surround the host name of the site to make the header for the permissions page.
+     example: "Permissions for mozilla.org" -->
+<!ENTITY header.site.start               "Mga Pahintulot para sa">
+<!ENTITY header.site.end                 "">
+
+<!ENTITY header.defaults                 "Paunang-tukoy na mga Pahintulot para sa Lahat ng mga Site">
+
+<!ENTITY permissions.sitesReload         "I-reload ang listahan ng mga site">
+
+<!ENTITY permissions.forgetSite          "Limutin Itong Site">
+
+<!ENTITY permission.default              "Gamitin ang Paunang-tukoy">
+
+<!ENTITY permission.alwaysAsk            "Laging Itanong">
+<!ENTITY permission.allow                "Payagan">
+<!ENTITY permission.allowForSession      "Payagan para sa Sesyon">
+<!ENTITY permission.allowFirstPartyOnly  "Payagan ang Unang Partido Lamang">
+<!ENTITY permission.block                "Harangin">
+
+<!ENTITY password.label                  "Mag-imbak ng mga Password">
+<!ENTITY password.manage                 "Pangasiwaan ang mga Password…">
+
+<!ENTITY image.label                     "Mag-load ng mga Larawan">
+
+<!ENTITY cookie.label                    "Magtakda ng mga Cookie">
+<!ENTITY cookie.remove                   "Mag-tanggal ng mga Cookie">
+<!ENTITY cookie.manage                   "Pangasiwaan ang mga Cookie…">
+<!ENTITY cookie.removeAll                "Tanggalin Lahat ng mga Cookie">
+
+<!ENTITY desktop-notification.label      "Magpakita ng mga Notipikasyon">
+
+<!ENTITY install.label                   "Mag-install ng mga Ekstensiyon o Tema">
+
+<!ENTITY geo.label                       "Magbahagi ng Lokasyon">
+
+<!ENTITY plugins.label                   "Mga Plugin">
+
+<!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
+     using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
+<!ENTITY indexedDB.label                 "Magpanatili ng Lokal na Imbakan">
+
+<!ENTITY popup.label                     "Magbukás ng mga Pop-up Window">
+
+<!ENTITY focusSearch.key                 "f">

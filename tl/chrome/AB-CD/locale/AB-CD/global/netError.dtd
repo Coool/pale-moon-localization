@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Hindi Natagpuang File">
 <!ENTITY fileNotFound.longDesc "<ul><li>Maaaring ang bagay ay pinalitan ng pangalan, inalis, o inilipat sa ibang lokasyon?</li><li>Mayroon bang ispeling, palaking-titik (kapitalisasyon) o ibang klase ng pagkakamaling tipograpikal sa address?</li><li>Meron ka bang sapat na pahintulot upang mabuksán ang hinihiling na bagay?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Access to the file was denied">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>It may have been removed, moved, or file permissions may be preventing access.</li></ul>">
+
 <!ENTITY generic.title "Hindi Makompletong Hiling">
 <!ENTITY generic.longDesc "<p>Karagdagang impormasyon tungkol sa problema o error na ito ay kasalukuyang hindi makita.</p>">
 
@@ -77,30 +80,22 @@
 </ul>
 ">
 
-<!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Ang mga &quot;attack site&quot; ay susubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompiyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
-<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay naiulat na attack site sa pagkakamali ay maaaring <a href='https://www.stopbadware.org/request-review' >humingi ng isang pagsusuri</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Paglalagay ng anumang personal na impormasyon sa pahinang ito ay maaaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
-<p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para gayahin ang mga tao o mga pinagmulang iyong pinagkakatiwalaan.</p>
+<!ENTITY securityOverride.linkText "Or you can add an exception…">
+<!ENTITY securityOverride.warningContent "
+<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
+<p>If you still wish to add an exception for this site, you can do so in your advanced encryption settings.</p>
 ">
 
 <!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
 <!ENTITY cspBlocked.longDesc "<p>Pinigilan ng browser ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong content security policy na hindi ito pinapayagan.</p>">
 
-<!ENTITY corruptedContentError.title "Error sa Sirang Nilalaman">
-<!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Corrupted Content Error">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Ang pahinang sinusubukan mong tignan ay hindi pwedeng ipakita sapagkat mayroong problemang napuna sa pagpapadala nang data.</p><ul><li>Ipagbigay alam sa may-ari nang website ang tungkol sa problemang ito.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Your connection is not secure">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe. The website administrator will need to fix the server first before you can visit the site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

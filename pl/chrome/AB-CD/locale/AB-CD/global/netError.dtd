@@ -7,98 +7,82 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Nie udało się połączyć">
-<!ENTITY connectionFailure.longDesc "<p>Choć strona wydaje się prawidłowa, przeglądarka nie była w stanie nawiązać połączenia</p><ul><li>Czyżby strona była czasowo niedostępna? Spróbuj ponownie później.</li><li>Czy jesteś w stanie oglądać inne strony? Sprawdź połączenie sieciowe komputera.</li><li>Czy Twój komputer lub sieć jest chroniona przez zaporę sieciową lub serwer proxy? Nieprawidłowe ustawienia mogą powodować problemy z przeglądaniem sieci Web.</li></ul>">
+<!ENTITY connectionFailure.title "Nie udało się nawiązać połączenia">
+<!ENTITY connectionFailure.longDesc "<p>Pomimo że adres witryny wydaje się prawidłowy, przeglądarka nie była w stanie nawiązać połączenia.</p><ul><li>Witryna może być tymczasowo niedostępna lub przeciążona. Spróbuj ponownie za pewien czas.</li><li>Jeśli nie możesz otworzyć żadnej strony, sprawdź swoje połączenie sieciowe.</li><li>Jeśli ten komputer jest chroniony przez zaporę sieciową lub serwer proxy, należy sprawdzić, czy ten program jest uprawniony do łączenia się z Internetem.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Port ograniczony z względów bezpieczeństwa">
+<!ENTITY deniedPortAccess.title "Zastrzeżony adres">
 <!ENTITY deniedPortAccess.longDesc "<p>Żądany adres określony port (np. <q>palemoon.org:25</q> dla portu 25 na palemoon.org) zwykle używany do celów <em>innych</em> niż przeglądanie stron internetowych. Przeglądarka anulowała żądanie dla ochrony i bezpieczeństwa.</p>">
 
-<!ENTITY dnsNotFound.title "Nie znaleziono adresu">
-<!ENTITY dnsNotFound.longDesc "<p> Przeglądarka nie może odnaleźć serwera dla podanego adresu.</p><ul><li> Czy popełnieś błąd podczas wpisywania domeny? (Np <q><strong>ww</strong>.mozilla.org </q> zamiast <q><strong>www</strong>.mozilla.org </q>)</li><li> Czy jesteś pewien, że  adres domeny istnieje? Jej okres rejestracji mógł upłynąć.</li><li> Czy jesteś w stanie oglądać inne strony? Sprawdź połączenie sieciowe i ustawienia serwera DNS.</li><li> Czy Twój komputer lub sieć jest chroniona przez zaporę sieciową lub serwer proxy? Nieprawidłowe ustawienia mogą powodować problemy z przeglądaniem sieci.</li></ul>">
+<!ENTITY dnsNotFound.title "Nie odnaleziono adresu">
+<!ENTITY dnsNotFound.longDesc "<p>Przeglądarka nie mogła odnaleźć adresu serwera dla podanego adresu.</p><ul><li>Upewnij się, że wprowadzony adres witryny jest poprawny (np. <q><strong>www</strong>.mozilla.org</q>, a nie <q><strong>ww</strong>.mozilla.org</q>)</li><li>Czy domena aby na pewno nadal istnieje? Jej okres rejestracji mógł upłynąć.</li><li>Nie można oglądać innych witryn? Sprawdź swoje połączenie z siecią oraz ustawienia serwerów DNS.</li><li>Czy ten komputer lub sieć są chronione przez serwer proxy albo zaporę sieciową? Ich nieprawidłowa konfiguracja może powodować problemy z przeglądaniem witryn internetowych.</li></ul>">
 
 <!ENTITY fileNotFound.title "Nie znaleziono pliku">
 <!ENTITY fileNotFound.longDesc "<ul><li> Czy pozycja została zmieniona, usunięta lub przeniesiona?</li><li>Pisownia, litery lub inne błędy typograficzne w adresie?</li><li>Wystarczające uprawnienia dostępu do żądanego elementu? </li></ul>">
 
-<!ENTITY generic.title "Nie można zrealizować żądania">
-<!ENTITY generic.longDesc "<p>Dodatkowe informacje dotyczące tego problemu lub błędu są aktualnie niedostępne</p>">
+<!ENTITY fileAccessDenied.title "Odmowa dostępu do pliku">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Plik mógł zostać usunięty, przeniesiony lub jego uprawnienia uniemożliwiają dostęp.</li></ul>">
 
-<!ENTITY malformedURI.title "Błędny adres">
-<!ENTITY malformedURI.longDesc "<p>Podany adres ma nie rozpoznany format. Proszę sprawdzić w pasku adresu błędy i spróbować ponownie.</p>">
+<!ENTITY generic.title "Wystąpił błąd">
+<!ENTITY generic.longDesc "<p>Dodatkowe informacje o tym problemie lub błędzie nie są obecnie dostępne.</p>">
 
-<!ENTITY netInterrupt.title "Przerwana transmisja danych">
-<!ENTITY netInterrupt.longDesc "<p>Przeglądarka połączona z powodzeniem, ale połączenie zostało przerwane podczas przesyłania informacji. Proszę spróbować ponownie. </p><ul><li>Czy jesteś w stanie oglądać inne strony? Sprawdź połączenie sieciowe komputera..</li><li>W dalszym ciągu masz problemy? Należy skonsultować się z administratorem sieci lub dostawcą usług internetowych w celu uzyskania pomocy</li></ul>">
+<!ENTITY malformedURI.title "Nieprawidłowy adres">
+<!ENTITY malformedURI.longDesc "<p>Podano adres w nierozpoznawalnym formacie. Należy sprawdzić, czy w pasku adresu nie ma błędów, a następnie spróbuj ponownie.</p>">
+
+<!ENTITY netInterrupt.title "Przerwane połączenie">
+<!ENTITY netInterrupt.longDesc "<p>Przeglądarka nawiązała połączenie, ale zostało ono przerwane podczas przesyłania informacji.</p><ul><li>Witryna może być tymczasowo niedostępna lub przeciążona. Spróbuj ponownie za pewien czas.</li><li>Jeśli nie możesz otworzyć żadnej strony, sprawdź swoje połączenie sieciowe.</li><li>Jeśli ten komputer jest chroniony przez zaporę sieciową lub serwer proxy, należy sprawdzić, czy ten program jest uprawniony do łączenia się z Internetem.</li></ul>">
 
 <!ENTITY notCached.title "Dokument wygasł">
-<!ENTITY notCached.longDesc "<p>żądany dokument nie jest dostępny w pamięci podręcznej przeglądarki. </p><ul><li>Ze względów bezpieczeństwa, przeglądarka nie powoduje automatycznego ponownego żądania poufnych dokumentów.</li><li>Kliknij Spróbuj ponownie.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Żądany dokument nie jest dostępny w pamięci podręcznej.</p><ul><li>Ze względów bezpieczeństwa, przeglądarka automatycznie nie pobiera ponownie wrażliwych dokumentów.</li><li>Kliknij przycisk „Spróbuj ponownie”, aby jeszcze raz pobrać dokument z witryny.</li></ul>">
 
 <!ENTITY netOffline.title "Tryb offline">
-<!ENTITY netOffline.longDesc2 "<p>Przeglądarka działa w trybie offline i nie może połączyć się z żądaną pozycją.</p><ul><li>Czy komputer jest podłączony do aktywnej sieci?</li><li>Naciśnij przycisk &quot;Spróbuj ponownie&quot; aby przejść do trybu online i odświeżyć stronę. </li></ul>">
+<!ENTITY netOffline.longDesc2 "<p>Przeglądarka pracuje w trybie offline i nie może pobrać żądanego elementu.</p><ul><li>Czy komputer podłączony jest do działającej sieci?</li><li>Naciśnij „Spróbuj ponownie”, by przejść do trybu online i odświeżyć stronę.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Błąd kodowania zawartości">
-<!ENTITY contentEncodingError.longDesc "<p>Strona, którą próbujesz obejrzeć, nie może zostać wyświetlona, ponieważ używa nieprawidłowych lub nieobsługiwanych metod kompresji.</p><ul><li>Prosimy poinformować właścicieli strony o tym problemie.</li></ul>">
+<!ENTITY contentEncodingError.longDesc "<p>Otwierana strona nie może zostać wyświetlona, ponieważ używa nieprawidłowych lub nieobsługiwanych metod kompresji.</p><ul><li>Proszę poinformować właścicieli witryny o tym problemie.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Niebezpieczny typ pliku">
-<!ENTITY unsafeContentType.longDesc "
-<ul>   
-<li>Proszę skontaktować się z właścicielami strony by ponformować o tym problemie.</li> </ul>
-">
+<!ENTITY unsafeContentType.longDesc "<ul><li>Proszę poinformować właścicieli witryny o tym problemie.</li></ul>">
 
-<!ENTITY netReset.title "Połączenie przerwane">
-<!ENTITY netReset.longDesc "<p>Połączenie sieciowe zostało przerwane podczas negocjacji połączenia. Proszę spróbuj ponownie.</p>">
+<!ENTITY netReset.title "Przerwane połączenie">
+<!ENTITY netReset.longDesc "<p>Połączenie sieciowe zostało przerwane podczas negocjacji. Spróbuj ponownie.</p>">
 
-<!ENTITY netTimeout.title "Błąd sieci">
-<!ENTITY netTimeout.longDesc "<p>Żądana strona nie odpowiedziałana żądanie połączenia i przeglądarka przestała czekać na odpowiedź</p><ul><li>Może  serwer jest  obciążony  wysokim ruchem  lub tymczasowo jest niedostępny? Spróbuj ponownie później.</li><li>Czy jesteś w stanie oglądać inne strony? Sprawdź połączenie sieciowe komputera.</li><li>Czy Twój komputer lub sieć jest chroniona przez zaporę sieciową lub serwer proxy? Nieprawidłowe ustawienia mogą powodować problemy z przeglądaniem sieci Web.</li><li>Nadal masz problemy? Należy skonsultować się z administratorem sieci lub dostawcą usług internetowych w celu uzyskania pomocy.</li></ul>">
+<!ENTITY netTimeout.title "Przekroczono limit czasu połączenia">
+<!ENTITY netTimeout.longDesc "<p>Witryna przez dłuższy czas nie odpowiedziała na żądanie połączenia i przeglądarka przestała czekać na odpowiedź.</p><ul><li>Witryna może być tymczasowo niedostępna lub przeciążona. Spróbuj ponownie za pewien czas.</li><li>Jeśli nie możesz otworzyć żadnej strony, sprawdź swoje połączenie sieciowe.</li><li>Jeśli ten komputer jest chroniony przez zaporę sieciową lub serwer proxy, należy sprawdzić, czy ten program jest uprawniony do łączenia się z Internetem.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Nieznany protokół">
-<!ENTITY unknownProtocolFound.longDesc "<p>Określa adres protokołu (np. <q>wxyz: / /</q>) przeglądarka nie rozpoznaje, dzięki czemu przeglądarka poprawnie nie można połączyć się z witryną.</p> <ul><li>Są próbuje uzyskać dostęp do multimedialnych lub innych usług bez tekstu? Na stronie dodatkowe wymogi.</li> <li>Niektórych protokołów może wymagać oprogramowania innych firm lub wtyczki, zanim przeglądarki można je rozpoznać.</li></ul>">
+<!ENTITY unknownProtocolFound.longDesc "<p>Adres zawiera protokół (np. <q>wxyz://</q>), który nie jest rozpoznawany przez przeglądarkę. Nie może więc ona poprawnie połączyć się z daną witryną.</p><ul><li>Czy próbowano korzystać z multimediów lub z innych usług nieopartych na tekście? Należy sprawdzić, czy witryna nie ma dodatkowych wymagań.</li><li>Obsługa niektórych protokołów może wymagać oprogramowania lub wtyczek dostarczonych przez zewnętrznych producentów.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Serwer proxy odmówił połączenia">
-<!ENTITY proxyConnectFailure.longDesc "<p>Przeglądarka jest skonfigurowana do korzystania z serwera proxy, ale serwer proxy odmawia połączenia.</p><ul><li>Czy konfiguracja serwerów proxy w przeglądarce jest prawidłowa? Sprawdź ustawienia i spróbuj ponownie.</li><li>Czy usługa proxy umożliwia połączenia z tą siecią?</li><li>Nadal masz problemy? Należy skonsultować się z administratorem sieci lub dostawcą usług internetowych w celu uzyskania pomocy</li></ul>">
+<!ENTITY proxyConnectFailure.title "Serwer proxy odrzuca połączenia">
+<!ENTITY proxyConnectFailure.longDesc "<p>Przeglądarka została skonfigurowana tak, by używać serwera proxy, który jednak odrzucił połączenie.</p><ul><li>Czy konfiguracja serwerów proxy w przeglądarce jest prawidłowa? Należy sprawdzić ustawienia i spróbować ponownie.</li><li>Należy upewnić się, że serwer proxy dopuszcza połączenia z sieci użytkownika.</li><li>Jeśli nadal występują problemy, należy skonsultować się z administratorem sieci lub dostawcą usług internetowych.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Nie znaleziono serwera proxy">
-<!ENTITY proxyResolveFailure.longDesc "<p>Przeglądarka jest skonfigurowana do korzystania z serwera proxy, ale serwer proxy nie może być odnaleziony.</p><ul><li>Czy konfiguracja serwerów proxy w przeglądarce jest prawidłowa? Sprawdź ustawienia i spróbuj ponownie.</li><li>Czy komputer jest podłączony do aktywnej sieci?</li><li>Nadal masz problemy? Należy skonsultować się z administratorem sieci lub dostawcą usług internetowych w celu uzyskania pomocy</li></ul>">
+<!ENTITY proxyResolveFailure.title "Nie odnaleziono serwera proxy">
+<!ENTITY proxyResolveFailure.longDesc "<p>Przeglądarka została skonfigurowana tak, by używać serwera proxy, ale serwer proxy nie może być odnaleziony.</p><ul><li>Czy konfiguracja serwerów proxy w przeglądarce jest prawidłowa? Należy sprawdzić ustawienia i spróbować ponownie.</li><li>Czy komputer podłączony jest do działającej sieci?</li><li>Jeśli nadal występują problemy, należy skonsultować się z administratorem sieci lub dostawcą usług internetowych.</li></ul>">
 
 <!ENTITY redirectLoop.title "Pętla przekierowań">
-<!ENTITY redirectLoop.longDesc "<p>Przeglądarka przestała próbować pobrać żądany element. Strona przekierowuje żądanie w sposób, który nigdy nie będzie kompletny.</p><ul><li>Wyłączyłeś lub zablokowałeś ciasteczka wymagane przez tę stronę?</li><li><em>UWAGA</em>: Jeśli zaakceptowanie ciasteczek strony nie rozwiąże problemu, prawdopodobne jest to błąd konfiguracji serwera, a nie komputera.</li></ul>">
+<!ENTITY redirectLoop.longDesc "<p>Przeglądarka przerwała próby pobrania żądanego elementu. Witryna przekierowuje żądanie w sposób, który uniemożliwia jego dokończenie.</p><ul><li>Czy ciasteczka zostały wyłączone lub zablokowane dla tej witryny?</li><li><em>UWAGA</em>: Jeśli włączenie obsługi ciasteczek dla tej witryny nie rozwiązuje problemu, najprawdopodobniej jest to problem w konfiguracji serwera, a nie oprogramowania na komputerze użytkownika.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Błędne odpowiedzi">
-<!ENTITY unknownSocketType.longDesc "<p>Strona odpowiedziała na prośbę sieci w sposób nieoczekiwany i przeglądarka nie może kontynuować.</p>">
+<!ENTITY unknownSocketType.title "Nieoczekiwana odpowiedź serwera">
+<!ENTITY unknownSocketType.longDesc "<p>Witryna odpowiedziała w sposób nieoczekiwany i przeglądarka nie może kontynuować.</p>">
 
-<!ENTITY nssFailure2.title "Bezpieczne połączenie nie powiodło się">
-<!ENTITY nssFailure2.longDesc2 "<p>Strona którą próbujesz wyświetlić nie może być pokazana ponieważnie można zweryfikować autentyczności otrzymanych danych.</p><ul><li>Proszę skontaktować się z właścicielami strony by poinformować o tym problemie</li></ul>">
+<!ENTITY nssFailure2.title "Nie udało się nawiązać bezpiecznego połączenia">
+<!ENTITY nssFailure2.longDesc2 "<p>Żądana strona nie może zostać wyświetlona, ponieważ nie udało się potwierdzić autentyczności otrzymanych danych.</p><ul><li>Należy skontaktować się z właścicielem witryny i poinformować go o tym problemie.</li></ul>">
 
-<!ENTITY nssBadCert.title "Bezpieczne połączenie nie powiodło się">
-<!ENTITY nssBadCert.longDesc2 "<ul> 
-<li>To może być problem z konfiguracją serwera lub może to być ktoś kto próbuje podszyć się pod serwer.</li>
-<li>Jeśli urządzenie było podłączone do tego serwera z powodzeniem w przeszłości, błąd może być tymczasowy i można spróbować ponownie późniejJeśli urządzenie jest podłączone do tego serwera z powodzeniem w przeszłości, błąd może być tymczasowy, a można spróbować ponownie później.</li>
- </ul>
-">
+<!ENTITY nssBadCert.title "Nie udało się nawiązać bezpiecznego połączenia">
+<!ENTITY nssBadCert.longDesc2 "<ul><li>Powodem tego może być nieprawidłowa konfiguracja serwera albo próba podania się za ten serwer przez podmiot nieuprawniony.</li><li>Jeśli użytkownik łączył się wcześniej z tym serwerem, błąd może być tymczasowy – w tej sytuacji należy spróbować ponownie później.</li></ul>">
 
-<!ENTITY malwareBlocked.title "Podejrzewa się atak strony!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Ataki stron próbują instalować programy kradnące poufne dane, używające komputera do atakowania innych lub uszkodzają system.</p>
-<p>Właściciele strony którzy uważają ich strona została zgłoszona jako strona stanowiąca zagrożenie w błąd mogą <a href='https://www.stopbadware.org/request-review' >zgłosić wniosek o dokonanie przeglądu</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Prawdopodobne oszustwo!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Wprowadzanie jakichkolwiek informacji osobistych na tej stronie może skutkować kradzieżą tożsamości lub innymi oszustwami.
-</p>
-<p>Te rodzaje fałszerstw internetowych wykorzystywane są w oszustwach zwanymi atakami typu phishing, w którym oszukańcze strony internetowe i e-maile są wykorzystywane do naśladowania źródeł którym może ufasz.</p>
-">
+<!ENTITY securityOverride.linkText "Możesz także dodać wyjątek…">
+<!ENTITY securityOverride.warningContent "<p>Nie powinno się dodawać wyjątku w przypadku korzystania z niezaufanego połączenia z Internetem, ani jeśli zwykle takie ostrzeżenie nie pojawia się podczas korzystania z tego serwera.</p><p>Aby mimo to dodać wyjątek dla tej witryny, należy skorzystać z zaawansowanych ustawień szyfrowania.</p>">
 
 <!ENTITY cspBlocked.title "Zablokowane przez politykę bezpieczeństwa treści">
-<!ENTITY cspBlocked.longDesc "<p>Przeglądarka nie pozwoliła tej stronie załadować się w ten sposób, ponieważ strona posiada politykę bezpieczeństwa treści, która go wyklucza. </p>">
+<!ENTITY cspBlocked.longDesc "<p>Przeglądarka uniemożliwiła tej stronie wczytanie treści w ten sposób, ponieważ jej polityka bezpieczeństwa treści na to nie pozwala.</p>">
 
-<!ENTITY corruptedContentError.title "Błąd uszkodzonej zawartośći">
-<!ENTITY corruptedContentError.longDesc "<p>Strona którą próbujesz obejrzeć nie może zostać wyświetlona ponieważ wykryto błąd w transmisji danych.</p><ul><li>Proszę skontaktować się z właścicielami strony by poinformować o tym problemie.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Błąd: treść uszkodzona">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Strona, którą próbujesz obejrzeć, nie może być wyświetlona, ponieważ wykryto błąd w transmisji danych.</p><ul><li>Proszę poinformować właścicieli witryny o tym problemie.</li></ul>">
 
 <!ENTITY remoteXUL.title "Zdalna treść XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Proszę skontaktować się z właścicielami strony by poinformować o tym problemie.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Proszę poinformować właścicieli witryny o tym problemie.</li></ul></p>">
 
-<!-- Include app-specific error messages - do not change this in localization!
-     Some applications might override netErrorApp.dtd with their specific version,
-     this inclusion needs to be intact for that approach to work correctly.
-     Please, try to keep this at the end of the file. -->
-<!ENTITY % netErrorAppDTD SYSTEM "chrome://global/locale/netErrorApp.dtd">
-%netErrorAppDTD;
+<!ENTITY inadequateSecurityError.title "Połączenie nie gwarantuje bezpieczeństwa">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> używa przestarzałej i podatnej na ataki technologii bezpieczeństwa. Atakujący mógłby łatwo odszyfrować informacje, które miały być bezpieczne. Administrator strony musi naprawić serwer, zanim będzie można ją odwiedzić.</p><p>Kod błędu: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
