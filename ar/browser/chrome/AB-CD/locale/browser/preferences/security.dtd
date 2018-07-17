@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  addons.label                  "Add-ons">
+<!ENTITY  addons.label                  "الإضافات">
 
 <!ENTITY  warnAddonInstall.label        "حذّرني عندما يحاول موقع تثبيت إضافات">
 <!ENTITY  warnAddonInstall.accesskey    "ح">
@@ -10,11 +10,11 @@
 <!ENTITY  addonExceptions.label         "الاستثناءات…">
 <!ENTITY  addonExceptions.accesskey     "ث">
 
-<!ENTITY  addonSecuritylevel            "Add-on security level:">
-<!ENTITY  addonSecurityLevel_Off        "Off: No add-ons will be blocked (dangerous)">
-<!ENTITY  addonSecurityLevel_Low        "Low: Block only add-ons with severe security and stability issues">
-<!ENTITY  addonSecurityLevel_High       "Medium: Block all harmful add-ons (default, recommended)">
-<!ENTITY  addonSecurityLevel_Extreme    "High: Block all add-ons with known issues">
+<!ENTITY  addonSecuritylevel            "اضافة مستوى أمان:">
+<!ENTITY  addonSecurityLevel_Off        "إيقاف: لن يتم حظر أي إضافات (خطيرة)">
+<!ENTITY  addonSecurityLevel_Low        "منخفض: حظر الإضافات فقط مع مشاكل الأمان والاستقرار">
+<!ENTITY  addonSecurityLevel_High       "المتوسطة: حظر جميع الإضافات الضارة (الافتراضي، وأوصى)">
+<!ENTITY  addonSecurityLevel_Extreme    "عالي: حظر كافة الاضافات ذات المشكلات المعروفة">
 
 <!ENTITY  passwords.label               "كلمات السر">
 
@@ -23,7 +23,7 @@
 <!ENTITY  passwordExceptions.label      "الاستثناءات…">
 <!ENTITY  passwordExceptions.accesskey  "س">
 
-<!ENTITY  autofillPasswords.label       "Automatically fill in log-in details">
+<!ENTITY  autofillPasswords.label       "ملء بيانات تسجيل الدخول تلقائيًا">
 <!ENTITY  autofillPasswords.accesskey   "A">
 
 <!ENTITY  useMasterPassword.label        "استخدم كلمة سر رئيسيّة">
@@ -34,10 +34,10 @@
 <!ENTITY  savedPasswords.label            "كلمات السرّ المحفوظة…">
 <!ENTITY  savedPasswords.accesskey        "ك">
 
-<!ENTITY  SecProto.label             "Security Protocols">
-<!ENTITY  enableHSTS.label           "Enable Strict Transport Security (HSTS)">
+<!ENTITY  SecProto.label             "بروتوكولات الأمان">
+<!ENTITY  enableHSTS.label           "تمكين النظام الأمني (HSTS)">
 <!ENTITY  enableHSTS.accesskey       "S">
-<!ENTITY  enableHPKP.label           "Enable Certificate Key Pinning (HPKP)">
+<!ENTITY  enableHPKP.label           "تمكين تثبيت مفتاح الشهادات (HPKP)">
 <!ENTITY  enableHPKP.accesskey       "C">
 
 <!ENTITY  XSSFilt.label              "XSS Filter">

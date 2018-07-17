@@ -22,12 +22,12 @@
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.nonE10SBuild): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a non-multiprocess build. -->
-<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "Realtime recording data disabled on non-multiprocess Firefox.">
+<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "Καταγραφή δεδομένων σε πραγματικό χρόνο απενεργοποιημένη σε μη πολυδιεργασιακό &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.disabledE10S): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a build that can run multiprocess browser, but just is not enabled. -->
-<!ENTITY performanceUI.disabledRealTime.disabledE10S "Enable multiprocess Firefox in preferences for rendering recording data in realtime.">
+<!ENTITY performanceUI.disabledRealTime.disabledE10S "Για απόδοση καταγεγραμμένων δεδομένων σε πραγματικό χρόνο, ενεργοποιήστε στις προτιμήσεις τον πολυδεργασιακό &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (performanceUI.bufferStatusFull): This string
   -  is displayed when the profiler's circular buffer has started to overlap. -->
@@ -94,8 +94,8 @@
 <!-- LOCALIZATION NOTE (performanceUI.showPlatformData): This is the
   -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
-<!ENTITY performanceUI.showPlatformData             "Show Gecko Platform Data">
-<!ENTITY performanceUI.showPlatformData.tooltiptext "Showing platform data enables the JavaScript Profiler reports to include Gecko platform symbols.">
+<!ENTITY performanceUI.showPlatformData             "Προβολή Δεδομένων της Πλατφόρμας Goanna">
+<!ENTITY performanceUI.showPlatformData.tooltiptext "Η προβολή δεδομένων πλατφόρμας επιτρέπει στις αναφορές της συλλογής δεδομένων προφίλ JavaScript να περιλαμβάνουν τα σύμβολα της πλατφόρμας Goanna.">
 
 <!-- LOCALIZATION NOTE (performanceUI.showJITOptimizations): This string
   -  is displayed next to a checkbox determining whether or not JIT optimization data

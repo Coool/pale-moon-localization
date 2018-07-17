@@ -32,7 +32,8 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
-<!ENTITY  socksRemoteDNS.label          "Use proxy to perform DNS queries (SOCKS v5 only)">
+<!ENTITY  socksRemoteDNS.label          "استخدم البروكسي لتنفيذ استعلامات DNS
+ (SOCKS v5 فقط)">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "المنفذ:">
 <!ENTITY  HTTPport.accesskey            "م">
@@ -44,6 +45,6 @@
 <!ENTITY  noproxyExplain.label          "مثلًا: .palemoon.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "استعمل هذا الخادوم الوسيط لكل البروتوكولات">
 <!ENTITY  shareproxy.accesskey          "س">
-<!ENTITY  autologinproxy.label          "Do not prompt for authentication if password is saved">
+<!ENTITY  autologinproxy.label          "لا تطالب بمصادقة إذا تم حفظ كلمة المرور">
 <!ENTITY  autologinproxy.accesskey      "i">
-<!ENTITY  autologinproxy.tooltip        "This option silently authenticates you to proxies when you have saved credentials for them. You will be prompted if authentication fails.">
+<!ENTITY  autologinproxy.tooltip        "يصادق هذا الخيار بصمت على الوكلاء عند حفظ بيانات الاعتماد الخاصة بهم. ستتم مطالبتك في حالة فشل المصادقة.">

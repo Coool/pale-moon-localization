@@ -1,0 +1,45 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  addons.label                  "ส่วนเสริม">
+
+<!ENTITY  warnAddonInstall.label        "เตือนเมื่อเว็บไซต์พยายามติดตั้งส่วนเสริม">
+<!ENTITY  warnAddonInstall.accesskey    "ต">
+
+<!ENTITY  addonExceptions.label         "ยกเว้น…">
+<!ENTITY  addonExceptions.accesskey     "ย">
+
+<!ENTITY  addonSecuritylevel            "ระดับความปลอดภัยของส่วนเสริม:">
+<!ENTITY  addonSecurityLevel_Off        "ปิด: ไม่มีส่วนเสริมถูกกีดกัน (อันตราย)">
+<!ENTITY  addonSecurityLevel_Low        "ต่ำ: กีดกันเฉพาะส่วนเสริมที่มีปัญหาความปลอดภัยและความเสถียรอย่างรุนแรง">
+<!ENTITY  addonSecurityLevel_High       "ปานกลาง: กีดกันส่วนเสริมที่อันตรายทั้งหมด (การตั้งค่าเริ่มต้น, แนะนำให้ใช้)">
+<!ENTITY  addonSecurityLevel_Extreme    "สูง: กีดกันส่วนเสริมทั้งหมดที่รู้ว่ามีปัญหา">
+
+<!ENTITY  passwords.label               "รหัสผ่าน">
+
+<!ENTITY  rememberPasswords.label       "จำรหัสผ่านของเว็บไซต์">
+<!ENTITY  rememberPasswords.accesskey   "จ">
+<!ENTITY  passwordExceptions.label      "ยกเว้น…">
+<!ENTITY  passwordExceptions.accesskey  "ว">
+
+<!ENTITY  autofillPasswords.label       "เติมรายละเอียดการลงชื่อเข้าใช้อัตโนมัติ">
+<!ENTITY  autofillPasswords.accesskey   "A">
+
+<!ENTITY  useMasterPassword.label        "ใช้รหัสผ่านหลัก">
+<!ENTITY  useMasterPassword.accesskey    "ช">
+<!ENTITY  changeMasterPassword.label     "เปลี่ยนรหัสผ่านหลัก…">
+<!ENTITY  changeMasterPassword.accesskey "ล">
+
+<!ENTITY  savedPasswords.label            "รหัสผ่านที่บันทึกไว้…">
+<!ENTITY  savedPasswords.accesskey        "ร">
+
+<!ENTITY  SecProto.label             "โปรโตคอลความปลอดภัย">
+<!ENTITY  enableHSTS.label           "Enable Strict Transport Security (HSTS)">
+<!ENTITY  enableHSTS.accesskey       "S">
+<!ENTITY  enableHPKP.label           "Enable Certificate Key Pinning (HPKP)">
+<!ENTITY  enableHPKP.accesskey       "C">
+
+<!ENTITY  XSSFilt.label              "ตัวกรอง XSS">
+<!ENTITY  enableXSSFilt.label        "เปิดใช้งานตัวกรอง XSS">
+<!ENTITY  enableXSSFilt.accesskey    "f">

@@ -1,7 +1,7 @@
 @echo off
 set REL=28.0.0rc1
 
-rem ar da fi gl hr id is ja kn ro sk sl sr vi zh-TW
+rem ar da fi gl hr id is ja kn ro sk sl sr th vi zh-TW
 set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sv-SE tl tr uk zh-CN
 
 for /f "tokens=1,2 delims=." %%a in ("%REL%") do set MAX=%%a.%%b

@@ -46,13 +46,13 @@
   -  in the toolbar on buttons that select which view is currently shown. -->
 <!ENTITY performanceUI.toolbar.waterfall "Водоспад">
 <!ENTITY performanceUI.toolbar.waterfall.tooltiptext "Показує різні операції, які виконуються браузером під час запису, викладені послідовно у вигляді водоспаду.">
-<!ENTITY performanceUI.toolbar.js-calltree "Дерево виклику">
+<!ENTITY performanceUI.toolbar.js-calltree "Дерево викликів">
 <!ENTITY performanceUI.toolbar.js-calltree.tooltiptext "Підсвічує функції JavaScript там, де браузер витратив найбільше часу під час запису.">
 <!ENTITY performanceUI.toolbar.memory-calltree "Алокації">
 <!ENTITY performanceUI.toolbar.allocations.tooltiptext "Показує де була розміщена пам'ять під час запису.">
 <!ENTITY performanceUI.toolbar.js-flamegraph "JS Flame Chart">
 <!ENTITY performanceUI.toolbar.js-flamegraph.tooltiptext "Показує групу виклику JavaScript над напрямком запису.">
-<!ENTITY performanceUI.toolbar.memory-flamegraph "Flame Chart алокацій">
+<!ENTITY performanceUI.toolbar.memory-flamegraph "Діаграма алокацій">
 
 <!-- LOCALIZATION NOTE (performanceUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
@@ -60,9 +60,9 @@
 <!ENTITY performanceUI.table.totalDuration.tooltip    "Загальний час, витрачений в цій функції та функціях, які вона викликає.">
 <!ENTITY performanceUI.table.selfDuration             "Власний час">
 <!ENTITY performanceUI.table.selfDuration.tooltip     "Загальний час, витрачений лише в межах цієї функції.">
-<!ENTITY performanceUI.table.totalPercentage          "Загальна витрата">
+<!ENTITY performanceUI.table.totalPercentage          "Загальні витрати">
 <!ENTITY performanceUI.table.totalPercentage.tooltip  "Відсоток часу, витрачений в цій функції та функціях, які вона викликає.">
-<!ENTITY performanceUI.table.selfPercentage           "Власна витрата">
+<!ENTITY performanceUI.table.selfPercentage           "Власні витрати">
 <!ENTITY performanceUI.table.selfPercentage.tooltip   "Відсоток часу, витрачений лише в межах цієї функції.">
 <!ENTITY performanceUI.table.samples                  "Зразки">
 <!ENTITY performanceUI.table.samples.tooltip          "Кількість знаходжень цієї функції в стеку, коли профайлер зробив замір.">
@@ -84,7 +84,7 @@
 <!-- LOCALIZATION NOTE (performanceUI.invertTree): This is the label shown next to
   -  a checkbox that inverts and un-inverts the profiler's call tree. -->
 <!ENTITY performanceUI.invertTree             "Інвертувати дерево викликів">
-<!ENTITY performanceUI.invertTree.tooltiptext "Інвертування дерева викликів показує профільовані шляхи викликів, починаючи з наймолодших фреймів і розширюючись до старіших.">
+<!ENTITY performanceUI.invertTree.tooltiptext "Інвертування дерева викликів показує профільовані шляхи викликів, починаючи з наймолодших фреймів і розширюючись на старіші фрейми.">
 
 <!-- LOCALIZATION NOTE (performanceUI.invertFlameGraph): This is the label shown next to
   -  a checkbox that inverts and un-inverts the profiler's flame graph. -->

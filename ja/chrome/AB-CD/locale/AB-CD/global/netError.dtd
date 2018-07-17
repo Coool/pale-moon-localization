@@ -13,7 +13,7 @@
 <!ENTITY deniedPortAccess.title "セキュリティ上の理由によりポートの使用が制限されています">
 <!ENTITY deniedPortAccess.longDesc "<p>リクエストされたアドレスのポート (例えば mozilla.jp のポート80であれば<q>mozilla.jp:80</q>) は普通ウェブサイトの表示<em>以外の</em>目的で使用されます。ユーザーの保護とセキュリティのため、リクエストは中止されました。</p>">
 
-<!ENTITY dnsNotFound.title "アドレスが見つかりません">
+<!ENTITY dnsNotFound.title "サーバーが見つかりませんでした">
 <!ENTITY dnsNotFound.longDesc "<p>指定されたアドレスのホストサーバーが見つかりませんでした。</p><ul><li>ドメイン名の入力を間違っていないか確認してください。(例えば <q><strong>www</strong>.mozilla-japan.org</q> を間違えて <q><strong>ww</strong>.mozilla-japan.org</q> などと入力していないか)</li><li>指定されたアドレスのドメインが存在しないかもしれません。すでに有効期限が切れて廃止されている可能性もあります。</li><li>他のサイトも表示できない場合、コンピューターのネットワーク接続を確認してください。</li><li>ファイアーウォールやプロキシでネットワークが保護されている場合、その設定に問題があると正常に表示できなくなることがあります。</li></ul>">
 
 <!ENTITY fileNotFound.title "ファイルが見つかりませんでした">
@@ -74,7 +74,7 @@
 </ul>
 ">
 
-<!ENTITY securityOverride.linkText "例外として扱うこともできます...">
+<!ENTITY securityOverride.linkText "例外として扱うこともできます…">
 <!ENTITY securityOverride.warningContent "
 <p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバーではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
 <p>どうしてもこのサイトを例外として追加したい場合は、暗号化の高度な設定で追加してください。</p>

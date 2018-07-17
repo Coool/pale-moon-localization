@@ -28,13 +28,13 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentsTitle "Experimentele functies">
 <!ENTITY aboutSupport.experimentName "Naam">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Beschrijving">
+<!ENTITY aboutSupport.experimentDescription "Omschrijving">
 <!ENTITY aboutSupport.experimentActive "Actief">
 <!ENTITY aboutSupport.experimentEndDate "Einddatum">
 <!ENTITY aboutSupport.experimentHomepage "Homepage">
 <!ENTITY aboutSupport.experimentBranch "Branch">
 
-<!ENTITY aboutSupport.appBasicsTitle "Toepassingsbasics">
+<!ENTITY aboutSupport.appBasicsTitle "Basisinformatie van programma">
 <!ENTITY aboutSupport.appBasicsName "Naam">
 <!ENTITY aboutSupport.appBasicsVersion "Versie">
 <!ENTITY aboutSupport.appBasicsBuildID "Build-ID">
@@ -45,7 +45,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Updategeschiedenis">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Updategeschiedenis weergeven">
 
-<!ENTITY aboutSupport.appBasicsProfileDir "Profielmap">
+<!ENTITY aboutSupport.appBasicsProfileDir "Profiel-directory">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
@@ -53,8 +53,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Ingeschakelde plug-ins">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Buildconfiguratie">
-<!ENTITY aboutSupport.appBasicsUserAgent "Useragent">
-<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
+<!ENTITY aboutSupport.appBasicsOS "Besturingssysteem">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Geheugengebruik">
 <!ENTITY aboutSupport.appBasicsPerformance "Prestaties">
 
@@ -63,11 +63,11 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsProfiles "Profielen">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess-vensters">
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiproces-vensters">
 
-<!ENTITY aboutSupport.appBasicsSafeMode "Veilige modus">
+<!ENTITY aboutSupport.appBasicsSafeMode "Veilige Modus">
 
-<!ENTITY aboutSupport.showDir.label "Map openen">
+<!ENTITY aboutSupport.showDir.label "Directory openen">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
@@ -88,7 +88,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.lockedPrefsName "Naam">
 <!ENTITY aboutSupport.lockedPrefsValue "Waarde">
 
-<!ENTITY aboutSupport.graphicsTitle "Grafisch">
+<!ENTITY aboutSupport.graphicsTitle "Grafiek">
 
 <!ENTITY aboutSupport.placeDatabaseTitle "Places-database">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integriteit">
@@ -99,7 +99,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.a11yTitle "Toegankelijkheid">
 <!ENTITY aboutSupport.a11yActivated "Geactiveerd">
-<!ENTITY aboutSupport.a11yForceDisabled "Toegankelijkheid voorkomen">
+<!ENTITY aboutSupport.a11yForceDisabled "Voorkomen van toegankelijkheid">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Bibliotheekversies">
 
@@ -109,11 +109,11 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyTextToClipboard.label "Tekst naar klembord kopiëren">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Onbewerkte gegevens naar klembord kopiëren">
 
-<!ENTITY aboutSupport.safeModeTitle "Veilige modus proberen">
-<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
+<!ENTITY aboutSupport.safeModeTitle "Veilige Modus proberen">
+<!ENTITY aboutSupport.restartInSafeMode.label "Opnieuw starten in de Veilige Modus…">
 
-<!ENTITY aboutSupport.restartTitle "Try Restart">
-<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+<!ENTITY aboutSupport.restartTitle "Herstart proberen">
+<!ENTITY aboutSupport.restartNormal.label "Normaal herstarten…">
 
 <!ENTITY aboutSupport.graphicsFeaturesTitle "Functies">
 <!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostische gegevens">

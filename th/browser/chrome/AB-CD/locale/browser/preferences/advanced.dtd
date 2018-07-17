@@ -1,0 +1,146 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Note: each tab panel must contain unique accesskeys -->
+
+<!ENTITY generalTab.label                "ทั่วไป">
+
+<!ENTITY accessibility.label             "สิ่งอำนวยความสะดวก">
+
+<!ENTITY useCursorNavigation.label       "ใช้ปุ่มลูกศรนำทางภายในหน้าเสมอ">
+<!ENTITY useCursorNavigation.accesskey   "ป">
+<!ENTITY searchStartTyping.label         "ค้นหาข้อความเมื่อเริ่มต้นพิมพ์">
+<!ENTITY searchStartTyping.accesskey     "ข">
+<!ENTITY blockAutoRefresh.label          "เตือนทุกครั้งเมื่อเว็บไซต์จะทำการเปลี่ยนเส้นทางหรือเรียกหน้าเว็บใหม่">
+<!ENTITY blockAutoRefresh.accesskey      "ว">
+
+<!ENTITY browsing.label                  "การดูหน้าเว็บ">
+
+<!ENTITY useAutoScroll.label             "ใช้การเลื่อนหน้าอัตโนมัติ">
+<!ENTITY useAutoScroll.accesskey         "อ">
+<!ENTITY useSmoothScrolling.label        "ใช้การเลื่อนหน้าแบบลื่นไหล">
+<!ENTITY useSmoothScrolling.accesskey    "ล">
+<!ENTITY allowHWAccel.label              "ใช้การเร่งความเร็วด้วยฮาร์ดแวร์เมื่อมีให้ใช้">
+<!ENTITY allowHWAccel.accesskey          "ร">
+<!ENTITY checkSpelling.label             "ตรวจสอบตัวสะกดขณะพิมพ์">
+<!ENTITY checkSpelling.accesskey         "ส">
+
+<!ENTITY systemDefaults.label            "ค่าปริยายของระบบ">
+<!ENTITY alwaysCheckDefault.label        "ตรวจว่า &brandShortName; เป็นเบราว์เซอร์ปริยายหรือไม่ เมื่อเริ่มโปรแกรมทุกครั้ง"><!--XXX-->
+<!ENTITY alwaysCheckDefault.accesskey    "ท">
+<!ENTITY setDefault.label                "ตั้งให้ &brandShortName; เป็นเบราว์เซอร์ปริยาย">
+<!ENTITY setDefault.accesskey            "ป">
+<!ENTITY isDefault.label                 "&brandShortName; เป็นเบราว์เซอร์ปริยายของคุณ">
+
+<!ENTITY dataChoicesTab.label            "ตัวเลือกข้อมูล">
+
+<!ENTITY crashReporterSection.label      "ตัวรายงานข้อขัดข้อง">
+<!ENTITY crashReporterDesc.label         "&brandShortName; ส่งข้อมูลรายงานข้อขัดข้องเพื่อช่วย &vendorShortName; ทำเบราว์เซอร์ของคุณให้เสถียรและปลอดภัยมากขึ้น">
+<!ENTITY enableCrashReporter.label       "เปิดใช้ตัวรายงานข้อขัดข้อง">
+<!ENTITY enableCrashReporter.accesskey   "ต">
+<!ENTITY crashReporterLearnMore.label    "เรียนรู้เพิ่ม">
+
+<!ENTITY networkTab.label                "เครือข่าย">
+
+<!ENTITY connection.label                "การเชื่อมต่อ">
+
+<!ENTITY connectionDesc.label            "ตั้งค่าการเชื่อมต่ออินเทอร์เน็ตของ &brandShortName;">
+<!ENTITY connectionSettings.label        "ตั้งค่า…">
+<!ENTITY connectionSettings.accesskey    "ต">
+
+<!ENTITY httpCache.label                 "เนื้อหาเว็บที่ถูกแคชไว้">
+
+<!ENTITY offlineStorage2.label           "ที่เก็บเนื้อหาเว็บและข้อมูลผู้ใช้แบบออฟไลน์">
+
+<!-- LOCALIZATION NOTE:
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
+  line in preferences as follows:
+
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
+-->
+<!ENTITY limitCacheSizeBefore.label      "จำกัดแคชไว้ที่">
+<!ENTITY limitCacheSizeBefore.accesskey  "จ">
+<!ENTITY limitCacheSizeAfter.label       "MB">
+<!ENTITY clearCacheNow.label             "ล้างเดี๋ยวนี้">
+<!ENTITY clearCacheNow.accesskey         "ล">
+<!ENTITY clearOfflineAppCacheNow.label   "ล้างเดี๋ยวนี้">
+<!ENTITY clearOfflineAppCacheNow.accesskey "ด">
+<!ENTITY overrideSmartCacheSize.label    "ใช้แทนการจัดการแคชอัตโนมัติ">
+<!ENTITY overrideSmartCacheSize.accesskey "ท">
+
+<!ENTITY updateTab.label                 "ปรับรุ่น">
+
+<!ENTITY updateApp.label                 "ปรับรุ่น &brandShortName;:">
+<!-- Note either updateAuto1 is used or (updateAutoMetro and updateAutoDesktop),
+     so re-using accesss key in updateAuto1 is OK. updateAutoDesktop can be found
+     in preferences.properties -->
+<!ENTITY updateAuto1.label               "Automatically install updates (recommended: improved security)">
+<!ENTITY updateAuto1.accesskey           "A">
+<!ENTITY updateAutoMetro.label           "Automatically update from desktop and Windows 8 style &brandShortName;">
+<!ENTITY updateAutoMetro.accesskey       "s">
+<!ENTITY updateCheck.label               "ตรวจสอบการปรับรุ่นแต่ให้ฉันเลือกว่าจะติดตั้งหรือไม่">
+<!ENTITY updateCheck.accesskey           "ต">
+<!ENTITY updateManual.label              "ไม่ต้องตรวจสอบการปรับรุ่น (ไม่แนะนำ: เสี่ยงต่อความปลอดภัยของระบบ)">
+<!ENTITY updateManual.accesskey          "ม">
+
+<!ENTITY updateAutoAddonWarn.label       "เตือนฉันถ้าการปรับรุ่นจะส่งผลกระทบให้เกิดการปิดใช้งานส่วนเสริม">
+<!ENTITY updateAutoAddonWarn.accesskey   "น">
+
+<!ENTITY updateAutoMetroWarn.label       "(Windows 8 style &brandShortName; does not check add-on compatibility)">
+
+<!ENTITY updateHistory.label             "แสดงประวัติการปรับรุ่น">
+<!ENTITY updateHistory.accesskey         "ป">
+
+<!ENTITY updateOthers.label              "ปรับรุ่นอัตโนมัติ:">
+<!ENTITY enableSearchUpdate.label        "เครื่องมือค้นหา">
+<!ENTITY enableSearchUpdate.accesskey    "ค">
+
+<!ENTITY offlineAppsPermissions.label    "เมื่อเว็บไซต์ขอเก็บข้อมูลเพื่อใช้ขณะออฟไลน์:">
+<!ENTITY offlineAppsPermissions.Allow    "อนุญาตโดยค่าเริ่มต้น">
+<!ENTITY offlineAppsPermissions.Ask      "ถามทุกครั้ง">
+<!ENTITY offlineAppsPermissions.Deny     "ปฏิเสธ">
+<!ENTITY offlineNotifyExceptions.label   "ยกเว้น…">
+<!ENTITY offlineNotifyExceptions.accesskey "ย">
+
+<!ENTITY offlineAppsList2.label          "เว็บไซต์เหล่านี้ได้รับอนุญาตให้เก็บข้อมูลไว้ใช้ตอนออฟไลน์ :">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "ลบ…">
+<!ENTITY offlineAppsListRemove.accesskey "ล">
+<!ENTITY offlineAppRemove.confirm        "เอาข้อมูลออฟไลน์ออก">
+
+<!ENTITY certificateTab.label            "ใบรับรอง">
+<!ENTITY certGroup.label                 "ใบรับรองส่วนบุคคล">
+<!ENTITY certSelection.description       "เมื่อเซิร์ฟเวอร์ร้องขอใบรับรองส่วนตัว :">
+<!ENTITY certs.auto                      "เลือกอัตโนมัติ">
+<!ENTITY certs.auto.accesskey            "อ">
+<!ENTITY certs.ask                       "ถามฉันทุกครั้ง">
+<!ENTITY certs.ask.accesskey             "ถ">
+<!ENTITY ocspGroup.label                 "การตรวจสอบใบรับรอง">
+<!ENTITY enableOCSP.label                "Use OCSP to confirm the current validity of certificates">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "When an OCSP server connection fails, treat the certificate as invalid">
+<!ENTITY requireOCSP.accesskey           "f">
+<!ENTITY viewCerts.label                 "ดูใบรับรอง">
+<!ENTITY viewCerts.accesskey             "ด">
+<!ENTITY viewSecurityDevices.label       "กลไกความปลอดภัย">
+<!ENTITY viewSecurityDevices.accesskey   "ก">
+
+<!ENTITY UACompatGroup.label    "ความเข้ากันได้">
+<!ENTITY UACompat.label         "โหมดตัวแทนผู้ใช้:">
+<!ENTITY UACompat.Native        "พื้นเมือง">
+<!ENTITY UACompat.Gecko         "ความเข้ากันได้กับ Gecko">
+<!ENTITY UACompat.Firefox       "ความเข้ากันได้กับ Firefox">
+
+<!ENTITY scrollparamTab.label               "การเลื่อน">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "ถึง">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "การเลื่อนแบบนุ่มนวลด้วยลูกกลิ้งเมาส์">
+<!ENTITY smoothscroll.mousewheel.duration   "ระยะเวลาการเลื่อนด้วยลูกกลิ้งเมาส์:">
+<!ENTITY smoothscroll.arrowkeys.label       "การเลื่อนแบบนุ่มนวลด้วยปุ่มลูกศร">
+<!ENTITY smoothscroll.arrowkeys.duration    "ระยะเวลาการเลื่อนด้วยปุ่มลูกศร:">
+<!ENTITY smoothscroll.pagekeys.label        "การเลื่อนแบบนุ่มนวลด้วยปุ่มเพจอัพ เพจดาวน์">
+<!ENTITY smoothscroll.pagekeys.duration     "ระยะเวลาการเลื่อนด้วยปุ่มเพจอัพ เพจดาวน์:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

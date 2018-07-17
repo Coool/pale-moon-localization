@@ -67,7 +67,7 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "اعمل دون اتصال">
 <!ENTITY goOfflineCmd.accesskey "ع">
 
-<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.label "إعادة التشغيل…">
 <!ENTITY restartCmd.accesskey "R">
 
 <!ENTITY menubarCmd.label "شريط القوائم">
@@ -196,7 +196,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.label                 "الإضافات">
 <!ENTITY addons.accesskey             "ض">
 <!ENTITY addons.commandkey            "A">
-<!ENTITY permissions.label            "Permissions">
+<!ENTITY permissions.label            "الأذونات">
 <!ENTITY permissions.accesskey        "m">
 <!ENTITY preferencesCmd2.label        "خيارات">
 <!ENTITY preferencesCmd2.accesskey    "خ">
@@ -204,66 +204,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "مطوّري الوب">
 <!ENTITY webDeveloperMenu.accesskey   "و">
 
-<!ENTITY devtoolsConnect.label        "اتصل…">
-<!ENTITY devtoolsConnect.accesskey    "ت">
-
 <!ENTITY errorConsoleCmd.label        "معراض الأخطاء">
 <!ENTITY errorConsoleCmd.accesskey    "م">
 
-<!ENTITY remoteWebConsoleCmd.label    "مِعراض وب عن بعد">
-
-<!ENTITY browserConsoleCmd.label      "معراض المتصفح">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "م">
-
 <!ENTITY inspectContextMenu.label     "افحص العنصر">
 <!ENTITY inspectContextMenu.accesskey "ح">
-
-<!ENTITY responsiveDesignTool.label   "منظور التصميم المُستجيب">
-<!ENTITY responsiveDesignTool.accesskey "ص">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Eyedropper">
-<!ENTITY eyedropper.accesskey "Y">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "المفكرة البرمجية">
-<!ENTITY scratchpad.accesskey         "ف">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "منقِّح المتصفح">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "أغلق شريط المطورين">
-<!ENTITY devToolbarMenu.label              "شريط المطورين">
-<!ENTITY devToolbarMenu.accesskey          "ط">
-<!ENTITY devAppMgrMenu.label               "App Manager">
-<!ENTITY devAppMgrMenu.accesskey           "A">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "فعّل الأدوات">
-<!ENTITY devToolboxMenuItem.accesskey      "ع">
-
-<!ENTITY devToolbarToolsButton.tooltip     "فعّل أدوات المُطورين">
-<!ENTITY devToolbarOtherToolsButton.label  "المزيد من الأدوات">
-
-<!ENTITY getMoreDevtoolsCmd.label        "احصل على أدوات إضافية">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "ض">
 
 <!ENTITY fileMenu.label         "ملف"> 
 <!ENTITY fileMenu.accesskey       "م">
@@ -325,13 +270,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "حرّر">
 <!ENTITY appMenuCustomize.label "خصّص">
-<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
+<!ENTITY appMenuToolbarLayout.label "تخطيط شريط الأدوات">
 <!ENTITY appMenuSidebars.label "الأشرطة الجانبية">
 <!ENTITY appMenuFind.label "ابحث عن…">
 <!ENTITY appMenuUnsorted.label "العلامات غير المرتّبة">
 <!ENTITY appMenuWebDeveloper.label "مطوّري الوب">
 <!ENTITY appMenuGettingStarted.label "فلنبدأ سوية">
-<!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
+<!ENTITY appMenuSafeMode.label "اعادة تشغيل في الوضع الامن…">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.accesskey             "d">
@@ -545,7 +490,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "قرّب">
 <!ENTITY zoomControls.label             "التحكم بالقرب والبعد">
 
-<!ENTITY appMenuRestart.label           "Restart…">
+<!ENTITY appMenuRestart.label           "إعادة التشغيل…">
 <!ENTITY appMenuRestart.accesskey       "R">
 
 <!ENTITY quitApplicationCmdWin.label       "اخرج"> 
