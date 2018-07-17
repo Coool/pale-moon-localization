@@ -204,66 +204,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Web Developer">
 <!ENTITY webDeveloperMenu.accesskey   "W">
 
-<!ENTITY devtoolsConnect.label        "Kumonekta…">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
 <!ENTITY errorConsoleCmd.label        "Error Console">
 <!ENTITY errorConsoleCmd.accesskey    "C">
 
-<!ENTITY remoteWebConsoleCmd.label    "Remote Web Console">
-
-<!ENTITY browserConsoleCmd.label      "Browser Console">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "B">
-
 <!ENTITY inspectContextMenu.label     "Suriin ang Elemento">
 <!ENTITY inspectContextMenu.accesskey "Q">
-
-<!ENTITY responsiveDesignTool.label   "Tanaw ng Disenyong Tumutugon">
-<!ENTITY responsiveDesignTool.accesskey "G">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Tagakuha ng Kulay">
-<!ENTITY eyedropper.accesskey "Y">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Scratchpad">
-<!ENTITY scratchpad.accesskey         "s">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Browser Debugger">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Isara ang Halang ng Developer">
-<!ENTITY devToolbarMenu.label              "Halang ng Developer">
-<!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY devAppMgrMenu.label               "Tagapamahala ng App">
-<!ENTITY devAppMgrMenu.accesskey           "A">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "I-toggle ang mga Kasangkapan">
-<!ENTITY devToolboxMenuItem.accesskey      "T">
-
-<!ENTITY devToolbarToolsButton.tooltip     "I-toggle ang mga kasangkapan ng developer">
-<!ENTITY devToolbarOtherToolsButton.label  "Higit pang mga Kasangkapan">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Kumuha pa ng mga Kasangkapan">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "M">
 
 <!ENTITY fileMenu.label         "File"> 
 <!ENTITY fileMenu.accesskey       "F">

@@ -33,7 +33,7 @@
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
-<!ENTITY options.context.inspector "Ревізор">
+<!ENTITY options.context.inspector "Інспектор">
 
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
@@ -59,7 +59,7 @@
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.authored): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.authored "As Authored">
+<!ENTITY options.defaultColorUnit.authored "Як створено">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.hex): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
@@ -86,20 +86,20 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label5    "Увімкнути інструменти зневадження browser chrome та додатків">
-<!ENTITY options.enableChrome.tooltip3  "Увімкнення цього параметра дозволить вам використовувати різні інструменти розробника в контексті браузера (Меню &gt; Розробник &gt; Інструменти браузера) та зневаджувати додатки в менеджері додатків">
+<!ENTITY options.enableChrome.label5    "Увімкнути інструменти налагодження browser chrome та додатків">
+<!ENTITY options.enableChrome.tooltip3  "Увімкнення цього параметра дозволить вам використовувати різні інструменти розробника в контексті браузера (Меню &gt; Розробник &gt; Інструменти браузера) та налагоджувати додатки в менеджері додатків">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3    "Увімкнути віддалене зневадження">
+<!ENTITY options.enableRemote.label3    "Увімкнути віддалене налагодження">
 <!ENTITY options.enableRemote.tooltip2  "Увімкнення цієї опції дозволить використовувати інструменти розробника для налагодження віддаленого екземпляра, такого як Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
   -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableWorkers.label    "Увімкнути зневадження обробника (в розробці)">
-<!ENTITY options.enableWorkers.tooltip  "Увімкнення цієї опції дозволить інструментам розробника зневаджувати обробників">
+<!ENTITY options.enableWorkers.label    "Увімкнути налагодження обробника (в розробці)">
+<!ENTITY options.enableWorkers.tooltip  "Увімкнення цієї опції дозволить інструментам розробника налагоджувати workers">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -138,7 +138,7 @@
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
   -  for the target of the toolbox. -->
-<!ENTITY options.toolNotSupported.label  "* Не підтримується для поточної цілі інструмента">
+<!ENTITY options.toolNotSupported.label  "* Не підтримується для поточної мети інструменту">
 
 <!-- LOCALIZATION NOTE (options.selectDevToolsTheme.label2): This is the label for
   -  the heading of the radiobox corresponding to the theme of the developer
@@ -156,8 +156,8 @@
 
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
-<!ENTITY options.timestampMessages.label      "Увімкнути відбитки часу">
-<!ENTITY options.timestampMessages.tooltip    "Якщо ввімкнено цей параметр, команди і вивід показуватиме час у веб-консолі">
+<!ENTITY options.timestampMessages.label      "Увімкнути часові мітки">
+<!ENTITY options.timestampMessages.tooltip    "Якщо ввімкнено цей параметр, команди і вивід у Веб-консолі будуть супроводжуватись мітками часу">
 
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->
@@ -166,7 +166,7 @@
 <!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
    - label for the checkbox that toggles source maps in the Debugger -->
 <!ENTITY options.sourceMaps.label      "Увімкнути карти джерел">
-<!ENTITY options.sourceMaps.tooltip    "Якщо увімкнути цю опцію, то джерела будуть заноситись в карти в зневаджувачі та консолі.">
+<!ENTITY options.sourceMaps.tooltip    "Якщо увімкнути цю опцію, то джерела будуть заноситись в карти в налагоджувач та консолі.">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -212,7 +212,7 @@
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "Автоматичне закриття дужок">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Автоматично вставляти закриваючі дужки">
 <!ENTITY options.sourceeditor.expandtab.label           "Відступ за допомогою пробілів">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "Використовувати пробіли замість символа табуляції">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "Використовувати пробіли замість символу табуляції">
 <!ENTITY options.sourceeditor.tabsize.label             "Розмір табуляції">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "Р">
 <!ENTITY options.sourceeditor.keybinding.label          "Сполучення клавіш">

@@ -204,66 +204,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Εργαλεία Προγραμματιστή">
 <!ENTITY webDeveloperMenu.accesskey   "Π">
 
-<!ENTITY devtoolsConnect.label        "Σύνδεση…">
-<!ENTITY devtoolsConnect.accesskey    "δ">
-
 <!ENTITY errorConsoleCmd.label        "Κονσόλα Σφαλμάτων">
 <!ENTITY errorConsoleCmd.accesskey    "Κ">
 
-<!ENTITY remoteWebConsoleCmd.label    "Απομακρυσμένη Κονσόλα Ιστού">
-
-<!ENTITY browserConsoleCmd.label      "Κονσόλα Περιηγητή">
-<!ENTITY browserConsoleCmd.commandkey "ν">
-<!ENTITY browserConsoleCmd.accesskey  "ν">
-
 <!ENTITY inspectContextMenu.label     "Επισκόπηση στοιχείου">
 <!ENTITY inspectContextMenu.accesskey "υ">
-
-<!ENTITY responsiveDesignTool.label   "Προβολή Ανταποκρίσιμης Σχεδίασης">
-<!ENTITY responsiveDesignTool.accesskey "χ">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Σταγονόμετρο">
-<!ENTITY eyedropper.accesskey "Σ">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Πρόχειρο JS">
-<!ENTITY scratchpad.accesskey         "Π">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Αποσφαλμάτωση Περιηγητή">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Κλείσιμο Εργαλειοθήκης Προγραμματιστή">
-<!ENTITY devToolbarMenu.label              "Εργαλειοθήκη Προγραμματιστή">
-<!ENTITY devToolbarMenu.accesskey          "λ">
-<!ENTITY devAppMgrMenu.label               "Διαχείριση Εφαρμογών">
-<!ENTITY devAppMgrMenu.accesskey           "χ">
-<!ENTITY webide.label                      "Ολοκληρωμένο Περιβάλλον Προγραμματισμού Ιστού WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Εναλλαγή Εργαλείων">
-<!ENTITY devToolboxMenuItem.accesskey      "γ">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Εναλλαγή εργαλείων προγραμματιστή">
-<!ENTITY devToolbarOtherToolsButton.label  "Περισσότερα Εργαλεία">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Λήψη περισσότερων εργαλείων">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "ψ">
 
 <!ENTITY fileMenu.label         "Αρχείο"> 
 <!ENTITY fileMenu.accesskey       "Α">

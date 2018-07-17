@@ -56,14 +56,14 @@
 
 <!-- LOCALIZATION NOTE (performanceUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
-<!ENTITY performanceUI.table.totalDuration            "Tempo total">
-<!ENTITY performanceUI.table.totalDuration.tooltip    "A quantidade de tempo despendido nesta função e nas funções que a mesma invoca.">
+<!ENTITY performanceUI.table.totalDuration            "Duração total">
+<!ENTITY performanceUI.table.totalDuration.tooltip    "A quantidade de tempo utilizada nesta função e nas funções que a mesma invoca.">
 <!ENTITY performanceUI.table.selfDuration             "Tempo próprio">
-<!ENTITY performanceUI.table.selfDuration.tooltip     "A quantidade de tempo despendido apenas nesta função.">
-<!ENTITY performanceUI.table.totalPercentage          "Custo total">
-<!ENTITY performanceUI.table.totalPercentage.tooltip  "A percentagem de tempo despendido nesta função e nas funções que a mesma invoca.">
-<!ENTITY performanceUI.table.selfPercentage           "Custo próprio">
-<!ENTITY performanceUI.table.selfPercentage.tooltip   "A percentagem de tempo despendido apenas nesta função.">
+<!ENTITY performanceUI.table.selfDuration.tooltip     "A quantidade de tempo utilizada apenas nesta função.">
+<!ENTITY performanceUI.table.totalPercentage          "Percentagem total">
+<!ENTITY performanceUI.table.totalPercentage.tooltip  "A percentagem de tempo utilizada nesta função e nas funções que a mesma invoca.">
+<!ENTITY performanceUI.table.selfPercentage           "Percentagem própria">
+<!ENTITY performanceUI.table.selfPercentage.tooltip   "A percentagem de tempo utilizada apenas nesta função.">
 <!ENTITY performanceUI.table.samples                  "Amostras">
 <!ENTITY performanceUI.table.samples.tooltip          "O número de vezes que esta função estava na pilha quando o gerador de perfis retirou uma amostra.">
 <!ENTITY performanceUI.table.function                 "Função">
@@ -100,7 +100,7 @@
 <!-- LOCALIZATION NOTE (performanceUI.showJITOptimizations): This string
   -  is displayed next to a checkbox determining whether or not JIT optimization data
   -  should be displayed. -->
-<!ENTITY performanceUI.showJITOptimizations             "Gravar otimizações JIT">
+<!ENTITY performanceUI.showJITOptimizations             "Mostrar otimizações JIT">
 <!ENTITY performanceUI.showJITOptimizations.tooltiptext "Mostrar dados de otimização JIT retirados de cada frame JavaScript.">
 
 <!-- LOCALIZATION NOTE (performanceUI.flattenTreeRecursion): This is the
@@ -124,7 +124,7 @@
 <!-- LOCALIZATION NOTE (performanceUI.enableFramerate): This string
   -  is displayed next to a checkbox determining whether or not framerate
   -  is recorded. -->
-<!ENTITY performanceUI.enableFramerate             "Gravar taxa de frame">
+<!ENTITY performanceUI.enableFramerate             "Gravar taxa de frames">
 <!ENTITY performanceUI.enableFramerate.tooltiptext "Gravar taxa de frames ao perfilar.">
 
 <!-- LOCALIZATION NOTE (performanceUI.console.recordingNoticeStart/recordingNoticeEnd):

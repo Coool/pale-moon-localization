@@ -204,66 +204,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Pengembang Web">
 <!ENTITY webDeveloperMenu.accesskey   "W">
 
-<!ENTITY devtoolsConnect.label        "Hubungkan…">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
 <!ENTITY errorConsoleCmd.label        "Kesalahan Konsol">
 <!ENTITY errorConsoleCmd.accesskey    "C">
 
-<!ENTITY remoteWebConsoleCmd.label    "Konsol Web Jarak Jauh">
-
-<!ENTITY browserConsoleCmd.label      "Konsol Browser">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "B">
-
 <!ENTITY inspectContextMenu.label     "Inspeksi Elemen">
 <!ENTITY inspectContextMenu.accesskey "n">
-
-<!ENTITY responsiveDesignTool.label   "Tampilan Desain Responsif">
-<!ENTITY responsiveDesignTool.accesskey "R">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Penitis mata">
-<!ENTITY eyedropper.accesskey "Y">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Papan penggaris">
-<!ENTITY scratchpad.accesskey         "s">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Browser Debugger">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Tutup Toolbar Pengembang">
-<!ENTITY devToolbarMenu.label              "Toolbar Pengembang">
-<!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY devAppMgrMenu.label               "Pengelola Aplikasi">
-<!ENTITY devAppMgrMenu.accesskey           "Sebuah">
-<!ENTITY webide.label                      "BrowserIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Toggle Tools">
-<!ENTITY devToolboxMenuItem.accesskey      "T">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Beralih alat pengembang">
-<!ENTITY devToolbarOtherToolsButton.label  "Alat lainnya">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Dapatkan Alat Lainnya">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "M">
 
 <!ENTITY fileMenu.label         "Berkas"> 
 <!ENTITY fileMenu.accesskey       "B">

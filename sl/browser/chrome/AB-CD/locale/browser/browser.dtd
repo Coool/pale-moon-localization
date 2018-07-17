@@ -204,66 +204,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Spletni razvoj">
 <!ENTITY webDeveloperMenu.accesskey   "S">
 
-<!ENTITY devtoolsConnect.label        "Poveži …">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
 <!ENTITY errorConsoleCmd.label        "Konzola napak">
 <!ENTITY errorConsoleCmd.accesskey    "N">
 
-<!ENTITY remoteWebConsoleCmd.label    "Oddaljena spletna konzola">
-
-<!ENTITY browserConsoleCmd.label      "Konzola brskalnika">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "B">
-
 <!ENTITY inspectContextMenu.label     "Preglej element">
 <!ENTITY inspectContextMenu.accesskey "j">
-
-<!ENTITY responsiveDesignTool.label   "Odziven način">
-<!ENTITY responsiveDesignTool.accesskey "O">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Kapalka">
-<!ENTITY eyedropper.accesskey "K">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Beležnica">
-<!ENTITY scratchpad.accesskey         "B">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Razhroščevalnik brskalnika">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Zapri orodno vrstico za razvoj">
-<!ENTITY devToolbarMenu.label              "Orodna vrstica za razvoj">
-<!ENTITY devToolbarMenu.accesskey          "t">
-<!ENTITY devAppMgrMenu.label               "Upravitelj aplikacij">
-<!ENTITY devAppMgrMenu.accesskey           "a">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Preklopi orodja">
-<!ENTITY devToolboxMenuItem.accesskey      "P">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Preklopi razvojna orodja">
-<!ENTITY devToolbarOtherToolsButton.label  "Več orodij">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Prenesi več orodij">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "r">
 
 <!ENTITY fileMenu.label         "Datoteka"> 
 <!ENTITY fileMenu.accesskey       "D">

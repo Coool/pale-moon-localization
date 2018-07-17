@@ -36,17 +36,17 @@
 <!ENTITY runtimeMenu_accesskey "R">
 <!ENTITY runtimeMenu_disconnect_label "Αποσύνδεση">
 <!ENTITY runtimeMenu_disconnect_accesskey "ο">
-<!ENTITY runtimeMenu_showPermissionTable_label "Πίνακας δικαιωμάτων">
+<!ENTITY runtimeMenu_showPermissionTable_label "Πίνακας Αδειών">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey "ι">
-<!ENTITY runtimeMenu_takeScreenshot_label "Στιγμιότυπο">
+<!ENTITY runtimeMenu_takeScreenshot_label "Στιγμιότυπο οθόνης">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "τ">
-<!ENTITY runtimeMenu_showDetails_label "Πληροφορίες Runtime">
+<!ENTITY runtimeMenu_showDetails_label "Πληροφορίες Εκτέλεσης">
 <!ENTITY runtimeMenu_showDetails_accesskey "λ">
 <!ENTITY runtimeMenu_showMonitor_label "Εποπτεία">
 <!ENTITY runtimeMenu_showMonitor_accesskey "α">
-<!ENTITY runtimeMenu_showDevicePrefs_label "Προτιμήσεις συσκευής">
+<!ENTITY runtimeMenu_showDevicePrefs_label "Προτιμήσεις Συσκευής">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "υ">
-<!ENTITY runtimeMenu_showSettings_label "Ρυθμίσεις συσκευής">
+<!ENTITY runtimeMenu_showSettings_label "Ρυθμίσεις Συσκευής">
 <!ENTITY runtimeMenu_showSettings_accesskey "ρ">
 
 <!ENTITY viewMenu_label "Προβολή">
@@ -61,7 +61,7 @@
 <!ENTITY viewMenu_resetzoom_accesskey "Ε">
 
 <!ENTITY projectButton_label "Άνοιγμα εφαρμογής">
-<!ENTITY runtimeButton_label "Επιλογή Runtime">
+<!ENTITY runtimeButton_label "Επιλογή Εκτέλεσης">
 
 <!-- We try to repicate browser' bindings: -->
 <!-- quit app -->
@@ -87,8 +87,8 @@
 <!ENTITY runtimePanel_wifi "Συσκευές Wi-Fi">
 <!ENTITY runtimePanel_simulator "Προσομοιωτές">
 <!ENTITY runtimePanel_other "Άλλο">
-<!ENTITY runtimePanel_installsimulator "Εγκατάσταση προσομοιωτή">
-<!ENTITY runtimePanel_noadbhelper "Εγκατάσταση βοηθού ADB">
+<!ENTITY runtimePanel_installsimulator "Εγκατάσταση Προσομοιωτή">
+<!ENTITY runtimePanel_noadbhelper "Εγκατάσταση Βοηθού ADB">
 <!ENTITY runtimePanel_nousbdevice "Δεν μπορείτε να δείτε τη συσκευή σας;">
 <!ENTITY runtimePanel_refreshDevices_label "Ανανέωση συσκευών">
 
@@ -150,13 +150,13 @@
 <!ENTITY permissionstable_name_header "Όνομα">
 
 <!-- Runtime Details -->
-<!ENTITY runtimedetails_title "Πληροφορίες Runtime">
+<!ENTITY runtimedetails_title "Πληροφορίες Εκτέλεσης">
 <!ENTITY runtimedetails_adbIsRoot "Το ADB είναι root: ">
 <!ENTITY runtimedetails_summonADBRoot "root συσκευής">
-<!ENTITY runtimedetails_ADBRootWarning "(απαιτεί ξεκλειδωμένο bootloader)">
-<!ENTITY runtimedetails_unrestrictedPrivileges "Απεριόριστα προνόμια DevTools: ">
-<!ENTITY runtimedetails_requestPrivileges "απαίτηση υψηλότερων προνομίων">
-<!ENTITY runtimedetails_privilegesWarning "(Η συσκευή θα επανεκκινηθεί. Απαιτεί πρόσβαση root.)">
+<!ENTITY runtimedetails_ADBRootWarning "(απαιτείται ξεκλείδωτος bootloader)">
+<!ENTITY runtimedetails_unrestrictedPrivileges "Απεριόριστες άδειες Εργαλείων Προγραμματιστή: ">
+<!ENTITY runtimedetails_requestPrivileges "αίτηση ανώτερων αδειών">
+<!ENTITY runtimedetails_privilegesWarning "(Η συσκευή θα επανεκκινηθεί. Απαιτείται πρόσβαση root.)">
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "Αληθείας">

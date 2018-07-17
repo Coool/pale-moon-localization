@@ -22,12 +22,12 @@
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.nonE10SBuild): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a non-multiprocess build. -->
-<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "Realtidsinspelning av data inaktiveras på icke-multiprocess Firefox.">
+<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "Realtidsinspelning av data inaktiveras på icke-multiprocess &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.disabledE10S): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a build that can run multiprocess browser, but just is not enabled. -->
-<!ENTITY performanceUI.disabledRealTime.disabledE10S "Aktivera multiprocess Firefox i inställningarna för att göra inspelning av data i realtid.">
+<!ENTITY performanceUI.disabledRealTime.disabledE10S "Aktivera multiprocess &brandShortName; i inställningarna för att göra inspelning av data i realtid.">
 
 <!-- LOCALIZATION NOTE (performanceUI.bufferStatusFull): This string
   -  is displayed when the profiler's circular buffer has started to overlap. -->
@@ -94,8 +94,8 @@
 <!-- LOCALIZATION NOTE (performanceUI.showPlatformData): This is the
   -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
-<!ENTITY performanceUI.showPlatformData             "Visa Geckos plattformsdata">
-<!ENTITY performanceUI.showPlatformData.tooltiptext "Med Visa plattformsdata kommer JavaScript-profilerarens rapporter innehålla symboler även från Geckoplattformen.">
+<!ENTITY performanceUI.showPlatformData             "Visa Goannas plattformsdata">
+<!ENTITY performanceUI.showPlatformData.tooltiptext "Med Visa plattformsdata kommer JavaScript-profilerarens rapporter innehålla symboler även från Goannaplattformen.">
 
 <!-- LOCALIZATION NOTE (performanceUI.showJITOptimizations): This string
   -  is displayed next to a checkbox determining whether or not JIT optimization data

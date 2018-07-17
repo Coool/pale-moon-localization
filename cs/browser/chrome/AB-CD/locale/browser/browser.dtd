@@ -169,7 +169,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.tooltip        "Zobrazí záložky">
 <!ENTITY bookmarksMenuButton.unsorted.label "Netříděné záložky">
 <!ENTITY viewBookmarksSidebar.label         "Zobrazit v postranní liště">
-<!ENTITY viewBookmarksToolbar.label         "Zobrazit lištu záložek">
+<!ENTITY viewBookmarksToolbar.label         "Zobrazit Lištu záložek">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -204,66 +204,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Vývoj webu">
 <!ENTITY webDeveloperMenu.accesskey   "w">
 
-<!ENTITY devtoolsConnect.label        "Připojit…">
-<!ENTITY devtoolsConnect.accesskey    "P">
-
 <!ENTITY errorConsoleCmd.label        "Chybová konzole">
 <!ENTITY errorConsoleCmd.accesskey    "C">
 
-<!ENTITY remoteWebConsoleCmd.label    "Vzdálená Webová konzole">
-
-<!ENTITY browserConsoleCmd.label      "Konzole prohlížeče">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "K">
-
 <!ENTITY inspectContextMenu.label     "Prozkoumat prvek">
 <!ENTITY inspectContextMenu.accesskey "P">
-
-<!ENTITY responsiveDesignTool.label   "Responzivní design">
-<!ENTITY responsiveDesignTool.accesskey "R">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Kapátko">
-<!ENTITY eyedropper.accesskey "a">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Zápisník">
-<!ENTITY scratchpad.accesskey         "Z">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Debugger prohlížeče">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Zavře Lištu vývoje">
-<!ENTITY devToolbarMenu.label              "Lišta vývoje">
-<!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY devAppMgrMenu.label               "Správce aplikací">
-<!ENTITY devAppMgrMenu.accesskey           "a">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "b">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Nástroje vývojáře">
-<!ENTITY devToolboxMenuItem.accesskey      "t">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Přepne Nástroje vývojáře">
-<!ENTITY devToolbarOtherToolsButton.label  "Další nástroje">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Získat další nástroje">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "l">
 
 <!ENTITY fileMenu.label         "Soubor"> 
 <!ENTITY fileMenu.accesskey       "S">
@@ -533,7 +478,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY newTabButton.tooltip           "Otevře nový panel">
 <!ENTITY newWindowButton.tooltip        "Otevře nové okno">
-<!ENTITY sidebarCloseButton.tooltip     "Zavře postranní lištu">
+<!ENTITY sidebarCloseButton.tooltip     "Zavřít postranní lištu">
 
 <!ENTITY cutButton.tooltip              "Vyjmout">
 <!ENTITY copyButton.tooltip             "Kopírovat">
@@ -631,7 +576,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Sync">
 
-<!ENTITY addonBarCloseButton.tooltip  "Zavře lištu doplňků">
+<!ENTITY addonBarCloseButton.tooltip  "Zavřít Lištu doplňků">
 <!ENTITY toggleAddonBarCmd.key        "/">
 
 <!ENTITY getUserMedia.selectCamera.label "Sdílet kameru::">

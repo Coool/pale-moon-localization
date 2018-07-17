@@ -199,8 +199,9 @@
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "显示 Gecko 平台数据">
-<!ENTITY options.showPlatformData.tooltip  "如果开启此选项，JavaScript 分析报告将会包含 Gecko 平台符号表">
+<!ENTITY options.showPlatformData.label    "Show Goanna platform data">
+<!ENTITY options.showPlatformData.tooltip  "If you enable this option the JavaScript Profiler reports will include
+Goanna platform symbols">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
