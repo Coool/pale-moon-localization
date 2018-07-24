@@ -40,23 +40,23 @@
 <!ENTITY revertCmd.accesskey          "t">
 
 <!ENTITY saveFileCmd.label            "บันทึก">
-<!ENTITY saveFileCmd.accesskey        "บ">
+<!ENTITY saveFileCmd.accesskey        "S">
 <!ENTITY saveFileCmd.commandkey       "s">
 
 <!ENTITY saveFileAsCmd.label          "บันทึกเป็น…">
-<!ENTITY saveFileAsCmd.accesskey      "ป">
+<!ENTITY saveFileAsCmd.accesskey      "A">
 
 <!ENTITY closeCmd.label               "ปิด">
 <!ENTITY closeCmd.key                 "W">
-<!ENTITY closeCmd.accesskey           "ด">
+<!ENTITY closeCmd.accesskey           "C">
 
 <!ENTITY viewMenu.label               "มุมมอง">
-<!ENTITY viewMenu.accesskey           "ม">
+<!ENTITY viewMenu.accesskey           "V">
 
 <!ENTITY lineNumbers.label             "แสดงหมายเลขบรรทัด">
-<!ENTITY lineNumbers.accesskey         "ล">
+<!ENTITY lineNumbers.accesskey         "L">
 
-<!ENTITY wordWrap.label                "ตัดคำข้อความ">
+<!ENTITY wordWrap.label                "ตัดคำหรือข้อความ">
 <!ENTITY wordWrap.accesskey            "ต">
 
 <!ENTITY highlightTrailingSpace.label     "Highlight Trailing Space">
@@ -71,23 +71,23 @@
 <!ENTITY smallerFont.accesskey        "M">
 <!ENTITY smallerFont.commandkey       "-">
 
-<!ENTITY normalSize.label             "Normal Size">
+<!ENTITY normalSize.label             "ขนาดปกติ">
 <!ENTITY normalSize.accesskey         "N">
 <!ENTITY normalSize.commandkey        "0">
 
 <!ENTITY editMenu.label               "แก้ไข">
-<!ENTITY editMenu.accesskey           "ก">
+<!ENTITY editMenu.accesskey           "E">
 
 <!ENTITY run.label                    "ทำงาน">
-<!ENTITY run.accesskey                "ร">
+<!ENTITY run.accesskey                "R">
 <!ENTITY run.key                      "r">
 
 <!ENTITY inspect.label                "ตรวจสอบ">
-<!ENTITY inspect.accesskey            "ต">
+<!ENTITY inspect.accesskey            "I">
 <!ENTITY inspect.key                  "i">
 
 <!ENTITY display.label                "แสดง">
-<!ENTITY display.accesskey            "ส">
+<!ENTITY display.accesskey            "D">
 <!ENTITY display.key                  "l">
 
 <!ENTITY pprint.label                 "Pretty Print">
@@ -122,24 +122,24 @@
 <!ENTITY helpMenu.label               "ช่วยเหลือ">
 <!ENTITY helpMenu.accesskey           "ช">
 <!ENTITY helpMenuWin.label            "ช่วยเหลือ">
-<!ENTITY helpMenuWin.accesskey        "ช">
+<!ENTITY helpMenuWin.accesskey        "H">
 
 <!ENTITY documentationLink.label      "วิธีใช้กระดานทดบน MDN">
-<!ENTITY documentationLink.accesskey  "ก">
+<!ENTITY documentationLink.accesskey  "D">
 
 
 <!-- LOCALIZATION NOTE (resetContext2.label): This command allows the developer
   -  to reset/clear the global object of the environment where the code executes.
   -->
 <!ENTITY resetContext2.label          "ตั้งค่าตัวแปรใหม่">
-<!ENTITY resetContext2.accesskey      "ค">
+<!ENTITY resetContext2.accesskey      "T">
 
 <!ENTITY reloadAndRun.label           "โหลดใหม่แล้วทำงาน">
-<!ENTITY reloadAndRun.accesskey       "ม">
+<!ENTITY reloadAndRun.accesskey       "E">
 <!ENTITY reloadAndRun.key             "r">
 
 <!ENTITY executeMenu.label            "ดำเนินการ">
-<!ENTITY executeMenu.accesskey        "ด">
+<!ENTITY executeMenu.accesskey        "X">
 
 <!-- LOCALIZATION NOTE (errorConsoleCmd.commandkey): This command key launches
   -  the browser Error Console, the key should be identical to the property of

@@ -9,12 +9,12 @@
 <!-- An example (from Firefox):
 
 <!ENTITY securityOverride.linkText "O maaari ka din maglapat ng eksepsiyon…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Get me out of here!">
-<!ENTITY securityOverride.exceptionButtonLabel "Add Exception…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako rito!">
+<!ENTITY securityOverride.exceptionButtonLabel "Maglapat ng Eksepsiyon…">
 
 <!ENTITY securityOverride.warningContent "
-<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
-<p>If you still wish to add an exception for this site, you can do so in your advanced encryption settings.</p>
+<p>Hindi ka dapat maglapat ng eksepsiyon kung ikaw ay gumagamit ng koneksiyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
+<p>Kung gusto mo pa rin na maglapat ng eksepsiyon sa site na ito, puwede mo itong gawin sa iyong advanced encryption settings.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>

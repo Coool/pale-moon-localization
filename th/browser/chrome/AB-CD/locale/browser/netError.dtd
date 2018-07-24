@@ -38,16 +38,16 @@
 <!ENTITY fileAccessDenied.title "การเข้าถึงไฟล์ถูกปฏิเสธ">
 <!ENTITY fileAccessDenied.longDesc "
 <ul>
-  <li>It may have been removed, moved, or file permissions may be preventing access.</li>
+  <li>ไฟล์อาจถูกลบ, ย้าย, หรือคุณอาจไม่ได้รับอนุญาติให้เข้าถึงไฟล์นี้</li>
 </ul>
 ">
 
 <!ENTITY generic.title "โอ๊ะ">
 <!ENTITY generic.longDesc "<p>&brandShortName; ไม่สามารถโหลดหน้าเว็บนี้ได้ด้วยเหตุผลบางอย่าง</p>">
 
-<!ENTITY captivePortal.title "Login to network">
+<!ENTITY captivePortal.title "เข้าสู่ระบบเครือข่าย">
 <!ENTITY captivePortal.longDesc "
-<p>This network may require you to login to access the internet.</p>
+<p>อาจจำเป็นต้องเข้าสู่ระบบเครือข่ายนี้เพื่อให้เข้าถึงอินเทอร์เน็ต</p>
 ">
 
 <!ENTITY openPortalLoginPage.label "เปิดหน้าลงชื่อเข้าใช้">
@@ -90,7 +90,7 @@
 <!ENTITY unknownProtocolFound.title "ไม่เข้าใจที่อยู่">
 <!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>You might need to install other software to open this address.</li>
+  <li>คุณอาจจะต้องติดตั้งซอฟต์แวร์อื่นเพื่อเปิดที่อยู่นี้</li>
 </ul>
 ">
 
@@ -125,8 +125,8 @@
 <!ENTITY nssFailure2.title "การเชื่อมต่อนิรภัยล้มเหลว">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
-  <li>Please contact the website owners to inform them of this problem.</li>
+  <li>หน้าที่คุณกำลังพยายามดูไม่สามารถแสดงได้เนื่องจากไม่สามารถตรวจสอบความน่าเชื่อถือของข้อมูลที่ได้รับ</li>
+  <li>กรุณาติดต่อเจ้าของเว็บไซต์เพื่อแจ้งปัญหานี้</li>
 </ul>
 ">
 
@@ -141,7 +141,7 @@
 <!-- Localization note (certerror.introPara) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
-<!ENTITY certerror.introPara "The owner of <span class='hostname'/> has configured their website improperly.  To protect your information from being stolen, &brandShortName; has not connected to this website.">
+<!ENTITY certerror.introPara "เจ้าของ <span class='hostname'/> ได้กำหนดค่าเว็บไซต์อย่างไม่ถูกต้อง  เพื่อปกป้องข้อมูลของคุณจากการถูกขโมย &brandShortName; ไม่ได้เชื่อมต่อกับเว็บไซต์นี้">
 
 <!ENTITY sharedLongDesc "<ul> 
 <li>เว็บไซต์นี้อาจจะใช้การไม่ได้ชั่วคราวหรืออาจจะทำงานหนักมาก อีกสักพักค่อยลองใหม่อีก
@@ -152,25 +152,15 @@ was trying to connect. -->
 ตรวจสอบให้แน่ใจว่า &brandShortName; ได้รับอนุญาตให้เข้าถึงเว็บได้</li>
 </ul>">
 
-<!ENTITY malwareBlocked.title "เว็บนี้ต้องสงสัยว่าจะเป็นเว็บไซต์ที่จ้องโจมตี!">
-<!ENTITY malwareBlocked.longDesc "<p>เว็บไซต์ที่จ้องโจมตีจะพยายามติดตั้งโปรแกรมที่จะขโมยข้อมูลส่วนตัวของคุณ ใช้คอมพิวเตอร์ของคุณในการโจมตีผู้อื่น รวมไปถึงทำลายระบบของคุณ</p> 
-<p>เจ้าของเว็บไซต์ที่มั่นใจว่าเว็บไซต์ของตนถูกรายงานว่าเป็นเว็บไซต์ที่จ้องโจมตีด้วยความผิดพลาด สามารถ<a href='http://www.stopbadware.org/home/reviewinfo' >ร้องขอ</a>ให้มีการตรวจสอบใหม่ได้</p>">
+<!ENTITY cspBlocked.title "ถูกปิดกั้นโดยนโยบายความปลอดภัยของเนื้อหา">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; ป้องกันหน้านี้ไม่ให้โหลดแบบนี้เนื่องจากหน้านี้มีนโยบายความปลอดภัยของเนื้อหาที่ไม่อนุญาติ</p>">
 
-<!ENTITY phishingBlocked.title "เว็บนี้ต้องสงสัยว่าเป็นเว็บลอกเลียน!">
-<!ENTITY phishingBlocked.longDesc "<p>การกรอกข้อมูลส่วนตัวใด ๆ ในหน้าเว็บไซต์นี้อาจจะทำให้อัตลักษณ์ของคุณถูกขโมยหรือนำไปใช้ในทางที่ผิดได้โดยง่าย</p> 
-<p>เว็บลอกเลียนลักษณะนี้จะเป็นการใช้เล่ห์อุบายล่อหลอกคุณด้วยหน้าเว็บไซต์หรืออีเมลที่คุณอาจจะเชื่อถือ</p>">
-
-<!ENTITY cspBlocked.title "Blocked by Content Security Policy">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
-
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.title "ถูกกีดกั้นโดยตัวกรอง XSS">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>&brandShortName; กีดกันการกระทำเพิ่มเติมบนหน้านี้ เนื่องจากหน้านี้มีจาวาสคริปต์ที่ถูกก่อกวน</li>
+  <li>หยุดการโหลดหน้านี้เนื่องจากมีการร้องขออย่างเปิดเผยจากเว็บไซต์เพื่อกีดกันหน้านี้ในกรณีของการโจมตี XSS หรือเพราะว่า &brandShortName;
+    ถูกตั้งค่าให้กีดกันหน้าในสถานการณ์เช่นนั้น</li>
 </ul>
 ">
 
@@ -194,41 +184,39 @@ functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.title "XUL ระยะไกล">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>กรุณาติดต่อเจ้าของเว็บไซต์เพื่อแจ้งปัญหานี้</li></ul></p>">
 
 <!ENTITY sslv3Used.title "เชื่อมต่ออย่างปลอดภัยไม่ได้">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "ssl_error_unsupported_version". -->
-<!ENTITY sslv3Used.longDesc "Advanced info: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.longDesc "ข้อมูลเพิ่มเติม: ssl_error_unsupported_version">
 <!ENTITY sslv3Used.learnMore "เรียนรู้เพิ่มเติม…">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
-<!ENTITY sslv3Used.longDesc2 "Advanced info: SSL_ERROR_UNSUPPORTED_VERSION">
+<!ENTITY sslv3Used.longDesc2 "ข้อมูลเพิ่มเติม: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!ENTITY weakCryptoUsed.title "Your connection is not secure">
+<!ENTITY weakCryptoUsed.title "การเชื่อมต่อของคุณไม่ปลอดภัย">
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2 "Advanced info: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "Advanced">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe.">
-<!ENTITY weakCryptoAdvanced.override "(Not secure) Try loading <span class='hostname'></span> using outdated security">
+<!ENTITY weakCryptoUsed.longDesc2 "ข้อมูลเพิ่มเติม: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "ขั้นสูง">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ใช้เทคโนโลยีรักษาความปลอดภัยที่ล้าสมัย และเสี่ยงต่อการถูกโจมตี ผู้โจมตีอาจเปิดเผยข้อมูลที่คุณคิดว่าจะปลอดภัยได้โดยง่ายดาย">
+<!ENTITY weakCryptoAdvanced.override "(ไม่ปลอดภัย) ลองโหลด <span class='hostname'></span> โดยใช้ความปลอดภัยที่ล้าสมัย">
 
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
      please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>A secure connection to <span id='wrongSystemTime_URL'/> isn’t possible because your clock appears to show the wrong time.</p> <p>Your computer thinks it is <span id='wrongSystemTime_systemDate'/>. To fix this problem, change your date and time settings to match the correct time.</p>">
+<!ENTITY certerror.wrongSystemTime "<p>การเชื่อมต่อที่ปลอดภัยกับ <span id='wrongSystemTime_URL'/> ไม่สามารถดำเนินการได้เนื่องจากนาฬิกาของคุณแสดงเวลาไม่ถูกต้อง</p> <p>คอมพิวเตอร์ของคุณเข้าใจว่าเวลาปัจจุบันคือ <span id='wrongSystemTime_systemDate'/>เปลี่ยนการตั้งค่าวันที่และเวลาให้ตรงกับวันที่และเวลาที่ถูกต้องเพื่อแก้ไขปัญหานี้</p>">
 
 <!ENTITY certerror.pagetitle1  "การเชื่อมต่อไม่ปลอดภัย">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "This site uses HTTP
-Strict Transport Security (HSTS) to specify that &brandShortName; may only connect
-to it securely. As a result, it is not possible to add an exception for this
-certificate.">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "ไซต์นี้ใช้ HTTP
+Strict Transport Security (HSTS) เพื่อระบุว่า &brandShortName; จะเชื่อมต่อกับไซต์ได้อย่างปลอดภัย ทำให้ไม่สามารถสร้างข้อยกเว้นสำหรับใบอนุญาตนี้ได้">
 <!ENTITY certerror.copyToClipboard.label "คัดลอกข้อความไปยังคลิปบอร์ด">
 
 <!ENTITY inadequateSecurityError.title "การเชื่อมต่อของคุณไม่ปลอดภัย">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe. The website administrator will need to fix the server first before you can visit the site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> ใช้เทคโนโลยีความปลอดภัยที่ล้าสมัยและเสี่ยงต่อการถูกโจมตี ผู้โจมตีสามารถเปิดเผยข้อมูลที่คุณคิดว่าปลอดภัยได้อย่างง่ายดาย ผู้ดูแลเว็บไซต์จำเป็นต้องแก้ไขเซิร์ฟเวอร์ก่อนที่คุณจะสามารถเยี่ยมชมไซต์ได้</p><p>รหัสข้อผิดพลาด: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
-<!ENTITY prefReset.longDesc "It looks like your network security settings might be causing this. Do you want the default settings to be restored?">
+<!ENTITY prefReset.longDesc "ดูเหมือนว่าการตั้งค่าความปลอดภัยของเครือข่ายเป็นสาเหตุนะ คุณอยากคืนค่าไปใช้การตั้งค่าพื้นฐานหรือเปล่าล่ะ?">
 <!ENTITY prefReset.label "คืนการตั้งค่าเริ่มต้น">

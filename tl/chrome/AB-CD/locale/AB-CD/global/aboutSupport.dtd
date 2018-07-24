@@ -5,7 +5,9 @@
 <!ENTITY aboutSupport.pageTitle "Impormasyon sa Paghahanap ng Problema">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
-<!ENTITY aboutSupport.pageSubtitle "  This page contains technical information that might be useful when you're trying to solve a problem. If you are looking for answers to common questions about &brandShortName;, check out our <a id='supportLink'>support web site</a>.">
+<!ENTITY aboutSupport.pageSubtitle "
+Ang pahinang ito ay naglalaman ng teknikal na impormasyon na maaaring maging kapaki-pakinabang kapag sinusubukan mong lumutas ng isang problema. Kung ikaw ay naghahanap ng mga sagot sa karaniwang mga tanong tungkol sa &brandShortName;, tingnan ang aming <a id='supportLink'>website para sa suporta</a>.
+">
 
 <!ENTITY aboutSupport.crashes.title "Mga Ulat sa Pag-crash">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
@@ -52,12 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Gamit sa Memorya">
-<!ENTITY aboutSupport.appBasicsPerformance "Performance">
+<!ENTITY aboutSupport.appBasicsPerformance "Pagganap">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
-<!ENTITY aboutSupport.appBasicsServiceWorkers "Registered Service Workers">
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Nakarehistrong mga Service Worker">
 
-<!ENTITY aboutSupport.appBasicsProfiles "Profiles">
+<!ENTITY aboutSupport.appBasicsProfiles "Mga Profile">
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
 
@@ -70,7 +72,7 @@ variant of aboutSupport.showDir.label.  This allows us to use the preferred
 <!ENTITY aboutSupport.showMac.label "Ipakita sa Finder">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin2.label "Open Folder">
+<!ENTITY aboutSupport.showWin2.label "Buksan ang Folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Nabagong Mahalagang mga Preperensiya">
 <!ENTITY aboutSupport.modifiedPrefsName "Pangalan">
@@ -111,11 +113,11 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.restartTitle "Subukang I-restart">
 <!ENTITY aboutSupport.restartNormal.label "I-restart nang maayos…">
 
-<!ENTITY aboutSupport.graphicsFeaturesTitle "Features">
-<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostics">
-<!ENTITY aboutSupport.graphicsFailureLogTitle "Failure Log">
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Mga Feature o Tampok">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Mga Diagnostiko">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Log ng Pagpalya">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
-<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decision Log">
-<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Crash Guard Disabled Features">
-<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Log ng Desisyon">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Mga Hindi Pinagaganang Tampok ng Crash Guard">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Mga Workaround">

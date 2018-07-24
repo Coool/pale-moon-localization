@@ -9,23 +9,23 @@
 
 <!ENTITY  proxyTitle.label              "ตั้งค่าพร็อกซีเพื่อเข้าสู่อินเทอร์เน็ต">
 <!ENTITY  noProxyTypeRadio.label        "ไม่มีพร็อกซี">
-<!ENTITY  noProxyTypeRadio.accesskey    "พ">
+<!ENTITY  noProxyTypeRadio.accesskey    "y">
 <!ENTITY  systemTypeRadio.label         "ใช้การตั้งค่าพร็อกซีของระบบ">
-<!ENTITY  systemTypeRadio.accesskey     "ใ">
+<!ENTITY  systemTypeRadio.accesskey     "u">
 <!ENTITY  WPADTypeRadio.label           "ค้นหาการตั้งค่าพร็อกซีสำหรับเครือข่ายโดยอัตโนมัติ">
-<!ENTITY  WPADTypeRadio.accesskey       "ข">
+<!ENTITY  WPADTypeRadio.accesskey       "w">
 <!ENTITY  manualTypeRadio.label         "ค่าพร็อกซีที่ตั้งด้วยตนเอง:">
-<!ENTITY  manualTypeRadio.accesskey     "ต">
+<!ENTITY  manualTypeRadio.accesskey     "m">
 <!ENTITY  autoTypeRadio.label           "ค่า URL สำหรับตั้งค่าพร็อกซีโดยอัตโนมัติ:">
-<!ENTITY  autoTypeRadio.accesskey       "อ">
+<!ENTITY  autoTypeRadio.accesskey       "A">
 <!ENTITY  reload.label                  "เรียกใหม่">
-<!ENTITY  reload.accesskey              "ร">
+<!ENTITY  reload.accesskey              "e">
 <!ENTITY  ftp.label                     "พร็อกซี FTP:">
 <!ENTITY  ftp.accesskey                 "F">
 <!ENTITY  http.label                    "พร็อกซี HTTP :">
 <!ENTITY  http.accesskey                "H">
 <!ENTITY  ssl.label                     "พร็อกซี SSL:">
-<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  ssl.accesskey                 "L">
 <!ENTITY  socks.label                   "โฮสต์ SOCKS :">
 <!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
@@ -34,16 +34,16 @@
 <!ENTITY  socks5.accesskey              "v">
 <!ENTITY  socksRemoteDNS.label          "ใช้พร็อกซีเพื่อทำการสอบถาม DNS (SOCKS v5 เท่านั้น)">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
-<!ENTITY  port.label                    "พอร์ต :">
+<!ENTITY  port.label                    "พอร์ต:">
 <!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
 <!ENTITY  FTPport.accesskey             "r">
 <!ENTITY  SOCKSport.accesskey           "t">
 <!ENTITY  noproxy.label                 "ไม่มีพร็อกซีสำหรับ:">
-<!ENTITY  noproxy.accesskey             "ไ">
-<!ENTITY  noproxyExplain.label          "ตัวอย่าง : .mozilla.org, .net.th, 192.168.1.0/24">
+<!ENTITY  noproxy.accesskey             "n">
+<!ENTITY  noproxyExplain.label          "ตัวอย่างเช่น: .palemoon.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "ใช้เซิร์ฟเวอร์พร็อกซีนี้สำหรับทุกโพรโทคอล">
-<!ENTITY  shareproxy.accesskey          "ช">
+<!ENTITY  shareproxy.accesskey          "s">
 <!ENTITY  autologinproxy.label          "อย่ากระตุ้นการรับรองความถูกต้องถ้ารหัสผ่านถูกบันทึก">
 <!ENTITY  autologinproxy.accesskey      "i">
-<!ENTITY  autologinproxy.tooltip        "This option silently authenticates you to proxies when you have saved credentials for them. You will be prompted if authentication fails.">
+<!ENTITY  autologinproxy.tooltip        "ตัวเลือกนี้ให้อนุญาติคุณไปยังพร็อกซีอย่างลับๆ เมื่อคุณมีหนังสือรับรองจากพวกมัน ถ้าการให้อนุญาติล้มเหลว เราจะแจ้งคุณทันที">

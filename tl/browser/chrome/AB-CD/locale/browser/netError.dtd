@@ -7,7 +7,7 @@
 
 <!ENTITY loadError.label "Problema sa pag-load ng pahina">
 <!ENTITY retry.label "Subukan Ulit">
-<!ENTITY returnToPreviousPage.label "Go Back">
+<!ENTITY returnToPreviousPage.label "Bumalik">
 <!ENTITY advanced.label "Advanced">
 
 <!-- Specific error messages -->
@@ -37,10 +37,10 @@
 </ul>
 ">
 
-<!ENTITY fileAccessDenied.title "Access to the file was denied">
+<!ENTITY fileAccessDenied.title "Hindi pinahihintulutan ang pag-access sa file">
 <!ENTITY fileAccessDenied.longDesc "
 <ul>
-  <li>It may have been removed, moved, or file permissions may be preventing access.</li>
+  <li>Maaaring ito ay naalis, nailipat, o ang mga permiso sa file ang pumipigil sa pag-access nito.</li>
 </ul>
 ">
 
@@ -49,12 +49,12 @@
 <p>Dahil sa isang hindi malamang dahilan ay hindi ma-load ng &brandShortName; ang pahinang ito.</p>
 ">
 
-<!ENTITY captivePortal.title "Login to network">
+<!ENTITY captivePortal.title "Mag-login sa network">
 <!ENTITY captivePortal.longDesc "
-<p>This network may require you to login to access the internet.</p>
+<p>Baka kailanganing mag-login ka muna upang ma-access ang internet sa network na ito.</p>
 ">
 
-<!ENTITY openPortalLoginPage.label "Open Login Page">
+<!ENTITY openPortalLoginPage.label "Buksan ang Pahina ng Login">
 
 <!ENTITY malformedURI.title "Ang address ay imbalido">
 <!ENTITY malformedURI.longDesc "
@@ -153,11 +153,11 @@
   <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito noon, maaaring ang pagkakamaling ito ay pansamantala lamang, at puwede mong subukan ito ulit mamaya.</li>
 </ul>
 ">
-<!ENTITY certerror.longpagetitle1 "Your connection is not secure">
+<!ENTITY certerror.longpagetitle1 "Ang koneksiyon mo ay hindi secure">
 <!-- Localization note (certerror.introPara) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
-<!ENTITY certerror.introPara "The owner of <span class='hostname'/> has configured their website improperly.  To protect your information from being stolen, &brandShortName; has not connected to this website.">
+<!ENTITY certerror.introPara "Hindi na-configure nang maayos ng may-ari ng <span class='hostname'/> ang kanilang website. Upang hindi manakaw at maprotektahan ang iyong impormasyon, hindi kumonekta ang &brandShortName; sa website na ito.">
 
 <!ENTITY sharedLongDesc "
 <ul>
@@ -165,18 +165,6 @@ was trying to connect. -->
   <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksiyon ng network sa iyong kompiyuter.</li>
   <li>Kung ang iyong kompiyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
 </ul>
-">
-
-<!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Ang mga &quot;attack site&quot; ay sumusubok na mag-install ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompiyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
-<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Paglalagay ng anumang impormasyong personal sa pahinang ito ay maaaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
-<p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para magaya ang mga tao o pinagmulang iyong pinagkakatiwalaan.</p>
 ">
 
 <!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
@@ -192,8 +180,8 @@ was trying to connect. -->
 
 <!ENTITY corruptedContentError.title "Error sa Sirang Nilalaman">
 <!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
-<!ENTITY corruptedContentErrorv2.title "Corrupted Content Error">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Error sa Sirang Nilalaman">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "O maaari ka din na maglapat ng eksepsiyon…">
@@ -224,29 +212,26 @@ functionality specific to firefox. -->
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "Advanced info: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!ENTITY weakCryptoUsed.title "Your connection is not secure">
+<!ENTITY weakCryptoUsed.title "Ang koneksiyon mo ay hindi secure">
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc2 "Advanced info: SSL_ERROR_NO_CYPHER_OVERLAP">
 <!ENTITY weakCryptoAdvanced.title "Advanced">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe.">
-<!ENTITY weakCryptoAdvanced.override "(Not secure) Try loading <span class='hostname'></span> using outdated security">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ay gumagamit ng teknolohiyang pangseguridad na makaluma at puwedeng masira. Puwedeng makita kaagad ng isang attacker ang impormasyong inaakala mong ligtas.">
+<!ENTITY weakCryptoAdvanced.override "(Hindi secure) Subukang i-load ang <span class='hostname'></span> gamit ang makalumang seguridad">
 
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
      please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>A secure connection to <span id='wrongSystemTime_URL'/> isn’t possible because your clock appears to show the wrong time.</p> <p>Your computer thinks it is <span id='wrongSystemTime_systemDate'/>, when it should be <span id='wrongSystemTime_actualDate'/>. To fix this problem, change your date and time settings to match the correct time.</p>">
+<!ENTITY certerror.wrongSystemTime "<p>Hindi posible ang secure na koneksiyon sa <span id='wrongSystemTime_URL'/> dahil ang orasan mo ay nasa maling oras.</p> <p>Iniisip ng kompiyuter mo na <span id='wrongSystemTime_systemDate'/>. Para maayos ang problemang ito, baguhin mo ang iyong mga setting sa petsa at oras upang tumugma sa tamang oras.</p>">
 
-<!ENTITY certerror.pagetitle1  "Insecure Connection">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "This site uses HTTP
-Strict Transport Security (HSTS) to specify that &brandShortName; may only connect
-to it securely. As a result, it is not possible to add an exception for this
-certificate.">
-<!ENTITY certerror.copyToClipboard.label "Copy text to clipboard">
+<!ENTITY certerror.pagetitle1  "Hindi secure na Koneksiyon">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Ang site na ito ay gumagamit ng HTTP Strict Transport Security (HSTS) na pinagbabawalan ang hindi secure na pagkonekta ng &brandShortName; dito. Dahil dito, hindi posibleng lapatan ng eksepsiyon ang sertipikong ito.">
+<!ENTITY certerror.copyToClipboard.label "Kopyahin ang teksto sa clipboard">
 
-<!ENTITY inadequateSecurityError.title "Your connection is not secure">
+<!ENTITY inadequateSecurityError.title "Ang koneksiyon mo ay hindi secure">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe. The website administrator will need to fix the server first before you can visit the site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> ay gumagamit ng teknolohiyang pangseguridad na makaluma at puwedeng masira. Puwedeng makita kaagad ng isang attacker ang impormasyong inaakala mong ligtas. Kailangang ayusin muna ng website administrator ang kanilang server bago mo mabisita ang site na ito.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
-<!ENTITY prefReset.longDesc "It looks like your network security settings might be causing this. Do you want the default settings to be restored?">
-<!ENTITY prefReset.label "Restore default settings">
+<!ENTITY prefReset.longDesc "Parang dulot ito ng iyong mga setting sa seguridad ng network. Gusto mo bang ibalik ang mga paunang-tukoy na setting?">
+<!ENTITY prefReset.label "Ibalik ang mga paunang-tukoy na setting">

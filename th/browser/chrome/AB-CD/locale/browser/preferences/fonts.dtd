@@ -4,22 +4,22 @@
 
 <!ENTITY  fontsDialog.title                       "แบบอักษร">
 
-<!ENTITY  language.label                          "แบบอักษรสำหรับภาษา :">
-<!ENTITY  language.accesskey                      "อ">
+<!ENTITY  language.label                          "แบบอักษรสำหรับภาษา:">
+<!ENTITY  language.accesskey                      "F">
 
-<!ENTITY  size.label                              "ขนาด :">
-<!ENTITY  sizeProportional.accesskey              "ข">
-<!ENTITY  sizeMonospace.accesskey                 "น">
+<!ENTITY  size.label                              "ขนาด:">
+<!ENTITY  sizeProportional.accesskey              "z">
+<!ENTITY  sizeMonospace.accesskey                 "e">
 
-<!ENTITY  proportional.label                      "กว้างตามสัดส่วน :">
-<!ENTITY  proportional.accesskey                  "ส">
+<!ENTITY  proportional.label                      "กว้างตามสัดส่วน:">
+<!ENTITY  proportional.accesskey                  "P">
 
-<!ENTITY  serif.label                             "มีเชิง :">
-<!ENTITY  serif.accesskey                         "ช">
-<!ENTITY  sans-serif.label                        "ไม่มีเชิง :">
-<!ENTITY  sans-serif.accesskey                    "ม">
-<!ENTITY  monospace.label                         "กว้างคงที่ :">
-<!ENTITY  monospace.accesskey                     "ค">
+<!ENTITY  serif.label                             "Serif:">
+<!ENTITY  serif.accesskey                         "S">
+<!ENTITY  sans-serif.label                        "Sans-serif:">
+<!ENTITY  sans-serif.accesskey                    "n">
+<!ENTITY  monospace.label                         "Monospace:">
+<!ENTITY  monospace.accesskey                     "M">
 
 <!-- LOCALIZATION NOTE (font.langGroup.latin) :
      Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
@@ -40,7 +40,7 @@
 <!ENTITY  font.langGroup.armenian                 "อาร์เมเนีย">
 <!ENTITY  font.langGroup.bengali                  "เบ็งกาลี">
 <!ENTITY  font.langGroup.canadian                 "อักษรพยางค์พื้นเมืองแคนาดา">
-<!ENTITY  font.langGroup.ethiopic                 "เอธิโอปิก">
+<!ENTITY  font.langGroup.ethiopic                 "เอธิโอเปีย">
 <!ENTITY  font.langGroup.georgian                 "จอร์เจีย">
 <!ENTITY  font.langGroup.gujarati                 "คุชราตี">
 <!ENTITY  font.langGroup.gurmukhi                 "คุรุมุขี">
@@ -53,22 +53,22 @@
 <!ENTITY  font.langGroup.tibetan                  "ทิเบต">
 <!-- Minimum font size -->
 <!ENTITY minSize.label                            "ขนาดอักษรเล็กสุด :">
-<!ENTITY minSize.accesskey                        "ล">
+<!ENTITY minSize.accesskey                        "o">
 <!ENTITY minSize.none                             "ไม่มี">
 
 <!-- default font type -->
-<!ENTITY  useDefaultFontSerif.label               "มีเชิง">
-<!ENTITY  useDefaultFontSansSerif.label           "ไม่มีเชิง">
+<!ENTITY  useDefaultFontSerif.label               "Serif">
+<!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
 
 <!ENTITY  allowPagesToUse.label                   "อนุญาตให้เอกสารใช้แบบอักษรของตัวเองได้ แทนที่จะใช้ตามที่เลือกไว้ด้านบน">
-<!ENTITY  allowPagesToUse.accesskey               "อ">
+<!ENTITY  allowPagesToUse.accesskey               "A">
 
 <!ENTITY languages.customize.Fallback.grouplabel  "รหัสอักขระสำหรับเนื้อหาที่ไม่ได้ระบุรหัส">
 <!ENTITY languages.customize.Fallback.label       "รหัสอักขระที่จะย้อนมาใช้เมื่อมีข้อผิดพลาด:">
-<!ENTITY languages.customize.Fallback.accesskey   "ย">
+<!ENTITY languages.customize.Fallback.accesskey   "C">
 <!ENTITY languages.customize.Fallback.desc        "รหัสอักขระนี้ถูกใช้สำหรับเนื้อหาคร่ำครึที่ขัดข้องจากการกำหนดอักขระ">
 
-<!ENTITY languages.customize.Fallback.auto        "Default for Current Locale">
+<!ENTITY languages.customize.Fallback.auto        "ค่าเริ่มต้นสำหรับภาษาปัจจุบัน">
 <!ENTITY languages.customize.Fallback.utf8        "UTF-8">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.arabic):
      Translate "Arabic" as an adjective for an encoding, not as the name of the language. -->
