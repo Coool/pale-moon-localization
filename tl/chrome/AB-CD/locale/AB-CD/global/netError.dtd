@@ -10,7 +10,7 @@
 <!ENTITY connectionFailure.title "Nabigong makakonekta">
 <!ENTITY connectionFailure.longDesc "<p>Kahit parang balido itong site, ang browser ay hindi makapag-tatag nang isang koneksiyon.</p><ul><li>Maaari bang ang site ay pansamantalang hindi magagamit? Subukan ulit mamaya.</li><li>Ikaw ba ay hindi makapag-browse ng ibang mga site? Tingnan ang koneksiyon sa network ng iyong kompiyuter.</li><li>Ang kompiyuter o network mo ba ay protektado ng isang firewall o proxy? Hindi tamang mga setting ay maaaring maka-sagabal sa iyong pagba-browse sa Web.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Limitadong Port dahil sa mga Kadahilanang Pang-seguridad">
+<!ENTITY deniedPortAccess.title "Hindi Magamit na Port dahil sa mga Kadahilanang Pangseguridad">
 <!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tumukoy ng isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
 
 <!ENTITY dnsNotFound.title "Hindi Natagpuang Address">
@@ -19,8 +19,8 @@
 <!ENTITY fileNotFound.title "Hindi Natagpuang File">
 <!ENTITY fileNotFound.longDesc "<ul><li>Maaaring ang bagay ay pinalitan ng pangalan, inalis, o inilipat sa ibang lokasyon?</li><li>Mayroon bang ispeling, palaking-titik (kapitalisasyon) o ibang klase ng pagkakamaling tipograpikal sa address?</li><li>Meron ka bang sapat na pahintulot upang mabuksán ang hinihiling na bagay?</li></ul>">
 
-<!ENTITY fileAccessDenied.title "Access to the file was denied">
-<!ENTITY fileAccessDenied.longDesc "<ul><li>It may have been removed, moved, or file permissions may be preventing access.</li></ul>">
+<!ENTITY fileAccessDenied.title "Hindi pinahihintulutan ang pag-access sa file">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Maaaring ito ay naalis, nailipat, o ang mga permiso sa file ang pumipigil sa pag-access nito.</li></ul>">
 
 <!ENTITY generic.title "Hindi Makompletong Hiling">
 <!ENTITY generic.longDesc "<p>Karagdagang impormasyon tungkol sa problema o error na ito ay kasalukuyang hindi makita.</p>">
@@ -80,22 +80,22 @@
 </ul>
 ">
 
-<!ENTITY securityOverride.linkText "Or you can add an exception…">
+<!ENTITY securityOverride.linkText "O maaari ka din maglapat ng eksepsiyon…">
 <!ENTITY securityOverride.warningContent "
-<p>You should not add an exception if you are using an internet connection that you do not trust completely or if you are not used to seeing a warning for this server.</p>
-<p>If you still wish to add an exception for this site, you can do so in your advanced encryption settings.</p>
+<p>Hindi ka dapat maglapat ng eksepsiyon kung ikaw ay gumagamit ng koneksiyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
+<p>Kung gusto mo pa rin maglapat ng eksepsiyon sa site na ito, maaari mo itong gawin sa iyong advanced encryption settings.</p>
 ">
 
 <!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
 <!ENTITY cspBlocked.longDesc "<p>Pinigilan ng browser ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong content security policy na hindi ito pinapayagan.</p>">
 
-<!ENTITY corruptedContentErrorv2.title "Corrupted Content Error">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>Ang pahinang sinusubukan mong tignan ay hindi pwedeng ipakita sapagkat mayroong problemang napuna sa pagpapadala nang data.</p><ul><li>Ipagbigay alam sa may-ari nang website ang tungkol sa problemang ito.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Error sa Sirang Nilalaman">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
 
-<!ENTITY inadequateSecurityError.title "Your connection is not secure">
+<!ENTITY inadequateSecurityError.title "Ang koneksiyon mo ay hindi secure">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe. The website administrator will need to fix the server first before you can visit the site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> ay gumagamit ng teknolohiyang pangseguridad na makaluma at puwedeng masira. Puwedeng makita kaagad ng isang attacker ang impormasyong inaakala mong ligtas. Kailangang ayusin muna ng website administrator ang kanilang server bago mo mabisita ang site na ito.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

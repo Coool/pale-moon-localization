@@ -12,13 +12,13 @@
 <!ENTITY status4evar.tab.tabs "แท็บ">
 
 <!ENTITY status4evar.option.none "ไม่มีเลย">
-<!ENTITY status4evar.option.nothing "Nothing">
+<!ENTITY status4evar.option.nothing "ไม่ต้องทำอะไร">
 <!ENTITY status4evar.option.toolbar "แถบสถานะ">
 <!ENTITY status4evar.option.popup "ป๊อปอัพ">
-<!ENTITY status4evar.option.tooltip "Tooltip">
+<!ENTITY status4evar.option.tooltip "เคล็ดลับเครื่องมือ">
 <!ENTITY status4evar.option.bottom "ข้างล่าง">
 <!ENTITY status4evar.option.top "ข้างบน">
-<!ENTITY status4evar.option.dlcount "Download count">
+<!ENTITY status4evar.option.dlcount "จำนวนการดาวน์โหลด">
 <!ENTITY status4evar.option.dltime "เวลาที่เหลืออยู่">
 <!ENTITY status4evar.option.both "ทั้งสอง">
 <!ENTITY status4evar.option.right "ขวา">
@@ -28,11 +28,11 @@
 <!ENTITY status4evar.option.browse "เรียกดู">
 <!ENTITY status4evar.option.clear "ล้าง">
 <!ENTITY status4evar.option.center "กลาง">
-<!ENTITY status4evar.option.offset "Offset">
+<!ENTITY status4evar.option.offset "ระยะเลยขอบ">
 <!ENTITY status4evar.option.repeat "ทำซ้ำ">
 <!ENTITY status4evar.option.no-repeat "ไม่ทำซ้ำ">
 <!ENTITY status4evar.option.space "ช่องว่าง">
-<!ENTITY status4evar.option.round "Round">
+<!ENTITY status4evar.option.round "กลมมน">
 <!ENTITY status4evar.option.firefoxdefault "ค่าเริ่มต้น Pale Moon">
 <!ENTITY status4evar.option.download.library "ห้องสมุด">
 <!ENTITY status4evar.option.download.tab "แท็บ">
@@ -61,8 +61,8 @@
 <!ENTITY browser.urlbar.formatting.enabled.label "เปิดใช้งานการเน้นโดเมน">
 <!ENTITY browser.urlbar.trimming.enabled.label "เปิดใช้งานการซ่อนโพรโทคอล (http:// และ ftp://)">
 
-<!ENTITY status4evar.status.popup.invertMirror.label "Default to the right side">
-<!ENTITY status4evar.status.popup.mouseMirror.label "Swap sides when moused over">
+<!ENTITY status4evar.status.popup.invertMirror.label "ค่าเริ่มต้นไปทางด้านขวา">
+<!ENTITY status4evar.status.popup.mouseMirror.label "สลับข้างเมื่อเลื่อนเมาส์ผ่าน">
 
 <!ENTITY status4evar.progress.style.label "ใช้ลักษณะที่กำหนดเอง">
 
@@ -73,16 +73,16 @@
 <!ENTITY status4evar.editor.css.image.label "รูปภาพ:">
 <!ENTITY status4evar.editor.css.image.repeat "ทำซ้ำ">
 <!ENTITY status4evar.editor.css.image.position "ตำแหน่ง">
-<!ENTITY status4evar.editor.css.image.offset "Offset">
+<!ENTITY status4evar.editor.css.image.offset "ระยะเลยขอบ">
 
 
 
-<!ENTITY status4evar.download.button.action.label "Download status button action:">
-<!ENTITY status4evar.download.force.label "Always show the Download Status indicator">
-<!ENTITY status4evar.download.label.force.label "Always show the indicator text">
-<!ENTITY status4evar.download.label.label "Download status indicator text:">
-<!ENTITY status4evar.download.tooltip.label "Download status indicator tooltip:">
-<!ENTITY status4evar.download.progress.label "Show download progress on the button">
+<!ENTITY status4evar.download.button.action.label "การกระทำของปุ่มสถานะการดาวน์โหลด:">
+<!ENTITY status4evar.download.force.label "แสดงตัวบ่งชี้สถานะการดาวน์โหลดเสมอ">
+<!ENTITY status4evar.download.label.force.label "แสดงข้อความระบุสถานะเสมอ">
+<!ENTITY status4evar.download.label.label "ดาวน์โหลดข้อความบ่งชี้สถานะ:">
+<!ENTITY status4evar.download.tooltip.label "ดาวน์โหลดคำแนะนำตัวบ่งชี้สถานะ:">
+<!ENTITY status4evar.download.progress.label "แสดงความคืบหน้าการดาวน์โหลดบนปุ่ม">
 <!ENTITY status4evar.download.progress.average.label "แสดงค่าเฉลี่ยความคืบหน้าการดาวน์โหลด">
 <!ENTITY status4evar.download.progress.max.label "แสดงการดาวน์โหลดที่คืบหน้ามากที่สุด">
 <!ENTITY status4evar.download.progress.min.label "แสดงการดาวน์โหลดที่คืบหน้าน้อยที่สุด">
@@ -91,9 +91,9 @@
 <!ENTITY status4evar.download.notify.animate.label "ทำให้ปุ่มเคลื่อนไหวเมื่อการดาวน์โหลดเสร็จสมบูรณ์">
 <!ENTITY status4evar.download.notify.timeout.label "ทำให้ปุ่มเด่นชัดเมื่อการดาวน์โหลดเสร็จสมบูรณ์">
 
-<!ENTITY status4evar.addonbar.borderStyle "Use alternate toolbar borders">
-<!ENTITY status4evar.addonbar.windowGripper "Show the window re-size gripper">
+<!ENTITY status4evar.addonbar.borderStyle "ใช้เส้นขอบแถบเครื่องมืออื่น">
+<!ENTITY status4evar.addonbar.windowGripper "แสดงตัวยืดหดขนาดหน้าต่าง">
 <!ENTITY status4evar.addonbar.closeButton "แสดงปุ่มปิด">
 
 <!ENTITY status4evar.advanced.status.detectFullScreen "ตรวจจับโหมดเต็มหน้าจอและแสดงการเชื่อมโยง/สถานะอย่างเหมาะสม">
-<!ENTITY status4evar.advanced.status.detectVideo "Hide status popup in full-screen HTML5 video.">
+<!ENTITY status4evar.advanced.status.detectVideo "ซ่อนป๊อปอัพสถานะเมื่อเปิดวิดีโอ HTML5 แบบเต็มหน้าจอ">

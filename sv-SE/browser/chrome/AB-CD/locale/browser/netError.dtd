@@ -94,18 +94,6 @@ was trying to connect. -->
 
 <!ENTITY sharedLongDesc "<ul> <li>Webbplatsen kan tillfälligt vara nere eller upptagen. Försök igen om en stund.</li> <li>Om du inte kan öppna sidor, kontrollera datorns nätverksanslutning.</li> <li>Om datorn eller nätverket skyddas av en brandvägg eller proxy, kontrollera att &brandShortName; har tillstånd att ansluta till webben.</li> </ul>">
 
-<!ENTITY malwareBlocked.title "Misstänkt skadlig webbplats!">
-<!ENTITY malwareBlocked.longDesc "
-<p>Skadliga webbplatser försöker installera program för att stjäla privata uppgifter, använda din dator för att angripa andras, eller för att skada ditt system.</p>
-<p>Ägare till webbplatser som anser att deras webbplats felaktigt har rapporterats som skadlig kan <a href='https://www.stopbadware.org/request-review'>begära en omprövning</a>.</p>
-">
-
-<!ENTITY phishingBlocked.title "Misstänkt webbförfalskning!">
-<!ENTITY phishingBlocked.longDesc "
-<p>Personliga uppgifter som lämnas på den där sidan kan resultera i identitetsstöld eller annat bedrägeri.</p>
-<p>Den här typen av webbförfalskningar används i något som kallas nätfiske där falska webbsidor och e-postmeddelanden används för att imitera källor du kanske litar på.</p>
-">
-
 <!ENTITY cspBlocked.title "Blockerad av säkerhetspolicyn för innehåll">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; förhindrade sidan från att öppnas på detta sätt eftersom sidan har en säkerhetspolicy för innehåll som inte tillåter detta.</p>">
 

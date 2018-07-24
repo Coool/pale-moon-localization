@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutNetworking.title                 "เกี่ยวกับเครือข่าย">
-<!ENTITY aboutNetworking.warning               "ยังอยู่ในช่วงทดสอบ โปรดใช้งานภายใต้การดูแลของผู้ปกครอง">
+<!ENTITY aboutNetworking.title                 "เกี่ยวกับระบบเครือข่าย">
+<!ENTITY aboutNetworking.warning               "ยังอยู่ในช่วงทดสอบ โปรดใช้งานภายใต้การดูแลของผู้เชี่ยวชาญ">
 <!ENTITY aboutNetworking.showNextTime          "แสดงคำเตือนนี้ในครั้งถัดไป">
 <!ENTITY aboutNetworking.ok                    "ตกลง">
 <!ENTITY aboutNetworking.HTTP                  "HTTP">
@@ -20,17 +20,17 @@
 <!ENTITY aboutNetworking.idle                  "ว่าง">
 <!ENTITY aboutNetworking.host                  "โฮสต์">
 <!ENTITY aboutNetworking.tcp                   "TCP">
-<!ENTITY aboutNetworking.sent                  "ส่ง">
-<!ENTITY aboutNetworking.received              "รับ">
+<!ENTITY aboutNetworking.sent                  "ส่งแล้ว">
+<!ENTITY aboutNetworking.received              "ได้รับแล้ว">
 <!ENTITY aboutNetworking.family                "ตระกูล">
 <!ENTITY aboutNetworking.addresses             "ที่อยู่">
 <!ENTITY aboutNetworking.expires               "หมดอายุ (วินาที)">
-<!ENTITY aboutNetworking.messagesSent          "ข้อความที่ส่ง">
-<!ENTITY aboutNetworking.messagesReceived      "ข้อความที่รับ">
+<!ENTITY aboutNetworking.messagesSent          "ข้อความถูกส่งแล้ว">
+<!ENTITY aboutNetworking.messagesReceived      "ข้อความที่รับแล้ว">
 <!ENTITY aboutNetworking.bytesSent             "จำนวนไบต์ที่ส่ง">
 <!ENTITY aboutNetworking.bytesReceived         "จำนวนไบต์ที่รับ">
-<!ENTITY aboutNetworking.logging               "Logging">
-<!ENTITY aboutNetworking.logTutorial           "See <a href='https://developer.mozilla.org/docs/Mozilla/Debugging/HTTP_logging'>HTTP Logging</a> for instructions on how to use this tool.">
+<!ENTITY aboutNetworking.logging               "การบันทึก">
+<!ENTITY aboutNetworking.logTutorial           "ดู <a href='https://developer.mozilla.org/docs/Mozilla/Debugging/HTTP_logging'>HTTP Logging</a> สำหรับวิธีการใช้เครื่องมือนี้">
 <!ENTITY aboutNetworking.currentLogFile        "Current Log File:">
 <!ENTITY aboutNetworking.currentLogModules     "Current Log Modules:">
 <!ENTITY aboutNetworking.setLogFile            "Set Log File">
@@ -38,6 +38,6 @@
 <!ENTITY aboutNetworking.startLogging          "Start Logging">
 <!ENTITY aboutNetworking.stopLogging           "Stop Logging">
 <!ENTITY aboutNetworking.dnsLookup             "DNS Lookup">
-<!ENTITY aboutNetworking.dnsLookupButton       "Resolve">
+<!ENTITY aboutNetworking.dnsLookupButton       "แก้ไข">
 <!ENTITY aboutNetworking.dnsDomain             "โดเมน">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IPs">
