@@ -39,7 +39,7 @@
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
 <!ENTITY options.showUserAgentStyles.label "แสดงสไตล์เบราว์เซอร์">
-<!ENTITY options.showUserAgentStyles.tooltip "การเปิดใช้งานนี้จะแสดงค่าสไตล์ปริยายที่ถูกโหลดโดยเบราว์เซอร์">
+<!ENTITY options.showUserAgentStyles.tooltip "การเปิดใช้งานนี้จะแสดงค่าสไตล์เริ่มต้นที่ถูกโหลดโดยเบราว์เซอร์">
 
 <!-- LOCALIZATION NOTE (options.collapseAttrs.label): This is the label
   -  for the checkbox option to enable collapse attributes in the Inspector
@@ -50,7 +50,7 @@
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
   -  This label is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.label "หน่วยสีปริยาย">
+<!ENTITY options.defaultColorUnit.label "หน่วยสีเริ่มต้น">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.accesskey): This is the access
   -  key for a dropdown list that controls the default color unit used in the
@@ -122,7 +122,7 @@
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label2): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label2    "Default Developer Tools">
+<!ENTITY options.selectDefaultTools.label2    "เครื่องมือนักพัฒนาเริ่มต้น">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -161,7 +161,7 @@
 
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->
-<!ENTITY options.debugger.label            "Debugger">
+<!ENTITY options.debugger.label            "ตัวดีบั๊ก">
 
 <!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
    - label for the checkbox that toggles source maps in the Debugger -->
