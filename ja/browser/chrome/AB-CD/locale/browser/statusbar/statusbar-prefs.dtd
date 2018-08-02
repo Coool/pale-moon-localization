@@ -1,12 +1,12 @@
 <!ENTITY status4evar.window.title "Pale Moon ステータスバー 設定">
 
 <!ENTITY status4evar.pane.status "ステータス">
-<!ENTITY status4evar.pane.progress "進行状況">
+<!ENTITY status4evar.pane.progress "プログレス">
 <!ENTITY status4evar.pane.download "ダウンロード">
 <!ENTITY status4evar.pane.statusbar "ステータスバー">
 <!ENTITY status4evar.pane.advanced "詳細">
 
-<!ENTITY status4evar.tab.general "一般">
+<!ENTITY status4evar.tab.general "基本">
 <!ENTITY status4evar.tab.toolbar "ステータスバー">
 <!ENTITY status4evar.tab.popup "ポップアップ">
 <!ENTITY status4evar.tab.tabs "タブ">
@@ -64,7 +64,7 @@
 <!ENTITY status4evar.status.popup.invertMirror.label "右側を標準にする">
 <!ENTITY status4evar.status.popup.mouseMirror.label "マウスオーバーしたときは逆側に避ける">
 
-<!ENTITY status4evar.progress.style.label "位置：">
+<!ENTITY status4evar.progress.style.label "位置:">
 
 <!ENTITY status4evar.progress.toolbar.force.label "プログレスメーターのアイテムを常に表示">
 
@@ -82,18 +82,18 @@
 <!ENTITY status4evar.download.label.force.label "インジケーターテキストを常に表示">
 <!ENTITY status4evar.download.label.label "ダウンロード ステータスインジケーターのテキスト:">
 <!ENTITY status4evar.download.tooltip.label "ダウンロードステータスインジケーターのツールチップ:">
-<!ENTITY status4evar.download.progress.label "ダウンロード進行状況ボタンの表示">
-<!ENTITY status4evar.download.progress.average.label "ダウンロード完了平均時間の表示">
-<!ENTITY status4evar.download.progress.max.label "ダウンロードが最も遅い時間の表示">
-<!ENTITY status4evar.download.progress.min.label "最もはやいダウンロードの表示">
-<!ENTITY status4evar.download.color.active.label "ダウンロード中の進行状況の色:">
-<!ENTITY status4evar.download.color.paused.label "ダウンロード一時停止時の進捗状況の色:">
-<!ENTITY status4evar.download.notify.animate.label "ダウンロード完了時のアニメーションボタン">
-<!ENTITY status4evar.download.notify.timeout.label "ダウンロード完了時ボタンの強調表示:">
+<!ENTITY status4evar.download.progress.label "ボタンにダウンロードをプログレス表示">
+<!ENTITY status4evar.download.progress.average.label "平均したダウンロードのプログレスを表示">
+<!ENTITY status4evar.download.progress.max.label "最も進んでいるダウンロードのプログレスを表示">
+<!ENTITY status4evar.download.progress.min.label "最も遅れているダウンロードのプログレスを表示">
+<!ENTITY status4evar.download.color.active.label "進行中のダウンロードの色:">
+<!ENTITY status4evar.download.color.paused.label "停止中のダウンロードの色:">
+<!ENTITY status4evar.download.notify.animate.label "ダウンロード完了時にアニメ表示させる">
+<!ENTITY status4evar.download.notify.timeout.label "ダウンロード完了時に点滅させる:">
 
-<!ENTITY status4evar.addonbar.borderStyle "代替ツールバーの境界線を使用">
-<!ENTITY status4evar.addonbar.windowGripper "ウィンドウ サイズ変更グリップの表示">
-<!ENTITY status4evar.addonbar.closeButton "閉じるボタンの表示">
+<!ENTITY status4evar.addonbar.borderStyle "別のボーダースタイルを使用">
+<!ENTITY status4evar.addonbar.windowGripper "ウインドウをリサイズするグリップを表示">
+<!ENTITY status4evar.addonbar.closeButton "閉じるボタンを表示">
 
-<!ENTITY status4evar.advanced.status.detectFullScreen "全画面表示モードを検出し、適切にリンク・ステータスを表示します。">
-<!ENTITY status4evar.advanced.status.detectVideo "HTML5 動画全画面の時、状態のポップアップを非表示">
+<!ENTITY status4evar.advanced.status.detectFullScreen "全画面表示でリンク／ステータスを適切に表示">
+<!ENTITY status4evar.advanced.status.detectVideo "HTML5 ビデオをフルスクリーン表示中はステータスのポップアップを隠す">
