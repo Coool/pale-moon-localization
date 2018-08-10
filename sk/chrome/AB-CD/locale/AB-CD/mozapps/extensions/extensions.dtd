@@ -28,17 +28,17 @@
 <!ENTITY warning.safemode.label                    "Všetky doplnky boli zakázané núdzovým režimom.">
 <!ENTITY warning.checkcompatibility.label          "Kontrola kompatibility doplnkov je vypnutá. Môžete mať nekompatibilné doplnky.">
 <!ENTITY warning.checkcompatibility.enable.label   "Zapnúť">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Povoliť kontrolu kompatibility doplnkov">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Zapne kontrolu kompatibility doplnkov">
 <!ENTITY warning.updatesecurity.label              "Kontrola bezpečnosti aktualizácií doplnkov je vypnutá. Aktualizácie vás môžu ohroziť.">
 <!ENTITY warning.updatesecurity.enable.label       "Zapnúť">
-<!ENTITY warning.updatesecurity.enable.tooltip     "Povoliť kontrolu bezpečnosti aktualizácií doplnkov">
+<!ENTITY warning.updatesecurity.enable.tooltip     "Zapne kontrolu bezpečnosti aktualizácií doplnkov">
 
 <!-- global informations -->
 <!ENTITY info.plugincheck.label                 "Skontrolovať aktualizácie zásuvných modulov">
-<!ENTITY info.plugincheck.tooltip               "Skontrolovať aktualizácie zásuvných modulov">
+<!ENTITY info.plugincheck.tooltip               "Skontroluje aktualizácie zásuvných modulov">
 
 <!-- categories / views -->
-<!ENTITY view.search.label                    "Vyhľadávanie">
+<!ENTITY view.search.label                    "Hľadať">
 <!ENTITY view.discover.label                  "Získať doplnky">
 <!ENTITY view.recentUpdates.label             "Nedávno aktualizované">
 <!ENTITY view.availableUpdates.label          "Dostupné aktualizácie">
@@ -79,7 +79,7 @@
 <!ENTITY cmd.findUpdates.accesskey            "h">
 <!ENTITY cmd.preferencesWin.label             "Možnosti">
 <!ENTITY cmd.preferencesWin.accesskey         "M">
-<!ENTITY cmd.preferencesUnix.label            "Predvoľby">
+<!ENTITY cmd.preferencesUnix.label            "Možnosti">
 <!ENTITY cmd.preferencesUnix.accesskey        "M">
 <!ENTITY cmd.about.label                      "O doplnku">
 <!ENTITY cmd.about.accesskey                  "O">
@@ -92,7 +92,7 @@
 <!ENTITY cmd.enableTheme.accesskey            "m">
 <!ENTITY cmd.disableTheme.label               "Zrušiť tému">
 <!ENTITY cmd.disableTheme.accesskey           "m">
-<!ENTITY cmd.askToActivate.label              "Opýtať sa pri aktivovaní">
+<!ENTITY cmd.askToActivate.label              "Vyžiadať aktivovanie">
 <!ENTITY cmd.askToActivate.tooltip            "Vždy sa opýtať, či použiť doplnok">
 <!ENTITY cmd.alwaysActivate.label             "Vždy aktivovať">
 <!ENTITY cmd.alwaysActivate.tooltip           "Vždy používať tento doplnok">
@@ -106,7 +106,7 @@
 <!ENTITY cmd.debugAddon.label                 "Ladiť">
 <!ENTITY cmd.showPreferencesWin.label         "Možnosti">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Upraviť možnosti a nastavenia tohto doplnku">
-<!ENTITY cmd.showPreferencesUnix.label        "Predvoľby">
+<!ENTITY cmd.showPreferencesUnix.label        "Možnosti">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "Upraviť možnosti a nastavenia tohto doplnku">
 <!ENTITY cmd.contribute.label                 "Prispieť">
 <!ENTITY cmd.contribute.accesskey             "r">
@@ -149,7 +149,7 @@
 
 <!ENTITY detail.checkForUpdates.label         "Hľadať aktualizácie">
 <!ENTITY detail.checkForUpdates.accesskey     "H">
-<!ENTITY detail.checkForUpdates.tooltip       "Vyhľadať aktualizácie tohto doplnku">
+<!ENTITY detail.checkForUpdates.tooltip       "Vyhľadá aktualizácie tohto doplnku">
 <!ENTITY detail.showPreferencesWin.label      "Možnosti">
 <!ENTITY detail.showPreferencesWin.accesskey  "M">
 <!ENTITY detail.showPreferencesWin.tooltip    "Upraviť možnosti a nastavenia tohto doplnku">
@@ -194,7 +194,7 @@
      updates list to signify that an item is an update, in the form
      "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
      necessary -->
-<!ENTITY addon.update.postfix                 "(aktualizácia)">
+<!ENTITY addon.update.postfix                 "Aktualizovať">
 <!ENTITY addon.undoAction.label               "Späť">
 <!ENTITY addon.undoAction.tooltip             "Vrátiť späť vykonanú akciu">
 <!ENTITY addon.undoRemove.label               "Späť">
@@ -230,7 +230,7 @@
      to cause this tab to appear. -->
 <!ENTITY experiment.info.label "Čo je toto? Telemetria môže z času na čas inštalovať a spúšťať experimenty.">
 <!ENTITY experiment.info.learnmore "Ďalšie informácie">
-<!ENTITY experiment.info.learnmore.accesskey "l">
+<!ENTITY experiment.info.learnmore.accesskey "i">
 <!ENTITY experiment.info.changetelemetry "Nastavenia telemetrie">
 <!ENTITY experiment.info.changetelemetry.accesskey "t">
 
