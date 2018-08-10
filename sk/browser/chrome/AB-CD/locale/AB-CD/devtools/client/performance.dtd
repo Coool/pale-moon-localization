@@ -22,7 +22,7 @@
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.nonE10SBuild): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a non-multiprocess build. -->
-<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "Záznam údajov v reálnom čase je v multiprocesovom &brandShortName; vypnutý.">
+<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "Záznam údajov v reálnom čase je v nemultiprocesovom prehliadači &brandShortName; vypnutý.">
 
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.disabledE10S): This string
   -  is displayed as a message for why the real time overview graph is disabled
@@ -95,7 +95,7 @@
   -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
 <!ENTITY performanceUI.showPlatformData             "Zobraziť údaje platformy Goanna">
-<!ENTITY performanceUI.showPlatformData.tooltiptext "Zobrazovanie údajov platformy umožňuje v správach Nástroja na profilovanie JavaScriptu zahrnúť aj symboly platformy Goanna">
+<!ENTITY performanceUI.showPlatformData.tooltiptext "Zobrazovanie údajov platformy umožňuje v správach Nástroja na profilovanie JavaScriptu zahrnúť aj symboly platformy Goanna.">
 
 <!-- LOCALIZATION NOTE (performanceUI.showJITOptimizations): This string
   -  is displayed next to a checkbox determining whether or not JIT optimization data
