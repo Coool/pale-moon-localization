@@ -1,6 +1,6 @@
 @echo off
-set VER=28.0.0rc4
-set MIN=28.0.0b5
+set VER=28.0.0rc6
+set MIN=28.0.0
 
 rem ar da fi gl hr id is ja kn ro sk sl sr th vi zh-TW
 set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sv-SE tl tr uk zh-CN
