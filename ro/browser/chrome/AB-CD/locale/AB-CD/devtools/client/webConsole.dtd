@@ -8,25 +8,25 @@
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
 
-<!ENTITY window.title "Web Console">
-<!ENTITY browserConsole.title "Browser Console">
+<!ENTITY window.title "Consolă web">
+<!ENTITY browserConsole.title "Consolă navigator">
 
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in
    - the Web Console and Browser Console menu. -->
-<!ENTITY saveBodies.label     "Log Request and Response Bodies">
+<!ENTITY saveBodies.label     "Înregistrează cererile și conținutul răspunsurilor">
 <!ENTITY saveBodies.accesskey "L">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
    - Console context menu. -->
-<!ENTITY openURL.label     "Deschide URL-ul într-o filă nouă">
-<!ENTITY openURL.accesskey "t">
+<!ENTITY openURL.label     "Deschide adresa URL în filă nouă">
+<!ENTITY openURL.accesskey "T">
 
 <!-- LOCALIZATION NOTE (btnPageNet.label): This string is used for the menu
   -  button that allows users to toggle the network logging output.
   -  This string and the following strings toggle various kinds of output
   -  filters. -->
-<!ENTITY btnPageNet.label   "Net">
-<!ENTITY btnPageNet.tooltip "Log network access">
+<!ENTITY btnPageNet.label   "Rețea">
+<!ENTITY btnPageNet.tooltip "Înregistrează accesul la rețea">
 <!ENTITY btnPageNet.accesskey "N">
 <!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
   -  access key for the menu button that allows users to toggle the network
@@ -35,39 +35,39 @@
   -  for editing commands in text inputs. -->
 <!ENTITY btnPageNet.accesskeyMacOSX "t">
 <!ENTITY btnPageCSS.label   "CSS">
-<!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
+<!ENTITY btnPageCSS.tooltip2 "Înregistrează erori și avertismente CSS">
 <!ENTITY btnPageCSS.accesskey "C">
 <!ENTITY btnPageJS.label    "JS">
-<!ENTITY btnPageJS.tooltip  "Log JavaScript exceptions">
+<!ENTITY btnPageJS.tooltip  "Înregistrează excepțiile JavaScript">
 <!ENTITY btnPageJS.accesskey  "J">
-<!ENTITY btnPageSecurity.label "Security">
-<!ENTITY btnPageSecurity.tooltip "Log security errors and warnings">
+<!ENTITY btnPageSecurity.label "Securitate">
+<!ENTITY btnPageSecurity.tooltip "Jurnal erori de securitate și avertismente">
 <!ENTITY btnPageSecurity.accesskey "u">
 
 <!-- LOCALIZATION NOTE (btnPageLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls such console.log() and
   -  console.error(). -->
-<!ENTITY btnPageLogging.label   "Logging">
-<!ENTITY btnPageLogging.tooltip "Log messages sent to the window.console object">
+<!ENTITY btnPageLogging.label   "Înregistrare în jurnal">
+<!ENTITY btnPageLogging.tooltip "Jurnal pentru mesaje trimise la obiectul window.console">
 <!ENTITY btnPageLogging.accesskey3 "L">
-<!ENTITY btnConsoleErrors       "Errors">
+<!ENTITY btnConsoleErrors       "Erori">
 <!ENTITY btnConsoleInfo         "Info">
-<!ENTITY btnConsoleWarnings     "Warnings">
+<!ENTITY btnConsoleWarnings     "Avertismente">
 <!ENTITY btnConsoleLog          "Log">
 <!ENTITY btnConsoleXhr          "XHR">
-<!ENTITY btnConsoleReflows      "Reflows">
+<!ENTITY btnConsoleReflows      "Reîncadrări">
 
 <!-- LOCALIZATION NOTE (btnServerLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls on the HTTP server. -->
 <!ENTITY btnServerLogging.label       "Server">
-<!ENTITY btnServerLogging.tooltip     "Log messages received from a web server">
+<!ENTITY btnServerLogging.tooltip     "Jurnal pentru mesaje primite de la un server de web">
 <!ENTITY btnServerLogging.accesskey   "S">
-<!ENTITY btnServerErrors              "Errors">
-<!ENTITY btnServerInfo                "Info">
-<!ENTITY btnServerWarnings            "Warnings">
-<!ENTITY btnServerLog                 "Log">
+<!ENTITY btnServerErrors              "Erori">
+<!ENTITY btnServerInfo                "Informaţii">
+<!ENTITY btnServerWarnings            "Avertismente">
+<!ENTITY btnServerLog                 "Jurnal">
 
 <!-- LOCALIZATION NODE (btnConsoleSharedWorkers) the term "Shared Workers"
   -  should not be translated. -->
@@ -77,11 +77,11 @@
 <!ENTITY btnConsoleServiceWorkers "Service Workers">
 <!-- LOCALIZATION NODE (btnConsoleWindowlessWorkers) the term "Workers"
   -  should not be translated. -->
-<!ENTITY btnConsoleWindowlessWorkers "Add-on or Chrome Workers">
+<!ENTITY btnConsoleWindowlessWorkers "Lucrări de Suplimente sau Chrome">
 
-<!ENTITY filterOutput.placeholder "Filter output">
-<!ENTITY btnClear.label        "Clear">
-<!ENTITY btnClear.tooltip      "Clear the Web Console output">
+<!ENTITY filterOutput.placeholder "Ieșire filtru">
+<!ENTITY btnClear.label        "Curățare">
+<!ENTITY btnClear.tooltip      "Curățare conținut consolă web">
 <!ENTITY btnClear.accesskey    "r">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
@@ -94,13 +94,13 @@
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY copyURLCmd.label     "Copy Link Location">
+<!ENTITY copyURLCmd.label     "Copiază locația linkului">
 <!ENTITY copyURLCmd.accesskey "a">
 
 <!ENTITY closeCmd.key         "W">
 <!ENTITY findCmd.key          "F">
 <!ENTITY clearOutputCtrl.key  "L">
-<!ENTITY openInVarViewCmd.label "Open in Variables View">
+<!ENTITY openInVarViewCmd.label "Deschide în vizualizare variabile">
 <!ENTITY openInVarViewCmd.accesskey "V">
-<!ENTITY storeAsGlobalVar.label "Store as global variable">
+<!ENTITY storeAsGlobalVar.label "Stocare ca variabilă globală">
 <!ENTITY storeAsGlobalVar.accesskey "S">
