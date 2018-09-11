@@ -90,9 +90,9 @@ can reach it easily. -->
 <!ENTITY pageInfoCmd.commandkey "i">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
-<!ENTITY enterFullScreenCmd.label "Prejsť do režimu Na celú obrazovku">
+<!ENTITY enterFullScreenCmd.label "Prejsť do režimu celej obrazovky">
 <!ENTITY enterFullScreenCmd.accesskey "c">
-<!ENTITY exitFullScreenCmd.label "Ukončiť režim Na celú obrazovku">
+<!ENTITY exitFullScreenCmd.label "Ukončiť režim celej obrazovky">
 <!ENTITY exitFullScreenCmd.accesskey "c">
 <!ENTITY fullScreenCmd.label "Na celú obrazovku">
 <!ENTITY fullScreenCmd.accesskey "c">
@@ -105,11 +105,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Zavrieť">
 <!ENTITY fullScreenAutohide.label "Skryť panely s nástrojmi">
 <!ENTITY fullScreenAutohide.accesskey "k">
-<!ENTITY fullScreenExit.label "Ukončiť režim Na celú obrazovku">
+<!ENTITY fullScreenExit.label "Ukončiť režim celej obrazovky">
 <!ENTITY fullScreenExit.accesskey "U">
 
-<!ENTITY fullscreenExitHint.value "Stlačením klávesu ESC opustíte režim Na celú obrazovku.">
-<!ENTITY leaveDOMFullScreen.label "Ukončiť režim Na celú obrazovku">
+<!ENTITY fullscreenExitHint.value "Stlačením klávesu ESC opustíte režim celej obrazovky.">
+<!ENTITY leaveDOMFullScreen.label "Ukončiť režim celej obrazovky">
 <!ENTITY leaveDOMFullScreen.accesskey "U">
 
 <!ENTITY closeWindow.label "Zavrieť okno">
@@ -186,7 +186,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY keywordfield.label           "Pridať kľúčové slovo pre toto vyhľadávanie…">
 <!ENTITY keywordfield.accesskey       "d">
-<!ENTITY search.label                 "Vyhľadávanie pomocou ">
+<!ENTITY search.label                 "Vyhľadávanie na webe">
 <!ENTITY search.accesskey             "V">
 <!ENTITY downloads.label              "Správca preberania súborov">
 <!ENTITY downloads.tooltip            "Zobraziť stav preberania súborov">
@@ -252,7 +252,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "P"> 
 <!ENTITY viewSidebarMenu.label "Bočný panel">
 <!ENTITY viewSidebarMenu.accesskey "B">
-<!ENTITY viewCustomizeToolbar.label       "Prispôsobiť…"> 
+<!ENTITY viewCustomizeToolbar.label       "Prispôsobiť"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "P">
 <!ENTITY viewTabsOnTop.label            "Karty navrchu">
 <!ENTITY viewTabsOnTop.accesskey        "K">
@@ -517,8 +517,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageReportIcon.tooltip            "Zmeniť nastavenie blokovania vyskakovacích okien pre tento server">
 
 <!ENTITY allowPopups.accesskey "o">
-<!ENTITY editPopupSettingsUnix.label "Upraviť blokovanie vyskakovacích okien…">
-<!ENTITY editPopupSettings.label "Upraviť blokovanie vyskakovacích okien…">
+<!ENTITY editPopupSettingsUnix.label "Upraviť blokovanie vyskakovacích okien">
+<!ENTITY editPopupSettings.label "Upraviť blokovanie vyskakovacích okien">
 <!ENTITY editPopupSettings.accesskey "U">
 <!ENTITY dontShowMessage.accesskey "N">
 

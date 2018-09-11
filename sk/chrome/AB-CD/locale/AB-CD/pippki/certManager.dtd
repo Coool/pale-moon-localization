@@ -2,92 +2,92 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY certmgr.title                       "Certificate Manager">
+<!ENTITY certmgr.title                       "Správca certifikátov">
 
-<!ENTITY certmgr.tab.mine                     "Your Certificates">
-<!ENTITY certmgr.tab.others2                  "People">
-<!ENTITY certmgr.tab.websites3                "Servers">
-<!ENTITY certmgr.tab.ca                       "Authorities">
-<!ENTITY certmgr.tab.orphan2                  "Others">
+<!ENTITY certmgr.tab.mine                     "Vaše certifikáty">
+<!ENTITY certmgr.tab.others2                  "Ľudia">
+<!ENTITY certmgr.tab.websites3                "Servery">
+<!ENTITY certmgr.tab.ca                       "Autority">
+<!ENTITY certmgr.tab.orphan2                  "Ďalšie">
 
-<!ENTITY certmgr.mine                         "You have certificates from these organizations that identify you:">
-<!ENTITY certmgr.others                       "You have certificates on file that identify these people:">
-<!ENTITY certmgr.websites2                    "You have certificates on file that identify these servers:">
-<!ENTITY certmgr.cas                          "You have certificates on file that identify these certificate authorities:">
-<!ENTITY certmgr.orphans                      "You have certificates on file that do not fit in any of the other categories:">
+<!ENTITY certmgr.mine                         "Máte certifikáty od týchto organizácií, ktoré vás identifikujú:">
+<!ENTITY certmgr.others                       "Máte uložené certifikáty, ktoré identifikujú týchto ľudí:">
+<!ENTITY certmgr.websites2                    "Máte uložené certifikáty, ktoré identifikujú tieto servery:">
+<!ENTITY certmgr.cas                          "Máte uložené certifikáty, ktoré identifikujú tieto certifikačné autority:">
+<!ENTITY certmgr.orphans                      "Máte uložené certifikáty, ktoré nezapadajú do žiadnej kategórie:">
 
 <!ENTITY certmgr.detail.general_tab.title     "General">
-<!ENTITY certmgr.detail.general_tab.accesskey "G">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Details">
+<!ENTITY certmgr.detail.general_tab.accesskey "V">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Podrobnosti">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Currently verifying certificate…">
-<!ENTITY certmgr.subjectinfo.label            "Issued To">
-<!ENTITY certmgr.issuerinfo.label             "Issued By">
-<!ENTITY certmgr.periodofvalidity.label       "Obdobie platnosti" >
-<!ENTITY certmgr.fingerprints.label           "Fingerprints">
-<!ENTITY certmgr.certdetail.title             "Certificate Detail">
-<!ENTITY certmgr.certdetail.cn                "Common Name (CN)">
-<!ENTITY certmgr.certdetail.o                 "Organization (O)">
-<!ENTITY certmgr.certdetail.ou                "Organizational Unit (OU)">
-<!ENTITY certmgr.certdetail.serialnumber      "Serial Number">
-<!ENTITY certmgr.certdetail.sha256fingerprint "SHA256 Fingerprint">
-<!ENTITY certmgr.certdetail.sha1fingerprint   "SHA1 Fingerprint">
+<!ENTITY certmgr.pending.label                "Práve sa overuje certifikát…">
+<!ENTITY certmgr.subjectinfo.label            "Vydaný pre">
+<!ENTITY certmgr.issuerinfo.label             "Vydal">
+<!ENTITY certmgr.periodofvalidity.label       "Doba platnosti" >
+<!ENTITY certmgr.fingerprints.label           "Odtlačky prstov">
+<!ENTITY certmgr.certdetail.title             "Detail certifikátu">
+<!ENTITY certmgr.certdetail.cn                "Bežný názov (CN)">
+<!ENTITY certmgr.certdetail.o                 "Organizácia (O)">
+<!ENTITY certmgr.certdetail.ou                "Organizačná jednotka (OU)">
+<!ENTITY certmgr.certdetail.serialnumber      "Sériové číslo">
+<!ENTITY certmgr.certdetail.sha256fingerprint "Odtlačok prsta SHA-256">
+<!ENTITY certmgr.certdetail.sha1fingerprint   "Odtlačok prsta SHA1">
 
-<!ENTITY certmgr.editcacert.title             "Edit CA certificate trust settings">
-<!ENTITY certmgr.editcert.edittrust           "Edit trust settings:">
-<!ENTITY certmgr.editcert.trustssl            "This certificate can identify websites.">
-<!ENTITY certmgr.editcert.trustemail          "This certificate can identify mail users.">
-<!ENTITY certmgr.editcert.trustobjsign        "This certificate can identify software makers.">
+<!ENTITY certmgr.editcacert.title             "Úprava nastavenia dôvery pre certifikát od certifikačnej autority">
+<!ENTITY certmgr.editcert.edittrust           "Upraviť nastavenie dôvery:">
+<!ENTITY certmgr.editcert.trustssl            "Tento certifikát môže identifikovať internetové stránky.">
+<!ENTITY certmgr.editcert.trustemail          "Tento certifikát môže identifikovať poštových používateľov.">
+<!ENTITY certmgr.editcert.trustobjsign        "Tento certifikát môže identifikovať výrobcov softvéru.">
 
-<!ENTITY certmgr.deletecert.title             "Delete Certificate">
+<!ENTITY certmgr.deletecert.title             "Odstránenie certifikátu">
 
-<!ENTITY certmgr.certname                     "Certificate Name">
+<!ENTITY certmgr.certname                     "Názov certifikátu">
 <!ENTITY certmgr.certserver                   "Server">
-<!ENTITY certmgr.override_lifetime            "Lifetime">
-<!ENTITY certmgr.tokenname                    "Security Device">
-<!ENTITY certmgr.begins                       "Vydané dňa">
-<!ENTITY certmgr.expires                      "Expires On">
-<!ENTITY certmgr.email                        "E-Mail Address">
-<!ENTITY certmgr.serial                       "Serial Number">
+<!ENTITY certmgr.override_lifetime            "Životnosť">
+<!ENTITY certmgr.tokenname                    "Bezpečnostné zariadenie">
+<!ENTITY certmgr.begins                       "Platnosť od">
+<!ENTITY certmgr.expires                      "Platnosť vyprší">
+<!ENTITY certmgr.email                        "E-mailová adresa">
+<!ENTITY certmgr.serial                       "Sériové číslo">
 
-<!ENTITY certmgr.close.label                  "Close">
-<!ENTITY certmgr.close.accesskey              "C">
-<!ENTITY certmgr.view2.label                  "View…">
-<!ENTITY certmgr.view2.accesskey              "V">
-<!ENTITY certmgr.edit3.label                  "Edit Trust…">
-<!ENTITY certmgr.edit3.accesskey              "E">
-<!ENTITY certmgr.export.label                 "Export…">
+<!ENTITY certmgr.close.label                  "Zavrieť">
+<!ENTITY certmgr.close.accesskey              "Z">
+<!ENTITY certmgr.view2.label                  "Zobraziť…">
+<!ENTITY certmgr.view2.accesskey              "o">
+<!ENTITY certmgr.edit3.label                  "Upraviť dôveryhodnosť…">
+<!ENTITY certmgr.edit3.accesskey              "U">
+<!ENTITY certmgr.export.label                 "Exportovať…">
 <!ENTITY certmgr.export.accesskey             "x">
-<!ENTITY certmgr.delete2.label                "Delete…">
-<!ENTITY certmgr.delete2.accesskey            "D">
-<!ENTITY certmgr.delete_builtin.label         "Delete or Distrust…">
-<!ENTITY certmgr.delete_builtin.accesskey     "D">
-<!ENTITY certmgr.backup2.label                "Backup…">
-<!ENTITY certmgr.backup2.accesskey            "B">
-<!ENTITY certmgr.backupall2.label             "Backup All…">
+<!ENTITY certmgr.delete2.label                "Odstrániť…">
+<!ENTITY certmgr.delete2.accesskey            "d">
+<!ENTITY certmgr.delete_builtin.label         "Odstrániť alebo prestať dôverovať…">
+<!ENTITY certmgr.delete_builtin.accesskey     "d">
+<!ENTITY certmgr.backup2.label                "Zálohovať…">
+<!ENTITY certmgr.backup2.accesskey            "a">
+<!ENTITY certmgr.backupall2.label             "Zálohovať všetky…">
 <!ENTITY certmgr.backupall2.accesskey         "k">
-<!ENTITY certmgr.restore2.label               "Import…">
+<!ENTITY certmgr.restore2.label               "Importovať…">
 <!ENTITY certmgr.restore2.accesskey           "m">
-<!ENTITY certmgr.details.label                "Certificate Fields">
-<!ENTITY certmgr.details.accesskey            "F">
-<!ENTITY certmgr.fields.label                 "Field Value">
-<!ENTITY certmgr.fields.accesskey             "V">
-<!ENTITY certmgr.hierarchy.label              "Certificate Hierarchy">
-<!ENTITY certmgr.hierarchy.accesskey2         "r">
-<!ENTITY certmgr.addException.label           "Add Exception…">
-<!ENTITY certmgr.addException.accesskey       "x">
+<!ENTITY certmgr.details.label                "Polia certifikátu">
+<!ENTITY certmgr.details.accesskey            "e">
+<!ENTITY certmgr.fields.label                 "Hodnota poľa">
+<!ENTITY certmgr.fields.accesskey             "H">
+<!ENTITY certmgr.hierarchy.label              "Hierarchia certifikátu">
+<!ENTITY certmgr.hierarchy.accesskey2         "c">
+<!ENTITY certmgr.addException.label           "Pridať výnimku…">
+<!ENTITY certmgr.addException.accesskey       "n">
 
-<!ENTITY exceptionMgr.title                   "Add Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.label   "Confirm Security Exception">
-<!ENTITY exceptionMgr.exceptionButton.accesskey "C">
-<!ENTITY exceptionMgr.supplementalWarning     "Legitimate banks, stores, and other public sites will not ask you to do this.">
+<!ENTITY exceptionMgr.title                   "Pridanie bezpečnostnej výnimky">
+<!ENTITY exceptionMgr.exceptionButton.label   "Potvrdiť bezpečnostnú výnimku">
+<!ENTITY exceptionMgr.exceptionButton.accesskey "P">
+<!ENTITY exceptionMgr.supplementalWarning     "Skutočné banky, obchody a iné verejné stránky toto nebudú od vás vyžadovať.">
 <!ENTITY exceptionMgr.certlocation.caption2   "Server">
-<!ENTITY exceptionMgr.certlocation.url        "Location:">
-<!ENTITY exceptionMgr.certlocation.download   "Get Certificate">
-<!ENTITY exceptionMgr.certlocation.accesskey  "G">
-<!ENTITY exceptionMgr.certstatus.caption      "Certificate Status">
-<!ENTITY exceptionMgr.certstatus.viewCert     "View…">
-<!ENTITY exceptionMgr.certstatus.accesskey    "V">
-<!ENTITY exceptionMgr.permanent.label         "Permanently store this exception">
-<!ENTITY exceptionMgr.permanent.accesskey     "P">
+<!ENTITY exceptionMgr.certlocation.url        "Adresa:">
+<!ENTITY exceptionMgr.certlocation.download   "Získať certifikát">
+<!ENTITY exceptionMgr.certlocation.accesskey  "c">
+<!ENTITY exceptionMgr.certstatus.caption      "Stav certifikátu">
+<!ENTITY exceptionMgr.certstatus.viewCert     "Zobraziť…">
+<!ENTITY exceptionMgr.certstatus.accesskey    "Z">
+<!ENTITY exceptionMgr.permanent.label         "Túto výnimku uložiť natrvalo">
+<!ENTITY exceptionMgr.permanent.accesskey     "n">

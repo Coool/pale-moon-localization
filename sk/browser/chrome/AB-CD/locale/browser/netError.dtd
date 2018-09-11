@@ -44,7 +44,7 @@
 </ul>
 ">
 
-<!ENTITY generic.title "Problém.">
+<!ENTITY generic.title "Hups.">
 <!ENTITY generic.longDesc "
 <p>&brandShortName; nedokáže z nejakého dôvodu načítať stránku.</p>
 ">
@@ -74,7 +74,7 @@
 <!ENTITY netOffline.title "Režim offline">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Ak chcete prejsť do režimu online a opätovne načítať obsah stránky, kliknite na tlačidlo &quot;Skúsiť znova&quot;.</li>
+  <li>Ak chcete prejsť do režimu online a opätovne načítať obsah stránky, kliknite na tlačidlo „Skúsiť znova“.</li>
 </ul>
 ">
 
@@ -169,14 +169,13 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "Blokované kvôli zásadám ochrany obsahu">
 <!ENTITY cspBlocked.longDesc "<p>Prehliadač &brandShortName; nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
 
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
+<!ENTITY xssBlockMode.title "Blokované filtrom XSS">
 <!ENTITY xssBlockMode.longDesc "
 <ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
+  <li>&brandShortName; zablokoval ďalšie akcie na tejto stránke, pretože obsahuje vložený kód JavaScriptu.</li>
+  <li>Načítanie tejto stránky bolo pozastavené, buď na výslovnú žiadosť stránky o jej 
+    blokovanie v prípade XSS útokov alebo preto, že &brandShortName;
+    bol nakonfigurovaný k blokovaniu stránok v takomto prípade.</li>
 </ul>
 ">
 
