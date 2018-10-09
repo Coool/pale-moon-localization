@@ -5,7 +5,7 @@
 <!ENTITY addons.windowTitle                   "附加元件管理員">
 
 <!ENTITY search.placeholder                   "搜尋所有附加元件">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "搜尋">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -103,7 +103,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "移除">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "除錯">
 <!ENTITY cmd.showPreferencesWin.label         "選項">
 <!ENTITY cmd.showPreferencesWin.tooltip       "修改此附加元件的選項">
 <!ENTITY cmd.showPreferencesUnix.label        "偏好設定">
@@ -210,8 +210,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "載入中…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "抱歉，載入新鮮事時發生錯誤。">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets &brandFullName;">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "這個附加組件直接針對 &brandFullName;">
+<!ENTITY addon.compatAddon                    "這個附加組件針對 Mozilla Firefox，它將在兼容模式下運行">
 
 <!ENTITY addon.createdBy.label                "作者：">
 
@@ -227,10 +227,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "想問這是什麼？「遙測」會不時地安裝和運行一些實驗項目。">
+<!ENTITY experiment.info.learnmore "了解更多">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "遙測設置">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "了解更多…">
