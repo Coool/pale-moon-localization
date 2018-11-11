@@ -27,7 +27,7 @@
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.disabledE10S): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a build that can run multiprocess browser, but just is not enabled. -->
-<!ENTITY performanceUI.disabledRealTime.disabledE10S "Activer le mode multi-processus de &brandShortName; dans les préférences pour permettre le rendu en temps réel des données des enregistrements.">
+<!ENTITY performanceUI.disabledRealTime.disabledE10S "Activer le mode multiprocessus de &brandShortName; dans les préférences pour permettre le rendu en temps réel des données d'enregistrement.">
 
 <!-- LOCALIZATION NOTE (performanceUI.bufferStatusFull): This string
   -  is displayed when the profiler's circular buffer has started to overlap. -->
@@ -95,7 +95,7 @@
   -  label for the checkbox that toggles whether or not Goanna platform data
   -  is displayed in the profiler. -->
 <!ENTITY performanceUI.showPlatformData             "Afficher les données de la plate-forme Goanna">
-<!ENTITY performanceUI.showPlatformData.tooltiptext "Afficher les données de la plate-forme permet au profileur JavaScript d’inclure dans ses rapports les symboles de la plate-forme Goanna.">
+<!ENTITY performanceUI.showPlatformData.tooltiptext "Afficher les données de la plateforme permet au profileur JavaScript d’inclure dans ses rapports les symboles de la plateforme Goanna.">
 
 <!-- LOCALIZATION NOTE (performanceUI.showJITOptimizations): This string
   -  is displayed next to a checkbox determining whether or not JIT optimization data

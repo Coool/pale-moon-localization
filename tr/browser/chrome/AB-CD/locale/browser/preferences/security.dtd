@@ -35,10 +35,14 @@
 <!ENTITY  savedPasswords.accesskey        "p">
 
 <!ENTITY  SecProto.label             "Güvenlik Protokolleri">
-<!ENTITY  enableHSTS.label           "Sıkı Aktarım Güvenliğini (HSTS) etkinleştir">
+<!ENTITY  enableHSTS.label           "Strict Transport Security (HSTS) etkinleştir">
 <!ENTITY  enableHSTS.accesskey       "S">
-<!ENTITY  enableHPKP.label           "Sertifika Anahtarını Sabitlemeyi Etkinleştir (HPKP)">
+<!ENTITY  enableHPKP.label           "Certificate Key Pinning (HPKP) etkinleştir">
 <!ENTITY  enableHPKP.accesskey       "C">
+
+<!ENTITY  OpEnc.label                "Fırsatçı Şifreleme (FŞ)">
+<!ENTITY  enableUIROpEnc.label       "Upgrade Insecure Requests etkinleştir">
+<!ENTITY  enableAltSvcOpEnc.label    "FŞ için HTTP Alternative Services etkinleştir">
 
 <!ENTITY  XSSFilt.label              "XSS Filtresi">
 <!ENTITY  enableXSSFilt.label        "XSS filtresini etkinleştir">

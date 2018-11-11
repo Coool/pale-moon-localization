@@ -40,6 +40,10 @@
 <!ENTITY  enableHPKP.label           "Включить Certificate Key Pinning (HPKP)">
 <!ENTITY  enableHPKP.accesskey       "C">
 
+<!ENTITY  OpEnc.label                "Оппортунистическое шифрование (ОШ)">
+<!ENTITY  enableUIROpEnc.label       "Включить Upgrade Insecure Requests">
+<!ENTITY  enableAltSvcOpEnc.label    "Включить HTTP Alternative Services для ОШ">
+
 <!ENTITY  XSSFilt.label              "Фильтр XSS">
 <!ENTITY  enableXSSFilt.label        "Включить фильтр XSS">
 <!ENTITY  enableXSSFilt.accesskey    "f">

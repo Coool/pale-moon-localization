@@ -40,6 +40,10 @@
 <!ENTITY  enableHPKP.label           "Certificate Key Pinning (HPKP) 사용">
 <!ENTITY  enableHPKP.accesskey       "C">
 
+<!ENTITY  OpEnc.label                "기회주의적 암호화 (OE)">
+<!ENTITY  enableUIROpEnc.label       "Upgrade Insecure Requests 사용">
+<!ENTITY  enableAltSvcOpEnc.label    "OE에 HTTP Alternative Services 사용">
+
 <!ENTITY  XSSFilt.label              "XSS 필터">
 <!ENTITY  enableXSSFilt.label        "XSS 필터 사용">
 <!ENTITY  enableXSSFilt.accesskey    "f">
