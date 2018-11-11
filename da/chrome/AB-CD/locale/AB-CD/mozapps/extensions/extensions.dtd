@@ -5,7 +5,7 @@
 <!ENTITY addons.windowTitle                   "Tilføjelser">
 
 <!ENTITY search.placeholder                   "Søg i alle tilføjelser">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Søg">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -103,7 +103,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Fjern">
 <!ENTITY cmd.uninstallAddon.accesskey         "j">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Fejlsøg">
 <!ENTITY cmd.showPreferencesWin.label         "Indstillinger">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Rediger indstillinger for denne tilføjelse">
 <!ENTITY cmd.showPreferencesUnix.label        "Præferencer">
@@ -211,8 +211,8 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Henter…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Beklager, men udgivelsesnoterne kunne ikke hentes.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets &brandFullName;">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Denne tilføjelse er direkte målrettet mod &amp; brandFullName;">
+<!ENTITY addon.compatAddon                    "Denne tilføjelse er målrettet mod Mozilla Firefox og kører i kompatibilitetstilstand">
 
 <!ENTITY addon.createdBy.label                "af ">
 
@@ -228,10 +228,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
+<!ENTITY experiment.info.label "Hvad er det? Telemetri kan installere og køre eksperimenter fra tid til anden.">
+<!ENTITY experiment.info.learnmore "Læs mere">
 <!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.changetelemetry "Telemetri indstillinger">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Læs mere…">

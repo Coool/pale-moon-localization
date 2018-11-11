@@ -35,10 +35,14 @@
 <!ENTITY  savedPasswords.accesskey        "h">
 
 <!ENTITY  SecProto.label             "Protokoły bezpieczeństwa">
-<!ENTITY  enableHSTS.label           "Włącz ścisłe zabezpieczenie transportu HTTP (HSTS)">
+<!ENTITY  enableHSTS.label           "Włącz Strict Transport Security (HSTS)">
 <!ENTITY  enableHSTS.accesskey       "O">
-<!ENTITY  enableHPKP.label           "Włącz sygnalizowanie kluczem certyfikatu (HPKP)">
+<!ENTITY  enableHPKP.label           "Włącz Certificate Key Pinning (HPKP)">
 <!ENTITY  enableHPKP.accesskey       "G">
+
+<!ENTITY  OpEnc.label                "Szyfrowanie oportunistyczne (SO)">
+<!ENTITY  enableUIROpEnc.label       "Włącz Upgrade Insecure Requests">
+<!ENTITY  enableAltSvcOpEnc.label    "Włącz HTTP Alternative Services dla SO">
 
 <!ENTITY  XSSFilt.label              "Filtr XSS">
 <!ENTITY  enableXSSFilt.label        "Włącz filtr XSS">
