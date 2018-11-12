@@ -1,5 +1,5 @@
 @echo off
-set VER=28.1.0
+set VER=28.2.0
 set MIN=28.0.0
 
 rem ar da fi gl hr id is ja kn ro sl sr th vi zh-TW
