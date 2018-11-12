@@ -36,7 +36,7 @@ Faut-il vraiment réinitialiser le mot de passe principal ?">
 <!ENTITY pkcs12.setpassword.message  "Le mot de passe de sauvegarde du certificat que vous venez de définir protège le fichier de sauvegarde que vous allez créer. Vous devez définir ce mot de passe pour commencer cette sauvegarde.">
 <!ENTITY pkcs12.setpassword.label1 "Mot de passe de sauvegarde du certificat :">
 <!ENTITY pkcs12.setpassword.label2 "Mot de passe de sauvegarde du certificat (encore) :">
-<!ENTITY pkcs12.setpassword.reminder "Important : en cas d'oubli du mot de passe de sécurité, il sera impossible d'importer cette sauvegarde plus tard. Merci de le conserver en un lieu sûr.">
+<!ENTITY pkcs12.setpassword.reminder "Important : en cas d'oubli du mot de passe de sécurité, il sera impossible d'importer cette sauvegarde plus tard. Merci de le conserver en lieu sûr.">
 
 <!ENTITY chooseToken.title  "Choisir un jeton">
 <!ENTITY chooseToken.message1 "Merci de choisir un jeton.">
@@ -48,5 +48,5 @@ Faut-il vraiment réinitialiser le mot de passe principal ?">
 
 <!-- Strings for protectedAuth dialog -->
 <!ENTITY protectedAuth.title "Authentification protégée par jeton">
-<!ENTITY protectedAuth.msg "Merci de vous authentifier au jeton. La méthode d'authentification dépend du type de votre jeton.">
+<!ENTITY protectedAuth.msg "Merci de s'authentifier au jeton. La méthode d'authentification dépend du type de ce jeton.">
 <!ENTITY protectedAuth.tokenName.label "Jeton :">
