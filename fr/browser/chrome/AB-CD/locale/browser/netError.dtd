@@ -21,7 +21,7 @@
 <!ENTITY dnsNotFound.title "Serveur introuvable">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-  <li>Il faut vérifier la syntaxe de l'adresse
+  <li>merci de vérifier la syntaxe de l'adresse
     (saisie de <strong>ww</strong>.exemple.com au lieu de
     <strong>www</strong>.exemple.com par exemple).</li>
   <li>Si la navigation n'est pas possible sur aucun site, vérifier la connexion
@@ -187,7 +187,7 @@ was trying to connect. -->
 <!ENTITY corruptedContentError.title "Erreur due à un contenu corrompu">
 <!ENTITY corruptedContentError.longDesc "<p>La page demandée ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Merci de contacter les propriétaires du site Web pour les informer de ce problème.</li></ul>">
 <!ENTITY corruptedContentErrorv2.title "Erreur due à un contenu corrompu">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>La page que vous essayez de voir ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul>">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La page demandée ne peut pas être affichée car une erreur dans la transmission de données a été détectée.</p><ul><li>Merci de contacter les propriétaires du site web pour les informer de ce problème.</li></ul>">
 
 
 <!ENTITY securityOverride.linkText "Ou il est possible d'ajouter une exception…">
@@ -200,7 +200,7 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>Il ne faudrait pas ajouter d'exception avec une connexion à Internet dont la sécurité n'est pas complètement certaine, ou si l'avertissement reçu pour ce serveur est inhabituel.</p>
+<p>Il ne faudrait pas ajouter d'exception avec une connexion à Internet dont la sécurité n'est pas complètement assurée, ou si l'avertissement reçu pour ce serveur est inhabituel.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
