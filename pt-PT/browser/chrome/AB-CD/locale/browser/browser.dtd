@@ -227,7 +227,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY redoCmd.key            "Y">  
 <!ENTITY redoCmd.accesskey          "R"> 
 <!ENTITY cutCmd.label           "Cortar">  
-<!ENTITY cutCmd.key             "x">  
+<!ENTITY cutCmd.key             "X">  
 <!ENTITY cutCmd.accesskey         "t"> 
 <!ENTITY copyCmd.label            "Copiar">  
 <!ENTITY copyCmd.key            "C">  
@@ -506,6 +506,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY closeCmd.label                 "Fechar">  
 <!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "c">
+
+<!ENTITY toggleMuteCmd.key              "M">
 
 <!ENTITY pageStyleMenu.label "Estilo da página">
 <!ENTITY pageStyleMenu.accesskey "s">
