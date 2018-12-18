@@ -1,0 +1,183 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+
+<!ENTITY loadError.label "اشکال در هنگام بارگیری">
+<!ENTITY retry.label "تلاش دوباره">
+<!ENTITY returnToPreviousPage.label "برگشت به عقب">
+<!ENTITY advanced.label "پیشرفته">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "قادر به برقراری اتصال نیست">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+
+<!ENTITY deniedPortAccess.title "این نشانی ممنوع است">
+<!ENTITY deniedPortAccess.longDesc "">
+
+<!ENTITY dnsNotFound.title "کارگزار پیدا نشد">
+<!ENTITY dnsNotFound.longDesc "<ul> <li>نشانی را بررسی کنید که مثلاً <span dir='ltr'><strong>ww</strong>.‪example.com‬</span> به طور اشتباه به جای <span dir='ltr'><strong>www</strong>.example.com</span> وارد نشده باشد.</li> <li>اگر نمی‌توانید هیچ صفحه‌ای را مرور کنید، اتصال شبکهٔ رایانه را بررسی کنید.</li> <li>اگر رایانه یا شبکهٔ شما توسط کارگزار یا دیوارآتش محافظت می‌شود مطمئن شوید که &brandShortName; اجازهٔ دسترسی به وب را دارد.</li> </ul>">
+
+<!ENTITY fileNotFound.title "پرونده پیدا نشد">
+<!ENTITY fileNotFound.longDesc "<ul> <li>صحتِ نام پرونده را بررسی کنید.</li> <li>بررسی کنید که آیا پرونده جابه‌جا شده، تغییر نام یافته، یا پاک شده است.</li> </ul>">
+
+<!ENTITY fileAccessDenied.title "دسترسی به پرونده رد شد">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>It may have been removed, moved, or file permissions may be preventing access.</li>
+</ul>
+">
+
+<!ENTITY generic.title "متأسفیم.">
+<!ENTITY generic.longDesc "<p>&brandShortName; به دلایلی نمی‌تواند این صفحه را نمایش دهد.</p>">
+
+<!ENTITY captivePortal.title "ورود به شبکه">
+<!ENTITY captivePortal.longDesc "
+<p>This network may require you to login to access the internet.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "بازکردن صفحه ورود">
+
+<!ENTITY malformedURI.title "این نشانی معتبر نیست">
+<!ENTITY malformedURI.longDesc "<ul> <li>نشانی‌های وب معمولاً به صورت <span dir='ltr'><strong>http://www.example.com/</strong></span> نوشته می‌شوند</li> <li>مطمئن شوید که از ممیز درست استفاده می‌کنید (یعنی <strong>/</strong>).</li> </ul>">
+
+<!ENTITY netInterrupt.title "اتصال مختل شد">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+
+<!ENTITY notCached.title "پروندۀ منقضی">
+<!ENTITY notCached.longDesc "<p>The requested document is not available in &brandShortName;'s cache.</p><ul><li>As a security precaution, &brandShortName; does not automatically re-request sensitive documents.</li><li>Click Try Again to re-request the document from the website.</li></ul>">
+
+<!ENTITY netOffline.title "حالت منفصل">
+<!ENTITY netOffline.longDesc2 "<ul><li>دکمۀ &quot; &quot;تلاش دوباره&quot; را فشار دهید &quot; تا به حالت آنلاین برگردید و صفحه را دوباره بارگذاری کنید.</li></ul>">
+
+<!ENTITY contentEncodingError.title "خطای کدگذاری محتوا">
+<!ENTITY contentEncodingError.longDesc "<ul> 
+<li>لطفاً با صاحبان وب‌گاه تماس بگیرید تا آنها را در جریان این مشکل قرار دهید.</li> 
+</ul>">
+
+<!ENTITY unsafeContentType.title "نوع پروندهٔ ناامن">
+<!ENTITY unsafeContentType.longDesc "<ul> 
+<li>لطفاً با صاحبان وب‌گاه تماس بگیرید تا آنها را در جریان این مشکل قرار دهید.</li> 
+</ul>">
+
+<!ENTITY netReset.title "اتصال قطع شد">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
+
+<!ENTITY netTimeout.title "مهلت اتصال تمام شد">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+
+<!ENTITY unknownProtocolFound.title "The address wasn’t understood">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul>
+  <li>You might need to install other software to open this address.</li>
+</ul>
+">
+
+<!ENTITY proxyConnectFailure.title "کارگزار پیشکار از برقراری اتصال خودداری می‌کند.">
+<!ENTITY proxyConnectFailure.longDesc "<ul> <li>بررسی کنید که تنظیمات پیشکار صحیح باشند.</li> <li>با مدیر شبکه تماس بگیرید تا مطمئن شوید که کارگزار پیشکار به درستی کار می‌کند.</li> </ul>">
+
+<!ENTITY proxyResolveFailure.title "کارگزار پیشکار پیدا نشد">
+<!ENTITY proxyResolveFailure.longDesc "<ul> <li>بررسی کنید که تنظیمات پیشکار صحیح باشند.</li> <li>بررسی کنید تا مطمئن شوید که اتصال شبکهٔ رایانه شما به درستی کار می‌کند.</li> <li>اگر رایانه یا شبکهٔ شما توسط کارگزار یا دیوارآتش محافظت می‌شود مطمئن شوید که &brandShortName; اجازهٔ دسترسی به وب را دارد.</li> </ul>">
+
+<!ENTITY redirectLoop.title "این صفحه درست تغییر مسیر نمی‌دهد">
+<!ENTITY redirectLoop.longDesc "<ul> <li>گاهی ممکن است این اشکال به دلیل غیر فعال بودن یا خودداری کردن از قبول کوکی‌ها باشد.</li> </ul>">
+
+<!ENTITY unknownSocketType.title "جواب غیرمنتظره از کارگزار">
+<!ENTITY unknownSocketType.longDesc "<ul> <li>مطمئن شوید که «مدیریت امنیت شخصی» (Personal Security Manager) روی رایانهٔ شما نصب شده باشد.</li> <li>این اشکال ممکن است از پیکربندی غیر استاندارد کارگزار باشد.</li> </ul>">
+
+<!ENTITY nssFailure2.title "برقراری اتصال ایمن شکست خورد">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</li>
+  <li>Please contact the website owners to inform them of this problem.</li>
+</ul>
+">
+
+<!ENTITY nssBadCert.title "برقراری اتصال ایمن شکست خورد">
+<!ENTITY nssBadCert.longDesc2 "<ul> 
+<li>علت می‌تواند اشکالی در تنظیم کارگزار، یا تلاش شخصی برای وانمود کردن خود به جای این کارگزار باشد.</li> 
+<li>اگر در گذشته با موفقیت به این وب‌گاه متصل شده‌اید، امکان دارد این اشکال موقتی باشد، و می‌توانید بعداً دوباره تلاش کنید.</li> 
+</ul>">
+<!ENTITY certerror.longpagetitle1 "اتصال شما امن است">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "The owner of <span class='hostname'/> has configured their website improperly.  To protect your information from being stolen, &brandShortName; has not connected to this website.">
+
+<!ENTITY sharedLongDesc "<ul> <li>ممکن است این پایگاه به طور موقت خارج از دسترس یا بیش از حد مشغول باشد. چند دقیقه صبر کنید و بعد دوباره تلاش کنید.</li> <li>اگر نمی‌توانید هیچ صفحه‌ای را مرور کنید، اتصال شبکهٔ رایانه را بررسی کنید.</li> <li>اگر رایانه یا شبکهٔ شما توسط کارگزار یا دیوارآتش محافظت می‌شود مطمئن شوید که &brandShortName; اجازهٔ دسترسی به وب را دارد.</li> </ul>">
+
+<!ENTITY cspBlocked.title "سیاست امنیتی محتوای مسدود شده">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>">
+
+<!ENTITY xssBlockMode.title "توسط فیلتر XSS مسدود شد">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>&brandShortName; blocked further actions on this page, because it contains 
+    injected JavaScript code.</li>
+  <li>Loading of this page has been suspended because of either the explicit request
+    by the website to block this page in case of XSS attacks, or because &brandShortName;
+    has been configured to block pages in that situation.</li>
+</ul>
+">
+
+<!ENTITY corruptedContentError.title "خطای خرابی محتوا">
+<!ENTITY corruptedContentError.longDesc "<p>صفحه‌ای که تلاش می‌کنید از آن بازدید کنید قابل نمایش نیست، زیرا تأیید اعتبار اطلاعات دریافتی امکان‌پذیر نیست.</p><ul><li>لطفاً با صاحبان این وب‌گاه تماس بگیرید و آنها را در جریان این مشکل قرار دهید.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "خطای خرابی محتوا">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>صفحه‌ای که تلاش می‌کنید از آن بازدید کنید قابل نمایش نیست، زیرا خطایی در هنگام انتقال اطلاعات رُخ داده است.</p><ul><li>لطفاً با صاحبان این پایگاه اینترنتی تماس بگیرید و آنها را در جریان این مشکل قرار دهید.</li></ul>">
+
+
+<!ENTITY securityOverride.linkText "یا می‌توانید یک استثنا اضافه کنید…">
+<!ENTITY securityOverride.getMeOutOfHereButton "ترک این مکان!">
+<!ENTITY securityOverride.exceptionButtonLabel "افزودن استثنا…">
+
+<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
+contents of the <button> tags. It uses strings already defined above. The
+button is included here (instead of netError.xhtml) because it exposes
+functionality specific to firefox. -->
+
+<!ENTITY securityOverride.warningContent "<p>اگر از اتصال اینترنتی استفاده می‌کنید که کاملاً به آن اطمینان ندارید، یا اگر معمولاً در هنگام بازدید از این وب‌گاه اخطاری دریافت نمی‌کنید، نباید استثنائی اضافه کنید.</p> 
+ 
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
+
+<!ENTITY remoteXUL.title "XUL راه دور">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>لطفاً با صاحب این وب‌گاه تماس بگیرید و آنها را در جریان این مشکل قرار دهید.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "ناتوان در پیوستن ایمن">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "اطلاعات پیشرفته: ssl-error-unsupported-version">
+<!ENTITY sslv3Used.learnMore "بیشتر بدانید…">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc2 "اطلاعات پیشرفته: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "اتصال شما امن نیست">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc2 "Advanced info: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoAdvanced.title "پیشرفته">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe.">
+<!ENTITY weakCryptoAdvanced.override "(Not secure) Try loading <span class='hostname'></span> using outdated security">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>A secure connection to <span id='wrongSystemTime_URL'/> isn’t possible because your clock appears to show the wrong time.</p> <p>Your computer thinks it is <span id='wrongSystemTime_systemDate'/>. To fix this problem, change your date and time settings to match the correct time.</p>">
+
+<!ENTITY certerror.pagetitle1  "Insecure Connection">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "This site uses HTTP
+Strict Transport Security (HSTS) to specify that &brandShortName; may only connect
+to it securely. As a result, it is not possible to add an exception for this
+certificate.">
+<!ENTITY certerror.copyToClipboard.label "کپی به کلیپ بورد">
+
+<!ENTITY inadequateSecurityError.title "Your connection is not secure">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uses security technology that is outdated and vulnerable to attack. An attacker could easily reveal information which you thought to be safe. The website administrator will need to fix the server first before you can visit the site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "It looks like your network security settings might be causing this. Do you want the default settings to be restored?">
+<!ENTITY prefReset.label "بازیابی تنظیمات پیش‌فرض">

@@ -67,7 +67,7 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Рад ван мреже">
 <!ENTITY goOfflineCmd.accesskey "м">
 
-<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.label "Поново покрени…">
 <!ENTITY restartCmd.accesskey "R">
 
 <!ENTITY menubarCmd.label "Трака са менијем">
@@ -79,7 +79,7 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Забележи ставке из алатне траке">
 <!ENTITY addonBarCmd.label "Трака са додацима">
 <!ENTITY addonBarCmd.accesskey "д">
-<!ENTITY statusBar.label               "Status Bar">
+<!ENTITY statusBar.label               "Статусна трака">
 <!ENTITY statusBar.accesskey           "S">
 
 <!ENTITY pageSourceCmd.label "Изворни код странице">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Претплата на ову страницу…">
 <!ENTITY addCurPagesCmd.label "Забележи све језичке…">
 <!ENTITY showAllBookmarks2.label "Прикажи све забелешке">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Организујте своје забелешке">
 <!ENTITY unsortedBookmarksCmd.label "Неразврстане забелешке">
 <!ENTITY bookmarksToolbarChevron.tooltip "Прикажи још забелешки">
 
@@ -196,7 +196,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.label                 "Додаци">
 <!ENTITY addons.accesskey             "Д">
 <!ENTITY addons.commandkey            "A">
-<!ENTITY permissions.label            "Permissions">
+<!ENTITY permissions.label            "Дозволе">
 <!ENTITY permissions.accesskey        "m">
 <!ENTITY preferencesCmd2.label        "Поставке">
 <!ENTITY preferencesCmd2.accesskey    "о">
@@ -270,13 +270,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Уређивање">
 <!ENTITY appMenuCustomize.label "Прилагођавање">
-<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
+<!ENTITY appMenuToolbarLayout.label "Распоред на траци алата">
 <!ENTITY appMenuSidebars.label "Палете">
 <!ENTITY appMenuFind.label "Пронађи…">
 <!ENTITY appMenuUnsorted.label "Неразврстане забелешке">
 <!ENTITY appMenuWebDeveloper.label "Веб програмер">
 <!ENTITY appMenuGettingStarted.label "Како почети">
-<!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
+<!ENTITY appMenuSafeMode.label "Рестартуј у безбедном режиму…">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.accesskey             "d">
@@ -358,9 +358,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "е">
 <!ENTITY savePageCmd.label            "Сачувај страницу као…">
 <!ENTITY savePageCmd.accesskey        "С">
-<!ENTITY sendLinkCmd.label            "Send Link…">
+<!ENTITY sendLinkCmd.label            "Пошаљи везу…">
 <!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
+<!ENTITY sendPageCmd.label            "Пошаљи линк ка страници…">
 <!ENTITY sendPageCmd.accesskey        "e">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "С">
@@ -490,7 +490,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Увећај">
 <!ENTITY zoomControls.label             "Контроле увећања">
 
-<!ENTITY appMenuRestart.label           "Restart…">
+<!ENTITY appMenuRestart.label           "Поново покрени…">
 <!ENTITY appMenuRestart.accesskey       "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Крај"> 
@@ -572,7 +572,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label    "Sync">
 
-<!ENTITY syncSetup.label              "Подеси програм &syncBrand.shortName.label;…">
+<!ENTITY syncSetup.label              "Подеси &syncBrand.shortName.label;…">
 <!ENTITY syncSetup.accesskey          "д">
 <!ENTITY syncSyncNowItem.label        "Синхронизуј сада">
 <!ENTITY syncSyncNowItem.accesskey    "С">

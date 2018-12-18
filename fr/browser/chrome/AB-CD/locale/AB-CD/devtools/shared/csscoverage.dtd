@@ -29,9 +29,9 @@
   -  csscoverage.preload3): These 3 are part of a paragraph with 1 and 2
   -  separated by a styled <link> tag and 2 and 3 separated by a styled
   -  <style> tag -->
-<!ENTITY csscoverage.optimize.body1 "Il est parfois possible d’accélérer le chargement en déplaçant les balises">
+<!ENTITY csscoverage.optimize.body1 "Il est parfois possible d’accélérer le chargement en déplaçant des balises">
 <!ENTITY csscoverage.optimize.body2 "en bas de page et en créant un nouvel élément intégré">
-<!ENTITY csscoverage.optimize.body3 "contenant les styles nécessaires avant l’évènement « load » initial. Voici les blocs de style dont vous avez besoin :">
+<!ENTITY csscoverage.optimize.body3 "contenant les styles nécessaires avant l’évènement « load » initial. Voici les blocs de style nécessaires :">
 
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->

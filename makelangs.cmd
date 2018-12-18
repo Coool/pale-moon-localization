@@ -24,6 +24,7 @@ rem call :fix-lang it Italian IT
 rem call :fix-lang ja Japanese JP
 rem call :fix-lang kn Kannada IN
 rem call :fix-lang ko Korean KR
+rem call :fix-lang fa Persian IR
 rem call :fix-lang pl Polish PL
 rem call :fix-lang pt-PT Portuguese PT
 rem call :fix-lang pt-BR Portuguese Brazilian
