@@ -15,21 +15,21 @@
 <!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
   -  the iframes menu list that appears only when the document has some.
   -  It allows you to switch the context of the whole toolbox. -->
-<!ENTITY toolboxFramesTooltip          "Seleccionar un iframe como el documento señalado actualmente">
+<!ENTITY toolboxFramesTooltip          "Seleccionar un iframe como el documento seleccionado actualmente">
 
 <!-- LOCALIZATION NOTE (toolboxNoAutoHideButton): This is the label for
   -  the button to force the popups/panels to stay visible on blur.
   -  This is only visible in the browser toolbox as it is meant for
   -  addon developers and Firefox contributors. -->
-<!ENTITY toolboxNoAutoHideTooltip      "Deshabilitar ocultamiento automático de emergentes">
+<!ENTITY toolboxNoAutoHideTooltip      "Deshabilitar ocultamiento automático de ventanas emergentes">
 
 <!-- LOCALIZATION NOTE (browserToolboxErrorMessage): This is the label
   -  shown next to error details when the Browser Toolbox is unable to open. -->
-<!ENTITY browserToolboxErrorMessage          "Error abriendo caja de herramientas del navegador:">
+<!ENTITY browserToolboxErrorMessage          "Error al abrir la caja de herramientas del navegador:">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
-<!ENTITY options.context.advancedSettings "Opciones avanzadas">
+<!ENTITY options.context.advancedSettings "Configuración avanzada">
 
 <!-- LOCALIZATION NOTE (options.context.inspector): This is the label for
   -  the heading of the Inspector group in the options panel. -->
@@ -81,13 +81,13 @@
 <!-- LOCALIZATION NOTE (options.context.triggersPageRefresh): This is the
   -  triggers page refresh footnote under the advanced settings group in the
   -  options panel and is used for settings that trigger page reload. -->
-<!ENTITY options.context.triggersPageRefresh  "* Solo sesión actual, recarga la página">
+<!ENTITY options.context.triggersPageRefresh  "* Sólo sesión actual, recarga la página">
 
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label5    "Habilitar cajas de herramientas de depuración de chrome y complementos">
-<!ENTITY options.enableChrome.tooltip3  "Encender esta opción permitirá usar varias herramientas de depuración en el contexto del navegador (via Herramientas &gt; Desarrollador web &gt; Barra de herramientas del navegador) y depurar complementos desde el administrador de complementos">
+<!ENTITY options.enableChrome.tooltip3  "Encender esta opción permitirá usar varias herramientas de depuración en el contexto del navegador (vía &quot;Herramientas&quot; &gt; &quot;Desarrollador web&quot; &gt; &quot;Barra de herramientas del navegador&quot;) y depurar complementos desde el administrador de complementos">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -133,7 +133,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label     "Botones de la barra disponibles">
+<!ENTITY options.selectEnabledToolboxButtons.label     "Botones disponibles de la caja de herramientas">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -147,7 +147,7 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "Usar temas de navegador Developer Edition">
+<!ENTITY options.usedeveditiontheme.label   "Usar tema de navegador Developer Edition">
 <!ENTITY options.usedeveditiontheme.tooltip "Alterna el tema de navegador Developer Edition.">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
@@ -157,7 +157,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "Habilitar marcas de tiempo">
-<!ENTITY options.timestampMessages.tooltip    "Si habiita esta opción, los comandos y la salida de la consola web mostrarán un marca de tiempo">
+<!ENTITY options.timestampMessages.tooltip    "Si habiitás esta opción, los comandos y la salida de la consola web mostrarán un marca de tiempo">
 
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->
@@ -166,7 +166,7 @@
 <!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
    - label for the checkbox that toggles source maps in the Debugger -->
 <!ENTITY options.sourceMaps.label      "Habilitar mapas de fuentes">
-<!ENTITY options.sourceMaps.tooltip    "Si habilita esta opción, fuentes serán mapeados en el depurador y consola.">
+<!ENTITY options.sourceMaps.tooltip    "Si habilitás esta opción, las fuentes serán mapeadas en el depurador y consola.">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -181,19 +181,19 @@
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
 <!ENTITY options.stylesheetAutocompletion.label      "Autocompletar CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocompletar propiedades, valores y selectores CSS en el editor de estilos mientras escribe">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Autocompletar propiedades, valores y selectores CSS en el editor de estilos mientras escribís">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Preferencias comunes">
+<!ENTITY options.commonPrefs.label           "Configuración común">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "Habilitar registros persitentes">
-<!ENTITY options.enablePersistentLogs.tooltip  "Si habiltia esta opción las consolas web y red no borrarán la salida cada vez que se navegue a una nueva página">
+<!ENTITY options.enablePersistentLogs.tooltip  "Si habiltás esta opción las consolas web y red no borrarán la salida cada vez que se navegués a una nueva página">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
@@ -206,15 +206,15 @@ símbolos de plataforma de Goanna">
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "Preferencias del editor">
+<!ENTITY options.sourceeditor.label                     "Configuración del editor">
 <!ENTITY options.sourceeditor.detectindentation.label   "Detectar indentado">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "Adivinar indentado basado en el contenido fuente">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Autoclose brackets">
-<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Automatically insert closing brackets">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Cerrar llaves automáticamente">
+<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Insertar llaves de cierre automáticamente">
 <!ENTITY options.sourceeditor.expandtab.label           "Indentar usando espacios">
 <!ENTITY options.sourceeditor.expandtab.tooltip         "Usar espacios en lugar del caracter tab">
 <!ENTITY options.sourceeditor.tabsize.label             "Tamaño de tabulación">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
-<!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
-<!ENTITY options.sourceeditor.keybinding.accesskey      "K">
+<!ENTITY options.sourceeditor.keybinding.label          "Atajos de teclado">
+<!ENTITY options.sourceeditor.keybinding.accesskey      "J">
 <!ENTITY options.sourceeditor.keybinding.default.label  "Predeterminados">
