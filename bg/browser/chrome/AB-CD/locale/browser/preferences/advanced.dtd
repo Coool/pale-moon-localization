@@ -33,6 +33,15 @@
 <!ENTITY setDefault.accesskey            "п">
 <!ENTITY isDefault.label                 "Към момента браузър по подразбиране е &brandShortName;">
 
+<!ENTITY UACompatGroup.label             "Съвместимост">
+<!ENTITY UACompat.label                  "Режим на потребителския агент:">
+<!ENTITY UACompat.Native                 "Native">
+<!ENTITY UACompat.Gecko                  "Gecko съвместимост">
+<!ENTITY UACompat.Firefox                "Firefox съвместимост">
+
+<!ENTITY captivePortalGroup.label        "Затворени портали">
+<!ENTITY captivePortalDetect.label       "Откриване на ограничен достъп до мрежа">
+
 <!ENTITY dataChoicesTab.label            "Избор за данни">
 
 <!ENTITY crashReporterSection.label      "Съобщаване на сривове">
@@ -125,12 +134,6 @@
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Устройства за защита">
 <!ENTITY viewSecurityDevices.accesskey   "У">
-
-<!ENTITY UACompatGroup.label    "Съвместимост">
-<!ENTITY UACompat.label         "Режим на потребителския агент:">
-<!ENTITY UACompat.Native        "Native">
-<!ENTITY UACompat.Gecko         "Gecko съвместимост">
-<!ENTITY UACompat.Firefox       "Firefox съвместимост">
 
 <!ENTITY scrollparamTab.label               "Превъртане">
 <!ENTITY smoothscroll.explain.label         "Параметрите по-долу ще имат ефект само ако плавното превъртане е активирано от отметката по-горе.">

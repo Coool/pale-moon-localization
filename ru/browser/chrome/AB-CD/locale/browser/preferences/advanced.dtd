@@ -33,6 +33,15 @@
 <!ENTITY setDefault.accesskey            "е">
 <!ENTITY isDefault.label                 "В настоящий момент браузером по умолчанию является &brandShortName;">
 
+<!ENTITY UACompatGroup.label             "Совместимость">
+<!ENTITY UACompat.label                  "Использовать User Agent:">
+<!ENTITY UACompat.Native                 "Собственный">
+<!ENTITY UACompat.Gecko                  "Совместимый с Gecko">
+<!ENTITY UACompat.Firefox                "Совместимый с Firefox">
+
+<!ENTITY captivePortalGroup.label        "Порталы авторизации">
+<!ENTITY captivePortalDetect.label       "Обнаруживать ограниченный доступ к сети">
+
 <!ENTITY dataChoicesTab.label            "Выбор данных">
 
 <!ENTITY crashReporterSection.label      "Сообщения о падениях">
@@ -125,12 +134,6 @@
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Устройства защиты">
 <!ENTITY viewSecurityDevices.accesskey   "о">
-
-<!ENTITY UACompatGroup.label    "Совместимость">
-<!ENTITY UACompat.label         "Использовать User Agent:">
-<!ENTITY UACompat.Native        "Собственный">
-<!ENTITY UACompat.Gecko         "Совместимый с Gecko">
-<!ENTITY UACompat.Firefox       "Совместимый с Firefox">
 
 <!ENTITY scrollparamTab.label               "Прокрутка">
 <!ENTITY smoothscroll.explain.label         "Следующие параметры используются только в случае, если плавная прокрутка включена.">

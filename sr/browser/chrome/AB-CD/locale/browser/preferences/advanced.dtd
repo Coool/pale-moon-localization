@@ -33,6 +33,15 @@
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; је тренутно ваш подразумевани прегледач">
 
+<!ENTITY UACompatGroup.label             "Компатибилност">
+<!ENTITY UACompat.label                  "Режим корисничког агента:">
+<!ENTITY UACompat.Native                 "Домаћи">
+<!ENTITY UACompat.Gecko                  "Gecko компатибилност">
+<!ENTITY UACompat.Firefox                "Firefox компатибилност">
+
+<!ENTITY captivePortalGroup.label        "Captive portals">
+<!ENTITY captivePortalDetect.label       "Detect restricted network access">
+
 <!ENTITY dataChoicesTab.label            "Data Choices">
 
 <!ENTITY crashReporterSection.label      "Crash Reporter">
@@ -125,12 +134,6 @@
 <!ENTITY viewCerts.accesskey             "П">
 <!ENTITY viewSecurityDevices.label       "Безбедоносни уређаји">
 <!ENTITY viewSecurityDevices.accesskey   "Б">
-
-<!ENTITY UACompatGroup.label    "Компатибилност">
-<!ENTITY UACompat.label         "Режим корисничког агента:">
-<!ENTITY UACompat.Native        "Домаћи">
-<!ENTITY UACompat.Gecko         "Gecko компатибилност">
-<!ENTITY UACompat.Firefox       "Firefox компатибилност">
 
 <!ENTITY scrollparamTab.label               "Скроловање">
 <!ENTITY smoothscroll.explain.label         "Доле наведени параметри ће имати ефекта ако је глатко померање укупно омогућено са ознаком изнад.">
