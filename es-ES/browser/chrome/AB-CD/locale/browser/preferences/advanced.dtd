@@ -33,6 +33,15 @@
 <!ENTITY setDefault.accesskey            "v">
 <!ENTITY isDefault.label                 "&brandShortName; es actualmente su navegador predeterminado">
 
+<!ENTITY UACompatGroup.label             "Compatibilidad">
+<!ENTITY UACompat.label                  "Modo de agente de usuario:">
+<!ENTITY UACompat.Native                 "Nativo">
+<!ENTITY UACompat.Gecko                  "Compatibilidad de Gecko">
+<!ENTITY UACompat.Firefox                "Compatibilidad de Firefox">
+
+<!ENTITY captivePortalGroup.label        "Portales de autorización">
+<!ENTITY captivePortalDetect.label       "Detectar acceso restringido a la red">
+
 <!ENTITY dataChoicesTab.label            "Elección de datos">
 
 <!ENTITY crashReporterSection.label      "Informe de fallos">
@@ -125,12 +134,6 @@
 <!ENTITY viewCerts.accesskey             "f">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguridad">
 <!ENTITY viewSecurityDevices.accesskey   "o">
-
-<!ENTITY UACompatGroup.label    "Compatibilidad">
-<!ENTITY UACompat.label         "Modo de agente de usuario:">
-<!ENTITY UACompat.Native        "Nativo">
-<!ENTITY UACompat.Gecko         "Compatibilidad de Gecko">
-<!ENTITY UACompat.Firefox       "Compatibilidad de Firefox">
 
 <!ENTITY scrollparamTab.label               "Desplazamiento">
 <!ENTITY smoothscroll.explain.label         "Los siguientes parámetros sólo tienen efecto si está habilitado globalmente el desplazamiento suave con la casilla de verificación anterior.">

@@ -33,6 +33,15 @@
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; を既定のブラウザに設定する">
 
+<!ENTITY UACompatGroup.label             "互換">
+<!ENTITY UACompat.label                  "ユーザーエージェントモード:">
+<!ENTITY UACompat.Native                 "ネイティブ">
+<!ENTITY UACompat.Gecko                  "Gecko 互換">
+<!ENTITY UACompat.Firefox                "Firefox 互換">
+
+<!ENTITY captivePortalGroup.label        "キャプティブポータル">
+<!ENTITY captivePortalDetect.label       "制限されたネットワークアクセスを検出する">
+
 <!ENTITY dataChoicesTab.label            "データの選択">
 
 <!ENTITY crashReporterSection.label      "クラッシュレポートの送信">
@@ -125,12 +134,6 @@
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "セキュリティデバイス">
 <!ENTITY viewSecurityDevices.accesskey   "y">
-
-<!ENTITY UACompatGroup.label    "互換">
-<!ENTITY UACompat.label         "ユーザーエージェントモード:">
-<!ENTITY UACompat.Native        "ネイティブ">
-<!ENTITY UACompat.Gecko         "Gecko 互換">
-<!ENTITY UACompat.Firefox       "Firefox 互換">
 
 <!ENTITY scrollparamTab.label               "スクロール">
 <!ENTITY smoothscroll.explain.label         "上のスムーズスクロールを有効にすると、以下のパラメータが有効になります。">
