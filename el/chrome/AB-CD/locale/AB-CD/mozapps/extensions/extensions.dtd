@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY addons.windowTitle                   "Διαχείριση Προσθέτων">
+<!ENTITY addons.windowTitle                   "Διαχείριση πρόσθετων">
 
 <!ENTITY search.placeholder                   "Αναζήτηση σε όλα τα πρόσθετα">
 <!ENTITY search.buttonlabel                   "Αναζήτηση">
@@ -15,23 +15,23 @@
 <!ENTITY listEmpty.availableUpdates.label     "Δεν βρέθηκαν ενημερώσεις">
 <!ENTITY listEmpty.recentUpdates.label        "Δεν έχετε ενημερώσει πρόσφατα κάποιο από τα πρόσθετα σας">
 <!ENTITY listEmpty.findUpdates.label          "Έλεγχος για ενημερώσεις">
-<!ENTITY listEmpty.search.label               "Αδυναμία εύρεσης προσθέτων που να ταιριάζουν">
+<!ENTITY listEmpty.search.label               "Αδυναμία εύρεσης πρόσθετων που να ταιριάζουν">
 <!ENTITY listEmpty.button.label               "Μάθετε περισσότερα για τα πρόσθετα">
 <!ENTITY installAddonFromFile.label           "Εγκατάσταση πρόσθετου από αρχείο…">
 <!ENTITY installAddonFromFile.accesskey       "γ">
 <!ENTITY toolsMenu.tooltip                    "Εργαλεία για όλα τα πρόσθετα">
 
-<!ENTITY cmd.back.tooltip                     "Μετάβαση μια σελίδα πίσω">
-<!ENTITY cmd.forward.tooltip                  "Μετάβαση μια σελίδα μπροστά">
+<!ENTITY cmd.back.tooltip                     "Μετάβαση πίσω μια σελίδα">
+<!ENTITY cmd.forward.tooltip                  "Μετάβαση εμπρός μια σελίδα">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Όλα τα πρόσθετα έχουν απενεργοποιηθεί στην ασφαλή λειτουργία.">
-<!ENTITY warning.checkcompatibility.label          "Ο έλεγχος συμβατότητας προσθέτων είναι ανενεργός. Μπορεί να έχετε ασύμβατα πρόσθετα.">
+<!ENTITY warning.checkcompatibility.label          "Ο έλεγχος συμβατότητας πρόσθετων είναι ανενεργός. Μπορεί να έχετε ασύμβατα πρόσθετα.">
 <!ENTITY warning.checkcompatibility.enable.label   "Ενεργοποίηση">
-<!ENTITY warning.checkcompatibility.enable.tooltip "Ενεργοποίηση ελέγχου συμβατότητας προσθέτων">
-<!ENTITY warning.updatesecurity.label              "Ο έλεγχος ασφαλείας ενημερώσεων προσθέτων είναι ανενεργός. Μπορεί να κινδυνέψετε.">
+<!ENTITY warning.checkcompatibility.enable.tooltip "Ενεργοποίηση ελέγχου συμβατότητας πρόσθετων">
+<!ENTITY warning.updatesecurity.label              "Ο έλεγχος ασφαλείας ενημερώσεων πρόσθετων είναι ανενεργός. Μπορεί να κινδυνέψετε.">
 <!ENTITY warning.updatesecurity.enable.label       "Ενεργοποίηση">
-<!ENTITY warning.updatesecurity.enable.tooltip     "Ενεργοποίηση ελέγχου ασφαλείας ενημερώσεων προσθέτων">
+<!ENTITY warning.updatesecurity.enable.tooltip     "Ενεργοποίηση ελέγχου ασφαλείας ενημερώσεων πρόσθετων">
 
 <!-- global informations -->
 <!ENTITY info.plugincheck.label                 "Έλεγχος για το αν είναι ενημερωμένες οι πρόσθετες λειτουργίες σας">
@@ -39,7 +39,7 @@
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Αναζήτηση">
-<!ENTITY view.discover.label                  "Λήψη περισσότερων προσθέτων">
+<!ENTITY view.discover.label                  "Λήψη περισσότερων πρόσθετων">
 <!ENTITY view.recentUpdates.label             "Πρόσφατες ενημερώσεις">
 <!ENTITY view.availableUpdates.label          "Διαθέσιμες ενημερώσεις">
 
@@ -51,7 +51,7 @@
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
-<!ENTITY updates.updateAddonsAutomatically.label     "Αυτόματη ενημέρωση προσθέτων">
+<!ENTITY updates.updateAddonsAutomatically.label     "Αυτόματη ενημέρωση πρόσθετων">
 <!ENTITY updates.updateAddonsAutomatically.accesskey "Α">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
@@ -59,13 +59,13 @@
      update checking behavior for all add-ons to the default global behavior
      (which itself is either "Automatically" or "Manually", controlled by the
      updates.updateAddonsAutomatically.label menu item). -->
-<!ENTITY updates.resetUpdatesToAutomatic.label       "Ρύθμιση όλων των προσθέτων σε αυτόματη ενημέρωση">
+<!ENTITY updates.resetUpdatesToAutomatic.label       "Ρύθμιση όλων των πρόσθετων σε αυτόματη ενημέρωση">
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "Ρ">
-<!ENTITY updates.resetUpdatesToManual.label          "Ρύθμιση όλων των προσθέτων σε χειροκίνητη ενημέρωση">
+<!ENTITY updates.resetUpdatesToManual.label          "Ρύθμιση όλων των πρόσθετων σε χειροκίνητη ενημέρωση">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "χ">
-<!ENTITY updates.updating.label               "Γίνεται ενημέρωση προσθέτων">
+<!ENTITY updates.updating.label               "Γίνεται ενημέρωση πρόσθετων">
 <!ENTITY updates.installed.label              "Τα πρόσθετα σας ενημερώθηκαν.">
-<!ENTITY updates.downloaded.label             "Έχει ολοκληρωθεί η λήψη των ενημερώσεων των προσθέτων σας.">
+<!ENTITY updates.downloaded.label             "Έχει ολοκληρωθεί η λήψη των ενημερώσεων των πρόσθετών σας.">
 <!ENTITY updates.restart.label                "Επανεκκίνηση για να ολοκληρωθεί η εγκατάσταση">
 <!ENTITY updates.noneFound.label              "Δεν βρέθηκαν ενημερώσεις">
 <!ENTITY updates.manualUpdatesFound.label     "Εμφάνιση διαθέσιμων ενημερώσεων">
@@ -95,22 +95,22 @@
 <!ENTITY cmd.askToActivate.label              "Ερώτηση για ενεργοποίηση">
 <!ENTITY cmd.askToActivate.tooltip            "Να γίνεται ερώτηση κάθε φορά για τη χρήση">
 <!ENTITY cmd.alwaysActivate.label             "Πάντα ενεργοποιημένο">
-<!ENTITY cmd.alwaysActivate.tooltip           "Να γίνεται πάντα χρήση αυτού του προσθέτου">
+<!ENTITY cmd.alwaysActivate.tooltip           "Να γίνεται πάντα χρήση αυτού του πρόσθετου">
 <!ENTITY cmd.neverActivate.label              "Ποτέ ενεργοποιημένο">
-<!ENTITY cmd.neverActivate.tooltip            "Να μην γίνεται χρήση αυτού του προσθέτου">
-<!ENTITY cmd.stateMenu.tooltip                "Αλλαγή χρήσης κατά την εκτέλεση του προσθέτου">
+<!ENTITY cmd.neverActivate.tooltip            "Να μη γίνεται ποτέ χρήση αυτού του πρόσθετου">
+<!ENTITY cmd.stateMenu.tooltip                "Αλλαγή χρήσης κατά την εκτέλεση του πρόσθετου">
 <!ENTITY cmd.installAddon.label               "Εγκατάσταση">
 <!ENTITY cmd.installAddon.accesskey           "γ">
 <!ENTITY cmd.uninstallAddon.label             "Αφαίρεση">
 <!ENTITY cmd.uninstallAddon.accesskey         "φ">
 <!ENTITY cmd.debugAddon.label                 "Εντοπισμός σφαλμάτων">
 <!ENTITY cmd.showPreferencesWin.label         "Επιλογές">
-<!ENTITY cmd.showPreferencesWin.tooltip       "Αλλαγή των επιλογών αυτού του προσθέτου">
+<!ENTITY cmd.showPreferencesWin.tooltip       "Αλλαγή των επιλογών αυτού του πρόσθετου">
 <!ENTITY cmd.showPreferencesUnix.label        "Προτιμήσεις">
-<!ENTITY cmd.showPreferencesUnix.tooltip      "Αλλαγή των προτιμήσεων αυτού του προσθέτου">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "Αλλαγή των προτιμήσεων αυτού του πρόσθετου">
 <!ENTITY cmd.contribute.label                 "Συνεισφορά">
 <!ENTITY cmd.contribute.accesskey             "φ">
-<!ENTITY cmd.contribute.tooltip               "Βοηθήστε στην ανάπτυξη αυτού του προσθέτου">
+<!ENTITY cmd.contribute.tooltip               "Βοηθήστε στην ανάπτυξη αυτού του πρόσθετου">
 
 <!ENTITY cmd.showReleaseNotes.label           "Προβολή σημειώσεων έκδοσης">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Προβολή των σημειώσεων έκδοσης για αυτή την ενημέρωση">
@@ -131,7 +131,7 @@
 <!ENTITY detail.homepage.label                "Αρχική σελίδα">
 <!ENTITY detail.numberOfDownloads.label       "Αριθμός λήψεων">
 
-<!ENTITY detail.contributions.description     "Ο προγραμματιστής αυτού του προσθέτου σας ζητάει να βοηθήσετε να συνεχίζει την ανάπτυξή του με μια μικρή συνεισφορά.">
+<!ENTITY detail.contributions.description     "Ο δημιουργός αυτού του πρόσθετου σας ζητάει να βοηθήσετε τη συνέχιση της ανάπτυξής του με μια μικρή συνεισφορά.">
 
 <!ENTITY detail.updateType                    "Αυτόματες ενημερώσεις">
 <!ENTITY detail.updateDefault.label           "Προεπιλογή">
@@ -146,10 +146,10 @@
 
 <!ENTITY detail.checkForUpdates.label         "Έλεγχος για ενημερώσεις">
 <!ENTITY detail.checkForUpdates.accesskey     "χ">
-<!ENTITY detail.checkForUpdates.tooltip       "Έλεγχος για ενημερώσεις αυτού του προσθέτου">
+<!ENTITY detail.checkForUpdates.tooltip       "Έλεγχος για ενημερώσεις αυτού του πρόσθετου">
 <!ENTITY detail.showPreferencesWin.label      "Επιλογές">
 <!ENTITY detail.showPreferencesWin.accesskey  "λ">
-<!ENTITY detail.showPreferencesWin.tooltip    "Αλλαγή των επιλογών αυτού του προσθέτου">
+<!ENTITY detail.showPreferencesWin.tooltip    "Αλλαγή των επιλογών αυτού του πρόσθετου">
 <!ENTITY detail.showPreferencesUnix.label     "Προτιμήσεις">
 <!ENTITY detail.showPreferencesUnix.accesskey "Π">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Αλλαγή των προτιμήσεων">
@@ -175,9 +175,9 @@
 
 <!ENTITY search.filter2.label                 "Αναζήτηση:">
 <!ENTITY search.filter2.installed.label       "Τα πρόσθετά μου">
-<!ENTITY search.filter2.installed.tooltip     "Προβολή εγκατεστημένων προσθέτων">
+<!ENTITY search.filter2.installed.tooltip     "Προβολή εγκατεστημένων πρόσθετων">
 <!ENTITY search.filter2.available.label       "Διαθέσιμα πρόσθετα">
-<!ENTITY search.filter2.available.tooltip     "Προβολή προσθέτων διαθέσιμων για εγκατάσταση">
+<!ENTITY search.filter2.available.tooltip     "Προβολή πρόσθετων διαθέσιμων για εγκατάσταση">
 
 <!ENTITY addon.homepage                       "Αρχική σελίδα">
 <!ENTITY addon.details.label                  "Περισσότερα">
@@ -195,10 +195,10 @@
 <!ENTITY addon.undoAction.label               "Αναίρεση">
 <!ENTITY addon.undoAction.tooltip             "Αναίρεση αυτής της ενέργειας">
 <!ENTITY addon.undoRemove.label               "Αναίρεση">
-<!ENTITY addon.undoRemove.tooltip             "Διατήρηση αυτού του προσθέτου">
+<!ENTITY addon.undoRemove.tooltip             "Διατήρηση αυτού του πρόσθετου">
 <!ENTITY addon.restartNow.label               "Επανεκκίνηση τώρα">
 <!ENTITY addon.install.label                  "Εγκατάσταση">
-<!ENTITY addon.install.tooltip                "Εγκατάσταση αυτού του προσθέτου">
+<!ENTITY addon.install.tooltip                "Εγκατάσταση αυτού του πρόσθετου">
 <!ENTITY addon.updateNow.label                "Ενημέρωση τώρα">
 <!ENTITY addon.updateNow.tooltip              "Εγκατάσταση της ενημέρωσης για αυτό το πρόσθετο">
 <!ENTITY addon.includeUpdate.label            "Να συμπεριλαμβάνεται στην ενημέρωση">
