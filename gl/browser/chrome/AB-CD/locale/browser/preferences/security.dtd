@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  addons.label                  "Add-ons">
+<!ENTITY  addons.label                  "Complementos">
 
 <!ENTITY  warnAddonInstall.label        "Avisarme cando un sitio web tente instalar complementos">
 <!ENTITY  warnAddonInstall.accesskey    "A">
@@ -10,11 +10,11 @@
 <!ENTITY  addonExceptions.label         "Excepcións…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
-<!ENTITY  addonSecuritylevel            "Add-on security level:">
-<!ENTITY  addonSecurityLevel_Off        "Off: No add-ons will be blocked (dangerous)">
-<!ENTITY  addonSecurityLevel_Low        "Low: Block only add-ons with severe security and stability issues">
-<!ENTITY  addonSecurityLevel_High       "Medium: Block all harmful add-ons (default, recommended)">
-<!ENTITY  addonSecurityLevel_Extreme    "High: Block all add-ons with known issues">
+<!ENTITY  addonSecuritylevel            "Nivel de seguridade para o complemento:">
+<!ENTITY  addonSecurityLevel_Off        "Desactivado: non se bloquearán complementos (perigoso)">
+<!ENTITY  addonSecurityLevel_Low        "Baixo: só se bloquearán complementos con graves problemas de seguranza e estabilidade">
+<!ENTITY  addonSecurityLevel_High       "Medio: bloquearanse todos os complementos prexudiciais (predeterminado, recomendado)">
+<!ENTITY  addonSecurityLevel_Extreme    "Alto: Bloquearanse todos os complementos con problemas coñecidos">
 
 <!ENTITY  passwords.label               "Contrasinais">
 
@@ -23,7 +23,7 @@
 <!ENTITY  passwordExceptions.label      "Excepcións…">
 <!ENTITY  passwordExceptions.accesskey  "p">
 
-<!ENTITY  autofillPasswords.label       "Automatically fill in log-in details">
+<!ENTITY  autofillPasswords.label       "Autocompletar as identificacións">
 <!ENTITY  autofillPasswords.accesskey   "A">
 
 <!ENTITY  useMasterPassword.label        "Usar un contrasinal principal">
@@ -40,9 +40,9 @@
 <!ENTITY  enableHPKP.label           "Activar Certificate Key Pinning (HPKP)">
 <!ENTITY  enableHPKP.accesskey       "C">
 
-<!ENTITY  OpEnc.label                "Opportunistic Encryption (OE)">
-<!ENTITY  enableUIROpEnc.label       "Enable Upgrade Insecure Requests">
-<!ENTITY  enableAltSvcOpEnc.label    "Enable HTTP Alternative Services for OE">
+<!ENTITY  OpEnc.label                "Cifrado oportunista (CO)">
+<!ENTITY  enableUIROpEnc.label       "Activar &quot;Upgrade Insecure Requests&quot;">
+<!ENTITY  enableAltSvcOpEnc.label    "Activar &quot;HTTP Alternative Services&quot; para CO">
 
 <!ENTITY  XSSFilt.label              "XSS Filter">
 <!ENTITY  enableXSSFilt.label        "Enable XSS filter">
