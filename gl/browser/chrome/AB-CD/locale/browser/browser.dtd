@@ -67,7 +67,7 @@ can reach it easily. -->
 <!ENTITY goOfflineCmd.label "Traballar sen conexión">
 <!ENTITY goOfflineCmd.accesskey "T">
 
-<!ENTITY restartCmd.label "Restart…">
+<!ENTITY restartCmd.label "Reiniciar…">
 <!ENTITY restartCmd.accesskey "R">
 
 <!ENTITY menubarCmd.label "Barra de menú">
@@ -79,8 +79,8 @@ can reach it easily. -->
 <!ENTITY bookmarksToolbarItem.label "Elementos da barra de marcadores">
 <!ENTITY addonBarCmd.label "Barra de complementos">
 <!ENTITY addonBarCmd.accesskey "B">
-<!ENTITY statusBar.label               "Status Bar">
-<!ENTITY statusBar.accesskey           "S">
+<!ENTITY statusBar.label               "Barra de estado">
+<!ENTITY statusBar.accesskey           "s">
 
 <!ENTITY pageSourceCmd.label "Código da páxina">
 <!ENTITY pageSourceCmd.accesskey "C">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Subscribirse a esta páxina…">
 <!ENTITY addCurPagesCmd.label "Marcar todas as lapelas…">
 <!ENTITY showAllBookmarks2.label "Amosar todos os marcadores">
-<!ENTITY organizeBookmarks.label "Organize Bookmarks">
+<!ENTITY organizeBookmarks.label "Organizar os marcadores">
 <!ENTITY unsortedBookmarksCmd.label "Marcadores sen ordenar">
 <!ENTITY bookmarksToolbarChevron.tooltip "Amosar máis marcadores">
 
@@ -196,7 +196,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.label                 "Complementos">
 <!ENTITY addons.accesskey             "C">
 <!ENTITY addons.commandkey            "A">
-<!ENTITY permissions.label            "Permissions">
+<!ENTITY permissions.label            "Permisos">
 <!ENTITY permissions.accesskey        "m">
 <!ENTITY preferencesCmd2.label        "Opcións">
 <!ENTITY preferencesCmd2.accesskey    "O">
@@ -270,13 +270,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY appMenuEdit.label "Editar">
 <!ENTITY appMenuCustomize.label "Personalizar">
-<!ENTITY appMenuToolbarLayout.label "Toolbar Layout">
+<!ENTITY appMenuToolbarLayout.label "Disposición da barra de ferramentas">
 <!ENTITY appMenuSidebars.label "Barras laterais">
 <!ENTITY appMenuFind.label "Buscar…">
 <!ENTITY appMenuUnsorted.label "Marcadores sen ordenar">
 <!ENTITY appMenuWebDeveloper.label "Desenvolvedor web">
 <!ENTITY appMenuGettingStarted.label "Iniciarse">
-<!ENTITY appMenuSafeMode.label "Restart in Safe Mode…">
+<!ENTITY appMenuSafeMode.label "Reiniciar en modo seguro…">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.accesskey             "d">
@@ -358,10 +358,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Gardar páxina como…">
 <!ENTITY savePageCmd.accesskey        "G">
-<!ENTITY sendLinkCmd.label            "Send Link…">
-<!ENTITY sendLinkCmd.accesskey        "d">
-<!ENTITY sendPageCmd.label            "Send Page Link…">
-<!ENTITY sendPageCmd.accesskey        "e">
+<!ENTITY sendLinkCmd.label            "Enviar ligazón…">
+<!ENTITY sendLinkCmd.accesskey        "v">
+<!ENTITY sendPageCmd.label            "Enviar ligazón da páxina…">
+<!ENTITY sendPageCmd.accesskey        "v">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
 <!ENTITY savePageCmd.commandkey       "s">
@@ -419,7 +419,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaUnmute.accesskey       "m">
 <!ENTITY mediaPlaybackRate.label     "Play Speed">
 <!ENTITY mediaPlaybackRate.accesskey "l">
-<!ENTITY mediaPlaybackRate2.label     "Play Speed">
+<!ENTITY mediaPlaybackRate2.label     "Velocidade de reprodución">
 <!ENTITY mediaPlaybackRate2.accesskey "d">
 <!ENTITY mediaPlaybackRate050x.label "Slow Motion (0.5×)">
 <!ENTITY mediaPlaybackRate050x.accesskey "S">
@@ -432,8 +432,8 @@ movie "Space Balls" and is meant to say that this speed is very
 fast. -->
 <!ENTITY mediaPlaybackRate200x.label "Ludicrous Speed (2×)">
 <!ENTITY mediaPlaybackRate200x.accesskey "L">
-<!ENTITY mediaLoop.label             "Loop">
-<!ENTITY mediaLoop.accesskey         "L">
+<!ENTITY mediaLoop.label             "Bucle">
+<!ENTITY mediaLoop.accesskey         "l">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -494,7 +494,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomInButton.tooltip           "Ampliar">
 <!ENTITY zoomControls.label             "Controis do zoom">
 
-<!ENTITY appMenuRestart.label           "Restart…">
+<!ENTITY appMenuRestart.label           "Reiniciar…">
 <!ENTITY appMenuRestart.accesskey       "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Saír"> 
