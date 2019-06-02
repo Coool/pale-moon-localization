@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY accountSetupTitle.label    "Ρύθμιση &syncBrand.fullName.label;">
+<!ENTITY accountSetupTitle.label    "Ρύθμιση Συγχρονισμού του Pale Moon">
 
 <!-- First page of the wizard -->
 
@@ -19,7 +19,7 @@
 <!ENTITY serverType.default.label      "Προεπιλογή: Διακομιστής &syncBrand.fullName.label;">
 <!ENTITY serverType.custom2.label   "Χρήση προσαρμοσμένου διακομιστή…">
 <!ENTITY signIn.account2.label      "Λογαριασμός">
-<!ENTITY signIn.account2.accesskey  "γ">
+<!ENTITY signIn.account2.accesskey  "Λ">
 <!ENTITY signIn.password.label      "Κωδικός">
 <!ENTITY signIn.password.accesskey  "δ">
 <!ENTITY signIn.recoveryKey.label       "Κλειδί ανάκτησης">
@@ -27,32 +27,32 @@
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "Λεπτομέρειες λογαριασμού">
-<!ENTITY setup.emailAddress.label     "Ηλεκτρονική Διεύθυνση">
-<!ENTITY setup.emailAddress.accesskey "E">
+<!ENTITY setup.emailAddress.label     "Ηλεκτρονική διεύθυνση">
+<!ENTITY setup.emailAddress.accesskey "δ">
 <!ENTITY setup.choosePassword.label      "Επιλέξτε έναν κωδικό">
-<!ENTITY setup.choosePassword.accesskey  "ξ">
+<!ENTITY setup.choosePassword.accesskey  "λ">
 <!ENTITY setup.confirmPassword.label     "Επιβεβαίωση κωδικού">
-<!ENTITY setup.confirmPassword.accesskey "β">
+<!ENTITY setup.confirmPassword.accesskey "π">
 <!ENTITY setup.setupMetro.label     "Συγχρονισμός &brandShortName; με στυλ Windows 8">
 <!ENTITY setup.setupMetro.accesskey "χ">
 
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
      joined with implicit white space, so spaces in the strings aren't necessary -->
-<!ENTITY setup.tosAgree1.label      "Συμφωνώ με">
-<!ENTITY setup.tosAgree1.accesskey  "τους">
-<!ENTITY setup.tosLink.label        "Όρους Χρήσης">
+<!ENTITY setup.tosAgree1.label      "Συμφωνώ με τους">
+<!ENTITY setup.tosAgree1.accesskey  "Σ">
+<!ENTITY setup.tosLink.label        "Όρους χρήσης">
 <!ENTITY setup.tosAgree2.label      "και την">
-<!ENTITY setup.ppLink.label         "Πολιτική Απορρήτου">
+<!ENTITY setup.ppLink.label         "Πολιτική απορρήτου">
 <!ENTITY setup.tosAgree3.label      "">
 <!ENTITY setup.tosAgree2.accesskey  "">
 
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "Ο &brandShortName; ενδιαφέρεται για το απόρρητο σας">
 <!ENTITY setup.newRecoveryKeyPage.description.label "Για να προστατευτεί πλήρως το απόρρητο σας, όλα τα δεδομένα σας κρυπτογραφούνται πριν τη μεταφορά τους. Το κλειδί ανάκτησης που είναι απαραίτητο για την αποκρυπτογράφησή τους θα το έχετε μόνο εσείς.">
-<!ENTITY recoveryKeyEntry.label        "Το κλειδί ανάκτησης σας">
+<!ENTITY recoveryKeyEntry.label        "Το κλειδί σας ανάκτησης">
 <!ENTITY recoveryKeyEntry.accesskey    "κ">
 <!ENTITY syncGenerateNewKey.label  "Δημιουργία νέου κλειδιού">
-<!ENTITY recoveryKeyBackup.description "Το κλειδί ανάκτησης απαιτείται για την πρόσβαση σας στο &syncBrand.fullName.label; σε άλλες συσκευές. Κρατήστε αντίγραφο ασφαλείας του κλειδιού. Δεν μπορούμε να σας βοηθήσουμε να ανακτήσετε το κλειδί ανάκτησης σας.">
+<!ENTITY recoveryKeyBackup.description "Το κλειδί σας ανάκτησης απαιτείται για την πρόσβασή σας στο &syncBrand.fullName.label; σε άλλες συσκευές. Κρατήστε αντίγραφο ασφαλείας του κλειδιού. Δεν μπορούμε να σας βοηθήσουμε να ανακτήσετε το κλειδί σας ανάκτησης.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Εκτύπωση…">
 <!ENTITY button.syncKeyBackup.print.accesskey "π">
@@ -88,13 +88,13 @@
 <!ENTITY engine.bookmarks.label     "Σελιδοδείκτες">
 <!ENTITY engine.bookmarks.accesskey "λ">
 <!ENTITY engine.tabs.label          "Καρτέλες">
-<!ENTITY engine.tabs.accesskey      "τ">
+<!ENTITY engine.tabs.accesskey      "Κ">
 <!ENTITY engine.history.label       "Ιστορικό">
-<!ENTITY engine.history.accesskey   "ρ">
+<!ENTITY engine.history.accesskey   "σ">
 <!ENTITY engine.passwords.label     "Κωδικούς">
 <!ENTITY engine.passwords.accesskey "δ">
 <!ENTITY engine.prefs.label         "Προτιμήσεις">
-<!ENTITY engine.prefs.accesskey     "Π">
+<!ENTITY engine.prefs.accesskey     "τ">
 <!ENTITY engine.addons.label        "Πρόσθετα">
 <!ENTITY engine.addons.accesskey    "θ">
 
@@ -111,6 +111,6 @@
 <!ENTITY confirm.server2.label         "Προειδοποίηση: Οι παρακάτω συσκευές θα αντικατασταθούν με τα τοπικά σας δεδομένα:">
 
 <!-- New & Existing Account: Setup Complete -->
-<!ENTITY setup.successPage.title "Η ρύθμιση ολοκληρώθηκε!">
-<!ENTITY changeOptions.label "Μπορείτε να αλλάξετε αυτή τη ρύθμιση μέσω των Επιλογών συγχρονισμού.">
+<!ENTITY setup.successPage.title "Η ρύθμιση ολοκληρώθηκε">
+<!ENTITY changeOptions.label "Μπορείτε να αλλάξετε αυτήν την προτίμηση μέσω των επιλογών συγχρονισμού παρακάτω.">
 <!ENTITY continueUsing.label "Μπορείτε τώρα να συνεχίσετε τη χρήση του &brandShortName;.">
