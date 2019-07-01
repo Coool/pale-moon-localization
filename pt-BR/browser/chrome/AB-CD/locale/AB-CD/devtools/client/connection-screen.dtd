@@ -11,24 +11,24 @@
     SYSTEM "chrome://branding/locale/brand.dtd">
   %brandDTD;
 
-<!ENTITY title      "Connect">
-<!ENTITY header     "Connect to remote device">
-<!ENTITY host       "Host:">
-<!ENTITY port       "Port:">
-<!ENTITY connect    "Connect">
-<!ENTITY connecting "Connecting…">
-<!ENTITY availableAddons "Available remote add-ons:">
-<!ENTITY availableTabs "Available remote tabs:">
-<!ENTITY availableProcesses "Available remote processes:">
-<!ENTITY connectionError "Error:">
-<!ENTITY errorTimeout "Error: connection timeout.">
-<!ENTITY errorRefused "Error: connection refused.">
-<!ENTITY errorUnexpected "Unexpected error.">
+<!ENTITY title      "Conectar">
+<!ENTITY header     "Conectar a dispositivo remoto">
+<!ENTITY host       "Servidor:">
+<!ENTITY port       "Porta:">
+<!ENTITY connect    "Conectar">
+<!ENTITY connecting "Conectando…">
+<!ENTITY availableAddons "Complementos remotos disponíveis:">
+<!ENTITY availableTabs "Abas remotas disponíveis:">
+<!ENTITY availableProcesses "Processos remotos disponíveis:">
+<!ENTITY connectionError "Erro:">
+<!ENTITY errorTimeout "Erro: tempo limite de conexão.">
+<!ENTITY errorRefused "Erro: conexão recusada.">
+<!ENTITY errorUnexpected "Erro inesperado">
 
 <!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
 these strings will be concatenated in a single label, remoteDocumentation will
 be used as text for a link to MDN. -->
 <!ENTITY remoteHelp "As Ferramentas do Desenvolvedor podem depurar dispositivos remotos (Firefox para o Android, por exemplo). Certifique-se de que você ativou a opção &quot;Depuração remota&quot; no dispositivo remoto. Para mais informações, consulte o ">
-<!ENTITY remoteDocumentation "documentation">
+<!ENTITY remoteDocumentation "documentação">
 <!ENTITY remoteHelpSuffix ".">
 
