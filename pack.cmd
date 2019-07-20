@@ -1,11 +1,11 @@
 @echo off
-set VER=28.6.0
-set MIN=28.0.0
+set VER=28.7.0rc1
 
 rem ar da fa fi gl hr id is ja kn ro sl sr th vi zh-TW
 set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sk sv-SE tl tr uk zh-CN
 
-for /f "tokens=1,2 delims=." %%a in ("%VER%") do set MAX=%%a.%%b
+for /f "tokens=1,2 delims=." %%a in ("%VER%") do set MIN=%%a.%%b.0a1
+for /f "tokens=1,2 delims=." %%a in ("%VER%") do set MAX=%%a.%%b.*
 
 if not "%1" == "" (
   call :pack-xpi %1
@@ -24,7 +24,7 @@ pushd %1
 rem update version
 ..\ssr.exe -r -w --unix "em:version\e\q[a-zA-Z0-9_.]+\q"="em:version\e\q%VER%\q" ^
                         "minVersion>[a-zA-Z0-9_.\*]+<"="minVersion>%MIN%<" ^
-                        "maxVersion>[a-zA-Z0-9_.\*]+<"="maxVersion>%MAX%.*<"     install.rdf
+                        "maxVersion>[a-zA-Z0-9_.\*]+<"="maxVersion>%MAX%<"     install.rdf
 rem rename AB-CD -> lang
 move /Y browser\chrome\AB-CD\locale\AB-CD browser\chrome\AB-CD\locale\%1 >nul:
 move /Y browser\chrome\AB-CD browser\chrome\%1 >nul:
