@@ -182,7 +182,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "Εργαλεία">
-<!ENTITY toolsMenu.accesskey          "γ"> 
+<!ENTITY toolsMenu.accesskey          "λ"> 
 
 <!ENTITY keywordfield.label           "Προσθέστε μια λέξη-κλειδί για αυτή την αναζήτηση…">
 <!ENTITY keywordfield.accesskey       "κ">
@@ -196,7 +196,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.label                 "Πρόσθετα">
 <!ENTITY addons.accesskey             "θ">
 <!ENTITY addons.commandkey            "A">
-<!ENTITY permissions.label            "Άδειες">
+<!ENTITY permissions.label            "Δικαιώματα">
 <!ENTITY permissions.accesskey        "Δ">
 <!ENTITY preferencesCmd2.label        "Προτιμήσεις">
 <!ENTITY preferencesCmd2.accesskey    "Ε">
@@ -247,9 +247,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY privateBrowsingCmd.commandkey          "P">
 
 <!ENTITY viewMenu.label         "Προβολή"> 
-<!ENTITY viewMenu.accesskey       "ρ"> 
+<!ENTITY viewMenu.accesskey       "Π"> 
 <!ENTITY viewToolbarsMenu.label       "Εργαλειοθήκες"> 
-<!ENTITY viewToolbarsMenu.accesskey     "ρ"> 
+<!ENTITY viewToolbarsMenu.accesskey     "θ"> 
 <!ENTITY viewSidebarMenu.label "Πλευρική στήλη">
 <!ENTITY viewSidebarMenu.accesskey "ε">
 <!ENTITY viewCustomizeToolbar.label       "Προσαρμογή"> 
@@ -258,7 +258,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewTabsOnTop.accesskey        "π">
 
 <!ENTITY historyMenu.label "Ιστορικό">
-<!ENTITY historyMenu.accesskey "Ι">
+<!ENTITY historyMenu.accesskey "τ">
 <!ENTITY historyUndoMenu.label "Πρόσφατα κλεισμένες καρτέλες">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Πρόσφατα κλεισμένα παράθυρα">
@@ -469,14 +469,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "Επαναφορά">
-<!ENTITY fullZoomResetCmd.accesskey     "ρ">
+<!ENTITY fullZoomResetCmd.accesskey     "π">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
 <!ENTITY fullZoomToggleCmd.label        "Μεγέθυνση μόνο του κειμένου">
 <!ENTITY fullZoomToggleCmd.accesskey    "κ">
 <!ENTITY fullZoom.label                 "Μεγέθυνση">
-<!ENTITY fullZoom.accesskey             "γ">
+<!ENTITY fullZoom.accesskey             "Μ">
 
 <!ENTITY newTabButton.tooltip           "Άνοιγμα νέας καρτέλας">
 <!ENTITY newWindowButton.tooltip        "Άνοιγμα νέου παραθύρου">
@@ -496,11 +496,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY appMenuRestart.accesskey       "Ε">
 
 <!ENTITY quitApplicationCmdWin.label       "Έξοδος"> 
-<!ENTITY quitApplicationCmdWin.accesskey   "ξ">
+<!ENTITY quitApplicationCmdWin.accesskey   "ο">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Έξοδος"> 
-<!ENTITY quitApplicationCmd.accesskey   "ξ">
+<!ENTITY quitApplicationCmd.accesskey   "ο">
 <!ENTITY quitApplicationCmdMac.label    "Έξοδος από τον &brandShortName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
@@ -536,7 +536,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.accesskey "λ">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Εύρεση ξανά">
-<!ENTITY findAgainCmd.accesskey "ξ">
+<!ENTITY findAgainCmd.accesskey "σ">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 
