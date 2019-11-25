@@ -101,29 +101,28 @@
 <!ENTITY cmd.stateMenu.tooltip                "Perubahan ketika menjalankan add-on ini">
 <!ENTITY cmd.installAddon.label               "Memasang">
 <!ENTITY cmd.installAddon.accesskey           "I">
-<!ENTITY cmd.uninstallAddon.label             "Remove">
+<!ENTITY cmd.uninstallAddon.label             "Hapus">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
 <!ENTITY cmd.debugAddon.label                 "Debug">
 <!ENTITY cmd.showPreferencesWin.label         "Pilihan">
-<!ENTITY cmd.showPreferencesWin.tooltip       "Change this add-on's options">
-<!ENTITY cmd.showPreferencesUnix.label        "Preferences">
-<!ENTITY cmd.showPreferencesUnix.tooltip      "Change this add-on's preferences">
-<!ENTITY cmd.contribute.label                 "Contribute">
+<!ENTITY cmd.showPreferencesWin.tooltip       "Ubah opsi pengaya ini">
+<!ENTITY cmd.showPreferencesUnix.label        "Preferensi">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "Ubah preferensi pengaya ini">
+<!ENTITY cmd.contribute.label                 "Kontribusi">
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "Berkontribusi pada pengembangan dari add-on ini">
 
 <!ENTITY cmd.showReleaseNotes.label           "Tampilkan Catatan Rilis">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Tunjukkan catatan rilis untuk memperbaharui ini">
-<!ENTITY cmd.hideReleaseNotes.label           "Hide Release Notes">
+<!ENTITY cmd.hideReleaseNotes.label           "Sembunyikan Catatan Rilis">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Sembunyikan catatan rilis untuk pembaruan ini">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Apa itu Pengaya?">
-<!ENTITY discover.description2                "Add-ons are applications that let you personalize &brandShortName; with
-  extra functionality or style. Try a time-saving sidebar, a weather notifier, or a themed look to make &brandShortName;
-  your own.">
+<!ENTITY discover.description2                "Pengaya adalah aplikasi yang izinkan Anda mempersonalisasi &brandShortName; dengan
+  fungsionalitas dan gaya tambahan. Coba penghemat waktu bilah samping, pemberitahuan cuaca, atau tema yang menjadikan &brandShortName; milik sendiri.">
 <!ENTITY discover.footer                      "Saat Anda terhubung ke internet, panel ini akan ditampilkan
    beberapa pengaya terbaik dan terpopuler untuk Anda coba.">
 
@@ -144,7 +143,7 @@
 <!ENTITY detail.updateManual.label            "Mati">
 <!ENTITY detail.updateManual.tooltip          "Jangan instal pembaruan secara otomatis">
 <!ENTITY detail.home                          "Beranda">
-<!ENTITY detail.repository                    "Add-on Profile">
+<!ENTITY detail.repository                    "Profil pengaya">
 <!ENTITY detail.size                          "Ukuran">
 
 <!ENTITY detail.checkForUpdates.label         "Periksa Pembaruan">
@@ -152,10 +151,10 @@
 <!ENTITY detail.checkForUpdates.tooltip       "Memeriksa Pembaruan untuk Pengaya ini">
 <!ENTITY detail.showPreferencesWin.label      "Pilihan">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "Change this add-on's options">
+<!ENTITY detail.showPreferencesWin.tooltip    "Ubah opsi pengaya ini">
 <!ENTITY detail.showPreferencesUnix.label     "Preferensi">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Change this add-on's preferences">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Ubah preferensi pengaya ini">
 
 
 <!-- ratings -->
@@ -194,25 +193,25 @@
      updates list to signify that an item is an update, in the form
      "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
      necessary -->
-<!ENTITY addon.update.postfix                 "Update">
-<!ENTITY addon.undoAction.label               "Undo">
-<!ENTITY addon.undoAction.tooltip             "Undo this action">
-<!ENTITY addon.undoRemove.label               "Undo">
-<!ENTITY addon.undoRemove.tooltip             "Keep this add-on installed">
-<!ENTITY addon.restartNow.label               "Restart now">
-<!ENTITY addon.install.label                  "Install">
-<!ENTITY addon.install.tooltip                "Install this add-on">
-<!ENTITY addon.updateNow.label                "Update Now">
-<!ENTITY addon.updateNow.tooltip              "Install the update for this add-on">
-<!ENTITY addon.includeUpdate.label            "Include in Update">
-<!ENTITY addon.updateAvailable.label          "An update is available">
-<!ENTITY addon.checkingForUpdates.label       "Checking for updates…">
-<!ENTITY addon.releaseNotes.label             "Release Notes:">
-<!ENTITY addon.loadingReleaseNotes.label      "Loading…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "Sorry, but there was an error loading the release notes.">
+<!ENTITY addon.update.postfix                 "Perbarui">
+<!ENTITY addon.undoAction.label               "Urungkan">
+<!ENTITY addon.undoAction.tooltip             "Urungkan aksi ini">
+<!ENTITY addon.undoRemove.label               "Urungkan">
+<!ENTITY addon.undoRemove.tooltip             "Biarkan pengaya ini terpasang">
+<!ENTITY addon.restartNow.label               "Mulai ulang sekarang">
+<!ENTITY addon.install.label                  "Pasang">
+<!ENTITY addon.install.tooltip                "Pasang pengaya ini">
+<!ENTITY addon.updateNow.label                "Perbarui Sekarang">
+<!ENTITY addon.updateNow.tooltip              "Pasang pembaruan untuk pengaya ini">
+<!ENTITY addon.includeUpdate.label            "Termasuk dalam Pembaruan">
+<!ENTITY addon.updateAvailable.label          "Pembaruan tersedia">
+<!ENTITY addon.checkingForUpdates.label       "Memeriksa pembaruan…">
+<!ENTITY addon.releaseNotes.label             "Catatan Rilis:">
+<!ENTITY addon.loadingReleaseNotes.label      "Memuat…">
+<!ENTITY addon.errorLoadingReleaseNotes.label "Maaf, ada galat saat memuat catatan rilis.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets &brandFullName;">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
+<!ENTITY addon.nativeAddon                    "Pengaya ini langsung menargetkan &brandFullName;">
+<!ENTITY addon.compatAddon                    "Pengaya ini menargetkan Mozilla Firefox dan berjalan di mode kompatibilitas">
 
 <!ENTITY addon.createdBy.label                "Oleh ">
 

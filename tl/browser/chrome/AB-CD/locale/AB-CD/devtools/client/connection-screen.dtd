@@ -11,24 +11,24 @@
     SYSTEM "chrome://branding/locale/brand.dtd">
   %brandDTD;
 
-<!ENTITY title      "Connect">
-<!ENTITY header     "Connect to remote device">
+<!ENTITY title      "Kumonekta">
+<!ENTITY header     "Kumonekta sa remote device">
 <!ENTITY host       "Host:">
 <!ENTITY port       "Port:">
-<!ENTITY connect    "Connect">
-<!ENTITY connecting "Kumokonek...">
-<!ENTITY availableAddons "Available remote add-ons:">
-<!ENTITY availableTabs "Available remote tabs:">
-<!ENTITY availableProcesses "Available remote processes:">
+<!ENTITY connect    "Kumonekta">
+<!ENTITY connecting "Kumokonek…">
+<!ENTITY availableAddons "Mga magagamit na remote add-on:">
+<!ENTITY availableTabs "Mga magagamit na remote tab:">
+<!ENTITY availableProcesses "Mga magagamit na remote process:">
 <!ENTITY connectionError "Error:">
-<!ENTITY errorTimeout "Error: connection timeout.">
-<!ENTITY errorRefused "Error: connection refused.">
-<!ENTITY errorUnexpected "Unexpected error.">
+<!ENTITY errorTimeout "Error: koneksiyon nag-time out.">
+<!ENTITY errorRefused "Error: koneksiyon ay tinanggihan.">
+<!ENTITY errorUnexpected "Hindi inaasahang error.">
 
 <!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
 these strings will be concatenated in a single label, remoteDocumentation will
 be used as text for a link to MDN. -->
 <!ENTITY remoteHelp "&brandShortName; Developer Tools ay may kakayahang mag-debug ng mga remote device (Halimbawa, ang Firefox para sa Android). Siguraduhing naka-on ang 'Remote debugging' option sa remote device. Para sa higit pang impormasyon, tingnan ang ">
-<!ENTITY remoteDocumentation "documentation">
+<!ENTITY remoteDocumentation "dokumentasyon">
 <!ENTITY remoteHelpSuffix ".">
 
