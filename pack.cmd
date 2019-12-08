@@ -1,5 +1,5 @@
 @echo off
-set VER=28.8.0rc1
+set VER=28.8.0rc2
 
 rem ar da fa fi gl hr id is ja kn ro sl sr th vi zh-TW
 set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sk sv-SE tl tr uk zh-CN
