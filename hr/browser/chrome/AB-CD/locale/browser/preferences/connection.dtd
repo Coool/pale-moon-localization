@@ -3,36 +3,36 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY  connectionsDialog.title       "Postavke spajanja">
+<!ENTITY  connectionsDialog.title       "Postavke povezivanja">
 <!ENTITY  window.width                  "37em">
 <!ENTITY  window.macWidth               "39em">
 
-<!ENTITY  proxyTitle.label              "Podesi proxyje za pristupanje Internetu">
-<!ENTITY  noProxyTypeRadio.label        "Bez proxyja">
+<!ENTITY  proxyTitle.label              "Podešavanje proxija za pristupanje Internetu">
+<!ENTITY  noProxyTypeRadio.label        "Bez proxija">
 <!ENTITY  noProxyTypeRadio.accesskey    "y">
-<!ENTITY  systemTypeRadio.label         "Koristi sistemske postavke za proxy">
+<!ENTITY  systemTypeRadio.label         "Koristi postavke proxija sustava">
 <!ENTITY  systemTypeRadio.accesskey     "s">
-<!ENTITY  WPADTypeRadio.label           "Automatski pronađi postavke za ovu mrežu">
+<!ENTITY  WPADTypeRadio.label           "Automatski otkrij proxy postavke za ovu mrežu">
 <!ENTITY  WPADTypeRadio.accesskey       "t">
-<!ENTITY  manualTypeRadio.label         "Ručno podešavanje proxyja:">
+<!ENTITY  manualTypeRadio.label         "Ručno podešavanje proxija:">
 <!ENTITY  manualTypeRadio.accesskey     "x">
-<!ENTITY  autoTypeRadio.label           "URL za automatsko podešavanje proxyja:">
+<!ENTITY  autoTypeRadio.label           "URL automatskog podešavanja proxija:">
 <!ENTITY  autoTypeRadio.accesskey       "A">
 <!ENTITY  reload.label                  "Osvježi">
 <!ENTITY  reload.accesskey              "e">
 <!ENTITY  ftp.label                     "FTP proxy:">
 <!ENTITY  ftp.accesskey                 "F">
-<!ENTITY  http.label                    "HTTP Proxy:">
+<!ENTITY  http.label                    "HTTP proxy:">
 <!ENTITY  http.accesskey                "H">
-<!ENTITY  ssl.label                     "SSL Proxy:">
+<!ENTITY  ssl.label                     "SSL proxy:">
 <!ENTITY  ssl.accesskey                 "S">
-<!ENTITY  socks.label                   "SOCKS domaćin:">
+<!ENTITY  socks.label                   "SOCKS poslužitelj:">
 <!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
-<!ENTITY  socksRemoteDNS.label          "Use proxy to perform DNS queries (SOCKS v5 only)">
+<!ENTITY  socksRemoteDNS.label          "Koristi proxy za izvođenje DNS zahtjeva (samo za SOCKS v5)">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Ulaz:">
 <!ENTITY  HTTPport.accesskey            "U">
@@ -41,9 +41,9 @@
 <!ENTITY  SOCKSport.accesskey           "z">
 <!ENTITY  noproxy.label                 "Bez proxyja za:">
 <!ENTITY  noproxy.accesskey             "z">
-<!ENTITY  noproxyExplain.label          "Primjer: .mozilla.org, .net.nz, 192.168.1.0/24">
+<!ENTITY  noproxyExplain.label          "Primjer: .palemoon.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Koristi ovaj proxy poslužitelj za sve protokole">
 <!ENTITY  shareproxy.accesskey          "x">
-<!ENTITY  autologinproxy.label          "Do not prompt for authentication if password is saved">
+<!ENTITY  autologinproxy.label          "Ne pitaj za ovjeru ako je lozinka spremljena">
 <!ENTITY  autologinproxy.accesskey      "i">
-<!ENTITY  autologinproxy.tooltip        "This option silently authenticates you to proxies when you have saved credentials for them. You will be prompted if authentication fails.">
+<!ENTITY  autologinproxy.tooltip        "Ova mogućnost bez upita ovjerava vaše proxije kada imate spremljene vjerodajnice za njih. Biti ćete upitani ako ovjera ne uspije.">
