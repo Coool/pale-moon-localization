@@ -13,7 +13,7 @@
 
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in
    - the Web Console and Browser Console menu. -->
-<!ENTITY saveBodies.label     "Log Request and Response Bodies">
+<!ENTITY saveBodies.label     "Zapisuj tijela zahtjeva i odgovora">
 <!ENTITY saveBodies.accesskey "L">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
@@ -54,20 +54,20 @@
 <!ENTITY btnConsoleErrors       "Greške">
 <!ENTITY btnConsoleInfo         "Informacije">
 <!ENTITY btnConsoleWarnings     "Upozorenja">
-<!ENTITY btnConsoleLog          "Zapisnik">
+<!ENTITY btnConsoleLog          "Zapis">
 <!ENTITY btnConsoleXhr          "XHR">
-<!ENTITY btnConsoleReflows      "Reflows">
+<!ENTITY btnConsoleReflows      "Raspoređivanje">
 
 <!-- LOCALIZATION NOTE (btnServerLogging): This is used as the text of the
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls on the HTTP server. -->
 <!ENTITY btnServerLogging.label       "Poslužitelj">
-<!ENTITY btnServerLogging.tooltip     "Snimaj poruke primljene od web poslužitelja">
+<!ENTITY btnServerLogging.tooltip     "Zapisuj poruke primljene od web poslužitelja">
 <!ENTITY btnServerLogging.accesskey   "s">
 <!ENTITY btnServerErrors              "Greške">
 <!ENTITY btnServerInfo                "Informacije">
 <!ENTITY btnServerWarnings            "Upozorenja">
-<!ENTITY btnServerLog                 "Zapisnik">
+<!ENTITY btnServerLog                 "Zapis">
 
 <!-- LOCALIZATION NODE (btnConsoleSharedWorkers) the term "Shared Workers"
   -  should not be translated. -->
@@ -80,8 +80,8 @@
 <!ENTITY btnConsoleWindowlessWorkers "Dodatak ili chrome workeri">
 
 <!ENTITY filterOutput.placeholder "Rezultati filtra">
-<!ENTITY btnClear.label        "Očisti">
-<!ENTITY btnClear.tooltip      "Očisti sadržaj Web konzole">
+<!ENTITY btnClear.label        "Obriši">
+<!ENTITY btnClear.tooltip      "Obriši sadržaj Web konzole">
 <!ENTITY btnClear.accesskey    "i">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
