@@ -21,10 +21,13 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "使用平滑捲動">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "可用時開啟硬體加速">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkSpelling.label             "打字時即時檢查拼字">
 <!ENTITY checkSpelling.accesskey         "t">
+<!ENTITY HWAccel.label                   "硬體加速 (HWA)">
+<!ENTITY restartRequired.label           "變更這些設定需要重新啟動瀏覽器">
+<!ENTITY allowHWAccel.label              "可用時開啟硬體加速">
+<!ENTITY allowHWAccel.accesskey          "r">
+<!ENTITY forceHWAccel.label              "強制硬體加速">
 
 <!ENTITY systemDefaults.label            "預設網頁瀏覽器">
 <!ENTITY alwaysCheckDefault.label        "啟動時永遠檢查 &brandShortName; 是否為預設瀏覽器"><!--XXX-->
@@ -148,4 +151,4 @@
 <!ENTITY smoothscroll.scrollbar.label       "用捲軸平滑捲動">
 <!ENTITY smoothscroll.scrollbar.duration    "捲軸捲動持續時間：">
 
-<!ENTITY smoothscroll.overall.yspeed.label  "Overall smooth scroll speed:">
+<!ENTITY smoothscroll.overall.yspeed.label  "整體平滑捲動速度:">

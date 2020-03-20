@@ -13,14 +13,14 @@
 <!ENTITY file.close.label               "Zatvori">
 <!ENTITY file.close.accesskey           "Z">
 <!ENTITY cmd.close.key                  "w">
-<!ENTITY views.label                    "Pogledi">
+<!ENTITY views.label                    "Prikaz">
 <!ENTITY views.accesskey                "P">
 <!ENTITY views.tooltip                  "Promijenite prikaz">
 <!ENTITY view.columns.label             "Prikaži stupce">
 <!ENTITY view.columns.accesskey         "s">
-<!ENTITY view.sort.label                "Sortiraj">
+<!ENTITY view.sort.label                "Razvrstaj">
 <!ENTITY view.sort.accesskey            "s">
-<!ENTITY view.unsorted.label            "Nesortirano">
+<!ENTITY view.unsorted.label            "Nerazvrstano">
 <!ENTITY view.unsorted.accesskey        "N">
 <!ENTITY view.sortAscending.label       "A &gt; Z poredak">
 <!ENTITY view.sortAscending.accesskey   "A">
@@ -32,11 +32,11 @@
 <!ENTITY exportBookmarksToHTML.label       "Izvezi zabilješke u HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "E">
 
-<!ENTITY cmd.backup.label               "Kopija…">
+<!ENTITY cmd.backup.label               "Sigurnosno kopiraj…">
 <!ENTITY cmd.backup.accesskey           "K">
-<!ENTITY cmd.restore2.label             "Vrati">
+<!ENTITY cmd.restore2.label             "Obnovi">
 <!ENTITY cmd.restore2.accesskey         "r">
-<!ENTITY cmd.restoreFromFile.label      "Odaberite datoteku…">
+<!ENTITY cmd.restoreFromFile.label      "Odaberi datoteku…">
 <!ENTITY cmd.restoreFromFile.accesskey  "O">
 
 <!ENTITY cmd.bookmarkLink.label         "Zabilježi ovu stranicu…">
@@ -57,13 +57,13 @@
 <!ENTITY cmd.open_all_in_tabs.label        "Otvori sve u karticama">
 <!ENTITY cmd.open_all_in_tabs.accesskey    "s">
 
-<!ENTITY cmd.openParentFolder.label      "Otvori sadržanu mapu">
+<!ENTITY cmd.openParentFolder.label      "Otvori sadržajnu mapu">
 <!ENTITY cmd.openParentFolder.accesskey  "F">
 
 <!ENTITY cmd.properties.label      "Svojstva">
 <!ENTITY cmd.properties.accesskey  "S">
 
-<!ENTITY cmd.sortby_name.label              "Sortiraj prema imenu">
+<!ENTITY cmd.sortby_name.label              "Razvrstaj prema nazivu">
 <!ENTITY cmd.sortby_name.accesskey          "S">
 <!ENTITY cmd.context_sortby_name.accesskey  "r">
 
@@ -81,7 +81,7 @@
 <!ENTITY cmd.moveBookmarks.label                  "Premjesti…">
 <!ENTITY cmd.moveBookmarks.accesskey              "P">
 
-<!ENTITY col.name.label              "Ime">
+<!ENTITY col.name.label              "Naziv">
 <!ENTITY col.tags.label              "Oznake">
 <!ENTITY col.url.label               "Lokacija">
 <!ENTITY col.lastvisit.label         "Datum posjete">
@@ -89,9 +89,9 @@
 <!ENTITY col.keyword.label           "Ključna riječ">
 <!ENTITY col.description.label       "Opis">
 <!ENTITY col.dateadded.label         "Dodano">
-<!ENTITY col.lastmodified.label      "Zadnje izmijenjeno">
-<!ENTITY col.parentfolder.label      "Sadržana mapa">
-<!ENTITY col.parentfolderpath.label  "Putanja sadržane mape">
+<!ENTITY col.lastmodified.label      "Zadnja promjena">
+<!ENTITY col.parentfolder.label      "Sadržajna mapa">
+<!ENTITY col.parentfolderpath.label  "Putanja sadržajne mape">
 
 <!ENTITY search.label                              "Pretraga:">
 <!ENTITY search.accesskey                          "P">
@@ -112,19 +112,19 @@
 
 <!ENTITY maintenance.label      "Unos i sigurnosne kopije">
 <!ENTITY maintenance.accesskey  "U">
-<!ENTITY maintenance.tooltip    "Unesite ili izvezite svoje zabilješke">
+<!ENTITY maintenance.tooltip    "Uvezite ili sigurnosno kopirajte svoje zabilješke">
 
-<!ENTITY backButton.tooltip  "Natrag za jednu stranicu">
+<!ENTITY backButton.tooltip  "Idi natrag">
 
-<!ENTITY forwardButton.tooltip  "Naprijed za jednu stranicu">
+<!ENTITY forwardButton.tooltip  "Idi naprijed">
 
 <!ENTITY detailsPane.more.label "Više">
 <!ENTITY detailsPane.more.accesskey "V">
 <!ENTITY detailsPane.less.label "Manje">
 <!ENTITY detailsPane.less.accesskey "M">
-<!ENTITY detailsPane.selectAnItemText.description "Odaberite stavku za pregled i ureživanje njenih svojstava">
+<!ENTITY detailsPane.selectAnItemText.description "Odaberite stavku za pregled i uređivanje njenih svojstava">
 
-<!ENTITY find.label               "Traži:">
+<!ENTITY find.label               "Pretraži:">
 <!ENTITY find.accesskey           "ž">
 <!ENTITY view.label               "Prikaz">
 <!ENTITY view.accesskey           "i">

@@ -21,10 +21,13 @@
 <!ENTITY useAutoScroll.accesskey         "α">
 <!ENTITY useSmoothScrolling.label        "Χρήση ομαλής κύλισης">
 <!ENTITY useSmoothScrolling.accesskey    "Χ">
-<!ENTITY allowHWAccel.label              "Χρήση επιτάχυνσης υλικού όπου είναι διαθέσιμη">
-<!ENTITY allowHWAccel.accesskey          "π">
 <!ENTITY checkSpelling.label             "Ορθογραφικός έλεγχος κατά την πληκτρολόγηση">
 <!ENTITY checkSpelling.accesskey         "θ">
+<!ENTITY HWAccel.label                   "Επιτάχυνση Υλικού (HWA)">
+<!ENTITY restartRequired.label           "Η αλλαγή αυτών των ρυθμίσεων απαιτεί επανεκκίνηση του περιηγητή.">
+<!ENTITY allowHWAccel.label              "Χρήση επιτάχυνσης υλικού όπου είναι διαθέσιμη">
+<!ENTITY allowHWAccel.accesskey          "π">
+<!ENTITY forceHWAccel.label              "Επιβολή επιτάχυνσης υλικού">
 
 <!ENTITY systemDefaults.label            "Προεπιλογές συστήματος">
 <!ENTITY alwaysCheckDefault.label        "Πάντα έλεγχος κατά την εκκίνηση για το αν ο &brandShortName; είναι ο προεπιλεγμένος περιηγητής"><!--XXX-->
@@ -45,7 +48,7 @@
 <!ENTITY dataChoicesTab.label            "Επιλογές δεδομένων">
 
 <!ENTITY crashReporterSection.label      "Εφαρμογή αναφοράς καταρρεύσεων">
-<!ENTITY crashReporterDesc.label         "Ο &brandShortName; υποβάλλει αναφορές καταρρεύσεων στον &vendorShortName; για την βελτίωση της σταθερότητας και της ασφάλειας του περιηγητή σας">
+<!ENTITY crashReporterDesc.label         "Ο &brandShortName; υποβάλλει αναφορές καταρρεύσεων στην &vendorShortName; για την βελτίωση της σταθερότητας και της ασφάλειας του περιηγητή σας">
 <!ENTITY enableCrashReporter.label       "Ενεργοποίηση αναφορών καταρρεύσεων">
 <!ENTITY enableCrashReporter.accesskey   "ν">
 <!ENTITY crashReporterLearnMore.label    "Μάθετε περισσότερα">
