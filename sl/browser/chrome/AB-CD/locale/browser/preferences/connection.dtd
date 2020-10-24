@@ -32,7 +32,7 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
-<!ENTITY  socksRemoteDNS.label          "Use proxy to perform DNS queries (SOCKS v5 only)">
+<!ENTITY  socksRemoteDNS.label          "Uporaba posrednika za izvajanje poizvedb DNS (samo SOCKS v5)">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Vrata:">
 <!ENTITY  HTTPport.accesskey            "v">
@@ -44,6 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Primer: .mozilla.org, .net.nz">
 <!ENTITY  shareproxy.label              "Uporabi istega posrednika za vse protokole">
 <!ENTITY  shareproxy.accesskey          "o">
-<!ENTITY  autologinproxy.label          "Do not prompt for authentication if password is saved">
+<!ENTITY  autologinproxy.label          "Če je geslo shranjeno, ne zahtevaj preverjanja pristnosti">
 <!ENTITY  autologinproxy.accesskey      "i">
-<!ENTITY  autologinproxy.tooltip        "This option silently authenticates you to proxies when you have saved credentials for them. You will be prompted if authentication fails.">
+<!ENTITY  autologinproxy.tooltip        "Ta možnost te tiho overi v strežnike posrednikov, ko so zanje shranjene poverilnice. Če preverjanje pristnosti ne uspe, boš obveščen.">

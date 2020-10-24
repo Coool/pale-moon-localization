@@ -5,7 +5,7 @@
 <!ENTITY addons.windowTitle                   "Upravitelj dodatkov">
 
 <!ENTITY search.placeholder                   "Išči po vseh dodatkih">
-<!ENTITY search.buttonlabel                   "Search">
+<!ENTITY search.buttonlabel                   "Išči">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
@@ -99,7 +99,7 @@
 <!ENTITY cmd.installAddon.accesskey           "i">
 <!ENTITY cmd.uninstallAddon.label             "Odstrani">
 <!ENTITY cmd.uninstallAddon.accesskey         "r">
-<!ENTITY cmd.debugAddon.label                 "Debug">
+<!ENTITY cmd.debugAddon.label                 "Razhroščevanje">
 <!ENTITY cmd.showPreferencesWin.label         "Možnosti">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Spremeni možnosti teh dodatkov">
 <!ENTITY cmd.showPreferencesUnix.label        "Nastavitve">
@@ -220,10 +220,10 @@
      This tab won't be displayed unless an Experiment add-on is installed.
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
-<!ENTITY experiment.info.label "What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore "Learn More">
-<!ENTITY experiment.info.learnmore.accesskey "L">
-<!ENTITY experiment.info.changetelemetry "Telemetry Settings">
+<!ENTITY experiment.info.label "Kaj je to? Telemetrija oziroma pridobivanje uporabniških podatkov lahko občasno avtomatično namesti in poganja preizkuse v vašem brskalniku.">
+<!ENTITY experiment.info.learnmore "Več o tem">
+<!ENTITY experiment.info.learnmore.accesskey "M">
+<!ENTITY experiment.info.changetelemetry "Nastavitve telemetrije">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Learn More…">
+<!ENTITY setting.learnmore "Več o tem …">
