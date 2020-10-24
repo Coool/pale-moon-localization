@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  addons.label                  "Add-ons">
+<!ENTITY  addons.label                  "Dodatki">
 
 <!ENTITY  warnAddonInstall.label        "Opozori me, kadar bodo strani poskušale namestiti dodatke">
 <!ENTITY  warnAddonInstall.accesskey    "O">
@@ -10,11 +10,11 @@
 <!ENTITY  addonExceptions.label         "Izjeme …">
 <!ENTITY  addonExceptions.accesskey     "E">
 
-<!ENTITY  addonSecuritylevel            "Add-on security level:">
-<!ENTITY  addonSecurityLevel_Off        "Off: No add-ons will be blocked (dangerous)">
-<!ENTITY  addonSecurityLevel_Low        "Low: Block only add-ons with severe security and stability issues">
-<!ENTITY  addonSecurityLevel_High       "Medium: Block all harmful add-ons (default, recommended)">
-<!ENTITY  addonSecurityLevel_Extreme    "High: Block all add-ons with known issues">
+<!ENTITY  addonSecuritylevel            "Varnostni nivo dodatkov:">
+<!ENTITY  addonSecurityLevel_Off        "Izklopljen: Dodatki ne bodo blokirani (nevarno)">
+<!ENTITY  addonSecurityLevel_Low        "Nizek: Samo dodatki s kritičnimi varnostnimi in stabilnostnimi napakami bodo blokirani">
+<!ENTITY  addonSecurityLevel_High       "Srednji: Blokirani bodo vsi nevarni dodatki (privzeta in priporočena nastavitev)">
+<!ENTITY  addonSecurityLevel_Extreme    "Visok: Blokirani bodo vsi dodatki z znanimi napakami">
 
 <!ENTITY  passwords.label               "Gesla">
 
@@ -23,8 +23,8 @@
 <!ENTITY  passwordExceptions.label      "Izjeme …">
 <!ENTITY  passwordExceptions.accesskey  "i">
 
-<!ENTITY  autofillPasswords.label       "Automatically fill in log-in details">
-<!ENTITY  autofillPasswords.accesskey   "A">
+<!ENTITY  autofillPasswords.label       "Avtomatično vnesi prijavne podatke">
+<!ENTITY  autofillPasswords.accesskey   "a">
 
 <!ENTITY  useMasterPassword.label        "Uporabi glavno geslo">
 <!ENTITY  useMasterPassword.accesskey    "U">
@@ -34,13 +34,13 @@
 <!ENTITY  savedPasswords.label            "Shranjena gesla …">
 <!ENTITY  savedPasswords.accesskey        "G">
 
-<!ENTITY  SecProto.label             "Security Protocols">
-<!ENTITY  enableHSTS.label           "Enable Strict Transport Security (HSTS)">
+<!ENTITY  SecProto.label             "Varnostni protokoli">
+<!ENTITY  enableHSTS.label           "Vklopi in upoštevaj &quot;Strict Transport Security (HSTS)&quot;">
 <!ENTITY  enableHSTS.accesskey       "S">
 
-<!ENTITY  OpEnc.label                "Opportunistic Encryption (OE)">
-<!ENTITY  enableUIROpEnc.label       "Enable Upgrade Insecure Requests">
-<!ENTITY  enableAltSvcOpEnc.label    "Enable HTTP Alternative Services for OE">
+<!ENTITY  OpEnc.label                "Oportunistično šifriranje (OŠ)">
+<!ENTITY  enableUIROpEnc.label       "Vklopi in upoštevaj &quot;Upgrade Insecure Requests&quot;">
+<!ENTITY  enableAltSvcOpEnc.label    "Vklopi in upoštevaj &quot;HTTP Alternative Services&quot; za OŠ">
 
 <!ENTITY  XSSFilt.label              "Filter XSS">
 <!ENTITY  enableXSSFilt.label        "Omogoči filter XSS">
