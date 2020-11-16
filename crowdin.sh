@@ -7,11 +7,16 @@ if [ ! -f .crowdin.key ]; then
 else
   key=`cat .crowdin.key`
 fi
+if [ ! -f .crowdin.account ]; then
+  printf "\n.crowdin.account not found\n" && exit
+else
+  account=`cat .crowdin.account`
+fi
 
 for lang in ar bg cs da de el en-GB es-AR es-ES es-MX fa fi fr gl hr hu id is it ja kn ko nl pl pt-BR pt-PT ro ru sk sl sr sv-SE th tl tr uk vi zh-CN zh-TW
 do
   printf "\n  downloading $lang locale from CrowdIn:\n\n"
-  wget -q --show-progress https://api.crowdin.com/api/project/pale-moon/download/$lang.zip?key=$key -O $lang.zip
+  wget -q --no-check-certificate --show-progress https://api.crowdin.com/api/project/pale-moon/download/$lang.zip?login=$account\&account-key=$key -O $lang.zip
   if [ $? -ne 0 ]; then
    exit
   fi
