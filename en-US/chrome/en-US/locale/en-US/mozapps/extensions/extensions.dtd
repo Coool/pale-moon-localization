@@ -24,7 +24,6 @@
 <!ENTITY cmd.back.tooltip                     "Go back one page">
 <!ENTITY cmd.forward.tooltip                  "Go forward one page">
 
-
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "All add-ons have been disabled by safe mode.">
 <!ENTITY warning.checkcompatibility.label          "Add-on compatibility checking is disabled. You may have incompatible add-ons.">
@@ -33,10 +32,6 @@
 <!ENTITY warning.updatesecurity.label              "Add-on update security checking is disabled. You may be compromised by updates.">
 <!ENTITY warning.updatesecurity.enable.label       "Enable">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Enable add-on update security checking">
-
-<!-- global informations -->
-<!ENTITY info.plugincheck.label                 "Check to see if your plugins are up to date">
-<!ENTITY info.plugincheck.tooltip               "Check to see if your plugins are up to date">
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "Search">
@@ -212,9 +207,6 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Loading…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Sorry, but there was an error loading the release notes.">
 
-<!ENTITY addon.nativeAddon                    "This add-on directly targets &brandFullName;">
-<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
-
 <!ENTITY addon.createdBy.label                "By ">
 
 <!ENTITY eula.title                           "End-User License Agreement">
@@ -236,4 +228,3 @@
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
 <!ENTITY setting.learnmore "Learn More…">
-
