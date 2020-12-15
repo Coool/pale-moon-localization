@@ -1,10 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY  updateWizard.title              "&brandShortName;-update">
+<!ENTITY  updateWizard.title              "Software-update">
 
 <!ENTITY  checking.title                  "Controleren op updates">
-<!ENTITY  updateCheck.label               "Controleren op updates, maar mij laten kiezen of ik deze wil installeren">
+<!ENTITY  updateCheck.label               "Controleren op nieuwere versies van &brandShortName;…">
 
 <!ENTITY  noupdatesfound.title            "Geen updates gevonden">
 <!ENTITY  noupdatesautoenabled.intro      "Er zijn geen updates beschikbaar. &brandShortName; zal periodiek
@@ -19,13 +19,13 @@
                                            heeft om software op deze computer te installeren.">
 <!ENTITY  manualUpdate.space.desc         "Er is een aanbevolen beveiligings- en stabiliteitsupdate beschikbaar, maar u hebt
                                            niet genoeg ruimte om deze te installeren.">
-<!ENTITY  manualUpdateGetMsg.label        "U kunt de laatste versie van &brandShortName; altijd verkrijgen op:">
+<!ENTITY  manualUpdateGetMsg.label        "U kunt de nieuwste versie van &brandShortName; altijd verkrijgen op:">
 
 <!ENTITY  unsupported.title               "Niet-ondersteund systeem">
-<!ENTITY  unsupported.label               "Uw &brandShortName; is verouderd maar de laatste versie wordt niet
-                                           ondersteund op uw systeem. Upgrade uw systeem en probeer het vervolgens opnieuw.
-                                           U zult dit bericht niet nogmaals zien maar dat kan wel">
-<!ENTITY  unsupportedLink.label           "Meer info.">
+<!ENTITY  unsupported.label               "Uw &brandShortName; is verouderd, maar de nieuwste versie wordt niet
+                                           ondersteund op uw systeem. Upgrade uw systeem en probeer het dan opnieuw.
+                                           U zult deze melding niet meer zien, maar u kunt wel">
+<!ENTITY  unsupportedLink.label           "meer lezen.">
 
 <!ENTITY  clickHere.label                 "Meer informatie over deze update bekijken">
 
@@ -48,16 +48,16 @@
 <!ENTITY  error.label                     "Er was een probleem bij het controleren op, of het downloaden of installeren
                                            van deze update. &brandShortName; kon niet worden bijgewerkt, omdat:">
                                            
-<!ENTITY  errorManual.label               "U kunt &brandShortName; handmatig bijwerken door deze koppeling te
-                                           bezoeken en de laatste versie te downloaden:">
+<!ENTITY  errorManual.label               "U kunt &brandShortName; handmatig bijwerken door deze link
+                                           te bezoeken en de laatste versie te downloaden:">
                                            
 <!ENTITY  errorpatching.intro             "De gedeeltelijke update kon niet worden toegepast. 
                                            &brandShortName; zal het opnieuw proberen door een volledige update te downloaden.">
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; kan niet bepalen of er een update beschikbaar is.
-                                           Verzeker u ervan dat u de laatste versie van &brandShortName; hebt van:">
+                                           Verzeker u ervan dat u de laatste versie van &brandShortName; heeft van:">
 
-<!ENTITY  finishedPage.title              "Update klaar om te installeren">
+<!ENTITY  finishedPage.title              "Update gereed voor installatie">
 <!ENTITY  finishedPage.text               "De update zal de volgende keer dat &brandShortName; start worden geïnstalleerd. U
                                            kunt &brandShortName; nu herstarten of doorgaan met werken en later herstarten.">
 
