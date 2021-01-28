@@ -15,7 +15,7 @@ temp_dir=$(mktemp -d /tmp/crowdin.XXXXXX)
 trap "rm -rf $temp_dir" 0 2 3 15
 
 printf "\n  unzipping $1.zip ... "
-unzip -q $1.zip -x "v27/*" -d $temp_dir
+unzip -q $1.zip -d $temp_dir
 if [ $? -eq 0 ]; then
   printf "done\n"
 else
@@ -26,10 +26,10 @@ printf "  processing *.properties ... "
 find $temp_dir/ -name "*.properties" -exec perl crowdin-filter.pl {} \;
 printf "done\n"
 printf "  processing *.dtd ... "
-find $temp_dir/ -name "*.dtd" -exec sed -i 's/\&amp;\([\.a-zA-Z0-9]*\);/\&\1;/g;s/{\[=-/</g;s/-=\]}/>/g' {} \;
-find $temp_dir/ -name "netError.dtd" -exec sed -i 's/\&lt;/</g;s/\&gt;/>/g' {} \;
+find $temp_dir/ -name "*.dtd" -exec sed -i 's/\&amp;\([\.a-zA-Z0-9]*\);/\&\1;/g;s/{\[=-/</g;s/-=\]}/>/g' {} \; &> /dev/null
+find $temp_dir/ -name "netError.dtd" -exec sed -i 's/\&lt;/</g;s/\&gt;/>/g' {} \; &> /dev/null
 find $temp_dir/ \( -name "aboutRights.dtd" -o -name "aboutSessionRestore.dtd" -o -name "printPageSetup.dtd" \
-                   -o -name "printPreview.dtd" -o -name "printProgress.dtd" \) -exec sed -i 's/%/\&#37;/g' {} \;
+                   -o -name "printPreview.dtd" -o -name "printProgress.dtd" \) -exec sed -i 's/%/\&#37;/g' {} \; &> /dev/null
 printf "done\n"
 
 printf "  zipping result to $1-fix.zip ... "
