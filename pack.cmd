@@ -1,8 +1,8 @@
 @echo off
-set VER=29.0.0
+set VER=29.1.0
 
-rem ar da fa fi gl hr id is ja kn ro sl sr th vi zh-TW
-set LOCALES=bg cs de el en-GB es-AR es-ES es-MX fr hu it ko nl pl pt-BR pt-PT ru sk sv-SE tl tr uk zh-CN
+rem fa kn vi
+set LOCALES=ar bg cs da de el en-GB es-AR es-ES es-MX fi fr gl hr hu id is it ja ko nl pl pt-BR pt-PT ro ru sl sk sr sv-SE th tl tr uk zh-CN zh-TW
 
 for /f "tokens=1,2 delims=." %%a in ("%VER%") do set MIN=%%a.%%b.0a1
 for /f "tokens=1,2 delims=." %%a in ("%VER%") do set MAX=%%a.%%b.*
