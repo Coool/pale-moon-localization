@@ -6,7 +6,7 @@
 
 <!ENTITY generalTab.label                "ทั่วไป">
 
-<!ENTITY accessibility.label             "สิ่งอำนวยความสะดวก">
+<!ENTITY accessibility.label             "การเข้าถึง">
 
 <!ENTITY useCursorNavigation.label       "ใช้ปุ่มลูกศรนำทางภายในหน้าเสมอ">
 <!ENTITY useCursorNavigation.accesskey   "c">
@@ -23,11 +23,11 @@
 <!ENTITY useSmoothScrolling.accesskey    "m">
 <!ENTITY checkSpelling.label             "ตรวจสอบตัวสะกดขณะพิมพ์">
 <!ENTITY checkSpelling.accesskey         "t">
-<!ENTITY HWAccel.label                   "Hardware Acceleration (HWA)">
-<!ENTITY restartRequired.label           "Changes to these settings require a browser restart.">
+<!ENTITY HWAccel.label                   "การเพิ่มประสิทธิภาพฮาร์ดแวร์ (HWA)">
+<!ENTITY restartRequired.label           "การเปลี่ยนแปลงการตั้งค่าเหล่านี้จำเป็นต้องเริ่มเบราเซอร์ใหม่">
 <!ENTITY allowHWAccel.label              "ใช้การเร่งความเร็วด้วยฮาร์ดแวร์เมื่อมีให้ใช้">
 <!ENTITY allowHWAccel.accesskey          "r">
-<!ENTITY forceHWAccel.label              "Force hardware acceleration">
+<!ENTITY forceHWAccel.label              "บังคับใช้การเพิ่มประสิทธิภาพฮาร์ดแวร์">
 
 <!ENTITY systemDefaults.label            "ค่าปริยายของระบบ">
 <!ENTITY alwaysCheckDefault.label        "ตรวจว่า &brandShortName; เป็นเบราว์เซอร์ปริยายหรือไม่ เมื่อเริ่มโปรแกรมทุกครั้ง"><!--XXX-->
@@ -36,8 +36,8 @@
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; เป็นเบราว์เซอร์ปริยายของคุณ">
 
-<!ENTITY UAWarning.label                 "Warning: your user-agent is globally overridden">
-<!ENTITY UAWarning.reset                 "Reset">
+<!ENTITY UAWarning.label                 "คำเตือน: user-agent ของคุณได้แทนที่หมดแล้ว">
+<!ENTITY UAWarning.reset                 "คืนค่า">
 <!ENTITY UACompatGroup.label             "ความเข้ากันได้">
 <!ENTITY UACompat.label                  "โหมดตัวแทนผู้ใช้:">
 <!ENTITY UACompat.Native                 "พื้นเมือง">
@@ -153,4 +153,4 @@
 <!ENTITY smoothscroll.scrollbar.label       "การเลื่อนแบบนุ่มนวลด้วยแถบเลื่อน">
 <!ENTITY smoothscroll.scrollbar.duration    "ระยะเวลาการเลื่อนแบบนุ่มนวลด้วยแถบเลื่อน:">
 
-<!ENTITY smoothscroll.overall.yspeed.label  "Overall smooth scroll speed:">
+<!ENTITY smoothscroll.overall.yspeed.label  "ความเร็วการเลื่อนแบบช้า:">
