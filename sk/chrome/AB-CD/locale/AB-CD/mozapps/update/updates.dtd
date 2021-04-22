@@ -32,11 +32,11 @@
 <!ENTITY  evangelism.desc                 "Dôrazne odporúčame čo najskôr použiť túto aktualizáciu
                                            aplikácie &brandShortName;.">
 
-<!ENTITY  downloadPage.title              "Preberá sa &brandShortName;">
-<!ENTITY  downloading.intro               "Preberá sa aktualizácia…">
+<!ENTITY  downloadPage.title              "Sťahuje sa &brandShortName;">
+<!ENTITY  downloading.intro               "Sťahuje sa aktualizácia…">
 <!ENTITY  connecting.label                "Pripája sa k aktualizačnému serveru…">
 <!ENTITY  verificationFailedText.label    "&brandShortName; nedokázal overiť integritu
-                                           prevzatej rozdielovej aktualizácie. Mali by ste prevziať
+                                           stiahnutej rozdielovej aktualizácie. Sťahuje sa preto
                                            kompletný aktualizačný balík.">
 
 <!ENTITY  viewDetails.tooltip             "Zobraziť podrobnosti k tejto aktualizácii">
@@ -45,14 +45,14 @@
 
 <!ENTITY  error.title                     "Aktualizácia zlyhala">
 
-<!ENTITY  error.label                     "Pri kontrole, preberaní alebo inštalácii aktualizácie došlo k chybe. &brandShortName;
-                                           sa nepodarilo aktualizovať, pretože: ">
+<!ENTITY  error.label                     "Pri kontrole, sťahovaní alebo inštalácii aktualizácie došlo k chybe. &brandShortName;
+                                           sa nepodarilo aktualizovať, pretože:">
                                            
-<!ENTITY  errorManual.label               "&brandShortName; odporúčame aktualizovať ručne prevzatím najnovšej verzie
-                                           z tejto stránky: ">
+<!ENTITY  errorManual.label               "&brandShortName; odporúčame aktualizovať ručne stiahnutím najnovšej verzie
+                                           z tejto stránky:">
                                            
-<!ENTITY  errorpatching.intro             "Použitie rozdielovej aktualizácie bolo neúspešné.
-                                           &brandShortName; sa pokúsi prevziať kompletnú aktualizáciu.">
+<!ENTITY  errorpatching.intro             "Použitie rozdielovej aktualizácie bolo neúspešné. 
+                                           &brandShortName; sa pokúsi stiahnuť kompletnú aktualizáciu.">
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; nedokázal zistiť, či je dostupná nejaká aktualizácia.
                                            Uistite sa, že máte najnovšiu verziu aplikácie &brandShortName; na stránke:">
@@ -62,7 +62,7 @@
                                            &brandShortName;. Aplikáciu &brandShortName; môžete reštartovať teraz, alebo
                                            pokračujte v práci a reštartujte neskôr.">
 
-<!ENTITY  finishedBackgroundPage.text     "&brandShortName; práve dokončil preberanie bezpečnostnej a stabilizačnej
+<!ENTITY  finishedBackgroundPage.text     "&brandShortName; práve dokončil sťahovanie bezpečnostnej a stabilizačnej
                                            aktualizácie, ktorá je teraz pripravená na inštaláciu.">
 <!ENTITY  finishedBackground.name         "Aktualizácia:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
