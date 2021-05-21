@@ -1,0 +1,121 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutSupport.pageTitle "विघ्ननिवारण सूचना">
+
+<!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
+<!ENTITY aboutSupport.pageSubtitle "यह पृष्ठ आपको एक समस्या को हल करने की कोशिश कर रहे हैं 
+उपयोगी हो सकता है कि तकनीकी जानकारी है. 
+&brandShortName;, के बारे में आम सवालों के जवाब की तलाश में हैं, हमारे  <a id='supportLink'>समर्थन वेबसाइट की जाँच करें.</a>">
+
+<!ENTITY aboutSupport.crashes.title "Crash Reports">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "Report ID">
+<!ENTITY aboutSupport.crashes.sendDate "Submitted">
+<!ENTITY aboutSupport.crashes.allReports "All Crash Reports">
+<!ENTITY aboutSupport.crashes.noConfig "This application has not been configured to display crash reports.">
+
+<!ENTITY aboutSupport.extensionsTitle "विस्तार">
+<!ENTITY aboutSupport.extensionName "नाम">
+<!ENTITY aboutSupport.extensionEnabled "सक्रिय">
+<!ENTITY aboutSupport.extensionVersion "संस्करण">
+<!ENTITY aboutSupport.extensionId "ID">
+
+<!ENTITY aboutSupport.experimentsTitle "Experimental Features">
+<!ENTITY aboutSupport.experimentName "Name">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "Description">
+<!ENTITY aboutSupport.experimentActive "Active">
+<!ENTITY aboutSupport.experimentEndDate "End Date">
+<!ENTITY aboutSupport.experimentHomepage "Homepage">
+<!ENTITY aboutSupport.experimentBranch "Branch">
+
+<!ENTITY aboutSupport.appBasicsTitle "अनुप्रयोग मूल">
+<!ENTITY aboutSupport.appBasicsName "नाम">
+<!ENTITY aboutSupport.appBasicsVersion "संस्करण">
+<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
+
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+"Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
+<!ENTITY aboutSupport.appBasicsUpdateHistory "इतिहास अद्यतन करें">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "अद्यतन इतिहास दिखाएँ">
+
+<!ENTITY aboutSupport.appBasicsBinary "Application Binary">
+<!ENTITY aboutSupport.appBasicsProfileDir "प्रोफ़ाइल निर्देशिका">
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
+This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
+Windows/Mac use the term "Folder" instead of "Directory" -->
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac "प्रोफ़ाइल फ़ोल्डर">
+
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "सक्रिय प्लगिन">
+<!ENTITY aboutSupport.appBasicsBuildConfig "बिल्ड विन्यास">
+<!ENTITY aboutSupport.appBasicsUserAgent "उपयोक्ता प्रतिनिधि">
+<!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsMemoryUse "स्मृति के उपयोग">
+<!ENTITY aboutSupport.appBasicsPerformance "Performance">
+
+<!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Registered Service Workers">
+
+<!ENTITY aboutSupport.appBasicsProfiles "Profiles">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
+
+<!ENTITY aboutSupport.showDir.label "खुली निर्देशिका">
+<!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
+variant of aboutSupport.showDir.label.  This allows us to use the preferred
+"Finder" terminology on Mac. -->
+<!ENTITY aboutSupport.showMac.label "फाइंडर में पता करें">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
+variant of aboutSupport.showDir.label. -->
+<!ENTITY aboutSupport.showWin2.label "Open Folder">
+
+<!ENTITY aboutSupport.modifiedKeyPrefsTitle "महत्वपूर्ण रूपांतरित वरीयताएँ">
+<!ENTITY aboutSupport.modifiedPrefsName "नाम">
+<!ENTITY aboutSupport.modifiedPrefsValue "मान">
+
+<!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
+<!ENTITY aboutSupport.userJSTitle "उपयोक्ता प्राथमिकताएँ">
+<!ENTITY aboutSupport.userJSDescription "Your profile folder contains a <a id='prefs-user-js-link'>user.js file</a>, which includes preferences that were not created by &brandShortName;.">
+
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedPrefsName "Name">
+<!ENTITY aboutSupport.lockedPrefsValue "Value">
+
+<!ENTITY aboutSupport.graphicsTitle "चित्रादि">
+
+<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
+
+<!ENTITY aboutSupport.jsTitle "जावा स्क्रिप्ट">
+<!ENTITY aboutSupport.jsIncrementalGC "संवर्द्धित GC">
+
+<!ENTITY aboutSupport.a11yTitle "पहुँच">
+<!ENTITY aboutSupport.a11yActivated "सक्रिय">
+<!ENTITY aboutSupport.a11yForceDisabled "पहुँच रोकें">
+
+<!ENTITY aboutSupport.libraryVersionsTitle "लाइब्रेरी संस्करण">
+
+<!ENTITY aboutSupport.installationHistoryTitle "संस्थापन इतिहास">
+<!ENTITY aboutSupport.updateHistoryTitle "इतिहास अद्यतन करें">
+
+<!ENTITY aboutSupport.copyTextToClipboard.label "पाठ क्लिपबोर्ड में नक़ल लें">
+
+<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart in Safe Mode…">
+
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Features">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnostics">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Failure Log">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decision Log">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Crash Guard Disabled Features">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">

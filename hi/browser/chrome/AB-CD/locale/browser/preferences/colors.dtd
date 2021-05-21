@@ -1,0 +1,40 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  colorsDialog.title              "रंग">
+<!ENTITY  window.width                    "38em">
+<!ENTITY  window.macWidth                 "41em">
+
+<!ENTITY  overridePageColors.label        "Override the colors specified by the page with my selections above:">
+<!ENTITY  overridePageColors.accesskey    "O">
+
+<!ENTITY  overridePageColors.always.label "Always">
+<!ENTITY  overridePageColors.auto.label   "Only with High Contrast themes">
+<!ENTITY  overridePageColors.never.label  "Never">
+
+<!ENTITY  color                           "पाठ व पृष्ठभूमि">
+<!ENTITY  textColor.label                 "पाठ: (T)">
+<!ENTITY  textColor.accesskey             "T">
+<!ENTITY  backgroundColor.label           "पृष्ठभूमि: (B)">
+<!ENTITY  backgroundColor.accesskey       "B">
+<!ENTITY  useSystemColors.label           "सिस्टम रंग का प्रयोग करें (s)">
+<!ENTITY  useSystemColors.accesskey       "s">
+
+<!ENTITY  underlineLinks.label            "रेखांकित कड़ी (U)">
+<!ENTITY  underlineLinks.accesskey        "U">
+<!ENTITY  links                           "रंग कड़ीबद्ध करें">
+<!ENTITY  linkColor.label                 "अनदेखी कड़ियाँ:">
+<!ENTITY  linkColor.accesskey             "l">
+<!ENTITY  visitedLinkColor.label          "देखी कड़ियाँ:">
+<!ENTITY  visitedLinkColor.accesskey      "v">
+
+<!ENTITY prefersColorScheme.caption            "Web Page Color Scheme">
+<!ENTITY prefersColorScheme.label              "When a web page asks for my preferred color scheme:">
+<!ENTITY prefersColorSchemeLight.label         "Use light colors">
+<!ENTITY prefersColorSchemeLight.accesskey     "i">
+<!ENTITY prefersColorSchemeDark.label          "Use dark colors">
+<!ENTITY prefersColorSchemeDark.accesskey      "d">
+<!ENTITY prefersColorSchemeDisabled.label      "Do not provide a preferred color scheme">
+<!ENTITY prefersColorSchemeDisabled.accesskey  "n">
+<!ENTITY prefersColorSchemeWarning             "WARNING: Not providing a preferred color scheme may result in websites or services not working properly.">
