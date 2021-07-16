@@ -3,17 +3,17 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Values for changepassword.xul -->
-<!ENTITY setPassword.title  "Palitan ang Master Password">
+<!ENTITY setPassword.title  "Palitan ang Pangunahing Kontrasenyas">
 <!ENTITY setPassword.tokenName.label "Kagamitang Pangseguridad">
-<!ENTITY setPassword.oldPassword.label "Kasalukuyang password:">
-<!ENTITY setPassword.newPassword.label "Bagong password:">
-<!ENTITY setPassword.reenterPassword.label "Bagong password (ulit):">
-<!ENTITY setPassword.meter.label "Metro sa kalidad ng password">
+<!ENTITY setPassword.oldPassword.label "Kasalukuyang kontrasenyas:">
+<!ENTITY setPassword.newPassword.label "Bagong kontrasenyas:">
+<!ENTITY setPassword.reenterPassword.label "Bagong kontrasenyas (ulit):">
+<!ENTITY setPassword.meter.label "Metro sa kalidad ng kontrasenyas">
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "I-reset">
-<!ENTITY resetPassword.title  "I-reset ang Master Password">
-<!ENTITY resetPassword.text  "Kapag ni-reset mo ang iyong master password, lahat ng naka-imbak na mga web at email password, datos sa form, personal na sertipiko, at mga pribadong key ay mawawala. Sigurado ka bang nais mong i-reset ang iyong master password?">
+<!ENTITY resetPassword.title  "I-reset ang Pangunahing Kontrasenyas">
+<!ENTITY resetPassword.text  "Kapag ni-reset mo ang iyong pangunahing kontrasenyas, lahat ng naka-imbak na mga web at email kontrasenyas, datos sa form, personal na sertipiko, at mga pribadong key ay mawawala. Sigurado ka bang nais mong i-reset ang iyong pangunahing kontrasenyas?">
 
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "Dina-download ang Sertipiko">
@@ -31,11 +31,11 @@
 <!ENTITY clientAuthAsk.message2 "Pumili ng sertipiko na ipepresenta bilang pagkakakilanlan:">
 <!ENTITY clientAuthAsk.message3 "Mga detalye ng piniling sertipiko:">
 
-<!ENTITY pkcs12.setpassword.title  "Pumili ng Backup Password ng Sertipiko">
-<!ENTITY pkcs12.setpassword.message  "Ang backup password ng sertipiko na iyong itatakda dito ay pumoprotekta sa backup file na iyong gagawin.  Kailangan mong itakda tiong password para makapagpatuloy sa backup.">
-<!ENTITY pkcs12.setpassword.label1 "Backup password ng sertipiko:">
-<!ENTITY pkcs12.setpassword.label2 "Backup password ng sertipiko (ulit):">
-<!ENTITY pkcs12.setpassword.reminder "Importante: Kung nakalimutan mo ang backup password ng iyong sertipiko, hindi mo na maaaring ibalik ang backup na ito mamaya.  Paki-lagay ito sa isang ligtas na lokasyon.">
+<!ENTITY pkcs12.setpassword.title  "Pumili ng Backup Kontrasenyas ng Sertipiko">
+<!ENTITY pkcs12.setpassword.message  "Ang backup kontrasenyas ng sertipiko na iyong itatakda dito ay pumoprotekta sa backup file na iyong gagawin.  Kailangan mong itakda tiong kontrasenyas para makapagpatuloy sa backup.">
+<!ENTITY pkcs12.setpassword.label1 "Backup kontrasenyas ng sertipiko:">
+<!ENTITY pkcs12.setpassword.label2 "Backup kontrasenyas ng sertipiko (ulit):">
+<!ENTITY pkcs12.setpassword.reminder "Importante: Kung nakalimutan mo ang backup kontrasenyas ng iyong sertipiko, hindi mo na maaaring ibalik ang backup na ito mamaya.  Paki-lagay ito sa isang ligtas na lokasyon.">
 
 <!ENTITY chooseToken.title  "Pumili ng Token Dialog">
 <!ENTITY chooseToken.message1 "Pumili ng token.">

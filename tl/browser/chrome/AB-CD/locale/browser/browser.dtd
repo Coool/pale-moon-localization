@@ -18,7 +18,7 @@
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "I-reload ang Tab">
 <!ENTITY  reloadTab.accesskey                "E">
-<!ENTITY  reloadAllTabs.label                "I-reload ang Lahat ng mga Tab">
+<!ENTITY  reloadAllTabs.label                "I-reload ang Lahat ng Tab">
 <!ENTITY  reloadAllTabs.accesskey            "a">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
@@ -39,14 +39,14 @@ can reach it easily. -->
 <!ENTITY  unpinTab.accesskey                 "b">
 <!ENTITY  moveToNewWindow.label              "Ilipat sa Bagong Window">
 <!ENTITY  moveToNewWindow.accesskey          "W">
-<!ENTITY  bookmarkAllTabs.label              "I-bookmark ang Lahat ng mga Tab…">
+<!ENTITY  bookmarkAllTabs.label              "Lagyan ng Pananda ang Lahat ng Tab…">
 <!ENTITY  bookmarkAllTabs.accesskey          "T">
 <!ENTITY  undoCloseTab.label                 "Ibalik ang Naisarang Tab">
 <!ENTITY  undoCloseTab.accesskey             "k">
 <!ENTITY  closeTab.label                     "Isara ang Tab">
 <!ENTITY  closeTab.accesskey                 "r">
 
-<!ENTITY  listAllTabs.label      "Ilista ang Lahat ng mga Tab">
+<!ENTITY  listAllTabs.label      "Ilista ang Lahat ng Tab">
 
 <!ENTITY tabCmd.label "Bagong Tab">
 <!ENTITY tabCmd.accesskey "T">
@@ -74,9 +74,9 @@ can reach it easily. -->
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "Halang ng Nabigasyon">
 <!ENTITY navbarCmd.accesskey "N">
-<!ENTITY personalbarCmd.label "Halang ng mga Bookmark">
+<!ENTITY personalbarCmd.label "Halang ng mga Pananda">
 <!ENTITY personalbarCmd.accesskey "B">
-<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Halang ng mga Bookmark">
+<!ENTITY bookmarksToolbarItem.label "Nilalaman ng Halang ng mga Pananda">
 <!ENTITY addonBarCmd.label "Halang ng Add-on">
 <!ENTITY addonBarCmd.accesskey "A">
 <!ENTITY statusBar.label               "Halang ng Kalagayan">
@@ -97,7 +97,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.label "Buong Screen">
 <!ENTITY fullScreenCmd.accesskey "B">
 <!ENTITY fullScreenCmd.macCommandKey "f">
-<!ENTITY showAllTabsCmd.label "Ipakita ang Lahat ng mga Tab">
+<!ENTITY showAllTabsCmd.label "Ipakita ang Lahat ng Tab">
 <!ENTITY showAllTabsCmd.accesskey "A">
 
 <!ENTITY fullScreenMinimize.tooltip "Paliitin">
@@ -115,18 +115,18 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY closeWindow.label "Isara ang Window">
 <!ENTITY closeWindow.accesskey "w">
 
-<!ENTITY bookmarksMenu.label "Mga Bookmark">
-<!ENTITY bookmarksMenu.accesskey "B">
-<!ENTITY bookmarkThisPageCmd.label "I-bookmark Itong Pahina">
+<!ENTITY bookmarksMenu.label "Mga Pananda">
+<!ENTITY bookmarksMenu.accesskey "P">
+<!ENTITY bookmarkThisPageCmd.label "Lagyan ng Pananda ang Pahina">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
 <!ENTITY subscribeToPageMenupopup.label "Magsuskribi sa Pahinang Ito">
 <!ENTITY subscribeToPageMenuitem.label "Magsuskribi sa Pahinang Ito…">
-<!ENTITY addCurPagesCmd.label "I-bookmark ang Lahat ng mga Tab…">
-<!ENTITY showAllBookmarks2.label "Ipakita ang Lahat ng mga Bookmark">
-<!ENTITY organizeBookmarks.label "Isaayos ang mga Bookmark">
-<!ENTITY unsortedBookmarksCmd.label "Halo-halong mga Bookmark">
-<!ENTITY bookmarksToolbarChevron.tooltip "Higit pang mga Bookmark">
+<!ENTITY addCurPagesCmd.label "Lagyan ng Pananda ang Lahat ng Tab…">
+<!ENTITY showAllBookmarks2.label "Ipakita ang Lahat ng Pananda">
+<!ENTITY organizeBookmarks.label "Isaayos ang mga Pananda">
+<!ENTITY unsortedBookmarksCmd.label "Mga Halo-halong Pananda">
+<!ENTITY bookmarksToolbarChevron.tooltip "Ipakita ang natitirang mga pananda">
 
 <!ENTITY backCmd.label                "Bumalik">
 <!ENTITY backCmd.accesskey            "B">
@@ -151,7 +151,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY locationItem.title           "Lokasyon">
 <!ENTITY searchItem.title             "Paghahanap">
 <!ENTITY throbberItem.title           "Indikador ng Aktibidad">
-<!ENTITY bookmarksItem.title          "Mga Bookmark">
+<!ENTITY bookmarksItem.title          "Mga Pananda">
 
 <!-- Toolbar items --> 
 <!ENTITY appMenuButton.label          "Menu">
@@ -161,15 +161,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY feedButton.label             "Magsuskribi">
 <!ENTITY feedButton.tooltip           "Magsuskribi sa pahinang ito…">
 
-<!ENTITY bookmarksButton.label          "Mga Bookmark">
-<!ENTITY bookmarksButton.tooltip        "Ipakita ang iyong mga bookmark">
+<!ENTITY bookmarksButton.label          "Mga Pananda">
+<!ENTITY bookmarksButton.tooltip        "Ipakita ang mga pananda mo">
 <!ENTITY bookmarksCmd.commandkey "b">
 
-<!ENTITY bookmarksMenuButton.label          "Mga Bookmark">
-<!ENTITY bookmarksMenuButton.tooltip        "Ipakita ang iyong mga bookmark">
-<!ENTITY bookmarksMenuButton.unsorted.label "Halo-halong mga Bookmark">
+<!ENTITY bookmarksMenuButton.label          "Mga Pananda">
+<!ENTITY bookmarksMenuButton.tooltip        "Ipakita ang mga pananda mo">
+<!ENTITY bookmarksMenuButton.unsorted.label "Mga Halo-halong Pananda">
 <!ENTITY viewBookmarksSidebar.label         "Ipakita sa Sidebar">
-<!ENTITY viewBookmarksToolbar.label         "Ipakita ang Halang ng mga Bookmark">
+<!ENTITY viewBookmarksToolbar.label         "Ipakita ang Halang ng mga Pananda">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -201,7 +201,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY preferencesCmd2.label        "Mga Preperensiya">
 <!ENTITY preferencesCmd2.accesskey    "P">
 
-<!ENTITY webDeveloperMenu.label       "Developer Tools">
+<!ENTITY webDeveloperMenu.label       "Mga Kasangkapan ng Developer">
 <!ENTITY webDeveloperMenu.accesskey   "v">
 
 <!ENTITY errorConsoleCmd.label        "Error Console">
@@ -273,8 +273,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuToolbarLayout.label "Pagkakaayos ng Halang">
 <!ENTITY appMenuSidebars.label "Mga Sidebar">
 <!ENTITY appMenuFind.label "Maghanap…">
-<!ENTITY appMenuUnsorted.label "Halo-halong mga Bookmark">
-<!ENTITY appMenuWebDeveloper.label "Developer Tools">
+<!ENTITY appMenuUnsorted.label "Mga Halo-halong Pananda">
+<!ENTITY appMenuWebDeveloper.label "Mga Kasangkapan ng Developer">
 <!ENTITY appMenuGettingStarted.label "Pagsisimula">
 <!ENTITY appMenuSafeMode.label "I-restart sa Safe Mode…">
 
@@ -348,11 +348,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBGImageCmd.accesskey     "w">
 <!ENTITY setDesktopBackgroundCmd.label      "Gawing Background ng Desktop…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "S">
-<!ENTITY bookmarkPageCmd2.label       "I-bookmark Itong Pahina">
+<!ENTITY bookmarkPageCmd2.label       "Lagyan ng Pananda ang Pahina">
 <!ENTITY bookmarkPageCmd2.accesskey   "m">
-<!ENTITY bookmarkThisLinkCmd.label      "I-bookmark Itong Kawing">
+<!ENTITY bookmarkThisLinkCmd.label      "Lagyan ng Pananda ang Kawing">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "N">
-<!ENTITY bookmarkThisFrameCmd.label      "I-bookmark Itong Frame">
+<!ENTITY bookmarkThisFrameCmd.label      "Lagyan ng Pananda ang Frame">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
 <!ENTITY emailPageCmd.label           "I-email ang Kawing…">
 <!ENTITY emailPageCmd.accesskey       "E">
