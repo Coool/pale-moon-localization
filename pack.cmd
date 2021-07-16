@@ -1,5 +1,5 @@
 @echo off
-set VER=29.2.0
+set VER=29.3.0
 
 rem fa hi kn vi
 set LOCALES=ar bg cs da de el en-GB es-AR es-ES es-MX fi fr gl hr hu id is it ja ko nl pl pt-BR pt-PT ro ru sl sk sr sv-SE th tl tr uk zh-CN zh-TW
