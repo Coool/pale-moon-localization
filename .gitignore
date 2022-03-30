@@ -5,8 +5,10 @@
 
 # Ignore misc files that need not be in the repo
 zip.exe
+unzip.exe
 sed.exe
 
 # CrowdIn API credentials
 .crowdin.account
 .crowdin.key
+/crowdin.yml

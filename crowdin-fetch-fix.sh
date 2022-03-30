@@ -33,7 +33,7 @@ find $temp_dir/ \( -name "aboutRights.dtd" -o -name "aboutSessionRestore.dtd" -o
 printf "done\n"
 
 printf "  zipping result to $1-fix.zip ... "
-cd $temp_dir
+cd $temp_dir/$1
 zip -q -r $currdir/$1-fix.zip *
 cd $currdir
 printf "done\n"

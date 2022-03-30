@@ -20,7 +20,7 @@ do
   if [ $? -ne 0 ]; then
    exit
   fi
-  sh ./crowdin-fix.sh $lang
+  sh ./crowdin-fetch-fix.sh $lang
   if [ $? -ne 0 ]; then
    exit
   fi
