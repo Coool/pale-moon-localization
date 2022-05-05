@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "tukaj">
 <!ENTITY rights3.webservices-c ". Ostale zmogljivosti in storitve lahko onemogočite v nastavitvah programa.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "Varno brskanje: ">
-<!ENTITY rights.safebrowsing-b "Možnost Varno brskanje onemogočiti ni priporočljivo, ker lahko zaradi tega zaidete na nevarna spletišča. Če ga želite v celoti onemogočiti, sledite tem korakom: ">
-<!ENTITY rights.safebrowsing-term1 "Odprite nastavitve programa ">
-<!ENTITY rights.safebrowsing-term2 "Izberite zavihek Varnost ">
-<!ENTITY rights2.safebrowsing-term3 "Odznačite to možnost za vklop Varnega Brskanja.">
-<!ENTITY rights.safebrowsing-term4 "Varno brskanje je tako onemogočeno">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Brskanje, ki se zaveda položaja: ">

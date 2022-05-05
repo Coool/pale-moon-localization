@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "instructions">
 <!ENTITY rights3.webservices-c " décrivant la manière de désactiver un Service ou une fonctionnalité en particulier. Les autres fonctionnalités ou Services peuvent être désactivés dans les préférences de l'application.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "Blocage de sites malveillants : ">
-<!ENTITY rights.safebrowsing-b "Il n'est pas recommandé de désactiver cette fonctionnalité car cela peut amener à naviguer sur des sites non sûrs. Si vous désirez désactiver la fonctionnalité complètement, suivre ces instructions :">
-<!ENTITY rights.safebrowsing-term1 "Ouvrir les préférences/options de l'application">
-<!ENTITY rights.safebrowsing-term2 "Sélectionner le panneau Sécurité">
-<!ENTITY rights2.safebrowsing-term3 "Décocher l’option pour activer Safe Browsing">
-<!ENTITY rights.safebrowsing-term4 "Le blocage de sites malveillants est alors désactivé.">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Navigation selon la localisation géographique : ">

@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "овде">
 <!ENTITY rights3.webservices-c ". Остале могућности или сервиси могу бити онемогућени у поставкама апликације.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "Безбедно читање:">
-<!ENTITY rights.safebrowsing-b "Онемогућавање могућности безбедног прегледања није препоручљиво, јер можете залутати на несигурне сајтове. Ако желите да потпуно онемогућите ову могућност, пратите следеће кораке:">
-<!ENTITY rights.safebrowsing-term1 "Отвори подешавања аапликације">
-<!ENTITY rights.safebrowsing-term2 "Изаберите Безбедност">
-<!ENTITY rights2.safebrowsing-term3 "Опозовите ову опцију за омогућавање безбедности">
-<!ENTITY rights.safebrowsing-term4 "Безбедно прегледање је сада онемогућено">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Читање осетљиво на положај: ">

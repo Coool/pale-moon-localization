@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "機能やサービスを無効化する手順">
 <!ENTITY rights3.webservices-c " をお読みください。その他の機能やサービスはアプリケーションの設定から無効化できます。">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "セーフブラウジング機能: ">
-<!ENTITY rights.safebrowsing-b "サイトが安全でなくなる恐れがあるため、セーフブラウジング機能を無効にすることはお勧めしません。この機能を完全に無効にしたい場合は以下の手順に従ってください:">
-<!ENTITY rights.safebrowsing-term1 "アプリケーションの設定またはオプションを開く">
-<!ENTITY rights.safebrowsing-term2 "セキュリティ設定を選択します。">
-<!ENTITY rights2.safebrowsing-term3 "セーフブラウジングを有効にする のチェックを外してください。">
-<!ENTITY rights.safebrowsing-term4 "セーフブラウジング機能が無効になります。">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "位置情報検出機能: ">

@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "täältä">
 <!ENTITY rights3.webservices-c ". Muut ominaisuudet ja palvelut voi poistaa päältä ohjelman asetuksista.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
-<!ENTITY rights.safebrowsing-b "Safe Browsing -toiminnon ottaminen pois päältä ei ole suositeltua, koska se voi johtaa ei-turvallisilla sivuilla käyntiin. Jos haluat ottaa tämän ominaisuuden pois päältä kokonaan, tee seuraavasti:">
-<!ENTITY rights.safebrowsing-term1 "Avaa ohjelman asetukset">
-<!ENTITY rights.safebrowsing-term2 "Valitse Turvallisuus-paneeli">
-<!ENTITY rights2.safebrowsing-term3 "Uncheck the option to enable Safe Browsing">
-<!ENTITY rights.safebrowsing-term4 "Safe Browsing -toiminto on nyt otettu pois päältä">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Sijaintitietoinen selaus: ">

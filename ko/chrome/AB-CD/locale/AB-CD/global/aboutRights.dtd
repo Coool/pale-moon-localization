@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "자세히 보기">
 <!ENTITY rights3.webservices-c " (기타 기능이나 서비스는 응용 프로그램 설정에서 해제할 수 있습니다.)">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "사생활 보호 기능: ">
-<!ENTITY rights.safebrowsing-b "사생활 보호 기능을 사용하지 않는 것은 안전한 웹 브라우징을 위해 권장하지 않습니다. 하지만 이 기능 중단을 원하시면 아래의 절차를 이용하십시오.:">
-<!ENTITY rights.safebrowsing-term1 "프로그램 설정 열기">
-<!ENTITY rights.safebrowsing-term2 "보안 설정 선택">
-<!ENTITY rights2.safebrowsing-term3 "사생활 보호 기능을 사용하려면 선택하지 않음.">
-<!ENTITY rights.safebrowsing-term4 "사생활 보호 기능 중단">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "위치 정보 서비스: ">

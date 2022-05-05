@@ -8,7 +8,7 @@
 <!ENTITY search.buttonlabel                   "Търси">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
-<!ENTITY search.commandkey                    "f">
+<!ENTITY search.commandkey                    "т">
 
 <!ENTITY loading.label                        "Зареждане…">
 <!ENTITY listEmpty.installed.label            "Нямате нито една инсталирана добавки от този тип">
@@ -203,6 +203,9 @@
 <!ENTITY addon.releaseNotes.label             "Списък с промени:">
 <!ENTITY addon.loadingReleaseNotes.label      "Зареждане…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Съжаляваме, но възникна грешка при изтеглянето на списъка с промени.">
+
+<!ENTITY addon.nativeAddon                    "This add-on directly targets &brandFullName;">
+<!ENTITY addon.compatAddon                    "This add-on targets Mozilla Firefox and runs in compatibility mode">
 
 <!ENTITY addon.createdBy.label                "От ">
 

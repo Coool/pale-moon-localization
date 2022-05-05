@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "tu">
 <!ENTITY rights3.webservices-c ". Ďalšie funkcie a Služby je možné vypnúť v nastaveniach aplikácie.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "Služba SafeBrowsing: ">
-<!ENTITY rights.safebrowsing-b "Vypnutie služby Safe Browsing sa neodporúča, pretože môže viesť k tomu, že sa dostanete na nebezpečné stránky. Ak si túto službu prajete vypnúť, postupujte nasledovne:">
-<!ENTITY rights.safebrowsing-term1 "Otvorte okno nastavení aplikácie">
-<!ENTITY rights.safebrowsing-term2 "Zvoľte panel Bezpečnosť">
-<!ENTITY rights2.safebrowsing-term3 "Zrušte zaškrtnutie možnosti pre povolenie služby Safe Browsing">
-<!ENTITY rights.safebrowsing-term4 "Služba Safe Browsing je teraz vypnutá">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Služba Prehliadanie s geolokáciou: ">

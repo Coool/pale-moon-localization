@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "hér">
 <!ENTITY rights3.webservices-c ". Andre funktioner og tjenester kan deaktiveres i programindstillingerne.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
-<!ENTITY rights.safebrowsing-b "Deaktivering af Safe Browsing funktionen er ikke anbefalet da det kan resultere i at du besøger usikre websteder. Hvis du ønsker at deaktivere denne funktion fuldstændigt, kan dette gøres ved følgene trin:">
-<!ENTITY rights.safebrowsing-term1 "Åbn programmets indstillinger/præferencer">
-<!ENTITY rights.safebrowsing-term2 "Vælg gruppen Sikkerhed">
-<!ENTITY rights2.safebrowsing-term3 "Afmarkér indstillingen for at aktivere Sikker Browsing">
-<!ENTITY rights.safebrowsing-term4 "Safe Browsing er nu deaktiveret">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Placeringsbevidst browsing: ">

@@ -407,7 +407,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 "Pause" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "Reproducir">
-<!ENTITY mediaPlay.accesskey         "p">
+<!ENTITY mediaPlay.accesskey         "R">
 <!ENTITY mediaPause.label            "Pausar">
 <!ENTITY mediaPause.accesskey        "P">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
@@ -459,14 +459,14 @@ fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
 
-<!ENTITY fullZoomEnlargeCmd.label       "Aumentar acercamiento">
+<!ENTITY fullZoomEnlargeCmd.label       "Acercar">
 <!ENTITY fullZoomEnlargeCmd.accesskey   "A">
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
 
-<!ENTITY fullZoomReduceCmd.label        "Reducir acercamiento">
-<!ENTITY fullZoomReduceCmd.accesskey    "d">
+<!ENTITY fullZoomReduceCmd.label        "Alejar">
+<!ENTITY fullZoomReduceCmd.accesskey    "j">
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
@@ -475,10 +475,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY fullZoomToggleCmd.label        "Aumentar o reducir texto solamente">
-<!ENTITY fullZoomToggleCmd.accesskey    "t">
-<!ENTITY fullZoom.label                 "Acercamiento">
-<!ENTITY fullZoom.accesskey             "A">
+<!ENTITY fullZoomToggleCmd.label        "Visibilidad de texto solamente">
+<!ENTITY fullZoomToggleCmd.accesskey    "V">
+<!ENTITY fullZoom.label                 "Visibilidad">
+<!ENTITY fullZoom.accesskey             "V">
 
 <!ENTITY newTabButton.tooltip           "Abrir una pestaña nueva">
 <!ENTITY newWindowButton.tooltip        "Abrir una ventana nueva">
@@ -490,9 +490,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY fullScreenButton.tooltip       "Mostrar ventana en pantalla completa">
 
-<!ENTITY zoomOutButton.tooltip          "Reducir acercamiento">
-<!ENTITY zoomInButton.tooltip           "Aumentar acercamiento">
-<!ENTITY zoomControls.label             "Controles de acercamiento">
+<!ENTITY zoomOutButton.tooltip          "Alejar">
+<!ENTITY zoomInButton.tooltip           "Acercar">
+<!ENTITY zoomControls.label             "Controles de visibilidad">
 
 <!ENTITY appMenuRestart.label           "Reiniciar…">
 <!ENTITY appMenuRestart.accesskey       "R">

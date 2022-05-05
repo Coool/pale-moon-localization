@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "здесь">
 <!ENTITY rights3.webservices-c ". Другие функции и Службы могут быть отключены в настройках приложения.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "SafeBrowsing: ">
-<!ENTITY rights.safebrowsing-b "Отключение функции Safe Browsing не рекомендуется, так как это может привести к тому, что вы будете попадать на небезопасные сайты.  Если вы хотите полностью отключить эту возможность, произведите следующие действия:">
-<!ENTITY rights.safebrowsing-term1 "Откройте настройки приложения">
-<!ENTITY rights.safebrowsing-term2 "Выберите раздел Защита">
-<!ENTITY rights2.safebrowsing-term3 "Снимите флажок для включения Safe Browsing">
-<!ENTITY rights.safebrowsing-term4 "Safe Browsing теперь отключён">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Определение местоположения при веб-серфинге: ">

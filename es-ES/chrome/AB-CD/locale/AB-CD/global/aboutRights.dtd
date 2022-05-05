@@ -58,16 +58,6 @@
 <!ENTITY rights2.webservices-b "aquí">
 <!ENTITY rights3.webservices-c ". Otras características y servicios pueden desactivarse en las preferencias de la aplicación.">
 
-<!-- safe browsing points for branded builds -->
-<!-- Google SafeBrowsing requires an API key; this should always remain disabled unless
-     an API key is obtained. Official builds do not use SafeBrowsing. -->
-<!ENTITY rights.safebrowsing-a "Navegación segura: ">
-<!ENTITY rights.safebrowsing-b "Desactivar la característica de navegación segura no se recomienda porque puede dar como resultado que visite sitios no seguros. Si desea desactivar la característica completamente, siga estos pasos:">
-<!ENTITY rights.safebrowsing-term1 "Abra las preferencias de la aplicación">
-<!ENTITY rights.safebrowsing-term2 "Seleccione el panel Seguridad">
-<!ENTITY rights2.safebrowsing-term3 "Desmarcar la opción para habilitar la navegación segura">
-<!ENTITY rights.safebrowsing-term4 "La navegación segura está ahora desactivada">
-
 <!-- location aware browsing points for branded builds -->
 <!-- Official builds use IP-API.com -->
 <!ENTITY rights.locationawarebrowsing-a "Navegación basada en ubicación: ">
