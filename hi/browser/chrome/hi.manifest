@@ -1,0 +1,8 @@
+locale branding hi hi/locale/branding/
+locale browser hi hi/locale/browser/
+locale browser-region hi hi/locale/browser-region/
+locale devtools hi hi/locale/hi/devtools/client/
+locale devtools-shared hi hi/locale/hi/devtools/shared/
+override chrome://global/locale/appstrings.properties chrome://browser/locale/appstrings.properties
+override chrome://global/locale/netError.dtd chrome://browser/locale/netError.dtd
+override chrome://mozapps/locale/downloads/settingsChange.dtd chrome://browser/locale/downloads/settingsChange.dtd
